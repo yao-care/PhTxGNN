@@ -3,7 +3,7 @@
 # Basic settings
 title: "PhTxGNN Drug Repurposing Reports"
 description: "Philippine drug repurposing predictions using TxGNN knowledge graph"
-url: "https://phtxgnn.github.io"
+url: "https://phtxgnn.yao.care"
 baseurl: ""
 lang: "en"
 
@@ -66,7 +66,7 @@ exclude:
 # Aux links (top right navigation)
 aux_links:
   "GitHub":
-    - "https://github.com/phtxgnn/phtxgnn"
+    - "https://github.com/yao-care/PhTxGNN"
 
 # Color scheme
 color_scheme: light
