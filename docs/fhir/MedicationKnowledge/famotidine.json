@@ -1,0 +1,42 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "famotidine",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca/drugs",
+        "code": "DB00927",
+        "display": "FAMOTIDINE"
+      },
+      {
+        "system": "https://phtxgnn.github.io/drugs",
+        "code": "famotidine",
+        "display": "FAMOTIDINE"
+      }
+    ],
+    "text": "FAMOTIDINE"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "PH",
+          "display": "Philippines"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

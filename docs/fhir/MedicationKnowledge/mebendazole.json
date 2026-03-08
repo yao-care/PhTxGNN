@@ -1,0 +1,42 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "mebendazole",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca/drugs",
+        "code": "DB00643",
+        "display": "MEBENDAZOLE"
+      },
+      {
+        "system": "https://phtxgnn.github.io/drugs",
+        "code": "mebendazole",
+        "display": "MEBENDAZOLE"
+      }
+    ],
+    "text": "MEBENDAZOLE"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "PH",
+          "display": "Philippines"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

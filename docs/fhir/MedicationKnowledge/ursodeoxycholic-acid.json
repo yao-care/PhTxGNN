@@ -1,0 +1,42 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "ursodeoxycholic-acid",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca/drugs",
+        "code": "DB01586",
+        "display": "URSODEOXYCHOLIC ACID"
+      },
+      {
+        "system": "https://phtxgnn.github.io/drugs",
+        "code": "ursodeoxycholic-acid",
+        "display": "URSODEOXYCHOLIC ACID"
+      }
+    ],
+    "text": "URSODEOXYCHOLIC ACID"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "PH",
+          "display": "Philippines"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

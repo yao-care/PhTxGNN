@@ -1,0 +1,42 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "betaxolol",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca/drugs",
+        "code": "DB00195",
+        "display": "BETAXOLOL"
+      },
+      {
+        "system": "https://phtxgnn.github.io/drugs",
+        "code": "betaxolol",
+        "display": "BETAXOLOL"
+      }
+    ],
+    "text": "BETAXOLOL"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "PH",
+          "display": "Philippines"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

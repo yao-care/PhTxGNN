@@ -1,0 +1,21 @@
+{
+  "resourceType": "Bundle",
+  "id": "phtxgnn-index",
+  "type": "collection",
+  "timestamp": "2026-03-02T18:30:01.090527",
+  "total": 3660,
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicationKnowledge",
+        "count": 338
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ClinicalUseDefinition",
+        "count": 3322
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "tobramycin",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://www.drugbank.ca/drugs",
+        "code": "DB00684",
+        "display": "TOBRAMYCIN"
+      },
+      {
+        "system": "https://phtxgnn.github.io/drugs",
+        "code": "tobramycin",
+        "display": "TOBRAMYCIN"
+      }
+    ],
+    "text": "TOBRAMYCIN"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "PH",
+          "display": "Philippines"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

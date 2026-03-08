@@ -1,0 +1,170 @@
+{
+  "description": "Disease and drug synonyms in Filipino/Tagalog and English",
+  "generated": "2026-03-02",
+  "language": "fil",
+  "indication_synonyms": {
+    "diabetes mellitus": [
+      "diabetes",
+      "diyabetis",
+      "mataas na asukal",
+      "high blood sugar",
+      "type 2 diabetes",
+      "type 1 diabetes"
+    ],
+    "hypertension": [
+      "high blood",
+      "alta presyon",
+      "mataas na presyon ng dugo",
+      "high blood pressure"
+    ],
+    "cancer": [
+      "kanser",
+      "tumor",
+      "malignancy",
+      "carcinoma"
+    ],
+    "heart disease": [
+      "sakit sa puso",
+      "cardiovascular disease",
+      "coronary artery disease",
+      "heart failure",
+      "pagpalya ng puso"
+    ],
+    "asthma": [
+      "hika",
+      "asma",
+      "bronchial asthma"
+    ],
+    "depression": [
+      "depresyon",
+      "major depressive disorder",
+      "clinical depression"
+    ],
+    "arthritis": [
+      "rayuma",
+      "rheumatoid arthritis",
+      "osteoarthritis",
+      "joint pain"
+    ],
+    "stroke": [
+      "atake serebral",
+      "cerebrovascular accident",
+      "brain attack"
+    ],
+    "obesity": [
+      "sobrang taba",
+      "labis na timbang",
+      "overweight"
+    ],
+    "alzheimer disease": [
+      "alzheimers",
+      "dementia",
+      "pagkalimot"
+    ],
+    "tuberculosis": [
+      "tb",
+      "pulmonary tuberculosis",
+      "tisis"
+    ],
+    "dengue": [
+      "dengue fever",
+      "dengue hemorrhagic fever",
+      "breakbone fever"
+    ],
+    "pneumonia": [
+      "pulmonya",
+      "lung infection"
+    ],
+    "kidney disease": [
+      "sakit sa bato",
+      "chronic kidney disease",
+      "renal failure"
+    ],
+    "liver disease": [
+      "sakit sa atay",
+      "hepatitis",
+      "cirrhosis"
+    ],
+    "covid-19": [
+      "covid",
+      "coronavirus",
+      "sars-cov-2"
+    ],
+    "influenza": [
+      "flu",
+      "trangkaso",
+      "seasonal flu"
+    ],
+    "malaria": [
+      "malaria",
+      "malarya"
+    ],
+    "urinary tract infection": [
+      "uti",
+      "impeksyon sa ihi",
+      "bladder infection"
+    ],
+    "anxiety disorder": [
+      "anxiety",
+      "pagkabalisa",
+      "panic disorder"
+    ]
+  },
+  "drug_synonyms": {
+    "metformin": [
+      "Glucophage",
+      "Fortamet",
+      "Glumetza"
+    ],
+    "aspirin": [
+      "acetylsalicylic acid",
+      "Ecotrin",
+      "Bayer"
+    ],
+    "ibuprofen": [
+      "Advil",
+      "Motrin",
+      "Medicol"
+    ],
+    "acetaminophen": [
+      "paracetamol",
+      "Tylenol",
+      "Biogesic",
+      "Tempra"
+    ],
+    "amoxicillin": [
+      "Amoxil",
+      "Trimox"
+    ],
+    "losartan": [
+      "Cozaar",
+      "Lifezar"
+    ],
+    "amlodipine": [
+      "Norvasc",
+      "Amvasc"
+    ],
+    "atorvastatin": [
+      "Lipitor",
+      "Atorva"
+    ],
+    "omeprazole": [
+      "Prilosec",
+      "Losec"
+    ],
+    "salbutamol": [
+      "albuterol",
+      "Ventolin",
+      "ProAir"
+    ],
+    "cetirizine": [
+      "Zyrtec",
+      "Virlix"
+    ],
+    "insulin": [
+      "Lantus",
+      "Humalog",
+      "NovoRapid"
+    ]
+  }
+}

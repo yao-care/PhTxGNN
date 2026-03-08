@@ -1,0 +1,8327 @@
+{
+  "generated_at": "2026-03-02T19:46:35.976810",
+  "description": "News monitoring keywords for PhTxGNN drug repurposing",
+  "statistics": {
+    "total_drugs": 338,
+    "total_diseases": 880,
+    "total_pairs": 3322
+  },
+  "drugs": {
+    "ABACAVIR": {
+      "patterns": [
+        "abacavir"
+      ],
+      "count": 1
+    },
+    "ACETAZOLAMIDE": {
+      "patterns": [
+        "acetazolamide"
+      ],
+      "count": 1
+    },
+    "ACETYLCYSTEINE": {
+      "patterns": [
+        "acetylcysteine"
+      ],
+      "count": 1
+    },
+    "ADENOSINE": {
+      "patterns": [
+        "adenosine"
+      ],
+      "count": 1
+    },
+    "ALBENDAZOLE": {
+      "patterns": [
+        "albendazole"
+      ],
+      "count": 1
+    },
+    "ALFUZOSIN": {
+      "patterns": [
+        "alfuzosin"
+      ],
+      "count": 1
+    },
+    "ALLOPURINOL": {
+      "patterns": [
+        "allopurinol"
+      ],
+      "count": 1
+    },
+    "ALPRAZOLAM": {
+      "patterns": [
+        "alprazolam"
+      ],
+      "count": 1
+    },
+    "ALUMINUM HYDROXIDE": {
+      "patterns": [
+        "aluminum hydroxide"
+      ],
+      "count": 1
+    },
+    "AMIKACIN": {
+      "patterns": [
+        "amikacin"
+      ],
+      "count": 1
+    },
+    "AMIODARONE": {
+      "patterns": [
+        "amiodarone"
+      ],
+      "count": 1
+    },
+    "AMLODIPINE": {
+      "patterns": [
+        "amvasc",
+        "norvasc",
+        "amlodipine"
+      ],
+      "count": 3
+    },
+    "AMOXICILLIN": {
+      "patterns": [
+        "amoxil",
+        "trimox",
+        "amoxicillin"
+      ],
+      "count": 3
+    },
+    "AMPHOTERICIN B": {
+      "patterns": [
+        "amphotericin b"
+      ],
+      "count": 1
+    },
+    "AMPICILLIN": {
+      "patterns": [
+        "ampicillin"
+      ],
+      "count": 1
+    },
+    "ARIPIPRAZOLE": {
+      "patterns": [
+        "aripiprazole"
+      ],
+      "count": 1
+    },
+    "ARTESUNATE": {
+      "patterns": [
+        "artesunate"
+      ],
+      "count": 1
+    },
+    "ASCORBIC ACID": {
+      "patterns": [
+        "ascorbic acid"
+      ],
+      "count": 1
+    },
+    "ATENOLOL": {
+      "patterns": [
+        "atenolol"
+      ],
+      "count": 1
+    },
+    "ATORVASTATIN": {
+      "patterns": [
+        "lipitor",
+        "atorva",
+        "atorvastatin"
+      ],
+      "count": 3
+    },
+    "AZATHIOPRINE": {
+      "patterns": [
+        "azathioprine"
+      ],
+      "count": 1
+    },
+    "AZITHROMYCIN": {
+      "patterns": [
+        "azithromycin"
+      ],
+      "count": 1
+    },
+    "AZTREONAM": {
+      "patterns": [
+        "aztreonam"
+      ],
+      "count": 1
+    },
+    "BACITRACIN": {
+      "patterns": [
+        "bacitracin"
+      ],
+      "count": 1
+    },
+    "BEDAQUILINE": {
+      "patterns": [
+        "bedaquiline"
+      ],
+      "count": 1
+    },
+    "BENZOYL PEROXIDE": {
+      "patterns": [
+        "benzoyl peroxide"
+      ],
+      "count": 1
+    },
+    "BERACTANT": {
+      "patterns": [
+        "beractant"
+      ],
+      "count": 1
+    },
+    "BETAHISTINE": {
+      "patterns": [
+        "betahistine"
+      ],
+      "count": 1
+    },
+    "BETAMETHASONE": {
+      "patterns": [
+        "betamethasone"
+      ],
+      "count": 1
+    },
+    "BETAXOLOL": {
+      "patterns": [
+        "betaxolol"
+      ],
+      "count": 1
+    },
+    "BIPERIDEN": {
+      "patterns": [
+        "biperiden"
+      ],
+      "count": 1
+    },
+    "BISACODYL": {
+      "patterns": [
+        "bisacodyl"
+      ],
+      "count": 1
+    },
+    "BISOPROLOL": {
+      "patterns": [
+        "bisoprolol"
+      ],
+      "count": 1
+    },
+    "BLEOMYCIN": {
+      "patterns": [
+        "bleomycin"
+      ],
+      "count": 1
+    },
+    "BRIMONIDINE": {
+      "patterns": [
+        "brimonidine"
+      ],
+      "count": 1
+    },
+    "BRINZOLAMIDE": {
+      "patterns": [
+        "brinzolamide"
+      ],
+      "count": 1
+    },
+    "BROMOCRIPTINE": {
+      "patterns": [
+        "bromocriptine"
+      ],
+      "count": 1
+    },
+    "BUDESONIDE": {
+      "patterns": [
+        "budesonide"
+      ],
+      "count": 1
+    },
+    "BUMETANIDE": {
+      "patterns": [
+        "bumetanide"
+      ],
+      "count": 1
+    },
+    "BUPIVACAINE": {
+      "patterns": [
+        "bupivacaine"
+      ],
+      "count": 1
+    },
+    "CALCITRIOL": {
+      "patterns": [
+        "calcitriol"
+      ],
+      "count": 1
+    },
+    "CALCIUM CARBONATE": {
+      "patterns": [
+        "calcium carbonate"
+      ],
+      "count": 1
+    },
+    "CALCIUM GLUCONATE": {
+      "patterns": [
+        "calcium gluconate"
+      ],
+      "count": 1
+    },
+    "CAPECITABINE": {
+      "patterns": [
+        "capecitabine"
+      ],
+      "count": 1
+    },
+    "CAPREOMYCIN": {
+      "patterns": [
+        "capreomycin"
+      ],
+      "count": 1
+    },
+    "CAPTOPRIL": {
+      "patterns": [
+        "captopril"
+      ],
+      "count": 1
+    },
+    "CARBAMAZEPINE": {
+      "patterns": [
+        "carbamazepine"
+      ],
+      "count": 1
+    },
+    "CARBETOCIN": {
+      "patterns": [
+        "carbetocin"
+      ],
+      "count": 1
+    },
+    "CARBOPLATIN": {
+      "patterns": [
+        "carboplatin"
+      ],
+      "count": 1
+    },
+    "CARVEDILOL": {
+      "patterns": [
+        "carvedilol"
+      ],
+      "count": 1
+    },
+    "CEFAZOLIN": {
+      "patterns": [
+        "cefazolin"
+      ],
+      "count": 1
+    },
+    "CEFEPIME": {
+      "patterns": [
+        "cefepime"
+      ],
+      "count": 1
+    },
+    "CEFIXIME": {
+      "patterns": [
+        "cefixime"
+      ],
+      "count": 1
+    },
+    "CEFOTAXIME": {
+      "patterns": [
+        "cefotaxime"
+      ],
+      "count": 1
+    },
+    "CEFOXITIN": {
+      "patterns": [
+        "cefoxitin"
+      ],
+      "count": 1
+    },
+    "CEFTAZIDIME": {
+      "patterns": [
+        "ceftazidime"
+      ],
+      "count": 1
+    },
+    "CEFTRIAXONE": {
+      "patterns": [
+        "ceftriaxone"
+      ],
+      "count": 1
+    },
+    "CEFUROXIME": {
+      "patterns": [
+        "cefuroxime"
+      ],
+      "count": 1
+    },
+    "CELECOXIB": {
+      "patterns": [
+        "celecoxib"
+      ],
+      "count": 1
+    },
+    "CETIRIZINE": {
+      "patterns": [
+        "cetirizine",
+        "zyrtec",
+        "virlix"
+      ],
+      "count": 3
+    },
+    "CHLORAMBUCIL": {
+      "patterns": [
+        "chlorambucil"
+      ],
+      "count": 1
+    },
+    "CHLORAMPHENICOL": {
+      "patterns": [
+        "chloramphenicol"
+      ],
+      "count": 1
+    },
+    "CHLORHEXIDINE": {
+      "patterns": [
+        "chlorhexidine"
+      ],
+      "count": 1
+    },
+    "CHLOROQUINE": {
+      "patterns": [
+        "chloroquine"
+      ],
+      "count": 1
+    },
+    "CHLORPROMAZINE": {
+      "patterns": [
+        "chlorpromazine"
+      ],
+      "count": 1
+    },
+    "CILOSTAZOL": {
+      "patterns": [
+        "cilostazol"
+      ],
+      "count": 1
+    },
+    "CINNARIZINE": {
+      "patterns": [
+        "cinnarizine"
+      ],
+      "count": 1
+    },
+    "CIPROFLOXACIN": {
+      "patterns": [
+        "ciprofloxacin"
+      ],
+      "count": 1
+    },
+    "CISPLATIN": {
+      "patterns": [
+        "cisplatin"
+      ],
+      "count": 1
+    },
+    "CLARITHROMYCIN": {
+      "patterns": [
+        "clarithromycin"
+      ],
+      "count": 1
+    },
+    "CLINDAMYCIN": {
+      "patterns": [
+        "clindamycin"
+      ],
+      "count": 1
+    },
+    "CLOFAZIMINE": {
+      "patterns": [
+        "clofazimine"
+      ],
+      "count": 1
+    },
+    "CLOMIFENE": {
+      "patterns": [
+        "clomifene"
+      ],
+      "count": 1
+    },
+    "CLONAZEPAM": {
+      "patterns": [
+        "clonazepam"
+      ],
+      "count": 1
+    },
+    "CLONIDINE": {
+      "patterns": [
+        "clonidine"
+      ],
+      "count": 1
+    },
+    "CLOPIDOGREL": {
+      "patterns": [
+        "clopidogrel"
+      ],
+      "count": 1
+    },
+    "CLOTRIMAZOLE": {
+      "patterns": [
+        "clotrimazole"
+      ],
+      "count": 1
+    },
+    "CLOXACILLIN": {
+      "patterns": [
+        "cloxacillin"
+      ],
+      "count": 1
+    },
+    "CODEINE": {
+      "patterns": [
+        "codeine"
+      ],
+      "count": 1
+    },
+    "COLCHICINE": {
+      "patterns": [
+        "colchicine"
+      ],
+      "count": 1
+    },
+    "COLISTIN": {
+      "patterns": [
+        "colistin"
+      ],
+      "count": 1
+    },
+    "CROTAMITON": {
+      "patterns": [
+        "crotamiton"
+      ],
+      "count": 1
+    },
+    "CYCLOPHOSPHAMIDE": {
+      "patterns": [
+        "cyclophosphamide"
+      ],
+      "count": 1
+    },
+    "CYCLOSERINE": {
+      "patterns": [
+        "cycloserine"
+      ],
+      "count": 1
+    },
+    "CYTARABINE": {
+      "patterns": [
+        "cytarabine"
+      ],
+      "count": 1
+    },
+    "DACARBAZINE": {
+      "patterns": [
+        "dacarbazine"
+      ],
+      "count": 1
+    },
+    "DACLATASVIR": {
+      "patterns": [
+        "daclatasvir"
+      ],
+      "count": 1
+    },
+    "DACTINOMYCIN": {
+      "patterns": [
+        "dactinomycin"
+      ],
+      "count": 1
+    },
+    "DANAZOL": {
+      "patterns": [
+        "danazol"
+      ],
+      "count": 1
+    },
+    "DANTROLENE": {
+      "patterns": [
+        "dantrolene"
+      ],
+      "count": 1
+    },
+    "DAPSONE": {
+      "patterns": [
+        "dapsone"
+      ],
+      "count": 1
+    },
+    "DEFERIPRONE": {
+      "patterns": [
+        "deferiprone"
+      ],
+      "count": 1
+    },
+    "DEFERASIROX": {
+      "patterns": [
+        "deferasirox"
+      ],
+      "count": 1
+    },
+    "DELAMANID": {
+      "patterns": [
+        "delamanid"
+      ],
+      "count": 1
+    },
+    "DESMOPRESSIN": {
+      "patterns": [
+        "desmopressin"
+      ],
+      "count": 1
+    },
+    "DEXAMETHASONE": {
+      "patterns": [
+        "dexamethasone"
+      ],
+      "count": 1
+    },
+    "DEXTROMETHORPHAN": {
+      "patterns": [
+        "dextromethorphan"
+      ],
+      "count": 1
+    },
+    "DIAZEPAM": {
+      "patterns": [
+        "diazepam"
+      ],
+      "count": 1
+    },
+    "DICLOFENAC": {
+      "patterns": [
+        "diclofenac"
+      ],
+      "count": 1
+    },
+    "DIETHYLCARBAMAZINE": {
+      "patterns": [
+        "diethylcarbamazine"
+      ],
+      "count": 1
+    },
+    "DIGOXIN": {
+      "patterns": [
+        "digoxin"
+      ],
+      "count": 1
+    },
+    "DILTIAZEM": {
+      "patterns": [
+        "diltiazem"
+      ],
+      "count": 1
+    },
+    "DIPHENHYDRAMINE": {
+      "patterns": [
+        "diphenhydramine"
+      ],
+      "count": 1
+    },
+    "DIPYRIDAMOLE": {
+      "patterns": [
+        "dipyridamole"
+      ],
+      "count": 1
+    },
+    "DOCETAXEL": {
+      "patterns": [
+        "docetaxel"
+      ],
+      "count": 1
+    },
+    "DOLUTEGRAVIR": {
+      "patterns": [
+        "dolutegravir"
+      ],
+      "count": 1
+    },
+    "DONEPEZIL": {
+      "patterns": [
+        "donepezil"
+      ],
+      "count": 1
+    },
+    "DOPAMINE": {
+      "patterns": [
+        "dopamine"
+      ],
+      "count": 1
+    },
+    "DORZOLAMIDE": {
+      "patterns": [
+        "dorzolamide"
+      ],
+      "count": 1
+    },
+    "DOXORUBICIN": {
+      "patterns": [
+        "doxorubicin"
+      ],
+      "count": 1
+    },
+    "DOXYCYCLINE": {
+      "patterns": [
+        "doxycycline"
+      ],
+      "count": 1
+    },
+    "EFAVIRENZ": {
+      "patterns": [
+        "efavirenz"
+      ],
+      "count": 1
+    },
+    "EMTRICITABINE": {
+      "patterns": [
+        "emtricitabine"
+      ],
+      "count": 1
+    },
+    "ENALAPRIL": {
+      "patterns": [
+        "enalapril"
+      ],
+      "count": 1
+    },
+    "ENOXAPARIN": {
+      "patterns": [
+        "enoxaparin"
+      ],
+      "count": 1
+    },
+    "ENTECAVIR": {
+      "patterns": [
+        "entecavir"
+      ],
+      "count": 1
+    },
+    "EPHEDRINE": {
+      "patterns": [
+        "ephedrine"
+      ],
+      "count": 1
+    },
+    "EPINEPHRINE": {
+      "patterns": [
+        "epinephrine"
+      ],
+      "count": 1
+    },
+    "EPIRUBICIN": {
+      "patterns": [
+        "epirubicin"
+      ],
+      "count": 1
+    },
+    "ERGOTAMINE": {
+      "patterns": [
+        "ergotamine"
+      ],
+      "count": 1
+    },
+    "ERTAPENEM": {
+      "patterns": [
+        "ertapenem"
+      ],
+      "count": 1
+    },
+    "ERYTHROMYCIN": {
+      "patterns": [
+        "erythromycin"
+      ],
+      "count": 1
+    },
+    "ESCITALOPRAM": {
+      "patterns": [
+        "escitalopram"
+      ],
+      "count": 1
+    },
+    "ESMOLOL": {
+      "patterns": [
+        "esmolol"
+      ],
+      "count": 1
+    },
+    "ETHAMBUTOL": {
+      "patterns": [
+        "ethambutol"
+      ],
+      "count": 1
+    },
+    "ETHINYLESTRADIOL": {
+      "patterns": [
+        "ethinylestradiol"
+      ],
+      "count": 1
+    },
+    "ETOPOSIDE": {
+      "patterns": [
+        "etoposide"
+      ],
+      "count": 1
+    },
+    "EVEROLIMUS": {
+      "patterns": [
+        "everolimus"
+      ],
+      "count": 1
+    },
+    "FAMOTIDINE": {
+      "patterns": [
+        "famotidine"
+      ],
+      "count": 1
+    },
+    "FELODIPINE": {
+      "patterns": [
+        "felodipine"
+      ],
+      "count": 1
+    },
+    "FENOFIBRATE": {
+      "patterns": [
+        "fenofibrate"
+      ],
+      "count": 1
+    },
+    "FILGRASTIM": {
+      "patterns": [
+        "filgrastim"
+      ],
+      "count": 1
+    },
+    "FINASTERIDE": {
+      "patterns": [
+        "finasteride"
+      ],
+      "count": 1
+    },
+    "FLUCONAZOLE": {
+      "patterns": [
+        "fluconazole"
+      ],
+      "count": 1
+    },
+    "FLUOCINONIDE": {
+      "patterns": [
+        "fluocinonide"
+      ],
+      "count": 1
+    },
+    "FLUOROURACIL": {
+      "patterns": [
+        "fluorouracil"
+      ],
+      "count": 1
+    },
+    "FLUOXETINE": {
+      "patterns": [
+        "fluoxetine"
+      ],
+      "count": 1
+    },
+    "FLUPENTIXOL": {
+      "patterns": [
+        "flupentixol"
+      ],
+      "count": 1
+    },
+    "FLUPHENAZINE": {
+      "patterns": [
+        "fluphenazine"
+      ],
+      "count": 1
+    },
+    "FLUTAMIDE": {
+      "patterns": [
+        "flutamide"
+      ],
+      "count": 1
+    },
+    "FOLIC ACID": {
+      "patterns": [
+        "folic acid"
+      ],
+      "count": 1
+    },
+    "FONDAPARINUX": {
+      "patterns": [
+        "fondaparinux"
+      ],
+      "count": 1
+    },
+    "FORMOTEROL": {
+      "patterns": [
+        "formoterol"
+      ],
+      "count": 1
+    },
+    "FOSFOMYCIN": {
+      "patterns": [
+        "fosfomycin"
+      ],
+      "count": 1
+    },
+    "FUROSEMIDE": {
+      "patterns": [
+        "furosemide"
+      ],
+      "count": 1
+    },
+    "FUSIDIC ACID": {
+      "patterns": [
+        "fusidic acid"
+      ],
+      "count": 1
+    },
+    "GABAPENTIN": {
+      "patterns": [
+        "gabapentin"
+      ],
+      "count": 1
+    },
+    "GANCICLOVIR": {
+      "patterns": [
+        "ganciclovir"
+      ],
+      "count": 1
+    },
+    "GEMCITABINE": {
+      "patterns": [
+        "gemcitabine"
+      ],
+      "count": 1
+    },
+    "GLICLAZIDE": {
+      "patterns": [
+        "gliclazide"
+      ],
+      "count": 1
+    },
+    "GOSERELIN": {
+      "patterns": [
+        "goserelin"
+      ],
+      "count": 1
+    },
+    "HALOPERIDOL": {
+      "patterns": [
+        "haloperidol"
+      ],
+      "count": 1
+    },
+    "HEPARIN": {
+      "patterns": [
+        "heparin"
+      ],
+      "count": 1
+    },
+    "HYDRALAZINE": {
+      "patterns": [
+        "hydralazine"
+      ],
+      "count": 1
+    },
+    "HYDROCHLOROTHIAZIDE": {
+      "patterns": [
+        "hydrochlorothiazide"
+      ],
+      "count": 1
+    },
+    "HYDROCORTISONE": {
+      "patterns": [
+        "hydrocortisone"
+      ],
+      "count": 1
+    },
+    "HYDROXYCHLOROQUINE": {
+      "patterns": [
+        "hydroxychloroquine"
+      ],
+      "count": 1
+    },
+    "HYDROXYUREA": {
+      "patterns": [
+        "hydroxyurea"
+      ],
+      "count": 1
+    },
+    "HYDROXYZINE": {
+      "patterns": [
+        "hydroxyzine"
+      ],
+      "count": 1
+    },
+    "IBUPROFEN": {
+      "patterns": [
+        "ibuprofen",
+        "advil",
+        "motrin",
+        "medicol"
+      ],
+      "count": 4
+    },
+    "IDARUBICIN": {
+      "patterns": [
+        "idarubicin"
+      ],
+      "count": 1
+    },
+    "IMATINIB": {
+      "patterns": [
+        "imatinib"
+      ],
+      "count": 1
+    },
+    "IMIGLUCERASE": {
+      "patterns": [
+        "imiglucerase"
+      ],
+      "count": 1
+    },
+    "IMIQUIMOD": {
+      "patterns": [
+        "imiquimod"
+      ],
+      "count": 1
+    },
+    "INDAPAMIDE": {
+      "patterns": [
+        "indapamide"
+      ],
+      "count": 1
+    },
+    "INSULIN GLARGINE": {
+      "patterns": [
+        "insulin glargine"
+      ],
+      "count": 1
+    },
+    "IPRATROPIUM": {
+      "patterns": [
+        "ipratropium"
+      ],
+      "count": 1
+    },
+    "IRBESARTAN": {
+      "patterns": [
+        "irbesartan"
+      ],
+      "count": 1
+    },
+    "IRINOTECAN": {
+      "patterns": [
+        "irinotecan"
+      ],
+      "count": 1
+    },
+    "IRON SUCROSE": {
+      "patterns": [
+        "iron sucrose"
+      ],
+      "count": 1
+    },
+    "ISONIAZID": {
+      "patterns": [
+        "isoniazid"
+      ],
+      "count": 1
+    },
+    "ISOXSUPRINE": {
+      "patterns": [
+        "isoxsuprine"
+      ],
+      "count": 1
+    },
+    "ITRACONAZOLE": {
+      "patterns": [
+        "itraconazole"
+      ],
+      "count": 1
+    },
+    "IVERMECTIN": {
+      "patterns": [
+        "ivermectin"
+      ],
+      "count": 1
+    },
+    "KANAMYCIN": {
+      "patterns": [
+        "kanamycin"
+      ],
+      "count": 1
+    },
+    "KETOCONAZOLE": {
+      "patterns": [
+        "ketoconazole"
+      ],
+      "count": 1
+    },
+    "KETOPROFEN": {
+      "patterns": [
+        "ketoprofen"
+      ],
+      "count": 1
+    },
+    "KETOROLAC": {
+      "patterns": [
+        "ketorolac"
+      ],
+      "count": 1
+    },
+    "LACTULOSE": {
+      "patterns": [
+        "lactulose"
+      ],
+      "count": 1
+    },
+    "LAMIVUDINE": {
+      "patterns": [
+        "lamivudine"
+      ],
+      "count": 1
+    },
+    "LAMOTRIGINE": {
+      "patterns": [
+        "lamotrigine"
+      ],
+      "count": 1
+    },
+    "LANSOPRAZOLE": {
+      "patterns": [
+        "lansoprazole"
+      ],
+      "count": 1
+    },
+    "LATANOPROST": {
+      "patterns": [
+        "latanoprost"
+      ],
+      "count": 1
+    },
+    "LEUCOVORIN": {
+      "patterns": [
+        "leucovorin"
+      ],
+      "count": 1
+    },
+    "LEVETIRACETAM": {
+      "patterns": [
+        "levetiracetam"
+      ],
+      "count": 1
+    },
+    "LEVODOPA": {
+      "patterns": [
+        "levodopa"
+      ],
+      "count": 1
+    },
+    "LEVOFLOXACIN": {
+      "patterns": [
+        "levofloxacin"
+      ],
+      "count": 1
+    },
+    "LEVONORGESTREL": {
+      "patterns": [
+        "levonorgestrel"
+      ],
+      "count": 1
+    },
+    "LEVOTHYROXINE": {
+      "patterns": [
+        "levothyroxine"
+      ],
+      "count": 1
+    },
+    "LIDOCAINE": {
+      "patterns": [
+        "lidocaine"
+      ],
+      "count": 1
+    },
+    "LINEZOLID": {
+      "patterns": [
+        "linezolid"
+      ],
+      "count": 1
+    },
+    "LITHIUM CARBONATE": {
+      "patterns": [
+        "lithium carbonate"
+      ],
+      "count": 1
+    },
+    "LOPERAMIDE": {
+      "patterns": [
+        "loperamide"
+      ],
+      "count": 1
+    },
+    "LOPINAVIR": {
+      "patterns": [
+        "lopinavir"
+      ],
+      "count": 1
+    },
+    "LORATADINE": {
+      "patterns": [
+        "loratadine"
+      ],
+      "count": 1
+    },
+    "LOSARTAN": {
+      "patterns": [
+        "losartan",
+        "lifezar",
+        "cozaar"
+      ],
+      "count": 3
+    },
+    "MANNITOL": {
+      "patterns": [
+        "mannitol"
+      ],
+      "count": 1
+    },
+    "MEBENDAZOLE": {
+      "patterns": [
+        "mebendazole"
+      ],
+      "count": 1
+    },
+    "MEBEVERINE": {
+      "patterns": [
+        "mebeverine"
+      ],
+      "count": 1
+    },
+    "MEFLOQUINE": {
+      "patterns": [
+        "mefloquine"
+      ],
+      "count": 1
+    },
+    "MELPHALAN": {
+      "patterns": [
+        "melphalan"
+      ],
+      "count": 1
+    },
+    "MERCAPTOPURINE": {
+      "patterns": [
+        "mercaptopurine"
+      ],
+      "count": 1
+    },
+    "MEROPENEM": {
+      "patterns": [
+        "meropenem"
+      ],
+      "count": 1
+    },
+    "MESALAZINE": {
+      "patterns": [
+        "mesalazine"
+      ],
+      "count": 1
+    },
+    "METFORMIN": {
+      "patterns": [
+        "metformin",
+        "glumetza",
+        "fortamet",
+        "glucophage"
+      ],
+      "count": 4
+    },
+    "METHIMAZOLE": {
+      "patterns": [
+        "methimazole"
+      ],
+      "count": 1
+    },
+    "METHOTREXATE": {
+      "patterns": [
+        "methotrexate"
+      ],
+      "count": 1
+    },
+    "METHYLDOPA": {
+      "patterns": [
+        "methyldopa"
+      ],
+      "count": 1
+    },
+    "METHYLENE BLUE": {
+      "patterns": [
+        "methylene blue"
+      ],
+      "count": 1
+    },
+    "METHYLPHENIDATE": {
+      "patterns": [
+        "methylphenidate"
+      ],
+      "count": 1
+    },
+    "METHYLPREDNISOLONE": {
+      "patterns": [
+        "methylprednisolone"
+      ],
+      "count": 1
+    },
+    "METOCLOPRAMIDE": {
+      "patterns": [
+        "metoclopramide"
+      ],
+      "count": 1
+    },
+    "METOPROLOL": {
+      "patterns": [
+        "metoprolol"
+      ],
+      "count": 1
+    },
+    "METRONIDAZOLE": {
+      "patterns": [
+        "metronidazole"
+      ],
+      "count": 1
+    },
+    "MICAFUNGIN": {
+      "patterns": [
+        "micafungin"
+      ],
+      "count": 1
+    },
+    "MICONAZOLE": {
+      "patterns": [
+        "miconazole"
+      ],
+      "count": 1
+    },
+    "MIDAZOLAM": {
+      "patterns": [
+        "midazolam"
+      ],
+      "count": 1
+    },
+    "MITOXANTRONE": {
+      "patterns": [
+        "mitoxantrone"
+      ],
+      "count": 1
+    },
+    "MONTELUKAST": {
+      "patterns": [
+        "montelukast"
+      ],
+      "count": 1
+    },
+    "MORPHINE": {
+      "patterns": [
+        "morphine"
+      ],
+      "count": 1
+    },
+    "MOXIFLOXACIN": {
+      "patterns": [
+        "moxifloxacin"
+      ],
+      "count": 1
+    },
+    "MUPIROCIN": {
+      "patterns": [
+        "mupirocin"
+      ],
+      "count": 1
+    },
+    "NALOXONE": {
+      "patterns": [
+        "naloxone"
+      ],
+      "count": 1
+    },
+    "NALTREXONE": {
+      "patterns": [
+        "naltrexone"
+      ],
+      "count": 1
+    },
+    "NAPROXEN": {
+      "patterns": [
+        "naproxen"
+      ],
+      "count": 1
+    },
+    "NEOSTIGMINE": {
+      "patterns": [
+        "neostigmine"
+      ],
+      "count": 1
+    },
+    "NEVIRAPINE": {
+      "patterns": [
+        "nevirapine"
+      ],
+      "count": 1
+    },
+    "NICARDIPINE": {
+      "patterns": [
+        "nicardipine"
+      ],
+      "count": 1
+    },
+    "NICOTINE": {
+      "patterns": [
+        "nicotine"
+      ],
+      "count": 1
+    },
+    "NIFEDIPINE": {
+      "patterns": [
+        "nifedipine"
+      ],
+      "count": 1
+    },
+    "NIMODIPINE": {
+      "patterns": [
+        "nimodipine"
+      ],
+      "count": 1
+    },
+    "NOREPINEPHRINE": {
+      "patterns": [
+        "norepinephrine"
+      ],
+      "count": 1
+    },
+    "NORETHISTERONE": {
+      "patterns": [
+        "norethisterone"
+      ],
+      "count": 1
+    },
+    "NYSTATIN": {
+      "patterns": [
+        "nystatin"
+      ],
+      "count": 1
+    },
+    "OCTREOTIDE": {
+      "patterns": [
+        "octreotide"
+      ],
+      "count": 1
+    },
+    "OFLOXACIN": {
+      "patterns": [
+        "ofloxacin"
+      ],
+      "count": 1
+    },
+    "OLANZAPINE": {
+      "patterns": [
+        "olanzapine"
+      ],
+      "count": 1
+    },
+    "OLODATEROL": {
+      "patterns": [
+        "olodaterol"
+      ],
+      "count": 1
+    },
+    "OMEPRAZOLE": {
+      "patterns": [
+        "prilosec",
+        "losec",
+        "omeprazole"
+      ],
+      "count": 3
+    },
+    "OSELTAMIVIR": {
+      "patterns": [
+        "oseltamivir"
+      ],
+      "count": 1
+    },
+    "OXACILLIN": {
+      "patterns": [
+        "oxacillin"
+      ],
+      "count": 1
+    },
+    "OXALIPLATIN": {
+      "patterns": [
+        "oxaliplatin"
+      ],
+      "count": 1
+    },
+    "OXCARBAZEPINE": {
+      "patterns": [
+        "oxcarbazepine"
+      ],
+      "count": 1
+    },
+    "OXYMETAZOLINE": {
+      "patterns": [
+        "oxymetazoline"
+      ],
+      "count": 1
+    },
+    "OXYTOCIN": {
+      "patterns": [
+        "oxytocin"
+      ],
+      "count": 1
+    },
+    "PACLITAXEL": {
+      "patterns": [
+        "paclitaxel"
+      ],
+      "count": 1
+    },
+    "PALIPERIDONE": {
+      "patterns": [
+        "paliperidone"
+      ],
+      "count": 1
+    },
+    "PANTOPRAZOLE": {
+      "patterns": [
+        "pantoprazole"
+      ],
+      "count": 1
+    },
+    "PERMETHRIN": {
+      "patterns": [
+        "permethrin"
+      ],
+      "count": 1
+    },
+    "PHENOBARBITAL": {
+      "patterns": [
+        "phenobarbital"
+      ],
+      "count": 1
+    },
+    "PHENYLEPHRINE": {
+      "patterns": [
+        "phenylephrine"
+      ],
+      "count": 1
+    },
+    "PHENYTOIN": {
+      "patterns": [
+        "phenytoin"
+      ],
+      "count": 1
+    },
+    "PHYSOSTIGMINE": {
+      "patterns": [
+        "physostigmine"
+      ],
+      "count": 1
+    },
+    "PILOCARPINE": {
+      "patterns": [
+        "pilocarpine"
+      ],
+      "count": 1
+    },
+    "PORACTANT ALFA": {
+      "patterns": [
+        "poractant alfa"
+      ],
+      "count": 1
+    },
+    "PRAZIQUANTEL": {
+      "patterns": [
+        "praziquantel"
+      ],
+      "count": 1
+    },
+    "PREDNISOLONE": {
+      "patterns": [
+        "prednisolone"
+      ],
+      "count": 1
+    },
+    "PREDNISONE": {
+      "patterns": [
+        "prednisone"
+      ],
+      "count": 1
+    },
+    "PRIMAQUINE": {
+      "patterns": [
+        "primaquine"
+      ],
+      "count": 1
+    },
+    "PROPRANOLOL": {
+      "patterns": [
+        "propranolol"
+      ],
+      "count": 1
+    },
+    "PROPYLTHIOURACIL": {
+      "patterns": [
+        "propylthiouracil"
+      ],
+      "count": 1
+    },
+    "PYRAZINAMIDE": {
+      "patterns": [
+        "pyrazinamide"
+      ],
+      "count": 1
+    },
+    "PYRIDOSTIGMINE": {
+      "patterns": [
+        "pyridostigmine"
+      ],
+      "count": 1
+    },
+    "PYRIDOXINE": {
+      "patterns": [
+        "pyridoxine"
+      ],
+      "count": 1
+    },
+    "PYRIMETHAMINE": {
+      "patterns": [
+        "pyrimethamine"
+      ],
+      "count": 1
+    },
+    "QUETIAPINE": {
+      "patterns": [
+        "quetiapine"
+      ],
+      "count": 1
+    },
+    "QUININE": {
+      "patterns": [
+        "quinine"
+      ],
+      "count": 1
+    },
+    "RABEPRAZOLE": {
+      "patterns": [
+        "rabeprazole"
+      ],
+      "count": 1
+    },
+    "RANITIDINE": {
+      "patterns": [
+        "ranitidine"
+      ],
+      "count": 1
+    },
+    "RIBAVIRIN": {
+      "patterns": [
+        "ribavirin"
+      ],
+      "count": 1
+    },
+    "RIFAMPICIN": {
+      "patterns": [
+        "rifampicin"
+      ],
+      "count": 1
+    },
+    "RIFAPENTINE": {
+      "patterns": [
+        "rifapentine"
+      ],
+      "count": 1
+    },
+    "RIFAXIMIN": {
+      "patterns": [
+        "rifaximin"
+      ],
+      "count": 1
+    },
+    "RILPIVIRINE": {
+      "patterns": [
+        "rilpivirine"
+      ],
+      "count": 1
+    },
+    "RISPERIDONE": {
+      "patterns": [
+        "risperidone"
+      ],
+      "count": 1
+    },
+    "RITUXIMAB": {
+      "patterns": [
+        "rituximab"
+      ],
+      "count": 1
+    },
+    "RIVASTIGMINE": {
+      "patterns": [
+        "rivastigmine"
+      ],
+      "count": 1
+    },
+    "RITONAVIR": {
+      "patterns": [
+        "ritonavir"
+      ],
+      "count": 1
+    },
+    "ROSUVASTATIN": {
+      "patterns": [
+        "rosuvastatin"
+      ],
+      "count": 1
+    },
+    "SALBUTAMOL": {
+      "patterns": [
+        "ventolin",
+        "albuterol",
+        "salbutamol",
+        "proair"
+      ],
+      "count": 4
+    },
+    "SALICYLIC ACID": {
+      "patterns": [
+        "salicylic acid"
+      ],
+      "count": 1
+    },
+    "SALMETEROL": {
+      "patterns": [
+        "salmeterol"
+      ],
+      "count": 1
+    },
+    "SELEGILINE": {
+      "patterns": [
+        "selegiline"
+      ],
+      "count": 1
+    },
+    "SELENIUM SULFIDE": {
+      "patterns": [
+        "selenium sulfide"
+      ],
+      "count": 1
+    },
+    "SERTRALINE": {
+      "patterns": [
+        "sertraline"
+      ],
+      "count": 1
+    },
+    "SIMVASTATIN": {
+      "patterns": [
+        "simvastatin"
+      ],
+      "count": 1
+    },
+    "SIROLIMUS": {
+      "patterns": [
+        "sirolimus"
+      ],
+      "count": 1
+    },
+    "SOFOSBUVIR": {
+      "patterns": [
+        "sofosbuvir"
+      ],
+      "count": 1
+    },
+    "SPECTINOMYCIN": {
+      "patterns": [
+        "spectinomycin"
+      ],
+      "count": 1
+    },
+    "SPIRONOLACTONE": {
+      "patterns": [
+        "spironolactone"
+      ],
+      "count": 1
+    },
+    "STREPTOMYCIN": {
+      "patterns": [
+        "streptomycin"
+      ],
+      "count": 1
+    },
+    "SUCRALFATE": {
+      "patterns": [
+        "sucralfate"
+      ],
+      "count": 1
+    },
+    "SULFACETAMIDE": {
+      "patterns": [
+        "sulfacetamide"
+      ],
+      "count": 1
+    },
+    "SUMATRIPTAN": {
+      "patterns": [
+        "sumatriptan"
+      ],
+      "count": 1
+    },
+    "TACROLIMUS": {
+      "patterns": [
+        "tacrolimus"
+      ],
+      "count": 1
+    },
+    "TAFLUPROST": {
+      "patterns": [
+        "tafluprost"
+      ],
+      "count": 1
+    },
+    "TAMOXIFEN": {
+      "patterns": [
+        "tamoxifen"
+      ],
+      "count": 1
+    },
+    "TAMSULOSIN": {
+      "patterns": [
+        "tamsulosin"
+      ],
+      "count": 1
+    },
+    "TAZOBACTAM": {
+      "patterns": [
+        "tazobactam"
+      ],
+      "count": 1
+    },
+    "TEGAFUR": {
+      "patterns": [
+        "tegafur"
+      ],
+      "count": 1
+    },
+    "TELMISARTAN": {
+      "patterns": [
+        "telmisartan"
+      ],
+      "count": 1
+    },
+    "TENOFOVIR": {
+      "patterns": [
+        "tenofovir"
+      ],
+      "count": 1
+    },
+    "TERAZOSIN": {
+      "patterns": [
+        "terazosin"
+      ],
+      "count": 1
+    },
+    "TERBINAFINE": {
+      "patterns": [
+        "terbinafine"
+      ],
+      "count": 1
+    },
+    "TERBUTALINE": {
+      "patterns": [
+        "terbutaline"
+      ],
+      "count": 1
+    },
+    "TESTOSTERONE": {
+      "patterns": [
+        "testosterone"
+      ],
+      "count": 1
+    },
+    "TETRACAINE": {
+      "patterns": [
+        "tetracaine"
+      ],
+      "count": 1
+    },
+    "TETRACYCLINE": {
+      "patterns": [
+        "tetracycline"
+      ],
+      "count": 1
+    },
+    "THEOPHYLLINE": {
+      "patterns": [
+        "theophylline"
+      ],
+      "count": 1
+    },
+    "THIOPENTAL": {
+      "patterns": [
+        "thiopental"
+      ],
+      "count": 1
+    },
+    "TIMOLOL": {
+      "patterns": [
+        "timolol"
+      ],
+      "count": 1
+    },
+    "TINZAPARIN": {
+      "patterns": [
+        "tinzaparin"
+      ],
+      "count": 1
+    },
+    "TIOTROPIUM": {
+      "patterns": [
+        "tiotropium"
+      ],
+      "count": 1
+    },
+    "TOBRAMYCIN": {
+      "patterns": [
+        "tobramycin"
+      ],
+      "count": 1
+    },
+    "TOCILIZUMAB": {
+      "patterns": [
+        "tocilizumab"
+      ],
+      "count": 1
+    },
+    "TOLVAPTAN": {
+      "patterns": [
+        "tolvaptan"
+      ],
+      "count": 1
+    },
+    "TOPIRAMATE": {
+      "patterns": [
+        "topiramate"
+      ],
+      "count": 1
+    },
+    "TRAMADOL": {
+      "patterns": [
+        "tramadol"
+      ],
+      "count": 1
+    },
+    "TRANEXAMIC ACID": {
+      "patterns": [
+        "tranexamic acid"
+      ],
+      "count": 1
+    },
+    "TRASTUZUMAB": {
+      "patterns": [
+        "trastuzumab"
+      ],
+      "count": 1
+    },
+    "TRAVOPROST": {
+      "patterns": [
+        "travoprost"
+      ],
+      "count": 1
+    },
+    "TRICLABENDAZOLE": {
+      "patterns": [
+        "triclabendazole"
+      ],
+      "count": 1
+    },
+    "TRIMETHOPRIM": {
+      "patterns": [
+        "trimethoprim"
+      ],
+      "count": 1
+    },
+    "TROPICAMIDE": {
+      "patterns": [
+        "tropicamide"
+      ],
+      "count": 1
+    },
+    "URSODEOXYCHOLIC ACID": {
+      "patterns": [
+        "ursodeoxycholic acid"
+      ],
+      "count": 1
+    },
+    "VALPROIC ACID": {
+      "patterns": [
+        "valproic acid"
+      ],
+      "count": 1
+    },
+    "VALSARTAN": {
+      "patterns": [
+        "valsartan"
+      ],
+      "count": 1
+    },
+    "VANCOMYCIN": {
+      "patterns": [
+        "vancomycin"
+      ],
+      "count": 1
+    },
+    "VERAPAMIL": {
+      "patterns": [
+        "verapamil"
+      ],
+      "count": 1
+    },
+    "VINBLASTINE": {
+      "patterns": [
+        "vinblastine"
+      ],
+      "count": 1
+    },
+    "VINCRISTINE": {
+      "patterns": [
+        "vincristine"
+      ],
+      "count": 1
+    },
+    "VITAMIN A": {
+      "patterns": [
+        "vitamin a"
+      ],
+      "count": 1
+    },
+    "VORICONAZOLE": {
+      "patterns": [
+        "voriconazole"
+      ],
+      "count": 1
+    },
+    "WARFARIN": {
+      "patterns": [
+        "warfarin"
+      ],
+      "count": 1
+    },
+    "ZIDOVUDINE": {
+      "patterns": [
+        "zidovudine"
+      ],
+      "count": 1
+    },
+    "ZOLEDRONIC ACID": {
+      "patterns": [
+        "zoledronic acid"
+      ],
+      "count": 1
+    },
+    "ZOLMITRIPTAN": {
+      "patterns": [
+        "zolmitriptan"
+      ],
+      "count": 1
+    },
+    "ZOLPIDEM": {
+      "patterns": [
+        "zolpidem"
+      ],
+      "count": 1
+    }
+  },
+  "diseases": {
+    "AIDS": {
+      "patterns": [
+        "aids"
+      ],
+      "count": 1
+    },
+    "HIV infectious disease": {
+      "patterns": [
+        "hiv infectious disease"
+      ],
+      "count": 1
+    },
+    "angle-closure glaucoma": {
+      "patterns": [
+        "angle-closure glaucoma"
+      ],
+      "count": 1
+    },
+    "absence epilepsy": {
+      "patterns": [
+        "absence epilepsy"
+      ],
+      "count": 1
+    },
+    "altitude sickness": {
+      "patterns": [
+        "altitude sickness"
+      ],
+      "count": 1
+    },
+    "closed-angle glaucoma": {
+      "patterns": [
+        "closed-angle glaucoma"
+      ],
+      "count": 1
+    },
+    "open-angle glaucoma": {
+      "patterns": [
+        "open-angle glaucoma"
+      ],
+      "count": 1
+    },
+    "congestive heart failure": {
+      "patterns": [
+        "congestive heart failure"
+      ],
+      "count": 1
+    },
+    "cystic fibrosis": {
+      "patterns": [
+        "cystic fibrosis"
+      ],
+      "count": 1
+    },
+    "AL amyloidosis": {
+      "patterns": [
+        "al amyloidosis"
+      ],
+      "count": 1
+    },
+    "AH amyloidosis": {
+      "patterns": [
+        "ah amyloidosis"
+      ],
+      "count": 1
+    },
+    "paracetamol poisoning": {
+      "patterns": [
+        "paracetamol poisoning"
+      ],
+      "count": 1
+    },
+    "amyloidosis (disease)": {
+      "patterns": [
+        "amyloidosis (disease)"
+      ],
+      "count": 1
+    },
+    "idiopathic bronchiectasis": {
+      "patterns": [
+        "idiopathic bronchiectasis"
+      ],
+      "count": 1
+    },
+    "bronchiectasis": {
+      "patterns": [
+        "bronchiectasis"
+      ],
+      "count": 1
+    },
+    "bronchitis": {
+      "patterns": [
+        "bronchitis"
+      ],
+      "count": 1
+    },
+    "ventricular tachycardia": {
+      "patterns": [
+        "ventricular tachycardia"
+      ],
+      "count": 1
+    },
+    "echinococcus granulosus infectious disease": {
+      "patterns": [
+        "echinococcus granulosus infectious disease"
+      ],
+      "count": 1
+    },
+    "cysticercosis": {
+      "patterns": [
+        "cysticercosis"
+      ],
+      "count": 1
+    },
+    "cystic echinococcosis": {
+      "patterns": [
+        "cystic echinococcosis"
+      ],
+      "count": 1
+    },
+    "benign prostatic hyperplasia (disease)": {
+      "patterns": [
+        "benign prostatic hyperplasia (disease)"
+      ],
+      "count": 1
+    },
+    "acute urate nephropathy": {
+      "patterns": [
+        "acute urate nephropathy"
+      ],
+      "count": 1
+    },
+    "obsolete hyperuricemia (disease)": {
+      "patterns": [
+        "obsolete hyperuricemia (disease)"
+      ],
+      "count": 1
+    },
+    "gout": {
+      "patterns": [
+        "gout"
+      ],
+      "count": 1
+    },
+    "mixed anxiety and depressive disorder": {
+      "patterns": [
+        "mixed anxiety and depressive disorder"
+      ],
+      "count": 1
+    },
+    "anxiety": {
+      "patterns": [
+        "pagkabalisa",
+        "panic disorder",
+        "anxiety"
+      ],
+      "count": 3
+    },
+    "anxiety disorder": {
+      "patterns": [
+        "pagkabalisa",
+        "panic disorder",
+        "anxiety disorder",
+        "anxiety"
+      ],
+      "count": 4
+    },
+    "gastroesophageal reflux disease": {
+      "patterns": [
+        "gastroesophageal reflux disease"
+      ],
+      "count": 1
+    },
+    "esophagitis (disease)": {
+      "patterns": [
+        "esophagitis (disease)"
+      ],
+      "count": 1
+    },
+    "dyspepsia": {
+      "patterns": [
+        "dyspepsia"
+      ],
+      "count": 1
+    },
+    "peptic ulcer disease": {
+      "patterns": [
+        "peptic ulcer disease"
+      ],
+      "count": 1
+    },
+    "duodenal ulcer (disease)": {
+      "patterns": [
+        "duodenal ulcer (disease)"
+      ],
+      "count": 1
+    },
+    "peptic esophagitis": {
+      "patterns": [
+        "peptic esophagitis"
+      ],
+      "count": 1
+    },
+    "gastric ulcer (disease)": {
+      "patterns": [
+        "gastric ulcer (disease)"
+      ],
+      "count": 1
+    },
+    "cholangitis": {
+      "patterns": [
+        "cholangitis"
+      ],
+      "count": 1
+    },
+    "pneumonia caused by gram negative bacteria": {
+      "patterns": [
+        "pulmonya",
+        "lung infection",
+        "pneumonia caused by gram negative bacteria"
+      ],
+      "count": 3
+    },
+    "bacterial meningitis": {
+      "patterns": [
+        "bacterial meningitis"
+      ],
+      "count": 1
+    },
+    "Escherichia coli meningitis": {
+      "patterns": [
+        "escherichia coli meningitis"
+      ],
+      "count": 1
+    },
+    "suppurative cholangitis": {
+      "patterns": [
+        "suppurative cholangitis"
+      ],
+      "count": 1
+    },
+    "viral meningitis": {
+      "patterns": [
+        "viral meningitis"
+      ],
+      "count": 1
+    },
+    "rhinoscleroma": {
+      "patterns": [
+        "rhinoscleroma"
+      ],
+      "count": 1
+    },
+    "bacterial arthritis": {
+      "patterns": [
+        "rheumatoid arthritis",
+        "rayuma",
+        "osteoarthritis",
+        "joint pain",
+        "bacterial arthritis"
+      ],
+      "count": 5
+    },
+    "staphylococcal pneumonia": {
+      "patterns": [
+        "pulmonya",
+        "staphylococcal pneumonia",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "bacterial pneumonia": {
+      "patterns": [
+        "bacterial pneumonia",
+        "pulmonya",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "escherichia coli infection": {
+      "patterns": [
+        "escherichia coli infection"
+      ],
+      "count": 1
+    },
+    "bacterial meningitis caused by gram-negative bacteria": {
+      "patterns": [
+        "bacterial meningitis caused by gram-negative bacteria"
+      ],
+      "count": 1
+    },
+    "IgG4-related sclerosing cholangitis": {
+      "patterns": [
+        "igg4-related sclerosing cholangitis"
+      ],
+      "count": 1
+    },
+    "sclerosing cholangitis": {
+      "patterns": [
+        "sclerosing cholangitis"
+      ],
+      "count": 1
+    },
+    "Pseudomonas aeruginosa infectious disease": {
+      "patterns": [
+        "pseudomonas aeruginosa infectious disease"
+      ],
+      "count": 1
+    },
+    "osteomyelitis (disease)": {
+      "patterns": [
+        "osteomyelitis (disease)"
+      ],
+      "count": 1
+    },
+    "arthropathy": {
+      "patterns": [
+        "arthropathy"
+      ],
+      "count": 1
+    },
+    "ventricular fibrillation (disease)": {
+      "patterns": [
+        "ventricular fibrillation (disease)"
+      ],
+      "count": 1
+    },
+    "hypertension": {
+      "patterns": [
+        "alta presyon",
+        "mataas na presyon ng dugo",
+        "high blood",
+        "hypertension",
+        "high blood pressure"
+      ],
+      "count": 5
+    },
+    "cerebral infarction": {
+      "patterns": [
+        "cerebral infarction"
+      ],
+      "count": 1
+    },
+    "obsolete susceptibility to ischemic stroke": {
+      "patterns": [
+        "atake serebral",
+        "obsolete susceptibility to ischemic stroke",
+        "brain attack",
+        "cerebrovascular accident"
+      ],
+      "count": 4
+    },
+    "Prinzmetal angina": {
+      "patterns": [
+        "prinzmetal angina"
+      ],
+      "count": 1
+    },
+    "hypertensive disorder": {
+      "patterns": [
+        "hypertensive disorder"
+      ],
+      "count": 1
+    },
+    "stroke disorder": {
+      "patterns": [
+        "atake serebral",
+        "stroke disorder",
+        "brain attack",
+        "cerebrovascular accident"
+      ],
+      "count": 4
+    },
+    "cerebrovascular disorder": {
+      "patterns": [
+        "cerebrovascular disorder"
+      ],
+      "count": 1
+    },
+    "staphylococcus aureus pneumonia": {
+      "patterns": [
+        "pulmonya",
+        "staphylococcus aureus pneumonia",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "urinary tract infection (disease)": {
+      "patterns": [
+        "bladder infection",
+        "impeksyon sa ihi",
+        "urinary tract infection (disease)",
+        "uti"
+      ],
+      "count": 4
+    },
+    "staphylococcus aureus infection": {
+      "patterns": [
+        "staphylococcus aureus infection"
+      ],
+      "count": 1
+    },
+    "streptococcal infection": {
+      "patterns": [
+        "streptococcal infection"
+      ],
+      "count": 1
+    },
+    "streptococcal pneumonia": {
+      "patterns": [
+        "streptococcal pneumonia",
+        "pulmonya",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "staphylococcal infection": {
+      "patterns": [
+        "staphylococcal infection"
+      ],
+      "count": 1
+    },
+    "infectious otitis media": {
+      "patterns": [
+        "infectious otitis media"
+      ],
+      "count": 1
+    },
+    "Klebsiella pneumonia": {
+      "patterns": [
+        "klebsiella pneumonia",
+        "pulmonya",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "pharyngitis": {
+      "patterns": [
+        "pharyngitis"
+      ],
+      "count": 1
+    },
+    "lymphogranuloma venereum": {
+      "patterns": [
+        "lymphogranuloma venereum"
+      ],
+      "count": 1
+    },
+    "conjunctivitis": {
+      "patterns": [
+        "conjunctivitis"
+      ],
+      "count": 1
+    },
+    "ornithosis": {
+      "patterns": [
+        "ornithosis"
+      ],
+      "count": 1
+    },
+    "gingivitis": {
+      "patterns": [
+        "gingivitis"
+      ],
+      "count": 1
+    },
+    "leishmaniasis": {
+      "patterns": [
+        "leishmaniasis"
+      ],
+      "count": 1
+    },
+    "anthrax infection": {
+      "patterns": [
+        "anthrax infection"
+      ],
+      "count": 1
+    },
+    "candidemia": {
+      "patterns": [
+        "candidemia"
+      ],
+      "count": 1
+    },
+    "leptospirosis": {
+      "patterns": [
+        "leptospirosis"
+      ],
+      "count": 1
+    },
+    "chancroid": {
+      "patterns": [
+        "chancroid"
+      ],
+      "count": 1
+    },
+    "syphilis": {
+      "patterns": [
+        "syphilis"
+      ],
+      "count": 1
+    },
+    "actinomycosis": {
+      "patterns": [
+        "actinomycosis"
+      ],
+      "count": 1
+    },
+    "pneumonia": {
+      "patterns": [
+        "pneumonia",
+        "pulmonya",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "blastomycosis": {
+      "patterns": [
+        "blastomycosis"
+      ],
+      "count": 1
+    },
+    "relapsing fever": {
+      "patterns": [
+        "relapsing fever"
+      ],
+      "count": 1
+    },
+    "rickettsialpox": {
+      "patterns": [
+        "rickettsialpox"
+      ],
+      "count": 1
+    },
+    "disseminated candidiasis": {
+      "patterns": [
+        "disseminated candidiasis"
+      ],
+      "count": 1
+    },
+    "typhus": {
+      "patterns": [
+        "typhus"
+      ],
+      "count": 1
+    },
+    "acne (disease)": {
+      "patterns": [
+        "acne (disease)"
+      ],
+      "count": 1
+    },
+    "Actinomycetales infectious disease": {
+      "patterns": [
+        "actinomycetales infectious disease"
+      ],
+      "count": 1
+    },
+    "Rocky mountain spotted fever": {
+      "patterns": [
+        "rocky mountain spotted fever"
+      ],
+      "count": 1
+    },
+    "cutaneous candidiasis": {
+      "patterns": [
+        "cutaneous candidiasis"
+      ],
+      "count": 1
+    },
+    "yaws": {
+      "patterns": [
+        "yaws"
+      ],
+      "count": 1
+    },
+    "esophageal candidiasis": {
+      "patterns": [
+        "esophageal candidiasis"
+      ],
+      "count": 1
+    },
+    "Japanese spotted fever": {
+      "patterns": [
+        "japanese spotted fever"
+      ],
+      "count": 1
+    },
+    "sinusitis": {
+      "patterns": [
+        "sinusitis"
+      ],
+      "count": 1
+    },
+    "cat-scratch disease": {
+      "patterns": [
+        "cat-scratch disease"
+      ],
+      "count": 1
+    },
+    "candidiasis": {
+      "patterns": [
+        "candidiasis"
+      ],
+      "count": 1
+    },
+    "black piedra": {
+      "patterns": [
+        "black piedra"
+      ],
+      "count": 1
+    },
+    "coccidioidomycosis": {
+      "patterns": [
+        "coccidioidomycosis"
+      ],
+      "count": 1
+    },
+    "Q fever": {
+      "patterns": [
+        "q fever"
+      ],
+      "count": 1
+    },
+    "mycotic endocarditis": {
+      "patterns": [
+        "mycotic endocarditis"
+      ],
+      "count": 1
+    },
+    "brucellosis": {
+      "patterns": [
+        "brucellosis"
+      ],
+      "count": 1
+    },
+    "aspergillosis": {
+      "patterns": [
+        "aspergillosis"
+      ],
+      "count": 1
+    },
+    "sporotrichosis": {
+      "patterns": [
+        "sporotrichosis"
+      ],
+      "count": 1
+    },
+    "Zygomycosis": {
+      "patterns": [
+        "zygomycosis"
+      ],
+      "count": 1
+    },
+    "trachoma": {
+      "patterns": [
+        "trachoma"
+      ],
+      "count": 1
+    },
+    "trypanosomiasis": {
+      "patterns": [
+        "trypanosomiasis"
+      ],
+      "count": 1
+    },
+    "disseminated sporotrichosis": {
+      "patterns": [
+        "disseminated sporotrichosis"
+      ],
+      "count": 1
+    },
+    "white piedra": {
+      "patterns": [
+        "white piedra"
+      ],
+      "count": 1
+    },
+    "acute gonococcal cervicitis": {
+      "patterns": [
+        "acute gonococcal cervicitis"
+      ],
+      "count": 1
+    },
+    "cryptococcosis": {
+      "patterns": [
+        "cryptococcosis"
+      ],
+      "count": 1
+    },
+    "granuloma inguinale": {
+      "patterns": [
+        "granuloma inguinale"
+      ],
+      "count": 1
+    },
+    "oral candidiasis": {
+      "patterns": [
+        "oral candidiasis"
+      ],
+      "count": 1
+    },
+    "spotted fever": {
+      "patterns": [
+        "spotted fever"
+      ],
+      "count": 1
+    },
+    "fungal meningitis": {
+      "patterns": [
+        "fungal meningitis"
+      ],
+      "count": 1
+    },
+    "necrotizing ulcerative gingivitis": {
+      "patterns": [
+        "necrotizing ulcerative gingivitis"
+      ],
+      "count": 1
+    },
+    "histoplasmosis": {
+      "patterns": [
+        "histoplasmosis"
+      ],
+      "count": 1
+    },
+    "visceral leishmaniasis": {
+      "patterns": [
+        "visceral leishmaniasis"
+      ],
+      "count": 1
+    },
+    "gonorrhea": {
+      "patterns": [
+        "gonorrhea"
+      ],
+      "count": 1
+    },
+    "erythrasma": {
+      "patterns": [
+        "erythrasma"
+      ],
+      "count": 1
+    },
+    "endocarditis": {
+      "patterns": [
+        "endocarditis"
+      ],
+      "count": 1
+    },
+    "invasive non-typhoidal salmonellosis": {
+      "patterns": [
+        "invasive non-typhoidal salmonellosis"
+      ],
+      "count": 1
+    },
+    "acute gonococcal endometritis": {
+      "patterns": [
+        "acute gonococcal endometritis"
+      ],
+      "count": 1
+    },
+    "diarrheal disease": {
+      "patterns": [
+        "diarrheal disease"
+      ],
+      "count": 1
+    },
+    "epiglottitis": {
+      "patterns": [
+        "epiglottitis"
+      ],
+      "count": 1
+    },
+    "subacute bacterial endocarditis": {
+      "patterns": [
+        "subacute bacterial endocarditis"
+      ],
+      "count": 1
+    },
+    "shigellosis": {
+      "patterns": [
+        "shigellosis"
+      ],
+      "count": 1
+    },
+    "infectious diarrheal disease": {
+      "patterns": [
+        "infectious diarrheal disease"
+      ],
+      "count": 1
+    },
+    "dysentery": {
+      "patterns": [
+        "dysentery"
+      ],
+      "count": 1
+    },
+    "pneumococcal meningitis": {
+      "patterns": [
+        "pneumococcal meningitis"
+      ],
+      "count": 1
+    },
+    "typhoid fever": {
+      "patterns": [
+        "typhoid fever"
+      ],
+      "count": 1
+    },
+    "salmonellosis": {
+      "patterns": [
+        "salmonellosis"
+      ],
+      "count": 1
+    },
+    "intestinal infectious disease": {
+      "patterns": [
+        "intestinal infectious disease"
+      ],
+      "count": 1
+    },
+    "meningococcal infection": {
+      "patterns": [
+        "meningococcal infection"
+      ],
+      "count": 1
+    },
+    "paratyphoid fever": {
+      "patterns": [
+        "paratyphoid fever"
+      ],
+      "count": 1
+    },
+    "schizophrenia": {
+      "patterns": [
+        "schizophrenia"
+      ],
+      "count": 1
+    },
+    "autism (disease)": {
+      "patterns": [
+        "autism (disease)"
+      ],
+      "count": 1
+    },
+    "autism spectrum disorder": {
+      "patterns": [
+        "autism spectrum disorder"
+      ],
+      "count": 1
+    },
+    "autism susceptibility 1": {
+      "patterns": [
+        "autism susceptibility 1"
+      ],
+      "count": 1
+    },
+    "manic bipolar affective disorder": {
+      "patterns": [
+        "manic bipolar affective disorder"
+      ],
+      "count": 1
+    },
+    "bipolar disorder": {
+      "patterns": [
+        "bipolar disorder"
+      ],
+      "count": 1
+    },
+    "Plasmodium falciparum malaria": {
+      "patterns": [
+        "malaria",
+        "malarya",
+        "plasmodium falciparum malaria"
+      ],
+      "count": 3
+    },
+    "Plasmodium vivax malaria": {
+      "patterns": [
+        "malarya",
+        "plasmodium vivax malaria",
+        "malaria"
+      ],
+      "count": 3
+    },
+    "malaria": {
+      "patterns": [
+        "malarya",
+        "malaria"
+      ],
+      "count": 2
+    },
+    "ascorbic acid deficiency": {
+      "patterns": [
+        "ascorbic acid deficiency"
+      ],
+      "count": 1
+    },
+    "scurvy": {
+      "patterns": [
+        "scurvy"
+      ],
+      "count": 1
+    },
+    "coronary thrombosis": {
+      "patterns": [
+        "coronary thrombosis"
+      ],
+      "count": 1
+    },
+    "myocardial infarction": {
+      "patterns": [
+        "myocardial infarction"
+      ],
+      "count": 1
+    },
+    "hemoglobinopathy": {
+      "patterns": [
+        "hemoglobinopathy"
+      ],
+      "count": 1
+    },
+    "myocardial infarction (disease)": {
+      "patterns": [
+        "myocardial infarction (disease)"
+      ],
+      "count": 1
+    },
+    "obsolete familial combined hyperlipidemia": {
+      "patterns": [
+        "obsolete familial combined hyperlipidemia"
+      ],
+      "count": 1
+    },
+    "hyperlipoproteinemia": {
+      "patterns": [
+        "hyperlipoproteinemia"
+      ],
+      "count": 1
+    },
+    "hypertriglyceridemia (disease)": {
+      "patterns": [
+        "hypertriglyceridemia (disease)"
+      ],
+      "count": 1
+    },
+    "arteriosclerosis disorder": {
+      "patterns": [
+        "arteriosclerosis disorder"
+      ],
+      "count": 1
+    },
+    "homozygous familial hypercholesterolemia": {
+      "patterns": [
+        "homozygous familial hypercholesterolemia"
+      ],
+      "count": 1
+    },
+    "hyperlipidemia, familial combined, LPL related": {
+      "patterns": [
+        "hyperlipidemia, familial combined, lpl related"
+      ],
+      "count": 1
+    },
+    "atherosclerosis": {
+      "patterns": [
+        "atherosclerosis"
+      ],
+      "count": 1
+    },
+    "rheumatoid arthritis": {
+      "patterns": [
+        "joint pain",
+        "osteoarthritis",
+        "rayuma",
+        "rheumatoid arthritis"
+      ],
+      "count": 4
+    },
+    "Mycoplasma pneumoniae pneumonia": {
+      "patterns": [
+        "pulmonya",
+        "mycoplasma pneumoniae pneumonia",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "pneumonia caused by chlamydia": {
+      "patterns": [
+        "pulmonya",
+        "pneumonia caused by chlamydia",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "acute contagious conjunctivitis": {
+      "patterns": [
+        "acute contagious conjunctivitis"
+      ],
+      "count": 1
+    },
+    "peritonitis": {
+      "patterns": [
+        "peritonitis"
+      ],
+      "count": 1
+    },
+    "endometritis": {
+      "patterns": [
+        "endometritis"
+      ],
+      "count": 1
+    },
+    "keratoconjunctivitis": {
+      "patterns": [
+        "keratoconjunctivitis"
+      ],
+      "count": 1
+    },
+    "blepharoconjunctivitis": {
+      "patterns": [
+        "blepharoconjunctivitis"
+      ],
+      "count": 1
+    },
+    "keratitis": {
+      "patterns": [
+        "keratitis"
+      ],
+      "count": 1
+    },
+    "multidrug-resistant tuberculosis": {
+      "patterns": [
+        "tb",
+        "pulmonary tuberculosis",
+        "tisis",
+        "multidrug-resistant tuberculosis"
+      ],
+      "count": 4
+    },
+    "pulmonary tuberculosis": {
+      "patterns": [
+        "tb",
+        "pulmonary tuberculosis",
+        "tisis"
+      ],
+      "count": 3
+    },
+    "seborrheic keratosis": {
+      "patterns": [
+        "seborrheic keratosis"
+      ],
+      "count": 1
+    },
+    "dermatitis, atopic": {
+      "patterns": [
+        "dermatitis, atopic"
+      ],
+      "count": 1
+    },
+    "contact dermatitis": {
+      "patterns": [
+        "contact dermatitis"
+      ],
+      "count": 1
+    },
+    "exanthem (disease)": {
+      "patterns": [
+        "exanthem (disease)"
+      ],
+      "count": 1
+    },
+    "occupational dermatitis": {
+      "patterns": [
+        "occupational dermatitis"
+      ],
+      "count": 1
+    },
+    "granuloma annulare": {
+      "patterns": [
+        "granuloma annulare"
+      ],
+      "count": 1
+    },
+    "seborrheic dermatitis": {
+      "patterns": [
+        "seborrheic dermatitis"
+      ],
+      "count": 1
+    },
+    "atopic eczema": {
+      "patterns": [
+        "atopic eczema"
+      ],
+      "count": 1
+    },
+    "acute respiratory distress syndrome": {
+      "patterns": [
+        "acute respiratory distress syndrome"
+      ],
+      "count": 1
+    },
+    "newborn respiratory distress syndrome": {
+      "patterns": [
+        "newborn respiratory distress syndrome"
+      ],
+      "count": 1
+    },
+    "endolymphatic hydrops": {
+      "patterns": [
+        "endolymphatic hydrops"
+      ],
+      "count": 1
+    },
+    "Meniere disease": {
+      "patterns": [
+        "meniere disease"
+      ],
+      "count": 1
+    },
+    "parapsoriasis": {
+      "patterns": [
+        "parapsoriasis"
+      ],
+      "count": 1
+    },
+    "serum sickness": {
+      "patterns": [
+        "serum sickness"
+      ],
+      "count": 1
+    },
+    "chronic primary adrenal insufficiency": {
+      "patterns": [
+        "chronic primary adrenal insufficiency"
+      ],
+      "count": 1
+    },
+    "familial nephrotic syndrome": {
+      "patterns": [
+        "familial nephrotic syndrome"
+      ],
+      "count": 1
+    },
+    "neoplasm of mature B-cells": {
+      "patterns": [
+        "neoplasm of mature b-cells"
+      ],
+      "count": 1
+    },
+    "chronic cutaneous lupus erythematosus": {
+      "patterns": [
+        "chronic cutaneous lupus erythematosus"
+      ],
+      "count": 1
+    },
+    "folliculotropic mycosis fungoides": {
+      "patterns": [
+        "folliculotropic mycosis fungoides"
+      ],
+      "count": 1
+    },
+    "chronic beryllium disease": {
+      "patterns": [
+        "chronic beryllium disease"
+      ],
+      "count": 1
+    },
+    "chondrocalcinosis": {
+      "patterns": [
+        "chondrocalcinosis"
+      ],
+      "count": 1
+    },
+    "precursor T-cell acute lymphoblastic leukemia": {
+      "patterns": [
+        "precursor t-cell acute lymphoblastic leukemia"
+      ],
+      "count": 1
+    },
+    "erythema multiforme": {
+      "patterns": [
+        "erythema multiforme"
+      ],
+      "count": 1
+    },
+    "B-cell neoplasm": {
+      "patterns": [
+        "b-cell neoplasm"
+      ],
+      "count": 1
+    },
+    "miliary tuberculosis": {
+      "patterns": [
+        "tb",
+        "miliary tuberculosis",
+        "tisis",
+        "pulmonary tuberculosis"
+      ],
+      "count": 4
+    },
+    "Hodgkin's paragranuloma": {
+      "patterns": [
+        "hodgkin's paragranuloma"
+      ],
+      "count": 1
+    },
+    "disease of orbital region": {
+      "patterns": [
+        "disease of orbital region"
+      ],
+      "count": 1
+    },
+    "synovitis (disease)": {
+      "patterns": [
+        "synovitis (disease)"
+      ],
+      "count": 1
+    },
+    "asthma": {
+      "patterns": [
+        "hika",
+        "asma",
+        "asthma",
+        "bronchial asthma"
+      ],
+      "count": 4
+    },
+    "actinic keratosis (disease)": {
+      "patterns": [
+        "actinic keratosis (disease)"
+      ],
+      "count": 1
+    },
+    "inflammatory bowel disease": {
+      "patterns": [
+        "inflammatory bowel disease"
+      ],
+      "count": 1
+    },
+    "acquired angioedema": {
+      "patterns": [
+        "acquired angioedema"
+      ],
+      "count": 1
+    },
+    "spondyloarthropathy": {
+      "patterns": [
+        "spondyloarthropathy"
+      ],
+      "count": 1
+    },
+    "tinea pedis": {
+      "patterns": [
+        "tinea pedis"
+      ],
+      "count": 1
+    },
+    "pemphigus": {
+      "patterns": [
+        "pemphigus"
+      ],
+      "count": 1
+    },
+    "eosinophilic pneumonia": {
+      "patterns": [
+        "pulmonya",
+        "eosinophilic pneumonia",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "mantle cell lymphoma": {
+      "patterns": [
+        "mantle cell lymphoma"
+      ],
+      "count": 1
+    },
+    "lipoid nephrosis": {
+      "patterns": [
+        "lipoid nephrosis"
+      ],
+      "count": 1
+    },
+    "pediatric systemic lupus erythematosus": {
+      "patterns": [
+        "pediatric systemic lupus erythematosus"
+      ],
+      "count": 1
+    },
+    "periarthritis": {
+      "patterns": [
+        "rheumatoid arthritis",
+        "rayuma",
+        "osteoarthritis",
+        "joint pain",
+        "periarthritis"
+      ],
+      "count": 5
+    },
+    "eye disease": {
+      "patterns": [
+        "eye disease"
+      ],
+      "count": 1
+    },
+    "mycosis fungoides and variants": {
+      "patterns": [
+        "mycosis fungoides and variants"
+      ],
+      "count": 1
+    },
+    "obsolete Hodgkin's granuloma": {
+      "patterns": [
+        "obsolete hodgkin's granuloma"
+      ],
+      "count": 1
+    },
+    "autoimmune hemolytic anemia": {
+      "patterns": [
+        "autoimmune hemolytic anemia"
+      ],
+      "count": 1
+    },
+    "Langerhans cell histiocytosis": {
+      "patterns": [
+        "langerhans cell histiocytosis"
+      ],
+      "count": 1
+    },
+    "epicondylitis": {
+      "patterns": [
+        "epicondylitis"
+      ],
+      "count": 1
+    },
+    "dermatophytosis of groin and perianal area": {
+      "patterns": [
+        "dermatophytosis of groin and perianal area"
+      ],
+      "count": 1
+    },
+    "allergic rhinitis": {
+      "patterns": [
+        "allergic rhinitis"
+      ],
+      "count": 1
+    },
+    "adrenal insufficiency": {
+      "patterns": [
+        "adrenal insufficiency"
+      ],
+      "count": 1
+    },
+    "Addison disease": {
+      "patterns": [
+        "addison disease"
+      ],
+      "count": 1
+    },
+    "fetal erythroblastosis": {
+      "patterns": [
+        "fetal erythroblastosis"
+      ],
+      "count": 1
+    },
+    "Hodgkins lymphoma": {
+      "patterns": [
+        "hodgkins lymphoma"
+      ],
+      "count": 1
+    },
+    "Crohn's colitis": {
+      "patterns": [
+        "crohn's colitis"
+      ],
+      "count": 1
+    },
+    "psoriasis": {
+      "patterns": [
+        "psoriasis"
+      ],
+      "count": 1
+    },
+    "acquired thrombocytopenia": {
+      "patterns": [
+        "acquired thrombocytopenia"
+      ],
+      "count": 1
+    },
+    "congenital adrenal hyperplasia": {
+      "patterns": [
+        "congenital adrenal hyperplasia"
+      ],
+      "count": 1
+    },
+    "Stevens-Johnson syndrome": {
+      "patterns": [
+        "stevens-johnson syndrome"
+      ],
+      "count": 1
+    },
+    "classic Hodgkin lymphoma, lymphocyte-rich type": {
+      "patterns": [
+        "classic hodgkin lymphoma, lymphocyte-rich type"
+      ],
+      "count": 1
+    },
+    "non-histaminic angioedema": {
+      "patterns": [
+        "non-histaminic angioedema"
+      ],
+      "count": 1
+    },
+    "Diamond-Blackfan anemia": {
+      "patterns": [
+        "diamond-blackfan anemia"
+      ],
+      "count": 1
+    },
+    "rheumatic heart disease": {
+      "patterns": [
+        "pagpalya ng puso",
+        "heart failure",
+        "cardiovascular disease",
+        "coronary artery disease",
+        "rheumatic heart disease",
+        "sakit sa puso"
+      ],
+      "count": 6
+    },
+    "aspiration pneumonia (disease)": {
+      "patterns": [
+        "pulmonya",
+        "aspiration pneumonia (disease)",
+        "lung infection"
+      ],
+      "count": 3
+    },
+    "ankylosing spondylitis": {
+      "patterns": [
+        "ankylosing spondylitis"
+      ],
+      "count": 1
+    },
+    "autoimmune thrombocytopenic": {
+      "patterns": [
+        "autoimmune thrombocytopenic"
+      ],
+      "count": 1
+    },
+    "hereditary angioedema": {
+      "patterns": [
+        "hereditary angioedema"
+      ],
+      "count": 1
+    },
+    "brain edema": {
+      "patterns": [
+        "brain edema"
+      ],
+      "count": 1
+    },
+    "Trichinella spiralis infectious disease": {
+      "patterns": [
+        "trichinella spiralis infectious disease"
+      ],
+      "count": 1
+    },
+    "follicular lymphoma": {
+      "patterns": [
+        "follicular lymphoma"
+      ],
+      "count": 1
+    },
+    "pneumonitis": {
+      "patterns": [
+        "pneumonitis"
+      ],
+      "count": 1
+    },
+    "multiple sclerosis": {
+      "patterns": [
+        "multiple sclerosis"
+      ],
+      "count": 1
+    },
+    "lupus erythematosus": {
+      "patterns": [
+        "lupus erythematosus"
+      ],
+      "count": 1
+    },
+    "dermatitis herpetiformis": {
+      "patterns": [
+        "dermatitis herpetiformis"
+      ],
+      "count": 1
+    },
+    "juvenile arthritis due to defect in LACC1": {
+      "patterns": [
+        "rheumatoid arthritis",
+        "rayuma",
+        "juvenile arthritis due to defect in lacc1",
+        "osteoarthritis",
+        "joint pain"
+      ],
+      "count": 5
+    },
+    "inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency": {
+      "patterns": [
+        "inherited isolated adrenal insufficiency due to partial cyp11a1 deficiency"
+      ],
+      "count": 1
+    },
+    "trichinosis": {
+      "patterns": [
+        "trichinosis"
+      ],
+      "count": 1
+    },
+    "psoriatic arthritis": {
+      "patterns": [
+        "rheumatoid arthritis",
+        "rayuma",
+        "osteoarthritis",
+        "joint pain",
+        "psoriatic arthritis"
+      ],
+      "count": 5
+    },
+    "tendinitis": {
+      "patterns": [
+        "tendinitis"
+      ],
+      "count": 1
+    },
+    "tinea corporis": {
+      "patterns": [
+        "tinea corporis"
+      ],
+      "count": 1
+    },
+    "inherited aplastic anemia": {
+      "patterns": [
+        "inherited aplastic anemia"
+      ],
+      "count": 1
+    },
+    "nephrotic syndrome": {
+      "patterns": [
+        "nephrotic syndrome"
+      ],
+      "count": 1
+    },
+    "exfoliative dermatitis": {
+      "patterns": [
+        "exfoliative dermatitis"
+      ],
+      "count": 1
+    },
+    "discoid lupus erythematosus": {
+      "patterns": [
+        "discoid lupus erythematosus"
+      ],
+      "count": 1
+    },
+    "non-Hodgkin lymphoma": {
+      "patterns": [
+        "non-hodgkin lymphoma"
+      ],
+      "count": 1
+    },
+    "adrenogenital syndrome": {
+      "patterns": [
+        "adrenogenital syndrome"
+      ],
+      "count": 1
+    },
+    "lichen disease": {
+      "patterns": [
+        "lichen disease"
+      ],
+      "count": 1
+    },
+    "renin-angiotensin-aldosterone system-blocker-induced angioedema": {
+      "patterns": [
+        "renin-angiotensin-aldosterone system-blocker-induced angioedema"
+      ],
+      "count": 1
+    },
+    "acute lymphoblastic leukemia (disease)": {
+      "patterns": [
+        "acute lymphoblastic leukemia (disease)"
+      ],
+      "count": 1
+    },
+    "sarcoidosis": {
+      "patterns": [
+        "sarcoidosis"
+      ],
+      "count": 1
+    },
+    "granulomatous slack skin disease": {
+      "patterns": [
+        "granulomatous slack skin disease"
+      ],
+      "count": 1
+    },
+    "angioedema": {
+      "patterns": [
+        "angioedema"
+      ],
+      "count": 1
+    },
+    "exostosis": {
+      "patterns": [
+        "exostosis"
+      ],
+      "count": 1
+    },
+    "lymphosarcoma": {
+      "patterns": [
+        "lymphosarcoma"
+      ],
+      "count": 1
+    },
+    "scalp dermatosis": {
+      "patterns": [
+        "scalp dermatosis"
+      ],
+      "count": 1
+    },
+    "musculoskeletal system disease": {
+      "patterns": [
+        "musculoskeletal system disease"
+      ],
+      "count": 1
+    },
+    "Crohn disease": {
+      "patterns": [
+        "crohn disease"
+      ],
+      "count": 1
+    },
+    "vasomotor rhinitis": {
+      "patterns": [
+        "vasomotor rhinitis"
+      ],
+      "count": 1
+    },
+    "primary cutaneous T-cell non-Hodgkin lymphoma": {
+      "patterns": [
+        "primary cutaneous t-cell non-hodgkin lymphoma"
+      ],
+      "count": 1
+    },
+    "tinea infection": {
+      "patterns": [
+        "tinea infection"
+      ],
+      "count": 1
+    },
+    "familial glucocorticoid deficiency": {
+      "patterns": [
+        "familial glucocorticoid deficiency"
+      ],
+      "count": 1
+    },
+    "allergic asthma": {
+      "patterns": [
+        "hika",
+        "asma",
+        "allergic asthma",
+        "bronchial asthma"
+      ],
+      "count": 4
+    },
+    "skin disease": {
+      "patterns": [
+        "skin disease"
+      ],
+      "count": 1
+    },
+    "X-linked adrenal hypoplasia congenita": {
+      "patterns": [
+        "x-linked adrenal hypoplasia congenita"
+      ],
+      "count": 1
+    },
+    "classic Hodgkin lymphoma": {
+      "patterns": [
+        "classic hodgkin lymphoma"
+      ],
+      "count": 1
+    },
+    "humoral hypercalcemia of malignancy": {
+      "patterns": [
+        "humoral hypercalcemia of malignancy"
+      ],
+      "count": 1
+    },
+    "primary cutaneous T-cell lymphoma": {
+      "patterns": [
+        "primary cutaneous t-cell lymphoma"
+      ],
+      "count": 1
+    },
+    "neurodermatitis": {
+      "patterns": [
+        "neurodermatitis"
+      ],
+      "count": 1
+    },
+    "tenosynovitis": {
+      "patterns": [
+        "tenosynovitis"
+      ],
+      "count": 1
+    },
+    "systemic lupus erythematosus (disease)": {
+      "patterns": [
+        "systemic lupus erythematosus (disease)"
+      ],
+      "count": 1
+    },
+    "localized pagetoid reticulosis": {
+      "patterns": [
+        "localized pagetoid reticulosis"
+      ],
+      "count": 1
+    },
+    "lymphoma": {
+      "patterns": [
+        "lymphoma"
+      ],
+      "count": 1
+    },
+    "leukemia, lymphocytic, susceptibility to": {
+      "patterns": [
+        "leukemia, lymphocytic, susceptibility to"
+      ],
+      "count": 1
+    },
+    "juvenile idiopathic arthritis": {
+      "patterns": [
+        "rheumatoid arthritis",
+        "rayuma",
+        "osteoarthritis",
+        "joint pain",
+        "juvenile idiopathic arthritis"
+      ],
+      "count": 5
+    },
+    "heparin-induced thrombocytopenia (disease)": {
+      "patterns": [
+        "heparin-induced thrombocytopenia (disease)"
+      ],
+      "count": 1
+    },
+    "pulmonary eosinophilia": {
+      "patterns": [
+        "pulmonary eosinophilia"
+      ],
+      "count": 1
+    },
+    "intrinsic asthma": {
+      "patterns": [
+        "hika",
+        "asma",
+        "intrinsic asthma",
+        "bronchial asthma"
+      ],
+      "count": 4
+    },
+    "familial adrenal hypoplasia with absent pituitary luteinizing hormone": {
+      "patterns": [
+        "familial adrenal hypoplasia with absent pituitary luteinizing hormone"
+      ],
+      "count": 1
+    },
+    "acute lymphoblastic/lymphocytic leukemia": {
+      "patterns": [
+        "acute lymphoblastic/lymphocytic leukemia"
+      ],
+      "count": 1
+    },
+    "Trichinellosis": {
+      "patterns": [
+        "trichinellosis"
+      ],
+      "count": 1
+    },
+    "bursitis": {
+      "patterns": [
+        "bursitis"
+      ],
+      "count": 1
+    },
+    "autoimmune disease": {
+      "patterns": [
+        "autoimmune disease"
+      ],
+      "count": 1
+    },
+    "adrenocortical insufficiency": {
+      "patterns": [
+        "adrenocortical insufficiency"
+      ],
+      "count": 1
+    },
+    "enterobiasis": {
+      "patterns": [
+        "enterobiasis"
+      ],
+      "count": 1
+    },
+    "lymphoma, non-Hodgkin, familial": {
+      "patterns": [
+        "lymphoma, non-hodgkin, familial"
+      ],
+      "count": 1
+    },
+    "thyroiditis (disease)": {
+      "patterns": [
+        "thyroiditis (disease)"
+      ],
+      "count": 1
+    },
+    "spondyloarthropathy, susceptibility to": {
+      "patterns": [
+        "spondyloarthropathy, susceptibility to"
+      ],
+      "count": 1
+    },
+    "ocular hypertension": {
+      "patterns": [
+        "alta presyon",
+        "mataas na presyon ng dugo",
+        "high blood",
+        "ocular hypertension",
+        "high blood pressure"
+      ],
+      "count": 5
+    },
+    "early-onset parkinsonism-intellectual disability syndrome": {
+      "patterns": [
+        "early-onset parkinsonism-intellectual disability syndrome"
+      ],
+      "count": 1
+    },
+    "Parkinson disease": {
+      "patterns": [
+        "parkinson disease"
+      ],
+      "count": 1
+    },
+    "parkinsonian-pyramidal syndrome": {
+      "patterns": [
+        "parkinsonian-pyramidal syndrome"
+      ],
+      "count": 1
+    },
+    "basal ganglia disease": {
+      "patterns": [
+        "basal ganglia disease"
+      ],
+      "count": 1
+    },
+    "hereditary late onset Parkinson disease": {
+      "patterns": [
+        "hereditary late onset parkinson disease"
+      ],
+      "count": 1
+    },
+    "parkinsonian disorder": {
+      "patterns": [
+        "parkinsonian disorder"
+      ],
+      "count": 1
+    },
+    "hemiparkinsonism-hemiatrophy syndrome": {
+      "patterns": [
+        "hemiparkinsonism-hemiatrophy syndrome"
+      ],
+      "count": 1
+    },
+    "focal hand dystonia": {
+      "patterns": [
+        "focal hand dystonia"
+      ],
+      "count": 1
+    },
+    "postencephalitic Parkinson disease": {
+      "patterns": [
+        "postencephalitic parkinson disease"
+      ],
+      "count": 1
+    },
+    "atypical juvenile parkinsonism": {
+      "patterns": [
+        "atypical juvenile parkinsonism"
+      ],
+      "count": 1
+    },
+    "juvenile onset Parkinson disease 19A": {
+      "patterns": [
+        "juvenile onset parkinson disease 19a"
+      ],
+      "count": 1
+    },
+    "X-linked parkinsonism-spasticity syndrome": {
+      "patterns": [
+        "x-linked parkinsonism-spasticity syndrome"
+      ],
+      "count": 1
+    },
+    "blepharospasm": {
+      "patterns": [
+        "blepharospasm"
+      ],
+      "count": 1
+    },
+    "constipation disorder": {
+      "patterns": [
+        "constipation disorder"
+      ],
+      "count": 1
+    },
+    "primary cutaneous diffuse large B-cell lymphoma, Leg type": {
+      "patterns": [
+        "primary cutaneous diffuse large b-cell lymphoma, leg type"
+      ],
+      "count": 1
+    },
+    "cervical carcinosarcoma": {
+      "patterns": [
+        "cervical carcinosarcoma"
+      ],
+      "count": 1
+    },
+    "upper aerodigestive tract neoplasm": {
+      "patterns": [
+        "upper aerodigestive tract neoplasm"
+      ],
+      "count": 1
+    },
+    "T-cell/histiocyte rich large B cell lymphoma": {
+      "patterns": [
+        "t-cell/histiocyte rich large b cell lymphoma"
+      ],
+      "count": 1
+    },
+    "cervical cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "cervical cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "penile cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "penile cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "adenocarcinoma of penis": {
+      "patterns": [
+        "adenocarcinoma of penis"
+      ],
+      "count": 1
+    },
+    "squamous cell carcinoma of penis": {
+      "patterns": [
+        "squamous cell carcinoma of penis"
+      ],
+      "count": 1
+    },
+    "diffuse large B-cell lymphoma": {
+      "patterns": [
+        "diffuse large b-cell lymphoma"
+      ],
+      "count": 1
+    },
+    "ALK-positive large B-cell lymphoma": {
+      "patterns": [
+        "alk-positive large b-cell lymphoma"
+      ],
+      "count": 1
+    },
+    "diffuse large B-cell lymphoma of the central nervous system": {
+      "patterns": [
+        "diffuse large b-cell lymphoma of the central nervous system"
+      ],
+      "count": 1
+    },
+    "plasmablastic lymphoma": {
+      "patterns": [
+        "plasmablastic lymphoma"
+      ],
+      "count": 1
+    },
+    "Epstein-Barr virus-positive diffuse large B-cell lymphoma of the elderly": {
+      "patterns": [
+        "epstein-barr virus-positive diffuse large b-cell lymphoma of the elderly"
+      ],
+      "count": 1
+    },
+    "cervical carcinoma": {
+      "patterns": [
+        "cervical carcinoma"
+      ],
+      "count": 1
+    },
+    "primary mediastinal large B-cell lymphoma": {
+      "patterns": [
+        "primary mediastinal large b-cell lymphoma"
+      ],
+      "count": 1
+    },
+    "head and neck cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "head and neck cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "intravascular large B-cell lymphoma": {
+      "patterns": [
+        "intravascular large b-cell lymphoma"
+      ],
+      "count": 1
+    },
+    "penile neoplasm": {
+      "patterns": [
+        "penile neoplasm"
+      ],
+      "count": 1
+    },
+    "primary central nervous system lymphoma": {
+      "patterns": [
+        "primary central nervous system lymphoma"
+      ],
+      "count": 1
+    },
+    "squamous cell carcinoma": {
+      "patterns": [
+        "squamous cell carcinoma"
+      ],
+      "count": 1
+    },
+    "rosacea": {
+      "patterns": [
+        "rosacea"
+      ],
+      "count": 1
+    },
+    "hyperprolactinemia (disease)": {
+      "patterns": [
+        "hyperprolactinemia (disease)"
+      ],
+      "count": 1
+    },
+    "prolactin producing pituitary gland tumor": {
+      "patterns": [
+        "prolactin producing pituitary gland tumor"
+      ],
+      "count": 1
+    },
+    "acquired hyperprolactinemia": {
+      "patterns": [
+        "acquired hyperprolactinemia"
+      ],
+      "count": 1
+    },
+    "acromegaly": {
+      "patterns": [
+        "acromegaly"
+      ],
+      "count": 1
+    },
+    "hyperpituitarism": {
+      "patterns": [
+        "hyperpituitarism"
+      ],
+      "count": 1
+    },
+    "familial hyperprolactinemia": {
+      "patterns": [
+        "familial hyperprolactinemia"
+      ],
+      "count": 1
+    },
+    "dermatitis": {
+      "patterns": [
+        "dermatitis"
+      ],
+      "count": 1
+    },
+    "hypercalcemia disease": {
+      "patterns": [
+        "hypercalcemia disease"
+      ],
+      "count": 1
+    },
+    "hypoparathyroidism": {
+      "patterns": [
+        "hypoparathyroidism"
+      ],
+      "count": 1
+    },
+    "renal osteodystrophy": {
+      "patterns": [
+        "renal osteodystrophy"
+      ],
+      "count": 1
+    },
+    "hypophosphatemia (disease)": {
+      "patterns": [
+        "hypophosphatemia (disease)"
+      ],
+      "count": 1
+    },
+    "nephrocalcinosis": {
+      "patterns": [
+        "nephrocalcinosis"
+      ],
+      "count": 1
+    },
+    "phosphorus metabolism disease": {
+      "patterns": [
+        "phosphorus metabolism disease"
+      ],
+      "count": 1
+    },
+    "osteoporosis": {
+      "patterns": [
+        "osteoporosis"
+      ],
+      "count": 1
+    },
+    "postmenopausal osteoporosis": {
+      "patterns": [
+        "postmenopausal osteoporosis"
+      ],
+      "count": 1
+    },
+    "metastasis from malignant tumor of colon": {
+      "patterns": [
+        "metastasis from malignant tumor of colon"
+      ],
+      "count": 1
+    },
+    "gastric linitis plastica": {
+      "patterns": [
+        "gastric linitis plastica"
+      ],
+      "count": 1
+    },
+    "diffuse gastric adenocarcinoma": {
+      "patterns": [
+        "diffuse gastric adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "gastric cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "gastric cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "gastric carcinoma": {
+      "patterns": [
+        "gastric carcinoma"
+      ],
+      "count": 1
+    },
+    "gastric neoplasm": {
+      "patterns": [
+        "gastric neoplasm"
+      ],
+      "count": 1
+    },
+    "diabetic nephropathy": {
+      "patterns": [
+        "diabetic nephropathy"
+      ],
+      "count": 1
+    },
+    "partial motor epilepsy": {
+      "patterns": [
+        "partial motor epilepsy"
+      ],
+      "count": 1
+    },
+    "epilepsy": {
+      "patterns": [
+        "epilepsy"
+      ],
+      "count": 1
+    },
+    "partial epilepsy": {
+      "patterns": [
+        "partial epilepsy"
+      ],
+      "count": 1
+    },
+    "epilepsy with generalized tonic-clonic seizures": {
+      "patterns": [
+        "epilepsy with generalized tonic-clonic seizures"
+      ],
+      "count": 1
+    },
+    "cutis verticis gyrata": {
+      "patterns": [
+        "cutis verticis gyrata"
+      ],
+      "count": 1
+    },
+    "glossopharyngeal motor neuropathy": {
+      "patterns": [
+        "glossopharyngeal motor neuropathy"
+      ],
+      "count": 1
+    },
+    "visual epilepsy": {
+      "patterns": [
+        "visual epilepsy"
+      ],
+      "count": 1
+    },
+    "trigeminal neuralgia": {
+      "patterns": [
+        "trigeminal neuralgia"
+      ],
+      "count": 1
+    },
+    "Lennox-Gastaut syndrome": {
+      "patterns": [
+        "lennox-gastaut syndrome"
+      ],
+      "count": 1
+    },
+    "glossopharyngeal neuralgia": {
+      "patterns": [
+        "glossopharyngeal neuralgia"
+      ],
+      "count": 1
+    },
+    "Noonan syndrome": {
+      "patterns": [
+        "noonan syndrome"
+      ],
+      "count": 1
+    },
+    "Prader-Willi syndrome": {
+      "patterns": [
+        "prader-willi syndrome"
+      ],
+      "count": 1
+    },
+    "theca steroid-producing cell malignant tumor of ovary, not further specified": {
+      "patterns": [
+        "theca steroid-producing cell malignant tumor of ovary, not further specified"
+      ],
+      "count": 1
+    },
+    "yolk sac tumor": {
+      "patterns": [
+        "yolk sac tumor"
+      ],
+      "count": 1
+    },
+    "malignant Sertoli-Leydig cell tumor of ovary": {
+      "patterns": [
+        "malignant sertoli-leydig cell tumor of ovary"
+      ],
+      "count": 1
+    },
+    "maligant granulosa cell tumor of ovary": {
+      "patterns": [
+        "maligant granulosa cell tumor of ovary"
+      ],
+      "count": 1
+    },
+    "borderline epithelial tumor of ovary": {
+      "patterns": [
+        "borderline epithelial tumor of ovary"
+      ],
+      "count": 1
+    },
+    "ovarian clear cell adenocarcinoma": {
+      "patterns": [
+        "ovarian clear cell adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "primary non-gestational choriocarcinoma of ovary": {
+      "patterns": [
+        "primary non-gestational choriocarcinoma of ovary"
+      ],
+      "count": 1
+    },
+    "malignant dysgerminomatous germ cell tumor of ovary": {
+      "patterns": [
+        "malignant dysgerminomatous germ cell tumor of ovary"
+      ],
+      "count": 1
+    },
+    "ovarian small cell carcinoma": {
+      "patterns": [
+        "ovarian small cell carcinoma"
+      ],
+      "count": 1
+    },
+    "hereditary breast ovarian cancer syndrome": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "hereditary breast ovarian cancer syndrome",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "immature ovarian teratoma": {
+      "patterns": [
+        "immature ovarian teratoma"
+      ],
+      "count": 1
+    },
+    "ovarian carcinosarcoma": {
+      "patterns": [
+        "ovarian carcinosarcoma"
+      ],
+      "count": 1
+    },
+    "familial ovarian cancer": {
+      "patterns": [
+        "kanser",
+        "familial ovarian cancer",
+        "malignancy",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "ovarian adenocarcinoma": {
+      "patterns": [
+        "ovarian adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "ovarian endometrioid adenocarcinoma": {
+      "patterns": [
+        "ovarian endometrioid adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "hereditary site-specific ovarian cancer syndrome": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "hereditary site-specific ovarian cancer syndrome",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "ovarian cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "tumor",
+        "ovarian cancer"
+      ],
+      "count": 5
+    },
+    "malignant non-dysgerminomatous germ cell tumor of ovary": {
+      "patterns": [
+        "malignant non-dysgerminomatous germ cell tumor of ovary"
+      ],
+      "count": 1
+    },
+    "ovarian mucinous adenocarcinoma": {
+      "patterns": [
+        "ovarian mucinous adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "malignant germ cell tumor of ovary": {
+      "patterns": [
+        "malignant germ cell tumor of ovary"
+      ],
+      "count": 1
+    },
+    "malignant sex cord stromal tumor of ovary": {
+      "patterns": [
+        "malignant sex cord stromal tumor of ovary"
+      ],
+      "count": 1
+    },
+    "tonsillitis": {
+      "patterns": [
+        "tonsillitis"
+      ],
+      "count": 1
+    },
+    "common cold": {
+      "patterns": [
+        "common cold"
+      ],
+      "count": 1
+    },
+    "respiratory tract infectious disease": {
+      "patterns": [
+        "respiratory tract infectious disease"
+      ],
+      "count": 1
+    },
+    "streptococcal meningitis": {
+      "patterns": [
+        "streptococcal meningitis"
+      ],
+      "count": 1
+    },
+    "ophthalmia neonatorum": {
+      "patterns": [
+        "ophthalmia neonatorum"
+      ],
+      "count": 1
+    },
+    "lung abscess (disease)": {
+      "patterns": [
+        "lung abscess (disease)"
+      ],
+      "count": 1
+    },
+    "Peptostreptococcus infectious disease": {
+      "patterns": [
+        "peptostreptococcus infectious disease"
+      ],
+      "count": 1
+    },
+    "gonococcal infection of joint": {
+      "patterns": [
+        "gonococcal infection of joint"
+      ],
+      "count": 1
+    },
+    "impetigo": {
+      "patterns": [
+        "impetigo"
+      ],
+      "count": 1
+    },
+    "bullous impetigo": {
+      "patterns": [
+        "bullous impetigo"
+      ],
+      "count": 1
+    },
+    "maxillary sinusitis": {
+      "patterns": [
+        "maxillary sinusitis"
+      ],
+      "count": 1
+    },
+    "Lyme disease": {
+      "patterns": [
+        "lyme disease"
+      ],
+      "count": 1
+    },
+    "osteoarthritis": {
+      "patterns": [
+        "joint pain",
+        "osteoarthritis",
+        "rheumatoid arthritis",
+        "rayuma"
+      ],
+      "count": 4
+    },
+    "osteoarthritis susceptibility": {
+      "patterns": [
+        "osteoarthritis susceptibility",
+        "rheumatoid arthritis",
+        "rayuma",
+        "osteoarthritis",
+        "joint pain"
+      ],
+      "count": 5
+    },
+    "nasopharyngitis": {
+      "patterns": [
+        "nasopharyngitis"
+      ],
+      "count": 1
+    },
+    "atopic conjunctivitis": {
+      "patterns": [
+        "atopic conjunctivitis"
+      ],
+      "count": 1
+    },
+    "papillary conjunctivitis": {
+      "patterns": [
+        "papillary conjunctivitis"
+      ],
+      "count": 1
+    },
+    "vernal conjunctivitis": {
+      "patterns": [
+        "vernal conjunctivitis"
+      ],
+      "count": 1
+    },
+    "idiopathic urticaria": {
+      "patterns": [
+        "idiopathic urticaria"
+      ],
+      "count": 1
+    },
+    "Richter syndrome": {
+      "patterns": [
+        "richter syndrome"
+      ],
+      "count": 1
+    },
+    "otitis externa": {
+      "patterns": [
+        "otitis externa"
+      ],
+      "count": 1
+    },
+    "external ear disease": {
+      "patterns": [
+        "external ear disease"
+      ],
+      "count": 1
+    },
+    "boutonneuse fever": {
+      "patterns": [
+        "boutonneuse fever"
+      ],
+      "count": 1
+    },
+    "Rickettsiosis": {
+      "patterns": [
+        "rickettsiosis"
+      ],
+      "count": 1
+    },
+    "skin disease caused by infection": {
+      "patterns": [
+        "skin disease caused by infection"
+      ],
+      "count": 1
+    },
+    "Plasmodium ovale malaria": {
+      "patterns": [
+        "malarya",
+        "plasmodium ovale malaria",
+        "malaria"
+      ],
+      "count": 3
+    },
+    "Plasmodium malariae malaria": {
+      "patterns": [
+        "malarya",
+        "plasmodium malariae malaria",
+        "malaria"
+      ],
+      "count": 3
+    },
+    "mental disorder": {
+      "patterns": [
+        "mental disorder"
+      ],
+      "count": 1
+    },
+    "schizoaffective disorder": {
+      "patterns": [
+        "schizoaffective disorder"
+      ],
+      "count": 1
+    },
+    "oppositional defiant disorder (disease)": {
+      "patterns": [
+        "oppositional defiant disorder (disease)"
+      ],
+      "count": 1
+    },
+    "acute intermittent porphyria": {
+      "patterns": [
+        "acute intermittent porphyria"
+      ],
+      "count": 1
+    },
+    "schizophreniform disorder": {
+      "patterns": [
+        "schizophreniform disorder"
+      ],
+      "count": 1
+    },
+    "psychotic disorder": {
+      "patterns": [
+        "psychotic disorder"
+      ],
+      "count": 1
+    },
+    "intermittent vascular claudication": {
+      "patterns": [
+        "intermittent vascular claudication"
+      ],
+      "count": 1
+    },
+    "motion sickness": {
+      "patterns": [
+        "motion sickness"
+      ],
+      "count": 1
+    },
+    "central nervous system origin vertigo": {
+      "patterns": [
+        "central nervous system origin vertigo"
+      ],
+      "count": 1
+    },
+    "prostatitis (disease)": {
+      "patterns": [
+        "prostatitis (disease)"
+      ],
+      "count": 1
+    },
+    "trigonitis": {
+      "patterns": [
+        "trigonitis"
+      ],
+      "count": 1
+    },
+    "cystitis": {
+      "patterns": [
+        "cystitis"
+      ],
+      "count": 1
+    },
+    "malignant otitis externa caused by Pseudomonas aeruginosa": {
+      "patterns": [
+        "malignant otitis externa caused by pseudomonas aeruginosa"
+      ],
+      "count": 1
+    },
+    "botulism": {
+      "patterns": [
+        "botulism"
+      ],
+      "count": 1
+    },
+    "bacterial vaginosis": {
+      "patterns": [
+        "bacterial vaginosis"
+      ],
+      "count": 1
+    },
+    "pleural empyema (disease)": {
+      "patterns": [
+        "pleural empyema (disease)"
+      ],
+      "count": 1
+    },
+    "vulvitis": {
+      "patterns": [
+        "vulvitis"
+      ],
+      "count": 1
+    },
+    "anaerobic bacteria infectious disease": {
+      "patterns": [
+        "anaerobic bacteria infectious disease"
+      ],
+      "count": 1
+    },
+    "vulvovaginitis": {
+      "patterns": [
+        "vulvovaginitis"
+      ],
+      "count": 1
+    },
+    "vaginitis (disease)": {
+      "patterns": [
+        "vaginitis (disease)"
+      ],
+      "count": 1
+    },
+    "pyoderma gangrenosum": {
+      "patterns": [
+        "pyoderma gangrenosum"
+      ],
+      "count": 1
+    },
+    "leprosy": {
+      "patterns": [
+        "leprosy"
+      ],
+      "count": 1
+    },
+    "multibacillary leprosy": {
+      "patterns": [
+        "multibacillary leprosy"
+      ],
+      "count": 1
+    },
+    "female infertility": {
+      "patterns": [
+        "female infertility"
+      ],
+      "count": 1
+    },
+    "early myoclonic encephalopathy": {
+      "patterns": [
+        "early myoclonic encephalopathy"
+      ],
+      "count": 1
+    },
+    "attention deficit hyperactivity disorder, inattentive type": {
+      "patterns": [
+        "attention deficit hyperactivity disorder, inattentive type"
+      ],
+      "count": 1
+    },
+    "attention deficit-hyperactivity disorder": {
+      "patterns": [
+        "attention deficit-hyperactivity disorder"
+      ],
+      "count": 1
+    },
+    "acute coronary syndrome": {
+      "patterns": [
+        "acute coronary syndrome"
+      ],
+      "count": 1
+    },
+    "ST-elevation myocardial infarction": {
+      "patterns": [
+        "st-elevation myocardial infarction"
+      ],
+      "count": 1
+    },
+    "intracranial embolism": {
+      "patterns": [
+        "intracranial embolism"
+      ],
+      "count": 1
+    },
+    "pityriasis versicolor": {
+      "patterns": [
+        "pityriasis versicolor"
+      ],
+      "count": 1
+    },
+    "vulvovaginal candidiasis": {
+      "patterns": [
+        "vulvovaginal candidiasis"
+      ],
+      "count": 1
+    },
+    "headache disorder": {
+      "patterns": [
+        "headache disorder"
+      ],
+      "count": 1
+    },
+    "rhinitis": {
+      "patterns": [
+        "rhinitis"
+      ],
+      "count": 1
+    },
+    "autosomal recessive familial Mediterranean fever": {
+      "patterns": [
+        "autosomal recessive familial mediterranean fever"
+      ],
+      "count": 1
+    },
+    "familial Mediterranean fever": {
+      "patterns": [
+        "familial mediterranean fever"
+      ],
+      "count": 1
+    },
+    "Norwegian scabies": {
+      "patterns": [
+        "norwegian scabies"
+      ],
+      "count": 1
+    },
+    "mite infestation": {
+      "patterns": [
+        "mite infestation"
+      ],
+      "count": 1
+    },
+    "scabies": {
+      "patterns": [
+        "scabies"
+      ],
+      "count": 1
+    },
+    "breast carcinoma": {
+      "patterns": [
+        "breast carcinoma"
+      ],
+      "count": 1
+    },
+    "breast neoplasm": {
+      "patterns": [
+        "breast neoplasm"
+      ],
+      "count": 1
+    },
+    "retinoblastoma": {
+      "patterns": [
+        "retinoblastoma"
+      ],
+      "count": 1
+    },
+    "retinal neuroblastoma": {
+      "patterns": [
+        "retinal neuroblastoma"
+      ],
+      "count": 1
+    },
+    "neuroblastoma": {
+      "patterns": [
+        "neuroblastoma"
+      ],
+      "count": 1
+    },
+    "plasma cell myeloma": {
+      "patterns": [
+        "plasma cell myeloma"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with t(6;9)(p23;q34)": {
+      "patterns": [
+        "acute myeloid leukemia with t(6;9)(p23;q34)"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with t(9;11)(p22;q23)": {
+      "patterns": [
+        "acute myeloid leukemia with t(9;11)(p22;q23)"
+      ],
+      "count": 1
+    },
+    "myeloid leukemia": {
+      "patterns": [
+        "myeloid leukemia"
+      ],
+      "count": 1
+    },
+    "acute myeloblastic leukemia without maturation": {
+      "patterns": [
+        "acute myeloblastic leukemia without maturation"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor": {
+      "patterns": [
+        "acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with t(8;16)(p11;p13) translocation": {
+      "patterns": [
+        "acute myeloid leukemia with t(8;16)(p11;p13) translocation"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with minimal differentiation": {
+      "patterns": [
+        "acute myeloid leukemia with minimal differentiation"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with t(8;21)(q22;q22) translocation": {
+      "patterns": [
+        "acute myeloid leukemia with t(8;21)(q22;q22) translocation"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with CEBPA somatic mutations": {
+      "patterns": [
+        "acute myeloid leukemia with cebpa somatic mutations"
+      ],
+      "count": 1
+    },
+    "unclassified acute myeloid leukemia": {
+      "patterns": [
+        "unclassified acute myeloid leukemia"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with NPM1 somatic mutations": {
+      "patterns": [
+        "acute myeloid leukemia with npm1 somatic mutations"
+      ],
+      "count": 1
+    },
+    "inherited acute myeloid leukemia": {
+      "patterns": [
+        "inherited acute myeloid leukemia"
+      ],
+      "count": 1
+    },
+    "acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)": {
+      "patterns": [
+        "acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)"
+      ],
+      "count": 1
+    },
+    "acute myeloblastic leukemia with maturation": {
+      "patterns": [
+        "acute myeloblastic leukemia with maturation"
+      ],
+      "count": 1
+    },
+    "therapy related acute myeloid leukemia and myelodysplastic syndrome": {
+      "patterns": [
+        "therapy related acute myeloid leukemia and myelodysplastic syndrome"
+      ],
+      "count": 1
+    },
+    "acute promyelocytic leukemia": {
+      "patterns": [
+        "acute promyelocytic leukemia"
+      ],
+      "count": 1
+    },
+    "metastatic melanoma": {
+      "patterns": [
+        "metastatic melanoma"
+      ],
+      "count": 1
+    },
+    "hepatitis C virus infection": {
+      "patterns": [
+        "hepatitis c virus infection"
+      ],
+      "count": 1
+    },
+    "chronic hepatitis C virus infection": {
+      "patterns": [
+        "chronic hepatitis c virus infection"
+      ],
+      "count": 1
+    },
+    "adenosarcoma": {
+      "patterns": [
+        "adenosarcoma"
+      ],
+      "count": 1
+    },
+    "rhabdomyosarcoma (disease)": {
+      "patterns": [
+        "rhabdomyosarcoma (disease)"
+      ],
+      "count": 1
+    },
+    "Wilms tumor": {
+      "patterns": [
+        "wilms tumor"
+      ],
+      "count": 1
+    },
+    "spermatocytic seminoma": {
+      "patterns": [
+        "spermatocytic seminoma"
+      ],
+      "count": 1
+    },
+    "testicular germ cell tumor": {
+      "patterns": [
+        "testicular germ cell tumor"
+      ],
+      "count": 1
+    },
+    "testicular seminoma": {
+      "patterns": [
+        "testicular seminoma"
+      ],
+      "count": 1
+    },
+    "testicular cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "testicular cancer",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "gestational trophoblastic neoplasm": {
+      "patterns": [
+        "gestational trophoblastic neoplasm"
+      ],
+      "count": 1
+    },
+    "kidney Wilms tumor": {
+      "patterns": [
+        "kidney wilms tumor"
+      ],
+      "count": 1
+    },
+    "testicular teratoma": {
+      "patterns": [
+        "testicular teratoma"
+      ],
+      "count": 1
+    },
+    "seminoma": {
+      "patterns": [
+        "seminoma"
+      ],
+      "count": 1
+    },
+    "Ewing sarcoma": {
+      "patterns": [
+        "ewing sarcoma"
+      ],
+      "count": 1
+    },
+    "endometriosis of uterus": {
+      "patterns": [
+        "endometriosis of uterus"
+      ],
+      "count": 1
+    },
+    "endometriosis (disease)": {
+      "patterns": [
+        "endometriosis (disease)"
+      ],
+      "count": 1
+    },
+    "breast fibrocystic disease": {
+      "patterns": [
+        "breast fibrocystic disease"
+      ],
+      "count": 1
+    },
+    "malignant hyperthermia of anesthesia": {
+      "patterns": [
+        "malignant hyperthermia of anesthesia"
+      ],
+      "count": 1
+    },
+    "exercise-induced malignant hyperthermia": {
+      "patterns": [
+        "exercise-induced malignant hyperthermia"
+      ],
+      "count": 1
+    },
+    "beta-thalassemia intermedia": {
+      "patterns": [
+        "beta-thalassemia intermedia"
+      ],
+      "count": 1
+    },
+    "beta thalassemia": {
+      "patterns": [
+        "beta thalassemia"
+      ],
+      "count": 1
+    },
+    "dominant beta-thalassemia": {
+      "patterns": [
+        "dominant beta-thalassemia"
+      ],
+      "count": 1
+    },
+    "hemosiderosis": {
+      "patterns": [
+        "hemosiderosis"
+      ],
+      "count": 1
+    },
+    "hereditary persistence of fetal hemoglobin": {
+      "patterns": [
+        "hereditary persistence of fetal hemoglobin"
+      ],
+      "count": 1
+    },
+    "beta-thalassemia HBB/LCRB": {
+      "patterns": [
+        "beta-thalassemia hbb/lcrb"
+      ],
+      "count": 1
+    },
+    "beta-thalassemia and related diseases": {
+      "patterns": [
+        "beta-thalassemia and related diseases"
+      ],
+      "count": 1
+    },
+    "von Willebrand disease (hereditary or acquired)": {
+      "patterns": [
+        "von willebrand disease (hereditary or acquired)"
+      ],
+      "count": 1
+    },
+    "hereditary von Willebrand disease": {
+      "patterns": [
+        "hereditary von willebrand disease"
+      ],
+      "count": 1
+    },
+    "hemophilia": {
+      "patterns": [
+        "hemophilia"
+      ],
+      "count": 1
+    },
+    "symptomatic form of hemophilia in female carriers": {
+      "patterns": [
+        "symptomatic form of hemophilia in female carriers"
+      ],
+      "count": 1
+    },
+    "von Willebrand disease": {
+      "patterns": [
+        "von willebrand disease"
+      ],
+      "count": 1
+    },
+    "nocturnal enuresis": {
+      "patterns": [
+        "nocturnal enuresis"
+      ],
+      "count": 1
+    },
+    "keloid": {
+      "patterns": [
+        "keloid"
+      ],
+      "count": 1
+    },
+    "iritis (disease)": {
+      "patterns": [
+        "iritis (disease)"
+      ],
+      "count": 1
+    },
+    "uveitis": {
+      "patterns": [
+        "uveitis"
+      ],
+      "count": 1
+    },
+    "infectious anterior uveitis": {
+      "patterns": [
+        "infectious anterior uveitis"
+      ],
+      "count": 1
+    },
+    "idiopathic uveitis": {
+      "patterns": [
+        "idiopathic uveitis"
+      ],
+      "count": 1
+    },
+    "iridocyclitis (disease)": {
+      "patterns": [
+        "iridocyclitis (disease)"
+      ],
+      "count": 1
+    },
+    "iris disease": {
+      "patterns": [
+        "iris disease"
+      ],
+      "count": 1
+    },
+    "panuveitis (disease)": {
+      "patterns": [
+        "panuveitis (disease)"
+      ],
+      "count": 1
+    },
+    "corneal ulcer": {
+      "patterns": [
+        "corneal ulcer"
+      ],
+      "count": 1
+    },
+    "punctate epithelial keratoconjunctivitis": {
+      "patterns": [
+        "punctate epithelial keratoconjunctivitis"
+      ],
+      "count": 1
+    },
+    "ciliary body disease": {
+      "patterns": [
+        "ciliary body disease"
+      ],
+      "count": 1
+    },
+    "keloid formation": {
+      "patterns": [
+        "keloid formation"
+      ],
+      "count": 1
+    },
+    "retinal artery occlusion": {
+      "patterns": [
+        "retinal artery occlusion"
+      ],
+      "count": 1
+    },
+    "Burkitt lymphoma": {
+      "patterns": [
+        "burkitt lymphoma"
+      ],
+      "count": 1
+    },
+    "status epilepticus": {
+      "patterns": [
+        "status epilepticus"
+      ],
+      "count": 1
+    },
+    "alcohol withdrawal delirium": {
+      "patterns": [
+        "alcohol withdrawal delirium"
+      ],
+      "count": 1
+    },
+    "Wernicke-Korsakoff syndrome": {
+      "patterns": [
+        "wernicke-korsakoff syndrome"
+      ],
+      "count": 1
+    },
+    "alcohol withdrawal": {
+      "patterns": [
+        "alcohol withdrawal"
+      ],
+      "count": 1
+    },
+    "tetanus": {
+      "patterns": [
+        "tetanus"
+      ],
+      "count": 1
+    },
+    "actinic cheilitis": {
+      "patterns": [
+        "actinic cheilitis"
+      ],
+      "count": 1
+    },
+    "inverted follicular keratosis": {
+      "patterns": [
+        "inverted follicular keratosis"
+      ],
+      "count": 1
+    },
+    "keratoacanthoma": {
+      "patterns": [
+        "keratoacanthoma"
+      ],
+      "count": 1
+    },
+    "melanoacanthoma": {
+      "patterns": [
+        "melanoacanthoma"
+      ],
+      "count": 1
+    },
+    "elephantiasis": {
+      "patterns": [
+        "elephantiasis"
+      ],
+      "count": 1
+    },
+    "loiasis": {
+      "patterns": [
+        "loiasis"
+      ],
+      "count": 1
+    },
+    "lymphedema": {
+      "patterns": [
+        "lymphedema"
+      ],
+      "count": 1
+    },
+    "filariasis": {
+      "patterns": [
+        "filariasis"
+      ],
+      "count": 1
+    },
+    "onchocerciasis": {
+      "patterns": [
+        "onchocerciasis"
+      ],
+      "count": 1
+    },
+    "filarial elephantiasis": {
+      "patterns": [
+        "filarial elephantiasis"
+      ],
+      "count": 1
+    },
+    "atrial fibrillation (disease)": {
+      "patterns": [
+        "atrial fibrillation (disease)"
+      ],
+      "count": 1
+    },
+    "digitalis poisoning": {
+      "patterns": [
+        "digitalis poisoning"
+      ],
+      "count": 1
+    },
+    "insomnia (disease)": {
+      "patterns": [
+        "insomnia (disease)"
+      ],
+      "count": 1
+    },
+    "prostate cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "prostate cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "prostate carcinoma": {
+      "patterns": [
+        "prostate carcinoma"
+      ],
+      "count": 1
+    },
+    "lung cancer": {
+      "patterns": [
+        "kanser",
+        "lung cancer",
+        "malignancy",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "familial prostate carcinoma": {
+      "patterns": [
+        "familial prostate carcinoma"
+      ],
+      "count": 1
+    },
+    "non-small cell lung carcinoma (disease)": {
+      "patterns": [
+        "non-small cell lung carcinoma (disease)"
+      ],
+      "count": 1
+    },
+    "Alzheimer disease": {
+      "patterns": [
+        "pagkalimot",
+        "alzheimer disease",
+        "dementia",
+        "alzheimers"
+      ],
+      "count": 4
+    },
+    "cerebellar degeneration": {
+      "patterns": [
+        "cerebellar degeneration"
+      ],
+      "count": 1
+    },
+    "Reye syndrome": {
+      "patterns": [
+        "reye syndrome"
+      ],
+      "count": 1
+    },
+    "Pick disease": {
+      "patterns": [
+        "pick disease"
+      ],
+      "count": 1
+    },
+    "Alzheimer disease without neurofibrillary tangles": {
+      "patterns": [
+        "pagkalimot",
+        "alzheimer disease without neurofibrillary tangles",
+        "dementia",
+        "alzheimers"
+      ],
+      "count": 4
+    },
+    "hypotensive disorder": {
+      "patterns": [
+        "hypotensive disorder"
+      ],
+      "count": 1
+    },
+    "bone osteosarcoma": {
+      "patterns": [
+        "bone osteosarcoma"
+      ],
+      "count": 1
+    },
+    "Kaposi's sarcoma (disease)": {
+      "patterns": [
+        "kaposi's sarcoma (disease)"
+      ],
+      "count": 1
+    },
+    "lung neoplasm": {
+      "patterns": [
+        "lung neoplasm"
+      ],
+      "count": 1
+    },
+    "small cell lung carcinoma": {
+      "patterns": [
+        "small cell lung carcinoma"
+      ],
+      "count": 1
+    },
+    "thyroid gland undifferentiated (anaplastic) carcinoma": {
+      "patterns": [
+        "thyroid gland undifferentiated (anaplastic) carcinoma"
+      ],
+      "count": 1
+    },
+    "differentiated thyroid carcinoma": {
+      "patterns": [
+        "differentiated thyroid carcinoma"
+      ],
+      "count": 1
+    },
+    "familial thyroid carcinoma": {
+      "patterns": [
+        "familial thyroid carcinoma"
+      ],
+      "count": 1
+    },
+    "thyroid cancer": {
+      "patterns": [
+        "thyroid cancer",
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "familial papillary thyroid carcinoma with renal papillary neoplasia": {
+      "patterns": [
+        "familial papillary thyroid carcinoma with renal papillary neoplasia"
+      ],
+      "count": 1
+    },
+    "familial papillary or follicular thyroid carcinoma": {
+      "patterns": [
+        "familial papillary or follicular thyroid carcinoma"
+      ],
+      "count": 1
+    },
+    "female breast carcinoma": {
+      "patterns": [
+        "female breast carcinoma"
+      ],
+      "count": 1
+    },
+    "medullary thyroid gland carcinoma": {
+      "patterns": [
+        "medullary thyroid gland carcinoma"
+      ],
+      "count": 1
+    },
+    "cholera": {
+      "patterns": [
+        "cholera"
+      ],
+      "count": 1
+    },
+    "bartonellosis": {
+      "patterns": [
+        "bartonellosis"
+      ],
+      "count": 1
+    },
+    "inhalational anthrax": {
+      "patterns": [
+        "inhalational anthrax"
+      ],
+      "count": 1
+    },
+    "gastrointestinal anthrax": {
+      "patterns": [
+        "gastrointestinal anthrax"
+      ],
+      "count": 1
+    },
+    "urethritis (disease)": {
+      "patterns": [
+        "urethritis (disease)"
+      ],
+      "count": 1
+    },
+    "cutaneous anthrax": {
+      "patterns": [
+        "cutaneous anthrax"
+      ],
+      "count": 1
+    },
+    "chlamydia infectious disease": {
+      "patterns": [
+        "chlamydia infectious disease"
+      ],
+      "count": 1
+    },
+    "gonococcal epididymo-orchitis": {
+      "patterns": [
+        "gonococcal epididymo-orchitis"
+      ],
+      "count": 1
+    },
+    "endemic typhus": {
+      "patterns": [
+        "endemic typhus"
+      ],
+      "count": 1
+    },
+    "chlamydia trachomatis infectious disease": {
+      "patterns": [
+        "chlamydia trachomatis infectious disease"
+      ],
+      "count": 1
+    },
+    "epidemic louse-borne typhus": {
+      "patterns": [
+        "epidemic louse-borne typhus"
+      ],
+      "count": 1
+    },
+    "tularemia": {
+      "patterns": [
+        "tularemia"
+      ],
+      "count": 1
+    },
+    "Brill-Zinsser disease": {
+      "patterns": [
+        "brill-zinsser disease"
+      ],
+      "count": 1
+    },
+    "relapsing epidemic typhus": {
+      "patterns": [
+        "relapsing epidemic typhus"
+      ],
+      "count": 1
+    },
+    "scrub typhus": {
+      "patterns": [
+        "scrub typhus"
+      ],
+      "count": 1
+    },
+    "listeriosis": {
+      "patterns": [
+        "listeriosis"
+      ],
+      "count": 1
+    },
+    "heart failure": {
+      "patterns": [
+        "heart failure"
+      ],
+      "count": 1
+    },
+    "acquired purpura fulminans": {
+      "patterns": [
+        "acquired purpura fulminans"
+      ],
+      "count": 1
+    },
+    "disseminated intravascular coagulation": {
+      "patterns": [
+        "disseminated intravascular coagulation"
+      ],
+      "count": 1
+    },
+    "purpura fulminans": {
+      "patterns": [
+        "purpura fulminans"
+      ],
+      "count": 1
+    },
+    "pulmonary embolism (disease)": {
+      "patterns": [
+        "pulmonary embolism (disease)"
+      ],
+      "count": 1
+    },
+    "chronic hepatitis B virus infection": {
+      "patterns": [
+        "chronic hepatitis b virus infection"
+      ],
+      "count": 1
+    },
+    "bronchial disease": {
+      "patterns": [
+        "bronchial disease"
+      ],
+      "count": 1
+    },
+    "anaphylaxis": {
+      "patterns": [
+        "anaphylaxis"
+      ],
+      "count": 1
+    },
+    "pulmonary emphysema": {
+      "patterns": [
+        "pulmonary emphysema"
+      ],
+      "count": 1
+    },
+    "cluster headache syndrome": {
+      "patterns": [
+        "cluster headache syndrome"
+      ],
+      "count": 1
+    },
+    "obsolete vascular headache": {
+      "patterns": [
+        "obsolete vascular headache"
+      ],
+      "count": 1
+    },
+    "migraine disorder": {
+      "patterns": [
+        "migraine disorder"
+      ],
+      "count": 1
+    },
+    "paroxysmal Hemicrania": {
+      "patterns": [
+        "paroxysmal hemicrania"
+      ],
+      "count": 1
+    },
+    "hemicrania continua": {
+      "patterns": [
+        "hemicrania continua"
+      ],
+      "count": 1
+    },
+    "migraine with or without aura, susceptibility to": {
+      "patterns": [
+        "migraine with or without aura, susceptibility to"
+      ],
+      "count": 1
+    },
+    "pertussis": {
+      "patterns": [
+        "pertussis"
+      ],
+      "count": 1
+    },
+    "diphtheria": {
+      "patterns": [
+        "diphtheria"
+      ],
+      "count": 1
+    },
+    "endogenous depression": {
+      "patterns": [
+        "clinical depression",
+        "endogenous depression",
+        "major depressive disorder",
+        "depresyon"
+      ],
+      "count": 4
+    },
+    "major depressive disorder": {
+      "patterns": [
+        "major depressive disorder"
+      ],
+      "count": 1
+    },
+    "unipolar depression": {
+      "patterns": [
+        "major depressive disorder",
+        "clinical depression",
+        "unipolar depression",
+        "depresyon"
+      ],
+      "count": 4
+    },
+    "His bundle tachycardia": {
+      "patterns": [
+        "his bundle tachycardia"
+      ],
+      "count": 1
+    },
+    "multifocal atrial tachycardia (disease)": {
+      "patterns": [
+        "multifocal atrial tachycardia (disease)"
+      ],
+      "count": 1
+    },
+    "postmenopausal atrophic vaginitis": {
+      "patterns": [
+        "postmenopausal atrophic vaginitis"
+      ],
+      "count": 1
+    },
+    "obsolete atrophic vulva": {
+      "patterns": [
+        "obsolete atrophic vulva"
+      ],
+      "count": 1
+    },
+    "renal cell adenocarcinoma": {
+      "patterns": [
+        "renal cell adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "tuberous sclerosis": {
+      "patterns": [
+        "tuberous sclerosis"
+      ],
+      "count": 1
+    },
+    "situs inversus": {
+      "patterns": [
+        "situs inversus"
+      ],
+      "count": 1
+    },
+    "renal cell carcinoma (disease)": {
+      "patterns": [
+        "renal cell carcinoma (disease)"
+      ],
+      "count": 1
+    },
+    "clear cell renal carcinoma": {
+      "patterns": [
+        "clear cell renal carcinoma"
+      ],
+      "count": 1
+    },
+    "nonpapillary renal cell carcinoma": {
+      "patterns": [
+        "nonpapillary renal cell carcinoma"
+      ],
+      "count": 1
+    },
+    "kidney angiomyolipoma": {
+      "patterns": [
+        "kidney angiomyolipoma"
+      ],
+      "count": 1
+    },
+    "Marfan syndrome": {
+      "patterns": [
+        "marfan syndrome"
+      ],
+      "count": 1
+    },
+    "gastrin secretion abnormality": {
+      "patterns": [
+        "gastrin secretion abnormality"
+      ],
+      "count": 1
+    },
+    "Zollinger-Ellison syndrome": {
+      "patterns": [
+        "zollinger-ellison syndrome"
+      ],
+      "count": 1
+    },
+    "hyperinsulinism (disease)": {
+      "patterns": [
+        "hyperinsulinism (disease)"
+      ],
+      "count": 1
+    },
+    "hypoalphalipoproteinemia": {
+      "patterns": [
+        "hypoalphalipoproteinemia"
+      ],
+      "count": 1
+    },
+    "familial hyperlipidemia": {
+      "patterns": [
+        "familial hyperlipidemia"
+      ],
+      "count": 1
+    },
+    "hyperlipidemia": {
+      "patterns": [
+        "hyperlipidemia"
+      ],
+      "count": 1
+    },
+    "cyclic hematopoiesis": {
+      "patterns": [
+        "cyclic hematopoiesis"
+      ],
+      "count": 1
+    },
+    "constitutional neutropenia": {
+      "patterns": [
+        "constitutional neutropenia"
+      ],
+      "count": 1
+    },
+    "severe congenital neutropenia": {
+      "patterns": [
+        "severe congenital neutropenia"
+      ],
+      "count": 1
+    },
+    "neutropenia, chronic familial": {
+      "patterns": [
+        "neutropenia, chronic familial"
+      ],
+      "count": 1
+    },
+    "Cryptococcal meningitis": {
+      "patterns": [
+        "cryptococcal meningitis"
+      ],
+      "count": 1
+    },
+    "colorectal cancer": {
+      "patterns": [
+        "kanser",
+        "colorectal cancer",
+        "malignancy",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "colonic neoplasm": {
+      "patterns": [
+        "colonic neoplasm"
+      ],
+      "count": 1
+    },
+    "superficial multifocal basal cell carcinoma": {
+      "patterns": [
+        "superficial multifocal basal cell carcinoma"
+      ],
+      "count": 1
+    },
+    "malignant colon neoplasm": {
+      "patterns": [
+        "malignant colon neoplasm"
+      ],
+      "count": 1
+    },
+    "pancreatic adenocarcinoma": {
+      "patterns": [
+        "pancreatic adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "squamous cell carcinoma of colon": {
+      "patterns": [
+        "squamous cell carcinoma of colon"
+      ],
+      "count": 1
+    },
+    "dysthymic disorder": {
+      "patterns": [
+        "dysthymic disorder"
+      ],
+      "count": 1
+    },
+    "obsessive-compulsive disorder": {
+      "patterns": [
+        "obsessive-compulsive disorder"
+      ],
+      "count": 1
+    },
+    "neurotic disorder": {
+      "patterns": [
+        "neurotic disorder"
+      ],
+      "count": 1
+    },
+    "bulimia nervosa": {
+      "patterns": [
+        "bulimia nervosa"
+      ],
+      "count": 1
+    },
+    "prostate neoplasm": {
+      "patterns": [
+        "prostate neoplasm"
+      ],
+      "count": 1
+    },
+    "folic acid deficiency anemia": {
+      "patterns": [
+        "folic acid deficiency anemia"
+      ],
+      "count": 1
+    },
+    "vitamin deficiency disorder": {
+      "patterns": [
+        "vitamin deficiency disorder"
+      ],
+      "count": 1
+    },
+    "microcytic anemia": {
+      "patterns": [
+        "microcytic anemia"
+      ],
+      "count": 1
+    },
+    "iron deficiency anemia": {
+      "patterns": [
+        "iron deficiency anemia"
+      ],
+      "count": 1
+    },
+    "deficiency anemia": {
+      "patterns": [
+        "deficiency anemia"
+      ],
+      "count": 1
+    },
+    "hypochromic anemia": {
+      "patterns": [
+        "hypochromic anemia"
+      ],
+      "count": 1
+    },
+    "superior limbic keratoconjunctivitis": {
+      "patterns": [
+        "superior limbic keratoconjunctivitis"
+      ],
+      "count": 1
+    },
+    "folliculitis": {
+      "patterns": [
+        "folliculitis"
+      ],
+      "count": 1
+    },
+    "neurotrophic keratopathy": {
+      "patterns": [
+        "neurotrophic keratopathy"
+      ],
+      "count": 1
+    },
+    "pneumococcal infection": {
+      "patterns": [
+        "pneumococcal infection"
+      ],
+      "count": 1
+    },
+    "furunculosis": {
+      "patterns": [
+        "furunculosis"
+      ],
+      "count": 1
+    },
+    "paronychia (disease)": {
+      "patterns": [
+        "paronychia (disease)"
+      ],
+      "count": 1
+    },
+    "dacryocystitis": {
+      "patterns": [
+        "dacryocystitis"
+      ],
+      "count": 1
+    },
+    "vernal keratoconjunctivitis": {
+      "patterns": [
+        "vernal keratoconjunctivitis"
+      ],
+      "count": 1
+    },
+    "postherpetic neuralgia": {
+      "patterns": [
+        "postherpetic neuralgia"
+      ],
+      "count": 1
+    },
+    "restless legs syndrome": {
+      "patterns": [
+        "restless legs syndrome"
+      ],
+      "count": 1
+    },
+    "herpes simplex virus keratitis": {
+      "patterns": [
+        "herpes simplex virus keratitis"
+      ],
+      "count": 1
+    },
+    "cytomegalovirus retinitis": {
+      "patterns": [
+        "cytomegalovirus retinitis"
+      ],
+      "count": 1
+    },
+    "type 2 diabetes mellitus": {
+      "patterns": [
+        "type 2 diabetes mellitus",
+        "high blood sugar",
+        "diabetes",
+        "diyabetis",
+        "type 2 diabetes",
+        "type 1 diabetes",
+        "mataas na asukal"
+      ],
+      "count": 7
+    },
+    "diabetes mellitus (disease)": {
+      "patterns": [
+        "diabetes mellitus (disease)",
+        "high blood sugar",
+        "diabetes",
+        "diyabetis",
+        "type 2 diabetes",
+        "type 1 diabetes",
+        "mataas na asukal"
+      ],
+      "count": 7
+    },
+    "Tourette syndrome": {
+      "patterns": [
+        "tourette syndrome"
+      ],
+      "count": 1
+    },
+    "canker sore": {
+      "patterns": [
+        "canker sore"
+      ],
+      "count": 1
+    },
+    "proctitis": {
+      "patterns": [
+        "proctitis"
+      ],
+      "count": 1
+    },
+    "ulcerative colitis (disease)": {
+      "patterns": [
+        "ulcerative colitis (disease)"
+      ],
+      "count": 1
+    },
+    "aphthous stomatitis": {
+      "patterns": [
+        "aphthous stomatitis"
+      ],
+      "count": 1
+    },
+    "hemorrhoid": {
+      "patterns": [
+        "hemorrhoid"
+      ],
+      "count": 1
+    },
+    "melanoma": {
+      "patterns": [
+        "melanoma"
+      ],
+      "count": 1
+    },
+    "sickle cell anemia": {
+      "patterns": [
+        "sickle cell anemia"
+      ],
+      "count": 1
+    },
+    "sickle cell disease and related diseases": {
+      "patterns": [
+        "sickle cell disease and related diseases"
+      ],
+      "count": 1
+    },
+    "chronic myelogenous leukemia, BCR-ABL1 positive": {
+      "patterns": [
+        "chronic myelogenous leukemia, bcr-abl1 positive"
+      ],
+      "count": 1
+    },
+    "familial dermatographia": {
+      "patterns": [
+        "familial dermatographia"
+      ],
+      "count": 1
+    },
+    "urticaria (disease)": {
+      "patterns": [
+        "urticaria (disease)"
+      ],
+      "count": 1
+    },
+    "patent ductus arteriosus": {
+      "patterns": [
+        "patent ductus arteriosus"
+      ],
+      "count": 1
+    },
+    "hypereosinophilic syndrome": {
+      "patterns": [
+        "hypereosinophilic syndrome"
+      ],
+      "count": 1
+    },
+    "mastocytosis": {
+      "patterns": [
+        "mastocytosis"
+      ],
+      "count": 1
+    },
+    "chronic eosinophilic leukemia": {
+      "patterns": [
+        "chronic eosinophilic leukemia"
+      ],
+      "count": 1
+    },
+    "dermatofibrosarcoma protuberans": {
+      "patterns": [
+        "dermatofibrosarcoma protuberans"
+      ],
+      "count": 1
+    },
+    "idiopathic hypereosinophilic syndrome": {
+      "patterns": [
+        "idiopathic hypereosinophilic syndrome"
+      ],
+      "count": 1
+    },
+    "chronic eosinophilic leukemia, not otherwise specified": {
+      "patterns": [
+        "chronic eosinophilic leukemia, not otherwise specified"
+      ],
+      "count": 1
+    },
+    "systemic mastocytosis": {
+      "patterns": [
+        "systemic mastocytosis"
+      ],
+      "count": 1
+    },
+    "blast phase chronic myelogenous leukemia, BCR-ABL1 positive": {
+      "patterns": [
+        "blast phase chronic myelogenous leukemia, bcr-abl1 positive"
+      ],
+      "count": 1
+    },
+    "gastrointestinal stromal tumor": {
+      "patterns": [
+        "gastrointestinal stromal tumor"
+      ],
+      "count": 1
+    },
+    "Gaucher disease": {
+      "patterns": [
+        "gaucher disease"
+      ],
+      "count": 1
+    },
+    "anogenital human papillomavirus infection": {
+      "patterns": [
+        "anogenital human papillomavirus infection"
+      ],
+      "count": 1
+    },
+    "common wart": {
+      "patterns": [
+        "common wart"
+      ],
+      "count": 1
+    },
+    "epidermodysplasia verruciformis": {
+      "patterns": [
+        "epidermodysplasia verruciformis"
+      ],
+      "count": 1
+    },
+    "diabetic ketoacidosis": {
+      "patterns": [
+        "diabetic ketoacidosis"
+      ],
+      "count": 1
+    },
+    "type 1 diabetes mellitus": {
+      "patterns": [
+        "high blood sugar",
+        "diabetes",
+        "type 1 diabetes mellitus",
+        "diyabetis",
+        "type 2 diabetes",
+        "type 1 diabetes",
+        "mataas na asukal"
+      ],
+      "count": 7
+    },
+    "IDDM 1": {
+      "patterns": [
+        "iddm 1"
+      ],
+      "count": 1
+    },
+    "chronic obstructive pulmonary disease": {
+      "patterns": [
+        "chronic obstructive pulmonary disease"
+      ],
+      "count": 1
+    },
+    "COPD, severe early onset": {
+      "patterns": [
+        "copd, severe early onset"
+      ],
+      "count": 1
+    },
+    "hyperphosphatemia (disease)": {
+      "patterns": [
+        "hyperphosphatemia (disease)"
+      ],
+      "count": 1
+    },
+    "vascular disease": {
+      "patterns": [
+        "vascular disease"
+      ],
+      "count": 1
+    },
+    "Raynaud disease": {
+      "patterns": [
+        "raynaud disease"
+      ],
+      "count": 1
+    },
+    "fusariosis": {
+      "patterns": [
+        "fusariosis"
+      ],
+      "count": 1
+    },
+    "strongyloidiasis": {
+      "patterns": [
+        "strongyloidiasis"
+      ],
+      "count": 1
+    },
+    "arachnoiditis": {
+      "patterns": [
+        "arachnoiditis"
+      ],
+      "count": 1
+    },
+    "IgG4-related pachymeningitis": {
+      "patterns": [
+        "igg4-related pachymeningitis"
+      ],
+      "count": 1
+    },
+    "meningitis (disease)": {
+      "patterns": [
+        "meningitis (disease)"
+      ],
+      "count": 1
+    },
+    "infectious meningitis": {
+      "patterns": [
+        "infectious meningitis"
+      ],
+      "count": 1
+    },
+    "paracoccidioidomycosis": {
+      "patterns": [
+        "paracoccidioidomycosis"
+      ],
+      "count": 1
+    },
+    "pityriasis simplex": {
+      "patterns": [
+        "pityriasis simplex"
+      ],
+      "count": 1
+    },
+    "Cushing syndrome": {
+      "patterns": [
+        "cushing syndrome"
+      ],
+      "count": 1
+    },
+    "adrenal gland hyperfunction": {
+      "patterns": [
+        "adrenal gland hyperfunction"
+      ],
+      "count": 1
+    },
+    "chromomycosis": {
+      "patterns": [
+        "chromomycosis"
+      ],
+      "count": 1
+    },
+    "hepatic coma": {
+      "patterns": [
+        "hepatic coma"
+      ],
+      "count": 1
+    },
+    "hepatic encephalopathy": {
+      "patterns": [
+        "hepatic encephalopathy"
+      ],
+      "count": 1
+    },
+    "megaloblastic anemia (disease)": {
+      "patterns": [
+        "megaloblastic anemia (disease)"
+      ],
+      "count": 1
+    },
+    "pyelonephritis": {
+      "patterns": [
+        "pyelonephritis"
+      ],
+      "count": 1
+    },
+    "hypothyroidism": {
+      "patterns": [
+        "hypothyroidism"
+      ],
+      "count": 1
+    },
+    "congenital hypothyroidism": {
+      "patterns": [
+        "congenital hypothyroidism"
+      ],
+      "count": 1
+    },
+    "thyroid gland disease": {
+      "patterns": [
+        "thyroid gland disease"
+      ],
+      "count": 1
+    },
+    "Hashimoto thyroiditis": {
+      "patterns": [
+        "hashimoto thyroiditis"
+      ],
+      "count": 1
+    },
+    "myxedema": {
+      "patterns": [
+        "myxedema"
+      ],
+      "count": 1
+    },
+    "goiter (disease)": {
+      "patterns": [
+        "goiter (disease)"
+      ],
+      "count": 1
+    },
+    "premature ejaculation (disease)": {
+      "patterns": [
+        "premature ejaculation (disease)"
+      ],
+      "count": 1
+    },
+    "Pthirus pubis infestation": {
+      "patterns": [
+        "pthirus pubis infestation"
+      ],
+      "count": 1
+    },
+    "psychologic dyspareunia": {
+      "patterns": [
+        "psychologic dyspareunia"
+      ],
+      "count": 1
+    },
+    "Pediculus humanus capitis infestation": {
+      "patterns": [
+        "pediculus humanus capitis infestation"
+      ],
+      "count": 1
+    },
+    "neuralgia": {
+      "patterns": [
+        "neuralgia"
+      ],
+      "count": 1
+    },
+    "major affective disorder": {
+      "patterns": [
+        "major affective disorder"
+      ],
+      "count": 1
+    },
+    "pseudotumor cerebri": {
+      "patterns": [
+        "pseudotumor cerebri"
+      ],
+      "count": 1
+    },
+    "intracranial hypertension": {
+      "patterns": [
+        "alta presyon",
+        "mataas na presyon ng dugo",
+        "intracranial hypertension",
+        "high blood",
+        "high blood pressure"
+      ],
+      "count": 5
+    },
+    "trichuriasis": {
+      "patterns": [
+        "trichuriasis"
+      ],
+      "count": 1
+    },
+    "ascaridiasis": {
+      "patterns": [
+        "ascaridiasis"
+      ],
+      "count": 1
+    },
+    "irritable bowel syndrome": {
+      "patterns": [
+        "irritable bowel syndrome"
+      ],
+      "count": 1
+    },
+    "Clostridium difficile colitis": {
+      "patterns": [
+        "clostridium difficile colitis"
+      ],
+      "count": 1
+    },
+    "neurocirculatory asthenia": {
+      "patterns": [
+        "neurocirculatory asthenia"
+      ],
+      "count": 1
+    },
+    "ulcerative proctosigmoiditis": {
+      "patterns": [
+        "ulcerative proctosigmoiditis"
+      ],
+      "count": 1
+    },
+    "thyrotoxicosis": {
+      "patterns": [
+        "thyrotoxicosis"
+      ],
+      "count": 1
+    },
+    "hyperthyroidism": {
+      "patterns": [
+        "hyperthyroidism"
+      ],
+      "count": 1
+    },
+    "Graves disease": {
+      "patterns": [
+        "graves disease"
+      ],
+      "count": 1
+    },
+    "methemoglobinemia": {
+      "patterns": [
+        "methemoglobinemia"
+      ],
+      "count": 1
+    },
+    "sulfhemoglobinemia": {
+      "patterns": [
+        "sulfhemoglobinemia"
+      ],
+      "count": 1
+    },
+    "narcolepsy": {
+      "patterns": [
+        "narcolepsy"
+      ],
+      "count": 1
+    },
+    "Balo concentric sclerosis": {
+      "patterns": [
+        "balo concentric sclerosis"
+      ],
+      "count": 1
+    },
+    "narcolepsy-cataplexy syndrome": {
+      "patterns": [
+        "narcolepsy-cataplexy syndrome"
+      ],
+      "count": 1
+    },
+    "central nervous system disease": {
+      "patterns": [
+        "central nervous system disease"
+      ],
+      "count": 1
+    },
+    "X-linked adrenoleukodystrophy": {
+      "patterns": [
+        "x-linked adrenoleukodystrophy"
+      ],
+      "count": 1
+    },
+    "amoebiasis due to Entamoeba histolytica": {
+      "patterns": [
+        "amoebiasis due to entamoeba histolytica"
+      ],
+      "count": 1
+    },
+    "trichomoniasis": {
+      "patterns": [
+        "trichomoniasis"
+      ],
+      "count": 1
+    },
+    "intracranial abscess": {
+      "patterns": [
+        "intracranial abscess"
+      ],
+      "count": 1
+    },
+    "giardiasis": {
+      "patterns": [
+        "giardiasis"
+      ],
+      "count": 1
+    },
+    "tinea unguium": {
+      "patterns": [
+        "tinea unguium"
+      ],
+      "count": 1
+    },
+    "relapsing-remitting multiple sclerosis": {
+      "patterns": [
+        "relapsing-remitting multiple sclerosis"
+      ],
+      "count": 1
+    },
+    "plague": {
+      "patterns": [
+        "plague"
+      ],
+      "count": 1
+    },
+    "pneumonic plague": {
+      "patterns": [
+        "pneumonic plague"
+      ],
+      "count": 1
+    },
+    "septicemic plague": {
+      "patterns": [
+        "septicemic plague"
+      ],
+      "count": 1
+    },
+    "morphine dependence": {
+      "patterns": [
+        "morphine dependence"
+      ],
+      "count": 1
+    },
+    "opiate dependence": {
+      "patterns": [
+        "opiate dependence"
+      ],
+      "count": 1
+    },
+    "substance abuse/dependence": {
+      "patterns": [
+        "substance abuse/dependence"
+      ],
+      "count": 1
+    },
+    "obesity disorder": {
+      "patterns": [
+        "overweight",
+        "labis na timbang",
+        "sobrang taba",
+        "obesity disorder"
+      ],
+      "count": 4
+    },
+    "monogenic obesity": {
+      "patterns": [
+        "overweight",
+        "labis na timbang",
+        "monogenic obesity",
+        "sobrang taba"
+      ],
+      "count": 4
+    },
+    "myositis": {
+      "patterns": [
+        "myositis"
+      ],
+      "count": 1
+    },
+    "fibromyalgia": {
+      "patterns": [
+        "fibromyalgia"
+      ],
+      "count": 1
+    },
+    "myasthenia gravis": {
+      "patterns": [
+        "myasthenia gravis"
+      ],
+      "count": 1
+    },
+    "adult-onset myasthenia gravis": {
+      "patterns": [
+        "adult-onset myasthenia gravis"
+      ],
+      "count": 1
+    },
+    "neuromuscular junction disease": {
+      "patterns": [
+        "neuromuscular junction disease"
+      ],
+      "count": 1
+    },
+    "nicotine dependence": {
+      "patterns": [
+        "nicotine dependence"
+      ],
+      "count": 1
+    },
+    "pellagra": {
+      "patterns": [
+        "pellagra"
+      ],
+      "count": 1
+    },
+    "beriberi": {
+      "patterns": [
+        "beriberi"
+      ],
+      "count": 1
+    },
+    "subarachnoid hemorrhage (disease)": {
+      "patterns": [
+        "subarachnoid hemorrhage (disease)"
+      ],
+      "count": 1
+    },
+    "acquired aneurysmal subarachnoid hemorrhage": {
+      "patterns": [
+        "acquired aneurysmal subarachnoid hemorrhage"
+      ],
+      "count": 1
+    },
+    "primary ovarian failure": {
+      "patterns": [
+        "primary ovarian failure"
+      ],
+      "count": 1
+    },
+    "carcinoid syndrome": {
+      "patterns": [
+        "carcinoid syndrome"
+      ],
+      "count": 1
+    },
+    "chronic tubotympanic suppurative otitis media": {
+      "patterns": [
+        "chronic tubotympanic suppurative otitis media"
+      ],
+      "count": 1
+    },
+    "influenza, severe, susceptibility to": {
+      "patterns": [
+        "trangkaso",
+        "seasonal flu",
+        "flu",
+        "influenza, severe, susceptibility to"
+      ],
+      "count": 4
+    },
+    "influenza": {
+      "patterns": [
+        "seasonal flu",
+        "influenza",
+        "trangkaso",
+        "flu"
+      ],
+      "count": 4
+    },
+    "pregnancy disorder with abortive outcome": {
+      "patterns": [
+        "pregnancy disorder with abortive outcome"
+      ],
+      "count": 1
+    },
+    "fallopian tube cancer": {
+      "patterns": [
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "fallopian tube cancer",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "primary malignant peritoneal tumor": {
+      "patterns": [
+        "primary malignant peritoneal tumor"
+      ],
+      "count": 1
+    },
+    "desmoplastic small round cell tumor": {
+      "patterns": [
+        "desmoplastic small round cell tumor"
+      ],
+      "count": 1
+    },
+    "primary peritoneal serous/papillary carcinoma": {
+      "patterns": [
+        "primary peritoneal serous/papillary carcinoma"
+      ],
+      "count": 1
+    },
+    "fallopian tube carcinoma": {
+      "patterns": [
+        "fallopian tube carcinoma"
+      ],
+      "count": 1
+    },
+    "peritoneum cancer": {
+      "patterns": [
+        "peritoneum cancer",
+        "kanser",
+        "malignancy",
+        "carcinoma",
+        "tumor"
+      ],
+      "count": 5
+    },
+    "primary peritoneal carcinoma (disease)": {
+      "patterns": [
+        "primary peritoneal carcinoma (disease)"
+      ],
+      "count": 1
+    },
+    "multiple endocrine neoplasia": {
+      "patterns": [
+        "multiple endocrine neoplasia"
+      ],
+      "count": 1
+    },
+    "Pediculus humanus corporis infestation": {
+      "patterns": [
+        "pediculus humanus corporis infestation"
+      ],
+      "count": 1
+    },
+    "primary motor cortex epilepsy": {
+      "patterns": [
+        "primary motor cortex epilepsy"
+      ],
+      "count": 1
+    },
+    "opisthorchiasis": {
+      "patterns": [
+        "opisthorchiasis"
+      ],
+      "count": 1
+    },
+    "schistosomiasis": {
+      "patterns": [
+        "schistosomiasis"
+      ],
+      "count": 1
+    },
+    "pulmonary fibrosis": {
+      "patterns": [
+        "pulmonary fibrosis"
+      ],
+      "count": 1
+    },
+    "pneumocystosis": {
+      "patterns": [
+        "pneumocystosis"
+      ],
+      "count": 1
+    },
+    "postinflammatory pulmonary fibrosis": {
+      "patterns": [
+        "postinflammatory pulmonary fibrosis"
+      ],
+      "count": 1
+    },
+    "allergic bronchopulmonary aspergillosis": {
+      "patterns": [
+        "allergic bronchopulmonary aspergillosis"
+      ],
+      "count": 1
+    },
+    "hypersensitivity pneumonitis": {
+      "patterns": [
+        "hypersensitivity pneumonitis"
+      ],
+      "count": 1
+    },
+    "polymyalgia rheumatica": {
+      "patterns": [
+        "polymyalgia rheumatica"
+      ],
+      "count": 1
+    },
+    "sympathetic ophthalmia": {
+      "patterns": [
+        "sympathetic ophthalmia"
+      ],
+      "count": 1
+    },
+    "farmer's lung disease": {
+      "patterns": [
+        "farmer's lung disease"
+      ],
+      "count": 1
+    },
+    "Sjogren syndrome": {
+      "patterns": [
+        "sjogren syndrome"
+      ],
+      "count": 1
+    },
+    "dry eye syndrome": {
+      "patterns": [
+        "dry eye syndrome"
+      ],
+      "count": 1
+    },
+    "temporal arteritis": {
+      "patterns": [
+        "temporal arteritis"
+      ],
+      "count": 1
+    },
+    "extrinsic allergic alveolitis": {
+      "patterns": [
+        "extrinsic allergic alveolitis"
+      ],
+      "count": 1
+    },
+    "tufted angioma (disease)": {
+      "patterns": [
+        "tufted angioma (disease)"
+      ],
+      "count": 1
+    },
+    "hemangioma": {
+      "patterns": [
+        "hemangioma"
+      ],
+      "count": 1
+    },
+    "familial hypertrophic cardiomyopathy": {
+      "patterns": [
+        "familial hypertrophic cardiomyopathy"
+      ],
+      "count": 1
+    },
+    "placental hemangioma": {
+      "patterns": [
+        "placental hemangioma"
+      ],
+      "count": 1
+    },
+    "hypertrophic cardiomyopathy": {
+      "patterns": [
+        "hypertrophic cardiomyopathy"
+      ],
+      "count": 1
+    },
+    "spindle cell hemangioma": {
+      "patterns": [
+        "spindle cell hemangioma"
+      ],
+      "count": 1
+    },
+    "laryngotracheal angioma": {
+      "patterns": [
+        "laryngotracheal angioma"
+      ],
+      "count": 1
+    },
+    "retiform hemangioendothelioma": {
+      "patterns": [
+        "retiform hemangioendothelioma"
+      ],
+      "count": 1
+    },
+    "hereditary neurocutaneous angioma": {
+      "patterns": [
+        "hereditary neurocutaneous angioma"
+      ],
+      "count": 1
+    },
+    "cavernous hemangiomas of face-supraumbilical midline raphe syndrome": {
+      "patterns": [
+        "cavernous hemangiomas of face-supraumbilical midline raphe syndrome"
+      ],
+      "count": 1
+    },
+    "glomus tumor": {
+      "patterns": [
+        "glomus tumor"
+      ],
+      "count": 1
+    },
+    "Kasabach-Merritt syndrome": {
+      "patterns": [
+        "kasabach-merritt syndrome"
+      ],
+      "count": 1
+    },
+    "retinal capillary malformation": {
+      "patterns": [
+        "retinal capillary malformation"
+      ],
+      "count": 1
+    },
+    "epithelioid hemangioendothelioma": {
+      "patterns": [
+        "epithelioid hemangioendothelioma"
+      ],
+      "count": 1
+    },
+    "lymphangioma": {
+      "patterns": [
+        "lymphangioma"
+      ],
+      "count": 1
+    },
+    "kaposiform hemangioendothelioma": {
+      "patterns": [
+        "kaposiform hemangioendothelioma"
+      ],
+      "count": 1
+    },
+    "cavernous hemangioma": {
+      "patterns": [
+        "cavernous hemangioma"
+      ],
+      "count": 1
+    },
+    "congenital hemangioma": {
+      "patterns": [
+        "congenital hemangioma"
+      ],
+      "count": 1
+    },
+    "composite hemangioendothelioma": {
+      "patterns": [
+        "composite hemangioendothelioma"
+      ],
+      "count": 1
+    },
+    "verrucous hemangioma": {
+      "patterns": [
+        "verrucous hemangioma"
+      ],
+      "count": 1
+    },
+    "primary intralymphatic angioendothelioma": {
+      "patterns": [
+        "primary intralymphatic angioendothelioma"
+      ],
+      "count": 1
+    },
+    "primary intraosseous venous malformation": {
+      "patterns": [
+        "primary intraosseous venous malformation"
+      ],
+      "count": 1
+    },
+    "pulmonary venoocclusive disease": {
+      "patterns": [
+        "pulmonary venoocclusive disease"
+      ],
+      "count": 1
+    },
+    "thyroid crisis (disease)": {
+      "patterns": [
+        "thyroid crisis (disease)"
+      ],
+      "count": 1
+    },
+    "meningeal tuberculosis": {
+      "patterns": [
+        "tb",
+        "pulmonary tuberculosis",
+        "tisis",
+        "meningeal tuberculosis"
+      ],
+      "count": 4
+    },
+    "tuberculous meningitis": {
+      "patterns": [
+        "tuberculous meningitis"
+      ],
+      "count": 1
+    },
+    "pyridoxine deficiency anemia": {
+      "patterns": [
+        "pyridoxine deficiency anemia"
+      ],
+      "count": 1
+    },
+    "myiasis": {
+      "patterns": [
+        "myiasis"
+      ],
+      "count": 1
+    },
+    "hirudiniasis": {
+      "patterns": [
+        "hirudiniasis"
+      ],
+      "count": 1
+    },
+    "toxoplasmosis": {
+      "patterns": [
+        "toxoplasmosis"
+      ],
+      "count": 1
+    },
+    "respiratory syncytial virus infectious disease": {
+      "patterns": [
+        "respiratory syncytial virus infectious disease"
+      ],
+      "count": 1
+    },
+    "acquired keratosis": {
+      "patterns": [
+        "acquired keratosis"
+      ],
+      "count": 1
+    },
+    "plantar wart": {
+      "patterns": [
+        "plantar wart"
+      ],
+      "count": 1
+    },
+    "palmoplantar keratoderma": {
+      "patterns": [
+        "palmoplantar keratoderma"
+      ],
+      "count": 1
+    },
+    "keratinization disease": {
+      "patterns": [
+        "keratinization disease"
+      ],
+      "count": 1
+    },
+    "post-traumatic stress disorder": {
+      "patterns": [
+        "post-traumatic stress disorder"
+      ],
+      "count": 1
+    },
+    "phobic disorder": {
+      "patterns": [
+        "phobic disorder"
+      ],
+      "count": 1
+    },
+    "social phobia": {
+      "patterns": [
+        "social phobia"
+      ],
+      "count": 1
+    },
+    "lymphangioleiomyomatosis": {
+      "patterns": [
+        "lymphangioleiomyomatosis"
+      ],
+      "count": 1
+    },
+    "hyperaldosteronism": {
+      "patterns": [
+        "hyperaldosteronism"
+      ],
+      "count": 1
+    },
+    "Waterhouse-Friderichsen syndrome": {
+      "patterns": [
+        "waterhouse-friderichsen syndrome"
+      ],
+      "count": 1
+    },
+    "Bartter disease": {
+      "patterns": [
+        "bartter disease"
+      ],
+      "count": 1
+    },
+    "primary aldosteronism": {
+      "patterns": [
+        "primary aldosteronism"
+      ],
+      "count": 1
+    },
+    "amebiasis": {
+      "patterns": [
+        "amebiasis"
+      ],
+      "count": 1
+    },
+    "invasive ductal breast carcinoma": {
+      "patterns": [
+        "invasive ductal breast carcinoma"
+      ],
+      "count": 1
+    },
+    "breast ductal adenocarcinoma": {
+      "patterns": [
+        "breast ductal adenocarcinoma"
+      ],
+      "count": 1
+    },
+    "appendicitis": {
+      "patterns": [
+        "appendicitis"
+      ],
+      "count": 1
+    },
+    "xerophthalmia": {
+      "patterns": [
+        "xerophthalmia"
+      ],
+      "count": 1
+    },
+    "non-acquired combined pituitary hormone deficiency": {
+      "patterns": [
+        "non-acquired combined pituitary hormone deficiency"
+      ],
+      "count": 1
+    },
+    "trisomy 13": {
+      "patterns": [
+        "trisomy 13"
+      ],
+      "count": 1
+    },
+    "Klinefelter syndrome": {
+      "patterns": [
+        "klinefelter syndrome"
+      ],
+      "count": 1
+    },
+    "pituitary deficiency due to empty sella turcica syndrome": {
+      "patterns": [
+        "pituitary deficiency due to empty sella turcica syndrome"
+      ],
+      "count": 1
+    },
+    "thymus gland disease": {
+      "patterns": [
+        "thymus gland disease"
+      ],
+      "count": 1
+    },
+    "acquired pituitary hormone deficiency": {
+      "patterns": [
+        "acquired pituitary hormone deficiency"
+      ],
+      "count": 1
+    },
+    "pituitary hormone defiency from vascular origin": {
+      "patterns": [
+        "pituitary hormone defiency from vascular origin"
+      ],
+      "count": 1
+    },
+    "hypopituitarism": {
+      "patterns": [
+        "hypopituitarism"
+      ],
+      "count": 1
+    },
+    "Kallmann syndrome": {
+      "patterns": [
+        "kallmann syndrome"
+      ],
+      "count": 1
+    },
+    "congenital hypogonadotropic hypogonadism": {
+      "patterns": [
+        "congenital hypogonadotropic hypogonadism"
+      ],
+      "count": 1
+    },
+    "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome": {
+      "patterns": [
+        "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome"
+      ],
+      "count": 1
+    },
+    "eunuchism": {
+      "patterns": [
+        "eunuchism"
+      ],
+      "count": 1
+    },
+    "X-linked intellectual disability with isolated growth hormone deficiency": {
+      "patterns": [
+        "x-linked intellectual disability with isolated growth hormone deficiency"
+      ],
+      "count": 1
+    },
+    "non-acquired pituitary hormone deficiency": {
+      "patterns": [
+        "non-acquired pituitary hormone deficiency"
+      ],
+      "count": 1
+    },
+    "premature menopause": {
+      "patterns": [
+        "premature menopause"
+      ],
+      "count": 1
+    },
+    "cryptorchidism (disease)": {
+      "patterns": [
+        "cryptorchidism (disease)"
+      ],
+      "count": 1
+    },
+    "combined pituitary hormone deficiencies, genetic form": {
+      "patterns": [
+        "combined pituitary hormone deficiencies, genetic form"
+      ],
+      "count": 1
+    },
+    "pituitary deficiency": {
+      "patterns": [
+        "pituitary deficiency"
+      ],
+      "count": 1
+    },
+    "hypogonadism, male": {
+      "patterns": [
+        "hypogonadism, male"
+      ],
+      "count": 1
+    },
+    "hypogonadism": {
+      "patterns": [
+        "hypogonadism"
+      ],
+      "count": 1
+    },
+    "androgen insensitivity syndrome": {
+      "patterns": [
+        "androgen insensitivity syndrome"
+      ],
+      "count": 1
+    },
+    "Sheehan syndrome": {
+      "patterns": [
+        "sheehan syndrome"
+      ],
+      "count": 1
+    },
+    "isolated congenital growth hormone deficiency": {
+      "patterns": [
+        "isolated congenital growth hormone deficiency"
+      ],
+      "count": 1
+    },
+    "hypogonadotropic hypogonadism with or without anosmia": {
+      "patterns": [
+        "hypogonadotropic hypogonadism with or without anosmia"
+      ],
+      "count": 1
+    },
+    "hypogonadotropic hypogonadism": {
+      "patterns": [
+        "hypogonadotropic hypogonadism"
+      ],
+      "count": 1
+    },
+    "short stature due to growth hormone qualitative anomaly": {
+      "patterns": [
+        "short stature due to growth hormone qualitative anomaly"
+      ],
+      "count": 1
+    },
+    "short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia": {
+      "patterns": [
+        "short stature due to isolated growth hormone deficiency with x-linked hypogammaglobulinemia"
+      ],
+      "count": 1
+    },
+    "isolated growth hormone deficiency": {
+      "patterns": [
+        "isolated growth hormone deficiency"
+      ],
+      "count": 1
+    },
+    "pituitary deficiency due to Rathke's pouch cysts": {
+      "patterns": [
+        "pituitary deficiency due to rathke's pouch cysts"
+      ],
+      "count": 1
+    },
+    "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations": {
+      "patterns": [
+        "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations"
+      ],
+      "count": 1
+    },
+    "obsolete rare pulmonary disease": {
+      "patterns": [
+        "obsolete rare pulmonary disease"
+      ],
+      "count": 1
+    },
+    "lung disease": {
+      "patterns": [
+        "lung disease"
+      ],
+      "count": 1
+    },
+    "Kimura disease": {
+      "patterns": [
+        "kimura disease"
+      ],
+      "count": 1
+    },
+    "Castleman disease": {
+      "patterns": [
+        "castleman disease"
+      ],
+      "count": 1
+    },
+    "inappropriate ADH syndrome": {
+      "patterns": [
+        "inappropriate adh syndrome"
+      ],
+      "count": 1
+    },
+    "polycystic kidney disease": {
+      "patterns": [
+        "sakit sa bato",
+        "chronic kidney disease",
+        "polycystic kidney disease",
+        "renal failure"
+      ],
+      "count": 4
+    },
+    "nephrogenic syndrome of inappropriate antidiuresis": {
+      "patterns": [
+        "nephrogenic syndrome of inappropriate antidiuresis"
+      ],
+      "count": 1
+    },
+    "HER2 positive breast carcinoma": {
+      "patterns": [
+        "her2 positive breast carcinoma"
+      ],
+      "count": 1
+    },
+    "fascioliasis": {
+      "patterns": [
+        "fascioliasis"
+      ],
+      "count": 1
+    },
+    "cycloplegia": {
+      "patterns": [
+        "cycloplegia"
+      ],
+      "count": 1
+    },
+    "Reynolds syndrome": {
+      "patterns": [
+        "reynolds syndrome"
+      ],
+      "count": 1
+    },
+    "cholelithiasis": {
+      "patterns": [
+        "cholelithiasis"
+      ],
+      "count": 1
+    },
+    "choledocholithiasis": {
+      "patterns": [
+        "choledocholithiasis"
+      ],
+      "count": 1
+    },
+    "primary biliary cholangitis": {
+      "patterns": [
+        "primary biliary cholangitis"
+      ],
+      "count": 1
+    },
+    "cholecystolithiasis": {
+      "patterns": [
+        "cholecystolithiasis"
+      ],
+      "count": 1
+    },
+    "perinatal necrotizing enterocolitis": {
+      "patterns": [
+        "perinatal necrotizing enterocolitis"
+      ],
+      "count": 1
+    },
+    "letterer-Siwe disease": {
+      "patterns": [
+        "letterer-siwe disease"
+      ],
+      "count": 1
+    },
+    "vitamin A deficiency (disease)": {
+      "patterns": [
+        "vitamin a deficiency (disease)"
+      ],
+      "count": 1
+    },
+    "thrombotic disease": {
+      "patterns": [
+        "thrombotic disease"
+      ],
+      "count": 1
+    },
+    "juvenile Paget disease": {
+      "patterns": [
+        "juvenile paget disease"
+      ],
+      "count": 1
+    },
+    "bone Paget disease": {
+      "patterns": [
+        "bone paget disease"
+      ],
+      "count": 1
+    }
+  },
+  "pairs": [
+    {
+      "drug": "ABACAVIR",
+      "disease": "AIDS",
+      "queries": [
+        "\"abacavir\" AND \"aids\""
+      ]
+    },
+    {
+      "drug": "ABACAVIR",
+      "disease": "HIV infectious disease",
+      "queries": [
+        "\"abacavir\" AND \"hiv infectious disease\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "absence epilepsy",
+      "queries": [
+        "\"acetazolamide\" AND \"absence epilepsy\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "altitude sickness",
+      "queries": [
+        "\"acetazolamide\" AND \"altitude sickness\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "angle-closure glaucoma",
+      "queries": [
+        "\"acetazolamide\" AND \"angle-closure glaucoma\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "closed-angle glaucoma",
+      "queries": [
+        "\"acetazolamide\" AND \"closed-angle glaucoma\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "congestive heart failure",
+      "queries": [
+        "\"acetazolamide\" AND \"congestive heart failure\""
+      ]
+    },
+    {
+      "drug": "ACETAZOLAMIDE",
+      "disease": "open-angle glaucoma",
+      "queries": [
+        "\"acetazolamide\" AND \"open-angle glaucoma\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "AH amyloidosis",
+      "queries": [
+        "\"acetylcysteine\" AND \"ah amyloidosis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "AL amyloidosis",
+      "queries": [
+        "\"acetylcysteine\" AND \"al amyloidosis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "amyloidosis (disease)",
+      "queries": [
+        "\"acetylcysteine\" AND \"amyloidosis (disease)\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "bronchiectasis",
+      "queries": [
+        "\"acetylcysteine\" AND \"bronchiectasis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "bronchitis",
+      "queries": [
+        "\"acetylcysteine\" AND \"bronchitis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "cystic fibrosis",
+      "queries": [
+        "\"acetylcysteine\" AND \"cystic fibrosis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "idiopathic bronchiectasis",
+      "queries": [
+        "\"acetylcysteine\" AND \"idiopathic bronchiectasis\""
+      ]
+    },
+    {
+      "drug": "ACETYLCYSTEINE",
+      "disease": "paracetamol poisoning",
+      "queries": [
+        "\"acetylcysteine\" AND \"paracetamol poisoning\""
+      ]
+    },
+    {
+      "drug": "ADENOSINE",
+      "disease": "ventricular tachycardia",
+      "queries": [
+        "\"adenosine\" AND \"ventricular tachycardia\""
+      ]
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "disease": "cystic echinococcosis",
+      "queries": [
+        "\"albendazole\" AND \"cystic echinococcosis\""
+      ]
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "disease": "cysticercosis",
+      "queries": [
+        "\"albendazole\" AND \"cysticercosis\""
+      ]
+    },
+    {
+      "drug": "ALBENDAZOLE",
+      "disease": "echinococcus granulosus infectious disease",
+      "queries": [
+        "\"albendazole\" AND \"echinococcus granulosus infectious disease\""
+      ]
+    },
+    {
+      "drug": "ALFUZOSIN",
+      "disease": "benign prostatic hyperplasia (disease)",
+      "queries": [
+        "\"alfuzosin\" AND \"benign prostatic hyperplasia (disease)\""
+      ]
+    },
+    {
+      "drug": "ALLOPURINOL",
+      "disease": "acute urate nephropathy",
+      "queries": [
+        "\"allopurinol\" AND \"acute urate nephropathy\""
+      ]
+    },
+    {
+      "drug": "ALLOPURINOL",
+      "disease": "gout",
+      "queries": [
+        "\"allopurinol\" AND \"gout\""
+      ]
+    },
+    {
+      "drug": "ALLOPURINOL",
+      "disease": "obsolete hyperuricemia (disease)",
+      "queries": [
+        "\"allopurinol\" AND \"obsolete hyperuricemia (disease)\""
+      ]
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "disease": "anxiety",
+      "queries": [
+        "\"alprazolam\" AND \"pagkabalisa\"",
+        "\"alprazolam\" AND \"panic disorder\"",
+        "\"alprazolam\" AND \"anxiety\""
+      ]
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "disease": "anxiety disorder",
+      "queries": [
+        "\"alprazolam\" AND \"pagkabalisa\"",
+        "\"alprazolam\" AND \"panic disorder\"",
+        "\"alprazolam\" AND \"anxiety disorder\""
+      ]
+    },
+    {
+      "drug": "ALPRAZOLAM",
+      "disease": "mixed anxiety and depressive disorder",
+      "queries": [
+        "\"alprazolam\" AND \"mixed anxiety and depressive disorder\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "duodenal ulcer (disease)",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"duodenal ulcer (disease)\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "dyspepsia",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"dyspepsia\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "esophagitis (disease)",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"esophagitis (disease)\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "gastric ulcer (disease)",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"gastric ulcer (disease)\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "gastroesophageal reflux disease",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"gastroesophageal reflux disease\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "peptic esophagitis",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"peptic esophagitis\""
+      ]
+    },
+    {
+      "drug": "ALUMINUM HYDROXIDE",
+      "disease": "peptic ulcer disease",
+      "queries": [
+        "\"aluminum hydroxide\" AND \"peptic ulcer disease\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "Escherichia coli meningitis",
+      "queries": [
+        "\"amikacin\" AND \"escherichia coli meningitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "IgG4-related sclerosing cholangitis",
+      "queries": [
+        "\"amikacin\" AND \"igg4-related sclerosing cholangitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "Pseudomonas aeruginosa infectious disease",
+      "queries": [
+        "\"amikacin\" AND \"pseudomonas aeruginosa infectious disease\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "arthropathy",
+      "queries": [
+        "\"amikacin\" AND \"arthropathy\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "bacterial arthritis",
+      "queries": [
+        "\"amikacin\" AND \"rheumatoid arthritis\"",
+        "\"amikacin\" AND \"rayuma\"",
+        "\"amikacin\" AND \"osteoarthritis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "bacterial meningitis",
+      "queries": [
+        "\"amikacin\" AND \"bacterial meningitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "bacterial meningitis caused by gram-negative bacteria",
+      "queries": [
+        "\"amikacin\" AND \"bacterial meningitis caused by gram-negative bacteria\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "bacterial pneumonia",
+      "queries": [
+        "\"amikacin\" AND \"bacterial pneumonia\"",
+        "\"amikacin\" AND \"pulmonya\"",
+        "\"amikacin\" AND \"lung infection\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "cholangitis",
+      "queries": [
+        "\"amikacin\" AND \"cholangitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "escherichia coli infection",
+      "queries": [
+        "\"amikacin\" AND \"escherichia coli infection\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "osteomyelitis (disease)",
+      "queries": [
+        "\"amikacin\" AND \"osteomyelitis (disease)\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "pneumonia caused by gram negative bacteria",
+      "queries": [
+        "\"amikacin\" AND \"pulmonya\"",
+        "\"amikacin\" AND \"lung infection\"",
+        "\"amikacin\" AND \"pneumonia caused by gram negative bacteria\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "rhinoscleroma",
+      "queries": [
+        "\"amikacin\" AND \"rhinoscleroma\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "sclerosing cholangitis",
+      "queries": [
+        "\"amikacin\" AND \"sclerosing cholangitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "staphylococcal pneumonia",
+      "queries": [
+        "\"amikacin\" AND \"pulmonya\"",
+        "\"amikacin\" AND \"staphylococcal pneumonia\"",
+        "\"amikacin\" AND \"lung infection\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "suppurative cholangitis",
+      "queries": [
+        "\"amikacin\" AND \"suppurative cholangitis\""
+      ]
+    },
+    {
+      "drug": "AMIKACIN",
+      "disease": "viral meningitis",
+      "queries": [
+        "\"amikacin\" AND \"viral meningitis\""
+      ]
+    },
+    {
+      "drug": "AMIODARONE",
+      "disease": "ventricular fibrillation (disease)",
+      "queries": [
+        "\"amiodarone\" AND \"ventricular fibrillation (disease)\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "Prinzmetal angina",
+      "queries": [
+        "\"amvasc\" AND \"prinzmetal angina\"",
+        "\"norvasc\" AND \"prinzmetal angina\"",
+        "\"amlodipine\" AND \"prinzmetal angina\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "cerebral infarction",
+      "queries": [
+        "\"amvasc\" AND \"cerebral infarction\"",
+        "\"norvasc\" AND \"cerebral infarction\"",
+        "\"amlodipine\" AND \"cerebral infarction\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "cerebrovascular disorder",
+      "queries": [
+        "\"amvasc\" AND \"cerebrovascular disorder\"",
+        "\"norvasc\" AND \"cerebrovascular disorder\"",
+        "\"amlodipine\" AND \"cerebrovascular disorder\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "hypertension",
+      "queries": [
+        "\"amvasc\" AND \"alta presyon\"",
+        "\"amvasc\" AND \"mataas na presyon ng dugo\"",
+        "\"amvasc\" AND \"high blood\"",
+        "\"norvasc\" AND \"alta presyon\"",
+        "\"norvasc\" AND \"mataas na presyon ng dugo\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "hypertensive disorder",
+      "queries": [
+        "\"amvasc\" AND \"hypertensive disorder\"",
+        "\"norvasc\" AND \"hypertensive disorder\"",
+        "\"amlodipine\" AND \"hypertensive disorder\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "obsolete susceptibility to ischemic stroke",
+      "queries": [
+        "\"amvasc\" AND \"atake serebral\"",
+        "\"amvasc\" AND \"obsolete susceptibility to ischemic stroke\"",
+        "\"amvasc\" AND \"brain attack\"",
+        "\"norvasc\" AND \"atake serebral\"",
+        "\"norvasc\" AND \"obsolete susceptibility to ischemic stroke\""
+      ]
+    },
+    {
+      "drug": "AMLODIPINE",
+      "disease": "stroke disorder",
+      "queries": [
+        "\"amvasc\" AND \"atake serebral\"",
+        "\"amvasc\" AND \"stroke disorder\"",
+        "\"amvasc\" AND \"brain attack\"",
+        "\"norvasc\" AND \"atake serebral\"",
+        "\"norvasc\" AND \"stroke disorder\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "Klebsiella pneumonia",
+      "queries": [
+        "\"amoxil\" AND \"klebsiella pneumonia\"",
+        "\"amoxil\" AND \"pulmonya\"",
+        "\"amoxil\" AND \"lung infection\"",
+        "\"trimox\" AND \"klebsiella pneumonia\"",
+        "\"trimox\" AND \"pulmonya\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "bacterial pneumonia",
+      "queries": [
+        "\"amoxil\" AND \"bacterial pneumonia\"",
+        "\"amoxil\" AND \"pulmonya\"",
+        "\"amoxil\" AND \"lung infection\"",
+        "\"trimox\" AND \"bacterial pneumonia\"",
+        "\"trimox\" AND \"pulmonya\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "escherichia coli infection",
+      "queries": [
+        "\"amoxil\" AND \"escherichia coli infection\"",
+        "\"trimox\" AND \"escherichia coli infection\"",
+        "\"amoxicillin\" AND \"escherichia coli infection\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "infectious otitis media",
+      "queries": [
+        "\"amoxil\" AND \"infectious otitis media\"",
+        "\"trimox\" AND \"infectious otitis media\"",
+        "\"amoxicillin\" AND \"infectious otitis media\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "pharyngitis",
+      "queries": [
+        "\"amoxil\" AND \"pharyngitis\"",
+        "\"trimox\" AND \"pharyngitis\"",
+        "\"amoxicillin\" AND \"pharyngitis\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "rhinoscleroma",
+      "queries": [
+        "\"amoxil\" AND \"rhinoscleroma\"",
+        "\"trimox\" AND \"rhinoscleroma\"",
+        "\"amoxicillin\" AND \"rhinoscleroma\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "staphylococcal infection",
+      "queries": [
+        "\"amoxil\" AND \"staphylococcal infection\"",
+        "\"trimox\" AND \"staphylococcal infection\"",
+        "\"amoxicillin\" AND \"staphylococcal infection\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "staphylococcus aureus infection",
+      "queries": [
+        "\"amoxil\" AND \"staphylococcus aureus infection\"",
+        "\"trimox\" AND \"staphylococcus aureus infection\"",
+        "\"amoxicillin\" AND \"staphylococcus aureus infection\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "staphylococcus aureus pneumonia",
+      "queries": [
+        "\"amoxil\" AND \"pulmonya\"",
+        "\"amoxil\" AND \"staphylococcus aureus pneumonia\"",
+        "\"amoxil\" AND \"lung infection\"",
+        "\"trimox\" AND \"pulmonya\"",
+        "\"trimox\" AND \"staphylococcus aureus pneumonia\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "streptococcal infection",
+      "queries": [
+        "\"amoxil\" AND \"streptococcal infection\"",
+        "\"trimox\" AND \"streptococcal infection\"",
+        "\"amoxicillin\" AND \"streptococcal infection\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "streptococcal pneumonia",
+      "queries": [
+        "\"amoxil\" AND \"streptococcal pneumonia\"",
+        "\"amoxil\" AND \"pulmonya\"",
+        "\"amoxil\" AND \"lung infection\"",
+        "\"trimox\" AND \"streptococcal pneumonia\"",
+        "\"trimox\" AND \"pulmonya\""
+      ]
+    },
+    {
+      "drug": "AMOXICILLIN",
+      "disease": "urinary tract infection (disease)",
+      "queries": [
+        "\"amoxil\" AND \"bladder infection\"",
+        "\"amoxil\" AND \"impeksyon sa ihi\"",
+        "\"amoxil\" AND \"urinary tract infection (disease)\"",
+        "\"trimox\" AND \"bladder infection\"",
+        "\"trimox\" AND \"impeksyon sa ihi\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "Actinomycetales infectious disease",
+      "queries": [
+        "\"amphotericin b\" AND \"actinomycetales infectious disease\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "Japanese spotted fever",
+      "queries": [
+        "\"amphotericin b\" AND \"japanese spotted fever\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "Q fever",
+      "queries": [
+        "\"amphotericin b\" AND \"q fever\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "Rocky mountain spotted fever",
+      "queries": [
+        "\"amphotericin b\" AND \"rocky mountain spotted fever\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "Zygomycosis",
+      "queries": [
+        "\"amphotericin b\" AND \"zygomycosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "acne (disease)",
+      "queries": [
+        "\"amphotericin b\" AND \"acne (disease)\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "actinomycosis",
+      "queries": [
+        "\"amphotericin b\" AND \"actinomycosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "acute gonococcal cervicitis",
+      "queries": [
+        "\"amphotericin b\" AND \"acute gonococcal cervicitis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "anthrax infection",
+      "queries": [
+        "\"amphotericin b\" AND \"anthrax infection\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "aspergillosis",
+      "queries": [
+        "\"amphotericin b\" AND \"aspergillosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "black piedra",
+      "queries": [
+        "\"amphotericin b\" AND \"black piedra\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "blastomycosis",
+      "queries": [
+        "\"amphotericin b\" AND \"blastomycosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "bronchitis",
+      "queries": [
+        "\"amphotericin b\" AND \"bronchitis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "brucellosis",
+      "queries": [
+        "\"amphotericin b\" AND \"brucellosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "candidemia",
+      "queries": [
+        "\"amphotericin b\" AND \"candidemia\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "candidiasis",
+      "queries": [
+        "\"amphotericin b\" AND \"candidiasis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "cat-scratch disease",
+      "queries": [
+        "\"amphotericin b\" AND \"cat-scratch disease\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "chancroid",
+      "queries": [
+        "\"amphotericin b\" AND \"chancroid\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "coccidioidomycosis",
+      "queries": [
+        "\"amphotericin b\" AND \"coccidioidomycosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "conjunctivitis",
+      "queries": [
+        "\"amphotericin b\" AND \"conjunctivitis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "cryptococcosis",
+      "queries": [
+        "\"amphotericin b\" AND \"cryptococcosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "cutaneous candidiasis",
+      "queries": [
+        "\"amphotericin b\" AND \"cutaneous candidiasis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "disseminated candidiasis",
+      "queries": [
+        "\"amphotericin b\" AND \"disseminated candidiasis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "disseminated sporotrichosis",
+      "queries": [
+        "\"amphotericin b\" AND \"disseminated sporotrichosis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "erythrasma",
+      "queries": [
+        "\"amphotericin b\" AND \"erythrasma\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "esophageal candidiasis",
+      "queries": [
+        "\"amphotericin b\" AND \"esophageal candidiasis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "fungal meningitis",
+      "queries": [
+        "\"amphotericin b\" AND \"fungal meningitis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "gingivitis",
+      "queries": [
+        "\"amphotericin b\" AND \"gingivitis\""
+      ]
+    },
+    {
+      "drug": "AMPHOTERICIN B",
+      "disease": "gonorrhea",
+      "queries": [
+        "\"amphotericin b\" AND \"gonorrhea\""
+      ]
+    }
+  ]
+}
