@@ -1,0 +1,146 @@
+{
+  "total": 20,
+  "generated_at": "2026-03-11T02:11:24.994497",
+  "drugs": [
+    {
+      "name": "ABACAVIR",
+      "file": "abacavir.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACETAZOLAMIDE",
+      "file": "acetazolamide.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ACETYLCYSTEINE",
+      "file": "acetylcysteine.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ADENOSINE",
+      "file": "adenosine.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALBENDAZOLE",
+      "file": "albendazole.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALFUZOSIN",
+      "file": "alfuzosin.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALLOPURINOL",
+      "file": "allopurinol.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALPRAZOLAM",
+      "file": "alprazolam.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ALUMINUM HYDROXIDE",
+      "file": "aluminum-hydroxide.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMIKACIN",
+      "file": "amikacin.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMIODARONE",
+      "file": "amiodarone.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMLODIPINE",
+      "file": "amlodipine.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMOXICILLIN",
+      "file": "amoxicillin.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMPHOTERICIN B",
+      "file": "amphotericin-b.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "AMPICILLIN",
+      "file": "ampicillin.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ARIPIPRAZOLE",
+      "file": "aripiprazole.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ARTESUNATE",
+      "file": "artesunate.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ASCORBIC ACID",
+      "file": "ascorbic-acid.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATENOLOL",
+      "file": "atenolol.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "ATORVASTATIN",
+      "file": "atorvastatin.md",
+      "evidence_level": "",
+      "indication_count": 0,
+      "predicted_indication": ""
+    }
+  ]
+}
