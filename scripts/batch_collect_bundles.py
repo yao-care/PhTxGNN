@@ -1,225 +1,190 @@
 #!/usr/bin/env python3
-"""Batch collect evidence bundles for all repurposing candidates.
+"""Batch collect drug bundles (without LLM calls).
 
-Collects evidence from multiple sources (ClinicalTrials.gov, PubMed)
-for each drug-indication pair and bundles them together.
+This script collects drug bundles including DDI data for multiple drugs.
+It does NOT require an API key since it only collects data, no LLM generation.
 
 Usage:
-    uv run python scripts/batch_collect_bundles.py [--limit N]
+    # Collect top 10 drugs by prediction count
+    python scripts/batch_collect_bundles.py --limit 10
 
-Output:
-    data/evidence/bundles/{drug}-{indication}.json
+    # Collect specific drugs
+    python scripts/batch_collect_bundles.py --drugs "Warfarin,Minoxidil,Aspirin"
+
+    # Collect all drugs with high-confidence predictions
+    python scripts/batch_collect_bundles.py --all --min-score 0.99
+
+    # Parallel processing with offset (for running multiple instances)
+    python scripts/batch_collect_bundles.py --all --offset 0 --limit 100 --skip-existing
+    python scripts/batch_collect_bundles.py --all --offset 100 --limit 100 --skip-existing
 """
 
 import argparse
 import json
-import os
 import sys
 import time
-from datetime import datetime
 from pathlib import Path
-
-import pandas as pd
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from phtxgnn.collectors.clinicaltrials import ClinicalTrialsCollector
-from phtxgnn.collectors.pubmed import PubMedCollector
+import pandas as pd
+from phtxgnn.collectors import DrugBundleAggregator
+from phtxgnn.paths import get_bundles_dir, slugify
 
 
-def collect_evidence_bundle(
-    drug: str,
-    disease: str,
-    ct_collector: ClinicalTrialsCollector,
-    pubmed_collector: PubMedCollector,
-) -> dict:
-    """Collect evidence bundle for a drug-disease pair.
+def get_prediction_drugs(
+    predictions_path: Path | None = None,
+    min_score: float = 0.99,
+    offset: int = 0,
+    limit: int | None = None,
+) -> list[dict]:
+    """Get list of drugs with predictions, sorted by prediction count."""
+    if predictions_path is None:
+        predictions_path = Path("data/processed/txgnn_dl_predictions.csv")
 
-    Args:
-        drug: Drug name
-        disease: Disease/indication name
-        ct_collector: ClinicalTrials.gov collector
-        pubmed_collector: PubMed collector
+    df = pd.read_csv(predictions_path)
+
+    # Filter by score
+    df = df[df["txgnn_score"] >= min_score]
+
+    # Group by drug and count predictions
+    drug_stats = df.groupby("drug_name").agg({
+        "txgnn_score": ["count", "max", "mean"]
+    }).reset_index()
+    drug_stats.columns = ["drug_name", "prediction_count", "max_score", "mean_score"]
+    drug_stats = drug_stats.sort_values("prediction_count", ascending=False)
+
+    # Apply offset
+    if offset > 0:
+        drug_stats = drug_stats.iloc[offset:]
+
+    # Apply limit
+    if limit:
+        drug_stats = drug_stats.head(limit)
+
+    return drug_stats.to_dict("records")
+
+
+def collect_single_drug(drug_name: str, top_n: int = 10, min_score: float = 0.99) -> dict:
+    """Collect bundle for a single drug.
 
     Returns:
-        Evidence bundle dictionary
+        dict with status, bundle_path, ddi_count, indication_count, error
     """
-    bundle = {
-        "drug": drug,
-        "disease": disease,
-        "collected_at": datetime.now().isoformat(),
-        "sources": {},
-        "summary": {
-            "total_trials": 0,
-            "total_publications": 0,
-            "evidence_level": "L5",  # Default: expert opinion / knowledge graph
-        },
+    result = {
+        "drug": drug_name,
+        "status": "pending",
+        "bundle_path": None,
+        "ddi_count": 0,
+        "indication_count": 0,
+        "error": None,
+        "duration_seconds": 0,
     }
 
-    # Collect from ClinicalTrials.gov
+    start_time = time.time()
+
     try:
-        ct_result = ct_collector.search(drug, disease)
-        if ct_result.success:
-            trials = ct_result.data or []
-            bundle["sources"]["clinicaltrials"] = {
-                "success": True,
-                "count": len(trials),
-                "data": trials[:10],  # Limit stored data
-            }
-            bundle["summary"]["total_trials"] = len(trials)
+        aggregator = DrugBundleAggregator(save_collected=True)
+        bundle = aggregator.collect(
+            drug_name=drug_name,
+            top_n=top_n,
+            min_score=min_score,
+        )
 
-            # Upgrade evidence level based on trials
-            if any(t.get("phase", "").lower() in ["phase 3", "phase 4"] for t in trials):
-                bundle["summary"]["evidence_level"] = "L2"  # RCT evidence
-            elif any(t.get("phase", "").lower() in ["phase 1", "phase 2"] for t in trials):
-                bundle["summary"]["evidence_level"] = "L3"  # Early phase trials
-        else:
-            bundle["sources"]["clinicaltrials"] = {
-                "success": False,
-                "error": ct_result.error_message,
-            }
+        # Save bundle
+        bundle_path = bundle.save()
+
+        # Get stats
+        ddi_count = len(bundle.safety.get("ddi", []))
+        indication_count = len(bundle.drug.predicted_indications)
+
+        result.update({
+            "status": "success",
+            "bundle_path": str(bundle_path),
+            "ddi_count": ddi_count,
+            "indication_count": indication_count,
+        })
+
     except Exception as e:
-        bundle["sources"]["clinicaltrials"] = {"success": False, "error": str(e)}
+        result.update({
+            "status": "error",
+            "error": str(e),
+        })
 
-    # Rate limiting
-    time.sleep(0.3)
-
-    # Collect from PubMed
-    try:
-        pubmed_result = pubmed_collector.search(drug, disease)
-        if pubmed_result.success:
-            articles = pubmed_result.data.get("results", [])
-            bundle["sources"]["pubmed"] = {
-                "success": True,
-                "count": len(articles),
-                "data": articles[:10],  # Limit stored data
-            }
-            bundle["summary"]["total_publications"] = len(articles)
-
-            # Check for systematic reviews / meta-analyses
-            has_sr = any(
-                "Systematic Review" in a.get("pub_types", []) or
-                "Meta-Analysis" in a.get("pub_types", [])
-                for a in articles
-            )
-            if has_sr and bundle["summary"]["evidence_level"] > "L1":
-                bundle["summary"]["evidence_level"] = "L1"
-        else:
-            bundle["sources"]["pubmed"] = {
-                "success": False,
-                "error": pubmed_result.error_message,
-            }
-    except Exception as e:
-        bundle["sources"]["pubmed"] = {"success": False, "error": str(e)}
-
-    return bundle
+    result["duration_seconds"] = round(time.time() - start_time, 2)
+    return result
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Batch collect evidence bundles for repurposing candidates"
-    )
-    parser.add_argument("--limit", type=int, default=100, help="Max candidates to process")
-    parser.add_argument("--api-key", type=str, help="NCBI API key")
+    parser = argparse.ArgumentParser(description="Batch collect drug bundles")
+    parser.add_argument("--drugs", type=str, help="Comma-separated list of drug names")
+    parser.add_argument("--limit", type=int, help="Limit number of drugs to process")
+    parser.add_argument("--offset", type=int, default=0, help="Start offset (for parallel processing)")
+    parser.add_argument("--all", action="store_true", help="Process all drugs with predictions")
+    parser.add_argument("--min-score", type=float, default=0.99, help="Minimum TxGNN score")
+    parser.add_argument("--top-n", type=int, default=10, help="Top N predictions per drug")
+    parser.add_argument("--output", type=str, help="Output JSON file for results")
+    parser.add_argument("--skip-existing", action="store_true", help="Skip drugs with existing bundles")
 
     args = parser.parse_args()
 
-    print("=" * 60)
-    print("Batch Evidence Bundle Collection")
-    print("=" * 60)
-    print()
+    # Get drug list
+    if args.drugs:
+        drugs = [{"drug_name": d.strip()} for d in args.drugs.split(",")]
+    elif args.all or args.limit:
+        drugs = get_prediction_drugs(min_score=args.min_score, offset=args.offset, limit=args.limit)
+    else:
+        print("Please specify --drugs, --limit, or --all")
+        sys.exit(1)
 
-    base_dir = Path(__file__).parent.parent
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    # Filter out existing bundles if requested
+    if args.skip_existing:
+        bundles_dir = get_bundles_dir()
+        original_count = len(drugs)
+        drugs = [
+            d for d in drugs
+            if not (bundles_dir / slugify(d["drug_name"]) / "drug_bundle.json").exists()
+        ]
+        skipped = original_count - len(drugs)
+        if skipped > 0:
+            print(f"跳過 {skipped} 個已存在的 bundles")
 
-    if not candidates_path.exists():
-        print(f"Error: Candidates file not found: {candidates_path}")
-        print("Please run run_kg_prediction.py first.")
-        return
+    print(f"Processing {len(drugs)} drugs (offset={args.offset})...")
+    print("-" * 60)
 
-    # Load candidates
-    candidates_df = pd.read_csv(candidates_path)
-    print(f"Loaded {len(candidates_df)} repurposing candidates")
+    results = []
+    for i, drug_info in enumerate(drugs, 1):
+        drug_name = drug_info["drug_name"]
+        print(f"[{i}/{len(drugs)}] {drug_name}...", end=" ", flush=True)
 
-    # Get unique drug-disease pairs
-    pairs = candidates_df[["ingredient", "potential_indication"]].drop_duplicates()
-    pairs = pairs.head(args.limit)
-    print(f"Processing {len(pairs)} unique drug-disease pairs...\n")
-
-    # Initialize collectors
-    api_key = args.api_key or os.environ.get("NCBI_API_KEY")
-    ct_collector = ClinicalTrialsCollector(max_results=10)
-    pubmed_collector = PubMedCollector(max_results=10, api_key=api_key)
-
-    # Output directory
-    bundle_dir = base_dir / "data" / "evidence" / "bundles"
-    bundle_dir.mkdir(parents=True, exist_ok=True)
-
-    # Collect bundles
-    summary_stats = {
-        "total_processed": 0,
-        "with_trials": 0,
-        "with_publications": 0,
-        "evidence_levels": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 0},
-    }
-
-    for i, row in pairs.iterrows():
-        drug = row["ingredient"]
-        disease = row["potential_indication"]
-
-        print(f"[{summary_stats['total_processed']+1}/{len(pairs)}] {drug} + {disease}...", end=" ")
-
-        bundle = collect_evidence_bundle(drug, disease, ct_collector, pubmed_collector)
-        summary_stats["total_processed"] += 1
-
-        if bundle["summary"]["total_trials"] > 0:
-            summary_stats["with_trials"] += 1
-
-        if bundle["summary"]["total_publications"] > 0:
-            summary_stats["with_publications"] += 1
-
-        evidence_level = bundle["summary"]["evidence_level"]
-        summary_stats["evidence_levels"][evidence_level] = (
-            summary_stats["evidence_levels"].get(evidence_level, 0) + 1
+        result = collect_single_drug(
+            drug_name=drug_name,
+            top_n=args.top_n,
+            min_score=args.min_score,
         )
+        results.append(result)
 
-        # Print progress
-        print(f"Trials: {bundle['summary']['total_trials']}, "
-              f"Pubs: {bundle['summary']['total_publications']}, "
-              f"Level: {evidence_level}")
+        if result["status"] == "success":
+            print(f"✓ DDI:{result['ddi_count']} Ind:{result['indication_count']} ({result['duration_seconds']}s)")
+        else:
+            print(f"✗ {result['error']}")
 
-        # Save bundle
-        slug = f"{drug.lower().replace(' ', '-')}-{disease.lower().replace(' ', '-')[:30]}"
-        bundle_file = bundle_dir / f"{slug}.json"
-        with open(bundle_file, "w", encoding="utf-8") as f:
-            json.dump(bundle, f, indent=2, ensure_ascii=False)
+    # Summary
+    print("-" * 60)
+    success = sum(1 for r in results if r["status"] == "success")
+    total_ddi = sum(r["ddi_count"] for r in results)
+    total_ind = sum(r["indication_count"] for r in results)
+    print(f"完成: {success}/{len(drugs)} 成功")
+    print(f"總計 DDI: {total_ddi}, 總計適應症: {total_ind}")
 
-        # Rate limiting
-        time.sleep(0.5)
+    # Save results
+    if args.output:
+        output_path = Path(args.output)
+        output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+        print(f"結果已儲存: {output_path}")
 
-    # Print summary
-    print()
-    print("=" * 60)
-    print("Summary")
-    print("=" * 60)
-    print(f"Total processed: {summary_stats['total_processed']}")
-    print(f"With clinical trials: {summary_stats['with_trials']} "
-          f"({summary_stats['with_trials']/summary_stats['total_processed']*100:.1f}%)")
-    print(f"With publications: {summary_stats['with_publications']} "
-          f"({summary_stats['with_publications']/summary_stats['total_processed']*100:.1f}%)")
-    print()
-    print("Evidence Level Distribution:")
-    for level, count in sorted(summary_stats["evidence_levels"].items()):
-        print(f"  {level}: {count} ({count/summary_stats['total_processed']*100:.1f}%)")
-
-    # Save summary
-    summary_file = base_dir / "data" / "evidence" / "bundle_summary.json"
-    with open(summary_file, "w", encoding="utf-8") as f:
-        json.dump(summary_stats, f, indent=2)
-
-    print(f"\nBundles saved to: {bundle_dir}")
-    print(f"Summary saved to: {summary_file}")
+    return results
 
 
 if __name__ == "__main__":
