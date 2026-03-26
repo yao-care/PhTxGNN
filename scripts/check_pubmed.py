@@ -82,7 +82,7 @@ def check_batch(limit: int = 50, api_key: str | None = None) -> list[dict]:
         List of results
     """
     base_dir = Path(__file__).parent.parent
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
 
     if not candidates_path.exists():
         print(f"Error: Candidates file not found: {candidates_path}")

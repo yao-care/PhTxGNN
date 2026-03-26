@@ -31,7 +31,7 @@ def generate_statistics_page(base_dir: Path) -> str:
     Returns:
         Markdown content
     """
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
     mapping_path = base_dir / "data" / "processed" / "drugbank_mapping.csv"
 
     stats = {

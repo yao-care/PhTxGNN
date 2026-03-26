@@ -80,7 +80,7 @@ def main():
 
     if result is not None and len(result) > 0:
         print("\nPrediction complete!")
-        print(f"Results file: data/processed/txgnn_dl_predictions.csv")
+        print(f"Results file: data/processed/txgnn_dl_predictions.csv.gz")
         print(f"Checkpoint: data/processed/txgnn_checkpoint.csv")
     else:
         print("\nNo results generated, please check drug mapping data.")

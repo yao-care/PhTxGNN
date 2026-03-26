@@ -149,7 +149,7 @@ def main():
     print()
 
     base_dir = Path(__file__).parent.parent
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
     mapping_path = base_dir / "data" / "processed" / "drugbank_mapping.csv"
 
     if not candidates_path.exists():

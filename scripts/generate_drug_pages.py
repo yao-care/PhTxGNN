@@ -109,8 +109,8 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load prediction data
-    kg_file = data_dir / "repurposing_candidates.csv"
-    dl_file = data_dir / "txgnn_dl_predictions.csv"
+    kg_file = data_dir / "repurposing_candidates.csv.gz"
+    dl_file = data_dir / "txgnn_dl_predictions.csv.gz"
 
     if not kg_file.exists():
         print(f"Error: {kg_file} not found")

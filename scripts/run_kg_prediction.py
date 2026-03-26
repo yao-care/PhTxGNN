@@ -70,14 +70,17 @@ def map_pnf_to_drugbank(pnf_df: pd.DataFrame) -> pd.DataFrame:
 
         # Try to map to DrugBank
         drugbank_id = map_ingredient_to_drugbank(ingredient, name_index)
+        mapping_source = "drugbank" if drugbank_id else "failed"
 
         results.append({
             "license_id": row["license_id"],
             "brand_name": row["brand_name"],
+            "original_ingredient": row["raw_ingredient"],
             "normalized_ingredient": ingredient,
-            "raw_ingredient": row["raw_ingredient"],
+            "synonyms": "",
             "drugbank_id": drugbank_id,
-            "mapped": drugbank_id is not None,
+            "mapping_success": drugbank_id is not None,
+            "mapping_source": mapping_source,
         })
 
     return pd.DataFrame(results)
@@ -103,7 +106,7 @@ def find_all_indications(drug_mapping_df: pd.DataFrame) -> pd.DataFrame:
 
     candidates = []
     for _, row in drug_mapping_df.iterrows():
-        if not row["mapped"]:
+        if not row["mapping_success"]:
             continue
 
         drug_name = row["normalized_ingredient"]
@@ -142,13 +145,13 @@ def get_mapping_stats(mapping_df: pd.DataFrame) -> dict:
         Statistics dictionary
     """
     total = len(mapping_df)
-    mapped = mapping_df["mapped"].sum()
+    mapped = mapping_df["mapping_success"].sum()
 
     return {
         "total_drugs": total,
         "mapped_drugs": int(mapped),
         "mapping_rate": mapped / total if total > 0 else 0,
-        "unique_drugbank_ids": mapping_df[mapping_df["mapped"]]["drugbank_id"].nunique(),
+        "unique_drugbank_ids": mapping_df[mapping_df["mapping_success"]]["drugbank_id"].nunique(),
     }
 
 
@@ -175,8 +178,8 @@ def main():
     # Save mapping results
     output_dir = base_dir / "data" / "processed"
     output_dir.mkdir(parents=True, exist_ok=True)
-    drug_mapping.to_csv(output_dir / "drugbank_mapping.csv", index=False)
-    print(f"   Saved: {output_dir / 'drugbank_mapping.csv'}")
+    drug_mapping.to_csv(output_dir / "drug_mapping.csv", index=False)
+    print(f"   Saved: {output_dir / 'drug_mapping.csv'}")
 
     # 3. Find all TxGNN indications
     print("\n3. Finding TxGNN indications...")
@@ -197,8 +200,8 @@ def main():
 
     # 4. Save results
     print("\n4. Saving results...")
-    candidates.to_csv(output_dir / "repurposing_candidates.csv", index=False)
-    print(f"   Saved: {output_dir / 'repurposing_candidates.csv'}")
+    candidates.to_csv(output_dir / "repurposing_candidates.csv.gz", index=False)
+    print(f"   Saved: {output_dir / 'repurposing_candidates.csv.gz'}")
 
     print()
     print("=" * 60)

@@ -90,7 +90,7 @@ def main():
     print()
 
     base_dir = Path(__file__).parent.parent
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv"
+    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
     synonyms_path = base_dir / "data" / "news" / "synonyms.json"
 
     if not candidates_path.exists():
