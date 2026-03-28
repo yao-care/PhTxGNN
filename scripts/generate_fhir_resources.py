@@ -24,7 +24,7 @@ import pandas as pd
 
 
 # Philippine configuration
-BASE_URL = "https://phtxgnn.github.io"
+BASE_URL = "https://phtxgnn.yao.care"
 
 JURISDICTION = {
     "coding": [{
