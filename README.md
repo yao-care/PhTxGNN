@@ -1,33 +1,31 @@
-# PhTxGNN
+# PhTxGNN - Philippines Drug Repurposing Predictions
 
-Philippines drug repurposing predictions using TxGNN.
+[![Website](https://img.shields.io/badge/Website-phtxgnn.yao.care-blue)](https://phtxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-
-This project uses TxGNN (Therapeutic Genome Network) knowledge graph to predict potential drug repurposing candidates for approved drugs in the Philippines.
-
-## Installation
-
-```bash
-uv sync
-```
-
-## Usage
-
-```bash
-# Prepare external data (vocabularies)
-uv run python scripts/prepare_external_data.py
-
-# Process FDA data
-uv run python scripts/process_fda_data.py
-
-# Run knowledge graph prediction
-uv run python scripts/run_kg_prediction.py
-
-# Generate FHIR resources
-uv run python scripts/generate_fhir_resources.py
-```
+Drug repurposing predictions for the Philippines using the TxGNN model.
 
 ## Disclaimer
 
-This project is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- The results of this project are for research purposes only and do not constitute medical advice.
+- Drug repurposing candidates require clinical validation before application.
+
+## Project Overview
+
+| Item | Count |
+|------|-------|
+| **Drug Reports** | 338 |
+| **Total Predictions** | 806,312 |
+
+## Prediction Methods
+
+### Knowledge Graph Method
+Direct querying of drug-disease relationships in the TxGNN knowledge graph, identifying potential repurposing candidates based on existing connections in the biomedical network.
+
+### Deep Learning Method
+Uses the TxGNN pre-trained neural network model to compute prediction scores, evaluating the likelihood of new therapeutic indications for approved drugs.
+
+## Links
+
+- Website: https://phtxgnn.yao.care
+- TxGNN Paper: https://doi.org/10.1038/s41591-023-02233-x
