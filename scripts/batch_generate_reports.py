@@ -1,244 +1,219 @@
 #!/usr/bin/env python3
-"""Generate drug report pages for documentation site.
+"""Batch generate Evidence Packs and Notes for all collected bundles.
 
-Creates Markdown pages for each drug with repurposing predictions,
-evidence summary, and links to external resources.
+This script processes all drug bundles and generates:
+1. Evidence Pack (LLM analysis)
+2. Pharmacist Notes (LLM report)
 
 Usage:
-    uv run python scripts/batch_generate_reports.py [--limit N]
+    # Generate reports for all bundles
+    python scripts/batch_generate_reports.py --all
 
-Output:
-    docs/_drugs/{drug}.md
+    # Generate for specific drugs
+    python scripts/batch_generate_reports.py --drugs "Warfarin,Minoxidil"
+
+    # Only generate for bundles without reports
+    python scripts/batch_generate_reports.py --missing-only
+
+    # Process a range (for parallel execution)
+    python scripts/batch_generate_reports.py --all --offset 0 --limit 100
 """
 
 import argparse
 import json
-import re
+import os
 import sys
-from datetime import datetime
+import time
 from pathlib import Path
-
-import pandas as pd
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 
-def slugify(text: str) -> str:
-    """Convert text to URL-safe slug."""
-    slug = text.lower()
-    slug = re.sub(r"[^a-z0-9]+", "-", slug)
-    slug = re.sub(r"-+", "-", slug)
-    return slug.strip("-")
+def get_all_bundles() -> list[Path]:
+    """Get all bundle directories."""
+    bundles_dir = Path("data/bundles")
+    if not bundles_dir.exists():
+        return []
+
+    bundles = []
+    for drug_dir in sorted(bundles_dir.iterdir()):
+        if drug_dir.is_dir() and (drug_dir / "drug_bundle.json").exists():
+            bundles.append(drug_dir)
+    return bundles
 
 
-def generate_drug_page(
-    drug: str,
-    drugbank_id: str,
-    indications: list[dict],
-    evidence: dict | None = None,
-) -> str:
-    """Generate Markdown content for a drug page.
+def get_missing_reports(predictions_only: bool = False) -> list[Path]:
+    """Get bundles that don't have notes yet.
 
     Args:
-        drug: Drug name
-        drugbank_id: DrugBank ID
-        indications: List of indication dictionaries
-        evidence: Optional evidence bundle
+        predictions_only: If True, only include bundles that have predicted_indications.
+    """
+    notes_dir = Path("data/notes")
+    bundles = get_all_bundles()
+
+    missing = []
+    for bundle_dir in bundles:
+        drug_name = bundle_dir.name
+        notes_path = notes_dir / drug_name / "drug_pharmacist_notes.md"
+        if not notes_path.exists():
+            if predictions_only:
+                bundle_path = bundle_dir / "drug_bundle.json"
+                with open(bundle_path, "r", encoding="utf-8") as f:
+                    bundle_data = json.load(f)
+                if not bundle_data.get("drug", {}).get("predicted_indications"):
+                    continue
+            missing.append(bundle_dir)
+
+    return missing
+
+
+def generate_report_for_drug(
+    drug_name: str,
+    prompt_version: str = "v5",
+    skip_existing: bool = True,
+    model: str | None = "sonnet",
+) -> dict:
+    """Generate Evidence Pack and Notes for a single drug.
 
     Returns:
-        Markdown content
+        dict with status, paths, and timing info
     """
-    slug = slugify(drug)
-    now = datetime.now().strftime("%Y-%m-%d")
+    from phtxgnn.collectors.drug_bundle import DrugBundle
+    from phtxgnn.reviewer import DrugEvidencePackGenerator
+    from phtxgnn.writer import DrugPharmacistNotesWriter
 
-    # Front matter
-    content = f"""---
-layout: default
-title: {drug}
-parent: Drugs
-nav_order: 1
-last_modified_date: {now}
----
+    result = {
+        "drug": drug_name,
+        "status": "pending",
+        "evidence_pack": None,
+        "notes": None,
+        "error": None,
+        "duration_seconds": 0,
+    }
 
-# {drug}
+    start_time = time.time()
+    data_dir = Path("data")
 
-{{: .warning }}
-> **Disclaimer**: These predictions are for research purposes only. They do not constitute medical advice and require clinical validation.
+    try:
+        # Load bundle
+        bundle_path = data_dir / "bundles" / drug_name / "drug_bundle.json"
+        if not bundle_path.exists():
+            raise FileNotFoundError(f"Bundle not found: {bundle_path}")
 
-## Overview
+        bundle = DrugBundle.load(bundle_path)
 
-| Property | Value |
-|----------|-------|
-| Drug Name | {drug} |
-| DrugBank ID | [{drugbank_id}](https://go.drugbank.com/drugs/{drugbank_id}) |
-| PNF Status | Listed in Philippine National Formulary |
-| Predictions | {len(indications)} potential indications |
+        # Check if notes already exist
+        notes_path = data_dir / "notes" / drug_name / "drug_pharmacist_notes.md"
+        if skip_existing and notes_path.exists():
+            result["status"] = "skipped"
+            result["notes"] = str(notes_path)
+            return result
 
-## Predicted Indications
+        # Step 1: Generate Evidence Pack
+        ep_dir = data_dir / "evidence_packs" / drug_name
+        ep_generator = DrugEvidencePackGenerator(model=model)
+        json_path, md_path = ep_generator.generate_and_save(
+            bundle=bundle,
+            output_dir=ep_dir,
+        )
+        result["evidence_pack"] = str(json_path)
 
-The following indications are predicted based on TxGNN knowledge graph analysis:
+        # Step 2: Generate Notes
+        with open(json_path, 'r', encoding='utf-8') as f:
+            evidence_pack = json.load(f)
 
-| Indication | Source | Evidence |
-|------------|--------|----------|
-"""
+        notes_dir = data_dir / "notes" / drug_name
+        notes_dir.mkdir(parents=True, exist_ok=True)
 
-    # Add indications
-    for ind in indications[:20]:  # Limit to top 20
-        disease = ind.get("potential_indication", "")
-        source = ind.get("source", "TxGNN")
-        evidence_level = "L5"  # Default
+        pharmacist_writer = DrugPharmacistNotesWriter(prompt_version=prompt_version, model=model)
+        pharmacist_path = notes_dir / "drug_pharmacist_notes.md"
+        pharmacist_writer.generate_and_save(evidence_pack, pharmacist_path)
 
-        content += f"| {disease} | {source} | {evidence_level} |\n"
+        result["status"] = "success"
+        result["notes"] = str(pharmacist_path)
 
-    # Evidence section
-    content += """
-## Evidence Summary
+    except Exception as e:
+        result["status"] = "error"
+        result["error"] = str(e)
 
-"""
-
-    if evidence:
-        trials = evidence.get("sources", {}).get("clinicaltrials", {})
-        pubmed = evidence.get("sources", {}).get("pubmed", {})
-
-        content += f"""### Clinical Trials
-
-- **ClinicalTrials.gov**: {trials.get('count', 0)} trials found
-- [Search ClinicalTrials.gov](https://clinicaltrials.gov/search?term={drug})
-
-### Literature
-
-- **PubMed**: {pubmed.get('count', 0)} publications found
-- [Search PubMed](https://pubmed.ncbi.nlm.nih.gov/?term={drug})
-
-"""
-    else:
-        content += f"""- [Search ClinicalTrials.gov](https://clinicaltrials.gov/search?term={drug})
-- [Search PubMed](https://pubmed.ncbi.nlm.nih.gov/?term={drug})
-- [View on DrugBank](https://go.drugbank.com/drugs/{drugbank_id})
-
-"""
-
-    # External links
-    content += f"""## External Resources
-
-- [DrugBank: {drug}](https://go.drugbank.com/drugs/{drugbank_id})
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/#query={drug})
-- [Wikipedia](https://en.wikipedia.org/wiki/{drug.replace(' ', '_')})
-
----
-
-*Generated by PhTxGNN on {now}*
-"""
-
-    return content
+    result["duration_seconds"] = round(time.time() - start_time, 2)
+    return result
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Generate drug report pages"
-    )
-    parser.add_argument("--limit", type=int, default=100, help="Max drugs to process")
-    parser.add_argument("--force", action="store_true", help="Overwrite existing pages")
+    parser = argparse.ArgumentParser(description="Batch generate reports for drug bundles")
+    parser.add_argument("--drugs", type=str, help="Comma-separated list of drug names")
+    parser.add_argument("--all", action="store_true", help="Process all bundles")
+    parser.add_argument("--missing-only", action="store_true", help="Only process bundles without reports")
+    parser.add_argument("--offset", type=int, default=0, help="Start offset (for parallel processing)")
+    parser.add_argument("--limit", type=int, help="Max number to process")
+    parser.add_argument("--prompt-version", default="v5", choices=["v4", "v5"], help="Prompt version")
+    parser.add_argument("--output", type=str, help="Output JSON file for results")
+    parser.add_argument("--no-skip", action="store_true", help="Don't skip existing reports")
+    parser.add_argument("--predictions-only", action="store_true", help="Only process bundles with predicted_indications")
+    parser.add_argument("--model", type=str, default=None, help="Claude model (default: sonnet)")
 
     args = parser.parse_args()
 
-    print("=" * 60)
-    print("Generate Drug Report Pages")
-    print("=" * 60)
-    print()
+    # Get drug list
+    if args.drugs:
+        drug_dirs = [Path(f"data/bundles/{d.strip()}") for d in args.drugs.split(",")]
+    elif args.missing_only:
+        drug_dirs = get_missing_reports(predictions_only=args.predictions_only)
+    elif args.all:
+        drug_dirs = get_all_bundles()
+    else:
+        print("Please specify --drugs, --all, or --missing-only")
+        sys.exit(1)
 
-    base_dir = Path(__file__).parent.parent
-    candidates_path = base_dir / "data" / "processed" / "repurposing_candidates.csv.gz"
-    mapping_path = base_dir / "data" / "processed" / "drugbank_mapping.csv"
+    # Apply offset and limit
+    if args.offset:
+        drug_dirs = drug_dirs[args.offset:]
+    if args.limit:
+        drug_dirs = drug_dirs[:args.limit]
 
-    if not candidates_path.exists():
-        print(f"Error: Candidates file not found: {candidates_path}")
-        print("Please run run_kg_prediction.py first.")
-        return
+    print(f"Processing {len(drug_dirs)} drugs (model={args.model}, offset={args.offset}, limit={args.limit or 'all'})...")
+    print("-" * 60)
 
-    # Load data
-    candidates_df = pd.read_csv(candidates_path)
-    print(f"Loaded {len(candidates_df)} repurposing candidates")
+    results = []
+    success_count = 0
+    skip_count = 0
+    error_count = 0
 
-    mapping_df = pd.read_csv(mapping_path) if mapping_path.exists() else None
+    for i, drug_dir in enumerate(drug_dirs, 1):
+        drug_name = drug_dir.name
+        print(f"[{i}/{len(drug_dirs)}] {drug_name}...", end=" ", flush=True)
 
-    # Group by drug
-    drug_groups = candidates_df.groupby("ingredient")
+        result = generate_report_for_drug(
+            drug_name=drug_name,
+            prompt_version=args.prompt_version,
+            skip_existing=not args.no_skip,
+            model=args.model,
+        )
+        results.append(result)
 
-    # Output directory
-    drugs_dir = base_dir / "docs" / "_drugs"
-    drugs_dir.mkdir(parents=True, exist_ok=True)
+        if result["status"] == "success":
+            success_count += 1
+            print(f"✓ ({result['duration_seconds']}s)")
+        elif result["status"] == "skipped":
+            skip_count += 1
+            print("⊘ (已存在)")
+        else:
+            error_count += 1
+            print(f"✗ {result['error'][:50]}")
 
-    # Create index page
-    index_content = """---
-layout: default
-title: Drugs
-nav_order: 2
-has_children: true
----
+    # Summary
+    print("-" * 60)
+    print(f"完成: {success_count} 成功, {skip_count} 跳過, {error_count} 錯誤")
 
-# Drug Reports
+    # Save results
+    if args.output:
+        output_path = Path(args.output)
+        output_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+        print(f"結果已儲存: {output_path}")
 
-Browse drug repurposing predictions for Philippine National Formulary drugs.
-
-| Drug | DrugBank ID | Predictions |
-|------|-------------|-------------|
-"""
-
-    # Generate pages
-    drugs_processed = 0
-    drugs_list = list(drug_groups.groups.keys())[:args.limit]
-
-    for drug in drugs_list:
-        group = drug_groups.get_group(drug)
-        indications = group.to_dict("records")
-
-        # Get DrugBank ID
-        drugbank_id = group["drugbank_id"].iloc[0] if "drugbank_id" in group.columns else ""
-        if pd.isna(drugbank_id):
-            drugbank_id = ""
-
-        # Check for evidence bundle
-        evidence = None
-        evidence_dir = base_dir / "data" / "evidence" / "bundles"
-        if evidence_dir.exists():
-            # Try to find matching bundle
-            for bundle_file in evidence_dir.glob("*.json"):
-                if drug.lower().replace(" ", "-") in bundle_file.stem:
-                    with open(bundle_file, "r", encoding="utf-8") as f:
-                        evidence = json.load(f)
-                    break
-
-        # Generate page
-        slug = slugify(drug)
-        page_path = drugs_dir / f"{slug}.md"
-
-        if page_path.exists() and not args.force:
-            print(f"[SKIP] {drug} (exists)")
-            continue
-
-        content = generate_drug_page(drug, drugbank_id, indications, evidence)
-
-        with open(page_path, "w", encoding="utf-8") as f:
-            f.write(content)
-
-        drugs_processed += 1
-        print(f"[OK] {drug} ({len(indications)} indications)")
-
-        # Add to index
-        db_link = f"[{drugbank_id}](https://go.drugbank.com/drugs/{drugbank_id})" if drugbank_id else "N/A"
-        index_content += f"| [{drug}](/drugs/{slug}/) | {db_link} | {len(indications)} |\n"
-
-    # Save index
-    index_path = drugs_dir.parent / "drugs.md"
-    with open(index_path, "w", encoding="utf-8") as f:
-        f.write(index_content)
-
-    print()
-    print(f"Generated {drugs_processed} drug pages")
-    print(f"Pages saved to: {drugs_dir}")
-    print(f"Index saved to: {index_path}")
+    return results
 
 
 if __name__ == "__main__":

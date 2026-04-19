@@ -48,7 +48,7 @@ class NewsArticle:
     def __post_init__(self):
         if not self.article_id:
             # Generate unique ID from URL
-            self.article_id = hashlib.md5(self.url.encode()).hexdigest()[:12]
+            self.article_id = hashlib.sha256(self.url.encode()).hexdigest()[:12]
 
 
 class PhilippineNewsFetcher:
