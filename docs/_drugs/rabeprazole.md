@@ -2,7 +2,7 @@
 layout: default
 title: Rabeprazole
 parent: 僅模型預測 (L5)
-nav_order: 190
+nav_order: 224
 evidence_level: L5
 indication_count: 2
 ---
