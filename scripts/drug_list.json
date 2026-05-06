@@ -1,6 +1,6 @@
 {
-  "total": 374,
-  "generated_at": "2026-05-05T02:55:24.615396",
+  "total": 383,
+  "generated_at": "2026-05-06T03:24:58.506126",
   "drugs": [
     {
       "name": "Abacavir",
@@ -1340,24 +1340,38 @@
       "predicted_indication": ""
     },
     {
-      "name": "IMATINIB",
+      "name": "Ifosfamide",
+      "file": "ifosfamide.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Imatinib",
       "file": "imatinib.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "IMIGLUCERASE",
+      "name": "Imiglucerase",
       "file": "imiglucerase.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
-      "name": "IMIQUIMOD",
+      "name": "Imiquimod",
       "file": "imiquimod.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Indacaterol",
+      "file": "indacaterol.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -1372,6 +1386,13 @@
       "file": "insulin-glargine.md",
       "evidence_level": "",
       "indication_count": 0,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Insulin Glargine",
+      "file": "insulin_glargine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -1627,24 +1648,24 @@
       "predicted_indication": ""
     },
     {
-      "name": "MEROPENEM",
+      "name": "Meropenem",
       "file": "meropenem.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "MESALAZINE",
+      "name": "Mesalazine",
       "file": "mesalazine.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": ""
     },
     {
-      "name": "METFORMIN",
+      "name": "Metformin",
       "file": "metformin.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
@@ -1655,10 +1676,10 @@
       "predicted_indication": ""
     },
     {
-      "name": "METHOTREXATE",
+      "name": "Methotrexate",
       "file": "methotrexate.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
@@ -1676,94 +1697,115 @@
       "predicted_indication": ""
     },
     {
-      "name": "METHYLPHENIDATE",
+      "name": "Methylene Blue",
+      "file": "methylene_blue.md",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methylergometrine",
+      "file": "methylergometrine.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Methylphenidate",
       "file": "methylphenidate.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
-      "name": "METHYLPREDNISOLONE",
+      "name": "Methylprednisolone",
       "file": "methylprednisolone.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "METOCLOPRAMIDE",
+      "name": "Metoclopramide",
       "file": "metoclopramide.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
-      "name": "METOPROLOL",
+      "name": "Metoprolol",
       "file": "metoprolol.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "METRONIDAZOLE",
+      "name": "Metronidazole",
       "file": "metronidazole.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "MICAFUNGIN",
+      "name": "Micafungin",
       "file": "micafungin.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
-      "name": "MICONAZOLE",
+      "name": "Miconazole",
       "file": "miconazole.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
-      "name": "MIDAZOLAM",
+      "name": "Midazolam",
       "file": "midazolam.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": ""
     },
     {
-      "name": "MITOXANTRONE",
+      "name": "Mitoxantrone",
       "file": "mitoxantrone.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 8,
       "predicted_indication": ""
     },
     {
-      "name": "MONTELUKAST",
+      "name": "Mometasone",
+      "file": "mometasone.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Montelukast",
       "file": "montelukast.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
-      "name": "MORPHINE",
+      "name": "Morphine",
       "file": "morphine.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "MOXIFLOXACIN",
+      "name": "Moxifloxacin",
       "file": "moxifloxacin.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "MUPIROCIN",
+      "name": "Mupirocin",
       "file": "mupirocin.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": ""
     },
     {
@@ -1771,6 +1813,20 @@
       "file": "mycophenolate_mofetil.md",
       "evidence_level": "L5",
       "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Mycophenolic Acid",
+      "file": "mycophenolic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nalidixic Acid",
+      "file": "nalidixic_acid.md",
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
@@ -1788,31 +1844,38 @@
       "predicted_indication": ""
     },
     {
-      "name": "NAPROXEN",
+      "name": "Naproxen",
       "file": "naproxen.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": ""
     },
     {
-      "name": "NEOSTIGMINE",
+      "name": "Neostigmine",
       "file": "neostigmine.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 10,
       "predicted_indication": ""
     },
     {
-      "name": "NEVIRAPINE",
+      "name": "Nepafenac",
+      "file": "nepafenac.md",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "predicted_indication": ""
+    },
+    {
+      "name": "Nevirapine",
       "file": "nevirapine.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": ""
     },
     {
-      "name": "NICARDIPINE",
+      "name": "Nicardipine",
       "file": "nicardipine.md",
-      "evidence_level": "",
-      "indication_count": 0,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": ""
     },
     {
