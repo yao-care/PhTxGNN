@@ -20,6 +20,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Search
 search_enabled: true
@@ -86,4 +87,5 @@ callouts:
   disclaimer:
     title: Disclaimer
     color: red
+
 

@@ -3,6 +3,9 @@ layout: default
 title: Drugs
 nav_order: 2
 has_children: true
+permalink: /drugs/
+redirect_from:
+  - /drugs.html
 ---
 
 # Drug Reports
@@ -31,3 +34,4 @@ Browse drug repurposing predictions for Philippine National Formulary drugs.
 | [ASCORBIC ACID](/drugs/ascorbic-acid/) | [DB00126](https://go.drugbank.com/drugs/DB00126) | 2 |
 | [ATENOLOL](/drugs/atenolol/) | [DB00335](https://go.drugbank.com/drugs/DB00335) | 6 |
 | [ATORVASTATIN](/drugs/atorvastatin/) | [DB01076](https://go.drugbank.com/drugs/DB01076) | 12 |
+
