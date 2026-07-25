@@ -113,7 +113,7 @@ rare diseases."
 
 | Item | Value |
 |------|-------|
-| Drug reports | 420 |
+| Drug reports | {{ site.drugs.size }} |
 | Regulatory authority | FDA Philippines |
 | Deployed sites | 30 countries / regions |
 
