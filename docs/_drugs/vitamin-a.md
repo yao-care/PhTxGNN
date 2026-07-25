@@ -4,6 +4,7 @@ title: VITAMIN A
 parent: Drugs
 nav_order: 13
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # VITAMIN A

@@ -4,6 +4,7 @@ title: SALICYLIC ACID
 parent: Drugs
 nav_order: 202
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SALICYLIC ACID
