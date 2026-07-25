@@ -3,6 +3,10 @@
 # Basic settings
 title: "PhTxGNN Drug Repurposing Reports"
 description: "Philippine drug repurposing predictions using TxGNN knowledge graph"
+
+author:
+  name: 藥提醒科技有限公司 (yao.care)
+  url: https://www.yao.care/
 url: "https://phtxgnn.yao.care"
 baseurl: ""
 lang: "en"
@@ -23,7 +27,7 @@ search:
   heading_level: 3
 
 # Footer
-footer_content: "Copyright &copy; 2026 PhTxGNN Project. For research purposes only."
+footer_content: "Copyright &copy; 2026 藥提醒科技有限公司 (yao.care). For research purposes only."
 
 # RSS Feed
 feed:
@@ -82,3 +86,4 @@ callouts:
   disclaimer:
     title: Disclaimer
     color: red
+
