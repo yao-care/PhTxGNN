@@ -4,6 +4,7 @@ title: AMPHOTERICIN B
 parent: Drugs
 nav_order: 150
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # AMPHOTERICIN B

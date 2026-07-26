@@ -4,6 +4,7 @@ title: TIMOLOL
 parent: Drugs
 nav_order: 65
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TIMOLOL

@@ -4,6 +4,7 @@ title: MEBEVERINE
 parent: Drugs
 nav_order: 336
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MEBEVERINE
