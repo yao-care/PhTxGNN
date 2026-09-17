@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Paclitaxel
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 266
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -48,7 +48,7 @@ Paclitaxel currently has no registered product in the Philippines, making this e
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.995% |
 | Evidence Level | L1 |
-| Philippines Market Status | 未上市 (Not Marketed) |
+| Philippines Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -100,7 +100,7 @@ Paclitaxel's application in breast cancer is not merely modeled but **globally e
 
 ## Philippines Market Information
 
-Paclitaxel currently has **no registered products with the FDA Philippines** and is classified as **未上市 (Not Marketed)**. The drug is approved internationally by multiple major regulatory agencies:
+Paclitaxel currently has **no registered products with the FDA Philippines** and is classified as **Not marketed (Not Marketed)**. The drug is approved internationally by multiple major regulatory agencies:
 
 - **FDA USA**: Approved for metastatic breast cancer, ovarian cancer, NSCLC, AIDS-related Kaposi's sarcoma
 - **EMA**: Approved for breast cancer, ovarian cancer, NSCLC, pancreatic cancer (nab-paclitaxel)

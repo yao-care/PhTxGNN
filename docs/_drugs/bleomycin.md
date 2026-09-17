@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Bleomycin
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 45
-evidence_level: L5
+evidence_level: L1
 indication_count: 6
 ---
 
 # Bleomycin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidence Level: **L1** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -116,7 +116,7 @@ Bleomycin is currently **not registered** in the Philippines. No marketing autho
 
 | Item | Detail |
 |------|--------|
-| Market Status | Not Registered (未上市) |
+| Market Status | Not Registered (Not marketed) |
 | Total Authorisations | 0 |
 | Registration Pathway | A new Drug Registration Application to the Philippines FDA would be required prior to any clinical deployment |
 | International Availability | Bleomycin is available in other markets under names such as Blenoxane® (Bristol-Myers Squibb) and various generics; it is included in the WHO Model List of Essential Medicines |

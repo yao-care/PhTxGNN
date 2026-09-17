@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Aztreonam
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 35
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Aztreonam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -88,7 +88,7 @@ The repurposing rationale is therefore not merely a computational prediction —
 
 ## Taiwan Market Information
 
-Aztreonam currently has **no registered products in Taiwan**. The Taiwan FDA database returned 0 approved licenses, and the drug's market status is **Not Marketed (未上市)**. Any clinical use in Taiwan would require regulatory authorization prior to procurement or formulary inclusion.
+Aztreonam currently has **no registered products in Taiwan**. The Taiwan FDA database returned 0 approved licenses, and the drug's market status is **Not Marketed (Not marketed)**. Any clinical use in Taiwan would require regulatory authorization prior to procurement or formulary inclusion.
 
 ---
 

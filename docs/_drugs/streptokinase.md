@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Streptokinase
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 314
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Streptokinase
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -99,7 +99,7 @@ The absence of Philippines registration most likely reflects historical market a
 
 ## Philippines Market Information
 
-Streptokinase currently has **no registered products with the FDA Philippines**. No authorization numbers, product names, or approved indications are on record. This is consistent with the `market_status: "未上市"` (Not marketed) designation in the regulatory data.
+Streptokinase currently has **no registered products with the FDA Philippines**. No authorization numbers, product names, or approved indications are on record. This is consistent with the `market_status: "Not marketed"` (Not marketed) designation in the regulatory data.
 
 This absence is notable given that streptokinase appears on the WHO Model List of Essential Medicines for use in acute MI and other thromboembolic conditions, and is available in neighbouring countries including India, Bangladesh, and parts of Southeast Asia at relatively low cost.
 

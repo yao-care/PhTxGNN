@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fentanyl
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Fentanyl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -77,7 +77,7 @@ Currently no related literature available for Fentanyl in Nephrogenic Syndrome o
 
 ## Philippines Market Information
 
-Fentanyl currently has **no registered products** with the Philippine FDA (`市場狀態: 未上市`). No license authorization records are available for review. This absence of local registration also means that no locally approved indication text, dosage form data, or Philippine-specific prescribing information is on file.
+Fentanyl currently has **no registered products** with the Philippine FDA (`市場狀態: Not marketed`). No license authorization records are available for review. This absence of local registration also means that no locally approved indication text, dosage form data, or Philippine-specific prescribing information is on file.
 
 ---
 
