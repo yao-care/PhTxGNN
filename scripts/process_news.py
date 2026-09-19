@@ -623,10 +623,32 @@ def deduplicate_news(news_items: list[dict]) -> list[dict]:
     return merged
 
 
+def normalize_drugs(drugs) -> list[dict]:
+    """統一 keywords.json 裡 drugs 的三種格式。
+
+    舊版 generate_news_keywords.py 產出的檔案沒有 slug（只有 drugbank_id，如 In），
+    更舊的版本則是以藥名為鍵的 dict（如 Ph）。缺的 slug/url 就地補上。
+    """
+    if isinstance(drugs, dict):
+        items = []
+        for name, v in drugs.items():
+            e = dict(v) if isinstance(v, dict) else {"keywords": v}
+            e.setdefault("name", name)
+            items.append(e)
+    else:
+        items = [dict(d) for d in drugs]
+    for e in items:
+        if not e.get("slug"):
+            e["slug"] = slugify(e.get("name", ""))
+        if not e.get("url"):
+            e["url"] = f"/drugs/{e['slug']}/"
+    return items
+
+
 def match_keywords(news_items: list[dict], keywords: dict) -> list[dict]:
     """對新聞進行關鍵字匹配"""
-    drugs = keywords.get("drugs", [])
-    indications = keywords.get("indications", [])
+    drugs = normalize_drugs(keywords.get("drugs") or [])
+    indications = keywords.get("indications") or []
 
     # 建立藥物 slug -> name 的對照表
     drug_name_map = {d["slug"]: d["name"] for d in drugs}
@@ -782,10 +804,10 @@ def generate_news_pages(matched_news: list[dict], keywords: dict):
                             drug_news[slug].append(item)
 
     # 產生所有藥物新聞頁面（191 個全部生成）
-    drugs_map = {d["slug"]: d for d in keywords.get("drugs", [])}
+    drugs_map = {d["slug"]: d for d in normalize_drugs(keywords.get("drugs") or [])}
     drug_count = 0
 
-    for drug in keywords.get("drugs", []):
+    for drug in normalize_drugs(keywords.get("drugs") or []):
         slug = drug["slug"]
         drug_info = drugs_map.get(slug, {})
         drug_detail = drugs_detail_map.get(str(slug).lower(), {})
@@ -983,12 +1005,12 @@ def generate_indication_news_page(name: str, news_items: list[dict], keywords: d
             break
 
     related_drugs = set()
-    for ind in keywords.get("indications", []):
+    for ind in (keywords.get("indications") or []):
         if ind["name"] == name:
             related_drugs.update(ind.get("related_drugs", []))
             break
 
-    drugs_map = {d["slug"]: d for d in keywords.get("drugs", [])}
+    drugs_map = {d["slug"]: d for d in normalize_drugs(keywords.get("drugs") or [])}
 
     # 標題：優先使用在地關鍵字，括號內顯示原名
     display_title = f"{loc_keyword} ({name})" if loc_keyword != name else name
