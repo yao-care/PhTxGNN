@@ -3,7 +3,7 @@ layout: default
 title: "Tranexamic Acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tranexamic Acid. Original indication: . 0 predicted indications."
+description: "Health news related to Tranexamic Acid. Original indication: . 1 predicted indications."
 permalink: /news/tranexamic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tranexamic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Tranexamic Acid?">
-<strong>Tranexamic Acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Tranexamic Acid</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,9 @@ This page combines the AI-predicted indications for Tranexamic Acid with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>amenorrhea (disease) (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/tranexamic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

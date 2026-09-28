@@ -3,7 +3,7 @@ layout: default
 title: "Calcipotriol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcipotriol. Original indication: . 0 predicted indications."
+description: "Health news related to Calcipotriol. Original indication: . 10 predicted indications."
 permalink: /news/calcipotriol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcipotriol/
 ---
 
 <p class="key-answer" data-question="What news is there about Calcipotriol?">
-<strong>Calcipotriol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Calcipotriol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Calcipotriol with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>seborrheic keratosis (100.0%)</li>
+<li>vulvar inverted follicular keratosis (99.9%)</li>
+<li>vulvovaginitis (99.7%)</li>
+<li>vulvitis (99.6%)</li>
+<li>vulvar neoplasm (99.5%)</li>
+<li>ulceration of vulva (99.5%)</li>
+<li>vulvar squamous neoplasm (99.4%)</li>
+<li>postmenopausal atrophic vaginitis (99.4%)</li>
+<li>bone Paget disease (99.2%)</li>
+<li>breast fibrocystic disease (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcipotriol/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Hydroxyurea with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Female Breast Carcinoma | 99.97% | L4 | Hold (99.0%)</li>
-<li>Sickle Cell–Hemoglobin C Disease (HbSC) | 99.67% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>HPFH–Sickle Cell Disease Syndrome | 99.67% | L5 | Hold (99.0%)</li>
-<li>Sickle Cell–Hemoglobin E Disease (HbSE) | 99.67% | L3 | Research Question (99.0%)</li>
-<li>Sickle Cell–Hemoglobin D Disease (HbSD) | 99.67% | L4 | Hold (99.0%)</li>
-<li>Sickle Cell–Beta-Thalassemia | 99.67% | L3 | Proceed with Guardrails (99.0%)</li>
-<li>Cervical Adenosarcoma | 99.40% | L5 | Hold (99.0%)</li>
-<li>Colon Mucinous Adenocarcinoma | 99.32% | L5 | Hold (99.0%)</li>
-<li>Rectum Mucinous Adenocarcinoma | 99.31% | L5 | Hold (99.0%)</li>
-<li>Gallbladder Mucinous Adenocarcinoma | 99.28% | L5 | Hold (99.0%)</li>
+<li>female breast carcinoma (100.0%)</li>
+<li>sickle cell-hemoglobin c disease syndrome (99.7%)</li>
+<li>hereditary persistence of fetal hemoglobin-sickle cell disease syndrome (99.7%)</li>
+<li>sickle cell-hemoglobin E disease syndrome (99.7%)</li>
+<li>sickle cell-hemoglobin d disease syndrome (99.7%)</li>
+<li>sickle cell-beta-thalassemia disease syndrome (99.7%)</li>
+<li>cervical adenosarcoma (99.4%)</li>
+<li>colon mucinous adenocarcinoma (99.3%)</li>
+<li>rectum mucinous adenocarcinoma (99.3%)</li>
+<li>gallbladder mucinous adenocarcinoma (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydroxyurea/' | relative_url }}">View full drug report →</a></p>

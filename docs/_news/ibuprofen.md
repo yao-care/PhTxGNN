@@ -26,13 +26,13 @@ This page combines the AI-predicted indications for Ibuprofen with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (7)</strong>:<ul>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.74% | L5 | Very weak (GDF5 mutation; COX inhibition irrelevant to skeletal malformation) | Hold (99.0%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | L5 | Very weak (genetic structural defect of spine and enamel) | Hold (99.0%)</li>
-<li>Myosclerosis | 99.68% | L5 | Weak to moderate (fibrotic process may involve COX-2, but no direct evidence) | Hold (99.0%)</li>
-<li>Brachyolmia | 99.67% | L5 | Very weak (TRPV4/SLC26A2 mutations; vertebral dysplasia) | Hold (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 99.66% | L5 | Very weak (HOXD13/GDF5 mutations; congenital limb malformation) | Hold (99.0%)</li>
-<li>Pseudoachondroplasia | 99.66% | L5 | Weak (COMP mutation; early-onset OA is already an existing NSAID indication) | Hold (99.0%)</li>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | L5 | Very weak (multisystem developmental anomaly) | Hold (99.0%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (99.7%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (99.7%)</li>
+<li>myosclerosis (99.7%)</li>
+<li>brachyolmia (99.7%)</li>
+<li>brachydactyly-syndactyly syndrome (99.7%)</li>
+<li>pseudoachondroplasia (99.7%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ibuprofen/' | relative_url }}">View full drug report →</a></p>

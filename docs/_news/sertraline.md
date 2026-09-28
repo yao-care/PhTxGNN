@@ -26,14 +26,14 @@ This page combines the AI-predicted indications for Sertraline with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (8)</strong>:<ul>
-<li>Histrionic Personality Disorder | 99.93% | L4 | Hold (99.0%)</li>
-<li>Schizotypal Personality Disorder | 99.93% | L3 | Research Question (99.0%)</li>
-<li>Paranoid Personality Disorder | 99.93% | L4 | Hold (99.0%)</li>
-<li>Schizoid Personality Disorder | 99.93% | L5 | Hold (99.0%)</li>
-<li>Benign Paroxysmal Torticollis of Infancy | 99.55% | L5 | Hold (99.0%)</li>
-<li>**Agoraphobia** | 99.54% | **L1** | **Proceed with Guardrails** (99.0%)</li>
-<li>Dependent Personality Disorder | 99.21% | L4 | Hold (99.0%)</li>
-<li>Narcissistic Personality Disorder | 99.14% | L4 | Hold (99.0%)</li>
+<li>histrionic personality disorder (disease) (99.9%)</li>
+<li>schizotypal personality disorder (99.9%)</li>
+<li>paranoid personality disorder (99.9%)</li>
+<li>schizoid personality disorder (99.9%)</li>
+<li>benign paroxysmal torticollis of infancy (99.5%)</li>
+<li>agoraphobia (99.5%)</li>
+<li>dependent personality disorder (99.2%)</li>
+<li>narcissistic personality disorder (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sertraline/' | relative_url }}">View full drug report →</a></p>

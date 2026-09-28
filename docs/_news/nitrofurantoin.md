@@ -3,7 +3,7 @@ layout: default
 title: "Nitrofurantoin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nitrofurantoin. Original indication: . 0 predicted indications."
+description: "Health news related to Nitrofurantoin. Original indication: . 10 predicted indications."
 permalink: /news/nitrofurantoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nitrofurantoin/
 ---
 
 <p class="key-answer" data-question="What news is there about Nitrofurantoin?">
-<strong>Nitrofurantoin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nitrofurantoin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Nitrofurantoin with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>rheumatoid arthritis (99.9%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.8%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (99.8%)</li>
+<li>diabetic nephropathy (99.8%)</li>
+<li>brachydactyly-syndactyly syndrome (99.8%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.7%)</li>
+<li>sclerosing cholangitis (99.6%)</li>
+<li>methemoglobinemia, alpha type (99.4%)</li>
+<li>gout (99.4%)</li>
+<li>methemoglobinemia (99.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nitrofurantoin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Halothane News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Halothane. Original indication: . 0 predicted indications."
+description: "Health news related to Halothane. Original indication: . 6 predicted indications."
 permalink: /news/halothane/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/halothane/
 ---
 
 <p class="key-answer" data-question="What news is there about Halothane?">
-<strong>Halothane</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Halothane</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,14 @@ This page combines the AI-predicted indications for Halothane with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>manic bipolar affective disorder (99.8%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
+<li>Tourette syndrome (99.2%)</li>
+<li>trichotillomania (99.2%)</li>
+<li>bipolar disorder (99.2%)</li>
+<li>major affective disorder (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/halothane/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Baclofen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Baclofen. Original indication: . 0 predicted indications."
+description: "Health news related to Baclofen. Original indication: . 2 predicted indications."
 permalink: /news/baclofen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/baclofen/
 ---
 
 <p class="key-answer" data-question="What news is there about Baclofen?">
-<strong>Baclofen</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Baclofen</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,10 @@ This page combines the AI-predicted indications for Baclofen with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>attention deficit-hyperactivity disorder (99.3%)</li>
+<li>nicotine dependence (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/baclofen/' | relative_url }}">View full drug report →</a></p>
 </div>

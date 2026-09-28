@@ -25,10 +25,10 @@ This page combines the AI-predicted indications for Benzoyl Peroxide with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (4)</strong>:<ul>
-<li>Vulvar inverted follicular keratosis | 99.92% | L5 | ❌ False positive — KG node-clustering artifact; no mechanistic link to BPO oxidative activity (99.0%)</li>
-<li>HEMA sensitization | 99.43% | L5 | ❌ False positive — BPO is itself a contact allergen; predicting it as treatment for sensitization is mechanistically contradictory (99.0%)</li>
-<li>Acrodermatitis chronica atrophicans | 99.17% | L5 | ❌ False positive — a late-stage Lyme spirochetal infection requiring systemic antibiotics; BPO is topical-only with no spirochetal activity (99.0%)</li>
-<li>Acne keloidalis nuchae | 99.06% | L4 | ⚠️ Plausible — *C. acnes*-driven pathogenesis aligns with BPO mechanism; mentioned in clinical guidelines, but direct RCT evidence absent (99.0%)</li>
+<li>vulvar inverted follicular keratosis (99.9%)</li>
+<li>2-hydroxyethyl methacrylate sensitization (99.4%)</li>
+<li>acrodermatitis chronica atrophicans (99.2%)</li>
+<li>acne keloid (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/benzoyl_peroxide/' | relative_url }}">View full drug report →</a></p>

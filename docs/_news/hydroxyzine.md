@@ -3,7 +3,7 @@ layout: default
 title: "Hydroxyzine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hydroxyzine. Original indication: . 4 predicted indications."
+description: "Health news related to Hydroxyzine. Original indication: . 5 predicted indications."
 permalink: /news/hydroxyzine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hydroxyzine/
 ---
 
 <p class="key-answer" data-question="What news is there about Hydroxyzine?">
-<strong>Hydroxyzine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Hydroxyzine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ This page combines the AI-predicted indications for Hydroxyzine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Rosacea Conjunctivitis | 99.70% | L5 | Hold (99.0%)</li>
-<li>Cold Urticaria | 99.66% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Recalcitrant Atopic Dermatitis | 99.36% | L4 | Research Question (99.0%)</li>
-<li>IgE Responsiveness, Atopic | 99.27% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>allergic urticaria (99.8%)</li>
+<li>rosacea conjunctivitis (99.7%)</li>
+<li>cold urticaria (99.7%)</li>
+<li>recalcitrant atopic dermatitis (99.4%)</li>
+<li>IgE responsiveness, atopic (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydroxyzine/' | relative_url }}">View full drug report →</a></p>

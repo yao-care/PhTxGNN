@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Biperiden with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Rasmussen Subacute Encephalitis | 99.94% | L5 | Hold | No mechanistic link; likely KG topology artefact (99.0%)</li>
-<li>Myelitis | 99.92% | L5 | Hold | Possibly useful only for secondary bladder spasticity (symptom, not disease-modifying) (99.0%)</li>
-<li>PLA2G6-associated neurodegeneration (PLAN) | 99.88% | L5 | Hold | Dystonia component may offer indirect link; no PLAN-specific evidence (99.0%)</li>
-<li>Transaldolase Deficiency | 99.84% | L5 | Hold | No biological intersection with M1 blockade; KG cluster artefact (99.0%)</li>
-<li>Fructose-1,6-bisphosphatase Deficiency | 99.81% | L5 | Hold | Metabolic disorder; no mechanistic basis (99.0%)</li>
-<li>PSP-Corticobasal Syndrome | 99.81% | L5 | Hold | Theoretical tauopathy rationale offset by high cognitive worsening risk (99.0%)</li>
-<li>**Juvenile Parkinson's Disease (Hunt)** | **99.73%** | **L3** | **Research Question** | **Highest plausibility** — mechanistically identical to adult Parkinson's (M1 blockade restores striatal DA/ACh balance); evidence extrapolated from adult PD (99.0%)</li>
-<li>Lewy Body Dementia | 99.73% | L4 | Hold | ⚠️ **Likely contraindicated** — M1 blockade worsens cognition in cholinergic-deficient LBD (99.0%)</li>
-<li>ADHD | 99.72% | L4 | Hold | ⚠️ Biperiden appears only as **rescue therapy** for methylphenidate-induced dyskinesia, not ADHD treatment (99.0%)</li>
-<li>X-linked Intellectual Disability-Ataxia-Apraxia Syndrome | 99.69% | L5 | Hold | No mechanistic support; anticholinergics may worsen ataxia and cognition (99.0%)</li>
+<li>Rasmussen subacute encephalitis (99.9%)</li>
+<li>myelitis (99.9%)</li>
+<li>PLA2G6-associated neurodegeneration (99.9%)</li>
+<li>transaldolase deficiency (99.8%)</li>
+<li>fructose-1,6-bisphosphatase deficiency (99.8%)</li>
+<li>progressive supranuclear palsy-corticobasal syndrome (99.8%)</li>
+<li>paralysis agitans, juvenile, of Hunt (99.7%)</li>
+<li>Lewy body dementia (99.7%)</li>
+<li>attention deficit-hyperactivity disorder (99.7%)</li>
+<li>X-linked intellectual disability-ataxia-apraxia syndrome (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/biperiden/' | relative_url }}">View full drug report →</a></p>

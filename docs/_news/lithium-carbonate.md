@@ -3,7 +3,7 @@ layout: default
 title: "LITHIUM CARBONATE News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to LITHIUM CARBONATE. Original indication: . 0 predicted indications."
+description: "Health news related to LITHIUM CARBONATE. Original indication: . 10 predicted indications."
 permalink: /news/lithium-carbonate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lithium-carbonate/
 ---
 
 <p class="key-answer" data-question="What news is there about LITHIUM CARBONATE?">
-<strong>LITHIUM CARBONATE</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>LITHIUM CARBONATE</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for LITHIUM CARBONATE with the l
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>pseudoachondroplasia (100.0%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (100.0%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (100.0%)</li>
+<li>brachyolmia (100.0%)</li>
+<li>myosclerosis (100.0%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (100.0%)</li>
+<li>brachydactyly-syndactyly syndrome (100.0%)</li>
+<li>Behr syndrome (99.6%)</li>
+<li>WHIM syndrome (99.6%)</li>
+<li>combined immunodeficiency due to moesin deficiency (99.3%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/lithium-carbonate/' | relative_url }}">View full drug report →</a></p>
 </div>

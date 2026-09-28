@@ -3,7 +3,7 @@ layout: default
 title: "Amlodipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amlodipine. Original indication: . 9 predicted indications."
+description: "Health news related to Amlodipine. Original indication: . 10 predicted indications."
 permalink: /news/amlodipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amlodipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Amlodipine?">
-<strong>Amlodipine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Amlodipine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Amlodipine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Brain Stem Infarction | 99.94% | L5 | Hold (99.0%)</li>
-<li>PH — Unclear Multifactorial Mechanism | 99.91% | L5 | Hold (99.0%)</li>
-<li>PH — Lung Disease / Hypoxia | 99.91% | L5 | Hold (99.0%)</li>
-<li>Malignant Hypertensive Renal Disease | 99.90% | L5 | Hold (99.0%)</li>
-<li>Malignant Renovascular Hypertension | 99.90% | L4 | Research Question (99.0%)</li>
-<li>Cerebral Artery Occlusion | 99.89% | L4 | Research Question (99.0%)</li>
-<li>Braddock Syndrome | 99.88% | L5 | Hold (99.0%)</li>
-<li>MRI-Defined Brain Infarct | 99.86% | L4 | Research Question (99.0%)</li>
-<li>ABri Amyloidosis | 99.84% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>brain stem infarction (99.9%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>malignant hypertensive renal disease (99.9%)</li>
+<li>malignant renovascular hypertension (99.9%)</li>
+<li>cerebral artery occlusion (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
+<li>MRI defined brain infarct (99.9%)</li>
+<li>ABri amyloidosis (99.8%)</li>
+<li>intracerebral hemorrhage (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amlodipine/' | relative_url }}">View full drug report →</a></p>

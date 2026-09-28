@@ -3,7 +3,7 @@ layout: default
 title: "Fluticasone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluticasone. Original indication: . 2 predicted indications."
+description: "Health news related to Fluticasone. Original indication: . 3 predicted indications."
 permalink: /news/fluticasone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluticasone/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluticasone?">
-<strong>Fluticasone</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Fluticasone</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,9 +24,10 @@ This page combines the AI-predicted indications for Fluticasone with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Prinzmetal Angina | 99.19% | 0 | 0 | Hold (99.0%)</li>
-<li>Migraine with Brainstem Aura | 99.09% | 0 | 0 | Hold (99.0%)</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>migraine disorder (99.2%)</li>
+<li>Prinzmetal angina (99.2%)</li>
+<li>migraine with brainstem aura (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluticasone/' | relative_url }}">View full drug report →</a></p>

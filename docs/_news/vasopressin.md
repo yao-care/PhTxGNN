@@ -3,7 +3,7 @@ layout: default
 title: "Vasopressin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vasopressin. Original indication: . 0 predicted indications."
+description: "Health news related to Vasopressin. Original indication: . 2 predicted indications."
 permalink: /news/vasopressin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vasopressin/
 ---
 
 <p class="key-answer" data-question="What news is there about Vasopressin?">
-<strong>Vasopressin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Vasopressin</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,10 @@ This page combines the AI-predicted indications for Vasopressin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>congenital prothrombin deficiency (99.6%)</li>
+<li>drug-induced osteoporosis (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vasopressin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Domperidone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Domperidone. Original indication: . 0 predicted indications."
+description: "Health news related to Domperidone. Original indication: . 1 predicted indications."
 permalink: /news/domperidone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/domperidone/
 ---
 
 <p class="key-answer" data-question="What news is there about Domperidone?">
-<strong>Domperidone</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Domperidone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,9 @@ This page combines the AI-predicted indications for Domperidone with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/domperidone/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Megestrol Acetate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Megestrol Acetate. Original indication: . 0 predicted indications."
+description: "Health news related to Megestrol Acetate. Original indication: . 10 predicted indications."
 permalink: /news/megestrol_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/megestrol_acetate/
 ---
 
 <p class="key-answer" data-question="What news is there about Megestrol Acetate?">
-<strong>Megestrol Acetate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Megestrol Acetate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Megestrol Acetate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>uterine corpus endometrial carcinoma (99.9%)</li>
+<li>endometrial transitional cell carcinoma (99.9%)</li>
+<li>hereditary breast ovarian cancer syndrome (99.9%)</li>
+<li>borderline epithelial tumor of ovary (99.9%)</li>
+<li>uterine carcinosarcoma (99.8%)</li>
+<li>placenta cancer (99.8%)</li>
+<li>ovarian clear cell adenocarcinoma (99.8%)</li>
+<li>ovarian cancer (99.7%)</li>
+<li>malignant dysgerminomatous germ cell tumor of ovary (99.7%)</li>
+<li>low-grade neuroendocrine tumor of the corpus uteri (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/megestrol_acetate/' | relative_url }}">View full drug report →</a></p>
 </div>

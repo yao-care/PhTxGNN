@@ -3,7 +3,7 @@ layout: default
 title: "Ropivacaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ropivacaine. Original indication: . 0 predicted indications."
+description: "Health news related to Ropivacaine. Original indication: . 4 predicted indications."
 permalink: /news/ropivacaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ropivacaine/
 ---
 
 <p class="key-answer" data-question="What news is there about Ropivacaine?">
-<strong>Ropivacaine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ropivacaine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,12 @@ This page combines the AI-predicted indications for Ropivacaine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>migraine disorder (99.7%)</li>
+<li>migraine with brainstem aura (99.5%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.4%)</li>
+<li>dysthymic disorder (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ropivacaine/' | relative_url }}">View full drug report →</a></p>
 </div>

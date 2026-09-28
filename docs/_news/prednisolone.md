@@ -3,7 +3,7 @@ layout: default
 title: "Prednisolone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Prednisolone. Original indication: . 3 predicted indications."
+description: "Health news related to Prednisolone. Original indication: . 10 predicted indications."
 permalink: /news/prednisolone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prednisolone/
 ---
 
 <p class="key-answer" data-question="What news is there about Prednisolone?">
-<strong>Prednisolone</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Prednisolone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,17 @@ This page combines the AI-predicted indications for Prednisolone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>Alopecia Mucinosa | 99.99% | L4 | Research Question | Mechanistically plausible for benign idiopathic subtype; must exclude lymphoma-associated form before any use (99.0%)</li>
-<li>Folliculitis Decalvans | 99.99% | L4 | Research Question | Case series supports triple therapy (prednisolone + rifampicin + clindamycin); prednisolone alone risks masking bacterial infection (99.0%)</li>
-<li>Idiopathic Steroid-Sensitive Nephrotic Syndrome | 99.86% | **L1** | **Proceed with Guardrails** | Prednisolone is already the **global first-line standard treatment** for SSNS; 8 clinical trials and 20 publications confirm its central role (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>alopecia areata (100.0%)</li>
+<li>alopecia mucinosa (100.0%)</li>
+<li>telogen effluvium (100.0%)</li>
+<li>Quinquaud's folliculitis decalvans (100.0%)</li>
+<li>hereditary hypotrichosis with recurrent skin vesicles (100.0%)</li>
+<li>alopecia antibody deficiency (100.0%)</li>
+<li>alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome (100.0%)</li>
+<li>atrichia with papular lesions (99.9%)</li>
+<li>prolapse of lacrimal gland (99.9%)</li>
+<li>idiopathic steroid-sensitive nephrotic syndrome (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prednisolone/' | relative_url }}">View full drug report →</a></p>

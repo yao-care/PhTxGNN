@@ -3,7 +3,7 @@ layout: default
 title: "Levobupivacaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Levobupivacaine. Original indication: . 0 predicted indications."
+description: "Health news related to Levobupivacaine. Original indication: . 1 predicted indications."
 permalink: /news/levobupivacaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/levobupivacaine/
 ---
 
 <p class="key-answer" data-question="What news is there about Levobupivacaine?">
-<strong>Levobupivacaine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Levobupivacaine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,9 @@ This page combines the AI-predicted indications for Levobupivacaine with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>gastroduodenitis (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/levobupivacaine/' | relative_url }}">View full drug report →</a></p>
 </div>

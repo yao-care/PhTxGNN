@@ -26,15 +26,15 @@ This page combines the AI-predicted indications for Dactinomycin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (9)</strong>:<ul>
-<li>Relapsing-Remitting Multiple Sclerosis | 99.58% | L5 | **Hold** (99.0%)</li>
-<li>Botryoid-Type Embryonal RMS of the Vagina | 99.54% | L4 | Research Question (99.0%)</li>
-<li>Extrahepatic Bile Duct Rhabdomyosarcoma | 99.49% | L4 | Research Question (99.0%)</li>
-<li>Embryonal Extrahepatic Bile Duct RMS | 99.48% | L5 | **Hold** (merge with Rank 3) (99.0%)</li>
-<li>**Parameningeal Embryonal RMS** | 99.48% | **L2** | **Proceed with Guardrails** (99.0%)</li>
-<li>Prostate Embryonal RMS | 99.46% | L3 | Research Question (99.0%)</li>
-<li>Liver Sarcoma | 99.42% | L3 | Research Question (99.0%)</li>
-<li>Upper Aerodigestive Tract Neoplasm | 99.16% | L3 | Research Question (99.0%)</li>
-<li>Head and Neck Cancer | 99.16% | L3 | Research Question (99.0%)</li>
+<li>relapsing-remitting multiple sclerosis (99.6%)</li>
+<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.5%)</li>
+<li>extrahepatic bile duct rhabdomyosarcoma (99.5%)</li>
+<li>embryonal extrahepatic bile duct rhabdomyosarcoma (99.5%)</li>
+<li>parameningeal embryonal rhabdomyosarcoma (99.5%)</li>
+<li>prostate embryonal rhabdomyosarcoma (99.5%)</li>
+<li>liver sarcoma (99.4%)</li>
+<li>upper aerodigestive tract neoplasm (99.2%)</li>
+<li>head and neck cancer (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dactinomycin/' | relative_url }}">View full drug report →</a></p>

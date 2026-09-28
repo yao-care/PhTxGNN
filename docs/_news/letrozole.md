@@ -3,7 +3,7 @@ layout: default
 title: "Letrozole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Letrozole. Original indication: . 0 predicted indications."
+description: "Health news related to Letrozole. Original indication: . 10 predicted indications."
 permalink: /news/letrozole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/letrozole/
 ---
 
 <p class="key-answer" data-question="What news is there about Letrozole?">
-<strong>Letrozole</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Letrozole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Letrozole with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>female breast carcinoma (100.0%)</li>
+<li>nipple carcinoma (99.8%)</li>
+<li>estrogen-receptor negative breast cancer (99.8%)</li>
+<li>estrogen-receptor positive breast cancer (99.8%)</li>
+<li>hormone-resistant breast carcinoma (99.8%)</li>
+<li>Ehrlich tumor carcinoma (99.8%)</li>
+<li>bilateral breast carcinoma (99.7%)</li>
+<li>breast carcinoma by gene expression profile (99.7%)</li>
+<li>breast fibrocystic disease (99.6%)</li>
+<li>benign mammary dysplasia (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/letrozole/' | relative_url }}">View full drug report →</a></p>
 </div>

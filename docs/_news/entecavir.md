@@ -3,7 +3,7 @@ layout: default
 title: "Entecavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Entecavir. Original indication: . 2 predicted indications."
+description: "Health news related to Entecavir. Original indication: . 10 predicted indications."
 permalink: /news/entecavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/entecavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Entecavir?">
-<strong>Entecavir</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Entecavir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,17 @@ This page combines the AI-predicted indications for Entecavir with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Hepatitis B virus infection | L1 | Proceed with Guardrails | ETV's globally approved indication; the Philippines non-registration is an **access gap**, not a repurposing question (99.0%)</li>
-<li>HIV infectious disease | L3 | Hold | ETV has demonstrated partial HIV-1 reverse transcriptase inhibition in small clinical studies (PMID 17582071; PMID 18453854), but cannot be used as standalone HIV therapy due to M184V resistance risk (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>chronic hepatitis C virus infection (100.0%)</li>
+<li>hepatitis B virus infection (99.8%)</li>
+<li>HIV infectious disease (99.8%)</li>
+<li>hepatitis C virus infection (99.7%)</li>
+<li>feline acquired immunodeficiency syndrome (99.7%)</li>
+<li>simian immunodeficiency virus infection (99.7%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.6%)</li>
+<li>hepatitis, viral, animal (99.5%)</li>
+<li>hepatitis E virus infection (99.5%)</li>
+<li>hepatitis A virus infection (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/entecavir/' | relative_url }}">View full drug report →</a></p>

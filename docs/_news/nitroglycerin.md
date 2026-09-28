@@ -3,7 +3,7 @@ layout: default
 title: "Nitroglycerin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nitroglycerin. Original indication: . 0 predicted indications."
+description: "Health news related to Nitroglycerin. Original indication: . 5 predicted indications."
 permalink: /news/nitroglycerin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nitroglycerin/
 ---
 
 <p class="key-answer" data-question="What news is there about Nitroglycerin?">
-<strong>Nitroglycerin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Nitroglycerin</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ This page combines the AI-predicted indications for Nitroglycerin with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>pulmonary hypertension (99.6%)</li>
+<li>kyphoscoliotic heart disease (99.4%)</li>
+<li>Prinzmetal angina (99.4%)</li>
+<li>primary hereditary glaucoma (99.2%)</li>
+<li>congenital hypotrichosis milia (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/nitroglycerin/' | relative_url }}">View full drug report →</a></p>
 </div>

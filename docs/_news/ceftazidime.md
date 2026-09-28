@@ -3,7 +3,7 @@ layout: default
 title: "Ceftazidime News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ceftazidime. Original indication: . 9 predicted indications."
+description: "Health news related to Ceftazidime. Original indication: . 10 predicted indications."
 permalink: /news/ceftazidime/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ceftazidime/
 ---
 
 <p class="key-answer" data-question="What news is there about Ceftazidime?">
-<strong>Ceftazidime</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ceftazidime</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Ceftazidime with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Polyclonal hyperviscosity syndrome | 99.51% | L5 | Hold | False positive — no mechanistic or clinical link to β-lactam antibiotics (99.0%)</li>
-<li>Hyperamylasemia | 99.51% | L4 | Hold | Indirect class effect only (antibiotic prophylaxis post-ERCP); not a primary indication (99.0%)</li>
-<li>Congenital analbuminemia | 99.48% | L5 | Hold | False positive — genetic metabolic disease with no antibiotic relevance (99.0%)</li>
-<li>Epiglottitis | 99.39% | L4 | Hold | Not first-line; one literature report documents cephalosporin resistance (99.0%)</li>
-<li>Ureaplasma urethritis | 99.27% | L5 | Hold | Intrinsic β-lactam resistance — mechanistically excluded (99.0%)</li>
-<li>Gonococcal urethritis | 99.27% | L4 | Hold | Not first-line; WHO/CDC guidelines mandate ceftriaxone (99.0%)</li>
-<li>Blood group incompatibility | 99.26% | L5 | Hold | False positive — immunohematologic disorder; no antibiotic relevance (99.0%)</li>
-<li>Infectious otitis media | 99.19% | L3 | Research Question | Moderate evidence for Pseudomonas-driven CSOM; no registered clinical trials (99.0%)</li>
-<li>Peptostreptococcus infection | 99.17% | L4 | Hold | Weak anaerobic coverage; only supporting data is a 1981 in vitro study (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>polyclonal hyperviscosity syndrome (99.5%)</li>
+<li>hyperamylasemia (99.5%)</li>
+<li>congenital analbuminemia (99.5%)</li>
+<li>urinary tract infection (disease) (99.4%)</li>
+<li>epiglottitis (99.4%)</li>
+<li>Ureaplasma urethritis (99.3%)</li>
+<li>gonococcal urethritis (99.3%)</li>
+<li>blood group incompatibility (99.3%)</li>
+<li>infectious otitis media (99.2%)</li>
+<li>Peptostreptococcus infectious disease (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ceftazidime/' | relative_url }}">View full drug report →</a></p>

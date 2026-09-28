@@ -3,7 +3,7 @@ layout: default
 title: "Vitamin A News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vitamin A. Original indication: . 0 predicted indications."
+description: "Health news related to Vitamin A. Original indication: . 10 predicted indications."
 permalink: /news/vitamin_a/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/vitamin_a/
 ---
 
 <p class="key-answer" data-question="What news is there about Vitamin A?">
-<strong>Vitamin A</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Vitamin A</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Vitamin A with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>congenital prothrombin deficiency (100.0%)</li>
+<li>biotin metabolic disease (99.8%)</li>
+<li>non-syndromic esophageal malformation (99.7%)</li>
+<li>injury (99.7%)</li>
+<li>cell proliferation disorder (99.6%)</li>
+<li>florid cemento-osseous dysplasia (99.6%)</li>
+<li>perinatal disease (99.6%)</li>
+<li>segmental odontomaxillary dysplasia (99.6%)</li>
+<li>disease by subcellular system affected (99.6%)</li>
+<li>radiation or chemically induced disorder (99.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/vitamin_a/' | relative_url }}">View full drug report →</a></p>
 </div>

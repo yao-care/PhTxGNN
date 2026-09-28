@@ -3,7 +3,7 @@ layout: default
 title: "Ferrous Gluconate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ferrous Gluconate. Original indication: . 0 predicted indications."
+description: "Health news related to Ferrous Gluconate. Original indication: . 5 predicted indications."
 permalink: /news/ferrous_gluconate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ferrous_gluconate/
 ---
 
 <p class="key-answer" data-question="What news is there about Ferrous Gluconate?">
-<strong>Ferrous Gluconate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Ferrous Gluconate</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ This page combines the AI-predicted indications for Ferrous Gluconate with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Plummer-Vinson syndrome (99.9%)</li>
+<li>vitamin B12- and folate-independent constitutional megaloblastic anemia (99.9%)</li>
+<li>non-syndromic esophageal malformation (99.7%)</li>
+<li>biotin metabolic disease (99.4%)</li>
+<li>vitamin deficiency disorder (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/ferrous_gluconate/' | relative_url }}">View full drug report →</a></p>
 </div>

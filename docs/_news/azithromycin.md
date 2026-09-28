@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Azithromycin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Polyclonal hyperviscosity syndrome | 99.81% | L5 | Hold (99.0%)</li>
-<li>Hyperamylasemia | 99.81% | L5 | Hold ⚠️ Mechanistic contradiction (99.0%)</li>
-<li>Congenital analbuminemia | 99.79% | L5 | Hold (99.0%)</li>
-<li>Punctate epithelial keratoconjunctivitis | 99.78% | L4 | Research Question (99.0%)</li>
-<li>Blood group incompatibility | 99.70% | L5 | Hold (99.0%)</li>
-<li>Premalignant hematological system disease | 99.64% | L5 | Hold (99.0%)</li>
-<li>Monoclonal gammopathy | 99.61% | L4 | Research Question ★ (99.0%)</li>
-<li>Hematological disease with acquired peripheral neuropathy | 99.56% | L5 | Hold ⚠️ Safety concern (99.0%)</li>
-<li>Septicemic plague | 99.52% | L4 | Research Question (99.0%)</li>
-<li>Congenital hematological disorder | 99.40% | L4 | Research Question ★ (99.0%)</li>
+<li>polyclonal hyperviscosity syndrome (99.8%)</li>
+<li>hyperamylasemia (99.8%)</li>
+<li>congenital analbuminemia (99.8%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.8%)</li>
+<li>blood group incompatibility (99.7%)</li>
+<li>premalignant hematological system disease (99.6%)</li>
+<li>monoclonal gammopathy (99.6%)</li>
+<li>hematological disease associated with an acquired peripheral neuropathy (99.6%)</li>
+<li>septicemic plague (99.5%)</li>
+<li>congenital hematological disorder (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/azithromycin/' | relative_url }}">View full drug report →</a></p>

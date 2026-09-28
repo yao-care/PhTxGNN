@@ -3,7 +3,7 @@ layout: default
 title: "Mycophenolic Acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mycophenolic Acid. Original indication: . 0 predicted indications."
+description: "Health news related to Mycophenolic Acid. Original indication: . 10 predicted indications."
 permalink: /news/mycophenolic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mycophenolic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Mycophenolic Acid?">
-<strong>Mycophenolic Acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mycophenolic Acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mycophenolic Acid with the l
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hemoglobinopathy (99.6%)</li>
+<li>migraine disorder (99.6%)</li>
+<li>migraine with brainstem aura (99.5%)</li>
+<li>partial deletion of the short arm of chromosome 16 (99.3%)</li>
+<li>beta-thalassemia with other manifestations (99.3%)</li>
+<li>pyropoikilocytosis, hereditary (99.3%)</li>
+<li>hemolytic anemia due to glucophosphate isomerase deficiency (99.2%)</li>
+<li>pyruvate kinase deficiency of red cells (99.2%)</li>
+<li>rheumatoid arthritis (99.2%)</li>
+<li>antithrombin deficiency type 2 (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mycophenolic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

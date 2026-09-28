@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Fusidic Acid with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Exposure keratitis | 99.95% | 0 | 1 | L5 (99.0%)</li>
-<li>Non-human animal disease | 99.86% | 0 | 0 | L5 (99.0%)</li>
-<li>Otitis externa | 99.84% | 0 | 6 | L4 (99.0%)</li>
-<li>Postinfectious vasculitis | 99.83% | 0 | 0 | L5 (99.0%)</li>
-<li>Post-bacterial disorder | 99.82% | 2 | 0 | L3 (99.0%)</li>
-<li>Post-infectious syndrome | 99.82% | 0 | 0 | L5 (99.0%)</li>
-<li>Infective urethral stricture | 99.81% | 0 | 0 | L5 (99.0%)</li>
-<li>Chagas cardiomyopathy | 99.80% | 0 | 0 | L5 (99.0%)</li>
-<li>Infection-related hemolytic uremic syndrome | 99.79% | 0 | 0 | L5 (99.0%)</li>
-<li>Parasitic eyelid infestation | 99.65% | 0 | 0 | L5 (99.0%)</li>
+<li>exposure keratitis (100.0%)</li>
+<li>non-human animal disease (99.9%)</li>
+<li>otitis externa (99.8%)</li>
+<li>postinfectious vasculitis (99.8%)</li>
+<li>post-bacterial disorder (99.8%)</li>
+<li>post-infectious syndrome (99.8%)</li>
+<li>infective urethral stricture (99.8%)</li>
+<li>Chagas cardiomyopathy (99.8%)</li>
+<li>infection-related hemolytic uremic syndrome (99.8%)</li>
+<li>parasitic eyelid infestation (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fusidic_acid/' | relative_url }}">View full drug report →</a></p>

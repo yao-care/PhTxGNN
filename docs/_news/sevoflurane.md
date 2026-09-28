@@ -3,7 +3,7 @@ layout: default
 title: "Sevoflurane News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sevoflurane. Original indication: . 0 predicted indications."
+description: "Health news related to Sevoflurane. Original indication: . 10 predicted indications."
 permalink: /news/sevoflurane/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sevoflurane/
 ---
 
 <p class="key-answer" data-question="What news is there about Sevoflurane?">
-<strong>Sevoflurane</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sevoflurane</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sevoflurane with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Prinzmetal angina (99.8%)</li>
+<li>Tourette syndrome (99.5%)</li>
+<li>fibromyalgia (99.4%)</li>
+<li>tendinitis (99.4%)</li>
+<li>myositis fibrosa (99.4%)</li>
+<li>idiopathic granulomatous myositis (99.4%)</li>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.4%)</li>
+<li>trichotillomania (99.3%)</li>
+<li>migraine disorder (99.2%)</li>
+<li>inclusion body myositis (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sevoflurane/' | relative_url }}">View full drug report →</a></p>
 </div>

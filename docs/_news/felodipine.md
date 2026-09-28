@@ -3,7 +3,7 @@ layout: default
 title: "Felodipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Felodipine. Original indication: . 6 predicted indications."
+description: "Health news related to Felodipine. Original indication: . 7 predicted indications."
 permalink: /news/felodipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/felodipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Felodipine?">
-<strong>Felodipine</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Felodipine</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,14 @@ This page combines the AI-predicted indications for Felodipine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>Pulmonary hypertension with unclear multifactorial mechanism | 99.91% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Pulmonary hypertension owing to lung disease and/or hypoxia | 99.91% | L5 | 0 | 20 (non-specific†) | Hold (99.0%)</li>
-<li>Malignant hypertensive renal disease | 99.90% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Malignant renovascular hypertension | 99.90% | L5 | 0 | 1 (case report‡) | Hold (99.0%)</li>
-<li>Braddock syndrome | 99.88% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Chronic pulmonary heart disease | 99.19% | L4 | 0 | 3 | Hold (99.0%)</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>malignant hypertensive renal disease (99.9%)</li>
+<li>malignant renovascular hypertension (99.9%)</li>
+<li>Braddock syndrome (99.9%)</li>
+<li>chronic pulmonary heart disease (99.2%)</li>
+<li>Prinzmetal angina (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/felodipine/' | relative_url }}">View full drug report →</a></p>

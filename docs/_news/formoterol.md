@@ -3,7 +3,7 @@ layout: default
 title: "Formoterol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Formoterol. Original indication: . 5 predicted indications."
+description: "Health news related to Formoterol. Original indication: . 6 predicted indications."
 permalink: /news/formoterol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/formoterol/
 ---
 
 <p class="key-answer" data-question="What news is there about Formoterol?">
-<strong>Formoterol</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Formoterol</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,13 @@ This page combines the AI-predicted indications for Formoterol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>Bronchitis | 99.92% | 28 | 20 | L1 (99.0%)</li>
-<li>Rienhoff Syndrome | 99.90% | 0 | 0 | L5 (99.0%)</li>
-<li>Obstructive Lung Disease | 99.90% | 50 | 20 | L1 (99.0%)</li>
-<li>Asthma | 99.74% | 50 | 20 | L1 (99.0%)</li>
-<li>Asthma-related Traits | 99.50% | 0 | 0 | L5 (99.0%)</li>
+<li><strong>Predicted indications (6)</strong>:<ul>
+<li>respiratory malformation (99.9%)</li>
+<li>bronchitis (99.9%)</li>
+<li>Rienhoff syndrome (99.9%)</li>
+<li>obstructive lung disease (99.9%)</li>
+<li>asthma (99.7%)</li>
+<li>asthma-related traits, susceptibility to (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/formoterol/' | relative_url }}">View full drug report →</a></p>

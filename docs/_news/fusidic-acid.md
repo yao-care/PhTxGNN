@@ -3,7 +3,7 @@ layout: default
 title: "FUSIDIC ACID News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to FUSIDIC ACID. Original indication: . 0 predicted indications."
+description: "Health news related to FUSIDIC ACID. Original indication: . 10 predicted indications."
 permalink: /news/fusidic-acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fusidic-acid/
 ---
 
 <p class="key-answer" data-question="What news is there about FUSIDIC ACID?">
-<strong>FUSIDIC ACID</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>FUSIDIC ACID</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for FUSIDIC ACID with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>exposure keratitis (100.0%)</li>
+<li>non-human animal disease (99.9%)</li>
+<li>otitis externa (99.8%)</li>
+<li>postinfectious vasculitis (99.8%)</li>
+<li>post-bacterial disorder (99.8%)</li>
+<li>post-infectious syndrome (99.8%)</li>
+<li>infective urethral stricture (99.8%)</li>
+<li>Chagas cardiomyopathy (99.8%)</li>
+<li>infection-related hemolytic uremic syndrome (99.8%)</li>
+<li>parasitic eyelid infestation (99.7%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fusidic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>

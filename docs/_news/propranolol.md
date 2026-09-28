@@ -26,12 +26,12 @@ This page combines the AI-predicted indications for Propranolol with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (6)</strong>:<ul>
-<li>Distal myopathy, Tateyama type | 99.40% | L5 | Hold (99.0%)</li>
-<li>Congenital myopathy with excess of thin filaments | 99.30% | L5 | Hold (99.0%)</li>
-<li>HCM due to intensive athletic training | 99.17% | L5 | Research Question (99.0%)</li>
-<li>Chondroma | 99.14% | L5 | Hold (99.0%)</li>
-<li>Cirrhotic cardiomyopathy | 99.12% | L4 | Hold (99.0%)</li>
-<li>Cardiomyopathy | 99.12% | L3 | **Proceed with Guardrails** (99.0%)</li>
+<li>distal myopathy, Tateyama type (99.4%)</li>
+<li>congenital myopathy with excess of thin filaments (99.3%)</li>
+<li>hypertrophic cardiomyopathy due to intensive athletic training (99.2%)</li>
+<li>chondroma (99.1%)</li>
+<li>cirrhotic cardiomyopathy (99.1%)</li>
+<li>cardiomyopathy (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/propranolol/' | relative_url }}">View full drug report →</a></p>

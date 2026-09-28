@@ -3,7 +3,7 @@ layout: default
 title: "Potassium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Potassium. Original indication: . 0 predicted indications."
+description: "Health news related to Potassium. Original indication: . 5 predicted indications."
 permalink: /news/potassium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/potassium/
 ---
 
 <p class="key-answer" data-question="What news is there about Potassium?">
-<strong>Potassium</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Potassium</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ This page combines the AI-predicted indications for Potassium with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>hypertensive disorder (99.2%)</li>
+<li>pulmonary hypertension with unclear multifactorial mechanism (99.0%)</li>
+<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.0%)</li>
+<li>malignant hypertensive renal disease (99.0%)</li>
+<li>malignant renovascular hypertension (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/potassium/' | relative_url }}">View full drug report →</a></p>
 </div>

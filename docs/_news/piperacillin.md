@@ -3,7 +3,7 @@ layout: default
 title: "Piperacillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Piperacillin. Original indication: . 0 predicted indications."
+description: "Health news related to Piperacillin. Original indication: . 9 predicted indications."
 permalink: /news/piperacillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/piperacillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Piperacillin?">
-<strong>Piperacillin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Piperacillin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,17 @@ This page combines the AI-predicted indications for Piperacillin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>rheumatoid arthritis (99.9%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.9%)</li>
+<li>brachydactyly-syndactyly syndrome (99.9%)</li>
+<li>sclerosing cholangitis (99.8%)</li>
+<li>osteoarthritis susceptibility (99.6%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.3%)</li>
+<li>brain small vessel disease 1 with or without ocular anomalies (99.3%)</li>
+<li>diabetic nephropathy (99.1%)</li>
+<li>WHIM syndrome (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/piperacillin/' | relative_url }}">View full drug report →</a></p>
 </div>

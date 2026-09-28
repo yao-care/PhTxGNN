@@ -3,7 +3,7 @@ layout: default
 title: "Iopromide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Iopromide. Original indication: . 0 predicted indications."
+description: "Health news related to Iopromide. Original indication: . 10 predicted indications."
 permalink: /news/iopromide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/iopromide/
 ---
 
 <p class="key-answer" data-question="What news is there about Iopromide?">
-<strong>Iopromide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Iopromide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Iopromide with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>osteoarthritis susceptibility (99.6%)</li>
+<li>osteoarthritis (99.5%)</li>
+<li>rheumatoid arthritis (99.4%)</li>
+<li>brachyolmia (99.2%)</li>
+<li>acromesomelic dysplasia, Hunter-Thompson type (99.1%)</li>
+<li>brachyolmia-amelogenesis imperfecta syndrome (99.1%)</li>
+<li>alopecia (99.1%)</li>
+<li>myosclerosis (99.1%)</li>
+<li>hemoglobinopathy (99.1%)</li>
+<li>pseudoachondroplasia (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/iopromide/' | relative_url }}">View full drug report →</a></p>
 </div>

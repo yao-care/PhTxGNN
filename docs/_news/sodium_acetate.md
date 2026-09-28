@@ -3,7 +3,7 @@ layout: default
 title: "Sodium Acetate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sodium Acetate. Original indication: . 0 predicted indications."
+description: "Health news related to Sodium Acetate. Original indication: . 10 predicted indications."
 permalink: /news/sodium_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sodium_acetate/
 ---
 
 <p class="key-answer" data-question="What news is there about Sodium Acetate?">
-<strong>Sodium Acetate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sodium Acetate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sodium Acetate with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>congenital prothrombin deficiency (100.0%)</li>
+<li>epiglottitis (99.8%)</li>
+<li>urinary tract infection (disease) (99.7%)</li>
+<li>sclerosing cholangitis (99.6%)</li>
+<li>Ureaplasma urethritis (99.6%)</li>
+<li>gonococcal urethritis (99.6%)</li>
+<li>dyspepsia (99.6%)</li>
+<li>uterine inflammatory disease (99.5%)</li>
+<li>gastroparesis (disease) (99.5%)</li>
+<li>xanthogranulomatous pyelonephritis (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sodium_acetate/' | relative_url }}">View full drug report →</a></p>
 </div>

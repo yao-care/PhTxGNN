@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Fosfomycin with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>Gonococcal urethritis | 99.99% | L2 | Proceed with Guardrails | Strong mechanistic link; 1 RCT + clinical studies (99.0%)</li>
-<li>Ureaplasma urethritis | 99.99% | L5 | Hold | ⚠️ Mechanistic contradiction: *Ureaplasma* lacks cell wall — fosfomycin has no expected activity (99.0%)</li>
-<li>Uterine inflammatory disease | 99.98% | L4 | Research Question | Partial mechanistic link; PID involves mixed pathogens, some susceptible (99.0%)</li>
-<li>Xanthogranulomatous pyelonephritis | 99.98% | L5 | Research Question | Plausible (active against causative organisms) but surgery is mainstay (99.0%)</li>
-<li>Epiglottitis | 99.93% | L5 | Hold | Established treatments exist; fosfomycin offers no advantage (99.0%)</li>
-<li>Urogenital tuberculosis | 99.88% | L5 | Hold | ⚠️ Weak mechanistic link: *M. tuberculosis* cell wall differs; high MICs (99.0%)</li>
-<li>Laryngitis | 99.68% | L4 | Hold | Mostly viral aetiology; limited evidence for nebulised fosfomycin (99.0%)</li>
-<li>Hyperamylasemia | 99.47% | L5 | Hold | ⚠️ False positive: non-infectious laboratory finding (99.0%)</li>
-<li>Polyclonal hyperviscosity syndrome | 99.47% | L5 | Hold | ⚠️ False positive: immunological/haematological condition (99.0%)</li>
-<li>Pyelitis | 99.37% | L1 | Proceed with Guardrails | Core indication area; Phase 2/3 RCT (ZEUS trial) + 20 publications (99.0%)</li>
+<li>gonococcal urethritis (100.0%)</li>
+<li>Ureaplasma urethritis (100.0%)</li>
+<li>uterine inflammatory disease (100.0%)</li>
+<li>xanthogranulomatous pyelonephritis (100.0%)</li>
+<li>epiglottitis (99.9%)</li>
+<li>urogenital tuberculosis (99.9%)</li>
+<li>laryngitis (99.7%)</li>
+<li>hyperamylasemia (99.5%)</li>
+<li>polyclonal hyperviscosity syndrome (99.5%)</li>
+<li>pyelitis (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fosfomycin/' | relative_url }}">View full drug report →</a></p>

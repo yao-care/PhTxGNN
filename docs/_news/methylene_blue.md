@@ -3,7 +3,7 @@ layout: default
 title: "Methylene Blue News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methylene Blue. Original indication: . 2 predicted indications."
+description: "Health news related to Methylene Blue. Original indication: . 3 predicted indications."
 permalink: /news/methylene_blue/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methylene_blue/
 ---
 
 <p class="key-answer" data-question="What news is there about Methylene Blue?">
-<strong>Methylene Blue</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Methylene Blue</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,9 +24,10 @@ This page combines the AI-predicted indications for Methylene Blue with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>Methemoglobinemia, alpha type | 99.36% | L4 | Hold (99.0%)</li>
-<li>Methemoglobinemia due to deficiency of methemoglobin reductase | 99.36% | L3 | Proceed with Guardrails (99.0%)</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>bronchitis (100.0%)</li>
+<li>methemoglobinemia, alpha type (99.4%)</li>
+<li>methemoglobinemia due to deficiency of methemoglobin reductase (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methylene_blue/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Sacubitril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sacubitril. Original indication: . 0 predicted indications."
+description: "Health news related to Sacubitril. Original indication: . 5 predicted indications."
 permalink: /news/sacubitril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sacubitril/
 ---
 
 <p class="key-answer" data-question="What news is there about Sacubitril?">
-<strong>Sacubitril</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sacubitril</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,13 @@ This page combines the AI-predicted indications for Sacubitril with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>brain small vessel disease 1 with or without ocular anomalies (99.6%)</li>
+<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.6%)</li>
+<li>diabetic nephropathy (99.5%)</li>
+<li>rheumatoid arthritis (99.3%)</li>
+<li>hemoglobinopathy (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sacubitril/' | relative_url }}">View full drug report →</a></p>
 </div>

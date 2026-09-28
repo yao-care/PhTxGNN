@@ -3,7 +3,7 @@ layout: default
 title: "Polymyxin B News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Polymyxin B. Original indication: . 0 predicted indications."
+description: "Health news related to Polymyxin B. Original indication: . 3 predicted indications."
 permalink: /news/polymyxin_b/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/polymyxin_b/
 ---
 
 <p class="key-answer" data-question="What news is there about Polymyxin B?">
-<strong>Polymyxin B</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Polymyxin B</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,11 @@ This page combines the AI-predicted indications for Polymyxin B with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>bronchitis (99.9%)</li>
+<li>laryngotracheitis (99.6%)</li>
+<li>conjunctivitis (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/polymyxin_b/' | relative_url }}">View full drug report →</a></p>
 </div>

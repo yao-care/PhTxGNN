@@ -3,7 +3,7 @@ layout: default
 title: "Indacaterol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Indacaterol. Original indication: . 0 predicted indications."
+description: "Health news related to Indacaterol. Original indication: . 10 predicted indications."
 permalink: /news/indacaterol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/indacaterol/
 ---
 
 <p class="key-answer" data-question="What news is there about Indacaterol?">
-<strong>Indacaterol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Indacaterol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Indacaterol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
+<li>headache disorder (99.5%)</li>
+<li>trigeminal autonomic cephalalgia (99.3%)</li>
+<li>paratenonitis (99.3%)</li>
+<li>calcific tendinitis (99.2%)</li>
+<li>hypertrichosis (disease) (99.2%)</li>
+<li>bronchial disease (99.2%)</li>
+<li>myositis (99.1%)</li>
+<li>anaphylaxis (99.1%)</li>
+<li>Ambras type hypertrichosis universalis congenita (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/indacaterol/' | relative_url }}">View full drug report →</a></p>
 </div>

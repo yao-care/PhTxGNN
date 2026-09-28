@@ -3,7 +3,7 @@ layout: default
 title: "Mycophenolate Mofetil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mycophenolate Mofetil. Original indication: . 0 predicted indications."
+description: "Health news related to Mycophenolate Mofetil. Original indication: . 10 predicted indications."
 permalink: /news/mycophenolate_mofetil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mycophenolate_mofetil/
 ---
 
 <p class="key-answer" data-question="What news is there about Mycophenolate Mofetil?">
-<strong>Mycophenolate Mofetil</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Mycophenolate Mofetil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Mycophenolate Mofetil with t
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>HIV infectious disease (99.9%)</li>
+<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
+<li>bone Paget disease (99.7%)</li>
+<li>feline acquired immunodeficiency syndrome (99.7%)</li>
+<li>simian immunodeficiency virus infection (99.7%)</li>
+<li>multiple sclerosis (99.5%)</li>
+<li>hemosiderosis (99.5%)</li>
+<li>Heiner syndrome (99.5%)</li>
+<li>African iron overload (99.4%)</li>
+<li>neonatal hemochromatosis (99.4%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/mycophenolate_mofetil/' | relative_url }}">View full drug report →</a></p>
 </div>

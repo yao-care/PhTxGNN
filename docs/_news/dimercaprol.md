@@ -3,7 +3,7 @@ layout: default
 title: "Dimercaprol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dimercaprol. Original indication: . 0 predicted indications."
+description: "Health news related to Dimercaprol. Original indication: . 1 predicted indications."
 permalink: /news/dimercaprol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dimercaprol/
 ---
 
 <p class="key-answer" data-question="What news is there about Dimercaprol?">
-<strong>Dimercaprol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dimercaprol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,9 @@ This page combines the AI-predicted indications for Dimercaprol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>bronchitis (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dimercaprol/' | relative_url }}">View full drug report →</a></p>
 </div>

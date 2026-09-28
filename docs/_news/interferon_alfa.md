@@ -3,7 +3,7 @@ layout: default
 title: "Interferon Alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Interferon Alfa. Original indication: . 0 predicted indications."
+description: "Health news related to Interferon Alfa. Original indication: . 10 predicted indications."
 permalink: /news/interferon_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/interferon_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Interferon Alfa?">
-<strong>Interferon Alfa</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Interferon Alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Interferon Alfa with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>heart disease (100.0%)</li>
+<li>Jeune syndrome situs inversus (100.0%)</li>
+<li>orofacial clefting syndrome (100.0%)</li>
+<li>Pierre Robin syndrome associated with a chromosomal anomaly (100.0%)</li>
+<li>partial deletion of the long arm of chromosome 22 (100.0%)</li>
+<li>disorder of fucoglycosan synthesis (100.0%)</li>
+<li>partial deletion of the long arm of chromosome 7 (100.0%)</li>
+<li>Laubry-Pezzi syndrome (100.0%)</li>
+<li>genetic syndromic Pierre Robin syndrome (100.0%)</li>
+<li>interventricular septum aneurysm (100.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/interferon_alfa/' | relative_url }}">View full drug report →</a></p>
 </div>

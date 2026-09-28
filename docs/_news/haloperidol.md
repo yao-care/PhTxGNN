@@ -3,7 +3,7 @@ layout: default
 title: "Haloperidol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Haloperidol. Original indication: . 9 predicted indications."
+description: "Health news related to Haloperidol. Original indication: . 10 predicted indications."
 permalink: /news/haloperidol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/haloperidol/
 ---
 
 <p class="key-answer" data-question="What news is there about Haloperidol?">
-<strong>Haloperidol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Haloperidol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Haloperidol with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Congenital disorder of glycosylation with defective fucosylation | 99.91% | L5 | Hold (99.0%)</li>
-<li>Retinal dystrophy with or without extraocular anomalies | 99.91% | L5 | Hold (99.0%)</li>
-<li>Hydranencephaly | 99.90% | L5 | Hold (99.0%)</li>
-<li>Myopia, X-linked | 99.89% | L5 | Hold (99.0%)</li>
-<li>Charcot-Marie-Tooth disease, demyelinating, type 1G | 99.89% | L5 | Hold (99.0%)</li>
-<li>Myopia 26, X-linked, female-limited | 99.89% | L5 | Hold (99.0%)</li>
-<li>Syndromic myopia | 99.88% | L5 | Hold (99.0%)</li>
-<li>Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.88% | L5 | Hold (99.0%)</li>
-<li>Atypical glycine encephalopathy | 99.87% | L5 | Hold (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>congenital disorder of glycosylation with defective fucosylation (99.9%)</li>
+<li>retinal dystrophy with or without extraocular anomalies (99.9%)</li>
+<li>hydranencephaly (disease) (99.9%)</li>
+<li>myopia X-linked (99.9%)</li>
+<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (99.9%)</li>
+<li>myopia 26, X-linked, female-limited (99.9%)</li>
+<li>syndromic myopia (99.9%)</li>
+<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (99.9%)</li>
+<li>atypical glycine encephalopathy (99.9%)</li>
+<li>manic bipolar affective disorder (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/haloperidol/' | relative_url }}">View full drug report →</a></p>

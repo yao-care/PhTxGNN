@@ -3,7 +3,7 @@ layout: default
 title: "Ascorbic Acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ascorbic Acid. Original indication: . 9 predicted indications."
+description: "Health news related to Ascorbic Acid. Original indication: . 10 predicted indications."
 permalink: /news/ascorbic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ascorbic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Ascorbic Acid?">
-<strong>Ascorbic Acid</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ascorbic Acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,16 +24,17 @@ This page combines the AI-predicted indications for Ascorbic Acid with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Non-syndromic esophageal malformation | 99.96% | L5 | Hold (99.0%)</li>
-<li>Esophageal disease | 99.90% | L3 | Research Question (99.0%)</li>
-<li>Congenital prothrombin deficiency | 99.70% | L5 | Hold (99.0%)</li>
-<li>Biotin metabolic disease | 99.52% | L4 | Hold (99.0%)</li>
-<li>Perinatal disease | 99.47% | L2 | Proceed with Guardrails (99.0%)</li>
-<li>Segmental odontomaxillary dysplasia | 99.47% | L5 | Hold (99.0%)</li>
-<li>Florid cemento-osseous dysplasia | 99.47% | L5 | Hold (99.0%)</li>
-<li>Disease by subcellular system affected | 99.47% | L5 | Hold (99.0%)</li>
-<li>Vitamin deficiency disorder | 99.47% | L1 | Proceed with Guardrails (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>non-syndromic esophageal malformation (100.0%)</li>
+<li>esophageal disease (99.9%)</li>
+<li>congenital prothrombin deficiency (99.7%)</li>
+<li>injury (99.6%)</li>
+<li>biotin metabolic disease (99.5%)</li>
+<li>perinatal disease (99.5%)</li>
+<li>segmental odontomaxillary dysplasia (99.5%)</li>
+<li>florid cemento-osseous dysplasia (99.5%)</li>
+<li>disease by subcellular system affected (99.5%)</li>
+<li>vitamin deficiency disorder (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ascorbic_acid/' | relative_url }}">View full drug report →</a></p>

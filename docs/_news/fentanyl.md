@@ -3,7 +3,7 @@ layout: default
 title: "Fentanyl News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fentanyl. Original indication: . 0 predicted indications."
+description: "Health news related to Fentanyl. Original indication: . 2 predicted indications."
 permalink: /news/fentanyl/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fentanyl/
 ---
 
 <p class="key-answer" data-question="What news is there about Fentanyl?">
-<strong>Fentanyl</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fentanyl</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,10 @@ This page combines the AI-predicted indications for Fentanyl with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
+<li>Tourette syndrome (99.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fentanyl/' | relative_url }}">View full drug report →</a></p>
 </div>

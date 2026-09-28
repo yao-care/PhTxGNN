@@ -26,13 +26,13 @@ This page combines the AI-predicted indications for Epirubicin with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (7)</strong>:<ul>
-<li>Primary Pulmonary Lymphoma | 99.71% | L4 | 0 | 9 | Hold (99.0%)</li>
-<li>Well-differentiated Fetal Adenocarcinoma of the Lung | 99.69% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>**Small Cell Lung Carcinoma** | **99.69%** | **L1** | **11** | **20** | **Proceed with Guardrails** (99.0%)</li>
-<li>Pulmonary Blastoma | 99.65% | L4 | 0 | 5 | Hold (99.0%)</li>
-<li>Lung Mixed Small Cell and Squamous Cell Carcinoma | 99.17% | L5 | 0 | 0 | Hold (99.0%)</li>
-<li>Myeloid Leukemia | 99.07% | L3 | 0 | 20 | Research Question (99.0%)</li>
-<li>**Upper Aerodigestive Tract Neoplasm** | **99.06%** | **L1** | 0† | **20** | **Proceed with Guardrails** (99.0%)</li>
+<li>primary pulmonary lymphoma (99.7%)</li>
+<li>well-differentiated fetal adenocarcinoma of the lung (99.7%)</li>
+<li>small cell lung carcinoma (99.7%)</li>
+<li>pulmonary blastoma (99.7%)</li>
+<li>lung mixed small cell and squamous cell carcinoma (99.2%)</li>
+<li>myeloid leukemia (99.1%)</li>
+<li>upper aerodigestive tract neoplasm (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/epirubicin/' | relative_url }}">View full drug report →</a></p>

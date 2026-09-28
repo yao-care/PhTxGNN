@@ -3,7 +3,7 @@ layout: default
 title: "ALUMINUM HYDROXIDE News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to ALUMINUM HYDROXIDE. Original indication: . 0 predicted indications."
+description: "Health news related to ALUMINUM HYDROXIDE. Original indication: . 4 predicted indications."
 permalink: /news/aluminum-hydroxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aluminum-hydroxide/
 ---
 
 <p class="key-answer" data-question="What news is there about ALUMINUM HYDROXIDE?">
-<strong>ALUMINUM HYDROXIDE</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>ALUMINUM HYDROXIDE</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,12 @@ This page combines the AI-predicted indications for ALUMINUM HYDROXIDE with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>active peptic ulcer disease (99.6%)</li>
+<li>gastroduodenitis (99.6%)</li>
+<li>gastrojejunal ulcer (99.5%)</li>
+<li>peptic ulcer perforation (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/aluminum-hydroxide/' | relative_url }}">View full drug report →</a></p>
 </div>

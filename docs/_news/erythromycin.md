@@ -26,11 +26,11 @@ This page combines the AI-predicted indications for Erythromycin with the latest
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
-<li>Punctate Epithelial Keratoconjunctivitis | 99.89% | 0 | 2 | L4 | Research Question (99.0%)</li>
-<li>Acute Contagious Conjunctivitis | 99.55% | 0 | 0 | L5 | Hold (99.0%)</li>
-<li>Exposure Keratitis | 99.50% | 0 | 8 | L4 | Research Question (99.0%)</li>
-<li>Lymphogranuloma Venereum | 99.05% | 1 | 20 | L3 | **Proceed with Guardrails** (99.0%)</li>
-<li>Necrotizing Ulcerative Gingivitis | 99.00% | 0 | 5 | L3 | **Proceed with Guardrails** (99.0%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
+<li>acute contagious conjunctivitis (99.5%)</li>
+<li>exposure keratitis (99.5%)</li>
+<li>lymphogranuloma venereum (99.0%)</li>
+<li>necrotizing ulcerative gingivitis (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/erythromycin/' | relative_url }}">View full drug report →</a></p>
