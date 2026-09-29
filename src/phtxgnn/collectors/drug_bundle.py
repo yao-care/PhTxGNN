@@ -315,8 +315,9 @@ class DrugBundleAggregator:
         """Lazy-load collectors as needed."""
         if name not in self._collectors:
             if name == "tfda":
-                # Skip local FDA collector (not available for Philippines)
-                return None
+                # 本國藥證（Phase 5 標準收集器，讀 Phase 1 的 loader / fields.yaml / drug_mapping）
+                from .phfda import LocalFDACollector
+                self._collectors[name] = LocalFDACollector()
             elif name == "tfda_package_insert":
                 # Skip package insert collector (not available for Philippines)
                 return None
