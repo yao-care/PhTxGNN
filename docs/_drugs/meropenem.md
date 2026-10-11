@@ -29,10 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline operations rather than report authoring; the report format is fully specified in the system prompt. Proceeding directly to generate the report.
-
----
-
 # Meropenem: From Serious Bacterial Infections to Bacterial Arthritis
 
 ## One-Sentence Summary

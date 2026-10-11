@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-Using `txgnn-pipeline` skill to orient context. The skill confirms this is a report generation task within the TxGNN pipeline. Now generating the evaluation report based on the Evidence Pack.
-
----
-
 # Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
 
 ## One-Sentence Summary

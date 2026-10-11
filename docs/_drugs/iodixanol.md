@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-Using `txgnn-pipeline` for context on report generation standards. Now composing the Iodixanol evaluation report based on the Evidence Pack.
-
----
-
 # Iodixanol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
 
 ## One-Sentence Summary

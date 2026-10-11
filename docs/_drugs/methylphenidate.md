@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-The `txgnn-pipeline` skill is focused on technical pipeline management and doesn't override the report-generation instructions already defined. Proceeding to generate the evaluation report based on the Evidence Pack.
-
----
-
 # Methylphenidate: From ADHD to Specific Developmental Disorder
 
 ## One-Sentence Summary

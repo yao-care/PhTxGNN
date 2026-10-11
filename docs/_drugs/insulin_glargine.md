@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill confirms the context. Now let me generate the evaluation report from the Evidence Pack.
-
----
-
 # Insulin Glargine: From Diabetes Mellitus to Autoimmune Oophoritis
 
 ## One-Sentence Summary

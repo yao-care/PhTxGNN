@@ -29,10 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill applies to report generation in this context. Now I'll generate the evaluation report based on the Evidence Pack JSON.
-
----
-
 # Neostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
 
 ## One-Sentence Summary

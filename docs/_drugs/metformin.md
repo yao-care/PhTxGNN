@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-Using the `txgnn-pipeline` skill confirmed context. Now generating the report from the Evidence Pack:
-
----
-
 # Metformin: From Type 2 Diabetes to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary

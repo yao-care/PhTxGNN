@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using `txgnn-pipeline` to confirm report writing context. The skill covers multi-country TxGNN deployment — report generation falls under the pharmacist report pipeline. Proceeding to generate the evaluation report now.
-
----
-
 # Morphine: From Moderate-to-Severe Pain to Myofascial Pain Syndrome
 
 ## One-Sentence Summary

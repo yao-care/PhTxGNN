@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using `txgnn-pipeline` to confirm context. Now generating the evaluation report based on the Evidence Pack.
-
----
-
 # Ketoprofen: From Anti-inflammatory & Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary

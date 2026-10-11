@@ -29,10 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using `txgnn-pipeline` skill — confirmed this is a TxGNN report generation task. Proceeding with Drug Repurposing Evaluation Report (v5) format.
-
----
-
 # Moxifloxacin: From Bacterial Infections to Bubonic Plague
 
 ## One-Sentence Summary

@@ -29,10 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-Using `txgnn-pipeline` to confirm context — this is a PhTxGNN (Philippines) report generation task, not a pipeline operation. The skill confirms the project context; I'll proceed directly with the report.
-
----
-
 # Ketamine: From Anesthesia to Headache Disorder
 
 ## One-Sentence Summary

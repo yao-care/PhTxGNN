@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-Using the `txgnn-pipeline` skill to confirm context. Now I'll generate the evaluation report based on the Evidence Pack.
-
----
-
 # Mupirocin: From Topical Skin Infection to Pleural Empyema
 
 ## One-Sentence Summary

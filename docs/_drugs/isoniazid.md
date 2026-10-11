@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-Using `txgnn-pipeline` for context — this is a PhTxGNN report generation task. Now producing the evaluation report:
-
----
-
 # Isoniazid: From Tuberculosis to Conjunctivitis
 
 ## One-Sentence Summary

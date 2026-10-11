@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-Using `txgnn-pipeline` to guide report generation for this PhTxGNN evidence pack.
-
----
-
 # Lactulose: From Hepatic Encephalopathy to Acute Urate Nephropathy
 
 ## One-Sentence Summary

@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-Using the `txgnn-pipeline` skill as context. Now generating the report from the Evidence Pack:
-
----
-
 # Naproxen: From Pain & Inflammation to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary

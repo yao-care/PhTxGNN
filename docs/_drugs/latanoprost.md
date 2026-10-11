@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the `txgnn-pipeline` skill for context. Now generating the Evaluation Report from the Evidence Pack.
-
----
-
 # Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary

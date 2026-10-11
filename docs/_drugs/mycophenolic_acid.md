@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the `txgnn-pipeline` skill as context for this TxGNN drug repurposing report. Now generating the evaluation report based on the Evidence Pack.
-
----
-
 # Mycophenolic Acid: From Organ Transplant Rejection Prevention to Hemoglobinopathy
 
 ## One-Sentence Summary

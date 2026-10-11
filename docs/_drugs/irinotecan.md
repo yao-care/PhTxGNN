@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-Using `txgnn-pipeline` skill to confirm context. Now generating the report from the Evidence Pack.
-
----
-
 # Irinotecan: From Colorectal Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary

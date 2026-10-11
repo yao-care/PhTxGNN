@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-Using the `txgnn-pipeline` skill to confirm context. The skill confirms this is a standard TxGNN pipeline report. Now generating the evaluation report from the Evidence Pack.
-
----
-
 # Nevirapine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary

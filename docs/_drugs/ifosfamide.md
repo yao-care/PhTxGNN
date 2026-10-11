@@ -29,10 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-The `txgnn-pipeline` skill covers pipeline operations (training/deployment), not report writing — the detailed report format is fully specified in the system prompt. Proceeding to generate the evaluation report.
-
----
-
 # Ifosfamide: From Soft Tissue Sarcoma to Female Breast Carcinoma
 
 ## One-Sentence Summary

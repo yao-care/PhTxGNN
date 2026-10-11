@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-Using the `txgnn-pipeline` skill for context on report generation within the TxGNN ecosystem. Now generating the report based on the Evidence Pack.
-
----
-
 # Irbesartan: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary

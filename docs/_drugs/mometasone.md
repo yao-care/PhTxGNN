@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-Using the **txgnn-pipeline** skill context to guide the report generation. Now producing the full evaluation report from the Evidence Pack.
-
----
-
 # Mometasone: From Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
 
 ## One-Sentence Summary

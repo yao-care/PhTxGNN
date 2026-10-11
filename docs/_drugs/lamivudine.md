@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-Using the `txgnn-pipeline` skill to guide report generation for this evidence pack. Since this skill is not available as a deferred tool, I will proceed directly with the report based on the system prompt instructions.
-
----
-
 # Lamivudine: From HIV/HBV Antiretroviral to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary

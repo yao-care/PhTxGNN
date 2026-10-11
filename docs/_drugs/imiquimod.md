@@ -29,10 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the `txgnn-pipeline` skill to guide this report — now generating the Imiquimod Evidence Pack evaluation report following the v5 format.
-
----
-
 # Imiquimod: From Actinic Keratosis to Pre-malignant Neoplasm
 
 ## One-Sentence Summary

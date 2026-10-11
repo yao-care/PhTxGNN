@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill applies to pipeline operations (training, data management), not report generation. I'll proceed with writing the report using the detailed instructions already provided in the system prompt.
-
----
-
 # Isosorbide Dinitrate: From Angina Pectoris to Vascular Disease
 
 ## One-Sentence Summary

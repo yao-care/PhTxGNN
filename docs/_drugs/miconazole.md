@@ -29,10 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-Using `txgnn-pipeline` to confirm context, then generating the evaluation report per the v5 prompt instructions.
-
----
-
 # Miconazole: From Fungal Infections to Acne
 
 ## One-Sentence Summary

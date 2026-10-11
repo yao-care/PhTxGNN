@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-The txgnn-pipeline skill confirms the workflow context. Now I'll generate the full evaluation report based on the Evidence Pack.
-
----
-
 # Mitoxantrone: From Hematologic Malignancies to Upper Aerodigestive Tract Neoplasm
 
 ## One-Sentence Summary

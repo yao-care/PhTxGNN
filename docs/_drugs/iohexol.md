@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-Using the `txgnn-pipeline` skill as context for this TxGNN repurposing report. Now generating the evaluation based on the Evidence Pack for Iohexol.
-
----
-
 # Iohexol: From Contrast Imaging to Insomnia
 
 ## One-Sentence Summary

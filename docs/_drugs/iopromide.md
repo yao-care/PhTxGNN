@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-The `txgnn-pipeline` skill covers multi-country deployment and technical workflow — the report generation task here is governed directly by the system prompt specification. Proceeding with the report.
-
----
-
 # Iopromide: From CT Contrast Imaging to Osteoarthritis Susceptibility
 
 ## One-Sentence Summary

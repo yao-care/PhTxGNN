@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-Using the `txgnn-pipeline` skill to orient this task — this is a report-generation step within the TxGNN pipeline for the PhTxGNN (Philippines) project. I'll now generate the evaluation report from the Evidence Pack.
-
----
-
 # Nicardipine: From Hypertension to Multifactorial Pulmonary Hypertension
 
 ## One-Sentence Summary

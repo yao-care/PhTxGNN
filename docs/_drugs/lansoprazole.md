@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-Using the `txgnn-pipeline` skill — confirmed this is a TxGNN report generation task. Now generating the evaluation report from the Evidence Pack.
-
----
-
 # Lansoprazole: From Acid-Related Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary

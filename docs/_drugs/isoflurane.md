@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-Using the txgnn-pipeline skill context and the Evidence Pack, I will now generate the report.
-
----
-
 # Isoflurane: From General Anesthesia to Prinzmetal Angina
 
 ## One-Sentence Summary

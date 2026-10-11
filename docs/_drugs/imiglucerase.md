@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-Using the `txgnn-pipeline` skill to guide context. Now generating the evaluation report based on the Evidence Pack.
-
----
-
 # Imiglucerase: From Gaucher Disease to Hurler Syndrome
 
 ## One-Sentence Summary

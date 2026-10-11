@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill is focused on data pipeline operations; the report format is defined by my system prompt. Proceeding with report generation now.
-
----
-
 # Mannitol: From Intracranial Hypertension to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary

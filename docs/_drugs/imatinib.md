@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill confirms this is a standard TxGNN report-generation task. Proceeding with the Evidence Pack now.
-
----
-
 # Imatinib: From CML / GIST to Heart Fibrosarcoma
 
 ## One-Sentence Summary

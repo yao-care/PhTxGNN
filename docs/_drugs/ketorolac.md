@@ -29,10 +29,6 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-The txgnn-pipeline skill is focused on model training and deployment. This task is report generation, which is fully governed by the system prompt instructions. Proceeding directly to write the report.
-
----
-
 # Ketorolac: From Acute Pain to Headache Disorder
 
 ## One-Sentence Summary

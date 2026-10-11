@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the `txgnn-pipeline` skill to confirm reporting context, then proceeding to generate the evaluation report based on the Evidence Pack.
-
----
-
 # Metronidazole: From Anaerobic & Protozoal Infections to Pneumocystosis
 
 ## One-Sentence Summary

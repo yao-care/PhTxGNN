@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-The txgnn-pipeline skill confirms this is within the TxGNN reporting workflow. Proceeding directly to generate the evaluation report following the Drug Repurposing Evaluation Report Prompt (v5) format.
-
----
-
 # Metoprolol: From Hypertension & Heart Failure to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary

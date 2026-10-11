@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-Using the `txgnn-pipeline` skill to orient the task — this is a report-generation step in the TxGNN pipeline, drawing on an Evidence Pack to produce a pharmacist-facing repurposing evaluation. I'll now generate the report.
-
----
-
 # Micafungin: From Invasive Candidiasis to Urinary Tract Infection
 
 ## One-Sentence Summary

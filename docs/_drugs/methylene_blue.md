@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-Using `txgnn-pipeline` to orient context — this is a PhTxGNN report generation task. Now generating the evaluation report from the Evidence Pack.
-
----
-
 # Methylene Blue: From Methemoglobinemia to Bronchitis
 
 ## One-Sentence Summary

@@ -29,10 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using `txgnn-pipeline` skill to guide the report generation. Now producing the full evaluation report based on the Evidence Pack.
-
----
-
 # Methylprednisolone: From Inflammatory/Autoimmune Conditions to Alopecia Areata
 
 ## One-Sentence Summary

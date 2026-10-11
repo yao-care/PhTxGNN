@@ -29,10 +29,6 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using the `txgnn-pipeline` skill to confirm context — this is a PhTxGNN report. Now generating the evaluation report from the Evidence Pack.
-
----
-
 # Interferon Alfa: From Viral Hepatitis & Oncology to Heart Disease
 
 ## One-Sentence Summary

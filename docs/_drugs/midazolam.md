@@ -29,10 +29,6 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-Using the `txgnn-pipeline` skill for context, and now generating the evaluation report from the Evidence Pack.
-
----
-
 # Midazolam: From Procedural Sedation to Insomnia
 
 ## One-Sentence Summary

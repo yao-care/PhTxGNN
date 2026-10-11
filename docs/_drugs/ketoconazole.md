@@ -29,10 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-Using **txgnn-pipeline** to guide report generation context, and the system-level Drug Repurposing Evaluation Report prompt (v5) for structure. Now generating the full report.
-
----
-
 # Ketoconazole: From Antifungal Treatment to Acne
 
 ## One-Sentence Summary
