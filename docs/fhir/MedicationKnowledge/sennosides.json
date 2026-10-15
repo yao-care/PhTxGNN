@@ -13,14 +13,9 @@
         "system": "https://www.drugbank.ca/drugs",
         "code": "sennosides",
         "display": "DB11365"
-      },
-      {
-        "system": "https://phtxgnn.github.io/drugs",
-        "code": "abacavir",
-        "display": "ABACAVIR"
       }
     ],
-    "text": "ABACAVIR"
+    "text": "sennosides"
   },
   "intendedJurisdiction": [
     {

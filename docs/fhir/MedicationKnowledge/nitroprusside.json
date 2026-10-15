@@ -13,14 +13,9 @@
         "system": "https://www.drugbank.ca/drugs",
         "code": "nitroprusside",
         "display": "DB00325"
-      },
-      {
-        "system": "https://phtxgnn.github.io/drugs",
-        "code": "abacavir",
-        "display": "ABACAVIR"
       }
     ],
-    "text": "ABACAVIR"
+    "text": "nitroprusside"
   },
   "intendedJurisdiction": [
     {

@@ -13,14 +13,9 @@
         "system": "https://www.drugbank.ca/drugs",
         "code": "anastrozole",
         "display": "DB01217"
-      },
-      {
-        "system": "https://phtxgnn.github.io/drugs",
-        "code": "abacavir",
-        "display": "ABACAVIR"
       }
     ],
-    "text": "ABACAVIR"
+    "text": "anastrozole"
   },
   "intendedJurisdiction": [
     {

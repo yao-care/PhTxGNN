@@ -13,14 +13,9 @@
         "system": "https://www.drugbank.ca/drugs",
         "code": "acyclovir",
         "display": "DB00787"
-      },
-      {
-        "system": "https://phtxgnn.github.io/drugs",
-        "code": "abacavir",
-        "display": "ABACAVIR"
       }
     ],
-    "text": "ABACAVIR"
+    "text": "acyclovir"
   },
   "intendedJurisdiction": [
     {
