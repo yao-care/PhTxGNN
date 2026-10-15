@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Medroxyprogesterone Acetate 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Breast fibrocystic disease (100.0%)</li>
+<li>Benign mammary dysplasia (99.9%)</li>
+<li>Cervix endometriosis (99.9%)</li>
+<li>Endometriosis in cutaneous scar (99.9%)</li>
+<li>Endometriosis of rectovaginal septum and vagina (99.9%)</li>
+<li>Apocrine adenosis of breast (99.9%)</li>
+<li>Blunt duct adenosis of breast (99.9%)</li>
 <li>amenorrhea (disease) (100.0%)</li>
-<li>breast fibrocystic disease (100.0%)</li>
-<li>benign mammary dysplasia (99.9%)</li>
-<li>cervix endometriosis (99.9%)</li>
-<li>endometriosis in cutaneous scar (99.9%)</li>
-<li>endometriosis of rectovaginal septum and vagina (99.9%)</li>
 <li>renal hypoplasia, bilateral (99.9%)</li>
 <li>renal hypoplasia (disease) (99.9%)</li>
-<li>apocrine adenosis of breast (99.9%)</li>
-<li>blunt duct adenosis of breast (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/medroxyprogesterone_acetate/' | relative_url }}">View full drug report →</a></p>

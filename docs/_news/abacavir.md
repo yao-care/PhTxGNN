@@ -26,9 +26,9 @@ This page combines the AI-predicted indications for Abacavir with the latest hea
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
+<li>Feline acquired immunodeficiency syndrome (99.8%)</li>
+<li>Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
 <li>simian immunodeficiency virus infection (99.8%)</li>
-<li>feline acquired immunodeficiency syndrome (99.8%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abacavir/' | relative_url }}">View full drug report →</a></p>

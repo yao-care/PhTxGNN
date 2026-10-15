@@ -25,11 +25,11 @@ This page combines the AI-predicted indications for Ferrous Gluconate with the l
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (5)</strong>:<ul>
+<li>Vitamin B12- and folate-independent constitutional megaloblastic anemia (99.9%)</li>
+<li>Non-syndromic esophageal malformation (99.7%)</li>
+<li>Biotin metabolic disease (99.4%)</li>
+<li>Vitamin deficiency disorder (99.2%)</li>
 <li>Plummer-Vinson syndrome (99.9%)</li>
-<li>vitamin B12- and folate-independent constitutional megaloblastic anemia (99.9%)</li>
-<li>non-syndromic esophageal malformation (99.7%)</li>
-<li>biotin metabolic disease (99.4%)</li>
-<li>vitamin deficiency disorder (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ferrous_gluconate/' | relative_url }}">View full drug report →</a></p>

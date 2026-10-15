@@ -3,7 +3,7 @@ layout: default
 title: "Dipyridamole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dipyridamole. Original indication: . 10 predicted indications."
+description: "Health news related to Dipyridamole. Original indication: . 11 predicted indications."
 permalink: /news/dipyridamole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dipyridamole/
 ---
 
 <p class="key-answer" data-question="What news is there about Dipyridamole?">
-<strong>Dipyridamole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Dipyridamole</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,10 @@ This page combines the AI-predicted indications for Dipyridamole with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (11)</strong>:<ul>
+<li>Stroke disorder (100.0%)</li>
+<li>Transient ischemic attack (99.9%)</li>
 <li>Prinzmetal angina (100.0%)</li>
-<li>stroke disorder (100.0%)</li>
 <li>thrombotic disease (99.9%)</li>
 <li>sick sinus syndrome 2, autosomal dominant (99.9%)</li>
 <li>transient ischemic attack (disease) (99.9%)</li>

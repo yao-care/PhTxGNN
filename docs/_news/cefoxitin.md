@@ -26,13 +26,13 @@ This page combines the AI-predicted indications for Cefoxitin with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>infectious otitis media (99.3%)</li>
+<li>Infectious otitis media (99.3%)</li>
+<li>Middle ear disease (99.1%)</li>
+<li>Gonococcal urethritis (99.1%)</li>
 <li>urinary tract infection (disease) (99.3%)</li>
 <li>chronic otitis media (99.1%)</li>
 <li>suppurative otitis media (99.1%)</li>
-<li>middle ear disease (99.1%)</li>
 <li>Ureaplasma urethritis (99.1%)</li>
-<li>gonococcal urethritis (99.1%)</li>
 <li>toxocariasis (99.1%)</li>
 <li>otosalpingitis (99.1%)</li>
 <li>non-suppurative otitis media (99.1%)</li>

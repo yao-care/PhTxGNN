@@ -25,12 +25,12 @@ This page combines the AI-predicted indications for Isosorbide Dinitrate with th
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Pulmonary hypertension (100.0%)</li>
+<li>Vascular disease (100.0%)</li>
 <li>alopecia (100.0%)</li>
 <li>congenital hypotrichosis milia (100.0%)</li>
 <li>hypotrichosis simplex of the scalp (100.0%)</li>
-<li>pulmonary hypertension (100.0%)</li>
 <li>diffuse alopecia areata (100.0%)</li>
-<li>vascular disease (100.0%)</li>
 <li>hypertrichosis (disease) (100.0%)</li>
 <li>kyphoscoliotic heart disease (100.0%)</li>
 <li>visceral calciphylaxis (100.0%)</li>

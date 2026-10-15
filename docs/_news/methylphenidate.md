@@ -26,10 +26,10 @@ This page combines the AI-predicted indications for Methylphenidate with the lat
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
+<li>Chondromyxoid fibroma (100.0%)</li>
+<li>Specific developmental disorder (100.0%)</li>
+<li>Dysthymic disorder (99.1%)</li>
 <li>faciodigitogenital syndrome (100.0%)</li>
-<li>chondromyxoid fibroma (100.0%)</li>
-<li>specific developmental disorder (100.0%)</li>
-<li>dysthymic disorder (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methylphenidate/' | relative_url }}">View full drug report →</a></p>

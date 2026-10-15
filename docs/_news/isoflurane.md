@@ -25,13 +25,13 @@ This page combines the AI-predicted indications for Isoflurane with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (7)</strong>:<ul>
-<li>Prinzmetal angina (99.7%)</li>
 <li>Tourette syndrome (99.6%)</li>
-<li>manic bipolar affective disorder (99.6%)</li>
-<li>trichotillomania (99.5%)</li>
-<li>dysthymic disorder (99.3%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
-<li>migraine disorder (99.1%)</li>
+<li>Manic bipolar affective disorder (99.6%)</li>
+<li>Trichotillomania (99.5%)</li>
+<li>Dysthymic disorder (99.3%)</li>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (99.1%)</li>
+<li>Migraine disorder (99.1%)</li>
+<li>Prinzmetal angina (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/isoflurane/' | relative_url }}">View full drug report →</a></p>

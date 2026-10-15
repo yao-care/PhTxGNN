@@ -26,9 +26,9 @@ This page combines the AI-predicted indications for Terbutaline with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
-<li>obstructive lung disease (100.0%)</li>
-<li>respiratory malformation (99.5%)</li>
+<li>Respiratory malformation (99.5%)</li>
 <li>Rienhoff syndrome (99.4%)</li>
+<li>obstructive lung disease (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/terbutaline/' | relative_url }}">View full drug report →</a></p>

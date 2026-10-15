@@ -26,9 +26,9 @@ This page combines the AI-predicted indications for Amlodipine with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
 <li>brain stem infarction (99.9%)</li>
 <li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
 <li>malignant hypertensive renal disease (99.9%)</li>
 <li>malignant renovascular hypertension (99.9%)</li>
 <li>cerebral artery occlusion (99.9%)</li>
