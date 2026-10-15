@@ -2,15 +2,15 @@
 layout: default
 title: Amikacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 21
-evidence_level: L3
+nav_order: 22
+evidence_level: L4
 indication_count: 10
 ---
 
 # Amikacin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Amikacin: From Gram-negative Bacterial Infections to Paratyphoid Fever
+# Amikacin: From Bacterial Infections to Paratyphoid Fever
 
 ## One-Sentence Summary
 
-Amikacin is a broad-spectrum aminoglycoside antibiotic widely used worldwide for serious gram-negative bacterial infections (including *Pseudomonas aeruginosa*, *Klebsiella*, and *E. coli*), though it is not currently registered in the Philippines.
-The TxGNN model predicts it may be effective for **Paratyphoid Fever** (infection caused by *Salmonella paratyphi* A/B/C),
-with **0 clinical trials** and **12 publications** currently supporting this direction — primarily microbiological antibiogram data and case-level clinical reports.
-
----
+Amikacin is an aminoglycoside antibiotic originally used for serious gram-negative bacterial infections such as bacterial pneumonia, *Pseudomonas aeruginosa* infection, and bacterial meningitis.
+The TxGNN model predicts it may be effective for **Paratyphoid Fever**, but the supporting evidence is weak: **no clinical trials** and **8 publications**, mostly surveillance and susceptibility studies without amikacin efficacy data.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Serious gram-negative bacterial infections (global standard use; no Philippines registration on record) |
-| Predicted New Indication | Paratyphoid Fever |
+|------|------|
+| Original Indication | Bacterial pneumonia, *Pseudomonas aeruginosa* infection, cholangitis, bacterial meningitis, and other bacterial infections (the Philippines registration has no approved indication text) |
+| Predicted New Indication | Paratyphoid fever |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Amikacin is a semi-synthetic aminoglycoside antibiotic derived from kanamycin. It exerts bactericidal activity by irreversibly binding to the 30S ribosomal subunit of susceptible bacteria, thereby inhibiting protein synthesis. Critically, Amikacin was engineered to resist most aminoglycoside-modifying enzymes that inactivate other members of this class (e.g., gentamicin, tobramycin), giving it superior activity against many multidrug-resistant (MDR) gram-negative Enterobacteriaceae.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, amikacin is an aminoglycoside that binds the 30S ribosomal subunit and inhibits bacterial protein synthesis. It has activity against gram-negative Enterobacterales, including *Salmonella*.
 
-*Salmonella paratyphi* A, B, and C are gram-negative facultative anaerobes belonging to the Enterobacteriaceae family — precisely the organism class against which Amikacin was designed. Multiple antibiogram studies (PMID 18383953, PMID 27407999, PMID 8354556) have consistently demonstrated in vitro susceptibility of *S. paratyphi* strains to amikacin. Although fluoroquinolones (e.g., ciprofloxacin) and third-generation cephalosporins (e.g., ceftriaxone) remain first-line treatment for enteric fever, the emergence of extensively drug-resistant (XDR) and MDR strains in South Asia and Africa has created a genuine clinical gap that Amikacin could help fill.
+Paratyphoid fever is a gram-negative bacterial infection, so an antibacterial rationale exists, and this is likely why the model ranks it highly. The link is plausible in vitro but weak clinically. Aminoglycosides reach poor concentrations inside cells, where *Salmonella* persists, and they are not standard therapy for enteric fever. The retrieved literature is mostly epidemiology and antibiogram surveys, with no efficacy data for amikacin.
 
-The clinical relevance is further supported by real-world case reports: Amikacin has been used in neonatal paratyphoid sepsis (PMID 17337835), drug-resistant enteric fever requiring alternative antibiotics (PMID 2516600), and complicated presentations such as splenic abscess (PMID 16410091). In contexts where fluoroquinolone resistance is high and treatment options are limited — particularly for neonates and critically ill patients — Amikacin's bactericidal potency against *Salmonella* makes this TxGNN prediction mechanistically well-grounded.
-
----
+Other top predictions show a similar pattern. Typhoid fever (99.77%) and salmonellosis (99.74%) have only in vitro, observational, or indirect evidence. Several others, such as diffuse scleroderma, congenital analbuminemia, and polyclonal hyperviscosity syndrome, have no plausible mechanism and no supporting evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Prospective Observational | J Indian Medical Association | Prospective study in 145 pediatric enteric fever cases (June 2004–April 2005); determined antibiotic sensitivity patterns of both *S. typhi* and *S. paratyphi*; highlights aminoglycoside susceptibility in preschool children |
-| [17337835](https://pubmed.ncbi.nlm.nih.gov/17337835/) | 2007 | Clinical Review / Case Series | Indian J Pediatrics | Neonatal paratyphoid sepsis case involving multidrug-susceptible *S. paratyphi* A; documents real-world antibiotic management including amikacin consideration |
-| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Microbiological / Antibiogram Study | Pakistan J Biological Sciences | Isolation and identification of *Salmonella paratyphi* from enteric fever patients in Pakistan; characterizes antibiotic susceptibility profiles including aminoglycosides |
-| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Observational Study | Med J Armed Forces India | In vitro susceptibility testing of *S. typhi* and *S. paratyphi* A in northern India; documents retained amikacin sensitivity in chloramphenicol/ampicillin-resistant strains |
-| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Retrospective Microbiological Study | JNMA (Nepal Medical Association) | Blood culture isolate antibiogram at a teaching hospital; guides empiric antimicrobial regimen selection for bacteremia including Salmonella species |
-| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Epidemiological / Microbiological Study | The New Microbiologica | 13-year surveillance (1988–2000) of *S. typhi* and *S. paratyphi* in Jordan; 1.4 million diarrhoeal cases reviewed; antibiotic resistance trends documented |
-| [16410091](https://pubmed.ncbi.nlm.nih.gov/16410091/) | 2006 | Case Series | J Pediatric Surgery | Four pediatric patients with splenic abscess managed with percutaneous drainage plus antibiotics; illustrates complicated paratyphoid requiring targeted antibiotic combinations |
-| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Case Report | Pediatric Hematology and Oncology | Acalculous cholecystitis caused by *S. paratyphi* B in a child with acute leukemia; successfully treated with **cefepime + amikacin** + G-CSF — direct documentation of amikacin clinical use |
-| [9459410](https://pubmed.ncbi.nlm.nih.gov/9459410/) | 1997 | Case Report | J Infection | Quinolone-resistant *S. paratyphi* B meningitis in a neonate; highlights the clinical problem of quinolone resistance and need for alternative agents such as amikacin |
-| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Case Series / Clinical Report | Mikrobiyoloji Bulteni | 48 pediatric patients with confirmed *S. paratyphi* B infection resistant to classical treatment (ampicillin/chloramphenicol/co-trimoxazole); documents treatment outcomes with alternative antibiotic regimens |
+|------|-----|------|------|---------|
+| [10505326](https://pubmed.ncbi.nlm.nih.gov/10505326/) | 1999 | Case report | Pediatric Hematology and Oncology | Child with leukemia and acalculous cholecystitis due to *S. paratyphi* B, successfully treated with cefepime, amikacin, and granulocyte support |
+| [2516600](https://pubmed.ncbi.nlm.nih.gov/2516600/) | 1989 | Clinical report | Mikrobiyoloji Bulteni | Treatment and antibiogram results in 48 patients with paratyphi B infection resistant to classical therapy |
+| [18383953](https://pubmed.ncbi.nlm.nih.gov/18383953/) | 2007 | Prospective cohort | J Indian Med Assoc | Clinical profile and antibiotic sensitivity of *S. typhi* and *S. paratyphi* in 145 children |
+| [27407999](https://pubmed.ncbi.nlm.nih.gov/27407999/) | 2007 | Observational | Med J Armed Forces India | Susceptibility pattern of *S. typhi* and *S. paratyphi* A isolates, including re-emerging chloramphenicol sensitivity |
+| [8354556](https://pubmed.ncbi.nlm.nih.gov/8354556/) | 1993 | Surveillance | Indian J Pathol Microbiol | 280 *S. typhi* strains; multidrug-resistant strains remained sensitive to aminoglycosides, including amikacin, and to ciprofloxacin |
+| [14596347](https://pubmed.ncbi.nlm.nih.gov/14596347/) | 2003 | Surveillance | New Microbiologica | Occurrence of *S. typhi* and *S. paratyphi* in Jordan |
+| [26905550](https://pubmed.ncbi.nlm.nih.gov/26905550/) | 2014 | Antibiogram | JNMA | Blood culture isolates and antibiograms at a teaching hospital |
+| [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Microbiological study | Pak J Biol Sci | Isolation and identification of *S. paratyphi* from enteric fever patients in Quetta |
 
----
+For the closely related typhoid fever prediction, one small clinical study (PMID 2598731) reported a clinical effective rate of 36.4% with amikacin (11 patients) versus 100% with ofloxacin.
 
 ## Philippines Market Information
 
-Amikacin is **not currently registered** with the Philippine FDA (Food and Drug Administration). No drug licenses, brand names, or approved indications are on record for this drug in the Philippines.
-
-> **Note:** Despite lack of local registration, amikacin is available in many countries as a generic injectable (IV/IM), and importation for compassionate/hospital use may be possible under existing Philippine FDA frameworks for unregistered essential medicines.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0014 | Amikacin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Detailed local package insert warnings and contraindications are not available in this Evidence Pack. Please refer to the current package insert and established pharmacological references for complete safety information.
+Safety information from the compiled data is limited. Package insert warnings and contraindications were not available; please refer to the package insert.
 
-Key safety considerations known from the general amikacin literature that should be reviewed prior to any clinical application:
-
-- **Nephrotoxicity**: Aminoglycosides are associated with dose-dependent acute tubular necrosis; renal function monitoring (serum creatinine, BUN) is required, especially with prolonged courses.
-- **Ototoxicity**: Both cochlear (irreversible hearing loss) and vestibular toxicity are recognized class effects; audiometric monitoring is recommended for courses >5 days.
-- **Pharmacokinetic considerations in special populations**: Neonates (immature renal clearance), elderly patients, and those with hypoalbuminemia (note: congenital analbuminemia — see rank 7 in predictions — would significantly increase free drug concentration and toxicity risk) require TDM (therapeutic drug monitoring).
-- **Drug interaction caution**: Concurrent use with other nephrotoxic agents (e.g., vancomycin, NSAIDs, contrast agents) or loop diuretics (furosemide) increases toxicity risk.
-
----
+- **Contraindication-related conditions (from a knowledge graph, not label text)**: kidney disease, pyoureter, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, central nervous system origin vertigo, myasthenia gravis (including adult-onset), neuromuscular junction disease, parkinsonian disorder, and Parkinson disease.
+- **Drug Interactions**: The interaction query returned 100 records; the first 20 are shown to the extent available.
+  - **Major**: magnesium sulfate, mannitol.
+  - **Moderate** (examples): amphotericin B (including lipid and liposomal forms), other aminoglycosides (kanamycin, neomycin), proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole, dexlansoprazole), acetylsalicylic acid, mesalazine, balsalazide, olsalazine, and exenatide.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Amikacin has well-documented in vitro bactericidal activity against *Salmonella paratyphi*, and multiple case-level clinical reports confirm actual therapeutic use in paratyphoid complications (splenic abscess, neonatal sepsis, drug-resistant strains). The mechanistic rationale is strong: Amikacin's resistance to aminoglycoside-modifying enzymes makes it particularly valuable precisely in the MDR scenarios most prevalent in endemic regions. However, no prospective clinical trials specifically evaluating Amikacin for paratyphoid fever have been registered, and the current evidence base consists entirely of observational/microbiological data (L3).
+The prediction score is very high, but the evidence consists of surveillance, susceptibility, and case-level reports with no efficacy trials for amikacin. Aminoglycosides are not standard therapy for paratyphoid or enteric fever, because of poor intracellular penetration and the availability of better-established agents. The only Philippine registration is cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
-- **Obtain full safety profile**: Download and parse the Philippine FDA-equivalent package insert (TFDA/WHO-PQ reference documents) to complete the DG001 data gap; this is currently blocking the S1 safety initial assessment.
-- **Confirm MOA data from DrugBank** (DG002): Query DrugBank API for DB00479 to populate mechanism of action for regulatory-grade documentation.
-- **Philippine registration pathway assessment**: Evaluate whether amikacin qualifies for inclusion under the Philippine National Formulary or WHO Essential Medicines List compassionate use channel, given zero current registrations.
-- **Prospective clinical design**: Design a focused observational study or pragmatic RCT in MDR paratyphoid fever populations (e.g., Philippines, Pakistan, South Asia) comparing amikacin-containing regimens vs. current standards of care, with TDM-guided dosing.
-- **Therapeutic drug monitoring (TDM) protocol**: Establish peak/trough monitoring parameters before any systematic clinical deployment, given nephrotoxicity and ototoxicity risks.
-- **Pediatric dosing protocol**: Given that most existing clinical evidence involves pediatric and neonatal cases, a dedicated pediatric pharmacokinetics sub-study should be included in any future investigation.
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. This analysis is generated by an AI-assisted drug repurposing system (TxGNN); all findings must be reviewed by qualified medical and pharmacological professionals before any clinical decision-making.
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Detailed mechanism of action data (for example from DrugBank)
+- Comparative clinical data on amikacin in enteric fever, ideally prospective, against current standard therapy
+- Clarification of the current registration status and available formulations in the Philippines
+- A safety monitoring plan covering nephrotoxicity, ototoxicity, and neuromuscular effects, given the contraindication-related conditions and major interactions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Allopurinol
 parent: Moderate Evidence (L3-L4)
-nav_order: 18
+nav_order: 19
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,80 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Allopurinol: From Gout/Hyperuricemia to Hepatic Porphyria
+# Allopurinol: From Gout to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Allopurinol is a xanthine oxidase (XO) inhibitor widely used in the treatment of gout and hyperuricemia, reducing uric acid production and oxidative stress.
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**,
-with **0 clinical trials** and **2 publications** currently supporting this direction.
-
----
+Allopurinol is a xanthine oxidase inhibitor originally used for gout, hyperuricemia and acute urate nephropathy.
+The TxGNN model predicts it may be effective for **hepatic porphyria**,
+but there are currently **no clinical trials** and only **2 indirect publications** (a hypothesis paper and a rat study), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gout and hyperuricemia (xanthine oxidase inhibition) |
-| Predicted New Indication | Hepatic Porphyria |
+|------|------|
+| Original Indication | Gout (also obsolete hyperuricemia and acute urate nephropathy, per the knowledge graph) |
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on well-established pharmacology, Allopurinol is a xanthine oxidase (XO) inhibitor that blocks the conversion of hypoxanthine and xanthine to uric acid, and reduces reactive oxygen species (ROS) generated as a byproduct of the XO reaction. Its active metabolite, oxypurinol, sustains this inhibition with a longer half-life.
+Currently, detailed mechanism of action data is not available. Based on known information, allopurinol is a xanthine oxidase inhibitor, and its efficacy in gout and hyperuricemia is well established. Whether this mechanism is applicable to hepatic porphyria is not demonstrated by the data compiled for this report.
 
-The potential mechanistic link to hepatic porphyria centers on heme biosynthesis regulation. Allopurinol and oxypurinol have been hypothesized to suppress 5-aminolevulinate synthase (ALAS) — the rate-limiting enzyme of heme biosynthesis — either through direct feedback modulation of the hepatic regulatory heme pool or indirectly by reducing XO-derived ROS that can amplify ALAS induction. In acute hepatic porphyria attacks, ALAS is abnormally upregulated due to depletion of the regulatory heme pool; pharmacologically dampening this pathway is a recognized therapeutic target.
+The two publications retrieved are only indirect. One is a hypothesis paper on metabolic targeting of 5-aminolevulinate synthase (ALAS1), the rate-limiting enzyme of heme biosynthesis, as a therapy for acute hepatic porphyrias. The other is a rat study of carbamazepine effects on hepatic heme metabolism. Neither tests allopurinol in porphyria patients. Older preclinical work has reported that allopurinol affects hepatic heme metabolism and cytochrome P450 degradation, which may suggest a plausible link, but this is not shown in the data provided.
 
-A 2019 hypothesis paper (PMID 31443750) proposed that metabolic targeting of hepatic ALAS — via inhibition of heme utilization by tryptophan 2,3-dioxygenase (TDO) — could serve as a novel therapy for acute hepatic porphyrias. This framework partially overlaps with the XO-inhibition pathway. Nevertheless, no clinical trial has directly evaluated Allopurinol in porphyria patients, and the mechanistic connection remains hypothetical pending experimental validation.
-
----
+The effect could also be harmful: modulating the heme pathway in porphyria can precipitate acute attacks. The high TxGNN score reflects graph-based association and should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypothesis/Opinion | Medical Hypotheses | Proposes metabolic targeting of liver ALAS via TDO inhibition or tryptophan supplementation as a therapy for acute hepatic porphyrias; discusses regulatory heme pool depletion and secondary ALAS induction as the pathomechanism of acute porphyric attacks |
-| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Animal Study | Biochemical Pharmacology | Demonstrates that carbamazepine exacerbates hepatic porphyria in rats by perturbing haem metabolism; provides a validated screening model for drug–haem interaction, relevant background for evaluating XO inhibitors in the same pathway |
-
----
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hypothesis/Review | Medical Hypotheses | Proposes metabolic targeting of hepatic ALAS1, via tryptophan or inhibition of heme use by tryptophan 2,3-dioxygenase, as a therapy for acute hepatic porphyrias. Does not test allopurinol. |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Preclinical (animal) | Biochemical Pharmacology | Acute carbamazepine administration in rat liver worsened heme loss, explaining how it exacerbates hepatic porphyrias. Does not test allopurinol. |
 
 ## Philippines Market Information
 
-Allopurinol currently has **no registered products** with the Philippine FDA. The drug is not marketed in the Philippines, and no product authorizations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0011 | Allopurinol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication associations** (not label text): liver disease, gallbladder disease, impaired renal function, hypersensitivity vasculitis, cutaneous leukocytoclastic angiitis, allergic cutaneous vasculitis, anti-glomerular basement membrane disease. The liver disease association is particularly relevant to the predicted hepatic indication.
+- **Drug Interactions**: 100 interactions were found in total; the first 20 returned are summarized here.
+  - Moderate: aluminum hydroxide, attapulgite, kaolin, magaldrate, sucralfate
+  - Minor: amoxicillin, chlorpropamide
+  - Unknown severity: calcitriol, vitamin A, pantoprazole, glimepiride, mesalazine, doxycycline, clotrimazole, acarbose, morphine, metformin, omeprazole, rosiglitazone, palonosetron
 
----
+Please refer to the package insert for warnings and label contraindications, which are not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.95%) for Allopurinol in hepatic porphyria and a theoretically plausible mechanistic link exists via ALAS/XO inhibition and ROS reduction, the supporting evidence is limited to two Tier 3 studies (one animal study and one hypothesis paper) with no registered clinical trials or human data directly evaluating this indication. The evidence level (L4) and the absence of Philippines market registration together indicate that further foundational work is required before any clinical development steps can be planned.
+The prediction score is very high, but the support is limited to an indirect hypothesis paper and a rat study, with no clinical trials (Evidence Level L4). There is also a theoretical risk that heme-pathway modulation could precipitate porphyria attacks. Allopurinol currently has no valid Philippines registration, and package insert safety data could not be obtained.
 
 **To proceed, the following is needed:**
-- Retrieve complete MOA data from DrugBank API to formally characterize Allopurinol's relationship with heme biosynthesis enzymes
-- Obtain the Philippines FDA (or international) package insert to document full safety profile, contraindications, and key warnings
-- Commission a targeted systematic literature review on Allopurinol + ALAS inhibition / porphyria in human or higher-tier preclinical models
-- Evaluate whether Allopurinol's known safety risks (e.g., Stevens-Johnson syndrome, allopurinol hypersensitivity syndrome) are acceptable in the hepatic porphyria patient population
-- Consider a pilot proof-of-concept preclinical study (e.g., rodent porphyria model) to generate L3/L2 evidence before any human study design
+- Mechanism of action data for allopurinol
+- Package insert warnings and contraindications
+- Direct preclinical or clinical evidence of allopurinol's effect in hepatic porphyria, including a safety assessment of porphyria attack risk
+- Clarification of the regulatory pathway, since the only Philippines registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

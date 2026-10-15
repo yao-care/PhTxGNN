@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylphenidate
-parent: High Evidence (L1-L2)
-nav_order: 228
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 230
+evidence_level: L5
 indication_count: 4
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,94 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Methylphenidate: From ADHD to Specific Developmental Disorder
+# Methylphenidate: From ADHD to Faciodigitogenital Syndrome
 
 ## One-Sentence Summary
 
-Methylphenidate (commonly known as Ritalin) is a central nervous system stimulant widely established for treating Attention-Deficit/Hyperactivity Disorder (ADHD), acting by blocking dopamine and norepinephrine reuptake transporters to enhance prefrontal cortical function.
-The TxGNN model predicts it may be effective for **Specific Developmental Disorder**, with **16 clinical trials** and **18 publications** currently supporting this direction.
-
-> **Note on prediction ranking**: This Evidence Pack contains 4 TxGNN predictions. Ranks 1 (faciodigitogenital syndrome) and 2 (chondromyxoid fibroma) each scored L5 with zero supporting evidence and are explicitly flagged in the repurposing rationale as likely model artifacts — the mechanistic links are implausible. This report focuses on **Rank 3: Specific Developmental Disorder**, which carries the strongest evidence base (L2) and the most actionable recommendation.
+Methylphenidate is a central nervous system stimulant originally used to treat attention deficit hyperactivity disorder (ADHD) and narcolepsy.
+The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ADHD — globally established clinical use; Methylphenidate holds no Philippines regulatory registration |
-| Predicted New Indication | Specific Developmental Disorder |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
-| Philippines Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available from the Philippines registration) |
+| Predicted New Indication | Faciodigitogenital syndrome |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Formal mechanism of action data from DrugBank was not retrieved for this report. Based on published pharmacological literature, however, methylphenidate acts primarily by blocking the dopamine transporter (DAT) and norepinephrine transporter (NET), increasing synaptic availability of both neurotransmitters in the prefrontal cortex (PFC). This strengthens attentional control networks, working memory, and executive function — all functions governed by the fronto-striatal-cerebellar circuitry.
+Currently, detailed mechanism of action data is not available. Based on known information, methylphenidate is a CNS stimulant whose efficacy in ADHD has been established, and it is generally understood to act on dopamine and norepinephrine reuptake.
 
-Specific developmental disorders — including childhood apraxia of speech (CAS, ICD-10 F80.0), developmental dyslexia (F81.0), and developmental coordination disorder (F82) — share a core pathophysiological feature: disrupted basal ganglia–prefrontal cortex circuits involved in motor sequence learning, language processing, and procedural learning. These circuits overlap substantially with those implicated in ADHD. Apraxia of speech in particular involves dopaminergic basal ganglia motor-sequence pathways, providing a direct mechanistic hypothesis for why methylphenidate may confer benefit beyond ADHD alone.
+Faciodigitogenital syndrome (Aarskog-Scott syndrome) is an X-linked developmental disorder in which attention deficit and hyperactivity can occur as features. Methylphenidate could theoretically address those behavioural symptoms. However, this is speculative: the data compiled for this report contain no trials or literature supporting it, and the high model score (0.99998) is a prediction only.
 
-Crucially, this is not merely theoretical: a completed Phase 2 double-blind RCT (NCT05185583) directly tested methylphenidate against placebo for speech intelligibility in children with childhood apraxia of speech. The high co-occurrence of ADHD with specific developmental disorders further supports shared neurobiological vulnerabilities that methylphenidate's DAT/NET mechanism may simultaneously address.
+**Other predictions in the data (for context):**
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Chondromyxoid fibroma | 99.991% | L5 | No plausible mechanistic link; likely a graph-based artefact |
+| Specific developmental disorder | 99.988% | L4 | Indirect evidence via ADHD co-occurrence; no trial in the learning disorder itself. 18 articles were found, 10 reviewed here |
+| Dysthymic disorder | 99.109% | L4 | Indirect evidence via ADHD with comorbid subsyndromal depression; no trial in dysthymia |
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT05185583](https://clinicaltrials.gov/study/NCT05185583) | Phase 2 | Completed | 18 | Double-blind, placebo-controlled crossover RCT directly testing MPH for speech intelligibility in children aged 6–12 with childhood apraxia of speech (CAS); the single most directly relevant trial in this pack |
-| [NCT05974241](https://clinicaltrials.gov/study/NCT05974241) | Phase 4 | Completed | 36 | Crossover study comparing MPH and aripiprazole for irritability and emotion dysregulation in ADHD children; characterises clinical profiles that overlap with co-morbid developmental disorders |
-| [NCT01470261](https://clinicaltrials.gov/study/NCT01470261) | N/A | Completed | 1,398 | ADDUCE project — large 2-year observational study examining MPH adverse effects on growth, neurological, psychiatric, and cardiovascular systems in children and adults with ADHD; key long-term safety reference |
-| [NCT01363544](https://clinicaltrials.gov/study/NCT01363544) | Phase 2/3 | Completed | 112 | RCT comparing exercise and neurofeedback to pharmacological treatment (MPH) in ADHD children; evaluates neurocognitive and EEG-based cortical regulation outcomes, relevant to developmental circuit overlap |
-| [NCT04647500](https://clinicaltrials.gov/study/NCT04647500) | N/A | Completed | 45 | Dual-tracer PET study examining how MPH modulates the dopaminergic and noradrenergic systems in individuals with 22q11.2 deletion syndrome — a neurogenetic condition with 35–45% ADHD comorbidity and atypical brain development |
-| [NCT05916339](https://clinicaltrials.gov/study/NCT05916339) | Phase 4 | Recruiting | 500 | Pragmatic SMART trial comparing MPH vs. amphetamine for ADHD in children and adolescents with autism spectrum disorder; findings will inform treatment across overlapping neurodevelopmental diagnoses |
-| [NCT02167048](https://clinicaltrials.gov/study/NCT02167048) | Phase 1/2 | Active, not recruiting | 52 | Crossover study comparing low vs. standard psychostimulant doses on executive functions (working memory, selective attention, cognitive flexibility) in ADHD children aged 6–18 |
-| [NCT07024303](https://clinicaltrials.gov/study/NCT07024303) | Early Phase 1 | Not yet recruiting | 20 | Study comparing medication (including MPH) and behavioural treatment for challenging behaviour in children and adolescents with autism; uses direct observation within natural contexts |
-| [NCT05669170](https://clinicaltrials.gov/study/NCT05669170) | Phase 2 | Not yet recruiting | 60 | Safety and efficacy of MPH for apathy in Veterans with Parkinson's disease; explores dopaminergic mechanisms underpinning motivation and goal-directed behaviour — a relevant mechanistic analogy |
-| [NCT01554046](https://clinicaltrials.gov/study/NCT01554046) | N/A | Completed | 40 | Investigates familial treatment response to Ritalin IR in ADHD, examining both symptom improvement and side-effect profiles across family members — provides real-world tolerability data |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [41128391](https://pubmed.ncbi.nlm.nih.gov/41128391/) | 2026 | Controlled pharmacological study | Psychiatry and Clinical Neurosciences | Longitudinal PET study in adult ADHD demonstrating that extended-release MPH distinctly modulates DAT and NET binding; directly characterises the transporter mechanism underlying MPH's clinical effects |
-| [40527386](https://pubmed.ncbi.nlm.nih.gov/40527386/) | 2025 | Longitudinal cohort | Progress in Neuro-Psychopharmacology & Biological Psychiatry | MPH exposure has age-dependent effects on brain structure (n=89 ADHD vs. 91 controls); demonstrates treatment-associated neuroplasticity changes relevant to developmental brain interventions |
-| [33012168](https://pubmed.ncbi.nlm.nih.gov/33012168/) | 2021 | Review | Clinical EEG and Neuroscience | QEEG review covering ADHD and learning disabilities; supports personalized medicine — EEG biomarkers can distinguish neurodevelopmental subtypes and predict differential MPH response |
-| [22923783](https://pubmed.ncbi.nlm.nih.gov/22923783/) | 2015 | Review | Journal of Attention Disorders | Comprehensive review of MPH cellular and molecular mechanisms in adult vs. juvenile brain; addresses developmental consequences of treatment directly relevant to paediatric developmental disorder use |
-| [19627998](https://pubmed.ncbi.nlm.nih.gov/19627998/) | 2009 | Review | Neuropharmacology | Foundational review of ADHD neurobiology — fronto-striatal circuitry, dopaminergic and noradrenergic pathways, and genetic architecture; establishes the mechanistic basis for circuit-level overlap with developmental disorders |
-| [8719499](https://pubmed.ncbi.nlm.nih.gov/8719499/) | 1996 | Cross-sectional | Clinical EEG | QEEG-based discriminant functions distinguished children with **specific developmental learning disorders** from ADD/ADHD and normal controls with high accuracy; QEEG also predicted MPH vs. dextroamphetamine treatment response — directly supports the target indication |
-| [20483462](https://pubmed.ncbi.nlm.nih.gov/20483462/) | 2010 | Observational/EEG | Psychiatry Research | EEG coherence differences identified between good and poor MPH responders in ADHD children; supports biomarker-guided treatment selection for neurodevelopmental conditions |
-| [36688969](https://pubmed.ncbi.nlm.nih.gov/36688969/) | 2024 | Interventional | European Child & Adolescent Psychiatry | First objective study of MPH and physiotherapy effects on graphomotor/handwriting movements in ADHD children — directly relevant to the motor developmental disorder dimension |
-| [25989180](https://pubmed.ncbi.nlm.nih.gov/25989180/) | 2015 | Pharmacogenetic study | Genes, Brain, and Behavior | LPHN3 gene variants predict both ADHD susceptibility and MPH treatment response; supports a precision-medicine approach for neurodevelopmental conditions sharing this genetic architecture |
-| [11990715](https://pubmed.ncbi.nlm.nih.gov/11990715/) | 2002 | Animal model | Behavioural Pharmacology | SHRSP rats validated as an animal model of developmental disorder; MPH normalised hyperactivity, emotional, and cognitive deficits — providing preclinical mechanistic support for the repurposing hypothesis |
+Currently no related literature available for faciodigitogenital syndrome.
 
 ---
 
 ## Philippines Market Information
 
-Methylphenidate currently has **no registered products** in the Philippines (total licences: 0, market status: Not marketed). No product table can be generated.
-
-As a Schedule II–equivalent controlled psychostimulant in most jurisdictions, any future Philippines registration would require a controlled substance clearance from the Philippine Drug Enforcement Agency (PDEA) in addition to standard Philippine FDA (Food and Drug Administration) registration — a dual-track regulatory pathway not required for most repurposing candidates.
+The one registration on record (PNF-0320, methylphenidate, single-ingredient) has been cancelled. No dosage form or approved indication text is available, and there are no currently valid registrations.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No formal warnings, contraindications, or drug interaction data were retrievable for this report.
+**Contraindications suggested by the knowledge graph** (these are model-derived associations, not package insert text):
+- Cardiovascular: hypertension, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, sudden cardiac arrest, heart conduction disease
+- Psychiatric and neurological: epilepsy, bipolar disorder, psychotic and schizoaffective disorders, substance abuse/dependence, anorexia nervosa
+- Haematological: thrombocytopenia, leukopenia, anaemia, hemoglobinopathy
+- Other: glaucoma, hyperthyroidism (Graves disease, thyrotoxicosis)
 
-Based on drug class knowledge, the following areas warrant particular attention before any clinical or regulatory action:
+**Drug Interactions** (100 interactions recorded; the main ones are listed):
+- **Major**: Bupropion
+- **Moderate**: Isometheptene, Ephedrine, Epinephrine, Polyethylene glycol (3350 with electrolytes), Picosulfuric acid, Sodium sulfate
+- Many others are recorded with unknown severity (e.g. metformin, morphine, omeprazole, simvastatin, prednisone).
 
-- **Controlled substance classification**: Methylphenidate's Schedule II status in most countries reflects its stimulant abuse potential. Philippine PDEA classification must be confirmed before any registration effort begins.
-- **Cardiovascular monitoring**: Standard precaution for CNS stimulants; required in patients with pre-existing cardiac conditions.
-- **Paediatric growth monitoring**: The ADDUCE observational study (NCT01470261, n=1,398) was specifically designed to track long-term effects on growth — directly relevant to a paediatric developmental disorder indication.
+Please refer to the package insert for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 double-blind RCT (NCT05185583) directly tested methylphenidate in children with childhood apraxia of speech — a specific developmental disorder — providing L2-level evidence. The fronto-striatal mechanistic overlap between ADHD and specific developmental disorders is well-grounded in neuroscience. However, the pivotal trial enrolled only 18 participants, the drug is not registered in the Philippines, and its controlled substance status adds a non-trivial regulatory hurdle.
+The prediction for faciodigitogenital syndrome rests on a very high model score only, with no clinical trials, no literature and no established mechanistic link. The only Philippines registration is cancelled, so there is no currently marketed product.
 
 **To proceed, the following is needed:**
-
-- Obtain full package insert (DrugBank and/or TFDA source) to document MOA, warnings, and contraindications formally
-- Confirm Philippine PDEA Schedule classification for methylphenidate and understand the controlled substance registration pathway at Philippine FDA
-- Obtain and review the full publication of NCT05185583 results (Phase 2 apraxia of speech RCT) once available
-- Commission a systematic review of methylphenidate evidence across specific developmental disorder subtypes (F80–F83) to quantify the full evidence base
-- Design a larger confirmatory study — or identify an existing investigator-initiated trial — targeting Philippine paediatric populations with specific developmental disorders
-- Prepare a benefit-risk summary that accounts for the abuse-potential profile when submitting to regulatory bodies
+- Independent biological rationale and literature for methylphenidate in faciodigitogenital syndrome (for example, studies of ADHD-like symptoms in Aarskog-Scott syndrome)
+- Detailed mechanism of action data
+- Package insert warnings and contraindications, which are currently missing and are required before any safety screening
+- Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements
+- If the programme is redirected, the more plausible candidates are specific developmental disorder and dysthymic disorder, but both currently have only indirect evidence and would need direct clinical studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

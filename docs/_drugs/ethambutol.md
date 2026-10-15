@@ -2,7 +2,7 @@
 layout: default
 title: Ethambutol
 parent: Moderate Evidence (L3-L4)
-nav_order: 130
+nav_order: 132
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,82 +29,68 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Ethambutol: From Tuberculosis to Epiglottitis
+# Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
 
 ## One-Sentence Summary
 
-Ethambutol is a first-line bactericidal antibiotic and a core component of the standard HRZE regimen (isoniazid, rifampicin, pyrazinamide, ethambutol) used for treating tuberculosis.
-The TxGNN model predicts it may be effective for **Epiglottitis**, with a prediction score of **99.90%**; however, only **2 case series/review publications** currently support this direction — and mechanistic analysis indicates utility is strictly limited to tuberculosis-related cases of epiglottitis, not common etiologies.
-
----
+Ethambutol is an anti-mycobacterial drug originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **epiglottitis**,
+but there are **0 clinical trials** and only **1 publication** (a case series on laryngeal tuberculosis) behind this prediction, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Tuberculosis (first-line HRZE regimen) |
+|------|------|
+| Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Ethambutol belongs to the antimycobacterial drug class and exerts bacteriostatic/bactericidal effects by inhibiting EmbA/EmbB/EmbC arabinosyltransferases — enzymes unique to mycobacteria — thereby blocking arabinogalactan biosynthesis and destabilising the mycobacterial cell wall. This mechanism is specific to *Mycobacterium tuberculosis* and closely related species.
+Currently, detailed mechanism of action data is not available. Based on known information, ethambutol is an anti-mycobacterial agent used as part of multi-drug tuberculosis regimens, and its efficacy in pulmonary tuberculosis is established.
 
-Epiglottitis caused by *M. tuberculosis* (i.e., supraglottic extension of laryngeal tuberculosis) is an extrapulmonary TB manifestation. In this narrow context, Ethambutol's application falls squarely within its existing TB indication rather than constituting true drug repurposing. The two supporting publications both describe laryngeal tuberculosis series in which the epiglottis was documented as an affected anatomical site, and patients received standard anti-TB regimens including Ethambutol.
-
-Critically, the vast majority of epiglottitis cases are caused by *Haemophilus influenzae* type b, other gram-negative bacteria, or viruses — none of which harbour arabinogalactan in their cell walls. Ethambutol has no pharmacological activity against these pathogens. The high TxGNN score most likely reflects a non-specific graph association between Ethambutol's antimicrobial node and upper airway infection nodes (epiglottitis, laryngitis) in the knowledge graph, rather than a genuine biological rationale for repurposing.
-
----
+The only linked publication is a case series of 41 patients with laryngeal tuberculosis, in which the epiglottis was one of the affected sites. This points to tuberculous involvement of the upper airway, not to epiglottitis in general. Typical epiglottitis is bacterial (for example, *Haemophilus influenzae* type b), and there is no plausible mechanism by which ethambutol would act against it. The very high TxGNN score most likely reflects the network proximity of TB-related laryngeal disease and is not a validated signal. At best, the prediction applies to tuberculous epiglottic involvement, which is the approved anti-TB use at a different site rather than true repurposing.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [14720571](https://pubmed.ncbi.nlm.nih.gov/14720571/) | 2004 | Case Series / Review | *The Lancet Infectious Diseases* | Reviews laryngeal tuberculosis presentations; the epiglottis is identified as one of the affected structures in laryngeal TB, providing contextual background for TB-related epiglottitis |
-| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | Retrospective Case Series | *The European Respiratory Journal* | Reports 41 cases of laryngeal TB (1975–1985); epiglottis was among affected sites (along with vocal cords, false cords, and arytenoid region); patients were routinely treated with isoniazid, rifampicin, and ethambutol |
-
----
+|------|-----|------|------|---------|
+| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | Case series | The European Respiratory Journal | 41 cases of laryngeal tuberculosis (1975–1985). All had current or prior pulmonary TB. The epiglottis was the second most frequently affected site. Patients were treated with isoniazid, rifampicin, ethambutol and other agents. |
 
 ## Philippines Market Information
 
-Ethambutol is currently not registered in the Philippines. No licensed products are on record with the Philippine FDA.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0178 | Ethambutol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from the TxGNN knowledge graph, not from label text): kidney disease, pyoureter, gout, diabetic retinopathy, diabetic cataract, optic neuritis.
+- **Drug Interactions**: 100 interactions were identified in total. Those rated Moderate include metronidazole, picosulfuric acid, naltrexone, rosuvastatin, simvastatin, tinidazole and aluminum hydroxide. Others, such as pantoprazole, omeprazole, lansoprazole, prednisone and morphine, have an unknown severity level.
 
-> **Note:** Complete warning, contraindication, and drug interaction data were not available in this Evidence Pack. A known clinical concern for Ethambutol is dose-dependent optic neuropathy (retrobulbar neuritis); baseline and periodic visual acuity monitoring is standard practice during treatment. Patients with renal impairment require dose adjustment due to reduced drug clearance.
-
----
+Please also refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns a near-perfect prediction score, mechanistic review reveals that Ethambutol's spectrum of activity is restricted to mycobacterial pathogens. Epiglottitis caused by *M. tuberculosis* is already encompassed within Ethambutol's existing TB indication and does not represent a new repurposing opportunity; for common non-mycobacterial epiglottitis, there is no mechanistic basis or supporting evidence.
+There are no clinical trials, the only supporting literature is a single case series on laryngeal tuberculosis, and no plausible mechanism links ethambutol to typical (bacterial) epiglottitis. The high model score is not backed by evidence. In addition, ethambutol currently has no valid registration in the Philippines.
 
 **To proceed, the following is needed:**
-
-- **MOA confirmation**: Retrieve full mechanism of action details via DrugBank API (DB00330) to formally document the arabinosyltransferase inhibition target
-- **Safety data**: Download and parse the Philippine FDA package insert (or equivalent approved labeling) to capture full warnings, contraindications, and drug interactions — currently all marked as data gaps
-- **Epidemiological context**: Assess the local prevalence of TB-related laryngeal/epiglottic disease in the Philippines to determine whether this clinical scenario is relevant in practice
-- **Primary registration pathway**: Evaluate whether Ethambutol can be registered in the Philippines for its established TB indication before any repurposing discussion proceeds
-- **Alternate indication review**: Consider shifting focus to **Laryngitis (rank 2, L3 evidence)** or **Tuberculous Peritonitis (rank 4, L3 evidence)** — both have stronger mechanistic grounding and more supporting literature within the same TB-treatment paradigm
+- Mechanism of action data for ethambutol
+- Package insert warnings and contraindications from the Philippine regulator
+- Clarification of whether the question is tuberculous epiglottic involvement (already covered by standard anti-TB regimens) or epiglottitis of other causes
+- Controlled clinical evidence, if the indication is to be pursued at all
+- A review of the current registration status, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

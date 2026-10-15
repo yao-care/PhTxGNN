@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Model Prediction Only (L5)
-nav_order: 142
+nav_order: 144
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,71 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fluconazole: From Fungal Infections to Punctate Epithelial Keratoconjunctivitis
+# Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Fluconazole is a second-generation triazole antifungal agent, widely used in the treatment of systemic and superficial fungal infections by blocking ergosterol biosynthesis in fungal cell membranes.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis (PEK)**,
-however, **no clinical trials or published literature** currently support this repurposing hypothesis — the prediction rests entirely on knowledge graph topology, placing it at model-prediction-only level.
-
----
+Fluconazole is a triazole antifungal originally used to treat candidiasis (oral, esophageal, vulvovaginal, disseminated) and cryptococcal meningitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction is computational only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Fungal infections (systemic and superficial) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, esophageal candidiasis, cryptococcal meningitis, candidemia, disseminated candidiasis |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Fluconazole is a second-generation triazole antifungal. Its mechanism centres on selective inhibition of the fungal cytochrome P450 enzyme CYP51 (lanosterol 14α-demethylase), which is a rate-limiting step in ergosterol biosynthesis. Without ergosterol, the fungal cell membrane loses structural integrity and the organism cannot survive. This mechanism is highly selective for fungal cells over mammalian cells, which is why Fluconazole has a favourable systemic safety profile.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks synthesis of ergosterol, an essential component of the fungal cell membrane. Its efficacy in candidiasis and cryptococcal infection is established.
 
-Punctate Epithelial Keratoconjunctivitis (PEK) is a clinical syndrome defined by scattered punctate lesions on the corneal epithelium. The aetiology is broad: adenoviral or herpes simplex virus infection accounts for the majority of cases, followed by toxic/drug-induced reactions, Thygeson's superficial punctate keratitis (an immune-mediated entity), and dry eye disease. Fungal keratoconjunctivitis is a less common but recognised cause and can present with a PEK-like picture — this is the conceptual bridge the knowledge graph has likely exploited.
+Punctate epithelial keratoconjunctivitis is a heterogeneous condition with several possible causes: viral (such as adenoviral), bacterial, fungal, and toxic or drug-related. A plausible link exists only for the fungal subset, where an antifungal could be relevant. Fluconazole penetrates the eye well after systemic administration and is used in fungal keratitis, but this link is inferred and is not supported by the data compiled here.
 
-The high TxGNN score (0.992) most plausibly reflects an indirect graph path: **Fluconazole → fungal infection → ocular fungal infection → PEK**, rather than a direct mechanistic or clinical link. Because fungal aetiology represents only a minority fraction of all PEK cases, and because there is zero clinical trial or literature evidence specifically supporting this repurposing direction, the prediction should be interpreted as a hypothesis-generating signal rather than a validated therapeutic opportunity.
-
----
+For the more common viral or non-infectious causes, antifungal activity would not be expected to help. The very high score likely reflects network proximity to fungal keratitis or related ocular infections in the knowledge graph rather than a validated mechanism.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0192 | Fluconazole | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
+- **Drug Interactions**: 100 interactions were identified. Examples by severity:
+  - **Major**: Chlorpropamide
+  - **Moderate**: Famotidine, Rabeprazole, Omeprazole, Dexlansoprazole, Hydrocortisone, Dexamethasone, Betamethasone, Triamcinolone, Budesonide, Loperamide, Aprepitant, Saxagliptin, Bisacodyl, Picosulfuric acid, Polyethylene glycol (3350 with electrolytes)
+  - **Minor**: Amphotericin B, Amphotericin B (lipid complex), Clarithromycin
 
----
+Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.24%), the proposed mechanistic link is indirect and disease-subtype-specific — Fluconazole's antifungal activity would only be relevant to the fungal-caused subset of PEK, which is a minority of all cases. Combined with zero supporting clinical trials, zero supporting publications, and no current registration in the Philippines, the evidence base is insufficient to advance this candidate.
+The prediction rests on a high model score alone, with no clinical trials or literature. The plausible mechanism applies only to a fungal subset of a mostly viral or non-infectious condition. The only Philippines registration is cancelled, and the label safety data are missing.
 
 **To proceed, the following is needed:**
-- **Aetiology stratification**: Clarify whether the target PEK population is specifically of confirmed fungal origin; if so, this may fall under Fluconazole's existing antifungal indications and not require formal repurposing
-- **Literature deep-dive**: Conduct a broader PubMed search for Fluconazole in ocular fungal infections (fungal keratitis, fungal endophthalmitis) with PEK as a clinical presentation to surface any indirect case-level evidence
-- **MOA data**: Retrieve complete mechanism of action data from DrugBank (DB00196) to refine the biological plausibility assessment
-- **Safety data**: Download the Philippine package insert (or FDA-approved label) to complete the key warnings, contraindications, and drug–drug interaction profile
-- **Formulation assessment**: Determine whether an ophthalmic-route formulation of Fluconazole (eye drops or intravitreal) is commercially available or feasible, given that systemic Fluconazole does achieve ocular penetration
+- Literature and trial searches for fluconazole in fungal keratitis and punctate keratoconjunctivitis subtypes
+- Clarification of which etiologic subset of punctate epithelial keratoconjunctivitis is targeted
+- Detailed mechanism of action data (MOA) from DrugBank
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Review of the QT-prolongation and hepatic/renal risks and the interaction profile (especially chlorpropamide and corticosteroids)
+- Confirmation of the registration status, available formulations, and routes (for example, systemic versus ophthalmic) in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

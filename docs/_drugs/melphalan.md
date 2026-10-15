@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Melphalan
-parent: High Evidence (L1-L2)
-nav_order: 219
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 221
+evidence_level: L5
 indication_count: 10
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,98 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Melphalan: From Multiple Myeloma to Gonadal Germ Cell Tumor
+# Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
 
 ## One-Sentence Summary
 
-Melphalan (L-phenylalanine mustard) is a classic bifunctional DNA alkylating agent belonging to the nitrogen mustard class, with established use in multiple myeloma treatment and as a core ASCT conditioning agent.
-The TxGNN model predicts it may be effective for **Gonadal Germ Cell Tumor**, with **8 clinical trials** and **4 publications** currently supporting this direction — including one completed Phase 2 study designed specifically for poor-prognosis relapsed germ cell tumors.
-
----
+Melphalan is an alkylating chemotherapy drug, originally used for ovarian cancer.
+The TxGNN model predicts it may be effective for **gonadal germ cell tumor**,
+with **7 clinical trials** and **1 publication** currently linked to this prediction. Most of these trials are small, mixed-population studies in which melphalan is one component of a high-dose regimen.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Multiple Myeloma (no Philippines registration data available) |
-| Predicted New Indication | Gonadal Germ Cell Tumor |
+|------|------|
+| Original Indication | Ovarian cancer (from the knowledge graph; no approved indication text is available for the local registration) |
+| Predicted New Indication | Gonadal germ cell tumor |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (see note below) |
+| Philippines Market Status | Cancelled only (registration cancelled) |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
----
+*Note on evidence level:* The data compiled for this report assign L2 on the basis of one completed Phase 2 trial (NCT00936936, 64 patients). That trial tested a multi-drug regimen and does not isolate melphalan's contribution. It is also a single-arm study, not a randomised controlled trial, so by the strict rule the evidence is weaker than L2.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not included in this Evidence Pack. Based on established pharmacology, Melphalan is a bifunctional alkylating agent that forms covalent interstrand and intrastrand DNA cross-links, blocking replication and transcription and triggering apoptosis preferentially in rapidly dividing tumor cells. As an amino acid derivative of mechlorethamine (nitrogen mustard), melphalan also exploits the phenylalanine transport system to achieve selective tumor cell uptake in tumors with high amino acid demand.
+Currently, detailed mechanism of action data is not available. Based on known information, melphalan is a DNA-alkylating agent that forms interstrand crosslinks. Its efficacy in ovarian cancer is established, and mechanistically it may be applicable to gonadal germ cell tumors.
 
-Gonadal germ cell tumors (GCTs) present a uniquely favorable mechanistic match. They are characterized by high proliferation rates, marked genomic instability (including i(12p) amplification), and functional deficiency in homologous recombination (HR/BRCA pathway), rendering them exquisitely sensitive to DNA cross-linking agents. This is precisely why the BEP regimen (bleomycin + etoposide + cisplatin) achieves cure rates exceeding 80% in good-risk GCT — both cisplatin and melphalan converge on the same DNA interstrand cross-link mechanism. Sarcolysin (the D,L-racemic form of melphalan) was used clinically for testicular seminoma as early as 1956, representing one of the first recorded applications of an alkylating agent to germ cell malignancy.
+Germ cell tumors are highly chemosensitive to DNA-damaging agents. Melphalan has been used in high-dose chemotherapy regimens with autologous stem cell rescue for relapsed or poor-prognosis germ cell tumors. The very high TxGNN score is also consistent with the existing ovarian germ cell tumor labels in the knowledge graph.
 
-In the modern HDC/ASCT framework for relapsed or platinum-refractory GCTs, melphalan has been incorporated into salvage conditioning regimens precisely because its mechanism is orthogonal to cisplatin-based resistance. A completed Phase 2 trial (NCT00936936, n=64) directly evaluated a melphalan-containing high-dose combination regimen (gemcitabine + docetaxel + melphalan + carboplatin) for poor-prognosis relapsed GCT, providing the highest-quality direct evidence for this indication.
-
----
+Other predictions for ovarian primitive germ cell tumor and female breast carcinoma are supported by small Phase 1/2 studies and case reports. Predictions for choriocarcinoma of ovary, non-epithelial ovarian tumor and several mucinous adenocarcinomas (rectum, colon, gallbladder, cervix, endometrium) rest on the model alone, with no trials or literature found.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Completed | 64 | Two cycles of HDC for poor-prognosis relapsed GCT: cycle 1 = gemcitabine + docetaxel + **melphalan** + carboplatin; cycle 2 = ifosfamide + carboplatin + etoposide. Most direct Phase 2 evidence for melphalan in this indication. |
-| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Completed | 25 | Dose-escalation study of melphalan with autologous pluripotent HSC support and amifostine cytoprotection in high-risk solid tumors, likely including GCT subgroups. |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | NA | Completed | 174 | Pilot study comparing high-dose chemotherapy regimens ± TBI before ASCT in hematologic malignancies and selected solid tumors; melphalan used as a conditional regimen component. |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Eight different high-dose chemotherapy regimens ± radiation before autologous BMT/SCT for hematologic malignancies and selected solid tumors (1991–2013 long-term data). |
-| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Completed | 25 | High-dose busulfan + melphalan + topotecan followed by ASCT in advanced and recurrent solid tumors; completed 2024. |
-| [NCT01272817](https://clinicaltrials.gov/study/NCT01272817) | NA | Completed | 36 | Nonmyeloablative allogeneic HSCT using ATG with either melphalan/cladribine or total lymphoid irradiation for a range of malignancies. |
-| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Completed | 6 | Intrathecal melphalan for recurrent neoplastic meningitis; different route and indication, limited relevance to systemic GCT treatment. |
-| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Terminated | 13 | Amifostine cytoprotection study with ASCT for high-risk pediatric solid tumors and brain tumors; terminated early, data value limited. |
-
----
+|---------|------|------|------|---------|
+| [NCT00936936](https://clinicaltrials.gov/study/NCT00936936) | Phase 2 | Completed | 64 | Two cycles of high-dose chemotherapy (gemcitabine, docetaxel, melphalan, carboplatin, then ifosfamide, carboplatin, etoposide) for poor-prognosis relapsed germ-cell tumors; melphalan's specific contribution is not isolated |
+| [NCT00003425](https://clinicaltrials.gov/study/NCT00003425) | Phase 1/2 | Completed | 25 | Escalating-dose melphalan with autologous stem cell support and amifostine cytoprotection in cancer patients; mixed population |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Eight high-dose chemotherapy regimens with autologous transplant for hematologic malignancy and selected solid tumors; large but heterogeneous |
+| [NCT00638898](https://clinicaltrials.gov/study/NCT00638898) | Phase 1 | Completed | 25 | Busulfan, melphalan and topotecan with autologous transplant in advanced or recurrent tumors; melphalan effect confounded by the combination |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | Not applicable | Completed | 174 | High-dose chemotherapy with or without total-body irradiation before autologous transplant; germ cell tumors are a small subset |
+| [NCT00002750](https://clinicaltrials.gov/study/NCT00002750) | Phase 1 | Completed | 6 | Intrathecal melphalan for recurrent neoplastic meningitis; different route and indication |
+| [NCT00003926](https://clinicaltrials.gov/study/NCT00003926) | Phase 1 | Terminated | 13 | Amifostine as a chemoprotectant with autologous transplant in pediatric solid and brain tumors; supportive-care focus |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [13392619](https://pubmed.ncbi.nlm.nih.gov/13392619/) | 1956 | Historical Case Series | Voprosy Onkologii | First published clinical experience using sarcolysin (D,L-melphalan) to treat testicular seminoma and its metastases — foundational precedent for melphalan in gonadal GCT. |
-| [4270380](https://pubmed.ncbi.nlm.nih.gov/4270380/) | 1973 | Clinical Review/Series | Oncology | Early clinical series on chemotherapy of testicular germinal tumors, including alkylating agents in the pre-cisplatin era; provides historical context for melphalan's role. |
-| [24913](https://pubmed.ncbi.nlm.nih.gov/24913/) | 1977 | Review | Urologic Clinics of North America | Review of seminoma treatment approaches including chemotherapy with alkylating agents; reflects late 1970s standard of care. |
-| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Pharmacological Study | Acta UICC | Investigation of the effects of hormonal and alkylating drugs (including melphalan precursors) on pituitary FSH function in the context of cancer treatment. |
+|------|-----|------|------|---------|
+| [14151951](https://pubmed.ncbi.nlm.nih.gov/14151951/) | 1964 | Other (mechanistic/endocrine study) | Acta - Unio Internationalis Contra Cancrum | Early study of hormonal and alkylating drugs on pituitary follicle-stimulating function; no abstract available and only indirectly related to germ cell tumor treatment |
 
----
+Literature is much richer for the lower-ranked prediction of female breast carcinoma (for example high-dose melphalan reviews and a randomised comparison with vinorelbine). It is not listed here because this report focuses on the top-ranked prediction.
 
 ## Philippines Market Information
 
-Melphalan currently has **no registered products** with the FDA Philippines. There are 0 active authorizations on record, and the drug's market status is classified as **Not marketed**. Any clinical use in the Philippines would require either compassionate use authorization or import on a case-by-case basis.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0307 | Melphalan | Not specified | Not specified (status: cancelled) |
 
----
+The only registration found is cancelled, so no valid melphalan product is currently registered in the Philippines according to the data compiled for this report.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Nitrogen mustard / Bifunctional alkylating agent (phenylalanine mustard class) |
-| Myelosuppression Risk | **High** — myelosuppression is the dose-limiting toxicity; severe neutropenia, thrombocytopenia, and anemia are expected, particularly at high-dose conditioning regimens (≥140 mg/m²); nadir typically occurs 14–21 days after administration |
-| Emetogenicity Classification | Moderate (standard doses); High (high-dose IV regimens used in ASCT conditioning) |
-| Monitoring Items | CBC with differential (at minimum weekly during treatment cycles); renal function (melphalan clearance is partially renal-dependent; dose adjustment required); liver function tests; long-term surveillance for secondary AML/MDS (established risk with alkylating agents) |
-| Handling Protection | Must follow cytotoxic drug handling regulations — preparation in a certified biological safety cabinet, full PPE (chemotherapy-grade gloves, closed-front gown, eye/face protection); classified as a NIOSH hazardous drug |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
+| Myelosuppression Risk | High (the knowledge graph links melphalan to neutropenia, leukopenia, thrombocytopenia and anemia) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No Philippines-specific safety data is available in this Evidence Pack. Retrieval of the TFDA package insert (warnings and contraindications) is flagged as a **Blocking** data gap that must be resolved before formal safety evaluation.
+- **Contraindication/risk signals from the knowledge graph (not label text):** These include kidney disease, thrombocytopenia, anemia (including macrocytic and hemolytic), leukopenia, neutropenia and agranulocytosis (including congenital forms), interstitial lung disease, pulmonary fibrosis, drug-induced liver injury and vasculitis.
+- **Drug Interactions:** 100 interactions were identified; the first 20 were reviewed.
+  - Moderate: amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms).
+  - Minor: cimetidine, levofloxacin, zinc sulfate and zinc gluconate.
+  - Unclassified severity: lansoprazole, omeprazole, pantoprazole, famotidine, dolasetron, granisetron, aspirin, morphine, metformin, vancomycin, prednisone and simvastatin.
+- A literature review also notes that alkylating agents such as melphalan carry a high rate of second malignancies, mostly acute leukaemias.
 
----
+Please refer to the package insert for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 trial (NCT00936936, n=64) provides direct evidence for melphalan-containing HDC in poor-prognosis relapsed gonadal GCT, supported by a mechanistically coherent basis (GCT HR-pathway deficiency → sensitivity to DNA cross-linking alkylation) and historical clinical use of sarcolysin in testicular seminoma dating to 1956. However, melphalan's role is primarily in the salvage/HDC-ASCT setting rather than first-line therapy, and the Philippines has no existing registration for this drug, requiring careful regulatory navigation.
+The mechanistic rationale is plausible and the TxGNN score is very high, but the supporting trials are small and combine melphalan with other agents, so its own benefit cannot be separated out. No melphalan product is currently valid in the Philippines, and the package-insert safety data are missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- **MOA data from DrugBank**: Retrieve full mechanism of action to complete the mechanistic link analysis (currently High-severity data gap)
-- **Safety data**: Download and parse the TFDA package insert to extract warnings and contraindications — currently a Blocking data gap preventing full S1 safety evaluation
-- **DDI profile**: Drug-drug interaction search returned no results; a secondary search with expanded query terms is recommended
-- **Route compatibility assessment**: Confirm IV melphalan availability and ASCT infrastructure in the Philippines context before clinical feasibility can be established
-- **Subtype stratification**: Clarify whether the target population is testicular vs. ovarian GCT, and whether the intended use is relapsed/refractory (HDC-ASCT) or an alternative first-line role
-- **Secondary malignancy risk assessment**: Long-term risk of alkylating agent–induced AML/MDS must be formally evaluated in the treatment plan
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data (for example from DrugBank)
+- Clinical data that isolate melphalan's contribution in germ cell tumors, and a review of established standard regimens for comparison
+- Clarification of the cancelled registration (PNF-0307) and a plan for the dosage form and route of any product to be used
+- A safety monitoring plan covering severe myelosuppression, renal impairment and pulmonary toxicity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

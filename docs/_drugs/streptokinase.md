@@ -2,7 +2,7 @@
 layout: default
 title: Streptokinase
 parent: High Evidence (L1-L2)
-nav_order: 314
+nav_order: 318
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Streptokinase: From Thrombolytic Therapy to Myocardial Infarction
+# Streptokinase: From an Established Thrombolytic to Myocardial Infarction
 
 ## One-Sentence Summary
 
-Streptokinase is a first-generation thrombolytic agent with decades of global clinical use for dissolving blood clots in acute thrombotic emergencies; it is currently not registered in the Philippines.
-The TxGNN model predicts it may be effective for **Myocardial Infarction**, supported by **multiple completed Phase 3 and Phase 4 clinical trials** and **20 publications** — representing some of the strongest evidence encountered in this analysis.
-This is less a case of drug repurposing than one of introducing a well-established global standard of care into the Philippines market, where supply and registration gaps remain.
+Streptokinase is a clot-dissolving (thrombolytic) enzyme. The original indication is not recorded in the data compiled for this report, and the single Philippines registration has no indication text.
+The TxGNN model predicts it may be effective for **myocardial infarction**, with **7 clinical trials** and **20 publications** listed for this indication.
+Myocardial infarction is already an established, guideline-recognised use of streptokinase, so this is not a true repurposing case.
 
 ---
 
@@ -43,23 +43,27 @@ This is less a case of drug repurposing than one of introducing a well-establish
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in the Philippines (no local licenses on record) |
-| Predicted New Indication | Myocardial Infarction |
+| Original Indication | Not available (the Philippines registration has no indication text) |
+| Predicted New Indication | Myocardial infarction |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L1 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Streptokinase works by binding endogenous plasminogen to form an activator complex, which then converts free plasminogen into plasmin — the enzyme that cleaves fibrin within blood clots. This mechanism is directly and precisely relevant to ST-elevation myocardial infarction (STEMI), where acute occlusion of a coronary artery by a fibrin-rich thrombus is the immediate cause of myocardial injury. By dissolving the obstructing clot, streptokinase restores coronary blood flow (TIMI flow), salvages ischemic myocardium, and reduces mortality.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, streptokinase forms a complex with plasminogen. The complex converts plasminogen to plasmin, which breaks down fibrin in blood clots. In acute myocardial infarction, this can dissolve the clot blocking a coronary artery and restore blood flow.
 
-The evidence linking streptokinase to myocardial infarction is not theoretical — it is foundational. Landmark randomized trials beginning in the early 1980s (ISAM, GISSI, ASSET, ISIS-2) established that intravenous streptokinase significantly reduces short- and long-term mortality in acute MI. The GUSTO trial series further refined fibrinolytic strategy, situating streptokinase as the reference comparator against newer agents. In environments where primary percutaneous coronary intervention (PCI) is unavailable or delayed, streptokinase remains a WHO Essential Medicine and a guideline-endorsed reperfusion option.
+Myocardial infarction is the classic use of streptokinase. Large trials (such as ISIS-2 and GISSI, described in the literature below) showed a survival benefit. The high model score therefore reflects an existing therapeutic use rather than a new discovery.
 
-The absence of Philippines registration most likely reflects historical market and supply chain factors, not a scientific concern. The TxGNN model's top-ranked prediction (score 99.83%) is therefore entirely consistent with decades of global clinical consensus. Bringing streptokinase into the Philippines for STEMI care represents a public health opportunity, particularly for institutions without 24-hour cath lab access.
+Several other predictions follow the same logic but have weaker support:
+- **Coronary thrombosis** (L1) overlaps heavily with MI.
+- **Peripheral vascular and arterial disease** (L3) rely on local clot lysis, but streptokinase has largely been replaced by other agents.
+- **MI subtypes** (septal, posterolateral, posteroinferior) should be assessed under the parent MI indication.
+- **Prinzmetal angina, hemoglobinopathy and partial deletion of the short arm of chromosome 16** have no credible mechanistic link and are on hold.
 
 ---
 
@@ -67,16 +71,15 @@ The absence of Philippines registration most likely reflects historical market a
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00302419](https://clinicaltrials.gov/study/NCT00302419) | Phase 4 | Completed | 95 | Intracoronary streptokinase adjunct to primary PCI in acute MI; hypothesis that it improves microvascular perfusion by dissolving microvascular thrombus beyond the culprit lesion |
-| [NCT00627809](https://clinicaltrials.gov/study/NCT00627809) | Phase 4 | Completed | 53 | Low-dose intracoronary streptokinase + standard PCI vs PCI alone in AMI; evaluated late infarct size and LV volumes at 6 months post-procedure |
-| [NCT00000507](https://clinicaltrials.gov/study/NCT00000507) | Phase 3 | Completed | N/A | ISAM-era pivotal study of IV streptokinase in acute transmural MI to limit myocardial damage; 1983–1994 follow-up |
-| [NCT00000505](https://clinicaltrials.gov/study/NCT00000505) | Phase 3 | Completed | N/A | TIMI I & II trials: IV rt-PA vs IV streptokinase in acute MI; established comparative thrombolytic activity and set the framework for reperfusion strategy |
-| [NCT01305226](https://clinicaltrials.gov/study/NCT01305226) | Phase 3 | Completed | 120 | Recombinant staphylokinase (THR-100) vs streptokinase in AMI; direct head-to-head fibrinolytic comparison using double-bolus dosing |
-| [NCT02182011](https://clinicaltrials.gov/study/NCT02182011) | Phase 3 | Completed | 49 | Open-label randomized comparison of procoagulant effects of TNK-tPA, alteplase, and streptokinase in AMI; measured TAT, D-dimers, F1+2 at 2, 6, 24 hours |
-| [NCT00245648](https://clinicaltrials.gov/study/NCT00245648) | Phase 3 | Completed | N/A | GUSTO-V substudy: sex-based differences in death and bleeding outcomes among fibrinolytic-treated AMI patients |
-| [NCT01930682](https://clinicaltrials.gov/study/NCT01930682) | Phase 4 | Completed | 344 | EARLY-MYO trial: pharmaco-invasive strategy with half-dose fibrinolysis vs primary PCI in STEMI within 6 hours; non-inferiority design for real-world transfer delays |
-| [NCT03677466](https://clinicaltrials.gov/study/NCT03677466) | N/A | Completed | 60 | Frequency and intensity of intramyocardial haemorrhage in primary STEMI with different reperfusion strategies, including pharmacological thrombolysis |
-| [NCT00000503](https://clinicaltrials.gov/study/NCT00000503) | Phase 3 | Completed | N/A | Early randomized trial of non-surgical coronary reperfusion; assessed streptokinase effect on infarct size in acute MI (1982–1987) |
+| [NCT00000507](https://clinicaltrials.gov/study/NCT00000507) | Phase 3 | Completed | Not reported | Intravenous streptokinase in acute MI, to see whether early use limits myocardial damage |
+| [NCT00000503](https://clinicaltrials.gov/study/NCT00000503) | Phase 3 | Completed | Not reported | Non-surgical reperfusion (thrombolysis) and its effect on infarct size in acute MI |
+| [NCT00627809](https://clinicaltrials.gov/study/NCT00627809) | Phase 4 | Completed | 53 | Low-dose intracoronary streptokinase added to primary PCI in STEMI, assessing infarct size and left ventricular volumes |
+| [NCT01305226](https://clinicaltrials.gov/study/NCT01305226) | Phase 3 | Completed | 120 | Recombinant staphylokinase (THR-100) vs streptokinase in acute MI; streptokinase is the comparator |
+| [NCT02182011](https://clinicaltrials.gov/study/NCT02182011) | Phase 3 | Completed | 49 | Procoagulant effect of tenecteplase, alteplase and streptokinase in acute MI |
+| [NCT03677466](https://clinicaltrials.gov/study/NCT03677466) | N/A | Completed | 60 | Intramyocardial haemorrhage in STEMI with different reperfusion strategies (pharmaco-invasive vs primary PCI) |
+| [NCT02893280](https://clinicaltrials.gov/study/NCT02893280) | N/A | Withdrawn | 0 | Sri Lanka acute coronary syndrome audit project; no efficacy data |
+
+Only three of these trials directly test streptokinase in MI, and two of them have no reported enrollment. The remaining trials either use streptokinase as a comparator or address related questions.
 
 ---
 
@@ -84,32 +87,44 @@ The absence of Philippines registration most likely reflects historical market a
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2146913](https://pubmed.ncbi.nlm.nih.gov/2146913/) | 1990 | RCT / Meta-analysis | Ann Intern Med | Meta-analysis of IV streptokinase effect on early mortality stratified by infarct location (anterior vs inferior); significant mortality reduction demonstrated |
-| [481511](https://pubmed.ncbi.nlm.nih.gov/481511/) | 1979 | Clinical Trial | N Engl J Med | European multicentre controlled trial in 512 AMI patients; 24h streptokinase infusion vs glucose; significantly lower 6-month mortality (P<0.01) in treated group |
-| [2868343](https://pubmed.ncbi.nlm.nih.gov/2868343/) | 1986 | Clinical Trial | Lancet | Landmark streptokinase trial in acute MI; part of the evidence base establishing routine thrombolysis for STEMI |
-| [21070617](https://pubmed.ncbi.nlm.nih.gov/21070617/) | 2012 | Review | Cardiovasc Ther | Comprehensive narrative review tracing the history of thrombolytics in MI from streptokinase discovery through modern tPA-based agents; summarizes mortality benefit data |
-| [8005961](https://pubmed.ncbi.nlm.nih.gov/8005961/) | 1993 | Review / RCT Summary | J Assoc Physicians India | Summary of major RCT evidence for streptokinase in acute MI from an emerging-market perspective; relevant to lower-resource settings like the Philippines |
-| [4934187](https://pubmed.ncbi.nlm.nih.gov/4934187/) | 1971 | Clinical Trial | BMJ | European Working Party multicentre controlled trial: 730 AMI patients (<24h onset) randomized to streptokinase vs heparin; early evidence for thrombolysis benefit |
-| [3985460](https://pubmed.ncbi.nlm.nih.gov/3985460/) | 1985 | Clinical Study | Ann Emerg Med | 30 consecutive AMI patients treated with high-dose IV streptokinase (1.5 MU/30 min) in an emergency setting; assessed feasibility and reperfusion timing |
-| [3308411](https://pubmed.ncbi.nlm.nih.gov/3308411/) | 1987 | Review | Drugs | Pharmacology and clinical use of APSAC (anisoylated plasminogen streptokinase activator complex); highlights fibrin-selective advantages over conventional streptokinase |
-| [2955892](https://pubmed.ncbi.nlm.nih.gov/2955892/) | 1987 | Review | Cardiovasc Clinics | Review of thrombolysis with streptokinase and tPA in acute MI; comparative pharmacodynamics and clinical implications |
-| [481517](https://pubmed.ncbi.nlm.nih.gov/481517/) | 1979 | Early Clinical | N Engl J Med | Early clinical characterization of streptokinase use in myocardial infarction; foundational literature establishing feasibility |
+| [10572811](https://pubmed.ncbi.nlm.nih.gov/10572811/) | 1999 | Meta-analysis | J Accid Emerg Med | Compared outcomes of accelerated alteplase (t-PA) and streptokinase in acute MI |
+| [2146913](https://pubmed.ncbi.nlm.nih.gov/2146913/) | 1990 | Meta-analysis | Ann Intern Med | Effect of intravenous streptokinase on early mortality by infarct location (anterior vs inferior) |
+| [481511](https://pubmed.ncbi.nlm.nih.gov/481511/) | 1979 | Controlled trial | N Engl J Med | European trial in 315 medium- and high-risk patients; 24-hour streptokinase infusion gave significantly lower six-month mortality than glucose |
+| [2191849](https://pubmed.ncbi.nlm.nih.gov/2191849/) | 1990 | Review | Drugs | Major trials (GISSI, ISIS-2, ISAM; over 30,000 patients) show intravenous streptokinase improves survival in acute MI |
+| [8130384](https://pubmed.ncbi.nlm.nih.gov/8130384/) | 1994 | Review | Drugs & Aging | Streptokinase confers a survival benefit in older MI patients; ISIS-2 showed a 5-week absolute mortality reduction |
+| [3312370](https://pubmed.ncbi.nlm.nih.gov/3312370/) | 1987 | Review | J Am Coll Cardiol | Review of randomised trials of intracoronary and intravenous streptokinase in acute MI |
+| [3396164](https://pubmed.ncbi.nlm.nih.gov/3396164/) | 1988 | Trial analysis | Circulation | Western Washington trial: streptokinase gave a higher infarct-artery patency rate (68.5%) than standard therapy |
+| [10163575](https://pubmed.ncbi.nlm.nih.gov/10163575/) | 1996 | Economic review | PharmacoEconomics | Streptokinase is as efficacious as alteplase given as a 3-hour infusion, and the less costly option |
+| [9339259](https://pubmed.ncbi.nlm.nih.gov/9339259/) | 1997 | Review | Arch Mal Coeur Vaiss | Streptokinase is immunogenic and induces antibodies, which can limit re-administration |
+| [10454969](https://pubmed.ncbi.nlm.nih.gov/10454969/) | 1999 | Review | Eur Heart J | Editorial arguing against continued use of streptokinase ("never again") |
+
+The evidence is mostly older reviews and trial reports. There are no recent head-to-head trials against current standard care, such as primary PCI or fibrin-specific agents.
 
 ---
 
 ## Philippines Market Information
 
-Streptokinase currently has **no registered products with the FDA Philippines**. No authorization numbers, product names, or approved indications are on record. This is consistent with the `market_status: "Not marketed"` (Not marketed) designation in the regulatory data.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0459 | Streptokinase | Not recorded | Not recorded (registration status: cancelled) |
 
-This absence is notable given that streptokinase appears on the WHO Model List of Essential Medicines for use in acute MI and other thromboembolic conditions, and is available in neighbouring countries including India, Bangladesh, and parts of Southeast Asia at relatively low cost.
+The only registration is cancelled, so there is currently no valid streptokinase product registered in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions** (100 interactions were identified; the main ones are shown):
+- **Major**: apixaban, betrixaban, bivalirudin, abciximab, acalabrutinib, avapritinib, deferasirox, ibritumomab tiuxetan, tositumomab (I-131). Most of these raise bleeding risk.
+- **Moderate**: acetylsalicylic acid, ibuprofen, ketorolac, celecoxib, topical diclofenac, aminocaproic acid, omega-3 fatty acids, ginger, fenfluramine, sibutramine.
 
-> Note: Key warnings, contraindications, and drug interaction data were not available in this Evidence Pack (designated as data gaps requiring TFDA package insert review and DrugBank query). As a thrombolytic agent, streptokinase carries well-known class risks including hemorrhage (including intracranial bleeding), allergic and anaphylactic reactions (due to bacterial origin), and reperfusion arrhythmias — these should be reviewed against the manufacturer's current labelling before clinical use.
+**Class-level cautions from the literature and prediction notes:**
+- Bleeding risk, including intracranial haemorrhage.
+- Neutralising anti-streptokinase antibodies after prior exposure or streptococcal infection, which limit re-administration.
+- Hypotension and allergic reactions.
+- Reports of post-infarction ventricular septal rupture and haemorrhagic infarction in streptokinase-treated patients.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -118,15 +133,20 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Streptokinase for myocardial infarction carries L1-level evidence — the strongest evidence tier in this framework — based on multiple completed Phase 3 and Phase 4 trials and a broad literature base spanning more than four decades. The TxGNN prediction score of 99.83% reflects what global clinical practice already confirms. The key barrier in the Philippines is not scientific: it is regulatory access, supply chain, and cold-chain logistics for a temperature-sensitive biologic.
+- Streptokinase has a long-established evidence base in acute MI, including large randomised trials and meta-analyses, and the same applies to coronary thrombosis.
+- Streptokinase is already a recognised MI treatment, so this is a confirmation of an existing use rather than a new repurposing finding. Fibrin-specific agents and primary PCI are preferred in many settings, and the only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-- Initiate Philippines FDA registration or identify a compassionate use / unregistered drug access pathway
-- Confirm cold-chain storage and logistics feasibility (streptokinase requires refrigeration at 2–8°C)
-- Obtain the full manufacturer package insert to document contraindications, key warnings, and dosing protocols for the Philippines clinical context
-- Develop a STEMI treatment protocol defining which patients should receive streptokinase vs. be transferred for primary PCI, based on time-to-balloon estimates at referring hospitals
-- Establish a pharmacovigilance plan covering hemorrhagic complications and allergic reactions, with clear escalation pathways
-- Assess cost-effectiveness relative to locally available alternatives (e.g., tenecteplase, urokinase) in the Philippines healthcare system
+- Confirm whether any streptokinase product is currently available or can be registered in the Philippines.
+- Obtain the package insert warnings and contraindications.
+- Obtain mechanism-of-action data from DrugBank.
+- Confirm the original indication from the registration or DrugBank record.
+- Compare against current guideline-preferred reperfusion options (primary PCI and fibrin-specific thrombolytics).
+- Define a bleeding-risk and antibody/re-exposure screening plan.
+- Handle the other predictions as follows:
+  - Peripheral vascular and arterial disease: research questions only, to be assessed together.
+  - MI subtypes (septal, posterolateral, posteroinferior): evaluate under the parent MI indication.
+  - Prinzmetal angina, hemoglobinopathy and chromosome 16 partial deletion: hold, with no support for further work.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

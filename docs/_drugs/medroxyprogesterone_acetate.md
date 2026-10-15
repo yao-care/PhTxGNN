@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: High Evidence (L1-L2)
-nav_order: 216
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 218
+evidence_level: L4
 indication_count: 10
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,111 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Medroxyprogesterone Acetate: From Progestogen Contraceptive to Amenorrhea
+# Medroxyprogesterone Acetate: From Endometriosis and Endometrial Cancer to Amenorrhea
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate (MPA) is a synthetic progestogen widely used as an injectable contraceptive (Depo-Provera) and as the progestogen component in hormone replacement therapy; it is also the standard agent for the progesterone challenge test in secondary amenorrhea.
-The TxGNN model predicts it may be effective for **Amenorrhea (disease)**, with **10 clinical trials** and **20 publications** currently supporting this direction.
-Given MPA's decades-long clinical use for menstrual cycle management, this prediction is strongly anchored in existing pharmacological evidence rather than purely algorithmic inference.
+Medroxyprogesterone acetate (MPA) is a synthetic progestin, originally used for endometriosis, endometrial cancer, and postmenopausal conditions such as osteoporosis and atrophic vaginitis.
+The TxGNN model predicts it may be effective for **amenorrhea**, but there are **no registered clinical trials** and only **20 publications**, mostly older contraception reviews.
+Amenorrhea is largely a known pharmacological effect of MPA, so this is not a clearly new indication.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not retrievable — no Philippines FDA registration on record |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Endometriosis, endometrial carcinoma, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Amenorrhea |
+| TxGNN Prediction Score | 99.999% |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data was not retrieved from DrugBank in this analysis cycle (Data Gap DG002). Based on known clinical information, MPA is a synthetic 17α-hydroxyprogesterone derivative that binds to endometrial progesterone receptors with high affinity, inducing proliferative-to-secretory phase transformation of the endometrium. Upon discontinuation, progesterone withdrawal triggers endometrial shedding — the pharmacological basis of the progesterone challenge test, which has been the clinical cornerstone for evaluating secondary amenorrhea for over half a century.
+Detailed mechanism of action data is not available. Based on known information, MPA is a synthetic progestin. Its efficacy in endometrial disorders is established, and mechanistically it may be applicable to amenorrhea.
 
-The mechanistic link between MPA and amenorrhea is bidirectional and clinically well-established. First, MPA *causes* amenorrhea as a predictable pharmacodynamic effect of DMPA (depot medroxyprogesterone acetate 150 mg IM): suppression of the hypothalamic-pituitary-gonadal axis reduces FSH/LH pulsatility, lowers endogenous estrogen, and renders the endometrium atrophic — resulting in drug-induced amenorrhea in up to 50–70% of long-term DMPA users. Second, MPA *treats* secondary amenorrhea through cyclic oral regimens (5–10 mg/day for 10–14 days) with or without estrogen priming, simulating physiological menstrual cycles and protecting the endometrium from unopposed estrogen stimulation in conditions such as polycystic ovarian syndrome, hypothalamic amenorrhea, and hyperprolactinemia.
+Depot MPA, used for contraception, commonly causes amenorrhea through endometrial atrophy and suppression of gonadotropins. Progestin challenge is also used clinically to induce withdrawal bleeding when evaluating secondary amenorrhea. The prediction therefore mostly reflects a known effect or side effect rather than a new therapeutic use. The retrieved literature contains no controlled trials of MPA as a treatment for amenorrhea.
 
-This dual role — as both the cause and the standard treatment of amenorrhea — explains the very high TxGNN prediction score (99.99%). The knowledge graph correctly captures MPA's deep pharmacological relationship with the hypothalamic-pituitary-ovarian-endometrial axis. The L1 evidence designation is supported by a completed Phase 3 double-blind RCT enrolling 1,886 patients (NCT00808132) and a Phase 3 RCT directly studying MPA's effect on post-ablation endometrial amenorrhea rates (NCT02449161).
+**Other predicted indications (all Hold or Research Question):**
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Breast fibrocystic disease | 99.95% | L3 | Two small, old, likely uncontrolled MPA studies (1983, 1988); other papers suggest progestins may increase breast density and proliferation |
+| Benign mammary dysplasia | 99.92% | L4 | Overlaps with fibrocystic disease; no direct clinical evidence |
+| Cervix endometriosis | 99.92% | L4 | Site variant of an existing indication; only indirect evidence |
+| Endometriosis in cutaneous scar | 99.92% | L5 | Prediction only; surgery is standard of care |
+| Endometriosis of rectovaginal septum and vagina | 99.92% | L5 | Prediction only; duplicates the parent indication |
+| Renal hypoplasia (bilateral, and general) | 99.91% / 99.91% | L5 | No plausible mechanism; likely a knowledge-graph artifact |
+| Apocrine adenosis of breast | 99.89% | L5 | Prediction only; benefit-risk direction uncertain |
+| Blunt duct adenosis of breast | 99.89% | L5 | Prediction only; unresolved breast-proliferation safety question |
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Phase 3 | Completed | 1,886 | Double-blind RCT of bazedoxifene/conjugated estrogens on endometrial hyperplasia and osteoporosis prevention in postmenopausal women; provides high-quality evidence on progestogen-driven endometrial cycle management and amenorrhea prevention — primary evidence supporting L1 rating |
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Phase 3 | Terminated | 60 | RCT directly titled "Effect of Post Ablation Medroxyprogesterone Acetate on Endometrial Amenorrhea Rates"; though terminated early, provides the only direct interventional data on MPA as an active agent for inducing/modifying endometrial amenorrhea |
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Phase 4 | Completed | 42 | Multicenter RCT evaluating whether progesterone-induced withdrawal bleeding before ovulation induction is needed in oligo/amenorrhea patients; directly tests MPA's diagnostic and cycle-priming role in clinical amenorrhea management |
-| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Phase 4 | Completed | 108 | Double-blind placebo-controlled RCT of HRT (containing MPA) in menopausal women with SLE; addresses bone mineral density, menopausal symptoms, and cycle management — supports MPA's progestogen component role in estrogen-deficiency amenorrhea |
-| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Phase 3 | Recruiting | 120 | Multicenter RCT of relugolix 40 mg for heavy menstrual bleeding with uterine fibroids (2024–2027); upon completion will provide updated comparative context for hormonal menstrual regulation evidence base |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Phase 2 | Completed | 29 | Studied vascular function and inflammatory markers in young women with functional hypothalamic amenorrhea (>3 months no menstruation); MPA used as a reference comparator rather than the primary intervention |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | Completed | 79 | Compared Tualang honey vs HRT safety profiles in postmenopausal women; MPA is a component of the HRT arm but is not the primary agent of interest |
-| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Phase 4 | Completed | 184 | RCT on timing of postpartum DMPA administration and breastfeeding outcomes; primary endpoint is contraceptive/lactation continuation, not amenorrhea treatment per se |
-| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | N/A | Not Yet Recruiting | 276 | Traditional Chinese herbal formula (Huanjingjian decoction) for premature ovarian insufficiency; not an MPA trial — included as contextual evidence for the unmet need in ovarian insufficiency–related amenorrhea |
-| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | Phase 1 | Withdrawn | 0 | Estradiol and fear extinction for high-calorie foods in weight-restored anorexia nervosa; withdrawn before enrollment — no usable evidence |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Selected publications for amenorrhea, all narrative reviews or older articles:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9554247](https://pubmed.ncbi.nlm.nih.gov/9554247/) | 1998 | RCT | Contraception | Cyclofem vs continued DMPA in 100 women with ≥6 months DMPA-induced amenorrhea: 82% of Cyclofem users resumed vaginal bleeding vs 10% of DMPA continuers at 6 months — landmark direct evidence for managing MPA-induced amenorrhea |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | RCT | PLoS One | WHICH randomized trial comparing DMPA-IM vs NET-EN effects on estradiol levels, depression, sexual activity, and menstrual patterns including amenorrhea induction — the most recent high-quality RCT on DMPA's hormonal and menstrual effects |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic Review | Cochrane Database Syst Rev | Cochrane meta-analysis on combination injectable contraceptives including MPA-containing regimens; addresses efficacy, acceptability, and bleeding pattern changes (including amenorrhea) across multiple RCTs |
-| [842303](https://pubmed.ncbi.nlm.nih.gov/842303/) | 1977 | Observational | Acta Obstet Gynecol Scand | Foundational study comparing MPA-induced amenorrhea (DMPA 150 mg q12w) vs untreated secondary amenorrhea: endometrial histology, MPA/estradiol/progesterone/gonadotropin levels quantified — pharmacological characterization of MPA amenorrhea phenotype |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Clinical Review | J Reprod Med | Comprehensive counseling model for DMPA patients; amenorrhea identified as the most common reason for discontinuation; provides evidence-based management strategies for MPA-induced amenorrhea in clinical practice |
-| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Clinical Review | MCN Am J Matern Child Nurs | Depo-Provera clinical overview covering mechanism, amenorrhea prevalence, and clinical counseling — key reference for the DMPA–amenorrhea relationship |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options including DMPA; annual pregnancy rate <1/100 woman-years; amenorrhea documented as a predictable, dose-related effect of progestogen depot therapy |
-| [5935707](https://pubmed.ncbi.nlm.nih.gov/5935707/) | 1966 | Clinical Study | Am J Obstet Gynecol | Early report of prolonged gynecologic and endocrine manifestations after MPA administration during pregnancy, including extended post-treatment amenorrhea — among the earliest clinical characterizations of MPA's sustained hormonal suppression |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | Drug-induced infertility review: MPA's mechanism of action on the hypothalamic-pituitary-gonadal axis documented as a cause of secondary amenorrhea and anovulation — mechanistic context for the prediction |
-| [12222332](https://pubmed.ncbi.nlm.nih.gov/12222332/) | 1991 | Review | Entre Nous | Once-a-month injectable contraceptives; bleeding pattern outcomes including amenorrhea induction with progestogen-dominant regimens — provides global context for MPA use and menstrual effects |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic review | Cochrane Database Syst Rev | Combination injectable contraceptives are highly effective; bleeding pattern changes may limit acceptability |
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic review | Cochrane Database Syst Rev | Updated review of combination injectable contraceptives |
+| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | Review | Am J Obstet Gynecol | Depot MPA 150 mg every 3 months has contraceptive efficacy above 99% |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options, with annual pregnancy rates below 1 per 100 woman-years |
+| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | Int J Gynaecol Obstet | Postpartum contraception timing and method choice |
+| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intell Clin Pharm | Drug-induced infertility, including effects on the hypothalamic-pituitary-gonadal axis |
+| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Review | IARC Monographs | General monograph on MPA carcinogenic risk |
+| [7030000](https://pubmed.ncbi.nlm.nih.gov/7030000/) | 1981 | Review | Acta Obstet Gynecol Scand Suppl | Progestins in advanced breast cancer, with an average response rate of about 30% |
+| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Review | MCN Am J Matern Child Nurs | Depo-Provera overview |
+| [1604074](https://pubmed.ncbi.nlm.nih.gov/1604074/) | 1992 | Review | Rev Med Liege | Hormonal contraception overview |
+
+None of these evaluates MPA as a treatment for amenorrhea.
 
 ---
 
 ## Philippines Market Information
 
-Medroxyprogesterone acetate is currently **not registered** with the Philippine FDA. No product authorizations, brand names, dosage forms, or approved indications are on record in the current data set. Market access would require a new drug application or importation under compassionate use provisions.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0303 | Medroxyprogesterone | Not specified | Not specified (status: cancelled) |
+
+The only registration is cancelled, so there is currently no valid marketing authorization in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from drug-disease relationships, not label text): hypertension, liver disease and liver failure, kidney disease, gallbladder disease, epilepsy, asthma, diabetes mellitus and diabetic ketoacidosis, systemic lupus erythematosus, hypothyroidism, hypercalcemia and related calcium or phosphorus disorders, hypertriglyceridemia, osteoporosis, anxiety and related mood disorders, substance abuse or dependence, and female breast carcinoma.
+- **Drug interactions:** 100 interactions were found, and the 20 listed are all Moderate. They are mainly with antidiabetic agents (e.g., metformin, acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin, glimepiride, chlorpropamide, saxagliptin, semaglutide, liraglutide, dulaglutide, albiglutide, and insulins) and also with aprepitant, dexamethasone, clarithromycin, and pegvaliase. Glucose monitoring is advisable when MPA is combined with antidiabetic drugs.
+- **Breast tissue:** Several retrieved papers suggest progestin-containing regimens may increase breast density and proliferation. This is relevant to the breast-related predictions.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrieved in this analysis cycle (Data Gaps DG001 and DG002). These gaps are classified as **Blocking** for the formal S1 safety assessment. Obtaining TFDA or equivalent package insert data is a prerequisite before clinical use recommendations can be finalized.
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-MPA is the standard-of-care progestogen for the diagnostic progesterone challenge test and for cyclic management of secondary amenorrhea, supported by multiple completed Phase 3/4 RCTs, a Cochrane systematic review, and decades of pharmacological characterization at L1 evidence level. However, the drug is not currently registered in the Philippines, and critical safety documentation (contraindications, drug interactions, black-box warnings) has not been retrieved in this analysis cycle — gaps that must be closed before any clinical pathway can be activated.
+The top prediction, amenorrhea, is mostly a known effect of MPA rather than a new therapeutic use, and the supporting literature consists of contraception reviews with no trials. The only Philippines registration is cancelled, and no label safety data is available.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Determine feasibility of Philippine FDA registration or compassionate use/importation authorization for MPA (Depo-Provera or oral form)
-- **Safety documentation**: Retrieve complete package insert including contraindications, warnings, and drug interactions (resolves DG001 — currently Blocking)
-- **MOA verification**: Query DrugBank API for formal mechanism of action documentation (resolves DG002)
-- **Clinical indication scoping**: Specify the target amenorrhea subtype — DMPA-induced amenorrhea, secondary amenorrhea (WHO Group I/II), hypothalamic amenorrhea, or PCOS-related anovulation — as management differs
-- **Monitoring protocol**: Establish bone mineral density monitoring plan for prolonged use (>2 years DMPA associated with reversible BMD reduction), cardiovascular risk stratification, and breast health surveillance
-- **Prescriber guidance**: Develop local clinical pathway document for progesterone challenge test protocol and cyclic MPA regimens appropriate for the Philippine clinical setting
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data (e.g., from DrugBank)
+- Clarification of whether amenorrhea is a desired therapeutic goal, such as for heavy bleeding or endometriosis symptom control, rather than a contraceptive side effect
+- Controlled clinical evidence for any candidate indication; fibrocystic breast disease is the most developed, but its evidence is old, small, and mixed on benefit versus risk
+- Confirmation of current market and registration status in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

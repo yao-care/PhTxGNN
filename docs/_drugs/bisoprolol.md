@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bisoprolol
-parent: Moderate Evidence (L3-L4)
-nav_order: 44
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 46
+evidence_level: L5
 indication_count: 5
 ---
 
 # Bisoprolol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,78 +33,81 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Bisoprolol is a selective β1-adrenergic receptor blocker widely used in cardiovascular medicine for hypertension and heart failure.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease** with a prediction score of **99.94%**,
-however **no clinical trials** and **no targeted literature** have been identified for this specific indication to date — the case rests on mechanistic plausibility alone.
-
----
+Bisoprolol is a selective beta-1 blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction. It rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, heart failure (standard selective β1-blocker indications; no Philippines registration on file) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Bisoprolol is a highly selective β1-adrenergic receptor antagonist. Its primary cardiovascular effects include reducing heart rate, lowering cardiac output, and decreasing systemic vascular resistance. Critically for this prediction, β1-blockade suppresses renin release from the juxtaglomerular apparatus of the kidney — the first step in the renin-angiotensin-aldosterone system (RAAS). By dampening RAAS activation, bisoprolol reduces circulating angiotensin II levels, which in turn lowers both systemic blood pressure and intraglomerular filtration pressure.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, bisoprolol is a selective beta-1 adrenergic blocker. Its efficacy in hypertension is established, and it may lower blood pressure partly by reducing heart rate and cardiac output and by suppressing renin release from the kidney.
 
-In malignant hypertensive renal disease, sustained extreme blood pressure drives accelerated fibrinoid necrosis of small renal vessels and progressive nephrosclerosis. The β1-blockade mechanism described above is pharmacologically relevant: reducing the sympathetic over-activation that contributes to renin hypersecretion and uncontrolled hypertension could theoretically slow the renal deterioration cascade. In addition to RAAS suppression, bisoprolol reduces the direct adrenergic stimulation of renal vasculature that exacerbates glomerular hypertension.
+Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. It is therefore closely related to the original indication, and the prediction is biologically plausible. However, it is an extension of the existing hypertension use rather than a new mechanism. In malignant hypertension, management typically relies on parenteral agents and blockade of the renin-angiotensin system, with beta-blockers in a supportive role. The very high score likely reflects how close this disease sits to hypertension in the knowledge graph, not independent clinical evidence.
 
-An important clinical caveat, however, is that in the setting of malignant hypertension with established renal impairment, the renal vasculature may have already lost pressure autoregulation. Overly rapid blood pressure reduction — including that achieved with β-blockers — risks precipitating renal ischemia. For this reason, bisoprolol in this context would need careful dose titration and close renal function monitoring, and would most likely serve as adjunctive therapy rather than monotherapy.
-
----
+Other predictions for this drug are weaker:
+- **Malignant renovascular hypertension** (score 99.94%): beta-1 blockade reduces renin release, which is plausible, but definitive management (RAAS inhibitors, revascularization) differs.
+- **Pulmonary hypertension** (two forms, score 99.93%): no direct mechanistic rationale, and beta-blockers may be harmful because they can reduce right-ventricular reserve.
+- **Braddock syndrome** (score 99.91%): no mechanistic link could be established.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for Malignant Hypertensive Renal Disease.
+No literature was found for the top prediction. The only literature retrieved relates to the third-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia, and it is indirect:
 
-> **Note on evidence search:** A PubMed search pairing Bisoprolol with the top predicted indication (malignant hypertensive renal disease) returned zero results. A separate search for the rank-3 predicted indication (pulmonary hypertension owing to lung disease/hypoxia) returned 20 publications; however, upon review these papers address hypoxia biology broadly (neurodegeneration, tumor microenvironment, altitude physiology) and contain no direct evidence linking bisoprolol to pulmonary hypertension treatment. They are not included here as they do not support the primary prediction.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/) | 2009 | Review | Cardiovasc Drugs Ther | Effects of beta-blockers on lung function in heart failure patients |
+| [23506636](https://pubmed.ncbi.nlm.nih.gov/23506636/) | 2013 | Comparative clinical study | Int J Cardiol | Carvedilol vs nebivolol vs bisoprolol in moderate heart failure (CARNEBI) |
+| [23706341](https://pubmed.ncbi.nlm.nih.gov/23706341/) | 2013 | Physiological study | J Am Soc Echocardiogr | Left ventricular adaptation to acute hypoxia, with and without beta-1 blockade |
+| [18845967](https://pubmed.ncbi.nlm.nih.gov/18845967/) | 2008 | Physiological study | Med Sci Sports Exerc | Beta-blockade and chemoreflex contributions to exercise capacity |
+| [32363697](https://pubmed.ncbi.nlm.nih.gov/32363697/) | 2020 | In vitro/animal study | Fundam Clin Pharmacol | Bisoprolol protects myocardial cells from ischemia-reperfusion injury via PI3K/AKT/GSK3β |
+| [27687650](https://pubmed.ncbi.nlm.nih.gov/27687650/) | 2016 | In vitro study | Nan Fang Yi Ke Da Xue Xue Bao | Bisoprolol pretreatment on hypoxia/reoxygenation injury in cardiomyocytes |
+| [39088923](https://pubmed.ncbi.nlm.nih.gov/39088923/) | 2024 | Animal study | Int Immunopharmacol | Diosmin plus bisoprolol attenuate cobalt chloride-induced cardiotoxicity |
+| [12887136](https://pubmed.ncbi.nlm.nih.gov/12887136/) | 2003 | Case report | Hypertens Res | Two cases of pheochromocytoma with tetralogy of Fallot |
 
----
+None of these studies evaluates bisoprolol in patients with pulmonary hypertension or malignant hypertensive renal disease.
 
 ## Philippines Market Information
 
-Bisoprolol currently has **no registered products** with the Philippines FDA. No authorization numbers, product names, or approved indications are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0053 | Bisoprolol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text)**: The knowledge graph links bisoprolol with contraindications in several conditions, including asthma (intrinsic and allergic), diabetes mellitus and diabetic ketoacidosis, kidney disease, liver disease and hepatic encephalopathy, pancreatitis, gallbladder disease, systemic lupus erythematosus, psoriasis, gout, myasthenia gravis, anxiety and dysthymic disorders, and several metabolic disorders (potassium deficiency, hypercalcemia, hyperparathyroidism, phosphorus metabolism disease). These need verification against the official label. Kidney disease is directly relevant to the top predicted indication.
+- **Drug Interactions**: 100 interactions were identified; the 20 listed in the compiled data are mostly Moderate, with a few Minor. Moderate examples include epinephrine, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), anticholinergics (atropine, hyoscyamine, methscopolamine), bupropion, morphine, acetohexamide, and calcium salts. Minor examples include acetylsalicylic acid, aluminum hydroxide, and attapulgite.
+- **Concern for pulmonary hypertension**: Beta-blockade may blunt compensatory cardiac output and exercise capacity in hypoxic or right-ventricle-dependent states.
 
-> Detailed warnings, contraindications, and drug interaction data were not retrieved during this evaluation cycle. Known class-level concerns for selective β1-blockers include: risk of bronchospasm in reactive airway disease, masking of hypoglycaemia symptoms in diabetic patients, rebound effects upon abrupt withdrawal, and caution in patients with significant bradycardia or AV conduction disorders. Formal safety data should be sourced from the TFDA/FDA Philippines-approved prescribing information before any clinical application.
-
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a very high prediction score (99.94%), and the β1-blockade → renin suppression → RAAS attenuation pathway provides a biologically coherent mechanistic basis for a role in malignant hypertensive renal disease. However, no clinical trials and no directly relevant published literature exist to validate this specific indication — the evidence level is L4 (mechanism only), which is insufficient to advance beyond the hypothesis-generation stage without additional data.
+All predictions are supported only by the computational score (L5), with no registered trials and no direct literature. The top prediction is essentially an extension of the existing hypertension indication, where beta-blockers play a supportive rather than primary role. Other predictions have weak or potentially unfavorable mechanistic links. The only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **MOA data (High priority):** Retrieve complete DrugBank pharmacology record (DB00612) to formally document the mechanism of action and relevant targets (ADRB1).
-- **Philippines regulatory safety data:** Download and parse the approved Philippines/TFDA package insert PDF to obtain complete warnings and contraindications; this is currently flagged as a blocking data gap (DG001).
-- **Systematic literature review:** Conduct a targeted search combining bisoprolol (and other β-blockers as a class) with malignant hypertension and hypertensive nephrosclerosis/nephropathy to identify any indirect or class-level evidence.
-- **Comparator context:** Assess how bisoprolol compares to first-line agents for malignant hypertension with renal involvement (e.g., ACE inhibitors, ARBs, IV nitroprusside) to establish whether a β-blocker would occupy a meaningful position in the treatment algorithm.
-- **Prospective study design:** If mechanistic evidence is confirmed, consider a small-scale observational study or registry analysis in patients with malignant hypertension and renal involvement who are already receiving bisoprolol for co-existing indications (e.g., heart failure, atrial fibrillation).
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Detailed mechanism of action data (e.g., from DrugBank)
+- Clinical or observational evidence for bisoprolol in malignant hypertensive renal disease or renovascular hypertension
+- Safety review for kidney impairment and, for pulmonary hypertension, right-ventricular function
+- Clarification of the registration status and dosage forms in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

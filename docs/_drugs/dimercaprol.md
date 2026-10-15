@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dimercaprol
-parent: Model Prediction Only (L5)
-nav_order: 108
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 110
+evidence_level: L4
 indication_count: 1
 ---
 
 # Dimercaprol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,94 +33,60 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Dimercaprol (BAL, British Anti-Lewisite) is a heavy metal chelating agent classically used as an antidote for arsenic, mercury, and lead poisoning.
-The TxGNN model predicts it may be effective for **Bronchitis**, with a prediction score of **99.54%**;
-however, **no clinically relevant trials** involving Dimercaprol were identified, and the sole supporting literature consists of **a 1963 case report** of mercury inhalation–induced bronchitis — making this an **L5 evidence prediction only**.
-
----
+Dimercaprol is a dithiol chelating agent used to treat heavy metal poisoning (arsenic, mercury, gold, lead).
+The TxGNN model predicts it may be effective for **bronchitis**, but the support is very weak: **no clinical trials** and only **1 publication** (a 1963 case report of bronchitis caused by mercury inhalation) are available.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Heavy metal poisoning (arsenic, mercury, lead; no Philippines registration on record) |
+|------|------|
+| Original Indication | Heavy metal poisoning (arsenic, mercury, gold, lead); the Philippines license record contains no indication text |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.54% |
-| Evidence Level | L5 — Model prediction only, no actual intervention studies |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L4 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Dimercaprol chelates heavy metals — particularly mercury, arsenic, and lead — by forming stable ring complexes with their ions, thereby reducing tissue toxicity. It was originally developed in World War II as a countermeasure to arsenic-based chemical warfare agents (Lewisite) and later extended to clinical heavy metal poisoning management.
+Currently, detailed mechanism of action data is not available. Based on known information, dimercaprol is a dithiol chelating agent that binds heavy metals and promotes their elimination. Its efficacy is established in metal poisoning, not in bronchitis.
 
-The only mechanistically coherent link between Dimercaprol and bronchitis is **mercury vapor inhalation–induced acute bronchitis**: inhaled mercury vapour deposits in airway mucosa, causing direct inflammatory injury, and Dimercaprol could theoretically reduce this injury by chelating mercury from lung tissue. One 1963 case report (PMID 14068440) documents exactly this scenario — two patients with acute bronchitis secondary to mercury inhalation.
+The link to bronchitis is indirect. The only supporting literature describes bronchitis as a toxic consequence of acute mercury inhalation. In that setting, chelation would address the underlying poisoning rather than treat the bronchitis itself. Dimercaprol has no known direct anti-inflammatory, antimicrobial, or bronchial-protective action relevant to bronchitis of other causes (viral, bacterial, smoking-related, or chronic obstructive).
 
-Outside this narrow context, Dimercaprol has **no known mechanism** applicable to viral, bacterial, chronic, or allergic bronchitis. The high TxGNN score (0.9954) is assessed in the evidence pack as a **knowledge graph topological false positive**: the model likely traced a Dimercaprol → mercury → pulmonary toxicity path and scored the drug-disease pair highly without reflecting genuine biological activity. This prediction should **not** be interpreted as a clinically actionable repurposing signal.
-
----
-
-## Clinical Trial Evidence
-
-No clinical trials involving Dimercaprol as an intervention for bronchitis were identified. The 24 trials retrieved by the ClinicalTrials.gov query all study bronchitis/COPD/bronchiolitis obliterans with unrelated drugs or as purely observational cohorts. Representative examples are listed below for transparency, with their relevance grade noted.
-
-| Trial Number | Phase | Status | Enrollment | Notes |
-|-------------|-------|--------|-----------|-------|
-| [NCT00423137](https://clinicaltrials.gov/study/NCT00423137) | Phase 2 | Completed | 48 | BIBW2948 BS in COPD with chronic bronchitis — unrelated drug |
-| [NCT01334892](https://clinicaltrials.gov/study/NCT01334892) | Phase 2/3 | Terminated | 130 | Liposomal ciclosporin A for bronchiolitis obliterans — unrelated drug |
-| [NCT01212406](https://clinicaltrials.gov/study/NCT01212406) | Phase 4 | Completed | 100 | Vitamin D to prevent BOS after lung transplant — unrelated drug |
-| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Phase 2 | Completed | 25 | Montelukast for bronchiolitis obliterans post-SCT — unrelated drug |
-| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Phase 4 | Completed | 30 | Montelukast for BOS after lung transplant — unrelated drug |
-
-> **None of the above trials involve Dimercaprol.** All were retrieved on the basis of the bronchitis disease label alone and represent background noise rather than supporting evidence.
-
----
+The very high TxGNN score (99.54%) is a computational prediction. It is likely driven by the drug's association with metal toxicity rather than by clinical efficacy evidence, and should be interpreted with caution.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [14068440](https://pubmed.ncbi.nlm.nih.gov/14068440/) | 1963 | Case Report | Am Rev Respir Dis | Two cases of acute bronchitis following mercury vapor inhalation — the only publication directly implicating mercury toxicity as a mechanism linking Dimercaprol to airway disease |
-| [2261963](https://pubmed.ncbi.nlm.nih.gov/2261963/) | 1990 | Observational | Eur Respir J | Short-term smoking reduction associated with decreased lower respiratory tract inflammation in 15 heavy smokers — no relation to Dimercaprol |
-| [3048217](https://pubmed.ncbi.nlm.nih.gov/3048217/) | 1988 | Review/Case Series | Ann Surg | Obliterative bronchiolitis after cardiopulmonary transplant in 11/30 patients — no relation to Dimercaprol |
-
-> The only publication with any mechanistic relevance to this repurposing hypothesis is PMID 14068440 (1963), which is a 60-year-old case report with no treatment outcome data for Dimercaprol.
-
----
+|------|-----|------|------|---------|
+| [14068440](https://pubmed.ncbi.nlm.nih.gov/14068440/) | 1963 | Case report | The American Review of Respiratory Disease | Report of two cases of bronchitis due to acute mercury inhalation; no abstract available, and the report concerns a toxic exposure rather than a treatment trial |
 
 ## Philippines Market Information
 
-Dimercaprol has **no registered products** in the Philippines. No license data is available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0147 | Dimercaprol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-No safety data for Dimercaprol was retrieved from the current data sources. Please refer to the full package insert for warnings, contraindications, and precautions before any clinical use. Key areas to review include:
+- **Disease associations from the knowledge graph** (derived from the TxGNN knowledge graph, not from label text): hypertensive disorder, hypertension, liver disease, gallbladder disease, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia.
+- **Drug Interactions**: 15 Major interactions were identified, all involving metal-containing products. These include iron preparations (iron, ferrous fumarate, ferrous gluconate, ferrous sulfate, iron dextran, iron sucrose, iron protein succinylate, sodium ferric gluconate complex, ferric carboxymaltose, ferric derisomaltose, tetraferric tricitrate decahydrate), iron-based agents (ferumoxides, ferumoxsil, ferumoxytol) and selenium.
 
-- Known nephrotoxicity and hepatotoxicity at higher doses
-- Contraindication in hepatic insufficiency (except arsenic-induced liver damage)
-- Painful intramuscular injection route (the only approved route of administration)
-- Interaction with iron supplementation (forms toxic complex)
-
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's high score for Dimercaprol–bronchitis is a likely topological false positive driven by the Dimercaprol → mercury → pulmonary toxicity path in the knowledge graph. The sole mechanistically coherent use case — mercury inhalation–induced acute bronchitis — is extremely rare and supported only by a single 1963 case report. There is no evidence base to support investigation of Dimercaprol for any of the common bronchitis subtypes (viral, bacterial, chronic, or allergic).
+The only evidence is a 1963 case report in which bronchitis was a consequence of mercury exposure, so it does not show that dimercaprol treats bronchitis. The high TxGNN score is not backed by clinical evidence, and the only Philippines registration is cancelled, which limits practical feasibility.
 
-**To reconsider, the following would be required:**
-
-- Identification of a plausible non-mercury mechanism by which Dimercaprol modulates airway inflammation (e.g., zinc chelation, NF-κB pathway effects)
-- At least one peer-reviewed preclinical study (in vitro or animal model) demonstrating anti-bronchitis activity independent of heavy metal chelation
-- A clinical rationale distinguishing the target bronchitis subtype from the general disease category
-- Full pharmacokinetic data for pulmonary delivery (Dimercaprol is currently only formulated for IM injection; inhalation or oral bioavailability data are absent)
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Preclinical or clinical evidence of benefit in bronchitis independent of metal poisoning
+- Clarification of the regulatory status and availability of the drug in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: Model Prediction Only (L5)
-nav_order: 74
+nav_order: 76
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,83 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Clarithromycin: From Bacterial Infections to Hyperamylasemia
+# Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibiotic broadly used for respiratory tract infections, *H. pylori*-associated peptic disease, and non-tuberculous mycobacterial (NTM) infections.
-The TxGNN model predicts it may be effective for **Hyperamylasemia**, with **0 clinical trials** and **1 publication** currently supporting this direction.
-Overall evidence is extremely limited, and this prediction is likely an artefact of an indirect knowledge graph connection rather than a genuine therapeutic relationship.
-
----
+Clarithromycin is a macrolide antibiotic, originally used to treat bacterial infections such as pneumonia, sinusitis, otitis media, and streptococcal and staphylococcal infections.
+The TxGNN model predicts it may be effective for **Hyperamylasemia**, but there are **0 clinical trials** and only **1 publication** (a case report with no therapeutic link), so the prediction rests almost entirely on the computational model.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (respiratory tract, *H. pylori*, NTM) — Philippines registration data unavailable |
+|------|------|
+| Original Indication | Bacterial infections (infectious otitis media, bacterial pneumonia, streptococcal and staphylococcal infections, maxillary sinusitis, Mycoplasma and Chlamydia pneumonia) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.35% |
-| Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction with no supporting studies; the single case report is not therapeutic evidence) |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established clinical pharmacology, Clarithromycin is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit. It also possesses anti-inflammatory and immunomodulatory properties — notably suppression of the NF-κB pathway and reduction of pro-inflammatory cytokines — which have driven interest in its use beyond conventional anti-infective indications. It is a core component of *Mycobacterium avium* complex (MAC) treatment regimens and *H. pylori* eradication therapy.
+Currently, detailed mechanism of action data is not available. Based on known information, clarithromycin is a macrolide antibiotic whose efficacy in bacterial respiratory infections is established, but no mechanistic route to hyperamylasemia has been identified.
 
-Hyperamylasemia, however, is not an independent treatable disease entity; it is a biochemical finding (elevated serum amylase) that reflects pancreatic or salivary gland injury from a variety of underlying causes. There is no known pharmacological pathway by which Clarithromycin would directly regulate amylase secretion, amylase clearance, or the broad spectrum of conditions that cause elevated amylase.
+The only publication found is a 2004 Japanese case report of *Mycobacterium abscessus* lung infection complicated by primary macroamylasemia. Clarithromycin was most likely used there as an anti-mycobacterial agent. Any link to elevated amylase is incidental and does not show therapeutic benefit. The high TxGNN score is therefore a computational signal only and should not be read as clinical support.
 
-The high TxGNN score most likely originates from an indirect knowledge graph chain: *Mycobacterium abscessus* pulmonary infection → pancreatic involvement → elevated serum amylase. Because Clarithromycin is a primary agent in *M. abscessus* treatment regimens, the model has drawn a coincidental association rather than a biologically direct therapeutic link. This prediction should be treated as a probable false positive pending further mechanistic review.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
+Other predictions for this drug (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility) also lack trials and literature. The one comparatively plausible candidate is punctate epithelial keratoconjunctivitis. Macrolides have anti-inflammatory effects on the meibomian glands, and a 2024 observational study supports this indirectly. It is a research question, not a validated indication.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case Report | Nihon Kokyuki Gakkai Zasshi (Japanese Respiratory Society) | A 76-year-old man with *M. abscessus* pulmonary infection who coincidentally also had primary macroamylasemia. Clarithromycin was used as part of the anti-mycobacterial regimen — **not** as a treatment for elevated amylase. The presence of hyperamylasemia was incidental; this paper does not support Clarithromycin as a therapy for hyperamylasemia. |
+|------|-----|------|------|---------|
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai Zasshi | A 76-year-old man with *M. abscessus* lung infection and primary macroamylasemia; no demonstrated therapeutic effect on amylase |
 
----
+Currently no related clinical trials are registered.
 
 ## Philippines Market Information
 
-Clarithromycin currently has **no registered drug authorizations** in the Philippines FDA database. No product entries are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0104 | Clarithromycin | Not specified | Not specified (status: cancelled) |
 
----
+The only registration found has been cancelled, so no valid single-ingredient or combination product is currently registered.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications and risk conditions (from the knowledge graph, not label text)**:
+  - Cardiac: long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic polymorphic and incessant infant forms)
+  - Hepatic: liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease
+  - Metabolic: porphyria (inherited and other porphyrin metabolism diseases)
+  - Others: kidney disease, myasthenia gravis and other neuromuscular junction diseases, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, osteoporosis, bone fracture, infectious mononucleosis, chronic Epstein-Barr virus infection syndrome
+- **Drug Interactions**: The interaction query returned 100 records; the first 20 reviewed include:
+  - Major: abemaciclib, fentanyl, acalabrutinib
+  - Moderate: paclitaxel, tramadol, nifedipine, famotidine, formoterol, ethinylestradiol, hydrocortisone, afatinib, abiraterone, among others
+  - Minor: dolutegravir, zidovudine, loratadine
 
----
+  Clarithromycin is a strong CYP3A4 inhibitor, so interactions with CYP3A4 substrates deserve particular attention.
+
+Please refer to the package insert for key warnings and the official contraindication list.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Hyperamylasemia is a biochemical marker, not a discrete treatable condition, and no mechanistic basis exists for Clarithromycin to reduce serum amylase or address the wide range of underlying causes. The sole literature hit describes an incidental clinical co-occurrence; the high TxGNN score almost certainly reflects a spurious knowledge graph pathway via NTM-related pancreatic pathophysiology rather than a genuine drug–disease relationship.
+The prediction rests on a model score alone. No clinical trials exist, and the only publication is an incidental case report with no therapeutic link. The only Philippines registration is cancelled, and the safety profile (QT prolongation, hepatic risk, many CYP3A4 interactions) calls for caution.
 
 **To proceed, the following is needed:**
-
-- **Clarify the true intended target**: If the research question is whether Clarithromycin can treat NTM-related secondary hyperamylasemia specifically (rather than hyperamylasemia in general), a redesigned evidence search targeting that narrower clinical scenario may yield more meaningful results.
-- **Obtain MOA data**: Full mechanism of action data from DrugBank (DG002 remediation) is needed to confirm or refute any plausible biochemical link to amylase regulation.
-- **Obtain Philippines safety data**: Philippines FDA package insert data (DG001 remediation) — including warnings and contraindications — must be retrieved before any clinical evaluation stage can begin.
-- **Consider higher-ranked biologically plausible candidates**: Among the five TxGNN predictions in this pack, **Rank 4 (Punctate Epithelial Keratoconjunctivitis / MRKC)** carries a stronger mechanistic rationale (anti-staphylococcal activity + NF-κB suppression improving meibomian gland function) and an L4 evidence signal from a 2024 Japanese observational study; this candidate may merit a dedicated evidence search before hyperamylasemia is prioritized further.
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application.
+- Mechanism of action data and a plausible mechanistic link between clarithromycin and amylase or pancreatic pathology
+- Confirmation of whether the amylase finding in the case report was an adverse event or a coincidence
+- Package insert warnings and contraindications from the DOH-FDA Philippines, and clarification of the cancelled registration's status
+- Preclinical or exploratory clinical data, if the indication is to be pursued
+- Consider prioritising punctate epithelial keratoconjunctivitis as a research question, since its mechanistic rationale is stronger
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

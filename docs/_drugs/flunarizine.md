@@ -2,15 +2,15 @@
 layout: default
 title: Flunarizine
 parent: High Evidence (L1-L2)
-nav_order: 144
-evidence_level: L1
+nav_order: 146
+evidence_level: L2
 indication_count: 1
 ---
 
 # Flunarizine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **1** 
+Evidence Level: **L2** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,103 +29,89 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-# Flunarizine: From Vertigo to Migraine Disorder
+# Flunarizine: From an Unspecified Original Indication to Migraine Disorder
 
 ## One-Sentence Summary
 
-Flunarizine is a selective calcium channel blocker traditionally used globally for the prevention of vertigo and migraine, though it currently holds no registration in the Philippines market.
-The TxGNN model predicts it may be effective for **Migraine Disorder** with a high confidence score of 99.12%,
-supported by **19 clinical trials** identified in ClinicalTrials.gov, including multiple completed head-to-head randomised controlled trials directly comparing Flunarizine against established first-line prophylactic agents.
-
----
+Flunarizine is a calcium channel blocker whose original approved indication is not recorded in the Philippines registration data compiled for this report.
+The TxGNN model predicts it may be effective for **migraine disorder**,
+with **13 clinical trials** and **20 publications** currently supporting this direction.
+Flunarizine is already a long-established migraine preventive in many regions, so this is better viewed as confirmation of an existing use than as a novel repurposing.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Vertigo and migraine prevention (internationally approved; no Philippines registration on record) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not available in the registration data |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.12% |
-| Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L2 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Flunarizine is a selective T-type calcium channel blocker with a well-characterised triple mechanism for migraine prevention. First, it suppresses **Cortical Spreading Depression (CSD)** — the wave of neuronal depolarisation that underlies the migraine aura — by limiting calcium influx that sustains CSD propagation. Second, it reduces hyperexcitability in trigeminal nociceptive neurons, thereby blocking the central sensitisation cascade that amplifies migraine pain. Third, it stabilises cerebral vascular smooth muscle tone, dampening the exaggerated vasoreactivity seen during migraine attacks. Supplementary D2 receptor antagonism and antihistaminergic activity further contribute to headache suppression.
+Currently, detailed mechanism of action data is not available in the compiled record. Based on general pharmacological knowledge, flunarizine is a diphenylpiperazine calcium channel blocker. It also acts on T-type calcium channels (Cav3.1, Cav3.2 and Cav3.3), sodium channels, and histamine and dopamine D2 receptors.
 
-These mechanistic properties align directly with the major pathophysiological targets in migraine — neural hyperexcitability, trigeminovascular activation, and vascular instability — which explains why the TxGNN knowledge-graph model assigns a prediction score of 0.991. The drug is already approved for migraine prophylaxis in numerous markets across Europe, Asia, and Latin America, providing a substantial regulatory and pharmacovigilance track record that reduces the de-novo risk profile.
-
-The primary repurposing opportunity here is therefore a **market-entry play for the Philippines**: Flunarizine represents a low-cost, once-daily oral prophylactic with decades of real-world use, potentially addressing an unmet need in a market where preventive migraine therapy options may be limited by cost or accessibility.
-
----
+These actions plausibly reduce cortical spreading depression, neuronal hyperexcitability and trigeminovascular activation, all of which are central to migraine. This fits the very high TxGNN score. Several reviews in the literature list flunarizine among first-choice migraine preventives, alongside beta-blockers, topiramate, valproate and amitriptyline. The mechanistic description above comes from general knowledge rather than from the supplied record.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | Completed | 62 | Head-to-head RCT of Flunarizine 10 mg/day vs Topiramate 50 mg/day for chronic migraine prophylaxis; directly evaluates Flunarizine efficacy as a primary intervention |
-| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | N/A | Completed | 120 | Three-arm parallel trial comparing Greater Occipital Nerve Block, Topiramate, and Flunarizine for episodic migraine prevention; reduction in VAS scores and attack frequency assessed post-treatment |
-| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | N/A | Unknown | 84 | Randomised comparison of Flunarizine vs Amitriptyline for migraine prophylaxis in a tertiary care setting in Pakistan; primary endpoints are attack frequency and VAS pain score |
-| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | N/A | Recruiting | 44 | Paediatric RCT comparing Flunarizine vs Propranolol in children aged 8–15 using the PedMIDAS disability scale; extends evidence to an under-studied age group |
-| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | Not Yet Recruiting | 460 | PREMI Study: pragmatic multicentre RCT comparing amitriptyline, flunarizine, topiramate, and propranolol as first-line preventive therapy in primary care; largest planned head-to-head comparison |
-| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | Completed | 75 | Open-label pharmacokinetic study examining drug–drug interaction between Flunarizine and Topiramate during mono- and combination therapy; directly characterises a clinically relevant co-prescription scenario |
-| [NCT04766762](https://clinicaltrials.gov/study/NCT04766762) | N/A | Unknown | 96 | RCT comparing acupuncture (Ying–Wei method) against Flunarizine hydrochloride as active control in migraine without aura; Flunarizine serves as the reference standard, implying established efficacy |
-| [NCT07068815](https://clinicaltrials.gov/study/NCT07068815) | Phase 1 | Not Yet Recruiting | 60 | RCT comparing Fu's Subcutaneous Needling (FSN) against Flunarizine hydrochloride in migraine without aura; co-primary endpoints are pain relief and quality-of-life improvement |
-| [NCT06753825](https://clinicaltrials.gov/study/NCT06753825) | N/A | Active, Not Recruiting | 60 | Observational study comparing transcutaneous pulsed radiofrequency therapy versus calcium channel blockers (class inclusive of Flunarizine) for childhood migraine; long-term follow-up design |
-| [NCT03828539](https://clinicaltrials.gov/study/NCT03828539) | Phase 4 | Completed | 777 | HEART Study: Erenumab vs Topiramate double-blind RCT in episodic and chronic migraine; Flunarizine is listed as a prior prophylactic treatment, providing indirect comparative benchmark data |
+Most trials are small, still unstarted or unfinished, or have unknown status, and none has posted results in the data compiled. The table lists the 10 most relevant ones.
 
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06499116](https://clinicaltrials.gov/study/NCT06499116) | Phase 4 | Not yet recruiting | 460 | Pragmatic primary-care comparison of amitriptyline, flunarizine, topiramate and propranolol for migraine prevention |
+| [NCT07655700](https://clinicaltrials.gov/study/NCT07655700) | Phase 4 | Not yet recruiting | 177 | Propranolol vs flunarizine vs combination for migraine prophylaxis |
+| [NCT02639598](https://clinicaltrials.gov/study/NCT02639598) | Phase 4 | Completed | 62 | Flunarizine 10 mg/day vs topiramate 50 mg/day for chronic migraine prophylaxis |
+| [NCT03712917](https://clinicaltrials.gov/study/NCT03712917) | N/A | Completed | 120 | Greater occipital nerve block vs topiramate vs flunarizine in episodic migraine |
+| [NCT06162819](https://clinicaltrials.gov/study/NCT06162819) | N/A | Unknown | 84 | Flunarizine vs amitriptyline, comparing attack frequency and pain score |
+| [NCT07354126](https://clinicaltrials.gov/study/NCT07354126) | N/A | Recruiting | 44 | Flunarizine vs propranolol in children aged 8–15, using PedMIDAS |
+| [NCT07751497](https://clinicaltrials.gov/study/NCT07751497) | Phase 2 | Not yet recruiting | 400 | Rimegepant vs flunarizine non-inferiority study in vestibular migraine prevention |
+| [NCT06753825](https://clinicaltrials.gov/study/NCT06753825) | N/A | Active, not recruiting | 60 | Pulsed radiofrequency vs calcium channel blockers in childhood migraine |
+| [NCT07068815](https://clinicaltrials.gov/study/NCT07068815) | Phase 1 | Not yet recruiting | 60 | Fu's subcutaneous needling vs flunarizine in migraine without aura |
+| [NCT00752466](https://clinicaltrials.gov/study/NCT00752466) | Phase 1 | Completed | 75 | Pharmacokinetic interaction study of flunarizine and topiramate; no efficacy data |
 
 ## Literature Evidence
 
-Currently no related literature available from the PubMed query conducted on 2026-03-09 (result count: 0). This represents a data gap — a supplementary manual search of PubMed using terms such as "flunarizine migraine prophylaxis" is strongly recommended, as published RCTs and meta-analyses for this indication are known to exist in the broader literature.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39365169](https://pubmed.ncbi.nlm.nih.gov/39365169/) | 2024 | Systematic review with economic model | Health Technol Assess | Compares clinical and cost-effectiveness of preventive drugs for chronic migraine |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Efficacy and safety of preventive medications in pediatric migraine |
+| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | Guideline | Neurology | AAN/AHS update on pharmacologic prevention of pediatric migraine |
+| [42673559](https://pubmed.ncbi.nlm.nih.gov/42673559/) | 2026 | Systematic review | Neurology | AAN/AHS systematic review of pharmacologic migraine prevention in adults |
+| [40553594](https://pubmed.ncbi.nlm.nih.gov/40553594/) | 2025 | Systematic review and meta-analysis | J Assoc Physicians India | Amitriptyline compared with propranolol and flunarizine for migraine prophylaxis |
+| [37073858](https://pubmed.ncbi.nlm.nih.gov/37073858/) | 2023 | Cochrane review | Cochrane Database Syst Rev | Pharmacological prophylaxis of vestibular migraine |
+| [30428122](https://pubmed.ncbi.nlm.nih.gov/30428122/) | 2019 | Clinical study | Acta Neurol Scand | Flunarizine plus transcutaneous supraorbital neurostimulation improved prophylaxis vs either alone |
+| [41572863](https://pubmed.ncbi.nlm.nih.gov/41572863/) | 2026 | Review | Dtsch Arztebl Int | Drugs for migraine prophylaxis |
+| [21049704](https://pubmed.ncbi.nlm.nih.gov/21049704/) | 2010 | Review | J Assoc Physicians India | Flunarizine is listed among first-choice prophylactic drugs |
+| [3878734](https://pubmed.ncbi.nlm.nih.gov/3878734/) | 1985 | Clinical study | Cephalalgia | Flunarizine 10 mg daily for 3 months gave a favourable headache effect in 44 of 56 patients (78.5%) |
 
 ## Philippines Market Information
 
-Flunarizine is **not currently registered** with the FDA Philippines. No drug authorisation records were retrieved.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|------------|-------------------|
-| — | — | — | No registrations on file |
-
-A market-entry regulatory submission would be required before commercial use in the Philippines.
-
----
+|---------|------|------|-----------|
+| PNF-0195 | Flunarizine | Not recorded | Not recorded (status: cancelled) |
 
 ## Safety Considerations
 
-Detailed local warning and contraindication data (e.g., FDA Philippines package insert) were not available at the time of this report. Based on globally available prescribing information, clinicians should be aware of the following known safety signals associated with Flunarizine:
+Please refer to the package insert for safety information.
 
-- **Extrapyramidal side effects**: Flunarizine carries D2 receptor antagonist activity and can cause drug-induced parkinsonism, tardive dyskinesia, or depression, particularly with long-term use or in elderly patients.
-- **Sedation and weight gain**: Antihistaminergic properties contribute to somnolence and appetite stimulation; relevant for patient counselling and adherence.
-- **Depression risk**: Use should be avoided or carefully monitored in patients with a history of depressive episodes.
-- **Drug interactions**: No DDI data was retrieved from the automated query. The Phase 1 pharmacokinetic trial (NCT00752466) suggests a clinically relevant interaction with Topiramate warrants attention.
-
-> Please refer to the full package insert and consult local regulatory guidance for comprehensive safety information before initiating use.
-
----
+Pharmacology data compiled for this report show that flunarizine acts on dopamine D2 receptors (rat data) and on the human T-type calcium channels Cav3.1, Cav3.2 and Cav3.3. These are target interactions rather than drug-drug interactions with specific medicines. A Phase 1 study examined the pharmacokinetic interaction between flunarizine and topiramate, but its results are not included in the data compiled.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Flunarizine has a robust, decades-long global track record as a migraine prophylactic agent with multiple completed RCTs and head-to-head comparisons against established first-line drugs (Topiramate, Propranolol, Amitriptyline). The TxGNN prediction score of 99.12% reflects strong knowledge-graph support, and the mechanistic basis — T-type calcium channel blockade and CSD suppression — directly maps onto migraine pathophysiology. The principal barrier is the absence of Philippines FDA registration, not a lack of evidence.
+Flunarizine is widely used and recommended for migraine prevention, and several comparative trials and systematic reviews support this. However, the only Philippines registration is cancelled, and the compiled data contain no package insert safety information. Most listed trials are small, ongoing or without results.
 
 **To proceed, the following is needed:**
-
-- **Philippines FDA registration pathway assessment**: Determine whether a full New Drug Application or an abbreviated bridging submission is required; gather relevant dossiers from markets where Flunarizine is already approved (e.g., EU, Japan, India).
-- **Supplementary PubMed literature review**: Conduct a manual search to retrieve published meta-analyses and systematic reviews on Flunarizine for migraine prophylaxis, as the automated query returned zero results despite known literature existing.
-- **Local safety data retrieval**: Download and parse the full package insert (where available from WHO or reference markets) to populate the key warnings, contraindications, and DDI sections before any S1 safety review.
-- **Mechanism of action data (MOA)**: Query the DrugBank API for DB04841 to obtain the full structured MOA record, which will strengthen the mechanistic link analysis.
-- **Pharmacoeconomic assessment**: Given the migraine prevention landscape in the Philippines, a cost-effectiveness comparison against Topiramate and Propranolol (both likely already registered and generic) should be conducted to define the market positioning rationale.
-- **Paediatric strategy**: Monitor the completion of NCT07354126 (Flunarizine vs Propranolol in children aged 8–15) as it may support a paediatric label extension if Philippines registration proceeds.
+- Package insert warnings and contraindications from DOH-FDA Philippines, which are required before safety screening
+- Confirmation of the original indication, dosage form and manufacturer for the cancelled registration PNF-0195, and clarification of its regulatory status
+- Mechanism of action data from DrugBank
+- Results from the pending and ongoing trials, and a review of the completed flunarizine comparator studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

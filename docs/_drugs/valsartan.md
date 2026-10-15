@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Moderate Evidence (L3-L4)
-nav_order: 346
+nav_order: 350
 evidence_level: L4
 indication_count: 7
 ---
@@ -33,85 +33,88 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II type 1 (AT1) receptor blocker (ARB) internationally established for hypertension, heart failure, and post-myocardial infarction — but not currently registered in the Philippines.
-The TxGNN model assigns its highest prediction score to **Malignant Hypertensive Renal Disease** (99.97%),
-supported by **0 clinical trials** and **1 background publication** that studied a different drug (avosentan), making direct Valsartan-specific evidence essentially absent for this indication.
-
----
+Valsartan is an angiotensin II receptor blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (score 99.97%),
+but **no clinical trials** and only **1 indirect preclinical publication** (which does not test valsartan) currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available from Philippines registry (Valsartan is not registered locally; internationally indicated for hypertension and heart failure) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current dataset. Based on known pharmacological information, Valsartan is an angiotensin II type 1 (AT1) receptor blocker that reduces angiotensin II-mediated vasoconstriction, aldosterone secretion, and sympathetic activation. Through AT1 blockade, it decreases intraglomerular pressure by dilating the efferent arteriole — a mechanism central to renal protection in hypertensive states.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, valsartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may protect the kidney in severe hypertension through blockade of the renin-angiotensin-aldosterone system (RAAS).
 
-Malignant hypertensive renal disease involves severe, rapidly progressive glomerular injury driven by uncontrolled arterial hypertension. The RAAS system plays a pivotal role in sustaining the malignant cycle: elevated angiotensin II causes afferent arteriolar vasoconstriction and glomerular hyperperfusion. The ARB drug class has established renal protection in landmark trials (RENAAL, IDNT) for diabetic nephropathy, suggesting biological plausibility for Valsartan in hypertensive nephropathy more broadly.
+The predicted indication is closely related to the original one. Malignant hypertensive renal disease is kidney damage caused by severe hypertension, so this prediction sits near the labeled use rather than representing a true repurposing signal. The very high TxGNN score is a computational result and does not replace clinical data.
 
-However, the only literature retrieved for this specific indication (PMID 24368192) investigates **avosentan** — an endothelin receptor antagonist — in a double-transgenic rat model, not Valsartan. This substantially weakens the direct evidence base. The high TxGNN score likely reflects structural proximity in the knowledge graph between ARB-class nodes and hypertensive renal disease nodes, rather than Valsartan-specific validated clinical data for this indication.
-
----
+Other predictions from the model are weaker still:
+- **Malignant renovascular hypertension** (score 99.97%): strongly angiotensin II-driven, and an animal study (PMID 11560862) shows AT1 blockade prevents lethal malignant hypertension. It is preclinical and it is unclear whether valsartan itself was tested. ARBs also carry a risk of acute kidney injury in bilateral renal artery stenosis.
+- **Pulmonary hypertension (two categories)**, **chronic pulmonary heart disease**, **Braddock syndrome** and **Prinzmetal angina**: evidence is model prediction or indirect literature (mostly sacubitril/valsartan, heart failure, or unrelated topics). These are not supported for valsartan alone.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Valsartan in malignant hypertensive renal disease.
+Currently no related clinical trials registered for the lead prediction, malignant hypertensive renal disease.
 
----
+For the lower-ranked prediction chronic pulmonary heart disease, one trial was retrieved, but it does not appear to test valsartan:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | Recruiting | 420 | Exercise and rehabilitation study of vascular function in hypertension; not a valsartan study (relevance grade C) |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Animal / Preclinical | Pharmacological Research | Avosentan (endothelin receptor antagonist, not Valsartan) demonstrated renal protection in double transgenic rats overexpressing human renin and angiotensinogen at sub-fluid-retention doses. Provides indirect evidence for RAAS-related renal protection but does not directly validate Valsartan in this indication. |
+For the lead prediction, only one paper was retrieved, and it concerns a different drug:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical | Pharmacological Research | Avosentan (an endothelin antagonist, not valsartan) protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention |
+
+Selected supporting papers for the second prediction (malignant renovascular hypertension) and other predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclinical (animal) | Circulation | AT1 receptor blockade prevented lethal malignant hypertension, related to kidney inflammation |
+| [32552157](https://pubmed.ncbi.nlm.nih.gov/32552157/) | 2020 | Preclinical (animal) | J Am Heart Assoc | Sacubitril/valsartan attenuated right ventricular remodeling in pulmonary hypertension |
+| [22377232](https://pubmed.ncbi.nlm.nih.gov/22377232/) | 2012 | Preclinical (animal) | Diabetes Res Clin Pract | Valsartan inhibited the HIF-1α pathway and reduced renal interstitial fibrosis in diabetic rats |
+| [34796742](https://pubmed.ncbi.nlm.nih.gov/34796742/) | 2021 | Post hoc RCT analysis | J Am Heart Assoc | Impact of COPD on outcomes in HFpEF patients in PARAGON-HF (sacubitril/valsartan trial) |
 
 ## Philippines Market Information
 
-Valsartan is not currently registered with the Philippine FDA (Food and Drug Administration Philippines). No authorization records or product licenses are available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0507 | Valsartan | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the TxGNN knowledge graph, not label text)**: The graph lists, among others, angioedema (including hereditary and RAAS-blocker-induced), liver failure and liver disease, pancreatitis, gallbladder disease, hepatic encephalopathy, anuria, impaired renal function, renal artery obstruction, hypotensive disorder, diabetes mellitus and diabetic ketoacidosis, gout, neutropenia and agranulocytosis, systemic lupus erythematosus, hypercalcemia, hyperparathyroidism, and potassium deficiency.
+- **Drug Interactions** (100 interactions found; main ones shown):
+  - **Major**: potassium chloride, potassium bicarbonate (risk of hyperkalaemia)
+  - **Moderate**: many insulin products, exenatide, hydrocortisone, eluxadoline, polyethylene glycol with electrolytes
+- **Indication-specific concern**: ARBs carry a risk of acute kidney injury in bilateral renal artery stenosis, which is relevant for renovascular hypertension.
 
-> **Class-level safety note for ARBs**: Although formal Philippines FDA labeling data is unavailable for this report, ARB drugs including Valsartan carry well-recognized class-specific risks that must be reviewed before clinical application: acute renal failure risk in patients with bilateral renal artery stenosis or solitary functioning kidney, hyperkalemia (especially with concomitant potassium-sparing diuretics or ACE inhibitors), and absolute contraindication in pregnancy (fetotoxicity). These considerations are especially relevant given that malignant hypertensive renal disease patients may have underlying renovascular compromise.
-
----
+Please refer to the package insert for further safety information, as label warnings were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the AT1 receptor blockade mechanism of Valsartan is biologically plausible for malignant hypertensive renal disease, there are no registered clinical trials and the only retrieved literature examines a structurally unrelated drug (avosentan). The L4 evidence level is insufficient to support advancement beyond a hypothesis-generation stage.
+The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, valsartan currently has no valid registration in the Philippines (its only record is cancelled), and label safety data are unavailable.
 
 **To proceed, the following is needed:**
-- Identification of Valsartan-specific (or ARB-class) human observational or interventional data for malignant hypertensive renal disease
-- Retrieval of full MOA documentation from DrugBank API (currently flagged as DG002)
-- Download and parsing of Philippines FDA package insert to populate key warnings and contraindications (currently flagged as DG001)
-- Subgroup analysis review of established ARB trials (RENAAL, IDNT, VALIANT) for malignant hypertension endpoints
-- Clarification of the AT1 blockade safety boundary in renovascular hypertension (bilateral renal artery stenosis risk)
-
----
-
-> **Additional Signal — Chronic Pulmonary Heart Disease (Rank 6):** While not the top-ranked TxGNN prediction, this indication carries the strongest evidence in this pack: 2 Grade-A trials (including a completed Phase 4 RCT of Sacubitril/Valsartan in HFrEF, NCT02768298) and 20 publications including post-hoc RCT analyses from PARADIGM-HF and PARAGON-HF. Evidence level L3 with a "Proceed with Guardrails" recommendation — this indication warrants a dedicated evaluation report.
-
----
-
-*This report is generated for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
+- Valsartan-specific clinical or preclinical evidence in malignant hypertensive renal disease
+- Confirmation of the current Philippines registration status and a valid product registration
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data (e.g., from DrugBank)
+- Renal safety assessment (renal artery stenosis, hyperkalaemia, impaired renal function) for severe hypertension with kidney involvement
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Bleomycin
 parent: High Evidence (L1-L2)
-nav_order: 45
+nav_order: 47
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,153 +29,130 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Bleomycin: From Hodgkin's Lymphoma to Reticulum Cell Sarcoma
+# Bleomycin: From Lymphoma to Reticulum Cell Sarcoma (Non-Hodgkin Lymphoma)
 
 ## One-Sentence Summary
 
-Bleomycin is a glycopeptide antibiotic cytotoxic agent, globally established as a core component of ABVD (Hodgkin's lymphoma) and BEP (germ cell tumour) regimens, though it currently holds **no registered indications in the Philippines**.
-The TxGNN model identifies **6 predicted new indications**; the most evidence-supported is **Reticulum Cell Sarcoma** (now classified as Diffuse Large B-Cell Lymphoma, DLBCL), backed by **3 completed Phase 3 RCTs** and **20 publications** including landmark randomised trials.
-The remaining 5 predictions range from early investigational (adult astrocytic tumour, primary pulmonary lymphoma) to model-prediction-only, and are summarised in the multi-indication overview below.
+Bleomycin is a cytotoxic glycopeptide antibiotic, originally used to treat Hodgkin and non-Hodgkin lymphomas, Langerhans cell histiocytosis, and head and neck cancer.
+The TxGNN model's top-ranked prediction is **cauda equina neoplasm**, but that has almost no supporting evidence. The best-supported prediction is **reticulum cell sarcoma** (an archaic term for non-Hodgkin lymphoma), with **11 clinical trials** and **20 publications** retrieved. Because this largely overlaps with bleomycin's existing lymphoma uses, it is closer to an on-label use than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hodgkin's lymphoma; germ cell tumours (globally recognised; no Philippines registration) |
-| Primary Predicted Indication | Reticulum Cell Sarcoma (Diffuse Large B-Cell Lymphoma) |
-| TxGNN Prediction Score | 99.14% |
+|------|------|
+| Original Indication | Hodgkin and non-Hodgkin lymphoma, mantle cell and follicular lymphoma, Langerhans cell histiocytosis, head and neck cancer (the Philippines registration has no indication text) |
+| Predicted New Indication | Reticulum cell sarcoma (the highest-scoring candidate, cauda equina neoplasm, has only one off-target paper; reticulum cell sarcoma is the best-supported candidate and is evaluated in this report) |
+| TxGNN Prediction Score | 99.14% (reticulum cell sarcoma); 99.30% (cauda equina neoplasm, rank 1) |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Registered |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
-
-## All Predicted Indications — Summary
-
-| Rank | Disease | TxGNN Score | Evidence Level | Clinical Trials | Literature | Decision |
-|------|---------|-------------|----------------|-----------------|------------|----------|
-| 1 | Cauda Equina Neoplasm | 99.30% | L5 | 0 | 3 (all indirect) | Hold |
-| 2 | Adult Astrocytic Tumour | 99.28% | L3 | 0 (Phase I/II evidence in literature) | 20 | Research Question |
-| **3** | **Reticulum Cell Sarcoma** | **99.14%** | **L1** | **13 (3 completed Phase 3 RCTs)** | **20** | **Proceed with Guardrails** |
-| 4 | Primary Pulmonary Lymphoma | 99.10% | L3 | 8 (indirect; Hodgkin's lymphoma trials) | 20 | Research Question |
-| 5 | Pulmonary Blastoma | 99.04% | L4 | 0 | 2 (case reports only) | Hold |
-| 6 | Well-differentiated Fetal Adenocarcinoma of the Lung | 99.03% | L5 | 0 | 0 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data for Bleomycin is not available in this evidence pack. Based on established pharmacological knowledge, Bleomycin is a glycopeptide antibiotic that exerts antitumour activity by chelating metal ions (primarily iron) and generating reactive oxygen species, which in turn induce DNA single- and double-strand breaks. This mechanism is most effective in rapidly proliferating cells, particularly during the G₂ and M phases of the cell cycle, making it well-suited for aggressive lymphomas characterised by high proliferative indices.
+Detailed mechanism of action data is not available in the data compiled for this report. Bleomycin is generally known as a DNA-strand-breaking cytotoxic agent, and its efficacy in Hodgkin and non-Hodgkin lymphoma is established. Mechanistically it may therefore apply to other lymphoid malignancies.
 
-**Reticulum cell sarcoma** is the obsolete histopathological designation for what is now classified as **Diffuse Large B-Cell Lymphoma (DLBCL)** — the most common aggressive non-Hodgkin's lymphoma worldwide. Bleomycin's DNA-damaging mechanism directly targets the rapid cell division characteristic of DLBCL. Historically, it served as a core component of regimens such as m-BACOD, ProMACE-CytaBOM, CHVmP/BV, and CHOP-Bleo. The earliest direct clinical evidence dates to 1972 (PMID 4109401), when bleomycin monotherapy was administered to 22 reticulum cell sarcoma patients in a marrow-sparing dose protocol, demonstrating objective responses. A landmark CALGB Phase III RCT (PMID 1699653, 1978–1985) directly evaluated the addition of bleomycin to CHOP in 177 patients with diffuse large cell lymphoma, and NCT00005867 enrolled 310 patients in a randomised comparison of PMitCEBO (bleomycin-containing) versus CHOP in good-risk aggressive NHL.
+"Reticulum cell sarcoma" is an old name for non-Hodgkin lymphoma, largely diffuse large B-cell lymphoma. This overlaps with bleomycin's existing lymphoma indications. Bleomycin appears in multi-agent regimens such as ProMACE-CytaBOM, PMitCEBO, VACOP-B and alternating triple therapy, and Phase 3 randomized trials exist for these regimens.
 
-An important clinical caveat: modern standard-of-care for DLBCL is R-CHOP (rituximab + CHOP), which does **not** routinely include bleomycin. This positions bleomycin as a potential option in rituximab-ineligible patients, resource-limited settings where rituximab access is constrained, or in investigational combination strategies, rather than as a first-line replacement. **Bleomycin-induced pneumonitis** remains the principal safety concern and requires mandatory pulmonary function monitoring throughout treatment.
+Two caveats apply. The Phase 3 trials compare whole regimens, so bleomycin's own contribution cannot be isolated. Modern first-line therapy for diffuse large B-cell lymphoma (R-CHOP) does not include bleomycin.
+
+The other predictions are weaker:
+- **Cauda equina neoplasm** (score 99.30%): Only one paper was retrieved, on radiotherapy for relapsed CNS germinoma. There is no direct link, and bleomycin penetrates the CNS poorly.
+- **Adult astrocytic tumour** (99.28%): Historical combination regimens and intratumoral bleomycin were tried in glioma, including a Phase I trial. Efficacy was not established, and one randomized study found no survival benefit from adding bleomycin.
+- **Primary pulmonary lymphoma** (99.10%): No specific studies were found, and bleomycin's lung toxicity is a concern.
+- **Pulmonary blastoma** (99.04%): Only two case reports were found.
+- **Well-differentiated fetal adenocarcinoma of the lung** (99.03%): No evidence was found.
 
 ---
 
-## Clinical Trial Evidence — Reticulum Cell Sarcoma
+## Clinical Trial Evidence
+
+Trials for reticulum cell sarcoma (the top 10 of 11 retrieved are listed; most are regimen-level studies in which bleomycin is one component):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00005867](https://clinicaltrials.gov/study/NCT00005867) | Phase 3 | Completed | 310 | Largest trial in this set: randomised comparison of CHOP vs PMitCEBO (containing bleomycin) in good-prognosis aggressive NHL; direct comparative efficacy data for a bleomycin-containing regimen vs standard CHOP |
-| [NCT00002835](https://clinicaltrials.gov/study/NCT00002835) | Phase 3 | Completed | 116 | Randomised comparison of early intensification vs alternating triple therapy (ATT, bleomycin-containing) in poor-prognosis intermediate-grade / immunoblastic lymphoma; provides long-term efficacy data for bleomycin-containing regimen |
-| [NCT00002565](https://clinicaltrials.gov/study/NCT00002565) | Phase 3 | Completed | 61 | Randomised comparison of ATT (bleomycin-containing) vs CHOP in intermediate-grade and immunoblastic NHL (modern DLBCL classification); directly evaluates bleomycin's added value in combination chemotherapy |
-| [NCT00057811](https://clinicaltrials.gov/study/NCT00057811) | Phase 2 | Completed | 97 | Rituximab + rasburicase added to bleomycin-containing induction/consolidation in newly diagnosed advanced B-cell leukaemia/lymphoma (paediatric); primarily assesses safety of combination |
-| [NCT00002571](https://clinicaltrials.gov/study/NCT00002571) | Phase 2 | Completed | 52 | ProMACE-CytaBOM (bleomycin-containing) + TMP/SMX + AZT + G-CSF in AIDS-related NHL; direct bleomycin use in immunocompromised subgroup; efficacy and toxicity data available |
-| [NCT00002524](https://clinicaltrials.gov/study/NCT00002524) | Phase 2 | Completed | 46 | Combination chemotherapy containing bleomycin in AIDS-related lymphoma; efficacy data in HIV-positive subpopulation; limits generalisability to immunocompetent patients |
-| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | Sequential immunosuppression reduction, interferon-α, and ProMACE-CytaBOM (bleomycin) for post-cardiac-transplant lymphoproliferation; specific transplant subgroup data |
-| [NCT00003110](https://clinicaltrials.gov/study/NCT00003110) | Phase 2 | Completed | 5 | 72-hour continuous infusion bleomycin as salvage therapy in both AIDS-related and immunocompetent NHL; only trial directly evaluating bleomycin as a single salvage agent; very small sample |
-| [NCT00003815](https://clinicaltrials.gov/study/NCT00003815) | Phase 3 | Unknown | N/A | High-dose chemotherapy/radiotherapy and autologous BMT in high-grade aggressive NHL (Kiel classification, overlapping with reticulum cell sarcoma); bleomycin's role within the combination regimen is not explicitly defined |
-| [NCT00983944](https://clinicaltrials.gov/study/NCT00983944) | Phase 2 | Withdrawn | 0 | Comparison of EPOCH-R vs R-VACOP-B (contains bleomycin) for primary mediastinal large B-cell lymphoma; withdrawn prior to any enrolment — no data generated |
+|---------|------|------|------|---------|
+| [NCT00005867](https://clinicaltrials.gov/study/NCT00005867) | Phase 3 | Completed | 310 | CHOP vs PMitCEBO in good-risk aggressive non-Hodgkin lymphoma |
+| [NCT00002835](https://clinicaltrials.gov/study/NCT00002835) | Phase 3 | Completed | 116 | Early intensification vs alternating triple therapy in poor-prognosis lymphoma |
+| [NCT00002565](https://clinicaltrials.gov/study/NCT00002565) | Phase 3 | Completed | 61 | Alternating triple therapy vs CHOP in intermediate-grade and immunoblastic lymphoma |
+| [NCT00003815](https://clinicaltrials.gov/study/NCT00003815) | Phase 3 | Unknown | Not reported | High-dose chemo/radiotherapy with autologous transplant in high-grade non-Hodgkin lymphoma; bleomycin's role is indirect |
+| [NCT00003110](https://clinicaltrials.gov/study/NCT00003110) | Phase 2 | Completed | 5 | 72-hour continuous-infusion bleomycin as salvage therapy in AIDS-related and immunocompetent non-Hodgkin lymphoma; bleomycin-specific but very small |
+| [NCT00002571](https://clinicaltrials.gov/study/NCT00002571) | Phase 2 | Completed | 52 | ProMACE-CytaBOM with supportive therapy in AIDS-related lymphoma |
+| [NCT00002524](https://clinicaltrials.gov/study/NCT00002524) | Phase 2 | Completed | 46 | Pilot combination chemotherapy in AIDS-related lymphoma |
+| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | ProMACE-CytaBOM plus immunomodulation in post-cardiac-transplant lymphoproliferation |
+| [NCT00032149](https://clinicaltrials.gov/study/NCT00032149) | Phase 1/2 | Unknown | 30 | PMitCEBO plus G-CSF pilot in HIV-related lymphoma |
+| [NCT00983944](https://clinicaltrials.gov/study/NCT00983944) | Phase 2 | Withdrawn | 0 | DA-EPOCH-R vs R-VACOP-B in primary mediastinal large B-cell lymphoma; no data |
+
+The other candidate indications have no registered clinical trials.
 
 ---
 
-## Literature Evidence — Reticulum Cell Sarcoma
+## Literature Evidence
+
+Literature for reticulum cell sarcoma (selected from 20 retrieved):
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [1699653](https://pubmed.ncbi.nlm.nih.gov/1699653/) | 1990 | RCT | Cancer | CALGB 7851: Randomised trial directly evaluating the addition of bleomycin and/or high-dose methotrexate to CHOP in 177 diffuse large cell lymphoma and 97 other intermediate-grade NHL patients; foundational evidence for bleomycin's role in aggressive NHL combination therapy |
-| [14962711](https://pubmed.ncbi.nlm.nih.gov/14962711/) | 2004 | Long-term RCT Follow-up | Eur J Cancer | Pooled analysis of 936 patients across 3 EORTC randomised trials; CHVmP/BV (with bleomycin + vincristine) vs CHVmP and ProMACE-MOPP in advanced aggressive NHL; median follow-up 8.7 years with long-term efficacy and toxicity data |
-| [4109401](https://pubmed.ncbi.nlm.nih.gov/4109401/) | 1972 | Early Clinical Trial | BMJ | **Earliest direct evidence**: Bleomycin monotherapy in 22 reticulum cell sarcoma patients (+ 54 Hodgkin's, 17 lymphosarcoma); marrow-sparing up to 800 mg total dose; response rates documented in reticulum cell sarcoma specifically |
-| [65728](https://pubmed.ncbi.nlm.nih.gov/65728/) | 1977 | Clinical Trial | Med Pediatr Oncol | Randomised comparison of CVP vs ABP (adriamycin + bleomycin + prednisone) in stage IV NHL; 30 evaluable ABP patients; comparable CR rates (50%) with numerically longer CR duration in bleomycin-containing arm (20.5 vs 10.5 months) |
-| [7680764](https://pubmed.ncbi.nlm.nih.gov/7680764/) | 1993 | RCT | N Engl J Med | SWOG landmark trial: CHOP vs m-BACOD, ProMACE-CytaBOM, and MACOP-B in advanced NHL; established CHOP's equivalent efficacy to third-generation bleomycin-containing regimens with lower toxic death rate; key context for modern bleomycin positioning |
-| [6187214](https://pubmed.ncbi.nlm.nih.gov/6187214/) | 1983 | Case Report (Fatal Toxicity) | Am J Med | Fatal fulminant hyperpyrexia in a lymphoma patient with prior bleomycin exposure without prior reaction; underscores the unpredictability of febrile reactions and the need for vigilance beyond the first administration |
-| [37294956](https://pubmed.ncbi.nlm.nih.gov/37294956/) | 2023 | Review | Hematol Oncol | Contemporary management of lymphoma in pregnancy; confirms ABVD (containing bleomycin) is considered safe after the 13th week of pregnancy; provides current risk-benefit context |
-| [6205233](https://pubmed.ncbi.nlm.nih.gov/6205233/) | 1984 | Review | Med Clin North Am | Comprehensive review of NHL classification, natural history, staging, and treatment; covers bleomycin-containing combination regimens and their rationale in the era of histological reclassification from "reticulum cell sarcoma" to DLBCL |
-| [15934513](https://pubmed.ncbi.nlm.nih.gov/15934513/) | 2005 | Review | Oncology | GELA 20-year experience with Phase II/III studies in aggressive lymphoma/DLBCL; discusses limitations of CHOP and the role of intensified regimens including bleomycin-containing combinations |
-| [12967352](https://pubmed.ncbi.nlm.nih.gov/12967352/) | 2003 | Review | Clin Evid | Evidence-based systematic review of NHL management; evaluates the evidence base for bleomycin-containing combination regimens across histological subtypes |
+|------|-----|------|------|---------|
+| [7680764](https://pubmed.ncbi.nlm.nih.gov/7680764/) | 1993 | RCT | N Engl J Med | CHOP compared with three intensive regimens in advanced non-Hodgkin lymphoma |
+| [14962711](https://pubmed.ncbi.nlm.nih.gov/14962711/) | 2004 | Randomized trials (pooled analysis) | Eur J Cancer | Long-term results of the bleomycin-containing CHVmP/BV regimen in 936 patients with aggressive non-Hodgkin lymphoma across three EORTC trials |
+| [4109401](https://pubmed.ncbi.nlm.nih.gov/4109401/) | 1972 | Clinical study | Br Med J | Single-agent bleomycin in advanced reticuloses, including 22 patients with reticulum cell sarcoma |
+| [4107632](https://pubmed.ncbi.nlm.nih.gov/4107632/) | 1971 | Clinical study | Arch Dermatol | Bleomycin in mycosis fungoides and reticulum cell lymphoma |
+| [15202521](https://pubmed.ncbi.nlm.nih.gov/15202521/) | 2003 | Review | Leuk Lymphoma | Primary mediastinal B-cell lymphoma; MACOP-B (contains bleomycin) followed by radiotherapy may be a better induction strategy |
+| [27888880](https://pubmed.ncbi.nlm.nih.gov/27888880/) | 2016 | Review | Hematol Oncol Clin North Am | Optimizing outcomes in primary mediastinal B-cell lymphoma |
+| [20334952](https://pubmed.ncbi.nlm.nih.gov/20334952/) | 2011 | Review | J Am Acad Dermatol | Intralesional agents, including bleomycin with electrochemotherapy, for cutaneous malignancy and selected cutaneous lymphomas |
+| [11785838](https://pubmed.ncbi.nlm.nih.gov/11785838/) | 2002 | Review | Recent Results Cancer Res | Prognostic factors in HIV-associated non-Hodgkin lymphoma, including m-BACOD |
+| [6187214](https://pubmed.ncbi.nlm.nih.gov/6187214/) | 1983 | Case report | Am J Med | Fatal hyperpyrexia after bleomycin in a lymphoma patient |
+| [3594377](https://pubmed.ncbi.nlm.nih.gov/3594377/) | 1987 | Case series | Cancer | Extracutaneous mycosis fungoides, with a variety of therapies used |
 
 ---
 
 ## Philippines Market Information
 
-Bleomycin is currently **not registered** in the Philippines. No marketing authorisations are on record in the Philippines FDA database.
-
-| Item | Detail |
-|------|--------|
-| Market Status | Not Registered (Not marketed) |
-| Total Authorisations | 0 |
-| Registration Pathway | A new Drug Registration Application to the Philippines FDA would be required prior to any clinical deployment |
-| International Availability | Bleomycin is available in other markets under names such as Blenoxane® (Bristol-Myers Squibb) and various generics; it is included in the WHO Model List of Essential Medicines |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0054 | Bleomycin | Not specified | Not specified (registration cancelled) |
 
 ---
 
 ## Cytotoxicity
 
-Bleomycin is an antineoplastic glycopeptide antibiotic. This section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic (Glycopeptide antibiotic / DNA strand-break inducer) |
-| Myelosuppression Risk | **Low** — Bleomycin is notably marrow-sparing, which is a key pharmacological advantage in combination regimens such as ABVD; routine CBC monitoring is still recommended |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (glycopeptide antibiotic that causes DNA strand breaks) |
+| Myelosuppression Risk | Low (bleomycin is considered marrow-sparing, but it is usually given in combination with myelosuppressive agents) |
 | Emetogenicity Classification | Low |
-| Primary Organ Toxicity | **Pulmonary**: Bleomycin-induced pneumonitis and pulmonary fibrosis are dose-dependent and cumulative; risk threshold typically around 300–360 units lifetime cumulative dose; risk substantially increased by age > 60, renal impairment, concurrent G-CSF use, and prior chest irradiation |
-| Monitoring Items | Pulmonary function tests (DLCO) before initiation and before each cycle or at regular intervals; renal function (bleomycin is primarily renally eliminated — dose reduction required in renal impairment); cumulative dose tracking across all treatment cycles; temperature monitoring post-infusion (acute hyperpyrexia risk) |
-| Handling Protection | Must follow cytotoxic drug handling regulations (PPE, closed-system drug-transfer devices, designated preparation areas) |
+| Monitoring Items | Pulmonary function and chest imaging (pulmonary toxicity is the key concern, with higher risk in older patients and with cumulative dose), CBC, liver and renal function, fever and hypersensitivity reactions (an initial test dose is commonly recommended) |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Formal safety data (package insert warnings and contraindications) were not available in this evidence pack. Based on toxicity data identified in the clinical literature reviewed:
+- **Pulmonary toxicity**: Interstitial pneumonitis and bleomycin pulmonary toxicity are recognized in the retrieved literature. Risk rises with advancing age, and bleomycin lung toxicity may interact with radiotherapy to the chest.
+- **Hyperpyrexia**: A case of fatal hyperpyrexia has been reported, and a test dose is commonly recommended before therapy.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. Most are of unknown severity, and levofloxacin is rated Minor. Examples include pantoprazole, omeprazole, lansoprazole, ondansetron, granisetron, palonosetron, aprepitant, morphine, prednisone, hydrocortisone and vancomycin. The full list should be reviewed before use.
 
-- **Pulmonary toxicity**: Bleomycin-induced pneumonitis and pulmonary fibrosis are the most clinically significant toxicities; risk is amplified by increasing age (PMID 31668826), concurrent granulocyte colony-stimulating factor use, prior chest radiation, and cumulative dose exceeding 300–360 units (PMID 27742539)
-- **Hyperpyrexia**: Acute and potentially fatal febrile reactions have been reported, including in patients who previously tolerated bleomycin without incident (PMID 6187214); a test dose is recommended before initiating a full course
-- **Drug Interactions**: No DDI data were identified in this review
-
-Please refer to the approved package insert for comprehensive safety information including contraindications and full warning statements.
+Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** *(primary indication: Reticulum Cell Sarcoma / DLBCL)*
+**Decision: Proceed with Guardrails** (for reticulum cell sarcoma / non-Hodgkin lymphoma only)
 
 **Rationale:**
-The evidence supporting bleomycin in reticulum cell sarcoma (DLBCL) reaches Evidence Level 1 — anchored by at least three completed Phase 3 RCTs and a landmark CALGB randomised trial (PMID 1699653) directly evaluating bleomycin's contribution to CHOP in diffuse large cell lymphoma. However, the modern DLBCL standard-of-care has evolved to R-CHOP (rituximab + CHOP), where bleomycin is no longer routinely included; this means the actionable niche lies specifically in rituximab-ineligible patients, resource-constrained settings, or novel combination strategies rather than as a blanket first-line addition.
+- Multiple completed Phase 3 randomized trials involve bleomycin-containing regimens in non-Hodgkin lymphoma, which supports L1 evidence. This is largely an existing use, and the trials compare regimens rather than bleomycin alone.
+- The other predictions should be placed on **Hold**. Cauda equina neoplasm, adult astrocytic tumour, pulmonary blastoma and fetal adenocarcinoma of the lung have little or no supporting evidence, and primary pulmonary lymphoma is only a research question.
 
 **To proceed, the following is needed:**
-
-- **MOA data**: Retrieve complete mechanism of action details from DrugBank API (Data Gap DG002 — currently flagged as High severity)
-- **Package insert review**: Download and parse the approved product monograph for formal warnings, contraindications, and dosing guidance (Data Gap DG001 — currently flagged as Blocking)
-- **Current treatment context analysis**: Formally assess whether bleomycin-containing regimens offer a meaningful advantage over R-CHOP in the specific target patient population (e.g., rituximab-ineligible, CD20-negative DLBCL)
-- **Pulmonary toxicity risk management protocol**: Establish a pre-treatment DLCO baseline monitoring protocol and define cumulative dose limits and stopping rules before any clinical deployment
-- **Philippines registration pathway**: Initiate a Drug Registration Application with the Philippines FDA if clinical deployment is planned — no current authorisation exists and this is a prerequisite for lawful use
-
----
-
-*Summary of decisions for remaining predicted indications:*
-
-| Indication | Decision | Key Reason |
-|-----------|----------|------------|
-| Adult Astrocytic Tumour | Research Question (L3) | Phase I intratumoral CED trial data exists (PMID 12416544); blood-brain barrier bypass remains a key challenge; no Phase 2/3 data |
-| Primary Pulmonary Lymphoma | Research Question (L3) | Indirect evidence from Hodgkin's lymphoma ABVD trials only; elevated bleomycin pulmonary toxicity risk is of particular concern in patients with primary lung involvement |
-| Cauda Equina Neoplasm | Hold (L5) | No clinical trials; 3 indirect literature references only; TxGNN high score likely reflects topology-based propagation in the knowledge graph rather than a true mechanistic link |
-| Pulmonary Blastoma | Hold (L4) | Only 2 case reports; bleomycin use attributable to germ cell differentiation component (BEP regimen), not to pulmonary blastoma itself |
-| Well-differentiated Fetal Adenocarcinoma of the Lung | Hold (L5) | Zero clinical trials and zero literature; no mechanistic basis identified; complete absence of evidence |
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Confirmation of current local availability, since the only Philippines registration is cancelled
+- A monitoring plan for pulmonary toxicity, age-related risk and cumulative dose limits
+- Review of whether bleomycin-containing regimens still fit current standard of care, since R-CHOP omits bleomycin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tropicamide
 parent: Model Prediction Only (L5)
-nav_order: 343
+nav_order: 347
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,82 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-Using design-tokens to ensure proper table and document formatting. Now generating the report from the Evidence Pack.
-
----
-
-# Tropicamide: From Ophthalmic Use to Cauda Equina Syndrome
+# Tropicamide: From Cycloplegia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tropicamide is an ophthalmic antimuscarinic agent, primarily used for mydriasis (pupil dilation) and cycloplegia during diagnostic eye examinations.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome** as the top-ranked new indication,
-with **0 clinical trials** and **0 publications** currently supporting this direction — placing it at Evidence Level L5.
-
----
+Tropicamide is a short-acting anticholinergic eye drop, originally used to produce cycloplegia (temporary paralysis of focusing muscles) and pupil dilation for eye examinations.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**,
+but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Ophthalmic use (mydriasis / cycloplegia) — no Philippines registration found |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Cycloplegia |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known clinical context, Tropicamide is a muscarinic receptor (M-receptor) antagonist used as an ophthalmic topical formulation — its anticholinergic properties are established, and the repurposing rationale in this Evidence Pack confirms its classification as an M-receptor antagonist. Beyond ophthalmology, the M3 receptor blockade class underpins several approved treatments: M3 antagonists such as Oxybutynin, Tolterodine, and Solifenacin are the standard of care for neurogenic bladder overactivity, and antispasmodics such as Dicyclomine and Hyoscine are used for IBS-related bowel cramping.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology records list it as acting on the M2, M3, M4 and M5 receptors. It is used as a short-acting mydriatic to allow better examination of the lens, vitreous humor and retina.
 
-Cauda Equina Syndrome (CES) is a neurosurgical emergency caused by mechanical compression of the lumbosacral nerve roots. The core pathology is structural — not a cholinergic signalling imbalance — so Tropicamide's M-receptor antagonism has no direct therapeutic mechanism for reversing compression or restoring neural function. However, CES routinely produces secondary bladder dysfunction (detrusor overactivity / neurogenic bladder), and anticholinergic agents can plausibly address that downstream symptom. This is an indirect, symptom-level connection, not a treatment of CES itself.
+Cauda equina syndrome can cause bladder dysfunction, such as detrusor overactivity or urinary retention. Antimuscarinic drugs are sometimes used to control such symptoms, which gives the prediction a loose mechanistic basis.
 
-The high TxGNN score most likely reflects structural proximity in the knowledge graph: the neural and bladder nodes associated with Tropicamide sit topographically close to CES-related nodes, generating a high prediction score via graph connectivity rather than true pathophysiological relevance. By contrast, the second-ranked indication — neurogenic bladder dysfunction (score 99.13%, L4) — has a considerably stronger mechanistic basis: M3 antagonism is literally the mechanism of approved standard-of-care drugs for that condition. The third-ranked indication, irritable bowel syndrome (score 99.12%, L4), also has a plausible but weaker mechanistic link through intestinal smooth muscle M-receptor subtypes. From a clinical repurposing perspective, neurogenic bladder represents a far more actionable candidate than CES for Tropicamide.
+The link is speculative, however. Tropicamide is only used topically in the eye, and no systemic or urological use is documented. Cauda equina syndrome is a surgical emergency whose main treatment is decompression. A symptomatic anticholinergic would not address the underlying condition. The high model score (0.995) is the only support.
 
----
+**Other predictions in the data (all L5, all Hold):**
+- **Obsolete neurogenic bladder** (score 99.13%): Antimuscarinics such as oxybutynin and tolterodine are standard therapy, but tropicamide has no clinical data here and no oral or intravesical formulation. The disease term is also obsolete in the ontology.
+- **Irritable bowel syndrome** (score 99.12%): Antispasmodic anticholinergics are used for IBS cramping, but there is no evidence for tropicamide itself, and established alternatives exist.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Tropicamide currently has no registered products with the Philippines FDA. No license, brand name, or approved indication records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0501 | Tropicamide | Not specified | Not specified (registration cancelled) |
 
----
+The only registration is cancelled, and no valid single-ingredient or combination registrations exist.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from model relationship data, not label text):
+  - Eye: open-angle glaucoma, angle-closure glaucoma, closed-angle glaucoma, ocular hypertension
+  - Cardiovascular: hypertension, hypertensive disorder, myocardial ischemia, coronary artery disease, sudden cardiac arrest, heart conduction disease
+  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperthyroidism, Graves disease, thyrotoxicosis
+- **Drug Interactions**: 14 records were found. Ten were drug-level interactions, all with an unclassified severity: atropine, potassium chloride, vancomycin, simvastatin, prednisolone, famotidine, warfarin, lidocaine, fluconazole and brimonidine. The other four are muscarinic receptor targets (M2 to M5). Atropine is another anticholinergic, so additive effects are plausible, but this has not been verified.
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Cauda Equina Syndrome) sits at Evidence Level L5 — model prediction only, with zero supporting clinical trials or publications. The mechanistic connection is indirect and artifact-driven (graph topology), not pharmacologically meaningful for treating CES as a primary condition.
+The prediction has no supporting clinical trials or publications (Evidence Level L5). Tropicamide is a topical ophthalmic agent with no documented systemic or urological use. Its only Philippines registration is cancelled. Established antimuscarinic alternatives exist for the bladder and bowel indications.
 
 **To proceed, the following is needed:**
-
-- **Clarify the true research question:** Tropicamide's anticholinergic class effect is mechanistically relevant for *neurogenic bladder dysfunction* (rank 2, L4) and potentially IBS (rank 3, L4) — either of these would be a stronger candidate for further development than CES itself; reframe the repurposing target accordingly
-- **Establish a viable delivery route:** Tropicamide is currently formulated only as an ophthalmic topical agent with low systemic bioavailability and short duration of action (<6 hours); oral or intravesical pharmacokinetic data must be developed before a systemic indication can be pursued
-- **Safety profiling:** Obtain Philippines FDA (FDA-PH) package insert for key warnings and contraindications (currently unavailable); no drug interaction data was found in this query
-- **Mechanistic / preclinical evidence:** At minimum, in vitro or animal model data demonstrating activity in the target indication (neurogenic bladder or IBS) at clinically relevant concentrations via a viable route
-- **Ontology correction for rank 2:** The MONDO term "obsolete neurogenic bladder (disease)" should be remapped to the current preferred term "neurogenic bladder dysfunction" before any further evidence queries are run
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- Evidence of efficacy, such as preclinical or clinical data, in the predicted indication
+- Assessment of whether a suitable systemic or intravesical formulation could exist
+- Comparison against established antimuscarinic therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

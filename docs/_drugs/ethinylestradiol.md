@@ -2,7 +2,7 @@
 layout: default
 title: Ethinylestradiol
 parent: Model Prediction Only (L5)
-nav_order: 131
+nav_order: 133
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,84 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ethinylestradiol: From Hormonal Contraception to Zinc, Elevated Plasma
+# Ethinylestradiol: From Acne and Postmenopausal Osteoporosis to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-Ethinylestradiol is a synthetic estrogen widely used as the estrogenic component of combined oral contraceptive pills; no Philippines regulatory registration data is currently on file.
-The TxGNN model predicts it may be effective for **Zinc, Elevated Plasma** (hyperzincemia),
-with **0 clinical trials** and **2 observational publications** currently supporting this direction — making the evidence base extremely limited at this time.
-
----
+Ethinylestradiol is a synthetic estrogen, with listed original uses including acne, osteoporosis (including postmenopausal), and postmenopausal atrophic vaginitis.
+The TxGNN model predicts it may be effective for **elevated plasma zinc**, but the prediction is supported by **0 clinical trials** and **0 publications**, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available from Philippines registration data (commonly used as a synthetic estrogen in oral contraceptives) |
-| Predicted New Indication | Zinc, Elevated Plasma |
+|------|------|
+| Original Indication | Acne, postmenopausal osteoporosis, osteoporosis, postmenopausal atrophic vaginitis (from the TxGNN knowledge graph; no approved indication text is available in the Philippines registration) |
+| Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 (preclinical/mechanistic studies only) |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, ethinylestradiol is a synthetic estrogen. Its use in estrogen-related conditions such as postmenopausal osteoporosis and atrophic vaginitis is established, and it may influence physiology beyond the reproductive system.
 
-Ethinylestradiol (EE) is a synthetic 17α-ethinyl derivative of estradiol. Estrogens are known to modulate the expression of zinc-binding proteins — particularly metallothionein and albumin — which regulate zinc distribution between plasma and tissues. Estrogens also influence intestinal zinc absorption and renal zinc reabsorption, both of which can indirectly reduce circulating plasma zinc concentrations. It is on the basis of these known metabolic interactions that the TxGNN model likely identified this association.
+Estrogen status is known to affect circulating trace-element levels. For example, oral contraceptives have been reported to change serum zinc and copper. This is a plausible indirect physiological association, but it is not a validated therapeutic mechanism.
 
-However, the evidence supporting this mechanistic link is indirect and historically contextual. The plasma zinc-lowering effect was first observed as an incidental metabolic side effect in women taking oral contraceptives, not as a therapeutic effect deliberately targeted at hyperzincemia. Critically, the foundational animal and human studies involve combination formulations (e.g., norethindrone + mestranol, or Ovulen/Demulen/Enovid-E) rather than ethinylestradiol as an isolated agent. Notably, mestranol is itself a prodrug that is demethylated to ethinylestradiol in vivo, adding one additional degree of indirectness.
-
-In summary, while a pharmacological basis for estrogen's influence on zinc homeostasis exists, the specific, dose-dependent, and clinically actionable therapeutic effect of ethinylestradiol monotherapy on elevated plasma zinc has not been established. The biological plausibility is low-to-moderate; the clinical translation gap is large.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [961877](https://pubmed.ncbi.nlm.nih.gov/961877/) | 1976 | Observational/Cross-sectional | The American Journal of Physiology | Rat study across three dietary zinc levels: mestranol (an EE prodrug) depressed plasma zinc, tibia copper, and magnesium; studied alongside norethindrone as a combination OCP formulation |
-| [736629](https://pubmed.ncbi.nlm.nih.gov/736629/) | 1978 | Observational/Cross-sectional | Archives of Gynecology | Human study of four OCP brands (Ovulen-21, Demulen, Enovid-E, Ovral): plasma copper elevated significantly in OCP users; plasma zinc levels remained relatively constant — suggesting OCP use does not reliably lower plasma zinc |
-
----
+Elevated plasma zinc is mainly a laboratory finding, often resulting from excess zinc intake, rather than a disease usually treated with a drug. The direction of any effect (lowering or raising zinc) and its clinical relevance are unclear. The prediction is therefore best viewed as a hypothesis-generating signal, not a treatment lead.
 
 ## Philippines Market Information
 
-No Philippines FDA registrations on file for Ethinylestradiol. This drug is currently not marketed in the Philippines based on available data.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0179 | Ethinylestradiol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (from drug-disease relationship data, not package insert text): hypertension, epilepsy, anxiety and neurotic disorders, dysthymic disorder, porphyria, kidney disease, liver disease, gallbladder disease, hyperglycaemia and diabetes mellitus (including diabetic ketoacidosis), congestive heart failure, hypercalcaemia (including humoral hypercalcaemia of malignancy), adrenocortical insufficiency (Addison disease), hypothyroidism (including myxedema), systemic lupus erythematosus, asthma, and benign prostatic hyperplasia.
+- **Drug Interactions**: The interaction search returned 100 entries; the main ones reviewed were mostly Moderate severity.
+  - Antidiabetic agents: acarbose, acetohexamide, albiglutide, alogliptin, dulaglutide, empagliflozin, glimepiride, glipizide, glyburide, chlorpropamide
+  - Corticosteroids: betamethasone, budesonide, dexamethasone
+  - Antibiotics: doxycycline, amoxicillin, clarithromycin
+  - Others: chenodeoxycholic acid, eliglustat
+  - Minor: ascorbic acid, cimetidine
 
-> **Note:** Safety data including key warnings, contraindications, and drug-drug interactions were not available in this Evidence Pack. Retrieving the full prescribing information from an authoritative source (e.g., FDA Philippines, EMA, or the US FDA label) is strongly recommended before any further evaluation.
-
----
+Package insert warnings were not available for this report; please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high mathematical score (99.63%), but the underlying evidence does not support clinical translation — the two available publications are 50-year-old observational animal and human studies involving combination OCP products, not ethinylestradiol monotherapy; furthermore, one of those studies (PMID 736629) found that plasma zinc levels remained *relatively constant* in OCP users, directly undermining the prediction's premise.
+The prediction has a high model score (99.63%) but no clinical trials or literature, so the evidence level is L5. The indication is a laboratory finding rather than a recognized treatment target. The only Philippines registration has been cancelled, and the safety profile includes many contraindicated conditions.
 
 **To proceed, the following is needed:**
-
-- **Reconfirm the biological direction:** Retrieve and critically appraise all human studies measuring plasma zinc in women on EE-containing contraceptives; resolve the conflicting finding in PMID 736629.
-- **Isolate the EE contribution:** Identify any study that isolates EE from progestin co-components to confirm EE alone reduces plasma zinc.
-- **Establish clinical context for the target condition:** Determine whether "zinc, elevated plasma" represents a defined clinical syndrome with treatment need, or an incidental laboratory finding.
-- **Retrieve MOA data:** Query DrugBank API for ethinylestradiol's full mechanism of action and pharmacokinetic profile to strengthen or refute the mechanistic link.
-- **Retrieve safety data:** Download and parse the Philippines FDA or TFDA prescribing information PDF to complete the safety profile (key warnings, contraindications, DDI) before any S1 safety screening can begin.
-- **Consider whether the indication is clinically meaningful:** Elevated plasma zinc is rarely a primary treatment target; the therapeutic niche and unmet need should be defined before investing further resources.
+- Confirm whether elevated plasma zinc is a clinically meaningful target, and in which direction ethinylestradiol would act
+- Literature review and mechanistic studies on estrogen effects on zinc homeostasis
+- Mechanism of action data (MOA) from DrugBank
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Confirmation of the current regulatory and market availability of ethinylestradiol in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol
 parent: Moderate Evidence (L3-L4)
-nav_order: 76
+nav_order: 78
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,76 +29,81 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Clobetasol: From Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
+# Clobetasol: From Dermatological Use to Primary Cutaneous T-Cell Lymphoma
 
 ## One-Sentence Summary
 
-Clobetasol propionate is a superpotent topical corticosteroid classically used to manage severe inflammatory skin conditions such as psoriasis and eczema.
-The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma (CTCL)**—most notably early-stage mycosis fungoides (MF)—with **no registered clinical trials** but **20 publications** in the literature currently supporting this direction.
-Real-world observational data and single-institution clinical series indicate a response rate exceeding 90% in patch-stage MF, lending substantial biological plausibility to the model's prediction.
+Clobetasol is a super-potent corticosteroid. The data compiled for this report do not list an approved indication for it in the Philippines.
+The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, mainly the early-stage form known as mycosis fungoides.
+There are **no registered clinical trials**, but **15 publications** support this direction, including 3 observational or cohort-type studies on topical clobetasol.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Inflammatory skin conditions (psoriasis, eczema, and other corticosteroid-responsive dermatoses) |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma (CTCL / Mycosis Fungoides) |
+|------|------|
+| Original Indication | Not available in the Philippines registration data |
+| Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Clobetasol propionate is a Class I (superpotent) topical glucocorticoid. Its anti-neoplastic activity in CTCL is not coincidental—glucocorticoids bind the intracellular glucocorticoid receptor (GR), which in turn induces apoptosis selectively in malignant T-lymphocytes via GR-mediated transcriptional reprogramming. Simultaneously, clobetasol suppresses the tumor-permissive microenvironment by inhibiting pro-inflammatory cytokines (IL-2, IFN-γ, TNF-α) and downregulating the NF-κB survival pathway. This dual mechanism—direct cytotoxicity plus immune microenvironment modulation—is mechanistically distinct from, yet complementary to, conventional CTCL agents such as retinoids or nitrogen mustard.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clobetasol propionate is a super-potent topical glucocorticoid. Activating the glucocorticoid receptor can induce apoptosis (programmed cell death) of malignant T cells. It also dampens local inflammatory and cytokine signalling in the skin.
 
-Early-stage MF (patch/plaque stage) is characterized by malignant CD4+ T-cells confined to the epidermis and superficial dermis. This is the anatomical zone where a superpotent topical corticosteroid reaches therapeutic concentrations, making the route of administration pharmacologically rational. Furthermore, clobetasol has demonstrated selective apoptosis-inducing capacity specifically for CD4+ T-cell subpopulations, which aligns precisely with the CD4+ immunophenotype that defines the majority of CTCL cases.
+This is the rationale for using topical corticosteroids in early-stage (patch or plaque) mycosis fungoides, the most common form of primary cutaneous T-cell lymphoma. The high TxGNN score is consistent with this known pharmacology. Topical corticosteroids are already part of skin-directed therapy for early-stage disease in clinical practice.
 
-From a clinical standpoint, the prediction is strongly supported by existing practice: the University of California, San Francisco (UCSF) has listed topical clobetasol as its first-line treatment for patch-stage MF in a series of approximately 200 patients, reporting response rates exceeding 90%. A 2020 observational study and a 2025 head-to-head comparison with bexarotene further corroborate efficacy. Taken together, the mechanistic, pharmacokinetic, and clinical lines of evidence converge coherently, explaining why TxGNN assigns a near-perfect prediction score.
+The available evidence is limited to early-stage disease. No evidence was found for advanced disease or for other subtypes such as angioimmunoblastic T-cell lymphoma or Sézary syndrome.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Clobetasol in primary cutaneous T-cell lymphoma.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+The table lists the most relevant publications, with cohort studies first and then case reports.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Comparative Study | *Anais brasileiros de dermatologia* | Head-to-head comparison of clobetasol propionate vs. bexarotene in early-stage MF; one of the first studies directly pitting topical steroid against a retinoid |
-| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Retrospective Observational Study | *Cutis* | Evaluated cutaneous adverse effects of clobetasol propionate 0.05% cream in early-stage MF; confirmed high efficacy with minor side effects despite prolonged use |
-| [14686970](https://pubmed.ncbi.nlm.nih.gov/14686970/) | 2003 | Clinical Review / Case Series | *Dermatologic Therapy* | UCSF experience in ~200 patients: topical high-potency corticosteroids yielded >90% response rate in patch-stage MF; clobetasol designated first-line therapy |
-| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Case Report | *Nederlands Tijdschrift voor Geneeskunde* | 9-year-old girl with hypopigmented MF (rare pediatric CTCL subtype) successfully treated with clobetasol 0.05% ointment 4 days per week |
-| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Case Series / Retrospective | *Skinmed* | Patient initially treated with topical clobetasol before CTCL (angioimmunoblastic T-cell lymphoma) was confirmed; illustrates diagnostic overlap and use pattern |
-| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Case Report & Literature Review | *Clinical Case Reports* | MF mimicking psoriasis: topical steroids prescribed before MF diagnosis established, highlighting the diagnostic challenge and real-world corticosteroid exposure |
-| [30677799](https://pubmed.ncbi.nlm.nih.gov/30677799/) | 2018 | Review | *Dermatology Online Journal* | Overview of lymphomatoid papulosis (LyP) as low-grade CTCL variant; discusses monitoring vs. treatment approach per current consensus guidelines |
-| [17083888](https://pubmed.ncbi.nlm.nih.gov/17083888/) | 2006 | Review | *Dermatology Online Journal* | Diagnostic and therapeutic algorithm for primary cutaneous CD30+ anaplastic large T-cell lymphoma, an indolent CTCL subtype; contextualizes the CTCL disease spectrum |
-| [33026773](https://pubmed.ncbi.nlm.nih.gov/33026773/) | 2020 | Case Report | *Journal of Drugs in Dermatology* | Persistent agminated CD30+ lymphoproliferative disorder (LyP); documents treatment modalities used across the CTCL spectrum |
-| [39803735](https://pubmed.ncbi.nlm.nih.gov/39803735/) | 2024 | Case Report | *Acta Dermatovenerologica Croatica* | Ultra-high-frequency ultrasound used to objectively assess chlormethine gel (an alternative topical therapy) efficacy in MF; provides comparative context for topical treatment evaluation methodology |
+|------|-----|------|------|---------|
+| [14686970](https://pubmed.ncbi.nlm.nih.gov/14686970/) | 2003 | Cohort / experience review | Dermatol Ther | About 200 patients with patch-stage MF treated with mainly high-potency topical steroids. Response rate was over 90% with minor side effects. Topical clobetasol is first-line for early-stage MF at UCSF. |
+| [32603400](https://pubmed.ncbi.nlm.nih.gov/32603400/) | 2020 | Cohort (observational) | Cutis | Evaluated skin adverse effects of clobetasol propionate 0.05% cream in early-stage MF. Superpotent steroids are described as effective with minor side effects. |
+| [39741016](https://pubmed.ncbi.nlm.nih.gov/39741016/) | 2025 | Cohort | An Bras Dermatol | Compared clobetasol propionate with bexarotene in early-stage MF. Few studies compare topical treatments in this setting. |
+| [25027222](https://pubmed.ncbi.nlm.nih.gov/25027222/) | 2014 | Case report | Ned Tijdschr Geneeskd | A 9-year-old girl with hypopigmented MF was successfully treated with clobetasol 0.05% ointment 4 days a week. |
+| [8987063](https://pubmed.ncbi.nlm.nih.gov/8987063/) | 1996 | Case series | Pediatr Dermatol | Three children with lymphomatoid papulosis were successfully treated with weekly pulse superpotent topical corticosteroids. |
+| [28031140](https://pubmed.ncbi.nlm.nih.gov/28031140/) | 2016 | Case report | Skinmed | Angioimmunoblastic T-cell lymphoma with skin involvement. The patient worsened on methotrexate and topical clobetasol, a poor-prognosis presentation. |
+| [36846176](https://pubmed.ncbi.nlm.nih.gov/36846176/) | 2023 | Case report / review | Clin Case Rep | MF with psoriasiform plaques, initially misdiagnosed as psoriasis and not responding to topical steroids. |
+| [23773745](https://pubmed.ncbi.nlm.nih.gov/23773745/) | 2013 | Case report | Ann Dermatol Venereol | Papular MF, a newly described early form, with a literature review. |
+
+Most of the remaining retrieved publications are case reports on MF subtypes or diagnostic mimics. They do not directly assess clobetasol.
 
 ---
 
 ## Philippines Market Information
 
-Clobetasol propionate currently has **no registered product licenses** with the FDA Philippines. The drug is not marketed in the Philippines as of the data cutoff date (2026-04-04).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0106 | Clobetasol (status: cancelled) | Not specified | Not specified |
 
-Any clinical use would require importation through a Special Access Scheme or compassionate use pathway under Philippine FDA regulations.
+There is no currently valid registration for clobetasol in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Detailed TFDA package insert warnings and contraindications were not available at the time of this report (Data Gap: DG001). Drug–drug interaction data was also not retrievable from the queried database.
+- **Drug Interactions**: The interaction screen returned 100 potential interacting drugs, but none has a severity rating. Examples include other corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), and calcitriol, vitamin A, doxycycline, metronidazole and morphine. Clinical significance should be checked individually.
+- **Class-related skin effects**: Prolonged topical use in MF raises the concern of corticosteroid-induced skin adverse effects (see PMID 32603400).
 
-> Please refer to the originator package insert (e.g., Temovate® or equivalent) and the Philippine FDA guidance for full safety information, including class-effect warnings applicable to superpotent topical corticosteroids (e.g., HPA axis suppression, skin atrophy, local adverse effects with prolonged use).
+For other safety information, please refer to the package insert.
 
 ---
 
@@ -107,14 +112,15 @@ Detailed TFDA package insert warnings and contraindications were not available a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Topical clobetasol propionate has substantial real-world evidence supporting its use in early-stage mycosis fungoides (the most common form of primary CTCL), with observational data reporting response rates >90% and a favorable safety profile under supervised use. While no formal randomized controlled trials have been registered, the mechanistic rationale is sound, clinical practice at major academic centers already employs clobetasol as first-line therapy, and the 2025 comparative study further strengthens the evidence base. The absence of Philippine market registration is the principal logistical barrier.
+Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF, and clobetasol has no valid registration in the Philippines.
 
 **To proceed, the following is needed:**
-- **Regulatory pathway**: Identify a Special Access or compassionate use route through the FDA Philippines for product importation
-- **Safety documentation**: Obtain and review the full TFDA or originator package insert (including HPA axis suppression risks, skin atrophy, and ocular adverse effects) to complete the S1 safety assessment (Data Gap DG001)
-- **MOA verification**: Confirm DrugBank mechanism of action data (Data Gap DG002) to formally document GR-mediated apoptosis as the repurposing rationale
-- **Indication scoping**: Define the specific CTCL subtype and disease stage (early patch/plaque-stage MF recommended based on evidence), treatment duration protocol, and monitoring schedule (skin response assessment, HPA axis function)
-- **Prospective registry or study**: Given the absence of registered clinical trials, consider initiating a prospective patient registry or a small pilot study in collaboration with a dermatology/oncology center in the Philippines to generate local evidence
+- Package insert warnings and contraindications from DOH-FDA Philippines, which are currently missing and block the safety screening
+- Detailed mechanism of action data from DrugBank
+- A valid local registration, or a confirmed supply route, for a topical clobetasol product
+- Confirmation of the topical dosage form and route
+- Restriction of use to early-stage (patch/plaque) MF, with a monitoring plan for long-term skin adverse effects
+- Severity grading of the potential drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

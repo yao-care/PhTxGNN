@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Model Prediction Only (L5)
-nav_order: 177
+nav_order: 179
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Iohexol: From Contrast Imaging to Insomnia
+# Iohexol: From Diagnostic Contrast Imaging to Insomnia
 
 ## One-Sentence Summary
 
-Iohexol is a non-ionic iodinated contrast medium used exclusively in diagnostic radiology procedures such as angiography, CT scanning, and myelography.
-The TxGNN model predicts it may be effective for **Insomnia**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-Despite a high prediction score (99.87%), the biological rationale is entirely absent — this is assessed as a knowledge graph false positive with no pharmacological basis.
+Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging aid. The TxGNN model predicts it may be effective for **insomnia**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The evidence is model prediction only, and the score most likely reflects a knowledge-graph artifact rather than real biology.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diagnostic contrast agent for medical imaging (no Philippines registrations on record) |
+|------|------|
+| Original Indication | Not stated in the Philippines registration record (iohexol is generally used as a diagnostic contrast agent) |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on well-established pharmacology, Iohexol is a non-ionic, water-soluble iodinated compound used solely as a diagnostic contrast agent — it has no intrinsic pharmacological receptor activity. Its clinical utility derives entirely from X-ray attenuation by the iodine atoms it contains, not from any interaction with human receptors or enzymes.
+Currently, detailed mechanism of action data is not available. Based on known information, iohexol is a non-ionic, iodinated contrast agent. It is pharmacologically inert, is not metabolised, and is excreted unchanged by the kidneys.
 
-Insomnia treatment relies on drugs acting at specific molecular targets: GABA-A receptors (benzodiazepines, z-drugs), melatonin MT1/MT2 receptors (ramelteon), orexin OX1/OX2 receptors (suvorexant, lemborexant), or histamine H1 receptors (doxylamine). Iohexol has no documented activity at any of these targets. The mechanistic gap between an imaging contrast agent and a sleep disorder is fundamental and has no biological bridge in current literature.
+**No mechanistic link to insomnia was identified.** Iohexol has no known activity on sleep-regulating pathways (GABAergic, orexinergic, histaminergic, or melatonergic). The very high TxGNN score (99.87%) most likely reflects knowledge-graph artifacts, such as shared drug-drug interaction neighbours or network proximity, rather than a biological rationale. The prediction should therefore be treated as a computational signal only.
 
-The high TxGNN score (99.87%) is best explained as a knowledge graph noise artefact. The model likely detected indirect graph connections — such as shared patient-population nodes, co-administration patterns in hospital datasets, or disease co-occurrence associations — rather than any true pharmacological relationship. The internal repurposing rationale in the Evidence Pack explicitly confirms this assessment: "TxGNN 高分為知識圖譜雜訊假陽性，無任何生物學合理性支持."
+The second-ranked prediction, **anxiety** (score 99.25%), is also unsupported. Iohexol has no anxiolytic pharmacology. The four publications retrieved for it concern iohexol as a diagnostic agent or are unrelated papers. Anxiety appears at most as a procedural or adverse-event context, not as a therapeutic outcome.
 
 ---
 
@@ -71,19 +69,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for insomnia. For the second-ranked prediction (anxiety), four publications were retrieved, but none is repurposing evidence:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8883531](https://pubmed.ncbi.nlm.nih.gov/8883531/) | 1996 | RCT | Academic Radiology | Double-blind comparison of iodixanol and iohexol in extremity phlebography (efficacy, safety, injection discomfort). Not related to anxiety treatment. |
+| [2352635](https://pubmed.ncbi.nlm.nih.gov/2352635/) | 1990 | Cohort | Neuroradiology | Side effects in 200 patients after lumbar iohexol myelography. Headache, nausea and dizziness were common, and minor mental symptoms (such as anxiety or depression) were reported as adverse effects. |
+| [2125805](https://pubmed.ncbi.nlm.nih.gov/2125805/) | 1990 | Physiological study | Acta Neurochirurgica | Concurrent two-vessel Doppler monitoring of cerebral haemodynamics during cerebral angiography. Not related to anxiety treatment. |
+| [39861464](https://pubmed.ncbi.nlm.nih.gov/39861464/) | 2025 | Review | Nutrients | Nutrition and physical activity in onco-nephrology. Not related to iohexol as an anxiety treatment. |
 
 ---
 
 ## Philippines Market Information
 
-Iohexol has no registered products in the Philippines. There are no FDA Philippines authorizations on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0254 (cancelled) | Iohexol | Not stated | Not stated |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** The interaction screening returned 100 interactions in total. Most of those listed are rated Major. Examples include:
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+- Metformin
+- Nephrotoxic or ototoxic agents: amphotericin B (including lipid complex), vancomycin, kanamycin, neomycin
+- Levofloxacin
+- Bupropion
+- Metoclopramide
+- Morphine
+- Mesalazine and balsalazide
+- Appetite suppressants and related agents: diethylpropion, phentermine, dronabinol
+
+Mannitol is rated Moderate.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -92,13 +112,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Iohexol is a purely diagnostic contrast agent with no known pharmacological activity at any receptor system relevant to insomnia. The TxGNN prediction score is high, but this reflects a knowledge graph false positive, not a genuine drug–disease therapeutic relationship — there is zero supporting clinical trial evidence and zero supporting literature for this indication.
+The prediction rests only on a model score. There are no clinical trials or supporting literature, no plausible mechanism, and the only Philippines registration is cancelled. The very high TxGNN score is likely an artifact of the knowledge graph.
 
-**To proceed, the following would be needed:**
-- Mechanistic evidence demonstrating any Iohexol interaction with sleep-regulating pathways (GABA, melatonin, orexin, or histamine systems) — currently non-existent
-- At minimum one preclinical study (animal sleep model or in vitro receptor binding assay) showing sleep-relevant biological activity
-- Without such foundational evidence, clinical investigation is not scientifically warranted and should not be initiated
-- MOA data from DrugBank (Data Gap DG002) and Philippines package insert safety data (Data Gap DG001) should be retrieved before any further review, though these are unlikely to change the Hold recommendation
+**To proceed, the following is needed:**
+- Mechanistic evidence linking iohexol to sleep regulation (none is currently known)
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data from DrugBank
+- Preclinical or clinical studies in insomnia, if the hypothesis is still pursued
+- A valid local registration and route compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

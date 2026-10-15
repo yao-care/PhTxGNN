@@ -2,7 +2,7 @@
 layout: default
 title: Fluorescein
 parent: Model Prediction Only (L5)
-nav_order: 146
+nav_order: 148
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,14 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorescein: From Ophthalmic Diagnostic Dye to Prinzmetal Angina
+# Fluorescein: From a Diagnostic Dye to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Fluorescein (DB00693) is a xanthene fluorescent dye used exclusively as a diagnostic imaging agent in ophthalmic and vascular fluorescein angiography — it has no currently approved therapeutic indication.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina** (variant angina caused by coronary artery vasospasm),
-with **0 clinical trials** and **0 publications** currently supporting this direction.
-Despite a striking prediction score of 99.81%, this appears to be a knowledge graph artifact rather than a genuine repurposing signal — mechanistic and clinical evidence is entirely absent.
+Fluorescein is a diagnostic fluorescent dye, best known for use in retinal (fluorescein) angiography and corneal staining. Its original therapeutic indication is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on the model alone.
 
 ---
 
@@ -44,47 +43,51 @@ Despite a striking prediction score of 99.81%, this appears to be a knowledge gr
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved therapeutic indication; used as ophthalmic/vascular diagnostic dye (fluorescein angiography) |
-| Predicted New Indication | Prinzmetal Angina |
+| Original Indication | Not available (the registration record contains no approved indication text) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank or other sources. Based on known information, Fluorescein is a xanthene-class fluorescent organic dye (C₂₀H₁₂O₅) administered intravenously or topically as a diagnostic agent. Its clinical role is confined to imaging: after injection, it circulates through blood vessels and fluoresces under blue excitation light, allowing real-time visualization of retinal, choroidal, and other vascular structures. It carries no approved therapeutic indication in any jurisdiction.
+Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in angiography. It has no known vasodilatory or anti-vasospastic activity, which is what would be needed to treat Prinzmetal angina (a coronary vasospasm disorder).
 
-Prinzmetal angina (variant angina) is a distinct clinical entity caused by episodic coronary artery vasospasm rather than fixed atherosclerotic obstruction. Established treatments work by relaxing vascular smooth muscle — typically via calcium channel blockade (amlodipine, diltiazem) or nitrate-mediated vasodilation. There is no identified pharmacological mechanism by which fluorescein could inhibit vasospasm, modulate calcium channels, protect vascular endothelium, or reduce sympathetic tone in coronary arteries.
+The high TxGNN score is a graph-based computational prediction. No clinical trials or literature support it, and no plausible mechanistic link to the original use could be identified.
 
-The TxGNN model's high score (0.998, rank 1,828 out of all predictions) almost certainly reflects a **knowledge graph artifact**: fluorescein angiography is routinely used to evaluate cardiovascular and retinal vascular pathology, generating numerous graph co-occurrence edges between the "Fluorescein" node and cardiovascular disease nodes. The model may be interpreting diagnostic co-presence as a therapeutic relationship — a well-documented false-positive pattern in graph-based drug repurposing approaches. The absence of any supporting literature or trial further confirms this interpretation.
+The same holds for the other top-ranked predictions. Antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency, the chromosome 16 partial deletion and beta-thalassemia with other manifestations have no supporting evidence and no mechanistic basis. For rheumatoid arthritis, hemoglobinopathy, thrombophilia and hyperthyroidism, the retrieved articles mention fluorescein only as a diagnostic tool. Examples are corneal staining in dry eye and angiography of retinal complications. They do not show a therapeutic effect.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Fluorescein in Prinzmetal Angina.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Fluorescein in Prinzmetal Angina.
+Currently no related literature available for Prinzmetal angina.
+
+For context, articles retrieved for lower-ranked predictions (rheumatoid arthritis, hemoglobinopathy, thrombophilia, hyperthyroidism) describe fluorescein as a diagnostic stain or imaging agent in ocular conditions. None evaluates it as a treatment.
 
 ---
 
 ## Philippines Market Information
 
-Fluorescein (DB00693) currently has no registered drug products with the Philippine FDA and is not marketed in the Philippines. No authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0197 | Fluorescein | Not recorded | Not recorded (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found in the data compiled for this report.
 
 ---
 
@@ -93,16 +96,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Fluorescein has no plausible mechanism of action for Prinzmetal angina, zero supporting clinical trials or publications, and is not available on the Philippine market. The 99.81% TxGNN prediction score is a knowledge graph artifact arising from widespread diagnostic co-use of fluorescein angiography in vascular medicine — not a therapeutic signal.
+The prediction has no clinical trials, no supporting literature and no plausible mechanism. Fluorescein is a diagnostic dye, and its only Philippine registration is cancelled. The evidence level is L5.
 
-**To proceed, the following would be needed:**
-- Basic pharmacological characterization: investigate whether fluorescein or any metabolite produces any measurable effect on vascular smooth muscle tone, L-type calcium channels, or coronary endothelial function in vitro
-- Full mechanism of action (MOA) data retrieval from DrugBank API and primary literature
-- Pre-clinical proof-of-concept studies (animal vasospasm models) before any clinical consideration
-- Complete safety profile review for systemic exposure doses relevant to a therapeutic context (current diagnostic intravenous doses are very low; therapeutic dosing would be undefined)
-- Clarification of the KG graph topology to determine whether the Fluorescein–cardiovascular disease edges are diagnostic or therapeutic in origin, which may inform model retraining
-
-> ⚠️ **Research Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application. All predictions scored L5 carry no clinical evidence and should not be advanced without rigorous preclinical investigation.
+**To proceed, the following is needed:**
+- A plausible mechanism linking fluorescein to coronary vasospasm, supported by preclinical data
+- Mechanism of action data from DrugBank
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Confirmation of the original approved indication and available dosage forms
+- Evidence of a current valid registration, or a plan for one, since the only license is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

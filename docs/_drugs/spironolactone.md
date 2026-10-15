@@ -2,7 +2,7 @@
 layout: default
 title: Spironolactone
 parent: Model Prediction Only (L5)
-nav_order: 313
+nav_order: 317
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Spironolactone: From Aldosterone Antagonism to Hypotrichosis Simplex of the Scalp
+# Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Spironolactone is a well-established aldosterone receptor antagonist and potassium-sparing diuretic, widely used globally for heart failure, hypertension, and hyperaldosteronism, and recognized for its anti-androgenic properties in conditions such as androgenetic alopecia and hirsutism.
-The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**, a rare hereditary hair loss disorder driven by genetic defects in the lysophosphatidic acid signaling pathway.
-However, **no clinical trials or published literature** currently support this indication, and the mechanistic rationale is weak.
-
----
+Spironolactone was originally used to treat hypertension, congestive heart failure and hyperaldosteronism.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
+but the data compiled for this report contain **0 clinical trials** and **0 publications**, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines |
+|------|------|
+| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism, primary aldosteronism, Bartter disease (the Philippines registration record has no approved indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Spironolactone is an aldosterone receptor antagonist (mineralocorticoid receptor blocker) with well-characterized anti-androgenic activity. By competitively inhibiting dihydrotestosterone (DHT) binding to androgen receptors in hair follicles, it has an established off-label role in androgenetic alopecia, female pattern hair loss, acne, and hirsutism. The TxGNN model likely exploited this recognized hair-follicle connection, extending it through graph-based phenotypic proximity to other conditions in the "hair loss" disease cluster.
+Currently, detailed mechanism of action data is not available in the compiled data. Spironolactone is generally known as an aldosterone (mineralocorticoid receptor) antagonist, and it also has anti-androgen activity: it blocks the androgen receptor and reduces androgen synthesis. This is the basis for its off-label use in female pattern hair loss.
 
-However, hypotrichosis simplex of the scalp is a mechanistically distinct condition from androgenetic alopecia. It arises from loss-of-function mutations in *LPAR6* (lysophosphatidic acid receptor 6) or *LIPH* (lipase H), impairing the lysophosphatidic acid (LPA) signaling pathway that is essential for hair follicle morphogenesis. This is a structural developmental defect — not a hormone-dependent or inflammatory process — and there is no established pharmacological intersection between Spironolactone's mineralocorticoid antagonism or androgen receptor blockade and the LPA pathway.
+The link to the predicted indication is weak. Hypotrichosis simplex is a genetic hair-loss disorder (for example, variants in CDSN, APCDD1 or RPL21) and is not mainly driven by androgens. The high score may reflect the knowledge graph's closeness to androgenetic alopecia rather than a disease-specific mechanism, so the mechanistic link should be treated as speculative.
 
-The high TxGNN score (99.26%) most likely reflects graph-topology proximity to other hair-related phenotypes rather than a genuine mechanistic link. Without any supporting trial or literature evidence, and with a mechanistic rationale that is currently unsubstantiated, this prediction should be treated as a hypothesis-generating signal only and not as an actionable repurposing candidate at this stage.
-
----
+A second prediction, **congenital hypotrichosis milia** (score 99.04%), has the same limitation. It is a rare genetic condition, and there is no evidence that blocking mineralocorticoid or androgen receptors would change its course. It is likely driven by shared hair and skin phenotype associations in the graph.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Spironolactone currently has no drug licenses registered with the Philippines FDA and is not marketed in the Philippines. No approved indication text is available from domestic registration records.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0458 | Spironolactone | Not stated | Not stated (registration status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge graph, not label text)**: The TxGNN knowledge graph links spironolactone to contraindications in the following conditions:
+  - Kidney disease, anuria
+  - Hyperkalaemia-related and electrolyte disorders: potassium deficiency disease, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease
+  - Diabetes mellitus, diabetic ketoacidosis
+  - Hepatic coma, hepatic encephalopathy
+  - Systemic lupus erythematosus (including paediatric)
+  - Pancreatitis, pyoureter
+  - Gout, hyperuricaemia
+  - Hyperparathyroidism, osteitis fibrosa
+  - Neonatal jaundice
+- **Drug Interactions**: The interaction query returned 100 records; 20 were available for review. Notable examples:
+  - **Major**: loperamide
+  - **Moderate**: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, metformin, bupropion, morphine, bisacodyl, castor oil, dronabinol, exenatide, and the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - **Minor**: doxycycline, acetylsalicylic acid, fidaxomicin
 
----
+Package insert warnings and contraindications were not available, so please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a pure model-prediction signal (L5 evidence) with zero supporting clinical trials or published literature. The target disease is driven by a genetic defect in the LPA signaling pathway, which has no known overlap with Spironolactone's pharmacological mechanisms; the prediction is most likely an artifact of phenotypic graph proximity rather than a true mechanistic relationship.
+The only support for this prediction is a high model score. There are no clinical trials or publications, and the mechanistic link is speculative because the target conditions are genetic and not primarily androgen-driven. The only Philippines registration has been cancelled, which further limits near-term feasibility.
 
 **To proceed, the following is needed:**
-- Retrieve Spironolactone MOA data from DrugBank to formally characterize whether any secondary mechanisms could intersect with the LPAR6/LIPH pathway
-- Conduct a broader literature search for any preclinical or case-report evidence linking aldosterone antagonism or anti-androgen activity to LPA pathway hair disorders
-- Obtain Philippines FDA package insert (or equivalent international labeling) to complete safety, contraindication, and drug interaction assessment
-- Expert pharmacological review to determine whether the graph-proximity prediction warrants any targeted in vitro mechanistic investigation
-- Note: A second TxGNN prediction — **Congenital Hypotrichosis Milia** (score 99.04%, rank 6252) — shares the same evidence gap and mechanistic weakness as the primary prediction and should be evaluated under the same Hold decision pending the above
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Published evidence (case reports, case series or trials) of spironolactone in hypotrichosis simplex or related hereditary hair-loss disorders
+- Confirmation of whether a valid registration or an alternative supply route exists in the Philippines
+- Assessment of route compatibility (oral versus topical) for a hair-loss indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Cetirizine
 parent: High Evidence (L1-L2)
-nav_order: 68
+nav_order: 70
 evidence_level: L2
 indication_count: 6
 ---
@@ -33,93 +33,85 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Cetirizine is a second-generation, selective histamine H1-receptor antagonist widely used globally for allergic rhinitis and urticaria.
-The TxGNN model predicts it may be effective for **Allergic Urticaria**, with **3 clinical trials** and **18 publications** currently supporting this direction.
-While this indication is well-established internationally, Cetirizine currently has no Philippines regulatory registration, making formal market entry the primary next step.
-
----
+Cetirizine is an H1 antihistamine originally used for allergic rhinitis, allergic conjunctivitis and idiopathic urticaria.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+with **1 clinical trial** (a Phase 3 pilot feasibility study) and **18 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis / chronic urticaria (globally recognized; no Philippines regulatory record available) |
-| Predicted New Indication | Allergic Urticaria |
+|------|------|
+| Original Indication | Allergic rhinitis (other listed uses: vasomotor rhinitis, pharyngitis, common cold, atopic/papillary/vernal conjunctivitis, idiopathic urticaria) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacological information, Cetirizine is a selective histamine H1-receptor antagonist and the carboxylated metabolite of hydroxyzine. It competitively blocks peripheral H1 receptors with minimal central nervous system penetration — a key advantage over first-generation antihistamines. Beyond simple receptor blockade, Cetirizine also inhibits eosinophil chemotaxis during the late-phase allergic response, giving it an additional anti-inflammatory dimension that enhances its utility in allergic skin diseases.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, cetirizine is a peripheral H1-receptor antagonist. In allergic urticaria, histamine released from mast cells causes the wheal-and-flare reaction, so blocking the H1 receptor directly addresses the main pathway.
 
-Allergic urticaria is primarily driven by IgE-triggered mast cell degranulation, which floods the dermis with histamine, triggering vasodilation and increased vascular permeability — the classic wheal-and-flare reaction. Because H1-receptor activation is the central step in this cascade, the mechanistic link between Cetirizine and allergic urticaria is exceptionally direct. This is not a speculative extrapolation; it is the textbook pharmacological rationale upon which the entire second-generation antihistamine class was developed.
+Idiopathic urticaria is already among cetirizine's listed uses. Allergic urticaria is therefore a close extension of an existing indication rather than a distant repurposing, which helps explain the very high TxGNN score.
 
-The TxGNN model assigns this prediction a near-perfect score (99.99%), reflecting the strength of this mechanistic relationship in the knowledge graph. US FDA and EMA have already approved Cetirizine for urticaria globally. The Evidence Level is rated L2 rather than L1 because the only identified Phase 3 trial in this pack (NCT02023164) was a feasibility pilot with only 36 patients — designed to test whether a definitive Phase 3 was feasible, not to provide confirmatory efficacy data. The weight of global regulatory approval and published literature nonetheless strongly supports clinical validity.
+The supporting clinical evidence is limited. The only registered trial is a small pilot study of intravenous cetirizine in acute urticaria, and it does not establish efficacy. Most of the literature consists of reviews of antihistamines in urticaria and allergic rhinitis.
 
----
+Other predicted indications are weaker:
+- **Cold urticaria** (score 99.95%, L3): small clinical studies show cetirizine reduces cold-induced wheals. One study reported about a 50% reduction in wheal. No registered trials were found.
+- **Nasal cavity disease** (99.77%, L4): the term is broad and overlaps with existing rhinitis indications. Hold.
+- **Acute laryngopharyngitis** (99.72%, L5), **rosacea conjunctivitis** (99.41%, L5) and **recalcitrant atopic dermatitis** (99.19%, L5): model prediction only, with no trials or literature. The mechanistic fit is weak for the latter two. Hold.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 | Completed | 36 | Multicenter parallel-group pilot RCT comparing IV Cetirizine 10 mg vs. IV Diphenhydramine 50 mg for acute urticaria in emergency departments and urgent care settings; primary purpose was to establish feasibility for a subsequent definitive Phase 3 trial, with preliminary safety and efficacy signals |
-| [NCT03296358](https://clinicaltrials.gov/study/NCT03296358) | N/A | Completed | 75 | Randomized double-blind trial evaluating short-burst corticosteroid added to standard H1 antihistamine treatment for urticaria; indirectly supports H1 antihistamines (the likely backbone comparator) as the established first-line standard of care |
-| [NCT01008592](https://clinicaltrials.gov/study/NCT01008592) | N/A | Terminated | 11 | Investigated the effect of levocetirizine — the active R-enantiomer of cetirizine — on skin inflammatory mediators (histamine, prostaglandin E2, LTB4, cathepsins) in symptomatic dermatographism and chronic idiopathic urticaria; terminated early, providing partial mechanistic data |
-
----
+|---------|------|------|------|---------|
+| [NCT02023164](https://clinicaltrials.gov/study/NCT02023164) | Phase 3 | Completed | 36 | Randomized, double-blind pilot comparing IV cetirizine 10 mg with IV diphenhydramine 50 mg in acute urticaria. It tests the feasibility of a larger Phase 3 trial and is not a powered efficacy study. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33030434](https://pubmed.ncbi.nlm.nih.gov/33030434/) | 2021 | Systematic Review | J Investig Allergol Clin Immunol | Critically reviewed evidence for up-dosing second-generation oral antihistamines (including cetirizine) to 4× the licensed dose in chronic spontaneous urticaria; confirms antihistamines as first-line standard, though high-dose evidence relies mainly on expert opinion |
-| [7645679](https://pubmed.ncbi.nlm.nih.gov/7645679/) | 1995 | Clinical Trial Series | Allergy | Clinical studies with cetirizine specifically in allergic rhinitis and chronic urticaria; provides direct evidence of cetirizine efficacy in urticarial conditions |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Comprehensive Drug Review | Drugs | Foundational comprehensive review of cetirizine pharmacology; confirms efficacy in chronic urticaria, absence of CNS depression at standard 10 mg dose, and additional anti-inflammatory effects including inhibition of eosinophil chemotaxis |
-| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Drug Review | Drugs | Reappraisal of cetirizine pharmacological properties; confirms effective and well-tolerated treatment for chronic idiopathic urticaria in adults at 10 mg/day |
-| [8477125](https://pubmed.ncbi.nlm.nih.gov/8477125/) | 1993 | Drug Review | Ann Pharmacother | Introduction of cetirizine as a nonsedating antihistamine; covers mechanism of action, comparative clinical trials, and adverse effect profile |
-| [9951950](https://pubmed.ncbi.nlm.nih.gov/9951950/) | 1999 | Comparative Review | Drugs | Head-to-head comparative review of ten second-generation antihistamines including cetirizine; evaluates sedation, anticholinergic effects, and clinical choice factors for urticaria and allergic rhinitis |
-| [41602253](https://pubmed.ncbi.nlm.nih.gov/41602253/) | 2025 | Case Report | Cureus | Case of rebound pruritus and urticaria following cetirizine discontinuation after long-term use in an Asian patient; highlights a clinically relevant safety signal for chronic urticaria management in the Asian population |
-| [27110120](https://pubmed.ncbi.nlm.nih.gov/27110120/) | 2016 | Review | Ther Clin Risk Manag | Reviews antihistamine treatment landscape for allergic rhinitis and urticaria; positions cetirizine as an established reference comparator within the second-generation antihistamine class |
-| [35593100](https://pubmed.ncbi.nlm.nih.gov/35593100/) | 2022 | Systematic Review | Am J Rhinol Allergy | Systematic review and meta-analysis of RCTs evaluating antihistamines for allergic rhinitis and chronic urticaria; provides class-level quantitative evidence supporting H1 antagonism as the mechanistic basis for urticaria management |
-| [18336052](https://pubmed.ncbi.nlm.nih.gov/18336052/) | 2008 | PK/Comparative Review | Clin Pharmacokinet | Comparative pharmacokinetics and pharmacodynamics of desloratadine, fexofenadine, and levocetirizine (cetirizine's active enantiomer); provides mechanistic context and PK rationale for the cetirizine class in chronic urticaria |
-
----
+|------|-----|------|------|---------|
+| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Review | Drugs | Cetirizine is effective and well tolerated in seasonal/perennial allergic rhinitis and chronic idiopathic urticaria in adults. |
+| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Review | Drugs | Review of pharmacology and clinical potential in allergic rhinitis, pollen-induced asthma and chronic urticaria. At 10 mg daily it lacks the CNS depressant effects of standard antihistamines. |
+| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Review | Annals of Pharmacotherapy | Reviews the efficacy and safety of first- and newer-generation antihistamines in allergic rhinitis and chronic idiopathic urticaria. |
+| [7645679](https://pubmed.ncbi.nlm.nih.gov/7645679/) | 1995 | Review | Allergy | Clinical studies of cetirizine in allergic rhinitis and chronic urticaria (no abstract available). |
+| [7530629](https://pubmed.ncbi.nlm.nih.gov/7530629/) | 1994 | Review | Drugs | Urticaria causes and treatment. Non-sedating antihistamines are the mainstay for most chronic idiopathic urticaria. |
+| [11702618](https://pubmed.ncbi.nlm.nih.gov/11702618/) | 2001 | Evidence-based review | Am J Clin Dermatol | Evidence-based evaluation of antihistamines in urticaria, which remain its mainstay of treatment. |
+| [14512923](https://pubmed.ncbi.nlm.nih.gov/14512923/) | 2003 | Clinical study | J Am Acad Dermatol | Cetirizine plus zafirlukast combination in acquired cold urticaria. |
+| [1364168](https://pubmed.ncbi.nlm.nih.gov/1364168/) | 1992 | Comparative clinical study | J Investig Allergol Clin Immunol | Randomized, single-blind crossover study in 7 patients with cold urticaria. Cetirizine and loratadine were compared with cyproheptadine and ketotifen. |
+| [17225008](https://pubmed.ncbi.nlm.nih.gov/17225008/) | 2007 | Clinical study | Acta Derm Venereol | In 6 cold urticaria patients, cetirizine 10 mg reduced the cold-induced wheal by about 50%. Montelukast had no significant effect. |
+| [2959719](https://pubmed.ncbi.nlm.nih.gov/2959719/) | 1987 | Experimental pharmacology | J Allergy Clin Immunol | A single 10 mg dose inhibited histamine- and compound 48/80-induced wheal and flare, and also reduced dermographism whealing. |
 
 ## Philippines Market Information
 
-Cetirizine currently has **no active drug registrations** with the Philippines FDA. As of the data cutoff (2026-04-04), the market status is **Not Marketed** with a total of 0 approved licenses on record. There are no product entries to display.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0092 | Cetirizine | Not specified | Not specified (status: cancelled) |
 
-This represents an administrative market gap rather than a scientific one — the drug is globally approved and widely available in most comparable markets.
-
----
+The only registration found is cancelled, so no currently valid Philippines registration for cetirizine appeared in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were retrievable from the current evidence sources for Cetirizine.
+- **Disease-related cautions (from the knowledge graph, not label text)**: contraindication links were found for hypertension, kidney disease (including chronic kidney disease and end-stage renal failure), liver disease, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, coronary artery disease and atherosclerosis, angle-closure glaucoma, and hyperthyroidism (including Graves disease). These need verification against the official label.
+- **Drug interactions**: 100 interactions were recorded. The moderate-level ones include bupropion, dronabinol, loperamide, metoclopramide, morphine, nabilone, opium, sibutramine, difenoxin and diphenoxylate. Several others (e.g. calcitriol, vitamin A, phentermine, pantoprazole, glimepiride, doxycycline, acarbose) are of unknown severity.
+- **Literature signal**: a case report describes cetirizine-induced cholestasis (PMID 11034010). Transaminase elevations were seen in under 2% of patients in US trials.
 
-> **Note for review team:** Safety data (TFDA/FDA-approved labeling, warnings, and contraindications) has been identified as a **Blocking data gap** (DG001). The Philippines NDA submission cannot proceed to Stage 1 safety assessment until the approved package insert is obtained and parsed. In addition, a recent 2025 case report (PMID 41602253) flagged rebound pruritus/urticaria upon long-term cetirizine discontinuation in Asian patients — this should be captured in the local risk management plan.
-
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Cetirizine's efficacy for allergic urticaria is mechanistically well-founded and globally validated by FDA and EMA approvals. The Philippines market gap is regulatory in nature — not a signal of insufficient evidence — and can be addressed through standard new drug application pathways using international reference dossiers.
+Allergic urticaria is a close extension of cetirizine's existing idiopathic urticaria use, with a strong mechanistic basis and a very high model score. However, the clinical evidence is only a small Phase 3 pilot (n=36) and mostly reviews, so the evidence level is L2 rather than L1. The Philippines registration is also cancelled.
 
 **To proceed, the following is needed:**
-
-- **Resolve Blocking Safety Gap (DG001):** Download and parse the TFDA/FDA/EMA-approved package insert PDF to extract full warnings, contraindications, and drug interaction data before entering Stage 1 safety assessment
-- **Confirm MOA documentation (DG002):** Query DrugBank API (DB00341) to formally document mechanism of action for inclusion in regulatory and formulary submissions
-- **File Philippines FDA registration:** Submit NDA or abbreviated NDA leveraging existing FDA/EMA approval as reference product; Cetirizine's established international safety profile should support an expedited review pathway
-- **Develop rebound urticaria risk communication:** Based on the 2025 case report (PMID 41602253), prepare patient counseling materials specifically addressing discontinuation risk in chronic urticaria patients on long-term therapy — particularly relevant for the Asian patient population
-- **Establish local post-marketing surveillance plan** in line with Philippines FDA pharmacovigilance requirements
+- A powered, randomized efficacy trial in allergic or acute urticaria, such as the Phase 3 study that the pilot was designed to prepare
+- Philippines package insert warnings and contraindications, and confirmation of current registration status
+- Detailed mechanism of action data
+- Review of the disease-related cautions (liver, kidney, glaucoma, prostatic hyperplasia) and the main interactions, especially with CNS depressants and opioids
+- For cold urticaria (L3), further controlled studies before advancing; the other predicted indications should stay on hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

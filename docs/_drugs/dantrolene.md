@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dantrolene
-parent: High Evidence (L1-L2)
-nav_order: 95
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 97
+evidence_level: L5
 indication_count: 9
 ---
 
 # Dantrolene
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **9**
 
 </div>
 
-# Dantrolene: From Spasticity to Malignant Hyperthermia Susceptibility
+# Dantrolene: From Malignant Hyperthermia of Anaesthesia to Malignant Hyperthermia Susceptibility
 
 ## One-Sentence Summary
 
-Dantrolene is a skeletal muscle relaxant originally developed to manage chronic spasticity associated with upper motor neuron disorders (e.g., multiple sclerosis, spinal cord injury, cerebral palsy).
-The TxGNN model predicts it may be effective for **Malignant Hyperthermia, Susceptibility to** — a rare but potentially fatal pharmacogenetic crisis triggered by volatile anesthetics or succinylcholine —
-with **0 registered clinical trials** and **19 publications** currently supporting this direction, including two major international clinical practice guidelines.
+Dantrolene was originally used to treat malignant hyperthermia during anaesthesia and exercise-induced malignant hyperthermia.
+The TxGNN model predicts it may be effective for **malignant hyperthermia, susceptibility to**, with **0 registered clinical trials** and **18 publications** (mainly guidelines and reviews) currently supporting this direction.
+This predicted indication is closely related to the original one, so the prediction mostly confirms an established use rather than opening a new one.
 
 ---
 
@@ -43,25 +43,35 @@ with **0 registered clinical trials** and **19 publications** currently supporti
 
 | Item | Content |
 |------|------|
-| Original Indication | Spasticity (upper motor neuron disorders) |
-| Predicted New Indication | Malignant Hyperthermia, Susceptibility to |
+| Original Indication | Malignant hyperthermia of anaesthesia; exercise-induced malignant hyperthermia |
+| Predicted New Indication | Malignant hyperthermia, susceptibility to |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L1 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L3 (guidelines and reviews; no registered trials) |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Dantrolene's mechanism centres on direct inhibition of the **RyR1 (Ryanodine Receptor type 1)** calcium release channel located in the sarcoplasmic reticulum of skeletal muscle. By reducing RyR1 open-channel probability, Dantrolene limits the pathological surge of myoplasmic Ca²⁺ that drives uncontrolled muscle hypermetabolism. This suppresses the hallmark features of a malignant hyperthermia (MH) crisis — escalating hyperthermia, rhabdomyolysis, respiratory and metabolic acidosis, and hypercapnia — allowing stabilisation of the patient.
+Detailed mechanism of action data for dantrolene was not available in the data compiled for this report. Based on the supporting literature, dantrolene inhibits calcium release through the skeletal muscle ryanodine receptor (RYR1) from the sarcoplasmic reticulum. One study (PMID 28373535) also reports that dantrolene requires magnesium to arrest malignant hyperthermia.
 
-Malignant hyperthermia susceptibility (MHS) is caused in the vast majority of cases by gain-of-function mutations in the *RYR1* gene (>70%) and, less frequently, *CACNA1S*. These mutations lower the activation threshold of the very channel that Dantrolene targets, creating an exceptionally tight mechanistic alignment between drug and disease. Nearly all genetically susceptible individuals carry mutations on this same pathway, making the TxGNN model's high-confidence prediction (99.93%) biologically well-grounded rather than speculative.
+Malignant hyperthermia susceptibility is mainly caused by gain-of-function variants in RYR1 (rarely CACNA1S), which lead to uncontrolled calcium release in skeletal muscle when exposed to volatile anaesthetics or succinylcholine. The original indication (the acute crisis) and the predicted indication (the underlying susceptibility state) describe the same disease spectrum, and dantrolene acts directly on the defective pathway.
 
-It is important to note that, globally, Dantrolene is already the **established standard of care** for MH crisis management. Two major 2021 international guidelines — from the Association of Anaesthetists (UK) and the European Malignant Hyperthermia Group — explicitly define intravenous Dantrolene as the definitive and irreplaceable therapy. The Philippines context is therefore not one of scientific uncertainty, but of **market access**: this critical emergency antidote is currently unregistered and unavailable through formal Philippine regulatory channels, representing a direct patient safety risk in any hospital performing general anaesthesia.
+Formal randomised trials are not feasible for this emergency condition. The Association of Anaesthetists 2020 guideline and the European Malignant Hyperthermia Group consensus guidelines therefore form the core evidence. The "L3" level reflects the absence of Phase 3 data in the compiled data, not weak support.
 
-> **Note on MOA data:** Formal mechanism of action data is not available in the current Evidence Pack (Data Gap DG002). The description above is drawn from peer-reviewed mechanistic literature included in the evidence set, particularly Choi et al. 2017 (PNAS, PMID 28373535).
+### Other predicted indications (for reference)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Suggested Status |
+|------|------|------|------|
+| King-Denborough syndrome | 99.87% | L4 | Research question (best framed as MH prophylaxis/treatment in this population, not treatment of the myopathy itself) |
+| Central core myopathy | 99.86% | L4 | Research question (supports MH risk management only) |
+| Myopathy, centronuclear | 99.66% | L4 | Research question (indirect evidence; one 1998 case report of prophylactic dantrolene in central core disease) |
+| Congenital multicore myopathy with external ophthalmoplegia | 99.87% | L4 | Hold (genetic association only) |
+| Moderate multiminicore disease with hand involvement | 99.90% | L5 | Hold (model prediction only) |
+| Hypokalaemic periodic paralysis | 99.78% | L5 | Hold (speculative link) |
+| Thyrotoxic periodic paralysis (two entries) | 99.74% / 99.67% | L5 | Hold (speculative link) |
 
 ---
 
@@ -69,40 +79,39 @@ It is important to note that, globally, Dantrolene is already the **established 
 
 Currently no related clinical trials registered.
 
-> **Context:** The absence of registered RCTs reflects the ethical and practical impossibility of conducting placebo-controlled trials for a life-threatening, acute anesthetic emergency. Evidence for Dantrolene in MH has accumulated through decades of emergency case reports, observational data, and expert consensus rather than formal RCTs.
-
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33399225](https://pubmed.ncbi.nlm.nih.gov/33399225/) | 2021 | Clinical Practice Guideline | *Anaesthesia* | Association of Anaesthetists guideline: formally defines MH as a progressive life-threatening hypermetabolic reaction; positions IV Dantrolene as the definitive treatment alongside trigger removal and supportive care |
-| [33131754](https://pubmed.ncbi.nlm.nih.gov/33131754/) | 2021 | International Consensus Guideline | *British Journal of Anaesthesia* | European Malignant Hyperthermia Group consensus: comprehensive perioperative management protocols for MH-susceptible patients; Dantrolene recommended for both prophylaxis and crisis intervention |
-| [26238698](https://pubmed.ncbi.nlm.nih.gov/26238698/) | 2015 | Systematic Review | *Orphanet Journal of Rare Diseases* | Detailed review of MH epidemiology (1:10,000–1:250,000 anaesthetics), RYR1/CACNA1S genetics, clinical presentation, and Dantrolene as the only specific pharmacological rescue agent |
-| [39171998](https://pubmed.ncbi.nlm.nih.gov/39171998/) | 2024 | Comprehensive Review | *Critical Care Medicine* | Expert narrative review focusing on MH in critically ill patients; summarises clinical epidemiology, Dantrolene dosing protocols, and ICU management challenges |
-| [28373535](https://pubmed.ncbi.nlm.nih.gov/28373535/) | 2017 | Mechanistic Study | *Proceedings of the National Academy of Sciences* | Elucidates Dantrolene's precise mechanism: requires Mg²⁺ co-factor to suppress RyR1-mediated Ca²⁺ transients in MH-susceptible muscle; directly confirms RyR1 as the drug's target |
-| [32008650](https://pubmed.ncbi.nlm.nih.gov/32008650/) | 2020 | Narrative Review | *Anesthesiology Clinics* | Updated MH review: autosomal dominant inheritance with variable penetrance, mortality improvement with early Dantrolene administration, current diagnostic algorithms |
-| [33863282](https://pubmed.ncbi.nlm.nih.gov/33863282/) | 2021 | Observational Study | *BMC Anesthesiology* | Outcomes in settings where Dantrolene is unavailable (including China): highlights higher mortality, management challenges, and the urgent need for improved drug access in underserved healthcare systems |
-| [40597248](https://pubmed.ncbi.nlm.nih.gov/40597248/) | 2025 | Bibliometric Analysis | *Orphanet Journal of Rare Diseases* | Global MH research trends 1975–2024; identifies Dantrolene availability as the single most critical determinant of reduced MH mortality across healthcare systems worldwide |
-| [17456235](https://pubmed.ncbi.nlm.nih.gov/17456235/) | 2007 | Review | *Orphanet Journal of Rare Diseases* | Foundational review of MH genetics, incidence, and clinical features; establishes the RYR1 mutation framework underpinning both diagnosis and Dantrolene-based treatment |
-| [9798607](https://pubmed.ncbi.nlm.nih.gov/9798607/) | 1998 | Review | *Lancet* | Classic Lancet overview: establishes MH as an inherited skeletal muscle membrane disorder; documents Dantrolene's specific therapeutic role and describes triggering by exercise, heat, and anaesthetic agents |
+| [33399225](https://pubmed.ncbi.nlm.nih.gov/33399225/) | 2021 | Guideline | Anaesthesia | Association of Anaesthetists 2020 guideline on malignant hyperthermia |
+| [33131754](https://pubmed.ncbi.nlm.nih.gov/33131754/) | 2021 | Consensus guideline | Br J Anaesth | European MH Group consensus on perioperative management of suspected or susceptible patients; notes no interventional trial evidence exists |
+| [26238698](https://pubmed.ncbi.nlm.nih.gov/26238698/) | 2015 | Review | Orphanet J Rare Dis | Overview of MH as a pharmacogenetic skeletal muscle disorder; incidence 1:10,000 to 1:250,000 anaesthetics |
+| [39171998](https://pubmed.ncbi.nlm.nih.gov/39171998/) | 2024 | Review | Crit Care Med | Narrative review of epidemiology and management of critically ill MH patients |
+| [32008650](https://pubmed.ncbi.nlm.nih.gov/32008650/) | 2020 | Review | Anesthesiol Clin | MH is a rare, potentially lethal calcium release channel disorder; mortality has improved |
+| [28373535](https://pubmed.ncbi.nlm.nih.gov/28373535/) | 2017 | Mechanistic study | PNAS | Dantrolene requires Mg2+ to arrest MH |
+| [9538480](https://pubmed.ncbi.nlm.nih.gov/9538480/) | 1998 | Review | Postgrad Med J | Dantrolene sodium described as the ultimate treatment for MH |
+| [17456235](https://pubmed.ncbi.nlm.nih.gov/17456235/) | 2007 | Review | Orphanet J Rare Dis | MH as a pharmacogenetic disorder of skeletal muscle |
+| [25989378](https://pubmed.ncbi.nlm.nih.gov/25989378/) | 2015 | Review | Acta Anaesthesiol Scand | Scandinavian update; most cases linked to RYR1 mutations |
+| [23198031](https://pubmed.ncbi.nlm.nih.gov/23198031/) | 2012 | Review | Korean J Anesthesiol | Autosomal dominant inheritance with variable expression and incomplete penetrance |
 
 ---
 
 ## Philippines Market Information
 
-Dantrolene (DrugBank ID: DB01219) is currently **not registered** with the Philippine Food and Drug Administration (PFDA). No product licences are on record under any brand name or dosage form.
-
-> This represents a critical clinical access gap. Dantrolene is the only pharmacological antidote for malignant hyperthermia — a life-threatening emergency that can occur in any hospital operating theatre. Its non-availability through formal regulatory channels means Philippine anaesthesiologists currently lack a registered emergency rescue medication for this condition.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0129 | Dantrolene | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions (from the knowledge graph, not label text)**: contraindication links were recorded for liver disease, gallbladder disease, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, lung disease and a rare pulmonary disease. These should be verified against the package insert.
+- **Drug Interactions**: 72 interactions were identified. The major-level interactions in the list reviewed are **morphine** and **liposomal morphine**. Moderate-level interactions include dronabinol, metoclopramide, nabilone, naltrexone, opium, sibutramine, ethanol and promethazine. Several others (e.g. pantoprazole, omeprazole, metformin, simvastatin, clarithromycin, clopidogrel) have an unclassified severity level.
 
-> **Data Gap Notice:** PFDA package insert warnings, contraindications, and formal drug interaction data were not retrievable in this Evidence Pack (Data Gaps DG001 and DG002). Before any procurement or clinical deployment, the full prescribing information from an approved jurisdiction (e.g., FDA USA Dantrium®, EMA, or TGA Australia) must be reviewed. Key known concerns from published literature include hepatotoxicity risk with chronic oral use, muscle weakness, and the need for weight-based IV dosing in acute crisis settings.
+Package insert warnings and contraindications were not available; please refer to the package insert for complete safety information.
 
 ---
 
@@ -111,15 +120,15 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Dantrolene is the globally established, guideline-mandated antidote for malignant hyperthermia — a potentially fatal anesthetic emergency with no other proven pharmacological rescue option. Its absence from the Philippine market is a patient safety issue of the highest urgency, particularly given that MH crises can occur in any hospital performing general anaesthesia. The evidence base, while not RCT-derived (ethically impractical for this indication), is supported by two international clinical practice guidelines (2021), decades of observational and mechanistic data, and a near-perfect mechanistic alignment between Dantrolene's RyR1 target and the RYR1 mutation-driven pathophysiology of MH susceptibility.
+- Dantrolene's use in malignant hyperthermia is well supported by guidelines, consensus statements and mechanistic work, and the predicted indication is essentially the same disease spectrum as the original one. However, there are no registered trials, and the only Philippines registration is cancelled, so this cannot proceed as a straightforward go.
+- The other predicted indications (RYR1-related myopathies and periodic paralyses) rest on indirect or purely model-based evidence and should stay as research questions or on hold.
 
 **To proceed, the following is needed:**
-- Retrieve full prescribing information (package insert) from FDA USA (Dantrium® / Revonto®) or EMA to document contraindications, hepatotoxicity monitoring requirements, and drug-drug interactions
-- Obtain formal mechanism of action data from DrugBank API (remediation for Data Gap DG002)
-- Identify Philippine regulatory pathway: evaluate feasibility of emergency/compassionate use authorisation or full product registration with PFDA
-- Conduct supply chain feasibility assessment for IV Dantrolene formulation (powder for reconstitution) in Philippine tertiary hospital settings — including cold chain, reconstitution requirements, and minimum stock levels per operating theatre
-- Engage the Philippine Society of Anesthesiologists (PSA) to quantify annual MH incidence and identify priority hospitals (high surgical volume) for initial stock placement
-- Develop a hospital-level MH crisis protocol template incorporating Dantrolene dosing (IV 2.5 mg/kg initial dose, repeat as needed) and monitoring guidelines aligned with the 2021 international consensus
+- Confirm the regulatory situation in the Philippines (reason for cancellation, and whether a new registration or emergency-use supply route is needed)
+- Obtain and review the package insert (warnings, contraindications, dosage forms and routes)
+- Obtain the mechanism of action from DrugBank to complete the mechanistic analysis
+- Review the interaction list, especially with opioids and other central nervous system depressants, and the liver-related cautions
+- For RYR1-related myopathies, define the intended use (MH prophylaxis vs. disease treatment) before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

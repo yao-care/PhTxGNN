@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rifapentine
-parent: High Evidence (L1-L2)
-nav_order: 292
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 295
+evidence_level: L3
 indication_count: 10
 ---
 
 # Rifapentine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,79 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Rifapentine: From Tuberculosis to Leprosy
+# Rifapentine: From Pulmonary Tuberculosis to Leprosy
 
 ## One-Sentence Summary
 
-Rifapentine is a rifamycin-class antibiotic used for the treatment of active tuberculosis and prevention of latent tuberculosis infection (LTBI), particularly in combination regimens such as 3HP (weekly rifapentine + isoniazid × 12 weeks).
-The TxGNN model predicts it may be effective for **Leprosy (Hansen's disease)**, with **0 registered clinical trials** and **20 publications** — including a landmark 2023 NEJM randomised trial — currently supporting this direction.
-
----
+Rifapentine is a rifamycin antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **leprosy**, with **no registered clinical trials** but **20 publications** (including a 2023 randomized trial of single-dose rifapentine in household contacts) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Tuberculosis (active disease and latent infection prevention) |
+|------|------|
+| Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L1 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from DrugBank for this report. Based on known class-level pharmacology, rifapentine is a semisynthetic rifamycin antibiotic. Like rifampicin, its bactericidal activity is believed to result from inhibition of bacterial DNA-dependent RNA polymerase (RNAP), blocking transcription and leading to cell death. Rifapentine distinguishes itself from rifampicin through a substantially longer half-life (approximately 14–18 hours versus 2–3 hours for rifampicin), which enables once-weekly or even single-dose prophylaxis dosing — a property highly relevant to leprosy control programmes in low-resource, endemic settings.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rifapentine is a rifamycin that inhibits bacterial DNA-dependent RNA polymerase (rpoB). Its efficacy in tuberculosis is established.
 
-Both tuberculosis (*Mycobacterium tuberculosis*) and leprosy (*Mycobacterium leprae*) are mycobacterial diseases, sharing key biological vulnerabilities to rifamycin-class antibiotics. Rifampicin has been a backbone of WHO leprosy multidrug therapy (MDT) since the 1980s, providing strong mechanistic precedent for rifapentine's potential in this indication. Studies in murine footpad models have confirmed that rifapentine demonstrates bactericidal activity against *M. leprae* that is at least comparable to — and in some assays superior to — rifampicin (PMID 10991891, PMID 30207440). The emergence of rifampicin-resistant *M. leprae* strains further elevates interest in alternative rifamycins as replacement agents (PMID 29071280).
+*Mycobacterium leprae*, the cause of leprosy, is also susceptible to rifamycins. Rifampicin is already a cornerstone of leprosy multidrug therapy and post-exposure prophylaxis. Rifapentine has a longer half-life and higher potency than rifampicin, which makes single-dose or intermittent prophylaxis plausible. Mouse studies of post-exposure prophylaxis and antibacterial activity support this.
 
-Critically, a 2023 NEJM randomised trial (PMID 37195940) directly tested single-dose rifapentine in household contacts of leprosy patients, demonstrating that its greater bactericidal potency in preclinical models translates to a clinically meaningful prevention signal. A 2025 systematic review (PMID 40278757) further contextualises rifapentine within the WHO "Towards Zero Leprosy" chemoprophylaxis strategy. Taken together, the biological rationale is strong and the clinical evidence base is maturing.
-
----
+A 2023 randomized trial report (NEJM) examined single-dose rifapentine in household contacts of leprosy patients. It was not matched to any registered trial in the data compiled for this report, so its design and outcomes could not be verified here. The high TxGNN score is consistent with the mechanistic rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for rifapentine + leprosy on ClinicalTrials.gov. Published clinical evidence is captured in the literature section below.
-
----
+Currently no related clinical trials are registered for leprosy in the data compiled for this report.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [37195940](https://pubmed.ncbi.nlm.nih.gov/37195940/) | 2023 | RCT | N Engl J Med | Single-dose rifapentine in household contacts of leprosy patients; rifapentine showed greater bactericidal activity against *M. leprae* than rifampicin in murine models; provides direct clinical effectiveness data for leprosy post-exposure prophylaxis |
-| [40278757](https://pubmed.ncbi.nlm.nih.gov/40278757/) | 2025 | Review | Trop Med Infect Dis | Systematic review of rifamycin-based post-exposure chemoprophylaxis for leprosy; contextualises rifapentine within WHO "Towards Zero Leprosy" strategy following the landmark COLEP study (57% reduction in incidence) |
-| [38440733](https://pubmed.ncbi.nlm.nih.gov/38440733/) | 2024 | Review | Front Immunol | Comprehensive review of leprosy treatment, prevention, and immune response; highlights stable incidence despite MDT and emergence of rifampicin-resistant strains as drivers for exploring alternative rifamycins |
-| [11201894](https://pubmed.ncbi.nlm.nih.gov/11201894/) | 2000 | Animal Study | Lepr Rev | Rifapentine-moxifloxacin-minocycline (PMM) combination for leprosy; compared bactericidal activities against *M. leprae* in mouse footpad system; PMM suitable for monthly supervised administration |
-| [10991891](https://pubmed.ncbi.nlm.nih.gov/10991891/) | 2000 | Animal Study | Antimicrob Agents Chemother | Bactericidal activities of rifapentine, HMR 3647, and moxifloxacin vs *M. leprae* in mice; rifapentine activity compared to rifampicin under single-dose and multi-dose conditions |
-| [32936818](https://pubmed.ncbi.nlm.nih.gov/32936818/) | 2020 | Animal Study | PLoS Negl Trop Dis | PEP efficacy of rifapentine and other agents in susceptible-subclinical murine leprosy model; supports selecting drugs for clinical PEP trials |
-| [30207440](https://pubmed.ncbi.nlm.nih.gov/30207440/) | 2016 | Animal Study | Indian J Leprosy | Rifapentine combinations tested in murine model of rifampicin-resistant leprosy; RPT + clarithromycin + minocycline showed activity as alternative to current MDT |
-| [29071280](https://pubmed.ncbi.nlm.nih.gov/29071280/) | 2017 | Computational | Mol Biol Res Commun | Molecular simulation comparing rifabutin and rifapentine as substitutes for rifampicin in drug-resistant leprosy; findings relevant to programme managers considering alternative rifamycins |
-| [37385746](https://pubmed.ncbi.nlm.nih.gov/37385746/) | 2023 | Protocol | BMJ Open | COMBINE trial protocol: population-wide screening + mass drug administration (including rifapentine) for leprosy control in Kiribati hot-spot; evaluates universal prevention vs contact-limited chemoprophylaxis |
-| [37907954](https://pubmed.ncbi.nlm.nih.gov/37907954/) | 2023 | Review | Parasites Vectors | Pipeline review for NTD drugs including leprosy; rifapentine identified among off-label anti-infective drugs with Phase ≥2 data applicable to neglected tropical disease control |
-
----
+|------|-----|------|------|---------|
+| [37195940](https://pubmed.ncbi.nlm.nih.gov/37195940/) | 2023 | RCT | N Engl J Med | Single-dose rifapentine in household contacts of leprosy patients; compares with rifampin, which previously showed protective effects |
+| [37585641](https://pubmed.ncbi.nlm.nih.gov/37585641/) | 2023 | RCT (commentary) | N Engl J Med | Commentary on the household contact rifapentine study |
+| [40278757](https://pubmed.ncbi.nlm.nih.gov/40278757/) | 2025 | Review | Trop Med Infect Dis | Efficacy, safety and feasibility of rifamycin-based post-exposure prophylaxis for leprosy |
+| [38440733](https://pubmed.ncbi.nlm.nih.gov/38440733/) | 2024 | Review | Front Immunol | Leprosy treatment and prevention; notes rifampicin-resistant strains threaten multidrug therapy |
+| [32936818](https://pubmed.ncbi.nlm.nih.gov/32936818/) | 2020 | Preclinical (mouse) | PLoS Negl Trop Dis | Post-exposure prophylaxis efficacy of rifampin, rifapentine, moxifloxacin, minocycline and clarithromycin in a mouse footpad model |
+| [30207440](https://pubmed.ncbi.nlm.nih.gov/30207440/) | 2016 | Preclinical (mouse) | Indian J Lepr | Antibacterial activity of rifapentine and combinations in rifampicin-resistant leprosy models |
+| [11201894](https://pubmed.ncbi.nlm.nih.gov/11201894/) | 2000 | Preclinical | Lepr Rev | Rifapentine-moxifloxacin-minocycline combination suitable for monthly administration |
+| [29071280](https://pubmed.ncbi.nlm.nih.gov/29071280/) | 2017 | Molecular simulation | Mol Biol Res Commun | Cross-resistance of rifapentine and rifabutin with rifampicin in leprosy |
 
 ## Philippines Market Information
 
-Rifapentine is **not currently registered** in the Philippines. There are no FDA Philippines (Food and Drug Administration of the Philippines) authorisations on record.
-
-| Item | Details |
-|------|---------|
-| Market Status | Not marketed |
-| Total Registrations | 0 |
-| Note | Any use would require Special Access Route (SAR) or Compassionate Special Permit application to FDA Philippines |
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0422 (cancelled) | Rifapentine | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note on drug interactions**: While formal DDI data was not retrieved in this evidence pack, rifapentine is known to be a potent inducer of CYP3A4 and CYP2B6 enzymes. This is clinically significant when co-administered with antiretroviral drugs (relevant to the HIV/TB co-infection context), calcium channel blockers, and other CYP3A4-metabolised medications. Prescribers managing leprosy patients on concurrent medications should review interaction profiles carefully before use.
-
----
+- **Disease associations flagged in the knowledge graph (not label text)**: inherited porphyria, porphyrin metabolism disease, porphyria, liver disease, gallbladder disease, substance abuse/dependence, hyperbilirubinemia, hereditary hyperbilirubinemia, Gilbert syndrome, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis.
+- **Drug Interactions**: 100 interactions were found. Examples of major-level interactions: eliglustat and naldemedine. Moderate-level examples include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), oral antidiabetics (pioglitazone, glimepiride, chlorpropamide, linagliptin, saxagliptin), clarithromycin, metronidazole, aprepitant, and vitamin D analogues. Rifapentine induces CYP3A4 and UGT1A1, so reduced exposure of co-administered drugs is a key concern.
+- Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A 2023 NEJM randomised trial directly tested single-dose rifapentine in household contacts of leprosy patients, and multiple preclinical studies confirm bactericidal activity against *Mycobacterium leprae* that equals or exceeds rifampicin — the current MDT backbone. The biological rationale is robust (shared mycobacterial target, established rifamycin class activity in leprosy), and the WHO "Towards Zero Leprosy" strategy explicitly includes rifamycin-based chemoprophylaxis as a prevention pillar.
+The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). However, no registered trial could be matched, rifapentine has no valid registration in the Philippines, and package insert safety data are missing, so the evidence cannot yet support moving forward.
 
 **To proceed, the following is needed:**
+- Verification of the design and results of the 2023 household contact trial, and of other registered leprosy trials
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Mechanism of action data from DrugBank
+- Clarification of the regulatory pathway, since the only registration (PNF-0422) is cancelled
+- A drug-interaction management plan, particularly for co-administered drugs affected by CYP induction
 
-- **Philippines regulatory access**: Rifapentine is not registered locally; a Special Access Route (SAR) or Compassionate Special Permit application to FDA Philippines is required before clinical use
-- **Mechanism of action data**: Obtain full DrugBank MOA entry for package insert-level documentation
-- **TFDA package insert review**: Download and parse safety warnings, contraindications, and special population guidance (the Blocking data gap DG001) to enable full safety screening
-- **Drug interaction assessment**: Evaluate rifapentine's CYP3A4/2B6 induction profile against any concurrent medications in target patients (particularly in HIV-coinfected individuals or patients on calcium channel blockers used for leprosy-related neuropathic complications)
-- **Resistance monitoring plan**: Given documented rifampicin-resistant *M. leprae* strains, a cross-resistance assessment and local susceptibility surveillance plan should accompany any new rifapentine deployment
-- **Dosing protocol for leprosy**: Confirm whether single-dose (post-exposure prophylaxis) or multi-dose regimen (active disease) is the target; each requires distinct evidence review and regulatory framing
+---
+
+**Note on other predictions:** Among the other predicted indications, HIV infectious disease has the strongest evidence (L1, including a completed 3,000-participant Phase 3 trial, NCT01404312). That evidence concerns TB prevention and treatment in people with HIV, not HIV infection itself, so it does not constitute a new indication. The remaining predictions (female breast carcinoma, Prinzmetal angina, neuroretinitis, vestibular neuronitis, motor nerve neuritis, brachial plexus neuritis, dermatofibrosarcoma protuberans, rheumatoid arthritis) have no supporting trials and little or no relevant literature, and are on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

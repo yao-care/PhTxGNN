@@ -2,7 +2,7 @@
 layout: default
 title: Pyrazinamide
 parent: Model Prediction Only (L5)
-nav_order: 284
+nav_order: 287
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,67 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pyrazinamide is a cornerstone antibiotic in the standard first-line tuberculosis regimen (HRZE: isoniazid, rifampicin, pyrazinamide, ethambutol), used specifically against *Mycobacterium tuberculosis*.
-The TxGNN model predicts it may be effective for **Infectious Otitis Media**, with **0 clinical trials** and **0 publications** directly supporting this direction.
-Critically, all 10 top-ranked predictions for this drug cluster around ear infections — a pattern strongly consistent with a knowledge graph traversal artifact rather than a genuine repurposing signal.
+Pyrazinamide is an anti-tuberculosis drug, originally used for pulmonary tuberculosis and tuberculous meningitis.
+The TxGNN model predicts it may be effective for **infectious otitis media**, but there are currently **no clinical trials** and **no publications** directly supporting this prediction. This is a model-only (L5) signal, and the evidence for the related middle ear conditions is limited to case reports of tuberculous ear infection.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Tuberculosis (first-line therapy, part of HRZE four-drug regimen) |
-| Predicted New Indication | Infectious Otitis Media |
+|------|------|
+| Original Indication | Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis (the license record has no approved indication text) |
+| Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Pyrazinamide is a prodrug that is activated by *M. tuberculosis* pyrazinamidase into its active form, pyrazinoic acid. Pyrazinoic acid disrupts the membrane potential and energy metabolism of *M. tuberculosis* in its semi-dormant, acidic intracellular environment — a mechanism that is highly specific to mycobacteria. Pyrazinamide has no meaningful antibacterial activity against the typical pathogens responsible for infectious otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*), making a direct mechanistic bridge implausible.
+Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is a first-line anti-tuberculosis agent. It is a prodrug that is converted to pyrazinoic acid by mycobacterial pyrazinamidase, so it acts specifically against *Mycobacterium tuberculosis*.
 
-The apparent connection between Pyrazinamide and otitis media stems from a rare and well-documented clinical entity: **tuberculous otitis media**, in which *M. tuberculosis* spreads hematogenously or via the Eustachian tube to the middle ear, producing an atypical form of chronic otitis media (accounting for fewer than 0.1% of all otitis media cases). The literature retrieved across all ear-disease indications (ranks 2–10) describes exactly this scenario — standard anti-TB therapy including pyrazinamide used to treat TB manifesting in the ear. This is not drug repurposing; it is the original tuberculosis indication presenting in an unusual anatomical site.
+The prediction for infectious otitis media is therefore hard to support mechanistically. Pyrazinamide has no activity against the usual causes of otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). The high score most likely reflects the drug's closeness to tuberculous otitis in the knowledge graph, not a real mechanistic link.
 
-This case illustrates a known failure mode of knowledge graph–based prediction: when a drug is strongly connected to a disease node (TB) that in turn has secondary edges to related conditions (ear infections as extrapulmonary TB manifestations), the model can assign high prediction scores to those secondary nodes. The uniform clustering of all 10 top predictions around ear diseases — with TxGNN scores above 99% — is a hallmark signature of this artifact pattern, not a genuine biological repurposing signal.
+The other highly ranked ear-related predictions fall into two groups:
+- **Tuberculous subset only:** Middle ear disease, chronic otitis media and suppurative otitis media have case reports where pyrazinamide was part of standard multidrug anti-TB therapy. This is an on-label use of the drug for extrapulmonary TB, not a new repurposing mechanism.
+- **No plausible mechanism:** Otosalpingitis, non-suppurative otitis media, allergic otitis media, middle ear cholesterol granuloma and infectious otitis interna are driven by non-mycobacterial processes (Eustachian tube dysfunction, allergy, foreign-body reaction). They have no supporting data.
+
+The Lyme disease prediction (rank 9) is a hypothesis only. The idea is that pyrazinamide targets dormant persister cells, and a similar concept has been discussed for *Borrelia*. The retrieved literature, however, concerns dapsone and a general review, not pyrazinamide data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Pyrazinamide in infectious otitis media.
-
-> **Data Quality Alert:** During evidence collection for rank 9 (Lyme disease), trial **NCT05473520** was retrieved. Upon review, this is a Phase 3 trial of adjunctive *doxycycline* as host-directed therapy for **pulmonary tuberculosis** — it does not involve Pyrazinamide as the study drug, has no relation to Lyme disease or otitis media, and represents a retrieval artifact. It must not be counted as supporting evidence for any predicted indication in this report.
+Currently no related clinical trials registered for infectious otitis media or for any of the other top-ranked predictions.
 
 ---
 
 ## Literature Evidence
 
-Currently no literature directly supporting Pyrazinamide as a treatment for infectious otitis media.
-
-> **Contextual Note:** Across related ear-disease indications (ranks 2, 4, 5, 10), a total of 15 publications were retrieved. All describe **tuberculous otitis media** — an extremely rare extrapulmonary TB manifestation. Representative publications include:
+There is no literature for the top prediction (infectious otitis media). The table below shows the most relevant publications retrieved for related predictions, all of which are low-tier evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/) | 2013 | Case Report | Int J Mycobacteriology | Female patient with nasal and middle ear TB confirmed by PCR; treated with rifampicin + isoniazid + **pyrazinamide** (25 mg/kg) for 9 months; no recurrence at 1-year follow-up |
-| [21532520](https://pubmed.ncbi.nlm.nih.gov/21532520/) | 2011 | Case Series | Otology & Neurotology | TB as a rare cause of otitis media; study highlights variable clinical presentation and importance of early detection for treatment outcome |
-| [18852993](https://pubmed.ncbi.nlm.nih.gov/18852993/) | 2008 | Review/Case Series | Brazilian J Otorhinolaryngology | TB is a rare cause of chronic suppurative otitis media; patients present with multiple tympanic membrane perforations, discharge, and progressive hearing loss |
-| [41783873](https://pubmed.ncbi.nlm.nih.gov/41783873/) | 2026 | Case Report | Cureus | Recent case of tuberculous otitis media in low-TB-prevalence region; underscores delayed diagnosis risk and irreversible complications |
-| [12680299](https://pubmed.ncbi.nlm.nih.gov/12680299/) | 2003 | Case Series | Anales Otorrinolaringologicos | 3 cases of tuberculous otitis media; anti-TB medical therapy effective; diagnosis frequently delayed due to resemblance to common otitis media |
+|------|-----|------|------|---------|
+| [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/) | 2013 | Case report | Int J Mycobacteriol | A 55-year-old woman with nasal and middle ear TB was treated with rifampicin, isoniazid and pyrazinamide for 9 months. No recurrence after one year. |
+| [15168420](https://pubmed.ncbi.nlm.nih.gov/15168420/) | 2004 | Case report | Am J Kidney Dis | Tuberculous otitis media in a renal transplant recipient, diagnosed after recurrent chronic otitis media was treated repeatedly with empiric antibiotics. |
+| [41783873](https://pubmed.ncbi.nlm.nih.gov/41783873/) | 2026 | Case report | Cureus | Tuberculous otitis media is rare and often diagnosed late. The report describes a case presenting with otorrhea. |
+| [8011030](https://pubmed.ncbi.nlm.nih.gov/8011030/) | 1994 | Case series | Laryngo-Rhino-Otologie | Twelve patients had tuberculosis first found in the head and neck area, one of them in the middle ear. |
+| [2527907](https://pubmed.ncbi.nlm.nih.gov/2527907/) | 1989 | Review | Infect Dis Clin North Am | A general review of new uses for older antibiotics, including pyrazinamide. It is not specific to ear disease or Lyme disease. |
+| [21439219](https://pubmed.ncbi.nlm.nih.gov/21439219/) | 2011 | Animal study | J Am Assoc Lab Anim Sci | Torticollis occurred in some TB-infected mice, including some on pyrazinamide-containing regimens. Not relevant to human ear disease. |
 
-**All retrieved literature confirms pyrazinamide use within standard TB therapy for a rare TB manifestation — not evidence of independent repurposing.**
+---
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0407 | Pyrazinamide | Not specified | Not specified (registration cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. Label warnings and contraindications were not available for this report.
 
-> Pyrazinamide carries well-established risks that should be considered in any future evaluation: **hepatotoxicity** (dose-dependent, requires liver function monitoring), **hyperuricemia** (with risk of acute gout attacks), and **arthralgia**. Complete TFDA package insert warnings and contraindications data were not available in this evidence pack (Data Gap DG001). Formal Drug-Drug Interaction data was also not retrieved (query returned no results).
+- **Disease associations from the knowledge graph (not label text):** The knowledge graph links pyrazinamide with possible contraindications in liver failure and acute liver failure, liver disease, hepatitis, porphyria (including inherited porphyria and porphyrin metabolism disease), gout, diabetes mellitus, diabetic ketoacidosis, gallbladder disease, peripheral neuropathy and other peripheral nervous system disease, substance abuse or dependence, and slow acetylator status. These should be confirmed against an authoritative label.
+- **Drug Interactions:** 56 interactions were identified. Two are rated Moderate: picosulfuric acid and naltrexone. Others, such as streptomycin, metronidazole, prednisone, amphotericin B, omeprazole, pantoprazole and morphine, have no assigned severity level.
 
 ---
 
@@ -102,17 +109,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN predictions for Pyrazinamide cluster exclusively around ear infections at evidence levels L4–L5, and mechanistic analysis confirms that Pyrazinamide's bactericidal activity is specific to *M. tuberculosis* — it has no activity against the pathogens that cause common infectious otitis media. The retrieved literature confirms this pattern is entirely explained by tuberculous otitis media (a rare TB manifestation), not independent repurposing. Pyrazinamide is additionally not registered in the Philippines market, and no safety data is currently available for a formal risk assessment.
+- The top prediction rests on a model score alone, with no trials or literature. The drug has no plausible activity against common otitis media pathogens.
+- The only supporting evidence is case reports of tuberculous ear infection, which are already covered by pyrazinamide's standard use in TB. In addition, the Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-- Retrieve full MOA and safety data from DrugBank (DB00339) and TFDA package insert to rule out any pleiotropic or immunomodulatory effects not yet characterized
-- Evaluate whether Pyrazinamide's TxGNN predictions should be flagged as a **KG-artifact cluster** to improve pipeline output quality (all top-10 predictions in one disease category with uniform "Hold" outcomes is a strong quality signal)
-- No further clinical evidence collection for ear-disease indications is recommended without a mechanistic rationale independent of its anti-TB activity
-- If future DrugBank review reveals novel non-mycobacterial mechanisms, re-evaluation against a broader set of predicted indications would be warranted
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+- Mechanism of action data and a clear rationale for any non-tuberculous ear indication.
+- The package insert warnings and contraindications from the DOH-FDA Philippines, which are needed for safety screening.
+- If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity.
+- Confirmation of the current Philippines registration status, since the only record is cancelled.
+- Any further exploration of the Lyme disease hypothesis would need laboratory data on pyrazinamide against *Borrelia* first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

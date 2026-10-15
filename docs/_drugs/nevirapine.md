@@ -2,7 +2,7 @@
 layout: default
 title: Nevirapine
 parent: Moderate Evidence (L3-L4)
-nav_order: 248
+nav_order: 250
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,77 +33,68 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) developed for the treatment of HIV-1 infection in humans.
-The TxGNN model predicts it may have potential against **Feline Acquired Immunodeficiency Syndrome (FIV-AIDS)** as its top indication, supported by only **0 clinical trials** and **1 publication** — a single biochemical structural comparison study.
-Importantly, all three top-ranked predictions are either veterinary diseases or research-model conditions rather than conventional human indications, and Nevirapine currently has no registered products in the Philippines.
-
----
+Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI), originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary condition,
+but there are **0 clinical trials** and only **1 relevant publication** (an in vitro biochemical and structural study), so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 Infection (no Philippines registration on record) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | HIV infectious disease; AIDS |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nevirapine is an NNRTI that binds allosterically to HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and the predicted indication involves a related lentivirus, feline immunodeficiency virus (FIV), which also uses a reverse transcriptase.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Nevirapine is an NNRTI class antiretroviral whose efficacy in HIV-1 infection is well established; mechanistically it targets the reverse transcriptase (RT) enzyme, and may in principle be applicable to other lentiviral infections that depend on the same enzyme.
+However, the mechanistic link is weak. FIV reverse transcriptase is generally reported to respond poorly to many NNRTIs because the NNRTI binding pocket differs structurally from that of HIV-1. The one relevant study (a 2023 biochemical and structural comparison of NNRTIs against feline and human immunodeficiency viruses) examined nevirapine, efavirenz and rilpivirine, but the information available does not allow the specific result for nevirapine to be confirmed. The high TxGNN score is a computational prediction, most likely reflecting similarity to the existing HIV indication, and it is not backed by clinical data. This is also a veterinary indication with no direct human clinical relevance.
 
-Feline Immunodeficiency Virus (FIV) causes an immunodeficiency syndrome in cats that is broadly analogous to human HIV-AIDS. Both FIV and HIV-1 belong to the genus *Lentivirus* and depend on reverse transcriptase for replication, which forms the theoretical basis for the TxGNN knowledge-graph prediction.
-
-However, there is a fundamental structural barrier: the NNRTI binding pocket (NNIBP) of FIV RT differs from that of HIV-1 RT at key residues (Y181, K103, and others), significantly reducing the affinity of HIV-1 NNRTIs — including Nevirapine — for FIV RT. The only available publication (PMID 38031646) is a biochemical and structural comparison study; no antiviral activity against FIV has been confirmed in cell-based assays. Additionally, this is a veterinary indication, which falls outside the conventional scope of human drug repurposing.
-
----
+The other top predictions show the same pattern:
+- **Simian immunodeficiency virus infection** (score 99.85%, L4): the literature is preclinical and model-based. Wild-type SIV is naturally resistant to NNRTIs, and the chimeric SHIV viruses carrying HIV-1 reverse transcriptase are used only as research models. No clinical trials exist.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.82%, L5): no trials, no literature, and no identifiable mechanistic link. This is a prediction-only signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-*(Top-ranked indication: Feline Acquired Immunodeficiency Syndrome)*
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro / Structural Biochemistry | Journal of Veterinary Science | Biochemical and structural comparison of HIV NNRTIs — including Nevirapine (NVP) and efavirenz (EFV) — against FIV and HIV RT. Investigates whether NNRTIs approved for HIV could inhibit FIV reverse transcriptase; no confirmed antiviral activity against FIV reported. |
-
----
+|------|-----|------|------|---------|
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | In vitro biochemical/structural study | Journal of Veterinary Science | Compared the NNRTIs nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency viruses to assess their potential for treating FIV infection. The specific result for nevirapine cannot be confirmed from the available information. |
 
 ## Philippines Market Information
 
-Nevirapine currently has **no drug registrations** in the Philippines. No authorization numbers, product names, or approved indications are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0345 | Nevirapine | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (derived from the TxGNN/PrimeKG drug-disease network, not from label text): liver failure, liver disease, drug-induced liver injury, gallbladder disease, chronic hepatitis B virus infection, chronic hepatitis C virus infection, hepatitis C virus infection, exanthem, Stevens-Johnson syndrome, toxic epidermal necrolysis, Lyell syndrome, rhabdomyolysis, and nodular fasciitis. These signals are consistent with known nevirapine concerns about hepatotoxicity and severe skin reactions.
+- **Drug Interactions**: 100 interactions were identified in total. The 20 listed in the compiled data are all rated **Moderate**, including rabeprazole, bupropion, aprepitant, clarithromycin, the corticosteroids (dexamethasone, betamethasone, budesonide, prednisolone, triamcinolone), ondansetron, granisetron, cisapride, naltrexone, saxagliptin, linagliptin, and eliglustat.
 
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three TxGNN top-ranked predictions fall outside the applicable scope of human drug repurposing: the top two are veterinary/non-human primate research conditions where Nevirapine's biological activity is structurally limited or unconfirmed, and the third (a rare genetic neurodevelopmental white matter disorder) has no biological plausibility and is assessed as a model false positive. Evidence is at the preclinical structural-comparison level only (L4), with no cell-based antiviral activity data and zero clinical trials. The drug is also absent from the Philippines market entirely.
+The prediction rests on a computational score and one in vitro study. There are no clinical trials, the predicted indication is veterinary, and FIV (like SIV) is expected to respond poorly to NNRTIs. In the Philippines, the only registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Redirect prediction scope**: Re-run TxGNN with a filter excluding veterinary and non-human primate indications to surface human-relevant repurposing candidates.
-- **FIV antiviral activity confirmation**: If the FIV indication remains of research interest, cell-based antiviral activity assays against FIV are required before any further investment.
-- **MOA and safety data**: Retrieve complete mechanism of action and Philippines-relevant safety/warning information from DrugBank and the package insert (currently data gaps DG001 and DG002).
-- **Regulatory pathway assessment**: If a viable human indication is identified, a full Philippines FDA registration strategy would be needed given zero existing market presence.
+- Confirmation of the nevirapine-specific findings in the 2023 FIV study (PMID 38031646), including potency against FIV reverse transcriptase
+- Mechanism of action data (MOA)
+- Package insert warnings and contraindications from DOH-FDA Philippines, which are needed before any safety screening
+- A clear decision on whether a veterinary indication falls within the scope of this repurposing programme
+- Clarification of the regulatory status of nevirapine in the Philippines, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

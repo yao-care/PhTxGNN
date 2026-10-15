@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Moderate Evidence (L3-L4)
-nav_order: 300
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 303
+evidence_level: L5
 indication_count: 10
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,74 +29,84 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rosuvastatin: From Hypercholesterolemia to Cholesterol-Ester Transfer Protein Deficiency
+# Rosuvastatin: From Lipid and Cardiovascular Disorders to Cholesterol-Ester Transfer Protein Deficiency
 
 ## One-Sentence Summary
 
-Rosuvastatin is a potent HMG-CoA reductase inhibitor, globally recognized for the treatment of hypercholesterolemia and dyslipidemia, though it is currently not registered with the Philippines FDA.
-The TxGNN model predicts it may be effective for **Cholesterol-Ester Transfer Protein (CETP) Deficiency**, with a prediction score of 99.54%.
-Currently, **no dedicated clinical trials** and only **2 case reports** — from mechanistically related but distinct lipid disorders — support this direction, indicating this is a hypothesis-generating signal rather than a validated repurposing candidate.
+Rosuvastatin is a statin that was originally used for lipid disorders such as hypertriglyceridemia, familial hypercholesterolemia and hyperlipoproteinemia, and for atherosclerosis and stroke-related conditions.
+The TxGNN model predicts it may be effective for **cholesterol-ester transfer protein (CETP) deficiency**, but this is a model prediction only, with **0 clinical trials** and **0 publications** found to support it.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypercholesterolemia / Dyslipidemia (globally approved; not registered in Philippines) |
-| Predicted New Indication | Cholesterol-Ester Transfer Protein Deficiency |
+|------|------|
+| Original Indication | Lipid disorders (hypertriglyceridemia, familial hypercholesterolemia, hyperlipoproteinemia), atherosclerosis, stroke and cerebral infarction (from the knowledge graph; the Philippine registration lists no indication text) |
+| Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 99.54% |
-| Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question (Hold) |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Rosuvastatin is a liver-selective, competitive HMG-CoA reductase inhibitor — the enzyme that catalyzes the rate-limiting step in endogenous cholesterol biosynthesis. By blocking this pathway, rosuvastatin reduces hepatic cholesterol output and triggers compensatory upregulation of LDL receptors on hepatocyte surfaces, accelerating LDL-C clearance from the bloodstream. The net effect is an LDL-C reduction of 45–63%, a 20–35% drop in triglycerides, and a modest 5–10% rise in HDL-C, making it the most potent statin currently available and the cornerstone treatment for multiple lipid disorders worldwide.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Rosuvastatin is a statin (an HMG-CoA reductase inhibitor). Its efficacy in lowering LDL cholesterol in lipid disorders is well established, and it may be mechanistically applicable to CETP deficiency.
 
-CETP deficiency is a rare autosomal condition in which the cholesterol ester transfer protein — normally responsible for bidirectional exchange of cholesterol esters and triglycerides between HDL and VLDL/LDL particles — is absent or severely dysfunctional. The resulting lipid phenotype is paradoxically elevated HDL-C with mildly reduced LDL-C. In most carriers, this phenotype is associated with neutral or even favorable cardiovascular outcomes, not a state requiring active lipid-lowering therapy. The proposed mechanistic link to rosuvastatin is therefore constrained: while rosuvastatin could reduce the hepatic cholesterol ester supply available for redistribution, this does not translate into a meaningful therapeutic benefit in patients who already lack functional CETP.
-
-The two identified publications are case reports of ApoA-I deficiency and Hepatic Lipase deficiency — conditions that share metabolic overlap with CETP deficiency (all affecting HDL particle metabolism) but are mechanistically and genetically distinct. The TxGNN prediction most likely captures this network-level lipid metabolism connectivity within the knowledge graph, rather than a validated drug-disease relationship. It is worth noting that other TxGNN predictions for rosuvastatin — particularly **Familial Hypercholesterolemia** (Rank 2, L1 evidence with multiple completed Phase 3 RCTs) and **Hyperlipidemia** (Rank 10, L1 evidence) — reflect rosuvastatin's established therapeutic territory and carry substantially stronger clinical support.
+CETP deficiency raises HDL cholesterol and lowers LDL cholesterol. Statin-driven LDL lowering is therefore biologically plausible, but no retrieved trial or publication tests it. It is also not a clear unmet need for statin therapy, because LDL cholesterol is already low in this condition. The high TxGNN score is best read as a network-based signal that needs experimental confirmation.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials related to Rosuvastatin in cholesterol-ester transfer protein deficiency are registered.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [21122686](https://pubmed.ncbi.nlm.nih.gov/21122686/) | 2010 | Case Report / Literature Review | Journal of Clinical Lipidology | A novel APOA1 nonsense mutation causing complete ApoA-I deficiency in an Iraqi Mandaean family; markedly varied cardiovascular presentation (one sibling with xanthelasmas but minimal cardiac findings) despite identical homozygous genotypes |
-| [22798447](https://pubmed.ncbi.nlm.nih.gov/22798447/) | 2010 | Case Report | BMJ Case Reports | First report measuring CETP activity and mass in a Middle-Eastern male with Hepatic Lipase deficiency; elevated HDL-C coexisted with premature atherosclerosis, highlighting the complexity of HDL function beyond simple concentration |
+Currently no related literature available.
+
+---
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0431 | Rosuvastatin | Not specified | Not specified (registration status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, hypothyroidism, myxedema, congenital hypothyroidism, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury, proteinuria.
+- **Drug Interactions**: 100 interactions are recorded. Examples from the first 20 entries:
+  - **Major**: fenofibrate, atazanavir.
+  - **Moderate**: atorvastatin, ezetimibe, bempedoic acid, amiodarone, paclitaxel, zidovudine, alpelisib, apalutamide, ethanol and others.
+  - **Minor**: levonorgestrel, norethisterone, desogestrel.
+
+For label-based warnings, please refer to the package insert.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question (Hold)**
+**Decision: Hold**
 
 **Rationale:**
-The high TxGNN score reflects lipid metabolism network connectivity in the knowledge graph, but the mechanistic case for treating CETP deficiency with rosuvastatin is weak — the two conditions have opposing lipid phenotypes (rosuvastatin lowers LDL-C and the cholesterol ester pool, while CETP deficiency already results in reduced LDL-C and excess HDL-C), and standard clinical reasoning does not support LDL-lowering therapy as a treatment goal for CETP deficiency. No dedicated clinical trial or direct mechanistic study exists to bridge this gap.
+The prediction rests on the model score alone, with no trials or publications, and the mechanistic case is weak because CETP deficiency already involves low LDL-C. The Philippine registration is also cancelled, so there is currently no marketed product to repurpose locally.
+
+Other predicted indications in the compiled data have much stronger support, namely familial hypercholesterolemia and general hyperlipidemia (L1, multiple completed Phase 3 trials). These largely overlap with rosuvastatin's established uses, so they are on-label rather than true repurposing.
 
 **To proceed, the following is needed:**
-- Clarify the clinical question: is rosuvastatin being considered for a CETP-deficient patient who also has co-existing elevated LDL-C requiring statin therapy, or as a direct intervention for CETP deficiency pathophysiology? These are fundamentally different scenarios.
-- Commission pre-clinical mechanistic studies examining rosuvastatin's effect on cholesterol ester dynamics in CETP-null or CETP-knockdown models.
-- Obtain full MOA documentation from DrugBank to formally characterize pharmacological targets and off-target effects.
-- Obtain Philippines package insert (or equivalent regional label) for complete key warnings, contraindications, and drug interaction data.
-- Prioritize higher-ranked TxGNN predictions with L1 clinical evidence for Philippines market development: **Familial Hypercholesterolemia** (multiple completed Phase 3 RCTs including pediatric populations) and **Hyperlipidemia** (OTC switch data, head-to-head comparator trials) represent far stronger near-term repurposing and market entry opportunities.
+- Any clinical or genetic-epidemiology evidence that statin therapy provides benefit in CETP deficiency.
+- Detailed mechanism of action data.
+- Package insert warnings and contraindications from DOH-FDA Philippines.
+- Confirmation of whether any valid rosuvastatin registration exists in the Philippines, given that the only record is cancelled.
+- A review of the 100 recorded drug interactions, especially the major ones (fenofibrate, atazanavir).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

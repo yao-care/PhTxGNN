@@ -2,7 +2,7 @@
 layout: default
 title: Isoflurane
 parent: Model Prediction Only (L5)
-nav_order: 183
+nav_order: 185
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,37 +29,48 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Isoflurane: From General Anesthesia to Prinzmetal Angina
+# Isoflurane: From General Anaesthesia to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Isoflurane is a volatile halogenated ether, widely used as an inhaled general anesthetic agent for surgical procedures.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina** (vasospastic angina),
-with **0 clinical trials** and **0 publications** currently supporting this specific direction — this prediction rests on model inference alone.
+Isoflurane is a volatile (inhaled) general anaesthetic. The TxGNN model predicts it may be effective for **Prinzmetal angina**, its top-ranked prediction, but **no clinical trials and no publications** support this specific prediction. Of the other predictions, only migraine disorder (12 publications, mostly preclinical) and manic bipolar affective disorder (3 publications, indirect) have any literature.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | General anesthesia (inhaled volatile anesthetic) |
-| Predicted New Indication | Prinzmetal Angina |
+|------|------|
+| Original Indication | Not stated in the Philippines registration record (general anaesthesia is the known use of this drug class) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacological information, Isoflurane is a halogenated volatile anesthetic that acts primarily via potentiation of inhibitory GABA-A receptors and inhibition of excitatory NMDA receptors, producing CNS depression, muscle relaxation, and cardiovascular effects. It is also known to activate ATP-sensitive potassium (K_ATP) channels in vascular smooth muscle.
+Detailed mechanism of action data is not available for this drug. Based on general pharmacology, volatile anaesthetics such as isoflurane inhibit voltage-gated calcium channels and relax vascular smooth muscle. In theory this could counter the coronary vasospasm behind Prinzmetal angina.
 
-The theoretical basis for the Prinzmetal angina prediction lies in Isoflurane's coronary vasodilatory properties — activation of K_ATP channels and nitric oxide (NO) pathways can relax smooth muscle in coronary arteries, which is the same mechanism targeted when treating vasospastic angina (e.g., calcium channel blockers). In Prinzmetal angina, episodic coronary artery spasm causes transient ischemia, and a vasodilatory agent could theoretically abort or prevent such spasms.
+This is a hypothesis only. No trials or literature were found to support it. Isoflurane is a general anaesthetic given by inhalation under monitored conditions, so it cannot be used for long-term management of a chronic condition like vasospastic angina.
 
-However, this prediction carries a critical mechanistic contradiction: Isoflurane is well-documented to induce **coronary steal syndrome** in patients with coronary artery disease, redistributing blood flow away from ischemic myocardium. This dual — and opposing — cardiovascular effect means the net impact on a patient with active coronary vasospasm is unpredictable and potentially dangerous. There is zero clinical or preclinical evidence supporting this use, and the safety profile in ischemic cardiac populations raises significant concern.
+**Other predictions reviewed**
+
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Tourette syndrome | 99.61% | L5 | Prediction only; no supporting data |
+| Manic bipolar affective disorder | 99.57% | L4 | Indirect evidence only (see below) |
+| Trichotillomania | 99.54% | L5 | Prediction only; no supporting data |
+| Dysthymic disorder | 99.27% | L5 | Prediction only; unsuitable for chronic use |
+| Nephrogenic syndrome of inappropriate antidiuresis | 99.09% | L5 | No plausible link (the disease arises from a vasopressin V2 receptor variant) |
+| Migraine disorder | 99.06% | L4 | Plausible preclinical rationale; flagged as a research question |
+
+For **migraine**, inhaled anaesthetics suppress cortical spreading depression, the biological basis of migraine aura (PMID 8665587). Two case reports describe general anaesthesia for status migrainosus. This is the most mechanistically plausible of the predictions, but practical use would be limited to refractory, hospital-based settings, and recurrence after emergence would need to be addressed.
+
+For **bipolar mania**, the only relevant human data is a small 1993 open-label study comparing burst-suppression isoflurane anaesthesia with electroconvulsive therapy in severe depression (PMID 8462536). This does not directly concern mania.
 
 ---
 
@@ -71,21 +82,58 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top prediction (Prinzmetal angina). The tables below show the most relevant publications for the two predictions that have some.
+
+**Migraine disorder (selected)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8665587](https://pubmed.ncbi.nlm.nih.gov/8665587/) | 1996 | Preclinical | Cephalalgia | Inhaled anaesthetics inhibit cortical spreading depression, with relevance to migraine |
+| [26323741](https://pubmed.ncbi.nlm.nih.gov/26323741/) | 2015 | Case report | Braz J Anesthesiol | Status migrainosus treated with general anaesthesia (propofol/isoflurane act on GABA-A receptors) |
+| [26363696](https://pubmed.ncbi.nlm.nih.gov/26363696/) | 2015 | Case report | Rev Bras Anestesiol | Same case as above, published in another language |
+| [17267580](https://pubmed.ncbi.nlm.nih.gov/17267580/) | 2007 | Preclinical | J Pharmacol Exp Ther | NMDA receptor antagonists suppress cortical spreading depression in rats |
+| [40764901](https://pubmed.ncbi.nlm.nih.gov/40764901/) | 2025 | Preclinical | J Headache Pain | The CGRP antagonist atogepant does not alter spreading depression susceptibility in rats |
+| [27122032](https://pubmed.ncbi.nlm.nih.gov/27122032/) | 2016 | Preclinical | J Neurosci | Susceptibility of the primary sensory cortex to spreading depolarizations |
+
+The remaining migraine papers are preclinical migraine-model studies (CGRP, nitric oxide, topiramate, cannabinoids, passive smoking). They do not test isoflurane as a treatment.
+
+**Manic bipolar affective disorder**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8462536](https://pubmed.ncbi.nlm.nih.gov/8462536/) | 1993 | Open-label clinical study (12 patients) | Eur J Anaesthesiol | Burst-suppression isoflurane anaesthesia and ECT both markedly improved severe, treatment-refractory depression |
+| [7502646](https://pubmed.ncbi.nlm.nih.gov/7502646/) | 1995 | Case report | AANA J | Differential diagnosis of malignant hyperthermia in a patient with manic-depressive illness; not an efficacy study |
+| [18930636](https://pubmed.ncbi.nlm.nih.gov/18930636/) | 2008 | Animal study | Psychiatry Res | FDG-PET in a rat model of mania; isoflurane used only as the anaesthetic for imaging |
 
 ---
 
 ## Philippines Market Information
 
-Isoflurane has no registered products with the FDA Philippines. No authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0263 | Isoflurane | Not recorded | Not recorded (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications (from the TxGNN knowledge graph, not label text)**
 
-> **Note:** Safety data (key warnings, contraindications, and drug interactions) was not retrievable from available sources at the time of this report. Given Isoflurane's known cardiovascular risk profile — particularly coronary steal syndrome in ischemic heart disease — consultation of the full prescribing information is essential before any off-label exploration.
+The knowledge graph links isoflurane with the following conditions:
+- Malignant hyperthermia of anaesthesia and exercise-induced malignant hyperthermia
+- Duchenne, Becker and other muscular dystrophies
+- Liver disease and gallbladder disease
+- Hypotensive disorders
+
+**Drug Interactions**
+
+38 interactions were identified. The main ones are:
+- **Major:** Epinephrine
+- **Moderate:** Morphine, Opium
+
+The remaining interactions have no severity grade recorded. They include atropine, hydrocortisone, dexamethasone, mannitol, omeprazole, pantoprazole, ondansetron, metoclopramide and metronidazole, among others.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ---
 
@@ -94,15 +142,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.67%) to Prinzmetal angina, but this is a pure model signal with no clinical trial, observational study, or published literature to support it. Moreover, the mechanistic rationale is internally contradictory — Isoflurane may both relax and redistribute coronary blood flow — introducing a plausible safety hazard rather than a therapeutic opportunity.
+- The top prediction (Prinzmetal angina) rests on model score alone (L5), with no trials or publications.
+- Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical.
+- It has no valid registration in the Philippines.
+- Migraine (refractory or status migrainosus) is the only prediction with a plausible mechanism and any clinical signal, but that signal is two case reports of one case. It is better treated as a research question than a development candidate.
 
 **To proceed, the following is needed:**
-
-- **MOA data**: Retrieve full DrugBank mechanism-of-action and pharmacodynamics data for Isoflurane to properly assess the K_ATP / NO pathway contribution versus coronary steal risk
-- **Safety data**: Obtain full package insert warnings and contraindications (FDA Philippines / originator label) to evaluate cardiovascular risk in non-surgical settings
-- **Preclinical evidence**: Conduct a targeted literature review on Isoflurane + coronary vasospasm / coronary artery spasm in animal models before any clinical hypothesis is formed
-- **Philippines regulatory path**: Since Isoflurane is not registered in the Philippines, any repurposing effort would need to address market registration alongside indication expansion
-- **Alternative indication consideration**: Within this Evidence Pack, **Migraine Disorder** (rank 7, L4, 12 publications — including direct mechanistic studies on CSD suppression and 2 case reports of general anesthesia for status migrainosus) represents a substantially stronger repurposing signal and may be a more actionable research question
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Detailed mechanism of action data (for example from DrugBank)
+- For migraine: controlled clinical data in refractory or status migrainosus, with a risk-benefit assessment and a plan for post-emergence recurrence
+- Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

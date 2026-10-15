@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulfacetamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 317
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 321
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sulfacetamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,81 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Sulfacetamide: From Bacterial Conjunctivitis to Otitis Externa
+# Sulfacetamide: From Bacterial and Inflammatory Skin/Eye Conditions to Postinfectious Vasculitis
 
 ## One-Sentence Summary
 
-Sulfacetamide is a topical sulfonamide antibiotic historically used for bacterial conjunctivitis and superficial ocular surface infections.
-While the TxGNN model's highest-scoring prediction is **Postinfectious Vasculitis** (rank #1), that candidate carries no supporting evidence and a mechanistic safety concern — sulfonamides can themselves trigger drug-induced vasculitis.
-**Otitis Externa** (TxGNN rank #3, score 99.99%) is the highest-evidence repurposing candidate in this pack, supported by **2 double-blind RCTs** from the 1970s–1980s; this report focuses on Otitis Externa as the most actionable opportunity.
-
----
+Sulfacetamide is a sulfonamide antibacterial, originally used for conditions such as acne, seborrheic dermatitis, conjunctivitis and uveitis.
+The TxGNN model predicts it may be effective for **postinfectious vasculitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial conjunctivitis / topical antibacterial (not registered in Philippines) |
-| Predicted New Indication | Otitis Externa |
+| Original Indication | Acne, seborrheic dermatitis, conjunctivitis, uveitis, amebiasis and others (from the knowledge graph; no approved indication text in the Philippines registration) |
+| Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Sulfacetamide is a sulfonamide-class bacteriostatic antibiotic. Sulfonamides work by competitively inhibiting dihydropteroate synthase (DHPS), blocking bacterial folate synthesis and halting DNA replication in susceptible organisms. This mechanism is effective against the gram-positive and gram-negative species most commonly responsible for external ear canal infections, including *Staphylococcus aureus*, *Streptococcus* species, and some *Pseudomonas* strains.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Sulfacetamide is generally known as a bacteriostatic sulfonamide that inhibits bacterial dihydropteroate synthase, which explains its use in superficial bacterial infections of the skin and eye.
 
-Otitis externa is primarily a bacterial (and occasionally fungal) infection of the external auditory canal — a moist, closed surface directly accessible to topical antimicrobial therapy. This delivery context aligns exactly with sulfacetamide's established ophthalmic use: both the conjunctival sac and the ear canal are topically accessible surfaces where systemic absorption is unnecessary. The same bacteriostatic mechanism that clears conjunctivitis can plausibly suppress bacterial overgrowth in the ear canal.
+Postinfectious vasculitis, however, is an immune-mediated process that follows an infection rather than an active bacterial infection itself. Antibacterial activity therefore gives no clear mechanistic rationale. The prediction most likely reflects proximity in the knowledge graph to the drug's infection-related indications, not a demonstrated biological link.
 
-Historical clinical practice confirms this rationale. Sodium Sulamyd 30% solution (a sulfacetamide preparation) was used for otitis externa as early as the 1950s. Subsequently, combination ear drops containing trimethoprim-sulphacetamide-polymyxin B (TSP) were evaluated in randomised trials in the 1970s–1980s, demonstrating efficacy superior to trimethoprim-polymyxin alone and comparable to gentamicin. Detailed MOA data was not available from DrugBank in this evidence pack; the above mechanistic description draws on established pharmacological knowledge for sulfonamide-class antibiotics.
-
----
+Other lower-ranked predictions show the same pattern. Several are post-infectious or vague categories (post-bacterial disorder, post-infectious syndrome). Otitis externa and punctate epithelial keratoconjunctivitis are plausible by analogy to topical antibacterial use, but have no supporting evidence. For infection-related hemolytic uremic syndrome, antibiotics are generally not recommended, which is a potential concern rather than a rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for Sulfacetamide in otitis externa.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|------|---------|
-| [6269476](https://pubmed.ncbi.nlm.nih.gov/6269476/) | 1981 | RCT (Double-Blind) | Annales d'oto-laryngologie | TSP (trimethoprim-sulphacetamide-polymyxin B) vs TP (trimethoprim-polymyxin B) ear drops in 68 patients with otitis externa, otorrhoea, or mastoid infections: TSP achieved 88.6% success vs 60.6% for TP (statistically significant) |
-| [207210](https://pubmed.ncbi.nlm.nih.gov/207210/) | 1978 | RCT (Double-Blind) | Annales d'oto-laryngologie | TSP ear drops vs gentamicin ear drops in 100 otorrhoea cases (external otitis, perforated otitis media, mastoid/postoperative infections): TSP 84% positive results (42/50), gentamicin 80% (40/50) — non-inferior performance |
-| [13095457](https://pubmed.ncbi.nlm.nih.gov/13095457/) | 1953 | Case Series | Eye, Ear, Nose & Throat Monthly | Sodium Sulamyd 30% solution applied directly to otitis externa and chronic otitis media; earliest documented use of sulfacetamide as an ear preparation |
-| [14867160](https://pubmed.ncbi.nlm.nih.gov/14867160/) | 1951 | Case Report | Vestnik Otorinolaringologii | Sulfacyl-sodium (sodium sulfacetamide) in chronic suppurative otitis media and external auditory canal inflammation; early Russian-language clinical documentation |
+For the top-ranked prediction (postinfectious vasculitis), currently no related literature is available.
 
----
+For lower-ranked predictions, two papers were retrieved. Neither supports efficacy for the predicted indication:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3157322](https://pubmed.ncbi.nlm.nih.gov/3157322/) | 1985 | Case report (adverse event) | American Journal of Ophthalmology | An 8-year-old boy developed erythema multiforme major after topical sodium sulfacetamide for conjunctivitis. This is a safety signal, not evidence of benefit (linked to the exposure keratitis prediction). |
+| [18561612](https://pubmed.ncbi.nlm.nih.gov/18561612/) | 2007 | Review/Observational | Annales Academiae Medicae Stetinensis | Describes Demodex as a cause of chronic marginal blepharitis. Sulfacetamide does not appear to have been evaluated (linked to the parasitic eyelid infestation prediction). |
 
 ## Philippines Market Information
 
-Sulfacetamide is currently **not registered** with the Philippine Food and Drug Administration. No marketing authorizations are on record for any dosage form or indication.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0464 | Sulfacetamide | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge graph associations, not package insert text):** The graph links sulfacetamide to a broad list of conditions, including:
+  - Metabolic and blood disorders: G6PD deficiency, porphyria, hematologic disease, diabetes mellitus, diabetic ketoacidosis, hyperthyroidism
+  - Organ disease: kidney disease, liver disease, gallbladder disease, heart disease, coronary artery disease, hypertension
+  - Eye conditions: open-angle and angle-closure glaucoma, ocular hypertension, herpes simplex virus keratitis
+  - Skin and other conditions: dermatitis, exanthem, benign prostatic hyperplasia
+  
+  These should be verified against an authoritative label.
+- **Adverse event signal:** A published case report (PMID 3157322) describes erythema multiforme major after topical sulfacetamide use in a child.
+- **Drug interactions:** No interaction records were found.
 
-**Additional safety signal identified in the literature search:** A case report (PMID [3157322](https://pubmed.ncbi.nlm.nih.gov/3157322/), *American Journal of Ophthalmology*, 1985) documented **erythema multiforme major** in a pediatric patient following topical sodium sulfacetamide administration for conjunctivitis. The patient had no documented sulfonamide allergy, and prior systemic TMP-SMX exposure had been uneventful. This highlights that topical sulfonamides can trigger severe systemic hypersensitivity reactions — sulfonamide allergy history must be explicitly screened before use.
-
----
+Please refer to the package insert for full warnings and precautions.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Two double-blind RCTs demonstrate that sulphacetamide-containing ear drops achieve 84–89% clinical success in otitis externa — comparable to gentamicin and statistically superior to trimethoprim-polymyxin B alone. The mechanistic rationale is direct and consistent with sulfacetamide's established topical antibacterial use. However, sulfacetamide was tested as part of the TSP combination (not as a standalone agent), both pivotal trials are over 40 years old, and the drug is not currently registered in the Philippines.
+The prediction is supported only by the model score, with no clinical trials or literature, and no clear mechanistic link between an antibacterial sulfonamide and an immune-mediated condition. The Philippines registration is cancelled, and package insert safety information is unavailable.
 
 **To proceed, the following is needed:**
-
-- Retrieve complete MOA and safety data from DrugBank (DB00634) to fill Data Gaps DG001 and DG002
-- Confirm whether standalone sulfacetamide otic preparations have been studied in modern trials; commission a targeted systematic review if not
-- Benchmark against current Philippine standard-of-care for otitis externa (fluoroquinolone ear drops such as ciprofloxacin/ofloxacin) to establish a non-inferiority target
-- Assess Philippines FDA regulatory pathway for a new topical otic formulation registration
-- Design mandatory sulfonamide hypersensitivity screening protocol before any clinical application, given the erythema multiforme signal
-- Clarify whether TSP combination synergy is essential or if sulfacetamide alone achieves equivalent efficacy — this determines whether a monotherapy or fixed-dose combination should be developed
+- Mechanism of action data (for example from DrugBank) to assess any biological link to vasculitis
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- A literature and trial search specific to sulfacetamide and postinfectious vasculitis
+- Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes
+- If any further work is pursued, a review of the more clinically plausible ocular and otic predictions (for example otitis externa, punctate epithelial keratoconjunctivitis), with attention to the erythema multiforme safety signal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

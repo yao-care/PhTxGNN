@@ -2,7 +2,7 @@
 layout: default
 title: Artemether
 parent: Model Prediction Only (L5)
-nav_order: 28
+nav_order: 30
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artemether: From Malaria Treatment to Acquired Angioedema
+# Artemether: From Antimalarial Use to Acquired Angioedema
 
 ## One-Sentence Summary
 
-Artemether is a lipid-soluble artemisinin derivative, used as the backbone of artemisinin-based combination therapy (ACT) — most notably artemether-lumefantrine (Coartem) — and is globally established for treating uncomplicated and severe malaria caused by *Plasmodium falciparum*.
-The TxGNN model ranks **Acquired Angioedema** as its top novel predicted indication, with a score of 99.90%;
-however, **no clinical trials** and **no published literature** currently support this repurposing direction, placing it at the lowest evidence tier.
-
----
+Artemether is an artemisinin-class antimalarial. The data compiled for this report do not record an approved indication in the Philippines.
+The TxGNN model predicts it may be effective for **acquired angioedema**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Malaria (*Plasmodium falciparum* and other species) |
-| Predicted New Indication | Acquired Angioedema |
+|------|------|
+| Original Indication | Not recorded in the Philippines license data (antimalarial by drug class) |
+| Predicted New Indication | Acquired angioedema |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on known pharmacology, Artemether is a methyl ether derivative of dihydroartemisinin. Its core antimalarial activity stems from the endoperoxide bridge reacting with intraparasitic ferrous heme iron (Fe²⁺) to generate reactive oxygen species (ROS) and carbon-centered radicals, which selectively alkylate parasite proteins — including PfATP6 (a sarcoplasmic/endoplasmic reticulum Ca²⁺-ATPase) and histone proteins — disrupting membrane integrity and inducing oxidative death in asexual *P. falciparum* stages (trophozoites and schizonts). Beyond its antiparasitic activity, preclinical literature suggests that artemisinin-class compounds can also suppress NF-κB signaling and modulate complement activation.
+Currently, detailed mechanism of action data is not available in the compiled data. Artemether belongs to the artemisinin class. Its efficacy in malaria is well established, with the endoperoxide bridge generating reactive radicals inside the parasite.
 
-Acquired angioedema is mechanistically driven by deficiency or dysfunction of C1-inhibitor (C1-INH), which leads to uncontrolled activation of the contact pathway, excessive kallikrein activity, and accumulation of bradykinin — ultimately causing episodic, self-limiting subcutaneous or submucosal edema. This pathway is pharmacologically distinct from any established target of artemether.
-
-The proposed mechanistic hypothesis linking the two involves: artemether's NF-κB inhibitory activity → reduced downstream pro-inflammatory mediators (IL-1β, TNF-α) → theoretical attenuation of vascular permeability; and a secondary hypothesis that artemisinin compounds may inhibit Factor XII or kallikrein-kinin pathway components. Both hypotheses remain entirely unvalidated experimentally. The high TxGNN score most likely reflects broad "inflammation" node connectivity within the knowledge graph rather than a disease-specific mechanistic link to acquired angioedema.
-
----
+No mechanistic link to acquired angioedema is established. The high TxGNN score (0.999) is a knowledge-graph prediction only. A speculative rationale could be the anti-inflammatory or immunomodulatory effects reported preclinically for artemisinins. Nothing in the compiled data supports it, and no trials or publications were identified. The prediction should be treated as a hypothesis, not as evidence of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Artemether in acquired angioedema.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Artemether in acquired angioedema.
-
----
+Currently no related literature available.
 
 ## Philippines Market Information
 
-Artemether is not currently registered with the FDA Philippines. No product authorizations are on record (total registrations: 0).
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0026 | Artemether (single-ingredient) | Cancelled |
 
----
+No dosage form or approved indication text is recorded for this registration. There is currently no valid marketing authorization in the Philippines.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from drug-disease edges, not label text): long QT syndrome, familial long QT syndrome, torsades de pointes, and potassium deficiency disease. These point to QT-prolongation risk and need confirmation against the product label.
+- **Drug Interactions**: 95 interactions were identified.
+  - **Major**: clarithromycin, cobicistat, amprenavir, apalutamide, atazanavir, boceprevir.
+  - **Moderate (examples)**: dexamethasone, miconazole, deferasirox, bosentan, brigatinib, fostamatinib.
 
----
+Please refer to the package insert for label warnings and contraindications, which were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported by computational graph inference alone (L5); there is no clinical trial, no published literature, and no validated mechanistic pathway connecting artemether to acquired angioedema's core pathophysiology (C1-INH deficiency → bradykinin excess). The drug is also not registered in the Philippines, adding an additional regulatory barrier.
+Acquired angioedema is supported only by a model prediction (L5), with no trials, no literature, and no plausible documented mechanism. The only Philippines registration is cancelled, and QT-related safety signals exist.
+
+Other predictions in the same data set (*Plasmodium falciparum* malaria and malaria) have L1 evidence from many completed trials and reviews. These reflect established antimalarial use (mostly artemether-lumefantrine) rather than true repurposing. If this drug is pursued, they are the better-supported candidates and should be assessed separately.
 
 **To proceed, the following is needed:**
-- In vitro mechanistic studies to determine whether artemether or its active metabolite dihydroartemisinin affects C1-INH activity, Factor XII activation, or kallikrein-kinin pathway components
-- A systematic literature review on artemisinin-class compounds and complement/bradykinin system interactions
-- Animal model validation (e.g., C1-INH-knockout or bradykinin-induced edema models) before any human studies
-- Full safety characterization relevant to the acquired angioedema population, including interactions with current standard-of-care agents (C1-INH concentrates, icatibant, lanadelumab)
-- Philippines FDA registration strategy if preclinical findings prove favorable
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application.
+- Preclinical or mechanistic evidence linking artemether to bradykinin-mediated or acquired angioedema
+- Package insert warnings and contraindications, particularly QT-prolongation guidance
+- Mechanism of action data from DrugBank
+- Clarification of the regulatory status after the cancelled registration, and of any available dosage forms
+- A QT and interaction risk assessment for any proposed new-indication population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

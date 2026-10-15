@@ -2,7 +2,7 @@
 layout: default
 title: Leucovorin
 parent: Model Prediction Only (L5)
-nav_order: 200
+nav_order: 202
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,82 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Leucovorin: From Methotrexate Rescue to Primary Hyperoxaluria
+# Leucovorin: From Megaloblastic Anemia to Primary Hyperoxaluria
 
 ## One-Sentence Summary
 
-Leucovorin (folinic acid) is the metabolically active, reduced form of folic acid, clinically established as a rescue agent following high-dose methotrexate therapy, a modulator in 5-FU–based chemotherapy regimens, and a treatment for folate deficiency states.
-The TxGNN model predicts it may be effective for **Primary Hyperoxaluria**, yet this direction is supported by **0 clinical trials** and **0 publications** — the prediction rests entirely on knowledge-graph inference.
-Evidence level is **L5**; this candidate requires substantial preclinical work before any clinical consideration.
-
----
+Leucovorin (folinic acid) is a reduced folate originally used for megaloblastic anemia.
+The TxGNN model predicts it may be effective for **primary hyperoxaluria**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Methotrexate rescue; 5-FU potentiation in colorectal cancer; folate deficiency |
-| Predicted New Indication | Primary Hyperoxaluria |
+|------|------|
+| Original Indication | Megaloblastic anemia |
+| Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on established pharmacology, Leucovorin (5-formyl-tetrahydrofolate, 5-formyl-THF) enters the active tetrahydrofolate (THF) pool directly, bypassing the dihydrofolate reductase (DHFR) step that is blocked by methotrexate. It supports one-carbon transfer reactions central to thymidylate synthesis, purine biosynthesis, and amino acid interconversion — most notably the serine ↔ glycine equilibrium catalyzed by serine hydroxymethyltransferase (SHMT).
+Currently, detailed mechanism of action data is not available. Based on known information, leucovorin is a reduced folate that acts as a cofactor in one-carbon metabolism and bypasses dihydrofolate reductase. Its use in megaloblastic anemia is established, but a mechanistic link to primary hyperoxaluria is not supported by the data compiled for this report.
 
-The proposed mechanistic link to **Primary Hyperoxaluria Type 1 (PH1)** is indirect and speculative. The hypothesized pathway runs: Leucovorin → replenishment of active folate → enhanced SHMT activity → increased serine→glycine flux → theoretically elevated glyoxylate-to-glycine conversion → reduced accumulation of oxalate precursors. However, the rate-limiting defect in PH1 is loss-of-function in **AGXT** (alanine:glyoxylate aminotransferase), an enzyme whose cofactor is pyridoxal-5-phosphate (vitamin B6), not folate. There is no direct biochemical connection between Leucovorin supplementation and AGXT activity or glyoxylate detoxification. Biological plausibility is rated **low**.
+Primary hyperoxaluria is an inherited disorder of glyoxylate metabolism (AGXT, GRHPR, HOGA1 defects) that causes oxalate overproduction. A folate-related connection is conceivable only through vitamin B6 (pyridoxine)-dependent AGT function or general one-carbon metabolism, and this is speculative. The high TxGNN score is a model output only and has no clinical or literature corroboration.
 
-TxGNN most likely inferred this association via graph edges linking "folate metabolism ↔ one-carbon metabolism ↔ amino acid metabolism" within the knowledge graph — a path that is topologically adjacent but mechanistically distal from PH1 pathophysiology. The standard of care for PH1 already includes pyridoxine (B6) and, for severe cases, Lumasiran (an RNA interference therapy targeting LDHA/HOGA1), which holds regulatory approval. Leucovorin offers no apparent advantage over these established agents in this disease context.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+**A second prediction worth noting:** *congenital intrinsic factor deficiency* (score 99.34%, also L5, Hold). It has a more plausible rationale, because leucovorin is already used in megaloblastic anemia and this condition produces a similar blood picture. However, leucovorin does not correct vitamin B12 deficiency itself and may mask hematologic signs while neurological damage progresses. Standard care is parenteral B12 replacement. This prediction is also unverified.
 
 ## Philippines Market Information
 
-Leucovorin is currently **not registered** in the Philippines (FDA Philippines). No active drug licenses were identified in the regulatory database for this candidate.
-
-> **Note:** The absence of a Philippines registration means local pharmacovigilance data, approved labeling, and physician familiarity are unavailable. Any future clinical program would require de novo regulatory engagement with the FDA Philippines.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0282 | Leucovorin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindications** (from drug–disease contraindication links, not label text): vitamin B12 deficiency and pernicious anemia. Folate can correct the anemia while neurological damage from B12 deficiency continues.
+- **Drug Interactions**: 100 interactions were found in the DDInter database. Those with a graded severity:
+  - Pancrelipase: Moderate
+  - Sulfasalazine: Minor
+  
+  Many others (e.g., calcitriol, pantoprazole, glimepiride, mesalazine, doxycycline, metformin, omeprazole) have no assigned severity level.
 
-> Safety data (key warnings, contraindications, and drug–drug interactions) were not retrievable from available sources at the time of this report. Leucovorin is generally regarded as well-tolerated, but clinically important interactions with antifolate agents (methotrexate, trimethoprim, pyrimethamine) and antiepileptics (phenobarbital, phenytoin) have been documented in international prescribing information and should be reviewed before any use.
-
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a numerically high TxGNN score (99.41%), the proposed mechanism connecting Leucovorin to primary hyperoxaluria is biochemically distant — the PH1 defect lies in a B6-dependent enzyme (AGXT) with no direct folate dependency — and zero clinical or preclinical studies support this repurposing direction. Approved targeted therapies already exist for PH1, raising the bar for any new entrant.
+The prediction is supported only by the model score (L5). There are no clinical trials or publications, the mechanistic link is speculative, and the only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Preclinical validation**: In vitro/in vivo studies in AGXT-deficient models to test whether folate supplementation measurably reduces glyoxylate accumulation or urinary oxalate levels
-- **MOA documentation**: Query DrugBank API (DB00650) to obtain complete mechanism of action, pharmacokinetic parameters, and toxicity profile
-- **Regulatory package**: Download Philippines FDA package insert (or equivalent international SmPC) to populate key warnings, contraindications, and DDI sections — currently all blocking data gaps
-- **Comparative landscape review**: Map Leucovorin against current PH1 standard of care (pyridoxine, Lumasiran, conservative dietary measures, dialysis/liver transplant for end-stage disease) to identify any plausible adjunctive or niche role
-- **Second prediction consideration**: The second TxGNN-ranked indication — **Congenital Intrinsic Factor Deficiency** (score 99.34%) — carries a more coherent mechanistic rationale (methylfolate trap bypass) but poses a documented clinical safety risk (masking of B12-dependent neurological deterioration). If resources allow, this indication warrants a parallel preclinical safety assessment before the primary hyperoxaluria pathway is pursued.
+- Mechanism of action data (e.g., from DrugBank)
+- Literature and trial searches on folate/one-carbon metabolism in primary hyperoxaluria
+- Package insert warnings and contraindications
+- Confirmation of whether any valid Philippines registration exists or re-registration is feasible
+- For congenital intrinsic factor deficiency, a review of the risk of masking B12 deficiency and of how leucovorin would fit alongside standard B12 therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

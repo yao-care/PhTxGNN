@@ -2,7 +2,7 @@
 layout: default
 title: Megestrol Acetate
 parent: High Evidence (L1-L2)
-nav_order: 218
+nav_order: 220
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,35 +29,37 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Megestrol Acetate: From Cancer Cachexia to Uterine Corpus Endometrial Carcinoma
+# Megestrol Acetate: From Endometrial Carcinoma to Uterine Corpus Endometrial Carcinoma
 
 ## One-Sentence Summary
 
-Megestrol acetate is a synthetic progestogen used globally for cancer-related cachexia and anorexia, and as a second-line hormone therapy for advanced breast cancer. The TxGNN model predicts it may be effective for **Uterine Corpus Endometrial Carcinoma**, with **3 clinical trials** currently supporting this direction. No published literature was retrieved specifically for this indication pair.
+Megestrol acetate is a synthetic progestin (hormonal agent) that is already linked to endometrial carcinoma as its original indication.
+The TxGNN model predicts it may be effective for **uterine corpus endometrial carcinoma**. This is essentially the same disease family as the original indication, so it is not true repurposing.
+Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publications** specific to this prediction support it.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Cancer-related cachexia/anorexia; second-line breast cancer hormone therapy (global use; not registered in the Philippines) |
-| Predicted New Indication | Uterine Corpus Endometrial Carcinoma |
+|------|------|
+| Original Indication | Endometrial carcinoma (from the knowledge graph; the local registration lists no indication text) |
+| Predicted New Indication | Uterine corpus endometrial carcinoma |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L2 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Megestrol acetate is a potent synthetic progestogen that exerts its anti-tumor effect by binding and activating the progesterone receptor (PR). This competitively blocks estrogen's proliferative signaling in the endometrium, downregulates estrogen receptor (ER) expression, and triggers differentiation and apoptosis in endometrial cancer cells. This is precisely the mechanism exploited in fertility-preserving hormonal treatment for early-stage endometrial carcinoma, and high-dose progestogen therapy (160–320 mg/day) has demonstrated clinical responses in endometrioid adenocarcinoma patients.
+Detailed mechanism of action data is not available. Based on known information, megestrol acetate is a synthetic progestin. It is thought to act through progesterone receptor signaling, promoting differentiation and suppressing proliferation of hormone-sensitive endometrial tumour cells.
 
-Uterine corpus endometrial carcinoma — particularly the endometrioid adenocarcinoma subtype — is a hormone-driven malignancy with characteristically high PR expression. In patients who wish to preserve fertility and whose tumors are confined to the endometrium, progestogen-based therapy represents the internationally accepted approach. Megestrol acetate's receptor-mediated mechanism aligns directly with the biology of this tumor type, making the TxGNN prediction mechanistically sound rather than merely associative.
+Endometrial carcinoma and uterine corpus endometrial carcinoma describe essentially the same disease, so the model's prediction mainly reflects the drug's existing association with this cancer. The hormonal rationale is well supported. A randomized Phase 2 trial has also tested megestrol-containing hormonal therapy in advanced or recurrent disease.
 
-International clinical guidelines (NCCN, ESMO, JSOG) explicitly list high-dose progestogens — with megestrol acetate as the prototype agent — as the primary therapeutic option for fertility-sparing treatment in Stage IA G1–G2 endometrioid carcinoma. The TxGNN prediction therefore reflects an indication that is already established in multiple international markets, underscoring its clinical plausibility even though it remains unregistered in the Philippines.
+This prediction should be read as confirmation of an existing use, not as a new therapeutic area.
 
 ---
 
@@ -65,38 +67,38 @@ International clinical guidelines (NCCN, ESMO, JSOG) explicitly list high-dose p
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | RCT comparing continuous vs. sequential megestrol acetate for endometrial intraepithelial neoplasia and atypical endometrial hyperplasia; directly evaluates megestrol acetate; terminated early due to poor accrual — insufficient statistical power to draw conclusions |
-| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Temsirolimus alone vs. temsirolimus + hormonal therapy (including megestrol acetate + tamoxifen) in advanced or recurrent endometrial carcinoma; completed 2017; provides evidence for the hormonal therapy component in combination regimens |
-| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | PD-1 inhibitor combined with progesterone vs. progesterone alone in early-stage endometrial cancer for fertility preservation; uses progesterone rather than megestrol acetate directly, but the progestogenic mechanism is closely related; limited phase and unknown status reduces evidentiary value |
+| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Randomized trial of temsirolimus alone versus temsirolimus plus hormonal therapy (megestrol acetate and tamoxifen) in advanced, persistent or recurrent endometrial carcinoma. Results are not summarized in the data compiled for this report. |
+
+Megestrol is part of a combination regimen in this trial, so its individual effect cannot be separated out.
 
 ---
 
-## Literature Evidence
+## Philippines Market Information
 
-Currently no related literature available.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0306 | Megestrol | Cancelled |
+
+Dosage form and approved indication are not recorded for this registration. No valid single-ingredient or combination registrations exist at present.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Hormone therapy (Progestogen class) — receptor-mediated anti-tumor mechanism; not a conventional DNA-damaging cytotoxic agent |
-| Myelosuppression Risk | Low — progestogen therapy does not cause clinically significant myelosuppression |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | Adrenal function (serum cortisol; secondary adrenal suppression reported with long-term high-dose use), fasting blood glucose (risk of glucose intolerance), body weight, clinical signs of thromboembolism |
-| Handling Protection | Standard pharmaceutical handling; cytotoxic drug handling precautions not required |
+|------|------|
+| Cytotoxicity Classification | Hormonal (progestin) therapy, not a conventional cytotoxic agent |
+| Myelosuppression Risk | Generally low; please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Generally low; please refer to the package insert warnings and precautions |
+| Monitoring Items | Blood glucose, blood pressure, liver and renal function, and signs of adrenal suppression (reported with megestrol therapy in the literature) |
+| Handling Protection | Please refer to the package insert warnings and precautions, and follow local institutional policy |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-Based on published literature referenced in this Evidence Pack:
-
-- **Secondary adrenal suppression**: Long-term high-dose megestrol acetate (≥160 mg/day) has been associated with clinically significant secondary adrenal insufficiency in cancer patients ([PMID 10491532](https://pubmed.ncbi.nlm.nih.gov/10491532/)). Adrenal function monitoring is advisable for treatment courses exceeding 3 months, and dose tapering rather than abrupt discontinuation should be considered.
-- **Hemostatic effects / Thromboembolism risk**: High-dose megestrol acetate (160–320 mg/day) has been shown to alter coagulation parameters in gynecologic and breast cancer patients ([PMID 11727356](https://pubmed.ncbi.nlm.nih.gov/11727356/)). Thromboembolism risk should be formally assessed prior to initiation, especially in patients with immobility, prior VTE, or obesity.
+- **Disease associations from the knowledge graph (not label text):** Megestrol is linked to potential contraindications or cautions in hypertension, kidney disease, liver disease, gallbladder disease, hyperglycemia, diabetes mellitus and diabetic ketoacidosis, adrenocortical insufficiency (including Addison disease), pyoureter, male hypogonadism, eunuchism, premature menopause and androgen insensitivity syndrome. These need confirmation against the official label.
+- **Drug Interactions:** The interaction screening returned 100 interactions, and the 20 shown are all moderate. Most involve diabetes medicines, such as metformin, pioglitazone, sitagliptin, semaglutide, insulin products, sulfonylureas and SGLT2 inhibitors. Blood glucose control may need closer monitoring when used together. Others include aprepitant and clarithromycin.
 
 ---
 
@@ -105,16 +107,16 @@ Based on published literature referenced in this Evidence Pack:
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Megestrol acetate's progestogenic mechanism directly addresses the hormonal pathophysiology of endometrioid endometrial carcinoma, and international guidelines already recommend it for this indication in other markets. However, the directly available trial evidence within this Evidence Pack is limited — the most relevant Phase 2 RCT (NCT00503581) was terminated with only 9 participants, and no published literature was retrieved for this specific drug–indication pair. The Philippines currently has no registration for this drug, creating an additional regulatory hurdle.
+One completed randomized Phase 2 trial in endometrial cancer and a plausible hormonal mechanism support this indication. However, megestrol was tested only within a combination regimen. The indication also overlaps with the original use, and the drug has no valid registration in the Philippines.
 
 **To proceed, the following is needed:**
+- The official package insert (warnings and contraindications), which is currently missing
+- Detailed mechanism of action data
+- Trial results isolating the contribution of megestrol, or monotherapy data
+- Clarification of why the Philippines registration was cancelled, and of its dosage form and indication
+- A glucose, blood pressure and adrenal function monitoring plan, especially for patients taking diabetes medicines
 
-- Assess the Philippines FDA (FDA PH) regulatory pathway for importation or compassionate use of a non-registered agent, including whether a drug with established international approvals qualifies for expedited review
-- Retrieve the full prescribing information (US FDA or EMA package insert) to complete the safety profile for key warnings and contraindications, which were not available in this Evidence Pack
-- Obtain formal MOA and pharmacology data from DrugBank (DB00351) to support mechanistic sections of any regulatory submission
-- Review the completed NCT00729586 primary publication to confirm the exact composition of the hormonal therapy arm and extract megestrol-specific efficacy outcomes
-- Develop a structured safety monitoring protocol covering adrenal function, glycemic status, and thromboembolism risk for long-term high-dose use (≥160 mg/day)
-- **Consider the ovarian cancer indication (Rank 8, Evidence Level L1) as a parallel repurposing target**: a completed Phase 3 RCT ([NCT00005975](https://clinicaltrials.gov/study/NCT00005975), n=288) and multiple Phase 2 studies ([PMID 11593052](https://pubmed.ncbi.nlm.nih.gov/11593052/), [PMID 3099393](https://pubmed.ncbi.nlm.nih.gov/3099393/), [PMID 9856656](https://pubmed.ncbi.nlm.nih.gov/9856656/), [PMID 8080689](https://pubmed.ncbi.nlm.nih.gov/8080689/)) provide substantially stronger direct clinical evidence for megestrol acetate in ovarian cancer and may represent a stronger initial regulatory case
+**Additional note:** Among the other predicted indications, ovarian cancer has the most supporting material, including Phase 2 studies of high-dose megestrol in previously treated disease. It shows only modest, limited activity, and is better treated as a separate research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Selegiline
-parent: High Evidence (L1-L2)
-nav_order: 305
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 308
+evidence_level: L3
 indication_count: 4
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,37 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Selegiline is an irreversible, selective MAO-B inhibitor primarily approved for Parkinson's disease (oral formulation) and major depressive disorder (transdermal formulation).
-The TxGNN model predicts it may be effective as augmentation therapy for **Schizophrenia** (negative symptoms),
-with **1 clinical trial** and **20 publications**—including multiple randomized controlled trials and a 2023 systematic meta-analysis—currently supporting this direction.
+Selegiline is an MAO-B inhibitor originally used for Parkinson's disease and depressive disorders.
+The TxGNN model predicts it may be effective for **schizophrenia** (the predicted indication with the most supporting evidence among the top candidates), with **1 clinical trial** and **20 publications** currently supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's disease (oral); Major depressive disorder (transdermal) |
-| Predicted New Indication | Schizophrenia (negative symptoms) |
+|------|------|
+| Original Indication | Parkinson's disease (also depressive disorders and anxiety disorder in the knowledge graph) |
+| Predicted New Indication | Schizophrenia (the rank 1 prediction, a rare polymicrogyria syndrome, has no supporting evidence, so the best-supported candidate is evaluated here) |
 | TxGNN Prediction Score | 99.14% |
-| Evidence Level | L2 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold (treat as a research question) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Selegiline is an irreversible, selective monoamine oxidase type B (MAO-B) inhibitor. By blocking MAO-B, it reduces the enzymatic catabolism of dopamine, raising dopamine concentrations in the striatum and prefrontal cortex. This mechanism is the foundation of its established efficacy in Parkinson's disease, where dopaminergic depletion drives both motor and non-motor symptoms.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, selegiline is a selective, irreversible MAO-B inhibitor. By slowing the breakdown of dopamine, it raises dopamine availability, which underlies its use in Parkinson's disease. At higher oral doses (20 mg/day or more) its activity becomes non-selective and also inhibits MAO-A.
 
-The rationale for selegiline in schizophrenia rests on the **prefrontal hypodopaminergia hypothesis of negative symptoms**: while positive symptoms (hallucinations, delusions) reflect mesolimbic dopamine excess, negative symptoms (blunted affect, alogia, avolition, cognitive slowing) are associated with a deficit of dopaminergic tone in the prefrontal cortex. Conventional antipsychotics act as D2 antagonists and therefore do not address—and may in fact worsen—this prefrontal deficit. A selective MAO-B inhibitor that boosts prefrontal dopamine without broadly activating the mesolimbic system is thus mechanistically well-positioned as an **adjunct**, not a replacement, for antipsychotic therapy.
+Negative symptoms of schizophrenia (such as reduced motivation and emotional blunting) are thought to be linked to low dopamine activity in the prefrontal region. Adding a drug that boosts dopamine to standard antipsychotics is therefore a plausible strategy. Selegiline also has antioxidant and neuroprotective properties and may influence glutamate-related signalling, which could be relevant to cognitive deficits.
 
-A secondary, complementary pathway involves oxidative stress. MAO-B catabolizes dopamine while generating hydrogen peroxide as a byproduct. Inhibiting this reaction reduces reactive oxygen species accumulation in neurons, providing antioxidant and anti-apoptotic effects. There is growing evidence that oxidative stress contributes to neuroprogression and grey matter loss in schizophrenia, making selegiline's neuroprotective properties a plausible additional benefit. Clinical studies have specifically tested selegiline as an augmentation agent added to risperidone or other antipsychotics, which aligns with this positioning.
+This rationale is reasonable but not proven. Published studies have given mixed results, as noted in one of the retrieved articles ("the results are contradictory so far").
+
+Other predictions for this drug were reviewed and are not supported:
+- **Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis** (score 99.15%): a rare, genetically driven brain malformation. There is no plausible mechanism and no trials or literature.
+- **Congenital disorder of glycosylation with defective fucosylation** (score 99.02%): MAO-B inhibition has no known link to fucosylation. No trials or literature.
+- **Retinal dystrophy** (score 99.01%): only one indirect review on protein aggregation in retinal cells, with no selegiline-specific data (evidence level L4).
 
 ---
 
@@ -67,55 +71,60 @@ A secondary, complementary pathway involves oxidative stress. MAO-B catabolizes 
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00456976](https://clinicaltrials.gov/study/NCT00456976) | Early Phase 1 | Completed | 70 | Randomized, placebo-controlled trial evaluating selegiline augmentation of antipsychotic medication to reduce negative symptoms in inpatients with chronic schizophrenia; primary endpoint: decrease in negative symptom scores in the selegiline group |
+| [NCT00456976](https://clinicaltrials.gov/study/NCT00456976) | Early Phase 1 | Completed | 70 | Randomized, placebo-controlled trial of selegiline added to antipsychotics for negative symptoms in inpatients with chronic schizophrenia. Registry data do not include results. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [37087864](https://pubmed.ncbi.nlm.nih.gov/37087864/) | 2023 | Systematic Review + Meta-analysis | European Neuropsychopharmacology | Most comprehensive pooled analysis to date; evaluates selegiline efficacy and safety across psychiatric disorders for both oral and transdermal formulations; synthesizes evidence from multiple RCTs |
-| [15677608](https://pubmed.ncbi.nlm.nih.gov/15677608/) | 2005 | RCT (multicenter, double-blind, placebo-controlled) | American Journal of Psychiatry | Pivotal multicenter trial; selegiline augmentation in outpatients with schizophrenia and moderate-to-severe negative symptoms; tests efficacy across multiple sites |
-| [17972359](https://pubmed.ncbi.nlm.nih.gov/17972359/) | 2008 | RCT | Human Psychopharmacology | 8-week double-blind RCT of selegiline add-on to risperidone in chronic schizophrenia with prominent negative symptoms; directly tests the clinically relevant augmentation scenario |
-| [8627275](https://pubmed.ncbi.nlm.nih.gov/8627275/) | 1996 | RCT | Journal of Nervous and Mental Disease | Pilot study; selegiline 5 mg b.i.d. added to chronic antipsychotic regimens in 21 patients; early positive signal for dopamine-targeted negative symptom improvement |
-| [8102552](https://pubmed.ncbi.nlm.nih.gov/8102552/) | 1993 | RCT | Biological Psychiatry | Placebo-controlled trial of selegiline 10 mg/day for neuroleptic-induced tardive dyskinesia; 33 patients; informs selegiline tolerability within antipsychotic-treated schizophrenia populations |
-| [17405823](https://pubmed.ncbi.nlm.nih.gov/17405823/) | 2007 | Review | Annals of Pharmacotherapy | Dedicated review evaluating the therapeutic role of selegiline specifically for negative symptoms of schizophrenia; summarizes the pre-2007 evidence base |
-| [26848926](https://pubmed.ncbi.nlm.nih.gov/26848926/) | 2016 | Cochrane Review | Cochrane Database of Systematic Reviews | Examines antioxidant treatments for schizophrenia; contextualizes the oxidative stress hypothesis and selegiline's neuroprotective mechanism within the broader evidence for this approach |
-| [16930948](https://pubmed.ncbi.nlm.nih.gov/16930948/) | 2006 | Systematic Review | Schizophrenia Research | Systematic review of pharmacological treatments for primary negative symptoms; benchmarks selegiline against other augmentation strategies |
-| [10080262](https://pubmed.ncbi.nlm.nih.gov/10080262/) | 1999 | Case Series | Comprehensive Psychiatry | Three DSM-IV schizophrenia patients in a day treatment program showed significant improvement in negative symptoms and overall functioning after selegiline was added to their antipsychotic regimen; no adverse effects observed |
-| [7831475](https://pubmed.ncbi.nlm.nih.gov/7831475/) | 1994 | Review | Progress in Neurobiology | Foundational mechanistic review of MAO-B inhibitors in neurological and psychiatric disorders; provides the pharmacological basis for the dopaminergic and neuroprotective rationale |
-
----
-
-## Philippines Market Information
-
-Selegiline currently has **no registered products in the Philippines**. There are no active marketing authorizations on record with the FDA Philippines for any formulation (oral tablet or transdermal patch). Any clinical use would require a new drug application or compassionate use authorization.
+|------|-----|------|------|---------|
+| [37087864](https://pubmed.ncbi.nlm.nih.gov/37087864/) | 2023 | Systematic review / Meta-analysis | Eur Neuropsychopharmacol | Appraises oral and transdermal selegiline across psychiatric disorders |
+| [15677608](https://pubmed.ncbi.nlm.nih.gov/15677608/) | 2005 | RCT | Am J Psychiatry | Double-blind, placebo-controlled multicenter trial of selegiline augmentation for negative symptoms in outpatients |
+| [17972359](https://pubmed.ncbi.nlm.nih.gov/17972359/) | 2008 | RCT | Hum Psychopharmacol | 8-week double-blind trial of selegiline added to risperidone for negative symptoms; earlier results described as contradictory |
+| [10587287](https://pubmed.ncbi.nlm.nih.gov/10587287/) | 1999 | RCT | J Clin Psychopharmacol | Double-blind controlled study of deprenyl (selegiline) augmentation in 16 patients with predominantly negative symptoms |
+| [8102552](https://pubmed.ncbi.nlm.nih.gov/8102552/) | 1993 | RCT | Biol Psychiatry | Placebo-controlled trial of selegiline 10 mg/day in 33 patients with tardive dyskinesia |
+| [8627275](https://pubmed.ncbi.nlm.nih.gov/8627275/) | 1996 | Pilot study (open-label) | J Nerv Ment Dis | Low-dose selegiline (5 mg twice daily) added to antipsychotics in 21 patients with chronic schizophrenia or schizoaffective disorder |
+| [17405823](https://pubmed.ncbi.nlm.nih.gov/17405823/) | 2007 | Review | Ann Pharmacother | Evaluates the role of selegiline in negative symptoms of schizophrenia |
+| [16930948](https://pubmed.ncbi.nlm.nih.gov/16930948/) | 2006 | Systematic review | Schizophr Res | Pharmacological treatment of primary negative symptoms in schizophrenia |
+| [26848926](https://pubmed.ncbi.nlm.nih.gov/26848926/) | 2016 | Systematic review | Cochrane Database Syst Rev | Antioxidant treatments for schizophrenia |
+| [29552749](https://pubmed.ncbi.nlm.nih.gov/29552749/) | 2018 | Systematic review | Cochrane Database Syst Rev | Miscellaneous treatments for antipsychotic-induced tardive dyskinesia |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (these come from model-linked drug-disease relationships, not from label text):
+  - Psychiatric: psychotic disorder, schizophreniform disorder, schizoaffective disorder, bipolar disorder, major affective disorder, mental disorder
+  - Cardiovascular and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, sudden cardiac arrest, heart conduction disease
+  - Organ disease: kidney disease, liver disease, gallbladder disease
+  - Tumours: phaeochromocytoma, sympathetic paraganglioma, melanoma, and several cancers (adrenal gland, heart, duodenum, small intestine)
+  - Movement disorders: tardive dyskinesia, lingual-facial-buccal dyskinesia
 
-> **Note for clinical planning:** Although structured safety data was not retrievable in this evidence pack, selegiline's MAO-B inhibitor class carries well-recognized risks that should be reviewed prior to clinical use: hypertensive crisis at supratherapeutic oral doses (≥20 mg/day, where MAO-A selectivity is lost), serotonin syndrome risk with concomitant serotonergic agents, and tyramine dietary interactions at non-selective doses. These interactions are particularly relevant in a schizophrenia population given polypharmacy.
+  Psychotic and schizophrenia-spectrum disorders appear in this list. This directly conflicts with the proposed new indication and needs careful clinical review.
+
+- **Drug Interactions** (100 interactions recorded; examples from the first 20 shown):
+  - **Major**: isometheptene, bupropion, diethylpropion, phentermine, dexfenfluramine
+  - **Moderate**: epinephrine, metoclopramide, and several glucose-lowering drugs (insulins, glimepiride, repaglinide, nateglinide, chlorpropamide, acetohexamide)
+
+Please refer to the package insert for further safety information, as label warnings and contraindications were not available.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (treat as a research question)**
 
 **Rationale:**
-A multicenter double-blind RCT (American Journal of Psychiatry, 2005), a confirmatory RCT with risperidone (2008), and a 2023 systematic meta-analysis provide consistent Phase 2-level evidence that selegiline augmentation meaningfully reduces negative symptoms in schizophrenia—a treatment gap that existing antipsychotics do not address. The mechanistic basis (prefrontal dopamine upregulation via MAO-B inhibition) is coherent and directly maps to the pathophysiology of negative symptoms.
+- Schizophrenia has the strongest support among the predictions, with several randomized trials of selegiline for negative symptoms. However, results are mixed, the registered trial is early phase, and no completed Phase 2/3 results are available in the compiled data. The other three predictions have no credible support.
+- The only Philippines registration is cancelled, and the knowledge graph lists psychotic disorders as contraindications, which adds a safety question for this population.
 
 **To proceed, the following is needed:**
-- Full safety profile from the TFDA or FDA Philippines package insert, including contraindications, key warnings, and approved dosing range
-- Drug-drug interaction assessment with antipsychotics commonly used in the Philippines (particularly risperidone, olanzapine, clozapine) and any co-prescribed serotonergic agents
-- Regulatory pathway assessment: FDA Philippines new drug registration or compassionate use framework, given zero current market authorizations
-- Definition of the target patient population (chronic schizophrenia with prominent negative symptoms on stable antipsychotic therapy; not acute-phase patients)
-- Dose selection rationale: confirm low-dose oral selegiline (5–10 mg/day) remains within selective MAO-B range to avoid dietary tyramine restrictions at clinical doses
-- Pharmacovigilance plan for manic switch risk and cardiovascular monitoring in the augmentation setting
+- Review the full results of the RCTs (PMIDs 15677608, 17972359, 10587287) and the 2023 meta-analysis (PMID 37087864) to judge the net effect on negative symptoms
+- Mechanism of action data (MOA) from DrugBank
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- A risk assessment of the psychosis-related contraindication signal and the major drug interactions (especially with antidepressants and sympathomimetics)
+- Clarification of the regulatory status and availability of selegiline in the Philippines, since the sole registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

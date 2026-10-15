@@ -2,7 +2,7 @@
 layout: default
 title: Ampicillin
 parent: Moderate Evidence (L3-L4)
-nav_order: 26
+nav_order: 27
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,99 +29,87 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ampicillin: From Broad-Spectrum Bacterial Infections to Laryngitis
+# Ampicillin: From Bacterial Infections to Laryngitis
 
 ## One-Sentence Summary
 
-Ampicillin is a broad-spectrum aminopenicillin antibiotic with well-established activity against Gram-positive and selected Gram-negative bacteria, widely used globally for respiratory tract, urinary tract, and other susceptible bacterial infections — though currently not registered in the Philippines.
-The TxGNN model predicts it may be effective for **Laryngitis**,
-with **1 clinical trial** and **20 publications** currently supporting this direction.
-However, the available evidence is largely indirect, and direct RCT data for ampicillin in laryngitis is absent.
+Ampicillin is a beta-lactam antibiotic originally used for infections such as urinary tract infection, otitis media, bacterial pneumonia, meningitis and staphylococcal or streptococcal infections.
+The TxGNN model predicts it may be effective for **laryngitis**, with a very high model score of 99.97%.
+However, there are **0 registered clinical trials** and only **literature of low quality** (mostly case reports, reviews and surveillance papers), so the evidence is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (no Philippines registration data available) |
+|------|------|
+| Original Indication | Urinary tract infection, infectious otitis media, bacterial pneumonia, bacterial meningitis, staphylococcal and streptococcal infections, among others (the Philippines registration record contains no indication text) |
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from local regulatory sources. Based on established pharmacology, Ampicillin is an aminopenicillin that inhibits bacterial cell wall synthesis by covalently binding to penicillin-binding proteins (PBPs), blocking transpeptidation of peptidoglycan chains and triggering bacterial lysis. Its spectrum covers Gram-positive organisms (streptococci, enterococci, *Listeria*) and selected Gram-negative bacteria including non-β-lactamase-producing *Haemophilus influenzae* — one of the most common bacterial causes of respiratory tract infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ampicillin belongs to the beta-lactam class of antibiotics, which inhibit bacterial cell wall synthesis. Its efficacy in respiratory, ear and meningeal bacterial infections is well established.
 
-Laryngitis can have a bacterial etiology involving pathogens that fall within Ampicillin's coverage: β-hemolytic *Streptococcus*, *H. influenzae*, and *Klebsiella rhinoscleromatis* (the causative organism of rhinoscleroma). The high TxGNN score (99.97%) likely reflects the knowledge graph's strong association between Ampicillin and upper airway bacterial infections, making the prediction mechanistically plausible for the bacterial subset of laryngitis cases.
+Bacterial infections of the larynx and surrounding structures (for example epiglottitis, laryngeal abscess and deep neck infection) could plausibly respond to a beta-lactam, which explains why the prediction is mechanistically reasonable on the surface.
 
-However, three critical limitations temper the clinical significance of this prediction: (1) the vast majority of laryngitis cases are viral in etiology, making antibiotic use appropriate only in culture-confirmed bacterial cases; (2) the sole related clinical trial examines amoxicillin/clavulanate — a related but distinct compound — in a post-marketing surveillance design rather than a prospective RCT; and (3) the 20 identified publications consist predominantly of case reports, epiglottitis case series, and retrospective clinical records without any direct head-to-head RCT evidence for ampicillin in laryngitis.
+The supporting data are weak, however. The retrieved literature is largely case reports, reviews and surveillance-type papers. Several records are off-target (Whipple's disease, deep neck infections in dogs, experimental otitis media in chinchillas, croup differential diagnosis). Most of the more relevant papers concern epiglottitis, where ampicillin was used historically, but Haemophilus influenzae type b has since developed ampicillin resistance (one paper documents this). The high TxGNN score is not backed by any trial.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | N/A | Completed | 363 | Post-marketing surveillance of CLAVAMOX® (amoxicillin/clavulanate) pediatric dry syrup in Japanese patients with conditions including laryngitis, tonsillitis, pharyngitis, and others (excluding otitis media). Passive safety/efficacy monitoring under real-world conditions — not a direct ampicillin RCT; inferential value for repurposing decisions is limited |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Guideline Quality Assessment | CoDAS | AGREE II quality assessment of clinical guidelines for laryngitis and pharyngitis management; identifies significant methodological gaps in current guideline evidence |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Retrospective Cohort | Otolaryngol Head Neck Surg | Hospital- and physician-level variation in perioperative antibiotic selection for laryngectomy and its association with surgical site infection and wound dehiscence rates |
-| [1712371](https://pubmed.ncbi.nlm.nih.gov/1712371/) | 1991 | Clinical Study | J Clin Gastroenterol | Short-term antibiotic treatment in 19 Whipple's disease patients — includes one patient treated directly with ampicillin 2 g/day with favorable clinical response |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Review/Case Report | Ann Otol Rhinol Laryngol | Historical and modern review of spontaneous laryngeal abscess; modern cases linked to uncontrolled diabetes and immunosuppression; antibiotic therapy remains the cornerstone of management |
-| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Retrospective Cohort | Eur Arch Otorhinolaryngol | Pathogen distribution, drug sensitivity, and antibiotic strategy in neck abscesses with or without diabetes; directly informs antibiotic selection for deep neck and laryngeal infections |
-| [30579693](https://pubmed.ncbi.nlm.nih.gov/30579693/) | 2019 | Case Report | Auris Nasus Larynx | Laryngeal actinomycosis after bone marrow transplant in a 14-year-old; successfully resolved with a prolonged course of penicillin-class antibiotics |
-| [8651625](https://pubmed.ncbi.nlm.nih.gov/8651625/) | 1996 | Case Series | Ann Otol Rhinol Laryngol | Laryngotracheal manifestations of rhinoscleroma (*Klebsiella rhinoscleromatis*); early oral tetracycline effective; laryngotracheal disease may require operative intervention in addition to antibiotics |
-| [34986973](https://pubmed.ncbi.nlm.nih.gov/34986973/) | 2023 | Case Report | Auris Nasus Larynx | COVID-19 presenting as acute epiglottitis with extensive necrotic laryngeal lesions; illustrates severity spectrum of acute laryngeal infection requiring urgent antibiotic and airway management |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Retrospective Clinical Series | Anaesth Intensive Care | 161 children with acute epiglottitis (1975–1984); 45 complications in 34 patients including 5 deaths; antibiotic therapy is integral to management alongside airway control |
-| [12402494](https://pubmed.ncbi.nlm.nih.gov/12402494/) | 2002 | Case Series | Acta Otorrinolaringol Esp | Two cases of paraglottic laryngeal abscess — a rare, life-threatening entity that requires rapid diagnosis and prompt antibiotic treatment to prevent airway compromise |
-
----
-
-## Philippines Market Information
-
-Ampicillin currently has **no registered products** in the Philippines. As of the data cutoff (April 4, 2026), there are 0 active authorizations and the drug is not marketed locally. Any clinical use or repurposing initiative would require a full regulatory submission to the Food and Drug Administration of the Philippines (FDA Philippines).
+|------|-----|------|------|---------|
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesth Intensive Care | 161 children with acute epiglottitis; 45 complications and 5 deaths; emphasizes airway management |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Review | Rev Infect Dis | Sulbactam/ampicillin for pediatric epiglottitis; notes up to 25% of Hib strains are beta-lactamase producing and ampicillin resistant |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Case series | Monatsschr Kinderheilkd | 27 children with epiglottitis; ampicillin-resistant Hib emerged and changed treatment |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Case series | Anesth Analg | 23 children with epiglottitis treated with ampicillin or chloramphenicol; study focused on intubation duration |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Case series | Clin Otolaryngol | 19 adults with epiglottitis; bacteriology and treatment principles |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Review | West J Med | 9 adults with acute epiglottitis; diagnosis and airway issues |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report/Review | Ann Otol Rhinol Laryngol | Spontaneous laryngeal abscess case and review |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngol Head Neck Surg | Perioperative antibiotic choice and laryngectomy complications (prophylaxis, not laryngitis treatment) |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Guideline review | CoDAS | Quality assessment of laryngitis and pharyngitis guidelines |
+| [7487676](https://pubmed.ncbi.nlm.nih.gov/7487676/) | 1995 | Animal study | Auris Nasus Larynx | Ibuprofen plus ampicillin in experimental otitis media in chinchillas (off-target) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: kidney disease, impaired renal function, pyoureter, hematologic disease, peptic ulcer disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, chronic Epstein-Barr virus infection syndrome, acute urate nephropathy
+- **Drug Interactions**: 61 interactions were identified. Moderate-level examples include doxycycline, minocycline, tetracycline, kanamycin, balsalazide, lansoprazole, dexlansoprazole and picosulfuric acid. Clarithromycin is minor. Others (e.g., morphine, vancomycin, prednisone, omeprazole) have an unknown severity level.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrievable at the time of this report (designated as data gaps DG001 and DG002). TFDA/Philippines FDA label PDF extraction and a DrugBank API query are recommended as immediate next steps before any clinical evaluation.
+Please also refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The available evidence is insufficient to support a repurposing decision for ampicillin in laryngitis. The single related clinical trial evaluated a different compound (amoxicillin/clavulanate) in a passive surveillance design, and the 20 literature references consist predominantly of case reports, retrospective series, and epiglottitis studies lacking direct head-to-head RCT data for ampicillin. The clinical indication for any antibiotic in laryngitis is inherently narrow given the predominantly viral etiology of the condition.
+The TxGNN score is very high, but there are no clinical trials and the literature is low-quality and partly off-target. The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role. In the Philippines, the only registration is cancelled.
+
+Of the other predictions, gonococcal urethritis has the strongest literature (several older randomized comparative studies, L3), but this reflects historical use, and resistance means ampicillin is no longer recommended. Ureaplasma urethritis and paranasal sinus neoplasm are mechanistically implausible. Chronic rhinosinusitis, chronic ethmoidal sinusitis, gingivitis, bacterial arthritis, conjunctivitis and pericoronitis have only indirect evidence (all L4).
 
 **To proceed, the following is needed:**
-
-- **Safety data**: Extract package insert warnings, contraindications, and drug-drug interaction profile from TFDA/Philippines FDA label (currently blocking — DG001)
-- **MOA data**: Query DrugBank API to obtain complete mechanism of action details (currently high-severity gap — DG002)
-- **Direct clinical evidence**: Prospective or retrospective clinical study specifically evaluating ampicillin in culture-confirmed bacterial laryngitis
-- **Resistance surveillance**: Assessment of local antibiotic resistance patterns for relevant laryngeal pathogens (*S. pyogenes*, *H. influenzae*, *K. rhinoscleromatis*) in the Philippines
-- **Regulatory pathway**: Develop Philippines FDA regulatory filing strategy, given zero current local registrations
-- **Indication refinement**: Clarify whether the target is bacterial laryngitis specifically (culture-confirmed) rather than laryngitis as a broad syndrome, to narrow the clinical development scope
-
----
-
-> ⚠️ **Disclaimer**: This report is intended for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+- Mechanism of action data
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Current local resistance data (especially *H. influenzae*, *N. gonorrhoeae*) and comparison with current guideline-recommended agents
+- Evidence of ampicillin treatment outcomes in laryngeal infections specifically (e.g., prospective or comparative studies)
+- Clarification of the registration status in the Philippines, since no valid license currently exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Fomepizole
 parent: Model Prediction Only (L5)
-nav_order: 154
+nav_order: 156
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,74 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Fomepizole: From Methanol/Ethylene Glycol Poisoning Antidote to Sclerosing Cholangitis
+# Fomepizole: From Toxic Alcohol Poisoning to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Fomepizole is an alcohol dehydrogenase (ADH) competitive inhibitor, primarily used as an antidote for methanol and ethylene glycol poisoning. The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but currently there are **no clinical trials** and **no publications** supporting this direction — the evidence relies entirely on computational prediction.
+Fomepizole is an alcohol dehydrogenase inhibitor, generally known as an antidote for ethylene glycol and methanol poisoning. The local registration record in the data compiled for this report does not list an approved indication.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Methanol/Ethylene glycol poisoning antidote (no Philippines-registered indication) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not listed in the Philippines registration record |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L5 (Model prediction only, no actual studies) |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Fomepizole is a competitive inhibitor of alcohol dehydrogenase (ADH), and it also exhibits inhibitory activity against CYP2E1 and JNK pathways. By blocking ADH, Fomepizole prevents the conversion of methanol and ethylene glycol into their toxic metabolites (formic acid and glycolic acid/oxalic acid, respectively). In theory, ADH/CYP2E1 inhibition could reduce acetaldehyde production and oxidative stress, and oxidative stress has been implicated indirectly in bile duct injury.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fomepizole inhibits alcohol dehydrogenase, which blocks conversion of toxic alcohols into their harmful metabolites. Its use in poisoning is established, but this has not been linked in the available data to any bile duct disease.
 
-However, the mechanistic link between Fomepizole and sclerosing cholangitis is **extremely weak and speculative**. Primary sclerosing cholangitis (PSC) is fundamentally an immune-mediated disease — its primary pathological drivers are autoimmune inflammation and progressive bile duct fibrosis, not alcohol metabolism or toxic metabolite accumulation. Current PSC drug development targets focus on bile acid pathways (e.g., FXR agonists), antifibrotic agents, and immune modulators, none of which involve the ADH pathway.
+A speculative link could involve alcohol dehydrogenase-related oxidative stress, or aldehyde and bile acid metabolism in the cells lining the bile ducts. This is a hypothesis only, and nothing in the data supports it.
 
-In summary, while the TxGNN model assigns a high computational score, the biological rationale connecting an ADH inhibitor to an immune-mediated cholangiopathy remains speculative with no established mechanistic basis. This prediction should be treated with considerable caution.
+The high score (0.993) may reflect connections in the knowledge graph, such as shared alcohol-metabolism or liver-related genes and pathways, rather than a validated biological relationship. The prediction should be treated as a research lead, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-> Searches were conducted on ClinicalTrials.gov and WHO ICTRP (query date: 2026-03-09) with no results found for the combination of Fomepizole and sclerosing cholangitis.
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-> A PubMed search (query date: 2026-03-09) returned no publications linking Fomepizole to sclerosing cholangitis.
-
 ## Philippines Market Information
-
-Fomepizole is currently **not registered** in the Philippines. There are no active marketing authorizations on record.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| — | — | — | No registrations found |
+| PNF-0205 | Fomepizole | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-> Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data are currently unavailable in this evidence pack and require retrieval from the TFDA official website or DrugBank API.
+- **Drug Interactions**: Ethanol, rated **Major** (source: DDInter). Fomepizole and ethanol both act on alcohol dehydrogenase, so combined use needs careful clinical consideration.
+- **Disease-related cautions from the knowledge graph**: The TxGNN knowledge graph links fomepizole to contraindication edges for kidney disease, pyoureter, liver disease and gallbladder disease. These come from graph relationships, not from label text, and need verification. Liver and gallbladder disease are especially relevant to a bile duct indication.
 
-**Data gaps identified:**
-- TFDA package insert warnings/contraindications (Blocking severity — required for Stage 1 safety assessment)
-- Mechanism of action details (High severity — impacts mechanistic relevance analysis)
-- No drug-drug interactions found in current database queries
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high computational score (99.28%), but this prediction has **zero external validation** — no clinical trials, no literature, and no established mechanistic rationale. Sclerosing cholangitis is an immune-mediated biliary disease with no known connection to alcohol dehydrogenase inhibition. Additionally, Fomepizole is not marketed in the Philippines, which poses regulatory and supply chain barriers. The evidence level is L5 (model prediction only), which is insufficient to justify advancing this candidate.
+The only support is a model score. There are no clinical trials or publications, no mechanism data, and no currently valid Philippines registration. The knowledge graph also flags liver and gallbladder disease as contraindications, which conflicts with a hepatobiliary use.
 
 **To proceed, the following is needed:**
-- Preclinical studies demonstrating Fomepizole's effect on bile duct inflammation or fibrosis models
-- Mechanistic studies exploring whether ADH/CYP2E1/JNK inhibition has any relevance to PSC pathophysiology
-- Complete safety profile retrieval (package insert warnings, contraindications)
-- Assessment of regulatory pathway for introducing an unregistered drug for a new indication in the Philippines
-- At minimum, observational or case-report evidence before this candidate warrants further investment
+- Mechanism of action data (for example, from DrugBank) and a plausible biological link to sclerosing cholangitis
+- A literature and trial search, including preclinical studies, for fomepizole in cholestatic or bile duct disease
+- The Philippines package insert, to confirm warnings, contraindications and the original indication
+- Clarification of the cancelled registration status and the available dosage forms and routes
+- A safety review of the knowledge-graph contraindications (liver and gallbladder disease) and the major ethanol interaction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

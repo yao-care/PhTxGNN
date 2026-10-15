@@ -2,7 +2,7 @@
 layout: default
 title: Escitalopram
 parent: Model Prediction Only (L5)
-nav_order: 129
+nav_order: 131
 evidence_level: L5
 indication_count: 0
 ---

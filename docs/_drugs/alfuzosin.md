@@ -2,7 +2,7 @@
 layout: default
 title: Alfuzosin
 parent: Model Prediction Only (L5)
-nav_order: 17
+nav_order: 18
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,73 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfuzosin is a selective alpha-1 adrenergic receptor antagonist, widely used in clinical practice for the management of lower urinary tract symptoms associated with benign prostatic hyperplasia (BPH).
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, an extremely rare genetic hair overgrowth disorder caused by *TRPS1* gene mutations,
-with **0 clinical trials** and **0 publications** currently supporting this direction. This prediction is based entirely on model inference, with no corroborating clinical or experimental evidence.
-
----
+Alfuzosin is an alpha-1 adrenergic blocker, originally used to treat benign prostatic hyperplasia.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on a model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign prostatic hyperplasia (BPH) / lower urinary tract symptoms — no Philippines registration data available |
+|------|------|
+| Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 99.999% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Alfuzosin is a selective alpha-1 adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck by competitively blocking alpha-1A receptors, thereby relieving outflow obstruction in BPH. Alpha-1 receptors are also expressed in dermal papilla cells of hair follicles and in cutaneous vascular smooth muscle, which may have prompted the TxGNN model to associate Alfuzosin with hair-related disorders.
+Currently, detailed mechanism of action data is not available. Based on known information, alfuzosin is a selective alpha-1 adrenergic antagonist acting on the lower urinary tract. Its efficacy in benign prostatic hyperplasia comes from relaxing smooth muscle in the prostate and bladder neck.
 
-Ambras syndrome is an extremely rare disorder driven by chromosomal rearrangements affecting the *TRPS1* gene (encoding a GATA-type zinc finger transcription factor), leading to diffuse, excessive hair growth across the entire body and face. The disease mechanism is fundamentally genetic and transcriptional — entirely distinct from the adrenergic signaling pathway through which Alfuzosin exerts its effects.
+No mechanistic link to the predicted indication has been established. Ambras syndrome is a rare congenital disorder linked to chromosomal rearrangements affecting regulation of the TRPS1 gene. Alpha-1 blockade has no known role in this pathway. The very high score (0.99999) is a graph-based prediction only and likely reflects proximity to hair-related phenotypes in the knowledge graph rather than biology.
 
-The mechanistic link between alpha-1 receptor blockade and *TRPS1*-mediated hair follicle dysregulation is considered extremely tenuous. There is no evidence — experimental, preclinical, or clinical — suggesting that Alfuzosin can influence the *TRPS1* regulatory pathway or reverse the abnormal hair follicle proliferation that characterizes Ambras syndrome. At this stage, the high TxGNN score likely reflects structural or topological graph proximity in the knowledge network rather than a biologically actionable connection.
-
----
+The other top predictions show the same pattern. They are mostly hair or developmental disorders (hypertrichosis, hair shaft abnormalities, trichomegaly, hypotrichosis, Dandy-Walker–related syndromes), and none has trials or publications. The same limitation applies to all of them.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Alfuzosin has no registered products in the Philippines. The drug is currently not marketed and carries no active license authorizations in the Philippine FDA registry.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0010 | Alfuzosin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, gallbladder disease, intraoperative floppy iris syndrome.
+- **Drug Interactions**: The data compiled for this report list 100 interacting drugs. Major-level interactions among those displayed include:
+  - Cisapride
+  - Clarithromycin
+  - Dolasetron
 
----
+  Moderate-level examples include famotidine, aprepitant, bupropion, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), granisetron and levofloxacin. Cimetidine is minor.
+  Several Major interactions involve QT-prolonging or CYP3A4-inhibiting drugs, which matters given the long QT-related conditions listed above.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN confidence score, the mechanistic connection between alpha-1 adrenergic receptor blockade and Ambras syndrome — a monogenic hair overgrowth disorder driven by *TRPS1* transcription factor disruption — is scientifically unsupported, and there is a complete absence of clinical, observational, or preclinical evidence. The drug is additionally unregistered in the Philippines, adding a regulatory barrier before any clinical application could be considered.
+The prediction has only a model score behind it (L5), with no clinical trials or literature. No plausible mechanism links alpha-1 blockade to Ambras syndrome. In addition, the only Philippine registration is cancelled, and the safety profile includes hypotension and QT-related concerns.
 
 **To proceed, the following is needed:**
-- Retrieve Alfuzosin mechanism of action data from DrugBank API (currently Data Gap — blocks mechanistic plausibility assessment)
-- Obtain Philippines package insert warnings and contraindications (currently Data Gap — blocks safety pre-screening)
-- Conduct a targeted literature search examining whether alpha-1 adrenergic signaling has any role in *TRPS1* pathway regulation or hair follicle cycling biology
-- If any mechanistic basis emerges, in vitro studies using *TRPS1*-deficient hair follicle models would be required before any clinical hypothesis could be formed
-- Philippines drug registration (NDA submission) would need to be pursued as a prerequisite for local clinical development
+- Mechanism of action data (MOA) and a plausible biological rationale for the predicted indication
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Preclinical or mechanistic studies, such as hair follicle or TRPS1 pathway models, to move beyond L5
+- Clarification of the cancelled registration status and the available dosage forms
+- A review of safety in the target population, including hypotension and QT risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

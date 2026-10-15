@@ -2,7 +2,7 @@
 layout: default
 title: Tetracycline
 parent: Moderate Evidence (L3-L4)
-nav_order: 329
+nav_order: 333
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,72 +29,83 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Tetracycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Tetracycline: From Bacterial Infections (e.g., Urinary Tract Infection, Acne) to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Tetracycline is a classic broad-spectrum bacteriostatic antibiotic widely used to treat bacterial infections caused by gram-positive, gram-negative, and intracellular pathogens — most notably *Chlamydia trachomatis*, for which it remains a first-line agent.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis (PEK)**,
-with **0 clinical trials** and **1 publication** currently supporting this direction.
-
----
+Tetracycline is an antibiotic originally used for a broad range of bacterial infections, including urinary tract infection, bronchitis, acne, pneumonia and gonorrhea.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are **no registered clinical trials** and only **1 publication** (a case report) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (broad-spectrum antibiotic; first-line for chlamydial infections) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Not stated in the Philippines registration record. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax, gonorrhea, pharyngitis and pneumonia, among others |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not currently available. Based on known information, tetracycline is a broad-spectrum antibiotic whose efficacy in bacterial infections, including chlamydial eye infection (trachoma and inclusion conjunctivitis), is established. Mechanistically it may be applicable to the predicted indication.
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on established pharmacology, Tetracycline is a bacteriostatic antibiotic that inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit, preventing aminoacyl-tRNA from attaching to the ribosome–mRNA complex. This mechanism is particularly effective against intracellular organisms, making tetracycline a cornerstone treatment for *Chlamydia trachomatis* infections.
+Persistent punctate keratitis can follow chlamydial follicular conjunctivitis, so the predicted indication is closely tied to an infection that tetracycline already treats. Tetracyclines are also known to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting properties, which gives a plausible second link.
 
-Punctate epithelial keratoconjunctivitis (PEK) is a corneal surface condition characterised by scattered epithelial defects detectable by fluorescein staining. One established aetiology is chlamydial infection: PEK lesions can persist or recur as a sequela of *C. trachomatis* follicular conjunctivitis, even after resolution of active conjunctival inflammation. In this light, the mechanistic link between tetracycline and PEK is indirect — by eradicating the underlying chlamydial trigger, tetracycline could allow the damaged ocular surface to heal.
-
-It is critical to note that the single available publication describes PEK as a *complication observed after* tetracycline treatment of chlamydial conjunctivitis, not a condition that tetracycline was directly used to treat. There is no interventional evidence of tetracycline targeting PEK as a primary indication, nor data on non-chlamydial PEK aetiology.
-
----
+This is largely an extension of existing ocular infection use rather than a distinct repurposing signal. The high TxGNN score rests on one indirect literature item and no trials.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case Series | *Cornea* | Two patients developed persistent bilateral punctate epithelial keratitis following chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline; recurrent grayish corneal epithelial lesions and anterior stromal oedema were observed post-follicle resolution, suggesting PEK as a post-infectious sequela rather than a direct treatment target |
+|------|-----|------|------|---------|
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report/Case series | Cornea | Two patients with chlamydial follicular conjunctivitis were treated with oral tetracycline or doxycycline, and the follicles resolved. Both later developed recurrent bilateral punctate epithelial keratitis, so the keratitis persisted despite the antibiotic treatment. |
 
----
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0483 | Tetracycline | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions are recorded in total. Examples of the Major-level ones:
+  - Isotretinoin
+  - Acitretin
+  - Aminolevulinic acid
 
----
+  Moderate-level examples include ethinylestradiol, amoxicillin, ampicillin, aminophylline, aluminum hydroxide and bismuth subcitrate potassium.
+- **Conditions flagged in the knowledge graph (not label text)**: The drug-disease contraindication links include liver failure, liver disease, kidney disease, kidney failure, uremia, epilepsy, diabetes, neutropenia, agranulocytosis, G6PD deficiency, blood coagulation disease and Clostridium difficile colitis. These are model-derived associations and need confirmation against an official label.
+
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting publication is a 1992 case series documenting PEK as an *outcome following* tetracycline therapy for chlamydial conjunctivitis — not a study evaluating tetracycline as a treatment *for* PEK. With zero clinical trials and a single observational case report of limited relevance, the evidence base is insufficient to support advancing this indication.
+The prediction score is high, but the evidence is a single case report with no trials, and it mainly reflects tetracycline's existing use in chlamydial eye infection. The only Philippines registration is cancelled, which limits practical development.
 
 **To proceed, the following is needed:**
-- Prospective clinical studies directly evaluating tetracycline or doxycycline as treatment for PEK (particularly in chlamydial-associated cases)
-- Mechanism of action (MOA) data from DrugBank (currently unavailable — DG002)
-- Philippines FDA package insert data and safety/contraindication review (currently unavailable — DG001)
-- Clarification of target population: PEK secondary to active chlamydial infection (biologically plausible indirect mechanism) vs. PEK of other aetiologies (no mechanistic support identified)
+- Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing and blocking safety screening)
+- Mechanism of action data (for example, from DrugBank)
+- Controlled clinical data on tetracycline for punctate epithelial keratoconjunctivitis
+- A review of the Major drug interactions and the knowledge-graph contraindication signals
+- Confirmation of whether any valid Philippines registration or ophthalmic formulation exists
+
+## Other Predicted Indications (For Reference)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary | Recommendation |
+|------|------|------|------|------|------|
+| 2 | Chronic ethmoidal sinusitis | 99.15% | L4 | One in vitro antibiotic susceptibility survey; no clinical efficacy data | Hold |
+| 3 | Chronic rhinosinusitis | 99.15% | L4 | Mostly class-level evidence (doxycycline systematic review and meta-analysis, Cochrane review of antibiotics with low-certainty evidence, an omadacycline case series); no tetracycline-specific trials | Research Question |
+| 4 | Paranasal sinus neoplasm | 99.10% | L5 | No trials or literature; computational prediction only | Hold |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

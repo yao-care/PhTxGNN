@@ -2,7 +2,7 @@
 layout: default
 title: Levothyroxine
 parent: Moderate Evidence (L3-L4)
-nav_order: 206
+nav_order: 208
 evidence_level: L3
 indication_count: 10
 ---
@@ -33,93 +33,87 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Levothyroxine (LT4) is the synthetic form of thyroxine (T4), the cornerstone pharmacological replacement for hypothyroidism worldwide — though it currently holds no approved registration in the Philippines.
-The TxGNN model assigns it the highest prediction score of **99.81%** for **Endemic Goiter**, ranking it first among all repurposing candidates.
-This direction is supported by **1 clinical trial** and **20 publications**, including a direct longitudinal cohort study documenting LT4 supplementation in indigenous communities within iodine-deficient endemic goiter areas.
-
----
+Levothyroxine is a synthetic thyroid hormone, originally used to treat hypothyroidism and other thyroid conditions.
+The TxGNN model predicts it may be effective for **endemic goiter**,
+with **no registered clinical trials** but **20 publications** (mostly 1988–2004 clinical studies and reviews) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypothyroidism (no Philippine FDA registration on record) |
-| Predicted New Indication | Endemic Goiter |
+|------|------|
+| Original Indication | Hypothyroidism (other original indications in the knowledge graph include myxedema, congenital hypothyroidism, goiter, Hashimoto thyroiditis and thyroid cancer) |
+| Predicted New Indication | Endemic goiter |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L3 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism of action data from DrugBank was not retrieved for this report. Based on well-established clinical pharmacology, however, Levothyroxine is the synthetic L-isomer of thyroxine (T4), the principal secretory product of the thyroid gland. Its two core pharmacodynamic actions are: (1) direct replacement of circulating T4 to restore physiological thyroid hormone levels, and (2) suppression of pituitary TSH (thyroid-stimulating hormone) through the negative feedback axis of the hypothalamic-pituitary-thyroid system.
+Currently, detailed mechanism of action data is not available. Based on known information, levothyroxine is a thyroid hormone replacement, its efficacy in hypothyroidism is established, and mechanistically it may be applicable to endemic goiter.
 
-Endemic goiter arises primarily from iodine deficiency. When dietary iodine is insufficient, T4 synthesis falls, and the pituitary responds by secreting excess TSH. Chronically elevated TSH is the dominant growth driver for thyroid follicular cells — over time this leads to diffuse gland enlargement and, eventually, nodule formation. Levothyroxine addresses both components of this pathophysiology: it replenishes the deficient T4 directly, and simultaneously removes the TSH-driven proliferative stimulus through feedback suppression.
+Endemic goiter is mainly caused by iodine deficiency. Low iodine raises thyroid-stimulating hormone (TSH), and TSH drives thyroid growth. Levothyroxine suppresses TSH and can reduce thyroid volume. This sits close to levothyroxine's existing thyroid indications, so it is a modest repurposing step.
 
-This mechanistic link is backed by direct clinical data. PMID 24393641 is a 1.5-year longitudinal study of Aboriginal communities in the iodine-deficient endemic zone of Pahang, Malaysia, where daily LT4 (100 µg) produced measurable goiter regression across follow-up visits. A German multicenter randomized trial (PMID 3278876) assigned 74 euthyroid endemic goiter patients to either LT4 150 µg alone or LT4 100 µg combined with potassium iodide for six months, finding significant thyroid volume reduction in both arms. Together, these studies confirm that the TxGNN model's top-ranked prediction reflects real clinical experience, not purely graph-based inference.
-
----
+In practice, the literature suggests iodine alone, or iodine combined with levothyroxine, is generally preferred. Levothyroxine alone leaves the iodine deficiency within the thyroid unchanged, and goiter may relapse after stopping it.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04482907](https://clinicaltrials.gov/study/NCT04482907) | N/A | Completed | 68 | Evaluated dill (*Anethum graveolens*) vs. placebo in thyroiditis and nodular goiter patients over 90 days; Levothyroxine was not the primary intervention. Provides context on goiter population monitoring but does not directly assess LT4 efficacy for endemic goiter. |
+Currently no related clinical trials registered for endemic goiter.
 
-> No trials with Levothyroxine as the primary intervention specifically for endemic goiter were identified in the ClinicalTrials.gov registry search.
-
----
+For reference, the third-ranked prediction (nodular goiter) has two completed trials: [NCT00277589](https://clinicaltrials.gov/study/NCT00277589) (Phase 4, n=1024, TSH-adapted therapy vs placebo) and [NCT00941551](https://clinicaltrials.gov/study/NCT00941551) (n=150, lobectomy with or without postoperative levothyroxine).
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | Clinical Cohort | Asia Pac J Clin Nutr | 1.5-year follow-up of Aboriginal populations in Malaysian iodine-deficient areas; LT4 100 µg/day produced progressive goiter reduction over 311–184 subjects across five assessment points |
-| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | Multicenter Clinical Study | Dtsch Med Wochenschr | 74 euthyroid endemic goiter patients: LT4 150 µg/day vs. LT4 100 µg + iodide 100 µg/day for 6 months; both arms achieved significant goiter volume reduction; followed by 3-month iodide prophylaxis |
-| [25629792](https://pubmed.ncbi.nlm.nih.gov/25629792/) | 2015 | RCT | Curr Med Res Opin | 460 pregnant women in endemic areas (goiter vs. non-goiter zones, ± iodine supplementation); iodine correction normalized thyroid parameters and improved neonatal outcomes, establishing the TSH-goiter axis as an actionable therapeutic target |
-| [2031356](https://pubmed.ncbi.nlm.nih.gov/2031356/) | 1991 | Review | World J Surg | Comprehensive review of iodine deficiency in goitrogenesis; identifies implementation barriers to iodine programs and frames LT4 as a viable pharmacological alternative |
-| [6304776](https://pubmed.ncbi.nlm.nih.gov/6304776/) | 1983 | Physiological Study | Prog Clin Biol Res | TSH basal levels 31 ± 8 µU/mL in iodine-deficient endemic goiter patients vs. 10 ± 4 µU/mL in controls; strong inverse T4–TSH correlation validates the mechanistic basis for LT4 suppressive therapy |
-| [3090091](https://pubmed.ncbi.nlm.nih.gov/3090091/) | 1986 | Observational Study | J Clin Endocrinol Metab | Thyroid function survey of 1,218 subjects in an Italian endemic goiter region; documents T4, T3, TSH, and thyroglobulin profiles that underpin the case for TSH-suppression as a therapeutic strategy |
-| [6309889](https://pubmed.ncbi.nlm.nih.gov/6309889/) | 1983 | Immunological Study | J Clin Endocrinol Metab | Iodized oil treatment in 58 Greek goiter patients from mild iodine-deficient area; goiter size decreased and thyroid hormone profile normalized, providing mechanistic parallels to LT4 therapy |
-| [263304](https://pubmed.ncbi.nlm.nih.gov/263304/) | 1978 | Clinical Observational | J Clin Endocrinol Metab | Maternal-fetal thyroid function in severe endemic goiter area (Zaïre); iodized oil correction substantially normalized T4 and TSH in both mothers and newborns, demonstrating hormone replacement benefits in this population |
-| [8121602](https://pubmed.ncbi.nlm.nih.gov/8121602/) | 1993 | Clinical Observational | Minerva Ginecol | 38 pregnant women with endemic non-toxic goiter; 10.5% received L-thyroxine 50–100 µg/day; goiter remained asymptomatic in 97.4%, supporting tolerability of LT4 in endemic populations |
-| [7704809](https://pubmed.ncbi.nlm.nih.gov/7704809/) | 1994 | Review | Curr Ther Endocrinol Metab | Clinical review of management strategies for endemic goiter, including thyroid hormone suppression therapy as a medical option |
-
----
+|------|-----|------|------|---------|
+| [2515973](https://pubmed.ncbi.nlm.nih.gov/2515973/) | 1989 | Multicentre randomized trial | Eur J Clin Invest | 166 patients randomized to levothyroxine, iodine, or a combination for 12 months |
+| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | Multicenter study | Dtsch Med Wochenschr | 74 patients: levothyroxine alone vs levothyroxine plus iodide for 6 months, then iodide prophylaxis |
+| [7900936](https://pubmed.ncbi.nlm.nih.gov/7900936/) | 1993 | Clinical study | Clin Endocrinol | Effect of levothyroxine or iodine on thyroid size and growth-stimulating immunoglobulins |
+| [8676600](https://pubmed.ncbi.nlm.nih.gov/8676600/) | 1996 | Clinical study | Klin Padiatr | Adolescents: iodine vs iodine plus levothyroxine, with lipid parameters |
+| [9011485](https://pubmed.ncbi.nlm.nih.gov/9011485/) | 1996 | Clinical study | Dtsch Med Wochenschr | Iodide vs levothyroxine in middle-aged and elderly patients |
+| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | Supplementation study | Asia Pac J Clin Nutr | 100 µg/day levothyroxine over 1.5 years in an iodine-deficient indigenous population |
+| [11256036](https://pubmed.ncbi.nlm.nih.gov/11256036/) | 2001 | Dose comparison | Dtsch Med Wochenschr | Two doses of levothyroxine-iodide combination in euthyroid diffuse goiter |
+| [8147031](https://pubmed.ncbi.nlm.nih.gov/8147031/) | 1993 | Review | Z Gesamte Inn Med | Iodine should be part of therapy; levothyroxine alone does not correct intrathyroidal iodine deficiency and relapse is common |
+| [1789063](https://pubmed.ncbi.nlm.nih.gov/1789063/) | 1991 | Double-blind clinical study | Acta Endocrinol | Thyroid iodine concentration with iodine alone vs iodine plus levothyroxine |
+| [1577353](https://pubmed.ncbi.nlm.nih.gov/1577353/) | 1992 | Observational | Fortschr Med | Goiter responds less well to levothyroxine in the elderly than in younger patients |
 
 ## Philippines Market Information
 
-Levothyroxine currently holds **no registered product licenses** with the Philippine Food and Drug Administration. No product authorizations were found in the regulatory database as of the data cutoff (2026-06-04).
-
-For international reference, Levothyroxine is widely approved in other jurisdictions — including the US FDA (e.g., Synthroid, Levoxyl), EMA (e.g., Euthyrox), and PMDA Japan — for hypothyroidism and TSH suppression in thyroid cancer. Any clinical use in the Philippines would require regulatory filing and approval prior to deployment.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0289 | Levothyroxine | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-The Philippine FDA prescribing information for Levothyroxine was not available for this review. Drug-drug interaction data was not retrieved from the query database.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not label text): hypertension, pituitary hormone deficiency and hypopituitarism, hypogonadotropic hypogonadism (including Kallmann syndrome), osteoporosis, diabetes mellitus and diabetic ketoacidosis, coronary artery disease, and myocardial infarction.
+- **Drug Interactions**: 100 interactions were found, mostly of moderate severity. Main ones include:
+  - Antidiabetic drugs: acarbose, metformin, pioglitazone, alogliptin, canagliflozin, dapagliflozin, empagliflozin, albiglutide, dulaglutide, chlorpropamide
+  - Acid suppressants: omeprazole, rabeprazole, dexlansoprazole (cimetidine is minor)
+  - Minerals and antacids: calcium acetate, calcium phosphate, magnesium oxide
+  - Sympathomimetics: epinephrine, isometheptene, diethylpropion
+- **Related safety context from the literature**: long-term TSH suppression carries risks of subclinical hyperthyroidism, bone loss and cardiac effects, including atrial fibrillation.
 
-Please refer to the internationally approved package insert (e.g., US FDA label or EMA Summary of Product Characteristics) for comprehensive safety information, including cardiovascular warnings in elderly patients, precautions in adrenal insufficiency, and interactions with agents that affect thyroid hormone absorption (e.g., calcium, iron, proton pump inhibitors).
-
----
+For full warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic case for Levothyroxine in endemic goiter is among the strongest possible for drug repurposing — LT4 directly corrects the T4 deficit that causes the disease and eliminates the TSH-driven growth signal that sustains it. Two direct clinical studies (PMID 24393641, PMID 3278876) document goiter regression with LT4 in endemic populations, placing this at L3 evidence. The main constraints are the absence of Philippine regulatory approval, incomplete safety profiling from local prescribing data, and the fact that iodine supplementation (rather than LT4) remains the WHO-recommended first-line prevention strategy where population-level iodine deficiency is confirmed.
+Several clinical studies, including randomized multicentre trials, support levothyroxine for endemic goiter, and the indication is close to its existing thyroid uses. However, the evidence is old (1988–2004), no trials are registered, and iodine alone or iodine plus levothyroxine is generally preferred. The only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-- Philippine FDA regulatory submission and approval for Levothyroxine before clinical deployment
-- Full prescribing information review (Data Gap DG001) including warnings, contraindications, and special population precautions
-- DrugBank mechanism of action data (Data Gap DG002) for complete pharmacological profiling
-- Baseline iodine status assessment of the target Philippine population — if iodine deficiency is the primary driver, iodized salt programs should be evaluated in parallel or prior to LT4
-- Prospective controlled trial comparing LT4 alone, iodine supplementation alone, and combination therapy in Philippine endemic goiter communities, with TSH, FT4, and thyroid ultrasound as primary endpoints
-- Cardiac safety monitoring protocol for at-risk subgroups (elderly, patients with underlying arrhythmias or coronary disease) given known LT4 cardiovascular effects at supratherapeutic doses
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data
+- Current clinical trial or recent randomized evidence for endemic goiter
+- A decision on regulatory status, since the only Philippines registration (PNF-0289) is cancelled
+- A TSH monitoring plan and screening for cardiac, bone, and diabetes comorbidities
+
+**Other predictions in the list:**
+- Nodular goiter and nontoxic goiter have comparable or stronger evidence, but levothyroxine suppression has limited efficacy and carries cardiac and bone risks; radioiodine and surgery are often preferred.
+- Substernal goiter, lingual goiter and dyshormonogenic goiter are research questions only.
+- Renal hypodysplasia/aplasia, bilateral renal agenesis, Potter sequence and Carney complex have no supporting evidence and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

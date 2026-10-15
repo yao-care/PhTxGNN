@@ -2,7 +2,7 @@
 layout: default
 title: Isosorbide Mononitrate
 parent: Model Prediction Only (L5)
-nav_order: 186
+nav_order: 188
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Analyzing the Evidence Pack for Isosorbide mononitrate (DB01020) — noting key data points: top prediction is hypertrichosis (L5, zero evidence), Philippines market is unregistered, all safety fields are data gaps, and MOA is unavailable. The most mechanistically coherent prediction is PAH at Rank 10 (L4). Isosorbide mononitrate is a cardiovascular nitrate — **not antineoplastic** — so the Cytotoxicity section will be omitted.
-
----
-
-# Isosorbide Mononitrate: From Angina Pectoris to Hypertrichosis
+# Isosorbide Mononitrate: From Its Original Use to Hypertrichosis (Top Prediction), with Pulmonary Arterial Hypertension as the Most Plausible Candidate
 
 ## One-Sentence Summary
 
-Isosorbide mononitrate (ISMN) is a long-acting organic nitrate widely used for the prevention of angina pectoris and management of portal hypertension in coronary artery disease. The TxGNN model predicts it may be effective for **Hypertrichosis** (a condition of excessive or abnormal hair growth), yet **0 clinical trials** and **0 publications** currently support this direction. This prediction is grounded solely in a speculative mechanistic analogy to minoxidil and does not reflect any validated clinical or preclinical evidence.
+Isosorbide mononitrate is a nitric oxide (NO)-donating vasodilator. The data compiled for this report do not record an approved indication for it in the Philippines.
+The TxGNN model's top prediction is **hypertrichosis (disease)**, but there are **0 clinical trials** and **0 publications** behind it.
+Among the top 10 predictions, only **pulmonary arterial hypertension (PAH)** has any indirect support (**2 publications**, no clinical trials).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Angina pectoris / coronary artery disease (from general pharmacological knowledge; no Philippines registration on file) |
-| Predicted New Indication | Hypertrichosis |
+|------|------|
+| Original Indication | Not available (the only registration has no indication text) |
+| Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 99.995% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, isosorbide mononitrate is an organic nitrate; it does not require hepatic biotransformation to a vasoactive metabolite and releases nitric oxide (NO) directly in vascular smooth muscle cells. NO activates soluble guanylate cyclase (sGC), elevates intracellular cyclic GMP (cGMP), and causes smooth muscle relaxation and vasodilation — the basis of its efficacy in angina and portal hypertension.
+Currently, detailed mechanism of action data is not available from the compiled records. Isosorbide mononitrate is generally known as an organic nitrate that releases NO, raises cGMP in vascular smooth muscle and causes vasodilation.
 
-The TxGNN model's prediction for hypertrichosis most likely follows a knowledge-graph pathway of: ISMN → NO release → microvasculature dilation in the dermis → increased blood flow to the dermal papilla → hair follicle stimulation. This theoretical chain is analogous to minoxidil's mechanism — a potassium channel opener and vasodilator whose unexpected side effect of hypertrichosis directly led to the development of topical Rogaine. The model may have identified this shared "vasodilator → hair follicle perfusion" node in the graph and assigned a high score accordingly.
+For **hypertrichosis**, no established mechanism links this drug to the condition. The only speculative link is that NO-mediated vasodilation might increase blood flow around hair follicles, and no data support it. The high score is a computational prediction, probably driven by network-level associations rather than pharmacology.
 
-However, the analogy breaks down on closer inspection. Minoxidil achieves its dermatological effect through targeted topical application with negligible systemic absorption. Systemic ISMN carries well-known risks of generalised vasodilation, orthostatic hypotension, and reflex tachycardia — risks that far outweigh any speculative follicular benefit. More fundamentally, hypertrichosis is a condition of *excessive* hair growth, not hair loss; a vasodilator promoting hair growth would be counterproductive. There are no published clinical trials or preclinical studies examining ISMN in any hair-related disorder, and the Evidence Pack's repurposing rationale explicitly notes the absence of supporting data. The high TxGNN score reflects graph topology, not clinical plausibility.
+The other top-ranked predictions are mostly hair disorders (alopecia, hypotrichosis, alopecia areata, hair shaft abnormalities) and rare congenital malformation syndromes. Most are genetic or autoimmune structural conditions for which a vasodilator has no plausible role. Alopecia is the one exception with a hypothetical perfusion-based rationale, but it is also undocumented.
+
+The most biologically coherent prediction is **pulmonary arterial hypertension** (rank 10, score 99.94%). PAH involves impaired NO–sGC–cGMP signalling, a validated drug target pathway (PDE5 inhibitors, sGC stimulators). Nitrates raise cGMP, so the link is plausible. However, nitrates are not guideline-recommended for PAH, and practical concerns include tolerance, systemic hypotension, ventilation/perfusion mismatch and a dangerous interaction with PDE5 inhibitors.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the top 10 predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Only the PAH prediction has any literature. Neither article is direct evidence for isosorbide mononitrate in PAH.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16422873](https://pubmed.ncbi.nlm.nih.gov/16422873/) | 2005 | Clinical hemodynamic study | The Journal of Sexual Medicine | Hemodynamic effects of sildenafil combined with isosorbide mononitrate in men with coronary artery disease and erectile dysfunction (not a PAH population) |
+| [29705351](https://pubmed.ncbi.nlm.nih.gov/29705351/) | 2018 | Preclinical animal study | Life Sciences | Stimulating NO-sensitive soluble guanylate cyclase in monocrotaline-induced pulmonary hypertensive rats; examined whether NO-enhancing treatment can halt progression (not a nitrate study) |
+
+No literature is available for hypertrichosis or the other top predictions.
 
 ---
 
 ## Philippines Market Information
 
-Isosorbide mononitrate has no registered products with the Philippine FDA. No authorization records are on file, and the drug is classified as **not marketed** in the Philippines.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0266 | Isosorbide Mononitrate | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: The TxGNN knowledge graph links the drug to contraindications in the following conditions:
+  - Hypotensive disorder
+  - Hypertrophic cardiomyopathy
+  - Myocardial infarction and coronary thrombosis
+  - Hemoglobinopathy and anemia (including macrocytic anemia)
+  - Hyperthyroidism, Graves disease and thyrotoxicosis
+  - Intracerebral hemorrhage
+- **Drug Interactions**: 100 interactions were identified in total; 20 are listed in the compiled data.
+  - Moderate: bupropion, morphine, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, dronabinol, nabilone, opium, sapropterin, rosiglitazone
+  - Minor: omeprazole
+  - Unknown severity: calcitriol, pantoprazole, glimepiride, mesalazine, doxycycline, clotrimazole, metformin, lansoprazole
+- **Important class concern**: Combination with PDE5 inhibitors (e.g., sildenafil) can cause dangerous hypotension. This matters especially for any PAH use.
 
-> ⚠️ **Important note:** Key warnings, contraindications, and drug interaction data are all unavailable in the current Evidence Pack. This constitutes a **blocking data gap (DG001)** that prevents formal safety screening (Stage S1). A package insert review from a recognized regulatory authority (FDA Philippines, US FDA, or EMA) is required before any clinical planning proceeds.
->
-> Of particular clinical relevance: isosorbide mononitrate, as an organic nitrate, is known to carry an absolute contraindication when co-administered with PDE5 inhibitors (sildenafil, tadalafil, vardenafil) due to the risk of severe hypotension. This is directly relevant to the PAH use case noted below.
+Package insert warnings and contraindications were not available. Please refer to the package insert for label-based safety information.
 
 ---
 
@@ -98,18 +116,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN-predicted indication, hypertrichosis, is supported by zero clinical trials and zero publications (L5), and the underlying mechanistic hypothesis is directionally inconsistent — ISMN promotes hair growth via vasodilation, whereas hypertrichosis is a disease of *excessive* hair growth requiring suppression, not stimulation. Combined with the complete absence of Philippines market presence and blocking safety data gaps, there is no basis to advance this candidate at this stage.
-
-**Noteworthy secondary finding — Pulmonary Arterial Hypertension (Rank 10, L4):**
-Among all 10 predicted indications, **PAH** presents the most scientifically coherent mechanistic rationale. ISMN's NO → sGC → cGMP axis directly overlaps with approved PAH drug mechanisms: riociguat (sGC stimulator) and sildenafil/tadalafil (PDE5 inhibitors) both act on the same pathway. A 2018 preclinical animal study (PMID 29705351) directly demonstrates sGC stimulation efficacy in a monocrotaline-induced PAH rat model, and a medicinal chemistry study (PMID 29377691) designed and tested an ISMN–bardoxolone methyl hybrid compound in PAH rats showing dual pulmonary vasodilation and vascular remodeling inhibition. Despite this, the **absolute contraindication with PDE5 inhibitors** (current PAH first-line therapy) represents a critical clinical barrier that must be resolved before PAH repurposing can be considered.
+- Hypertrichosis and the other top-ranked predictions rest on model scores alone (Evidence Level L5), with no trials, no literature and no plausible mechanism.
+- PAH is biologically plausible (Evidence Level L4, flagged as a research question), but the evidence is indirect, nitrates are not guideline-recommended, and the PDE5 inhibitor interaction is a serious concern.
+- The only Philippines registration is cancelled, so there is no currently marketed product.
 
 **To proceed, the following is needed:**
-
-1. **Retrieve safety documentation** — Download and parse the package insert (Philippines FDA, US FDA, or EMA SmPC) to document warnings, contraindications, and drug interactions; this is a **blocking prerequisite** for Stage S1 safety screening
-2. **Obtain formal MOA from DrugBank** — Query DrugBank API for DB01020 to populate the mechanism of action and drug category fields (currently a High-severity data gap)
-3. **Clarify original registered indication** — Confirm at least one jurisdiction's approved indication to anchor the drug profile and enable mechanistic similarity scoring
-4. **Re-evaluate indication ranking** — Consider deprioritising purely L5 hair/hair shaft predictions (Ranks 1–9) in favour of the PAH hypothesis (Rank 10), which has actual mechanistic literature support
-5. **PAH feasibility assessment** — If PAH is selected for further development, specifically evaluate: (a) whether an inhalation or other non-systemic delivery route could bypass the PDE5i contraindication barrier, and (b) whether any patient subpopulations are PDE5i-naïve and thus eligible for ISMN co-administration
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Original approved indication and dosage form for the cancelled registration
+- For PAH: a targeted literature review for direct nitrate data and a safety assessment of PDE5 inhibitor co-use
+- For hair disorders: preclinical or pilot evidence for any perfusion-based benefit before further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

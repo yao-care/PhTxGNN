@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: High Evidence (L1-L2)
-nav_order: 70
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 72
+evidence_level: L3
 indication_count: 9
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **9** 
+Evidence Level: **L3** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,125 @@ Evidence Level: **L1** | Predicted Indications: **9**
 
 </div>
 
-# Chloramphenicol: From Broad-Spectrum Bacterial Infections to Conjunctivitis
+# Chloramphenicol: From Typhoid Fever and Other Bacterial Infections to Conjunctivitis
 
 ## One-Sentence Summary
 
-Chloramphenicol is a classic broad-spectrum antibiotic historically developed for serious systemic bacterial infections including typhoid fever, bacterial meningitis, and rickettsial diseases.
-The TxGNN model predicts it may be effective for **Conjunctivitis** with a prediction score of **99.66%**; notably, ophthalmic chloramphenicol has well-established clinical use in several countries, though the current evidence pack queries returned **0 clinical trials** and **0 publications** specifically indexed for this combination — likely reflecting a historical evidence base predating large-scale registry coverage.
+Chloramphenicol is a broad-spectrum antibiotic originally used for serious bacterial and rickettsial infections such as typhoid fever, salmonellosis and meningococcal infection.
+The TxGNN model predicts it may be effective for **conjunctivitis**,
+with **no registered clinical trials** but **20 publications**, including several comparative clinical studies, supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (typhoid fever, bacterial meningitis, rickettsial diseases) |
+|------|------|
+| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection (from the knowledge graph; the Philippines registration has no indication text) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed (0 registered products) |
-| Number of Registrations | 0 |
+| Evidence Level | L3 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on established pharmacology, Chloramphenicol is a broad-spectrum bacteriostatic antibiotic that inhibits bacterial protein synthesis by binding the **50S ribosomal subunit** (peptidyl transferase center), thereby blocking peptide chain elongation. This mechanism is effective against both gram-positive and gram-negative organisms, including the most common causative pathogens of bacterial conjunctivitis — *Staphylococcus aureus*, *Streptococcus pneumoniae*, *Haemophilus influenzae*, and *Moraxella catarrhalis*.
+Chloramphenicol is a broad-spectrum, bacteriostatic antibiotic that inhibits the bacterial 50S ribosomal subunit. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects well-established general knowledge of the drug.
 
-The connection between Chloramphenicol's known antibacterial activity and conjunctivitis is mechanistically straightforward. Bacterial conjunctivitis is driven by the very pathogens that chloramphenicol potently inhibits. When delivered as an ophthalmic formulation (eye drops or ointment), chloramphenicol achieves local concentrations at the ocular surface far exceeding the minimum inhibitory concentration (MIC) for common conjunctivitis pathogens, while systemic absorption remains negligible — a highly favorable local-safety profile.
+The new indication is closer to an extension of the original use than a true repurposing. Bacterial conjunctivitis is a superficial infection caused by organisms that chloramphenicol already covers. Topical eye preparations are established clinical practice in several countries, notably the UK, though they are rarely used for this purpose in the U.S.
 
-Critically, this is not a theoretical prediction alone. Chloramphenicol eye drops are a **licensed, over-the-counter treatment for bacterial conjunctivitis** in the United Kingdom, Australia, and several other countries, with decades of real-world clinical use. The TxGNN score of 99.66% thus corroborates an already-established clinical application, reinforcing confidence in the model's mechanistic reasoning. The absence of evidence in the current evidence pack most likely reflects the fact that definitive clinical evidence was established prior to the era of large randomized trial registries.
+The main concern is a debated, very rare association between ocular chloramphenicol and aplastic anaemia. This is why the recommendation carries guardrails rather than an unconditional Go.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Chloramphenicol + Conjunctivitis in this evidence pack.
-
-> **Context:** The ophthalmic use of chloramphenicol for bacterial conjunctivitis predates modern trial registry requirements. Regulatory approvals in the UK, Australia, and other markets were granted based on pre-registry-era evidence. A targeted search of historical literature and regulatory dossiers is recommended to fully document the existing evidence base.
+Currently no related clinical trials registered for conjunctivitis.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature returned in this evidence pack for Chloramphenicol and Conjunctivitis.
-
-> **Context:** As with the clinical trial evidence, the historical literature supporting ophthalmic chloramphenicol for conjunctivitis primarily resides in pre-1995 publications not routinely indexed in modern PubMed queries scoped to this indication pair. Dedicated retrospective literature retrieval is advised.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis), including antibiotic prophylaxis |
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res | Moxifloxacin compared with chloramphenicol for bacterial eye infections; chloramphenicol is used mainly topically because of its known toxicity |
+| [8353434](https://pubmed.ncbi.nlm.nih.gov/8353434/) | 1993 | Comparative clinical study | Eur J Ophthalmol | Ciprofloxacin 0.3% was as safe and effective as chloramphenicol 0.5% in bacterial conjunctivitis and blepharitis. Microbiological improvement exceeded 90% in both groups, and 84.6% of chloramphenicol patients were cured or improved |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomized, single-blind trial | Acta Ophthalmol | Fusidic acid vs chloramphenicol in acute purulent conjunctivitis: clinical success 84% vs 81%. Trivial side effects (stinging) were more frequent with chloramphenicol (14% vs 5%) |
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Open, randomized comparison | Acta Ophthalmol | In Tanzania, fusidic acid had a higher success rate (93%) than chloramphenicol (48%) and framycetin (74%), attributed to higher in vitro resistance to chloramphenicol |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Saf | Reviews the controversial link between topical ocular chloramphenicol and aplastic anaemia |
+| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review/commentary | Eye (Lond) | Discusses appropriate use versus overuse of topical chloramphenicol |
+| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
+| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clin Pharmacokinet | Treatment of ocular infections with topical antibacterials |
+| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Commentary | Clin Exp Ophthalmol | Commentary on over-the-counter chloramphenicol use |
 
 ---
 
 ## Philippines Market Information
 
-Chloramphenicol currently has **no registered products** with FDA Philippines. There are no active product authorizations on record.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | No registered products found | — | — |
-
-> This absence of local registration means any clinical use of chloramphenicol in the Philippines — including ophthalmic formulations — would require an approved regulatory pathway before market introduction.
+|---------|------|------|-----------|
+| PNF-0094 (cancelled) | Chloramphenicol | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-> Full prescribing safety information is not available in this evidence pack. The following are well-established safety considerations from the published pharmacology literature that are critical for any clinical or regulatory evaluation:
+**Contraindication-related conditions (from the knowledge graph, not label text):** The knowledge graph links chloramphenicol with caution or contraindication in the following conditions:
+- Blood disorders: aplastic anaemia, anaemia, thrombocytopenia, agranulocytosis, neutropenia (including congenital forms), paroxysmal nocturnal hemoglobinuria
+- Kidney and liver disease, and gallbladder disease
+- Peripheral neuropathy and optic neuritis
+- Acute intermittent porphyria
 
-- **Aplastic Anemia (Idiosyncratic):** The most serious risk of systemic chloramphenicol use. An idiosyncratic, often fatal, aplastic anemia occurs at an estimated rate of approximately 1:25,000–1:40,000 exposures, unrelated to dose. The metabolite *deacetylchloramphenicol* is implicated in bone marrow stem cell suppression. For **ophthalmic formulations**, systemic absorption is minimal and the absolute risk is considered extremely low; however, this remains a mandated labeling warning in multiple jurisdictions and has historically limited broader ophthalmic market penetration.
+**Drug Interactions:** 100 interactions were recorded. Major interactions include:
+- Cisapride
+- Naloxegol
 
-- **Dose-Dependent Bone Marrow Suppression:** Distinct from aplastic anemia — a reversible, dose-dependent inhibition of erythropoiesis occurring during systemic use. Monitor CBC with differential for patients on systemic courses.
+Moderate interactions include:
+- Sulfonylureas (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide) and repaglinide
+- Statins (simvastatin, rosuvastatin)
+- Metronidazole
+- Budesonide
+- Aprepitant
+- Iron
 
-- **Grey Baby Syndrome:** A potentially fatal toxic syndrome in neonates characterized by cardiovascular collapse, resulting from immature hepatic glucuronidation capacity. Systemic chloramphenicol is contraindicated in neonates; ophthalmic use warrants caution in this age group.
+**Literature safety signal:** A very rare, debated association between ocular chloramphenicol and aplastic anaemia has been reported.
 
-- **Drug Interactions:** Chloramphenicol inhibits hepatic CYP enzymes and may potentiate the effects of warfarin, phenytoin, and oral hypoglycemic agents. Concurrent use with penicillins may result in antagonism of bactericidal activity.
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+
+---
+
+## Other Predicted Indications (Lower Priority)
+
+| Rank | Predicted Indication | Score | Evidence Level | Decision | Comment |
+|------|------|------|------|------|------|
+| 2 | Diffuse scleroderma | 99.65% | L5 | Hold | The literature concerns collagen gene regulation in scleroderma fibroblasts. Chloramphenicol appears to be used only as a reporter-assay tool, so this is likely an artifact |
+| 3 | Postinfectious vasculitis | 99.58% | L5 | Hold | Prediction only; the condition is immune-mediated and no evidence was found |
+| 4 | Post-bacterial disorder | 99.57% | L5 | Hold | The one linked trial ([NCT05106803](https://clinicaltrials.gov/study/NCT05106803)) is a susceptibility profiling study, not a treatment trial |
+| 5 | Post-infectious syndrome | 99.56% | L5 | Hold | Prediction only, with little mechanistic rationale |
+| 6 | Infective urethral stricture | 99.52% | L5 | Hold | Only an irrelevant 1964 case report was found |
+| 7 | Chagas cardiomyopathy | 99.51% | L5 | Hold | Not an established antitrypanosomal agent; myelotoxicity is a concern |
+| 8 | Infection-related hemolytic uremic syndrome | 99.50% | L5 | Hold | Antibiotics are generally avoided in STEC-associated HUS, and hematologic toxicity is a concern |
+| 9 | Punctate epithelial keratoconjunctivitis | 99.17% | L4 | Hold | Evidence is case series on microsporidial disease, where chloramphenicol has no established activity |
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (for conjunctivitis); **Hold** for all other predicted indications.
 
 **Rationale:**
-Chloramphenicol ophthalmic preparations have established regulatory approval and decades of real-world clinical use for bacterial conjunctivitis in multiple countries (notably the UK and Australia), directly validating the TxGNN prediction. The mechanistic rationale — broad-spectrum 50S ribosome inhibition against common ocular pathogens at high local concentrations with minimal systemic exposure — is pharmacologically sound and well-understood.
+- Several comparative clinical studies show that topical chloramphenicol works in bacterial conjunctivitis, with success rates of roughly 81-85% in most studies. However, there are no registered trials, and one study from a high-resistance setting showed much lower success (48%). The product is also cancelled-only in the Philippines, and the aplastic anaemia concern remains debated.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway assessment:** Determine the FDA Philippines registration pathway for chloramphenicol ophthalmic formulations (eye drops/ointment), including whether a full NDA or an abridged/reference-country dossier is required.
-- **Historical evidence compilation:** Conduct a targeted literature retrieval in pre-1995 databases (EMBASE, Cochrane historical archives) to document the clinical evidence supporting ophthalmic use for regulatory submission.
-- **Safety labeling review:** Prepare an aplastic anemia risk communication strategy compliant with FDA Philippines requirements, including patient counseling language and pharmacovigilance monitoring plans.
-- **Competitive landscape analysis:** Evaluate the current availability of alternative ophthalmic antibiotics in the Philippines market (tobramycin, ciprofloxacin, moxifloxacin, fusidic acid) to assess unmet need and market positioning.
-- **MOA documentation:** Retrieve full DrugBank/pharmacology data for the regulatory submission dossier to support the mechanism-of-action narrative.
-- **Formulation feasibility:** Confirm manufacturing and cold-chain requirements for ophthalmic chloramphenicol suitable for the Philippine distribution infrastructure.
+- Package insert warnings and contraindications from the Philippines FDA, which are currently missing and block safety screening
+- Detailed mechanism-of-action data
+- Confirmation of whether a topical ophthalmic formulation is available or can be re-registered in the Philippines, since the cancelled registration has no dosage form or indication on record
+- Local antimicrobial resistance data for common conjunctivitis pathogens
+- A risk-minimization plan covering short treatment courses, avoiding use in patients with blood disorders or a history of bone marrow suppression, and monitoring for haematological adverse events
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

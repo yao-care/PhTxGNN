@@ -2,7 +2,7 @@
 layout: default
 title: Rifaximin
 parent: Moderate Evidence (L3-L4)
-nav_order: 293
+nav_order: 296
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,76 +29,70 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Rifaximin: From Gastrointestinal Infections to Oral Candidiasis
+# Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
 
 ## One-Sentence Summary
 
-Rifaximin is a minimally-absorbed oral antibiotic with established uses in traveler's diarrhea, hepatic encephalopathy, and irritable bowel syndrome with diarrhea (IBS-D). The TxGNN model predicts it may be effective for **Oral Candidiasis**, with **0 clinical trials** and **1 publication** identified — notably, the sole available study reports a **negative association**, suggesting rifaximin use may *promote* rather than treat Candida infections.
-
----
+Rifaximin is a gut-restricted oral antibiotic, originally used for hepatic encephalopathy and hepatic coma.
+The TxGNN model predicts it may be effective for **oral candidiasis**,
+but there are **0 clinical trials** and only **1 publication**, and that publication points to a possible *risk* rather than a benefit.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gastrointestinal infections (traveler's diarrhea, hepatic encephalopathy) |
-| Predicted New Indication | Oral Candidiasis |
+|------|------|
+| Original Indication | Hepatic encephalopathy, hepatic coma (from the knowledge graph; no approved indication text is on file for the Philippines registration) |
+| Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, rifaximin is an oral, minimally absorbed antibiotic that acts mainly in the gut. Its efficacy in hepatic encephalopathy is attributed to reducing gut bacteria.
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Rifaximin is a rifamycin-derived, minimally-absorbed oral antibiotic (bioavailability <0.4%) that acts locally within the gastrointestinal lumen by inhibiting bacterial RNA polymerase. Its established indications — traveler's diarrhea, reduction of overt hepatic encephalopathy episodes, and IBS-D — all depend on gut-luminal bacterial suppression without meaningful systemic drug exposure.
+For oral candidiasis, a mechanistic link is hard to support. Rifaximin has no known antifungal activity. The only publication found (PMID 34180023) is a cohort study in allogeneic stem cell transplant recipients. It suggests rifaximin use was associated with **micafungin-resistant Candida infections**. This points to a possible safety concern, likely through disruption of the gut microbiome, rather than a therapeutic benefit.
 
-Oral candidiasis (thrush) is a fungal infection caused by *Candida* species on the oral mucosa, managed with topical antifungals (nystatin, clotrimazole) or systemic azoles. Because rifaximin achieves negligible plasma concentrations and has no antifungal properties, it cannot reach therapeutically relevant concentrations in oral mucosal tissue. The only indirect mechanistic link — that prolonged antibiotic use disrupts normal microbiota, creating ecological space for *Candida* overgrowth — describes a **risk mechanism**, not a treatment mechanism.
-
-Critically, the one publication retrieved runs **counter** to a therapeutic hypothesis. A 2021 retrospective cohort study in allogeneic hematopoietic stem cell transplant recipients found that rifaximin prophylaxis was associated with *increased* micafungin-resistant *Candida* infections, consistent with antibiotic-driven dysbiosis facilitating fungal opportunism. The TxGNN high confidence score most likely captures this bidirectional biological association rather than a genuine repurposing opportunity.
-
----
+The high prediction score therefore appears to reflect network similarity in the model rather than a validated biological rationale. The related prediction for general candidiasis (score 99.15%) shows the same pattern. Its two observational studies also suggest increased risk, not benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Retrospective Cohort | Annals of Hematology | In allogeneic HSCT recipients receiving rifaximin as GvHD prophylaxis, rifaximin use was associated with **increased** incidence of micafungin-resistant *Candida* spp. infections — this is evidence of harm, not therapeutic benefit |
-
----
+|------|-----|------|------|---------|
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | In allogeneic stem cell transplant recipients, rifaximin prophylaxis was associated with micafungin-resistant *Candida* infections. This is a safety signal, not evidence of benefit. |
 
 ## Philippines Market Information
 
-Rifaximin is currently **not registered** with the Philippine FDA. No product authorizations, brand names, or approved indications were found in the Philippine regulatory database.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0423 | Rifaximin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (knowledge graph, not label text)**: *Clostridium difficile* colitis; perinatal necrotizing enterocolitis.
+- **Drug Interactions**: 69 interactions were identified. One is Major: live cholera vaccine (*Vibrio cholerae* CVD 103-HgR). The sample reviewed also included Moderate interactions with warfarin, cyclosporine, tolvaptan, apalutamide, darolutamide, cabozantinib, encorafenib, and the hepatitis C antivirals daclatasvir and ledipasvir, among others.
+- **Infection risk signal**: The published literature links rifaximin use to resistant *Candida* infections in transplant recipients. This is directly relevant to the proposed indication.
 
----
+Please refer to the package insert for further safety information, such as warnings and labelled contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a TxGNN score of 99.75%, rifaximin has no antifungal mechanism, cannot achieve effective concentrations at the oral mucosa, and the only available clinical evidence demonstrates that rifaximin use *increases* — not decreases — Candida infection risk. This prediction appears to reflect a statistically captured co-occurrence signal rather than a clinically actionable therapeutic relationship.
+The high TxGNN score is not supported by a plausible mechanism or by clinical evidence. The only available study suggests a possible harm (resistant *Candida* infections). The Philippines registration is also cancelled, with no indication or dosage form on file.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DrugBank API query pending; DG002)
-- Philippine FDA package insert and approved indications (DG001 — currently blocking safety assessment)
-- Reassessment of whether other TxGNN-predicted indications for Rifaximin (e.g., gut microbiome-mediated systemic conditions such as minimal hepatic encephalopathy or small intestinal bacterial overgrowth) represent more mechanistically credible repurposing candidates
-- Review of TxGNN signal directionality methodology to determine whether high scores for drug–disease pairs with known adverse associations can be systematically flagged
+- Mechanism of action data, to assess whether any biological link to oral candidiasis exists
+- Package insert warnings and contraindications from the Philippines regulator (the current registration is cancelled)
+- Further analysis of the *Candida* resistance signal, ideally with controlled data that accounts for underlying disease
+- Preclinical or in vitro evidence of any benefit in oral candidiasis before considering clinical studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

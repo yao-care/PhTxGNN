@@ -2,7 +2,7 @@
 layout: default
 title: Calcipotriol
 parent: Moderate Evidence (L3-L4)
-nav_order: 52
+nav_order: 54
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,93 +29,75 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Calcipotriol: From Psoriasis to Seborrheic Keratosis
+# Calcipotriol: From an Unspecified Original Indication to Seborrheic Keratosis
 
 ## One-Sentence Summary
 
-Calcipotriol is a synthetic vitamin D3 analog (calcipotriene), widely used as a topical treatment for plaque psoriasis by modulating keratinocyte proliferation and differentiation via the vitamin D receptor (VDR).
-The TxGNN model predicts it may be effective for **Seborrheic Keratosis** (老人疣／脂溢性角化症),
-with **0 registered clinical trials** and **6 publications** currently supporting this direction.
-
----
+Calcipotriol is a vitamin D3 analogue. The Philippines registration data compiled for this report does not state its original approved indication, although it is established worldwide as a topical psoriasis treatment.
+The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** and **4 publications** (small case series and case reports) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Plaque psoriasis (topical treatment) |
-| Predicted New Indication | Seborrheic Keratosis |
+|------|------|
+| Original Indication | Not stated in the Philippines registration record |
+| Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Calcipotriol is a synthetic vitamin D3 analog that exerts its effects by binding to the vitamin D receptor (VDR), a nuclear receptor widely expressed in keratinocytes. Through VDR activation, calcipotriol inhibits keratinocyte hyperproliferation and promotes differentiation and apoptosis — the same biological pathway that makes it effective in psoriasis, where keratinocyte overgrowth is the hallmark pathology.
+Calcipotriol activates the vitamin D receptor in keratinocytes. This inhibits cell proliferation, promotes differentiation and induces apoptosis. These effects are the basis for its use in inflammatory keratotic skin disease such as psoriasis.
 
-Seborrheic keratosis (SK), commonly known as senile warts, is fundamentally a benign epithelial neoplasm characterized by localized, excessive keratinocyte proliferation. This mechanistic overlap is direct and biologically plausible: if calcipotriol can suppress abnormal keratinocyte growth in psoriasis, the same anti-proliferative and pro-apoptotic VDR signaling may reduce SK lesions. A 2005 clinical study (PMID 16043912) explicitly documented apoptosis induction in seborrheic keratosis treated with topical vitamin D3 analogs, including calcipotriol.
+Seborrheic keratosis is a common benign epidermal tumour of the elderly. Because it involves keratinocyte overgrowth, the antiproliferative and prodifferentiation effects of calcipotriol are plausibly relevant. Published reports describe regression of lesions with topical vitamin D3 analogues, and apoptosis has been proposed as the mechanism.
 
-Currently, detailed mechanism of action data from DrugBank is not available in this evidence pack. However, based on established pharmacology, calcipotriol's VDR-mediated regulation of keratinocyte biology provides a strong scientific rationale for its repurposing in seborrheic keratosis, and multiple small clinical series have demonstrated complete lesion regression with topical application.
-
----
+Detailed mechanism of action data is not available in the data compiled for this report. The rationale above rests on the general known pharmacology of vitamin D analogues rather than on a documented mechanism record.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for calcipotriol in seborrheic keratosis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Prospective Clinical Series (open-label) | Australasian Journal of Dermatology | Case series of 12 patients with facial SK treated with 0.005% calcipotriol ointment for 3–8 months; complete lesion regression achieved, with remission lasting 6–10 years |
-| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Comparative Clinical Study | International Journal of Dermatology | Head-to-head comparison of cryosurgery vs. topical calcipotriene, tazarotene, and imiquimod for SK; assessed efficacy of topical alternatives to procedural treatment |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical + Mechanistic Study | The Journal of Dermatology | 116 patients treated with topical vitamin D3 analogs (including calcipotriol); 30.2% showed response; authors conclude efficacy is likely mediated through apoptosis induction |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical Article / Case Series | Clinical Calcium | Japanese review reporting treatment of senile warts (SK) with topical vitamin D3 analogs once or twice daily; supporting data for calcipotriol in this setting |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case Report | The Journal of Dermatology | A patient with keratosis lichenoides chronica (seborrheic dermatitis-like features) showed marked response to calcipotriol ointment; highlights VDR-mediated anti-keratotic activity |
-| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Clinical Vignette | JAAPA | Clinical discussion of a spotted, itchy rash on the shins diagnosed as seborrheic keratosis; contextual reference for clinical presentation |
+|------|-----|------|------|---------|
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series (12 patients) | Australas J Dermatol | 0.005% calcipotriol ointment for 3-8 months on solitary facial flat seborrheic keratosis gave complete regression; remission lasted 6-10 years |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical case series | J Dermatol | Topical vitamin D3 (tacalcitol, calcipotriol or maxacalcitol) in 116 senile warts for 3-12 months; 35 (30.2%) showed a response; apoptosis proposed as the mechanism |
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical report / review | Clinical Calcium | Overview of active vitamin D3 ointments applied once or twice daily to senile warts (seborrheic keratosis) |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response of keratosis lichenoides chronica (a related but different keratotic disorder) to calcipotriol ointment |
 
----
+All the studies are small and uncontrolled, and none is a randomised trial. The 2005 study pooled several vitamin D3 analogues rather than testing calcipotriol alone.
 
 ## Philippines Market Information
 
-Calcipotriol currently has **no registered products** with the Philippines FDA (Food and Drug Administration). It is not available as a marketed pharmaceutical in the Philippines as of the data cutoff (April 4, 2026).
-
----
+Calcipotriol has one registration in the Philippines (PNF-0065, single-ingredient product), and its status is cancelled. No dosage form, manufacturer or approved indication is recorded, and there is no currently valid registration.
 
 ## Safety Considerations
 
-Detailed safety data (package insert warnings, contraindications, and drug interactions) were not available in this evidence pack for the Philippines market.
+- **Contraindications flagged by the knowledge graph** (drug-disease contraindication links in the TxGNN knowledge graph, not label text):
+  - Calcium and vitamin D disorders: hypercalcemia, hypervitaminosis, nephrocalcinosis, calcinosis, calciphylaxis, and other calcium or phosphorus metabolism disorders
+  - Adrenal disease: adrenocortical insufficiency, Addison disease
+  - Skin and vascular conditions: skin atrophy, telangiectasis, hereditary hemorrhagic telangiectasia, peripheral vascular and arterial disease, ichthyosis (several forms), Darier disease, pseudoxanthoma elasticum, guttate psoriasis
+- **Drug Interactions**: 84 potential interactions were identified, but none has a severity grade. The list includes corticosteroids (prednisone, prednisolone, hydrocortisone, triamcinolone), proton pump inhibitors (omeprazole, pantoprazole, lansoprazole, rabeprazole), metformin, simvastatin, doxycycline, clarithromycin and others.
 
-Please refer to the package insert and international prescribing information for safety guidance. Key considerations known from general pharmacology include:
-- **Hypercalcemia risk**: Excessive use or application to large body surface areas may raise serum calcium levels; weekly dose limits apply (typically ≤100 g/week for adults)
-- **Skin irritation**: Local irritation at the application site is the most commonly reported adverse effect
-- **Pregnancy and lactation**: Use with caution; systemic absorption risk should be assessed
-
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for label safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple small clinical studies and case series (6 publications, including prospective and comparative designs) directly document complete or partial regression of seborrheic keratosis with topical calcipotriol, and a mechanistic study has confirmed apoptosis induction as the likely mode of action. While no registered clinical trials exist and the current evidence is limited to small series (L3), the biological rationale is strong and initial clinical results are consistent.
+The model score is very high and the mechanism is plausible, but the supporting evidence is limited to small uncontrolled case series and case reports with no registered trials. In addition, the only Philippines registration is cancelled and no label safety data was available. This is best treated as a research question rather than a candidate ready for progression.
 
 **To proceed, the following is needed:**
-
-- **Regulatory filing**: Register calcipotriol topical formulation with the Philippines FDA before any clinical use
-- **Mechanism of action data**: Obtain full DrugBank MOA entry to support regulatory dossier preparation
-- **Formal clinical trial**: Design a prospective, controlled pilot trial (Phase 2) in the Philippines to generate local efficacy and safety data
-- **Safety data package**: Retrieve the complete package insert (warnings, contraindications, drug interactions) from an approved market (e.g., EMA, FDA-USA) to complete the local safety assessment
-- **Dose optimization**: Confirm appropriate application frequency and duration for SK specifically, distinct from psoriasis dosing regimens
-- **Hypercalcemia monitoring plan**: Establish serum calcium monitoring protocol for patients with extensive or prolonged treatment
-
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before clinical application.
+- Package insert warnings and contraindications from DOH-FDA Philippines, to allow safety screening
+- Confirmed mechanism of action data from DrugBank
+- A controlled study (for example, a randomised comparison against standard treatments such as cryotherapy) of topical calcipotriol in seborrheic keratosis
+- Clarification of the regulatory pathway given the cancelled registration, and confirmation of an available topical formulation
+- A review of hypercalcemia risk and the knowledge-graph contraindications for the intended patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

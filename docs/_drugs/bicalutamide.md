@@ -2,7 +2,7 @@
 layout: default
 title: Bicalutamide
 parent: Moderate Evidence (L3-L4)
-nav_order: 42
+nav_order: 44
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,35 +29,36 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bicalutamide: From Prostate Cancer to Hypertrichosis
+# Bicalutamide: From Androgen Receptor Blockade to Hypertrichosis
 
 ## One-Sentence Summary
 
-Bicalutamide is a non-steroidal antiandrogen originally used for the treatment of prostate cancer, functioning by competitively blocking the androgen receptor (AR) to suppress androgen-driven cell growth. The TxGNN model predicts it may be effective for **hypertrichosis**, with **0 clinical trials** and **1 publication** currently supporting this direction — specifically an expert commentary describing how Bicalutamide reduced Minoxidil-induced excess hair growth in female pattern hair loss patients.
+Bicalutamide is a nonsteroidal androgen receptor (AR) antagonist. The registration data compiled for this report do not record its original approved indication.
+The TxGNN model predicts it may be useful for **hypertrichosis**, but there are **0 clinical trials** and only **1 publication**, which is a commentary letter, supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prostate cancer (androgen deprivation / antiandrogen therapy) |
+|------|------|
+| Original Indication | Not recorded in the Philippines registration data |
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, formal mechanism of action (MOA) data from the regulatory database is not available for this report. Based on well-established pharmacological knowledge, Bicalutamide is a selective, competitive androgen receptor (AR) antagonist. It binds to AR and prevents testosterone and dihydrotestosterone (DHT) from activating downstream gene transcription — the central mechanism behind its clinical use in prostate cancer, where androgen signaling drives tumor cell proliferation.
+Currently, detailed mechanism of action data is not available in the compiled database record. Bicalutamide is known as a nonsteroidal AR antagonist. Androgen signalling drives terminal hair growth in androgen-sensitive areas of the body, so blocking the AR is plausible for hirsutism-like or drug-induced hypertrichosis.
 
-The connection to hypertrichosis lies in the shared biology of androgen signaling in hair follicles. Androgens acting through AR are known to promote terminal hair growth in androgen-sensitive body areas such as the face, chest, arms, and legs. In androgen-dependent hypertrichosis — particularly drug-induced forms such as Minoxidil-associated hypertrichosis — blocking AR activity could theoretically reduce unwanted hair growth. The single supporting publication (PMID 35304167) is an expert letter commenting on Bicalutamide's clinical use to reverse Minoxidil-induced hypertrichosis in female pattern hair loss patients, providing a real-world proof-of-concept signal.
+The only supporting literature is a commentary on a retrospective review of 35 patients. That review looked at bicalutamide for minoxidil-induced hypertrichosis in female pattern hair loss. This is indirect, secondary evidence, and no primary trial data were available for this report.
 
-However, hypertrichosis is a heterogeneous condition with many subtypes. Congenital forms (e.g., Ambras syndrome caused by 8q chromosomal abnormalities) and genetic hair shaft structural disorders are driven by mechanisms entirely unrelated to androgen signaling, and would not be expected to respond to AR blockade. This TxGNN prediction is most mechanistically plausible for androgen-dependent acquired hypertrichosis.
+The rationale is weaker for congenital forms of hypertrichosis. These are not clearly androgen-mediated, so the high model score should not be read as evidence of benefit across all hypertrichosis types.
 
 ---
 
@@ -70,34 +71,35 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Letter / Comment | Journal of the American Academy of Dermatology | Expert commentary on Bicalutamide's ability to improve Minoxidil-induced hypertrichosis in female pattern hair loss patients; supports the concept of AR blockade as a clinically observable hair growth suppressor |
+|------|-----|------|------|---------|
+| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Comment/Letter | Journal of the American Academy of Dermatology | Commentary on a retrospective review of 35 patients using bicalutamide for minoxidil-induced hypertrichosis in female pattern hair loss. No abstract or primary data were available. |
 
 ---
 
 ## Philippines Market Information
 
-No registrations found in the Philippines FDA database. Bicalutamide is not currently marketed in the Philippines.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0050 | Bicalutamide | Cancelled |
 
----
-
-## Cytotoxicity
-
-Bicalutamide is classified as an antineoplastic agent due to its primary indication in prostate cancer. However, it is a hormone therapy (antiandrogen), not conventional cytotoxic chemotherapy.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Hormone therapy / Antiandrogen — non-cytotoxic, targeted mechanism of action |
-| Myelosuppression Risk | Low (antiandrogen hormone therapies do not cause significant bone marrow suppression) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function tests (LFTs) — hepatotoxicity has been reported with Bicalutamide; PSA monitoring for oncological use; periodic CBC recommended |
-| Handling Protection | Standard pharmaceutical handling; dedicated cytotoxic drug handling precautions are generally not required for antiandrogen hormone therapies |
+Dosage form and approved indication are not recorded for this authorization.
 
 ---
 
 ## Safety Considerations
 
-Detailed official warning labels and contraindications from the Philippines FDA package insert were not available in the current evidence pack. Please refer to the package insert for complete safety information.
+- **Disease associations from the knowledge graph (not label text):** The TxGNN knowledge graph links bicalutamide to contraindication-type relationships with the following conditions. These should be checked against the official package insert.
+  - Liver disease and drug-induced liver injury
+  - Gallbladder disease
+  - Hyperglycaemia, diabetes mellitus and diabetic ketoacidosis
+  - Anaemia, including macrocytic anaemia
+  - Interstitial lung disease
+- **Drug Interactions:** The interaction query returned 100 interactions in total, and the first 20 were reviewed.
+  - **Major:** cisapride and dolasetron.
+  - **Moderate:** famotidine, loperamide, aprepitant, bisacodyl, budesonide (including nasal), castor oil, clarithromycin, eliglustat, glycerin, granisetron, lactitol, lactulose, levofloxacin, magnesium citrate, magnesium hydroxide and mineral oil.
+  - **Minor:** metronidazole.
+
+Please refer to the package insert for warnings and label-based contraindications.
 
 ---
 
@@ -106,14 +108,17 @@ Detailed official warning labels and contraindications from the Philippines FDA 
 **Decision: Hold**
 
 **Rationale:**
-The current evidence for Bicalutamide in hypertrichosis rests on a single expert letter with no primary clinical data and zero registered clinical trials; while the mechanistic rationale (AR blockade suppressing androgen-dependent hair growth) is biologically coherent, the evidence base is insufficient to support clinical development or formulary consideration at this stage.
+The prediction rests on a model score and a single commentary letter, with no clinical trials. The drug has no valid registration in the Philippines, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
+
+For context, a lower-ranked prediction in the same data, **female breast carcinoma** (score 99.11%), has stronger support. It has one active Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab) and substantial preclinical literature on AR-positive triple-negative breast cancer. It was assessed at evidence level L2 with a "Proceed with Guardrails" recommendation, and may be a better candidate for further evaluation.
 
 **To proceed, the following is needed:**
-- Prospective pilot study or structured case series directly assessing Bicalutamide's efficacy in patients with confirmed androgen-dependent hypertrichosis
-- Patient subgroup definition: only androgen-dependent acquired hypertrichosis (e.g., drug-induced, hyperandrogenism-associated) is mechanistically expected to respond; congenital and genetic subtypes must be excluded from scope
-- Complete MOA and safety data retrieval from DrugBank (DrugBank ID: DB01128)
-- Philippines FDA package insert or equivalent labeling document to confirm contraindications, hepatic monitoring requirements, and local regulatory standing
-- Assessment of appropriate dose and formulation for a dermatological indication, which may differ substantially from oncological dosing regimens
+- The primary study behind the commentary (the 35-patient retrospective review) and any controlled data in hypertrichosis
+- Clarification of which hypertrichosis subtype is targeted (drug-induced or androgen-related versus congenital)
+- Detailed mechanism of action data
+- The original approved indication and package insert warnings, contraindications and dosage forms from the DOH-FDA Philippines record
+- Confirmation of regulatory status, since the only registration found is cancelled
+- A safety plan covering liver function and the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

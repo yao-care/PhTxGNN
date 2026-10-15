@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Acetate
 parent: Model Prediction Only (L5)
-nav_order: 310
+nav_order: 314
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,58 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Acetate: From Electrolyte Supplement to Congenital Prothrombin Deficiency
+# Sodium Acetate: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Sodium acetate is a common electrolyte replenisher and pH buffer used primarily as a component of intravenous fluid solutions and as a urinary alkalinizing agent, with no formally registered indication in the Philippines.
-The TxGNN model predicts it may be effective for **Congenital Prothrombin Deficiency**,
-with **no clinical trials** and **no publications** currently supporting this specific direction.
-The mechanistic link is considered weak and the top prediction carries a high risk of being a model false positive.
+Sodium acetate is an electrolyte and alkalinizing agent, and no original approved indication is recorded in the Philippines regulatory data compiled for this report.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The high score appears to be a knowledge-graph artifact rather than a biologically grounded signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+|------|------|
+| Original Indication | Not available (the only registration has no indication text) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, sodium acetate is the sodium salt of acetic acid. After systemic administration or absorption, acetate is metabolized intracellularly to bicarbonate, making sodium acetate a functional precursor for acid-base buffering and urinary pH alkalinization. In clinical practice, it appears primarily as a component of parenteral nutrition solutions and balanced IV crystalloids for correcting or preventing metabolic acidosis.
+Currently, detailed mechanism of action data is not available. Sodium acetate is generally understood as an electrolyte and alkalinizing agent: acetate is metabolized to bicarbonate in the body.
 
-Congenital prothrombin deficiency (Factor II deficiency) is a rare autosomal recessive bleeding disorder caused by F2 gene mutations, resulting in insufficient or dysfunctional prothrombin. Standard treatment relies on prothrombin complex concentrates (PCC) or fresh frozen plasma — coagulation factor replacement therapies that bear no mechanistic relationship to acetate metabolism.
+No plausible mechanistic link to the predicted indication was identified. Sodium acetate does not affect prothrombin synthesis or coagulation factor II activity. The high TxGNN score therefore looks like an artifact of the knowledge graph rather than a biologically grounded prediction.
 
-The TxGNN model likely generated this high-ranking prediction through indirect knowledge graph adjacency: both hepatic acetate utilization and coagulation factor synthesis (including prothrombin) are liver-dependent processes, sharing graph neighborhood nodes related to hepatic function. This represents a plausible but highly speculative topological association rather than a direct mechanistic link, and the complete absence of supporting clinical trials or literature strongly suggests this is a model false positive rather than an actionable repurposing opportunity at this stage.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for sodium acetate in congenital prothrombin deficiency.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for sodium acetate in congenital prothrombin deficiency.
+The other top-ranked predictions show the same pattern. They include epiglottitis, urinary tract infection, sclerosing cholangitis, Ureaplasma and gonococcal urethritis, dyspepsia, uterine inflammatory disease, gastroparesis and xanthogranulomatous pyelonephritis, all with scores of about 99.5% to 99.8%. None has supporting clinical data for sodium acetate. For dyspepsia and gastroparesis, the retrieved papers mostly use ¹³C-sodium acetate only as a breath-test tracer for measuring gastric emptying, which is not therapeutic evidence.
 
 ---
 
 ## Philippines Market Information
 
-Sodium acetate (DB09395) is not currently registered in the Philippines. No authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0447 | Sodium Chloride | Not specified | Not specified (status: cancelled) |
+
+The only registration is cancelled and has no valid single-ingredient or combination products. Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications from the knowledge graph** (these come from knowledge-graph drug-disease links, not from package insert text): kidney disease, chronic kidney disease, chronic and end-stage renal failure, anuria, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, heart disease, cardiovascular disease, atrioventricular block, ventricular fibrillation, digitalis poisoning, hyperkalemic periodic paralysis, hypoaldosteronism, myotonia congenita, phenylketonuria and disorders of phenylalanine metabolism.
+- **Drug interactions**: 30 interactions were identified, of which 20 are listed. The listed ones are mostly Moderate or Minor.
+  - *Moderate*: tetracyclines (doxycycline, tetracycline, minocycline), salicylates (acetylsalicylic acid, choline salicylate), sympathomimetics and stimulants (ephedrine, pseudoephedrine, amphetamine, dextroamphetamine, benzphetamine) and methenamine.
+  - *Minor*: sulfonylureas (chlorpropamide, tolazamide, glipizide, glyburide, acetohexamide, tolbutamide), memantine and methotrexate.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -93,13 +89,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (congenital prothrombin deficiency, rank 1) is classified as L5 — model prediction only — with zero supporting clinical trials or literature and a mechanistic link that reflects indirect knowledge graph adjacency rather than a direct pharmacological pathway.
+The prediction rests on a model score alone (L5), with no clinical trials or relevant literature, and no plausible mechanism links sodium acetate to prothrombin deficiency. The only Philippines registration is cancelled, so there is no current local product to repurpose. The knowledge-graph contraindications, especially renal and cardiac disease, add further caution.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank or peer-reviewed literature to confirm whether any acetate–coagulation axis exists
-- Full safety profile from the package insert (warnings, contraindications, drug–drug interactions)
-- Expert pharmacologist or hematologist review to evaluate biological plausibility before any preclinical work is commissioned
-- Consider redirecting evaluation effort toward better-evidenced predictions in this same pack: **urinary tract infection (rank 3, L4)** has a mechanistically grounded rationale via urine alkalinization; **dyspepsia (rank 7, L4)** and **gastroparesis (rank 9, L4)** both carry SCFA–gut motility mechanistic hypotheses with supporting preclinical literature, and would be more productive candidates for a formal research question stage
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Confirmation of the original approved indication and whether the cancelled registration actually corresponds to sodium acetate
+- A biologically grounded rationale, or direct preclinical or clinical evidence, for any predicted indication
+- Reassessment of the lower-ranked predictions, such as urinary alkalinization in urinary tract infection, if a mechanistic case can be made
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Donepezil
 parent: Model Prediction Only (L5)
-nav_order: 115
+nav_order: 117
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,77 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Donepezil: From Alzheimer's Disease to Psychogenic Movement Disorders
+# Donepezil: From Alzheimer Disease to Chronic Tic Disorder
 
 ## One-Sentence Summary
 
-Donepezil is a well-established acetylcholinesterase inhibitor (AChEI) widely used in the treatment of Alzheimer's disease. The TxGNN model predicts it may be effective for **Psychogenic Movement Disorders**, though this prediction is currently supported by **0 clinical trials** and **0 publications** — making it a model-level signal only, with no empirical evidence to substantiate the prediction at this stage.
-
----
+Donepezil is a cholinesterase inhibitor originally used to treat Alzheimer disease. The TxGNN model's top-ranked prediction is **psychogenic movement disorders**, but this has no supporting studies. The best-supported candidate is **chronic tic disorder**, which has **0 registered clinical trials** and **5 publications**, mostly small, preclinical or commentary-type. Overall evidence is limited.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Alzheimer's Disease |
-| Predicted New Indication | Psychogenic Movement Disorders |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold |
-
----
+|------|------|
+| Original Indication | Alzheimer disease (no approved indication text is available from the Philippines registration) |
+| Predicted New Indication | Top TxGNN rank: psychogenic movement disorders. Best-supported: chronic tic disorder (rank 2) |
+| TxGNN Prediction Score | 99.23% (psychogenic movement disorders); 99.19% (chronic tic disorder) |
+| Evidence Level | L5 for the top-ranked indication; L3 for chronic tic disorder |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold for psychogenic movement disorders; Proceed with Guardrails at research-question level for chronic tic disorder |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on well-established pharmacological knowledge, Donepezil is a selective and reversible inhibitor of acetylcholinesterase (AChE), the enzyme responsible for breaking down acetylcholine (ACh) in synaptic clefts. By blocking AChE, Donepezil elevates ACh concentrations throughout the central nervous system — particularly in the cortex and hippocampus — which underlies its therapeutic benefit in Alzheimer's disease via the cholinergic hypothesis of cognitive decline.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Donepezil is a cholinesterase inhibitor, and its efficacy in Alzheimer disease is established. Mechanistically, it may be applicable to movement disorders through cholinergic modulation.
 
-Psychogenic movement disorders (PMDs), however, represent a fundamentally different pathological process. They are classified as functional neurological disorders (FND), driven by abnormal functional brain connectivity, maladaptive motor predictions, and psychological factors — not by a cholinergic deficit. There is no established biological rationale linking AChEI activity to the core pathophysiology of PMDs.
+For the top-ranked prediction (psychogenic movement disorders), no trials or literature were found. Any cholinergic or basal ganglia rationale is speculative, and these conditions are generally managed without drugs.
 
-The notably high TxGNN score (99.23%) is likely an artifact of knowledge graph topology — specifically, "neighbor propagation" effects that associate Donepezil with broad "movement disorder" nodes due to its known roles in Alzheimer's-related motor symptoms, Lewy body dementia, and drug-induced movement side effects. This is a recognized limitation of graph neural network-based models and warrants caution: a high model score does not imply clinical plausibility for this specific indication.
+For **chronic tic disorder**, the rationale is stronger. Striatal cholinergic dysfunction may contribute to tics and ADHD. Mouse studies show donepezil reduces the DOI-induced head twitch response, a model of tics in Tourette syndrome, suggesting an effect on central serotonergic activity. A small open-label pediatric study and a few reports hint at benefit, but none are controlled.
 
----
+Other predicted indications are weaker. Evidence for extrapyramidal and movement disease is mixed: a small report suggests benefit in tardive movement disorders, but a 2025 systematic review shows cholinesterase inhibitors can cause or worsen movement disorders. For lingual-facial-buccal dyskinesia, Cochrane reviews cover cholinergic agents broadly, not donepezil specifically.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Donepezil in psychogenic movement disorders.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Donepezil in psychogenic movement disorders.
+Chronic tic disorder (best-supported candidate):
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18343255](https://pubmed.ncbi.nlm.nih.gov/18343255/) | 2008 | Open-label clinical study | Clin Ther | 18-week dose-escalating study of donepezil in children and adolescents with tics and ADHD; rationale is striatal cholinergic dysfunction |
+| [10440471](https://pubmed.ncbi.nlm.nih.gov/10440471/) | 1999 | Case report/small series | J Clin Psychopharmacol | Donepezil for Tourette's disorder and ADHD |
+| [16986157](https://pubmed.ncbi.nlm.nih.gov/16986157/) | 2006 | Commentary/Letter | Mov Disord | Commentary on donepezil in Tourette's syndrome |
+| [16045972](https://pubmed.ncbi.nlm.nih.gov/16045972/) | 2005 | Preclinical (mouse) | Pharmacol Biochem Behav | Donepezil, nicotine and haloperidol effects on the central serotonergic system in a Tourette model |
+| [14643839](https://pubmed.ncbi.nlm.nih.gov/14643839/) | 2003 | Preclinical (mouse) | Pharmacol Biochem Behav | Donepezil reduced DOI-induced head twitch response, a model of tics |
+
+Related movement disorder literature (indirect or mixed):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29553158](https://pubmed.ncbi.nlm.nih.gov/29553158/) | 2018 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Cholinergic medication for antipsychotic-induced tardive dyskinesia (not donepezil-specific) |
+| [12137608](https://pubmed.ncbi.nlm.nih.gov/12137608/) | 2002 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Earlier Cochrane review of cholinergic drugs for tardive dyskinesia |
+| [15610922](https://pubmed.ncbi.nlm.nih.gov/15610922/) | 2004 | Meta-analysis of RCTs | Prog Neuropsychopharmacol Biol Psychiatry | Cholinergic drugs for neuroleptic-induced tardive dyskinesia |
+| [40224553](https://pubmed.ncbi.nlm.nih.gov/40224553/) | 2025 | Systematic review | Brain Circ | Movement disorders associated with acetylcholinesterase inhibitors in Alzheimer's dementia (safety signal) |
+| [15669896](https://pubmed.ncbi.nlm.nih.gov/15669896/) | 2005 | Small clinical study | J Clin Psychiatry | Beneficial effect of donepezil in elderly patients with tardive movement disorders |
+| [24127392](https://pubmed.ncbi.nlm.nih.gov/24127392/) | 2014 | Pharmacovigilance study | Pharmacotherapy | Reporting relationship between cholinesterase inhibitors and Pisa syndrome (a dystonia) |
 
 ## Philippines Market Information
 
-Donepezil is currently **not registered** with the Philippine FDA. There are **no approved products** in the Philippine drug registry. Any clinical development or compassionate use of this drug in the Philippines would require new drug registration prior to use.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0156 | Donepezil | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Full safety data — including Philippine FDA (FDA Philippines) package insert warnings, contraindications, and drug–drug interaction profiles — were not available in this Evidence Pack and should be retrieved before any further evaluation.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: epilepsy, asthma (including intrinsic and allergic asthma), bladder neck obstruction, active peptic ulcer disease, sick sinus syndrome (including the familial form), atrioventricular block.
+- **Movement disorder signal**: A 2025 systematic review and case reports describe cholinesterase inhibitors causing or worsening movement disorders (for example Pisa syndrome and jaw tremor). This matters directly for movement-disorder indications.
+- **Peptic ulcer**: Cholinesterase inhibitors may aggravate peptic ulcer disease through increased gastric acid secretion.
+- **Drug Interactions**: 100 interactions were found in total; 20 are listed in the data compiled for this report.
+  - **Major**: Bupropion.
+  - **Moderate**: anticholinergic agents (atropine, hyoscyamine, glycopyrronium, clidinium, dicyclomine), acid-suppressing drugs (famotidine, ranitidine, cimetidine), loperamide, dexamethasone, metronidazole, dolasetron, picosulfuric acid, and polyethylene glycol with electrolytes.
+  - **Minor**: aprepitant, acetylsalicylic acid, lorcaserin, clarithromycin.
 
----
+Package insert warnings and contraindications for the Philippines could not be retrieved; please refer to the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (psychogenic movement disorders and the other L5 predictions); chronic tic disorder is a Research Question that could Proceed with Guardrails**
 
 **Rationale:**
-There is no clinical trial evidence or published literature supporting Donepezil for psychogenic movement disorders, and no established biological mechanism links acetylcholinesterase inhibition to the pathophysiology of functional neurological disorders. The high TxGNN score most likely reflects graph-level noise rather than a genuine pharmacological signal.
+- The top-ranked prediction, psychogenic movement disorders, is supported only by the model score, with no trials or literature. Chronic tic disorder has a plausible mechanism and small clinical and preclinical data, but no controlled trials. The movement-disorder safety signal and the cancelled Philippines registration argue for caution.
 
 **To proceed, the following is needed:**
-- Retrieve Donepezil's full mechanism of action data from DrugBank (DB00843) to enable rigorous mechanistic plausibility assessment
-- Obtain the Philippine FDA package insert (or equivalent label) to complete the safety evaluation — currently a **blocking data gap**
-- Conduct a targeted literature search for cholinergic modulation in functional neurological disorders / psychogenic movement disorders specifically
-- Consider re-prioritizing downstream analysis to Rank 8 (**Lingual-Facial-Buccal Dyskinesia**, L3, "Proceed with Guardrails"), which is supported by two Cochrane systematic reviews and has an established cholinergic mechanistic rationale — making it the strongest repurposing candidate in this Evidence Pack
-- Philippine FDA drug registration is a prerequisite before any clinical development pathway can be initiated in the Philippines
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- A randomized, controlled trial of donepezil in chronic tic disorder or Tourette syndrome
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Clarification of the cancelled registration status and available dosage forms before any local use
+- A safety plan covering the movement-disorder signal, cardiac conduction (sick sinus syndrome, AV block), peptic ulcer, asthma and seizure risk, and the interaction with bupropion
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

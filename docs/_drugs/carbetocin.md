@@ -2,7 +2,7 @@
 layout: default
 title: Carbetocin
 parent: Model Prediction Only (L5)
-nav_order: 59
+nav_order: 61
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,37 +29,39 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Carbetocin: From Postpartum Hemorrhage to Isotretinoin-Like Syndrome
+# Carbetocin: From Prader-Willi Syndrome and Noonan Syndrome to Isotretinoin-like Syndrome
 
 ## One-Sentence Summary
 
-Carbetocin is a synthetic long-acting oxytocin analogue, primarily used to prevent uterine atony and postpartum hemorrhage by activating oxytocin receptors in the myometrium.
-The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, yet **no clinical trials** and **no publications** currently support this direction.
-This prediction rests on model output alone (Evidence Level L5), with mechanistic analysis revealing no plausible biological link.
+Carbetocin is a long-acting oxytocin analogue. In the knowledge graph used for this report it is linked to Prader-Willi syndrome and Noonan syndrome, and its pharmacology data describe use in preventing postpartum haemorrhage due to uterine atony.
+The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but **no clinical trials and no publications** currently support this direction.
+This is a model-only prediction and should be treated as hypothesis-generating.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Postpartum hemorrhage prevention (uterine atony) |
-| Predicted New Indication | Isotretinoin-Like Syndrome |
+|------|------|
+| Original Indication | Prader-Willi syndrome, Noonan syndrome (knowledge-graph indications; no approved indication text on the Philippines registration) |
+| Predicted New Indication | Isotretinoin-like syndrome |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Carbetocin is a synthetic, long-acting oxytocin analogue that binds selectively to the G protein-coupled oxytocin receptor (OTR). Upon receptor activation, it triggers the Gq → PLC → IP3/DAG → PKC intracellular cascade, elevating cytosolic calcium and driving uterine smooth muscle contraction — the pharmacological mechanism underlying its clinical use in preventing postpartum hemorrhage after cesarean delivery.
+Detailed mechanism of action data is not currently available. Based on the pharmacology data compiled for this report, carbetocin is a peptide oxytocin analogue that acts on the oxytocin receptor (OXTR). An intranasal formulation has been under development for Prader-Willi syndrome, intended to reduce the extreme hunger that leads to hyperphagia.
 
-Isotretinoin-like syndrome describes an embryotoxic phenotype caused by excess retinoic acid (13-cis-retinoic acid) exposure. Its molecular basis is entirely distinct: aberrant activation of RAR/RXR nuclear receptors disrupts neural crest cell migration, producing characteristic craniofacial, cardiac, and thymic developmental defects. The receptor systems (GPCR vs. nuclear receptor), downstream effectors (Ca²⁺/PKC vs. gene transcription), and target biology (uterine contractility vs. embryonic organogenesis) have no established points of intersection in the pharmacological literature.
+The original indications (Prader-Willi syndrome and Noonan syndrome) are developmental syndromes. This suggests the prediction may reflect shared neighbours in the knowledge graph. However, isotretinoin-like syndrome is a teratogenic embryopathy associated with disruption of the retinoic acid pathway. No biological pathway connecting oxytocin receptor agonism to this phenotype can be established from the available data.
 
-The high TxGNN score (99.15%) most likely reflects indirect statistical co-occurrence between sparse nodes in the knowledge graph, rather than a biologically meaningful repurposing signal. No experimental, mechanistic, or clinical data have been identified to support this predicted indication.
+The prediction rests only on the high model score. It has no trial or literature backing, so its plausibility should be regarded as low until a mechanistic rationale is shown.
+
+A second predicted indication, **Goodman syndrome** (score 99.06%), is a rare craniofacial and limb malformation disorder. It also has no supporting trials or literature, and oxytocin-based therapy would not be expected to correct a structural congenital malformation. It is likewise rated L5 / Hold.
 
 ---
 
@@ -77,13 +79,17 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Carbetocin is not currently registered in the Philippines. No active product licenses were found in the regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0076 | Carbetocin | Not specified | Not specified (registration status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query completed, but it returned only a pharmacology target record (oxytocin receptor, OXTR, human) and no drug-drug interactions with a defined severity level.
+
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ---
 
@@ -92,15 +98,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or preclinical evidence supporting Carbetocin for isotretinoin-like syndrome, and mechanistic analysis reveals a fundamental mismatch between the oxytocin receptor/Ca²⁺ signaling axis and the RAR/RXR-driven retinoic acid teratogenicity pathway. This prediction does not meet the minimum threshold for further investigation.
+The prediction relies only on a model score. There are no clinical trials or publications, the mechanism of action is unavailable, and no biological link between oxytocin receptor agonism and isotretinoin-like embryopathy can be established. The only Philippines registration is cancelled, and the safety information from the package insert is missing.
 
-**To proceed, the following would be needed:**
-- A credible biological hypothesis linking OTR activation to retinoic acid signaling or neural crest cell biology
-- Preclinical data (in vitro or animal model) demonstrating any effect of oxytocin receptor agonism on retinoic acid-induced toxicity
-- Full safety profile including package insert warnings and contraindications (currently unavailable)
-- Reconsideration of whether this TxGNN result is a spurious knowledge-graph artefact arising from rare-node proximity, rather than a true repurposing signal
-
-> **Note:** The second-ranked prediction, Goodman syndrome (TxGNN score 99.06%, rank 6178), is similarly unsupported — it involves the RAB23/Sonic Hedgehog/Gli signaling axis, which has no known pharmacological intersection with the oxytocin receptor pathway. Both top predictions share the same L5 / Hold classification and warrant no near-term development resources.
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- A plausible biological rationale linking oxytocin receptor agonism to the predicted indication
+- Any preclinical or clinical evidence for the predicted indication
+- Clarification of the cancelled registration status and the available dosage forms and routes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

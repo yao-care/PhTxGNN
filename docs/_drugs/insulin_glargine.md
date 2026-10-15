@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glargine
 parent: Model Prediction Only (L5)
-nav_order: 174
+nav_order: 176
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,66 +33,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin glargine is a long-acting basal insulin analog established as a cornerstone therapy for glycemic control in Type 1 and Type 2 diabetes mellitus.
-The TxGNN model predicts it may be relevant to **Autoimmune Oophoritis**, with **0 clinical trials** and **0 publications** currently supporting this direction — the association is inferred entirely from autoimmune endocrine comorbidity patterns in the knowledge graph, not from direct therapeutic evidence.
-
----
+Insulin glargine is a long-acting basal insulin analog, originally used to treat type 1 and type 2 diabetes mellitus and diabetic ketoacidosis.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+The score comes from the model alone, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diabetes mellitus (Type 1 & Type 2); no Philippines license record available |
-| Predicted New Indication | Autoimmune Oophoritis |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (approved indication text is not available for the Philippines registration) |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, insulin glargine is a modified insulin analog with a prolonged, peakless absorption profile (~24 hours), primarily designed to mimic physiological basal insulin secretion and suppress hepatic glucose output in patients with insufficient endogenous insulin production.
+Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting basal insulin analog whose efficacy in diabetes mellitus is well established.
 
-Autoimmune oophoritis is an autoantibody-mediated inflammatory destruction of ovarian follicles, frequently encountered not in isolation but as part of **Polyglandular Autoimmune Syndrome Type II (APS-II)** — a clustering of autoimmune endocrine disorders including Type 1 diabetes mellitus (T1DM), Addison's disease, and autoimmune thyroid disease. TxGNN most likely identified this connection by traversing the APS-II comorbidity sub-graph: patients who develop autoimmune oophoritis have elevated rates of T1DM, and T1DM patients routinely receive insulin glargine. The knowledge graph therefore places insulin glargine in close proximity to autoimmune oophoritis through shared patient populations and shared immune targets (anti-GAD65, anti-islet autoantibodies).
+For autoimmune oophoritis, there is no clear mechanistic link. This condition is an immune-mediated injury of the ovary, and insulin glargine has no known immunomodulatory action in this setting. The high score is most likely a knowledge-graph effect, driven by network proximity to autoimmune endocrine diseases, such as autoimmune polyglandular syndromes in which diabetes also occurs.
 
-However, this is an **indirect, comorbidity-driven association**, not a mechanistic repurposing signal. Insulin glargine acts on insulin receptors to regulate glucose metabolism; it has no known direct effect on ovarian autoimmunity, anti-ovarian antibody titers, or follicular preservation. Any use of insulin glargine in a patient with autoimmune oophoritis would reflect concurrent T1DM management, not treatment of the oophoritis itself.
-
----
+The model's other top predictions show the same pattern. Most are linked to insulin only through comorbid diabetes or autoimmunity (thiamine-responsive dysfunction syndrome, stiff person syndrome, focal stiff limb syndrome). Others are linked through insulin-related signaling (opsismodysplasia). Several localized lipodystrophies are in fact known adverse effects of insulin injection, so they are safety concerns rather than repurposing opportunities. Pancreatic agenesis (rank 6) is mechanistically coherent, since it causes insulin-deficient diabetes. However, insulin replacement there is essentially the same as the existing diabetes use, not a new indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+For autoimmune oophoritis, currently no related literature is available.
 
----
+The only literature retrieved among the top predictions relates to pancreatic agenesis (rank 6) and is indirect. None of it addresses insulin glargine in that condition directly:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | Review of insulin therapy use and initiation in type 2 diabetes |
+| [19322513](https://pubmed.ncbi.nlm.nih.gov/19322513/) | 2009 | Review | Acta Diabetol | Secondary diabetes associated with endocrine diseases such as acromegaly and Cushing syndrome |
+| [32871938](https://pubmed.ncbi.nlm.nih.gov/32871938/) | 2020 | Case report | Medicine | First reported MODY5 case treated with a GLP-1 receptor agonist |
+| [25818213](https://pubmed.ncbi.nlm.nih.gov/25818213/) | 2015 | Veterinary cohort | J Vet Intern Med | Pancreatic enzymes and ultrasound findings in diabetic cats (non-human) |
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0250 | Insulin Glargine | Not specified | Not specified (status: cancelled) |
+
+The only registration is cancelled, so no valid registration currently exists in the Philippines.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query found 100 interacting drugs, mostly of moderate severity. Examples:
+  - Other glucose-lowering drugs: metformin, pioglitazone, alogliptin, albiglutide
+  - Beta-agonists and sympathomimetics: salbutamol, formoterol, epinephrine, phenylephrine, pseudoephedrine
+  - Beta-blocker: acebutolol
+  - Corticosteroids: hydrocortisone
+  - Hormones: estradiol, ethinylestradiol
+  - Others: acetazolamide, hydrochlorothiazide, doxycycline, alpelisib, ethanol
+  - Topical corticosteroids such as hydrocortisone (topical) and alclometasone (topical) are minor.
+- **Injection-site lipodystrophy**: Several predicted conditions (localized lipodystrophy and lipoatrophy) are known adverse effects of repeated insulin injection at the same site. Insulin glargine is more likely a cause than a treatment for these.
 
----
+Please refer to the package insert for other warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score of 99.88% reflects strong knowledge-graph connectivity through the APS-II comorbidity network — not evidence of therapeutic efficacy for autoimmune oophoritis per se. With zero supporting clinical trials or publications (L5), and no plausible direct mechanism, this prediction does not meet the threshold for active repurposing exploration at this time.
+The prediction for autoimmune oophoritis rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. In the Philippines, the only registration is cancelled.
 
 **To proceed, the following is needed:**
-- Clarify the clinical question: if the goal is *insulin replacement in APS-II patients who concurrently have T1DM and autoimmune oophoritis*, that is already established practice and requires no repurposing effort
-- If the goal is *insulin glargine as a disease-modifying agent for autoimmune oophoritis itself*, a pre-clinical study examining insulin signaling effects on ovarian immune microenvironment would be the minimum first step
-- Obtain full MOA data from DrugBank API (DG002) to rule out any immunomodulatory off-target activity
-- Obtain Philippines package insert or equivalent label (DG001) to assess contraindications and warnings before any clinical protocol is considered
-- Register the drug with FDA Philippines if future clinical use is intended — currently no active registrations exist
+- Mechanistic evidence that insulin glargine affects autoimmune ovarian injury, and any clinical or preclinical data in this condition
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Philippines FDA
+- Clarification of the cancelled registration status and a valid local authorization, if use is planned
+- If a new indication is pursued, a better-supported prediction. Pancreatic agenesis is coherent but overlaps with the existing use. The lipodystrophy predictions should be treated as safety signals.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

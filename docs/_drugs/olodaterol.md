@@ -2,15 +2,15 @@
 layout: default
 title: Olodaterol
 parent: Moderate Evidence (L3-L4)
-nav_order: 260
-evidence_level: L3
+nav_order: 263
+evidence_level: L4
 indication_count: 2
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,79 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Olodaterol: From COPD Maintenance to Bronchitis
+# Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
 
 ## One-Sentence Summary
 
-Olodaterol (Striverdi® Respimat®) is a once-daily long-acting β2-adrenergic agonist (LABA) established as maintenance bronchodilator therapy for chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **Bronchitis**, with **3 clinical trials** and **2 publications** currently supporting this direction.
-The mechanistic rationale is strong for the chronic obstructive bronchitis phenotype, though the overall evidence grade remains observational.
-
----
+Olodaterol is an inhaled long-acting beta2-agonist (LABA) originally used for the maintenance treatment of chronic obstructive pulmonary disease (COPD).
+The TxGNN model predicts it may be effective for **bronchitis**, but this prediction currently has **0 registered clinical trials** and **2 publications**, both of which concern COPD rather than bronchitis itself.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | COPD maintenance bronchodilator therapy |
+|------|------|
+| Original Indication | Chronic obstructive pulmonary disease (COPD) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, olodaterol is a selective long-acting β2-adrenergic agonist (LABA). Its established mechanism involves β2 receptor activation → Gs-protein coupling → adenylyl cyclase stimulation → intracellular cAMP elevation → PKA activation → bronchial smooth muscle relaxation. Once-daily inhalation sustains 24-hour continuous bronchodilation. Olodaterol also exerts an auxiliary anti-inflammatory effect by suppressing mast cell mediator release.
+Detailed mechanism of action data is not available in the data compiled for this report. Olodaterol is known to be a long-acting beta2-agonist. It activates beta2-adrenoceptors on airway smooth muscle, which raises cAMP and produces sustained bronchodilation.
 
-The link between COPD and bronchitis is clinically well-recognised: chronic bronchitis is itself a defining phenotype of COPD (productive cough ≥3 months/year for 2 consecutive years with airflow obstruction). In this COPD–chronic bronchitis (COPD-CB) subtype, olodaterol's mechanism directly targets the hallmark features of excessive airway smooth muscle tone and progressive airflow limitation, making the mechanistic case compelling. By contrast, for acute infectious bronchitis — where mucosal infection and impaired mucociliary clearance dominate — the rationale is weaker.
+Chronic bronchitis is a clinical phenotype within COPD, which is olodaterol's established indication. The very high prediction score therefore most likely reflects overlap with the COPD indication rather than a distinct repurposing signal.
 
-The high TxGNN score (99.84%) reflects the close disease-class proximity between bronchitis and COPD within the knowledge graph. Multiple real-world studies that enrolled COPD patients specifically documented chronic bronchitis and emphysema as enrolled subtypes, demonstrating that the evidence base substantially overlaps with the target population. This cross-indication coherence supports the biological plausibility of the prediction.
-
----
+Acute bronchitis is usually viral and self-limited, and there is no established rationale for LABA therapy in it. The evidence for bronchitis is indirect, via COPD.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A (PMS) | Completed | 1,335 | Post-marketing surveillance of Tiotropium/Olodaterol (Spiolto) in Japanese COPD patients; study population explicitly includes the chronic bronchitis and emphysema subtypes; assessed long-term safety and real-world effectiveness |
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A (RWE) | Completed | 11,316 | Large real-world comparison of TIO/OLO versus FF/UMEC/VI (triple therapy) for disease burden, healthcare costs, and clinical outcomes in COPD; population overlap with chronic bronchitis diagnosis codes |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A (DUS) | Completed | 22,155 | Drug utilisation study of aclidinium bromide in European COPD patients including bronchitis subpopulations; primary drug is not olodaterol — indirect evidence for patient population characterisation only |
-
----
+Currently no related clinical trials are registered for bronchitis.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Narrative Review | American Journal of Health-System Pharmacy | Comprehensive review of olodaterol pharmacology, pharmacokinetics, efficacy, and safety as a once-daily LABA; confirms established role in obstructive airway disease including chronic bronchitis subtype of COPD |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Clinical Practice Guideline | Basic & Clinical Pharmacology & Toxicology | Finnish national COPD guideline covering diagnosis, risk stratification, and stepwise pharmacotherapy; addresses chronic bronchitis phenotype management and the role of long-acting bronchodilators |
+|------|-----|------|------|---------|
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | American Journal of Health-System Pharmacy | Reviews the pharmacology, pharmacokinetics, efficacy and safety of once-daily olodaterol for COPD |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic & Clinical Pharmacology & Toxicology | Finnish national guideline on the diagnosis, assessment and drug treatment of stable COPD, intended mainly for primary care |
 
----
+Neither publication studies bronchitis directly.
 
 ## Philippines Market Information
 
-Olodaterol currently has **no registered products in the Philippines**. No authorization number, product name, or indication data is available.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0359 | Olodaterol | Cancelled |
 
----
+Dosage form and approved indication text are not recorded for this registration. There is no currently valid single-ingredient or combination registration.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for safety information.
 
----
+**Drug Interactions**: The interaction search returned 100 entries. All 20 entries in the data compiled for this report are rated Moderate. Examples include:
+- Sympathomimetics such as epinephrine, ephedrine, phentermine, diethylpropion and isometheptene
+- QT-relevant drugs such as clarithromycin, cisapride, dolasetron, palonosetron and granisetron
+- Glucose-lowering and weight-loss agents such as semaglutide, albiglutide, canagliflozin and ertugliflozin
+- Famotidine, loperamide and fenfluramine
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence supporting olodaterol specifically for bronchitis is limited to observational and post-marketing studies (L3), with no direct randomised controlled trials targeting bronchitis as a primary endpoint; combined with the absence of any Philippines registration and a complete gap in local safety and MOA documentation, the data is insufficient to support a go decision at this stage.
+The bronchitis prediction has no direct trials and only two COPD-focused publications. The high score likely reflects overlap with the approved COPD indication rather than new evidence. The only Philippines registration is cancelled, so the drug is not currently marketed there.
 
 **To proceed, the following is needed:**
+- Clarify whether the target is chronic bronchitis (already covered under COPD) or acute bronchitis (no rationale for LABA therapy)
+- Trials or observational data specific to bronchitis
+- Detailed mechanism of action data
+- Package insert warnings and contraindications
+- Confirmation of current availability and formulation in the Philippines, since the registration is cancelled and olodaterol is often used in combination with tiotropium
 
-- **Safety data (Blocking):** Retrieve the international package insert (FDA/EMA label for Striverdi® or Spiolto® Respimat®) to extract warnings, contraindications, and key drug interactions — this is a prerequisite for any safety evaluation
-- **MOA documentation (High priority):** Query DrugBank API (DB09080) for complete mechanism of action and pharmacodynamic data to support the mechanistic rationale section
-- **Population clarification:** Define the precise target: acute infectious bronchitis (olodaterol likely not beneficial) versus chronic obstructive bronchitis/COPD-CB phenotype (strong mechanistic and indirect clinical rationale)
-- **Regulatory pathway assessment:** Evaluate Philippines FDA requirements for registering an inhaled bronchodilator not currently marketed locally; determine whether a new indication submission or a market entry application is required first
-- **Direct clinical evidence:** If pursuing the COPD-CB phenotype indication, identify existing Phase 3 subgroup analyses reporting outcomes specifically in the chronic bronchitis population from the TonaDO or OTEMTO trial programs
+**Note on a related prediction:** The same drug is also predicted for *obstructive lung disease* (score 99.57%). Several completed Phase 3 trials support this, for example NCT01431274 (n=2,624), NCT00796653 (n=937) and NCT01525615 (n=404). However, this is essentially the existing COPD indication rather than true repurposing. Extrapolation to asthma would need separate validation because LABA monotherapy is a safety concern there. This is a separate evaluation from the bronchitis prediction above.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

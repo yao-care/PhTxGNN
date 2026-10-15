@@ -2,7 +2,7 @@
 layout: default
 title: Mometasone
 parent: Model Prediction Only (L5)
-nav_order: 237
+nav_order: 239
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,74 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Mometasone: From Inflammatory Skin Conditions to Primary Cutaneous T-Cell Lymphoma
+# Mometasone: From an Unspecified Original Indication to Primary Cutaneous T-Cell Lymphoma
 
 ## One-Sentence Summary
 
-Mometasone is a high-potency synthetic topical corticosteroid widely used for inflammatory and allergic skin conditions such as atopic dermatitis and allergic rhinitis.
-The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma (CTCL)**,
-with **0 registered clinical trials** and **2 publications** (both indirect case reports) currently available to support this direction.
-
----
+Mometasone is a synthetic corticosteroid. The Philippines registration data compiled for this report do not state its approved indication, although it is known as a topical and intranasal anti-inflammatory agent.
+The TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**.
+Support is very limited: **0 clinical trials** and **2 publications**, both case reports with no direct evidence for mometasone in this disease.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines FDA registration on file |
-| Predicted New Indication | Primary Cutaneous T-Cell Lymphoma (CTCL) |
+|------|------|
+| Original Indication | Not stated in the Philippines registration data |
+| Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 — Mechanism-based; no prospective clinical trials |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Philippines regulatory registry. Based on established pharmacology, Mometasone is a high-potency synthetic glucocorticoid that binds and activates the glucocorticoid receptor (GR). This receptor activation is directly relevant to CTCL biology: it induces T-cell apoptosis through downregulation of the anti-apoptotic protein Bcl-2, suppresses pro-inflammatory and pro-tumour cytokines including IL-2, IFN-γ, and TNF-α, and inhibits the proliferation of malignant T-cells. These mechanisms collectively explain why a corticosteroid could theoretically have activity against a T-cell-derived malignancy.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Pharmacology records show that mometasone acts on the **glucocorticoid receptor (NR3C1)**. It is a potent corticosteroid with anti-inflammatory, immunosuppressive and anti-proliferative effects. It is used intranasally for asthma, allergic rhinitis and nasal polyposis, and topically for allergic skin disorders.
 
-Primary cutaneous T-cell lymphoma — particularly Mycosis Fungoides (MF) at early stages (IA–IIA) — is an indolent lymphoma arising from skin-homing malignant T-cells. The shared immunological architecture between inflammatory T-cell-driven skin disease (the traditional target of corticosteroids) and neoplastic T-cell disease provides a biologically plausible mechanistic bridge. In routine clinical practice, high-potency topical corticosteroids are already used empirically in early-stage MF management, lending real-world credibility to the TxGNN prediction.
+Topical corticosteroids are a recognised skin-directed therapy for early-stage mycosis fungoides, the most common primary cutaneous T-cell lymphoma. Glucocorticoid receptor signalling can suppress T-cell activation and cytokine signalling, so the prediction is biologically plausible.
 
-The model assigns a very high confidence score of 99.36%, reflecting strong graph-topological proximity between mometasone and CTCL in the drug–disease knowledge graph. However, no prospective clinical trial specifically evaluating mometasone in CTCL has been registered or published to date. The two available publications are indirect case reports in which mometasone appears as a background or failed prior treatment, not as a studied intervention. Formal evidence generation is therefore required before this prediction can be acted upon.
-
----
+This reasoning rests on class-level knowledge about topical steroids. The compiled data contain no mometasone-specific clinical evidence in this disease. The prediction is therefore a model output, not a confirmed finding.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case Report | Proceedings (Baylor University Medical Center) | A 62-year-old woman with cutaneous pseudolymphoma (a reactive T-cell process that clinically mimics cutaneous lymphoma) failed prior treatment with mometasone and tacrolimus, then responded to tapinarof. Mometasone was a prior unsuccessful treatment; this is indirect, negative-context evidence. |
-| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case Report | Journal of Cutaneous Pathology | An 11-year-old boy with a 7-year history of CD8+CD56+ mycosis fungoides (a CTCL subtype) presenting with extensive erythematous patches and plaques. Highlights the diagnostic challenges and management complexity of childhood CTCL. Does not directly evaluate mometasone as a therapy. |
+|------|-----|------|------|---------|
+| [40821495](https://pubmed.ncbi.nlm.nih.gov/40821495/) | 2025 | Case report | Proceedings (Baylor University Medical Center) | Cutaneous pseudolymphoma on the nose did not respond to mometasone and tacrolimus, and was later treated with tapinarof. This is a benign mimic of lymphoma, not a true T-cell lymphoma, and it does not support mometasone's efficacy. |
+| [25442255](https://pubmed.ncbi.nlm.nih.gov/25442255/) | 2015 | Case report | Journal of Cutaneous Pathology | An 11-year-old boy with CD8+CD56+ cytotoxic-type mycosis fungoides. The report describes the disease and its diagnostic difficulty, and gives no direct evidence on mometasone. |
 
----
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0329 | Mometasone | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The only record is a pharmacology link to the glucocorticoid receptor (its target). It is not a drug-drug interaction with a severity rating.
 
----
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a mechanistically compelling prediction (TxGNN score 99.36%) and known real-world use of topical corticosteroids in early-stage CTCL, the currently available evidence for mometasone specifically consists only of two indirect case reports — neither of which prospectively evaluates mometasone as an active intervention. Mometasone has no Philippines market registration, no clinical trials are on record, and safety data has not been retrieved.
+The evidence is model prediction only (L5). There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma. The only Philippines registration is cancelled, and there is no label-based safety information.
 
 **To proceed, the following is needed:**
-- **Clinical evidence:** Identify or initiate a retrospective chart review or prospective pilot study evaluating topical mometasone in early-stage MF (Stage IA–IIA) to generate direct efficacy and safety data
-- **Regulatory pathway:** Obtain Philippines FDA market approval or establish a named-patient / compassionate use pathway before any local deployment
-- **Safety data retrieval:** Download and parse the official package insert (TFDA, EMA, or FDA-US) to extract labelled warnings, contraindications, and precautions — this is currently a blocking data gap (DG001)
-- **MOA documentation:** Query DrugBank API for DB00764 to formally document the mechanism of action and support the mechanistic link analysis (DG002)
-- **Expert validation:** Engage a dermatology-oncology specialist to assess the clinical plausibility of mometasone as a repurposing candidate and to determine whether existing real-world use data could support a retrospective study
+- Package insert warnings and contraindications from DOH-FDA Philippines, so safety screening can begin
+- Mechanism-of-action data from DrugBank
+- Mometasone-specific clinical or observational data in early-stage mycosis fungoides or other primary cutaneous T-cell lymphoma
+- Clarification of the original approved indication and available dosage forms, including whether a valid topical product is registered in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

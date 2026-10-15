@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nitrous Oxide
-parent: Model Prediction Only (L5)
-nav_order: 253
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 256
+evidence_level: L4
 indication_count: 1
 ---
 
 # Nitrous Oxide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Nitrous Oxide: From Procedural Analgesia to Benign Prostatic Hyperplasia
+# Nitrous Oxide: From Anaesthesia/Analgesia Use to Benign Prostatic Hyperplasia
 
 ## One-Sentence Summary
 
-Nitrous oxide (N₂O, "laughing gas") is a well-established inhaled anesthetic and analgesic agent widely used for procedural sedation and pain management.
-The TxGNN model predicts it may be effective for **Benign Prostatic Hyperplasia (BPH)**, with a prediction score of **99.52%**.
-However, the supporting evidence is critically weak — **1 clinical trial** found is about procedural sedation during prostate biopsy (not BPH treatment), and **3 publications** all relate to anesthesia in urological settings rather than BPH pharmacotherapy. This prediction is assessed as **model artifact** rather than a genuine therapeutic signal.
-
----
+Nitrous oxide is an inhaled anaesthetic gas, but no approved indication is recorded in the Philippines regulatory data compiled for this report.
+The TxGNN model predicts it may be useful for **benign prostatic hyperplasia (BPH)**, but the supporting evidence is weak: **1 clinical trial** (on procedural anxiety, not BPH treatment) and **1 publication** (a case report) were found.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Inhaled procedural analgesia/anesthesia (no formal Philippines registration) |
-| Predicted New Indication | Benign Prostatic Hyperplasia (BPH) |
+|------|------|
+| Original Indication | Not recorded in the Philippines registration data |
+| Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 99.52% |
-| Evidence Level | L5 — Model prediction only; no supporting therapeutic studies |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, nitrous oxide acts primarily on **NMDA receptors** and **opioid receptors**, producing analgesia and anxiolysis via inhalational delivery. It has no established pharmacological target relevant to BPH pathophysiology.
+Detailed mechanism of action data is not available in the data compiled for this report. Nitrous oxide is generally known as an NMDA receptor antagonist with analgesic, anxiolytic and anaesthetic effects.
 
-BPH is treated via two main mechanisms: **α₁-adrenergic receptor blockade** (e.g., tamsulosin), which relaxes prostatic smooth muscle tone, or **5α-reductase inhibition** (e.g., finasteride), which reduces dihydrotestosterone (DHT)-driven prostate volume growth. Nitrous oxide has no known activity on either pathway, and does not affect prostatic smooth muscle tension, prostate volume, or DHT synthesis.
+The high TxGNN score comes from a graph-based prediction and is not backed by biological or clinical evidence. BPH is driven by androgen/DHT-related growth of prostatic stromal and epithelial tissue and by smooth muscle tone. No credible mechanistic link between nitrous oxide and these processes was identified, so the prediction should be viewed with caution.
 
-A critical confound must be flagged: the TxGNN model may be conflating **Nitrous oxide (N₂O, laughing gas)** with **Nitric oxide (NO, nitrogen monoxide)**. Nitric oxide — an entirely distinct compound — does have smooth muscle relaxation effects relevant to lower urinary tract physiology and has been studied in BPH contexts. The high TxGNN score (0.9952) most likely reflects a **co-occurrence bias** in training data, where N₂O appears frequently alongside urological procedures (e.g., prostate biopsies), rather than any true disease-modifying relationship with BPH. This prediction is not considered mechanistically plausible.
-
----
+The only clinical connection is procedural. Nitrous oxide has been used to reduce anxiety and pain during prostate-related procedures, which does not treat BPH itself.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05803096](https://clinicaltrials.gov/study/NCT05803096) | Phase 4 | Completed | 143 | Self-administered N₂O during transrectal prostate biopsy to reduce anxiety and pain — **procedural sedation only, no BPH treatment endpoints** |
-
-> ⚠️ **Note:** The only identified trial evaluates N₂O as an anxiolytic/analgesic adjunct during prostate biopsy, not as a treatment for BPH. No endpoints relevant to BPH (IPSS score, urinary flow rate, prostate volume, PSA) were studied. This trial provides **zero evidence** for N₂O as a BPH therapy.
-
----
+| [NCT05803096](https://clinicaltrials.gov/study/NCT05803096) | Phase 4 | Completed | 143 | Self-administered nitrous oxide during transrectal prostate biopsy to reduce anxiety and pain. The target is procedural comfort, not BPH treatment, so it is not evidence of efficacy for BPH. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [4171323](https://pubmed.ncbi.nlm.nih.gov/4171323/) | 1968 | Technical Report | International Surgery | Equipment description for cryotherapy of prostate obstruction — N₂O used as cryogen, not pharmacotherapy |
-| [4108916](https://pubmed.ncbi.nlm.nih.gov/4108916/) | 1971 | Case Series | Zeitschrift für Anasthesie | Combination anesthesia with methohexital in high-risk urological patients — anesthetic management, not BPH treatment |
-| [9223887](https://pubmed.ncbi.nlm.nih.gov/9223887/) | 1997 | Case Report | Masui (Japanese Journal of Anesthesiology) | Anesthetic management for suprapubic prostatectomy in a patient with pure autonomic failure — anesthesia context only |
-
-> ⚠️ **Note:** All three publications address anesthetic or procedural use of N₂O in urological settings. None study N₂O as a therapeutic agent for BPH. These publications do not constitute evidence for drug repurposing.
-
----
+| [9223887](https://pubmed.ncbi.nlm.nih.gov/9223887/) | 1997 | Case report | Masui (Japanese Journal of Anesthesiology) | Anaesthetic management of a patient with pure autonomic failure undergoing suprapubic prostatectomy. It concerns anaesthesia care, not BPH treatment. |
 
 ## Philippines Market Information
 
-Nitrous oxide has **no registered pharmaceutical products** in the Philippines (FDA Philippines). No authorization records are available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0352 | Nitrous Oxide | Not recorded | Not recorded (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No Philippines-specific label warnings, contraindications, or drug interaction data were available in this evidence pack.
+- **Drug Interactions** (5 found; 1 major, 4 moderate):
+  - **Major:** Methotrexate
+  - **Moderate:** Morphine, Opium, Codeine, Hydrocodone
 
----
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score is high (99.52%), but all available evidence indicates this is a **model artifact driven by co-occurrence bias** — N₂O co-appears with prostate-related procedures in training data without any pharmacological relevance to BPH. There is no mechanistic plausibility, no BPH-directed clinical trial evidence, and no supporting literature. Additionally, the model may be conflating nitrous oxide (N₂O) with nitric oxide (NO), which are chemically and pharmacologically distinct compounds.
+The only supporting trial addresses procedural anxiety during prostate biopsy rather than BPH, and the single publication is an anaesthesia case report. There is no credible mechanistic link and no valid Philippines registration. The high model score alone is not enough to justify moving forward.
 
-**To proceed, the following would be needed:**
-- Clarification of whether TxGNN's prediction is indeed for N₂O (DB06690) versus NO — review the knowledge graph node assignment
-- A mechanistic hypothesis explaining how NMDA receptor antagonism or opioid receptor modulation could improve BPH symptoms or progression
-- At minimum one preclinical study (in vitro or animal model) demonstrating N₂O activity on prostatic smooth muscle, 5α-reductase, or relevant lower urinary tract biomarkers
-- Given the absence of Philippines registration, regulatory pathway assessment would also be required before any clinical development
+**To proceed, the following is needed:**
+- Mechanism of action data and a plausible biological rationale linking nitrous oxide to BPH
+- Clinical studies that directly assess BPH outcomes (not procedural anxiety or pain)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Clarification of the original approved indication and the reason for the registration cancellation
+- Assessment of route and formulation compatibility for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

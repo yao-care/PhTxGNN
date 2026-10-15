@@ -2,7 +2,7 @@
 layout: default
 title: Tamsulosin
 parent: Model Prediction Only (L5)
-nav_order: 321
+nav_order: 325
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,57 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tamsulosin is a selective alpha-1 adrenergic receptor antagonist widely used in clinical practice for the treatment of benign prostatic hyperplasia (BPH) and associated lower urinary tract symptoms.
-The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita**, an ultra-rare congenital hair overgrowth disorder.
-Currently, there are **0 clinical trials** and **0 publications** directly supporting this repurposing direction.
+Tamsulosin was originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **0 clinical trials** and **0 publications** currently support this prediction.
+The result is a computational prediction only and has no supporting evidence.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign Prostatic Hyperplasia / Lower Urinary Tract Symptoms |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
+|------|------|
+| Original Indication | Benign prostatic hyperplasia |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, Tamsulosin is a selective alpha-1 adrenergic receptor antagonist with preferential affinity for the ADRA1A and ADRA1D subtypes. Its proven clinical utility lies in relaxing smooth muscle in the prostate gland and bladder neck, thereby relieving urinary outflow obstruction in men with BPH. It is not an immunomodulator, cytotoxic agent, or hormone-modifying drug.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Tamsulosin is generally known as an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck and is used to relieve urinary symptoms of BPH.
 
-Ambras syndrome (OMIM 145701) is a congenital disorder caused by a deletion at chromosomal locus 8q23.3 involving the *TRPS1* transcription factor gene, resulting in universal hypertrichosis with abnormal hair follicle development and characteristic facial dysmorphism. The pathophysiology is entirely genetic and developmental in origin — driven by transcription factor dysfunction affecting ectodermal and follicular morphogenesis — rather than by adrenergic receptor signaling. Although alpha-1 adrenergic receptors (ADRA1A) have been detected at low expression levels in dermal papilla cells of hair follicles, no evidence exists that alpha-1 receptor blockade can influence the genetically determined follicular overgrowth in Ambras syndrome.
+The relationship between the original and predicted indications is weak. Ambras syndrome is a rare genetic disorder of hair growth, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. Alpha-1 adrenergic blockade has no established role in this process, so no mechanistic link can be established. The high TxGNN score reflects graph-based proximity only and should not be read as evidence of benefit.
 
-The extremely high TxGNN score (99.996%) most likely reflects a topological false positive arising from the model's knowledge graph structure, where hair disorder nodes cluster in proximity to shared drug-target nodes and propagate high prediction scores without valid biological grounding. The same pattern repeats across the top 10 predictions, which are dominated by rare hair and follicular disorders (ranks 1–9) with no mechanistic link to alpha-1 adrenergic antagonism. This systematic clustering strongly suggests graph neighborhood bias rather than genuine pharmacological opportunity.
+The other top predictions show the same pattern. They include hypertrichosis, hypotrichosis, alopecia, alopecia areata, hair shaft abnormalities, Dandy-Walker malformation syndromes, dental/periodontal malformation syndromes and migraine with brainstem aura. All are at evidence level L5, with no plausible mechanistic connection and no supporting trials. The two papers retrieved for alopecia do not test tamsulosin (see below).
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Tamsulosin in Ambras type hypertrichosis universalis congenita.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Tamsulosin in Ambras type hypertrichosis universalis congenita.
+No literature directly supports the top prediction (Ambras type hypertrichosis universalis congenita). The only publications retrieved were for the rank 9 prediction, alopecia, and neither tests tamsulosin:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) | 2021 | Cohort/Pharmacovigilance | JAMA Dermatology | Examines suicidality and psychological adverse events with finasteride, a 5-alpha-reductase inhibitor. It is about finasteride, not tamsulosin. |
+| [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) | 2021 | Cross-sectional/Observational | Cornea | Studies meibomian gland changes in men with BPH. It does not address alopecia or tamsulosin treatment. |
 
 ---
 
 ## Philippines Market Information
 
-Tamsulosin currently has no registered product with the Philippines FDA. No authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0471 | Tamsulosin | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / conditions of concern (from the knowledge graph, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, intraoperative floppy iris syndrome.
+- **Drug Interactions**: 100 interactions were identified, and 20 are listed in the data compiled for this report. Most are Moderate. One is Major: **clarithromycin**. Moderate examples include bupropion, aprepitant, morphine, cimetidine, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, miconazole, clotrimazole, fenfluramine and opium.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -92,13 +102,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All top 10 TxGNN predictions for Tamsulosin are rated L5 (model prediction only, no supporting studies), and the highest-ranked indication — Ambras Type Hypertrichosis Universalis Congenita — has no mechanistic plausibility, no clinical trials, and no supporting literature; the prediction pattern across all 10 indications is consistent with knowledge graph topological bias rather than genuine repurposing signal.
+The prediction has no supporting clinical trials or literature and no plausible mechanistic link between alpha-1 adrenergic blockade and Ambras syndrome. The only Philippines registration is cancelled. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Retrieve MOA data from DrugBank (ADRA1A/ADRA1D selectivity, receptor binding kinetics) to enable mechanistic plausibility analysis
-- Obtain Philippines FDA package insert PDF to complete safety profiling (warnings, contraindications, drug interactions)
-- Request TxGNN team to review knowledge graph edge weighting for hair disorder nodes to assess and correct potential false-positive clustering
-- Consider redirecting repurposing evaluation to biologically grounded candidates where alpha-1 antagonism has independent mechanistic rationale — such as ureteral stone expulsion therapy, PTSD-related sleep disturbances (prazosin class effect), or hypertensive urgency — which may yield higher-yield L3–L4 evidence upon targeted literature search
+- Mechanistic evidence, or preclinical data linking alpha-1A/1D blockade to hair follicle biology
+- Detailed mechanism of action data (MOA)
+- Philippines package insert warnings and contraindications, and confirmation of current registration status
+- Evidence of unmet need and a feasible study design, given that Ambras syndrome is a rare genetic disorder
+- Review of the other top-ranked predictions, such as hypertrichosis and alopecia, only if new supporting evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Alfa
 parent: Moderate Evidence (L3-L4)
-nav_order: 175
+nav_order: 177
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,86 +29,83 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Interferon Alfa: From Viral Hepatitis & Oncology to Heart Disease
+# Interferon alfa: From an Unspecified Original Indication to Heart Disease
 
 ## One-Sentence Summary
 
-Interferon alfa is a recombinant cytokine with established international use in chronic viral hepatitis (HBV/HCV), select malignancies (melanoma, renal cell carcinoma), and myeloproliferative neoplasms (polycythemia vera) — though it holds **no current registration in the Philippines**.
-The TxGNN model predicts it may have therapeutic relevance in **Heart Disease**, supported by **34 clinical trials retrieved** and **20 publications** identified.
-However, direct clinical evidence linking Interferon alfa to heart disease treatment is limited and mechanistically contradictory, yielding an **L4 evidence level** and a **Hold** recommendation.
+Interferon alfa is an immunomodulatory and antiviral biologic. The Philippines registration data compiled for this report does not state an original indication.
+The TxGNN model predicts it may be effective for **heart disease**, but the support is weak: **1 clinical trial** (graded as only weakly relevant) and **20 publications** (mostly incidental or mismatched) are currently linked to this prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines registration; internationally used for viral hepatitis (HBV/HCV), melanoma, and polycythemia vera |
-| Predicted New Indication | Heart Disease |
-| TxGNN Prediction Score | 99.999% |
+|------|------|
+| Original Indication | Not stated in the registration data |
+| Predicted New Indication | Heart disease |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacology, Interferon alfa is a type I cytokine that activates innate and adaptive immunity through the canonical IFNAR → JAK1/TYK2 → STAT1/STAT2 → interferon-stimulated gene (ISG) pathway. Its established therapeutic effects span antiviral defence (suppression of HBV/HCV replication), anti-tumour immunomodulation (melanoma, renal cell carcinoma), and reduction of clonal haematopoiesis burden in myeloproliferative neoplasms.
+Currently, detailed mechanism of action data is not available. Interferon alfa is known as an immunomodulatory and antiviral cytokine therapy used in conditions such as hepatitis B and C, myeloproliferative neoplasms, renal cell carcinoma and melanoma. This is background knowledge, not something confirmed by the registration data compiled for this report.
 
-The mechanistic bridge to heart disease is indirect but biologically plausible in two narrow contexts. First, IFN alfa suppresses eosinophil-driven tissue damage: hypereosinophilic syndrome (HES) frequently causes eosinophilic myocarditis with endomyocardial fibrosis, and IFN alfa has documented activity in HES (PMID 17848188, 35470096, 29173361). Second, Erdheim-Chester disease — a rare histiocytosis for which IFN alfa is an established first-line treatment — commonly features cardiac infiltration that can be life-threatening (PMID 34911328). These niche immune-mediated pathways most likely account for the TxGNN model's near-perfect score.
+The prediction comes from a knowledge-graph model, and the score is very high. But "heart disease" is a broad, non-specific category, and no cardiac-specific mechanism of interferon alfa is established in the data compiled for this report. The literature that mentions the heart is mostly incidental. For example, interferon alfa is used to treat Erdheim-Chester disease, which can involve the pericardium or coronary arteries, and it has been used in infants with hepatic hemangiomatosis complicated by heart failure. In these cases the drug treats the underlying disease, not a primary heart condition.
 
-A critical safety counterweight tempers this prediction. PMID 29106401 (King et al., *Nature Medicine*, 2017) demonstrates that IRF3 activation and type I interferon production in macrophages **fuel a fatal inflammatory cascade following myocardial infarction** in animal models. This directly conflicts with any proposed use of IFN alfa in ischaemic or structural heart disease. The prediction is therefore mechanistically plausible only in the sub-population with immune-mediated cardiac disease, and potentially harmful in the far larger population with ischaemic heart disease.
+Interferon alfa is also known to cause cardiovascular adverse effects, such as cardiomyopathy, arrhythmia and drug-associated pulmonary arterial hypertension. A French study of 138 dermatology patients found cardiac manifestations in 4.3%. This argues against a protective role in the heart.
 
 ---
 
 ## Clinical Trial Evidence
 
-No trials directly investigated Interferon alfa as a treatment for heart disease. The two Grade B trials offer only indirect relevance; all others are Grade C.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00569127](https://clinicaltrials.gov/study/NCT00569127) | Phase 3 | Active, Not Recruiting | 427 | Depot Octreotide + IFN alfa-2b vs Octreotide + Bevacizumab in advanced metastatic carcinoid tumours; carcinoid heart disease (Hedinger syndrome) is a known complication of carcinoid and may appear as a secondary endpoint |
-| [NCT05837143](https://clinicaltrials.gov/study/NCT05837143) | Early Phase 1 | Active, Not Recruiting | 12 | AAV9-cTnT-modTERT (JV001) gene therapy for dilated cardiomyopathy; IFN alfa is not the investigational agent but potential IFN-related pathway crosstalk is noted |
-| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | Reduced immunosuppression, IFN alfa, and ProMACE-CytaBOM for post-cardiac-transplant lymphoproliferation; cardiac transplant setting with IFN alfa as immunomodulator |
-| [NCT00072046](https://clinicaltrials.gov/study/NCT00072046) | Phase 3 | Completed | 732 | IFN alfa-2b ± Bevacizumab in advanced renal cell carcinoma; large completed Phase III confirming IFN alfa activity; cardiac outcomes not a primary endpoint |
-| [NCT00001379](https://clinicaltrials.gov/study/NCT00001379) | Phase 2 | Completed | 94 | Alpha-interferon in lymphomatoid granulomatosis (LYG), a destructive lymphoproliferative disease that may involve lungs and other organs; IFN alfa as primary agent |
+| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | Reducing immunosuppression, then giving interferon alfa and ProMACE-CytaBOM chemotherapy for lymphoproliferative disease after cardiac transplant. This targets lymphoma, not heart disease, so it is not direct evidence (relevance grade C). |
 
 ---
 
 ## Literature Evidence
 
+The 20 publications retrieved for heart disease are mostly case reports, reviews and adverse-effect reports. None is a randomized trial of interferon alfa for a cardiac condition. A selection of the most relevant items:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35007321](https://pubmed.ncbi.nlm.nih.gov/35007321/) | 2022 | RCT Phase 3 | *Blood* | Pegylated IFN-α vs hydroxyurea in high-risk PV/ET: IFN-α reduces thrombotic events by normalising blood counts — indirectly relevant to cardiovascular risk reduction |
-| [29173361](https://pubmed.ncbi.nlm.nih.gov/29173361/) | 2017 | Review | *Am J Med Sci* | Eosinophilic myocarditis in HES: systemic treatment (including IFN alfa) is required when eosinophilia causes cardiac infiltration and necrosis |
-| [29106401](https://pubmed.ncbi.nlm.nih.gov/29106401/) | 2017 | Translational | *Nature Medicine* | **⚠ Safety signal**: IRF3 and type I IFNs drive lethal macrophage-mediated inflammation after myocardial infarction in mice — major mechanistic concern for ischaemic heart disease |
-| [35470096](https://pubmed.ncbi.nlm.nih.gov/35470096/) | 2022 | Review | *J Allergy Clin Immunol Pract* | HES variants and treatment: IFN alfa listed as a cytoreductive option for lymphocytic and idiopathic HES variants with end-organ (cardiac) involvement |
-| [33217613](https://pubmed.ncbi.nlm.nih.gov/33217613/) | 2021 | Case Series | *J Allergy Clin Immunol Pract* | SAVI (STING-associated vasculopathy): gain-of-function STING mutations drive type I IFN overproduction causing systemic vasculopathy — illustrates how uncontrolled IFN signalling damages vascular tissue |
-| [34911328](https://pubmed.ncbi.nlm.nih.gov/34911328/) | 2021 | Review | *Klin Onkol* | Erdheim-Chester disease: IFN alfa as first-line therapy; cardiac infiltration is a life-threatening feature — one of the strongest indirect cases for IFN alfa in cardiac disease |
-| [17848188](https://pubmed.ncbi.nlm.nih.gov/17848188/) | 2007 | Review | *Orphanet J Rare Dis* | Hypereosinophilic syndromes: IFN alfa efficacy in HES-associated eosinophil-driven organ damage including myocardial involvement |
-| [30135585](https://pubmed.ncbi.nlm.nih.gov/30135585/) | 2018 | Basic Science | *Nature* | Parkin/PINK1 suppress STING-mediated type I IFN in mitochondrial damage — mechanistic link between mitochondrial stress, IFN signalling, and cardiac-relevant inflammation |
-| [39953063](https://pubmed.ncbi.nlm.nih.gov/39953063/) | 2025 | Basic Science | *Nat Commun* | IFN-α-inducible gene Ifi27l2a significantly upregulated in aged microglia after ischaemic stroke — highlights IFN pathway activation in acute ischaemic contexts |
-| [37761959](https://pubmed.ncbi.nlm.nih.gov/37761959/) | 2023 | Animal Study | *Genes* | Dp16 (Down syndrome) mouse model: baseline IFN pathway gene expression differences in heart tissue — contextual IFN biology in cardiac gene expression |
+| [32607694](https://pubmed.ncbi.nlm.nih.gov/32607694/) | 2020 | Review | Current Cardiology Reports | Erdheim-Chester disease as a rare cause of recurrent pericarditis |
+| [35987957](https://pubmed.ncbi.nlm.nih.gov/35987957/) | 2022 | Systematic review/meta-analysis | Scientific Reports | Topical interferon alfa-2b, 5-FU and mitomycin-C for ocular surface squamous neoplasia (not cardiac) |
+| [7666100](https://pubmed.ncbi.nlm.nih.gov/7666100/) | 1995 | Review | Journal of Clinical Oncology | Immune-mediated and unusual complications of interferon alfa in chronic myelogenous leukemia |
+| [7509184](https://pubmed.ncbi.nlm.nih.gov/7509184/) | 1993 | Clinical study | British Journal of Ophthalmology | Systemic interferon alfa-2 for choroidal neovascularisation in macular degeneration (retrospective, 48 eyes) |
+| [1807177](https://pubmed.ncbi.nlm.nih.gov/1807177/) | 1991 | Clinical study | Annales de Médecine Interne | Cardiovascular manifestations in 138 patients given interferon alfa-2a; 6 (4.3%) had cardiac events |
+| [21161021](https://pubmed.ncbi.nlm.nih.gov/21161021/) | 2010 | Case report | World Journal of Hepatology | Pericarditis and neuropathy during pegylated interferon alfa-2a for hepatitis C |
+| [12554528](https://pubmed.ncbi.nlm.nih.gov/12554528/) | 2003 | Case report | Pediatric Hematology and Oncology | Interferon alfa-2a for hepatic hemangiomatosis with congestive heart failure in an infant |
+| [8655722](https://pubmed.ncbi.nlm.nih.gov/8655722/) | 1996 | Case report | J Am Acad Dermatol | Neonatal hemangiomatosis with heart failure, controlled with prednisone, interferon alfa-2b and embolization |
+| [7524218](https://pubmed.ncbi.nlm.nih.gov/7524218/) | 1994 | Case report | Transplantation Proceedings | Post-transplant lymphoproliferative disease after heart transplant treated with interferon alfa-2b and immunoglobulin |
+| [30527170](https://pubmed.ncbi.nlm.nih.gov/30527170/) | 2018 | Case report | Canadian Journal of Cardiology | Treatment of Erdheim-Chester disease with coronary artery involvement |
+
+Overall, these reports describe interferon alfa treating an underlying tumour or vascular lesion that affected the heart, or causing cardiac side effects. They do not show benefit in heart disease itself.
 
 ---
 
 ## Philippines Market Information
 
-Interferon alfa (DrugBank: DB05258) is currently **not registered** in the Philippines. No product authorisations are on record in the regulatory database.
+The Philippines data compiled for this report contains one registration, and it has been cancelled. No product is currently valid on the market.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0251 (cancelled) | Interferon Alfa | Not stated | Not stated |
 
 ---
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug interactions) are available in the current Evidence Pack. Based on evidence retrieved in the literature review, the following class-level concerns are relevant to any cardiac repurposing evaluation:
+Please refer to the package insert for safety information. The data compiled for this report has no label warnings, contraindications or drug-interaction records for this product.
 
-- **Potential harm in ischaemic heart disease**: Type I IFN and IRF3 activation has been shown to amplify post-MI macrophage inflammation and worsen outcomes in preclinical models (PMID 29106401). This constitutes a mechanistic contraindication for the largest sub-population of heart disease patients.
-- **IFN-induced autoimmune and vascular effects**: SAVI data (PMID 33217613) illustrates that sustained type I IFN signalling can cause systemic vasculopathy, which is directly adverse in cardiac patients.
-- **General IFN alfa class effects** from published literature include: constitutional flu-like syndrome, myelosuppression (neutropenia, thrombocytopenia), neuropsychiatric effects (depression, suicidality), autoimmune thyroiditis, and hepatotoxicity.
-
-Please refer to the package insert for complete safety information.
+The literature does indicate that interferon alfa can cause cardiovascular adverse effects (arrhythmia, cardiomyopathy, pericarditis, pulmonary arterial hypertension) and immune-mediated complications. These should be weighed carefully before any cardiac use is considered.
 
 ---
 
@@ -117,15 +114,14 @@ Please refer to the package insert for complete safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a near-perfect TxGNN score (99.999%), the predicted indication "heart disease" is too broad to be actionable, and existing mechanistic evidence is **contradictory**: IFN alfa has indirect therapeutic relevance only in immune-mediated cardiac conditions (HES-associated eosinophilic myocarditis, Erdheim-Chester disease with cardiac involvement), while published translational data signals it may be actively harmful in the far more prevalent ischaemic and structural heart disease settings. No direct clinical trial supports this repurposing.
+The high TxGNN score rests on a graph-based prediction alone. The only trial is a lymphoma-focused study in transplant patients, and the literature is incidental or shows cardiac harm. There is no plausible cardiac mechanism, and the only Philippines registration is cancelled. Evidence is limited to L4.
 
 **To proceed, the following is needed:**
-
-- **Disease sub-type refinement**: Narrow the target indication from "heart disease" to a specific immune-mediated cardiac condition — e.g., HES-associated eosinophilic myocarditis or Erdheim-Chester disease with cardiac infiltration — where the mechanistic benefit-risk profile is favourable
-- **MOA data from DrugBank**: Detailed mechanism of action to confirm IFN alfa's downstream effects in the cardiac immune microenvironment
-- **Full safety review**: Obtain and parse the package insert (international regulatory sources: EMA/US FDA SmPC) for complete warnings, contraindications, and cardiac-specific precautions
-- **Drug-drug interaction data**: No DDI data was retrievable; this is a gap for any cardiac population that is typically on multiple medications
-- **Focused literature search**: Targeted PubMed search on "interferon alfa" AND ("eosinophilic myocarditis" OR "Erdheim-Chester" OR "carcinoid heart disease") to quantify direct cardiac evidence before any clinical development decision
+- A mechanism-of-action dataset and a defined cardiac sub-indication (for example, a specific cardiomyopathy or myocarditis) in place of the broad "heart disease" label
+- The package insert warnings and contraindications, which are required before any safety screening
+- Original indication, dosage form and manufacturer details for the Philippines registration, and confirmation of whether any valid product remains
+- Controlled clinical evidence in a cardiac population, with specific assessment of cardiovascular safety
+- Review of the other nine predictions, which are model predictions only with no supporting clinical evidence; the literature retrieved for "disorder of fucoglycosan synthesis" is mismatched and should not be treated as support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

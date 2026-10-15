@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bacitracin
-parent: Moderate Evidence (L3-L4)
-nav_order: 36
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 38
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bacitracin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,61 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bacitracin: From Bacterial Skin Infections to Punctate Epithelial Keratoconjunctivitis
+# Bacitracin: From Keratitis to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Bacitracin is a polypeptide antibiotic used topically for the prevention and treatment of bacterial skin infections and wound care, with activity concentrated against gram-positive organisms.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis** (TxGNN rank #29, score 99.999%),
-though **0 clinical trials** and **0 publications** were identified for this specific indication — the prediction is supported by mechanistic plausibility and the existing availability of Bacitracin ophthalmic formulations in other markets.
+Bacitracin is a topical polypeptide antibiotic, originally used for eye infections such as keratitis, keratoconjunctivitis and blepharoconjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical bacterial skin infections and wound prophylaxis |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Keratitis, keratoconjunctivitis, blepharoconjunctivitis (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.999% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on established pharmacology, Bacitracin is a polypeptide antibiotic that inhibits bacterial cell wall synthesis by interfering with the dephosphorylation of the lipid carrier (undecaprenyl pyrophosphate) required for peptidoglycan precursor transport. This mechanism confers bactericidal activity predominantly against gram-positive organisms — particularly *Staphylococcus aureus*, streptococcal species, and *Corynebacterium* — while having limited effect against gram-negative bacteria. Because it is poorly absorbed through intact skin and mucosa, it is used almost exclusively as a topical agent.
+Currently, detailed mechanism of action data is not available. Based on known information, bacitracin is a topical polypeptide antibiotic with activity mainly against Gram-positive bacteria. Its use in ocular infections has been established, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis if a bacterial component is present.
 
-Punctate epithelial keratoconjunctivitis (PEK) is characterized by multifocal, fine erosions of the corneal and conjunctival epithelium. While its aetiology is multifactorial (viral, toxic, dry-eye associated), secondary bacterial colonization — especially staphylococcal blepharoconjunctivitis — is a well-recognized trigger and perpetuating factor. Bacitracin ophthalmic ointment is already commercially available in the United States (e.g., brand *AK-Tracin*) as a topical ocular antibiotic for susceptible bacterial conjunctivitis and blepharitis, providing an established formulation and ocular safety precedent.
+The predicted indication is closely related to the original ones (keratitis and keratoconjunctivitis), so the very high TxGNN score most likely reflects proximity to those indications in the knowledge graph rather than independent evidence.
 
-The TxGNN knowledge graph likely captures this association through shared disease-pathogen nodes linking gram-positive ocular bacterial infections to PEK. The high prediction score (99.999%, global rank #29) reflects strong graph-level structural support, though no dedicated clinical evidence for PEK as a primary indication has been retrieved. Prospective validation is required before drawing clinical conclusions.
+There is an important caveat: punctate epithelial keratoconjunctivitis is frequently viral (e.g., adenoviral) or non-infectious, and an antibacterial would have limited benefit in those cases.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for punctate epithelial keratoconjunctivitis.
+Currently no related literature available for the predicted indication.
+
+For reference, among other lower-ranked predictions, otitis externa has a small body of indirect literature (a 2007 double-blind trial of a polymyxin B + bacitracin ointment, older clinical reports, and a veterinary in vitro susceptibility study). This does not support the lead prediction.
 
 ---
 
 ## Philippines Market Information
 
-Bacitracin is **not currently registered** with the Philippine FDA. No product licenses were identified in the regulatory database (total registrations: 0).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0038 | Bacitracin | Not specified | Not specified (status: cancelled) |
+
+The only registration is cancelled, so there is currently no valid marketed product in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key regulatory data — including package insert warnings, contraindications, and drug interaction profiles — are not available in this evidence pack. Retrieval from the Philippine FDA official database and DrugBank is required before initiating any clinical evaluation.
+- **Contraindications (knowledge-graph associations, not label text)**: The knowledge graph links bacitracin to contraindications in several areas:
+  - Eye conditions: herpes simplex virus keratitis, viral eye infection, fungal infection of eye, open-angle glaucoma, ocular hypertension
+  - Organ disease: kidney disease, liver disease, gallbladder disease
+  - Neuromuscular and metabolic conditions: myasthenia gravis, epilepsy, diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency
+  - Cardiac conduction: atrioventricular block
+  - Other: respiratory failure, peripheral vascular disease, skin atrophy
+  These should be verified against the official label.
+- **Drug Interactions**: 84 interactions were identified. **Major** ones include:
+  - Aminoglycosides: kanamycin, neomycin, streptomycin
+  - Deferasirox
+  - Iodinated contrast agents: diatrizoate, iodipamide, iodixanol, iohexol
+
+  Moderate ones include vancomycin, exenatide and the aminosalicylates (mesalazine, balsalazide, olsalazine, sulfasalazine). Many of these are relevant mainly to systemic use, given the nephrotoxicity and neurotoxicity concerns.
+
+Package insert warnings and contraindications could not be obtained. Please refer to the package insert for further safety information.
 
 ---
 
@@ -92,14 +112,14 @@ Please refer to the package insert for safety information. Key regulatory data �
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN prediction score is exceptionally high and a mechanistic link between Bacitracin's gram-positive antibacterial activity and bacterial-associated PEK is biologically plausible, there is currently no clinical trial or published study specifically supporting this indication, and Bacitracin has no existing market authorization in the Philippines.
+The prediction has no supporting trials or literature (L5), and the high score likely reflects closeness to the original ophthalmic indications rather than new evidence. Many cases of this condition are viral or non-infectious, where an antibacterial is unlikely to help. The only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-- Retrieve the full package insert (MOA, warnings, contraindications) via DrugBank API and Philippine FDA official sources to complete the S1 safety pre-screen
-- Conduct a targeted literature search (PubMed/EMBASE) using terms: *Bacitracin AND (keratoconjunctivitis OR conjunctivitis OR blepharitis OR ocular infection)* to assess indirect supporting evidence
-- Confirm the availability and regulatory pathway for importing or locally manufacturing an ophthalmic-grade Bacitracin formulation in the Philippines
-- Evaluate whether evidence from otitis externa (rank #4, L3, 6 publications including one RCT-class trial) represents a more clinically actionable repurposing target in the near term
-- Design a prospective case series or observational study as the first clinical evidence step if the safety screen is passed
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Detailed mechanism of action data
+- Clinical or literature evidence for bacitracin in punctate epithelial keratoconjunctivitis, including how often a bacterial cause is involved
+- Clarification of the regulatory status and available ophthalmic formulations in the Philippines
+- Of the other predictions, otitis externa (L4, indirect evidence mainly from combination products) may be the most promising for further study as a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

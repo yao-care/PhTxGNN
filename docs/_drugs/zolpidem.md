@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zolpidem
-parent: High Evidence (L1-L2)
-nav_order: 358
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 362
+evidence_level: L5
 indication_count: 3
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,82 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Zolpidem is a non-benzodiazepine sedative-hypnotic ("Z-drug") globally approved for insomnia, acting via selective GABA-A receptor modulation to facilitate rapid sleep onset and maintenance.
-The TxGNN model predicts it may be effective for **Sleep Disorder, Initiating and Maintaining Sleep** — closely aligning with its established global clinical use —
-with **0 registered clinical trials** and **20 publications** currently supporting this direction.
-
----
+Zolpidem is a sedative-hypnotic originally used to treat insomnia.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, which is essentially the same condition as its original use, so this is not a true repurposing.
+There are **no registered clinical trials** in the compiled data, but **19 publications** (including network meta-analyses, guidelines and one Phase 3 RCT using zolpidem as a comparator) discuss this use.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines (globally approved for insomnia) |
-| Predicted New Indication | Sleep Disorder, Initiating and Maintaining Sleep |
+|------|------|
+| Original Indication | Insomnia (approved indication text is not available in the Philippines registration record) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L1 (see note below) |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Proceed with Guardrails (see note below) |
 
----
+**Note on the evidence level:** The L1 rating comes from the compiled scoring. It rests on a Phase 3 RCT in which zolpidem was only the active comparator, plus network meta-analyses and guidelines, not on completed Phase 3 trials registered for this prediction. Treat it as a high-level but indirect rating.
 
 ## Why is This Prediction Reasonable?
 
-Zolpidem is an imidazopyridine derivative that acts as a positive allosteric modulator of the GABA-A receptor, selectively binding to subunits containing the α1 subunit. This selectivity enhances GABA-induced chloride ion influx, producing rapid sedative and hypnotic effects with significantly less anxiolytic and muscle-relaxant activity compared to classic benzodiazepines — making it particularly well-suited for sleep induction and maintenance. A landmark 2023 cryo-EM structural study published in *Nature* (PMID 37730991) directly confirmed the molecular pharmacology of this selective binding, providing high-quality mechanistic evidence at atomic resolution.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, zolpidem is a positive allosteric modulator of the GABA-A receptor with preferential affinity for the alpha-1 subunit. This produces sedative-hypnotic effects that shorten sleep latency.
 
-The predicted indication — difficulty initiating and maintaining sleep — is precisely the clinical profile for which zolpidem was developed and has been globally approved for decades. TxGNN's near-perfect prediction score (99.87%) reflects the unusually strong biological and clinical alignment. This is therefore less a traditional "repurposing" discovery than a model validation: TxGNN correctly identifies zolpidem's established therapeutic niche, which itself provides confidence in the overall model's reliability.
+Difficulty initiating and maintaining sleep is the core feature of insomnia, the drug's original indication. The very high TxGNN score reflects this overlap rather than a new therapeutic discovery. Reviews in the literature list zolpidem alongside zaleplon, zopiclone and eszopiclone as GABA-A modulators with an established evidence base in insomnia.
 
-From a regulatory perspective, zolpidem holds FDA approval in the United States and marketing authorization in numerous jurisdictions under brand names such as Ambien, Stilnox, and Zolsana. Its absence from the Philippines market represents a registration gap rather than a clinical evidence deficit — making it a compelling candidate for a local regulatory filing rather than a novel repurposing application requiring de novo clinical development.
-
----
+Other predicted indications were also reviewed. Both have only model-based support (L5) and are rated **Hold**:
+- **Benign paroxysmal torticollis of infancy** (score 99.26%): no clear mechanistic link, and zolpidem is not appropriate for infants.
+- **Agoraphobia** (score 99.25%): only a weak, indirect GABAergic link. Zolpidem has minimal anxiolytic activity, guidelines favour SSRIs/SNRIs and cognitive behavioural therapy, and dependence risk is a concern in anxious populations.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered in ClinicalTrials.gov or ICTRP matching this specific drug–indication query.
-
-> **Context note:** This query result reflects the structured database search for this Evidence Pack and does not represent the full insomnia trial history of zolpidem, which is extensive in published literature. The absence here is an artifact of the search scope, not a reflection of clinical evidence.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | Phase 3 RCT | JAMA Network Open | Lemborexant vs. zolpidem extended-release in older adults with insomnia disorder; zolpidem ER served as active comparator, demonstrating established efficacy baseline in this high-risk population |
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Network Meta-Analysis | Lancet | Comprehensive NMA of pharmacological interventions for insomnia in adults; estimated comparative effectiveness and safety for acute and long-term management across drug classes including zolpidem |
-| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network Meta-Analysis | J Managed Care & Specialty Pharmacy | NMA comparing lemborexant with multiple insomnia treatments including zolpidem ER; confirmed zolpidem's benchmark efficacy status |
-| [39879708](https://pubmed.ncbi.nlm.nih.gov/39879708/) | 2025 | Phase 3 RCT (extension) | Sleep Medicine | Post-hoc analysis of sleep architecture in insomnia comorbid with mild obstructive sleep apnea (COMISA); zolpidem used as comparator, highlighting impact on REM sleep and cognition |
-| [36472134](https://pubmed.ncbi.nlm.nih.gov/36472134/) | 2023 | RCT | J Clinical Sleep Medicine | Compared lemborexant and zolpidem ER across polysomnography-defined insomnia subtypes (short vs. normal sleep duration); confirmed differential response profiles |
-| [37477771](https://pubmed.ncbi.nlm.nih.gov/37477771/) | 2023 | RCT (post-hoc) | CNS Drugs | Post-hoc analysis of wake bout number, duration, and distribution in insomnia patients; direct zolpidem comparison against daridorexant |
-| [37549414](https://pubmed.ncbi.nlm.nih.gov/37549414/) | 2023 | Narrative Review | J Family Practice | Updated clinical review of insomnia management; discusses zolpidem's role, treatment sequencing, and cardiovascular/psychiatric outcomes of treating insomnia |
-| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacological Reviews | Comprehensive review of non-benzodiazepine hypnotics; covers zolpidem pharmacology, clinical applications, α1 selectivity, and safety concerns including cognitive impairment and dependence |
-| [37730991](https://pubmed.ncbi.nlm.nih.gov/37730991/) | 2023 | Structural Biology | Nature | Cryo-EM structures of native GABA-A receptor assemblies directly confirm the molecular pharmacology of zolpidem's selective α1 subunit binding — foundational mechanistic evidence |
-| [39374004](https://pubmed.ncbi.nlm.nih.gov/39374004/) | 2024 | RCT | JAMA Internal Medicine | Masked taper with cognitive-behavioral therapy for benzodiazepine receptor agonist (including zolpidem) discontinuation in older adults; informs appropriate use and deprescribing strategy |
-
----
+|------|-----|------|------|---------|
+| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Netw Open | Lemborexant compared with placebo and zolpidem extended-release in older adults with insomnia; zolpidem served as the active comparator |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Network meta-analysis | Lancet | Comparative effects of drug treatments for acute and long-term management of adult insomnia |
+| [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network meta-analysis | J Manag Care Spec Pharm | Efficacy and safety of lemborexant compared with other insomnia treatments |
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guideline | J Clin Sleep Med | American Academy of Sleep Medicine recommendations for drug treatment of chronic insomnia, reviewed drug by drug |
+| [39923608](https://pubmed.ncbi.nlm.nih.gov/39923608/) | 2025 | Guideline (expert consensus) | Sleep Med | European guidance on switching or deprescribing hypnotics for chronic insomnia; lists zolpidem among recommended options |
+| [41187937](https://pubmed.ncbi.nlm.nih.gov/41187937/) | 2025 | Guideline (safety) | Arq Neuropsiquiatr | Brazilian guideline on Z-drug abuse and dependence; use recommended for no longer than four weeks |
+| [29487083](https://pubmed.ncbi.nlm.nih.gov/29487083/) | 2018 | Review | Pharmacol Rev | Z-drugs are approved for insomnia with a strong evidence base, but cause cognitive impairment, tolerance, rebound insomnia, falls and dependence |
+| [22424586](https://pubmed.ncbi.nlm.nih.gov/22424586/) | 2012 | Review | Expert Opin Pharmacother | Zolpidem is a benzodiazepine receptor agonist and the most widely prescribed hypnotic in the US |
+| [16696581](https://pubmed.ncbi.nlm.nih.gov/16696581/) | 2006 | Review | CNS Drugs | Zolpidem extended-release is indicated for difficulty with sleep onset and/or maintenance; two 3-week randomised trials assessed efficacy |
+| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Review | Clin Ther | Safety and efficacy of sleep medicines in older adults |
 
 ## Philippines Market Information
 
-Zolpidem is currently **not registered** in the Philippines. No marketing authorizations or product licenses are on record. There are no approved indications, dosage forms, or authorization numbers to report.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0529 | Zolpidem | Not specified | Not specified (status: cancelled) |
 
-This represents a regulatory gap opportunity: zolpidem is a widely approved, mature drug globally, and local registration would primarily involve a dossier submission based on existing international approvals rather than new clinical trial requirements.
-
----
+This is the only registration on record, and it is cancelled. No currently valid product is registered in the Philippines.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (disease associations from the TxGNN knowledge graph, not label text): liver disease, gallbladder disease, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, amnestic disorders and retrograde amnesia, substance-related disorders and substance abuse/dependence, anxiety disorder, neurotic disorder, dysthymic disorder, and attention deficit hyperactivity disorder.
+- **Drug Interactions**: 100 interactions were found. The major-severity ones shown are with **morphine** and **liposomal morphine** (additive central nervous system and respiratory depression is the expected concern). Moderate-severity interactions include bupropion, aprepitant, dexamethasone, cimetidine, clarithromycin, metoclopramide, miconazole, clotrimazole, dronabinol, nabilone, opium and sibutramine.
+- **Literature-based concerns**: cognitive impairment, tolerance, rebound insomnia on discontinuation, falls and injuries in older adults, car accidents, abuse and dependence.
 
-Based on well-established global clinical experience, the following areas are known to require monitoring and should be incorporated into any safety dossier for regulatory submission:
-
-- **Dependence and abuse potential**: Evidence of misuse and dependence documented in pharmacovigilance data (PMID 17324242); controlled substance scheduling applies in most jurisdictions
-- **Complex sleep behaviors**: Sleepwalking, sleep-driving, and other parasomnias have been reported, particularly at higher doses
-- **CNS depression interactions**: Risk of additive sedation with alcohol, opioids, and other CNS depressants
-- **Elderly and respiratory-compromised patients**: Heightened risk of falls, psychomotor impairment, and respiratory depression
-- **Rebound insomnia**: Upon abrupt discontinuation after prolonged use
-
----
+Package insert warnings and contraindications for the Philippines were not available, so please refer to the package insert for label safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (for sleep disorder, initiating and maintaining sleep only; **Hold** for the other two predicted indications)
 
 **Rationale:**
-Zolpidem is supported by decades of global clinical evidence including multiple Phase 3 RCTs and Lancet-level network meta-analyses (Evidence Level L1), and TxGNN's 99.87% prediction score directly confirms its established pharmacological profile for insomnia. The absence from the Philippines market is a registration gap, not a clinical uncertainty — the primary task is regulatory, not clinical development.
+- The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses. However, the only Philippines registration is cancelled, and the package insert safety data are missing, so it cannot be treated as ready for use.
 
 **To proceed, the following is needed:**
-- Obtain a Philippines FDA (Food and Drug Administration of the Philippines) registration pathway assessment and determine whether a full or abridged dossier is required based on reference country approvals
-- Compile a complete safety dossier: package insert warnings, contraindications, drug interaction data, and post-marketing pharmacovigilance records from reference jurisdictions
-- Assess the local competitive landscape — identify other registered sedative-hypnotics in the Philippines and determine differentiation strategy (e.g., extended-release formulation, price positioning)
-- Evaluate target patient population to determine preferred formulation (immediate-release vs. controlled-release) and appropriate prescribing restrictions
-- Develop a risk management plan covering dependence potential, prescriber education, and elderly patient safety monitoring
+- Verify the regulatory status in the Philippines and confirm whether a valid registration exists or a new one is needed
+- Obtain and review the Philippines package insert (warnings, contraindications, dosage forms, approved indications)
+- Obtain DrugBank mechanism of action data to replace the general-knowledge description above
+- Set a safety plan covering short-term use limits, dependence and abuse risk, falls in older adults, and combinations with opioids and other central nervous system depressants
+- Do not pursue benign paroxysmal torticollis of infancy or agoraphobia without new mechanistic and clinical evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

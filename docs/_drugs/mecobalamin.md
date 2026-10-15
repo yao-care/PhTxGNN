@@ -2,7 +2,7 @@
 layout: default
 title: Mecobalamin
 parent: Model Prediction Only (L5)
-nav_order: 215
+nav_order: 217
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,71 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Mecobalamin: From Peripheral Neuropathy to Sclerosing Cholangitis
+# Mecobalamin: From an Unspecified Original Indication to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Mecobalamin is an active, methylated form of Vitamin B12, globally recognized for treating peripheral neuropathy and vitamin B12 deficiency states.
-The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but there are currently **no clinical trials** and **no publications** directly supporting this direction.
-Evidence is limited to model-level prediction only, and the mechanistic link is highly indirect.
-
----
+Mecobalamin (methylcobalamin, the active form of vitamin B12) has no original indication recorded in the Philippines registration data compiled for this report.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines registration on record; globally recognized use: peripheral neuropathy / B12 deficiency |
-| Predicted New Indication | Sclerosing Cholangitis |
+|------|------|
+| Original Indication | Not recorded in the registration data |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+Two other predictions also scored high, and neither has supporting evidence:
+- Multiple endocrine neoplasia (99.34%)
+- Bone Paget disease (99.31%)
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the system. Based on established pharmacology, Mecobalamin is the active methylcobalamin form of cobalamin (Vitamin B12). It functions as a methyl donor in the one-carbon metabolic cycle, participating in the remethylation of homocysteine to methionine via methionine synthase. This reaction is essential for DNA methylation, myelin synthesis, and cellular redox balance — which is why Mecobalamin has well-established neurological applications.
+Currently, detailed mechanism of action data is not available. Mecobalamin is known as an active form of vitamin B12. It takes part in one-carbon metabolism, homocysteine remethylation and methylation reactions, and it may have neuroprotective and anti-inflammatory effects.
 
-The proposed mechanistic bridge to sclerosing cholangitis is indirect: by lowering serum homocysteine, Mecobalamin could theoretically reduce oxidative stress and inflammatory signalling in biliary epithelial cells. Hyperhomocysteinaemia has been epidemiologically associated with hepatic oxidative stress and pro-fibrotic states in some observational studies, which may explain the structural proximity in the TxGNN knowledge graph.
+A link to cholestatic or immune-mediated bile duct injury is speculative. No direct data supports it, and because the original mechanism of action is missing, mechanistic plausibility cannot be verified. The high score is best treated as a hypothesis-generating signal, not as evidence of efficacy.
 
-However, sclerosing cholangitis is driven by progressive biliary fibrosis through immune-mediated mechanisms (Th17/Treg imbalance, cholangiocyte senescence, gut–liver axis dysregulation) that are mechanistically distant from the B12 methylation pathway. No in vitro, animal, or clinical study has established a causal link between Mecobalamin and biliary fibrosis resolution. This prediction reflects graph-level topology rather than validated pharmacology.
+For the other two predicted indications, the rationale is weaker:
+- **Multiple endocrine neoplasia** is driven by germline mutations (for example MEN1 and RET). No plausible mechanism connects vitamin B12 supplementation to these pathways, so this looks like a knowledge-graph association artifact.
+- **Bone Paget disease** has only an indirect link. Homocysteine and B12/folate status have been loosely associated with bone turnover. Nothing connects mecobalamin to the osteoclast-driven remodeling abnormality of Paget disease, and standard bisphosphonate therapy works through a different mechanism.
 
----
+## Philippines Market Information
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for Mecobalamin in Sclerosing Cholangitis.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for Mecobalamin in Sclerosing Cholangitis.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0302 | Mecobalamin | Not specified | Not specified (registration status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (from drug-disease relationships in the TxGNN knowledge graph, not from label text): potassium deficiency disease, chronic atrophic gastritis, and Leber hereditary optic neuropathy.
+- **Drug Interactions** (13 recorded):
+  - **Moderate:** arsenic trioxide and chloramphenicol.
+  - **Minor:** acid-suppressing drugs, namely famotidine, ranitidine, ranitidine (bismuth citrate), cimetidine, nizatidine, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, and rabeprazole.
 
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three TxGNN-predicted indications (Sclerosing Cholangitis, Multiple Endocrine Neoplasia, Bone Paget Disease) sit at Evidence Level L5 — knowledge graph inference with no supporting clinical, observational, or mechanistic studies. The mechanistic hypothesis for the top-ranked indication is highly speculative and does not justify further investment without foundational evidence.
+- The prediction has only a model score behind it (Evidence Level L5), with no clinical trials or literature for any of the three top predicted indications.
+- The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded.
 
 **To proceed, the following is needed:**
-- Retrieve full mechanism of action data from DrugBank (DB03614) to map Mecobalamin's molecular targets
-- Obtain Philippines package insert to document approved warnings, contraindications, and drug interactions
-- Conduct a structured literature search for B12 / homocysteine status in biliary disease populations (epidemiological signal check)
-- Commission a pharmacological plausibility review: does homocysteine lowering have any measurable effect on biliary fibrosis models?
-- If preclinical plausibility is confirmed, design a targeted in vitro study before considering any clinical pathway
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Mechanism of action data for mecobalamin, to assess biological plausibility
+- A literature and trial search specific to sclerosing cholangitis and vitamin B12 or methylcobalamin
+- Clarification of the original approved indication and dosage form, and of why the registration was cancelled
+- A route-of-administration and formulation compatibility assessment for the new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

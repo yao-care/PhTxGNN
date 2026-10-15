@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tazobactam
-parent: Model Prediction Only (L5)
-nav_order: 322
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 326
+evidence_level: L1
 indication_count: 2
 ---
 
 # Tazobactam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,120 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Tazobactam: From Beta-Lactamase Inhibitor to Pneumonia Treatment
+# Tazobactam: From Bacterial Pneumonia to Pneumonia (Extended Evidence in Hospital-Acquired and Ventilator-Associated Settings)
 
 ## One-Sentence Summary
 
-Tazobactam is a β-lactamase inhibitor that is always co-administered with partner β-lactam antibiotics (most notably piperacillin and ceftolozane) to protect them from enzymatic degradation by resistant bacteria; it has no registered standalone indication in the Philippines.
-The TxGNN model predicts it may be effective for **Pneumonia**, with **50 clinical trials** and **20 publications** currently supporting this direction.
-Evidence quality is exceptionally high, as numerous Phase 3 RCTs have already validated tazobactam-containing combinations (Pip/Taz and Ceftolozane/Taz) as standard-of-care regimens for hospital-acquired and ventilator-associated pneumonia worldwide.
+Tazobactam is a beta-lactamase inhibitor, originally used with partner antibiotics to treat bacterial pneumonia, peritonitis, appendicitis and staphylococcal infections.
+The TxGNN model predicts it may be effective for **pneumonia** (score 99.46%), and the top-ranked prediction largely confirms an established use, with **20 clinical trials** and **20 publications** compiled for this report.
+A second prediction, **urinary tract infection**, is supported by **5 clinical trials** and **18 publications**.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No standalone registration; used as a β-lactamase inhibitor component in fixed-dose combination antibiotics |
-| Predicted New Indication | Pneumonia (hospital-acquired / ventilator-associated) |
+|------|------|
+| Original Indication | Bacterial pneumonia, peritonitis, appendicitis, staphylococcal infection (the Philippines registration record has no indication text) |
+| Predicted New Indication | Pneumonia |
 | TxGNN Prediction Score | 99.46% |
-| Evidence Level | L1 (≥2 completed Phase 3 RCTs for tazobactam-containing regimens) |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L1 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Tazobactam (DrugBank DB01606) is a penicillanic acid sulfone β-lactamase inhibitor. It does not kill bacteria on its own; instead, it irreversibly binds and inactivates a broad spectrum of β-lactamases — including Ambler class A enzymes such as TEM, SHV, and CTX-M extended-spectrum β-lactamases (ESBLs) — produced by Gram-negative pathogens. By shielding the co-administered β-lactam from hydrolysis, tazobactam restores and amplifies bactericidal activity against organisms that would otherwise be resistant.
+Detailed mechanism of action data is not available in the data compiled for this report. However, tazobactam is a well-established beta-lactamase inhibitor. It protects partner beta-lactams (piperacillin, ceftolozane) from breakdown by bacterial enzymes, restoring their activity against beta-lactamase-producing Gram-negative and Gram-positive bacteria.
 
-Hospital-acquired pneumonia (HAP) and ventilator-associated pneumonia (VAP) are predominantly caused by Gram-negative pathogens (Pseudomonas aeruginosa, Klebsiella pneumoniae, Enterobacterales) that frequently produce β-lactamases. The biological rationale for the TxGNN prediction is therefore mechanistically straightforward: by inhibiting the primary resistance mechanism of these organisms, tazobactam enables its partner β-lactam to penetrate and destroy the offending pathogen in the lung. Piperacillin/tazobactam has been a guideline-endorsed empirical option for HAP/VAP for decades, and ceftolozane/tazobactam received FDA approval in 2019 specifically for ventilated nosocomial pneumonia caused by susceptible Gram-negative bacteria, including multidrug-resistant (MDR) Pseudomonas aeruginosa.
+Bacterial pneumonia is already among tazobactam's original indications, so this prediction is mainly a confirmation of an established use. It also covers newer combinations such as ceftolozane-tazobactam in hospital-acquired and ventilator-associated pneumonia. It is not a novel repurposing.
 
-The prediction score of 99.46% reflects the TxGNN knowledge graph's recognition that tazobactam's molecular interactions in the drug–disease network are tightly linked to respiratory bacterial infections, fully consistent with its real-world clinical trajectory. The absence of a Philippines registration is a market access gap rather than a scientific concern.
+Tazobactam works only as a fixed combination with a partner antibiotic. The single-agent entry in the Philippines is cancelled, so any use would be through a combination product.
+
+The second prediction, urinary tract infection (score 99.12%), is an extension of use rather than a listed original indication. The same mechanism applies, because tazobactam inhibits class A beta-lactamases, including ESBLs, in Enterobacterales that commonly cause complicated UTI. Evidence for ESBL-producing organisms is mixed, and carbapenems are generally preferred for ESBL bacteremia.
 
 ---
 
 ## Clinical Trial Evidence
 
+### Pneumonia (top prediction)
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT02070757](https://clinicaltrials.gov/study/NCT02070757) | Phase 3 | Completed | 726 | ASPECT-NP pivotal trial: ceftolozane/tazobactam non-inferior to meropenem for Day-28 all-cause mortality in ventilated nosocomial pneumonia (VABP/HABP) |
-| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Phase 3 | Completed | 537 | RESTORE-IMI 2: imipenem/cilastatin/relebactam vs piperacillin/tazobactam in HABP/VABP — confirmed PIP/TAZ as active comparator benchmark |
-| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | Phase 3 | Completed | 274 | Multinational RESTORE-IMI 2 China extension: IMI/REL non-inferior to PIP/TAZ for HABP/VABP by Day-28 all-cause mortality |
-| [NCT00253955](https://clinicaltrials.gov/study/NCT00253955) | Phase 3 | Completed | 460 | Levofloxacin 750 mg od vs piperacillin/tazobactam 4 g/500 mg q8h for mild-to-moderate HAP — non-inferiority demonstrated |
-| [NCT03581370](https://clinicaltrials.gov/study/NCT03581370) | Phase 3 | Recruiting | 80 | Pharmacokinetic comparison of 4-hour prolonged vs 1-hour standard infusion of ceftolozane/tazobactam 2 g TID for VAP due to Pseudomonas aeruginosa in ICU |
-| [NCT04673175](https://clinicaltrials.gov/study/NCT04673175) | Phase 4 | Terminated | 17 | Ceftolozane/tazobactam plus rapid molecular diagnostics for MDR Pseudomonas bacteremia/pneumonia in haematological malignancy patients — terminated early due to low enrolment |
-| [NCT04223752](https://clinicaltrials.gov/study/NCT04223752) | Phase 1 | Completed | 41 | PK, safety and tolerability of ceftolozane/tazobactam in paediatric patients with nosocomial pneumonia — supports dose extrapolation to children |
-| [NCT04986254](https://clinicaltrials.gov/study/NCT04986254) | N/A | Completed | 179 | Multi-centre PK study defining individualised dosing regimens (including piperacillin/tazobactam) to maximise target attainment for ICU pneumonia |
-| [NCT03897582](https://clinicaltrials.gov/study/NCT03897582) | N/A | Recruiting | 65 | Beta-lactam (including pip/taz) dosing optimisation for ICU pneumonia patients undergoing continuous renal replacement therapy — addresses a critical PK/PD gap |
-| [NCT05102162](https://clinicaltrials.gov/study/NCT05102162) | Phase 4 | Terminated | 35 | Beta-lactam continuous vs intermittent infusion for severe Gram-negative pneumonia (meropenem, cefepime, piperacillin/tazobactam) — assessing bacterial resistance emergence |
+|---------|------|------|------|---------|
+| [NCT02070757](https://clinicaltrials.gov/study/NCT02070757) | Phase 3 | Completed | 726 | Ceftolozane/tazobactam vs meropenem in ventilated nosocomial pneumonia (ASPECT-NP); primary aim was non-inferiority on Day 28 all-cause mortality |
+| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Phase 3 | Completed | 537 | Imipenem/relebactam vs piperacillin/tazobactam in HABP/VABP; primary aim was non-inferiority on all-cause mortality |
+| [NCT00253955](https://clinicaltrials.gov/study/NCT00253955) | Phase 3 | Completed | 460 | Levofloxacin vs piperacillin/tazobactam in mild to moderate hospital-acquired pneumonia; non-inferiority design |
+| [NCT04223752](https://clinicaltrials.gov/study/NCT04223752) | Phase 1 | Completed | 41 | Safety, tolerability and PK of ceftolozane/tazobactam in children with nosocomial pneumonia |
+| [NCT02387372](https://clinicaltrials.gov/study/NCT02387372) | Phase 1 | Completed | 37 | Plasma PK and lung penetration of ceftolozane/tazobactam in critically ill patients |
+| [NCT00438269](https://clinicaltrials.gov/study/NCT00438269) | Phase 2 | Completed | 80 | Pilot randomized trial of appropriate antimicrobial therapy in critical care |
+| [NCT06972537](https://clinicaltrials.gov/study/NCT06972537) | N/A | Recruiting | 42 | Model-guided vs empirical dosing of piperacillin-tazobactam in elderly pneumonia patients |
+| [NCT01853982](https://clinicaltrials.gov/study/NCT01853982) | Phase 3 | Terminated | 4 | Ceftolozane/tazobactam vs piperacillin/tazobactam in VAP; too few participants to support conclusions |
+| [NCT04673175](https://clinicaltrials.gov/study/NCT04673175) | Phase 4 | Terminated | 17 | Ceftolozane-tazobactam with rapid molecular diagnostics in Pseudomonas bacteremia and pneumonia in blood cancer or transplant patients; limited evidence |
+| [NCT06977347](https://clinicaltrials.gov/study/NCT06977347) | N/A | Not yet recruiting | 100 | Piperacillin/tazobactam alone vs with a fluoroquinolone in severe community-acquired pneumonia; no results yet |
+
+### Urinary tract infection (second prediction)
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03687255](https://clinicaltrials.gov/study/NCT03687255) | Phase 3 | Completed | 1043 | Cefepime-enmetazobactam vs piperacillin/tazobactam in complicated UTI; tazobactam is the comparator |
+| [NCT03230838](https://clinicaltrials.gov/study/NCT03230838) | Phase 2 | Completed | 134 | Ceftolozane/tazobactam vs meropenem in children with complicated UTI |
+| [NCT02728089](https://clinicaltrials.gov/study/NCT02728089) | Phase 3 | Completed | 115 | Open-label, non-comparative study of ceftolozane/tazobactam in Japanese patients with pyelonephritis and complicated UTI |
+| [NCT03891433](https://clinicaltrials.gov/study/NCT03891433) | Phase 4 | Suspended | 198 | Piperacillin/tazobactam vs carbapenems in non-bacteremic ESBL UTI; no completed results |
 
 ---
 
 ## Literature Evidence
 
+### Pneumonia
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [31563344](https://pubmed.ncbi.nlm.nih.gov/31563344/) | 2019 | RCT (Phase 3) | The Lancet Infectious Diseases | ASPECT-NP: ceftolozane/tazobactam non-inferior to meropenem for Gram-negative nosocomial pneumonia; supports approval for VAP/HABP |
-| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | RCT (Phase 3) | Clinical Infectious Diseases | RESTORE-IMI 2: IMI/REL vs PIP/TAZ for HABP/VABP — piperacillin/tazobactam confirmed as valid reference standard with robust clinical data |
-| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | RCT (Phase 3) | International Journal of Infectious Diseases | IMI/REL non-inferior to PIP/TAZ in critically ill HABP/VABP patients — further validates pip/taz as guideline comparator |
-| [10353303](https://pubmed.ncbi.nlm.nih.gov/10353303/) | 1999 | Review | Drugs | Comprehensive review of piperacillin/tazobactam: established efficacy for lower respiratory tract infections; broad Gram-positive, Gram-negative and anaerobic spectrum |
-| [32662691](https://pubmed.ncbi.nlm.nih.gov/32662691/) | 2020 | Review | Expert Review of Anti-infective Therapy | Ceftolozane/tazobactam for HAP: most active anti-pseudomonal agent including MDR/XDR strains; clinical/microbiological success >70–80% |
-| [35488823](https://pubmed.ncbi.nlm.nih.gov/35488823/) | 2022 | Review | Revista Española de Quimioterapia | Ceftolozane/tazobactam in nosocomial pneumonia: MIC and MPC values narrow, reducing mutant selection; time-dependent pharmacokinetics favour extended infusion |
-| [38823453](https://pubmed.ncbi.nlm.nih.gov/38823453/) | 2024 | Systematic review / Network meta-analysis | Clinical Microbiology and Infection | Optimal empiric antibiotic regimens for non-VAP HAP: piperacillin/tazobactam among the best-supported options across RCTs |
-| [38902935](https://pubmed.ncbi.nlm.nih.gov/38902935/) | 2025 | Observational | Clinical Infectious Diseases | Resistance development in MDR Pseudomonas bacteremia/pneumonia: ceftolozane-tazobactam had lower resistance emergence (10%) vs ceftazidime-avibactam (40%) |
-| [38936906](https://pubmed.ncbi.nlm.nih.gov/38936906/) | 2024 | Clinical study | In Vivo | Prophylactic mini-tracheostomy plus perioperative tazobactam/piperacillin significantly reduced pneumonia incidence in high-risk post-oesophagectomy patients |
-| [34158237](https://pubmed.ncbi.nlm.nih.gov/34158237/) | 2021 | Retrospective cohort (PSM) | Journal of Infection and Chemotherapy | Aspiration pneumonia: ceftriaxone comparable to piperacillin/tazobactam or carbapenems — useful for de-escalation strategy context |
+|------|-----|------|------|---------|
+| [31563344](https://pubmed.ncbi.nlm.nih.gov/31563344/) | 2019 | RCT | Lancet Infect Dis | ASPECT-NP: ceftolozane-tazobactam vs meropenem in Gram-negative nosocomial pneumonia, double-blind phase 3 non-inferiority trial |
+| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | RCT | Clin Infect Dis | RESTORE-IMI 2: imipenem/cilastatin/relebactam vs piperacillin/tazobactam in HABP/VABP |
+| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | RCT | Int J Infect Dis | Phase 3 non-inferiority trial of IMI/REL vs PIP/TAZ in HABP/VABP |
+| [38823453](https://pubmed.ncbi.nlm.nih.gov/38823453/) | 2024 | Systematic Review | Clin Microbiol Infect | Network meta-analysis of empiric antibiotic regimens in non-ventilator HAP |
+| [38971203](https://pubmed.ncbi.nlm.nih.gov/38971203/) | 2024 | Systematic Review | Int J Antimicrob Agents | PK/PD of novel beta-lactam and beta-lactamase inhibitor combinations in carbapenem-resistant Gram-negative pneumonia |
+| [36543346](https://pubmed.ncbi.nlm.nih.gov/36543346/) | 2022 | Review | Eur Respir Rev | Overview of newly approved antibiotics for Gram-negative pneumonia |
+| [35088403](https://pubmed.ncbi.nlm.nih.gov/35088403/) | 2022 | Review | Semin Respir Crit Care Med | New antibiotics for HAP and VAP |
+| [32600375](https://pubmed.ncbi.nlm.nih.gov/32600375/) | 2020 | Review | Crit Care | Update on treatment of nosocomial pneumonia in the ICU |
+| [38902935](https://pubmed.ncbi.nlm.nih.gov/38902935/) | 2025 | Cohort | Clin Infect Dis | Resistance to ceftazidime-avibactam (40%) vs ceftolozane-tazobactam (10%) in multidrug-resistant *P. aeruginosa* bacteremia or pneumonia |
+| [32662691](https://pubmed.ncbi.nlm.nih.gov/32662691/) | 2020 | Review | Expert Rev Anti Infect Ther | Ceftolozane and tazobactam for hospital-acquired pneumonia |
+
+### Urinary tract infection
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36194218](https://pubmed.ncbi.nlm.nih.gov/36194218/) | 2022 | RCT | JAMA | Cefepime/enmetazobactam vs piperacillin/tazobactam in complicated UTI or acute pyelonephritis |
+| [29486041](https://pubmed.ncbi.nlm.nih.gov/29486041/) | 2018 | RCT | JAMA | TANGO I: meropenem-vaborbactam vs piperacillin-tazobactam in complicated UTI |
+| [30861061](https://pubmed.ncbi.nlm.nih.gov/30861061/) | 2019 | RCT | Clin Infect Dis | ZEUS: fosfomycin for injection vs piperacillin-tazobactam in complicated UTI, phase 2/3 |
+| [39817442](https://pubmed.ncbi.nlm.nih.gov/39817442/) | 2025 | Systematic Review | J Comp Eff Res | Network meta-analysis of treatment options for complicated UTI including acute pyelonephritis |
+| [40583996](https://pubmed.ncbi.nlm.nih.gov/40583996/) | 2025 | Systematic Review | JAC Antimicrob Resist | Efficacy, safety and PK of novel beta-lactam/beta-lactamase inhibitor combinations |
 
 ---
 
 ## Philippines Market Information
 
-Tazobactam has **no registered products** with the Philippine FDA (FDA-Philippines). There are 0 active licenses on record. Any clinical use in the Philippines would require formal registration of a tazobactam-containing combination product (e.g., piperacillin/tazobactam or ceftolozane/tazobactam) before deployment.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0472 | Tazobactam | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Full safety data (key warnings, contraindications, drug interactions) was not retrievable from the current data sources for this Evidence Pack. The DDI query returned no results, and FDA-Philippines package insert data was not available.
+The knowledge graph lists the following conditions as contraindication-related for tazobactam. These come from drug-disease relationships, not from package insert text:
+- Kidney disease
+- Pyoureter
+- Neutropenia and agranulocytosis
+- Blood coagulation disease
+- *Clostridium difficile* colitis
+- Perinatal necrotizing enterocolitis
+- Infectious mononucleosis
+- Chronic Epstein-Barr virus infection syndrome
 
-Based on general knowledge of tazobactam-containing combinations from global regulatory approvals:
-- Tazobactam is generally well tolerated; adverse events are primarily attributable to the partner β-lactam.
-- Common reactions with piperacillin/tazobactam include diarrhoea, nausea, skin rash, and elevated liver enzymes.
-- Risk of *Clostridioides difficile*-associated disease exists, as with all broad-spectrum antibiotics.
-- Renal dose adjustment is required for combinations (e.g., ceftolozane/tazobactam carries a warning for reduced efficacy in patients with creatinine clearance 30–50 mL/min due to acute kidney injury).
-
-> Please refer to the current package insert of the relevant tazobactam-containing combination product for full prescribing information, warnings and contraindications.
+No drug interaction data were found. Please refer to the package insert for full safety information.
 
 ---
 
@@ -122,16 +151,15 @@ Based on general knowledge of tazobactam-containing combinations from global reg
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN prediction for tazobactam in pneumonia is supported by the highest level of clinical evidence (L1): multiple completed Phase 3 RCTs have established tazobactam-containing combinations (piperacillin/tazobactam and ceftolozane/tazobactam) as standard-of-care reference arms or approved treatments for hospital-acquired and ventilator-associated bacterial pneumonia globally. The prediction reflects a mechanistically sound and clinically validated indication. The principal barrier to use in the Philippines is a registration gap, not a scientific one.
+- Multiple completed Phase 3 randomized trials of tazobactam combinations (ceftolozane-tazobactam, and piperacillin-tazobactam as comparator) support use in nosocomial pneumonia and complicated UTI. This meets the L1 evidence level.
+- Pneumonia is already an original indication, so the finding mostly confirms existing use. Tazobactam works only in combination with a partner antibiotic, and the only Philippines registration for the single agent is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Philippines FDA registration** of a tazobactam-containing fixed-dose combination product (priority: piperacillin/tazobactam 4.5 g IV, and/or ceftolozane/tazobactam 1.5 g IV) via the FDA-Philippines Center for Drug Regulation and Research (CDRR)
-- **Local package insert and prescribing information** for any combination product registered, including Filipino-language patient information if required
-- **Mechanism of action documentation** (DrugBank API query for DB01606) to complete the pharmacological profile and support educational materials for Philippine prescribers
-- **Safety monitoring plan** covering renal function monitoring (dose adjustment for CrCl < 50 mL/min), hepatic enzyme surveillance, and *C. difficile* surveillance protocols
-- **Antimicrobial stewardship framework** for deployment in Philippine ICU/hospital settings, given the risk of selecting for carbapenem-resistant organisms if piperacillin/tazobactam is over-used in ESBL infections (per the MERINO trial signal, PMID 30208454)
-- **Local resistance surveillance data** (Philippine antimicrobial resistance data from the Antimicrobial Resistance Surveillance Program, ARSP) to confirm that target pathogens in Philippine HAP/VAP remain susceptible to tazobactam-containing regimens
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking data gap)
+- Mechanism of action data from DrugBank
+- Clarification of which tazobactam combination products are currently registered and marketed in the Philippines
+- Guardrails on pathogen selection and local susceptibility, especially for ESBL-producing organisms, where carbapenems are generally preferred for bacteremia
+- Renal function dosing guidance, including consideration of the reduced clinical response noted in patients with moderate renal impairment (CrCl 30-50 mL/min) for ceftolozane/tazobactam
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mannitol
-parent: Moderate Evidence (L3-L4)
-nav_order: 213
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 215
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mannitol: From Intracranial Hypertension to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Mannitol: From Intracranial and Ocular Pressure Reduction to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Mannitol is a classical osmotic diuretic with well-established intravenous use for reducing cerebral edema and intracranial pressure, and inhaled use as a bronchial challenge agent.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-with **0 clinical trials** and **1 publication** currently available to support this direction.
-
----
+Mannitol is an osmotic agent, originally used for conditions such as brain edema, intracranial hypertension, ocular hypertension and congestive heart failure.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**,
+but there are **0 clinical trials** and only **1 general review** behind this prediction, so it is a model prediction without direct supporting evidence.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Intracranial hypertension / cerebral edema (no Philippines registration on file) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Brain edema, intracranial hypertension, ocular hypertension, pseudotumor cerebri, congestive heart failure, cystic fibrosis (the Philippines registration has no indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Mannitol is a non-metabolizable polyol that is freely filtered at the renal glomerulus and not reabsorbed by tubular cells. This property makes it an osmotic diuretic: after IV administration, it raises plasma osmolarity, draws intracellular water into the vascular compartment, and obligates free-water excretion in the tubular lumen independent of antidiuretic hormone (ADH) signaling. This mechanism underpins its use in reducing cerebral edema and intracranial hypertension, acute glaucoma, and acute water intoxication — all conditions where rapid reduction of free-water burden is the goal.
+Currently, detailed mechanism of action data is not available. Based on known information, mannitol is an osmotic agent that draws water into the vascular and renal tubular compartments. It is used for conditions where fluid shifts need to be controlled, such as brain edema and raised intracranial or intraocular pressure. In theory, osmotic diuresis could promote free-water excretion.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare X-linked disorder caused by constitutively activating mutations in the V2 vasopressin receptor gene (*AVPR2*). Unlike SIADH, where ADH is secreted inappropriately, NSIAD involves the receptor itself firing without ligand, causing persistent urinary concentration and dilutional hyponatremia. Critically, V2 antagonists (e.g., tolvaptan) are ineffective in NSIAD because the defect lies downstream of ligand binding.
+That theoretical link is weak here. Nephrogenic SIAD is caused by gain-of-function variants in the vasopressin V2 receptor, so the defect sits in the receptor signalling and osmotic diuresis would not correct it. The only retrieved paper is a general review of pitfalls in evaluating hyponatremia. It says nothing about mannitol in this condition. The high TxGNN score is therefore a model output only and should not be read as clinical support.
 
-The theoretical bridge to Mannitol lies precisely here: osmotic diuresis bypasses the V2 receptor axis entirely. By increasing tubular osmolarity through a receptor-independent route, Mannitol could in principle drive free-water excretion and correct hyponatremia in NSIAD patients who cannot be treated with tolvaptan. This mechanism is analogous to how Mannitol is employed in acute water intoxication. However, NSIAD is a chronic condition requiring sustained management, and Mannitol is not suited for chronic use due to risks of rebound, electrolyte depletion, and renal toxicity. The prediction therefore represents a mechanistically plausible but clinically unvalidated hypothesis.
-
----
+Other top-ranked predictions are also weak. Most are supportive or indirect associations, and several are mechanistically implausible:
+- **Nephrogenic diabetes insipidus** (score 99.70%): osmotic diuresis would likely worsen polyuria and free-water loss, so the prediction is potentially harmful.
+- **Malignant hyperthermia, central core myopathy and related myopathies**: the links appear to come from RYR1-related network proximity, and mannitol is a vehicle component of dantrolene formulations. It has no known action on the underlying calcium dysregulation.
+- **Hypokalemic periodic paralysis**: mannitol serves as a glucose-free solvent for IV potassium. This is a supportive formulation choice, not disease-modifying treatment.
+- **Acute pulmonary heart disease**: only indirect, dated literature exists, and mannitol can transiently expand intravascular volume, which may worsen right heart strain.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Clinical Review | European Journal of Internal Medicine | Describes 10 common diagnostic pitfalls in hyponatremia evaluation — relevant to the differential diagnosis of NSIAD vs. SIADH, but does not evaluate Mannitol as a treatment for NSIAD |
-
----
+|------|-----|------|------|---------|
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Describes common pitfalls in evaluating patients with hyponatremia, a condition where wrong diagnosis or treatment can cause serious harm. It does not address mannitol or nephrogenic SIAD treatment. |
 
 ## Philippines Market Information
 
-Mannitol (DrugBank ID: DB00742) currently has **no registered products** with the Philippines FDA. No authorization numbers or approved indications are available to report.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0299 | Mannitol | Not specified | Not specified (registration status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The following comes from knowledge-graph disease associations, not from package insert text, and should be confirmed against the official label.
 
----
+- **Possible contraindicated conditions (knowledge graph)**: anuria, impaired renal function, pulmonary edema, intracranial hemorrhage, liver failure and liver disease, hepatic coma and hepatic encephalopathy, porphyria, thrombocytopenia, neutropenia, agranulocytosis, anemia, and sleep apnea syndromes, among others.
+- **Drug interactions**: 100 interactions were identified. Examples include:
+  - **Major**: amikacin.
+  - **Moderate**: lamivudine, formoterol, salbutamol, arformoterol, benazepril, captopril, carbamazepine, citalopram, canagliflozin, dapagliflozin, desvenlafaxine, cisatracurium, amifostine, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes, iothalamic acid and diatrizoate.
+  - **Minor**: doxycycline.
+- Concerns specific to the predicted indication: osmotic diuresis could worsen free-water loss in nephrogenic diabetes insipidus, and volume expansion could strain the right heart in acute pulmonary heart disease.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence for Mannitol in NSIAD is a single indirect clinical review on hyponatremia evaluation pitfalls (L4); no clinical trials targeting this indication exist, and Mannitol has no current Philippines registration, making any development pathway premature.
+The prediction score is high, but there are no clinical trials, the only paper is a general hyponatremia review, and the proposed mechanism does not fit the V2-receptor gain-of-function defect. The Philippines registration is also cancelled, so there is no active local product.
 
 **To proceed, the following is needed:**
-
-- Obtain and review the TFDA package insert to characterize key warnings, contraindications, and known toxicities (Data Gap DG001 — Blocking)
-- Retrieve full DrugBank MOA entry to formally document the osmotic diuresis mechanism and receptor-independent pathway (Data Gap DG002 — High)
-- Conduct a focused literature search for Mannitol or osmotic diuretics specifically in NSIAD or V2-gain-of-function hyponatremia case series
-- Assess feasibility of chronic osmotic diuretic use in the NSIAD population (electrolyte monitoring burden, renal function requirements, route limitations)
-- Evaluate alternative Philippines regulatory pathways or analogous approved products before committing to a local development plan
+- Mechanism of action data for mannitol, to allow a proper mechanistic analysis.
+- Package insert warnings and contraindications from the DOH-FDA Philippines, which are required before any safety screening.
+- Preclinical or case-level evidence of mannitol's effect in nephrogenic SIAD, or a clear rationale for why osmotic diuresis would help.
+- Confirmation of whether any valid mannitol registration or product exists in the Philippines, along with its approved indication and dosage form.
+- If the team wants to pursue other predictions, prioritise those with a plausible supportive role (such as hypokalemic periodic paralysis as an IV vehicle) and frame them as formulation questions rather than repurposing of a therapeutic effect.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

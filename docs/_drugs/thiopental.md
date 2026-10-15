@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Thiopental
-parent: Moderate Evidence (L3-L4)
-nav_order: 332
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 336
+evidence_level: L5
 indication_count: 10
 ---
 
 # Thiopental
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,100 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Thiopental: From General Anesthesia to Absence Epilepsy
+# Thiopental: From Epilepsy and Intracranial Hypertension to Trichotillomania
 
 ## One-Sentence Summary
 
-Thiopental is an ultra-short-acting barbiturate historically used for intravenous anesthesia induction and acute management of refractory intracranial hypertension.
-The TxGNN model predicts it may be effective for **Absence Epilepsy** — ranked #5 by TxGNN score but #1 by clinical evidence strength among all predictions in this pack —
-with **2 clinical trials** and **12 publications** currently supporting this direction, including a Tier 1 consensus guideline that explicitly endorses barbiturate anesthetics as third-line therapy for super-refractory status epilepticus.
-
----
+Thiopental is a barbiturate, originally associated with epilepsy, pseudotumor cerebri and intracranial hypertension.
+The TxGNN model predicts it may be effective for **trichotillomania**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | General anesthesia induction; adjunct management of raised intracranial pressure |
-| Predicted New Indication | Absence Epilepsy |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on TxGNN ranking:** The model's top-ranked prediction is Trichotillomania (score 99.95%), but that indication has zero supporting clinical evidence (L5, Hold). Absence Epilepsy (rank 5) carries the strongest actionable evidence in this dataset and is the focus of this report.
-
----
+|------|------|
+| Original Indication | Epilepsy, pseudotumor cerebri, intracranial hypertension (from the knowledge graph; no approved indication text is available for the local registration) |
+| Predicted New Indication | Trichotillomania |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L5 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Thiopental belongs to the barbiturate class and acts as a positive allosteric modulator of the GABA-A receptor. By binding to a distinct site on the receptor complex, it prolongs chloride ion channel opening time, thereby amplifying inhibitory neurotransmission throughout the central nervous system. Detailed mechanism-of-action data is currently marked as a Data Gap in this evidence pack — however, the drug's barbiturate class membership and its well-documented CNS-depressant profile are sufficient to establish the mechanistic rationale described here.
+Currently, detailed mechanism of action data is not available. Thiopental is a barbiturate, a class known to enhance GABA-A receptor signaling, and it is linked to epilepsy and raised intracranial pressure in the knowledge graph.
 
-This GABA-A mechanism maps directly onto the pathophysiology of absence epilepsy. The characteristic 3 Hz spike-wave discharges arise from synchronized thalamo-cortical oscillations maintained by an imbalance between excitatory and inhibitory tone — precisely the type of aberrant circuit activity that GABAergic enhancement can interrupt. In severe or refractory cases, particularly **absence status epilepticus** (a form of non-convulsive status epilepticus), thiopental's capacity to produce dose-dependent EEG suppression up to burst-suppression provides a mechanistically coherent pathway to seizure termination. A 2018 consensus guideline (PMID 30387431) explicitly classifies barbiturates, including thiopental, as third-line anesthetic therapy for super-refractory status epilepticus — the category under which prolonged absence status epilepticus falls when first- and second-line treatments have failed.
+The link to trichotillomania, a compulsive hair-pulling disorder, is speculative. One could argue that GABAergic modulation might dampen compulsive or impulsive circuitry, but no trial or publication supports this for thiopental. The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect. The drug's registration in the Philippines has also been cancelled.
 
-A critical scope distinction must be maintained: the available evidence supports thiopental's role in **acute, ICU-based management of status epilepticus**, not in the chronic outpatient treatment of recurring absence seizures. Its IV-only delivery route, addiction liability, and requirement for ventilatory support confine practical utility to intensive care settings. Any repurposing initiative should be scoped to this acute context.
+### Other Predicted Indications (for reference)
 
----
+Other high-scoring predictions were also reviewed. None has trial evidence.
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Frontal lobe epilepsy | 99.95% | L4 | Only indirect literature (thiopental test in epilepsy surgery work-up, case reports where steroids or surgery, not thiopental, were the successful treatments) |
+| 3 | Prinzmetal angina | 99.94% | L5 | No evidence; cardiovascular depressant effects argue against benefit |
+| 4 | Migraine disorder | 99.94% | L5 | The only paper retrieved concerns a plant extract, not thiopental |
+| 5 | Absence epilepsy | 99.91% | L4 | Literature is mostly about status epilepticus; barbiturate anesthetics are not standard care for absence seizures |
+| 6 | Tourette syndrome | 99.90% | L5 | No evidence |
+| 7 | Migraine with brainstem aura | 99.90% | L5 | The only paper concerns metoprolol, not thiopental |
+| 8 | Bundle branch block (obsolete term) | 99.90% | L5 | Likely an ontology mapping issue |
+| 9 | Substance abuse/dependence | 99.89% | L4 | Papers describe barbiturate dependence and misuse, which is a safety signal rather than a therapeutic one |
+| 10 | Nephrogenic syndrome of inappropriate antidiuresis | 99.85% | L5 | No plausible mechanism |
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07443241](https://clinicaltrials.gov/study/NCT07443241) | N/A | Completed | 779 | Retrospective analysis of sex-specific differences in etiology, diagnostics, treatment, and outcomes of status epilepticus at Marburg University Hospital (2011–2023); real-world treatment database may capture thiopental as a rescue anesthetic agent |
-| [NCT04287361](https://clinicaltrials.gov/study/NCT04287361) | N/A | Completed | 310 | IV clonazepam dosing efficacy for initial management of pediatric status epilepticus — study drug is clonazepam, not thiopental; provides benchmark data on the first-line treatment landscape thiopental would need to follow |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [30387431](https://pubmed.ncbi.nlm.nih.gov/30387431/) | 2018 | Consensus Guideline | Acta Medica Portuguesa | Portuguese SRLF/SFMU consensus protocol for super-refractory status epilepticus (SRSE); explicitly lists barbiturates (including thiopental) as third-line anesthetic therapy — strongest evidence tier in this dataset |
-| [8223422](https://pubmed.ncbi.nlm.nih.gov/8223422/) | 1993 | Prospective Clinical Study | Epilepsy Research | Thiopental test in 103 pre-surgical epilepsy candidates; IV infusion reliably suppresses EEG beta activity and activates interictal spiking, directly demonstrating thiopental's seizure-circuit modulation properties in human epilepsy patients |
-| [8400755](https://pubmed.ncbi.nlm.nih.gov/8400755/) | 1993 | Prospective Clinical Study | J Neurosurgical Anesthesiology | Anesthetic care protocol for the thiopental test in refractory epilepsy evaluation; characterizes dosing regimen, monitoring parameters, and morbidity profile — establishes safety feasibility in the epilepsy population |
-| [18759609](https://pubmed.ncbi.nlm.nih.gov/18759609/) | 2009 | Retrospective Cohort | Journal of Neurosurgery | ICP-targeted therapy using thiopental in TBI patients; prospective EEG monitoring demonstrates consistent suppression of both clinical and subclinical (EEG-only) seizure activity during treatment course |
-| [36003492](https://pubmed.ncbi.nlm.nih.gov/36003492/) | 2022 | Case Report | Frontiers in Pediatrics | FIRES and new anti-neuronal antibodies in a 5-year-old; documents escalating use of anesthetic-class agents (barbiturate context) in treatment-refractory pediatric epileptic encephalopathy |
-| [38505775](https://pubmed.ncbi.nlm.nih.gov/38505775/) | 2024 | Case Report | Frontiers in Neuroscience | FIRES with multi-organ failure and lethal outcome in a 14-year-old; illustrates the clinical pathway to barbiturate-class rescue anesthesia in catastrophic pediatric refractory SE and its limitations |
-| [7485956](https://pubmed.ncbi.nlm.nih.gov/7485956/) | 1995 | Review | Anaesthesia and Intensive Care | Propofol and epilepsy — comparative review establishing the broader context of IV anesthetic agents vs. barbiturates in seizure management; supports thiopental as a reference comparator |
-| [27848906](https://pubmed.ncbi.nlm.nih.gov/27848906/) | 2016 | Case Report | NTvG | Potentially lethal barbiturate intoxication via internet purchase; critical safety signal — confirms narrow therapeutic window and overdose lethality risk for any repurposing protocol |
-| [4979765](https://pubmed.ncbi.nlm.nih.gov/4979765/) | 1969 | Clinical Study | Epilepsia | Thiopental activation test for distinguishing secondary from primary bilateral epileptic synchrony; early clinical evidence of thiopental's differential diagnostic role in epilepsy circuit mapping |
-| [4189546](https://pubmed.ncbi.nlm.nih.gov/4189546/) | 1970 | Clinical Study | EEG and Clinical Neurophysiology | Confirmatory study of the thiopental test for bilateral synchrony differentiation; validates reproducibility of thiopental's CNS seizure-suppression effect across independent cohorts |
+Currently no related literature available for trichotillomania.
 
----
+For reference, the most relevant literature for the second-ranked prediction, frontal lobe epilepsy, is indirect:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8223422](https://pubmed.ncbi.nlm.nih.gov/8223422/) | 1993 | Cohort | Epilepsy Res | Thiopental test in 103 epilepsy surgery candidates, using EEG changes to localize focal dysfunction (a diagnostic use, not a treatment) |
+| [18759609](https://pubmed.ncbi.nlm.nih.gov/18759609/) | 2009 | Cohort | J Neurosurg | EEG seizure activity in head-injury patients treated with an ICP-targeted protocol |
+| [9805996](https://pubmed.ncbi.nlm.nih.gov/9805996/) | 1998 | Case report | Rinsho Shinkeigaku | Severe frontal-origin status epilepticus treated with corticosteroids |
+| [12446223](https://pubmed.ncbi.nlm.nih.gov/12446223/) | 2002 | Case report | Epileptic Disord | Epilepsy surgery for status epilepticus caused by cortical dysplasia in an infant |
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0486 | Thiopental | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-All structured safety fields in this evidence pack (key warnings, contraindications, drug interactions) are recorded as Data Gap. Please refer to the package insert for full safety information.
+- **Contraindications (from knowledge graph associations, not label text)**: Disease associations flagged in the knowledge graph include:
+  - Kidney and liver disease, kidney failure, uremia, gallbladder disease
+  - Asthma (including intrinsic and allergic asthma)
+  - Hypotensive disorder
+  - Anemia
+  - Adrenal insufficiency (Addison disease, congenital adrenal hyperplasia and related disorders)
+  - Myasthenia gravis and neuromuscular junction disease
+  - Variegate porphyria and acute intermittent porphyria
+  - Hypothyroidism and myxedema
+- **Drug Interactions**: 45 interactions were identified in total. Major interactions include **ethanol** and **warfarin**. Moderate interactions include morphine, codeine, hydrocodone, dextromethorphan, dronabinol, nabilone, cetirizine, doxycycline, methylene blue, nitisinone, and radioactive iodide (I-123 and I-131). Minor interactions include cimetidine, promethazine, pyridoxine, and sulfasalazine.
+- **Misuse potential**: The literature describes barbiturate tolerance, physical dependence, and overdose risk.
 
-**Safety signals identified from available literature:**
-
-- **Addiction and abuse potential:** Evidence from the substance dependence evidence set (PMID 15967611) confirms documented thiopental dependence in anesthesiologists identified by hair analysis — barbiturate addiction is a serious, well-characterized risk requiring strict access controls in any clinical protocol
-- **Overdose lethality:** PMID 27848906 documents potentially lethal toxicity from barbiturate overdose; therapeutic index is narrow and dose titration must occur under continuous monitoring
-- **Cardiovascular depression:** Thiopental carries known negative inotropic and vasodilatory properties that can cause hemodynamic instability — patients with cardiac comorbidities (including coronary artery disease) face elevated risk
-- **Respiratory depression:** Mechanical ventilatory support is required at anesthetic doses; this drug cannot be used outside a monitored ICU or procedural setting
-
----
+Please refer to the package insert for full warnings and contraindications, as label-based safety data were not available.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A Tier 1 consensus guideline explicitly endorses barbiturate anesthetics — including thiopental — as third-line therapy for super-refractory status epilepticus, the category that encompasses prolonged absence status epilepticus refractory to standard care. This is not speculative repurposing; it reflects established ICU neurological practice in guideline-producing institutions. The primary barriers are **regulatory** (not marketed in the Philippines) and **operational** (IV-only, requires ICU infrastructure), not evidentiary.
+The prediction for trichotillomania is based only on a model score, with no clinical trials or publications (Evidence Level L5). The mechanism is speculative, safety data from the label are missing, and the Philippines registration is cancelled. Thiopental is also an injectable anesthetic-class barbiturate with significant safety constraints, which makes it a poor fit for a chronic behavioral disorder.
 
 **To proceed, the following is needed:**
-
-- **Clarify the clinical target:** Confirm whether the repurposing scope is *absence status epilepticus* (acute ICU setting — actionable, supported by current guidelines) or *chronic recurring absence epilepsy* (outpatient — high barrier, not supported by available evidence)
-- **Retrieve full MOA documentation:** Query DrugBank API and obtain the WHO/TFDA package insert to resolve the current Data Gap before regulatory submission
-- **Establish a Philippines import or compassionate use pathway:** Thiopental is not registered domestically (0 licenses); a special access or hospital-level importation authorization is required before any clinical use
-- **Develop an ICU-specific safety protocol:** Covering continuous EEG monitoring for burst-suppression endpoint, hemodynamic monitoring, ventilatory support requirements, and barbiturate serum level tracking
-- **Controlled substance regulatory review:** Assess the Philippines DEA/FDA-equivalent scheduling status for thiopental and determine procurement and storage requirements
-- **Local needs assessment:** Survey whether Philippine tertiary ICUs currently use alternative agents (midazolam, propofol, pentobarbital) for refractory SE, and identify the clinical gap thiopental would specifically address before committing to procurement
+- Mechanism of action data to assess whether any link to trichotillomania is credible
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Any preclinical or clinical evidence for thiopental in trichotillomania
+- Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit
+- Clarification of the cancelled registration status and whether any product is available locally
+- Consideration of better-supported alternatives, such as the epilepsy-related predictions, which already have indirect literature
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

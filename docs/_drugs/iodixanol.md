@@ -2,7 +2,7 @@
 layout: default
 title: Iodixanol
 parent: Model Prediction Only (L5)
-nav_order: 176
+nav_order: 178
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,84 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Iodixanol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
+# Iodixanol: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
 
 ## One-Sentence Summary
 
-Iodixanol is a non-ionic, iso-osmolar iodinated contrast medium used clinically to enhance radiographic visibility of blood vessels and internal organs during procedures such as CT angiography and cardiac catheterization.
-The TxGNN model predicts it may be relevant to **Osteoarthritis Susceptibility**, yet with **0 clinical trials** and **0 supporting literature** for this specific indication, the evidence sits at **L5 (model prediction only)**.
-Expert review of the evidence strongly suggests this is a knowledge-graph false positive rather than a genuine repurposing signal.
-
----
+Iodixanol is an iodinated X-ray contrast agent used in diagnostic imaging, and its Philippines registration is currently cancelled.
+The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility** (also osteoarthritis and rheumatoid arthritis at lower ranks), but **no clinical trials** are registered and the **literature (5 publications for osteoarthritis)** covers diagnostic imaging use only, not treatment benefit.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Radiographic contrast medium for diagnostic imaging (no local Philippines registration on file) |
-| Predicted New Indication | Osteoarthritis Susceptibility |
+|------|------|
+| Original Indication | Not available in the Philippines registration data (the data compiled for this report show no approved indication text; the drug is known as an iodinated contrast agent) |
+| Predicted New Indication | Osteoarthritis susceptibility |
 | TxGNN Prediction Score | 99.16% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Iodixanol (brand name Visipaque) is a non-ionic dimeric, iso-osmolar iodinated contrast agent. Its sole pharmacological mechanism is X-ray attenuation via iodine atoms, enhancing vascular and tissue contrast during imaging. It has no known anti-inflammatory, chondroprotective, immunomodulatory, or disease-modifying properties. Mechanism of action data from DrugBank was unavailable for this report and should be formally retrieved; however, the drug class itself makes any arthritis-related mechanism pharmacologically implausible.
+Currently, detailed mechanism of action data is not available. Iodixanol is an iodinated, iso-osmolar contrast agent. It works by absorbing X-rays so that tissues and vessels can be visualized, and it is not known to have disease-modifying pharmacology.
 
-"Osteoarthritis susceptibility" is a genetic risk phenotype — it describes an individual's inherited predisposition to develop osteoarthritis, not an active inflammatory or degenerative disease state. There is no biological pathway through which a transiently circulating contrast agent could alter genetic susceptibility to OA.
-
-The most probable explanation for the elevated TxGNN score (99.16%) is a **knowledge-graph false positive**: iodixanol has been extensively co-cited with joint and cartilage research in the context of *diagnostic* CT imaging of cartilage structure. These indirect graph edges (contrast agent → joint imaging → cartilage node → OA node) appear to have created a spurious association that the model interpreted as a therapeutic link. This is a recognized artifact in knowledge-graph-based prediction models when a drug is used as a *tool* (imaging agent) rather than a *therapeutic* in a disease area.
-
----
+The high TxGNN score (0.99) is a model prediction only. "Osteoarthritis susceptibility" is a genetic-risk phenotype rather than a treatable clinical condition, so a therapeutic indication is not well defined. The related predictions (osteoarthritis, rheumatoid arthritis) also lack therapeutic support. The prediction likely reflects iodixanol's frequent appearance in joint and cartilage imaging research rather than any treatment effect.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+The publications below were retrieved for the second-ranked prediction, osteoarthritis. All concern diagnostic or experimental use, not therapy.
 
-> **Note:** A search of PubMed for Iodixanol + osteoarthritis (the rank-2 indication) did return 7 publications, but all describe iodixanol *as a diagnostic CT contrast agent* to visualize cartilage structure or study solute transport across the osteochondral interface — none evaluate iodixanol as a treatment for osteoarthritis. This further confirms the false-positive diagnosis for the rank-1 indication.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Imaging method study | Annals of Biomedical Engineering | CT nanoparticle diffusion imaging used to reveal cartilage function, combined with finite element modelling |
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Imaging method study | Annals of Biomedical Engineering | Dual-contrast agent in photon-counting CT to assess articular cartilage health |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Experimental transport study | Journal of Biomechanics | Iodixanol (~1550 Da) used as a CT contrast agent to study permeability of the cartilage–subchondral bone interface |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Computational modelling | Journal of Biomechanics | Finite element and CT approach to neutral solute transport across the osteochondral interface |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | In vitro study | Journal of Experimental Orthopaedics | Iodine contrast agents did not affect platelet-rich plasma function at an early time point (a compatibility finding, not efficacy) |
 
----
+For rheumatoid arthritis, the only retrieved paper ([36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, Cureus) is a case report on desensitization to a different contrast agent (iohexol) in a patient with rheumatoid arthritis-related amyloidosis. It is not evidence of therapeutic benefit and is likely a spurious match.
 
 ## Philippines Market Information
 
-Iodixanol has **no registered product authorizations** with the Philippine FDA. It is not currently marketed in the Philippines.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | No registrations on file | — | — |
-
----
+|---------|------|------|-----------|
+| PNF-0253 | Iodixanol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 potential interactions in total. Most of the listed ones are rated Major, including:
+  - Metformin
+  - Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms)
+  - Aminoglycosides (kanamycin, neomycin, streptomycin)
+  - Vancomycin
+  - Polymyxin B
+  - Aminosalicylates (mesalazine, balsalazide, olsalazine, sulfasalazine)
 
-> Safety data (package insert warnings, contraindications, and drug-drug interactions) was not available in this Evidence Pack. Retrieval from the Philippine FDA or manufacturer label is required before any further evaluation.
+  Mannitol is rated Moderate. Several others, such as famotidine, aspirin, morphine, omeprazole and prednisone, have an unknown severity level. Many of the Major interactions involve drugs with kidney-related toxicity, so renal function warrants attention.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This TxGNN prediction is almost certainly a knowledge-graph false positive. Iodixanol is a purely diagnostic contrast agent with no pharmacological mechanism applicable to osteoarthritis susceptibility (a genetic predisposition phenotype), and zero clinical trial or literature evidence supports a therapeutic role. The high model score reflects spurious co-occurrence in imaging research, not a genuine repurposing opportunity.
+The predictions rest on model scores alone (evidence level L5). No clinical trials exist, and the literature shows iodixanol only as an imaging tool, not as a treatment. "Osteoarthritis susceptibility" is also not a well-defined treatable condition, and iodixanol has no valid current registration in the Philippines.
 
 **To proceed, the following is needed:**
-- Formally retrieve and record iodixanol MOA from DrugBank API to close Data Gap DG002 and confirm absence of any arthritis-relevant pharmacology
-- Retrieve Philippine FDA (or originating country) package insert to close Data Gap DG001 and document contraindications/warnings
-- Flag this candidate as a **confirmed false positive** in the pipeline and archive with rationale to prevent re-surfacing in future prediction cycles
-- Review TxGNN model knowledge-graph edges connecting contrast agents to musculoskeletal disease nodes to reduce similar false-positive rates for other diagnostic agents (e.g., iohexol, iopamidol)
+- Mechanism of action data, and a plausible biological link to joint disease
+- Preclinical evidence of disease-modifying or symptom-relieving effects in osteoarthritis
+- Clarification of whether a defined, treatable target indication exists, rather than a susceptibility phenotype
+- Package insert warnings and contraindications for safety screening
+- Clarification of the cancelled registration status and the available dosage forms and routes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

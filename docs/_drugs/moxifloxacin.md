@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Moxifloxacin
-parent: Moderate Evidence (L3-L4)
-nav_order: 240
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 242
+evidence_level: L5
 indication_count: 10
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,122 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Bacterial Infections to Bubonic Plague
+# Moxifloxacin: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Moxifloxacin is a fourth-generation fluoroquinolone antibiotic, established in clinical practice for community-acquired pneumonia, acute sinusitis, skin infections, and complicated intra-abdominal infections.
-The TxGNN model's most evidence-supported prediction points to **Bubonic Plague** (*Yersinia pestis* infection), backed by **6 preclinical publications** including animal challenge models and in vitro pharmacodynamic studies confirming potent bactericidal activity.
-Of the 10 predicted indications, 9 cluster around haematological diseases and are assessed as knowledge-graph co-occurrence artefacts; bubonic plague stands as the sole prediction with an established mechanistic rationale and an evidence rating of L3.
+Moxifloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as pneumonia, peritonitis, conjunctivitis and plague.
+The TxGNN model's top-ranked prediction is **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting it, so this looks like a knowledge-graph artifact.
+The only prediction with a coherent rationale is **bubonic plague**, which falls within the drug's existing indication family and is supported by **4 preclinical studies** (plus 1 unrelated adverse-event case report).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (community-acquired pneumonia, sinusitis, skin and soft-tissue infections) — not currently registered in the Philippines |
-| Predicted New Indication | Bubonic Plague (*Yersinia pestis* infection) |
-| TxGNN Prediction Score | 99.41% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, peritonitis, conjunctivitis, plague, among others) |
+| Predicted New Indication | Hyperamylasemia (rank 1) |
+| TxGNN Prediction Score | 99.98% |
+| Evidence Level | L5 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
+
+Note: the registration record in the data compiled for this report contains no approved-indication text, so the original indication above is taken from the drug's knowledge-graph indication list.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on well-established pharmacology, moxifloxacin is a fluoroquinolone antibiotic that inhibits **bacterial DNA gyrase (topoisomerase II)** and **topoisomerase IV** — the two enzymes responsible for managing DNA supercoiling and strand passage during replication. This dual-target bactericidal mechanism is directly relevant to *Yersinia pestis*, which expresses both target enzymes and is known to be highly susceptible to fluoroquinolones. Multiple in vitro pharmacodynamic studies confirm that moxifloxacin achieves MIC values against *Y. pestis* well within clinically attainable plasma concentrations.
+Detailed mechanism of action data is not available. Based on known information, moxifloxacin is a fluoroquinolone antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is established.
 
-Moxifloxacin's broader antibacterial spectrum overlaps substantially with the pathogen profile relevant to plague: it is effective against intracellular Gram-negative organisms, and its excellent tissue penetration mirrors the requirements for treating systemic *Y. pestis* bacteraemia. Fluoroquinolones are already recognised by the US CDC and WHO as acceptable alternative agents for plague when traditional first-line drugs (streptomycin, gentamicin) are unavailable. Moxifloxacin has appeared explicitly in FDA labelling guidance for plague indications in markets where it is registered.
+**For the top prediction, hyperamylasemia, no plausible mechanistic link exists.** An antibacterial has no recognized role in lowering amylase, and there are no trials or publications. The high score most likely reflects graph proximity rather than a real therapeutic signal.
 
-From a practical standpoint relevant to the Philippines, moxifloxacin offers once-daily oral dosing and high oral bioavailability — properties that are particularly valuable in outbreak or bioterrorism preparedness scenarios where parenteral administration may be logistically constrained.
+The other high-scoring predictions (polyclonal hyperviscosity syndrome, blood group incompatibility, congenital analbuminemia, premalignant and congenital hematological disorders, monoclonal gammopathy, hematopoietic and lymphoid neoplasm) share the same problem. Their links are indirect, such as infection prophylaxis in immunocompromised patients, or absent altogether.
 
-> **Note on other predicted indications:** Ranks 1–9 primarily predict haematological diseases (hyperamylasemia, monoclonal gammopathy, congenital blood disorders, etc.). The repurposing rationale in the Evidence Pack explicitly flags these as likely **knowledge-graph co-occurrence artefacts** — patients with haematological diseases frequently receive antibiotics for infectious complications, generating false edges in the KG. None of these predictions carry mechanistic support or actionable evidence; all are rated L5 or L4 with a **Hold** recommendation.
+**The one coherent prediction is bubonic plague (rank 10, score 99.41%).** Moxifloxacin inhibits bacterial DNA gyrase and topoisomerase IV and is active against *Yersinia pestis* in vitro and in animals. Plague and pneumonic plague are already among its original indications, so this is an extension within an existing indication family rather than true repurposing.
+
+Because the sections below follow the rank 1 prediction, they show no trials or literature. The bubonic plague evidence is summarized in the Literature Evidence section as a point of reference.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically evaluating moxifloxacin for bubonic plague have been registered on ClinicalTrials.gov or ICTRP.
+Currently no related clinical trials registered for hyperamylasemia.
 
-> **Indirect safety signal from trials:** [NCT07023029](https://clinicaltrials.gov/study/NCT07023029) — a completed Phase 1 cardiac repolarisation study for Etavopivat (sickle cell disease) — used moxifloxacin as the **positive QTc-prolongation control arm**. This confirms moxifloxacin's well-characterised cardiac conduction effect and is a clinically relevant safety signal for any future plague treatment protocol, particularly in patients with concurrent QT-prolonging conditions.
+For reference, the lower-ranked predictions include trials in which moxifloxacin was used only for supportive care or as a comparator:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00324324](https://clinicaltrials.gov/study/NCT00324324) | Phase 3 | Terminated | 240 | Placebo-controlled antibacterial prophylaxis after allogeneic stem cell transplant (indirect relevance) |
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | Terminated | 351 | Moxifloxacin alone vs ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients (indirect relevance) |
+| [NCT07023029](https://clinicaltrials.gov/study/NCT07023029) | Phase 1 | Completed | 33 | Etavopivat cardiac repolarisation study in healthy participants; moxifloxacin is likely the QT positive control |
+
+None of these tests moxifloxacin for a predicted new indication.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for hyperamylasemia.
+
+For reference, the literature for the bubonic plague prediction (rank 10) is below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [21115791](https://pubmed.ncbi.nlm.nih.gov/21115791/) | 2011 | In Vitro PK/PD Model | *Antimicrobial Agents and Chemotherapy* | Hollow-fibre PK/PD model demonstrates moxifloxacin optimally kills *Y. pestis* and suppresses resistance emergence; dosing regimen derived |
-| [21486959](https://pubmed.ncbi.nlm.nih.gov/21486959/) | 2011 | In Vitro PK/PD Comparative | *Antimicrobial Agents and Chemotherapy* | Comparative efficacy of multiple antibiotics against *Y. pestis*; moxifloxacin among top-performing regimens relative to streptomycin gold standard |
-| [15555886](https://pubmed.ncbi.nlm.nih.gov/15555886/) | 2004 | Animal Model / In Vitro | *International Journal of Antimicrobial Agents* | Full protection in BALB/c mice against systemic and pneumonic plague with oral moxifloxacin; efficacy comparable to ciprofloxacin up to 30 h post-aerosol challenge |
-| [20052916](https://pubmed.ncbi.nlm.nih.gov/20052916/) | 2009 | Animal Model Comparative | *Antibiotiki i khimioterapiia* | Moxifloxacin ED₅₀ of 5.5–14.0 mg/kg in mice challenged with ~1,000 LD₅₀ of *Y. pestis*; active against both FI⁺ and FI⁻ strain phenotypes |
-| [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/) | 2018 | Adverse Event Case Report | *Therapeutic Advances in Drug Safety* | FDA labelling explicitly lists **plague** as an approved moxifloxacin indication; case report contextualises QT/tinnitus adverse effect risk in elderly patients |
-| [26210091](https://pubmed.ncbi.nlm.nih.gov/26210091/) | 2015 | Case Report | *Ticks and Tick-Borne Diseases* | Tularemia (*Francisella tularensis*) case from China; contextualises fluoroquinolone role in rare intracellular Gram-negative infections with mechanistic parallels to *Y. pestis* |
+|------|-----|------|------|---------|
+| [20052916](https://pubmed.ncbi.nlm.nih.gov/20052916/) | 2009 | Preclinical (mouse) | Antibiotiki i khimioterapiia | Y. pestis strains highly susceptible; ED50 of levofloxacin and moxifloxacin 5.5–14.0 mg/kg in infected mice |
+| [15555886](https://pubmed.ncbi.nlm.nih.gov/15555886/) | 2004 | Preclinical (mouse) | Int J Antimicrob Agents | Moxifloxacin and gatifloxacin protected mice in systemic and pneumonic plague models, compared with ciprofloxacin |
+| [21115791](https://pubmed.ncbi.nlm.nih.gov/21115791/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | In vitro pharmacodynamic model used to derive a moxifloxacin regimen that kills Y. pestis and prevents resistance |
+| [21486959](https://pubmed.ncbi.nlm.nih.gov/21486959/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | Comparative efficacy of candidate antibiotics against Y. pestis in an in vitro model |
+| [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/) | 2018 | Case report | Ther Adv Drug Saf | Moxifloxacin-induced tinnitus in an older adult (adverse event, not efficacy) |
 
 ---
 
 ## Philippines Market Information
 
-Moxifloxacin is currently **not registered** with the FDA Philippines. There are no active product licences on file and the drug has no approved indications in the Philippines.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0332 | Moxifloxacin | Not specified | Not specified (registration status: cancelled) |
 
-For reference, moxifloxacin is marketed internationally under brand names such as **Avelox** (Bayer) and **Vigamox** (ophthalmic formulation), with regulatory approvals covering bacterial pneumonia, sinusitis, skin infections, intra-abdominal infections, and plague in several jurisdictions including the US FDA, EMA, and others. A new drug registration application to the FDA Philippines would be required before any clinical use.
+The only registration on record is cancelled, so no currently valid moxifloxacin product was identified in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Full safety data (warnings, contraindications) is not available in this Evidence Pack. Please refer to the original package insert for complete safety information.
+Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
 
-The following signals are noted from indirect evidence within this pack:
+**Contraindication-related conditions from the knowledge graph (not label text):**
+- **Cardiac:** long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease
+- **Neurological and neuromuscular:** epilepsy, myasthenia gravis, neuromuscular junction disease, peripheral neuropathy
+- **Musculoskeletal:** tendinitis, periarthritis, exostosis
+- **Hepatic:** cirrhosis of liver, drug-induced liver injury
+- **Gastrointestinal:** *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
+- **Metabolic:** potassium deficiency disease
 
-- **QT Prolongation:** Moxifloxacin served as the **positive QTc-prolongation control** in NCT07023029, confirming its cardiac conduction effect. This is a critical consideration in patients with pre-existing cardiac disease, electrolyte imbalances, or concurrent use of other QT-prolonging agents.
-- **FDA-Restricted Use Class:** A 2018 publication (PMID [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/)) references the FDA's recommendation to restrict fluoroquinolone use to specific serious infections — including plague — owing to the risk of disabling and potentially irreversible adverse effects such as peripheral neuropathy, tendinopathy, and CNS effects.
+**Drug interactions:** 100 interactions were found. The main **Major**-level ones among those listed are:
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+- Bupropion
+- Chlorpropamide
+
+Moderate-level interactions include antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, aspirin, and calcium- and potassium-containing products.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Moxifloxacin has well-characterised preclinical bactericidal activity against *Yersinia pestis*, and fluoroquinolones are already recognised by the US CDC as alternative first-line agents for plague. While no clinical trial data exists, the preclinical evidence base and established regulatory acceptance in other markets provide sufficient foundation for further evaluation, particularly given that traditional first-line agents (streptomycin) have limited availability in the Philippines.
+- The top prediction, hyperamylasemia, has no clinical or literature support and no plausible mechanism, so it is best treated as a computational artifact. The other high-ranking predictions are likewise unsupported or only indirectly related.
+- Moxifloxacin's known safety concerns (QT prolongation, tendon and neuropathy risks, dysglycemia) argue against speculative use. Its only registration in the Philippines is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Blocking — Package insert review:** Obtain and parse the full prescribing information (warnings, contraindications, drug interactions) before any clinical or regulatory action
-- **Cardiac safety protocol:** Mandatory QTc monitoring plan given confirmed QT-prolongation risk; establish contraindication criteria for high-risk cardiac patients
-- **Philippines FDA registration pathway:** Initiate pre-submission consultation with the FDA Philippines; assess whether existing US FDA or EMA approval can expedite review
-- **Epidemiological justification:** Document the incidence and public health risk of plague (and *Y. pestis*-related bioterrorism preparedness needs) in the Philippines to support the regulatory submission
-- **Resistance surveillance:** Review fluoroquinolone resistance patterns in *Y. pestis* strains circulating in or relevant to Southeast Asia
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Mechanism of action data from DrugBank
+- For bubonic plague, which is already within the original indication family, a review of whether the preclinical evidence is sufficient. Human data would be needed, and a market-availability check should come first.
+- Confirmation of a currently valid Philippines registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

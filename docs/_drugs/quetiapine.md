@@ -2,7 +2,7 @@
 layout: default
 title: Quetiapine
 parent: Model Prediction Only (L5)
-nav_order: 286
+nav_order: 289
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Quetiapine: From Schizophrenia/Bipolar Disorder to Retinal Dystrophy with or without Extraocular Anomalies
+# Quetiapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction, No Supporting Evidence)
 
 ## One-Sentence Summary
 
-Quetiapine is a well-established atypical antipsychotic, globally approved for schizophrenia, bipolar disorder, and as an adjunct therapy for major depressive disorder.
-The TxGNN model's top-ranked prediction identifies **Retinal Dystrophy with or without Extraocular Anomalies** as a potential new indication,
-however **0 clinical trials** and **15 tangentially related publications** (none directly studying this drug-disease pair) currently exist, and the mechanistic rationale is absent.
-Quetiapine is not currently registered in the Philippines market.
+Quetiapine is an atypical antipsychotic originally used for schizophrenia and bipolar disorder.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but **no clinical trials or publications** support it. The best-supported candidate among the top 10 is **trichotillomania**, with **6 publications** (mostly case reports and reviews) and no registered clinical trials.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Philippines; known global approved uses include schizophrenia, bipolar I/II disorder, and adjunct treatment for major depressive disorder |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
+|------|------|
+| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (Model prediction only — no direct supporting studies) |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 (model prediction only) |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
+
+*Note: The top-ranked prediction has no evidence. The only candidate in the top 10 with any published literature is trichotillomania (TxGNN score 99.38%, evidence level L4, recommendation "Research Question"). It is discussed below as a secondary candidate.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, Quetiapine is an atypical antipsychotic that primarily antagonises dopamine D2 receptors and serotonin 5-HT2A receptors, with additional binding at histamine H1, adrenergic α1/α2, and muscarinic receptors. These central nervous system receptor interactions underpin its established psychiatric efficacy.
+Detailed mechanism of action data is not currently available for this drug. Quetiapine is generally known as an atypical antipsychotic that blocks dopamine D2 and serotonin 5-HT2A receptors, with additional histamine H1 and alpha-1 adrenergic blockade. This receptor profile explains its use in schizophrenia and bipolar disorder.
 
-Retinal dystrophy with or without extraocular anomalies is a hereditary retinal degeneration caused by genetic mutations (e.g., RPGR, CRB1, RPGRIP1L) that progressively destroy photoreceptor cells. Its pathophysiology is entirely structural and genetic — not driven by neurotransmitter dysregulation. There is **no known mechanistic intersection** between Quetiapine's D2/5-HT2A receptor pharmacology and the photoreceptor degeneration pathways involved in retinal dystrophy.
+For the top-ranked prediction, **retinal dystrophy**, no plausible link to these receptor effects can be established from the data compiled for this report. The high score is a computational output only. The same is true for the other predictions without evidence (congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria syndrome, X-linked myopia, syndromic myopia, Charcot-Marie-Tooth type 1G). These are mostly genetic or structural conditions that quetiapine is unlikely to modify.
 
-More critically, existing literature indicates that prolonged use of antipsychotics — including Quetiapine — may *cause* retinal and lenticular toxicity as an adverse effect (including cataract risk flagged by the EMA). This actively argues against repurposing Quetiapine for any primary ophthalmological indication. The model's high prediction score most likely reflects a spurious knowledge graph path through shared neurological or syndromic comorbidity nodes rather than a genuine pharmacological signal.
+**Trichotillomania** is a more plausible case. It is a body-focused repetitive behaviour in the obsessive-compulsive spectrum. Serotonin and dopamine antagonism is mechanistically relevant, and atypical antipsychotics are sometimes used as augmentation in OCD-spectrum conditions. The evidence is still anecdotal.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the top 10 predicted indications.
 
 ---
 
 ## Literature Evidence
 
-The 15 retrieved publications are ophthalmology reviews and case series covering general orbital and ocular pathologies. **None directly investigate Quetiapine as a therapeutic agent for retinal dystrophy.** They are listed below for completeness and transparency:
+No literature is available for the top-ranked prediction (retinal dystrophy). The table below covers the secondary candidate, **trichotillomania**. Study types are inferred from titles and abstracts and should be verified against full texts.
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric ocular pathologies including congenital/developmental lesions and retinopathies |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Therapeutic Advances in Ophthalmology | Eye involvement in inherited metabolic disorders; covers retinal and optic pathway abnormalities |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and associated anterior segment dysgenesis |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Research Article | Int J Molecular Sciences | Optic nerve and retinal abnormalities in congenital fibrosis of extraocular muscles (KIF21A/TUBB3 mutations) |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Research Article | American Journal of Ophthalmology | Unifying pathogenesis theory for maculopathy associated with cavitary optic disc anomalies |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Case Series | Documenta Ophthalmologica | Wagner-Stickler syndrome complex with vitreoretinal degeneration and sensorineural deafness |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Review | Neuroradiology | Neuroradiological evaluation in acute-onset ophthalmoplegia for differential diagnosis |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | J Binocular Vision & Ocular Motility | Congenital cranial dysinnervation disorders (CCDDs) and ophthalmoplegia classification |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | J Neuro-Ophthalmology | Isolated trochlear-oculomotor synkinesis in congenital cranial dysinnervation disorder |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Clinical Pearls | Seminars in Neurology | Systematic history-taking and examination approach for evaluating diplopia |
+|------|-----|------|------|---------|
+| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | Review / Case report | Psychiatry | Overview of trichotillomania; a 33-year-old female veteran showed a favourable response to quetiapine |
+| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | Case report / Case series | Rev Bras Psiquiatr | Quetiapine for the treatment of trichotillomania (no abstract available) |
+| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | Case report / Review | J Psychiatry Neurosci | Quetiapine exacerbated obsessive-compulsive symptoms in a patient with OCD and trichotillomania; reviews antipsychotic-induced OCS |
+| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review / Commentary | Int J Dermatol | Pharmacological treatment of trichotillomania; no common treatment strategy exists |
+| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | Case report | Case Rep Psychiatry | Trichotillomania as a manifestation of dementia; quetiapine relevance unclear |
+| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | Case report / Review | Psychosomatics | Recurrent Rapunzel syndrome and trichotillomania; quetiapine relevance unclear |
 
-> ⚠️ **Important**: None of these publications study Quetiapine as a treatment for retinal dystrophy. The literature pool reflects general disease-domain content returned by a broad evidence search, not a drug-disease therapeutic relationship.
+One of the reports (PMID 11212595) describes quetiapine *worsening* obsessive-compulsive symptoms, so the evidence is mixed.
 
 ---
 
 ## Philippines Market Information
 
-Quetiapine is currently **not registered** with the Philippines FDA. No approved products, dosage forms, or indications are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0411 | Quetiapine | Not specified | Not specified (registration status: cancelled) |
+
+Quetiapine has no currently valid registration in the Philippines. Only one registration is on record, and it has been cancelled.
 
 ---
 
 ## Safety Considerations
 
-Formal Philippines FDA package insert data is not available (no registered product). Based on internationally available safety information for Quetiapine:
+- **Contraindications / conditions of concern (from knowledge-graph associations, not package insert text):** hypertension and hypertensive disorder; orthostatic hypotension, multiple system atrophy and postural orthostatic tachycardia syndrome; long QT syndrome, torsades de pointes and myocardial infarction; epilepsy; basal ganglia disease, focal hand dystonia and blepharospasm; liver disease and gallbladder disease; diabetes mellitus, diabetic ketoacidosis and hyperglycemia; hypothyroidism, myxedema and congenital hypothyroidism; hyperlipidemia, hypertriglyceridemia and obesity; neutropenia and agranulocytosis; potassium deficiency; female breast carcinoma.
+- **Drug Interactions:** 100 interactions were identified. Those shown in the data include:
+  - **Major:** bupropion, morphine
+  - **Moderate (examples):** antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide, chlorpropamide), anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), epinephrine, famotidine, dexamethasone, aprepitant, loperamide, bisacodyl, lorcaserin
 
-- **Ocular Risk**: Long-term use is associated with increased cataract risk (EMA formal warning); this is particularly concerning given the ophthalmological nature of the top predicted indication
-- **Metabolic Effects**: Clinically significant risk of weight gain, hyperglycaemia, new-onset diabetes, and dyslipidaemia
-- **Cardiovascular**: QTc prolongation risk; postural hypotension
-- **CNS Effects**: Sedation, extrapyramidal symptoms, and tardive dyskinesia with prolonged use; neuroleptic malignant syndrome (rare but serious)
-- **Black Box Warning** (US FDA): Increased mortality in elderly patients with dementia-related psychosis; suicidality risk in paediatric/young adult populations
+Please refer to the package insert for label warnings and contraindications, which were not available for this report.
 
 ---
 
@@ -114,29 +113,13 @@ Formal Philippines FDA package insert data is not available (no registered produ
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high numerical score (99.57%), but there is no pharmacologically plausible mechanism connecting Quetiapine's receptor profile to the genetic photoreceptor degeneration pathways underlying retinal dystrophy. The retrieved literature provides zero direct evidence, and the drug's known ocular adverse effects (cataract risk, potential retinal toxicity) create a net safety concern rather than a therapeutic opportunity for an ophthalmological indication.
+The top-ranked prediction (retinal dystrophy) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine also has no valid registration in the Philippines at present.
 
-**To proceed with further research, the following would be required:**
-- A formal mechanistic hypothesis explaining how D2/5-HT2A receptor antagonism could confer neuroprotection or slow degeneration in retinal tissue
-- At least one preclinical study (animal model or cell-based assay) demonstrating a beneficial effect in a retinal dystrophy model
-- Comprehensive ocular safety data ruling out retinal or lenticular toxicity in the target patient population
-- Philippines FDA regulatory pathway assessment for a new indication filing
-
----
-
-### 📌 Alternative Prediction Worth Noting: Trichotillomania (Rank 8)
-
-While the top prediction lacks supporting evidence, **Rank 8 — Trichotillomania (Hair-Pulling Disorder)** — presents a meaningfully different profile:
-
-| Item | Content |
-|------|---------|
-| TxGNN Score | 99.38% |
-| Evidence Level | **L4** (case series and pharmacological review) |
-| Decision Stage | S1 — Research Question |
-| Direct Quetiapine Literature | 7 publications, including clinical overviews and open-label case studies |
-| Mechanistic Rationale | Biologically plausible: D2 antagonism reduces dopamine-driven compulsive reward; 5-HT2A antagonism aligns with OCD-spectrum augmentation therapy |
-
-If resources allow for further exploratory analysis, trichotillomania represents a more scientifically grounded candidate for an off-label Quetiapine repurposing investigation — pending a randomised controlled trial to upgrade the evidence level from L4 to L2/L1.
+**To proceed, the following is needed:**
+- Mechanism of action data to assess biological plausibility
+- Package insert warnings and contraindications from DOH-FDA Philippines (currently missing; needed for safety screening)
+- For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted
+- Clarification of the regulatory pathway, since the only Philippine registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

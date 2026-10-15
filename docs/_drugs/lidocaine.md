@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lidocaine
-parent: High Evidence (L1-L2)
-nav_order: 207
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 209
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lidocaine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,87 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Lidocaine: From Local Anesthesia to Conjunctival Disorder
+# Lidocaine: From Neuralgia and Skin Conditions to Conjunctival Disorder
 
 ## One-Sentence Summary
 
-Lidocaine is a well-established voltage-gated sodium channel (Nav) blocker, widely used internationally as a local anesthetic and antiarrhythmic agent, though it carries no current Philippines registration in this evidence pack.
-The TxGNN model predicts it may be effective for **Conjunctival Disorder** — the highest-evidence prediction among 10 candidates —
-with **17 clinical trials** and **20 publications** currently supporting this direction.
-
----
+Lidocaine is a local anaesthetic, listed in the knowledge graph for conditions such as dermatitis, neuralgia, postherpetic neuralgia, haemorrhoids, scabies and premature ejaculation.
+The TxGNN model predicts it may be effective for **conjunctival disorder** (the top-ranked prediction, punctate epithelial keratoconjunctivitis, has no supporting evidence). The conjunctival disorder prediction has **2 clinical trials** and **20 publications**, but these concern procedural anaesthesia, not treatment of the disease itself.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Local anesthetic / ventricular antiarrhythmic (no Philippines registration found) |
-| Predicted New Indication | Conjunctival Disorder |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on indication selection:** The TxGNN top-ranked prediction (punctate epithelial keratoconjunctivitis, score 99.99%) has zero supporting evidence (L5). This report features **conjunctival disorder** (rank 6, score 99.84%) because it carries the strongest evidence base (L1, multiple Phase 4 RCTs) and the only actionable recommendation in the prediction set.
-
----
+|------|------|
+| Original Indication | Dermatitis, neuralgia, postherpetic neuralgia, haemorrhoids, scabies and others (from the knowledge graph; no approved indication text is available for the local registration) |
+| Predicted New Indication | Conjunctival disorder (the best-supported prediction); the top-ranked prediction by score is punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.98% for conjunctival disorder; 99.99% for punctate epithelial keratoconjunctivitis |
+| Evidence Level | L3 for conjunctival disorder (L5 for the top-ranked prediction) |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not included in this evidence pack. Based on well-established pharmacology, Lidocaine reversibly blocks voltage-gated sodium channels (Nav1.7, Nav1.8) on sensory nerve endings, preventing depolarization and halting pain signal propagation. This is the universal basis of its local anesthetic action. The conjunctiva is richly innervated by trigeminal sensory fibers expressing these same Nav subtypes, making the mechanistic link direct and intuitive: blocking Nav channels on conjunctival nociceptors suppresses pain and potentially dampens neurogenic inflammation during and after tissue manipulation.
+Currently, detailed mechanism of action data is not available. Based on known information, lidocaine is a well-established local anaesthetic that is generally understood to block sodium channels in sensory nerves, which relieves pain and itch. Its efficacy in neuralgia and in topical symptom relief has been established, and mechanistically it may be applicable to eye-surface conditions where pain or nerve signalling is a feature.
 
-The original indication (local anesthesia) and the predicted new indication (conjunctival disorder) are not so much a "jump" as an extension of the same mechanism into a specific anatomical compartment. Multiple Phase 4 RCTs have already validated this in practice — Lidocaine gel and drops are routinely applied to the conjunctival surface for pterygium surgery, peribulbar blocks, and intravitreal injection procedures. The question is therefore not whether Lidocaine works on the conjunctiva, but whether a formalized conjunctival indication should be pursued in the Philippines market.
+The relationship between the original and predicted indications is mostly symptomatic. In conjunctival disorder, the retrieved trials and papers involve lidocaine as an anaesthetic during eye surgery (pterygium excision, ptosis surgery). This is **procedural anaesthesia, not treatment of an underlying conjunctival disease**. Much of the literature is on SUNCT/SUNA headache syndromes, where conjunctival injection is a symptom and lidocaine is given as an infusion for the headache.
 
-A second, independent mechanistic strand comes from SUNCT syndrome (Short-lasting Unilateral Neuralgiform headache attacks with Conjunctival injection and Tearing). Multiple prospective studies and a meta-analysis (PMID 33361408) document intravenous Lidocaine aborting acute SUNCT/SUNA attacks — disorders where conjunctival injection and tearing are core diagnostic criteria. This implicates Lidocaine in modulating the trigeminal-autonomic axis driving conjunctival vascular and secretory responses, beyond simple peripheral anesthesia.
-
----
+Other predictions are weaker or raise concern. For the highest-scoring prediction, punctate epithelial keratoconjunctivitis, no trials or papers were found, and chronic topical anaesthetics are known to damage the corneal epithelium. For atopic conjunctivitis, the only support is a 2023 preclinical study suggesting sensory nerves drive allergen passage, which makes nerve blockade plausible but unproven. For tinea corporis, lidocaine has no antifungal activity. For nephrotic syndrome, the papers concern safety and dosing, not benefit.
 
 ## Clinical Trial Evidence
 
+Trials for the conjunctival disorder prediction:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05978687](https://clinicaltrials.gov/study/NCT05978687) | Phase 4 | Completed | 41 | Head-to-head RCT: Lidocaine Ophtesic Gel vs subconjunctival Xylocaine injection for pterygium excision — most direct evidence of topical lidocaine for conjunctival anesthesia |
-| [NCT02324166](https://clinicaltrials.gov/study/NCT02324166) | Phase 4 | Unknown | 54 | Cefazolin-Lidocaine solution reducing pain from subconjunctival antibiotic injection in retinal surgery — Lidocaine as primary pain management agent |
-| [NCT03397069](https://clinicaltrials.gov/study/NCT03397069) | N/A | Completed | 90 | Midazolam added to Lidocaine peribulbar block for cataract surgery — supports Lidocaine as the primary conjunctival/periocular anesthetic |
-| [NCT02150460](https://clinicaltrials.gov/study/NCT02150460) | Phase 4 | Completed | 100 | Single vs double-site peribulbar anaesthesia (Lidocaine-based) for cataract surgery — safety and efficacy of Lidocaine periocular block |
-| [NCT03189329](https://clinicaltrials.gov/study/NCT03189329) | Phase 4 | Completed | 66 | Lidocaine vs levobupivacaine in retrobulbar block for vitreoretinal surgery — cerebral oxygenation and cognitive safety monitoring |
-| [NCT01087489](https://clinicaltrials.gov/study/NCT01087489) | N/A | Completed | 53 | 4% lidocaine drops vs 3.5% lidocaine HCl gel for intravitreal injection comfort — comparative ophthalmic anesthesia formulations |
-| [NCT03480711](https://clinicaltrials.gov/study/NCT03480711) | N/A | Completed | 40 | Modified vs conventional trabeculectomy for POAG — Lidocaine as conjunctival surgical anesthetic |
-| [NCT01898728](https://clinicaltrials.gov/study/NCT01898728) | N/A | Completed | 101 | Povidone-iodine conjunctival bacterial reduction: lidocaine gel dilating formulation vs drops — supports safety of Lidocaine gel on conjunctiva |
-| [NCT03902925](https://clinicaltrials.gov/study/NCT03902925) | Phase 1/2 | Completed | 56 | Peribulbar vs sub-Tenon + topical jelly anesthesia (includes Lidocaine) for vitreoretinal surgery — pain assessment across anesthetic routes |
-| [NCT05925894](https://clinicaltrials.gov/study/NCT05925894) | N/A | Completed | 60 | Intracameral mydriatics in POAG cataract surgery — Lidocaine as standard intraocular anesthetic component |
-
----
+| [NCT05978687](https://clinicaltrials.gov/study/NCT05978687) | Phase 4 | Completed | 41 | Lidocaine Ophtesic gel vs subconjunctival injection for pterygium excision; aims to reduce injection pain. Procedural anaesthesia, not disease treatment |
+| [NCT01350024](https://clinicaltrials.gov/study/NCT01350024) | N/A | Completed | 34 | Postoperative pain with two local anaesthesia types in ptosis surgery; only peripheral relevance |
 
 ## Literature Evidence
 
+Selected publications (conjunctival disorder and related predictions):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18989343](https://pubmed.ncbi.nlm.nih.gov/18989343/) | 2009 | RCT | Eye (London) | Lidocaine 2% gel vs tetracaine 1% drops for primary pterygium surgery — RCT establishing lidocaine gel efficacy as sole topical anesthetic |
-| [15799734](https://pubmed.ncbi.nlm.nih.gov/15799734/) | 2005 | Clinical Study | Acta Ophthalmol Scand | Lidocaine 2% gel in pterygium surgery — confirms effective topical conjunctival anesthesia without injection |
-| [16954710](https://pubmed.ncbi.nlm.nih.gov/16954710/) | 2006 | Clinical Study | Ophthalmologica | Viscous lidocaine for postoperative pain relief after pterygium surgery — extends benefit beyond intraoperative anesthesia |
-| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Prospective + Meta-analysis | J Neurol Neurosurg Psychiatry | IV Lidocaine for SUNCT/SUNA — prospective open-label study with single-arm meta-analysis; conjunctival injection/tearing as core diagnostic features that lidocaine resolves |
-| [34003160](https://pubmed.ncbi.nlm.nih.gov/34003160/) | 2021 | Review | Neurology India | SUNCT and SUNA update: documents Lidocaine among treatment options for a syndrome defined by conjunctival signs |
-| [38415675](https://pubmed.ncbi.nlm.nih.gov/38415675/) | 2024 | Review | Cephalalgia | Most current SUNCT/SUNA review including Lidocaine treatment evidence and mechanism discussion |
-| [29720816](https://pubmed.ncbi.nlm.nih.gov/29720816/) | 2018 | Review | Ann Indian Acad Neurol | SUNHA review — summarizes Lidocaine's role in a disorder whose hallmark is conjunctival injection |
-| [23330822](https://pubmed.ncbi.nlm.nih.gov/23330822/) | 2013 | Observational | Current Eye Research | Different anesthetics for intravitreal injection pain — evaluates Lidocaine efficacy and tolerability at the conjunctival surface |
-| [10696746](https://pubmed.ncbi.nlm.nih.gov/10696746/) | 2000 | Clinical Study | Retina | Topical Lidocaine anesthesia as alternative to peribulbar/retrobulbar block for posterior vitrectomy — supports minimally invasive conjunctival application |
-| [37819721](https://pubmed.ncbi.nlm.nih.gov/37819721/) | 2023 | Basic Science | JCI Insight | Nerve-goblet cell association drives allergen passage in conjunctivitis — mechanistic rationale for Nav modulation interrupting conjunctival neuroinflammatory signaling |
-
----
+| [18989343](https://pubmed.ncbi.nlm.nih.gov/18989343/) | 2009 | RCT | Eye | Lidocaine 2% gel vs tetracaine 1% drops as sole topical anaesthetic in primary pterygium surgery |
+| [15799734](https://pubmed.ncbi.nlm.nih.gov/15799734/) | 2005 | Clinical study | Acta Ophthalmol Scand | Efficacy of lidocaine 2% gel in pterygium surgery |
+| [16954710](https://pubmed.ncbi.nlm.nih.gov/16954710/) | 2006 | Clinical study | Ophthalmologica | Viscous lidocaine gel for pain after pterygium surgery |
+| [29135709](https://pubmed.ncbi.nlm.nih.gov/29135709/) | 2018 | Pilot study | Cornea | Subconjunctival injection vs 2% vs 5% lidocaine gel in pterygium surgery |
+| [33361408](https://pubmed.ncbi.nlm.nih.gov/33361408/) | 2021 | Open-label study with meta-analysis | J Neurol Neurosurg Psychiatry | Medical treatment of SUNCT/SUNA, a headache syndrome rather than a conjunctival disease |
+| [19250287](https://pubmed.ncbi.nlm.nih.gov/19250287/) | 2009 | Review | Cephalalgia | Neuropsychiatric side-effects of lidocaine; side effects seen in all 20 patients in the authors' series, most often neuropsychiatric (75%) and cardiac (50%) |
+| [23330822](https://pubmed.ncbi.nlm.nih.gov/23330822/) | 2013 | Observational | Curr Eye Res | Anaesthetics and topical anti-inflammatory treatment for pain after intravitreal injection |
+| [37819721](https://pubmed.ncbi.nlm.nih.gov/37819721/) | 2023 | Preclinical | JCI Insight | Nerve-goblet cell association promotes allergic conjunctivitis through rapid antigen passage (atopic conjunctivitis) |
+| [7037263](https://pubmed.ncbi.nlm.nih.gov/7037263/) | 1982 | Pharmacokinetic study | Clin Pharmacol Ther | Altered lidocaine plasma protein binding in renal disease, including nephrotic syndrome |
+| [41995267](https://pubmed.ncbi.nlm.nih.gov/41995267/) | 2026 | Case report | Int J Risk Saf Med | Methaemoglobinaemia in a child with nephrotic syndrome given topical lidocaine, benzocaine and co-trimoxazole |
 
 ## Philippines Market Information
 
-Lidocaine currently has **no registered products** in the Philippines (0 active licenses; market status: not marketed). This is almost certainly a data gap rather than a true absence — Lidocaine is one of the most widely used drugs globally and appears on the WHO Essential Medicines List. A targeted search of the Philippine FDA (FDA Philippines) database is strongly recommended before drawing conclusions about local availability.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0290 | Lidocaine | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Formal safety data (Philippines FDA package insert warnings, contraindications) was not available in this evidence pack.
+No package insert warnings or contraindication text were available, so please refer to the package insert for safety information. The following points come from other data compiled for this report.
 
-**Critical clinical safety note for ophthalmic use:** Chronic or repeated application of topical anesthetics to the corneal surface is a well-recognized clinical contraindication — prolonged exposure impairs corneal epithelial healing and can cause corneal ulceration. Any conjunctival repurposing must be strictly limited to **perioperative or single-procedure use**, not chronic therapeutic dosing.
-
-**For SUNCT/SUNA indication (IV route):** PMID 19250287 documents neuropsychiatric toxicity (75%) and cardiological effects (50%) in all patients receiving IV Lidocaine for headache — requiring cardiac monitoring and specialist oversight.
-
----
+- **Contraindication-related conditions (knowledge graph, not label text)**: The knowledge graph links lidocaine with conditions including hypertension, liver failure, liver disease, cirrhosis, kidney disease, epilepsy, adrenocortical insufficiency, hypothyroidism, open-angle glaucoma, herpes simplex keratitis, osteoporosis and psychotic disorders. These should be verified against the label.
+- **Drug interactions**: 100 interactions were found. Examples include **Major**: bupropion; **Moderate**: aprepitant, cimetidine, liposomal morphine, obeticholic acid, polyethylene glycol (3350 with electrolytes), picosulfuric acid, sodium sulfate; **Minor**: dexamethasone, kanamycin, neomycin, omeprazole, streptomycin, troglitazone.
+- **Reported adverse events**: Neuropsychiatric and cardiac toxicity with intravenous use (PMID 19250287), methaemoglobinaemia in a child (PMID 41995267), seizures in macaques after a low-dose lidocaine diluent (PMID 19858165), and higher free drug fraction in hypoalbuminaemia such as nephrotic syndrome (PMID 7037263).
+- **Eye-specific concern**: Prolonged topical anaesthetic use can damage the corneal epithelium, which argues against use in epithelial eye disease.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 4 RCTs directly establish Lidocaine's safety and efficacy on the conjunctival surface for ophthalmic procedures, and a prospective meta-analysis documents IV Lidocaine's effect on conjunctival symptoms via the trigeminal-autonomic axis. The evidence base for ophthalmic anesthesia applications meets L1 criteria.
+The predictions rest on model scores, with evidence at L3 at best (conjunctival disorder) and L5 for the top-ranked prediction. The conjunctival evidence reflects lidocaine's existing role as a surgical anaesthetic, not disease treatment. The only local registration is cancelled, and the corneal toxicity risk undermines the leading prediction. Atopic conjunctivitis (L4) is the only plausible research question, based on a preclinical nerve-signalling link.
 
 **To proceed, the following is needed:**
-
-- **Philippines FDA registration search**: Lidocaine is almost certainly marketed locally under product names not yet captured — manual search of the FDA Philippines database required before any "not available" conclusion
-- **MOA documentation**: DrugBank API query for DB00281 to formally document Nav channel subtype specificity and pharmacokinetic profile
-- **Indication scoping**: Distinguish two separate evidence tracks — (1) procedural conjunctival anesthesia (strong L1 evidence, low regulatory risk) vs. (2) SUNCT/SUNA treatment with conjunctival symptoms (moderate evidence, requires neurology specialist input and cardiac monitoring infrastructure)
-- **Formulation assessment**: Identify which Lidocaine formulations are feasible in the Philippines context (2% gel, 4% drops, injectable) — route compatibility is currently pending
-- **Safety file compilation**: Obtain Philippines FDA-equivalent package insert to complete the S1 safety screening that is currently blocked by DG001
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Clinical studies of lidocaine as a treatment (not just anaesthesia) in a defined conjunctival disease, such as allergic conjunctivitis
+- Corneal safety data for repeated ocular use
+- A review of the cancelled registration and available dosage forms and routes for any ocular use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: High Evidence (L1-L2)
-nav_order: 217
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 219
+evidence_level: L3
 indication_count: 8
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,35 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-# Mefenamic Acid: From Pain and Dysmenorrhea to Rheumatoid Arthritis
+# Mefenamic Acid: Repurposing Prediction for Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Mefenamic acid is a fenamate-class NSAID with established analgesic and anti-inflammatory properties, widely used globally for mild-to-moderate pain, dysmenorrhea, and menorrhagia.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis (RA)**,
-with **0 registered clinical trials** and **20 publications** — including 3 directly relevant historical RCTs — currently supporting this direction.
+Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that blocks prostaglandin production.
+The TxGNN model predicts it may be useful for **rheumatoid arthritis**, with **no registered clinical trials** but **20 publications** retrieved. Only about eight of these are direct studies of mefenamic acid in rheumatoid arthritis, and most date from the 1960s to 1970s.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pain / Dysmenorrhea (fenamate NSAID; no Philippines registration on file) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence package. Based on established pharmacological knowledge, mefenamic acid is a fenamate-class NSAID that inhibits both COX-1 and COX-2 enzymes, reducing prostaglandin synthesis. Crucially, it also **directly antagonizes prostaglandin EP receptors** — a dual mechanism that distinguishes it from most other NSAIDs such as ibuprofen or naproxen, which act only at the synthesis level. This combination suppresses PGE2 both upstream (synthesis) and downstream (receptor signaling).
+Detailed mechanism-of-action data are not available in the data compiled for this report. Mefenamic acid is known to be a COX-1/COX-2 inhibitor, which lowers prostaglandin synthesis. Prostaglandins drive the pain and inflammation seen in rheumatoid arthritis, so the mechanism fits the predicted use.
 
-Rheumatoid arthritis is driven largely by chronic synovial inflammation, where PGE2 plays a central role in perpetuating joint swelling, pain sensitization, and cartilage destruction. The match between mefenamic acid's dual-mechanism and RA's prostaglandin-centric pathophysiology is mechanistically direct. The theoretical advantage over single-mechanism NSAIDs is real, though it has not been tested in modern trials using current RA outcome standards (ACR response criteria, DAS28).
+Several older clinical studies tested mefenamic acid directly in rheumatoid arthritis. Some compared it with ibuprofen, sulindac, flurbiprofen, indomethacin, aspirin and phenylbutazone. The benefit is symptomatic (pain, joint tenderness, morning stiffness). It is not disease-modifying.
 
-Historical clinical evidence from the 1960s–1970s provides direct support: three double-blind RCTs tested mefenamic acid specifically in RA patients and found efficacy comparable to ibuprofen, sulindac, and flurbiprofen. A 1992 electrophoresis study further demonstrated 75% clinical response rates in 125 RA patients using mefenamic acid-based treatment. While this body of evidence is dated, it is not trivial — it directly addresses the target indication and reflects a real clinical signal that modern trials should revisit.
+This is an established NSAID-class use rather than a novel repurposing. A report of autoimmune haemolytic anaemia during treatment also raises a safety signal.
 
 ---
 
@@ -72,50 +70,58 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT | Current Medical Research and Opinion | Double-blind crossover (n=24 RA patients): mefenamic acid 1500 mg/day vs sulindac, flurbiprofen, and placebo — all active drugs significantly superior to placebo in pain score, articular index, and morning stiffness duration |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT | J Int Med Research | Randomized double-blind within-patient study (n=40 RA patients): mefenamic acid vs ibuprofen — equivalent analgesic and anti-inflammatory effect; side-effect profiles similar |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT | Med J Australia | Double-blind crossover (mefenamic acid 1500 mg vs ibuprofen 1200 mg, both on background salicylate): mefenamic acid compared favorably; GI side effects mild in both groups |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical Trial | Ann Rheum Dis | Direct clinical investigation of mefenamic acid specifically in rheumatoid arthritis patients |
-| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | Clinical Study | Vopr Kurortol | Electrophoresis of mefenamic acid from dimexide solution in 125 RA patients: 75% complete or partial response; reduced pain, corrected immunity markers, suppressed inflammation; best results in low-activity disease |
-| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | Formulation Study | Pharm Dev Technol | Triple-concentric time-controlled release mefenamic acid tablet designed specifically for RA: burst release → 2–4 h lag → 8 h controlled release, matching RA morning stiffness chronobiology |
-| [16223958](https://pubmed.ncbi.nlm.nih.gov/16223958/) | 2006 | Basic Science | Mol Pharmacol | Epidemiological observation that long-term NSAID use in RA patients reduces Alzheimer's disease risk; mefenamic acid shown to have neuroprotective effects in AD models — secondary finding relevant to RA patient co-morbidity profile |
-| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scott Med J | Systematic assessment of mefenamic acid's place in RA therapy; evaluates available evidence base and positions it relative to other NSAIDs of the era |
-| [20668](https://pubmed.ncbi.nlm.nih.gov/20668/) | 1977 | Review | Semin Arthritis Rheum | Anti-inflammatory drug class review covering mefenamic acid's mechanism, indications, and role in inflammatory arthritis management |
-| [2670397](https://pubmed.ncbi.nlm.nih.gov/2670397/) | 1989 | Review | Clinical Pharmacy | Diclofenac review with NSAID class context; mefenamic acid cited as phenylacetic acid derivative comparator in RA treatment landscape |
+|------|-----|------|------|---------|
+| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Curr Med Res Opin | 24 patients; mefenamic acid 1500 mg/day, flurbiprofen and sulindac were all significantly better than placebo for pain, joint tenderness and morning stiffness |
+| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | Comparative trial (double-blind crossover) | Med J Aust | Mefenamic acid 1500 mg/day compared favourably with ibuprofen 1200 mg/day; side effects were mild and mostly gastrointestinal |
+| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | Comparative trial (randomized, double-blind) | J Int Med Res | 40 patients; analgesic and anti-inflammatory effects not significantly different from ibuprofen; similar side effects |
+| [326491](https://pubmed.ncbi.nlm.nih.gov/326491/) | 1977 | Double-blind crossover study | Curr Med Res Opin | 18 patients; mefenamic acid and indomethacin were both significantly better than placebo on most measures |
+| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative clinical study | Br Med J | Mefenamic and flufenamic acid compared with aspirin and phenylbutazone (no abstract available) |
+| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical study | Ann Rheum Dis | Early clinical study of mefenamic acid in rheumatoid arthritis (no abstract available) |
+| [4890710](https://pubmed.ncbi.nlm.nih.gov/4890710/) | 1967 | Double-blind clinical study | Reumatismo | Preliminary double-blind observations with biochemical monitoring (no abstract available) |
+| [1455792](https://pubmed.ncbi.nlm.nih.gov/1455792/) | 1992 | Clinical study | Vopr Kurortol Fizioter Lech Fiz Kult | Electrophoresis of mefenamic acid in 125 patients; 75% complete or partial response (uncontrolled) |
+| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Case report (safety) | Br Med J | Three patients developed warm-antibody autoimmune haemolytic anaemia on mefenamic acid and recovered after withdrawal |
+| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scott Med J | Discusses the place of mefenamic acid in rheumatoid arthritis treatment (no abstract available) |
 
 ---
 
 ## Philippines Market Information
 
-No registered products found for mefenamic acid in the Philippines. The drug is not currently marketed or licensed by FDA Philippines as of the data cutoff.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0304 | Mefenamic Acid | Cancelled |
 
-> **Note:** Mefenamic acid (brand name Ponstan) is widely available in other markets including the US, UK, Malaysia, and Taiwan. The absence of Philippines registration represents a regulatory gap, not a safety or efficacy signal.
+Dosage form and approved indication text are not recorded for this authorization.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (drug-disease links in the model's knowledge graph, not package insert text): hypertension and hypertensive disorder, kidney disease, liver disease, gallbladder disease, active peptic ulcer disease, blood coagulation disease, myocardial infarction and coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, and pyoureter.
+- **Drug interactions**: 100 interactions were found. The sample reviewed was mostly Moderate or Minor.
+  - Moderate: corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), acetylsalicylic acid, metformin, chlorpropamide, mesalazine, balsalazide, aprepitant, and potassium citrate and bicarbonate.
+  - Minor: H2 blockers (famotidine, ranitidine, cimetidine), dapagliflozin and linaclotide.
+- **Safety signals from the literature**: autoimmune haemolytic anaemia, severe enteropathy with villous atrophy after prolonged use, and renal injury (analgesic-associated nephropathy and NSAID-induced interstitial nephritis).
 
-> **Note:** Safety data (TFDA/FDA-PH warnings, contraindications, DDI profile) was not available in this evidence package. This is flagged as a blocking data gap (DG001) requiring remediation before proceeding to full safety evaluation. As an NSAID, general class-level risks include GI bleeding, renal impairment, and cardiovascular events with prolonged use. A notable drug-specific risk identified in literature: **autoimmune haemolytic anaemia** has been reported in long-term mefenamic acid users (PMID 5676955), and **severe enteropathy with villous atrophy** in prolonged users (PMID 29095288).
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Three double-blind RCTs directly testing mefenamic acid in RA patients, combined with a 125-patient clinical study, provide L2-level evidence for this indication. The dual COX inhibition + direct EP receptor antagonism mechanism maps cleanly onto RA pathophysiology. The absence of Philippines registration and the age of supporting evidence (all pre-1993) require remediation before a regulatory pathway can be defined.
+- Mefenamic acid has only small, decades-old crossover studies in rheumatoid arthritis. They show symptom relief comparable to other NSAIDs, with no registered trials and no disease-modifying effect.
+- The only Philippines registration is cancelled, and the package insert data are missing.
+
+By comparison, migraine is a stronger candidate for this drug. It has several double-blind trials and a Proceed with Guardrails rating in the same analysis.
 
 **To proceed, the following is needed:**
-- Obtain and review the full package insert (any country registration) for warnings, contraindications, and known DDIs
-- Commission or identify a contemporary pharmacovigilance review for the mefenamic acid RA safety profile, including autoimmune haemolytic anaemia risk in long-term use
-- Assess feasibility of a modern RA efficacy study (ACR20/50/70, DAS28) — historical RCTs used outcome measures that are no longer standard
-- Evaluate regulatory pathway with FDA Philippines for new indication filing or market authorization
-- Compare mefenamic acid's role in the context of current RA treatment guidelines (DMARDs as backbone; NSAIDs for symptomatic control only)
-- Clarify whether dual PG mechanism provides measurable clinical advantage over currently available NSAIDs in the Philippine formulary
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Detailed mechanism-of-action data (for example, from DrugBank)
+- Modern controlled trials, or a comparison against current rheumatoid arthritis standards of care
+- A review of the haematologic, gastrointestinal and renal safety signals for long-term use
+- Clarification of whether any valid marketed product exists in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

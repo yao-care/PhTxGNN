@@ -2,7 +2,7 @@
 layout: default
 title: Clotrimazole
 parent: High Evidence (L1-L2)
-nav_order: 82
+nav_order: 84
 evidence_level: L1
 indication_count: 3
 ---
@@ -29,148 +29,113 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-# Clotrimazole: From Topical Antifungal to Vulvovaginitis
+# Clotrimazole: From Superficial Fungal Infections to Vulvovaginitis
 
 ## One-Sentence Summary
 
-Clotrimazole is a synthetic imidazole antifungal agent globally established for treating tinea pedis and oropharyngeal candidiasis, yet currently unregistered in the Philippines.
-The TxGNN model predicts it may be effective for **Vulvovaginitis** (candidal), with **over 10 completed clinical trials** and **20 publications** supporting this direction — making it the highest-evidence actionable indication in this multi-indication analysis.
-While Acne ranks #1 by TxGNN score (99.86%), it is designated **Hold** due to limited clinical evidence; **Vulvovaginitis** (TxGNN score 99.59%) reaches **L1 evidence level** and earns a **Proceed with Guardrails** recommendation.
+Clotrimazole is an azole antifungal originally used for skin and mucosal fungal infections such as tinea pedis, cutaneous candidiasis, oral candidiasis and vulvovaginal candidiasis.
+The TxGNN model ranks **vulvovaginitis** as its top evidence-supported prediction (score 99.59%), with **12 clinical trials** and **20 publications** currently supporting this direction.
+Note that this prediction largely overlaps with clotrimazole's existing use in candidal vulvovaginitis, so it is closer to an on-label use than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Tinea pedis, oropharyngeal candidiasis (globally established; not registered in Philippines) |
-| Predicted New Indication | Vulvovaginitis (Candidal) |
+|------|------|
+| Original Indication | Tinea pedis, tinea corporis, cutaneous candidiasis, oral candidiasis, vulvovaginal candidiasis (from the knowledge graph; no approved-indication text is available from the Philippines registration) |
+| Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Proceed with Guardrails** |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Proceed with Guardrails |
 
-> **All TxGNN Predictions in This Pack:**
-> | Rank | Indication | TxGNN Score | Evidence Level | Decision |
-> |------|------------|------------|----------------|----------|
-> | 1 | Acne (disease) | 99.86% | L4 | Hold |
-> | 2 | Vulvovaginitis | 99.59% | L1 | Proceed with Guardrails |
-> | 3 | Postmenopausal Atrophic Vaginitis | 99.46% | L4 | Research Question |
+Note: The two other predictions were weaker. Acne (score 99.86%) is at L4 with a single suspended combination-product trial (Hold), and postmenopausal atrophic vaginitis (score 99.46%) is at L5 with no studies (Hold).
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on published pharmacological literature, Clotrimazole is an imidazole-class azole antifungal. It inhibits the fungal cytochrome P450 enzyme **lanosterol 14α-demethylase (CYP51)**, which catalyzes a key step in the biosynthesis of ergosterol — the principal sterol that maintains fungal cell membrane integrity. By depleting ergosterol, Clotrimazole causes increased membrane permeability, disruption of membrane-bound enzyme function, and ultimately fungal cell death. This effect is fungistatic at low concentrations and fungicidal at higher local concentrations.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, clotrimazole is an azole antifungal that inhibits fungal ergosterol synthesis (via CYP51, lanosterol 14-alpha-demethylase), and its efficacy in candidal infections of the skin and mucosa is well established. Mechanistically, it directly addresses the Candida organisms that cause most cases of vulvovaginitis.
 
-Vulvovaginitis — specifically vulvovaginal candidiasis (VVC) — is caused predominantly by *Candida albicans*, a fungal pathogen entirely dependent on ergosterol biosynthesis for survival. Clotrimazole's direct inhibition of this pathway makes it mechanistically ideal for treating VVC. Topical vaginal formulations (tablets, creams, ovules) achieve high local drug concentrations while minimizing systemic absorption, resulting in a favorable safety profile particularly well-suited for self-administered treatment. Clotrimazole is listed on the **WHO Model List of Essential Medicines** for this indication and routinely serves as the active comparator arm in global VVC clinical trials — a strong indicator of its benchmark status.
+Vulvovaginal candidiasis is already among clotrimazole's known indications, so the prediction is largely a confirmation of existing use rather than a new discovery. Evidence for non-candidal or mixed vulvovaginitis (such as bacterial vaginosis or trichomoniasis) is less clear and comes mostly from combination or comparator regimens.
 
-Regarding the highest TxGNN-scored prediction (Acne, 99.86%): Clotrimazole does have antifungal activity against *Malassezia furfur*, which causes pityrosporum folliculitis (often called "fungal acne"). However, this is biologically distinct from conventional *C. acnes*-mediated acne vulgaris. The high TxGNN score most likely reflects topological proximity between skin infection nodes in the knowledge graph rather than a validated direct mechanistic pathway for treating standard acne. The single available clinical trial for acne was suspended, and no supporting literature exists — further justifying the Hold recommendation.
+The two other predictions are less convincing. For acne, any link is indirect (reducing Malassezia or microbial load, or a possible anti-inflammatory effect), and the only trial tests a fixed combination with a corticosteroid and an antibiotic. For postmenopausal atrophic vaginitis, the underlying cause is estrogen deficiency rather than fungal infection, so clotrimazole has no clear mechanistic role beyond treating a secondary candidal infection.
 
 ---
 
 ## Clinical Trial Evidence
 
-### Vulvovaginitis (Primary Indication — L1 Evidence)
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00755053](https://clinicaltrials.gov/study/NCT00755053) | Phase 3 | Completed | 466 | Investigator-blinded, active-controlled non-inferiority study comparing Clotrimazole 500 mg ovule vs 500 mg vaginal tablet in vaginal candidiasis; established formulation equivalence — highest-grade direct evidence for this indication. |
-| [NCT02180828](https://clinicaltrials.gov/study/NCT02180828) | Phase 4 | Completed | 240 | Case-controlled RCT comparing Clotrimazole vaginal tablet vs oral Fluconazole for severe VVC; evaluated comparative efficacy and safety of the two first-line treatment options. |
-| [NCT00313131](https://clinicaltrials.gov/study/NCT00313131) | Phase 3 | Completed | 1,524 | Large effectiveness trial (West Africa) comparing single-dose Tinidazole+Fluconazole vs standard Metronidazole + 3-day vaginal Clotrimazole for syndromic vaginal discharge in primary care; supports Clotrimazole's real-world effectiveness. |
-| [NCT02242695](https://clinicaltrials.gov/study/NCT02242695) | Phase 4 | Completed | 150 | Double-blind comparison of Clotrimazole 100 mg (Canesten) vs dequalinium chloride 10 mg (Fluomizin) in VVC; confirmed post-marketing efficacy and patient satisfaction. |
-| [NCT04699240](https://clinicaltrials.gov/study/NCT04699240) | Phase 4 | Completed | 140 | Prospective RCT: Clotrimazole vaginal tablet + oral *Lactobacillus* vs Clotrimazole alone for preventing VVC recurrence; assessed adjunctive probiotic benefit. |
-| [NCT03005353](https://clinicaltrials.gov/study/NCT03005353) | Phase 2/3 | Completed | 100 | Clotrimazole as active comparator vs cumin seed extract vaginal suppositories for candidal VVC; confirms standard-of-care status as treatment benchmark. |
-| [NCT03599323](https://clinicaltrials.gov/study/NCT03599323) | Post-marketing | Completed | 1,033 | Large observational safety study of Clotrimazole 1% cream (Empecid L) for vaginal yeast infection under pharmacist guidance; confirmed real-world tolerability and safety profile. |
-| [NCT01230814](https://clinicaltrials.gov/study/NCT01230814) | Phase 2 | Completed | 234 | Monthly Metronidazole + Miconazole (same imidazole class) suppositories vs placebo for preventing recurrent vaginal infections in HIV-negative women; supports class-level efficacy for VVC prevention. |
-| [NCT06835361](https://clinicaltrials.gov/study/NCT06835361) | Phase 2/3 | Recruiting | 264 | International RCT comparing Clotrimazole + Lactulose combination suppositories vs Canesten (Clotrimazole monotherapy) in candidal vulvovaginitis; superiority design with ongoing enrollment (completion: Nov 2025). |
-| [NCT02860845](https://clinicaltrials.gov/study/NCT02860845) | Phase 4 | Completed | 48 | Pilot multicenter study comparing boric acid + probiotic vaginal capsules vs pharmacological reference controls (including Clotrimazole) for vulvovaginitis. |
+| [NCT00755053](https://clinicaltrials.gov/study/NCT00755053) | Phase 3 | Completed | 466 | Non-inferiority of clotrimazole 500 mg ovule vs. 500 mg vaginal tablet in vaginal candidiasis |
+| [NCT00313131](https://clinicaltrials.gov/study/NCT00313131) | Phase 3 | Completed | 1524 | Single-dose tinidazole + fluconazole vs. longer metronidazole + clotrimazole courses for vaginal discharge in West African women |
+| [NCT06835361](https://clinicaltrials.gov/study/NCT06835361) | Phase 2/3 | Recruiting | 264 | Clotrimazole + lactulose vs. clotrimazole alone in candidal vulvovaginitis; results not yet available |
+| [NCT02242695](https://clinicaltrials.gov/study/NCT02242695) | Phase 4 | Completed | 150 | Dequalinium chloride vs. clotrimazole 100 mg in vulvovaginal candidiasis |
+| [NCT02180828](https://clinicaltrials.gov/study/NCT02180828) | Phase 4 | Completed | 240 | Clotrimazole vaginal tablet vs. fluconazole in severe vulvovaginal candidiasis |
+| [NCT03115073](https://clinicaltrials.gov/study/NCT03115073) | Phase 2/3 | Completed | 84 | Dose-escalation of ProF-001 (Candiplus) vs. 1% clotrimazole vaginal cream |
+| [NCT03005353](https://clinicaltrials.gov/study/NCT03005353) | Phase 2/3 | Completed | 100 | Cumin seed extract vaginal suppositories in candidal vulvovaginitis, with clotrimazole likely as comparator |
+| [NCT04699240](https://clinicaltrials.gov/study/NCT04699240) | Phase 4 | Completed | 140 | Clotrimazole vaginal tablets with vs. without oral Lactobacillus to prevent recurrence |
+| [NCT03599323](https://clinicaltrials.gov/study/NCT03599323) | N/A | Completed | 1033 | Post-marketing safety questionnaire study of clotrimazole 1% cream in vaginal yeast infection |
+| [NCT02248506](https://clinicaltrials.gov/study/NCT02248506) | Phase 4 | Completed | 56 | Observational study of clinical and mycological cure and recurrence after treatment of an acute vulvovaginal candidiasis episode |
 
-### Acne (TxGNN Rank 1 — Limited Evidence)
+Additional registered trials, not listed above, include a propolis gel study (NCT03024502, status unknown), a CO2 laser study (NCT04292704, status unknown) and a withdrawn LactiSal study (NCT02907307, no participants enrolled).
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Phase 2/3 | Suspended | 80 | Triple combination cream (Beclomethasone + Gentamicin + Clotrimazole) vs comparator in acne with contaminated dermatosis; trial was suspended and Clotrimazole's individual contribution cannot be isolated from the combination. |
+For acne, the only trial is NCT01244256 (Phase 2/3, suspended, n=80), which tested a beclomethasone + gentamicin + clotrimazole combination; clotrimazole's individual contribution cannot be separated.
 
 ---
 
 ## Literature Evidence
 
-### Vulvovaginitis (Primary Indication)
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [41765149](https://pubmed.ncbi.nlm.nih.gov/41765149/) | 2026 | RCT | Complementary Therapies in Medicine | Head-to-head RCT comparing Clotrimazole vaginal cream vs *Prangos ferulacea* (Jashir) cream for VVC; assessed clinical manifestations and laboratory mycological outcomes — most recent direct RCT for this indication. |
-| [39824974](https://pubmed.ncbi.nlm.nih.gov/39824974/) | 2025 | RCT (Triple-blinded) | Scientific Reports | Triple-blinded equivalence RCT (n=126): Mycozin vs Clotrimazole 1% vaginal cream for VVC; rigorous blinding design confirms Clotrimazole as the equivalence benchmark in antifungal cream comparisons. |
-| [30565745](https://pubmed.ncbi.nlm.nih.gov/30565745/) | 2019 | RCT | Mycoses | RCT evaluating probiotics + lactoferrin as maintenance therapy in recurrent VVC; Clotrimazole served as standard-of-care comparator, supporting its central role in recurrence management protocols. |
-| [2644595](https://pubmed.ncbi.nlm.nih.gov/2644595/) | 1989 | Clinical Trial | Obstetrics and Gynecology | Landmark prospective double-blind RCT (n=42): Clotrimazole 500 mg weekly induced clinical remission in 90.4% of women with recurrent candidal vaginitis; monthly prophylaxis significantly reduced long-term recurrence. |
-| [3895960](https://pubmed.ncbi.nlm.nih.gov/3895960/) | 1985 | RCT | American Journal of Obstetrics and Gynecology | Open RCT (n=199) across three clinics: single-dose Clotrimazole 500 mg demonstrated equivalent efficacy to 6-day 100 mg regimen in candidal VVC; established the evidence base for simplified single-dose dosing. |
-| [24863842](https://pubmed.ncbi.nlm.nih.gov/24863842/) | 2014 | Narrative Review | Journal of Applied Microbiology | Comprehensive review of Clotrimazole's history, mechanism (ergosterol synthesis inhibition), clinical spectrum (tinea pedis, VVC, oropharyngeal candidiasis), and emerging pharmacological properties beyond antifungal activity. |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Systematic Review | Journal of Women's Health | Systematic review on boric acid and azole-based treatments for recurrent VVC; provides comparative framework and supports azole class (including Clotrimazole) as primary therapy, particularly for non-albicans species. |
-| [25976001](https://pubmed.ncbi.nlm.nih.gov/25976001/) | 2015 | Basic Science | Journal of Medical Microbiology | Investigated Clotrimazole antifungal activity against *C. albicans* across growth phases, carbon sources, and morphologies; lactate in vaginal formulations may modulate drug sensitivity and local pH — mechanistic insight for formulation design. |
-| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Review of Anti-Infective Therapy | Expert review on current and future non-invasive azole antifungals for VVC; positions Clotrimazole within the therapeutic landscape alongside newer agents (oteseconazole, ibrexafungerp) and identifies remaining unmet needs in recurrent VVC. |
-| [39419780](https://pubmed.ncbi.nlm.nih.gov/39419780/) | 2024 | Observational Study | Journal of Applied Microbiology | Characterized Clotrimazole-induced shifts in vaginal bacteriome and lipid metabolism in VVC patients; elucidated microbial recovery mechanisms and metabolomic changes following antifungal treatment. |
+|------|-----|------|------|---------|
+| [39362128](https://pubmed.ncbi.nlm.nih.gov/39362128/) | 2024 | Meta-analysis | Eur J Obstet Gynecol Reprod Biol | Bayesian network meta-analysis of maintenance drug therapy for recurrent vulvovaginal candidiasis |
+| [3895960](https://pubmed.ncbi.nlm.nih.gov/3895960/) | 1985 | RCT | Am J Obstet Gynecol | Single 500 mg clotrimazole vaginal tablet vs. 6-day 100 mg course in candidal vulvovaginitis (n=199) |
+| [2644595](https://pubmed.ncbi.nlm.nih.gov/2644595/) | 1989 | Prospective randomized study | Obstet Gynecol | Clotrimazole 500 mg suppositories induced clinical remission in 90.4% of 42 women with recurrent candidal vaginitis |
+| [41765149](https://pubmed.ncbi.nlm.nih.gov/41765149/) | 2026 | RCT | Complement Ther Med | Prangos ferulacea vaginal cream compared with clotrimazole vaginal cream |
+| [30565745](https://pubmed.ncbi.nlm.nih.gov/30565745/) | 2019 | RCT | Mycoses | Probiotics and lactoferrin as maintenance treatment for recurrent vulvovaginal candidiasis |
+| [32992877](https://pubmed.ncbi.nlm.nih.gov/32992877/) | 2020 | Systematic review | Pharmaceuticals (Basel) | More than 45 years of clinical experience with clotrimazole for vulvovaginal candidosis |
+| [24863842](https://pubmed.ncbi.nlm.nih.gov/24863842/) | 2014 | Review | J Appl Microbiol | Clotrimazole as a pharmaceutical: past, present and future |
+| [39432168](https://pubmed.ncbi.nlm.nih.gov/39432168/) | 2024 | Retrospective analysis | Mycopathologia | Three-dose antifungal regimens improved efficacy in severe vulvovaginal candidiasis (1303 cases) |
+| [41350226](https://pubmed.ncbi.nlm.nih.gov/41350226/) | 2025 | Cohort | Pharmacoepidemiol Drug Saf | Risk of major congenital malformations with first-trimester topical antifungal exposure |
+| [40886781](https://pubmed.ncbi.nlm.nih.gov/40886781/) | 2025 | Preclinical/ex vivo | Pharmacol Res | Azole antifungals, including clotrimazole, affect steroidogenic activity in a human term placenta model |
 
 ---
 
 ## Philippines Market Information
 
-Clotrimazole currently has **no registered products** with the Philippines FDA. No license records exist.
-
-This is a notable gap given Clotrimazole's WHO essential medicine status and its widespread OTC availability throughout ASEAN and other neighboring markets (Taiwan, Singapore, Thailand, Malaysia). There is no authorization table to display.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0112 | Clotrimazole | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge graph, not label text)**: adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent vascular claudication, peripheral arterial disease. These come from drug-disease relationships in the model's knowledge graph and should be verified against the official label.
+- **Drug Interactions**: The data compiled for this report lists 100 interactions, of which the first 20 are shown here. Major-level interactions include fentanyl, alfentanil, hydrocodone and amiodarone. Moderate-level interactions include abemaciclib, paclitaxel, acalabrutinib, nifedipine, amlodipine, apixaban, aprepitant, alprazolam, aliskiren, alfuzosin, estradiol, levonorgestrel and norethisterone. Minor-level interactions include dolutegravir and amphotericin B.
+- **Pregnancy**: A large claims database study of first-trimester topical antifungal exposure (PMID 41350226) and an ex vivo placenta study showing effects on steroidogenesis (PMID 40886781) raise questions that should be considered when treating pregnant women.
 
-> No drug-drug interaction records were returned from the DDI database query. Philippines FDA prescribing information is unavailable due to the absence of any local registration. Based on published literature, topical and vaginal formulations of Clotrimazole have minimal systemic absorption, substantially limiting systemic adverse effects and interaction potential with co-administered drugs. For regulatory submission purposes, full safety documentation should be obtained from approved prescribing information in reference jurisdictions (US FDA, EMA) prior to dossier preparation.
+Please refer to the package insert for key warnings, as no label warning text is available.
 
 ---
 
 ## Conclusion and Next Steps
 
-### Primary Indication — Vulvovaginitis
-
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clotrimazole is a globally established first-line treatment for vulvovaginal candidiasis with WHO essential medicine status, supported by multiple completed Phase 3/4 trials (including NCT00755053, n=466 and NCT02180828, n=240) and a robust literature base. Its absence from the Philippines market represents an unmet clinical need rather than an evidence or safety concern.
+Vulvovaginitis is supported by multiple completed Phase 3 and Phase 4 trials in which clotrimazole is the test or comparator drug, and it largely falls within clotrimazole's existing use for candidal vulvovaginitis. However, the only Philippines registration is cancelled, several trials test combinations or other products, and the evidence for non-candidal vulvovaginitis is weak. Acne and postmenopausal atrophic vaginitis should remain on Hold.
 
 **To proceed, the following is needed:**
-- Clarify Philippines FDA regulatory pathway (new drug application vs. OTC switch classification under RA 9711)
-- Compile a registration dossier using reference jurisdiction approvals (US FDA, EMA) under ASEAN Common Technical Dossier (ACTD) format
-- Secure GMP-compliant manufacturing documentation or identify a licensed local importer/distributor
-- Specify target formulation(s): vaginal tablet (100 mg / 500 mg), vaginal cream (1%), or ovule — each may require a separate application
-- Address the safety data gap: obtain and review full product labeling (warnings, contraindications, pregnancy category) from an approved reference market before submission
-
----
-
-### Secondary Indication — Acne (disease)
-
-**Decision: Hold**
-
-**Rationale:**
-The high TxGNN score (99.86%) most likely reflects knowledge graph topological proximity between skin infection disease nodes, not a validated biological pathway for acne vulgaris. The sole relevant trial (NCT01244256) was suspended, involves a three-drug combination that prevents isolating Clotrimazole's individual contribution, and targets contaminated dermatosis rather than classic acne. No supporting literature was identified.
-
-**To reconsider this indication, the following is needed:**
-- Mechanistic studies distinguishing Clotrimazole's activity against *Malassezia furfur* (fungal/pityrosporum folliculitis) vs. *C. acnes* (bacterial acne vulgaris)
-- A dedicated prospective clinical trial for pityrosporum folliculitis as a clearly defined, separate indication from acne vulgaris
-
----
-
-### Tertiary Indication — Postmenopausal Atrophic Vaginitis
-
-**Decision: Research Question**
-
-**Rationale:**
-The primary driver of atrophic vaginitis is estrogen deficiency causing vaginal mucosal atrophy and elevated pH; Clotrimazole addresses secondary fungal infections but cannot resolve the underlying atrophic pathology. Only one tangentially related trial (NCT04292704, UNKNOWN status, CO2 laser as primary intervention) was identified, with no supporting literature. The TxGNN prediction likely arises from high node overlap with vulvovaginitis in the knowledge graph.
-
-**To explore further:**
-- Prospective study of Clotrimazole in postmenopausal women with VVC-complicated atrophic vaginitis as a distinct patient subgroup
-- Assess whether combined vaginal estrogen + Clotrimazole is superior to antifungal monotherapy in this population
+- Confirm the cause of vulvovaginitis (candidal, bacterial or mixed) before use
+- Obtain the Philippines package insert and confirm warnings and contraindications
+- Clarify the regulatory pathway, since the only local registration (PNF-0112) is cancelled
+- Obtain detailed mechanism of action data from DrugBank
+- Develop a pregnancy safety plan, especially for first-trimester use
+- Establish a separate maintenance strategy for recurrent disease
+- Review the interaction list, especially the Major-level interactions, for relevant co-medications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

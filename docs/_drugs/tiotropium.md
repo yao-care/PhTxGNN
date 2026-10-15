@@ -2,7 +2,7 @@
 layout: default
 title: Tiotropium
 parent: High Evidence (L1-L2)
-nav_order: 333
+nav_order: 337
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,91 +29,94 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tiotropium: From COPD to Obstructive Lung Disease
+# Tiotropium: From Bronchitis, Asthma and Emphysema to Obstructive Lung Disease
 
 ## One-Sentence Summary
 
-Tiotropium (Spiriva®) is a long-acting muscarinic antagonist (LAMA) globally approved for chronic obstructive pulmonary disease (COPD) and asthma, though it currently carries no registered approval in the Philippines.
-The TxGNN model predicts it may be effective for **Obstructive Lung Disease** — a broader category encompassing COPD, asthma, and related airway obstruction conditions — with **over 30 clinical trials** and **20 publications** currently supporting this direction.
-The prediction score of 99.99% is entirely consistent with tiotropium's established global clinical evidence base, making this one of the highest-confidence signals in the dataset.
+Tiotropium is a long-acting inhaled muscarinic antagonist, originally used for bronchitis, asthma and pulmonary emphysema.
+The TxGNN model predicts it may be effective for **obstructive lung disease**, with **39 clinical trials** and **20 publications** compiled for this prediction. Note that this prediction overlaps heavily with the drug's existing uses, so it is closer to an on-label category than a true repurposing candidate.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered indication in the Philippines (globally: COPD and asthma) |
-| Predicted New Indication | Obstructive Lung Disease |
+|------|------|
+| Original Indication | Bronchitis, asthma, intrinsic asthma, allergic asthma, pulmonary emphysema (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Tiotropium is a selective long-acting muscarinic antagonist that blocks M1 and M3 muscarinic acetylcholine receptors on airway smooth muscle and glands. The key pharmacological feature is its markedly slow dissociation from M3 receptors compared to M2 receptors — a kinetic subtype selectivity that produces sustained bronchodilation lasting over 24 hours with once-daily dosing, while minimising M2-mediated tachycardia. By blocking M3 receptors, tiotropium relaxes bronchial smooth muscle, reduces mucus hypersecretion, and decreases dynamic hyperinflation during exercise. These properties are well characterised in the literature, with foundational mechanistic work published as early as 1999 (PMID 10069510) and confirmed across decades of Phase 2 and Phase 3 clinical studies.
+Detailed mechanism of action data is not available from the drug database. Based on general pharmacology, tiotropium is a long-acting muscarinic antagonist (LAMA). It blocks M3 receptors on airway smooth muscle, which produces sustained bronchodilation and reduces cholinergic tone and mucus secretion. It dissociates slowly from M1 and M3 receptors, which allows once-daily dosing.
 
-Obstructive lung disease is the pathophysiological umbrella covering conditions defined by chronic airflow limitation — primarily COPD (chronic bronchitis and emphysema) and asthma, including the asthma–COPD overlap syndrome. Across all these phenotypes, increased cholinergic tone is a key reversible component of airway obstruction, which makes M3 antagonism a mechanistically sound intervention. In COPD specifically, the Global Initiative for Chronic Obstructive Lung Disease (GOLD) guidelines endorse LAMA monotherapy as first-line maintenance treatment for Groups B, C, and D — directly aligning with tiotropium's mechanism. In asthma, tiotropium is FDA- and EMA-approved as add-on therapy for patients ≥6 years old who remain poorly controlled on inhaled corticosteroids.
+Obstructive lung disease is the broad category that includes the drug's original indications (bronchitis, asthma, emphysema). The prediction is therefore mechanistically consistent, but it largely restates established use rather than identifying a new one. The same applies to the related predictions for COPD (rank 5) and severe early-onset COPD (rank 4).
 
-The TxGNN model's prediction of "obstructive lung disease" as the top-ranked indication is pharmacologically rational and clinically validated. Multiple completed Phase 3 RCTs, two Cochrane systematic reviews, and GOLD guideline endorsement collectively represent the highest available evidence standard. Notably, at least one trial (NCT02172469, n=215) was conducted specifically in **Filipino patients** with COPD, providing directly applicable local evidence. The Philippines has not yet registered tiotropium despite its global approval in more than 100 countries, suggesting a registration gap rather than a clinical uncertainty.
+Other predictions in the list are much weaker. Respiratory malformation, tracheal stenosis, hyperlucent lung, compensatory emphysema and interstitial emphysema involve structural or non-obstructive processes. Rienhoff syndrome and the CD8alpha-related infection susceptibility are rare conditions with no identified rationale. None of these has supporting evidence, and all are rated Hold.
 
 ---
 
 ## Clinical Trial Evidence
 
+The table lists the most relevant trials, with Phase 3 and graded studies given priority.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00846586](https://clinicaltrials.gov/study/NCT00846586) | Phase 3 | Completed | 1,134 | 12-week RCT: indacaterol 150 µg once daily + open-label tiotropium 18 µg vs. tiotropium alone in moderate-to-severe COPD; establishes tiotropium as the backbone comparator in obstructive lung disease trials |
-| [NCT01316900](https://clinicaltrials.gov/study/NCT01316900) | Phase 3 | Completed | 846 | 24-week multicenter double-blind RCT comparing GSK573719/GW642444 (umeclidinium/vilanterol) vs. tiotropium (HandiHaler) in COPD; tiotropium used as active control confirming its standard-of-care position |
-| [NCT00793624](https://clinicaltrials.gov/study/NCT00793624) | Phase 3 | Completed | 906 | 48-week double-blind placebo-controlled RCT assessing olodaterol (BI 1744 CL) via Respimat in COPD patients; tiotropium's Respimat formulation evaluated as part of the trial design |
-| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Phase 3 | Completed | 404 | TORRACTO: 12-week RCT comparing tiotropium + olodaterol FDC vs. placebo on exercise endurance in COPD; demonstrates functional benefit beyond spirometry |
-| [NCT01294787](https://clinicaltrials.gov/study/NCT01294787) | Phase 3 | Completed | 85 | Crossover RCT assessing QVA149 (indacaterol/glycopyrronium) vs. tiotropium on exercise endurance in moderate-to-severe COPD |
-| [NCT02172469](https://clinicaltrials.gov/study/NCT02172469) | Phase 3 | Completed | 215 | **Filipino patient study**: double-blind RCT comparing tiotropium 18 µg vs. ipratropium MDI in adults with COPD — directly applicable to Philippines regulatory context |
-| [NCT00949975](https://clinicaltrials.gov/study/NCT00949975) | Phase 2 | Completed | 838 | Phase IIb dose-ranging RCT: AZD9668 (neutrophil elastase inhibitor) added to tiotropium background in symptomatic COPD; large sample size confirms tiotropium's role as stable background therapy |
-| [NCT04780984](https://clinicaltrials.gov/study/NCT04780984) | Phase 2 | Completed | 116 | Randomised dose-ranging study of tiotropium bromide inhalation solution pharmacodynamics, bioavailability, and safety in COPD subjects |
-| [NCT02175342](https://clinicaltrials.gov/study/NCT02175342) | Phase 2 | Completed | 202 | PK/PD dose-ranging study of tiotropium via Respimat device; established optimal once-daily dosing for the Respimat formulation |
-| [NCT02567214](https://clinicaltrials.gov/study/NCT02567214) | Phase 4 | Completed | 50 | Head-to-head: indacaterol/glycopyrronium (Ultibro®) vs. tiotropium (Spiriva®) alone on exertional dyspnea in moderate-to-severe COPD; confirms tiotropium's clinical positioning |
+|---------|------|------|------|---------|
+| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | Completed | 491 | Tiotropium Respimat 5 and 10 mcg vs placebo and ipratropium MDI in COPD; bronchodilator efficacy and safety |
+| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | Completed | 2,624 | 52-week tiotropium + olodaterol vs individual components in COPD (TOnado 1) |
+| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | Completed | 1,142 | Indacaterol added to tiotropium vs tiotropium alone, 12 weeks, moderate-to-severe COPD |
+| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | Completed | 1,598 | Indacaterol vs tiotropium over 12 weeks in moderate-to-severe COPD |
+| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | Completed | 2,103 | Triple/dual MDI therapies vs placebo, with open-label tiotropium as active control, 24 weeks |
+| [NCT01610037](https://clinicaltrials.gov/study/NCT01610037) | Phase 3 | Completed | 1,215 | 52-week long-term safety of QVA149 vs placebo and tiotropium |
+| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Phase 3 | Completed | 404 | Tiotropium + olodaterol vs placebo on exercise endurance over 12 weeks |
+| [NCT01316380](https://clinicaltrials.gov/study/NCT01316380) | Phase 3 | Completed | 465 | Tiotropium Respimat vs placebo in mild persistent asthma over 12 weeks |
+| [NCT00772538](https://clinicaltrials.gov/study/NCT00772538) | Phase 3 | Completed | 459 | Tiotropium 5 mcg add-on to usual care in severe persistent asthma over 48 weeks |
+| [NCT02172443](https://clinicaltrials.gov/study/NCT02172443) | Phase 3 | Completed | 50 | Tiotropium capsules vs ipratropium MDI in COPD (small, active-comparator design) |
+
+The data set contains further trials, including Phase 2 dose-ranging, device comparison and pharmacokinetic studies. The 52-week combination study (NCT01431274) and the placebo- and active-controlled study (NCT00240435) were graded as direct efficacy evidence.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | Tiotropium improved lung function and reduced FEV1 decline in **mild-to-moderate (early-stage) COPD**; broadens indication evidence beyond severe disease |
-| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Systematic Review | Respir Res | Comprehensive review of tiotropium's 20-year clinical development in COPD; confirms LAMA as first-line maintenance therapy across GOLD groups |
-| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review/Meta-analysis | Curr Med Res Opin | Tiotropium + olodaterol FDC as initial and escalation COPD treatment reduces exacerbation risk per GOLD 2020 |
-| [25046211](https://pubmed.ncbi.nlm.nih.gov/25046211/) | 2014 | Cochrane Review | Cochrane Database Syst Rev | Tiotropium vs. placebo in stable COPD: significant improvements in lung function, exacerbation rates, and health-related quality of life |
-| [26391969](https://pubmed.ncbi.nlm.nih.gov/26391969/) | 2015 | Cochrane Review | Cochrane Database Syst Rev | Tiotropium vs. ipratropium in stable COPD: tiotropium demonstrated superior lung function and fewer exacerbations |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Pharmacology Review | Life Sciences | Foundational MOA paper: tiotropium's kinetic M3-receptor subtype selectivity provides the mechanistic rationale for once-daily bronchodilation in obstructive lung disease |
-| [29670674](https://pubmed.ncbi.nlm.nih.gov/29670674/) | 2018 | Clinical Review | Can Respir J | Tiotropium for **asthma**: evidence for LAMA add-on therapy across obstructive lung disease phenotypes; patient selection for the asthma indication |
-| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Drug Monograph | Drugs | Tiotropium 18 µg once daily vs. placebo: significant improvements in FEV1, dyspnea, exacerbations, and quality of life in COPD — early pivotal evidence |
-| [11281822](https://pubmed.ncbi.nlm.nih.gov/11281822/) | 2001 | Drug Review | Expert Opin Investig Drugs | Phase II evidence: prolonged bronchodilation via slow M1/M3 receptor dissociation in human airways; established the pharmacological basis for development |
-| [22562275](https://pubmed.ncbi.nlm.nih.gov/22562275/) | 2012 | RCT/Comparative | Pneumonol Alergol Pol | Comparative RCT of formoterol, formoterol + tiotropium, formoterol + ICS, and tiotropium monotherapy on lung function and exercise tolerance in COPD |
+|------|-----|------|------|---------|
+| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | Tested long-term tiotropium on lung function and its decline in mild-to-moderate COPD |
+| [29779416](https://pubmed.ncbi.nlm.nih.gov/29779416/) | 2018 | RCT | Am J Respir Crit Care Med | SUNSET: de-escalation from triple therapy to indacaterol/glycopyrronium in COPD |
+| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | Systematic Review | BMC Pulm Med | Compared tiotropium Respimat and HandiHaler in COPD |
+| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review | Curr Med Res Opin | Reviewed tiotropium + olodaterol for reducing COPD exacerbations |
+| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | Tiotropium as an anticholinergic bronchodilator with once-daily dosing and improved lung function in COPD |
+| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Review | Respir Res | Review of the clinical development of tiotropium in COPD |
+| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Efficacy and safety of ipratropium combined with tiotropium |
+| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Mechanistic review | Life Sci | Mechanistic considerations and clinical profile of tiotropium in obstructive lung disease |
+| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | Cohort | Int J Chron Obstruct Pulmon Dis | Real-world comparison of three LABA/LAMA combinations in Taiwan |
+| [23728670](https://pubmed.ncbi.nlm.nih.gov/23728670/) | 2013 | Cochrane review | Cochrane Database Syst Rev | Inhaled steroid/LABA combination vs tiotropium in COPD |
 
 ---
 
 ## Philippines Market Information
 
-Tiotropium currently has **no registered drug products in the Philippines**. The FDA Philippines shows zero active licenses and a market status of "not marketed" as of the data cutoff (June 2026).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0489 | Tiotropium | Not recorded | Not recorded (status: cancelled) |
 
-For context, tiotropium is globally marketed under the following brands:
-- **Spiriva® HandiHaler®** (18 µg tiotropium bromide inhalation powder capsule)
-- **Spiriva® Respimat®** (2.5 µg and 5 µg tiotropium bromide inhalation solution)
-
-It is approved by the US FDA, EMA, PMDA (Japan), TFDA (Taiwan), and regulatory agencies in more than 100 countries. The Philippines registration gap represents an unmet need rather than an unresolved clinical question.
+The only registration is cancelled, so no valid registration currently exists in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / conditions of concern (from the knowledge graph, not label text)**: benign prostatic hyperplasia, impaired renal function, angle-closure (closed-angle) glaucoma, bladder neck obstruction.
+- **Drug Interactions**: 100 interactions were found in the DDI screening. The main ones are additive anticholinergic effects with other antimuscarinic agents, rated Moderate: hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline and scopolamine. Other Moderate interactions include eluxadoline, prucalopride and inhaled rapid-acting insulin. Cimetidine is rated Minor.
+- **Other signals from the literature**: ocular effects (an anterior chamber study, NCT06525051) and cardiovascular and mortality questions (PMID 32274526, PMID 21672999) are covered in the compiled publications.
 
-> Key warnings, contraindications, and drug interaction data were not available in this evidence pack. Anticholinergic class effects relevant to clinical use — including dry mouth, urinary retention, constipation, paradoxical bronchospasm, and risk of acute angle-closure glaucoma — should be reviewed from the manufacturer's prescribing information for Spiriva® prior to any clinical or regulatory decision-making. Cardiovascular safety (particularly in patients with arrhythmias) has been specifically studied; a meta-analysis (PMID 32274526) found no significant increase in adverse cardiovascular events with tiotropium use in COPD patients.
+Please refer to the package insert for the official warnings and contraindications, because label text was not available for this report.
 
 ---
 
@@ -122,15 +125,14 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Tiotropium has the highest available level of clinical evidence (L1) for obstructive lung disease, supported by multiple completed Phase 3 RCTs, two Cochrane reviews, and inclusion in international treatment guidelines as first-line therapy. The 99.99% TxGNN score reflects a mechanistically direct and globally validated drug-disease match. Critically, one trial was already conducted in Filipino COPD patients (NCT02172469, n=215), providing locally applicable evidence that reduces the regulatory uncertainty typically associated with new drug applications.
+Multiple completed Phase 3 RCTs and meta-analyses support tiotropium in obstructive lung disease and COPD, giving L1 evidence. However, this is established on-label use rather than true repurposing, and the only Philippines registration is cancelled. Predictions for the other eight conditions lack supporting evidence and should stay on Hold.
 
 **To proceed, the following is needed:**
-- Submit a standard new drug application (NDA) to FDA Philippines with the existing global regulatory dossier (safety, efficacy, CMC data from US FDA or EMA approval packages)
-- Obtain manufacturer authorisation from Boehringer Ingelheim for Philippines distribution rights
-- Compile the Philippines-specific prescribing information including complete safety warnings, contraindications, and drug interaction data from the package insert
-- Develop a local pharmacovigilance and adverse event monitoring plan as required by FDA Philippines
-- Conduct a health technology assessment for COPD/asthma burden in the Philippines to support formulary listing and pricing negotiations
-- Address mechanism of action documentation gap (DG002) by retrieving full DrugBank entry for tiotropium to complete the evidence dossier
+- Confirm the current regulatory and market availability of tiotropium in the Philippines, including which formulations (HandiHaler or Respimat) are available.
+- Obtain the Philippine package insert to complete the warnings and contraindications review.
+- Complete the mechanism of action data from DrugBank.
+- Put anticholinergic safety monitoring in place (glaucoma, urinary retention, prostatic hyperplasia, renal impairment, cardiovascular events).
+- Treat the COPD and obstructive lung disease predictions as confirmation of existing use rather than as new-indication findings.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Lithium Carbonate
 parent: Model Prediction Only (L5)
-nav_order: 208
+nav_order: 210
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,79 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lithium carbonate is a classic mood-stabilizing agent with decades of clinical use, most notably for bipolar disorder and related psychiatric conditions.
-The TxGNN model predicts it may be effective for **Pseudoachondroplasia** — a rare genetic skeletal dysplasia — with a prediction score of **99.98%**.
-However, **no clinical trials** and **no dedicated publications** currently support this specific repurposing direction, placing it at the lowest evidence tier.
-
----
+Lithium carbonate is a mood stabiliser, originally used for bipolar disorder and related affective disorders (the knowledge graph also lists arthritis-related and headache conditions).
+The TxGNN model predicts it may be effective for **pseudoachondroplasia**,
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model's score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not captured in current data pack (Lithium carbonate is widely established for bipolar disorder) |
+|------|------|
+| Original Indication | Bipolar disorder (the registration record has no approved indication text; this is taken from the knowledge-graph indication list) |
 | Predicted New Indication | Pseudoachondroplasia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, lithium carbonate is a long-established mood stabiliser, its efficacy in bipolar disorder is well recognised, and mechanistically it may be applicable to some skeletal conditions through its known effects on cell signalling.
 
-Lithium carbonate's primary known mechanism is inhibition of **GSK-3β (Glycogen Synthase Kinase-3 beta)**, a serine/threonine kinase that serves as a critical negative regulator of the **Wnt/β-catenin signalling pathway**. By suppressing GSK-3β, lithium stabilises β-catenin, allowing it to translocate to the nucleus and activate downstream genes involved in cell proliferation and differentiation — including chondrocyte development. This mechanistic foundation is what likely drives the TxGNN graph-based inference.
+The only mechanistic link available is speculative. Lithium is known to inhibit GSK-3beta and modulate Wnt signalling, which is relevant to cartilage and bone biology. Pseudoachondroplasia, however, is caused by COMP gene mutations that lead to endoplasmic reticulum stress and death of cartilage cells (chondrocytes). No direct connection between lithium and this mechanism has been established.
 
-Pseudoachondroplasia is a rare autosomal dominant skeletal dysplasia caused by mutations in the **COMP (Cartilage Oligomeric Matrix Protein)** gene. Mutant COMP protein misfolds and accumulates in the endoplasmic reticulum of chondrocytes, triggering ER stress, premature cell death, and disrupted growth plate architecture. The TxGNN model appears to infer a connection through the **COMP → ECM remodelling → Wnt/β-catenin** node network: dysregulated ECM-integrin signalling in COMP-mutant chondrocytes intersects with Wnt pathway activity, and lithium's modulation of this axis could theoretically reduce chondrocyte apoptosis or normalise proliferation in the growth plate.
+The high score is a graph-based prediction only. It should be treated as a hypothesis to examine, not as evidence of benefit.
 
-That said, this remains a **purely computational prediction**. No animal model study, in vitro experiment, or clinical observation has directly tested lithium in pseudoachondroplasia. The mechanistic chain (COMP mutation → ECM stress → Wnt dysregulation → GSK-3β inhibition as rescue) is several nodes long and each step would require independent validation. The prediction should be interpreted as a hypothesis-generating signal, not an actionable therapeutic lead at this stage.
-
----
+Other top-ranked predictions are also unsupported by data. They are mostly rare skeletal dysplasias (such as acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), plus Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency. Each has a score of at least 99.28%, and none has trials. Only one general review exists, for brachyolmia-amelogenesis imperfecta syndrome (PMID 31888683, 2019, Orphanet J Rare Dis). It is a broad overview of genetic skeletal disorders and is not specific to lithium.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Lithium carbonate in pseudoachondroplasia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Lithium carbonate in pseudoachondroplasia.
-
----
+Currently no related literature available for pseudoachondroplasia.
 
 ## Philippines Market Information
 
-Lithium carbonate is currently **not registered** with the Philippine FDA. No product authorizations were found in the data pack.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0292 | Lithium Carbonate | Not specified | Not specified (status: cancelled) |
 
-> Note: Despite its long history of clinical use globally (bipolar disorder, mood stabilization), no marketed formulations are on record in the current Philippine regulatory dataset. This represents a significant market access barrier if any repurposing program were to advance.
-
----
+The only registration on record has been cancelled, so no valid registration is currently listed.
 
 ## Safety Considerations
 
-Detailed safety data (warnings, contraindications, drug interactions) were not available in the current evidence pack.
+- **Contraindication signals from the knowledge graph (not label text):** kidney disease, hypothyroidism (including myxedema and congenital hypothyroidism), diabetes insipidus (central and neurohypophyseal forms), psoriasis and parapsoriasis, sudden cardiac arrest, heart conduction disease, cognitive disorder, and pyoureter.
+- **Drug interactions:** 100 interactions were found in total. Examples from the listed records:
+  - **Major:** bupropion, lorcaserin.
+  - **Moderate:** metformin, pioglitazone, alogliptin, albiglutide, canagliflozin, chlorpropamide, acarbose, famotidine, loperamide, mesalazine, balsalazide, morphine, metronidazole, clarithromycin, potassium citrate.
+  - **Minor:** doxycycline, epinephrine, acetylsalicylic acid.
 
-> Please refer to the package insert for full safety information. Clinicians should note that lithium has a **narrow therapeutic index** — serum level monitoring is required in standard clinical use. This characteristic would be a critical safety consideration for any investigational repurposing program.
-
----
+Please refer to the package insert for label warnings and contraindications. Lithium has a narrow therapeutic range, so any use would need careful monitoring.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is based entirely on knowledge graph inference (L5), with no supporting clinical trials, no targeted preclinical studies, and no literature specific to lithium in pseudoachondroplasia. Additionally, lithium carbonate is not currently registered in the Philippines, creating both a regulatory and a safety data gap that must be resolved before any further evaluation is meaningful.
+The prediction has no clinical trials or lithium-specific literature behind it (Evidence Level L5). The proposed mechanism is speculative, the Philippines registration has been cancelled, and the safety profile includes serious knowledge-graph contraindication signals and Major interactions.
 
 **To proceed, the following is needed:**
-
-- **Mechanism validation**: In vitro studies in COMP-mutant chondrocyte cell lines or organoids to test whether GSK-3β inhibition reduces ER stress or restores growth plate signalling
-- **Animal model data**: A mouse model of pseudoachondroplasia (e.g., COMP p.T585M knock-in) tested with lithium to assess skeletal phenotype rescue
-- **MOA documentation**: Formal retrieval of lithium carbonate's full mechanism profile from DrugBank (currently flagged as Data Gap)
-- **Safety profile retrieval**: Taiwan/Philippines package insert data, including warnings, contraindications, and DDI profile — required before any S1 safety screen
-- **Regulatory pathway assessment**: Given zero Philippines registrations, a new drug application or compassionate use pathway would need to be scoped before any clinical translation
-- **Literature sweep expansion**: A broader PubMed search using related terms (GSK-3β inhibitor + COMP + chondrocyte; lithium + skeletal dysplasia) may surface indirect mechanistic evidence not captured in the current evidence pack
+- Detailed mechanism of action data, and preclinical evidence that lithium acts on COMP-related ER stress or chondrocyte survival
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- A current valid registration or a clear regulatory pathway in the Philippines
+- Disease-specific literature or trial data for pseudoachondroplasia
+- A risk-benefit assessment for a rare, mostly paediatric skeletal disorder, given lithium's narrow therapeutic window and renal and thyroid effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Norepinephrine
 parent: Moderate Evidence (L3-L4)
-nav_order: 254
+nav_order: 257
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,80 +29,79 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Norepinephrine: From Vasopressor (Septic Shock) to Obstructive Lung Disease
+# Norepinephrine: From Asthma and Hypotensive Disorder to Obstructive Lung Disease
 
 ## One-Sentence Summary
 
-Norepinephrine is an endogenous catecholamine and critical care vasopressor used intravenously for hemodynamic support in septic shock and severe hypotension.
-The TxGNN model predicts it may be effective for **Obstructive Lung Disease**, supported by mechanistic animal studies and observational data in COPD patients — though no direct therapeutic clinical trials have yet been conducted to validate this direction.
+Norepinephrine was originally listed for conditions such as asthma, bronchitis, emphysema, bronchiectasis and hypotensive disorder.
+The TxGNN model predicts it may be effective for **obstructive lung disease**,
+but the data compiled for this report show **1 clinical trial (not relevant to this indication)** and **20 publications (mostly reviews and mechanistic papers)**. Support is therefore weak, and the prediction rests mainly on the computational score.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Vasopressor for septic shock / severe hypotension (intravenous infusion) |
-| Predicted New Indication | Obstructive Lung Disease |
+|------|------|
+| Original Indication | Asthma, intrinsic and allergic asthma, bronchitis, hypotensive disorder, pulmonary emphysema, bronchiectasis (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, norepinephrine is an endogenous catecholamine that acts predominantly as an α1-adrenergic agonist — causing vasoconstriction — with moderate β1-adrenergic activity, and serves as the primary neurotransmitter of the peripheral sympathetic nervous system.
+Detailed mechanism of action data is not available for this drug. Norepinephrine is a catecholamine that acts on adrenergic receptors (alpha and beta). It is used clinically as a vasopressor.
 
-The mechanistic connection to obstructive lung disease rests on noradrenergic control of airway physiology. Sympathetic nerves regulate airway caliber through α1-receptor-mediated constriction of bronchial vasculature, β2-receptor modulation of smooth muscle tone, and neuropeptide co-transmission affecting mucous glands. A landmark 2024 study in *Nature* (PMID 38987587) demonstrated that brainstem DBH⁺ neurons — the primary source of norepinephrine — directly control allergen-induced airway hyperreactivity, mapping a complete allergen circuit from lung to brainstem and back. This provides direct mechanistic grounding for TxGNN's prediction. Supporting this, classic literature confirms that noradrenergic innervation modulates airway caliber in both asthma and COPD through smooth muscle, bronchial vessels, and glandular secretion (PMID 2048831).
+Adrenergic and neuroimmune signalling is implicated in airway tone and inflammation in asthma and COPD, which gives a plausible but indirect biological link. The drug's original indications already included asthma, bronchitis and emphysema, which overlap with obstructive lung disease, and this probably contributes to the high model score.
 
-A critical nuance is that in COPD patients, plasma norepinephrine concentrations are significantly elevated and inversely correlated with arterial oxygen saturation (PMID 6777857; PMID 9009625) — indicating that sympathetic overactivation is a pathophysiological feature of disease, not simply a biomarker. This raises an important clinical question: should the therapeutic strategy aim to supplement norepinephrine, to modulate the noradrenergic axis (e.g., via DBH inhibition), or to exploit the brainstem NE circuit for airway control? The overlap with established β2-agonist therapy — which targets the same adrenergic pathway — must be explicitly addressed before a repurposing strategy can be defined. Direct exogenous norepinephrine for airway disease has not been clinically tested.
+However, no evidence shows that systemic norepinephrine, a vasopressor with a narrow therapeutic window, is safe or effective in obstructive airway disease. The score of 99.84% is a computational prediction only.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT02360865](https://clinicaltrials.gov/study/NCT02360865) | N/A | Completed | 18 | Mechanisms of exercise intolerance in COPD — measured NE as a marker of Muscular Sympathetic Nerve Activity; provides mechanistic data on NE's physiological role in COPD vascular regulation during exertion |
-| [NCT02564406](https://clinicaltrials.gov/study/NCT02564406) | N/A | Completed | 35 | Extracorporeal CO₂ removal in severe COPD patients refusing intubation — NE used as vasopressor support, reflecting real-world clinical application in end-stage COPD management |
-| [NCT01536587](https://clinicaltrials.gov/study/NCT01536587) | Phase 4 | Completed | 32 | Salmeterol bronchodilation and autonomic nervous system in COPD GOLD II–III — assessed sympathetic activity reduction via microneurography; directly relevant to noradrenergic pathway modulation in obstructive disease |
-| [NCT01219738](https://clinicaltrials.gov/study/NCT01219738) | N/A | Completed | 20 | Non-genomic effects of inhaled budesonide on adrenergic agonist transport in airway vascular smooth muscle — explicitly studies locally released norepinephrine from noradrenergic nerves in airway tissue; supports NE's direct role in airway physiology |
-
-> **Note:** No clinical trials were identified that directly test norepinephrine as a therapeutic intervention for obstructive lung disease. The above trials provide mechanistic context, not efficacy evidence.
+|---------|------|------|------|---------|
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | Recruiting | 420 | Vascular function, exercise rehabilitation and hypertension. It does not test norepinephrine in obstructive lung disease, so it provides no direct evidence (relevance grade C). |
 
 ---
 
 ## Literature Evidence
 
+None of the retrieved publications is a clinical trial of norepinephrine in obstructive lung disease. The most relevant ones are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38987587](https://pubmed.ncbi.nlm.nih.gov/38987587/) | 2024 | Animal/Mechanistic | *Nature* | DBH⁺ brainstem neurons (primary NE source) directly control allergen-induced airway hyperreactivity; maps full neuroimmune circuit lung → nTS → lung — strongest mechanistic support for this prediction |
-| [2048831](https://pubmed.ncbi.nlm.nih.gov/2048831/) | 1991 | Mechanistic Review | *Am Rev Respir Dis* | Noradrenergic nerves regulate airway caliber in both asthma and COPD via smooth muscle tone, bronchial vasculature, and mucous glands; noradrenergic innervation contributes to airway narrowing |
-| [1617386](https://pubmed.ncbi.nlm.nih.gov/1617386/) | 1992 | Mechanistic Review | *Br Med Bull* | NE and neuropeptide-Y mediate sympathetic vasoconstriction of tracheobronchial vasculature in asthma; details the subepithelial capillary network regulation |
-| [6777857](https://pubmed.ncbi.nlm.nih.gov/6777857/) | 1980 | Observational | *Scand J Clin Lab Invest* | Plasma noradrenaline significantly elevated in COPD patients, inversely correlated with arterial O₂ saturation — quantifies sympathetic overactivation as a disease component |
-| [9009625](https://pubmed.ncbi.nlm.nih.gov/9009625/) | 1996 | Observational | *Monaldi Arch Chest Dis* | Elevated adrenaline and noradrenaline in early COPD with right heart involvement; neuroendocrine hormonal dysregulation present before clinical cardiac failure |
-| [29030339](https://pubmed.ncbi.nlm.nih.gov/29030339/) | 2018 | Observational | *Am J Physiol Heart Circ* | Impaired functional sympatholysis (attenuated α-adrenergic vasoconstriction blunting) in COPD patients during exercise; demonstrates that NE pathway responsiveness is altered in COPD |
-| [35870527](https://pubmed.ncbi.nlm.nih.gov/35870527/) | 2022 | Observational | *Environ Pollut* | Air pollution triggers dysregulation of sympathetic-adrenal medullary (SAM) axis including NE in COPD patients, linking environmental triggers to noradrenergic pathway activation |
-| [40064568](https://pubmed.ncbi.nlm.nih.gov/40064568/) | 2025 | Review | *Allergology Int* | Neuroimmune mechanisms in type 2 skin and airway inflammation; noradrenergic–immune crosstalk in barrier tissues underlies asthma pathophysiology |
-| [24486056](https://pubmed.ncbi.nlm.nih.gov/24486056/) | 2014 | Review | *Semin Immunol* | Sympathetic nervous system–immune system interaction; NE modulates inflammatory homeostasis through adrenergic receptors on immune cells — relevant to NE's immunomodulatory role in airway inflammation |
-| [28950943](https://pubmed.ncbi.nlm.nih.gov/28950943/) | 2017 | Review | *Adv Immunol* | β2-adrenoceptor function in asthma — documents the adrenergic axis as established therapeutic target and raises safety concerns about long-term agonism; provides critical clinical context for differentiating NE repurposing from existing therapies |
+|------|-----|------|------|---------|
+| [29696025](https://pubmed.ncbi.nlm.nih.gov/29696025/) | 2018 | Review | Front Immunol | Adrenergic signalling at the interface of allergic asthma and viral infections. |
+| [41601146](https://pubmed.ncbi.nlm.nih.gov/41601146/) | 2026 | Review | Ann Med | Neuroimmune circuits in respiratory disease. |
+| [21271508](https://pubmed.ncbi.nlm.nih.gov/21271508/) | 2011 | Review | Pneumologie | Airway innervation in asthma and COPD. Norepinephrine is the transmitter of postganglionic sympathetic fibres. |
+| [40870471](https://pubmed.ncbi.nlm.nih.gov/40870471/) | 2025 | Review | Medicina (Kaunas) | Anxiety and depression as comorbidities of COPD. |
+| [3332227](https://pubmed.ncbi.nlm.nih.gov/3332227/) | 1987 | Review | Crit Care Clin | Catecholamines in critical care. |
+| [24486056](https://pubmed.ncbi.nlm.nih.gov/24486056/) | 2014 | Review | Semin Immunol | Neuroendocrine regulation of inflammation. |
+| [11099681](https://pubmed.ncbi.nlm.nih.gov/11099681/) | 2000 | Clinical study | Am J Med | Mechanisms of hypertension in COPD with acute respiratory failure, including norepinephrine levels. |
+| [29030339](https://pubmed.ncbi.nlm.nih.gov/29030339/) | 2018 | Clinical physiology | Am J Physiol Heart Circ Physiol | Muscle alpha-adrenergic responsiveness in COPD patients. |
 
 ---
 
 ## Philippines Market Information
 
-Norepinephrine (DrugBank ID: DB00368) currently has **no registered products** in the Philippines FDA database. There are zero active licenses or marketing authorizations on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0353 | Norepinephrine | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: hypertensive disorder, hypertension, thrombotic disease.
+- **Drug Interactions**: 70 interactions were identified in total. The ones listed are all moderate-level. They are mainly antidiabetic agents, including metformin, pioglitazone, sitagliptin, linagliptin, saxagliptin, alogliptin, acarbose, repaglinide, chlorpropamide, canagliflozin, dapagliflozin, empagliflozin, semaglutide, dulaglutide, albiglutide and several insulins (aspart, degludec, detemir). Also listed are the anorectic agents phentermine and diethylpropion.
 
-> **Regulatory note:** Philippine FDA package insert data was identified as a blocking data gap (DG001). Safety evaluation cannot proceed until TFDA/PhFDA prescribing information is retrieved and parsed. The Philippines FDA website should be consulted for full warnings and contraindications.
+Please refer to the package insert for warnings and other safety information.
 
 ---
 
@@ -111,20 +110,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model identifies a mechanistically plausible link through noradrenergic control of airway physiology — anchored by a high-impact 2024 *Nature* study demonstrating that DBH⁺ NE neurons directly regulate allergen-induced airway hyperreactivity — but all available clinical evidence is indirect: norepinephrine functions as a hemodynamic support agent or biomarker in COPD trials, not as a direct therapeutic intervention for airway obstruction. With zero Philippines market registrations, no direct therapeutic clinical trials, and a critical unresolved question about the specific repurposing hypothesis (NE supplementation vs. pathway modulation), the evidence is insufficient to advance beyond a research question at this stage.
+- The only trial found is unrelated to this indication. The literature is mostly reviews and mechanistic papers, so the prediction is not supported by clinical evidence.
+- There is no valid local registration, and systemic norepinephrine is a vasopressor whose cardiovascular effects are a concern in obstructive lung disease.
 
 **To proceed, the following is needed:**
+- Mechanism of action data and package insert warnings and contraindications.
+- Evidence of safety and efficacy in obstructive lung disease, starting with preclinical or early clinical studies, and a route and formulation suited to the airways.
+- A regulatory pathway review, since the only Philippines registration is cancelled.
 
-- **Define the therapeutic hypothesis precisely:** Supplementing exogenous NE, modulating DBH⁺ neuronal activity, or targeting downstream noradrenergic receptors are mechanistically distinct strategies requiring separate development paths
-- **Preclinical proof-of-concept studies** in obstructive lung disease animal models specifically testing the therapeutic hypothesis (distinct from existing COPD biomarker studies)
-- **Differentiation from β2-agonist therapy:** Since salmeterol, formoterol, and related drugs already exploit the same adrenergic pathway, the repurposing rationale must demonstrate added value or a non-overlapping mechanism
-- **MOA data retrieval** from DrugBank (Data Gap DG002) to confirm receptor binding profile and enable mechanistic analysis
-- **Philippines FDA package insert** retrieval (Data Gap DG001) to complete safety and contraindication profiling before any clinical stage evaluation
-
----
-
-> **Other Predicted Indications (for reference):**
-> TxGNN also flagged **Respiratory Malformation** (rank 2, score 99.84%, L4) — supported by mechanistic evidence that NE system disruption impairs respiratory circuit development (Rett syndrome/Mecp2 mouse models), with a developmental rather than therapeutic repurposing angle. **Rienhoff Syndrome** (rank 3, score 99.83%, L5) was assessed as **Hold** — no mechanistic link between the TGFB3 pathway and NE was identified; the prediction likely reflects indirect knowledge graph associations.
+**Other predicted indications (both Hold, evidence level L5):**
+- **Respiratory malformation (score 99.84%)**: there are no clinical trials. The literature covers central control of breathing and prenatal drug exposure, which is not a therapeutic rationale.
+- **Rienhoff syndrome (score 99.83%)**: there are no trials, no literature and no mechanistic link.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

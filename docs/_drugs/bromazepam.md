@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bromazepam
-parent: Moderate Evidence (L3-L4)
-nav_order: 47
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 49
+evidence_level: L5
 indication_count: 1
 ---
 
 # Bromazepam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,47 +29,43 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Bromazepam: From Anxiolytic Use to Migraine Disorder
+# Bromazepam: From Anxiety-Related Use to Migraine Disorder
 
 ## One-Sentence Summary
 
-Bromazepam is a benzodiazepine-class drug primarily used as an anxiolytic and sedative, acting on the central nervous system to reduce anxiety and tension.
-The TxGNN model predicts it may have relevance to **Migraine Disorder**; however, the only retrieved clinical trial (1 trial, 0 publications) actually involves bromazepam as a **target of withdrawal** rather than as a treatment — making this prediction mechanistically counter-indicative.
-The overall evidence base does not support repurposing, and the recommendation is a firm **Hold**.
+Bromazepam is a benzodiazepine, but the data compiled for this report do not list an approved indication for it.
+The TxGNN model predicts it may be effective for **migraine disorder**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anxiolytic / sedative (benzodiazepine class; no Philippines registration on file) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not available in the registration record |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.06% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Bromazepam belongs to the benzodiazepine class and acts as a positive allosteric modulator of GABA-A receptors, enhancing GABAergic inhibitory neurotransmission throughout the central nervous system. In theory, GABAergic modulation has an indirect relationship with migraine pathophysiology: cortical spreading depression (CSD) — the electrophysiological basis of the migraine aura — is partly influenced by the excitation–inhibition balance, and central pain thresholds are modulated by GABAergic tone. This is the mechanistic basis on which the TxGNN model may have generated the prediction.
+Currently, detailed mechanism of action data is not available in the compiled data. Bromazepam is a benzodiazepine, a class that acts as a positive allosteric modulator of GABA-A receptors and produces anxiolytic, muscle-relaxant, and sedative effects. This class description comes from general pharmacological knowledge, not from the source record.
 
-However, the theoretical link does not translate into a supportive clinical rationale. Benzodiazepines are absent from all major migraine treatment guidelines (acute or preventive) at any line of therapy. More critically, **long-term or frequent benzodiazepine use is a well-established risk factor for Medication Overuse Headache (MOH)** — a condition that worsens migraine frequency and is difficult to reverse. The evidence actually runs in the **opposite direction**: benzodiazepines worsen migraine outcomes at the population level.
+A link to migraine would be indirect. Possible routes include reduced central hyperexcitability, fewer stress- and anxiety-related triggers, and relief of associated muscle tension. These are plausible hypotheses only, and no study in the compiled data tests them.
 
-Currently, no mechanism-of-action (MOA) data is available in the Evidence Pack. Based on known pharmacology, Bromazepam's GABAergic mechanism provides a theoretical but **counter-indicative** link to migraine disorder. The signal from the TxGNN model likely reflects network proximity in the knowledge graph rather than a genuine therapeutic opportunity.
+The TxGNN score is very high (99.06%), but it is a model output and not evidence of clinical benefit. Benzodiazepines are generally not recommended as standard preventive or acute migraine therapy because of the risks of dependence, tolerance, sedation, and medication-overuse headache.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | Phase 4 | Completed | 25 | Home-withdrawal programme combined with behavioural therapy for Medication Overuse Headache (MOH) during COVID-19. **Critical context: Bromazepam's role in this trial is most likely as one of the overused drugs being withdrawn, not as a treatment intervention.** The trial evaluates relapse rates after withdrawal, providing an indirect and inverse signal — benzodiazepine overuse contributes to MOH, and discontinuation is the therapeutic goal. |
-
-> **Note:** The single retrieved trial provides no supportive evidence for bromazepam as a migraine treatment. Its relevance grade is C (indirect/counter-indicative).
+Currently no related clinical trials registered.
 
 ---
 
@@ -79,11 +75,21 @@ Currently no related literature available.
 
 ---
 
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0057 | Bromazepam | Not specified | Not specified (registration cancelled) |
+
+The only registration is cancelled, so there is currently no valid marketed product in the Philippines.
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> No key warnings, contraindications, or drug interaction data were available in this Evidence Pack. Given that bromazepam is a Schedule IV controlled substance (benzodiazepine), known class-level concerns include dependence, tolerance, withdrawal syndrome, CNS depression, and paradoxical reactions. These concerns are particularly relevant in the context of chronic migraine patients, who are at elevated risk of medication overuse.
+No drug interactions were found in the data compiled for this report. Benzodiazepines as a class carry risks of dependence, tolerance, and sedation, and these would need careful review in any migraine development plan.
 
 ---
 
@@ -92,20 +98,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high numerical score (99.06%), but the mechanistic and clinical evidence is not only absent — it is actively counter-indicative. Bromazepam is a known contributor to Medication Overuse Headache, the only clinical trial retrieved is about *withdrawing* bromazepam in headache patients, and no published literature supports its use as a migraine treatment. The drug is also not registered in the Philippines, removing any regulatory shortcut.
+The prediction has no supporting clinical trials or publications (evidence level L5). The registration is cancelled, and the benzodiazepine class is not recommended for migraine because of dependence and medication-overuse headache risks. Together these make a practical development path unlikely at present.
 
-**To reconsider, the following would be needed:**
-
-- Prospective preclinical data (animal models of CSD or trigeminovascular activation) demonstrating that GABA-A modulation via bromazepam reduces migraine endpoints — this evidence does not currently exist
-- A mechanistic explanation for why this specific benzodiazepine would differ from the class-wide pattern of worsening headache with chronic use
-- Clarification of MOA data from DrugBank (currently a data gap) to assess whether any unique molecular target could justify differentiation from the benzodiazepine class
-- Evidence that the TxGNN knowledge graph edge driving this prediction is not confounded by co-occurrence of "benzodiazepine + headache" in MOH literature (i.e., a signal from harm, not benefit)
-
-> **Bottom line:** This candidate should not advance to safety screening (S1) at this time. The TxGNN score reflects graph topology, not biological plausibility. Reassign to the inactive watchlist.
-
----
-
-*This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application.*
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Detailed mechanism of action data (for example from DrugBank)
+- Clinical or preclinical evidence supporting use in migraine
+- A benefit-risk assessment addressing dependence and medication-overuse headache
+- Clarification of the original approved indication and the reason for registration cancellation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

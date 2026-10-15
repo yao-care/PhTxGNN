@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amoxicillin
-parent: Moderate Evidence (L3-L4)
-nav_order: 25
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 26
+evidence_level: L5
 indication_count: 8
 ---
 
 # Amoxicillin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,102 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Amoxicillin: From Bacterial Infections to Monoclonal Gammopathy
+# Amoxicillin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Amoxicillin is a broad-spectrum beta-lactam antibiotic with well-established activity against a wide range of bacterial pathogens, including *Helicobacter pylori* as part of standard eradication triple therapy.
-The TxGNN model predicts it may be effective for **Monoclonal Gammopathy** — most specifically the immunoproliferative small intestinal disease (IPSID / α-heavy chain disease) subtype — with **1 clinical trial** and **11 publications** identified in support.
-Among the 8 predicted indications in this multi-indication pack, monoclonal gammopathy carries the strongest evidence (L3) and the only actionable recommendation ("Proceed with Guardrails"), grounded in a recognised antibiotic-responsive disease mechanism codified in the WHO tumour classification.
-
----
+Amoxicillin is a beta-lactam antibiotic, originally used to treat bacterial infections such as urinary tract infection, otitis media, pneumonia and pharyngitis.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The score comes from a graph-based computation only, with no actual studies behind it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (penicillin-class antibiotic) |
-| Predicted New Indication | Monoclonal Gammopathy (IPSID subtype) |
-| TxGNN Prediction Score | 99.22% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia, staphylococcal infection, pharyngitis (the local registration record has no indication text, so this is taken from the knowledge-graph indication list) |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 99.63% |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not currently available. Amoxicillin is known to be a beta-lactam antibacterial that inhibits bacterial cell wall synthesis, and its efficacy in common bacterial infections is well established.
 
-Currently, detailed mechanism of action data is not available from this evidence pack (Data Gap DG002). Based on established pharmacology, Amoxicillin is an aminopenicillin that inhibits bacterial cell wall synthesis by covalently binding penicillin-binding proteins (PBPs), leading to bacteriolysis. Its reliable activity against *Helicobacter pylori* makes it a cornerstone of H. pylori eradication triple therapy (e.g., amoxicillin + clarithromycin + proton pump inhibitor), and this property forms the primary mechanistic bridge to its potential utility in monoclonal gammopathy.
+Polyclonal hyperviscosity syndrome, however, is driven by elevated serum immunoglobulins, not by a bacterial pathogen. No plausible mechanistic link to amoxicillin could be identified. The high score (99.63%, rank 3006) most likely reflects patterns in the knowledge graph rather than a real pharmacological relationship. The same is true of the other top-ranked predictions, such as hyperamylasemia and congenital analbuminemia, which also have no supporting studies.
 
-Immunoproliferative Small Intestinal Disease (IPSID) — also known as α-heavy chain disease or Mediterranean lymphoma — is an extranodal marginal zone B-cell lymphoma (MALT-type) of the small intestine, driven by chronic mucosal infection, particularly *Campylobacter jejuni* and potentially *H. pylori*. Sustained bacterial antigenic stimulation promotes clonal proliferation of IgA-secreting B cells that produce truncated, non-functional α-heavy chains. Critically, in **Stage A (early) disease**, prolonged antibiotic regimens — including ampicillin, tetracycline, and amoxicillin-containing H. pylori eradication protocols — can induce durable complete remission without cytotoxic chemotherapy. This is not experimental: the strategy is explicitly recognised in the WHO Classification of Tumours of Haematopoietic and Lymphoid Tissues as a standard first-line approach for Stage A IPSID.
+### Other Predicted Indications Reviewed
 
-It is essential to emphasise that this rationale applies **exclusively** to the IPSID subtype of monoclonal gammopathy. Other subtypes — MGUS, multiple myeloma, Waldenström macroglobulinaemia, and light chain amyloidosis — have entirely distinct pathophysiology unrelated to bacterial infection, and there is no mechanistic or clinical basis for antibiotic therapy in those conditions. The high TxGNN score (99.22%) most likely reflects the model's knowledge graph linking the "antibiotic" drug class node to the "monoclonal gammopathy" disease node via the IPSID subtype relationship, rather than a generalised signal across all subtypes.
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Hyperamylasemia | 99.63% | L5 | No mechanistic link, no studies |
+| 3 | Congenital analbuminemia | 99.59% | L5 | No plausible mechanism, likely a network artifact |
+| 4 | Blood group incompatibility | 99.40% | L4 | One case report of an infection complicating transplantation, indirect only |
+| 5 | Premalignant hematological system disease | 99.29% | L5 | No mechanism, no studies |
+| 6 | Monoclonal gammopathy | 99.22% | L4 | Indirect evidence only (infections in immunocompromised patients) |
+| 7 | Hematological disease associated with an acquired peripheral neuropathy | 99.14% | L5 | No mechanism, no studies |
+| 8 | Septicemic plague | 99.13% | L4 | Biologically plausible, but only laboratory and animal data; flagged as a research question |
 
----
+Septicemic plague is the only one of these with a plausible link, because *Yersinia pestis* is a Gram-negative bacterium. Even so, beta-lactams are not first-line agents for plague, and guideline-preferred drugs (aminoglycosides, fluoroquinolones, tetracyclines) have stronger support.
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials are registered for the top predicted indication, polyclonal hyperviscosity syndrome.
+
+For reference, one trial was found for a lower-ranked prediction (monoclonal gammopathy), and it does not support repurposing:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | N/A | Terminated | 351 | Oral empirical antibiotic therapy for febrile neutropenia in low-risk cancer patients: amoxicillin + ciprofloxacin vs. moxifloxacin monotherapy. Not a direct treatment trial for monoclonal gammopathy; supports the safety profile of amoxicillin in haematological malignancy patients and establishes tolerability in an immunocompromised oncology context. |
-
----
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | Not applicable | Terminated | 351 | Compared moxifloxacin alone with ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients. The population and indication differ from monoclonal gammopathy. |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|------|---------|
-| [9030995](https://pubmed.ncbi.nlm.nih.gov/9030995/) | 1996 | Case Series + Narrative Review | *Internal Medicine* (Tokyo) | Mediterranean lymphoma (IPSID) treated with antibiotics; complete remission achieved with antibiotic monotherapy, supporting the antibiotic-first strategy in early-stage IPSID — directly relevant to repurposing rationale |
-| [8988128](https://pubmed.ncbi.nlm.nih.gov/8988128/) | 1997 | Case Report | *Lancet* | Regression of IPSID following *H. pylori* eradication; demonstrates that eliminating the bacterial driver reverses B-cell clonal proliferation and tumour regression — key mechanistic evidence |
-| [20300878](https://pubmed.ncbi.nlm.nih.gov/20300878/) | 2010 | Case Report | *J Gastrointestinal Cancer* | Regression of IPSID after *H. pylori* eradication in a 20-year-old male; corroborates the infection-driven pathogenesis and antibiotic responsiveness |
-| [16253033](https://pubmed.ncbi.nlm.nih.gov/16253033/) | 2005 | Case Report | *Arch Pathol Lab Med* | Nonsecretory variant of IPSID with pathologic and molecular characterisation; broadens disease spectrum understanding, relevant for diagnosis and treatment staging |
-| [35619805](https://pubmed.ncbi.nlm.nih.gov/35619805/) | 2022 | Case Report | *Front Public Health* | Disseminated nocardiosis in a patient with macroglobulinaemia; isolated strain susceptible to amoxicillin/clavulanic acid — confirms activity and tolerability in plasma cell dyscrasia patients |
-| [22092390](https://pubmed.ncbi.nlm.nih.gov/22092390/) | 2012 | Retrospective Comparative Study | *J Oral Pathol Med* | Bisphosphonate-related osteonecrosis of the jaw (BRONJ) in multiple myeloma vs. breast cancer; amoxicillin used as adjunct antibiotic in the standardised management protocol — safety reference in myeloma patients |
-| [20015614](https://pubmed.ncbi.nlm.nih.gov/20015614/) | 2010 | Retrospective Case Series | *Int J Oral Maxillofac Surg* | Surgical management of bisphosphonate-induced ONJ not responding to conservative treatment; amoxicillin incorporated in peri-operative antibiotic coverage — additional safety evidence in haematological malignancy setting |
-| [18639371](https://pubmed.ncbi.nlm.nih.gov/18639371/) | 2009 | Retrospective Cohort | *Br J Oral Maxillofac Surg* | Bisphosphonate-associated ONJ following therapy discontinuation; amoxicillin part of supportive infection management in myeloma/metastatic cancer patients |
-| [21908119](https://pubmed.ncbi.nlm.nih.gov/21908119/) | 2011 | Case Report | *Médecine et Maladies Infectieuses* | Pneumonia caused by *Rothia dentocariosa* in a haematology patient; indirect evidence of amoxicillin use in immunocompromised haematological malignancy patients |
-| [20513124](https://pubmed.ncbi.nlm.nih.gov/20513124/) | 2010 | Retrospective Diagnostic Study | *Am J Hematol* | High false-positive rate of Aspergillus galactomannan test in multiple myeloma; antibiotic co-administration (including beta-lactams) noted as a confounding factor — contextualises antibiotic use in myeloma management |
+Currently no related literature is available for polyclonal hyperviscosity syndrome.
 
----
+The most relevant publications found for the lower-ranked prediction, septicemic plague, are listed below. They are mostly laboratory or animal studies:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8203841](https://pubmed.ncbi.nlm.nih.gov/8203841/) | 1994 | Animal study | Antimicrob Agents Chemother | Amoxicillin was active in vitro against *Yersinia pestis* and was tested alongside other antibiotics in a mouse model of systemic infection |
+| [21628541](https://pubmed.ncbi.nlm.nih.gov/21628541/) | 2011 | In vitro | Antimicrob Agents Chemother | Compared antibiotics commonly used for human plague against intracellular *Y. pestis* |
+| [3957763](https://pubmed.ncbi.nlm.nih.gov/3957763/) | 1986 | Case report | J Am Vet Med Assoc | A cat with bubonic plague was treated successfully with amoxicillin plus streptomycin |
+| [30563467](https://pubmed.ncbi.nlm.nih.gov/30563467/) | 2018 | In vitro | BMC Microbiol | Rapid susceptibility testing and beta-lactam-induced cell shape changes in threat pathogens including *Y. pestis* |
+| [35619805](https://pubmed.ncbi.nlm.nih.gov/35619805/) | 2022 | Case report | Front Public Health | Disseminated nocardiosis in a patient with macroglobulinemia; an infection in an immunocompromised host, not treatment of the underlying disease |
+| [40350274](https://pubmed.ncbi.nlm.nih.gov/40350274/) | 2025 | Case report | Rinsho Ketsueki | *Campylobacter lari* bacteremia during treatment of pure red cell aplasia after ABO-mismatched transplantation; indirect evidence only |
 
 ## Philippines Market Information
 
-Amoxicillin currently has **no registered products** in the FDA Philippines database according to this evidence pack.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0018 | Amoxicillin | Not specified | Not specified (status: cancelled) |
 
-> **Important caveat**: Amoxicillin is one of the most widely distributed generic antibiotics globally and is included on the WHO Essential Medicines List. The absence of registration records here likely reflects a data gap in the current dataset rather than actual market absence in the Philippines. Independent verification with the FDA Philippines online registry (https://www.fda.gov.ph) is strongly recommended before drawing conclusions about market availability.
-
----
+This is the only registration on record, and it is cancelled. No currently valid single-ingredient or combination registration was found.
 
 ## Safety Considerations
 
-Safety data was not available in this evidence pack (DG001: Philippine FDA labelling data gap). Please refer to the package insert for complete warnings, contraindications, and precautions.
+- **Contraindications flagged in the knowledge graph** (these are graph associations, not package insert text): long QT syndrome, torsades de pointes, ventricular tachycardia, liver failure, liver disease, cholestasis, porphyria, kidney disease, *Clostridium difficile* colitis, myasthenia gravis, osteoporosis, bone fracture, infectious mononucleosis, and others.
+- **Drug Interactions** (100 interactions recorded; examples shown):
+  - **Major**: Methotrexate; live cholera vaccine (*Vibrio cholerae* CVD 103-HgR)
+  - **Moderate**: Doxycycline, minocycline, demeclocycline, ethinylestradiol, estradiol, anisindione, dicoumarol, mycophenolate mofetil, entecavir, balsalazide, and live probiotic products
+  - **Minor**: Allopurinol, amiloride, azithromycin, clarithromycin, erythromycin
 
-Based on established class-level knowledge for aminopenicillins, the following are known considerations for clinical reference:
-
-- **Hypersensitivity**: IgE-mediated anaphylaxis and delayed hypersensitivity reactions are the most serious class risks; cross-reactivity with other beta-lactams applies
-- **Superinfection**: Prolonged courses may lead to *Clostridioides difficile*-associated diarrhoea (CDAD), which is particularly relevant in the IPSID indication where long-term antibiotic treatment is required
-- **Maculopapular rash**: Significantly elevated incidence in patients with infectious mononucleosis, lymphocytic leukaemia, or concurrent allopurinol use — relevant in haematological malignancy patients
-
----
+Please refer to the package insert for official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The IPSID (Stage A) subtype of monoclonal gammopathy has a well-characterised infection-driven pathogenesis in which amoxicillin-based antibiotic eradication of *H. pylori* / *C. jejuni* is a recognised, WHO-endorsed first-line treatment capable of inducing complete remission without chemotherapy. Observational case series and mechanistic literature (L3) support biological plausibility and provide clinical precedent, though no randomised controlled trials evaluating amoxicillin specifically for IPSID have been conducted.
+The top predicted indication, polyclonal hyperviscosity syndrome, has no clinical trials, no publications and no plausible mechanism, so the high score is not enough to justify action. Amoxicillin also has no currently valid registration in the Philippines.
 
 **To proceed, the following is needed:**
-
-- **Subtype confirmation is mandatory**: Restrict any clinical application strictly to IPSID (Stage A); MGUS, multiple myeloma, and Waldenström macroglobulinaemia subtypes do not benefit from antibiotics and should be excluded from this repurposing pathway
-- **Retrieve complete MOA data** from DrugBank (DG002 remediation) to formalise mechanism documentation
-- **Obtain Philippine FDA package insert** (DG001 remediation) for complete local warnings, contraindications, and dosage guidance
-- **Pathogen prevalence assessment**: Evaluate regional prevalence of *H. pylori* and *C. jejuni* in the Philippine target population, as treatment success rates depend directly on pathogen eradication rates
-- **Prospective registry or pragmatic trial**: Consider a registry study enrolling Stage A IPSID patients in the Philippines to document antibiotic response rates with locally available amoxicillin-based regimens
-- **Endoscopy and staging protocol**: Confirm that local diagnostic capacity (upper GI endoscopy, immunohistochemistry, α-heavy chain immunofixation) is available to accurately stage IPSID before initiating antibiotic-only therapy
+- Detailed mechanism of action data, and a credible mechanistic rationale for the predicted indication
+- Any preclinical or clinical evidence in polyclonal hyperviscosity syndrome
+- The package insert (warnings and contraindications) for safety screening
+- Clarification of the cancelled registration status if local supply is considered
+- If a lead is wanted, septicemic plague is the only prediction with a plausible link. It should be treated as a research question, and would need comparison against guideline-preferred agents.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

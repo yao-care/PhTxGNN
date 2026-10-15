@@ -2,7 +2,7 @@
 layout: default
 title: Lactulose
 parent: Model Prediction Only (L5)
-nav_order: 194
+nav_order: 196
 evidence_level: L5
 indication_count: 8
 ---
@@ -33,33 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Lactulose is a non-absorbable disaccharide with well-established use in treating hepatic encephalopathy and constipation, working by acidifying colonic contents and suppressing intestinal ammonia production.
-The TxGNN model predicts it may be effective for **Acute Urate Nephropathy**,
-however, this prediction is currently supported by **no clinical trials** and **no publications** — mechanistic analysis indicates this is likely a knowledge-graph false positive.
+Lactulose is a non-absorbable sugar originally used to treat hepatic encephalopathy, hepatic coma and constipation.
+The TxGNN model predicts it may be effective for **acute urate nephropathy**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it currently rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hepatic encephalopathy / Constipation |
-| Predicted New Indication | Acute Urate Nephropathy |
+|------|------|
+| Original Indication | Hepatic encephalopathy, hepatic coma, constipation |
+| Predicted New Indication | Acute urate nephropathy |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacological knowledge, Lactulose is a synthetic non-absorbable disaccharide. It is fermented by colonic bacteria into short-chain organic acids, which lowers the intraluminal pH. This acidification converts ammonia (NH₃) into ammonium ions (NH₄⁺), trapping them in the colon for fecal excretion. Its osmotic effect also accelerates stool transit, further reducing ammonia absorption — the basis for its use in hepatic encephalopathy. As an osmotic laxative, it draws water into the bowel to soften stool.
+Currently, detailed mechanism of action data is not available. Based on known information, lactulose is an osmotic laxative that also acidifies the gut. Its efficacy in hepatic encephalopathy and constipation is established.
 
-Acute urate nephropathy (AURN) is a distinct and largely unrelated condition, caused by the precipitation of uric acid crystals within the renal tubules, most commonly following tumor lysis syndrome from cytotoxic chemotherapy. The core pathophysiology involves massive, rapid overproduction of uric acid and its deposition in the kidney. The mechanism driving this disease — uric acid metabolism, xanthine oxidase activity, and renal tubular crystal deposition — has no known pharmacological intersection with Lactulose's gut-based, ammonia-lowering, or osmotic actions.
-
-The TxGNN model assigns a high prediction score (99.89%) to this pairing, but the repurposing rationale in the Evidence Pack explicitly identifies this as a probable false positive, attributable to the spatial proximity of renal disease nodes to Lactulose-associated nodes within the knowledge graph. In the absence of any supporting mechanistic, preclinical, or clinical evidence, this prediction should not be advanced.
+Mechanistically, however, no link to acute urate nephropathy can be supported. This condition involves uric acid precipitating in the kidney tubules, typically after tumour lysis. Lactulose has no established role in uric acid production, handling or excretion. The very high model score (99.89%) is not backed by any trial or publication. It is most likely an artefact of the knowledge-graph model rather than a real pharmacological signal, and it should not be treated as a lead without independent evidence.
 
 ---
 
@@ -77,13 +74,32 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Lactulose currently has no product registrations with the Philippine FDA. No license records are available for review.
+| Authorization Number | Product Name | Type | Status |
+|---------|------|------|-----------|
+| PNF-0275 | Lactulose | Single-ingredient | Cancelled |
+
+The only registration found has been cancelled, so no currently valid lactulose product is registered in the Philippines. Dosage form and approved indication are not recorded for this entry.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not product label text):** diabetes mellitus, diabetic ketoacidosis, appendicitis, galactosemia, glycogen storage disease, G6PD deficiency, cystinuria, glucose-galactose malabsorption.
+- **Drug Interactions:** The interaction search returned 100 entries, almost all rated Moderate. Examples:
+  - Abiraterone
+  - Tramadol
+  - Acetazolamide
+  - Hydrocortisone
+  - Salbutamol
+  - Hydrochlorothiazide
+  - Amiloride
+  - Amiodarone
+  - Arsenic trioxide
+  - Propofol
+  
+  Sodium citrate is rated Minor. Several of these drugs, such as the diuretics and corticosteroids, can cause electrolyte shifts, which matters because lactulose may also cause diarrhoea and fluid or electrolyte loss.
+
+Please refer to the package insert for warnings and further safety information. Package insert data were not available for this report.
 
 ---
 
@@ -92,13 +108,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no preclinical or clinical evidence supporting Lactulose in acute urate nephropathy, and the mechanistic analysis strongly indicates this is a knowledge-graph adjacency artifact rather than a genuine therapeutic opportunity. The drug's pharmacological profile (intestinal pH acidification, osmotic laxative action, ammonia trapping) has no demonstrated relevance to uric acid overproduction or renal tubular crystal deposition.
+The prediction has no supporting trials or literature (Evidence Level L5) and no plausible mechanism. The only local registration is cancelled.
 
 **To proceed, the following is needed:**
-- At least one preclinical study (e.g., animal model of tumor lysis syndrome–induced AURN) demonstrating a pharmacological effect of Lactulose on uric acid handling or renal tubular function
-- A plausible mechanistic hypothesis linking Lactulose to uric acid metabolism (currently absent)
-- Philippine FDA product registration as a prerequisite for any future clinical development pathway
-- Detailed MOA data from DrugBank to formally document the mechanism gap
+- Any independent evidence, such as preclinical or clinical data, linking lactulose to uric acid handling or tumour lysis-related kidney injury. Without it, this prediction should not be pursued.
+- Mechanism of action data from DrugBank.
+- The Philippine package insert, for warnings and contraindications.
+- Confirmation of whether any lactulose product is currently marketed in the Philippines.
+
+**Note on other predictions:** Among the other predictions compiled for lactulose, **obstructive jaundice** (score 99.53%, Evidence Level L3) has the strongest support. It rests on older clinical and experimental studies of lactulose reducing gut-derived endotoxaemia and postoperative renal dysfunction. One of these is a multicentre randomized study (PMID 2032107, 1991). Later reviews describe the renal-protective effect as not conclusively shown. This is better treated as a research question than as a ready candidate, and it would be a more productive direction to evaluate first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

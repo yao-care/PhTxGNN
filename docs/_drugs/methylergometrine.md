@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylergometrine
-parent: Moderate Evidence (L3-L4)
-nav_order: 227
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 229
+evidence_level: L5
 indication_count: 10
 ---
 
 # Methylergometrine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,41 +29,41 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-The data-report skill confirms I must work only from the provided JSON data without fabricating values. Since `original_indications` is empty and there are no Philippines licenses, I'll clearly note when drawing on established pharmacological knowledge. The primary repurposing candidate I'll feature is **migraine disorder** (rank #3 in TxGNN), as ranks #1 and #2 are identified as graph artefacts or pharmacologically contraindicated — migraine is the only candidate with genuine clinical literature (L3).
-
----
-
-# Methylergometrine: From Postpartum Hemorrhage to Migraine Disorder
+# Methylergometrine: From Uterotonic Use (Original Indication Not Recorded) to Hypertrichosis
 
 ## One-Sentence Summary
 
-Methylergometrine is an ergot alkaloid used in obstetrics for the prevention and treatment of postpartum hemorrhage by promoting uterine contraction.
-The TxGNN model scores **migraine disorder** at **99.84%** (rank #3 overall; selected as the highest-evidence candidate after ranks #1 and #2 were disqualified as graph artefacts or contraindicated),
-with **0 clinical trials** and **7 publications** currently supporting this direction — including two studies that directly documented its clinical use in refractory migraine.
+Methylergometrine is an ergot-derived agent with uterotonic activity. Its original approved indication is not recorded in the local registration data compiled for this report.
+The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+Evidence is limited to a computational prediction, and the top-ranked prediction has no identified mechanistic rationale.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Postpartum hemorrhage / uterine atony (obstetric use; no Philippines registration on record) |
-| Predicted New Indication | Migraine Disorder (TxGNN rank #3; top evidence-supported candidate) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Not available (the only registration has no indication text) |
+| Predicted New Indication | Hypertrichosis |
+| TxGNN Prediction Score | 99.87% |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Methylergometrine is not currently available in this evidence pack. Based on established pharmacology, Methylergometrine is an ergot alkaloid that acts as the **active metabolite of methysergide** — the drug that was the gold standard for migraine prophylaxis for several decades before it was withdrawn due to fibrotic side effects. Both compounds share the same ergoline scaffold and exert their effects primarily through serotonin receptor modulation (5-HT₂A/2C), α-adrenergic agonism, and dopamine receptor interactions in the central and peripheral nervous systems.
+Currently, detailed mechanism of action data is not available. Based on known information, methylergometrine is an ergot-derived serotonergic, adrenergic and dopaminergic agent with uterotonic activity.
 
-The connection to migraine is both mechanistic and historical. The 5-HT₂A/2C pathway is directly implicated in migraine pathophysiology — modulating cortical spreading depression, trigeminal neurovascular activation, and cranial vessel tone. Because Methylergometrine is structurally and pharmacologically one step removed from methysergide, it inherits the same receptor-level rationale that made methysergide effective. Its cranial vasoconstrictive properties also align with the acute-phase mechanism shared by ergotamine, another well-established antimigraine ergot in the same family.
+No known pathway links it to hair growth regulation. The high TxGNN score reflects network-based proximity only, and no trials or literature support it. The prediction is therefore not mechanistically supported at this stage.
 
-Two small clinical studies (PMID 23432443; PMID 19895705) tested Methylergometrine directly in migraine patients, confirming that this TxGNN prediction reflects real clinical use rather than a purely algorithmic artefact. The remaining literature anchors the broader ergot-antimigraine pharmacological context. Importantly, rank #1 (hypertrichosis) and rank #4 (Ambras type hypertrichosis) are attributed to rare-disease node over-connectivity in the knowledge graph, rank #2 (pulmonary hypertension) is mechanistically contradicted — the drug is expected to worsen that condition — and rank #9 (migraine with brainstem aura) is explicitly contraindicated due to basilar artery spasm risk.
+Other predictions for this drug point the same way:
+
+- **Pulmonary hypertension (rank 2):** Ergot alkaloids act on 5-HT2B receptors, and this activity is associated with pulmonary arterial hypertension and valvulopathy. This suggests potential harm rather than benefit.
+- **Migraine disorder (rank 3):** This is the only prediction with some indirect literature. The ergot class link is plausible, but there is no direct evidence for methylergometrine itself.
+- **Other predictions (ranks 4-10):** These include rare genetic or malformation conditions and have no plausible mechanism or evidence.
 
 ---
 
@@ -75,33 +75,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+For hypertrichosis, there is currently no related literature available.
+
+For reference, the following two publications were retrieved for the third-ranked prediction, migraine disorder. They are indirect and do not support the hypertrichosis prediction.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [23432443](https://pubmed.ncbi.nlm.nih.gov/23432443/) | 2013 | Clinical series / retrospective | *Headache* | Saper & Evans report oral methylergonovine maleate used specifically for refractory migraine and cluster headache prevention — the most direct evidence of clinical use for this indication |
-| [19895705](https://pubmed.ncbi.nlm.nih.gov/19895705/) | 2009 | Prospective observational | *Head & Face Medicine* | Pilot open-label study assessed IV methylergonovine in emergency treatment of severe migraine in female patients; preliminary efficacy signal noted |
-| [18644039](https://pubmed.ncbi.nlm.nih.gov/18644039/) | 2008 | Historical review | *Cephalalgia* | Traces the synthesis and clinical history of methysergide (parent compound of methylergometrine) in migraine; establishes the 5-HT₂ receptor mechanism as foundational to the entire drug class |
-| [10759904](https://pubmed.ncbi.nlm.nih.gov/10759904/) | 2000 | Clinical trial | *Headache* | Baclofen trial in cluster headache; lists methylergonovine maleate among documented prophylactic therapies for cluster headache, supporting its use in the wider headache spectrum |
-| [9665056](https://pubmed.ncbi.nlm.nih.gov/9665056/) | 1998 | Pharmacological study | *Circulation* | Compared coronary vasoconstrictor potential across antimigraine ergots including methylergometrine; classifies it within the antimigraine ergot family with significant vasoconstrictive activity — relevant both for efficacy and safety profiling |
-| [20419307](https://pubmed.ncbi.nlm.nih.gov/20419307/) | 2011 | Case report | *Archives of Gynecology and Obstetrics* | Postpartum cerebral angiitis case; contextualises methylergometrine's vasospastic potential as a safety signal requiring consideration when using it in migraine |
-| [5361033](https://pubmed.ncbi.nlm.nih.gov/5361033/) | 1969 | Clinical study | *Przeglad Lekarski* | Early clinical evaluation of Deseril-retard (methysergide) in idiopathic headache; historical precedent for the drug class in headache management |
+|------|-----|------|------|---------|
+| [18644039](https://pubmed.ncbi.nlm.nih.gov/18644039/) | 2008 | Review | Cephalalgia | History of methysergide (synthesized from lysergic acid) in migraine, linked to the serotonin and vasodilation theories of migraine |
+| [9665056](https://pubmed.ncbi.nlm.nih.gov/9665056/) | 1998 | Review | Circulation | Compared coronary vasoconstrictor potential of antimigraine drugs, including methysergide and its metabolite methylergometrine, because ergotamine and sumatriptan can cause angina-like symptoms |
 
 ---
 
 ## Philippines Market Information
 
-Methylergometrine is not currently registered in the Philippines. No authorizations, product listings, or dosage form data are on record (`total_licenses = 0`). Any future clinical use pathway would require a full new drug application to the Philippine FDA.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0319 | Methylergometrine | Not recorded | Not recorded (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Formal safety data (package insert warnings, contraindications, and drug-drug interaction records) were not retrievable for this evidence pack review. Please refer to the package insert for complete safety information.
+- **Contraindication signals from the knowledge graph** (drug-disease contraindication links, not package insert text): hypertension and hypertensive disorders, epilepsy, kidney disease, liver disease, gallbladder disease, pyoureter, stroke and cerebrovascular disorders, cerebral infarction, arteriosclerosis obliterans, and HELLP syndrome.
+- **Drug Interactions:** 92 interactions were identified, and the 20 listed in the compiled data include these main ones:
+  - **Major:** isometheptene, epinephrine (including ophthalmic and topical forms), ephedrine (including nasal), lorcaserin, clarithromycin
+  - **Moderate:** doxycycline, tetracycline, minocycline, aprepitant, dexamethasone, cimetidine, clotrimazole, miconazole, eluxadoline, glycerol phenylbutyrate, metreleptin, troglitazone
+- **Class-related concerns:** Ergot vasoconstriction and 5-HT2B agonism raise concerns about ischemia, valvulopathy and fibrosis. These are particularly relevant for the cardiac, pulmonary hypertension and migraine-with-brainstem-aura predictions.
 
-The available literature, however, surfaces three critical safety signals that must be considered before any clinical use in migraine:
-
-- **Vasoconstriction and cardiovascular risk**: As an ergot alkaloid, Methylergometrine can cause significant vasospasm including coronary artery constriction (PMID 9665056). Patients with cardiovascular disease, peripheral vascular disease, uncontrolled hypertension, or Raynaud's phenomenon should be excluded.
-- **⛔ Pulmonary hypertension — contraindicated**: Two case reports (PMID 26050249, PMID 18277575) document acute pulmonary hypertensive crises following Methylergometrine administration. The drug's α-adrenergic and 5-HT₂ agonism causes pulmonary vasoconstriction — it is expected to **worsen**, not treat, this condition.
-- **⛔ Migraine with brainstem aura — contraindicated**: International headache guidelines explicitly advise against vasoconstrictive ergot drugs in this migraine subtype. The risk of basilar artery spasm makes use in migraine with brainstem aura an absolute contraindication.
+Package insert warnings and contraindications were not available, so please refer to the package insert for full safety information.
 
 ---
 
@@ -110,16 +111,13 @@ The available literature, however, surfaces three critical safety signals that m
 **Decision: Hold**
 
 **Rationale:**
-Methylergometrine has biologically plausible and historically grounded activity in migraine — it is the active metabolite of methysergide, the historical gold standard for migraine prophylaxis — and at least two small clinical studies demonstrate direct use in refractory migraine patients. However, the total evidence base reaches only L3 (observational studies and retrospective series), with no registered RCTs, incomplete safety documentation, and zero Philippines market presence. The drug's potent vasoconstrictor profile also demands careful patient selection criteria before any broad clinical application.
+The prediction rests on a model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism for hypertrichosis. The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascular safety concerns.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action documentation**: Retrieve full MOA from DrugBank API (DB00353) to complete the pharmacological rationale
-- **Package insert safety review**: Download and parse Philippines or FDA/EMA package insert for complete warnings, contraindications, and DDI profile
-- **Phase 2 RCT design**: A prospective, randomised, placebo-controlled trial evaluating oral methylergonovine maleate in refractory migraine prophylaxis is needed to advance evidence from L3 to L2/L1
-- **Patient selection protocol**: Define explicit exclusion criteria — cardiovascular disease, pulmonary hypertension, migraine with brainstem aura, uncontrolled hypertension, pregnancy/postpartum within 6 weeks
-- **Philippines registration strategy**: Prepare new drug application to Philippine FDA if Phase 2 evidence is supportive; evaluate compassionate use or expanded access pathways in the interim
-- **Comparator benchmarking**: Compare efficacy and safety against current migraine prophylactics (topiramate, valproate, propranolol, CGRP monoclonal antibodies) to establish positioning
+- The mechanism of action data for methylergometrine, to test whether any link to the predicted disease exists
+- The approved indication and package insert warnings and contraindications from the Philippines registration
+- Preclinical or clinical evidence for the predicted indication; migraine is the only prediction with indirect supporting literature, but a safety review of its vasoconstrictive risk would come first
+- Confirmation of the current market and supply status, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

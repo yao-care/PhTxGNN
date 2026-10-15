@@ -2,7 +2,7 @@
 layout: default
 title: Betaxolol
 parent: Model Prediction Only (L5)
-nav_order: 41
+nav_order: 43
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,79 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Betaxolol: From Hypertension to Primary Hereditary Glaucoma
+# Betaxolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Betaxolol is a selective β1-adrenergic receptor blocker conventionally used for hypertension and open-angle glaucoma management.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-with **0 clinical trials** and **0 publications** currently identified for this specific indication — making this a purely model-driven hypothesis at this stage.
-
----
+Betaxolol is a beta-1 selective adrenergic blocker originally used for hypertension, open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indications on file in the Philippines (not marketed) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Original Indication | Hypertension, open-angle glaucoma, ocular hypertension (the Philippines licence record contains no indication text) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (Model prediction only — no clinical trials or literature identified) |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the regulatory file. However, based on the pharmacological profile captured in the evidence pack, Betaxolol is a **selective β1-adrenergic receptor antagonist** that acts on the ciliary body of the eye. By blocking β1 receptors, it suppresses adenylyl cyclase activity, reduces cyclic AMP (cAMP) synthesis, and ultimately decreases aqueous humor production by approximately 20–35% — translating into a measurable reduction in intraocular pressure (IOP). This pathway is summarised as: **β1-AR → adenylyl cyclase ↓ → cAMP ↓ → aqueous humor production ↓ → IOP ↓**.
+Currently, detailed mechanism of action data is not available. Based on known information, betaxolol is a beta-1 selective adrenergic antagonist. It is already used for open-angle glaucoma and ocular hypertension, and it lowers intraocular pressure (IOP) by reducing aqueous humour production.
 
-Primary hereditary glaucoma is a genetically defined disease driven primarily by mutations in **CYP1B1** and **MYOC** genes, which cause structural abnormalities of the trabecular meshwork and anterior chamber angle. The result is impaired aqueous drainage — not reduced production — causing IOP to climb and ultimately damaging the optic nerve. While Betaxolol's mechanism addresses the production side rather than the drainage obstruction, reducing production load still provides a clinically relevant IOP-lowering effect even when drainage is structurally impaired. The TxGNN model likely captures this shared final common pathway (elevated IOP → optic nerve injury) as a strong mechanistic link.
+Elevated IOP is also a key driver of optic neuropathy in primary hereditary glaucoma, so a plausible mechanistic link exists. However, the very high score (0.997) likely reflects the close similarity to the approved glaucoma indications in the knowledge graph rather than independent evidence.
 
-An additional dimension that strengthens this prediction is Betaxolol's partial calcium channel blocking activity, which is absent in non-selective beta-blockers such as timolol. This property may confer **direct neuroprotection** to retinal ganglion cells, a property of particular long-term value in a hereditary, progressive condition like primary hereditary glaucoma. Furthermore, its β1 selectivity reduces the risk of bronchospasm, making it comparatively safer in paediatric patients and those with respiratory comorbidities — a relevant consideration given the early-onset nature of hereditary glaucoma.
-
----
+There are also limits to how far this applies. Primary hereditary glaucoma, including congenital and juvenile forms, often involves anatomical angle abnormalities that are treated surgically. Topical beta-blockers are generally only adjunctive. In children, systemic absorption of a beta-blocker also raises safety concerns such as bradycardia and bronchospasm.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Betaxolol in primary hereditary glaucoma.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Betaxolol specifically in primary hereditary glaucoma.
-
----
+Currently no related literature available.
 
 ## Philippines Market Information
 
-Betaxolol is currently not registered or marketed in the Philippines. No authorization records are on file.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0049 | Betaxolol | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (drug–disease contraindication links, not package insert text): 
+  - Respiratory: asthma (including intrinsic and allergic asthma), pulmonary emphysema, bronchial disease
+  - Cardiac: atrioventricular block and atrioventricular dissociation
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, hypoglycaemia
+  - Neuromuscular: myasthenia gravis and neuromuscular junction disease
+  - Tumours: phaeochromocytoma and related adrenal or paraganglioma tumours
+  - Other: kidney disease, liver disease, gallbladder disease, psoriasis, anxiety and related mood disorders
+- **Drug Interactions**: The interaction screen returned 100 records; the 20 reviewed are mostly Moderate, with a few Minor. Notable Moderate interactions include:
+  - Epinephrine
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - Anticholinergics (atropine, hyoscyamine)
+  - Bupropion
+  - Morphine
+  - Acetohexamide
+  - Calcium salts
 
----
+  Minor interactions include acetylsalicylic acid, aluminium hydroxide and attapulgite.
+- Package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a very high prediction score (99.74%) and the underlying mechanistic rationale — IOP reduction through β1-receptor blockade plus potential neuroprotection — is scientifically coherent for a hereditary glaucoma indication. However, no clinical trials or publications specific to primary hereditary glaucoma were identified, placing this at Evidence Level L5. The evidence base is insufficient to support any regulatory or commercial action at this time.
+The prediction has no supporting clinical trials or publications (Evidence Level L5). The only registration in the Philippines is cancelled. The proposed indication is typically managed surgically, and paediatric systemic beta-blockade carries safety risks.
 
 **To proceed, the following is needed:**
-
-- **Literature deep-dive**: Broaden the search to include Betaxolol in paediatric glaucoma, congenital glaucoma, and CYP1B1/MYOC mutation carriers to determine whether adjacent evidence exists
-- **Mechanism of action data**: Retrieve the full DrugBank MOA entry (Data Gap DG002) to formally confirm pharmacological classification and receptor selectivity profile
-- **Package insert / safety data**: Obtain the TFDA or originator label (Data Gap DG001) to complete the safety screening required for Stage S1
-- **IOP-lowering comparator data**: Assess whether existing open-angle glaucoma trial data for Betaxolol can serve as a bridge dataset for the hereditary subtype
-- **Preclinical / genetic model evidence**: Commission a systematic literature review for Betaxolol in CYP1B1 or MYOC animal models, which could elevate this to L4 and justify a formal feasibility study
-- **Philippines regulatory pathway**: Since Betaxolol has no Philippines registration, an initial registration for the established glaucoma indication would need to precede any repurposing effort
+- Search for and assess clinical or observational evidence of betaxolol in primary hereditary glaucoma, including paediatric data
+- Obtain the package insert warnings and contraindications from DOH-FDA Philippines
+- Obtain mechanism of action data (for example from DrugBank)
+- Clarify why the registration was cancelled and whether any ophthalmic formulation is available in the Philippines
+- Develop a safety plan for paediatric and high-risk groups (asthma, cardiac conduction disorders, diabetes)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Flucytosine
 parent: Model Prediction Only (L5)
-nav_order: 143
+nav_order: 145
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,79 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Flucytosine: From Antifungal Treatment to Bone Paget Disease
+# Flucytosine: From Fungal Infection to Bone Paget Disease
 
 ## One-Sentence Summary
 
-Flucytosine (5-fluorocytosine) is an antifungal agent conventionally used for systemic fungal infections such as cryptococcal meningitis and invasive candidiasis.
-The TxGNN model assigns it a high prediction score (99.04%) for **Bone Paget Disease**,
-yet this is supported by **zero clinical trials** and **zero publications** — a classic high-score, zero-evidence pattern arising from graph-walk artifacts in the knowledge graph rather than true biological signal.
-
----
+Flucytosine is an antifungal prodrug. Fungal cytosine deaminase converts it to 5-fluorouracil, which interferes with fungal RNA and DNA synthesis.
+The TxGNN model predicts it may be effective for **bone Paget disease**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Systemic fungal infections (cryptococcosis, candidiasis) |
-| Predicted New Indication | Bone Paget Disease |
+|------|------|
+| Original Indication | Not stated in the Philippines registration data |
+| Predicted New Indication | bone Paget disease |
 | TxGNN Prediction Score | 99.04% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, flucytosine is an antifungal prodrug: fungal cytosine deaminase converts it to 5-fluorouracil (5-FU), which disrupts fungal RNA and DNA synthesis.
 
-Flucytosine exerts its antifungal effect through a highly selective, fungus-specific mechanism: it is taken up by fungal cells via cytosine permease and converted intracellularly by **fungal cytosine deaminase** into 5-fluorouracil (5-FU). 5-FU then inhibits thymidylate synthase and disrupts RNA synthesis, ultimately blocking fungal nucleic acid metabolism. Critically, **human cells do not express cytosine deaminase under normal physiological conditions**, so this conversion — and the resulting pharmacological effect — does not occur in human tissues.
+Paget disease of bone is a disorder of excessive, disorganized osteoclast-driven bone remodelling. SQSTM1 mutations and possibly viral contributions have been proposed in its development. No direct link between flucytosine's mechanism and this process can be established from the available data. The high score may reflect indirect knowledge-graph associations, such as shared neighbours among 5-FU or other pyrimidine analogues, rather than biological plausibility.
 
-Bone Paget Disease operates through an entirely different set of pathological mechanisms: osteoclast hyperactivation, RANKL/OPG signalling imbalance, aberrant NF-κB pathway activity, *SQSTM1* (p62) gene mutations, and a postulated association with paramyxovirus (measles virus nucleocapsid protein) infection. None of these pathways intersect with flucytosine's known pharmacology.
-
-The TxGNN model's high score (0.9904) most likely reflects an indirect graph-path connection through pyrimidine-metabolism nodes in the knowledge graph — a **graph-walk artifact** rather than a genuine biological signal. This is a prototypical "High-Score, Zero-Evidence" candidate and should not be interpreted as evidence of therapeutic potential in Paget disease.
-
----
+Bisphosphonates are already well-established treatment for Paget disease, so the unmet need for a repurposed agent is low. Flucytosine's toxicity (bone marrow suppression, hepatotoxicity, and accumulation in kidney impairment) and its 85 recorded drug interactions also weigh against repurposing without supporting evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Flucytosine is **not currently marketed** in the Philippines. No drug registrations or authorization numbers are on record with the FDA Philippines.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0193 | Flucytosine | Not stated | Not stated (status: cancelled) |
 
----
+The only registration is cancelled, so there is currently no valid marketed product in the Philippines.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph** (derived from drug-disease contraindication edges, not from package insert text): kidney disease, liver disease, gallbladder disease, pyoureter, potassium deficiency disease, thrombocytopenia, leukopenia, agranulocytosis, neutropenia (including several congenital and constitutional forms), and aplastic anaemia. The pattern points mainly to bone marrow suppression, liver injury and renal impairment.
+- **Drug Interactions**: 85 interactions were recorded. Examples:
+  - **Major**: Deferiprone
+  - **Moderate**: Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), aminoglycosides (kanamycin, neomycin, streptomycin), vancomycin, polymyxin B, bacitracin, pentamidine, ibuprofen, deferasirox, mesalazine, balsalazide, olsalazine, sulfasalazine, iobenguane (I-131), and strontium-89 chloride
 
-> **Note:** No TFDA/FDA Philippines package insert data, contraindication records, or drug–drug interaction data were retrievable in this evidence pack. Before any clinical consideration, full prescribing information (including known risks of bone marrow suppression and hepatotoxicity associated with flucytosine) must be reviewed from the originator's current label.
-
----
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanistic, clinical, or published evidence connecting flucytosine to bone Paget disease; the high TxGNN score is attributable to a knowledge-graph topology artifact (indirect pyrimidine-node linkage) rather than any real pharmacological activity in osteoclast or bone remodelling pathways. Proceeding with this candidate would not be scientifically justifiable at this stage.
+The prediction score is high, but there are no clinical trials or publications, and no mechanistic link to Paget disease can be supported. Established alternatives exist, the drug has significant toxicity, and its only Philippines registration is cancelled.
 
-**To revisit this candidate, the following would be needed:**
-
-- Identification of a credible mechanistic hypothesis linking flucytosine (or its metabolites) to osteoclast biology, RANKL/OPG signalling, or NF-κB pathway modulation
-- At least one published preclinical study (in vitro or in vivo bone model) demonstrating relevant activity
-- Clarification of whether the KG link is a known false-positive pattern and documentation in the model's artifact registry
-- If a hypothesis emerges: a formal safety review using the complete flucytosine prescribing information (myelosuppression, hepatotoxicity, renal dosing adjustments) before any experimental design is considered
+**To proceed, the following is needed:**
+- Mechanism of action data (e.g. from DrugBank) and a plausible biological link to Paget disease pathophysiology
+- Preclinical or other supporting evidence for bone Paget disease
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Clarification of the original approved indication and of the cancelled registration status
+- A risk-benefit assessment against bisphosphonates, including a marrow, liver and renal monitoring plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

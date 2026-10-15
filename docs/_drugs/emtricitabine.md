@@ -2,7 +2,7 @@
 layout: default
 title: Emtricitabine
 parent: Moderate Evidence (L3-L4)
-nav_order: 120
+nav_order: 122
 evidence_level: L4
 indication_count: 3
 ---
@@ -33,87 +33,83 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) and a cornerstone of combination antiretroviral therapy (cART) for human HIV infection globally. The TxGNN model's top prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)**, with only **1 veterinary study** directly supporting this direction; the 4 retrieved clinical trials are all human HIV-1 trials that were incorrectly mapped and carry no direct relevance to FIV. This candidate is currently rated **L4 (animal/preclinical evidence only)** and carries a **Hold** recommendation pending species-specific data.
-
----
+Emtricitabine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary disease.
+There are **no clinical trials** and only **1 publication** directly supporting this prediction, and the evidence is mainly preclinical.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV infection (NRTI component of combination antiretroviral therapy) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+|------|------|
+| Original Indication | HIV infectious disease, AIDS |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only (registration cancelled) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) active against HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and mechanistically it may be applicable to related lentivirus infections.
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established pharmacology, emtricitabine (FTC) is a synthetic fluorinated cytidine analogue. After intracellular phosphorylation to its active triphosphate form (FTC-TP), it acts as a competitive inhibitor of viral reverse transcriptase (RT) and causes premature termination of the growing viral DNA chain — halting viral replication at a critical enzymatic step. Its efficacy against HIV-1, HIV-2, and hepatitis B has been validated across decades of clinical use.
+Feline immunodeficiency virus (FIV) is a lentivirus that causes progressive immune dysfunction in cats, similar to HIV in humans. Because its reverse transcriptase is related to that of HIV, NRTI activity is biologically plausible.
 
-Feline Immunodeficiency Virus (FIV) and HIV are both members of the genus *Lentivirus* within family *Retroviridae*, and both cause progressive CD4⁺ T-cell depletion and immune failure. Like HIV, FIV is absolutely dependent on its reverse transcriptase for replication, which is why NRTI-based therapy is mechanistically applicable in principle. The 2023 study by Kim et al. directly tested a cART regimen including emtricitabine (40 mg/kg) in FIV-infected domestic cats, providing the first in vivo proof-of-concept in the target species.
+Some caveats apply. The only publication (2023) studied a combination antiretroviral regimen (dolutegravir, tenofovir and emtricitabine) in FIV-infected cats, so the effect of emtricitabine alone cannot be separated out. The indication is also veterinary and does not translate into a new human therapeutic opportunity. The very high TxGNN score most likely reflects the disease's similarity to HIV rather than independent evidence.
 
-That said, meaningful caveats remain: the RT amino acid sequences of FIV and HIV differ at key positions, potentially affecting drug-binding affinity. Pharmacokinetics in cats diverge substantially from humans — feline metabolism, renal handling, and volume of distribution must be independently characterized before any efficacy claim can be made. This prediction is mechanistically coherent but empirically immature.
-
----
+The second-ranked prediction, **simian immunodeficiency virus infection**, has the same score (99.92%). It is supported by many macaque studies of emtricitabine/tenofovir prophylaxis, but it is also an animal model of HIV and adds no new human indication. The third-ranked prediction, a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.92%), has no supporting trials or literature and no evident mechanistic link.
 
 ## Clinical Trial Evidence
 
-> ⚠️ **Mapping Alert**: All 4 trials below are human HIV-1 clinical trials. They contain emtricitabine as part of a combination regimen but were retrieved because the search engine matched on "emtricitabine + HIV" keywords rather than FIV-specific evidence. **None are designed for or applicable to Feline Acquired Immunodeficiency Syndrome.** They are listed solely for transparency and should carry zero evidentiary weight for this indication.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Dolutegravir + ABC/3TC vs Efavirenz/FTC/TDF (Atripla) in ART-naïve HIV-1 adults over 96 weeks — **human HIV-1 trial, not FIV-relevant** |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Phase 4 | Completed | 145 | Boosted darunavir + 3TC vs darunavir + FTC/TDF in naïve HIV-1 patients — **human HIV-1 trial, not FIV-relevant** |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs Raltegravir with dual NRTI backbone (ABC/3TC or TDF/FTC) in HIV-1 naïve adults over 96 weeks — **human HIV-1 trial, not FIV-relevant** |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Once-daily dolutegravir dose-selection study with ABC/3TC or TDF/FTC in HIV-1 naïve adults — **human HIV-1 trial, not FIV-relevant** |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Animal / Veterinary Study | *Viruses* | Evaluated pharmacokinetics and clinical outcomes of cART (**Dolutegravir 2.5 mg/kg + Tenofovir 20 mg/kg + Emtricitabine 40 mg/kg**) in FIV-infected domestic cats; assessed changes in CD4⁺/CD8⁺ T-cell immunophenotype — the only direct in vivo evidence for FTC use in FIV to date |
+|------|-----|------|------|---------|
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary study | Viruses | Evaluated the pharmacokinetics and clinical outcomes of a combination antiretroviral regimen (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats. Study type inferred from the title and abstract excerpt; the outcome for emtricitabine specifically is unclear. |
 
----
+For reference, the related simian immunodeficiency virus (SIV/SHIV) prediction has more literature, all preclinical or review:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal study | J Infect Dis | Oral emtricitabine + tenofovir alafenamide protected macaques from rectal SHIV infection |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal study | J Infect Dis | Emtricitabine/TDF prevented vaginal SHIV infection in macaques co-infected with Chlamydia and Trichomonas |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Animal study | J Infect Dis | Oral TAF/emtricitabine or TAF alone against vaginal SHIV infection in macaques |
+| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Animal study | AIDS Res Hum Retroviruses | HIV virus-like particle vaccine combined with oral PrEP prevented SHIV infection in macaques |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Virology study | J Virol | M184V resistance mutation emerged in SIV-infected macaques on lamivudine or emtricitabine; the mutant had reduced fitness |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Lessons from animal models of antiretroviral prophylaxis |
 
 ## Philippines Market Information
 
-Emtricitabine is currently **not registered** in the Philippines. No product license or authorization records are available from the FDA Philippines database.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0163 | Emtricitabine | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+The following are drawn from a drug-disease knowledge graph and are not label text. They should be verified against the official labelling:
+- **Knowledge-graph contraindication signals**: long QT syndrome, torsades de pointes, liver failure, liver disease, kidney disease, chronic hepatitis B and C virus infection, lactic acidosis, Fanconi renotubular syndrome, fatty liver disease/non-alcoholic steatohepatitis, hypophosphatemia, osteomalacia, rickets, epilepsy and several psychiatric disorders.
+- **Drug interactions**: 20 interactions were identified.
+  - **Major**: leflunomide, teriflunomide.
+  - **Moderate**: cobicistat, orlistat, naltrexone, methotrexate, interferon beta-1a/1b, peginterferon beta-1a, cladribine, clofarabine, tioguanine, epirubicin, idelalisib, cabozantinib, brentuximab vedotin, trabectedin, asparaginase, pegaspargase.
+  - **Minor**: eribulin.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Only one veterinary animal study directly supports this indication, and all 4 clinical trials retrieved were incorrectly mapped human HIV-1 studies with no bearing on FIV; the evidence base is insufficient to support any clinical, regulatory, or commercial action at this stage. Furthermore, this is a **veterinary indication** (domestic cats), which falls outside the scope of human medicine and the Philippines FDA's human drug registration pathway.
+The top prediction is a veterinary disease supported by a single combination-therapy study in cats, with no clinical trials. It offers no human repurposing opportunity beyond the already approved HIV indication. The Philippines registration is also cancelled, and package insert safety data are unavailable.
 
 **To proceed, the following is needed:**
-
-- **Species-specific studies**: Formal feline pharmacokinetic and pharmacodynamic studies to establish safe and effective FTC dosing in cats
-- **Controlled veterinary trials**: Randomized controlled trials in FIV-infected cats with defined efficacy endpoints (viral load, CD4⁺ count, clinical progression)
-- **MOA confirmation**: Retrieve emtricitabine mechanism of action data from DrugBank (DB00879) to document FIV RT binding affinity vs. HIV RT
-- **Safety data**: Drug interactions and toxicity monitoring parameters specific to the feline species
-- **Regulatory scoping**: If veterinary use is the intended pathway, engage the Bureau of Animal Industry (BAI) of the Philippines rather than FDA Philippines
-
-> 📌 **Note on Other Predicted Indications**: The TxGNN model also predicted **Simian Immunodeficiency Virus (SIV) infection** at rank 2 (score 99.92%, L3 evidence, 20 primate publications including multiple Tier 1 macaque challenge studies directly using FTC/TDF regimens — a "Research Question" recommendation). This represents the stronger preclinical evidence base, as the SHIV macaque model is an FDA-recognized platform for HIV PrEP development and mechanistically translates more directly to human clinical research. A rank 3 prediction for a neurodevelopmental disorder (L5, no evidence) is currently speculative and does not warrant further evaluation.
-
----
-
-*⚠️ Disclaimer: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+- A clear human-relevant target indication, since the top three predictions are veterinary, an animal model, or unsupported
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Confirmation of the current regulatory status in the Philippines, since the only registration is cancelled
+- If a veterinary application is pursued, full-text review of the FIV study to establish emtricitabine's specific contribution, and a veterinary regulatory pathway assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

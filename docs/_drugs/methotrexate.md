@@ -2,7 +2,7 @@
 layout: default
 title: Methotrexate
 parent: Model Prediction Only (L5)
-nav_order: 225
+nav_order: 227
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-The system prompt defines my role precisely as a drug repurposing report writer for this Evidence Pack — this is a subagent execution context. Proceeding directly with report generation.
-
----
-
-# Methotrexate: From Oncology & Autoimmune Diseases to Pulmonary Blastoma
+# Methotrexate: From Acute Lymphoblastic Leukemia to Pulmonary Blastoma
 
 ## One-Sentence Summary
 
-Methotrexate is a globally established antifolate antimetabolite with decades of proven use across multiple cancers (leukemia, lymphoma, osteosarcoma) and autoimmune diseases (rheumatoid arthritis, psoriasis), though it currently holds no marketing registration in the Philippines.
-The TxGNN model predicts it may be effective for **Pulmonary Blastoma**, achieving a prediction score of **99.45%**, yet this direction is currently supported by **no clinical trials** and **no published literature**.
-This remains a computational model-only prediction without corroborating clinical or preclinical evidence.
+Methotrexate is an established antifolate chemotherapy and immunosuppressant, used for acute lymphoblastic leukemia, lymphomas, rheumatoid arthritis and psoriasis.
+The TxGNN model predicts it may be effective for **pulmonary blastoma**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines; globally established for leukemia, lymphoma, osteosarcoma, rheumatoid arthritis, and psoriasis |
-| Predicted New Indication | Pulmonary Blastoma |
+|------|------|
+| Original Indication | Acute lymphoblastic leukemia (the Philippines registration record has no indication text, so this comes from the drug's known indications) |
+| Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Methotrexate was not retrieved in this Evidence Pack. Based on established pharmacological knowledge, Methotrexate acts as a competitive inhibitor of dihydrofolate reductase (DHFR), blocking the conversion of dihydrofolate to tetrahydrofolate. This disrupts the de novo biosynthesis of purines and thymidylate, effectively halting DNA replication in rapidly proliferating cells. This mechanism underpins its broad antitumor activity across diverse cancer types and its anti-inflammatory efficacy at lower doses via adenosine-dependent immunomodulation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methotrexate is a dihydrofolate reductase (DHFR) inhibitor. It blocks folate-dependent DNA synthesis, so it is most active against rapidly dividing cells. Its efficacy in leukemia and lymphoma is well established.
 
-Pulmonary blastoma is a rare biphasic lung malignancy containing both epithelial and mesenchymal components that histologically resemble fetal lung tissue at 16–18 weeks of gestation. In principle, MTX's DHFR inhibition could exert antiproliferative effects on the rapidly cycling embryonal-type tumor cells present in this tumor. The TxGNN knowledge graph score of 0.9945 reflects indirect connections between broad-spectrum antitumor agents and rare lung malignancies captured during model training.
-
-However, pulmonary blastoma is an exceedingly rare disease (annual incidence <1 per million), and no preclinical studies or clinical trials have specifically investigated MTX in this setting. The high prediction score reflects pattern recognition within the knowledge graph — an indirect association — rather than a direct biological or clinical signal. This prediction should be interpreted with caution and is best treated as a hypothesis-generating output.
+Pulmonary blastoma is a rare, aggressive lung tumor made of rapidly proliferating cells. In principle, an antifolate could act on it. However, the only support for this link is the high TxGNN score (0.994). There are no trials or publications specific to pulmonary blastoma, so the mechanistic argument is general and untested for this tumor.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Methotrexate in Pulmonary Blastoma.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Methotrexate in Pulmonary Blastoma.
+Currently no related literature available.
 
 ---
 
 ## Philippines Market Information
 
-Methotrexate is currently not registered with the Food and Drug Administration (FDA) Philippines. No marketing authorizations, product licenses, or approved indications are on record. This means there is no established local regulatory pathway or approved labeling to reference for this drug in the Philippines context.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0316 | Methotrexate | Not specified | Not specified (status: cancelled) |
+
+The only registration found has been cancelled, so no valid methotrexate product is currently registered in the Philippines.
 
 ---
 
 ## Cytotoxicity
 
-Methotrexate is a conventional cytotoxic chemotherapeutic agent (folate antagonist class) with well-documented antineoplastic activity.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Antifolate / Folate antagonist (not a targeted therapy or immunotherapy) |
-| Myelosuppression Risk | High — Bone marrow suppression is dose-dependent and cumulative; leukopenia, neutropenia, thrombocytopenia, and anemia are well-documented, particularly at intermediate-to-high doses (≥100 mg/m²) |
-| Emetogenicity Classification | Low to moderate — Low emetogenic potential at standard doses; increases to moderate at high-dose regimens (≥500 mg/m²) |
-| Monitoring Items | CBC with differential (weekly during induction, then periodically), serum creatinine and BUN (MTX is renally cleared; nephrotoxicity delays elimination), liver function tests (ALT, AST, albumin, bilirubin), serum MTX levels with leucovorin rescue timing (mandatory for high-dose protocols), mucositis surveillance |
-| Handling Protection | Must follow cytotoxic drug handling regulations (classified as a NIOSH Hazardous Drug, Group 1); double-glove PPE, closed-system drug transfer devices (CSTD), and biosafety cabinet preparation are required |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite, antifolate class) |
+| Myelosuppression Risk | High (leukopenia, thrombocytopenia and anemia are recognized risks; the safety data also lists these as contraindicated conditions) |
+| Emetogenicity Classification | Low to moderate (higher at high doses) |
+| Monitoring Items | CBC with differential, liver function, renal function (renal clearance is critical for methotrexate), and pulmonary symptoms |
+| Handling Protection | Must follow cytotoxic drug handling regulations. Please also refer to the package insert warnings and precautions. |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged as contraindications (from knowledge-graph associations, not label text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anemia (including macrocytic anemia), interstitial lung disease, pulmonary fibrosis, peptic and gastric ulcer, ulcerative colitis, inflammatory bowel disease, stomatitis, immune system disease, substance abuse/dependence, and pyoureter. Notably, the lung-related items (interstitial lung disease, pulmonary fibrosis) matter for a lung tumor indication.
+- **Drug Interactions:** 100 interactions were recorded, and the 20 reviewed include these major ones:
+  - Rabeprazole (Major)
+  - Amoxicillin (Major)
+  - Acetylsalicylic acid (Major)
+  
+  Moderate interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), tetracyclines (doxycycline, tetracycline), clarithromycin, amphotericin B, mesalazine, balsalazide, pioglitazone, acarbose and bupropion.
+- Label-based warnings and contraindications from the Philippines package insert were not available. Please refer to the package insert.
 
 ---
 
@@ -110,16 +112,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Pulmonary blastoma is an extremely rare malignancy (incidence <1/million/year) with zero published clinical or preclinical evidence supporting Methotrexate use; the high TxGNN score of 99.45% reflects indirect knowledge graph associations rather than any direct mechanistic or clinical signal specific to this disease.
+The prediction rests on a model score alone (L5), with no trials, no literature and no tumor-specific mechanistic evidence for pulmonary blastoma. The only Philippines registration is cancelled, and methotrexate has significant toxicity, including pulmonary toxicity.
 
 **To proceed, the following is needed:**
-- **Preclinical studies**: In vitro cytotoxicity testing of MTX against pulmonary blastoma cell lines; in vivo xenograft efficacy evaluation
-- **Mechanistic characterization**: Confirm DHFR expression levels and folate pathway dependency in pulmonary blastoma tumor biology (comparative to sensitive tumor types)
-- **Safety data retrieval**: Obtain and review the full package insert (DHFR inhibitor class warnings, contraindications, key drug-drug interactions) from DrugBank API or WHO source documents
-- **Philippines regulatory pathway**: Assess FDA Philippines registration requirements and feasibility for a drug with no current local authorization
-- **Rare tumor network linkage**: Given the disease rarity, consider engagement with international rare lung tumor registries or basket trial frameworks (e.g., NCI-MATCH, TAPISTRY) rather than a standalone disease-specific trial design
-
-> **Research Note for Context:** While pulmonary blastoma (rank 1) is the top-scored TxGNN prediction, two other predicted indications carry substantially stronger clinical evidence — **Primary Pulmonary Lymphoma** (rank 2, L3 evidence, 12 trials, 20 publications) and **Hodgkin's Lymphoma** (rank 5, L2 evidence, recommendation: *Proceed with Guardrails*) — both supported by HD-MTX containing regimens with published Phase II/III data. These may represent more actionable repurposing targets if the research team wishes to pursue the Philippines drug access agenda for Methotrexate.
+- Case reports, series or preclinical data on methotrexate in pulmonary blastoma, or a clear mechanistic rationale for this tumor
+- Detailed mechanism of action data (MOA) from a curated source
+- The Philippines package insert (warnings and contraindications) and the status of any valid methotrexate registration
+- A review of other predicted indications that have more evidence, such as Hodgkin lymphoma and rhabdomyosarcoma (both L2), which may be better candidates to pursue first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

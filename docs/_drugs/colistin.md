@@ -2,7 +2,7 @@
 layout: default
 title: Colistin
 parent: Model Prediction Only (L5)
-nav_order: 86
+nav_order: 88
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Colistin: From Multidrug-Resistant Gram-Negative Infections to Postinfectious Vasculitis
+# Colistin: From Gram-negative Infections (Escherichia coli Infection, Otitis Externa) to Postinfectious Vasculitis
 
 ## One-Sentence Summary
 
-Colistin (Polymyxin E) is a last-resort antibiotic clinically established for the treatment of serious infections caused by multidrug-resistant (MDR) Gram-negative bacteria, particularly carbapenem-resistant *Acinetobacter baumannii* and *Klebsiella pneumoniae*.
-The TxGNN model predicts it may be effective for **Postinfectious Vasculitis**, however there are currently **no clinical trials** and **no publications** supporting this direction.
-Evidence is currently classified at the lowest tier (**L5**), and the overall recommendation is **Hold**.
+Colistin is a polymyxin antibiotic, originally used for *Escherichia coli* infection and ear conditions such as otitis externa.
+The TxGNN model's top-ranked prediction is **postinfectious vasculitis**, but this prediction rests on the model score alone, with **0 clinical trials** and **0 publications** supporting it.
+The most evidence-backed candidate in the list is **sinusitis** (rank 8), with 1 case report, 1 pharmacokinetic study and several indirect or preclinical papers, but no controlled trials.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Last-line treatment for MDR Gram-negative bacterial infections (carbapenem-resistant organisms; derived from clinical context — no Philippines license on file) |
-| Predicted New Indication | Postinfectious Vasculitis |
+|------|------|
+| Original Indication | *Escherichia coli* infection, otitis externa, external ear disease (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (registration cancelled) |
+| Number of Registrations | 1 (0 valid) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacology, Colistin is a polymyxin-class cationic antibiotic that exerts its antibacterial effect by binding to the lipopolysaccharide (LPS) component of the outer membrane of Gram-negative bacteria, disrupting membrane integrity and causing cell death. It has no known direct immunomodulatory mechanism and does not target eukaryotic cells or immune complexes.
+Currently, detailed mechanism of action data is not available from the compiled data. Colistin is a polymyxin antibiotic that disrupts the outer membrane of Gram-negative bacteria. Its efficacy in Gram-negative infections is established, so it is mechanistically relevant only to diseases in which such bacteria are the cause or a key contributor.
 
-Postinfectious vasculitis is an inflammatory condition of blood vessel walls that can be triggered by bacterial infections, typically through immune complex deposition, complement activation, or persistent microbial antigen stimulation following Gram-negative bacteremia. The theoretical rationale for this TxGNN prediction is that effective eradication of the underlying Gram-negative bacterial trigger — precisely Colistin's domain of activity — could prevent or reduce the antigenic load that initiates the vasculitic cascade.
+For the top-ranked prediction, **postinfectious vasculitis**, there is no established link. These conditions are typically immune-mediated sequelae rather than active bacterial infection, so an antibacterial mechanism is unlikely to help. Colistin's known nephrotoxicity and neurotoxicity also argue against its use here.
 
-However, this mechanistic link is biologically speculative. Vasculitis is an immune-mediated disease whose pathology unfolds after the infectious trigger is already present; antibiotic therapy at the post-infectious stage has no established therapeutic role. Furthermore, Colistin carries well-documented nephrotoxicity and neurotoxicity risks, making the risk-benefit profile unfavorable for an indication with no direct supporting evidence. The high TxGNN score most likely reflects an indirect graph-path connection between "Gram-negative infection" and "vascular inflammation" nodes within the knowledge graph, rather than a genuine mechanistic or clinical signal.
+Other high-scoring predictions have similar problems:
+- **Post-bacterial disorder / post-infectious syndrome**: vague categories with no supporting data.
+- **Chagas cardiomyopathy**: caused by a protozoan, which colistin does not plausibly target.
+- **Infection-related hemolytic uremic syndrome**: antibiotics are controversial in this condition, and colistin's kidney toxicity is a major concern.
+- **Infective urethral stricture**: a structural, fibrotic problem; antibacterial action would at most address secondary infection.
+- **Paratyphoid fever**: the pathogen is Gram-negative, so an in vitro link is theoretical, but polymyxins are not standard therapy and established agents are preferred.
+
+The more plausible candidates are the **sinusitis group** (sinusitis, chronic rhinosinusitis, chronic ethmoidal sinusitis). *Pseudomonas aeruginosa* is a key pathogen in cystic fibrosis-related and refractory sinus disease, and colistin is active against it. Topical or nasal delivery is conceivable, which would also fit colistin's original use in ear infections. Rank 10 (chronic ethmoidal sinusitis) has no direct data of its own and could only be extrapolated from the broader sinusitis evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Colistin in Postinfectious Vasculitis.
+Currently no related clinical trials registered for any of the predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Colistin in Postinfectious Vasculitis.
+No literature exists for the top-ranked prediction (postinfectious vasculitis). The table below covers the most relevant indication with literature, **sinusitis** (rank 8). All evidence is indirect, case-level or preclinical.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34296343](https://pubmed.ncbi.nlm.nih.gov/34296343/) | 2022 | Review | Eur Arch Otorhinolaryngol | Review of therapeutic options for chronic rhinosinusitis in cystic fibrosis, a condition that is often refractory and recurs after surgery |
+| [25016384](https://pubmed.ncbi.nlm.nih.gov/25016384/) | 2014 | Pharmacokinetic study | J Antimicrob Chemother | Measured systemic absorption of nasally administered tobramycin and colistin (as colistin sulfomethate) in CF patients, using absorption as a surrogate for safety |
+| [19308657](https://pubmed.ncbi.nlm.nih.gov/19308657/) | 2009 | Case report | Int J Hematol | IV colistin successfully treated sinusitis, orbital cellulitis and pneumonia from multidrug-resistant *P. aeruginosa* in a leukaemia patient |
+| [27879058](https://pubmed.ncbi.nlm.nih.gov/27879058/) | 2017 | Observational (indirect) | Int Forum Allergy Rhinol | Sinus surgery improved quality of life, lung infections and lung function in primary ciliary dyskinesia |
+| [33155505](https://pubmed.ncbi.nlm.nih.gov/33155505/) | 2021 | Preclinical / delivery method | Acta Otolaryngol | Autologous fibrin sealant co-delivered with antibiotics as a topical treatment after sinus surgery in CF |
+| [24315789](https://pubmed.ncbi.nlm.nih.gov/24315789/) | 2014 | In vitro | Int J Antimicrob Agents | Colistin's bactericidal effect on *P. aeruginosa* does not depend on hydroxyl radical formation |
+| [41599109](https://pubmed.ncbi.nlm.nih.gov/41599109/) | 2025 | In vitro | Pharmaceutics | Ceragenins with ivacaftor prevented biofilm formation by rhinosinusitis bacteria (not colistin-specific) |
+
+The only literature for paratyphoid fever (rank 7) is a 1964 observational paper ([14126225](https://pubmed.ncbi.nlm.nih.gov/14126225/)) on typhoid and paratyphoid fever, which does not demonstrate colistin efficacy.
 
 ---
 
 ## Philippines Market Information
 
-Colistin is currently **not registered** with the FDA Philippines and has no authorized product licenses. There are no approved products on the Philippine market. Any clinical use would require special compassionate use authorization or import permits through the appropriate regulatory channel.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0117 | Colistin | Not specified | Not specified (registration cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related diseases (from the knowledge graph, not label text)**: kidney disease, pyoureter, herpes simplex infection, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, myasthenia gravis (including adult-onset), neuromuscular junction disease, geniculate herpes zoster, and myringitis bullosa hemorrhagica.
+- **Class concerns**: Colistin's nephrotoxicity and neurotoxicity are major concerns, especially in kidney-involving conditions such as HUS.
+- **Systemic absorption**: Nasal or topical use would require evaluation of systemic absorption.
 
-> **Note:** Colistin is broadly recognized in clinical practice for significant nephrotoxicity (acute kidney injury) and neurotoxicity (peripheral and central neurological effects). These risks are especially relevant in critically ill patients with pre-existing renal impairment. Safety data specific to the postinfectious vasculitis indication is entirely absent, which further supports a Hold decision pending basic risk characterization.
+No drug interaction data were found. Please refer to the package insert for further safety information.
 
 ---
 
@@ -94,18 +117,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite the TxGNN model assigning a high numeric score (99.91%), there is zero clinical or preclinical evidence supporting Colistin in postinfectious vasculitis (Evidence Level L5). The mechanistic connection is indirect and biologically uncertain, and Colistin's established nephrotoxic and neurotoxic profile creates an unfavorable risk-benefit ratio for pursuing this indication without foundational evidence.
+The top-ranked prediction, postinfectious vasculitis, has only a model score (L5), with no trials or literature, and no plausible mechanistic link. Colistin's nephrotoxicity and neurotoxicity add further concern. The Philippines registration is also cancelled, so there is no currently valid local product. The sinusitis group (L4, indirect evidence only) is the most credible direction and could be considered a research question rather than a candidate for adoption.
 
 **To proceed, the following is needed:**
-- Preclinical (in vitro / animal model) studies exploring Colistin's effect on immune complex-mediated or post-infectious vascular inflammation
-- Systematic literature review on antibiotic therapy in postinfectious vasculitis to establish any therapeutic precedent in the broader drug class
-- MOA data retrieval from DrugBank (DG002) to determine whether any secondary pharmacological properties of Colistin (e.g., LPS neutralization, immunomodulation) could mechanistically support this indication
-- TFDA/package insert safety review (DG001) to complete S1-level safety gating before any clinical hypothesis is formed
-- Regulatory assessment of compassionate use pathways in the Philippines for an unregistered drug in a rare indication
-
----
-
-> ⚠️ **YMYL Disclaimer:** This report is generated for **research reference purposes only** and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before therapeutic application.
+- Package insert warnings and contraindications (not available in the compiled data)
+- Mechanism of action data from DrugBank
+- For the sinusitis direction: controlled clinical studies of topical or nasal colistin, particularly in CF-related chronic rhinosinusitis with *P. aeruginosa*, plus systemic absorption and safety data
+- Confirmation of whether a topical or nasal formulation is available or could be registered in the Philippines
+- A review of the reason for registration cancellation and the current regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

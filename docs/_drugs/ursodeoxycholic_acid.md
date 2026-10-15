@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 344
+nav_order: 348
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,61 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ursodeoxycholic Acid: From Cholestatic Liver Disease to Homozygous Familial Hypercholesterolemia
+# Ursodeoxycholic Acid: From Gallstone Disease and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Ursodeoxycholic acid (UDCA) is a naturally occurring bile acid used clinically for cholestatic liver diseases such as primary biliary cholangitis (PBC) and gallstone dissolution.
-The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-however **no clinical trials** and **no publications** specifically supporting this repurposing direction were identified at this time.
+Ursodeoxycholic acid (UDCA) is a bile acid originally used for gallstone disease (cholelithiasis, cholecystolithiasis, choledocholithiasis), primary biliary cholangitis and Reynolds syndrome.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Cholestatic liver disease (primary biliary cholangitis, gallstone dissolution) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
+|------|------|
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (from the knowledge graph; no approved indication text is available from the Philippines registration) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 — Model prediction only, no actual studies |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid, 1 cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-UDCA is a hydrophilic bile acid that modulates bile composition and exerts hepatoprotective effects. Its primary mechanism involves altering the bile acid pool to reduce hepatotoxic bile acid exposure, and it has established interactions with nuclear receptors including FXR (farnesoid X receptor) and downstream signaling through the SHP axis — pathways that sit at the intersection of bile acid and cholesterol metabolism.
+Currently, detailed mechanism of action data is not available. Based on known information, UDCA is a bile acid used in hepatobiliary disease. Its efficacy in gallstone disease and primary biliary cholangitis is established, and it may act on bile acid and cholesterol handling.
 
-The theoretical bridge to HoFH lies in this bile acid–cholesterol metabolic crosstalk. UDCA may mildly suppress LDL-C through modulation of the FXR/SHP axis and by inhibiting intestinal cholesterol reabsorption. This is pharmacologically plausible in populations with functional LDL receptors, where upstream pathway modulation can influence hepatic cholesterol clearance.
+A plausible but unverified rationale is that UDCA affects cholesterol homeostasis. It may reduce intestinal cholesterol absorption, decrease hepatic cholesterol secretion into bile, and modulate bile acid synthesis and FXR signaling. This would link the original indications, which involve cholesterol and bile metabolism, to a lipid disorder.
 
-However, the critical limitation is that HoFH is defined by **biallelic loss-of-function mutations in LDLR**, leaving essentially no functional LDL receptor activity. Any benefit UDCA could theoretically exert through upstream pathway modulation becomes clinically irrelevant when the downstream effector (LDLR) is entirely absent. The high TxGNN score (0.9987) most likely reflects the topological proximity between bile acid metabolism nodes and hypercholesterolemia nodes in the underlying knowledge graph, rather than direct clinical feasibility. This is a case where graph-level connectivity does not translate to mechanistic viability.
+However, the mechanistic link is weak. HoFH is driven mainly by absent or defective LDL receptor function (LDLR, and less often APOB, PCSK9 or LDLRAP1 variants). Modulating bile acid pathways is unlikely to compensate for the lack of LDL receptor activity. The high score of 99.86% is a model output only, and the underlying graph paths are not available for review.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ursodeoxycholic acid in Homozygous Familial Hypercholesterolemia.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Ursodeoxycholic acid in Homozygous Familial Hypercholesterolemia.
+Currently no related literature available.
 
 ---
 
 ## Philippines Market Information
 
-Ursodeoxycholic acid is currently **not registered** with the Philippine FDA. No product authorizations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0503 | Ursodeoxycholic Acid | Not specified | Not specified (status: cancelled) |
+
+The only registration found is cancelled, so no valid marketing authorization currently exists in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query was completed, with 100 interactions recorded in total. The 20 retrieved entries include:
+  - **Minor**: cyclosporine, aluminum hydroxide, magaldrate
+  - **Level unclassified**: cyanocobalamin, calcitriol, folic acid, pravastatin, ramipril, lorazepam, tramadol, fluconazole, oseltamivir, erythromycin, sildenafil, pantoprazole, citalopram, moxifloxacin, nelfinavir, glimepiride, indinavir
+
+  Aluminum-containing antacids are the practical interactions to note among the minor ones, and the unclassified entries need severity review before any use.
+
+For warnings and contraindications, please refer to the package insert for safety information.
 
 ---
 
@@ -92,15 +102,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score based on knowledge graph topology, but the core pathology of HoFH — complete biallelic LDLR loss-of-function — mechanistically precludes meaningful benefit from UDCA's bile acid–cholesterol pathway modulation. With zero supporting clinical trials and zero publications, evidence is insufficient to advance this candidate.
+The prediction has a very high model score but no clinical trials or literature (L5). The mechanistic link is weak, because HoFH stems mainly from defective LDL receptors, which bile acid modulation is unlikely to correct. The only Philippines registration is cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** In vitro or in vivo studies in LDLR-null models to determine whether UDCA exerts any cholesterol-lowering effect independent of LDLR (e.g., via PCSK9 suppression, ABCG5/8 induction, or NPC1L1 inhibition)
-- **Epidemiological signal search:** Retrospective data from PBC/cholestasis patients who also carry familial hypercholesterolemia mutations, to observe whether UDCA use correlates with LDL-C changes
-- **MOA data retrieval:** Full DrugBank mechanism of action data to complete the mechanistic linkage analysis
-- **Philippines regulatory pathway:** If evidence emerges, a named-patient or compassionate-use pathway would be required given zero current local registrations
-- **Combination potential assessment:** Evaluate whether UDCA could serve as an adjunct to lomitapide or evinacumab (agents that work independently of LDLR) rather than as a standalone therapy
+- Package insert warnings and contraindications from DOH-FDA Philippines (blocking gap for safety screening)
+- Detailed mechanism of action data (MOA) from DrugBank
+- The graph paths behind the TxGNN prediction, to test whether any plausible mechanism exists
+- Preclinical or literature evidence of UDCA's effect on LDL cholesterol in familial hypercholesterolemia
+- Severity classification of the unclassified drug interactions, especially with statins such as pravastatin
+- Clarification of the registration status and available dosage forms in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

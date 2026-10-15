@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Model Prediction Only (L5)
-nav_order: 224
+nav_order: 226
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,80 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Metformin: From Type 2 Diabetes to Focal Stiff Limb Syndrome
+# Metformin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Metformin is a biguanide antidiabetic agent and the most widely prescribed first-line therapy for type 2 diabetes mellitus worldwide.
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**, a rare autoimmune neurological condition;
-however, **no clinical trials** and **no published literature** currently support this repurposing direction.
-
----
+Metformin is a widely used glucose-lowering drug, originally indicated for type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 2 diabetes mellitus (first-line biguanide antidiabetic) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus |
+| Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Metformin is a biguanide compound whose primary mechanism involves activation of AMP-activated protein kinase (AMPK). Through this pathway, it suppresses hepatic glucose production and improves peripheral insulin sensitivity—the basis for its decades-long efficacy in type 2 diabetes. Crucially, AMPK activation also inhibits mTORC1 signaling, which carries downstream immunomodulatory consequences: mTOR suppression shifts the Treg/Th17 immune balance and attenuates NF-κB-driven pro-inflammatory responses. This broader immunological footprint is likely what the TxGNN model is detecting.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, metformin activates AMPK, inhibits mitochondrial complex I, and has anti-inflammatory effects. Its efficacy in type 2 diabetes is well established.
 
-Focal stiff limb syndrome is a localized variant of stiff person syndrome (SPS), a rare autoimmune neurological disorder in which anti-GAD65 (glutamic acid decarboxylase 65) or anti-amphiphysin antibodies impair GABAergic interneuron function, producing involuntary rigidity confined to one or a few limbs. The theoretical bridge is that metformin's AMPK→mTORC1 immunomodulation could in principle reduce autoantibody-driven neuronal inhibition by reshaping the aberrant immune response.
+Focal stiff limb syndrome is a variant of the stiff-person spectrum, an autoimmune disorder involving anti-GAD65 or related antibodies and impaired GABAergic inhibition. There is no established link between metformin's mechanisms and this pathway. A possible connection is the shared GAD-autoimmunity background with diabetes, or a general immunomodulatory effect, but this is speculative and not supported by the data compiled.
 
-In practice, however, this link is highly indirect. Metformin does not act on GAD65 autoantibodies, the GABA system, or the spinal interneuron circuitry that is the actual site of pathology. Established treatments—diazepam, baclofen, IVIG, and rituximab—address the condition far more specifically. No preclinical or clinical work has explored this hypothesis. The TxGNN signal is best interpreted as a bioinformatic lead requiring biological plausibility validation before any clinical consideration.
+The model also gave an identical score (99.45%) to classic stiff person syndrome, which suggests both predictions come from shared graph neighbours rather than independent evidence.
 
----
+Other predictions in the data, all with L5 evidence and a Hold recommendation:
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Classic stiff person syndrome | 99.45% | Comorbid diabetes may explain the association; no evidence metformin treats the neurological disease |
+| 3 | Opsismodysplasia | 99.40% | INPPL1/SHIP2 loss affects PI3K/AKT and insulin signalling; plausible pathway link but untested, and paediatric safety not assessed |
+| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Diabetes is a feature, but the defect is thiamine transport and the standard treatment is thiamine |
+| 5 | Drug-induced localized lipodystrophy | 99.06% | Most mechanistically plausible (metformin has been studied in other lipodystrophies), but unvalidated here |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Metformin carries **zero product authorizations** with the Philippine FDA at the time of this report. No registration table can be generated. This is notable given that metformin is one of the most widely registered drugs globally; the absence from the Philippine registry warrants independent verification before drawing conclusions about local availability.
+Only one registration is on record, and it is cancelled. Dosage form and approved indication text are not available.
 
----
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0314 | Metformin | Cancelled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals (knowledge-graph, not label text)**: The TxGNN knowledge graph links metformin to contraindications in the following areas:
+  - Liver: liver failure, liver disease
+  - Kidney and urinary tract: kidney disease, pyoureter
+  - Digestive: pancreatitis, gallbladder disease
+  - Cardiac: congestive heart failure
+  - Endocrine: adrenocortical insufficiency, thymus gland disease, and multiple pituitary hormone deficiency conditions (hypopituitarism, growth hormone deficiency, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome, among others)
+- **Drug Interactions**: 100 interactions were found in total; the first 20 returned include:
+  - **Major**: Acetazolamide, Ethanol
+  - **Moderate**: Dolutegravir, Abemaciclib, Phenylephrine, Ranitidine, Formoterol, Pseudoephedrine, Ketorolac, Nifedipine, Epinephrine, Ibuprofen, Ethinylestradiol, Hydrocortisone, Salbutamol, Hydrochlorothiazide, Acetohexamide
+  - **Minor**: Acarbose, topical Hydrocortisone, topical Alclometasone
 
-> **⚠️ Cross-indication safety signal identified in this Evidence Pack:**
-> Among the top-5 predicted indications, **thiamine-responsive dysfunction syndrome (TRMA, rank 4)** raises a specific and serious safety concern: metformin inhibits mitochondrial respiratory chain Complex I and has been documented to reduce thiamine absorption—potentially via competitive interference at SLC19A2/SLC19A3 transporters. TRMA patients carry loss-of-function mutations in SLC19A2, meaning any further impairment of thiamine transport by metformin could be hazardous. This finding does not directly affect the focal stiff limb syndrome assessment, but it should inform the overall repurposing risk profile for metformin across rare diseases.
-
----
+Package insert warnings and contraindications for the Philippines were not obtained. Please refer to the package insert for label-based safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence level L5 means this is a computational prediction only—there are no clinical trials, observational data, or published literature connecting metformin to focal stiff limb syndrome. The mechanistic rationale (AMPK immunomodulation vs. anti-GAD65 autoimmunity) is too indirect to justify advancing without foundational preclinical validation, especially when well-established targeted therapies already exist for this indication.
+The prediction rests only on a model score, with no clinical trials or publications, and the mechanistic link to stiff-person spectrum disorders is speculative. The only Philippines registration is cancelled, and label-based safety information is missing.
 
 **To proceed, the following is needed:**
-- Retrieve metformin's full mechanism of action from DrugBank (DB00331) to confirm the AMPK→Treg/Th17 axis detail
-- Verify Philippine FDA registration status for metformin directly via the FDA Philippines eRegistration portal
-- Conduct a targeted literature search for metformin in stiff person syndrome models or anti-GAD65 autoimmune contexts (broader than the focal limb variant)
-- Evaluate preclinical evidence of AMPK activation on GABAergic interneuron function or autoantibody suppression before any clinical hypothesis generation
-- Resolve the thiamine safety concern (DG001/DG002 data gaps) before applying metformin in any mitochondrial or transporter-related rare disease context
+- Systematic literature and trial searches for metformin in stiff-person spectrum disorders
+- Mechanism of action data (e.g. from DrugBank)
+- Philippines package insert warnings and contraindications from the DOH-FDA Philippines website
+- Clarification of the current regulatory status in the Philippines, since the only registration is cancelled
+- Preclinical or mechanistic studies to test whether any plausible link exists
+- If any prediction is pursued, lipodystrophy is the most mechanistically plausible candidate to prioritise for evidence review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

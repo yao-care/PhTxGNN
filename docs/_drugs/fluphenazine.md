@@ -2,7 +2,7 @@
 layout: default
 title: Fluphenazine
 parent: Model Prediction Only (L5)
-nav_order: 150
+nav_order: 152
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluphenazine: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+# Fluphenazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Fluphenazine is a first-generation (typical) phenothiazine antipsychotic historically used for the treatment of schizophrenia and related psychotic disorders.
-The TxGNN model (rank #1) predicts a potential association with **Retinal Dystrophy with or without Extraocular Anomalies**, with **0 clinical trials** and **15 retrieved publications** — however, expert mechanistic analysis indicates this association almost certainly reflects **drug-induced toxicity rather than a therapeutic opportunity**, representing a likely knowledge graph false positive.
-The most clinically plausible candidate among all 10 predictions is **manic bipolar affective disorder** (rank #10, evidence level L4), which carries an independent literature basis.
+Fluphenazine is a phenothiazine antipsychotic used for schizophrenia and related psychotic disorders.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines; known internationally as antipsychotic for schizophrenia/psychosis |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
+|------|------|
+| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; no approved indication text is available for the local registration) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Fluphenazine is a **high-potency dopamine D2 receptor antagonist** belonging to the phenothiazine class. Its antipsychotic efficacy — mediated through blockade of mesolimbic D2 receptors — has been demonstrated over decades of clinical use in schizophrenia and related conditions.
+Detailed mechanism of action data is not available for this report. Fluphenazine is a typical, high-potency phenothiazine antipsychotic that blocks dopamine D2 receptors. Its efficacy in schizophrenia and other psychoses is well established.
 
-**However, this prediction raises a critical red flag rather than a repurposing opportunity.** Phenothiazine-class antipsychotics, most notably thioridazine, are well-established causes of **drug-induced pigmentary retinopathy**. Fluphenazine itself carries documented risk of retinal adverse effects. The co-occurrence of "retinal dystrophy" and Fluphenazine in the published literature almost certainly reflects **pharmacovigilance reporting of drug-induced harm**, not a therapeutic relationship. The TxGNN knowledge graph appears to have captured a **drug → disease (toxicity)** association and surfaced it as a potential repurposing signal.
+For retinal dystrophy, **no mechanistic link is supported**. The data show no plausible pathway from D2 antagonism to inherited retinal degeneration. The very high model score likely reflects proximity in the knowledge graph rather than a real biological relationship.
 
-In summary, rather than representing a new therapeutic direction, this prediction functions as a **safety alert**: Fluphenazine exposure carries a risk of contributing to retinal dysfunction, and this direction should not be pursued as a new indication. Any ongoing use of Fluphenazine in any indication should include ophthalmological monitoring protocols.
+Phenothiazines are also known to carry a risk of retinal toxicity (pigmentary retinopathy), mainly with thioridazine. This argues against using the drug in a retinal disease without strong supporting evidence.
 
 ---
 
@@ -71,69 +70,56 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 15 retrieved publications cover general ophthalmological topics — orbital infections, congenital eye anomalies, extraocular muscle fibrosis, inherited metabolic eye involvement, and vascular malformations. **None specifically investigates Fluphenazine as a treatment for retinal dystrophy.** Their presence in the results reflects co-occurrence of phenothiazine-related ophthalmological adverse effects in the biomedical literature, not therapeutic evidence.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | — | Int J Mol Sci | Optic nerve and retinal abnormalities in congenital fibrosis of extraocular muscles (CFEOM) linked to KIF21A/TUBB3 mutations |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Differential diagnosis and imaging of pediatric ocular pathologies including congenital and developmental lesions |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Ther Adv Ophthalmol | Eye involvement (retina, cornea, lens, extraocular muscles) across inherited metabolic disorders |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens shape and associated anterior segment dysgenesis |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome: vitreoretinal degeneration with myopia, cataract, and retinal detachment risk |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Orbital infections from sinusitis: five-stage classification and systemic predisposing conditions |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis: levator muscle fibrosis, lid lag, and associated binocular vision disturbances |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | J Neuroophthalmol | Isolated trochlear-oculomotor synkinesis in a child with congenital cranial dysinnervation disorder |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | Am J Ophthalmol | Two cases of unilateral cryptophthalmia with absent intraocular structures and associated systemic anomalies |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case Report | Optom Vis Sci | Congenital fibrosis of extraocular muscles exhibiting variable synergistic divergence or adduction |
+Currently no related literature available.
 
 ---
 
 ## Philippines Market Information
 
-Fluphenazine currently has **no registered products in the Philippines** (0 authorizations on record). No license table is available.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0201 | Fluphenazine | Cancelled |
+
+The dosage form and approved indication are not listed for this registration. There is no currently valid single-ingredient or combination registration, which limits practical availability in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge graph drug-disease associations, not label text):**
+  - Cardiac and conduction: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction, coronary thrombosis
+  - Blood disorders: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anemia (including macrocytic), hemoglobinopathy
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm, multiple system atrophy
+  - Blood pressure and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome
+  - Liver and metabolic: liver disease, gallbladder disease, hyperglycemia, obesity disorder, monogenic obesity
+  - Other: benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma
+- **Drug Interactions:** 100 interactions were identified. The two **Major** interactions are with **bupropion** and **morphine**. Examples of **Moderate** interactions:
+  - Antidiabetic agents: metformin, pioglitazone, alogliptin, acarbose, albiglutide
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+  - Anticholinergic agents: atropine, hyoscyamine
+  - Other agents: loperamide, epinephrine, amphotericin B, famotidine, lorcaserin
 
-> **Relevant safety note**: Phenothiazine-class drugs, including Fluphenazine, carry documented risk of **drug-induced retinal toxicity (pigmentary retinopathy)**. This adverse effect profile is directly relevant to the top TxGNN prediction and is a primary reason for the Hold recommendation. Ophthalmological baseline assessment and periodic monitoring are warranted for any patient on long-term Fluphenazine therapy.
+  Ascorbic acid is a **Minor** interaction.
 
----
-
-## Other Notable Predictions
-
-Among the 10 TxGNN-predicted indications evaluated, **manic bipolar affective disorder** (rank #10, TxGNN score 99.98%, evidence level L4) is the **only candidate with substantive clinical literature** (20 retrieved publications). Key highlights:
-
-- A systematic review and expert consensus ([PMID 26243837](https://pubmed.ncbi.nlm.nih.gov/26243837/), *Clin Psychopharmacol Neurosci*, 2015) supports long-acting injectable antipsychotics including fluphenazine decanoate for bipolar disorder maintenance
-- A retrospective cohort study ([PMID 39756485](https://pubmed.ncbi.nlm.nih.gov/39756485/), *J Affect Disord*, 2025) examines long-acting injectable antipsychotics during manic episodes and their impact on rehospitalization
-- Case reports ([PMID 36779113](https://pubmed.ncbi.nlm.nih.gov/36779113/), *Cureus*, 2023) document successful off-label use in bipolar disorder comorbid with substance abuse
-- A systematic review of antipsychotics in anxiety/bipolar disorder ([PMID 17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/), *J Clin Psychiatry*, 2006) provides broader class-level evidence
-- **Mechanistic rationale**: dopamine D2 antagonism in mesolimbic pathways is pharmacologically consistent with anti-manic effects; the dopamine hyperactivity hypothesis of mania directly supports D2 blockade
-
-**Limitation**: Current international guidelines (CANMAT, BAP) do not list typical antipsychotics as first-line for bipolar mania due to significantly higher risk of extrapyramidal symptoms (EPS) and tardive dyskinesia compared to second-generation antipsychotics. No Fluphenazine-specific bipolar RCT has been identified. **Recommended classification: Research Question (L4 / S1).**
+Please also refer to the package insert for full warnings and precautions.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** *(Primary prediction: Retinal Dystrophy with or without Extraocular Anomalies)*
+**Decision: Hold**
 
 **Rationale:**
-The rank #1 TxGNN prediction almost certainly represents a pharmacovigilance/adverse-effect association rather than a genuine therapeutic opportunity — phenothiazines are documented to **cause**, not treat, retinal disease, making this a knowledge graph false positive driven by drug-toxicity co-occurrence. No clinical trials exist and no literature provides therapeutic support for this direction.
+- The prediction has no clinical trials or literature behind it and no plausible mechanism. The known risk of phenothiazine retinal toxicity and the long list of knowledge-graph contraindications make the risk-benefit balance unfavorable.
+- The local registration is cancelled, so the drug is not currently available through a valid license.
 
-**To proceed with any further evaluation, the following is needed:**
+**To proceed, the following is needed:**
+- Preclinical or mechanistic data linking dopamine antagonism to the pathology of inherited retinal dystrophy
+- Detailed mechanism of action data and an ophthalmic safety assessment
+- Package insert warnings and contraindications for the Philippines
+- Clarification of the registration status and available dosage forms
 
-- Retrieve full pharmacology profile and MOA from DrugBank API (DB00623) to formally document receptor binding and toxicity mechanisms
-- Obtain the international package insert (FDA.gov or EMA) to document formal contraindications and black box / serious warnings
-- For **bipolar mania** (rank #10): conduct a structured systematic literature search specifically for Fluphenazine-focused efficacy data in bipolar disorder to determine whether evidence can be elevated from L4 to L3
-- Request a **knowledge graph audit** to distinguish treatment-type associations from adverse-effect-type associations for phenothiazine-class drugs across TxGNN retinal and ocular disease nodes — findings may improve prediction quality across multiple drugs in this class
-- If Fluphenazine use is pursued in any indication, establish **ophthalmological monitoring protocols** (baseline fundus exam, annual review) given the documented retinal toxicity risk
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application. All predictions should be reviewed by qualified clinical and regulatory professionals.
+**Note on other predictions:** Among the other predicted indications, only **manic bipolar affective disorder** (score 99.98%) has any supporting literature. It has 20 publications, mostly reviews of long-acting injectable antipsychotics, and no registered trials. It is rated L4 and is biologically plausible, since D2 blockade is a recognized approach for mania. It would be a more reasonable research question than retinal dystrophy, but it needs fluphenazine-specific data, such as fluphenazine decanoate in bipolar maintenance, before any recommendation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

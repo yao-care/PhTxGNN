@@ -2,15 +2,15 @@
 layout: default
 title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
-nav_order: 264
-evidence_level: L3
+nav_order: 267
+evidence_level: L4
 indication_count: 10
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,81 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Oxcarbazepine: From Partial-Onset Seizures to Visual Epilepsy
+# Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
 
 ## One-Sentence Summary
 
-Oxcarbazepine (OXC) is a second-generation antiepileptic drug derived from carbamazepine, clinically established for the treatment of partial-onset and secondarily generalized tonic-clonic seizures.
-The TxGNN model predicts it may be effective for **Visual Epilepsy** — a reflex epilepsy subtype triggered by visual stimuli — with **1 clinical trial** and **19 publications** currently supporting this direction.
-The mechanistic rationale is strong, as visual epilepsy falls within the focal seizure spectrum where OXC's sodium channel-blocking action has well-documented efficacy.
-
----
+Oxcarbazepine is an antiseizure medication originally used for partial (focal) epilepsy.
+The TxGNN model predicts it may be effective for **visual epilepsy** (a reflex epilepsy subtype),
+but there are currently **0 clinical trials** and only **general epilepsy literature** (16 publications, mostly reviews and guidelines) with no visual-epilepsy-specific data, so support is limited to model prediction and mechanistic plausibility.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Partial-onset and secondarily generalized tonic-clonic seizures (literature-derived; no Philippines regulatory registration on file) |
-| Predicted New Indication | Visual Epilepsy |
+|------|------|
+| Original Indication | Partial epilepsy, partial motor epilepsy (from the knowledge graph; no approved indication text is available in the Philippines licence record) |
+| Predicted New Indication | Visual epilepsy |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxcarbazepine (through its active metabolite, a monohydroxy derivative known as MHD) blocks voltage-gated sodium channels, and its efficacy in focal seizures is established.
 
-Detailed mechanism of action data is not currently available from the regulatory database. Based on published literature, however, oxcarbazepine exerts its antiepileptic effect primarily through **voltage-gated sodium channel blockade**: both OXC and its pharmacologically active metabolite, the 10-monohydroxy derivative (MHD), stabilize sodium channels in their inactivated state, limiting high-frequency repetitive neuronal firing and reducing cortical excitability (PMID 8156978). Importantly, this mechanism operates independently of the seizure trigger — whether that trigger is spontaneous or stimulus-induced.
+Visual epilepsy is a reflex/focal epilepsy subtype, so a sodium-channel mechanism is plausible. However, the retrieved literature consists of general antiseizure medication reviews and guidelines. None of it provides visual-epilepsy-specific data for oxcarbazepine, so the prediction rests mainly on the shared focal-epilepsy mechanism.
 
-Visual epilepsy (also referred to as photosensitive or visually triggered reflex epilepsy) is a subtype of focal or generalized epilepsy in which seizures are precipitated by specific visual stimuli, such as flickering lights or contrasting patterns. Pathophysiologically, it shares the same core mechanism as other focal epilepsies — sustained, abnormal neuronal depolarization — making OXC's sodium channel-blocking action directly applicable. Multiple high-quality systematic reviews confirm OXC as a first- or second-line agent for focal-onset seizures, the broader clinical category encompassing visual epilepsy (PMID 35380580, PMID 26844734).
-
-The Liceo Phase 4 observational study (NCT00855738) further demonstrated OXC's real-world effectiveness as combination therapy across a range of focal epilepsy presentations, lending indirect but clinically grounded support for its use in visually triggered focal seizure subtypes.
-
----
+Other high-scoring predictions for this drug are also seizure-related: restless legs syndrome, status epilepticus, and several reflex seizure types (micturition-, orgasm-, eating-, thinking-, startle-, audiogenic and reading-induced seizures). Most of these have only case-level, preclinical or no direct evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Phase 4 | Completed | 111 | Liceo Study (2007–2009): prospective real-world assessment of OXC as first-choice bitherapy for focal epilepsy. OXC was one of seven new AEDs evaluated; provides indirect effectiveness support for OXC across focal seizure subtypes, including visually triggered presentations |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | Systematic Review | JAMA | Comprehensive review of antiseizure medications for adults with epilepsy; identifies OXC as a clinically effective option for focal-onset seizures with a favorable tolerability profile |
-| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Narrative Review | Continuum | Current update on antiseizure medications; covers OXC pharmacokinetics, approved indications for partial seizures, and practical guidance for use in epilepsy management |
-| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | Review | Seizure | Directly examines the current role of CBZ and OXC in epilepsy management; concludes both retain significant clinical utility for focal epilepsy despite availability of newer agents |
-| [8156978](https://pubmed.ncbi.nlm.nih.gov/8156978/) | 1994 | Mechanism Review | Epilepsia | Foundational mechanistic study: OXC and MHD limit action potential firing via sodium channel blockade (IC₅₀ ~20–50 nM); establishes pharmacodynamic basis for efficacy across focal and generalized seizure types |
-| [26844734](https://pubmed.ncbi.nlm.nih.gov/26844734/) | 2016 | Review | Continuum | Detailed AED monograph covering OXC pharmacokinetics, indications for focal seizures, dosing principles, and clinical practice considerations |
-| [35429132](https://pubmed.ncbi.nlm.nih.gov/35429132/) | 2022 | RCT | CNS Neuroscience & Therapeutics | Multicenter randomized open-label trial comparing OXC vs levetiracetam as monotherapy in newly diagnosed focal epilepsy; OXC demonstrated comparable seizure-free rates with distinct adverse effect profile |
-| [37092337](https://pubmed.ncbi.nlm.nih.gov/37092337/) | 2023 | Review | Pharmacogenomics | Reviews pharmacogenomic determinants of OXC efficacy and safety (metabolic enzymes, transporters, receptor variants); essential for population-specific treatment planning in Asian patients |
-| [10530693](https://pubmed.ncbi.nlm.nih.gov/10530693/) | 1999 | Drug Review | Epilepsia | Comprehensive OXC review establishing its role as an improved CBZ analogue with reduced drug interactions; effective in partial-onset and generalized tonic-clonic seizures |
-| [11772334](https://pubmed.ncbi.nlm.nih.gov/11772334/) | 2002 | Drug Review | Expert Opinion on Pharmacotherapy | Reviews OXC efficacy as monotherapy and adjunctive therapy for partial-onset seizures; also highlights emerging evidence in trigeminal neuralgia and bipolar disorder |
-| [19445769](https://pubmed.ncbi.nlm.nih.gov/19445769/) | 2009 | Review | BMJ Clinical Evidence | Evidence-based overview of epilepsy treatment; confirms ~70% long-term remission with AED therapy; provides foundational context for focal epilepsy management principles |
+|------|-----|------|------|---------|
+| [29898971](https://pubmed.ncbi.nlm.nih.gov/29898971/) | 2018 | Guideline | Neurology | AAN/AES guideline update on newer antiepileptic drugs for new-onset epilepsy |
+| [35380580](https://pubmed.ncbi.nlm.nih.gov/35380580/) | 2022 | Review | JAMA | Review of antiseizure medications for adults with epilepsy |
+| [39899099](https://pubmed.ncbi.nlm.nih.gov/39899099/) | 2025 | Review | Continuum | Update on antiseizure medications: pharmacokinetics, indications and modes of use |
+| [33334546](https://pubmed.ncbi.nlm.nih.gov/33334546/) | 2020 | Review | Seizure | Current role of carbamazepine and oxcarbazepine in epilepsy management |
+| [11772334](https://pubmed.ncbi.nlm.nih.gov/11772334/) | 2002 | Review | Expert Opin Pharmacother | Oxcarbazepine efficacy in partial-onset seizures and trigeminal neuralgia; early signals in other neuropathic pain and bipolar disorders |
+| [1379159](https://pubmed.ncbi.nlm.nih.gov/1379159/) | 1992 | Review | Drugs | Pharmacology and therapeutic potential in epilepsy, trigeminal neuralgia and affective disorders |
+| [17560495](https://pubmed.ncbi.nlm.nih.gov/17560495/) | 2007 | Review | Pediatric Neurology | Visual adverse effects of antiepileptic drugs (visual field and colour vision abnormalities) |
+| [35431799](https://pubmed.ncbi.nlm.nih.gov/35431799/) | 2022 | Review | Front Mol Neurosci | Phenotype, treatment and prognosis of SCN2A-related epilepsy in 72 Chinese children |
 
----
+None of these publications addresses oxcarbazepine for visual epilepsy specifically.
 
 ## Philippines Market Information
 
-Oxcarbazepine currently has **no registered products in the Philippines** (0 licenses on file). There is no Philippines market information to display.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0365 | Oxcarbazepine | Not stated | Not stated (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (not label text): anxiety disorder, neurotic disorder, dysthymic disorder, impaired renal function, inappropriate ADH syndrome (SIADH), and nephrogenic syndrome of inappropriate antidiuresis.
+- **Drug Interactions**: 100 interactions were found. The ones shown were all moderate severity, including corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), vitamin D analogues (cholecalciferol, calcifediol, calcitriol), antidiabetics (pioglitazone, chlorpropamide, saxagliptin, linagliptin), omeprazole and dexlansoprazole, clarithromycin, aprepitant, morphine, dronabinol, eliglustat, and diphenoxylate/difenoxin.
+- **Other signals from the literature**: A case report describes oxcarbazepine-induced myoclonic status epilepticus in juvenile myoclonic epilepsy. Sodium-channel blockers can aggravate some generalized epilepsy types, so the epilepsy type should be confirmed before use.
 
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Visual epilepsy is a mechanistically well-aligned target for OXC: it is a focal/reflex epilepsy subtype, and OXC's sodium channel blockade has established efficacy across the focal seizure spectrum, supported by a 2022 RCT, a JAMA systematic review, and a real-world Phase 4 study. The high TxGNN score (99.95%) reinforces this pharmacological coherence. The primary limiting factor is the absence of a dedicated clinical trial for visual epilepsy specifically, and the complete lack of Philippines regulatory authorization.
+The score is high, but the evidence is at L4: no clinical trials, and the literature is general epilepsy reviews with nothing specific to visual epilepsy. The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence.
 
 **To proceed, the following is needed:**
-- Philippines regulatory submission (or named-patient / compassionate-use pathway) given zero current market authorization
-- Dedicated case series or prospective study specifically enrolling visual epilepsy patients treated with OXC
-- Serum sodium monitoring protocol (OXC-induced hyponatremia is a known class risk, particularly in elderly and female patients)
-- Pharmacogenomic screening plan for HLA allele variants (e.g., HLA-A\*31:01) associated with serious cutaneous adverse reactions in Asian populations
-- Full mechanism of action data from DrugBank to complete the regulatory dossier
-- Philippines FDA package insert with formal warnings and contraindications
+- A targeted literature search for oxcarbazepine in visual or photosensitive epilepsy, ideally with case series or controlled data
+- Detailed mechanism of action data (MOA) from DrugBank
+- The package insert (warnings and contraindications) from the DOH-FDA Philippines
+- Clarification of the licence situation (the only registration is cancelled) and available dosage forms
+- Review of the relevant safety signals, including seizure aggravation in generalized epilepsy, hyponatraemia/SIADH, and renal impairment
+- A reassessment of other candidates: status epilepticus and restless legs syndrome have case-level reports only, and the remaining reflex seizure types have little or no direct evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

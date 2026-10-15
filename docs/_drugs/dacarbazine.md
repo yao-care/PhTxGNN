@@ -2,7 +2,7 @@
 layout: default
 title: Dacarbazine
 parent: Moderate Evidence (L3-L4)
-nav_order: 91
+nav_order: 93
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,110 +29,91 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Dacarbazine: From Melanoma to Upper Aerodigestive Tract Neoplasm
+# Dacarbazine: From Hodgkin Lymphoma and Metastatic Melanoma to Upper Aerodigestive Tract Neoplasm
 
 ## One-Sentence Summary
 
-Dacarbazine (DTIC) is a triazene alkylating agent classically used in the treatment of melanoma, Hodgkin lymphoma, and soft tissue sarcomas. The TxGNN model predicts it may be effective for **upper aerodigestive tract neoplasm** (score: 99.26%), with **1 analog clinical trial** and **20 publications** currently identified to support this direction. However, direct clinical evidence for Dacarbazine itself in this indication is essentially absent, and the available trial studied a structurally related analog (Temozolomide) that was terminated early due to limited efficacy.
-
----
+Dacarbazine is an alkylating chemotherapy drug, originally used to treat Hodgkin lymphoma and metastatic melanoma.
+The TxGNN model predicts it may be effective for **upper aerodigestive tract neoplasm**,
+but **no clinical trials** are registered for this indication, and the **20 publications** compiled for this report offer only indirect, site-based support.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Melanoma, Hodgkin lymphoma, soft tissue sarcoma |
-| Predicted New Indication | Upper Aerodigestive Tract Neoplasm |
+|------|------|
+| Original Indication | Hodgkin lymphoma, metastatic melanoma (the Philippines registration record has no approved indication text) |
+| Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Dacarbazine is an alkylating agent. It is a prodrug that is activated in the body to MTIC, which methylates DNA and kills dividing tumour cells. Detailed mechanism of action data is not available in the data compiled for this report, so this explanation rests on general knowledge of the drug class.
 
-Currently, formal mechanism of action data from DrugBank is not available. Based on known pharmacology, Dacarbazine is a triazene alkylating agent that requires hepatic bioactivation via CYP1A1/CYP1A2 enzymes to generate its active metabolite, MTIC (5-(3-methyltriazen-1-yl)imidazole-4-carboxamide). MTIC methylates DNA at the O6-guanine position, causing mismatch repair (MMR) failure and triggering cancer cell apoptosis. This mechanism is identical to that of Temozolomide — both drugs converge on the same active intermediate — making existing Temozolomide clinical data structurally relevant as indirect (analog) evidence for Dacarbazine.
+The link to the predicted indication is indirect and based on anatomical site rather than disease type. Melanoma and Hodgkin lymphoma, the two original indications, can both involve the head and neck or the upper aerodigestive mucosa. Examples in the literature include mucosal melanoma and extranodal Hodgkin lymphoma at head and neck sites. Dacarbazine-containing regimens have also been reported in head and neck-region tumours such as medullary thyroid carcinoma and malignant paraganglioma. These are not true upper aerodigestive tract squamous neoplasms.
 
-Upper aerodigestive tract tumors, including head and neck squamous cell carcinomas (HNSCC), neuroendocrine tumors (medullary thyroid carcinoma, paraganglioma, esthesioneuroblastoma), and rare vascular malignancies (angiosarcoma), represent a biologically heterogeneous group that is theoretically susceptible to DNA alkylation due to rapid proliferation. Notably, small case series have documented direct use of Dacarbazine-containing regimens (CYVADIC, Dacarbazine + 5-FU) in head and neck angiosarcoma and medullary thyroid carcinoma, providing limited but direct precedent.
-
-The critical mechanistic limitation, however, lies in MGMT (O6-methylguanine-DNA methyltransferase) expression. Most HNSCC tumors demonstrate robust MGMT activity, which efficiently repairs O6-guanine alkylation damage and confers resistance to this drug class. The Phase 2 trial of Temozolomide (NCT00423150) — which enrolled only patients with confirmed MGMT promoter methylation — was terminated early, and its published results confirmed limited efficacy in this enriched population. This outcome strongly suggests that unselected HNSCC patients would respond poorly, and that MGMT biomarker screening would be essential to identify any potentially responsive subgroup.
-
----
+The very high TxGNN score is a computational prediction only. No trial or direct clinical study in this indication supports it.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Phase 2 | Terminated | 86 | Evaluated **Temozolomide** (structural analog of Dacarbazine, shared MTIC metabolite) in MGMT promoter-methylated patients with advanced aerodigestive tract cancers (head & neck, esophageal, NSCLC) and colorectal cancer. Published results (PMID 23443801, 2013) confirmed limited efficacy — the likely reason for early termination. This constitutes **analog indirect evidence** for Dacarbazine; results cannot be directly extrapolated. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Phase 2 Study | *Mol Cancer Ther* | Temozolomide in MGMT-methylated aerodigestive tract and colorectal cancers; limited response rates confirm MGMT methylation as necessary but insufficient predictor — key analog evidence for Dacarbazine |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Clinical Study | *Ann Oncol* | **Direct Dacarbazine evidence**: Dacarbazine + 5-FU combination in advanced medullary thyroid carcinoma (neuroendocrine tumor of the upper aerodigestive region); modest activity reported |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Case Series | *Gan To Kagaku Ryoho* | CYVADIC regimen (including DTIC/Dacarbazine) used in head and neck angiosarcoma; documents direct Dacarbazine use in a rare upper aerodigestive malignancy |
-| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Retrospective Cohort | *Cancer* | Hodgkin lymphoma involving extranodal and nodal head and neck sites; ABVD (containing Dacarbazine) is the standard regimen — supports Dacarbazine activity in head/neck lymphomatous disease |
-| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Review | *Transfus Apher Sci* | Hodgkin lymphoma in HIV-infected patients; head and neck involvement predominant; ABVD (Dacarbazine-containing) discussed as treatment backbone |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Case Series | *Ear Nose Throat J* | Six malignant head and neck paragangliomas reviewed for clinicopathological features, gene mutations, and treatment outcomes; highlights chemotherapy context for rare neuroendocrine upper aerodigestive tumors |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Retrospective Case Series | *Int J Radiat Oncol* | Radiotherapy outcomes in esthesioneuroblastoma (rare malignant intranasal tumor); establishes multimodal management context for rare upper aerodigestive tract malignancies |
-| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Review | *Clin Oncol* | Comprehensive review of medullary thyroid carcinoma, including Dacarbazine-based chemotherapy regimens for advanced/refractory disease |
-| [39570323](https://pubmed.ncbi.nlm.nih.gov/39570323/) | 2025 | In vitro / Preclinical | *Endocrine* | Doxorubizen (structural hybrid of doxorubicin and temozolomide) tested in anaplastic thyroid cancer cell lines; demonstrates ongoing interest in MTIC-based DNA alkylation for aggressive thyroid malignancies |
-| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Review | *Am J Clin Dermatol* | Melanoma management review; contextualizes Dacarbazine as the established single-agent alkylating standard — mechanistic reference for extrapolation to other epithelial tumors |
+No randomized trial tests dacarbazine in upper aerodigestive tract neoplasm. The most relevant items found are listed below.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | RCT (Phase 3) | JAMA Oncol | Toripalimab vs dacarbazine as first-line therapy in acral melanoma. Dacarbazine is only the comparator, and the population is not the predicted indication. |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Clinical study | Ann Oncol | Small study of dacarbazine plus 5-FU in advanced medullary thyroid cancer, a head and neck-region neuroendocrine tumour. |
+| [31621203](https://pubmed.ncbi.nlm.nih.gov/31621203/) | 2019 | Prospective observational | Cancer Med | Carbon-ion radiotherapy plus dacarbazine, nimustine and vincristine in 21 patients with head and neck mucosal melanoma. |
+| [11815960](https://pubmed.ncbi.nlm.nih.gov/11815960/) | 2002 | Preclinical | Cancer | In nude mice with medullary thyroid carcinoma xenografts, dacarbazine was the most effective single agent tested, and it was combined with radioimmunotherapy. |
+| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Cohort | Cancer | Retrospective study of Hodgkin lymphoma at head and neck sites: characteristics and outcomes. |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Cohort | Ear Nose Throat J | Six patients with head and neck malignant paragangliomas, exploring treatment options. |
+| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Review | Transfus Apher Sci | HIV-associated Hodgkin lymphoma, often with head and neck lymphadenopathy. |
+| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Review | Am J Clin Dermatol | Current management concepts in melanoma. |
+| [12845209](https://pubmed.ncbi.nlm.nih.gov/12845209/) | 2003 | Case report | Onkologie | Melanoma with mucosal metastases to the oesophagus, stomach, bladder and tonsil. |
+| [29443738](https://pubmed.ncbi.nlm.nih.gov/29443738/) | 2018 | Case report | Medicine | Hodgkin lymphoma of the tonsil misdiagnosed as tonsillar carcinoma. |
 
 ## Philippines Market Information
 
-Dacarbazine is currently **not registered or marketed in the Philippines**. No product licenses have been identified in the regulatory database.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| — | — | — | No registered products found |
-
-For clinical access, international importation or hospital-based compassionate use/special access programs would be required prior to any investigational or standard-of-care use.
-
----
+| PNF-0125 | Dacarbazine | Not recorded | Not recorded (status: cancelled) |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Triazene alkylating agent (shares MTIC metabolite with Temozolomide) |
-| Myelosuppression Risk | High — leukopenia and thrombocytopenia are dose-limiting toxicities; nadir typically occurs at 3–4 weeks post-administration |
-| Emetogenicity Classification | High — Dacarbazine is classified as a highly emetogenic agent; prophylactic antiemetic regimen (5-HT₃ antagonist + NK1 receptor antagonist + dexamethasone) is mandatory |
-| Monitoring Items | CBC with differential (baseline and at nadir), liver function tests (ALT, AST, bilirubin — hepatotoxicity risk), renal function (creatinine, BUN), infusion site assessment (vesicant/irritant potential) |
-| Handling Protection | Classified as a hazardous drug — must comply with cytotoxic handling regulations: closed-system drug transfer devices (CSTD), biological safety cabinet preparation, PPE (double gloves, gown, eye protection), and dedicated waste disposal |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
+| Myelosuppression Risk | High. The knowledge graph lists leukopenia, thrombocytopenia and anaemia as contraindication-related conditions. |
+| Emetogenicity Classification | High, based on the usual classification of dacarbazine. Please confirm against the package insert. |
+| Monitoring Items | CBC with differential, liver function (including signs of hepatic vein thrombosis) and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions (knowledge graph, not label text)**: The knowledge graph links dacarbazine with contraindication edges to kidney disease, liver disease, gallbladder disease, pyoureter, thrombocytopenia, anaemia (including macrocytic anaemia), leukopenia, hepatic vein thrombosis and Budd-Chiari syndrome.
+- **Drug Interactions**: The query returned 100 interactions in total. The only graded ones among those listed are **Naltrexone (Moderate)** and **Levofloxacin (Minor)**. Many other entries have no assigned severity, including pantoprazole, omeprazole, morphine, metformin, prednisone, simvastatin, vancomycin, aprepitant, ondansetron and palonosetron.
 
-> **Data Gap Notice**: Formal TFDA/FDA Philippines package insert warnings, contraindications, and drug interaction data were not retrieved in this evidence pack. Acquisition of the official prescribing information is classified as a **Blocking** data gap (DG001) that must be resolved before any safety assessment can be completed.
-
----
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.26%) and mechanistic plausibility exists through shared MTIC-mediated DNA alkylation, the only identified clinical trial studied an analog drug (Temozolomide) that was terminated early due to limited efficacy. The high MGMT expression characteristic of most upper aerodigestive tract tumors represents a fundamental pharmacological barrier, and direct clinical evidence for Dacarbazine itself in this indication is absent.
+The prediction rests on a computational score alone. There are no clinical trials in this indication, and the literature only indirectly links dacarbazine to head and neck-region tumours. The only Philippines registration is cancelled, and the package insert safety data is unavailable, which blocks safety screening.
 
 **To proceed, the following is needed:**
-
-- **Resolve Blocking data gap (DG001)**: Retrieve the official Dacarbazine prescribing information (TFDA, EMA, or FDA) to extract confirmed warnings, contraindications, and drug interactions — required before any S1 safety evaluation
-- **Resolve High data gap (DG002)**: Query DrugBank (DB00851) for full MOA, molecular targets, pharmacokinetics, and enzyme interaction data
-- **Identify direct Dacarbazine evidence**: Conduct a targeted literature search for clinical studies specifically using Dacarbazine (not Temozolomide) in head, neck, or upper aerodigestive tract tumors beyond the two small case series identified here
-- **MGMT landscape analysis**: Review MGMT promoter methylation frequency in upper aerodigestive tract neoplasm subtypes to identify which histologies may harbor a dacarbazine-sensitive subpopulation
-- **Regulatory feasibility assessment**: Clarify the registration and special access pathway for Dacarbazine in the Philippines given its current non-marketed status
-- **Subtype specificity**: Distinguish between HNSCC (likely resistant) and neuroendocrine subtypes (medullary thyroid carcinoma, paraganglioma, esthesioneuroblastoma) where Dacarbazine-containing regimens have existing precedent and may warrant a separate, more favorable evaluation
+- Package insert warnings and contraindications from the DOH-FDA Philippines website
+- Mechanism of action data from DrugBank
+- Disease-specific evidence in upper aerodigestive tract neoplasm, such as preclinical or early clinical studies
+- Clarification of which disease subtypes (for example squamous carcinoma versus mucosal melanoma) the prediction covers
+- Confirmation of the local regulatory pathway, since the existing registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

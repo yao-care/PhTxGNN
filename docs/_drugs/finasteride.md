@@ -2,7 +2,7 @@
 layout: default
 title: Finasteride
 parent: Model Prediction Only (L5)
-nav_order: 141
+nav_order: 143
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,82 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Finasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
 
 ## One-Sentence Summary
 
-Finasteride is a 5-alpha reductase inhibitor approved globally for treating benign prostatic hyperplasia (BPH) and androgenetic alopecia, though it holds no current Philippines registration.
-The TxGNN model ranks **Ambras Type Hypertrichosis Universalis Congenita** as its top predicted new indication, with a near-perfect score of 99.994%.
-However, **zero clinical trials and zero publications** support this specific direction — the evidence level is L5 (model prediction only).
-
----
+Finasteride was originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **hypertrichosis** (the highest-ranked prediction with any literature support), but there are **0 clinical trials** and only **4 indirect publications** (narrative reviews and a methods paper), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign prostatic hyperplasia (BPH); androgenetic alopecia (globally recognized; no Philippines registration on record) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.994% |
-| Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Benign prostatic hyperplasia |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita (top-ranked prediction); hypertrichosis is the best-supported alternative |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 (L4 for hypertrichosis) |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrievable from this Evidence Pack. Based on established pharmacology, Finasteride is a selective, competitive inhibitor of type II 5-alpha reductase — the enzyme responsible for converting testosterone into dihydrotestosterone (DHT), a more potent androgen. By suppressing DHT levels by approximately 65–70% in plasma and prostate tissue, Finasteride interrupts androgen signaling in DHT-dependent tissues, most notably the prostate and androgen-sensitive hair follicles. This is why it is effective in BPH (where DHT drives prostate enlargement) and androgenetic alopecia (where DHT miniaturizes hair follicles in genetically predisposed individuals).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, finasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and it is also used in androgenetic alopecia.
 
-Ambras Syndrome (Hypertrichosis Universalis Congenita, Ambras type), however, is a fundamentally different biological entity. It results from chromosomal rearrangements at 8q22–q24, leading to near-universal hair overgrowth regardless of androgen status. The pathological mechanism is structural and genetic — not androgen-dependent — meaning that suppressing DHT has no theoretical basis for correcting the underlying follicular dysregulation. Unlike androgenetic alopecia, where DHT is the causal driver, Ambras syndrome hair follicles are not responding to androgen excess or hypersensitivity.
+The top-ranked prediction, Ambras type hypertrichosis universalis congenita, is a congenital condition linked to genomic rearrangements affecting TRPS1 regulation. Its hair overgrowth is not clearly androgen-driven, so a mechanistic link is speculative. The prediction likely reflects graph proximity to other hair-related phenotypes.
 
-The near-perfect TxGNN score (99.994%) almost certainly reflects a **graph proximity artifact**: Finasteride and Ambras syndrome share "hair follicle" and "hair growth" nodes within the knowledge graph, creating a spuriously high association score despite the absence of mechanistic plausibility. This pattern — high model score, zero supporting evidence, weak mechanistic link — is the hallmark of a false positive in graph-based drug repurposing and warrants a Hold decision rather than further investment.
+Hypertrichosis is by definition androgen-independent hair growth, so a DHT-lowering mechanism has limited rationale. Finasteride is more relevant to hirsutism, which is androgen-dependent. The other predictions are weaker still:
 
----
+- Malformation syndrome with odontal and/or periodontal component: no clear rationale; likely a graph artifact.
+- Syndrome with Dandy-Walker malformation: no plausible mechanism, and finasteride's teratogenic concerns (effects on male fetal genital development) argue against developmental-disorder use.
+- Isolated genetic hair shaft abnormality: structural defects are generally not DHT-dependent.
+- Familial isolated trichomegaly (score 99.15%): no established androgen-dependent mechanism.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+The following publications were retrieved for hypertrichosis. None is a trial of finasteride in hypertrichosis, so the evidence is indirect.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12223963](https://pubmed.ncbi.nlm.nih.gov/12223963/) | 2002 | Review | Annales de dermatologie et de venereologie | Hypertrichosis is hair growth in non-androgen-dependent areas; causes include drugs (minoxidil, ciclosporine, diazoxide, glucocorticoids), metabolic, nutritional and paraneoplastic factors. Hormone monitoring is not needed, unlike in hirsutism. |
+| [10330884](https://pubmed.ncbi.nlm.nih.gov/10330884/) | 1999 | Review | Therapeutische Umschau | Reviews new treatments for androgenetic alopecia and hirsutism, including oral treatment of male pattern hair loss. |
+| [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Der Hautarzt | Notes finasteride for male pattern hair loss and laser-assisted hair removal for hypertrichosis and hirsutism. |
+| [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | Methods/Technical report | Der Hautarzt | Describes TrichoScan, a digital hair analysis tool for monitoring hair loss and treatment response. |
 
 ## Philippines Market Information
 
-Finasteride holds **no current product authorizations** with the Food and Drug Administration of the Philippines (FDA Philippines). No registered licenses, brand names, or approved indications are on record as of the data cutoff date (2026-04-05).
-
-This is a significant regulatory gap: any future clinical development or marketing application in the Philippines would need to begin from a pre-registration baseline.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0191 | Finasteride | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: liver disease and gallbladder disease.
+- **Drug Interactions**: 100 potential interactions were identified in the DDI database, but all listed entries have an unclassified severity level. Examples include calcitriol, doxycycline, clotrimazole, dolasetron, dicyclomine, famotidine, acetylsalicylic acid, amoxicillin, bupropion, pantoprazole, glimepiride, metformin, omeprazole, morphine and rosiglitazone. Clinical significance has not been established.
+- **Other**: Teratogenic concerns (effects on male fetal genital development) have been noted in relation to developmental-disorder indications.
 
-> ⚠️ **Note on data gaps**: This Evidence Pack was generated with two blocking gaps — the Philippines FDA package insert (including warnings and contraindications) and the formal DrugBank mechanism of action record — were not retrieved. A complete safety review cannot be performed until these are resolved. Known class-level safety signals for 5-alpha reductase inhibitors (e.g., sexual dysfunction, teratogenicity in male fetuses, potential mood effects) should be reviewed from the originator label before any clinical consideration.
-
----
+Please refer to the package insert for further safety information, including key warnings.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's top-ranked prediction for Finasteride — Ambras Type Hypertrichosis Universalis Congenita — is almost certainly a knowledge graph artifact driven by shared hair-follicle nodes, not a genuine therapeutic signal. The condition is caused by chromosomal rearrangement (8q22–q24), which is structurally and mechanistically incompatible with Finasteride's DHT-suppression mechanism. No clinical trial, published case report, or preclinical study supports this repurposing direction, placing it squarely at evidence level L5.
+The TxGNN scores are very high, but there are no clinical trials, and the only literature is indirect. Hypertrichosis is androgen-independent, so the DHT-lowering mechanism has limited rationale. The Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic justification**: A credible biological hypothesis explaining how DHT reduction could modify a chromosomally-driven hair disorder — none currently exists
-- **Any supporting evidence**: At minimum, a published case report or in vitro study demonstrating activity in Ambras syndrome or a closely related model
-- **Philippines regulatory pathway**: Finasteride is not registered in the Philippines; a baseline registration (likely for BPH or alopecia) would need to be established before any new indication could be pursued
-- **Safety data package**: Retrieve the TFDA or FDA Philippines package insert to complete the warnings, contraindications, and drug interaction review (currently blocking safety assessment)
-- **Reassessment of lower-ranked predictions**: Rank 2 (Hypertrichosis, general) has marginally more mechanistic plausibility and some indirect literature, though still rated Hold — this may be a more productive starting point if the hair-loss repurposing angle is of interest
+- Mechanism of action data from DrugBank
+- Philippines package insert warnings and contraindications (a blocking gap for safety screening)
+- Direct clinical or preclinical evidence of finasteride in hypertrichosis or the other predicted conditions
+- Clarification of the current Philippines regulatory status, since the only registration is cancelled
+- Review of the ~100 drug interactions for severity, since all are currently unclassified
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

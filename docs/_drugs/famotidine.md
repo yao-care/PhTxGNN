@@ -2,15 +2,15 @@
 layout: default
 title: Famotidine
 parent: Moderate Evidence (L3-L4)
-nav_order: 135
-evidence_level: L3
+nav_order: 137
+evidence_level: L4
 indication_count: 10
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,88 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Famotidine: From Peptic Ulcer Disease to Duodenogastric Reflux
+# Famotidine: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Famotidine is a potent, highly selective histamine H2-receptor antagonist widely recognized for suppressing gastric acid secretion and treating peptic ulcer disease across global markets.
-The TxGNN model predicts it may also be effective for **Duodenogastric Reflux**, with **0 clinical trials** and **2 publications** currently supporting this specific direction.
-It is worth noting that broader acid-related conditions within the same evidence pack—such as peptic ulcer disease (rank 8) and active peptic ulcer disease (rank 3)—carry substantially stronger L1–L2 evidence with up to 14 clinical trials and 20 publications, suggesting famotidine's repurposing value lies predominantly in established acid-peptic disease management rather than novel mechanisms.
+Famotidine is an H2-receptor blocker that reduces stomach acid. It was originally used for gastric and duodenal ulcers, gastroesophageal reflux disease (GERD) and related acid disorders.
+The TxGNN model predicts it may help with **duodenogastric reflux**, but only **0 clinical trials** and **2 publications** currently support this direction, and neither reports a confirmed benefit.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines FDA registration on record |
-| Predicted New Indication | Duodenogastric Reflux |
+|------|------|
+| Original Indication | Gastric ulcer, gastroesophageal reflux disease, esophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (the Philippines licence record has no indication text, so these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank query included in this evidence pack. Based on established pharmacological knowledge, Famotidine is a highly selective competitive antagonist of histamine H2 receptors on gastric parietal cells. By blocking H2-mediated signaling, it suppresses both basal and histamine-stimulated gastric acid secretion by approximately 65–70%, with the most pronounced effect on nocturnal acid output. A single 40 mg bedtime dose maintains intragastric pH above 3.5 for roughly 10–12 hours—an acid-suppressing profile that underpins its widespread clinical use across multiple acid-peptic conditions.
+Famotidine blocks histamine H2 receptors on stomach parietal cells and so lowers gastric acid secretion. Detailed mechanism data were not available in the data compiled for this report, but this is the well-established action of the drug class.
 
-Duodenogastric reflux (DGR) involves retrograde flow of duodenal contents—primarily bile acids, lysolecithin, and pancreatic enzymes—from the duodenum into the stomach. While bile acids are themselves non-acidic, their cytotoxic effect on gastric mucosa is significantly amplified in an acidic environment, where they convert to more membrane-permeable forms capable of disrupting the mucosal barrier. By elevating intragastric pH, Famotidine could theoretically reduce bile acid toxicity and limit mucosal damage caused by mixed (acid + bile) refluxate. This is particularly relevant in critically ill patients experiencing duodeno-gastro-esophageal reflux (DGER), where famotidine has been evaluated (PMID 12532466).
+Duodenogastric reflux is the backflow of duodenal contents (including bile) into the stomach. It is close to the drug's original indications, GERD and esophagitis, where acid-related mucosal injury is also a problem. Reducing acid may ease symptoms and acid-related damage in reflux conditions.
 
-However, the mechanistic overlap is partial rather than complete. H2-receptor antagonists do not address the root cause of DGR—impaired pyloric sphincter function and disordered gastroduodenal motility—nor do they neutralize bile acids directly. Famotidine's utility is therefore plausible for acid-amplified DGR but insufficient for pure bile reflux, which requires motility-modifying or bile-sequestering strategies.
+There is an important limitation. Bile reflux is not mainly driven by acid, so any benefit is probably limited to symptom relief and acid-related injury, not to stopping the reflux itself.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for duodenogastric reflux.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Clinical Observational Study | World Journal of Gastroenterology | Investigated famotidine's effect on GER and DGER in critically ill patients; explored possible mechanisms and identified factors associated with reflux severity |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Clinical Study | Experimental & Clinical Gastroenterology | Evaluated famotidine 20 mg BID for early-stage gastroduodenal reflux disease (grades 0–1 on the modified Savary-Miller scale) via clinical and endoscopic assessment |
+|------|-----|------|------|---------|
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12535466/) | 2003 | Clinical study | World J Gastroenterol | Examined the effect of famotidine on gastroesophageal and duodeno-gastro-esophageal reflux in critically ill patients, including possible mechanisms and related factors. The available abstract does not state the results. |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Clinical study / review | Eksp Klin Gastroenterol | Evaluated famotidine 20 mg twice daily in early-stage gastroduodenal reflux disease, using clinical and endoscopic assessment. The available abstract does not state the results. |
 
 ---
 
 ## Philippines Market Information
 
-Famotidine currently has no products registered with the FDA Philippines. There are no valid authorization records on file.
+| Authorization Number | Product Name | Kind | Status |
+|---------|------|------|-----------|
+| PNF-0185 | Famotidine | Single-ingredient | Cancelled |
+
+No dosage form or approved indication text is recorded for this registration.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related disease associations (from the knowledge graph, not label text):** The TxGNN knowledge graph links famotidine to many conditions, including kidney disease and impaired renal function, liver disease, gallbladder disease, nephrolithiasis, hypercalcemia, hyperparathyroidism, sarcoidosis, diarrheal disease, constipation, and gastric cancer or neoplasm. These associations need clinical verification against the official label.
+- **Drug Interactions:** The interaction screen found 100 interacting drugs, mostly Moderate severity. Examples include abiraterone, acalabrutinib, tramadol, amiodarone, amitriptyline, aripiprazole, aminophylline, salbutamol and apalutamide. Minor interactions include alendronic acid and aluminum hydroxide.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-Evidence specifically supporting famotidine for duodenogastric reflux is limited to 2 observational publications with no registered clinical trials. While acid suppression provides a partial mechanistic rationale, the primary pathophysiology of duodenogastric reflux—bile acid backflow and motility dysfunction—falls outside famotidine's pharmacological scope.
+- The prediction score is very high, but the evidence is limited to two small clinical publications with no reported results and no registered trials. Famotidine also has no currently valid registration in the Philippines.
+- Famotidine's acid-lowering action is plausible for acid-related injury, but not for bile reflux itself.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action data (H2 receptor binding profile, pharmacodynamics) from DrugBank or prescribing information
-- Philippines FDA package insert or equivalent regulatory safety document (warnings, contraindications, drug interactions)
-- Prospective controlled studies enrolling DGR patients with duodenogastric reflux as the primary efficacy endpoint
-- Sub-group analysis distinguishing acid-amplified DGR (where famotidine may contribute) from pure bile reflux (where famotidine is insufficient)
-- Head-to-head comparison with proton pump inhibitors, which achieve more sustained acid suppression and are considered the current standard for acid-peptic conditions in the Philippines market
-- Philippines registration pathway assessment, given the drug is currently not marketed locally
+- A controlled clinical study of famotidine in duodenogastric reflux, with results for symptoms and mucosal injury.
+- The full texts of the two publications, to confirm what they actually found.
+- The Philippines package insert (warnings and contraindications) and the current registration status of any famotidine product.
+- Dose guidance for patients with renal impairment, given the kidney-related associations above.
+
+**Other predicted indications:** Among the other predictions in the same data, **peptic ulcer disease** has the strongest evidence (L1, 8 trials). It is largely an extension of the original ulcer indication, and in several trials famotidine was inferior to proton pump inhibitors for preventing recurrence. It may be worth assessing separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

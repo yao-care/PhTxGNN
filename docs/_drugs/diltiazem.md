@@ -2,7 +2,7 @@
 layout: default
 title: Diltiazem
 parent: Model Prediction Only (L5)
-nav_order: 107
+nav_order: 109
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,76 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Diltiazem: From Cardiovascular Conditions to Ischemic Stroke Susceptibility
+# Diltiazem: From Hypertension to Susceptibility to Ischemic Stroke (Obsolete Term)
 
 ## One-Sentence Summary
 
-Diltiazem is a well-established L-type voltage-gated calcium channel blocker (CCB), widely used in clinical practice for hypertension, angina pectoris, and cardiac arrhythmias. The TxGNN model predicts it may be relevant to **susceptibility to ischemic stroke**, though this disease target carries an ⚠️ **"obsolete"** ontology designation indicating the classification has been deprecated. Currently, **no clinical trials** and **no publications** directly support this specific repurposing direction.
-
----
+Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
+The TxGNN model predicts it may be effective for **susceptibility to ischemic stroke (an obsolete ontology term)**,
+but **no clinical trials and no publications** currently support this prediction; it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not documented in Philippines FDA registry (drug is currently not marketed in the Philippines) |
-| Predicted New Indication | Ischemic Stroke Susceptibility ⚠️ *(deprecated ontology term)* |
+|------|------|
+| Original Indication | Hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (from the knowledge graph; no approved indication text is available for the Philippine registration) |
+| Predicted New Indication | Obsolete susceptibility to ischemic stroke |
 | TxGNN Prediction Score | 99.08% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Diltiazem is a non-dihydropyridine L-type voltage-gated calcium channel blocker (VGCC). Although full MOA data was not retrieved in this evidence pack, Diltiazem's pharmacology is well-characterised in the literature: it inhibits calcium influx into vascular smooth muscle and cardiac cells, producing vasodilation, reduction in peripheral vascular resistance, and negative chronotropic/inotropic effects on the heart.
+Currently, detailed mechanism of action data is not available. Based on known information, diltiazem is a non-dihydropyridine calcium channel blocker. Its efficacy in hypertension and atrial fibrillation is established, and mechanistically it may be applicable to stroke risk reduction.
 
-Two mechanistic pathways link Diltiazem to ischemic stroke risk: (1) inhibition of calcium influx in cerebrovascular smooth muscle promotes cerebral vasodilation and reduces ischemic risk indirectly through blood pressure lowering; and (2) inhibition of calcium-dependent platelet activation may theoretically reduce thromboembolic events. Supporting this class-level hypothesis, the structurally related CCB Nimodipine holds an approved indication for cerebral vasospasm, suggesting the broader CCB class has recognised cerebrovascular protective potential.
+A plausible indirect rationale is that lowering blood pressure reduces a major stroke risk factor. Calcium channel blockade may also reduce cerebral vasospasm and calcium-mediated ischemic injury. These are hypotheses, not verified findings.
 
-However, three critical caveats substantially weaken the case for this specific candidate. First, the above reasoning represents **class-effect inference**, not Diltiazem-specific direct evidence. Second, the predicted disease term carries an **"obsolete"** prefix in the disease ontology — the classification itself has been retired and no longer maps cleanly to a current clinical entity. Third, "susceptibility" targets operate at the level of genetic or biomarker-defined risk, not therapeutic treatment, creating a fundamental conceptual gap between the model's output and any actionable clinical indication. These factors collectively explain the **Hold** decision.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are registered for the Diltiazem–ischemic stroke susceptibility pair.
-
----
-
-## Literature Evidence
-
-Currently no related literature is available for this specific drug–disease pair.
-
----
+There are two important caveats:
+- **Confounding:** Hypertension and atrial fibrillation are both established stroke risk factors. Any apparent stroke-prevention signal may reflect treatment of those conditions rather than a distinct repurposing effect.
+- **Obsolete term:** The predicted disease is labelled "obsolete", suggesting a deprecated ontology entry. It may map poorly onto current stroke classifications and could inflate or distort the prediction.
 
 ## Philippines Market Information
 
-Diltiazem is currently **not registered** with the Philippine Food and Drug Administration. No product authorisations were found in the Philippines FDA database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0146 | Diltiazem | Not specified | Not specified (status: cancelled) |
 
----
+The only registration found is cancelled, and no product is currently marketed under a valid single or combination license.
 
 ## Safety Considerations
 
-Full safety data (warnings, contraindications, drug interactions) was not retrievable in this evidence pack. Please refer to the drug's package insert for comprehensive safety information.
+- **Contraindications (from the knowledge graph, not label text):** The drug-disease contraindication links include:
+  - Cardiac conduction and rhythm: atrioventricular block, sick sinus syndrome (including familial), Wolff-Parkinson-White syndrome, Lown-Ganong-Levine syndrome, ventricular tachycardia (including catecholaminergic and infant forms)
+  - Haemodynamic and structural: hypotensive disorder, aortic stenosis and related valve disease, hypertrophic cardiomyopathy, renal artery obstruction
+  - Organ and blood: kidney disease, liver disease, gallbladder disease, neutropenia, agranulocytosis
+  - Angioedema (acquired, hereditary, RAAS-blocker-induced, non-histaminic)
+  - Connective tissue, bone and cartilage disease
+- **Drug Interactions:** 100 interactions were found in total, and the data compiled for this report lists 20 of them, all moderate except one.
+  - **Major:** loperamide
+  - **Moderate (examples):** corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), pioglitazone, bupropion, aprepitant, morphine, acetylsalicylic acid, canagliflozin, and several calcium salts (carbonate, chloride, citrate, acetate and others)
 
----
+Please refer to the package insert for label warnings, as none were available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate sits at Evidence Level L5 — the lowest tier — with no supporting clinical trials or publications, a deprecated disease target term, and no Philippines regulatory footprint. The ontology and conceptual ambiguities around the target must be resolved before any further evaluation is meaningful.
+The prediction score is high but rests on the model alone, with no trials or literature. The predicted disease term is obsolete, the benefit is confounded by existing hypertension and atrial fibrillation indications, and the only Philippine registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Resolve the ontology issue**: Map "obsolete susceptibility to ischemic stroke" to a current, clinically actionable disease target (e.g., ICD-10 I63 Ischemic stroke, or a specific stroke-prevention indication) before re-running the evidence search
-- **Retrieve full MOA data**: Query DrugBank for Diltiazem's complete mechanism of action to enable a rigorous mechanistic link assessment
-- **Broader literature search**: Re-run PubMed with expanded terms (e.g., *"Diltiazem AND cerebrovascular"*, *"calcium channel blocker AND stroke prevention"*) to identify any indirect or class-level evidence
-- **Clarify the repurposing objective**: Define whether the intended use is (a) primary prevention via blood pressure management, (b) acute stroke treatment, or (c) post-stroke neuroprotection — each requires a distinct evidence pathway
-- **Philippines regulatory pathway**: If the indication is later validated, assess the FDA Philippines registration requirements given the current zero-registration status
+- Mapping of the obsolete disease term to a current ischemic stroke classification
+- A literature and clinical trial search focused on diltiazem and stroke prevention or outcomes, separating effects from blood pressure and rhythm control
+- Mechanism of action data (from DrugBank)
+- Package insert warnings and contraindications from the DOH-FDA Philippines, which are required before safety screening
+- Clarification of the cancelled registration status and whether any valid product is available locally
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

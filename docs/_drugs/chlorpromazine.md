@@ -2,15 +2,15 @@
 layout: default
 title: Chlorpromazine
 parent: Moderate Evidence (L3-L4)
-nav_order: 72
-evidence_level: L3
+nav_order: 74
+evidence_level: L4
 indication_count: 10
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,92 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Chlorpromazine: From Schizophrenia to Early-Onset Schizophrenia
+# Chlorpromazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Chlorpromazine is the prototypical first-generation antipsychotic (phenothiazine class), established for treating adult schizophrenia and psychotic disorders through dopamine D2 receptor blockade.
-The TxGNN model's most clinically actionable prediction is **Early-Onset Schizophrenia** (disease onset <18 years), with **1 clinical trial** and **8 publications** currently supporting this direction.
-The top 9 model-ranked predictions (Ranks 1–9, including retinal dystrophy and various congenital disorders) are assessed as **likely false positive signals** with no supporting evidence and no plausible mechanistic link — they are documented below but excluded from the primary evaluation.
+Chlorpromazine is an antipsychotic originally used for schizophrenia and other psychotic and mood-related disorders.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication**, and that publication describes a drug-induced adverse reaction rather than a benefit.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Schizophrenia and psychotic disorders (first-generation antipsychotic; well established in global clinical practice) |
-| Predicted New Indication | Early-Onset Schizophrenia (highest-evidence actionable prediction among all 10 candidates) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L3 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Manic bipolar affective disorder, psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, schizophrenia, acute intermittent porphyria, oppositional defiant disorder (from the knowledge-graph indication list; no indication text on the Philippines registration) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 99.95% |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Chlorpromazine is the world's first clinically approved antipsychotic, belonging to the phenothiazine class. Its primary mechanism is potent blockade of dopamine D2 receptors in the mesolimbic pathway, which reduces dopaminergic hyperactivity — the neurochemical core of positive psychotic symptoms (hallucinations, delusions). It also antagonizes histamine H1, muscarinic M1, and alpha-1 adrenergic receptors, contributing to sedation, anticholinergic effects, and orthostatic hypotension respectively. Detailed MOA data from DrugBank was unavailable in this evidence pack (Data Gap DG002); however, Chlorpromazine's pharmacology is extensively characterized in decades of published literature.
+Currently, detailed mechanism of action data is not available. Based on known information, chlorpromazine is a phenothiazine antipsychotic that acts mainly as a dopamine D2 and multi-receptor antagonist. Its efficacy in schizophrenia and related psychotic disorders is well established.
 
-Early-onset schizophrenia (EOS, onset before age 18) shares the same core neurobiology as adult-onset disease: mesolimbic D2 hyperactivity, prefrontal-limbic dysconnectivity, and neurodevelopmental deviation. This makes the mechanistic rationale for Chlorpromazine in EOS directly transferable — the molecular target is identical, and the clinical syndrome is diagnostically continuous with the adult form. Chlorpromazine carries L1 evidence across adult schizophrenia RCTs globally, but pediatric/adolescent-specific controlled trials are sparse, bringing EOS-specific evidence to L3. Notably, PMID 18408624 directly reports BDNF genotype-dependent chlorpromazine-induced extrapyramidal syndrome (EPS) in schizophrenia patients, providing direct pharmacological evidence linking this drug to the EOS disease node in the knowledge graph.
+For the top prediction, retinal dystrophy, the data compiled for this report do not support a plausible therapeutic link. The only publication (1967) reports phototoxic reactions caused by high doses of chlorpromazine and thioridazine. Chlorpromazine is also known to deposit in ocular tissues and cause pigmentary changes. This points to potential harm rather than benefit in retinal disease. The very high TxGNN score is therefore not backed by any mechanistic or clinical rationale and should be treated as a model output only.
 
-**Note on Ranks 1–9 (False Positive Assessment):** The highest TxGNN-scored predictions — retinal dystrophy, CDG with fucosylation defects, X-linked myopia variants, hydranencephaly, polymicrogyria, Charcot-Marie-Tooth 1G, and atypical glycine encephalopathy — all score >99.9% but have zero supporting clinical trials or relevant literature, and none have a plausible mechanistic connection. Chlorpromazine's phenothiazine ring is known to accumulate in retinal pigment epithelium (a documented adverse effect), creating indirect KG node connections to retinal diseases that the model interprets as therapeutic signals. Similarly, its broad CNS receptor profile generates non-specific links to neurological disease nodes. CMT1G warrants a specific safety flag: Chlorpromazine's known neurotoxic potential could worsen demyelinating neuropathy, making it a contraindication rather than a candidate.
+Other high-scoring predictions had no evidence at all. These were congenital glycosylation disorder, X-linked and syndromic myopia, hydranencephaly, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. The only prediction with a credible link is **early-onset schizophrenia** (score 99.47%). It is an age-subgroup extension of chlorpromazine's existing indication rather than true repurposing, and is noted below as a research question.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT06128408](https://clinicaltrials.gov/study/NCT06128408) | N/A | Unknown | 300 | Observational study characterizing treatment-resistant schizophrenia from illness onset (TRO). Finds that up to 30% of antipsychotic-naive first-episode patients fail to respond to standard antipsychotic treatment from the start, and TRO accounts for ~80% of all treatment-resistant schizophrenia in long-term follow-up. Highly relevant to understanding EOS treatment landscape and antipsychotic selection, though not a direct Chlorpromazine intervention trial. Status requires verification. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18408624](https://pubmed.ncbi.nlm.nih.gov/18408624/) | 2008 | Genetic Association Study | Pharmacogenetics and Genomics | BDNF gene is both a schizophrenia risk factor and directly associated with chlorpromazine-induced extrapyramidal syndrome in Chinese patients — the only study in this pack that directly names Chlorpromazine |
-| [17915974](https://pubmed.ncbi.nlm.nih.gov/17915974/) | 2007 | Genetic Association Study | J Clin Psychiatry | AKT1 gene polymorphisms linked to schizophrenia susceptibility and antipsychotic treatment response; AKT1-PI3K pathway intersects D2 receptor signalling relevant to Chlorpromazine pharmacodynamics |
-| [10703271](https://pubmed.ncbi.nlm.nih.gov/10703271/) | 1999 | Retrospective Cohort | Soc Psychiatry Psychiatr Epidemiol | Earlier age at schizophrenia onset correlated with higher typical neuroleptic dosage requirements — directly implicates Chlorpromazine-class drugs in EOS dosing considerations |
-| [28976410](https://pubmed.ncbi.nlm.nih.gov/28976410/) | 2017 | Cross-sectional / Cohort | Clinical Neuropharmacology | Clinical features of EOS with comorbid OCD; highlights pharmacological complexity in the EOS population that Chlorpromazine prescribing must account for |
-| [26916502](https://pubmed.ncbi.nlm.nih.gov/26916502/) | 2016 | Cohort | Acta Neuropsychiatrica | Theory of mind deficits in adolescents with EOS correlate with clinical severity and executive function; provides neurocognitive characterization of the target population |
-| [24854724](https://pubmed.ncbi.nlm.nih.gov/24854724/) | 2015 | Cohort | L'Encephale | Neurological soft signs in EOS support the neurodevelopmental model underpinning dopamine-targeted pharmacotherapy |
-| [22802957](https://pubmed.ncbi.nlm.nih.gov/22802957/) | 2012 | Case-control / Neuroimaging | PLoS ONE | Temporal gyrus gray matter volume reduction in first-episode EOS; confirms structural neurobiological basis consistent with D2-targeted antipsychotic intervention |
-| [24289465](https://pubmed.ncbi.nlm.nih.gov/24289465/) | 2013 | Retrospective Cohort | Psychogeriatrics | Epidemiological comparison of early- vs. late-onset schizophrenia confirms EOS as a clinically distinct subgroup warranting dedicated pharmacotherapy evaluation |
+|------|-----|------|------|---------|
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Case report / observational (adverse reaction) | JAMA | Phototoxic reactions induced by high doses of chlorpromazine and thioridazine. This is a safety signal, not evidence of benefit. |
+
+**Supplementary note, early-onset schizophrenia (the only prediction with supporting literature):** Six observational, imaging and pharmacogenetic studies (PMIDs 28976410, 24854724, 10703271, 22802957, 18408624, 17915974) support biological plausibility and exposure in this population. They include BDNF and AKT1 polymorphism studies related to chlorpromazine response and extrapyramidal effects. None provides controlled efficacy data for pediatric or adolescent use, and no registered trials were identified.
 
 ---
 
 ## Philippines Market Information
 
-Chlorpromazine is currently **not marketed in the Philippines**. No FDA Philippines authorization records are on file (total registrations: 0). No license table is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0098 | Chlorpromazine | Not specified | Not specified (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Detailed warnings and contraindications from the Philippine or Taiwan package insert were not available in this evidence pack (Data Gap DG001). Please refer to the package insert for complete safety information.
+- **Contraindications / risk conditions (from the knowledge graph, not label text):**
+  - Cardiac and conduction: long QT syndrome (including familial), torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction and coronary thrombosis
+  - Blood-related: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anemia (including macrocytic) and hemoglobinopathy
+  - Blood pressure and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome and multiple system atrophy
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia and blepharospasm
+  - Hepatobiliary: liver disease and gallbladder disease
+  - Metabolic and other: hyperglycemia, obesity disorders (including monogenic obesity), benign prostatic hyperplasia, substance abuse/dependence and female breast carcinoma
+- **Drug Interactions:** 100 interactions were recorded. Major interactions include **bupropion** and **morphine**. Moderate interactions include antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide), anticholinergics (atropine, hyoscyamine, glycopyrronium), epinephrine, hydrocortisone, famotidine, amphotericin B, loperamide, lorcaserin and bisacodyl.
+- **Prediction-specific concerns:** Ocular phototoxicity and pigmentary deposition are relevant to retinal indications. Chlorpromazine lowers the seizure threshold, which is a concern in epileptic or metabolic encephalopathies.
 
-**Critical safety considerations specific to EOS use (drawn from pharmacological literature):**
-- **Extrapyramidal symptoms (EPS):** Chlorpromazine carries high EPS risk compared to second-generation antipsychotics (SGAs); risk may be further elevated in pediatric and adolescent populations. PMID 18408624 documents BDNF genotype-dependent EPS susceptibility.
-- **Tardive dyskinesia:** Risk accumulates with duration of exposure; particularly concerning in patients who will require years of antipsychotic treatment beginning in adolescence.
-- **Metabolic and cardiac effects:** Weight gain, glucose dysregulation, and QTc prolongation require baseline and ongoing monitoring.
-- **Neurotoxicity concern in demyelinating conditions:** As noted for Rank 8 (CMT1G), Chlorpromazine's neurotoxic potential represents a contraindication in any comorbid demyelinating neuropathy.
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Chlorpromazine's D2 antagonism is mechanistically aligned with early-onset schizophrenia, which shares identical dopaminergic pathophysiology with adult-onset disease; however, the absence of Philippines market registration, limited pediatric-specific trial evidence (L3), and a well-documented EPS burden in young patients necessitate structured risk management before any clinical application.
+- The top prediction, retinal dystrophy, has no clinical trials and only one publication, which documents ocular toxicity rather than benefit. The remaining top predictions have no evidence. The one plausible direction, early-onset schizophrenia, is an extension of an existing indication with no controlled data, and the only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-
-- **Philippines regulatory pathway:** Assess FDA Philippines registration requirements and feasibility; the drug is currently entirely absent from the market
-- **Package insert review:** Obtain and parse full TFDA/equivalent package insert to extract contraindications, warnings, and pediatric dosing guidance (Data Gap DG001)
-- **MOA documentation:** Complete DrugBank pharmacology data retrieval (Data Gap DG002) to formally document receptor binding profile for regulatory submissions
-- **Pediatric safety assessment:** Conduct a systematic review of EPS, tardive dyskinesia, metabolic, and cardiac adverse event rates specifically in patients <18 years treated with Chlorpromazine
-- **Comparative effectiveness review:** Evaluate whether SGAs (risperidone, aripiprazole, olanzapine) — which have established pediatric approvals in multiple jurisdictions — offer superior benefit-risk profiles for EOS, as Chlorpromazine may not be a first-line candidate in this population
-- **Pediatric-specific RCT identification:** Search for any head-to-head trials of Chlorpromazine versus SGAs in EOS to determine if L3 evidence can be upgraded
+- Package insert warnings and contraindications from DOH-FDA Philippines, which are required before any safety screening
+- Detailed mechanism of action data (MOA) from DrugBank
+- For early-onset schizophrenia: controlled pediatric/adolescent efficacy and safety data (extrapyramidal symptoms, sedation, metabolic effects)
+- Confirmation of product availability in the Philippines, since the only registration is cancelled
+- For retinal indications: preclinical evidence of benefit that outweighs the known ocular toxicity risk, otherwise deprioritize
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

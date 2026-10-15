@@ -2,7 +2,7 @@
 layout: default
 title: Ivermectin
 parent: Model Prediction Only (L5)
-nav_order: 189
+nav_order: 191
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,86 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
+# Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
 
 ## One-Sentence Summary
 
-Ivermectin is a broad-spectrum antiparasitic agent with established efficacy against strongyloidiasis, onchocerciasis, and scabies, acting by paralysing invertebrate nerve and muscle cells. The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis** with a score of 99.95%, yet this is supported by **no clinical trials** and **no published literature** on this specific indication. The mechanistic link is biologically weak, and the high prediction score is most likely an artifact of knowledge graph clustering rather than a genuine pharmacological signal.
-
----
+Ivermectin is an antiparasitic drug originally used to treat strongyloidiasis and onchocerciasis.
+The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parasitic infections (strongyloidiasis, onchocerciasis, scabies) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
+|------|------|
+| Original Indication | Strongyloidiasis, onchocerciasis (the Philippines license record has no indication text) |
+| Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from the sources queried. Based on established pharmacology, Ivermectin is a macrocyclic lactone antiparasitic that works by selectively binding to and opening glutamate-gated chloride (GluCl) ion channels found exclusively in invertebrate nerve and muscle cells. This causes hyperpolarisation, paralysis, and death of susceptible parasites (nematodes, arthropods). Mammals, including humans, are largely protected due to the blood-brain barrier and the absence of GluCl channels peripherally.
+Currently, detailed mechanism of action data is not available. Ivermectin is known as an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. Its efficacy in strongyloidiasis and onchocerciasis is established.
 
-Vulvovaginal candidiasis is a fungal infection caused primarily by *Candida albicans*. Fungi lack the GluCl channel target that Ivermectin acts upon. Some in vitro studies have reported a weak inhibitory effect of Ivermectin on *Candida* biofilms—hypothesised mechanisms include membrane permeability disruption or efflux pump inhibition—but these findings have not been validated in any human clinical study. The mechanistic distance between Ivermectin's established antiparasitic action and antifungal activity is substantial.
-
-A critical red flag in this Evidence Pack is that three distinct candidiasis-related indications (congenital candidiasis, *Candida glabrata*, and neonatal candidiasis) all receive an **identical** TxGNN score of 99.25%, strongly indicating that the model is reflecting knowledge graph node clustering rather than independent pharmacological evaluation. The top score for vulvovaginal candidiasis (99.95%) should be interpreted with the same caution. From the 9 predicted indications in this pack, the **anogenital HPV infection** (rank 3, L4) presents the most biologically plausible mechanistic link—Ivermectin has been proposed to inhibit importin α/β1-mediated nuclear import, which could impair viral protein trafficking—and warrants separate investigation.
-
----
+These channels are not present in fungi, and the data compiled for this report show no mechanistic link between ivermectin and *Candida* or vulvovaginal candidiasis. The high score (99.95%) appears to be a graph-based association only. Other candidiasis and vaginitis entries in the prediction list score similarly high, which suggests the model is picking up on disease-network proximity rather than a pharmacological rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ivermectin in vulvovaginal candidiasis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Ivermectin in vulvovaginal candidiasis.
+Currently no related literature available for the top prediction, vulvovaginal candidiasis.
 
----
+Two publications were linked to lower-ranked predictions. Neither supports antifungal efficacy:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case report | BMJ Case Reports | Disseminated strongyloidiasis after prolonged corticosteroid treatment. This is the drug's original indication, not candidiasis (linked to esophageal candidiasis). |
+| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case report | Australasian Journal of Dermatology | Two immunocompromised children with crusted scabies were treated successfully with oral ivermectin. One child had chronic mucocutaneous candidiasis, but the report does not show an antifungal effect (linked to congenital candidiasis). |
 
 ## Philippines Market Information
 
-Ivermectin is currently **not marketed** in the Philippines. There are no registered product licenses on record.
+The Philippines registration record lists one authorization, which has been cancelled. It carries no dosage form or approved-indication text. There are no currently valid single-ingredient or combination registrations.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|--------------|-------------|---------------------|
-| — | — | — | No registrations on file |
-
----
+|---------|------|------|-----------|
+| PNF-0269 | Ivermectin | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindications (from the knowledge graph, not label text)**: loiasis and filariasis.
+- **Drug Interactions**: 100 interactions were identified. The main ones rated Moderate are:
+  - Aprepitant
+  - Clarithromycin
+  - Ethanol
+  - Cobicistat
+  - Deferasirox
+  - Warfarin
+  - Dicoumarol
+  - Fostamatinib
+  - Radioactive iodide (I-123, I-131)
+  - Abametapir (topical)
 
-> **Note for clinical teams:** Key safety warnings and contraindications for Ivermectin were not retrievable from available data sources at the time of this report (data gap DG001). Particular attention should be given to contraindications in pregnant women, children under 15 kg, and patients with compromised blood-brain barriers (e.g., neonates, patients with meningitis), as CNS toxicity is a known concern in these groups. Drug interaction data was also not found in the queried databases.
+  Other interactions have no severity rating, including omeprazole, lansoprazole, prednisone, prednisolone, dexamethasone, ranitidine, famotidine, ursodeoxycholic acid and heparin.
 
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for vulvovaginal candidiasis is almost certainly driven by knowledge graph clustering artifacts—*Candida*-related nodes are densely interconnected in the graph, producing systematically inflated scores—rather than a real pharmacological relationship. Ivermectin's well-characterised mechanism targets invertebrate GluCl channels that are entirely absent in fungal pathogens, and no clinical or published literature evidence supports this repurposing direction.
+The prediction has no supporting clinical trials or relevant literature, and no plausible antifungal mechanism is evident. The drug has no valid Philippines registration at present. The evidence level is L5 (model prediction only).
 
-**To proceed with any further evaluation, the following is needed:**
-
-- **MOA verification:** Retrieve full DrugBank entry (DB00602) to document the confirmed mechanism of action and any secondary pharmacological activities
-- **Philippines FDA safety data:** Download and parse the package insert (if available via FDA Philippines portal) for warnings, contraindications, and drug interactions
-- **Antifungal activity validation:** Commission or identify in vitro studies assessing Ivermectin MIC against *C. albicans* biofilms before any clinical consideration
-- **KG bias audit:** Flag the seven candidiasis-cluster predictions (ranks 1–2, 4–9) as likely KG artifacts; remove from active repurposing pipeline pending graph refinement
-- **Separate HPV track:** Anogenital HPV infection (rank 3, L4, "Research Question") has a distinct and biologically plausible mechanism and should be evaluated independently with a dedicated evidence search
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+**To proceed, the following is needed:**
+- Detailed mechanism of action data, and any in vitro evidence of activity against *Candida* species
+- Preclinical or early clinical studies in vulvovaginal candidiasis
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Clarification of the regulatory status of the cancelled registration, and the route and formulation that would be needed
+- A review of whether established antifungal treatments already meet the clinical need
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

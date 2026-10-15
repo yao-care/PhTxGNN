@@ -2,7 +2,7 @@
 layout: default
 title: Vasopressin
 parent: Moderate Evidence (L3-L4)
-nav_order: 349
+nav_order: 353
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,78 +29,74 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Vasopressin: From Vasopressor Support to Congenital Prothrombin Deficiency
+# Vasopressin: From Unspecified Original Indication to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Vasopressin (arginine vasopressin, AVP) is an endogenous antidiuretic hormone and vasopressor, clinically used for vasodilatory shock, diabetes insipidus, and variceal bleeding.
-The TxGNN model predicts it may be effective for **Congenital Prothrombin Deficiency**,
-with **0 clinical trials** and **3 publications** currently supporting this direction — though none directly address Factor II deficiency, and the mechanistic link remains weak.
-
----
+Vasopressin is a peptide hormone drug whose original approved indication is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**,
+but there are **0 clinical trials** and only **3 indirect publications** (none about vasopressin itself, and none about prothrombin deficiency), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in Philippines regulatory data (clinically known: vasodilatory shock, diabetes insipidus, variceal bleeding) |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+|------|------|
+| Original Indication | Not available (the only registration has no indication text) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available for this drug. Vasopressin and its analog desmopressin (DDAVP) are known to stimulate release of von Willebrand factor and factor VIII from endothelial stores through V2 receptor signaling. This is relevant to factor VIII and von Willebrand factor deficiencies.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Vasopressin is an endogenous nonapeptide hormone acting through three receptor subtypes: V1a (vascular smooth muscle contraction), V1b (pituitary ACTH release), and V2 (renal water reabsorption and endothelial release of von Willebrand factor/Factor VIII from Weibel-Palade bodies). Its synthetic analog DDAVP (desmopressin) is already used in mild hemophilia A and von Willebrand disease precisely because V2 activation triggers vWF and Factor VIII release — forming the pharmacological basis for coagulation-adjacent predictions.
+That mechanism does not plausibly raise prothrombin (factor II) levels, so there is no clear mechanistic bridge to congenital prothrombin deficiency. The very high TxGNN score most likely reflects the drug's proximity to coagulation-disorder nodes in the knowledge graph rather than a direct biological rationale. The retrieved papers concern acquired hemophilia A and combined factor V/VIII deficiency, and they describe desmopressin rather than vasopressin, so they are indirect evidence at best.
 
-However, congenital prothrombin deficiency is a Factor II (prothrombin) deficiency, a coagulation pathway node that sits entirely outside the direct V2-mediated vWF/Factor VIII release mechanism. Boosting vWF or Factor VIII does not compensate for a Factor II deficit, making the mechanistic overlap very limited.
-
-The TxGNN high prediction score most likely reflects graph-topological proximity — coagulation disorder nodes are clustered in the knowledge graph, and Vasopressin's connection to hemostatic pathways via DDAVP creates neighborhood overlap with Factor II deficiency nodes. This is a common pattern in knowledge-graph models and does not imply pharmacological specificity. The retrieved literature, which covers combined Factor V/VIII deficiency and DDAVP rather than Factor II, further supports this interpretation.
-
----
+A second prediction, **drug-induced osteoporosis** (score 99.62%), has no clinical trials and no literature. Vasopressin receptors are present on bone cells, but this is preclinical and hypothetical. Vasopressin-related hyponatremia is linked to bone loss and could suggest harm rather than benefit. This prediction rests on the model score alone (L5) and also warrants a Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Comprehensive review of Acquired Hemophilia A (autoantibodies against Factor VIII); covers diagnosis, aetiology, and treatment options — not specific to prothrombin deficiency or Vasopressin |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case Report | Rinsho Ketsueki | A 43-year-old male with congenital combined Factor V and Factor VIII deficiency treated with DDAVP; documents V2-mediated vWF/Factor VIII release as a hemostatic mechanism — relevant to analog mechanism but not to Factor II |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case Report | Rinsho Ketsueki | Cesarean section in a patient with combined Factor V/Factor VIII deficiency managed with Factor VIII concentrate; demonstrates replacement therapy approach — does not address Factor II (prothrombin) deficiency |
+|------|-----|------|------|---------|
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Reviews diagnosis, causes and treatment of acquired hemophilia A, caused by autoantibodies against factor VIII. Indirect: it is a different disease. |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | DDAVP given to a patient with congenital combined factor V and factor VIII deficiency. Describes desmopressin, not vasopressin. |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | Cesarean section managed with factor VIII replacement in a pregnant woman with combined factor V and factor VIII deficiency. |
 
-> **Note:** None of the retrieved publications directly address congenital prothrombin (Factor II) deficiency or the use of Vasopressin/DDAVP in this condition. Evidence relevance is indirect at best.
+## Philippines Market Information
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0511 | Vasopressin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+**Drug Interactions** (100 interactions were identified; examples from the first 20 reviewed):
+- **Major**: Dolasetron, Cisapride, Papaverine, Macimorelin
+- **Moderate**: Famotidine, Epinephrine, Loperamide, Chlorpropamide, Clarithromycin, Levofloxacin, Ondansetron, Granisetron, Palonosetron, Promethazine, Cilostazol, Heparin, and others
+- **Minor**: Metronidazole
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN prediction score is high (99.63%), the mechanistic link between Vasopressin and congenital prothrombin (Factor II) deficiency is weak — Vasopressin's hemostatic pathway acts on vWF/Factor VIII release, not on prothrombin synthesis or activation. No clinical trials exist, the three retrieved publications address adjacent coagulopathies rather than Factor II specifically, and critical safety data (package insert, contraindications, MOA) are unavailable for a complete evaluation.
+The top prediction has no clinical trials, only indirect literature on other factor deficiencies (and on desmopressin rather than vasopressin), and no plausible mechanism for raising prothrombin. The second prediction has no supporting evidence at all. The only Philippine registration is cancelled, and label-based safety information is missing.
 
 **To proceed, the following is needed:**
-- Identify whether any preclinical data links V1/V2 receptor signaling to prothrombin (Factor II) expression or activity
-- Clarify whether the TxGNN prediction is driven by mechanism or by graph-topological proximity to other coagulation disorder nodes
-- Retrieve the full package insert (Philippines/TFDA) to complete the safety assessment (currently Blocking data gap)
-- Query DrugBank API for complete MOA data (currently High-severity data gap)
-- Consider whether DDAVP (desmopressin), as a more selective V2-targeting analog with an established hemostasis record, would be a more appropriate repurposing candidate than Vasopressin itself
-- If rationale is strengthened, design a focused literature search specifically for "vasopressin OR desmopressin AND prothrombin deficiency OR factor II deficiency"
+- Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing, and blocking safety screening)
+- Mechanism of action data for vasopressin (for example from DrugBank)
+- Independent mechanistic or preclinical evidence linking vasopressin to prothrombin deficiency, or to drug-induced osteoporosis
+- Clarification of the original approved indication and the reason for the registration cancellation
+- Review of the major drug interactions (especially QT-prolonging agents) if development is reconsidered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

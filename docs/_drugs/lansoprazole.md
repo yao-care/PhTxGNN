@@ -2,7 +2,7 @@
 layout: default
 title: Lansoprazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 197
+nav_order: 199
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,83 +29,74 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Lansoprazole: From Acid-Related Disorders to Duodenogastric Reflux
+# Lansoprazole: From Gastric Ulcer and Acid-Related Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Lansoprazole is a proton pump inhibitor (PPI) widely recognized for treating acid-related conditions such as GERD, peptic ulcer disease, and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, with **0 clinical trials** and **2 publications** currently available to support this direction.
-Notably, one of those publications raises an active preclinical safety concern that warrants careful review before any clinical advancement.
-
----
+Lansoprazole is a proton pump inhibitor originally used for acid-related upper gastrointestinal conditions such as gastric ulcer, duodenal ulcer, gastroesophageal reflux disease and Zollinger-Ellison syndrome.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are currently **0 clinical trials** and only **1 general review article** supporting this direction, so the prediction rests mainly on the model.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Philippines; pharmacologically indicated for GERD / Peptic Ulcer Disease |
-| Predicted New Indication | Duodenogastric Reflux |
+|------|------|
+| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the Philippines registration record has no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.69% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Lansoprazole is a proton pump inhibitor (PPI) that irreversibly binds H⁺/K⁺-ATPase on the luminal surface of gastric parietal cells, blocking the final step of acid secretion. It is established as a first-line agent for peptic ulcer disease, GERD, *H. pylori* eradication regimens, NSAID-associated GI lesions, and Zollinger-Ellison syndrome — as summarized in PMID 18679668.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Lansoprazole is known to be a proton pump inhibitor that suppresses gastric acid secretion, and its efficacy in acid-related upper gastrointestinal disease is well established.
 
-Duodenogastric reflux (DGR) is characterized by the retrograde movement of bile acids and pancreatic secretions from the duodenum into the stomach. Unlike GERD, where acid suppression is directly therapeutic, DGR involves an alkaline refluxate — not gastric acid. The mechanistic connection between PPI-mediated acid suppression and DGR is therefore inherently limited: a PPI can reduce co-existing acid injury and symptom overlap, but cannot directly counteract bile-driven mucosal damage, the core pathology of DGR.
+Duodenogastric (bile) reflux is closely related to the approved indications of gastroesophageal reflux disease, esophagitis and peptic ulcer disease. When bile and duodenal contents flow back into the stomach, reducing gastric acidity may ease mucosal irritation and symptoms.
 
-Most importantly, PMID 15052437 (a rat DGR model) found that lansoprazole administration in the presence of duodenogastric reflux may actively promote gastric carcinogenesis. This is a meaningful preclinical safety signal in the exact pathological context under consideration, and it must be formally assessed and resolved before this repurposing direction can proceed further.
+There are important limits. A proton pump inhibitor does not stop bile from refluxing, so any benefit is probably symptomatic and limited to the acid component of the mucosal injury. The high TxGNN score most likely reflects the disease's closeness to approved acid-related indications in the knowledge graph, not independent disease-specific evidence.
 
----
+A second predicted indication, **duodenal obstruction** (score 99.68%), has no supporting trials or literature. It is a mechanical or structural problem that acid suppression does not treat. A PPI could at most help with ulcer-related inflammatory narrowing, which is speculative, so it is not pursued further here.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for duodenogastric reflux.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | Comprehensive PPI pharmacokinetics and clinical use update; confirms lansoprazole as first-choice therapy for peptic ulcer, *H. pylori*, GERD, NSAID-GI lesions, and Zollinger-Ellison syndrome |
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Animal Study | Gastric Cancer | ⚠️ In a rat DGR model, lansoprazole combined with duodenogastric reflux promoted gastric carcinogenesis — an active preclinical safety signal directly relevant to this repurposing hypothesis |
-
----
+|------|-----|------|------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use and pharmacokinetics. PPIs are first-choice drugs for peptic ulcer, H. pylori infection, GERD, NSAID-related gastrointestinal lesions and Zollinger-Ellison syndrome. It does not specifically address duodenogastric reflux. |
 
 ## Philippines Market Information
 
-Lansoprazole currently has **no registered products** with the Philippine FDA. No authorization numbers, product names, or approved indications are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0279 | Lansoprazole | Not recorded | Not recorded (status: cancelled) |
 
 ## Safety Considerations
 
-> ⚠️ **Active Preclinical Safety Signal**: PMID 15052437 demonstrates that lansoprazole may promote gastric carcinogenesis in rats with duodenogastric reflux. Because this signal arises in the exact disease context being evaluated, it constitutes a blocking concern that must be formally risk-assessed before any clinical development can proceed.
+- **Drug Interactions**: A screening of 100 interacting drugs was completed. Examples of the interactions listed:
+  - **Major**: Acalabrutinib, Atazanavir
+  - **Moderate**: Hydrochlorothiazide, Amphotericin B, Amikacin, Amphetamine, Ampicillin, Fenofibrate, Apalutamide, Aprepitant, Atorvastatin, Bosutinib, Brigatinib, Bromocriptine
+  - **Minor**: Acetylsalicylic acid, Axitinib, Brivaracetam, Cyanocobalamin
+- **Disease-related cautions from the knowledge graph** (these come from knowledge graph links, not from label text, and should be checked against the official label): long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, porphyria, osteoporosis, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, blood coagulation disease, anaemia, *Clostridium difficile* colitis, myasthenia gravis, and others.
 
-All other safety data (key warnings, contraindications, drug interactions) are not available in this evidence pack. Please refer to the approved package insert from a reference jurisdiction (e.g., Taiwan, Japan, USA) for current warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between PPI acid suppression and duodenogastric reflux (a bile-driven, alkaline condition) is weak, no clinical trial evidence exists for this specific indication, and a preclinical study raises a potential carcinogenesis risk in the precise patient population of interest — making further advancement premature without targeted safety investigation.
+The prediction is supported only by the model score and a general review that does not address duodenogastric reflux. No clinical trials exist, and a PPI would not be expected to stop bile reflux itself. In the Philippines, the only registration is cancelled, and no package insert safety information was available.
 
 **To proceed, the following is needed:**
-
-- **Resolve the carcinogenesis signal**: Conduct a formal risk assessment of PMID 15052437 — determine whether the effect is dose-dependent, PPI class-wide, or specific to the DGR microenvironment before any in-human hypothesis testing
-- **Establish mechanistic rationale**: Clarify whether any component of DGR pathology (e.g., co-existing acid hypersecretion, H. pylori overlap) could genuinely benefit from PPI suppression, distinguishing it from mere symptomatic co-management
-- **Obtain full MOA data**: Query DrugBank API (DB00448) for complete mechanism, targets, and known pharmacodynamics
-- **Retrieve safety baseline**: Obtain package insert warnings and contraindications from a reference market (Taiwan TFDA, Japan PMDA, or US FDA) to enable S1 safety pre-screening
-- **Survey reference-market regulatory status**: Confirm whether Lansoprazole holds any DGR-adjacent approval (e.g., gastritis, bile reflux gastritis) in Taiwan, Japan, or Korea to establish a regulatory precedent baseline
+- Package insert warnings and contraindications from the DOH-FDA Philippines website (needed before any safety screening)
+- Mechanism of action data, for example from DrugBank
+- A targeted literature search for PPI use in bile or duodenogastric reflux, with clinical trial evidence if available
+- Confirmation of whether a valid lansoprazole registration and suitable dosage forms exist in the Philippines
+- A review of the major drug interactions (atazanavir, acalabrutinib) and the knowledge graph cautions against the official label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

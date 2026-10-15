@@ -2,15 +2,15 @@
 layout: default
 title: Cefazolin
 parent: Moderate Evidence (L3-L4)
-nav_order: 62
-evidence_level: L3
+nav_order: 64
+evidence_level: L4
 indication_count: 8
 ---
 
 # Cefazolin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L4** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,60 +33,87 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Cefazolin is a first-generation cephalosporin antibiotic widely used as a perioperative surgical prophylactic agent and for the treatment of gram-positive bacterial infections.
-The TxGNN model predicts it may be effective for **Infectious Otitis Media**,
-with **1 clinical trial** and **3 publications** currently supporting this direction — though significant mechanistic coverage gaps substantially limit its direct applicability to this indication.
+Cefazolin is a first-generation cephalosporin antibiotic, originally used for bacterial infections such as bacterial pneumonia, endocarditis, bacterial arthritis and cholangitis.
+The TxGNN model predicts it may be effective for **infectious otitis media**, but **no clinical trials** and only **2 publications** (a review and a case report, both of limited relevance) currently support this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections / Surgical prophylaxis (first-generation cephalosporin; no Philippines registration on record) |
-| Predicted New Indication | Infectious Otitis Media |
+| Original Indication | Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis (approved indication text not available in the Philippines registration record) |
+| Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
-## Why Is This Prediction Reasonable?
+---
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), disrupting peptidoglycan cross-linking and triggering autolytic cell death. It demonstrates strong bactericidal activity against gram-positive organisms — particularly *Staphylococcus aureus* (MSSA), Group A/B *Streptococci*, and *Streptococcus pneumoniae*.
+## Why is This Prediction Reasonable?
 
-The mechanistic link to infectious otitis media is partial. *S. pneumoniae*, one of the three primary causative organisms in acute otitis media (AOM), falls within cefazolin's spectrum. However, the other two major AOM pathogens — *Haemophilus influenzae* and *Moraxella catarrhalis* — are gram-negative organisms that cefazolin cannot reliably cover. This means effective pathogen coverage is limited to the subset of AOM cases attributable to susceptible gram-positive bacteria, which represents only a fraction of real-world AOM presentations.
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins (PBPs). It is active against Gram-positive organisms such as Streptococcus and methicillin-susceptible *Staphylococcus aureus*.
 
-An important practical constraint compounds this mechanistic gap: cefazolin is available only as an intravenous or intramuscular formulation, making it unsuitable for standard outpatient AOM management. The strongest evidence niche across all 8 TxGNN-predicted indications in this pack is **perioperative prophylaxis for otologic surgery** (Middle Ear Disease, rank 3, L2 evidence, "Proceed with Guardrails"), where IV administration is clinically appropriate and gram-positive surgical site infection prevention is the primary goal.
+Its established uses are bacterial infections of the lung, bile ducts, heart valves and joints. Some of the pathogens involved in these infections can also cause middle ear infection, which is why the model links the two. The very high TxGNN score is consistent with this antibacterial class effect, but it is not independent clinical evidence.
+
+There are important limits. Cefazolin has limited activity against *Haemophilus influenzae* and *Moraxella catarrhalis*, two common otitis media pathogens. It is also given only by injection, so it is not a typical first-line choice for this condition.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | Phase 2b | Terminated | 520 | Multicenter, randomized, double-blind, placebo-controlled trial comparing 5-day vs. 10-day antimicrobial therapy for AOM in children aged 6–23 months; the trial was terminated early before reaching its endpoints, leaving efficacy conclusions incomplete and substantially reducing the evidential weight |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case Series | Ann Otol Rhinol Laryngol | Ceftazidime–cefazolin combination used as empiric therapy for pediatric Gradenigo Syndrome (petrous apicitis secondary to AOM); demonstrates cefazolin's potential role in severe otitis-related complications requiring IV antibiotics |
-| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | Review | South Med J | Review of cephalosporin use in pediatric infections, noting efficacy against gram-positive organisms and utility as an alternative in penicillin-hypersensitive patients |
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clinical Pharmacy | Case report and review of Stevens-Johnson syndrome in a child; IV cefazolin was used as part of treatment for concurrent otitis media and upper airway infection, providing indirect evidence of clinical use in this context |
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case report | Ann Otol Rhinol Laryngol | Ceftazidime-cefazolin empiric therapy in pediatric Gradenigo syndrome, a rare complication of acute otitis media |
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clin Pharm | Stevens-Johnson syndrome management; otitis media appears only as a background illness in the case described, so it gives little direct support |
+
+---
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0083 | Cefazolin | Not specified | Not specified (registration status: cancelled) |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 potential interactions were identified in the data compiled for this report. The moderate-level ones are:
+  - Kanamycin
+  - Neomycin
+  - Streptomycin
+  - Picosulfuric acid
+
+  The other listed interactions (for example calcitriol, epinephrine, amphotericin B, mannitol, aspirin, amoxicillin and metformin) have an unknown severity level.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: blood coagulation disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, and congenital prothrombin deficiency.
+
+Please refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Cefazolin covers only *S. pneumoniae* among the three major AOM pathogens, lacks coverage against *H. influenzae* and *M. catarrhalis*, is formulated exclusively for IV/IM use, and the only relevant clinical trial was terminated early — together these factors leave the infectious otitis media indication without a viable clinical pathway.
+The prediction rests on a model score and the general antibacterial class effect. No clinical trials exist, and the two publications are a case report and an unrelated review. Cefazolin is parenteral only and has limited coverage of key otitis media pathogens. The only registration in the Philippines is cancelled.
 
 **To proceed, the following is needed:**
-- Retrieve mechanism of action data from DrugBank API (currently flagged as a High-severity Data Gap)
-- Obtain the Philippines FDA package insert to assess local safety warnings, contraindications, and approved indications
-- If the repurposing interest shifts toward otologic surgery prophylaxis rather than acute AOM treatment, pivot the evaluation to the **Middle Ear Disease** indication (rank 3, L2 evidence, "Proceed with Guardrails"), which has a substantially stronger mechanistic and clinical justification under ASHP/IDSA surgical prophylaxis guidelines
-- Should an AOM-focused development path remain of interest, prospective clinical data targeting gram-positive AOM subpopulations in hospital settings (where IV administration is feasible) would be required to establish proof of concept
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Evidence that cefazolin offers an advantage over standard oral or topical otitis media treatment, such as a comparative clinical study
+- Clarification of the regulatory situation, since the only Philippines registration is cancelled
+
+**Note on other predicted indications:** Among the other predictions, bronchitis (L3), chronic otitis media (L3) and suppurative otitis media (L3) have some dated, limited human data, including a 1982 comparative study in suppurative otitis media in which cefazolin served as the comparator. They are better treated as research questions than as repurposing candidates. Middle ear disease (L4) rests on indirect veterinary and microbiological data. Otosalpingitis, non-suppurative otitis media and allergic otitis media (L5) have no supporting studies. The last two are not primarily bacterial conditions, so the antibacterial rationale is weak.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

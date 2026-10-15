@@ -2,7 +2,7 @@
 layout: default
 title: Sevoflurane
 parent: Model Prediction Only (L5)
-nav_order: 307
+nav_order: 311
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sevoflurane: From General Anesthesia to Prinzmetal Angina
+# Sevoflurane: From General Anaesthesia to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Sevoflurane is a fluorinated volatile inhalation agent widely used for the induction and maintenance of general anesthesia in surgical settings.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina** (vasospastic angina),
-with **0 clinical trials** and **0 publications** currently supporting this direction — making this a model-only prediction at this stage.
-
----
+Sevoflurane is an inhaled general anaesthetic. The data compiled for this report do not list an approved indication for it in the Philippines.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **0 clinical trials** and **0 publications** for this indication, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Inhalation general anesthetic (not formally registered in the Philippines; 0 active licenses on record) |
-| Predicted New Indication | Prinzmetal Angina |
+|------|------|
+| Original Indication | Not stated in the Philippines licence record (sevoflurane is known as an inhaled general anaesthetic) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only (no valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on known pharmacological class information, Sevoflurane is a halogenated ether inhalation anesthetic that produces general anesthesia through multiple ion channel effects — including enhancement of GABA-A receptor activity, inhibition of NMDA receptors, and activation of ATP-sensitive potassium (K\_{ATP}) channels.
+Detailed mechanism of action data is not available. Based on general pharmacology, sevoflurane is a volatile anaesthetic. Its anaesthetic effects are generally attributed to modulation of GABA-A and NMDA receptors. Volatile anaesthetics can also relax vascular smooth muscle and affect calcium handling. This is the only speculative link to coronary vasospasm, the cause of Prinzmetal angina.
 
-The K\_{ATP} channel activation pathway is the key link to Prinzmetal angina. Sevoflurane's activation of coronary vascular K\_{ATP} channels promotes coronary artery vasodilation and triggers ischemic preconditioning — a cardioprotective phenomenon that theoretically counteracts the pathological coronary artery spasm underlying Prinzmetal angina. This is a mechanistically plausible, though indirect, connection.
+This link is not supported by the data compiled for this report. Sevoflurane is given by inhalation under controlled medical conditions and is not a practical chronic therapy for a vasospastic condition. The high score (99.78%) most likely reflects relationships in the knowledge graph rather than direct clinical evidence.
 
-However, the clinical translation pathway is critically limited. Sevoflurane is exclusively an inhalation agent requiring specialized vaporizer equipment and monitored anesthesia conditions. Prinzmetal angina is a chronic episodic condition requiring either acute rescue or long-term prophylactic therapy — neither of which is achievable with an inhaled anesthetic. The mechanistic link exists on paper, but the route of administration poses an insurmountable practical barrier to repurposing.
+## Other Predicted Indications (for reference)
 
----
+All of the following are rated Hold. None has clinical trial support.
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Tourette syndrome | 99.50% | L5 | Prediction only. Speculative GABA/NMDA rationale. |
+| 3 | Fibromyalgia | 99.42% | L4 | One case report on anaesthetic management, not treatment. |
+| 4 | Tendinitis | 99.41% | L4 | Nine papers, all about anaesthesia in tendon-related surgery. None tests treatment of the disease. |
+| 5 | Myositis fibrosa | 99.41% | L5 | Prediction only. |
+| 6 | Idiopathic granulomatous myositis | 99.41% | L5 | Prediction only. The identical score to rank 5 suggests shared graph neighbours. |
+| 7 | Nephrogenic syndrome of inappropriate antidiuresis | 99.40% | L5 | Prediction only. No supported link. |
+| 8 | Trichotillomania | 99.33% | L5 | Prediction only. Speculative. |
+| 9 | Migraine disorder | 99.23% | L4 | One paediatric MRI anaesthesia cohort. The association is likely incidental. |
+| 10 | Inclusion body myositis | 99.09% | L4 | One case report on perioperative safety, which is the opposite of a repurposing signal. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Sevoflurane in Prinzmetal Angina.
-
----
+Currently no related clinical trials registered for Prinzmetal angina or for any of the other top-10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available for Sevoflurane in Prinzmetal Angina.
+Currently no related literature available for Prinzmetal angina.
 
----
+For reference, the literature found for lower-ranked predictions concerns sevoflurane used as an anaesthetic during surgery or procedures, not as a treatment for the disease. Examples:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26419112](https://pubmed.ncbi.nlm.nih.gov/26419112/) | 2015 | Case report | Masui | Anaesthetic management with sevoflurane in a patient with fibromyalgia. Perioperative care only. |
+| [38233786](https://pubmed.ncbi.nlm.nih.gov/38233786/) | 2024 | Comparative trial (likely RCT) | BMC Anesthesiology | Propofol vs sevoflurane for surgical field visibility in arthroscopic rotator cuff repair. Measures anaesthetic technique, not tendinitis treatment. |
+| [31852450](https://pubmed.ncbi.nlm.nih.gov/31852450/) | 2019 | Retrospective cohort | BMC Anesthesiology | Ten years of sevoflurane anaesthesia for MRI in children with neuropsychiatric disorders. Not a migraine study. |
+| [27247916](https://pubmed.ncbi.nlm.nih.gov/27247916/) | 2016 | Case report | Anesthesiology and Pain Medicine | Anaesthetic considerations in sporadic inclusion body myositis. Concerns perioperative safety. |
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0441 | Sevoflurane | Not stated | Not stated (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph (not label text)**: The TxGNN knowledge graph links sevoflurane with contraindication edges to epilepsy, kidney disease, liver disease, gallbladder disease, pyoureter, proteinuria, hypotensive disorder, malignant hyperthermia of anaesthesia, exercise-induced malignant hyperthermia, intracranial hypertension, pseudotumor cerebri, Duchenne muscular dystrophy, Becker muscular dystrophy and muscular dystrophy.
+- **Drug Interactions**: 100 interactions were found. The main ones (Major severity) are:
+  - Epinephrine
+  - Dolasetron
+  - Cisapride
 
----
+  Moderate interactions include famotidine, morphine, ondansetron, palonosetron, clarithromycin, levofloxacin, exenatide, and several laxatives and bowel-preparation agents. Metronidazole is a minor interaction.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a purely model-driven prediction (L5) with zero supporting clinical trials or literature. While the K\_{ATP} channel mechanism provides a theoretical link to coronary vasospasm, the fundamental incompatibility between inhalation-only delivery and chronic angina management makes clinical translation not feasible without a radically different drug formulation.
+The prediction for Prinzmetal angina has no supporting clinical trials or literature (L5). Sevoflurane is an inhaled anaesthetic that is not suited to chronic treatment of this condition. In the Philippines its only registration is cancelled. The same applies to the other nine predicted indications, which lack trials and have only incidental anaesthesia literature.
 
 **To proceed, the following is needed:**
-- Detailed MOA data from DrugBank (DG002) to confirm K\_{ATP} channel involvement
-- TFDA/Philippines FDA package insert to retrieve formal warnings and contraindications (DG001)
-- A credible alternative delivery concept (e.g., inhaled sevoflurane as acute abort therapy for refractory vasospastic episodes in a monitored setting) before any research pathway can be proposed
-- Literature search specifically targeting volatile anesthetics + coronary vasospasm + ischemic preconditioning to determine whether any translational case reports exist outside this dataset's capture window
-
----
-
-> ⚠️ **Disclaimer:** This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application.
+- Mechanism of action data to assess any link to coronary vasospasm
+- Preclinical or early clinical evidence of benefit in the predicted indication
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- An assessment of whether a suitable route and dosage form could exist for a chronic condition
+- Clarification of the cancelled registration status and the original approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Codeine
-parent: Model Prediction Only (L5)
-nav_order: 84
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 86
+evidence_level: L4
 indication_count: 4
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,117 +29,98 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Codeine: From Opioid Analgesia to Nasal Cavity Disease
+# Codeine: From Rhinitis and Headache Symptom Relief to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Codeine is a well-established opioid analgesic and antitussive agent, widely used for mild-to-moderate pain relief and cough suppression via central μ-opioid receptor activation. The TxGNN model ranks **Nasal Cavity Disease** as its top predicted new indication (score 99.93%), alongside Acute Laryngopharyngitis, Trigeminal Autonomic Cephalalgia, and Allergic Urticaria. However, evidence review across all four predictions reveals a consistent pattern of **reverse (adverse) associations** — Codeine appears in the relevant literature as a *cause of* or *diagnostic probe for* these conditions rather than a therapeutic agent — with no supporting clinical trials and a uniform **Hold** recommendation across all indications.
+Codeine is an opioid originally used for symptom relief in allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold, nasopharyngitis and headache disorders.
+The TxGN model predicts it may be effective for **nasal cavity disease**, but there are **0 clinical trials** and only **1 publication** (a case report describing an adverse event), so the evidence is very weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Opioid analgesia and antitussive (cough suppression) |
-| Predicted New Indication | Nasal Cavity Disease |
+|------|------|
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, Codeine is a naturally occurring opioid alkaloid and prodrug that is demethylated to morphine via CYP2D6, exerting its effects primarily through **μ-opioid receptor (MOR) agonism** in the central nervous system. Its antitussive action is mediated through opioid receptors in the nucleus tractus solitarius (NTS), while analgesia is achieved via modulation of pain signaling in the periaqueductal gray, spinal cord, and limbic system. It has no known anti-inflammatory, antihistaminic, or direct ENT disease-modifying mechanisms.
+Currently, detailed mechanism of action data is not available. Based on known information, codeine is an opioid that acts mainly through conversion to morphine and mu-opioid receptor agonism. It has central antitussive and analgesic effects, which explains its past use for symptomatic relief in cold-like and upper airway conditions.
 
-The TxGNN model's high prediction scores for all four indications — nasal cavity disease, acute laryngopharyngitis, trigeminal autonomic cephalalgia, and allergic urticaria — appear to reflect **knowledge graph co-occurrence bias rather than genuine therapeutic potential**. In each case, Codeine surfaces in the biomedical literature not as a treatment but through adverse or instrumental associations: opioid powder inhalation causing ischemic mucosal necrosis and rhinolithiasis ("opioma") in nasal cavity disease; suppression of protective cough reflexes raising concern in laryngopharyngitis; well-documented risk as a driver of medication overuse headache (MOH) in cluster headache, with international guidelines explicitly recommending against opioid use in trigeminal autonomic cephalalgias (TACs); and Codeine's direct, IgE-independent mast cell degranulation property, which makes it a standard positive control reagent in urticaria skin testing — not a therapeutic agent.
+The very high prediction score most likely reflects graph proximity to the existing rhinitis and nasopharyngitis indications rather than a distinct therapeutic mechanism. Nasal cavity disease is a broad category that overlaps with those original indications, so the prediction is largely a restatement of existing use rather than a new repurposing signal.
 
-This case illustrates a critical limitation of knowledge-graph-based prediction models: high co-occurrence frequency in the biomedical literature does not distinguish between therapeutic associations and adverse/diagnostic ones. All four predicted indications are assessed as **false positives**, and the high TxGNN scores reflect the richness of Codeine's adverse and diagnostic literature rather than any repurposing opportunity.
+The only literature found is a case report of a rhinolith formed around a hardened mixture of codeine and opium. It describes an incidental or adverse event, not a therapeutic effect. Codeine's opioid activity offers no plausible disease-modifying role in nasal cavity pathology.
+
+Other predictions in the model output were also reviewed:
+- **Acute laryngopharyngitis** (score 99.92%): prediction only, with no trials or literature. It probably reflects the original pharyngitis and common cold indications.
+- **Trigeminal autonomic cephalalgia** (score 99.43%): opioids are generally not recommended for cluster headache because of limited efficacy, risk of medication-overuse headache and dependence.
+- **Allergic urticaria** (score 99.37%): the literature shows codeine as a *cause* of urticaria, since it directly triggers mast cell histamine release and is used as a positive control in skin tests. This is a safety signal, not a therapeutic one.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for any of the four predicted indications (nasal cavity disease, acute laryngopharyngitis, trigeminal autonomic cephalalgia, or allergic urticaria).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-### Nasal Cavity Disease (Rank 1 — 2 publications)
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [22965281](https://pubmed.ncbi.nlm.nih.gov/22965281/) | 2012 | Case Report | The Laryngoscope | Intranasal abuse of hydrocodone-acetaminophen causing ischemic necrosis of the nasal cavity and pharynx — documents **opioid-induced nasal damage**, not a therapeutic benefit |
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case Report | Ear, Nose & Throat Journal | Rhinolithiasis ("opioma") formed around an impacted nasal foreign body of hardened codeine and opium — **adverse/abuse association**, not treatment |
-
-> ⚠️ Both publications document Codeine as a *cause* of nasal cavity pathology. There is no positive therapeutic signal for this indication.
-
----
-
-### Allergic Urticaria (Rank 4 — highest literature volume: 15 publications, selected below)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [16461991](https://pubmed.ncbi.nlm.nih.gov/16461991/) | 2006 | Review | Clin Rev Allergy Immunol | Opiates including codeine directly activate mast cells via non-IgE pathways to induce urticaria — **Codeine is identified as a causative agent** |
-| [3711548](https://pubmed.ncbi.nlm.nih.gov/3711548/) | 1986 | Clinical Study | J Allergy Clin Immunol | Intradermal codeine used to characterize urticaria-prone patients; urticaria-prone subjects showed heightened mast cell sensitivity — **Codeine used as a diagnostic provocation tool** |
-| [17210040](https://pubmed.ncbi.nlm.nih.gov/17210040/) | 2007 | Controlled Clinical Study | Clin Exp Allergy | Codeine intradermal skin testing to evaluate IgE-mediated allergic disorders — **Codeine as diagnostic positive control**, not therapeutic agent |
-| [17064652](https://pubmed.ncbi.nlm.nih.gov/17064652/) | 2006 | Review | Allergologia et Immunopathologia | Opioids cause adverse reactions in urticaria and asthma patients; increasing opioid use raises clinical concern — **Codeine is a risk factor** for urticaria patients |
-| [8792922](https://pubmed.ncbi.nlm.nih.gov/8792922/) | 1996 | RCT | Allergy | Codeine used as a standard wheal-and-flare provocation model to test antihistamine (mizolastine) efficacy — **Codeine as a research pharmacological probe**, not under investigation as treatment |
-| [2941218](https://pubmed.ncbi.nlm.nih.gov/2941218/) | 1986 | Case Report | Contact Dermatitis | Urticarial rash from delayed-type allergy to orally administered codeine — **Codeine-induced urticaria** case |
-
-> ⚠️ The high publication count (15 papers) reflects Codeine's longstanding role as a **standard mast cell degranulation agent** in allergy research and skin testing. This is the opposite of a therapeutic signal.
-
----
-
-### Trigeminal Autonomic Cephalalgia (Rank 3 — selected from 5 publications)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18563291](https://pubmed.ncbi.nlm.nih.gov/18563291/) | 2008 | Case Report | J Headache Pain | Codeine phosphate used as an **exceptional/last-resort** treatment in a cluster headache patient with Brugada ECG pattern when standard sodium-channel-blocking therapies were contraindicated — single case only, not generalizable |
-| [19109043](https://pubmed.ncbi.nlm.nih.gov/19109043/) | 2009 | Case Series | Eur J Paediatr Neurol | Cluster headache characteristics in children — **does not support opioid therapy** |
-| [41428068](https://pubmed.ncbi.nlm.nih.gov/41428068/) | 2026 | Case Report | Ann Biol Clin | Cocaine misuse in a cluster headache patient highlights high substance abuse risk in this population — **safety concern**, not therapeutic evidence |
-
-> ⚠️ International Headache Society (IHS) and EHMTI guidelines explicitly advise **against** opioid use in TACs due to MOH risk and lack of efficacy. PMID 18563291 is a single exceptional case under specific contraindication circumstances.
+|------|-----|------|------|---------|
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A young man with unilateral nasal obstruction had a rhinolith formed around an impacted foreign body, which proved to be a hardened codeine and opium mixture. This is an adverse or incidental event, not evidence of benefit. |
 
 ---
 
 ## Philippines Market Information
 
-Codeine (DrugBank: DB00318) currently has **no marketing authorization** registered with the FDA Philippines. There are no active, cancelled, or historical license records available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0115 | Codeine (cancelled) | Not specified | Not specified |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for full safety information, as local prescribing data and TFDA monograph warnings are not yet available in this evidence pack (Data Gap DG001 — Blocking severity).
+- **Disease associations flagged in the knowledge graph (not label text):** The model's knowledge graph lists contraindication links to the following conditions:
+  - Cardiovascular and respiratory: hypertension, chronic obstructive pulmonary disease
+  - Liver and kidney: liver failure, liver disease, kidney disease
+  - Neurological and psychiatric: epilepsy, insomnia, anxiety disorder, psychotic disorders, schizoaffective disorder
+  - Metabolic and endocrine: porphyria, hypothyroidism and myxedema
+  - Gastrointestinal: pancreatitis, gallbladder disease, peptic ulcer disease, inflammatory bowel disease, gastritis
+  - Other: thrombocytopenia, dermatitis herpetiformis
 
-Based on evidence surfaced during this repurposing review, the following adverse associations are documented and directly relevant to the predicted indications:
+- **Drug Interactions:** The interaction query returned 100 records. Of the 20 shown, two are rated Major (**alvimopan** and **bupropion**). The rest are rated Moderate and include anticholinergics (atropine, glycopyrronium, hyoscyamine, dicyclomine, clidinium), antidiarrheals (loperamide, kaolin, attapulgite), cimetidine, dexamethasone, and 5-HT3 antagonists (granisetron, dolasetron).
 
-- **Nasal Cavity Harm**: Long-term intranasal opioid abuse causes ischemic mucosal necrosis, septal perforation, and rhinolith formation ("opioma").
-- **Mast Cell Degranulation**: Codeine triggers direct, non-IgE-mediated histamine release from cutaneous mast cells, causing urticaria and potentially anaphylactoid reactions. Codeine is a well-recognized **urticaria-inducing agent** and should be used with caution in atopic or urticaria-prone patients.
-- **Medication Overuse Headache (MOH)**: Codeine is among the highest-risk analgesics for MOH in headache patients, particularly those with primary headache disorders including cluster headache (TAC).
-- **Cough Reflex Suppression**: Opioid-induced suppression of productive cough in infectious airway conditions (e.g., laryngopharyngitis) may impair natural mucociliary clearance.
+- **Urticaria concern:** Codeine directly releases histamine from mast cells and can cause urticarial reactions, so use in allergic skin conditions is a safety concern.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (applicable to all four predicted indications)
+**Decision: Hold**
 
 **Rationale:**
-All four TxGNN top-ranked predictions for Codeine represent **reverse (adverse) or diagnostic associations**, not therapeutic opportunities. The knowledge graph has captured co-occurrence patterns in which Codeine is associated with these conditions as a causative agent, a risk factor, or a pharmacological research tool — not as a repurposable treatment. Proceeding with any of these indications would carry significant patient safety risks with no mechanistic or clinical trial support.
+- The high TxGNN score is not supported by any clinical trial or relevant therapeutic literature. The only publication is a case report of an adverse event, and the prediction largely overlaps with existing rhinitis indications.
+- The Philippines registration is cancelled, and no label safety information is available.
 
-**To proceed with a valid repurposing evaluation for Codeine, the following is needed:**
-
-- **Resolve DG001 (Blocking)**: Obtain Philippines FDA package insert PDF and extract full warnings, contraindications, and approved indications for safety baseline assessment
-- **Resolve DG002 (High)**: Query DrugBank API for complete MOA data, receptor binding profiles, and pharmacokinetic parameters
-- **Direction-Aware Model Re-query**: Re-interrogate TxGNN or supplementary models with filters that exclude adverse-direction associations, distinguishing "drug causes disease" from "drug treats disease" co-occurrences
-- **Identify positive-direction candidates**: Explore Codeine's antitussive mechanism in the context of conditions with pathological cough (e.g., chronic refractory cough, pertussis) where the mechanistic direction is genuinely therapeutic
-- **Pharmacogenomic profiling**: Given CYP2D6 variability in Southeast Asian populations, any future positive indication would require a population-specific metabolizer frequency assessment before Philippines-specific development planning
+**To proceed, the following is needed:**
+- Label warnings and contraindications from the DOH-FDA Philippines package insert (this is a blocking gap)
+- Mechanism of action data from DrugBank
+- Evidence of a true therapeutic effect in nasal cavity disease, such as controlled studies, beyond overlap with existing rhinitis symptom-relief uses
+- A clear definition of which nasal cavity conditions are meant and which route of administration would apply
+- A risk assessment covering opioid dependence, respiratory depression, the interaction profile and the disease associations above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dapsone
 parent: High Evidence (L1-L2)
-nav_order: 96
+nav_order: 98
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-# Dapsone: From Leprosy to Pneumocystosis
+# Dapsone: From Dermatitis Herpetiformis, Acne and Leprosy to Pneumocystosis
 
 ## One-Sentence Summary
 
-Dapsone is a diaminodiphenyl sulfone antimicrobial agent, historically used as the cornerstone treatment for leprosy and inflammatory dermatological conditions such as dermatitis herpetiformis.
-The TxGNN model predicts it may be effective for **Pneumocystosis** (Pneumocystis jirovecii pneumonia, PJP),
-with **14 clinical trials** and **19 publications** currently supporting this direction — and notably, this prediction recapitulates an already internationally-validated secondary indication, confirming strong model accuracy.
+Dapsone is an older anti-infective and anti-inflammatory drug, originally used for dermatitis herpetiformis, acne and leprosy.
+The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocystis* pneumonia, PCP), with **9 clinical trials** and **19 publications** currently supporting this direction.
+This is already an established, guideline-supported use as an alternative when patients cannot tolerate TMP-SMX, rather than a new discovery.
 
 ---
 
@@ -43,23 +43,23 @@ with **14 clinical trials** and **19 publications** currently supporting this di
 
 | Item | Content |
 |------|------|
-| Original Indication | Leprosy; dermatitis herpetiformis (established medical use; no Philippines registration on file) |
-| Predicted New Indication | Pneumocystosis (Pneumocystis jirovecii pneumonia) |
+| Original Indication | Dermatitis herpetiformis, acne, leprosy (from the knowledge graph; no approved indication text is available in the local registration) |
+| Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank was not available for this report. Based on published pharmacological literature within this evidence pack, however, Dapsone — a diaminodiphenyl sulfone (DDS) compound — acts by competitively inhibiting **dihydropteroate synthase (DHPS)**, the enzyme that catalyzes folate biosynthesis. This is the same mechanism underpinning its activity against *Mycobacterium leprae* (leprosy). Because *Pneumocystis jirovecii*, the causative fungal pathogen of pneumocystosis, cannot scavenge exogenous folate and relies entirely on de novo synthesis, it is directly and highly sensitive to DHPS inhibition. When Dapsone is co-administered with trimethoprim (a DHFR inhibitor), the combination achieves dual-point blockade of the folate pathway, producing a well-characterised synergistic anti-*Pneumocystis* effect.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase, blocking folate synthesis in *Pneumocystis jirovecii*. This is the same pathway targeted by sulfonamides such as trimethoprim-sulfamethoxazole (TMP-SMX), the standard drug for PCP.
 
-The mechanistic bridge from leprosy to pneumocystosis is therefore straightforward: both pathogens share obligate dependence on folate biosynthesis, making Dapsone's core mechanism directly transferable across these biologically distinct infectious disease states. The TxGNN knowledge-graph score of **0.9973** reflects a strong edge chain — Dapsone → antimicrobial/antiprotozoal activity → folate metabolism inhibition → *P. jirovecii* — fully consistent with known pharmacology.
+Its established antimicrobial effect in leprosy shows the drug can act against infectious organisms through this pathway. The mechanism is therefore biologically plausible for PCP, and consistent with the very high TxGNN score.
 
-Crucially, this is not a speculative repurposing. Dapsone is already included as a **first-line alternative prophylactic agent** in the ECIL-5 evidence-based guidelines for PCP prevention in patients with haematological malignancies and HSCT recipients (Grade A-II recommendation), and is endorsed by the IDSA for HIV-associated PCP prophylaxis when TMP-SMX is not tolerated. Multiple large Phase 3 RCTs conducted through the AIDS Clinical Trials Group (ACTG) in the 1990s established its efficacy for both treatment and primary/secondary prophylaxis. TxGNN has accurately reproduced a validated clinical reality — which is the strongest possible validation of the model's predictive value.
+Dapsone is already used clinically for PCP prophylaxis, and for mild-to-moderate treatment combined with trimethoprim, in patients who cannot tolerate TMP-SMX. A recent network meta-analysis of randomized trials in people living with HIV also includes dapsone-based regimens among the prophylaxis options.
 
 ---
 
@@ -67,16 +67,15 @@ Crucially, this is not a speculative repurposing. Dapsone is already included as
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00000802](https://clinicaltrials.gov/study/NCT00000802) | Phase 3 | Completed | 700 | Head-to-head RCT comparing daily Dapsone vs Atovaquone for PCP prophylaxis in HIV patients (CD4 ≤200/mm³) intolerant to TMP/SMX; large-scale, directly relevant efficacy trial |
-| [NCT00000640](https://clinicaltrials.gov/study/NCT00000640) | Phase 3 | Completed | 290 | Dapsone/Trimethoprim vs Clindamycin/Primaquine vs TMP-SMX for treatment of mild-to-moderate PCP in AIDS; established Dapsone/TMP as effective oral treatment alternative |
-| [NCT00000991](https://clinicaltrials.gov/study/NCT00000991) | Phase 3 | Completed | 600 | Compared three anti-PCP prophylaxis regimens (including Dapsone) plus AZT for primary prevention in advanced HIV; also assessed protection against toxoplasmosis |
-| [NCT00001028](https://clinicaltrials.gov/study/NCT00001028) | Phase 3 | Completed | 400 | Dapsone (three times weekly) vs aerosolized pentamidine for PCP prophylaxis in TMP/SMX-intolerant HIV patients; confirmed Dapsone dosing schedule and comparative efficacy |
-| [NCT00002283](https://clinicaltrials.gov/study/NCT00002283) | N/A | Completed | N/A | Randomized prospective study comparing Dapsone + trimethoprim vs TMP-SMX for first-episode PCP in AIDS patients; evaluated outpatient treatment suitability and adverse event rates |
-| [NCT02550080](https://clinicaltrials.gov/study/NCT02550080) | Phase 4 | Unknown | 3,130 | Prospective HLA-B\*1301 genetic pre-screening study to reduce Dapsone Hypersensitivity Syndrome (DHS) incidence; large-scale real-world safety study spanning multiple Dapsone indications including PJP |
-| [NCT00002120](https://clinicaltrials.gov/study/NCT00002120) | Phase 1 | Completed | 20 | Explored Trimetrexate + Dapsone + leucovorin vs TMP-SMX for moderately severe PCP in AIDS; characterised pharmacokinetics and established early safety profile of combination |
-| [NCT00000739](https://clinicaltrials.gov/study/NCT00000739) | Phase 1 | Completed | 96 | Daily vs weekly oral Dapsone for PCP prophylaxis in HIV-infected infants and children; generated paediatric pharmacokinetic data and dosing guidance |
-| [NCT00141037](https://clinicaltrials.gov/study/NCT00141037) | Phase 1/2 | Completed | 130 | Steroid-free immunosuppression in paediatric renal transplant; Dapsone used as routine PCP prophylaxis component, providing real-world safety context in non-HIV immunocompromised children |
-| [NCT04328688](https://clinicaltrials.gov/study/NCT04328688) | N/A | Completed | 30 | Clindamycin–TMP/SMX for PCP after solid organ transplantation; Dapsone referenced as established second-line alternative, supporting its role across immunocompromised populations beyond HIV |
+| [NCT00000802](https://clinicaltrials.gov/study/NCT00000802) | Phase 3 | Completed | 700 | Daily dapsone vs daily atovaquone for PCP prophylaxis in HIV patients intolerant of trimethoprim/sulfonamides |
+| [NCT00000991](https://clinicaltrials.gov/study/NCT00000991) | Phase 3 | Completed | 600 | Three anti-Pneumocystis regimens plus zidovudine for primary prevention in advanced HIV |
+| [NCT00001028](https://clinicaltrials.gov/study/NCT00001028) | Phase 3 | Completed | 400 | Monthly aerosolized pentamidine vs thrice-weekly dapsone for PCP prophylaxis |
+| [NCT00000640](https://clinicaltrials.gov/study/NCT00000640) | Phase 3 | Completed | 290 | Dapsone/trimethoprim and clindamycin/primaquine vs TMP-SMX for mild-to-moderate PCP |
+| [NCT00000739](https://clinicaltrials.gov/study/NCT00000739) | Phase 1 | Completed | 96 | Daily vs weekly oral dapsone for PCP prophylaxis in HIV-infected children (toxicity, pharmacokinetics) |
+| [NCT00002120](https://clinicaltrials.gov/study/NCT00002120) | Phase 1 | Completed | 20 | Trimetrexate with leucovorin plus dapsone vs TMP-SMX for moderately severe PCP |
+| [NCT00002283](https://clinicaltrials.gov/study/NCT00002283) | Not specified | Completed | Not reported | Randomized comparison of dapsone plus trimethoprim vs TMP-SMX for first-episode PCP in AIDS |
+| [NCT00002043](https://clinicaltrials.gov/study/NCT00002043) | Not specified | Completed | Not reported | Dapsone 100 mg vs 50 mg for primary PCP prophylaxis in AIDS-related complex |
+| [NCT02550080](https://clinicaltrials.gov/study/NCT02550080) | Phase 4 | Unknown | 3130 | HLA-B*1301 genetic screening to reduce dapsone hypersensitivity syndrome (safety-focused) |
 
 ---
 
@@ -84,41 +83,33 @@ Crucially, this is not a speculative repurposing. Dapsone is already included as
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38583518](https://pubmed.ncbi.nlm.nih.gov/38583518/) | 2024 | Systematic Review / Network Meta-analysis | Clinical Microbiology and Infection | Network meta-analysis of RCTs comparing all PCP prophylaxis regimens (TMP-SMX, Dapsone-based, pentamidine, atovaquone) in people living with HIV; provides the most current quantitative comparative efficacy and safety estimates |
-| [39732393](https://pubmed.ncbi.nlm.nih.gov/39732393/) | 2025 | Systematic Review / Network Meta-analysis | Clinical Microbiology and Infection | Network meta-analysis of RCTs evaluating PCP treatment regimens in PLHIV; synthesises contemporary evidence including Dapsone-containing combinations |
-| [27550992](https://pubmed.ncbi.nlm.nih.gov/27550992/) | 2016 | Clinical Practice Guideline | Journal of Antimicrobial Chemotherapy | ECIL-5 evidence-based recommendations for PCP prophylaxis in haematological malignancies and HSCT; Dapsone recommended as first-line alternative to TMP-SMX (Grade A-II) |
-| [9675476](https://pubmed.ncbi.nlm.nih.gov/9675476/) | 1998 | Review | Clinical Infectious Diseases | Authoritative review of Dapsone for PCP prevention and treatment; covers DHPS inhibition mechanism, oral bioavailability (70–80%), PK/PD profile in alveolar fluid, and synergistic activity with trimethoprim |
-| [33870843](https://pubmed.ncbi.nlm.nih.gov/33870843/) | 2021 | Narrative Review | Expert Opinion on Pharmacotherapy | Updated comprehensive review of PJP prevention and treatment across all immunocompromised host categories; practical drug selection guidance including Dapsone regimens |
-| [11155588](https://pubmed.ncbi.nlm.nih.gov/11155588/) | 2001 | Pharmacological Review | Dermatologic Clinics | Dual overview of Dapsone and sulfapyridine mechanisms; confirms Dapsone as the most important anti-leprosy drug and key PCP prophylaxis agent in HIV disease |
-| [8605054](https://pubmed.ncbi.nlm.nih.gov/8605054/) | 1995 | Comparative Clinical Study | AIDS (London) | Three-arm study comparing aerosolized pentamidine, cotrimoxazole, and Dapsone-pyrimethamine for primary PCP prophylaxis; assessed efficacy, toxoplasmosis prevention, and survival |
-| [9606476](https://pubmed.ncbi.nlm.nih.gov/9606476/) | 1998 | Safety Case Series | Annals of Pharmacotherapy | Methemoglobinemia in a patient receiving Dapsone for PCP prophylaxis; documents this clinically important adverse effect and the need for haemoglobin monitoring |
-| [32714715](https://pubmed.ncbi.nlm.nih.gov/32714715/) | 2020 | Case Report | Cureus | Dapsone-induced hypoxia via methemoglobinemia; reinforces the necessity of SpO₂ monitoring and clinical awareness of this rare but serious complication during Dapsone therapy |
-| [18971152](https://pubmed.ncbi.nlm.nih.gov/18971152/) | 2008 | Narrative Review | Journal of the Formosan Medical Association | Taiwan-focused review of PJP pathophysiology, reclassification of the organism as a fungus, diagnosis, and treatment; provides Asia-Pacific regional clinical context |
+| [38583518](https://pubmed.ncbi.nlm.nih.gov/38583518/) | 2024 | Systematic review / network meta-analysis | Clin Microbiol Infect | Compares PCP prophylaxis regimens in people with HIV, including TMP-SMX, dapsone-based regimens, aerosolized pentamidine and atovaquone |
+| [39732393](https://pubmed.ncbi.nlm.nih.gov/39732393/) | 2025 | Systematic review / network meta-analysis | Clin Microbiol Infect | Compares PCP treatment regimens in people with HIV; TMP-SMX remains the primary treatment |
+| [27550992](https://pubmed.ncbi.nlm.nih.gov/27550992/) | 2016 | Guideline | J Antimicrob Chemother | ECIL guidelines for PCP prophylaxis in haematological malignancy and stem cell transplant; TMP-SMX is the drug of choice |
+| [33870843](https://pubmed.ncbi.nlm.nih.gov/33870843/) | 2021 | Review | Expert Opin Pharmacother | Review of *P. jirovecii* prevention and treatment |
+| [11155588](https://pubmed.ncbi.nlm.nih.gov/11155588/) | 2001 | Review | Dermatol Clin | Dapsone is useful for PCP prophylaxis in HIV disease, in addition to leprosy and dermatitis herpetiformis |
+| [19445734](https://pubmed.ncbi.nlm.nih.gov/19445734/) | 2008 | Review | BMJ Clin Evid | Treatment of PCP in HIV; prophylaxis has reduced incidence |
+| [9606476](https://pubmed.ncbi.nlm.nih.gov/9606476/) | 1998 | Case report (safety) | Ann Pharmacother | Methemoglobinemia in a patient on dapsone for PCP prophylaxis |
+| [24576944](https://pubmed.ncbi.nlm.nih.gov/24576944/) | 2015 | Case report (safety) | J Oncol Pharm Pract | Hemolytic anemia with dapsone prophylaxis in glioblastoma patients, possible interaction with vorinostat |
 
 ---
 
 ## Philippines Market Information
 
-Dapsone currently has **no registered drug products with the Philippines FDA**. There are no authorization numbers, brand names, or approved indications on file.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| — | No registrations found | — | — |
-
-Should clinical deployment be considered, a Philippines FDA registration pathway (new drug application, or a special access / compassionate use mechanism) would be a prerequisite before institutional use.
+| PNF-0130 | Dapsone | Not specified | Not specified (registration status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Package insert safety data (local warnings and contraindications) were not available in this evidence pack.
+- **Disease-related cautions (from the knowledge graph, not label text)**: Liver disease, gallbladder disease, anemia (including macrocytic anemia), G6PD deficiency, glycogen storage disease, cystinuria, galactosemia, pyruvate dehydrogenase E3 deficiency, and methemoglobinemia due to methemoglobin reductase deficiency.
+- **Drug Interactions**: 100 interactions were identified. Moderate-level ones include aprepitant, metronidazole, picosulfuric acid, nateglinide, nitisinone, rosuvastatin, simvastatin, tinidazole, activated charcoal and troglitazone. Others, such as calcitriol, pantoprazole, glimepiride, morphine, metformin, omeprazole, sucralfate, rosiglitazone, lansoprazole and vancomycin, have an unclassified level.
+- **Reported adverse events in the literature**: Methemoglobinemia and hypoxia, hemolytic anemia, and acute pancreatitis.
+- **Hypersensitivity**: HLA-B*1301 screening is being studied for dapsone hypersensitivity syndrome.
 
-> Please refer to the package insert for safety information.
-
-Two additional safety signals are well-documented in the literature included in this evidence pack and warrant proactive clinical attention:
-
-- **Methemoglobinemia**: Dapsone can oxidize haemoglobin to methaemoglobin, causing dose-dependent cyanosis and hypoxia. Baseline G6PD screening and periodic SpO₂/methaemoglobin monitoring are strongly advised (PMID [9606476](https://pubmed.ncbi.nlm.nih.gov/9606476/), [32714715](https://pubmed.ncbi.nlm.nih.gov/32714715/)).
-- **Dapsone Hypersensitivity Syndrome (DHS)**: Strongly associated with the **HLA-B\*1301** allele (prevalent in Asian populations). Prospective genetic pre-screening has been studied in a large Phase 4 trial (NCT02550080, n=3,130) and may substantially reduce DHS incidence.
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -127,15 +118,16 @@ Two additional safety signals are well-documented in the literature included in 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for Dapsone in pneumocystosis is exceptionally strong — four completed Phase 3 RCTs (total n>1,900), two recent systematic reviews with network meta-analyses, and explicit guideline endorsement at Grade A-II (ECIL-5). The primary barrier to deployment in the Philippines is not evidence strength, but the absence of local market registration and the need for a formal safety monitoring plan.
+Several completed Phase 3 randomized trials (NCT00000802, NCT00000991, NCT00001028, NCT00000640), together with network meta-analyses, support dapsone in PCP prophylaxis and treatment. It is an established alternative to TMP-SMX. However, the only Philippine registration is cancelled, and local safety label data is missing.
 
 **To proceed, the following is needed:**
-- Establish a Philippines FDA registration or special access pathway for Dapsone
-- Obtain and review the local package insert to document full warnings, contraindications, and drug interactions
-- Implement a **methemoglobinemia monitoring protocol**: baseline G6PD screen, then periodic SpO₂ and methaemoglobin assessment during therapy
-- Evaluate feasibility of **HLA-B\*1301 pre-screening** given high allele frequency in Filipino and Southeast Asian populations, to mitigate Dapsone Hypersensitivity Syndrome risk
-- Define the target patient population (HIV/AIDS with CD4 <200/mm³; solid organ transplant; haematological malignancy/HSCT) and select the appropriate prophylaxis or treatment dosing regimen accordingly
-- Complete a formal drug interaction review, particularly with trimethoprim (combination partner), rifampicin, and antiretrovirals commonly co-administered in HIV management
+- Confirm local availability and registration, since the only registration (PNF-0130) is cancelled
+- Obtain the package insert warnings and contraindications
+- G6PD deficiency screening before use
+- Monitoring for methemoglobinemia and hemolysis
+- Assessment of sulfonamide cross-reactivity
+- Detailed mechanism of action data (MOA)
+- A review of interactions with the patient's concomitant medications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ferrous Gluconate
-parent: Model Prediction Only (L5)
-nav_order: 139
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 141
+evidence_level: L4
 indication_count: 5
 ---
 
 # Ferrous Gluconate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,77 +33,84 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Ferrous gluconate is a divalent iron (Fe²⁺) salt supplement belonging to the ferrous salt pharmacological class, traditionally used to correct iron deficiency anemia. The TxGNN model predicts it may be effective for **Plummer-Vinson Syndrome (PVS)** — a rare condition in which chronic iron deficiency drives pharyngo-esophageal mucosal atrophy and esophageal web formation — with a prediction score of **99.94%**. Currently, **no dedicated clinical trials or publications** specifically testing ferrous gluconate in PVS have been identified, though the mechanistic rationale is exceptionally strong: ferrous salt supplementation is already the established first-line treatment for PVS as a drug class.
+Ferrous gluconate is an iron supplement originally used to treat iron deficiency anemia and related anemias.
+The TxGNN model predicts it may be effective for **Plummer-Vinson syndrome**, but there are currently **no clinical trials and no publications** supporting this specific prediction.
+The prediction largely reflects an extension of the existing anemia indication rather than a truly new use.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Iron deficiency anemia (standard pharmacological class use; no Philippine regulatory registration available) |
-| Predicted New Indication | Plummer-Vinson Syndrome |
+|------|------|
+| Original Indication | Iron deficiency anemia (also anemia of prematurity, hypochromic, deficiency and microcytic anemia) |
+| Predicted New Indication | Plummer-Vinson syndrome |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 (Mechanistic / Class-Effect Basis) |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L4 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Plummer-Vinson Syndrome (PVS) — also known as Patterson-Kelly Syndrome — presents as a clinical triad of iron deficiency anemia, progressive dysphagia, and pharyngo-esophageal webs. The underlying mechanism is well-established: chronic iron depletion leads to atrophic changes in the pharyngo-esophageal mucosa, resulting in web formation at the post-cricoid region. Because iron deficiency is the root cause, iron repletion is universally recognized as the cornerstone of PVS management, capable of reversing esophageal webs, restoring mucosal integrity, and resolving dysphagia without the need for surgical dilation in many cases.
+Detailed mechanism-of-action data is not currently available. Based on known information, ferrous gluconate is an oral iron salt that replenishes body iron stores. Its efficacy in iron deficiency anemia is well established, and mechanistically it may be applicable to Plummer-Vinson syndrome.
 
-Currently, detailed mechanism of action (MOA) data for Ferrous gluconate (DB14488) is not available in the system. Based on established pharmacology, ferrous gluconate belongs to the ferrous salt class and delivers divalent iron (Fe²⁺) that is efficiently absorbed in the duodenum and proximal jejunum via the divalent metal transporter 1 (DMT1). This mechanism directly addresses the pathological iron depletion that underlies PVS. The high TxGNN knowledge graph score (0.9994) reflects this mechanistic alignment along the pathway: ferrous iron supplementation → restoration of systemic iron stores → reversal of PVS mucosal atrophy and esophageal webs.
+Plummer-Vinson syndrome (sideropenic dysphagia) is characterized by iron deficiency anemia, esophageal webs and difficulty swallowing. Iron repletion is the established standard treatment and can resolve both the anemia and the dysphagia. The drug's original indication therefore overlaps directly with the core pathophysiology of this syndrome, so the high TxGNN score likely reflects this shared mechanism rather than a new therapeutic use.
 
-While no compound-specific RCTs or publications linking ferrous gluconate to PVS were retrieved, this prediction represents a well-supported **class-effect extrapolation**. Other members of the ferrous salt class — including ferrous sulfate and ferrous fumarate — have documented use in PVS management, and ferrous gluconate, as a pharmacologically equivalent member, is expected to share this therapeutic profile. The primary evidence gap is the absence of DB14488-specific clinical data, rather than any mechanistic implausibility.
+Support is indirect (mechanistic and guideline-based) only, since no trials or literature were compiled for this report.
+
+### Other Predictions Reviewed
+
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Vitamin B12- and folate-independent constitutional megaloblastic anemia | 99.94% | L5 | Pathway unclear; likely driven by graph proximity to anemia terms. Hold |
+| Non-syndromic esophageal malformation | 99.67% | L5 | Structural defect iron would not be expected to correct; likely linked via esophageal webs. Hold |
+| Biotin metabolic disease | 99.42% | L5 | No plausible mechanism; probable graph artifact. Hold |
+| Vitamin deficiency disorder | 99.17% | L4 | One small pilot trial (iron and FGF23 in hypophosphatemic rickets); hypothesis-generating only |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ferrous gluconate in Plummer-Vinson Syndrome.
+Currently no related clinical trials are registered for Plummer-Vinson syndrome.
 
----
+For the lower-ranked prediction "vitamin deficiency disorder", one trial was found:
 
-## Literature Evidence
-
-Currently no related literature available specifically examining Ferrous gluconate in the context of Plummer-Vinson Syndrome.
-
----
-
-## Philippines Market Information
-
-Ferrous gluconate (DB14488) is currently **not marketed in the Philippines**. No drug registration licenses were identified in the Philippine FDA database.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|--------------|-------------|---------------------|
-| — | No registered products found | — | — |
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02233322](https://clinicaltrials.gov/study/NCT02233322) | Not applicable | Completed | 8 | Pilot study of iron therapy in autosomal dominant hypophosphatemic rickets, testing whether iron lowers elevated FGF23 and corrects low phosphate. Small and indirect evidence only. |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (from the knowledge graph, not label text)**: peptic ulcer disease, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, hemolytic anemia, gastroenteritis.
+- **Drug Interactions**: 80 interactions were identified. Most are Moderate, with some Minor. Main ones include:
+  - Proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), which may reduce iron absorption
+  - Antacids and minerals (calcium carbonate, magnesium oxide, aluminum hydroxide, magaldrate)
+  - Tetracyclines (doxycycline, tetracycline, minocycline) and levofloxacin
+  - Pancrelipase, sodium sulfate and triethylenetetramine
+  - Minor: cimetidine, zinc sulfate and zinc acetate
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic alignment between ferrous gluconate and Plummer-Vinson Syndrome is highly compelling — PVS is an iron-deficiency-driven condition for which ferrous salt supplementation is the established standard of care at the drug-class level, and the TxGNN knowledge graph score of 99.94% directly reflects this biological plausibility. The current evidence ceiling of L4 is driven not by mechanistic uncertainty, but by a gap in compound-specific clinical data for DB14488; the drug class as a whole has well-documented efficacy in PVS.
+The leading prediction (Plummer-Vinson syndrome) is biologically sound but is essentially covered by the existing iron deficiency anemia use, with no trials or literature to support it as a distinct repurposing opportunity. The only registered Philippines license is cancelled, and label safety data is unavailable.
 
 **To proceed, the following is needed:**
-
-- **Compound-specific literature review:** Conduct a targeted search for ferrous gluconate specifically in PVS case series and observational studies, distinguishing DB14488 from other ferrous salts (ferrous sulfate, ferrous fumarate) in the literature
-- **MOA data retrieval:** Query the DrugBank API to obtain the full pharmacological profile of DB14488 (Data Gap DG002 — High severity)
-- **Safety profile completion:** Download and parse the Philippine FDA (or equivalent regional) package insert to obtain formal warnings and contraindications (Data Gap DG001 — Blocking severity); until resolved, this prevents formal safety screening (Stage S1)
-- **Drug interaction check:** Re-run DDI query using alternative databases (e.g., DrugBank interactions module, Lexicomp) as the initial query returned no results
-- **Regulatory pathway assessment:** Since ferrous gluconate is not currently registered in the Philippines, evaluate the regulatory pathway required for product introduction if clinical development is pursued; note that ferrous salt products are widely available in other markets and the regulatory burden may be low
-- **Class-evidence bridging document:** Prepare a class-effect justification document compiling evidence from other ferrous salts in PVS to support an extrapolation argument for DB14488 during any future regulatory submission
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Detailed mechanism of action data
+- Literature review of iron therapy in Plummer-Vinson syndrome (case series and guidelines)
+- Clarification of the current Philippines market status and whether a valid product is available
+- Review of the knowledge-graph contraindications (e.g., inflammatory bowel disease, hemochromatosis) for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

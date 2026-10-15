@@ -2,7 +2,7 @@
 layout: default
 title: Formoterol
 parent: Model Prediction Only (L5)
-nav_order: 155
+nav_order: 157
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Formoterol: From Asthma/COPD to Respiratory Malformation
+# Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
 
 ## One-Sentence Summary
 
-Formoterol is a long-acting beta-2 adrenergic agonist (LABA) widely used globally for the maintenance treatment of asthma and chronic obstructive pulmonary disease (COPD). The TxGNN model predicts it may be effective for **Respiratory Malformation**, with **18 clinical trials** and **10 publications** found in related respiratory domains — though none directly address congenital respiratory malformations. Formoterol is currently **not marketed** in the Philippines.
+Formoterol is a long-acting beta2-agonist bronchodilator, originally used for obstructive airway disease such as pulmonary emphysema and asthma.
+The TxGNN model predicts it may be effective for **respiratory malformation**, but there are **0 clinical trials** and **9 publications** (none addressing this condition) behind that prediction.
 
 ---
 
@@ -41,89 +42,68 @@ Formoterol is a long-acting beta-2 adrenergic agonist (LABA) widely used globall
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma and COPD maintenance treatment (globally approved; no Philippines registration) |
-| Predicted New Indication | Respiratory Malformation |
+| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (from knowledge-graph indication data; the local licence record has no indication text) |
+| Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 — Model prediction only; no direct clinical studies for respiratory malformation |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Formoterol is a selective, potent, and long-acting beta-2 adrenergic receptor agonist. It relaxes airway smooth muscle, producing rapid-onset (within 5 minutes) and sustained bronchodilation lasting up to 12 hours. It is commonly formulated in combination with inhaled corticosteroids (e.g., budesonide/formoterol as Symbicort®) for the maintenance and reliever treatment of asthma and COPD. Formoterol also protects against platelet-activating factor (PAF)-induced bronchoconstriction and gas exchange defects, as demonstrated in clinical studies (PMID 14738234).
+Detailed mechanism-of-action data for formoterol were not available in the data compiled for this report. From general pharmacology, formoterol is a long-acting beta2-adrenoceptor agonist that relaxes airway smooth muscle. Its efficacy in asthma and emphysema is well established.
 
-The TxGNN model's prediction that formoterol may be relevant to "respiratory malformation" likely stems from the drug's deep connectivity within the respiratory disease knowledge graph. Respiratory malformations — which include congenital structural anomalies of the airways and lungs — can lead to chronic airflow limitation, airway narrowing, and respiratory distress, symptoms that partially overlap with the functional consequences addressed by beta-2 agonists.
+That mechanism does not clearly extend to the predicted indication. Respiratory malformation is a structural, developmental condition, and a bronchodilator acts on airway muscle tone and cannot correct a structural defect. The retrieved literature concerns asthma and COPD, with incidental hits on Down syndrome cognition, post-COVID small airway disease, and allergic bronchopulmonary mycosis.
 
-However, it is important to note that respiratory malformations are fundamentally structural/congenital conditions, whereas formoterol's mechanism of action addresses functional airway smooth muscle tone and inflammation. While formoterol may provide symptomatic relief (bronchodilation) in patients with airway malformations who develop secondary obstructive physiology, it does not address the underlying structural defect. The mechanistic link is therefore indirect, and the prediction should be interpreted with caution.
+The high score most likely reflects overlap with obstructive airway disease terms in the knowledge graph, not a real mechanistic link. This should be treated as a computational prediction only.
 
 ---
 
 ## Clinical Trial Evidence
 
-> **Note:** No clinical trials specifically targeting "respiratory malformation" as an indication for formoterol were identified. The following trials represent the closest related respiratory studies found in the evidence search.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03573817](https://clinicaltrials.gov/study/NCT03573817) | Phase 3 | Completed | 122 | Safety/tolerability of revefenacin + formoterol (PERFOROMIST®) in moderate-to-very severe COPD over 21 days |
-| [NCT02345161](https://clinicaltrials.gov/study/NCT02345161) | Phase 3 | Completed | 1,811 | FF/UMEC/VI triple therapy vs budesonide/formoterol in COPD; evaluated lung function and health status over 24 weeks |
-| [NCT02062463](https://clinicaltrials.gov/study/NCT02062463) | Phase 3 | Completed | 485 | Budesonide/formoterol SPIROMAX® vs Symbicort® TURBOHALER® inhaler technique and asthma control (ELIOT study) |
-| [NCT01803555](https://clinicaltrials.gov/study/NCT01803555) | Phase 3 | Completed | 605 | Non-inferiority of BF Spiromax 160/4.5 mcg vs Symbicort Turbohaler 200/6 mcg in persistent asthma |
-| [NCT00932646](https://clinicaltrials.gov/study/NCT00932646) | Phase 3 | Completed | 100 | 24-hour lung function profiles of BI1744 vs formoterol (Foradil) in COPD patients over 6 weeks |
-| [NCT01013753](https://clinicaltrials.gov/study/NCT01013753) | Phase 2 | Completed | 198 | Efficacy/safety of 4 doses of BI 1744 CL vs placebo and formoterol in asthma patients over 4 weeks |
-| [NCT03324607](https://clinicaltrials.gov/study/NCT03324607) | Phase 2/3 | Completed | 20 | Glycopyrrolate/formoterol (Bevespi) effects on ventilation and gas exchange assessed by 129Xe MRI in COPD |
-| [NCT06869382](https://clinicaltrials.gov/study/NCT06869382) | Phase 4 | Completed | 26 | ICS+LABA vs omalizumab on transcriptomic profiles in allergic asthma |
-| [NCT01620099](https://clinicaltrials.gov/study/NCT01620099) | Phase 4 | Completed | 60 | Small airways involvement in smoker asthmatic patients; ICS/LABA combination therapy assessment |
-| [NCT03888131](https://clinicaltrials.gov/study/NCT03888131) | Phase 3 | Completed | 750 | BDP/formoterol pMDI vs Symbicort® Turbohaler® non-inferiority in COPD lung function and patient outcomes |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-> **Note:** No publications specifically addressing formoterol for respiratory malformation were identified. The following are the most relevant respiratory-domain publications from the evidence search.
+None of the publications below studies respiratory malformation. They were retrieved because of formoterol and respiratory terms.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | RCT | Eur Respir J | Formoterol protects against PAF-induced neutropaenia, bronchoconstriction, and gas exchange defects in asthma |
-| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | Systematic Review/Meta-analysis | J Am Pharm Assoc | BGF MDI vs GFF in COPD: triple therapy showed improved lung function and reduced exacerbation rates |
-| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT | Eur Respir J | Repeated dose budesonide/formoterol vs salbutamol: comparative bronchodilator and systemic effects in stable asthma |
-| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | J Asthma | Symbicort (budesonide/formoterol) pMDI: efficacy, safety, and patient satisfaction in persistent asthma |
-| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Long-term safety of budesonide/formoterol pMDI in African American asthmatic patients |
-| [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Case Report | J Med Case Rep | Small airway disease in post-acute COVID-19: formoterol-based therapy in structural airway abnormalities |
-| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Observational | Eur J Appl Physiol | Compensatory respiratory responses to increased mechanical loading in COPD during sleep |
-| [30662579](https://pubmed.ncbi.nlm.nih.gov/30662579/) | 2018 | Cross-sectional | Can Respir J | Inhaler technique errors and maternal/fetal outcomes in pregnant asthmatic women |
-| [41686546](https://pubmed.ncbi.nlm.nih.gov/41686546/) | 2026 | Case Report | Medicine | S. commune allergic bronchopulmonary mycosis in post-op lung cancer with structural airway abnormalities |
-| [24842803](https://pubmed.ncbi.nlm.nih.gov/24842803/) | 2014 | Review | Prog Neuropsychopharmacol Biol Psychiatry | Neurotransmitter-based strategies in Down syndrome (multisystem disorder including respiratory involvement) |
+| [40840693](https://pubmed.ncbi.nlm.nih.gov/40840693/) | 2026 | RCT (systematic review and meta-analysis) | J Am Pharm Assoc | Compares budesonide/glycopyrrolate/formoterol with glycopyrrolate/formoterol for safety and efficacy in COPD. |
+| [35115339](https://pubmed.ncbi.nlm.nih.gov/35115339/) | 2022 | RCT | Eur Respir J | Randomised crossover trial comparing repeated-dose budesonide/formoterol with salbutamol in stable adult asthma (bronchodilator, cardiovascular and adverse effects). |
+| [22541245](https://pubmed.ncbi.nlm.nih.gov/22541245/) | 2012 | RCT | J Allergy Clin Immunol | Long-term safety and asthma control of budesonide/formoterol in African American patients with asthma. |
+| [14738234](https://pubmed.ncbi.nlm.nih.gov/14738234/) | 2004 | RCT | Eur Respir J | Formoterol protects against platelet-activating factor-induced effects in asthma (12 patients). |
+| [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | J Asthma | Reviews budesonide/formoterol pMDI for persistent asthma. |
+| [24842803](https://pubmed.ncbi.nlm.nih.gov/24842803/) | 2014 | Review | Prog Neuropsychopharmacol Biol Psychiatry | Neurotransmitter-based strategies for cognitive dysfunction in Down syndrome (incidental hit). |
+| [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Physiology study | Eur J Appl Physiol | Respiratory muscle and neural drive responses to increased mechanical load in COPD during sleep. |
+| [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Case report | J Med Case Rep | Small airway disease in long COVID, followed over three years. |
+| [41686546](https://pubmed.ncbi.nlm.nih.gov/41686546/) | 2026 | Case report | Medicine | Schizophyllum commune-associated allergic bronchopulmonary mycosis after lung cancer surgery. |
 
 ---
 
 ## Philippines Market Information
 
-Formoterol currently has **no registered products** with the FDA Philippines. There are no active marketing authorizations in the country.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0207 | Formoterol | Cancelled |
+
+The only registration is cancelled, so formoterol has no currently valid registration in the Philippines. No dosage form or approved indication text is recorded for this licence.
 
 ---
 
 ## Safety Considerations
 
-> Please refer to the package insert for safety information. Key safety data (warnings, contraindications, and drug interactions) were not available in the current evidence pack for the Philippines market.
+- **Knowledge-graph contraindication signals** (from the TxGNN graph, not label text): hypertension and hypertensive disorder, long QT syndrome (including familial), epilepsy, liver disease, gallbladder disease, measles, herpes simplex virus keratitis, and a broad group of pituitary and growth hormone deficiency conditions (e.g., hypopituitarism, Kallmann syndrome, Sheehan syndrome).
+- **Drug Interactions**: The query returned 100 interactions in total; the 20 shown were all Moderate or Minor.
+  - Moderate interactions include antidiabetic agents (acarbose, alogliptin, albiglutide, canagliflozin, chlorpropamide, dapagliflozin, dulaglutide, empagliflozin), QT-relevant agents (cisapride, clarithromycin, dolasetron), sympathomimetics (ephedrine, isometheptene, diethylpropion), and famotidine.
+  - Minor interactions include corticosteroids (beclomethasone, betamethasone, budesonide, dexamethasone).
 
----
-
-## Additional Predicted Indications
-
-The TxGNN model also identified several other potential indications for formoterol with substantially stronger clinical evidence:
-
-| Rank | Predicted Indication | TxGNN Score | Clinical Trials | Publications | Evidence Level |
-|------|---------------------|-------------|-----------------|--------------|---------------|
-| 2 | Bronchitis | 99.92% | 28 | 20 | L1 |
-| 3 | Rienhoff Syndrome | 99.90% | 0 | 0 | L5 |
-| 4 | Obstructive Lung Disease | 99.90% | 50 | 20 | L1 |
-| 5 | Asthma | 99.74% | 50 | 20 | L1 |
-| 6 | Asthma-related Traits | 99.50% | 0 | 0 | L5 |
-
-> **Notable finding:** Predictions #4 (obstructive lung disease) and #5 (asthma) reflect formoterol's **already-approved indications** globally, serving as strong internal validation of the TxGNN model's predictive accuracy. Prediction #2 (bronchitis) is also highly supported by existing Phase 3 RCTs (e.g., ETHOS trial — PMID 33252985, demonstrating reduced all-cause mortality with BGF triple therapy in COPD).
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -132,18 +112,14 @@ The TxGNN model also identified several other potential indications for formoter
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction — respiratory malformation — lacks direct clinical evidence. While formoterol has an extensive evidence base for functional obstructive airway diseases (asthma, COPD, bronchitis), respiratory malformations are structural/congenital conditions for which bronchodilator therapy addresses symptoms at best, not the underlying pathology. Furthermore, formoterol is not currently marketed in the Philippines, adding a regulatory barrier.
+- The prediction rests on a very high model score alone, with no clinical trials and no supporting literature, and a bronchodilator has no plausible mechanism for correcting a structural malformation.
+- For context, the other high-scoring predictions for formoterol mostly confirm existing uses. Asthma and obstructive lung disease have strong Phase 3 evidence, and "bronchitis" maps indirectly to COPD trials. None of that evidence supports respiratory malformation.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data from DrugBank to clarify potential mechanistic links to structural airway conditions
-- Philippines FDA package insert safety data (warnings, contraindications) — currently a blocking data gap for S1 safety screening
-- Literature review specifically focused on LABA use in patients with congenital respiratory malformations (e.g., tracheobronchomalacia, congenital pulmonary airway malformation)
-- Assessment of whether Philippines regulatory pathways support compassionate use or off-label prescription for respiratory malformation patients with secondary obstructive physiology
-- Consider prioritizing predictions #2 (bronchitis) or #4 (obstructive lung disease) which have L1-level evidence and are clinically actionable
-
----
-
-*Disclaimer: This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. Data cutoff: 2026-04-05.*
+- Mechanism-of-action data for formoterol and a defined biological rationale for a structural respiratory defect.
+- Any preclinical or clinical evidence in respiratory malformation, or a clearer definition of the target population.
+- The Philippines package insert warnings and contraindications.
+- Clarification of why the only Philippines registration was cancelled, and whether a valid product would be available.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

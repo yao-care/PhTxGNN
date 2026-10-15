@@ -2,7 +2,7 @@
 layout: default
 title: Dextromethorphan
 parent: Model Prediction Only (L5)
-nav_order: 102
+nav_order: 104
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,84 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Dextromethorphan: From Cough Suppression to Nasal Cavity Disease
+# Dextromethorphan: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Dextromethorphan (DXM) is a widely used antitussive agent that suppresses cough via NMDA receptor antagonism in the brainstem cough centre.
-The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **1 clinical trial** retrieved and **0 publications** currently supporting this direction — though the retrieved trial targets Major Depressive Disorder, not nasal cavity disease directly, and should be interpreted with caution.
-
----
+Dextromethorphan was originally used for upper respiratory conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold and headache disorder.
+The TxGNN model predicts it may be effective for **nasal cavity disease**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Antitussive (cough suppression) — no Philippines FDA registration found |
-| Predicted New Indication | Nasal Cavity Disease |
+|------|------|
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; no approved indication text in Philippines registration) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 (see note in Clinical Trial section) |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L5 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on established pharmacological knowledge, Dextromethorphan acts as a non-competitive NMDA receptor antagonist and Sigma-1 receptor agonist. Its proven efficacy as an antitussive — suppressing the brainstem cough centre — shares overlapping neural circuitry with upper airway sensory processing, which makes the mechanistic jump to nasal cavity pathology conceptually plausible.
+Currently, detailed mechanism of action data is not available. Dextromethorphan is known as a centrally acting antitussive (NMDA receptor antagonist and sigma-1 agonist). It has no established direct mechanism for treating nasal cavity pathology.
 
-Nasal cavity disease encompasses a spectrum of conditions — allergic rhinitis, vasomotor rhinitis, nasal polyps, and chronic rhinosinusitis — many of which involve neurogenic mucosal inflammation and hyperreactivity. DXM's NMDA antagonism may dampen afferent sensory signalling from nasal mucosa and reduce neurogenic inflammation. Separately, Sigma-1 receptor agonism has been associated in preclinical studies with immunomodulatory activity, including modulation of mast cell calcium signalling and T-cell activation, which could theoretically attenuate mucosal immune responses.
+The high score most likely reflects the closeness of "nasal cavity disease" to the drug's existing indications (allergic rhinitis, vasomotor rhinitis, rhinitis) in the knowledge graph. This is essentially an overlap with existing indications rather than true repurposing. Any benefit would probably be symptomatic rather than disease-modifying.
 
-That said, the biological plausibility remains largely theoretical. Nasal cavity disease frequently has structural, infectious, or IgE-mediated aetiologies for which DXM has no established therapeutic activity. The high TxGNN score likely reflects anatomical proximity in the knowledge graph — DXM's nasal cavity node sits adjacent to upper respiratory tract nodes — rather than a fully validated disease-modifying mechanism. No direct preclinical or clinical studies targeting nasal cavity disease with DXM have been identified.
+Other predictions follow a similar pattern and are weaker or unsupported:
 
----
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Acute laryngopharyngitis | 99.98% | Close to existing indications; possible symptomatic cough relief only |
+| 3 | Faucial diphtheria | 99.36% | Bacterial toxin-mediated disease; no antibacterial activity, likely graph proximity |
+| 4 | Trigeminal autonomic cephalalgia | 99.32% | Plausible but unverified link via NMDA antagonism and central sensitization |
+| 5 | Cervical disc degenerative disorder | 99.30% | No clear mechanism; likely model artifact |
+| 6 | Allergic urticaria | 99.25% | Not an antihistamine; likely proximity to allergic rhinitis |
 
-## Clinical Trial Evidence
-
-> ⚠️ **Important caveat:** The single retrieved trial (NCT06958692) is designed for **Major Depressive Disorder (MDD)**, not nasal cavity disease. It was retrieved based on the drug name "Dextromethorphan" and likely represents a retrieval artefact. The Evidence Pack's L2 rating reflects the existence of an ongoing Phase 3 trial for DXM (as part of a combination product), but this trial provides no direct evidence for nasal cavity disease. True evidence level for this indication is closer to **L5**.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06958692](https://clinicaltrials.gov/study/NCT06958692) | Phase 3 | Recruiting | 388 | Multicenter, randomized, double-blind, placebo-controlled trial evaluating DXM + bupropion sustained-release tablets in Chinese adult patients with **Major Depressive Disorder** — not nasal cavity disease |
-
----
-
-## Literature Evidence
-
-Currently no related literature available for Dextromethorphan in nasal cavity disease.
-
----
-
-## Philippines Market Information
-
-Dextromethorphan is currently **not registered** with the Philippines FDA. No product authorization records are available.
-
----
+All of these are L5 (model prediction only) with a Hold recommendation.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available. Please refer to the package insert for label safety information.
 
-> Note: Philippines FDA package insert warnings, contraindications, and drug interaction data were not available at the time of this report (Data Gaps DG001 and DG002). This is classified as a **Blocking** gap for formal safety screening.
+- **Contraindication-related conditions (knowledge graph, not label text)**: The knowledge graph links the drug to contraindications in several disease areas, including:
+  - Cardiovascular: hypertension, hypotensive disorder, long QT syndrome (including familial), torsades de pointes
+  - Hepatic and renal: liver failure, liver disease, kidney disease
+  - Respiratory and neurological: epilepsy, COPD, bronchitis
+  - Gastrointestinal: gastric ulcer, peptic ulcer disease, inflammatory bowel disease, pancreatitis, gallbladder disease
+  - Endocrine and metabolic: diabetes mellitus, diabetic ketoacidosis, hypothyroidism, adrenocortical insufficiency, potassium deficiency
+  - Other: thrombocytopenia, benign prostatic hyperplasia
 
----
+  These should be verified against official labelling.
+
+- **Drug Interactions**: 100 interactions were found. The main ones are:
+  - **Major**: dexfenfluramine, fenfluramine, lorcaserin, sibutramine (serotonergic agents); dolasetron, granisetron, ondansetron, palonosetron (5-HT3 antagonists)
+  - **Moderate**: bupropion, morphine (including liposomal), opium, cimetidine, dronabinol, nabilone, eliglustat, glycerol phenylbutyrate, mazindol, metoclopramide, phentermine
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a very high prediction score (99.98%) for DXM in nasal cavity disease, and the NMDA antagonism / Sigma-1 agonism mechanism is biologically plausible for upper airway neurogenic inflammation. However, no direct clinical or literature evidence exists for this indication, the single retrieved trial addresses Major Depressive Disorder rather than nasal cavity disease, and DXM is not currently registered in the Philippines — meaning significant regulatory and evidence gaps must be addressed before any formal repurposing decision.
+The prediction score is very high, but it is not supported by any clinical trials or literature. The prediction mostly overlaps with existing upper respiratory indications, and the only Philippines registration has been cancelled.
 
 **To proceed, the following is needed:**
-
-- **Targeted evidence search:** Commission a structured literature review (PubMed, EMBASE) specifically querying DXM against rhinitis, nasal hyperreactivity, and neurogenic nasal inflammation
-- **Mechanism of action data:** Retrieve full MOA from DrugBank API (Data Gap DG002) to confirm whether NMDA/Sigma-1 pharmacology has documented upper airway effects
-- **Safety dossier:** Download Philippines FDA package insert PDF and parse warnings and contraindications (Data Gap DG001 — currently Blocking)
-- **Preclinical evidence review:** Assess whether any in vitro or animal studies have evaluated DXM's effect on nasal mucosal tissue or NMDA receptor activity in the upper airway
-- **Regulatory feasibility:** Determine Philippines FDA pathway for market entry, given zero existing registrations
-- **Trial re-classification:** Confirm that NCT06958692 does not contain any nasal cavity sub-endpoints before excluding it as indirect evidence
+- Mechanism of action data (MOA) to assess the mechanistic link
+- Package insert warnings and contraindications for the Philippines
+- Literature and trial search for nasal cavity disease, and for trigeminal autonomic cephalalgia as the most plausible alternative
+- Clarification of the cancelled registration status and available dosage forms and routes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

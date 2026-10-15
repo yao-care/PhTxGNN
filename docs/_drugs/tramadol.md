@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Model Prediction Only (L5)
-nav_order: 338
+nav_order: 342
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tramadol: From Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Tramadol: From Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Tramadol is a centrally-acting analgesic widely used for managing moderate to moderately severe pain, operating via dual mechanisms of μ-opioid receptor agonism and monoamine reuptake inhibition.
-The TxGNN model predicts it may be effective for **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare congenital skeletal disorder caused by CDMP1/GDF5 gene mutations.
-Currently, there are **no clinical trials** and **no publications** directly supporting this repurposing direction, placing the evidence at Level 5 (model prediction only).
-
----
+Tramadol is an analgesic whose original indications in the knowledge graph are osteoarthritis and related joint disease.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare skeletal disorder,
+but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pain management (moderate to moderately severe pain) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+|------|------|
+| Original Indication | Osteoarthritis, osteoarthritis susceptibility, arthropathy (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Tramadol is a centrally-acting analgesic with two complementary mechanisms: (1) agonism at the μ-opioid receptor, producing direct analgesic effects, and (2) inhibition of serotonin and norepinephrine reuptake, which enhances descending pain pathway modulation. This dual action distinguishes Tramadol from conventional opioids and gives it a broader pain-control profile.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tramadol is an opioid/SNRI-type analgesic. It has been used for musculoskeletal pain such as osteoarthritis, but it is a symptomatic treatment and not a disease-modifying one.
 
-Acromesomelic Dysplasia, Hunter-Thompson Type is a rare autosomal recessive skeletal dysplasia driven by loss-of-function mutations in CDMP1/GDF5, a gene encoding a bone morphogenetic protein central to limb cartilage and joint development. There is no established mechanistic bridge between Tramadol's opioidergic/monoaminergic pathways and the GDF5/BMP signaling cascade that governs skeletogenesis. Tramadol does not interact with growth factor receptors, chondrocyte differentiation pathways, or connective tissue remodeling processes at any known target.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by defects in the CDMP1/GDF5 pathway. Tramadol has no known effect on this pathway. At most, it could offer symptomatic pain relief in a disease that affects the bones and joints. The high model score is therefore not backed by a mechanistic link.
 
-The high TxGNN score (99.99%) most likely reflects an **indirect knowledge graph connection** — a pain → skeletal node pathway arising from co-morbid pain phenotypes in bone dysplasia patients — rather than a genuine disease-modifying repurposing signal. This is a recognized artifact in graph-based prediction models, where pain is a highly connected hub node. The prediction should be interpreted as hypothesis-generating only, not as actionable pharmacological evidence.
-
----
+The other top-ranked predictions show the same pattern. They include brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, pseudoachondroplasia, spondyloarthropathy, juvenile idiopathic arthritis, LACC1-related juvenile arthritis, rheumatoid nodulosis, and RF-positive polyarticular juvenile idiopathic arthritis. All are at evidence level L5 with no supporting trials. The only linked paper (PMID 20799760, for juvenile idiopathic arthritis) concerns the NSAID ketoprofen, not tramadol, so it is not direct evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the lead prediction.
 
----
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0494 | Tramadol | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these are model-graph associations, not package insert text): hypertension, liver failure, liver disease, cirrhosis, epilepsy, anxiety and neurotic disorders, dysthymic disorder, diabetes mellitus, diabetic ketoacidosis, substance abuse/dependence, substance-related disorder, alcohol withdrawal, substance withdrawal syndrome, hyperlipidemia, respiratory failure, paracetamol poisoning, serotonin syndrome, pseudotumor cerebri, intracranial hypertension, Wernicke-Korsakoff syndrome, gallbladder disease, and central nervous system infections.
+- **Drug Interactions**: 100 interactions were found. The first 20 listed include these **Major** ones: alvimopan, bupropion, cisapride, dexfenfluramine, diethylpropion, dolasetron, dronabinol, ephedrine, and fenfluramine. **Moderate** ones include atropine, bisacodyl, cimetidine, clarithromycin, famotidine, and eliglustat.
+- **Pediatric use**: Several predicted indications are juvenile arthritis conditions. Opioid use in children carries safety concerns, including CYP2D6-related risks.
 
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a near-perfect TxGNN prediction score, all evidence pathways return empty — no clinical trials, no literature, and no mechanistic rationale connecting Tramadol to the underlying GDF5/BMP signaling defect in this congenital skeletal disorder. The high score is most plausibly a knowledge graph artifact (pain hub co-occurrence) rather than a true repurposing signal.
+The prediction has a very high model score but no clinical trials, no literature, and no plausible disease-modifying mechanism. The only registration in the Philippines has been cancelled, and the safety profile (opioid, serotonergic, and seizure risks) argues against pursuing a rare-disease indication without supporting evidence.
 
 **To proceed, the following is needed:**
-- Retrieve Tramadol's full MOA data from DrugBank (DB00193) to confirm or rule out any off-target skeletal effects
-- Complete the safety profile: obtain Philippines FDA (or TFDA) package insert warnings and contraindications to enable S1 safety screening
-- Conduct a targeted literature search for Tramadol in skeletal dysplasia or BMP/GDF5 pathway modulation
-- Consider re-prioritizing analysis to **Rank 7 — Juvenile Idiopathic Arthritis (L4 evidence)**, which has 2 associated literature records and a clinically coherent pain-management rationale, making it the most actionable candidate in this Evidence Pack for further evaluation
+- Mechanism of action data and a biological rationale linking tramadol to the GDF5/CDMP1 pathway
+- Preclinical or clinical evidence for the predicted indication (or a decision to focus on a symptomatic pain indication instead)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Clarification of the regulatory status, since the only registration is cancelled
+- A safety assessment for the target population, especially children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

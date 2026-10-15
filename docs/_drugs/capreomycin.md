@@ -2,7 +2,7 @@
 layout: default
 title: Capreomycin
 parent: Model Prediction Only (L5)
-nav_order: 56
+nav_order: 58
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capreomycin: From Tuberculosis to Gout
+# Capreomycin: From Pulmonary Tuberculosis to Gout
 
 ## One-Sentence Summary
 
-Capreomycin is a cyclic polypeptide antibiotic used as a second-line agent for drug-resistant tuberculosis treatment, particularly in multi-drug resistant TB (MDR-TB) regimens.
-The TxGNN model predicts it may be effective for **Gout**, with **0 clinical trials** and **0 publications** currently supporting this direction — placing the evidence at the lowest tier of confidence.
-This prediction is considered a likely noise association rather than a genuine therapeutic opportunity.
-
----
+Capreomycin is an injectable antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **gout**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is based on the model's output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Second-line anti-tuberculosis agent (MDR-TB / XDR-TB) |
+|------|------|
+| Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Capreomycin is a cyclic polypeptide antibiotic belonging to the tuberactinomycin family. Its established efficacy against *Mycobacterium tuberculosis* — particularly drug-resistant strains — has been proven in clinical practice, and it works by inhibiting bacterial ribosomal protein synthesis. However, this mechanism has no known relevance to gout pathophysiology.
+Currently, detailed mechanism of action data is not available. Based on known information, capreomycin is a cyclic peptide, aminoglycoside-like antibiotic that inhibits bacterial protein synthesis. Its efficacy in tuberculosis is established, but no mechanistic link to gout has been identified.
 
-Gout is fundamentally a disease of uric acid metabolism: hyperuricemia leads to monosodium urate crystal deposition in joints, triggering acute inflammatory arthritis. The two principal therapeutic targets are xanthine oxidase (reducing uric acid production) and renal urate transporters (enhancing uric acid excretion). Capreomycin has no known interaction with either pathway.
+Gout is driven by urate crystal-induced inflammation. Capreomycin has no known activity on urate metabolism or the NLRP3 inflammasome pathway. The high TxGNN score (99.91%) is a model prediction only and likely reflects proximity in the knowledge graph rather than pharmacology.
 
-The most plausible explanation for this TxGNN prediction is a **reverse causal path within the knowledge graph**: Capreomycin is known to cause nephrotoxicity → renal impairment reduces uric acid clearance → elevated serum uric acid → gout. This represents a drug *side-effect* pathway, not a therapeutic one. The model may have traversed this adverse-effect node in the KG and interpreted it as a treatment signal — a classic form of noise association.
+Its known kidney and hearing toxicity is also a concern in gout patients, who frequently have renal comorbidity.
 
----
+Other predictions from the model show the same pattern. They include rheumatoid arthritis, osteoarthritis, sclerosing cholangitis, meningococcal infection and several rare congenital skeletal disorders. None has any supporting trial or publication. Meningococcal infection is the most biologically coherent, because capreomycin is an antibacterial. However, its activity is directed at mycobacteria, and effective, well-established alternatives exist.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Capreomycin is not registered or marketed in the Philippines. No product licenses on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0072 | Capreomycin | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions from the knowledge graph** (not label text): kidney disease, liver disease, gallbladder disease, potassium deficiency, hearing loss disorders, pyoureter, and X-linked mixed deafness with perilymphatic gusher.
+- **Drug Interactions**: 58 interactions were identified in total. The main ones are:
+  - **Major**: kanamycin and neomycin (additive toxicity is a concern with other aminoglycoside-type agents).
+  - **Moderate**: amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, beclomethasone), proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole), mesalazine, balsalazide, olsalazine and exenatide.
 
-> **Note for reviewers**: Package insert data (TFDA/regulatory label warnings and contraindications) was not available at the time of this report generation. Before any further evaluation, the full prescribing information should be retrieved. Known class-level concerns for Capreomycin include nephrotoxicity, ototoxicity (auditory and vestibular), electrolyte disturbances (hypokalemia, hypocalcemia, hypomagnesemia), and neuromuscular blockade — these are clinically significant and highly relevant given the proposed indication involves a patient population that may have comorbid renal impairment.
-
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Capreomycin carry L5 evidence (model prediction only, zero supporting clinical trials or publications), and the top prediction — gout — has no mechanistic basis; the predicted link most likely reflects Capreomycin's own nephrotoxicity as a confounding path in the knowledge graph rather than any genuine therapeutic potential.
+The gout prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanism. Capreomycin also has significant toxicity, and its only Philippines registration has been cancelled.
 
 **To proceed, the following is needed:**
-
-- **Resolve DG001 (Blocking)**: Retrieve the full prescribing information / package insert from the FDA Philippines or a reference regulatory authority (e.g., US FDA, EMA) to conduct the S1 safety pre-screen before any further evaluation.
-- **Resolve DG002 (High)**: Confirm Capreomycin's mechanism of action via DrugBank API to formally assess mechanistic plausibility for all 10 predicted indications.
-- **Review all 10 predictions as a batch**: The predicted disease set is dominated by musculoskeletal/skeletal genetic disorders (osteoarthritis, brachydactyly-syndactyly, pseudoachondroplasia, acromesomelic dysplasia, colobomatous microphthalmia) with no biologically credible link to an antibacterial agent — this pattern strongly suggests systematic false-positive clustering around skeletal KG nodes and warrants a model-level quality review.
-- **Consider meningococcal infection (Rank 8) for a separate micro-assessment**: Among all 10 predictions, this is the only indication where Capreomycin's antibiotic class has at least theoretical relevance (antibacterial MOA vs. bacterial pathogen), though no MIC data or clinical efficacy data for *N. meningitidis* currently exists.
-- **Do not advance to clinical evaluation** without completing the above steps; the current evidence base does not support investment in any of the predicted indications at this time.
-
----
-
-> ⚠️ **Disclaimer**: This report is intended for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- Mechanism of action data, and any evidence of activity on urate or inflammatory pathways
+- Preclinical or in vitro evidence supporting a gout effect
+- Package insert warnings and contraindications, to complete the safety review
+- A renal and hearing safety assessment for the target population
+- Clarification of the market and supply situation, given the cancelled registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

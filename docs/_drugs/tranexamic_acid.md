@@ -2,7 +2,7 @@
 layout: default
 title: Tranexamic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 339
+nav_order: 343
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,37 +29,37 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Tranexamic Acid: From Hemorrhage Control to Amenorrhea
+# Tranexamic Acid: From Endometriosis to Amenorrhea
 
 ## One-Sentence Summary
 
-Tranexamic acid is a well-established antifibrinolytic agent used to prevent and treat excessive bleeding in surgical, traumatic, and heavy menstrual bleeding settings.
-The TxGNN model predicts it may be effective for **Amenorrhea (Disease)**,
-with **0 clinical trials** and **2 publications** currently available — however, mechanistic analysis strongly suggests this prediction is a **false positive** arising from broad clustering of TXA with menstrual-related conditions.
+Tranexamic acid is an antifibrinolytic drug, listed in the knowledge graph for endometriosis-related conditions.
+The TxGNN model predicts it may be effective for **amenorrhea**, but this rests on a model score only:
+there are **0 registered clinical trials** and **2 review articles** (indirectly related), so direct supporting evidence is very limited.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines registration data available |
-| Predicted New Indication | Amenorrhea (Disease) |
+|------|------|
+| Original Indication | Endometriosis (endometriosis of uterus) |
+| Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.19% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank source (data gap). Based on known pharmacology, tranexamic acid (TXA) is an antifibrinolytic agent that competitively blocks the lysine-binding sites on plasminogen, thereby inhibiting fibrinolysis and preventing clot breakdown. The net pharmacological effect is **pro-hemostatic** — it reduces bleeding, not promotes it.
+Currently, detailed mechanism of action data is not available. Based on known information, tranexamic acid is an antifibrinolytic that inhibits plasminogen activation and reduces fibrinolysis-driven endometrial bleeding. Its role in bleeding control is plausible, but its efficacy in the original indication (endometriosis) has not been confirmed by the data compiled for this report.
 
-The core problem with this prediction is a **fundamental directional contradiction**: amenorrhea is defined as the absence of menstruation, while TXA's mechanism of action works to reduce or stop bleeding. If TXA were applied in the context of amenorrhea, it would, if anything, reinforce the condition rather than treat it. There is no mechanistic pathway by which inhibiting fibrinolysis would restore menstrual flow.
+The link to amenorrhea is **indirect**. Tranexamic acid reduces heavy menstrual bleeding but does not by itself induce amenorrhea (absence of menses). The literature found concerns management of abnormal uterine bleeding and menses suppression or prophylaxis in hematologic cancer patients, where tranexamic acid may be one option for bleeding control. It is not a treatment for amenorrhea as a disease.
 
-The high TxGNN score (99.19%) most likely reflects the model broadly clustering TXA within the "menstrual/uterine-related diseases" category — since TXA is legitimately used for heavy menstrual bleeding (menorrhagia), the knowledge graph may have created a spurious association to adjacent gynecological conditions including amenorrhea. The 2 retrieved publications do not directly support TXA as a treatment for amenorrhea; rather, they concern menstrual suppression and management in specific clinical contexts (e.g., hematologic cancer patients), which further illustrates the indirect and incidental nature of the association.
+The high TxGNN score (0.99) is a model prediction and is not backed by clinical evidence. The prediction should be read as a bleeding-related signal rather than proof of benefit in amenorrhea.
 
 ---
 
@@ -72,21 +72,32 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|------------|
-| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Systematic Review / Clinical Guideline | Journal of Oncology Pharmacy Practice | Systematic approach to menses prophylaxis and suppression in pre-menopausal hematologic cancer patients; evaluates agents for managing menstrual bleeding in the context of treatment-associated cytopenias — TXA appears as one of several hemostatic options, not as a treatment for amenorrhea |
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Narrative Review | Menopause (New York, N.Y.) | Evidence-based review of pharmacological therapies for abnormal uterine bleeding; covers nonhormonal agents (NSAIDs reducing bleeding 25–35%) and hormonal options — context is managing excessive bleeding, not absent menstruation |
+|------|-----|------|------|---------|
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based review of drug therapy for abnormal uterine bleeding. Nonhormonal options such as NSAIDs reduce bleeding by 25–35%. Choice depends on cause, bleeding amount, contraception and fertility needs, and menopausal status. |
+| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Approach to menses prophylaxis and suppression in pre-menopausal women with hematologic cancer. Notes few comparative data for these therapies in the cancer setting. |
 
 ---
 
 ## Philippines Market Information
 
-Tranexamic acid currently has no registered products with the Philippine FDA. No authorization data is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0495 | Tranexamic Acid | Not specified | Not specified (registration cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (model-derived associations, not label text): hypertension, anxiety and neurotic disorders, porphyria, liver disease, gallbladder disease, diabetes and hyperglycemia, diabetic ketoacidosis, hyperlipidemia and hypertriglyceridemia, brain edema, breast carcinoma, endometrial cancer and other uterine corpus cancers, thrombophlebitis, migraine, coronary artery disease, obesity, stroke and cerebrovascular disorders.
+- **Drug Interactions**: 35 interactions were found, and the data compiled shows 20 of them. Most are rated Major, and the **Major** ones are:
+  - Estrogens and hormonal agents: ethinylestradiol, estradiol (including topical), conjugated estrogens (including topical), esterified estrogens, diethylstilbestrol, dienestrol (topical), estrone, estrone sulfate (including topical), estramustine, norethisterone, drospirenone, etonogestrel
+  - Procoagulant products: anti-inhibitor coagulant complex, Factor IX complex (human)
+  - Carfilzomib
+  - **Moderate**: alteplase and anistreplase (thrombolytics)
+
+  Many of the Major interactions involve estrogen or progestogen products, which are the usual choices for menstrual suppression. Any combination in this setting would need careful thrombotic risk assessment.
+
+Please refer to the package insert for label-based warnings and contraindications, which are not available in the data compiled for this report.
 
 ---
 
@@ -95,13 +106,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for tranexamic acid in amenorrhea is mechanistically contradictory — TXA is a hemostatic agent that suppresses bleeding, making it pharmacologically incompatible with treating absent menstruation. No clinical trials support this indication, and the 2 available publications address unrelated clinical contexts (menstrual suppression in oncology patients). The high model score is assessed as a false positive due to broad knowledge-graph clustering with menstrual-related diseases.
+The prediction rests on a model score alone, with no clinical trials and only two indirectly related reviews. Tranexamic acid reduces bleeding rather than treating amenorrhea, so the mechanistic link is weak. The only Philippines registration is cancelled, and label safety data are missing.
 
-**To proceed, the following would be needed:**
-- A plausible mechanistic hypothesis explaining how antifibrinolytic activity could restore or induce menstruation (none identified at this time)
-- At minimum one hypothesis-generating preclinical or observational study directly linking TXA to amenorrhea treatment (none found)
-- Resolution of the data gap on Philippines registration and package insert safety data (DG001), and formal DrugBank MOA retrieval (DG002)
-- If the intended clinical question is actually **menorrhagia** (heavy menstrual bleeding) rather than amenorrhea, a re-query against that indication is warranted — TXA has established evidence for menorrhagia and would likely yield a more clinically meaningful prediction
+**To proceed, the following is needed:**
+- Clarify whether the intended use is really amenorrhea or bleeding control and menses suppression, and re-define the target indication accordingly
+- Mechanism of action data (e.g., from DrugBank)
+- Philippines package insert warnings and contraindications from the DOH-FDA Philippines website
+- Clinical evidence, such as controlled studies in the redefined indication
+- Review of the regulatory status, since the sole registration is cancelled, and of available dosage forms and routes
+- Thrombotic risk assessment, particularly for use alongside hormonal agents
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

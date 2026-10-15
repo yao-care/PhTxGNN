@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etonogestrel
-parent: Moderate Evidence (L3-L4)
-nav_order: 132
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 134
+evidence_level: L5
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,67 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Etonogestrel: From Contraception to Amenorrhea
+# Etonogestrel: From an Unspecified Original Indication to Amenorrhea
 
 ## One-Sentence Summary
 
-Etonogestrel is a synthetic progestogen delivered via subdermal implant (Implanon/Nexplanon), widely used as a long-acting reversible contraceptive.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **1 clinical trial** and **2 publications** identified — however, this prediction carries a critical causal direction warning.
-Available evidence strongly suggests that etonogestrel is a **cause** of amenorrhea in approximately 20% of users, not a treatment for it, raising serious concerns about the validity of this repurposing signal.
-
----
+Etonogestrel is a progestin, a hormonal agent whose original approved indication is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be associated with **amenorrhea**, but there are **0 clinical trials** and only **1 publication** (unrelated to this drug), so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Contraception (progestogen subdermal implant; no Philippines registration on record) |
+|------|------|
+| Original Indication | Not available (the only registration has no indication text) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmaceutical information, Etonogestrel is a third-generation synthetic progestogen that works by suppressing ovulation (via LH surge inhibition), thickening cervical mucus, and altering the endometrial lining to prevent implantation. In clinical practice, this endometrial suppression results in amenorrhea in approximately 20% of implant users — making it a well-documented side effect rather than an intended pharmacological target.
+Currently, detailed mechanism of action data is not available. Etonogestrel is a progestin and is known to suppress ovulation and thin the endometrium. This is the general pharmacology of the class, not data from the compiled records.
 
-**⚠️ Critical Causal Direction Warning:** The high TxGNN prediction score (99.84%) most likely reflects the knowledge graph having learned the strong co-occurrence of "Etonogestrel ↔ amenorrhea" from clinical literature, without distinguishing causal direction. In pharmacological reality, the association runs as: *etonogestrel causes amenorrhea* — not the other way around. The knowledge graph edge between this drug and this disease may have been encoded bidirectionally, leading to a prediction that inverts the true relationship.
+Amenorrhea is a well-recognised bleeding-pattern outcome of etonogestrel implants. It is an expected effect of contraception rather than a therapeutic indication, so the high model score (0.998) most likely reflects this known effect. It is not evidence that the drug treats amenorrhea. Treating amenorrhea generally means restoring menstruation, whereas etonogestrel tends to cause or maintain its absence.
 
-While progestogens do have a narrow clinical role in secondary amenorrhea (e.g., the progesterone challenge test uses progesterone to induce withdrawal bleeding as a diagnostic maneuver), etonogestrel is not a standard or evidence-supported treatment for amenorrhea in any guideline. The remaining four predicted indications (ranks 2–5) are all benign breast conditions — fibrocystic disease, apocrine adenosis, blunt duct adenosis, and benign mammary dysplasia — scored identically or near-identically by TxGNN, suggesting a clustering artifact in the knowledge graph's breast-disease node group rather than independent drug-specific predictions.
-
----
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Phase 3 | Completed | 498 | Extended-use study evaluating contraceptive efficacy and safety of the ENG implant during years 4 and 5 of use. Amenorrhea is recorded as a secondary safety endpoint (bleeding pattern monitoring), not as a treatment outcome. This trial reinforces that amenorrhea is a consequence of etonogestrel exposure, not a condition being therapeutically addressed. |
-
-> ⚠️ The only identified trial is a contraceptive efficacy study with a relevance grade of C for the amenorrhea repurposing hypothesis. It does not support this indication for drug repurposing.
-
----
+The other top predictions are benign breast conditions: breast fibrocystic disease (99.61%), apocrine adenosis of breast (99.29%), blunt duct adenosis of breast (99.29%) and benign mammary dysplasia (99.21%). These share one theoretical idea, that progestins may counter estrogen-driven breast tissue proliferation. Hormonal contraceptives have mixed associations with benign breast conditions. The identical scores for the two adenosis conditions suggest they come from a shared neighbourhood in the model's knowledge graph rather than disease-specific evidence.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | Multi-center RCT | Contraception | Compared single-rod Implanon (ENG) vs six-capsule Norplant over 2–4 years in 200 women; no pregnancies in either group. Documents bleeding patterns including amenorrhea rates as a side-effect measure. Confirms amenorrhea as a pharmacological consequence of ENG implant use. |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | Phase 2/3 RCT protocol | Trials | Protocol for BIO101 (a non-etonogestrel compound) in COVID-19 pneumonia prevention. **This record appears entirely unrelated to etonogestrel or amenorrhea** and likely represents a retrieval error in the evidence pipeline. Recommend flagging for pipeline QC review. |
+|------|-----|------|------|---------|
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT protocol | Trials | Study protocol for BIO101 in preventing respiratory deterioration in COVID-19 pneumonia. It does not concern etonogestrel or amenorrhea and is a spurious match. |
 
-> ⚠️ Neither publication supports etonogestrel as a treatment for amenorrhea. PMID 33430924 is an apparent false positive requiring review.
-
----
+No clinical trials are registered for the predicted indication. No relevant literature supports this prediction.
 
 ## Philippines Market Information
 
-Etonogestrel currently has **no registered products** with the Philippine FDA. No license authorization data is available for tabulation.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0180 | Etonogestrel | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No package insert warnings or contraindications were available. Please refer to the package insert for safety information.
 
-> Philippines FDA prescribing information, package insert warnings, contraindications, and drug interaction profiles were not available at the time of this analysis (Data Gap DG001: Blocking severity). Retrieval of the approved prescribing information from the Philippine FDA portal is required before any further evaluation can proceed.
-
----
+- **Contraindication signals from the knowledge graph** (these come from the TxGNN knowledge graph, not from label text, and need confirmation against the official label): hypertension, epilepsy, anxiety and neurotic disorders, dysthymic disorder, porphyria, kidney disease, liver disease, gallbladder disease, systemic lupus erythematosus, asthma, diabetes mellitus and diabetic ketoacidosis, hypertriglyceridemia, hyperlipidemia, female breast carcinoma, thrombophlebitis, migraine, coronary artery disease and obesity.
+- **Drug Interactions**: The interaction query returned 100 records. Those shown are all Moderate and are mostly antidiabetic agents: acarbose, metformin, glimepiride, chlorpropamide, the gliptins (alogliptin, saxagliptin), the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), the GLP-1 agonists (albiglutide, dulaglutide, semaglutide) and several insulins. Aprepitant, clarithromycin and linaclotide were also flagged.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (amenorrhea, 99.84%) represents a causal direction artifact — etonogestrel induces amenorrhea as a side effect, not a therapeutic outcome — and none of the identified trials or literature supports its use as an amenorrhea treatment. The drug is not registered in the Philippines, and all five predicted indications remain at L4–L5 evidence levels with a uniform "Hold" recommendation.
+The prediction rests only on a model score (L5). No clinical trials support it, and the one linked publication is unrelated. Amenorrhea is an expected effect of this drug rather than a treatable condition, and the only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
-- **Pipeline QC:** Investigate and correct causal-direction edge encoding in the TxGNN knowledge graph for drug-induced adverse events (etonogestrel → amenorrhea)
-- **MOA data retrieval:** Query DrugBank API to fill Data Gap DG002 (High severity) for mechanism of action details
-- **Safety data retrieval:** Download and parse Philippine FDA package insert PDF to fill Data Gap DG001 (Blocking severity) before any S1 safety screening
-- **Expert pharmacological review:** Assess whether any progestogen receptor activity of etonogestrel could be redirected toward a genuine therapeutic indication not currently represented in the knowledge graph
-- **Broader indication screening:** If repurposing exploration is to continue, consider indications outside the current top-5 list that may better represent mechanistically plausible, non-causal-reversal opportunities
+- A clear clinical rationale showing whether amenorrhea or a benign breast condition is a therapeutic target rather than an expected effect
+- Mechanism of action data (from DrugBank)
+- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- A literature search specific to etonogestrel and the predicted conditions
+- Clarification of the cancelled registration status and the original approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

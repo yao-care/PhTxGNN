@@ -2,7 +2,7 @@
 layout: default
 title: Colchicine
 parent: Model Prediction Only (L5)
-nav_order: 85
+nav_order: 87
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,91 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Colchicine: From Gout and Autoinflammatory Disease to Plasmodium falciparum Malaria
+# Colchicine: From Gout to Plasmodium falciparum Malaria
 
 ## One-Sentence Summary
 
-Colchicine is a plant-derived alkaloid that has served as the global standard of care for acute gout and Familial Mediterranean Fever (FMF), acting through microtubule depolymerization and inflammasome suppression.
-The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria** (top-ranked prediction, score 99.60%),
-currently supported by **6 publications** — all in vitro or preclinical — with **no registered clinical trials** for this indication.
-
----
+Colchicine was originally used to treat gout and familial Mediterranean fever (FMF).
+The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**, but there are **0 clinical trials** and only **2 preclinical publications** (neither shows colchicine efficacy against malaria), so this prediction rests almost entirely on the model.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gout; Familial Mediterranean Fever (established global standard of care; not currently registered in the Philippines) |
+|------|------|
+| Original Indication | Gout; familial Mediterranean fever (the Philippines registration record has no approved indication text) |
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 (preclinical in vitro only) |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not captured in this Evidence Pack. Based on established pharmacology, Colchicine binds the colchicine-binding site on β-tubulin and inhibits microtubule polymerization. This leads to disruption of the mitotic spindle (M-phase arrest), inhibition of neutrophil chemotaxis and degranulation, and interference with NLRP3/Pyrin inflammasome assembly — the pharmacological basis for its efficacy in both gout and FMF.
+Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, colchicine is a microtubule polymerization inhibitor. Its anti-inflammatory effect is attributed to blocking neutrophil microtubule-dependent functions and inflammasome activation, which is why it works in gout and FMF.
 
-*Plasmodium falciparum* is highly dependent on microtubule dynamics throughout its intraerythrocytic replication cycle, particularly during schizogony (nuclear division) and merozoite formation, where spindle apparatus assembly is essential. Compounds that target tubulin have demonstrated in vitro activity against the parasite: one study (PMID 2221861) found that Colcemid — a structural analogue of Colchicine — produced effects on parasite protein biosynthesis similar to tubulozoles, indirectly implicating the colchicine-binding site as a candidate antimalarial target. A subsequent screening study (PMIDs 2670249, 2655935) confirmed that multiple tubulin-binding substances active in mammalian systems show antiparasitic activity in vitro, while noting that plasmodial tubulins differ from human tubulins at the molecular level — which theoretically could allow selective targeting.
+The mechanistic link to malaria is theoretical: *P. falciparum* depends on tubulin and microtubules for division and morphology, so a microtubule-targeting drug could plausibly affect the parasite. However, the two retrieved papers do not test this. One studies curcumin, not colchicine, disrupting parasite microtubules. The other studies pfmdr1 expression in mammalian cells in the context of chloroquine susceptibility, which concerns drug resistance and transport, not therapeutic efficacy.
 
-However, a fundamental limitation exists: no study has tested Colchicine itself directly against P. falciparum. All supporting literature uses surrogate compounds (tubulozoles, curcumin, Colcemid). The selectivity index — the difference in potency between parasite killing and human cell toxicity — has not been established for Colchicine in this context. Until direct in vitro data and an in vivo model confirm a viable therapeutic window, the prediction remains mechanistically plausible but clinically unvalidated.
+Colchicine also has a narrow therapeutic index and significant human toxicity, which argues against its use as an antimalarial. The high TxGNN score is a computational prediction only.
 
----
+**Other predictions in the data (for context):**
+- **Familial Mediterranean fever, autosomal dominant (score 99.38%, L4):** Colchicine is already the standard first-line FMF therapy, so this is a subtype or naming variant of an existing indication rather than true repurposing. Supporting literature is mostly reviews.
+- **Dermatofibrosarcoma protuberans (score 99.37%, L5):** There is no clinical or literature support. The disease is driven by the COL1A1-PDGFB fusion and treated with surgery and imatinib, and colchicine's toxicity at antimitotic doses limits plausibility.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Colchicine in Plasmodium falciparum malaria.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro pharmacology | Antimicrob Agents Chemother | Tubulozole isomers reduced P. falciparum protein biosynthesis; Colcemid (colchicine analogue) produced a similar inhibitory effect, suggesting that colchicine-site ligands may have antimalarial potential |
-| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | In vitro screening | Cell Biol Int Rep | Nine tubulin-binding compounds tested against intraerythrocytic P. falciparum; plasmodial tubulins found to differ from mammalian proteins at the molecular level, raising the possibility of selective targeting |
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In vitro screening | Cell Biol Int Rep | Cytoskeletal-targeting compounds active against P. falciparum in vitro; Tubulozole-T, inactive in mammalian systems, identified as a promising antimalarial candidate, illustrating species-level selectivity differences |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro mechanistic | PLoS One | Curcumin disrupts P. falciparum microtubule structure by binding tubulin and impairing mitotic spindle assembly; extends mechanistic rationale for tubulin-targeted antimalarials beyond the tubulozole class |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Clinical observational | Clin Exp Immunol | Anti-intermediate filament antibodies detected in 82% of acute malaria patients, compared to 8% of healthy donors; suggests significant cytoskeletal disruption occurs during P. falciparum infection, contextualizing cytoskeletal proteins as relevant targets |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro molecular | Mol Cell Biol | pfmdr1-encoded protein Pgh1 (ABC transporter) expressed in CHO cells increases chloroquine susceptibility; contextualizes parasite drug resistance mechanisms relevant to designing combination approaches |
-
----
+|------|-----|------|------|---------|
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | Preclinical in vitro | PLoS One | Curcumin (not colchicine) disrupts *P. falciparum* microtubules; shows parasite microtubules are druggable targets |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | Preclinical in vitro | Mol Cell Biol | Expression of the plasmodial pfmdr1 gene in mammalian cells is linked to increased chloroquine susceptibility; relates to transporter and resistance, not colchicine efficacy |
 
 ## Philippines Market Information
 
-Colchicine currently has **no registered products** with the Philippine FDA. No product authorizations on record as of the data cutoff (2026-04-04). A market entry assessment and regulatory registration pathway would be required before any clinical application in the Philippines.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0116 | Colchicine (status: cancelled) | Not specified | Not specified |
 
 ## Safety Considerations
 
-Philippine FDA package insert data (warnings, contraindications) were not collected in this Evidence Pack. Please refer to the package insert for complete safety information.
+- **Contraindication signals (from the knowledge graph, not label text):** liver failure, impaired renal function, hematologic disease (thrombocytopenia, leukopenia, agranulocytosis, neutropenia, aplastic anemia and congenital neutropenia syndromes), peptic ulcer disease, diarrheal disease, myopathy and rhabdomyolysis, and acute urate nephropathy.
+- **Drug Interactions:** 100 interactions were found. Major-level interactions among those listed include aprepitant, clarithromycin, cobicistat, deferiprone, eliglustat, rolapitant, rosuvastatin and simvastatin. Moderate-level examples include chloroquine, cimetidine, metronidazole, ticagrelor, deferasirox and disulfiram. The chloroquine interaction is notable given the malaria context.
 
-> **Note:** Retrieval of the full prescribing information from the Philippine FDA or an originator label (e.g., EMA SmPC or US FDA label) is required before this drug can be assessed in any clinical evaluation context (Data Gap DG001).
-
----
+Please also refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The entire evidence base for Colchicine in P. falciparum malaria consists of in vitro pharmacology studies that tested structural analogues, not Colchicine itself. No clinical trials, no animal in vivo models, and no direct parasite IC₅₀/selectivity data for Colchicine have been generated. The prediction is mechanistically coherent but lacks the minimum preclinical validation threshold required to advance.
-
-> **For context:** The second-ranked TxGNN prediction — Familial Mediterranean Fever (FMF, score 99.38%) — carries L1 evidence, with Colchicine universally recognized as first-line standard of care for FMF since the 1970s (Lancet, 1977; PMID 68234). This confirms that TxGNN's knowledge graph correctly captures Colchicine's pharmacological network, which increases confidence in the model's disease connectivity — but the antimalarial application remains at an early hypothesis stage.
+The prediction has no clinical trials and no direct evidence of colchicine activity against *P. falciparum*. Colchicine's narrow therapeutic index and toxicity, plus its cancelled registration in the Philippines, make it an unlikely antimalarial candidate despite the high model score.
 
 **To proceed, the following is needed:**
-
-- **Direct in vitro efficacy data**: IC₅₀/EC₅₀ for Colchicine against multiple P. falciparum strains, including chloroquine-resistant lines (e.g., Dd2, W2)
-- **Selectivity index**: Mammalian cell cytotoxicity (CC₅₀ in human RBCs or HepG2) vs. parasite IC₅₀, to determine whether a therapeutic window exists
-- **Life cycle stage mapping**: Identification of which intraerythrocytic stage(s) (ring, trophozoite, schizont) are sensitive to Colchicine
-- **In vivo murine malaria model**: Peters' 4-day suppressive test with P. berghei as proof-of-concept
-- **Safety data retrieval**: Philippine FDA or originator label for full warnings and contraindications (Data Gap DG001)
-- **MOA characterization**: Full DrugBank API query to formally document mechanism of action (Data Gap DG002)
-- **Philippines regulatory pathway**: Assess registration requirements with the Philippine FDA, given zero current approvals
+- In vitro and in vivo data showing colchicine's antiplasmodial activity at clinically achievable, tolerable doses
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the Philippine regulator
+- A safety and therapeutic-index assessment against existing antimalarials
+- Clarification of the cancelled registration status if any use in the Philippines is contemplated
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

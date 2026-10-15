@@ -2,7 +2,7 @@
 layout: default
 title: Levofloxacin
 parent: Moderate Evidence (L3-L4)
-nav_order: 204
+nav_order: 206
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,103 +33,71 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Levofloxacin is a broad-spectrum fluoroquinolone antibiotic with well-established bactericidal activity against gram-positive and gram-negative organisms, used globally for respiratory, urinary, and ophthalmic bacterial infections.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-with **0 clinical trials** and **1 publication** currently supporting this direction.
-Notably, a higher-ranked evidence opportunity — **Monoclonal Gammopathy infection prophylaxis** — is supported by a Phase 3 RCT (TEAMM, Lancet Oncology 2019) and is addressed in the Conclusion.
-
----
+Levofloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as streptococcal and staphylococcal infections, bacterial pneumonia, anthrax, sinusitis, conjunctivitis and pyelonephritis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials** and only **1 publication** (an outbreak report that does not test levofloxacin as a treatment) support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (fluoroquinolone antibiotic) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Streptococcal infection, bacterial pneumonia, anthrax infection, staphylococcal infection, maxillary sinusitis, conjunctivitis, pyelonephritis (among others) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Levofloxacin is a third-generation fluoroquinolone that achieves bactericidal activity by concurrently inhibiting two bacterial type II topoisomerases — DNA gyrase (GyrA/GyrB) and topoisomerase IV (ParC/ParE). This dual-target mechanism prevents DNA replication and transcription in susceptible bacteria, and its 0.5% ophthalmic formulation has regulatory approval in multiple countries for treating bacterial conjunctivitis and corneal ulcers caused by a broad panel of ocular pathogens.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, levofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. It is established for bacterial conjunctivitis, so activity on the ocular surface is plausible.
 
-Punctate epithelial keratoconjunctivitis (PEK) is a diffuse corneal surface disorder characterized by superficial epithelial defects. The condition is most frequently caused by viral agents (adenovirus, herpes simplex), toxic reactions, or immune-mediated mechanisms — all of which fall outside the spectrum of activity of fluoroquinolones. Bacterial etiology accounts for a minority of PEK cases, and even in those, the role of an antibiotic would be adjunctive rather than disease-modifying.
-
-The sole supporting literature (PMID 30055152) describes an epidemiological investigation of a microsporidial keratoconjunctivitis outbreak linked to swimming pool contamination in Taiwan, in which Levofloxacin was used as part of a multi-drug regimen targeting bacterial superinfection — not the primary microsporidial pathogen. The mechanistic link between Levofloxacin and PEK is therefore indirect and weak. This TxGNN prediction most likely reflects the drug's general ophthalmic antibacterial profile rather than a specific therapeutic opportunity in PEK.
-
----
+The link to the predicted indication is weak, however. The only linked paper describes an outbreak of **microsporidial** keratoconjunctivitis traced to swimming pool water in Taiwan. Microsporidia are eukaryotic, fungi-related organisms, and fluoroquinolones have no established activity against them. The association most likely reflects an antibiotic being mentioned in the outbreak report, not a therapeutic effect. The high model score (99.92%) is not backed by clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Epidemiological Case Series | American Journal of Ophthalmology | Outbreak of microsporidial keratoconjunctivitis from swimming pool contamination in Taiwan; Levofloxacin used as adjunctive bacterial co-infection treatment, not primary therapy for microsporidial infection |
-
----
+|------|-----|------|------|---------|
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Reports an outbreak of microsporidial keratoconjunctivitis linked to contaminated swimming pool water in Taiwan. It does not demonstrate levofloxacin efficacy. |
 
 ## Philippines Market Information
 
-Levofloxacin is currently **not registered** with the Philippine Food and Drug Administration (FDA Philippines). No active product authorizations or license records are on file in this Evidence Pack.
-
----
+The only registration on record (PNF-0287, Levofloxacin, single-ingredient product) has been **cancelled**. No dosage form or approved indication text is available, and there are no currently valid registrations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for label safety information.
 
-> **Clinically Important Signals Noted in This Evidence Pack:**
-> - **Black Box Warning (FDA):** Serious and potentially irreversible peripheral neuropathy — onset can occur within hours to days of initiation. Levofloxacin is **contraindicated** in the context of pre-existing neuropathy (see Rank #8 prediction flag in Evidence Pack).
-> - **Rare Adverse Event:** Acute pancreatitis has been documented with Levofloxacin use, making the Rank #3 prediction (Hyperamylasemia as a therapeutic target) a likely false-positive and pharmacovigilance concern rather than a repurposing opportunity.
+**Contraindication-related conditions from the knowledge graph (not label text):** long QT syndrome and torsades de pointes, epilepsy, liver disease and drug-induced liver injury, tendinitis and other tendon disorders, myasthenia gravis, peripheral neuropathy, diabetes mellitus and diabetic ketoacidosis, impaired renal function, rhabdomyolysis, *Clostridium difficile* colitis, blood disorders (thrombocytopenia, leukopenia, anemia, pancytopenia), and coronary artery disease or myocardial ischemia.
 
----
+**Drug interactions:** 100 interactions were identified. Examples:
+- **Major:** tramadol, hydrocortisone
+- **Moderate:** abiraterone, acarbose, famotidine, formoterol, ketorolac, adenosine, ibuprofen, ethinylestradiol, metformin, pioglitazone, salbutamol
+- **Minor:** paclitaxel, aldesleukin, altretamine
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for Punctate Epithelial Keratoconjunctivitis)
+**Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (PEK, Score 99.92%) is not supported by adequate clinical evidence — the only available publication describes Levofloxacin as an adjunctive agent in a bacterial superinfection scenario unrelated to PEK pathogenesis. With an evidence level of L4 and no registered clinical trials, clinical development for this indication is premature.
+- The prediction rests mainly on the model score. The one linked paper concerns a microsporidial outbreak, a pathogen not expected to respond to levofloxacin, and there are no clinical trials.
+- Levofloxacin's only Philippines registration is cancelled, and label safety data could not be obtained.
+
+**To proceed, the following is needed:**
+- Evidence that levofloxacin is effective in punctate epithelial keratoconjunctivitis (for example, a controlled study or relevant ophthalmic data)
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data from DrugBank
+- Confirmation of whether an ophthalmic formulation is available or registrable in the Philippines
 
 ---
 
-### ⚠️ Higher-Priority Repurposing Opportunities in This Evidence Pack
-
-The TxGNN score ranking does not reflect clinical evidence strength. Two lower-ranked predictions carry substantially more actionable evidence:
-
-| TxGNN Rank | Indication | Evidence Level | Key Evidence | Recommendation |
-|-----------|-----------|---------------|-------------|----------------|
-| #7 | Monoclonal Gammopathy (Multiple Myeloma — infection prophylaxis) | **L1** | TEAMM Phase 3 RCT (Lancet Oncology, 2019, n=977); Retrospective cohort studies; Comparative RCT vs ciprofloxacin | **Proceed with Guardrails** |
-| #9 | Septicemic Plague | **L2** | FDA Animal Rule approval (2012); NHP model studies; In vitro MIC data (MIC₉₀ ≤ 0.03 µg/mL) | **Proceed with Guardrails** |
-| #1 | Punctate Epithelial Keratoconjunctivitis | L4 | 1 case series (adjunctive role only) | Hold |
-
----
-
-### Monoclonal Gammopathy — Priority Assessment
-
-The TEAMM trial (PMID 31668592, Lancet Oncology 2019) is a multicentre, double-blind, placebo-controlled Phase 3 RCT demonstrating that **Levofloxacin prophylaxis significantly reduces febrile episodes and infection-related hospitalizations** in newly diagnosed myeloma patients during induction chemotherapy. Multiple myeloma patients suffer immunoparesis (suppressed normal immunoglobulin production) and chemotherapy-induced neutropenia, creating profound susceptibility to gram-positive organisms (S. pneumoniae, H. influenzae) and gram-negative bacteria (E. coli). Levofloxacin's dual inhibition of DNA gyrase and topoisomerase IV provides broad bactericidal coverage with high oral bioavailability — a critical advantage for outpatient prophylaxis.
-
-**To advance the Monoclonal Gammopathy indication in the Philippines, the following is needed:**
-- Confirm Philippines FDA registration pathway for Levofloxacin oral formulation (currently unregistered)
-- Review local antimicrobial resistance patterns for fluoroquinolone-resistant gram-negative organisms, which may limit prophylaxis efficacy
-- Assess applicability of TEAMM trial data to Philippine patient populations (Asian populations underrepresented in original trial)
-- Evaluate pharmacoeconomic case: cost of prophylaxis vs. cost of infection-related hospitalizations in Philippine oncology setting
-- Review antibiotic stewardship implications with Philippine infectious disease guidelines
-
-**To advance the Septicemic Plague indication:**
-- Levofloxacin is FDA-approved under the Animal Efficacy Rule for plague — regulatory precedent exists
-- Assess WHO essential medicine list applicability for Philippines biodefense formulary
-- No Philippine-specific regulatory barrier anticipated given FDA (US) approval status
+**Note on other predictions:** Among the other top-ranked predictions, two have more substantial supporting evidence. Both are better treated as infection-related research questions than as disease-modifying repurposing.
+- **Monoclonal gammopathy** (L1): Phase 3 TEAMM trial evidence (PMIDs 31668592, 31690402) supports levofloxacin prophylaxis against infection in newly diagnosed symptomatic myeloma. This is infection prevention, not treatment of the plasma cell disorder, and it has not been shown in asymptomatic MGUS.
+- **Septicemic plague** (L4): Animal-model data (for example, PMIDs 21347450 and 32435805) support efficacy against *Yersinia pestis*, but human clinical evidence is limited.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

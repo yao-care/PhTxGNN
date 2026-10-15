@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: High Evidence (L1-L2)
-nav_order: 285
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 288
+evidence_level: L3
 indication_count: 7
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +33,71 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Pyridostigmine is an acetylcholinesterase (AChE) inhibitor widely used globally as a first-line symptomatic treatment for myasthenia gravis (MG), though it is not currently registered in the Philippines.
-The TxGNN model predicts it may be effective for **Myasthenia Gravis with Thymus Hyperplasia** — a specific subtype characterized by anti-AChR IgG antibodies and hyperactivated thymic germinal centers —
-with **3 publications** currently supporting this direction, and no dedicated clinical trials registered for this specific subtype.
+Pyridostigmine is a cholinesterase inhibitor originally used to treat myasthenia gravis and other neuromuscular junction diseases.
+The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, but this is essentially a subtype of the original indication rather than a truly new use.
+Support currently comes from **0 clinical trials** and **3 publications** (one review, one case report, one cohort study), none of which tested pyridostigmine directly in this subtype.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines (globally established for Myasthenia Gravis) |
-| Predicted New Indication | Myasthenia Gravis with Thymus Hyperplasia |
+|------|------|
+| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L2 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L3 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Pyridostigmine acts as an acetylcholinesterase (AChE) inhibitor at the neuromuscular junction (NMJ). By blocking the enzyme responsible for breaking down acetylcholine (ACh), it raises ACh concentration in the synaptic cleft, thereby compensating for the reduced availability and functional impairment of ACh receptors (AChR) caused by autoimmune attack. Although detailed mechanism of action data was not available from regulatory filings, this pharmacological profile is well-characterized in the published literature and is consistent with the repurposing rationale described in the Evidence Pack.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine at the neuromuscular junction, which increases the signal reaching muscle and gives symptomatic relief of weakness.
 
-Myasthenia gravis with thymus hyperplasia is an immunologically distinct MG subtype: hyperactivated thymic germinal centers drive AChR-specific Th2/Tfh cell expansion, sustaining B cell–mediated anti-AChR IgG production (present in approximately 85% of these patients). While Pyridostigmine does not directly suppress thymic activity or the underlying autoimmune cascade, it addresses the downstream functional consequence — impaired neuromuscular transmission — making it directly applicable as a symptomatic agent regardless of the thymic trigger.
+Thymic hyperplasia is typically seen in myasthenia gravis with acetylcholine receptor (AChR) antibodies. This is the classic form of the disease and the one in which pyridostigmine is an established symptomatic treatment. The prediction therefore mostly confirms an existing use and does not represent a new repurposing opportunity.
 
-In clinical practice, Pyridostigmine is the cornerstone of symptomatic management in anti-AChR–positive MG, used in combination with thymectomy and immunosuppressive therapy (corticosteroids, azathioprine). This combined-modality approach is well-established and directly relevant to the thymus hyperplasia subtype, where surgical and immunological control may take weeks to months to achieve full effect. Pyridostigmine bridges that gap by providing immediate neuromuscular symptom relief.
+There is one caveat. A case report in the retrieved literature describes a MuSK-antibody-positive patient with thymic hyperplasia. In MuSK-positive disease, cholinesterase inhibitors are often poorly tolerated or less effective. The antibody subtype should therefore be confirmed before use.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Pyridostigmine in Myasthenia Gravis with Thymus Hyperplasia.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Comprehensive review of MG pathology, autoimmunity, and genomic/epigenetic mechanisms; covers multiple MG subtypes including thymus hyperplasia–associated forms; highlights anti-AChR antibody as the central pathological driver |
-| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case Series | Neuromuscular Disorders | MuSK-positive MG patient with confirmed thymus hyperplasia presenting with dropped head syndrome; distinguishes thymic pathology between AChR-positive and MuSK-positive MG subtypes; relevant to treatment planning for thymus hyperplasia cases |
-| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Prospective Cohort | Journal of Neurology | Retrospective analysis of 39 non-thymomatous late-onset MG patients post-thymectomy; reports 2-year outcomes including MGFA classification changes; provides context for combined thymectomy + pharmacological management in this population |
+|------|-----|------|------|---------|
+| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort | Journal of Neurology | Two-year outcomes of thymectomy in 39 patients with non-thymomatous, AChR-antibody-positive, late-onset MG; concerns the surgical approach, not pyridostigmine |
+| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Overview of the genetic, phenotypic and epigenetic features of MG, including autoantibodies against the acetylcholine receptor |
+| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | MuSK-positive MG with thymic hyperplasia and dropped head syndrome; a subtype where cholinesterase inhibitors are often less effective |
 
 ---
 
 ## Philippines Market Information
 
-Pyridostigmine is currently not registered with the Philippine Food and Drug Administration (FDA). No product authorizations are on record, and the drug has no approved indications or licensed dosage forms in the Philippines at this time.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0408 | Pyridostigmine | Not specified | Not specified (status: cancelled) |
+
+The only registration found has been cancelled, so no currently valid product is on the market in the Philippines.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph as contraindications** (these come from knowledge-graph relationships, not from label text): kidney disease, pyoureter, asthma (including intrinsic and allergic asthma), and urinary tract obstruction.
+- **Drug Interactions**: 78 interactions were identified, and all 20 listed in the data compiled for this report are rated Moderate. They fall into these groups:
+  - Corticosteroids: hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, triamcinolone, budesonide
+  - Anticholinergics and antimuscarinics: atropine, scopolamine, hyoscyamine, glycopyrronium, dicyclomine, methscopolamine, clidinium, mepenzolate, propantheline, trospium
+  - Aminoglycoside antibiotics: neomycin, kanamycin, paromomycin
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not available in this Evidence Pack. Retrieval from the Philippine FDA package insert and DrugBank is recommended before any clinical or regulatory action. In particular, attention should be paid to the known risk of cholinergic crisis with overdose, and to the contraindication in MuSK-antibody–positive MG patients, in whom Pyridostigmine may paradoxically worsen neuromuscular symptoms.
+Please refer to the package insert for the full warnings and contraindications.
 
 ---
 
@@ -98,14 +106,14 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Pyridostigmine is the internationally recognized first-line symptomatic agent for anti-AChR–positive MG, including the thymus hyperplasia subtype. The mechanistic rationale is strong, clinical practice across multiple high-income countries firmly supports its use in this population, and the TxGNN prediction score of 99.76% is consistent with established pharmacological evidence. The primary barriers are regulatory (not marketed in the Philippines) and informational (safety data gaps).
+The mechanism is well established for AChR-antibody myasthenia gravis, which is the typical form associated with thymic hyperplasia. The prediction, however, mostly restates an existing use, and no trials or direct evidence in this subtype are available. The only registration in the Philippines has been cancelled.
 
 **To proceed, the following is needed:**
-- **Philippine FDA registration**: Initiate a product registration application; no existing license is on file, making this a prerequisite for any local clinical use.
-- **Safety data retrieval**: Obtain full package insert warnings and contraindications from the Philippine FDA or DrugBank API to close the current data gap before S1 safety screening can proceed.
-- **Drug interaction assessment**: The DDI query returned no results; a formal pharmacist-led interaction review is required, especially for patients on immunosuppressants, corticosteroids, or muscle relaxants.
-- **Antibody subtyping prerequisite**: Confirm anti-AChR antibody status prior to prescribing. MuSK-antibody–positive patients should not receive Pyridostigmine without specialist oversight, as it may aggravate symptoms in that subtype.
-- **Neonatal and pediatric dosing protocol**: If use is extended to neonatal MG (Rank 2 predicted indication), a weight-based dosing protocol must be established given immature renal clearance in newborns.
+- Confirmation of the antibody subtype (AChR versus MuSK) before use, since MuSK-positive patients may respond poorly
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Detailed mechanism of action data
+- A check of the contraindicating conditions listed above (asthma, kidney disease, urinary tract obstruction) and of concurrent corticosteroids, anticholinergics and aminoglycosides
+- Clarification of the regulatory status, because no valid registration currently exists in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

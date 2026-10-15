@@ -2,7 +2,7 @@
 layout: default
 title: Tegafur
 parent: High Evidence (L1-L2)
-nav_order: 323
+nav_order: 327
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,120 +29,102 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tegafur: From Gastrointestinal Cancer Chemotherapy to Colonic Neoplasm
+# Tegafur: From Gastric Cancer to Colonic Neoplasm
 
 ## One-Sentence Summary
 
-Tegafur is a fluoropyrimidine prodrug serving as the active core of well-established oral chemotherapy combinations (UFT and S-1) for gastrointestinal cancers.
-The TxGNN model predicts it may be effective for **Colonic Neoplasm**,
-with **30 clinical trials** and **20 publications** currently supporting this direction.
-
----
+Tegafur is an oral prodrug of 5-fluorouracil (5-FU), originally used to treat gastric cancer.
+The TxGNN model predicts it may be effective for **colonic neoplasm**,
+with **16 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (no Philippines registration record) |
-| Predicted New Indication | Colonic Neoplasm |
+|------|------|
+| Original Indication | Gastric cancer (gastric neoplasm, diffuse gastric adenocarcinoma, gastric linitis plastica, gastric carcinoma) |
+| Predicted New Indication | Colonic neoplasm |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the regulatory record. Based on known pharmacological information, Tegafur is a prodrug of 5-fluorouracil (5-FU) and serves as the active fluoropyrimidine component in two widely used oral chemotherapy combinations: UFT (tegafur + uracil) and S-1 (tegafur + gimeracil + oteracil). After oral administration, tegafur is enzymatically converted to 5-FU, which inhibits thymidylate synthase (TS) — blocking dTMP synthesis required for DNA replication — and is incorporated into RNA to disrupt transcription.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, tegafur is a prodrug of 5-FU. It is converted in the liver by CYP2A6 into the active thymidylate synthase inhibitor. In combinations such as UFT (tegafur + uracil), uracil inhibits the DPD enzyme and slows 5-FU breakdown. Leucovorin stabilizes the thymidylate synthase–FdUMP complex.
 
-Colonic neoplasms show characteristically high TS expression, conferring well-documented sensitivity to 5-FU–class drugs. This mechanistic pathway is essentially identical to the established anti-gastrointestinal cancer activity of tegafur-based regimens, meaning the biological rationale for the predicted indication is direct and not extrapolated from distant tumor biology.
+Gastric cancer and colorectal cancer are both gastrointestinal adenocarcinomas that respond to fluoropyrimidines, so the antimetabolite mechanism applies directly to colonic neoplasms. The very high TxGNN score is consistent with this.
 
-The clinical evidence base strongly validates the TxGNN prediction. Multiple large Phase 3 RCTs have evaluated UFT + leucovorin and S-1 in both adjuvant (Stage II/III) and metastatic colorectal cancer settings, involving thousands of patients. The model's top-ranked prediction mirrors an indication for which tegafur-based regimens are already a de facto standard in parts of Asia.
-
----
+This is not a true repurposing finding in the strict sense. Tegafur-based regimens (UFT, S-1) are already used in colorectal cancer in several regions, so this is an extension within the same drug class and disease family.
 
 ## Clinical Trial Evidence
 
+The data compiled for this report include 16 trials. The 10 most relevant are listed below, favouring large, completed, tegafur-focused studies.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Completed | 1,608 | NSABP C-06: Oral UFT + leucovorin vs. weekly IV 5-FU + leucovorin in resected Stage II/III colon cancer; established non-inferiority of oral tegafur-based regimen for DFS and OS |
-| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Completed | 2,025 | Adjuvant tegafur-uracil vs. observation after curative resection for Stage II colon cancer; assessed whether adjuvant fluoropyrimidine chemotherapy adds meaningful survival benefit |
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1,535 | Head-to-head RCT of UFT + leucovorin vs. S-1 as adjuvant therapy for Stage III colon cancer, with gene expression biomarker sub-study |
-| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Completed | 900 | NSAS-CC: UFT vs. surgery alone as postoperative adjuvant chemotherapy for Dukes C (Stage III) colorectal cancer; evaluated relapse-free and overall survival over 5-year follow-up |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Completed | 161 | SALTO trial: S-1 (tegafur-based) vs. capecitabine as first-line therapy for metastatic colorectal cancer; direct head-to-head safety and efficacy comparison of oral fluoropyrimidines |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1,191 | Large RCT comparing SOX (S-1 + oxaliplatin) vs. XELOX as adjuvant chemotherapy for Stage III colorectal cancer; addresses hand-foot syndrome burden as a secondary endpoint |
-| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Phase 3 | Unknown | 340 | Three-arm postoperative adjuvant study (UFT+LV vs. UFT+LV/UFT vs. UFT+LV+PSK/UFT+PSK) for Stage III colorectal cancer; compared DFS, OS, and quality of life |
-| [NCT00497107](https://clinicaltrials.gov/study/NCT00497107) | Phase 3 | Unknown | 300 | Randomized comparison of UFT/LV vs. UFT/LV + PSK as postoperative adjuvant therapy for Stage IIIa/b colorectal cancer; 3-year DFS as primary endpoint |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Unknown | 42 | SOL regimen (S-1 + oral leucovorin + oxaliplatin) dose-finding and efficacy exploration in untreated metastatic colorectal cancer; established S-1 as viable substitute for IV 5-FU/LV |
-| [NCT05266300](https://clinicaltrials.gov/study/NCT05266300) | N/A | Completed | 722 | Clinical implementation of DPYD genotyping in fluoropyrimidine-treated patients (explicitly including tegafur); demonstrated significant toxicity risk reduction with pre-treatment pharmacogenomic screening |
-
----
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Completed | 1608 | Oral UFT + leucovorin vs 5-FU/LV in resected stage II/III colon cancer; direct, large head-to-head RCT |
+| [NCT00392899](https://clinicaltrials.gov/study/NCT00392899) | Phase 3 | Completed | 2025 | Adjuvant UFT vs observation in curatively resected stage II colon cancer |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1535 | UFT + leucovorin vs S-1 as adjuvant treatment for stage III colon cancer |
+| [NCT00152230](https://clinicaltrials.gov/study/NCT00152230) | Phase 3 | Completed | 900 | Postoperative adjuvant UFT vs surgery alone in Dukes C colorectal cancer |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1191 | SOX (S-1 + oxaliplatin) vs XELOX as adjuvant chemotherapy in stage III colorectal cancer |
+| [NCT00385970](https://clinicaltrials.gov/study/NCT00385970) | Phase 3 | Unknown | 380 | UFT+PSK vs UFT+LV in stage IIB/III colorectal cancer |
+| [NCT00209742](https://clinicaltrials.gov/study/NCT00209742) | Phase 3 | Unknown | 340 | Postoperative UFT+LV, UFT+LV/UFT and UFT+LV+PSK/UFT+PSK regimens in stage III colorectal cancer |
+| [NCT00905047](https://clinicaltrials.gov/study/NCT00905047) | Phase 3 | Completed | 89 | Crossover patient-preference study of Xeloda vs UFT with folinic acid; tolerability and preference rather than efficacy |
+| [NCT02887365](https://clinicaltrials.gov/study/NCT02887365) | Phase 4 | Unknown | 300 | Tegafur-uracil as one-year metronomic maintenance in stage II MSS/MSI-L colon cancer |
+| [NCT01225744](https://clinicaltrials.gov/study/NCT01225744) | Phase 2 | Completed | 47 | Cetuximab, irinotecan, oxaliplatin and UFT in first-line metastatic colorectal cancer; tegafur is one component of the regimen |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clinical Colorectal Cancer | ACTS-CC 02 Phase III trial: SOX (S-1 + oxaliplatin) vs. UFT/LV as adjuvant therapy for high-risk Stage III colon cancer; primary endpoint DFS |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | Updated 5-year survival from ACTS-CC 02; SOX was not superior to UFT/LV for DFS, confirming UFT/LV as a durable adjuvant standard for high-risk Stage III |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | RCT / Meta-analysis | Medicine | Nationwide cohort (Taiwan NHIRD) + meta-analysis comparing UFT vs. IV 5-FU as postoperative adjuvant chemotherapy for Stage II/III colon cancer; multivariate Cox regression DFS/OS analysis |
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clinical Oncology | NSABP C-06 full report: oral UFT + LV vs. weekly IV 5-FU + LV in Stage II/III colon cancer; primary analysis of DFS and OS after surgery |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clinical Oncology | Randomized trial of adjuvant immunochemotherapy combinations including UFT (tegafur/uracil) for colorectal cancer; evaluated OK-432 + UFT vs. carmofur-based regimens |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Review | Clinical Colorectal Cancer | Asian multidisciplinary consensus guidelines (23 experts, 10 countries) adapting international mCRC recommendations; includes S-1/UFT-based regimen positioning |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surgery Today | Comprehensive review of UFT as postoperative adjuvant chemotherapy across solid tumors; summarizes mechanism, trial results, and future directions for colon/rectal cancer |
-| [6402917](https://pubmed.ncbi.nlm.nih.gov/6402917/) | 1983 | Comparative Study | Am J Clinical Oncology | Early randomized study of oral tegafur vs. IV 5-FU in measurable metastatic colorectal cancer; demonstrated comparable partial response rates supporting oral tegafur as an alternative |
-| [3933845](https://pubmed.ncbi.nlm.nih.gov/3933845/) | 1985 | Animal Study | Bull Tokyo Med Dental Univ | DMH-induced murine colonic cancer model: levamisole + tegafur combination produced longer survival and fewer distant metastases than either agent alone |
-| [6777388](https://pubmed.ncbi.nlm.nih.gov/6777388/) | 1980 | Preclinical | J Cancer Res Clin Oncol | Chemoprevention study in carcinogen-induced (MNU) colonic tumors in rats; tegafur (ftorafur) significantly reduced tumor incidence over 10-week treatment, establishing early mechanistic proof |
-
----
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | Updated 5-year survival of ACTS-CC 02: SOX was not superior to UFT/LV in high-risk stage III colon cancer |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | Phase 3 RCT | Clin Colorectal Cancer | ACTS-CC 02 trial testing SOX against UFT/LV as adjuvant chemotherapy in high-risk stage III colon cancer |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohort study and meta-analysis | Medicine | Taiwan nationwide cohort and meta-analysis of UFT vs 5-FU as adjuvant chemotherapy in stage II/III colon cancer |
+| [10089948](https://pubmed.ncbi.nlm.nih.gov/10089948/) | 1999 | Meta-analysis | Jpn J Clin Oncol | Individual patient data meta-analysis of randomized trials of oral fluoropyrimidines as adjuvant therapy for colorectal cancer |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surg Today | UFT as postoperative adjuvant chemotherapy: clinical evidence, mechanism of action and future direction |
+| [16111469](https://pubmed.ncbi.nlm.nih.gov/16111469/) | 2005 | Review | Expert Rev Anticancer Ther | Stage-specific chemotherapy options in colon cancer |
+| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Guideline/Consensus | Clin Colorectal Cancer | Asian consensus adapting international guidelines for metastatic colorectal cancer |
+| [36676634](https://pubmed.ncbi.nlm.nih.gov/36676634/) | 2022 | Cohort study | Medicina (Kaunas) | Taiwan population-based cohort of UFT vs observation after surgery for stage IIA colon cancer |
+| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant immunochemotherapy (OK-432) combined with oral pyrimidines, including UFT, in colorectal cancer |
+| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Case report | Cancer Chemother Pharmacol | UFT-induced haemolytic anaemia in a patient with metastatic colon cancer (safety signal) |
 
 ## Philippines Market Information
 
-Tegafur currently has **no registered products** in the Philippines. There are no active regulatory authorizations on file.
-
-Should clinical use be pursued, an importation license or compassionate/special use pathway would need to be established through the FDA Philippines. Reference products available in neighboring markets include UFT capsules (marketed in Japan and Taiwan) and S-1 tablets (Teysuno, marketed in the EU; TS-1, marketed in Japan and Taiwan).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0473 | Tegafur | Not specified | Not specified (status: cancelled) |
 
 ## Cytotoxicity
 
-Tegafur is a conventional cytotoxic agent of the fluoropyrimidine class.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Fluoropyrimidine prodrug (5-FU class) |
-| Myelosuppression Risk | Moderate — neutropenia and thrombocytopenia are established class effects; UFT and S-1 formulations typically show lower myelosuppression rates compared to IV 5-FU |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (baseline and each cycle), liver function (ALT, AST, bilirubin), renal function (creatinine, eGFR), electrolytes; pre-treatment DPYD genotyping strongly recommended |
-| Handling Protection | Must follow cytotoxic drug handling regulations (closed-system transfer devices, appropriate PPE for preparation and disposal) |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine antimetabolite, 5-FU prodrug) |
+| Myelosuppression Risk | Medium (please refer to the package insert; haemolytic anaemia has been reported with UFT) |
+| Emetogenicity Classification | Low to medium |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Formal safety data (package insert warnings, contraindications, and drug–drug interaction profile) are not available in the current evidence pack. Please refer to the reference product package inserts (UFT, Teysuno/TS-1) for full safety information.
+- **Drug Interactions**: No interaction records were found in the compiled data. Fluoropyrimidines carry known interaction concerns (for example with other agents affecting DPD or CYP2A6), so these should be verified against the product label.
+- **Reported adverse events in the literature**: haemolytic anaemia with UFT (PMID 11320674); hypertriglyceridaemia with S-1 (PMID 32936722); portal venous gas and pneumatosis cystoides intestinalis during chemotherapy for rectal cancer (PMID 20078321).
 
-Two clinically relevant signals from the literature warrant proactive attention:
-- **DPYD deficiency**: Pre-treatment DPYD genotyping is recommended before initiating any fluoropyrimidine therapy, including tegafur-based regimens. A clinical implementation study (NCT05266300, n=722) demonstrated meaningful toxicity reduction with systematic genotyping.
-- **Hemolytic anemia**: At least one case of UFT-induced hemolytic anemia in a metastatic colon cancer patient has been published (PMID 11320674), representing a rare but serious adverse event not previously attributed to this drug class.
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Tegafur has one of the strongest evidence bases among drug repurposing candidates: colonic neoplasm is supported by at least six completed Phase 3 RCTs involving over 8,000 cumulative patients across adjuvant and metastatic settings, alongside a directly validated mechanistic link through 5-FU/TS inhibition. The L1 evidence level reflects genuine clinical-grade validation, not extrapolation. The primary barriers are regulatory (no Philippines registration) and safety documentation gaps, not scientific uncertainty.
+Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in colon cancer support efficacy, and the mechanism is well established. However, the Philippine registration for tegafur is cancelled, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing.
 
 **To proceed, the following is needed:**
-- Regulatory pathway determination: FDA Philippines importation license or compassionate-use authorization for UFT capsules or S-1 tablets
-- Full package insert review for contraindications, key warnings, and drug–drug interactions (TFDA, EMA, or PMDA monographs available as reference)
-- Pre-treatment DPYD genotyping protocol — particularly important given the CYP2A6/DPD polymorphism variability in Filipino patients
-- Local pharmacokinetic considerations: CYP2A6 and DPD activity differences in Asian populations may affect tegafur-to-5-FU conversion rate and require dose individualization
-- Safety monitoring schedule: CBC and liver/renal function testing at defined intervals per cycle
-- Supply chain verification: confirm formulation availability (UFT or S-1) and cold chain/storage requirements in the Philippines market context
+- Package insert warnings and contraindications (a blocking gap for safety screening), obtained from the DOH-FDA Philippines website
+- Detailed mechanism of action data from DrugBank
+- Clarification of the regulatory path, since there is currently no valid registration in the Philippines
+- Confirmation of which tegafur-containing formulations (UFT, S-1) would be available and suitable locally
+- A safety monitoring plan, including DPD deficiency and CYP2A6 considerations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

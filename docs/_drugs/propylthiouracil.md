@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: Model Prediction Only (L5)
-nav_order: 283
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 286
+evidence_level: L4
 indication_count: 3
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRβ Mutation)
+# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (TRβ Mutation)
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is a thionamide-class antithyroid drug classically used to treat hyperthyroidism and Graves' disease by suppressing thyroid hormone synthesis.
-The TxGNN model predicts it may be applicable to **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (RTHβ)**,
-currently supported by **no registered clinical trials** and **6 publications** — all of which are tier-3 (case reports, animal studies, and basic research).
-
----
+Propylthiouracil (PTU) is an antithyroid drug originally used to treat hyperthyroidism, Graves disease, thyrotoxicosis and thyroid crisis.
+The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no registered clinical trials** and only **4 publications** (mouse models and case reports), none of which tests PTU as a treatment. This prediction is best regarded as a model artefact rather than a therapeutic signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hyperthyroidism / Graves' disease (inferred from pharmacological class; Philippines regulatory record unavailable) |
-| Predicted New Indication | Resistance to thyroid hormone due to THRβ mutation (RTHβ) |
+|------|------|
+| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (from the knowledge-graph indication data; the local registration has no indication text) |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 (Preclinical / mechanistic studies only) |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, PTU inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. At higher doses it also reduces peripheral conversion of T4 to T3. This is why it works in Graves disease and thyrotoxicosis.
 
-Detailed mechanism of action data is not currently available in the evidence pack. Based on established pharmacological knowledge, propylthiouracil (PTU) is a thionamide antithyroid agent that exerts its effect through two main pathways: (1) inhibiting thyroid peroxidase (TPO), thereby blocking the organification of iodide and blocking de novo synthesis of thyroid hormones T3 and T4; and (2) inhibiting peripheral conversion of T4 to the biologically more active T3 by blocking deiodinase activity — an advantage over methimazole that is particularly relevant in acute thyrotoxic states.
+In resistance to thyroid hormone beta (RTH-β), the primary defect is a mutation in the TRβ receptor. This causes high T3/T4 together with non-suppressed TSH. Lowering hormone levels with an antithyroid drug may push TSH even higher and lead to goiter or TSH-driven thyroid growth. The mechanistic rationale is therefore weak and possibly counterproductive.
 
-RTHβ is a dominantly inherited syndrome caused by point mutations in the *THRB* gene. The mutant THRβ protein acts as a dominant negative, impairing the responsiveness of target tissues to thyroid hormone. Critically, this is a **receptor-level defect**, not a problem of hormone overproduction. Circulating T3/T4 levels may be elevated as a compensatory response to tissue-level insensitivity, with TSH failing to be fully suppressed (particularly at the pituitary level). This makes RTHβ pathophysiologically distinct from classic hyperthyroidism.
+The high TxGNN score most likely reflects network proximity to thyroid-hormone-axis nodes rather than a true therapeutic signal. One case report in the retrieved literature (PMID 10724359) describes a patient with RTH who was treated with PTU on a misdiagnosis of thyrotoxicosis, and her goiter became larger.
 
-There is a theoretical basis for using PTU: by lowering circulating T3/T4 concentrations, it could reduce hormone-driven symptoms in peripheral tissues (e.g., tachycardia, bone loss) where thyrotoxicosis is clinically manifest. However, a critical limitation exists — because the pituitary also harbours the THRβ mutation in most RTHβ cases, reducing T3/T4 does not suppress TSH. Compensatory TSH elevation may further stimulate thyroid growth and potentially promote malignant transformation, as suggested by the animal model evidence (PMID 22919057). The mechanistic link is biologically plausible but subject to significant disease-specific constraints, making this an indirect and potentially harmful application.
+### Other Predictions Reviewed
 
----
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, as it is an extension of the existing Graves/thyrotoxicosis use. The literature (19 publications, mostly reviews) addresses maternal antithyroid drug use in pregnancy, not direct neonatal PTU trials. Recommendation: Research Question. |
+| 3 | Hyperthyroxinemia | 99.08% | L4 | A laboratory finding with many causes. PTU is relevant only when it reflects true thyroid overproduction, which overlaps with existing indications. It is not indicated, and may be harmful, in binding-protein defects or RTH. Recommendation: Hold. |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for PTU in RTHβ.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case Series / Family Study | Exp Clin Endocrinol Diabetes | Reports a Turkish mother-son pair with RTHβ (P453A THRB mutation); describes clinical presentation and thyroid function test patterns consistent with receptor resistance |
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Basic Research | Endocrinology | Mouse knock-in model demonstrating that mutant THRβ (Δ337T) exerts dominant-negative effects in cardiac tissue; establishes mechanistic basis for cardiac involvement in RTHβ |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal Study | Endocrinology | Heterozygous Thrb(PV/+) mice with mildly elevated TSH develop asymmetric thyroid carcinoma; raises concern that sustained TSH elevation (as may follow PTU use in RTHβ) drives thyroid tumorigenesis |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case Report | Clinical Endocrinology | Neonate with RTHβ (M313T) presented with clinical thyrotoxicosis; treated transiently and responded; illustrates the clinical complexity of RTHβ in early life |
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case Report | Endocrine Journal | Thai patient with de novo L330S THRB mutation misdiagnosed as thyrotoxicosis and treated with PTU for 9 months; goiter enlarged despite treatment — a cautionary example of PTU misuse in RTHβ |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal Study | Oncogene | Thrb(PV/PV) mouse model demonstrates thyroid hormone activates tumour cell proliferation via PIK3CA pathway; highlights oncogenic risk context in THRB-mutant background |
-
----
+|------|-----|------|------|---------|
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal study | Endocrinology | In TRβ-mutant mice (a model of RTH), TSH plays a role in the spontaneous development of asymmetrical thyroid carcinoma |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal study | Oncogene | In a mouse model of follicular thyroid carcinoma with a dominant-negative TRβ mutation, thyroid hormone activates tumour cell proliferation |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clinical Endocrinology | RTH with a TRβ M313T mutation, presenting with neonatal thyrotoxicosis and maternal infertility |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocrine Journal | A Thai woman with a de novo L330S TRβ mutation; her goiter enlarged after 9 months of PTU given for presumed thyrotoxicosis |
 
 ## Philippines Market Information
 
-No registered pharmaceutical licenses for propylthiouracil are currently recorded in the Philippines FDA database.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0403 | Propylthiouracil | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The warnings and contraindications from the package insert are not available in the compiled data. Please refer to the package insert for safety information.
 
-> **Note for clinical teams:** Although formal safety data was not retrievable in this evidence pack, PTU carries well-documented class-level safety concerns including a **Black Box Warning for severe hepatotoxicity** (including fulminant hepatic failure, particularly in paediatric patients), agranulocytosis, and ANCA-associated vasculitis. These risks are especially relevant given the RTHβ population may include children. Methimazole is generally preferred over PTU in most clinical scenarios; PTU is typically reserved for first trimester of pregnancy or thyroid storm. These risks amplify the caution warranted by the Hold recommendation below.
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+- **Blood disorders**: thrombocytopenia, leukopenia, pancytopenia, agranulocytosis, neutropenia and its congenital forms (including Kostmann syndrome and cyclic hematopoiesis)
+- **Thyroid conditions**: hypothyroidism, myxedema, congenital hypothyroidism
+- **Liver and bilirubin conditions**: drug-induced liver injury, hyperbilirubinemia, hereditary hyperbilirubinemia, Gilbert syndrome
+- **Lung**: interstitial lung disease
 
----
+**Drug interactions:** 83 interactions are recorded. Examples include:
+- **Major**: Deferiprone
+- **Moderate**: Warfarin, Dicoumarol, Theophylline, Aminophylline, Oxtriphylline, Naltrexone, Macimorelin, radioactive iodide (I-131, I-123)
+
+The literature also notes concerns about hepatotoxicity and embryopathy with antithyroid drugs.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic reasoning for PTU in RTHβ is biologically plausible but fundamentally limited — PTU reduces hormone levels but cannot correct the underlying THRβ receptor defect. The available evidence consists entirely of tier-3 literature (case reports and animal studies), with no clinical trials. One cautionary case report (PMID 10724359) documents actual clinical harm (goiter progression) from inadvertent PTU use in an RTHβ patient, and animal data raise concerns about TSH-driven thyroid tumour promotion following hormone suppression. Together, these findings make this repurposing direction unsuitable for advancement without substantial new evidence.
+The top prediction (RTH-β) has no clinical trials, no studies testing PTU as treatment, and a mechanism that may worsen the condition by raising TSH. Safety concerns (haematological toxicity, hepatotoxicity) and the cancelled Philippines registration add further barriers.
 
 **To proceed, the following is needed:**
-- PTU mechanism of action data retrieved from DrugBank (data gap DG002)
-- Philippines FDA prescribing information and full safety/contraindication profile (data gap DG001)
-- Prospective clinical data documenting outcomes of PTU use specifically in genetically confirmed RTHβ patients
-- Tumour surveillance data in any RTHβ patients exposed to antithyroid agents
-- A formal receptor-level mechanistic study assessing whether partial hormone reduction offers net clinical benefit without triggering compensatory TSH overstimulation
-
----
-
-> **Additional note — Higher-priority indication identified:**
-> The second TxGNN-predicted indication, **neonatal thyrotoxicosis** (score 99.40%), carries substantially stronger evidence (Level L2: 1 Phase 3 clinical trial + 20 publications including guidelines, cohort studies, and clinical reviews). PTU's direct mechanistic match to neonatal thyrotoxicosis driven by maternal TRAb transfer is well-established, and the scoring system assigns a *Proceed with Guardrails* recommendation for this indication. If pursuing a PTU repurposing programme in the Philippines, neonatal thyrotoxicosis is recommended as the primary evaluation target over RTHβ.
-
----
-
-*This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
+- Mechanism of action data (MOA) and the package insert warnings and contraindications
+- Expert endocrinology review to confirm that PTU is not appropriate for RTH-β
+- If the team wishes to pursue this further, the rank 2 prediction (neonatal thyrotoxicosis) is a better research question, using direct neonatal data and a safety assessment of hepatotoxicity
+- Clarification of the regulatory pathway, since the only local registration (PNF-0403) is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

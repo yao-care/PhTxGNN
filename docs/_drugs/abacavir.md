@@ -29,82 +29,83 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Abacavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Abacavir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Abacavir (ABC) is a nucleoside reverse transcriptase inhibitor (NRTI) used as part of combination antiretroviral therapy for HIV-1 infection in humans.
-The TxGNN model predicts it may be effective against **Simian Immunodeficiency Virus (SIV) Infection** — a primate lentiviral disease mechanistically related to HIV-1 —
-with **no registered clinical trials** and **1 preclinical publication** currently available to support this direction.
-
----
+Abacavir is an antiretroviral drug originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a non-human primate disease.
+Support is thin: **0 clinical trials** and **1 publication** (a 2004 in vitro susceptibility study).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (combination antiretroviral therapy; inferred from clinical context — not yet registered in the Philippines) |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
+|------|------|
+| Original Indication | HIV infectious disease; AIDS |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Abacavir is a carbocyclic synthetic nucleoside analogue whose intracellular active metabolite — carbovir triphosphate (CBV-TP) — competitively inhibits HIV-1 reverse transcriptase and terminates viral DNA chain elongation, blocking viral replication.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, abacavir is a nucleoside reverse transcriptase inhibitor (NRTI). It is converted inside cells to carbovir triphosphate, which terminates viral DNA chain elongation. Its efficacy in HIV infection is established.
 
-SIV and HIV-1 are both primate lentiviruses (family *Retroviridae*) that share the same RNA-dependent DNA polymerase (reverse transcriptase) replication mechanism. The amino acid sequence homology between SIV RT and HIV-1 RT is approximately 80%, suggesting that CBV-TP could competitively occupy the SIV RT catalytic site and terminate proviral DNA synthesis in an analogous manner. In vitro susceptibility data further supports cross-species applicability of NRTIs at this homology level. This is the most likely basis for TxGNN's high prediction score.
+SIV is a lentivirus closely related to HIV and uses a homologous reverse transcriptase, so activity is biologically plausible. The very high TxGNN score most likely reflects this close similarity to HIV, the original indication, rather than a new repurposing signal.
 
-It should be noted that SIV infection primarily affects non-human primates and is not a direct human clinical disease. The practical relevance of this prediction therefore lies more in supporting primate HIV research models than in direct clinical repurposing. If the research objective is a human indication, a closer analogue would be HIV-2 — also covered by the same preclinical study identified below.
-
----
+An important limitation is that SIV infection is a disease of non-human primates. It has no human clinical indication. The evidence is relevant to animal models, not to human therapy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Abacavir in simian immunodeficiency virus infection.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro / Preclinical susceptibility assay | *Antiviral Therapy* | Evaluated 16 approved antiretrovirals (including Abacavir) against HIV-2 (ROD, EHO), SIV (mac251, B670) and SHIV strains; provides comparative susceptibility data across primate lentivirus species with implications for treatment and post-exposure prophylaxis design |
-
----
+|------|-----|------|------|---------|
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Tested 16 approved anti-HIV drugs and one experimental drug (AMD3100) against HIV-2, SIV and SHIV strains, to inform treatment and post-exposure prophylaxis. This is indirect, non-clinical evidence. |
 
 ## Philippines Market Information
 
-Abacavir currently has **no product registrations** with the Philippine Food and Drug Administration (FDA-PH). There are no active licenses, approved indications, or marketed formulations on record.
-
----
+The only registration on record (PNF-0001, Abacavir, single-ingredient product) has been cancelled. No dosage form or approved indication text is available.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not label text):
+  - Liver and biliary: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, pancreatitis, gallbladder disease
+  - Kidney and urinary: kidney disease, pyoureter
+  - Blood: neutropenia, agranulocytosis, anemia, macrocytic anemia
+  - Muscle: myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, dermatomyositis, myositis
+  - Metabolic: lactic acidosis, hypertriglyceridemia, obesity disorder, monogenic obesity
+- **Drug Interactions**: 93 interactions were identified. The main ones with a graded level are **Naltrexone** (Moderate) and **Orlistat** (Moderate). Many others are of unknown severity, including metformin, rosiglitazone, glimepiride, omeprazole, pantoprazole, lansoprazole, morphine, prednisone, hydrocortisone, vancomycin, amphotericin B and sulfasalazine.
 
-> **Note:** Philippines FDA-registered package insert data (warnings, contraindications) was not available in this evidence pack (Data Gap: DG001). Drug interaction data was also not retrieved. These gaps must be resolved before any clinical decision-making can proceed.
-
----
+Please also refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically coherent — SIV and HIV-1 share ~80% RT sequence homology, making Abacavir's NRTI mechanism theoretically applicable — but the predicted indication is a non-human primate disease with no direct human clinical target, Abacavir is not registered in the Philippines, and critical safety data is absent from this pack.
+The only supporting evidence is an in vitro study in a non-human primate virus. SIV infection has no human clinical indication, and the high TxGNN score mostly reflects similarity to HIV. The sole Philippine registration is cancelled.
 
 **To proceed, the following is needed:**
+- Clarification of whether a veterinary or animal-model indication falls within the scope of human drug repurposing
+- Detailed mechanism of action data
+- Package insert warnings and contraindications for safety screening
+- Current Philippine registration status, if human use is to be considered
 
-- **Clarify research objective:** Determine whether the goal is (a) supporting non-human primate HIV research models, (b) exploring cross-species antiretroviral activity for veterinary use, or (c) identifying a related *human* indication (e.g., HIV-2, which shares the same preclinical evidence)
-- **Retrieve MOA data:** Query DrugBank API for Abacavir mechanism of action, target binding data, and resistance profile (Data Gap: DG002)
-- **Retrieve safety data:** Download and parse the Philippines FDA (or FDA-approved) package insert for warnings, contraindications, and known drug interactions (Data Gap: DG001)
-- **Expand literature search:** Conduct a structured review of Abacavir *in vivo* activity against SIV strains — current evidence is limited to a single in vitro susceptibility assay
-- **Consider re-ranking for human indication:** If human clinical repurposing is the goal, evaluate whether Rank 2 (feline AIDS) or other TxGNN predictions with more direct human disease biology warrant promotion to primary candidate
+---
+
+### Other Predictions Considered
+
+The data compiled for this report also contained two lower-ranked predictions. Neither changes the recommendation.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
+|------|------|------|------|------|
+| Feline acquired immunodeficiency syndrome | 99.79% | L4 | Hold | One 2002 preclinical in vitro study (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/)) of a zidovudine, lamivudine and abacavir combination against feline immunodeficiency virus. Abacavir's individual contribution cannot be separated. This is a veterinary condition. |
+| Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.78% | L5 | Hold | Model prediction only. There are no trials or literature, and no biological rationale can be derived. It should be treated as hypothesis-generating only. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

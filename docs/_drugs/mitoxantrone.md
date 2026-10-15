@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: High Evidence (L1-L2)
-nav_order: 236
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 238
+evidence_level: L5
 indication_count: 8
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,106 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-# Mitoxantrone: From Hematologic Malignancies to Upper Aerodigestive Tract Neoplasm
+# Mitoxantrone: From Acute Myeloid Leukemia to Head and Neck Cancer
 
 ## One-Sentence Summary
 
-Mitoxantrone is an anthracenedione antineoplastic agent classically used for acute leukemias, non-Hodgkin's lymphoma, and metastatic breast cancer; its liposomal formulation (PLM60) has been approved in China for relapsed/refractory peripheral T-cell lymphoma (PTCL).
-The TxGNN model predicts it may be effective for **Upper Aerodigestive Tract Neoplasm** — a category encompassing nasopharyngeal carcinoma, salivary gland cancers, and NK/T-cell lymphomas of the head and neck region — with **1 active Phase 3 clinical trial** and **20 publications** currently supporting this direction.
-Evidence currently sits at **L2**, supported by completed Phase 1b data and multiple historical Phase 2 trials, with a growing pipeline of Phase 2/3 studies using the newer liposomal formulation.
+Mitoxantrone is an anthracenedione chemotherapy agent, originally used for acute myeloid leukemia.
+The TxGNN model predicts it may be effective for **head and neck cancer** (the best-supported of eight predictions, selected because it has the strongest clinical evidence rather than the highest score),
+with **6 clinical trials** and **20 publications** currently supporting this direction. Most of the direct clinical evidence concerns the liposomal formulation and is still early-phase.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines; globally established for leukemia, non-Hodgkin's lymphoma, and breast cancer |
-| Predicted New Indication | Upper Aerodigestive Tract Neoplasm |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L2 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Acute myeloid leukemia and related myeloid leukemias (the Philippines registration record contains no indication text) |
+| Predicted New Indication | Head and neck cancer (rank 7 of 8 by TxGNN score; selected for the strongest evidence) |
+| TxGNN Prediction Score | 99.31% |
+| Evidence Level | L1 (nominal; see note below) |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Proceed with Guardrails |
+
+*Note on the evidence level:* L1 formally reflects the existence of a Phase III randomized trial. That trial has not started recruiting and has no results. In practice, the direct evidence is closer to early-phase (Phase Ib/II) data, so the L1 label overstates the strength of the evidence.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available from the current Philippines FDA or DrugBank query. Based on published literature, Mitoxantrone is an **anthracenedione** compound that exerts its antitumor effects primarily by inhibiting **DNA Topoisomerase II (Topo II)** and intercalating directly into DNA, causing double-strand breaks and halting cell replication. It shares structural and mechanistic similarities with doxorubicin, and its primary elimination is hepatic (only ~7% renal excretion), giving it a terminal half-life of approximately 40–70 hours. Its liposomal reformulation (PLM60) exploits the Enhanced Permeability and Retention (EPR) effect to increase drug concentration in solid tumors while reducing systemic cardiotoxicity.
+Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. It damages the DNA of rapidly dividing tumor cells. Detailed mechanism-of-action data were not available in the data compiled for this report, but this class-level mechanism is well established for the drug and is consistent with the literature reviewed.
 
-The connection to upper aerodigestive tract neoplasms is mechanistically grounded: **Topo II is highly overexpressed** in head and neck squamous cell carcinoma (HNSCC) and in extranodal NK/T-cell lymphomas — the predominant lymphoma subtype arising in the upper aerodigestive tract. This overexpression creates a selective vulnerability to Topo II inhibitors like Mitoxantrone. Historical Phase 2 studies conducted between 1984 and 2002 consistently demonstrated partial responses and disease stabilization in nasopharyngeal carcinoma, salivary gland cancers, and head and neck SCC when Mitoxantrone was used as single-agent or in combination regimens.
+Mitoxantrone is already used in a malignancy of blood-forming cells (acute myeloid leukemia). Its cytotoxic action is not limited to one tumor type. Squamous and salivary gland tumors of the head and neck are proliferating solid tumors, so a DNA-damaging agent is mechanistically plausible there.
 
-More recently, the field has been reinvigorated by PLM60. A completed multicenter Phase 1b study (NCT04902027; PMID 39952083, published 2025 in *Oral Oncology*) enrolled 45 patients with recurrent/metastatic HNSCC and established both a favorable safety profile and preliminary efficacy signals — providing the most direct modern evidence and forming the basis for at least four currently active or planned Phase 2/3 trials. The TxGNN model's high-confidence prediction (99.78%) therefore aligns well with a biological rationale supported by three decades of incremental clinical data.
+The clinical record is mixed. Historic Phase II studies of conventional mitoxantrone in head and neck carcinoma and adenoid cystic carcinoma showed limited activity; for example, a Southwest Oncology Group study reported one partial response among 22 evaluable patients. More recent work is stronger and centers on the **liposomal formulation**: a completed Phase Ib study (NCT04902027, n=45) and a 2025 publication on liposomal mitoxantrone in recurrent or metastatic head and neck squamous cell carcinoma. Conventional mitoxantrone is not the agent being developed for this use.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT06953739](https://clinicaltrials.gov/study/NCT06953739) | Phase 3 | Not Yet Recruiting | 60 | Randomized comparison of P-GEMD (containing Mitoxantrone) vs. P-Gemox for untreated early-stage non-upper aerodigestive or advanced-stage extranodal NK/T-cell lymphoma — a critical aerodigestive subtype; Phase 3 design, though sample size of 60 is modest |
+|---------|------|------|------|---------|
+| [NCT04902027](https://clinicaltrials.gov/study/NCT04902027) | Phase 1 (Ib) | Completed | 45 | Single-arm study of liposomal mitoxantrone in recurrent/metastatic head and neck cancer; safety and efficacy evaluation |
+| [NCT05717764](https://clinicaltrials.gov/study/NCT05717764) | Phase 3 | Not yet recruiting | 500 | Randomized trial of liposomal mitoxantrone plus capecitabine vs capecitabine alone in recurrent/metastatic nasopharyngeal carcinoma after platinum failure |
+| [NCT06472713](https://clinicaltrials.gov/study/NCT06472713) | Phase 2 | Recruiting | 32 | Single-arm study of liposomal mitoxantrone plus PD-1 blockade in previously treated recurrent/metastatic nasopharyngeal carcinoma |
+| [NCT06892431](https://clinicaltrials.gov/study/NCT06892431) | Phase 2 | Not yet recruiting | 150 | JMT101 plus liposomal mitoxantrone in nasopharyngeal cancer after at least two prior lines |
+| [NCT07070479](https://clinicaltrials.gov/study/NCT07070479) | Phase 2 | Recruiting | 208 | Bayesian adaptive trial in PD-1-resistant nasopharyngeal carcinoma; one arm is liposomal mitoxantrone plus anti-PD-1 antibody |
+| [NCT07354698](https://clinicaltrials.gov/study/NCT07354698) | Phase 4 | Not yet recruiting | 114 | Mitoxantrone used as a lymphatic tracer in transoral robotic thyroid cancer surgery (an imaging use, not antitumor therapy) |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Phase 1b | Oral Oncology | PLM60 (liposomal Mitoxantrone) in 45 patients with recurrent/metastatic HNSCC; established safety profile and preliminary efficacy signals — the most current and directly relevant completed study |
-| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase 2 | Anti-Cancer Drugs | Mitoxantrone + cisplatin in 14 patients with locally recurrent/metastatic salivary gland carcinomas; assessed efficacy and tolerability in a difficult-to-treat aerodigestive subtype |
-| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Phase 2 | Anti-Cancer Drugs | Ifosfamide + Mitoxantrone (12 mg/m²) in 22 patients with recurrent/metastatic head and neck SCC; tolerable toxicity profile with disease control observed |
-| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase 2 | Annals of Oncology | EORTC study of Mitoxantrone in adenoid cystic carcinoma of the head and neck; initiated based on prior case report activity — important negative/stabilization data from a cooperative group |
-| [1735075](https://pubmed.ncbi.nlm.nih.gov/1735075/) | 1992 | PK/PD Study | Cancer | PK/PD characterization of Mitoxantrone (12–14 mg/m²) in 15 patients with advanced nasopharyngeal carcinoma; described three-compartment model with terminal half-life ~71 hours, supporting dosing rationale for aerodigestive cancers |
-| [11269736](https://pubmed.ncbi.nlm.nih.gov/11269736/) | 2001 | Phase 1 | Cancer Chemotherapy and Pharmacology | Phase I study of Mitoxantrone + raltitrexed + levofolinic acid + 5-FU in advanced solid tumors including head and neck and colorectal cancers; demonstrated tolerability of Mitoxantrone-containing combinations |
-| [36070368](https://pubmed.ncbi.nlm.nih.gov/36070368/) | 2022 | Translational Study | Science Translational Medicine | Pharmacogenomic profiling of 56 HNSCC patient-derived cells identified drug sensitivities; Mitoxantrone emerged as a candidate for precision oncology approaches in HNSCC |
-| [3512224](https://pubmed.ncbi.nlm.nih.gov/3512224/) | 1986 | Review | Drug Intelligence & Clinical Pharmacy | Comprehensive early review of Mitoxantrone; explicitly notes "some activity in head and neck cancer" alongside leukemias and lymphoma, establishing the historical basis for this indication |
-| [1985750](https://pubmed.ncbi.nlm.nih.gov/1985750/) | 1991 | Prospective Cohort | Cancer | Prospective treatment of 20 patients with anaplastic thyroid carcinoma using chemotherapy + radiation; Mitoxantrone (14 mg/m²) used in older patients (≥65 years) as an alternative to doxorubicin, demonstrating tolerability in a high-risk aerodigestive subtype |
-| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Systematic Review | Bulletin du Cancer | Systematic review of systemic treatments for metastatic/locally recurrent adenoid cystic carcinoma of the head and neck; contextualizes the role of chemotherapy including Mitoxantrone-containing regimens |
+|------|-----|------|------|---------|
+| [39952083](https://pubmed.ncbi.nlm.nih.gov/39952083/) | 2025 | Clinical study (Phase 1b) | Oral Oncology | Liposomal mitoxantrone (PLM60) tested for safety and efficacy in recurrent/metastatic head and neck squamous cell carcinoma |
+| [1650529](https://pubmed.ncbi.nlm.nih.gov/1650529/) | 1991 | Phase II trial | Am J Clin Oncol | 19 patients with incurable head and neck carcinoma; dose adjusted by leukocyte nadir |
+| [8922205](https://pubmed.ncbi.nlm.nih.gov/8922205/) | 1996 | Phase II trial | Ann Oncol | EORTC study of mitoxantrone in adenoid cystic carcinoma of the head and neck |
+| [6511239](https://pubmed.ncbi.nlm.nih.gov/6511239/) | 1984 | Phase II trial | Invest New Drugs | Mitoxantrone every 3 weeks in advanced head and neck cancer |
+| [11290867](https://pubmed.ncbi.nlm.nih.gov/11290867/) | 2001 | Phase II trial | Anti-Cancer Drugs | Ifosfamide plus mitoxantrone in recurrent/metastatic squamous cell carcinoma of the head and neck |
+| [12045460](https://pubmed.ncbi.nlm.nih.gov/12045460/) | 2002 | Phase II study | Anti-Cancer Drugs | Mitoxantrone plus cisplatin in salivary gland malignancies (14 patients) |
+| [6511243](https://pubmed.ncbi.nlm.nih.gov/6511243/) | 1984 | Phase II trial | Invest New Drugs | Southwest Oncology Group study: one partial response in 22 evaluable patients; leukopenia and thrombocytopenia were the main toxicities; no significant antitumor activity |
+| [2345066](https://pubmed.ncbi.nlm.nih.gov/2345066/) | 1990 | Phase II trial | Invest New Drugs | 20 patients with advanced squamous cell carcinoma; one partial remission |
+| [34659878](https://pubmed.ncbi.nlm.nih.gov/34659878/) | 2021 | Review | Am J Cancer Res | Systemic therapies for salivary gland adenoid cystic carcinoma |
+| [31324333](https://pubmed.ncbi.nlm.nih.gov/31324333/) | 2019 | Systematic review | Bull Cancer | Systemic treatments for metastatic or recurrent adenoid cystic carcinoma of the head and neck |
 
 ---
 
 ## Philippines Market Information
 
-Mitoxantrone currently has **no registered products** with the Philippine FDA (FDA Philippines). There are 0 active licenses or marketing authorizations on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0328 | Mitoxantrone | Not recorded | Not recorded (status: cancelled) |
 
-> This drug is not commercially available through the standard Philippines pharmaceutical market. Any clinical use would require compassionate use authorization, hospital importation, or participation in a clinical trial.
+The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Anthracenedione class (Topoisomerase II inhibitor); structurally and mechanistically related to anthracyclines (doxorubicin class) |
-| Myelosuppression Risk | **High** — Neutropenia is the primary dose-limiting toxicity; thrombocytopenia and anemia also expected. Nadir typically at days 10–14 |
-| Emetogenicity Classification | **Low to Moderate** — Generally well-tolerated; lower emetogenic potential than doxorubicin |
-| Monitoring Items | CBC with differential (baseline and each cycle), LVEF by echocardiography or MUGA (cumulative cardiac toxicity monitoring mandatory — lifetime cumulative dose limit applies), liver function tests, serum creatinine |
-| Handling Protection | **Required** — Must follow cytotoxic drug handling regulations; causes characteristic blue-green discoloration of urine, sclera, and skin (useful indicator of exposure); standard closed-system transfer device recommended |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (anthracenedione, topoisomerase II inhibitor) |
+| Myelosuppression Risk | High (leukopenia and thrombocytopenia are the main toxicities reported in the head and neck studies) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential, liver function, cardiac function (cardiotoxicity is a known concern for this class), renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+Please refer to the package insert warnings and precautions for full details.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions (from knowledge-graph associations, not label text):** liver failure, liver disease, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anemia, epilepsy, gallbladder disease, and infectious or fungal diseases are linked to mitoxantrone as contraindication-type associations. These need confirmation against the product label.
+- **Drug Interactions:** 100 interactions were found. The more notable ones are:
+  - **Major:** dolasetron
+  - **Moderate:** clarithromycin, eliglustat, rolapitant
+  - **Minor:** levofloxacin
+  - Many other interactions have an unclassified severity.
 
-> Note: Philippine FDA package insert data was not available for this query. Formal safety assessment (warnings, contraindications, drug interactions) should be obtained directly from the originator's prescribing information or the WHO drug monograph before clinical use.
+Please refer to the package insert for official warnings and contraindications.
 
 ---
 
@@ -121,14 +137,14 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN model prediction is strongly supported by biological plausibility (Topo II overexpression in upper aerodigestive tumors), three decades of Phase 2 trial history, a completed Phase 1b trial with the modern liposomal formulation (PLM60; NCT04902027, n=45, published 2025), and an active and growing Phase 2/3 clinical development pipeline — making this a credible and actionable repurposing candidate rather than a speculative one. However, no completed Phase 3 randomized trial exists yet, and the drug is not registered in the Philippines, requiring specific regulatory and logistical pathways.
+Head and neck cancer has the strongest evidence among the eight predictions: a completed Phase Ib study, a 2025 publication, and an upcoming Phase III trial in nasopharyngeal carcinoma. However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data apply to the liposomal formulation, and the only Philippine registration is cancelled. Treat this as a research question rather than a ready-to-implement indication.
 
 **To proceed, the following is needed:**
-- **MOA and safety data**: Obtain the full DrugBank monograph and WHO package insert to complete the mechanism of action analysis and formal safety profiling (warnings, contraindications, drug-drug interactions)
-- **Philippines regulatory pathway**: Initiate compassionate use or expanded access application with FDA Philippines, or pursue enrollment in an ongoing international trial (e.g., NCT06472713 or NCT07070479)
-- **PLM60 access assessment**: Clarify whether PLM60 (the liposomal formulation, approved in China for PTCL) can be sourced under compassionate use, as it has a superior safety profile to conventional Mitoxantrone for solid tumor use
-- **Subtype-specific patient selection**: Define which upper aerodigestive subtype(s) to target (HNSCC vs. NK/T-cell lymphoma vs. nasopharyngeal carcinoma) since evidence strength and trial infrastructure differ significantly across subtypes
-- **Cardiac monitoring protocol**: Establish baseline LVEF and cumulative dose tracking plan before any clinical use, given mandatory cardiotoxicity surveillance requirements for all Mitoxantrone-containing regimens
+- Results from the Phase III trial NCT05717764 and the Phase II trials in nasopharyngeal carcinoma
+- Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conventional product only)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Detailed mechanism of action data
+- A cardiac and hematologic safety monitoring plan, especially for patients with liver disease, heart failure, or low blood counts
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

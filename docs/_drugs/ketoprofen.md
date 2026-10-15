@@ -2,7 +2,7 @@
 layout: default
 title: Ketoprofen
 parent: Model Prediction Only (L5)
-nav_order: 192
+nav_order: 194
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ketoprofen: From Anti-inflammatory & Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ketoprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Ketoprofen is a well-established propionic acid-class NSAID, widely used for pain relief, arthritis, and inflammatory conditions through COX-1/COX-2 inhibition.
-The TxGNN model predicts it may be effective for **Acromesomelic Dysplasia, Hunter-Thompson Type** — a rare genetic skeletal disorder caused by *GDF5* mutation —
-however, **no clinical trials and no published literature** currently support this specific repurposing direction.
-
----
+Ketoprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anti-inflammatory, analgesic, arthritis (NSAID; no Philippines FDA registration on record) |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+|------|------|
+| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the local registration) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Ketoprofen is a propionic acid-class non-steroidal anti-inflammatory drug (NSAID) that non-selectively inhibits the COX-1 and COX-2 cyclooxygenase enzymes, thereby blocking prostaglandin synthesis and delivering analgesic, antipyretic, and anti-inflammatory effects. Its clinical utility in musculoskeletal pain, rheumatoid arthritis, osteoarthritis, and dysmenorrhea is well-documented in international guidelines.
+Currently, detailed mechanism of action data is not available. Based on known information, ketoprofen is a non-selective cyclooxygenase (COX) inhibitor in the NSAID class. Its efficacy in joint pain and inflammation (rheumatoid arthritis, osteoarthritis) is established.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare autosomal recessive skeletal dysplasia caused by loss-of-function mutations in the *GDF5* gene. The disorder manifests as progressive shortening of the middle and distal limb segments and is fundamentally structural and developmental in nature — not driven by prostaglandin-mediated inflammation. While Ketoprofen's analgesic properties could theoretically provide symptomatic pain relief in affected individuals, it has no capacity to correct the underlying genetic or structural defect.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. COX inhibition does not address this underlying biology, and no plausible mechanistic connection was identified. The high score most likely reflects the knowledge graph's proximity between this disease and musculoskeletal conditions such as arthropathy and osteoarthritis, rather than a true biological link. At most, an NSAID might offer symptomatic pain relief, not disease modification.
 
-The high TxGNN score (99.98%) is most likely an artifact of knowledge graph topology: the model propagates signal through shared "skeletal development / cartilage metabolism" nodes common to multiple bone disorders, rather than identifying a specific mechanistic pathway. This prediction should be interpreted with caution and does not imply clinical actionability.
-
----
+**Other predictions reviewed.** The top 10 predictions were all L5, with no trials or literature. Most are rare skeletal or developmental syndromes with no mechanistic rationale (e.g., brachyolmia, myosclerosis, WHIM syndrome). Two are biologically more plausible and flagged as research questions:
+- **Spondyloarthropathy, susceptibility to** (score 99.86%): NSAIDs are first-line symptomatic therapy for spondyloarthritis, so this is likely a rediscovery of known class use rather than a novel repurposing.
+- **Juvenile arthritis due to defect in LACC1** (score 99.74%): NSAIDs are commonly used for symptomatic control of juvenile arthritis, but the effect is unlikely to be disease-modifying.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-> **Note on Rank 8 (Spondyloarthropathy):** Although not the top-ranked prediction, the rank 8 indication — *spondyloarthropathy, susceptibility to* — has a meaningfully stronger mechanistic basis. NSAIDs including Ketoprofen are EULAR/ACR guideline-recommended first-line therapy for spondyloarthropathy and reactive arthritis (Fiessinger-Leroy-Reiter syndrome). One supporting review is available (see Literature table below).
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [20470931](https://pubmed.ncbi.nlm.nih.gov/20470931/) | 2010 | Review | Ann Dermatol Venereol | Review of reactive arthritis (Fiessinger-Leroy-Reiter syndrome); indirectly supports NSAID use in the spondyloarthropathy spectrum |
-
----
-
 ## Philippines Market Information
 
-Ketoprofen currently holds **no product registrations** with the Philippine FDA. There are no licenses on record, and the drug is classified as not marketed in the Philippines.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0273 | Ketoprofen | Not specified | Not specified (registration status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertension/hypertensive disorder, liver failure, kidney disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction, coronary thrombosis, cardiovascular/heart disease, hemoglobinopathy, pyoureter.
+- **Drug Interactions** (100 interactions found; examples below):
+  - *Moderate*: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, glimepiride, chlorpropamide, mesalazine, balsalazide, naltrexone, potassium citrate/bicarbonate, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
+  - *Minor*: famotidine, ranitidine, cimetidine, linaclotide
 
----
+Please refer to the package insert for warnings and full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Acromesomelic dysplasia, Hunter-Thompson type is a genetic skeletal disorder with no known prostaglandin-driven pathology; Ketoprofen's COX-inhibition mechanism has no established therapeutic link to the root *GDF5* defect. The evidence is purely model-derived (L5) with zero supporting clinical trials or literature, and Ketoprofen has no Philippines regulatory presence — making clinical consideration premature under any interpretation.
+The prediction is supported only by a model score (L5), with no clinical trials or literature and no plausible mechanism for this rare genetic skeletal disorder. The only local registration has been cancelled, which further limits practical development.
 
 **To proceed, the following is needed:**
-
-- **Clarify repurposing intent:** If the goal is symptomatic pain relief rather than disease modification, reclassify the target indication (e.g., musculoskeletal pain in skeletal dysplasia) and re-evaluate under a pain management framework
-- **Obtain Philippines FDA registration:** No market authorization exists; regulatory filing is a prerequisite for any clinical pathway
-- **Retrieve full MOA data from DrugBank:** Formal pharmacodynamic documentation is required to support mechanistic rationale
-- **Retrieve safety data:** Philippines FDA prescribing information and package insert warnings/contraindications are currently unavailable (Data Gap — Blocking severity)
-- **Prioritize rank 8 (Spondyloarthropathy) for near-term evaluation:** This indication has a plausible and guideline-supported mechanistic basis for NSAID use, L4 evidence from literature, and represents a more actionable repurposing hypothesis than the top-ranked rare skeletal dysplasia
+- Mechanism of action data for ketoprofen (e.g., from DrugBank)
+- Package insert warnings and contraindications (from DOH-FDA Philippines)
+- A targeted literature search on NSAID use in spondyloarthropathy and LACC1-related juvenile arthritis, the two more plausible candidates, which would be better prioritised than the top-ranked prediction
+- Clarification of whether a valid ketoprofen product is available in the Philippines, given the cancelled registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

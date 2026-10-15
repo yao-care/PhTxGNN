@@ -2,7 +2,7 @@
 layout: default
 title: Deferiprone
 parent: Moderate Evidence (L3-L4)
-nav_order: 98
+nav_order: 100
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,84 +29,77 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Deferiprone: From Iron Overload to Hepatic Porphyria
+# Deferiprone: From Transfusional Iron Overload in Thalassemia to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Deferiprone is an oral iron chelator established for the treatment of transfusional iron overload, particularly in patients who cannot adequately be treated with deferoxamine.
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**, with **0 clinical trials** and **2 publications** currently supporting this direction — including one animal study that directly tested deferiprone in a porphyria cutanea tarda murine model.
-Evidence is preclinical in nature (L4), and clinical validation is required before any advancement.
-
----
+Deferiprone is an oral iron chelator, originally used for iron overload in thalassemia and related blood disorders.
+The TxGNN model predicts it may be effective for **hepatic porphyria**,
+but there are **0 clinical trials** and only **2 preclinical publications** supporting this direction, so it remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Transfusional iron overload (no Taiwan registration found) |
-| Predicted New Indication | Hepatic Porphyria |
+|------|------|
+| Original Indication | Hemosiderosis and beta-thalassemia (related forms include hemoglobinopathy and hereditary persistence of fetal hemoglobin). No approved indication text is available for the Philippines registration. |
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
-
----
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known pharmacology, Deferiprone (L1) is a bidentate oral iron chelator that binds free iron (Fe³⁺) in a 3:1 stoichiometric ratio, forming stable hexadentate complexes excreted in the urine. Its oral bioavailability and particularly strong cardiac iron mobilization distinguish it from parenteral chelators such as deferoxamine.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, deferiprone is an oral iron chelator. Its efficacy in removing iron in thalassemia and other iron-overload states is established, and mechanistically it may be applicable to porphyrias in which iron drives disease.
 
-Hepatic porphyria encompasses a family of metabolic disorders in which defects in the heme biosynthesis pathway cause pathological accumulation of porphyrin precursors — most critically in the liver. Critically, free iron (Fe²⁺) participates in Fenton chemistry, generating reactive oxygen species (ROS) that amplify photo-oxidative damage and potentiate porphyrin toxicity in hepatocytes. By reducing the labile iron pool, iron chelation theoretically interrupts this vicious cycle of oxidative stress and porphyrin accumulation.
+In porphyria cutanea tarda, a hepatic porphyria, excess liver iron promotes the accumulation of uroporphyrin. Phlebotomy, which lowers hepatic iron, is an effective treatment. Deferiprone offers another way to reduce iron, so the link between the original and new indication is iron burden.
 
-The mechanistic link is biologically plausible but indirect. It is most directly demonstrated in porphyria cutanea tarda (PCT), the most common hepatic porphyria, where iron overload is a recognised pathogenic co-factor and phlebotomy (iron depletion) is an established first-line treatment. The 2007 murine study in the evidence set (PMID 17854053) directly compared deferiprone-mediated iron chelation against iron-deficient diets in Hfe⁻/⁻ mice, providing the closest available mechanistic bridge to a clinical hypothesis.
-
----
+The support is preclinical. A mouse study of uroporphyria used deferiprone to deplete hepatic iron. A separate study in congenital erythropoietic porphyria, a related but different subtype, reported that iron chelation improved hemolytic anemia and skin photosensitivity. No human data exist for hepatic porphyria in the compiled data.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Deferiprone × Hepatic Porphyria.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Clinical Study / Case Series | *Blood* | Iron chelation rescued hemolytic anemia and skin photosensitivity in congenital erythropoietic porphyria (CEP); demonstrates that reducing iron availability can mitigate porphyrin-driven tissue damage |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal Study (Murine Model) | *Hepatology* | Deferiprone (L1) reduced hepatic uroporphyrin accumulation in Hfe⁻/⁻ ALA-fed mice to a degree comparable to iron-deficient diet; directly demonstrates deferiprone's activity in a porphyria cutanea tarda model |
+|------|-----|------|------|---------|
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical (animal model) | Blood | Iron chelation rescued hemolytic anemia and skin photosensitivity in congenital erythropoietic porphyria |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical (murine model) | Hepatology | In a mouse model of porphyria cutanea tarda, deferiprone was compared with iron-deficient diets for reducing hepatic uroporphyrin accumulation |
 
----
+## Philippines Market Information
 
-## Taiwan Market Information
+The only registration on record has been cancelled, and no dosage form or approved indication text is available.
 
-Deferiprone currently holds **no product registrations** with the Taiwan FDA. There are no licensed products, dosage forms, or approved indications on record. This represents a significant regulatory gap for any clinical or commercial development pathway in Taiwan.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0131 (cancelled) | Deferiprone | Not specified | Not specified |
 
 ## Safety Considerations
 
-Taiwan FDA package insert warnings and contraindications data are not available in this evidence pack (Data Gap: DG001, classified as Blocking severity). Drug interaction data was queried but returned no results.
+- **Drug Interactions**: 100 interactions were identified in total, and the main ones are listed below. All of those listed are rated Moderate. They involve products containing polyvalent metal cations, which are likely to bind the chelator and reduce its effect. The groups are:
+  - Calcium salts (phosphate, acetate, carbonate, citrate, gluconate, lactate, glubionate)
+  - Magnesium salts (oxide, carbonate, chloride, citrate, gluconate, hydroxide, sulfate)
+  - Aluminum hydroxide and magaldrate
+  - Iron
+  - Kaolin and attapulgite
+  - Sucralfate
 
-> Please refer to the official package insert for complete safety information, including the well-established risk of agranulocytosis/neutropenia associated with deferiprone — a class-specific black-box warning requiring mandatory weekly blood count monitoring.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The hepatic porphyria prediction rests on a biologically coherent but indirect mechanistic hypothesis supported only by preclinical and case series data (L4); no clinical trials exist for this specific indication, and the drug lacks any Taiwan regulatory footprint. Additionally, a critical safety data gap (TFDA package insert) remains unresolved and must be addressed before any further evaluation stage.
+The prediction score is high, but the evidence is limited to two preclinical studies with no human trials (L4). The only Philippines registration has been cancelled, and warnings and contraindications are unavailable. Other predicted indications are weaker still. Beta-thalassemia with other manifestations largely overlaps the existing use rather than being new.
 
 **To proceed, the following is needed:**
-
-- **Resolve DG001 (Blocking):** Obtain and parse the official TFDA package insert PDF to extract warnings, contraindications, and monitoring requirements — this is prerequisite to entering safety pre-screening (S1)
-- **Resolve DG002 (High):** Retrieve full mechanism of action data from DrugBank API to complete the mechanistic plausibility analysis
-- **Pilot clinical hypothesis:** Conduct a structured literature review specifically for porphyria cutanea tarda + iron chelation (broader than deferiprone alone) to assess whether the mechanistic link warrants a dedicated prospective study
-- **Consider secondary indication:** Beta-thalassemia with other manifestations (Rank 8, L3, "Proceed with Guardrails") has stronger existing evidence — if a Taiwan development pathway is sought, this indication may offer a more viable near-term path given deferiprone's well-established role in transfusional iron overload management in thalassemia
-
-> ⚠️ This report is for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before any application.
+- Human clinical data (case series or trials) in hepatic porphyria, such as porphyria cutanea tarda
+- Mechanism of action data
+- Package insert warnings and contraindications from the DOH-FDA Philippines, and clarification of why the registration was cancelled
+- A safety plan covering chelator-specific monitoring and the cation-containing drug interactions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

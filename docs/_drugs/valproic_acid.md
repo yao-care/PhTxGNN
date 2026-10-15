@@ -2,7 +2,7 @@
 layout: default
 title: Valproic Acid
 parent: Model Prediction Only (L5)
-nav_order: 345
+nav_order: 349
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,59 +33,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Valproic acid (VPA) is a well-established antiepileptic and mood-stabilizing drug, widely recognized for its use in epilepsy, bipolar disorder, and migraine prophylaxis.
-The TxGNN model predicts it may be effective for **Trigeminal Nerve Neoplasm** — drawing on VPA's known HDAC inhibitor activity and broad antitumor potential —
-however, this direction is currently supported by **0 clinical trials** and only **1 indirectly related publication**, placing this prediction at the lowest evidence tier.
+Valproic acid is an established antiseizure medicine, originally used for epilepsy, manic bipolar affective disorder and absence epilepsy.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but there are **0 clinical trials** and only **1 publication** (a case series on a different condition) behind it.
+The more credible repurposing directions are in other seizure-related and neuralgic conditions, noted below.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Epilepsy (established clinical use; no Philippines registration on record) |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
+|------|------|
+| Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (from the TxGNN knowledge graph, since no approved indication text is available in the local licences) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only |
+| Number of Registrations | 2 (both cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacology, valproic acid operates through at least four established mechanisms: (1) enhancement of GABAergic inhibition by increasing GABA synthesis and reducing its degradation; (2) blockade of voltage-gated sodium channels to suppress repetitive neuronal firing; (3) inhibition of T-type calcium channels to interrupt thalamocortical synchronization; and (4) — most relevant to this oncology prediction — inhibition of histone deacetylases (HDACs), which promotes chromatin remodeling, cell cycle arrest, and pro-apoptotic signaling.
+Currently, detailed mechanism of action data is not available from the compiled data. Based on general knowledge, valproic acid enhances GABA-mediated inhibition, blocks sodium channels and modulates T-type calcium channels. It also inhibits histone deacetylase (HDAC), which is a theoretical antineoplastic mechanism.
 
-The TxGNN model likely draws this prediction through indirect knowledge graph linkages connecting VPA's HDAC inhibitor activity to broader neural tumor biology. Trigeminal nerve neoplasms are rare peripheral nerve sheath tumors (primarily schwannomas and neurofibromas), and while VPA's HDAC inhibitor properties have demonstrated antineoplastic potential in glioma models (see PMID 39786974, PMID 26985579 in adjacent indications), no direct clinical or preclinical research exists for this specific tumor histotype. The single retrieved publication concerns Sturge-Weber syndrome — a neurovascular disorder sometimes managed with antiepileptics — and does not address trigeminal nerve neoplasm.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no credible mechanistic link is established. The only retrieved paper is a 1997 case series on Sturge-Weber syndrome, which is a different condition. The high TxGNN score is not supported by clinical or preclinical evidence in the data compiled for this report.
 
-The mechanistic chain (HDAC inhibition → chromatin remodeling → tumor suppression) is biologically coherent but remains an extrapolation at this stage. This prediction is best understood as a hypothesis-generating signal from the model, not actionable clinical evidence.
+Several lower-ranked predictions have more plausible links, because they are close to the original epilepsy indication:
+- **Startle epilepsy (rank 5, L3):** small clinical studies and case reports, including one on valproate's effect on the auditory startle reflex in epilepsy patients, and a case of hyperekplexia that responded to valproate. There is no randomized evidence.
+- **Visual epilepsy (rank 2, L4):** indirect evidence extrapolated from valproate's approved epilepsy use.
+- **Trigeminal neuralgia (rank 3, L4):** older reviews list valproate as a second-line or adjunct anticonvulsant, but the retrieved papers mostly concern carbamazepine.
+- **Reading seizures (rank 10, L4):** valproate is a standard treatment in generalized epilepsies where reflex triggers occur, but no paper addresses reading epilepsy specifically.
+- **Audiogenic seizures (rank 7, L4):** animal-model evidence only.
+- **Micturition-induced, orgasm-induced, thinking and eating seizures (ranks 4, 6, 8, 9):** no syndrome-specific evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the ten predicted indications.
 
 ---
 
 ## Literature Evidence
 
+Literature for the top prediction (trigeminal nerve neoplasm):
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case Series | Anales Españoles de Pediatría | 14-case review of Sturge-Weber syndrome over 25 years; evaluates clinical characteristics, disease progression, and antiepileptic treatment response. VPA is used in a neurovascular context — not directly relevant to trigeminal nerve neoplasm. |
+|------|-----|------|------|---------|
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales espanoles de pediatria | Review of 14 Sturge-Weber syndrome cases. This is not a trigeminal nerve neoplasm, so it gives no direct support |
+
+Selected literature for the better-supported alternative predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [20200383](https://pubmed.ncbi.nlm.nih.gov/20200383/) | 2010 | RCT | N Engl J Med | Ethosuximide, valproic acid and lamotrigine compared in childhood absence epilepsy. High quality, but a different syndrome from the predicted ones |
+| [30592252](https://pubmed.ncbi.nlm.nih.gov/30592252/) | 2019 | Review | Curr Neuropharmacol | Molecular mechanisms and clinical evidence of valproic acid in epilepsy |
+| [29262725](https://pubmed.ncbi.nlm.nih.gov/29262725/) | 2018 | Clinical study | Clin EEG Neurosci | Analysis of whether valproate suppresses the auditory startle reflex in epilepsy patients (startle epilepsy) |
+| [6465864](https://pubmed.ncbi.nlm.nih.gov/6465864/) | 1984 | Clinical study | Ann Neurol | Clinical study of 14 startle epilepsy patients; the favorable responses reported in the excerpt were to carbamazepine |
+| [2496695](https://pubmed.ncbi.nlm.nih.gov/2496695/) | 1989 | Case report | Pediatr Neurol | Adolescent-onset hyperekplexia that resolved completely with valproic acid |
+| [1774173](https://pubmed.ncbi.nlm.nih.gov/1774173/) | 1991 | Review | Headache | Medical management of trigeminal neuralgia; valproic acid is listed among the anticonvulsants reported as efficacious |
+| [15246950](https://pubmed.ncbi.nlm.nih.gov/15246950/) | 2004 | Review | Epileptic Disord | Antiepileptic drugs used outside epilepsy; evidence mainly from case series and small trials |
+| [33551767](https://pubmed.ncbi.nlm.nih.gov/33551767/) | 2020 | Preclinical | Front Behav Neurosci | Cannabidiol and valproate in the GASH/Sal audiogenic seizure model |
+| [38117708](https://pubmed.ncbi.nlm.nih.gov/38117708/) | 2023 | Review | Medicina | Reflex triggers in juvenile myoclonic epilepsy |
+| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | Cohort | Future Oncol | Levetiracetam and valproic acid in glioma: antiseizure and potential antineoplastic effects |
 
 ---
 
 ## Philippines Market Information
 
-No registered products found in the Philippines FDA database for Valproic Acid. No licenses on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0454 | Sodium Valproate | Not recorded | Not recorded (status: cancelled) |
+| PNF-0506 | Valproic Acid | Not recorded | Not recorded (status: cancelled) |
+
+Both registrations are cancelled, so no valid product is currently marketed in the Philippines under these records.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications flagged in the knowledge graph** (these come from drug-disease relationship data, not from label text):
+- Liver disease, pancreatitis, kidney disease, gallbladder disease
+- Thrombocytopenia and other haematologic disease
+- Urea cycle disorders: carbamoyl phosphate synthetase I deficiency, citrullinemia, hyperargininemia
+- Porphyrias: inherited porphyria, porphyrin metabolism disease, porphyria
+- Cognitive disorder, anxiety disorder, neurotic disorder, dysthymic disorder, pyoureter
+
+**Drug Interactions** (100 interactions were found; the first 20 returned are listed):
+- **Major:** glycerol phenylbutyrate
+- **Moderate:** bupropion, morphine (including liposomal), acetylsalicylic acid, clarithromycin, difenoxin, diphenoxylate, activated charcoal, dronabinol, metoclopramide, nabilone
+- **Minor:** cimetidine, esomeprazole, and antacids (magnesium oxide, aluminum hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide)
+
+Literature in the compiled data also points to other well-known concerns: teratogenicity in females of reproductive age, hepatotoxicity, hyperammonemic encephalopathy, and an interaction with carbapenem antibiotics. Please refer to the package insert for full safety information.
 
 ---
 
@@ -94,14 +134,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.97%), the evidence base for VPA in trigeminal nerve neoplasm is entirely absent — there are zero clinical trials and only one tangentially related case series. The prediction is mechanistically plausible via VPA's HDAC inhibitor activity but cannot be actioned without dedicated supporting research.
+- The top-ranked prediction (trigeminal nerve neoplasm) has no clinical trials and no relevant literature, so it sits at L5 (model prediction only). None of the ten predicted indications has a registered trial, and the best-supported one, startle epilepsy (L3), rests on small observational studies and case reports.
+- Valproic acid has no valid registration in the Philippines (both licences cancelled), and the package insert safety data could not be obtained.
 
 **To proceed, the following is needed:**
-- Preclinical studies in trigeminal nerve tumor cell lines (schwannoma, neurofibroma) to confirm HDAC inhibitor activity and cytostatic effects of VPA
-- Mechanism of action data retrieval from DrugBank API to formally characterize VPA's HDAC inhibitory profile
-- Package insert review (TFDA/FDA Philippines label) for warnings, contraindications, and drug interaction profile
-- Assessment of VPA's safety in the context of concurrent chemotherapy or radiotherapy for nerve sheath tumors
-- If preclinical evidence is established, consider a basket trial design covering rare peripheral nerve tumors where VPA HDAC inhibition could be tested alongside standard-of-care regimens
+- Review of the package insert, as safety screening cannot proceed without warnings and contraindications
+- Mechanism of action data from DrugBank
+- A re-registration or import pathway, since no valid Philippines licence exists
+- For startle epilepsy, trigeminal neuralgia and reading seizures, a focused literature review or small controlled study, since these have the most plausible links to existing evidence
+- For the trigeminal nerve neoplasm prediction, preclinical evidence (for example HDAC-inhibitor activity in relevant tumour models) before any further investment
+- A pregnancy-prevention and liver-monitoring plan, given the known risks in women of reproductive age
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

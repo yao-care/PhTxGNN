@@ -2,7 +2,7 @@
 layout: default
 title: Mesalazine
 parent: Model Prediction Only (L5)
-nav_order: 223
+nav_order: 225
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,57 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
----
-
-# Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
+# Mesalazine: From Ulcerative Colitis to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Mesalazine (5-ASA, mesalamine) is the active anti-inflammatory moiety of sulfasalazine, and is the cornerstone treatment for ulcerative colitis and other forms of inflammatory bowel disease.
-The TxGNN model's highest-ranked prediction suggests Mesalazine may be effective for **congenital hypotrichosis with juvenile macular dystrophy**,
-yet **no clinical trials** or **published literature** currently support this direction, placing the evidence at **L5 (model prediction only)**.
+Mesalazine (5-aminosalicylic acid) was originally used to treat ulcerative colitis and other inflammatory bowel conditions.
+The TxGNN model's top-ranked prediction is a rare genetic disorder, **congenital hypotrichosis with juvenile macular dystrophy**, which has no supporting evidence. The best-supported candidate is **rheumatoid arthritis** (rank 3), which has **0 clinical trials** and only indirect literature. This report covers the top prediction and the best-supported alternative.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Ulcerative colitis / Inflammatory bowel disease (IBD) |
-| Predicted New Indication | Congenital Hypotrichosis with Juvenile Macular Dystrophy |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L5 |
-| Philippines Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the Philippines licence record contains no approved indication text) |
+| Predicted New Indication (top-ranked) | Congenital hypotrichosis with juvenile macular dystrophy |
+| Best-Supported Alternative | Rheumatoid arthritis (rank 3) |
+| TxGNN Prediction Score | 99.65% (top-ranked); 99.57% (rheumatoid arthritis) |
+| Evidence Level | L5 (top-ranked); L4 (rheumatoid arthritis) |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on well-established pharmacology, Mesalazine (5-aminosalicylic acid, 5-ASA) is produced when sulfasalazine is cleaved by colonic bacteria. It exerts anti-inflammatory effects primarily through inhibition of the NF-κB signalling pathway — thereby suppressing pro-inflammatory cytokines including TNF-α, IL-1β, and IL-6 — and by blocking cyclooxygenase (COX) and lipoxygenase (LOX) pathways to reduce prostaglandin and leukotriene production. Its efficacy in ulcerative colitis and Crohn's disease is well-proven over decades of clinical use.
+Detailed mechanism of action data is not available in the data compiled for this report. Mesalazine is generally understood to be an anti-inflammatory agent acting locally in the gut, with effects on prostaglandin and leukotriene synthesis, NF-kB signalling and antioxidant activity. These actions are the basis of its effectiveness in ulcerative colitis.
 
-Congenital hypotrichosis with juvenile macular dystrophy (HJMD) is a rare autosomal recessive disorder caused by mutations in the *CDH3* gene, which encodes P-cadherin. Affected individuals develop sparse hair from birth and progressive macular retinal degeneration leading to early-onset visual impairment. The underlying pathology is fundamentally structural and genetic — P-cadherin dysfunction disrupts cell–cell adhesion in hair follicle stem cells and the retinal pigment epithelium — with no established inflammatory component as a driver of disease.
+**Top-ranked prediction (congenital hypotrichosis with juvenile macular dystrophy):** No plausible mechanistic link was found. This is a rare genetic disorder caused by CDH3 (cadherin-3) mutation, affecting hair follicles and the retina. Anti-inflammatory activity has no relevance to this defect. The high score is a knowledge-graph output only.
 
-There is currently no published biological rationale linking Mesalazine's anti-inflammatory mechanism to CDH3 pathway dysfunction or macular degeneration. The high TxGNN prediction score most likely reflects a non-specific overlap of generalised inflammation nodes within the knowledge graph rather than any targeted biological relationship. This pattern is commonly observed for rare orphan diseases in graph-based prediction models, and this result should not be acted upon without first generating basic mechanistic evidence.
+**Rheumatoid arthritis:** Mesalazine is the active moiety released from sulfasalazine, an established disease-modifying antirheumatic drug. However, the antirheumatic effect of sulfasalazine is generally attributed to its sulfapyridine moiety rather than to mesalazine, so efficacy of mesalazine alone is not supported. The high score likely reflects the sulfasalazine relationship in the knowledge graph.
+
+**Other predictions:** Osteoarthritis has a conceptually plausible link through low-grade synovial inflammation, but support is limited to one computational study. Osteoarthritis susceptibility, seborrheic keratosis, vulvar inverted follicular keratosis and pseudoachondroplasia have no identified mechanistic link and no evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the seven predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+The table below covers rheumatoid arthritis, the best-supported alternative. None of these papers shows efficacy of mesalazine in rheumatoid arthritis.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7588084](https://pubmed.ncbi.nlm.nih.gov/7588084/) | 1995 | Review | Drugs | Review of sulfasalazine as a DMARD in rheumatoid arthritis. Sulfasalazine splits into sulfapyridine and mesalazine, and which part is the active principle remains uncertain. |
+| [7904547](https://pubmed.ncbi.nlm.nih.gov/7904547/) | 1993 | Review | Clin Pharmacokinet | Pharmacokinetics of slow-acting antirheumatic drugs, including sulfasalazine. Clinical effects are delayed by several months and response varies. |
+| [7781502](https://pubmed.ncbi.nlm.nih.gov/7781502/) | 1995 | Review (drug monograph) | Dtsch Med Wochenschr | Drug monograph on mesalazine (no abstract available). |
+| [12235076](https://pubmed.ncbi.nlm.nih.gov/12235076/) | 2002 | Pharmacovigilance review | Gut | Re-evaluation of serious adverse reactions to sulphasalazine and mesalazine from spontaneous reports. |
+| [42565551](https://pubmed.ncbi.nlm.nih.gov/42565551/) | 2026 | Cohort | Rheumatology (Oxford) | Medication use and pregnancy outcomes in women with immune-mediated inflammatory diseases. |
+| [41443863](https://pubmed.ncbi.nlm.nih.gov/41443863/) | 2026 | Case report | Intern Med | 5-ASA-induced colitis in a patient with rheumatoid arthritis. This is an adverse event report, not evidence of benefit. |
+| [31830393](https://pubmed.ncbi.nlm.nih.gov/31830393/) | 2019 | Case report | G Ital Nefrol | DRESS syndrome with acute renal failure after sulfasalazine and mesalazine in a patient with rheumatoid arthritis. |
+
+For osteoarthritis, the only linked paper is [PMID 38491514](https://pubmed.ncbi.nlm.nih.gov/38491514/) (2024, J Transl Med), a computational transcriptomic study identifying potential therapeutic targets. It is hypothesis-generating and offers no clinical evidence. The other five predictions have no related literature.
+
+---
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0312 | Mesalazine | Not recorded | Not recorded (status: cancelled) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** kidney disease, interstitial nephritis, lipoid nephrosis, pyoureter, liver disease, gallbladder disease, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia) and pyloric stenosis.
+- **Drug interactions:** 100 interactions were identified in total. Those listed here are examples from the first 20 returned, which includes one **Major** interaction with human botulinum neurotoxin A/B immune globulin and another **Major** with cidofovir.
+  - Moderate interactions include NSAIDs (ketorolac, ibuprofen, celecoxib, bromfenac), nephrotoxic agents (acyclovir, amphotericin B and its formulations, amikacin, bacitracin, capreomycin, cisplatin), azathioprine, anisindione, and sulfonylureas (acetohexamide, chlorpropamide).
+  - Many of these combinations raise concern about kidney toxicity.
+- **Literature signals:** The retrieved reports describe hypersensitivity reactions to 5-ASA, including colitis and DRESS syndrome with acute renal failure.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ---
 
@@ -88,13 +114,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN score (99.65%), congenital hypotrichosis with juvenile macular dystrophy is a rare, genetically driven disease with no recognised inflammatory basis, and there is zero preclinical or clinical evidence that Mesalazine — or any anti-inflammatory agent — has any effect on CDH3 dysfunction or macular degeneration in this context.
+- The top-ranked prediction has no trials, no literature and no plausible mechanism, so the high TxGNN score is not supported by evidence.
+- Rheumatoid arthritis, the best-supported alternative, rests only on indirect sulfasalazine-related literature, with no evidence that mesalazine alone is effective.
+- Mesalazine currently has no valid registration in the Philippines (its only licence is cancelled).
 
 **To proceed, the following is needed:**
-- **Mechanistic feasibility study:** Determine whether NF-κB inhibition or 5-ASA's anti-inflammatory activity has any measurable effect on CDH3 expression, P-cadherin function, or retinal pigment epithelium integrity in cell or animal models
-- **Knowledge graph audit:** Clarify which shared nodes are driving the elevated TxGNN score (likely non-specific inflammation hubs); if the link is solely via generic inflammation nodes, biological specificity is insufficient to justify further development
-- **Complete MOA and safety documentation:** Full mechanism of action, key warnings, and contraindications for Mesalazine are currently unavailable and must be retrieved before any research initiation
-- **Prioritise better-supported predictions:** Two other TxGNN predictions for Mesalazine carry substantially stronger evidence — **Osteoarthritis (L4, 3 publications including a 2024 *Nature Communications* mechanistic study)** and **Rheumatoid Arthritis (L3, 6 trials and 20 publications)** — and warrant evaluation reports of their own before resources are allocated to this L5 prediction
+- Package insert warnings and contraindications, to complete safety screening
+- Mechanism of action data from DrugBank
+- Direct clinical evidence (trials or well-designed studies) for any shortlisted indication, especially rheumatoid arthritis and osteoarthritis
+- Clarification of regulatory status, since the only licence is cancelled
+- Renal and haematological safety review, given the knowledge-graph flags and the interaction profile
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

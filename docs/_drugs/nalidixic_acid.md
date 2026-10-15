@@ -2,7 +2,7 @@
 layout: default
 title: Nalidixic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 244
+nav_order: 246
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,40 +29,42 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-以下是根據 Evidence Pack 產生的完整評估報告：
-
----
-
-# Nalidixic Acid: From Urinary Tract Infection to Conjunctivitis
+# Nalidixic Acid: From Bacterial Infection to Conjunctivitis
 
 ## One-Sentence Summary
 
-Nalidixic acid is a first-generation quinolone antibiotic historically used to treat urinary tract infections caused by Gram-negative bacteria.
-The TxGNN model predicts it may be effective for **Conjunctivitis**, with **0 clinical trials** and **6 publications** currently in the evidence base — though none of the retrieved publications directly evaluates nalidixic acid as a treatment for conjunctivitis.
+Nalidixic acid is a first-generation quinolone antibiotic. The Philippines registration data compiled for this report do not state an approved indication, so the original use is inferred from its drug class.
+The TxGNN model predicts it may be effective for **conjunctivitis**, with **0 clinical trials** and **5 publications** retrieved. None of these publications evaluates nalidixic acid as a treatment for conjunctivitis.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Philippines registration data available (historically: urinary tract infections) |
+|------|------|
+| Original Indication | Not stated in the registration data (class use: bacterial infections) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (0 currently valid) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, nalidixic acid is a first-generation quinolone antibiotic that inhibits bacterial DNA gyrase (topoisomerase II), blocking DNA replication and exerting bactericidal activity. Its spectrum is directed primarily at Gram-negative organisms, including *Escherichia coli*, *Proteus*, and *Klebsiella* species.
+Currently, detailed mechanism of action data is not available in the compiled data. Nalidixic acid is a first-generation quinolone, a class known to inhibit bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. This is general class knowledge, not data from the compiled records. Through this action, it could plausibly act against susceptible Gram-negative bacteria that cause bacterial conjunctivitis.
 
-The mechanistic argument for conjunctivitis rests on the observation that some conjunctivitis pathogens — notably *Haemophilus influenzae* and *Moraxella catarrhalis* — are Gram-negative and potentially susceptible. However, the most common bacterial conjunctivitis pathogens (*Staphylococcus aureus*, *Streptococcus pneumoniae*) are Gram-positive and largely outside nalidixic acid's effective spectrum. This coverage gap substantially weakens the therapeutic rationale.
+However, the link is weak. The retrieved literature concerns enteric pathogens (Shigella, Yersinia) and does not address eye infection. Later fluoroquinolones have much better ocular penetration and a broader spectrum, and widespread quinolone resistance reduces the rationale for nalidixic acid. The high TxGNN score is a computational prediction only.
 
-Critically, modern fluoroquinolones derived from nalidixic acid — specifically ciprofloxacin and ofloxacin ophthalmic formulations — have already been approved for bacterial conjunctivitis. They offer broader antibacterial coverage, superior ocular tissue penetration, and an established safety record in eye drops. The TxGNN high score most likely reflects network graph proximity rather than a clinically actionable new use.
+Other predicted indications are weaker still:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Note |
+|---|---|---|---|---|
+| 2 | Sclerosing cholangitis | 99.63% | L5 | No trials or literature. Any link through gut microbiota is speculative. |
+| 3 | Rheumatoid arthritis | 99.41% | L5 | The only article is an unrelated observational study of oral Staphylococcus colonization. |
+| 4 | Infectious otitis media | 99.04% | L4 | The only article studies ofloxacin, a different drug, so it is indirect class-level evidence. |
 
 ---
 
@@ -75,27 +77,46 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34151142](https://pubmed.ncbi.nlm.nih.gov/34151142/) | 2021 | Case Report | Access Microbiology | Two cases of *Tsukamurella pulmonis* conjunctivitis in patients with nasolacrimal duct obstruction; **nalidixic acid agar used as a microbiological culture medium only** — not a treatment study |
-| [15824427](https://pubmed.ncbi.nlm.nih.gov/15824427/) | 2005 | Microbiological Characterization | Journal of Medical Microbiology | Characterization of *Shigella boydii* provisional serovar from diarrheal patients in Bangladesh; nalidixic acid mentioned in identification context — no conjunctivitis relevance |
-| [17446289](https://pubmed.ncbi.nlm.nih.gov/17446289/) | 2007 | Microbiological Characterization | Journal of Medical Microbiology | Novel *Shigella dysenteriae* serovar from Bangladesh; nalidixic acid referenced in phenotypic characterization only — no conjunctivitis relevance |
-| [9442487](https://pubmed.ncbi.nlm.nih.gov/9442487/) | 1997 | Molecular/Plasmid Analysis | Microbial Drug Resistance | *Shigella dysenteriae* type 1 plasmid study; nalidixic acid resistance documented as a plasmid-encoded trait — no conjunctivitis relevance |
-| [16914657](https://pubmed.ncbi.nlm.nih.gov/16914657/) | 2006 | Retrospective Microbiological Study | Journal of Medical Microbiology | >60% of *Shigella sonnei* isolates in Bangladesh were resistant to nalidixic acid — highlights widespread resistance, no conjunctivitis relevance |
-| [3206956](https://pubmed.ncbi.nlm.nih.gov/3206956/) | 1988 | Animal/Laboratory Study | Zhurnal Mikrobiologii | *Yersinia* virulence and invasiveness study using nalidixic acid-resistant mutants as experimental tools — no conjunctivitis relevance |
+|------|-----|------|------|---------|
+| [17446289](https://pubmed.ncbi.nlm.nih.gov/17446289/) | 2007 | Microbiological characterization | J Med Microbiol | A novel Shigella dysenteriae serovar from patients with diarrhoea in Bangladesh. Not related to conjunctivitis. |
+| [15824427](https://pubmed.ncbi.nlm.nih.gov/15824427/) | 2005 | Microbiological characterization | J Med Microbiol | Isolation of Shigella boydii provisional serovar E16553 from diarrhoeal patients. Not related to conjunctivitis. |
+| [16914657](https://pubmed.ncbi.nlm.nih.gov/16914657/) | 2006 | Resistance survey | J Med Microbiol | Over 60% of Shigella sonnei isolates were resistant to nalidixic acid. This points to resistance limits. |
+| [9442487](https://pubmed.ncbi.nlm.nih.gov/9442487/) | 1997 | Laboratory study | Microb Drug Resist | A 70-kb plasmid in epidemic Shigella dysenteriae type 1 and its role in drug resistance and virulence. |
+| [3206956](https://pubmed.ncbi.nlm.nih.gov/3206956/) | 1988 | Laboratory study | Zh Mikrobiol Epidemiol Immunobiol | Invasiveness and cytotoxicity in Yersinia attenuation. Nalidixic acid-resistant mutants were used as laboratory tools. |
 
-> ⚠️ **Important caveat:** None of the 6 retrieved publications evaluates nalidixic acid as a therapeutic agent for conjunctivitis. The drug appears only as a microbiological laboratory reagent (selective culture medium ingredient or resistance marker). These papers provide no clinical support for this repurposing direction.
+None of these articles tests nalidixic acid against conjunctivitis.
 
 ---
 
 ## Philippines Market Information
 
-Nalidixic acid is currently **not registered** in the Philippines. No product authorizations were found in the regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0338 | Nalidixic Acid (cancelled) | Not stated | Not stated |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text)**: The TxGNN knowledge graph lists contraindication links with these conditions:
+  - Neurological: epilepsy, peripheral neuropathy, peripheral nervous system disease, central nervous system disease, nervous system disorder, narcolepsy-cataplexy syndrome, Balo concentric sclerosis, X-linked adrenoleukodystrophy
+  - Porphyrias: porphyria, inherited porphyria, porphyrin metabolism disease
+  - Liver and gallbladder: liver disease, gallbladder disease
+  - Tendon and joint: tendinitis, periarthritis, exostosis
+  - Gastrointestinal: Clostridium difficile colitis, perinatal necrotizing enterocolitis
+  - Metabolic: G6PD deficiency, glycogen storage disease, cystinuria, galactosemia
+- **Drug Interactions**: The interaction query returned 100 records, and 20 are shown in the compiled data. **Major** interactions include:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+  - Bupropion
+  - Chlorpropamide
+
+  **Moderate** interactions include:
+  - Antidiabetic agents: acarbose, alogliptin, saxagliptin, canagliflozin, dapagliflozin, albiglutide
+  - Aspirin, balsalazide, alosetron
+  - Calcium and citrate preparations
+  - Polyethylene glycol electrolyte solution
+
+Label-based warnings and contraindications from the package insert are not available. Please refer to the package insert for these.
 
 ---
 
@@ -104,14 +125,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Evidence sits at L4 — mechanistic inference only — with no clinical trials and no literature directly supporting nalidixic acid as a treatment for conjunctivitis. The drug is not marketed in the Philippines, its safety profile in the local regulatory context is unverified, and modern fluoroquinolone ophthalmic preparations have already superseded any potential role in this indication, making clinical development essentially unjustifiable.
+- The prediction rests mainly on a computational score. No clinical trials exist, and none of the retrieved literature tests nalidixic acid for conjunctivitis.
+- The drug's only Philippines registration is cancelled.
+- Newer fluoroquinolones are better suited to eye infections, and quinolone resistance is widespread.
+- The safety profile includes neurological and tendon-related concerns.
 
-**To proceed, the following would be needed:**
-- Verified mechanism of action data (MOA) to confirm antibacterial spectrum against key conjunctivitis pathogens (*S. aureus*, *S. pneumoniae*, *H. influenzae*)
-- Philippines regulatory safety information — package insert warnings, contraindications, and DDI data
-- Ocular bioavailability and pharmacokinetic data for a topical ophthalmic formulation of nalidixic acid
-- A pre-clinical proof-of-concept study demonstrating in vitro activity against the primary conjunctivitis pathogen panel
-- A compelling differentiation argument over already-approved fluoroquinolone eye drops (ciprofloxacin, ofloxacin), without which investment in development is clinically unwarranted
+**To proceed, the following is needed:**
+- Mechanism of action data confirmed from DrugBank
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Evidence of nalidixic acid activity against ocular pathogens, such as susceptibility data or ocular penetration studies
+- A comparison with currently available ophthalmic fluoroquinolones to show any added value
+- Clarification of the cancelled registration status and whether any formulation suitable for ophthalmic use exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

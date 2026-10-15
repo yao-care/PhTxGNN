@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Model Prediction Only (L5)
-nav_order: 245
+nav_order: 247
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,76 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Naproxen: From Pain & Inflammation to Brachydactyly-Syndactyly Syndrome
+# Naproxen: From Inflammatory and Musculoskeletal Pain Conditions to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Naproxen is a well-established non-steroidal anti-inflammatory drug (NSAID) with a long history of use in pain relief and inflammatory conditions such as arthritis.
-The TxGNN model predicts it may be effective for **Brachydactyly-Syndactyly Syndrome**, a rare genetic skeletal malformation disorder.
-Currently, there are **0 clinical trials** and **0 publications** supporting this direction — this is a model-inference-only prediction.
-
----
+Naproxen is a non-steroidal anti-inflammatory drug (NSAID) originally used for inflammatory and musculoskeletal conditions such as rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout, bursitis, tendinitis and migraine.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available from Philippines regulatory data |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
+|------|------|
+| Original Indication | Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis, gout, migraine, osteoarthritis and related conditions (from the knowledge graph; no approved-indication text is available for the local registration) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Naproxen is a non-steroidal anti-inflammatory drug (NSAID) whose primary mechanism involves inhibiting cyclooxygenase (COX-1 and COX-2) enzymes, thereby suppressing prostaglandin synthesis — particularly PGE2. Its analgesic, antipyretic, and anti-inflammatory effects have been clinically established for decades.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology knowledge, naproxen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis, which explains its anti-inflammatory, analgesic and antipyretic effects in its original indications.
 
-Brachydactyly-Syndactyly Syndrome is a rare congenital skeletal disorder caused by mutations in genes such as **HRAS** and **BMPR1B**, which govern limb bone patterning during embryonic development. While PGE2 is known to play a role in general bone formation and remodeling, this is a non-specific physiological function that does not intersect with the upstream genetic defects driving this syndrome.
+Brachydactyly-syndactyly syndromes are congenital limb malformations, typically caused by developmental genetic defects (for example, variants in the HOX gene family). Blocking prostaglandin synthesis is not expected to correct a structural malformation that forms during development. The high TxGNN score (0.994, rank 4669) is a graph-based prediction and most likely reflects network proximity rather than biological plausibility.
 
-The mechanistic connection is extremely weak. COX inhibition has no established role in correcting congenital bone malformations caused by fixed genetic mutations. The Evidence Pack's own repurposing rationale flags this as a **probable knowledge graph structural artifact** rather than a genuine therapeutic signal. This assessment applies to all four top TxGNN predictions for Naproxen, each of which involves a rare hereditary skeletal or developmental dysplasia with no plausible pharmacological link to NSAID therapy.
+In short, **no mechanistic link is supported by the available data**. At most, naproxen might be considered for symptomatic pain relief, which is not a disease-modifying repurposing rationale. NSAID exposure during pregnancy also carries fetal safety concerns.
 
----
+Other predictions with the same pattern (high score, no evidence, no mechanistic link):
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level |
+|------|------|------|------|
+| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.22% | L5 |
+| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 99.17% | L5 |
+| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.06% | L5 |
+
+All four are rare congenital skeletal or developmental disorders of genetic origin. None has supporting trials or literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-Naproxen currently has **no regulatory registrations** with the Philippine FDA. It is not an approved product in the Philippines market and has no active licenses on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0341 | Naproxen | Not specified | Not specified (registration cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / risk conditions flagged in the knowledge graph** (these come from the drug-disease network, not from package insert text): hypertension, congestive heart failure, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, liver disease and liver failure, kidney disease, blood coagulation disorders, anemia and hemoglobinopathy, diabetes mellitus and diabetic ketoacidosis, osteoporosis, epilepsy, gallbladder disease, benign prostatic hyperplasia, obesity, and substance abuse/dependence.
+- **Drug Interactions**: 100 interactions were found in total, and the 20 listed are all rated Moderate. Main ones include:
+  - Acid-suppressing drugs: famotidine, ranitidine, cimetidine, rabeprazole, dexlansoprazole
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Other drugs: acetylsalicylic acid, metformin, chlorpropamide, aprepitant, mesalazine, balsalazide, potassium citrate, potassium bicarbonate, picosulfuric acid, polyethylene glycol with electrolytes
+- **Pregnancy**: NSAID exposure during pregnancy raises fetal safety concerns, which is particularly relevant for congenital developmental conditions.
 
----
+Please refer to the package insert for label-level warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All four TxGNN-predicted indications are rare hereditary skeletal/developmental disorders (Evidence Level L5 — model prediction only), with zero supporting clinical trials or literature. The mechanistic link between COX inhibition and congenital genetic malformations is biologically implausible, and the model predictions are most likely knowledge graph structural artifacts with no actionable therapeutic relevance.
+The prediction is supported only by a model score, with no clinical trials or literature (Evidence Level L5). The biological rationale is also weak, because COX inhibition is not expected to correct congenital limb malformations. The only local registration is cancelled.
 
 **To proceed, the following is needed:**
-- Retrieve Naproxen's full MOA data from DrugBank (currently a data gap) to confirm pharmacological class and known off-target effects
-- Obtain Philippine FDA package insert warnings and contraindications (currently blocking-level data gap)
-- Commission expert review by a clinical pharmacologist or medical geneticist to formally rule out any indirect PGE2/bone-remodeling rationale in these rare diseases
-- Consider re-running TxGNN prediction filtering against Naproxen's established pharmacological class (NSAID/COX inhibitor), prioritising inflammatory, musculoskeletal, or pain-adjacent indications where evidence is substantially stronger and mechanistic plausibility is high
+- Mechanism of action data and a plausible biological link between COX inhibition and the target syndrome
+- Preclinical or case-based evidence in the predicted disease
+- Package insert warnings and contraindications for the local product, and an assessment of fetal safety
+- Clarification of the current regulatory status in the Philippines, since the only registration (PNF-0341) is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

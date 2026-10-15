@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diclofenac
-parent: High Evidence (L1-L2)
-nav_order: 104
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 106
+evidence_level: L5
 indication_count: 10
 ---
 
 # Diclofenac
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,77 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Diclofenac: From Pain & Inflammation to Juvenile Idiopathic Arthritis
+# Diclofenac: From Arthritis and Actinic Keratosis to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Diclofenac is a well-established NSAID (non-steroidal anti-inflammatory drug) widely used in adults for pain, inflammation, rheumatoid arthritis, and osteoarthritis, acting through dual COX-1/COX-2 inhibition.
-The TxGNN model generated 10 predicted indications; among them, **Juvenile Idiopathic Arthritis (JIA)** is the only candidate with meaningful clinical evidence (TxGNN score: **99.25%**, rank 9 of 10 predicted).
-This direction is supported by **2 registered clinical trials** and **18 publications**, reaching Evidence Level **L2**, with a recommendation to **Proceed with Guardrails**.
-
-> **Note:** The TxGNN top-ranked prediction (rank 1) is "hypotrichosis simplex of the scalp" (score: 99.69%), but this and 8 other predictions are classified as L5/Hold due to absence of clinical evidence or mechanistic rationale. This report focuses on JIA as the only actionable finding.
-
----
+Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) used for conditions such as rheumatoid arthritis, osteoarthritis, ankylosing spondylitis and actinic keratosis.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a rare genetic hair disorder.
+This prediction is supported by **0 clinical trials** and **0 publications**, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pain and inflammation (NSAID; referenced as standard therapy in JIA literature) |
-| Predicted New Indication (Highest Evidence) | Juvenile Idiopathic Arthritis (JIA) |
-| TxGNN Prediction Score | 99.25% |
-| Evidence Level | L2 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, actinic keratosis (the Philippine registration lists no indication text, so these come from the knowledge graph) |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
+| TxGNN Prediction Score | 99.69% |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-The core pathology of JIA involves synovial membrane COX-2 overexpression, leading to prostaglandin E2 (PGE2) accumulation in joint tissue, which drives chronic inflammation, swelling, and pain. Diclofenac is a dual COX-1/COX-2 inhibitor that directly blocks prostaglandin biosynthesis at its root. This is the same mechanism that underpins Diclofenac's established efficacy in adult inflammatory arthritis—JIA is pharmacologically its pediatric counterpart.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. As an NSAID, diclofenac is generally understood to inhibit COX-1 and COX-2 enzymes and so reduce prostaglandin-mediated inflammation and pain. This explains its use in arthritis and inflammatory skin lesions.
 
-The mechanistic bridge from adult arthritis to JIA is therefore straightforward, not speculative. Multiple clinical studies dating from the 1980s to 1990s directly investigated Diclofenac at weight-based dosing (2 mg/kg/day) in children with juvenile chronic/rheumatoid arthritis, establishing both its pharmacokinetic profile in pediatric patients (including those as young as 2 years) and comparable clinical efficacy to other NSAIDs. A 2007 survey study confirms that Diclofenac was already licensed in some jurisdictions specifically for children over 1 year of age for juvenile rheumatoid arthritis treatment.
-
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap). Based on established pharmacological knowledge, Diclofenac inhibits cyclooxygenase enzymes, reducing prostaglandin synthesis throughout the body. In JIA, where this pathway is central to the autoimmune-driven synovial inflammation, Diclofenac's mechanism is directly applicable and supported by decades of clinical use across multiple countries.
-
----
+That mechanism does not link well to the predicted disease. Hypotrichosis simplex of the scalp is a rare inherited hair disorder, and COX inhibition has no established role in its development. The high score (99.69%) appears to reflect proximity within the knowledge graph rather than a pharmacological rationale. No data compiled for this report support a mechanistic connection.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00688545](https://clinicaltrials.gov/study/NCT00688545) | Observational (N/A) | Terminated | 275 | Multi-center safety registry comparing celecoxib vs. non-selective NSAIDs (including Diclofenac) in JIA patients; collected long-term safety data in real-world clinical practice |
-| [NCT05871086](https://clinicaltrials.gov/study/NCT05871086) | Phase 2/3 | Unknown | 60 | CoQ10 supplementation added to standard JIA therapy; Diclofenac serves as standard background treatment, indirectly confirming its routine use in JIA management |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3052965](https://pubmed.ncbi.nlm.nih.gov/3052965/) | 1988 | Crossover RCT | Clinical and Experimental Rheumatology | Single-blind crossover trial in 28 children with seronegative JCA over 12 weeks; Diclofenac 2 mg/kg/day compared to naproxen and tolmetin; clinical and laboratory outcomes assessed |
-| [6361986](https://pubmed.ncbi.nlm.nih.gov/6361986/) | 1983 | Clinical Trial | Scandinavian Journal of Rheumatology | Diclofenac sodium in JRA; pharmacokinetic characterization in children aged 2–7; plasma levels and renal elimination following 25 mg enteric-coated tablet |
-| [10756785](https://pubmed.ncbi.nlm.nih.gov/10756785/) | 1997 | Comparative Analysis | Revista Medico-Chirurgicala | 100 children with JCA divided into diclofenac, ibuprofen, and aspirin groups; followed over 8 years with clinical and laboratory evaluations at 2, 4, 6 months and 2–3 years |
-| [8422565](https://pubmed.ncbi.nlm.nih.gov/8422565/) | 1993 | Review | British Journal of Rheumatology | NSAIDs in pediatric rheumatic diseases; diclofenac, ibuprofen, tolmetin, and naproxen found equal in efficacy and tolerability for joint symptom control |
-| [11735667](https://pubmed.ncbi.nlm.nih.gov/11735667/) | 2001 | Safety Review | Paediatric Drugs | Risk-benefit analysis of NSAIDs in children; JIA and Kawasaki disease as key indications; COX inhibition mechanism and pediatric PK/PD profile reviewed |
-| [1884567](https://pubmed.ncbi.nlm.nih.gov/1884567/) | 1991 | PK Study | Clinical Pharmacokinetics | Pharmacokinetics of drugs used in juvenile arthritis; NSAIDs including Diclofenac reviewed; disease defined as objective arthritis for ≥6 weeks in children ≤16 years |
-| [17474954](https://pubmed.ncbi.nlm.nih.gov/17474954/) | 2007 | Survey | Paediatric Anaesthesia | Survey of UK/Ireland paediatric anaesthetists; confirms Diclofenac is licensed for children over 1 year for juvenile rheumatoid arthritis; highlights off-label use patterns |
-| [2235663](https://pubmed.ncbi.nlm.nih.gov/2235663/) | 1990 | Clinical Study | Pediatria Medica e Chirurgica | Open non-comparative study evaluating Diclofenac sodium efficacy in polyarticular JCA; 26 patients aged 2–16 years, disease duration 3 months–14 years |
-| [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | Review | Critical Reviews in Therapeutic Drug Carrier Systems | NSAIDs microencapsulation for arthritis including JIA; Diclofenac as key drug; covers OA, RA, septic arthritis, JIA, and ankylosing spondylitis |
-| [37144854](https://pubmed.ncbi.nlm.nih.gov/37144854/) | 2023 | Case Series | Pediatric Pulmonology | JIA presenting as diffuse alveolar hemorrhage at onset; clinical characterization of a rare JIA manifestation; highlights diagnostic complexity |
-
----
+Currently no related literature available.
 
 ## Philippines Market Information
 
-Diclofenac currently has **no registered products** with FDA Philippines. No license records are available.
+| Authorization Number | Product Name | Status |
+|---------|------|------|
+| PNF-0141 | Diclofenac | Cancelled |
 
-> Despite the absence of Philippines registration, Diclofenac is one of the most widely used NSAIDs globally and has existing pediatric use authorization in multiple other jurisdictions. Philippines regulatory filing would be required before any clinical application.
-
----
+This is the only registration, and it is cancelled. No valid single-ingredient or combination registrations exist. Dosage form and approved indication are not recorded.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Safety data (warnings, contraindications, and drug interactions) was not retrievable in this evidence pack and represents a **blocking data gap** (DG001) that must be resolved before proceeding to a formal safety evaluation.
+- **Contraindications / conditions of concern (from the knowledge graph, not label text):**
+  - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, other cardiovascular and heart disease.
+  - Gastrointestinal and hepatic: active peptic ulcer disease, inflammatory bowel disease, liver disease and liver failure, drug-induced liver injury, gallbladder disease.
+  - Haematological: blood coagulation disorders, anaemia (including macrocytic), haemoglobinopathy.
+  - Respiratory: asthma (intrinsic and allergic).
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis.
+  - Other: substance abuse/dependence, keratitis.
+- **Drug Interactions:** The interaction query returned 100 records, and the 20 reviewed here include these main ones.
+  - Moderate: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, sulfonylureas (glimepiride, glipizide, chlorpropamide, acetohexamide), exenatide, aprepitant, and mesalazine and balsalazide.
+  - Minor: H2 blockers (famotidine, ranitidine, cimetidine).
 
-> **Key action required**: Download and parse the Philippines FDA (or originating country) package insert PDF to extract warnings and contraindications. This is classified as a Blocking severity gap that prevents progression to Safety Stage 1 (S1) assessment.
-
----
+Warnings and contraindications from the official Philippine package insert were not available. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Diclofenac's COX inhibition mechanism directly addresses JIA's core inflammatory pathway (COX-2/PGE2 overexpression in synovium), and the efficacy in pediatric arthritis has been documented in multiple clinical trials and comparative studies since the 1980s—with at least one country already licensing it specifically for children over 1 year of age for juvenile rheumatoid arthritis. The evidence profile reaches L2, warranting conditional progression subject to safety data retrieval and current standard-of-care alignment.
+The prediction rests only on a graph-based score. There are no clinical trials or publications, no supported mechanism, and the Philippine registration is cancelled.
+
+Of the top 10 predictions, only juvenile idiopathic arthritis (rank 9, TxGNN score 99.25%) has any supporting literature, at evidence level L3. It consists of small, older paediatric studies from 1978 to 1990, including a 28-child crossover comparison with naproxen and tolmetin and open-label diclofenac cohorts. This use is already within standard NSAID practice, so it is not a true repurposing opportunity. It would be the better candidate for any follow-up.
 
 **To proceed, the following is needed:**
-- **[Blocking]** Retrieve Philippines FDA package insert to extract contraindications and key warnings (DG001)
-- **[High]** Obtain detailed MOA data from DrugBank API (DG002) to formally document COX-1/COX-2 inhibition profile
-- Review current international JIA treatment guidelines (ACR, EULAR, PRINTO) to position Diclofenac within the modern treatment algorithm, which now includes biologics and DMARDs
-- Conduct pediatric-specific safety assessment: GI tolerability, renal function monitoring, and cardiovascular risk in the pediatric age group
-- Clarify Philippines regulatory pathway: determine whether existing global pediatric use authorization (e.g., EU/US labeling) can support a local registration application
-- Evaluate whether the terminated SINCERE registry (NCT00688545) published safety data that can inform the Philippines context
-
----
-
-> ⚠️ **Research Use Only**: The above findings are for drug repurposing research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before application. All healthcare decisions must be made by qualified medical professionals in accordance with current clinical guidelines.
+- Detailed mechanism of action data (MOA).
+- The package insert for warnings and contraindications.
+- Any preclinical or clinical evidence linking COX inhibition to hair-follicle biology.
+- Clarification of the cancelled registration status and the availability of any current Philippine product.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Erythromycin
 parent: Moderate Evidence (L3-L4)
-nav_order: 128
+nav_order: 130
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,130 +29,77 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Erythromycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Erythromycin: From Bacterial Infections (Including Conjunctivitis) to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Erythromycin is a classic macrolide antibiotic with proven efficacy against gram-positive bacteria and atypical intracellular pathogens (including *Chlamydia trachomatis*), widely used globally for respiratory, skin, and sexually transmitted infections — though it is currently not registered in the Philippines.
-The TxGNN model predicts potential efficacy across **5 new indications**, with the top-ranked prediction being **Punctate Epithelial Keratoconjunctivitis** (score: 99.89%).
-Evidence strength varies considerably: two indications — **Lymphogranuloma Venereum** (1 clinical trial, 20 publications) and **Necrotizing Ulcerative Gingivitis** (5 publications with direct clinical records of erythromycin use) — reach L3 evidence with a **Proceed with Guardrails** recommendation, while the remaining three indications stand at L4–L5.
-
----
+Erythromycin is a macrolide antibiotic originally used for a range of bacterial infections, including pneumonia, pertussis, gonorrhea, urethritis, acne and conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are **no registered clinical trials** and only **1 publication** (a general review) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (macrolide antibiotic; not registered in the Philippines) |
-| Predicted New Indication (Top Rank) | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Original Indication | Bacterial infections such as pneumonia, otitis media, pertussis, gonorrhea, urethritis, acne and conjunctivitis (the Philippines licence record contains no indication text, so this comes from the model's knowledge graph) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
-
----
-
-## All Predicted Indications
-
-| Rank | Disease | TxGNN Score | Trials | Publications | Evidence Level | Decision |
-|------|---------|-------------|--------|--------------|----------------|----------|
-| 1 | Punctate Epithelial Keratoconjunctivitis | 99.89% | 0 | 2 | L4 | Research Question |
-| 2 | Acute Contagious Conjunctivitis | 99.55% | 0 | 0 | L5 | Hold |
-| 3 | Exposure Keratitis | 99.50% | 0 | 8 | L4 | Research Question |
-| 4 | Lymphogranuloma Venereum | 99.05% | 1 | 20 | L3 | **Proceed with Guardrails** |
-| 5 | Necrotizing Ulcerative Gingivitis | 99.00% | 0 | 5 | L3 | **Proceed with Guardrails** |
-
----
+| Philippines Market Status | ✗ Cancelled only (no valid registration) |
+| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank dataset. Based on well-established pharmacological information, Erythromycin is a macrolide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit and blocking peptide chain translocation. It exhibits activity against gram-positive cocci (*Staphylococcus aureus*, *S. epidermidis*, *Streptococcus pneumoniae*), some gram-negative organisms (*Haemophilus influenzae*), and critically — atypical intracellular pathogens including *Chlamydia trachomatis* and *Mycoplasma pneumoniae*.
+Detailed mechanism of action data is not currently available. Based on known information, erythromycin is a macrolide antibiotic with antibacterial and anti-inflammatory activity. Its efficacy in bacterial conjunctivitis is established, and it is also used topically in the eye for blepharitis. Mechanistically, it may be applicable to related ocular surface disease.
 
-For the **top-ranked prediction (Punctate Epithelial Keratoconjunctivitis)**, the mechanistic rationale is plausible: common causative pathogens of this condition — *S. aureus*, *S. epidermidis*, and *C. trachomatis* — all fall within erythromycin's antibacterial spectrum. Furthermore, erythromycin 0.5% ophthalmic ointment is an approved dosage form in multiple countries (including for neonatal ophthalmia prophylaxis), confirming that ocular delivery is pharmacologically feasible. However, no clinical trials or literature specifically investigate erythromycin for punctate epithelial keratoconjunctivitis, placing evidence at **L4 (mechanistic support only)**.
+The prediction is plausible mainly because punctate epithelial keratoconjunctivitis is close to the existing conjunctivitis indication. The very high score (99.89%) is likely to reflect this proximity rather than direct proof of benefit. The only retrieved paper is a pediatric review on managing chronic blepharokeratoconjunctivitis, which gives no direct efficacy data for this condition.
 
-The most evidence-supported prediction is **Lymphogranuloma Venereum (rank 4)**. LGV is caused by *C. trachomatis* serovars L1–L3 — an organism directly susceptible to erythromycin. Historical CDC and WHO guidelines have listed erythromycin (21-day oral course) as an alternative LGV treatment regimen, with doxycycline as the current first-line and azithromycin as an accepted alternative. A 1955 clinical case series directly documents erythromycin use in early LGV (PMID: 13239093), while a 1999 UK national guideline (PMID: 10616382) explicitly includes erythromycin as an alternative antibiotic. For **Necrotizing Ulcerative Gingivitis (rank 5)**, the causative fusospirochetal complex (*Fusobacterium nucleatum*, *Treponema vincentii*) is susceptible to macrolides; a 1953 clinical report (PMID: 13221896) directly documents erythromycin use for fusospirochetal oropharyngeal infections, and the drug remains a recognized penicillin-alternative in dental antibiotic guidelines.
-
----
+Other candidates from the same analysis:
+- **Acute contagious conjunctivitis** (score 99.55%, L5): closer to an extension of the approved conjunctivitis indication than to true repurposing; no trials or literature were found. Recommendation: Hold.
+- **Exposure keratitis** (score 99.50%, L4): this is mainly a mechanical and dryness-related injury, and antibiotics would only help with secondary infection. The papers found are indirect or unrelated. Recommendation: Hold.
+- **Lymphogranuloma venereum** (score 99.05%, L4): erythromycin acts against *Chlamydia trachomatis*, which causes this disease, so the biology is strong. However, it is a second-line option behind doxycycline, and the evidence is reviews and expert guidance with no trials. Recommendation: Research Question.
+- **Necrotizing ulcerative gingivitis** (score 99.00%, L4): only old, low-quality reports exist (1953, 1969, 1984), and current practice favors debridement with metronidazole or penicillin-type agents. Recommendation: Research Question.
 
 ## Clinical Trial Evidence
 
-One registered clinical trial was identified, relevant to **Lymphogranuloma Venereum (rank 4)**. No trials were registered for the remaining four indications.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03608774](https://clinicaltrials.gov/study/NCT03608774) | Phase 4 | Completed | 177 | Randomized double-blind trial comparing azithromycin vs. doxycycline for rectal *Chlamydia trachomatis* in men who have sex with men (United States). The test drug is azithromycin — a related macrolide — rather than erythromycin. Both drugs share the same 50S ribosomal target and class-level antichlamydial activity, providing indirect support for erythromycin in LGV. Direct erythromycin efficacy data was not assessed in this trial. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-### Punctate Epithelial Keratoconjunctivitis (Rank 1)
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Clinical Review | J Pediatr Ophthalmol Strabismus | Diagnosis and management of chronic blepharokeratoconjunctivitis in children; discusses treatment approaches for overlapping keratoconjunctival inflammatory conditions — indirect contextual support |
-| [32826651](https://pubmed.ncbi.nlm.nih.gov/32826651/) | 2021 | Case Report | Cornea | Microsporidia (*Encephalitozoon hellem*) keratoconjunctivitis diagnosed by metagenomic deep sequencing in an immunocompetent adult; highlights pathogen diversity and diagnostic complexity in keratoconjunctivitis |
+|------|-----|------|------|---------|
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | Describes the history, symptoms and clinical signs of blepharokeratoconjunctivitis in children and discusses its treatment; no direct efficacy data for erythromycin in punctate epithelial keratoconjunctivitis |
 
-### Exposure Keratitis (Rank 3)
+## Philippines Market Information
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [22880135](https://pubmed.ncbi.nlm.nih.gov/22880135/) | 2012 | Retrospective Cohort | PLoS One | Prevalence and antibiotic susceptibility of MRSA vs. MSSA in ocular infections; documents erythromycin susceptibility patterns relevant to secondary bacterial infection management in exposure keratitis |
-| [24244625](https://pubmed.ncbi.nlm.nih.gov/24244625/) | 2013 | Retrospective Review | PLoS One | *S. aureus* keratitis clinical features, antibiotic susceptibility, and outcomes; characterizes the primary pathogen of secondary infection in exposure keratitis |
-| [21902780](https://pubmed.ncbi.nlm.nih.gov/21902780/) | 2012 | Review | Clin Exp Ophthalmol | Non-tuberculous mycobacteria ocular infections: epidemiology, risk factors, and in vitro susceptibilities; macrolide antibiotics discussed as a treatment class |
-| [3157322](https://pubmed.ncbi.nlm.nih.gov/3157322/) | 1985 | Case Report | Am J Ophthalmol | Child with conjunctivitis-related erythema multiforme treated with erythromycin 0.5% ophthalmic ointment and systemic corticosteroids; documents real-world ocular application of erythromycin ointment |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0175 (cancelled) | Erythromycin | Not specified | Not specified |
 
-### Lymphogranuloma Venereum (Rank 4)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [13239093](https://pubmed.ncbi.nlm.nih.gov/13239093/) | 1955 | Clinical Case Series | Antibiotic Med Clin Ther | **Direct evidence**: Erythromycin–sulfonamide combination for early LGV treatment — earliest documented clinical use of erythromycin specifically for LGV |
-| [10616382](https://pubmed.ncbi.nlm.nih.gov/10616382/) | 1999 | Clinical Guideline | Sex Transm Infect | UK national guideline for LGV management; erythromycin explicitly listed as an alternative antibiotic regimen |
-| [3545650](https://pubmed.ncbi.nlm.nih.gov/3545650/) | 1987 | Review | Clin Pharm | Recognition and treatment of chlamydial infections; erythromycin cited as a first-line treatment option for genital *C. trachomatis* infections |
-| [2246945](https://pubmed.ncbi.nlm.nih.gov/2246945/) | 1990 | Review | Med Clin North Am | Comprehensive *C. trachomatis* infection review; erythromycin discussed as a treatment for LGV and other chlamydial syndromes including neonatal infection |
-| [22760150](https://pubmed.ncbi.nlm.nih.gov/22760150/) | 2012 | Case Report | Rev Soc Bras Med Trop | LGV case in a 17-year-old directly treated with erythromycin; subsequent diagnosis of non-Hodgkin lymphoma highlighted a diagnostic pitfall in the inguinal region |
-| [33462582](https://pubmed.ncbi.nlm.nih.gov/33462582/) | 2021 | Retrospective Case Series | Clin Infect Dis | Weekly azithromycin 1 g × 3 weeks demonstrated efficacy for LGV proctitis in MSM in Europe; provides macrolide class-level support for erythromycin |
-| [40815293](https://pubmed.ncbi.nlm.nih.gov/40815293/) | 2025 | Observational Study | Sex Transm Dis | LGV prevalence and treatment outcomes in gay/bisexual MSM attending STI clinics in Alberta, Canada (2018–2022); real-world macrolide treatment data |
-| [25870512](https://pubmed.ncbi.nlm.nih.gov/25870512/) | 2015 | Review | Infect Drug Resist | LGV diagnostic and treatment challenges; reviews antibiotic regimens and emerging difficulties with standard doxycycline therapy |
-| [30518587](https://pubmed.ncbi.nlm.nih.gov/30518587/) | 2018 | Systematic Review | BMJ Open | Systematic review of non-standard treatments for uncomplicated *C. trachomatis* infections; evaluates alternatives to first-line therapy including macrolides |
-| [22335265](https://pubmed.ncbi.nlm.nih.gov/22335265/) | 2012 | Review | Am Fam Physician | Diagnosis and management of genital ulcers including LGV; treatment algorithm with antibiotic options |
-
-### Necrotizing Ulcerative Gingivitis (Rank 5)
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [13221896](https://pubmed.ncbi.nlm.nih.gov/13221896/) | 1953 | Clinical Case Series | J-Lancet | **Direct evidence**: Erythromycin (Ilotycin) for fusospirochetal infections of the oropharynx — earliest clinical documentation of erythromycin efficacy for the NUG causative organism complex |
-| [4981637](https://pubmed.ncbi.nlm.nih.gov/4981637/) | 1969 | Clinical Report | Chir Dent Fr | Erythromycin ethyl succinate chewable tablets in dentistry; documents clinical value for oral and dental infections |
-| [6589179](https://pubmed.ncbi.nlm.nih.gov/6589179/) | 1984 | Review | Dent Clin North Am | Antibiotics in dental practice; erythromycin listed as first-choice alternative for penicillin-allergic patients treating typical dental infections |
-| [36268928](https://pubmed.ncbi.nlm.nih.gov/36268928/) | 2022 | Narrative Review | Eur J Transl Myol | Antibiotic use in endodontic treatment during pregnancy; erythromycin identified as a safe alternative for penicillin-allergic pregnant patients with odontogenic infections |
-| [1254998](https://pubmed.ncbi.nlm.nih.gov/1254998/) | 1976 | Review | J Laryngol Otol | Overview of oral vesiculobullous and ulcerative lesions; contextualizes oral bacterial infection management including antibiotic options for acute necrotizing gingivitis |
-
----
+The only registration on record is cancelled, so the drug currently has no valid marketing authorization in the Philippines.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: long QT syndrome, familial long QT syndrome, torsades de pointes, porphyria (inherited porphyria, porphyrin metabolism disease), kidney disease, liver disease, gallbladder disease, hematologic disease, exfoliative dermatitis, dermatitis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, myasthenia gravis (including adult-onset), neuromuscular junction disease, folic acid deficiency anemia, hearing disorder and auditory system disease.
+- **Drug Interactions**: 100 interactions were found in total. The first 20 returned included two **Major** ones: **clarithromycin** and **loperamide**. Most of the others were Moderate (e.g., famotidine, hydrocortisone, pioglitazone, alosetron, aprepitant, triamcinolone, dexamethasone, betamethasone, budesonide, chlorpropamide, cimetidine), and amoxicillin was Minor.
 
----
+The knowledge-graph QT-related conditions and the major interactions deserve particular attention, since erythromycin is a recognized QT-prolonging macrolide. For the ocular use under consideration, a topical route would reduce systemic exposure, but route compatibility has not yet been assessed.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (Lymphogranuloma Venereum and Necrotizing Ulcerative Gingivitis)
-**Research Question** (Punctate Epithelial Keratoconjunctivitis and Exposure Keratitis)
-**Hold** (Acute Contagious Conjunctivitis)
+**Decision: Hold**
 
 **Rationale:**
-Erythromycin has well-established activity against the causative pathogens of LGV (*C. trachomatis*) and NUG (fusospirochetal complex), supported by direct clinical case series dating to 1953–1955, inclusion in historical treatment guidelines, and indirect evidence from macrolide-class trials — sufficient to proceed with a structured research protocol. The three ocular indications are mechanistically plausible given erythromycin's approved ophthalmic formulation globally, but they lack direct clinical trial evidence and require formal investigation before proceeding. Acute contagious conjunctivitis has zero supporting literature and should be deferred. The critical cross-cutting barrier is that erythromycin has **no current Philippines market registration**, which must be resolved before any clinical deployment.
+- The prediction score is very high, but the evidence is at the model-prediction and general-review level (L4). No trials exist, and the single paper gives no direct efficacy data.
+- The Philippines registration is cancelled, so there is no valid local product to build on.
 
 **To proceed, the following is needed:**
-
-- **Philippines regulatory pathway**: Investigate Philippine FDA registration requirements for erythromycin — particularly oral formulations (for LGV/NUG) and 0.5% ophthalmic ointment (for ocular indications)
-- **Safety profile retrieval**: Obtain package insert to assess key warnings, contraindications, and drug interactions — currently unavailable and flagged as a blocking data gap
-- **MOA documentation**: Retrieve complete DrugBank pharmacology and mechanism of action data to strengthen mechanistic rationale across all five indications
-- **LGV clinical study** (Rank 4, L3 → target L2): Design a randomized trial comparing erythromycin to doxycycline for LGV in the Philippine context, with particular focus on populations where doxycycline is contraindicated (e.g., pregnancy)
-- **NUG clinical study** (Rank 5, L3 → target L2): Conduct a prospective cohort study evaluating erythromycin vs. metronidazole ± amoxicillin for NUG in penicillin-allergic patients in Philippine dental clinics
-- **Ophthalmic indications** (Ranks 1 & 3, L4 → target L3): Confirm ophthalmic formulation availability and supply chain in the Philippines; design a pilot clinical trial for punctate epithelial keratoconjunctivitis with microbiological confirmation of susceptible pathogens
+- Direct clinical evidence (trials or controlled studies) for erythromycin in punctate epithelial keratoconjunctivitis, and comparison with current standard care
+- Mechanism of action data
+- Package insert warnings and contraindications from the Philippine FDA, which are currently missing
+- An assessment of route and formulation (e.g., topical ophthalmic) and of whether a valid product is available or can be re-registered in the Philippines
+- A safety plan covering QT-prolongation risk and the major drug interactions, if systemic use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

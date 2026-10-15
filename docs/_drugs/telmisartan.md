@@ -2,7 +2,7 @@
 layout: default
 title: Telmisartan
 parent: Model Prediction Only (L5)
-nav_order: 324
+nav_order: 328
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,84 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Telmisartan is an angiotensin II type 1 receptor blocker (ARB) widely established for hypertension management globally, though it is not currently registered in the Philippines.
-The TxGNN model predicts it may have therapeutic potential for **Prinzmetal Angina** (variant angina caused by coronary artery spasm),
-however this prediction rests on model inference alone, with **no clinical trials or publications** identified to support this specific application.
-
----
+Telmisartan is an angiotensin receptor blocker, originally used to treat hypertension and to lower stroke risk.
+The TxGNN model predicts it may be effective for **Prinzmetal angina** (coronary vasospasm),
+but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Philippines; globally established for Hypertension |
-| Predicted New Indication | Prinzmetal Angina |
+|------|------|
+| Original Indication | Hypertension; stroke and cerebrovascular disorders (including cerebral infarction) |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | ✗ Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 (cancelled) |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, telmisartan belongs to the angiotensin II receptor blocker (ARB) class. Its efficacy in hypertension and in reducing cerebrovascular events is established, and it may act on blood vessel tone.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, telmisartan is an angiotensin II type 1 receptor (AT1R) blocker. By competitively inhibiting AT1R, telmisartan reduces angiotensin II–mediated vasoconstriction and aldosterone secretion. Its vasodilatory and potential anti-inflammatory properties form the theoretical basis for this TxGNN prediction.
-
-Prinzmetal angina (variant angina) is characterised by episodic coronary artery spasm causing transient myocardial ischaemia, typically occurring at rest rather than with exertion. The theoretical rationale is that AT1R blockade could attenuate angiotensin II–mediated coronary vasoconstriction. However, the dominant drivers of Prinzmetal angina are α-adrenergic hyperactivity, endothelin-1 elevation, and thromboxane A2 (TXA2)–induced smooth muscle contraction — pathways largely independent of the renin-angiotensin system. The mechanistic connection between AT1R blockade and Prinzmetal angina is therefore considered weak.
-
-Given the complete absence of clinical or preclinical evidence linking telmisartan to Prinzmetal angina, this prediction most likely reflects network proximity within the TxGNN knowledge graph rather than a pharmacologically established relationship.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Prinzmetal angina is caused by spasm of the coronary arteries. A plausible link is ARB-mediated vasodilation and improved endothelial function, and telmisartan is also reported to have partial PPARγ activity. However, this link is speculative. No trials or publications were retrieved to show that telmisartan prevents or treats coronary vasospasm. The prediction therefore rests on the model score alone.
 
 ## Philippines Market Information
 
-Telmisartan is not currently registered in the Philippines. No product authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0474 (cancelled) | Telmisartan | Not specified | Not specified |
 
----
+The only registration found is cancelled, so no valid telmisartan product is currently registered in the Philippines according to the data compiled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph derived, not label text)**: The TxGNN knowledge graph links telmisartan to the following conditions as contraindications. Verify them against the official label.
+  - Liver and biliary: liver failure, liver disease, hepatic coma, hepatic encephalopathy, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease, neonatal jaundice
+  - Kidney and urinary: kidney disease, anuria, renal artery obstruction, pyoureter, nephrocalcinosis
+  - Metabolic and electrolyte: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hyperuricemia, gout, hypercalcemia, hyperparathyroidism, osteitis fibrosa, phosphorus metabolism disease
+  - Other: pancreatitis, systemic lupus erythematosus (including the pediatric form), hypotensive disorder
+- **Drug Interactions**: 100 interactions were recorded. The major-severity ones shown are:
+  - Potassium citrate (Major)
+  - Potassium bicarbonate (Major)
 
----
+  Moderate-severity examples include:
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin)
+  - Insulins and exenatide
+  - Aspirin
+  - Morphine
+  - Bupropion
+  - Dronabinol
+  - Bowel-preparation agents
+
+For package-insert warnings, please refer to the official label, as none were available in the data compiled.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.98%), the mechanistic link between AT1R blockade and Prinzmetal angina is weak — the primary disease drivers (α-adrenergic overactivity, endothelin-1, TXA2) are not principal targets of telmisartan — and no clinical or preclinical evidence supports this specific repurposing direction.
+The Prinzmetal angina prediction has a very high model score but no supporting clinical trials or literature (L5). The only Philippines registration is cancelled, and label-based safety data are missing. There is not enough evidence to advance this candidate.
 
 **To proceed, the following is needed:**
-- Preclinical studies specifically examining telmisartan's effect on coronary artery spasm models
-- Mechanistic studies characterising the role of angiotensin II in Prinzmetal angina pathophysiology
-- MOA documentation and Philippines/TFDA package insert data to enable safety profiling
-- Philippines regulatory registration pathway assessment before any clinical use
+- A systematic literature search on ARBs/telmisartan in coronary vasospasm and Prinzmetal angina, including preclinical and case-level data
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Philippines regulator
+- Confirmation of current regulatory and market availability, since the only registration found is cancelled
 
----
-
-> **Broader Evidence Note — Higher-Priority Indication Identified**
->
-> Among all 10 TxGNN-predicted indications in this evaluation, **intracerebral hemorrhage** (Rank 9, TxGNN score 99.93%) carries substantially stronger evidence:
->
-> - A completed **Phase 3 RCT** (TRIDENT; [NCT02699645](https://clinicaltrials.gov/study/NCT02699645), n = 1,671) tested a telmisartan 80 mg–based triple combination pill for secondary prevention of recurrent intracerebral haemorrhage.
-> - **Evidence Level: L2** | **Recommendation: Proceed with Guardrails**
-> - Supporting animal studies consistently demonstrate AT1R blockade reduces ICH-related neuronal apoptosis, cerebral vasospasm, and neuroinflammation (e.g., PMID [17538008](https://pubmed.ncbi.nlm.nih.gov/17538008/), PMID [27078703](https://pubmed.ncbi.nlm.nih.gov/27078703/)).
->
-> **This indication warrants priority consideration** for a dedicated full evaluation report.
+**Note on other predicted indications:** Among the lower-ranked predictions, **intracerebral hemorrhage** has the strongest evidence. It rests on the large Phase 3 TRIDENT trial (NCT02699645, n=1671), which tested a low-dose triple-pill combination that includes telmisartan. Its benefit cannot be attributed to telmisartan alone, and the full results should be verified. **Cerebral artery occlusion** has only preclinical support and substantially overlaps with the already-established stroke indication. A separate report on these may be worthwhile.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Isoniazid
 parent: Moderate Evidence (L3-L4)
-nav_order: 184
+nav_order: 186
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,95 +29,89 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Isoniazid: From Tuberculosis to Conjunctivitis
+# Isoniazid: From Pulmonary Tuberculosis to Conjunctivitis
 
 ## One-Sentence Summary
 
-Isoniazid is a first-line anti-tuberculosis drug, widely used for the treatment and prophylaxis of active and latent tuberculosis infection.
-The TxGNN model predicts it may be effective for **Conjunctivitis**, with **1 clinical trial** and **20 publications** currently returned in the evidence search — though the connection is indirect, passing through tuberculosis-related ocular pathology rather than direct conjunctival treatment.
-The overall evidence base remains preclinical/mechanistic (L4), and this prediction is best interpreted as a research hypothesis requiring further validation.
-
----
+Isoniazid is an antimycobacterial drug originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **conjunctivitis**, but there are **0 registered clinical trials** and only **11 publications** (mostly case reports and reviews), so the evidence is weak and largely indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Tuberculosis / Latent Tuberculosis Infection (inferred from drug class and clinical evidence) |
+|------|------|
+| Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.36% |
 | Evidence Level | L4 |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Cancelled only (no currently valid registration) |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank record. Based on well-established pharmacology, Isoniazid is a prodrug activated by the mycobacterial catalase-peroxidase enzyme (KatG) into reactive intermediates that inhibit InhA — an enzyme required for mycobolic acid biosynthesis. This action is bactericidal against *Mycobacterium tuberculosis* and has no direct anti-inflammatory or antimicrobial effect on conjunctival tissue.
+Currently, detailed mechanism of action data is not available. Based on known information, isoniazid is an antimycobacterial agent whose efficacy in tuberculosis is established, and it may be mechanistically applicable to conjunctivitis only in a narrow, infection-related setting.
 
-The connection to conjunctivitis in the TxGNN prediction follows three indirect pathways: (1) *M. tuberculosis* directly invading conjunctival tissue, causing primary tuberculous conjunctivitis; (2) mycobacterial antigens triggering a Type IV hypersensitivity reaction known as phlyctenular keratoconjunctivitis; (3) BCG immunotherapy-induced immune complex deposition causing ocular manifestations. In all three pathways, mycobacterium serves as the common bridge, and Isoniazid achieves ocular symptom resolution by reducing pathogen or antigen burden — not by acting on the conjunctiva itself.
+The model's high score is not directly supported by a mechanism. The literature suggests two indirect links:
 
-The high TxGNN score (0.9936) therefore reflects the strength of the knowledge graph connection within this causal chain. It should not be interpreted as support for Isoniazid as a primary treatment for non-tuberculous conjunctivitis. The prediction is mechanistically plausible in a narrow, infection-specific context, but is far from a broad conjunctivitis indication.
+1. **Tuberculosis-related eye disease.** Isoniazid's antimycobacterial activity is relevant to ocular disease linked to tuberculosis, such as primary conjunctival TB and phlyctenular keratoconjunctivitis. The latter is a hypersensitivity reaction to mycobacterial antigens, and isoniazid prophylaxis may reduce it.
+2. **BCG-associated reactive syndrome.** Isoniazid has been used for reactive arthritis after intravesical BCG therapy, a syndrome in which conjunctivitis can occur.
 
----
+These links cover infection-related or BCG-related conjunctivitis only. They do not extend to conjunctivitis in general (bacterial, viral, allergic). Several retrieved papers also describe isoniazid or other systemic drugs as *causes* of ocular adverse effects, which points to possible harm rather than benefit.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04094012](https://clinicaltrials.gov/study/NCT04094012) | Phase 3 | Completed | 490 | Pragmatic RCT comparing 3HP (rifapentine + isoniazid, 12 weeks) vs 1HP (daily rifapentine + isoniazid, 28 days) for latent tuberculosis infection. Primary endpoint was systemic drug adverse reaction rate. Conjunctivitis is neither a treatment target nor a study endpoint — this trial provides no direct evidence for isoniazid in conjunctivitis treatment. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Study | Am Rev Respir Dis | Isoniazid prophylaxis in Alaskan Eskimo children with phlyctenular keratoconjunctivitis — the most directly relevant historical study linking INH to a conjunctivitis-related condition |
-| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Study | Ann Oculist | Local use of isoniazid in treating ocular tuberculosis; provides mechanistic precedent for INH reaching ocular tissue |
-| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Case Report | Medicine | Pediatric phlyctenular keratoconjunctivitis associated with primary sinonasal tuberculosis; anti-TB regimen including INH resolved ocular symptoms |
-| [26692731](https://pubmed.ncbi.nlm.nih.gov/26692731/) | 2015 | Case Report | Middle East Afr J Ophthalmol | Tuberculous conjunctivitis in an anophthalmic socket — illustrates rarity of direct conjunctival TB but confirms INH as standard treatment component |
-| [32674602](https://pubmed.ncbi.nlm.nih.gov/32674602/) | 2020 | Case Report | Clin Pediatrics | Unexpected cause of conjunctivitis in an adolescent; context suggests mycobacterial etiology |
-| [17133069](https://pubmed.ncbi.nlm.nih.gov/17133069/) | 2006 | Case Report | Cornea | *M. tuberculosis* presenting as chronic red eye / conjunctival TB; treated with standard anti-TB therapy |
-| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Case Report | Arch Ophthalmol | Primary tuberculosis of the conjunctiva — early case series establishing TB as a direct conjunctival pathogen |
-| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optom Clin | Review of systemic drugs causing ocular adverse effects; notes conjunctivitis and blepharoconjunctivitis associated with various drug classes — contextual background only |
-| [10084173](https://pubmed.ncbi.nlm.nih.gov/10084173/) | 1999 | Case Series / Review | Rev Rhum | Review of 26 BCG-induced arthropathy cases with associated conjunctivitis; isoniazid discussed as salvage therapy for refractory BCG complications |
-| [10084171](https://pubmed.ncbi.nlm.nih.gov/10084171/) | 1999 | Case Report | Rev Rhum | Refractory BCG-induced arthropathy with ocular involvement; isoniazid used as rescue treatment — supports indirect immunological pathway |
+None of the publications is an RCT. Those most relevant to the predicted indication are listed first.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [14253168](https://pubmed.ncbi.nlm.nih.gov/14253168/) | 1965 | Observational prophylaxis field study | Am Rev Respir Dis | Isoniazid prophylaxis for phlyctenular keratoconjunctivitis among Eskimos in southwestern Alaska |
+| [33607832](https://pubmed.ncbi.nlm.nih.gov/33607832/) | 2021 | Case report + review | Medicine | Pediatric phlyctenular keratoconjunctivitis associated with primary sinonasal tuberculosis |
+| [10641112](https://pubmed.ncbi.nlm.nih.gov/10641112/) | 1999 | Case series | Oftalmologia | 28 cases of tuberculous keratoconjunctivitis, 13 of them in children with primary TB |
+| [14089390](https://pubmed.ncbi.nlm.nih.gov/14089390/) | 1964 | Case report | Arch Ophthalmol | Primary tuberculosis of the conjunctiva |
+| [5103251](https://pubmed.ncbi.nlm.nih.gov/5103251/) | 1971 | Not classified | Ann Ocul | Local use of isoniazid in ocular tuberculosis |
+| [10084171](https://pubmed.ncbi.nlm.nih.gov/10084171/) | 1999 | Case report | Rev Rhum (Engl Ed) | Isoniazid useful in refractory arthropathy after intravesical BCG therapy |
+| [12226788](https://pubmed.ncbi.nlm.nih.gov/12226788/) | 2002 | Case report | Dtsch Med Wochenschr | Chronic reactive arthritis with conjunctivitis after intravesical BCG |
+| [1363080](https://pubmed.ncbi.nlm.nih.gov/1363080/) | 1992 | Review | Optom Clin | Ocular side effects of systemic drugs, including drug-induced conjunctivitis |
+| [10084173](https://pubmed.ncbi.nlm.nih.gov/10084173/) | 1999 | Case report + review | Rev Rhum (Engl Ed) | Polyarthritis after intravesical BCG immunotherapy, review of 26 cases |
+| [8136810](https://pubmed.ncbi.nlm.nih.gov/8136810/) | 1993 | Case series | Rev Rhum (Ed Fr) | Polyarthritis in 4 patients after intravesical BCG for bladder carcinoma |
 
 ## Philippines Market Information
 
-No current drug registrations were found for Isoniazid in the Philippines database. This drug has **0 active licenses** on record.
-
-> Note: Isoniazid is a WHO Essential Medicine and is widely available globally for tuberculosis treatment. The absence of records may reflect a data gap in the current regulatory snapshot rather than actual unavailability.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0264 | Isoniazid (single-ingredient; status: cancelled) | Not specified | Not specified |
 
 ## Safety Considerations
 
-Safety data for this report is unavailable — the package insert warnings, contraindications, and drug interaction records were not retrieved in this evidence collection cycle.
+- **Contraindications / risk conditions (from the drug-disease knowledge graph, not label text):** liver failure, acute liver failure, liver disease, hepatitis, gallbladder disease, porphyria (including inherited porphyria and porphyrin metabolism disease), peripheral neuropathy and peripheral nervous system disease, diabetes mellitus, diabetic ketoacidosis, gout, substance abuse/dependence, and slow acetylator status.
+- **Drug Interactions:** 100 interactions were identified. Those shown are mostly Moderate in severity:
+  - Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, dapagliflozin
+  - Vitamin D analogues: cholecalciferol, calcifediol, calcitriol
+  - Others: metronidazole, budesonide (including nasal), alosetron, picosulfuric acid
+  - Minor: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone)
+- **Ocular adverse effects:** the retrieved literature associates systemic drugs, including isoniazid, with ocular side effects. This is relevant when considering use in eye disease.
 
-> Please refer to the package insert and the WHO/Philippine DOH tuberculosis treatment guidelines for safety information before any clinical application.
-
----
+Package-insert warnings and contraindications were not available. Please refer to the package insert for label-based safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN high score reflects a real knowledge graph connection between Isoniazid and conjunctivitis, but the mechanism is entirely indirect — operating through tuberculosis pathology rather than direct conjunctival action. The sole clinical trial (NCT04094012) is graded C relevance (LTBI regimen comparison, not a conjunctivitis study), and the 20 literature items are predominantly old case reports about tuberculous conjunctivitis treated with anti-TB regimens. There is no controlled evidence supporting Isoniazid as a treatment for conjunctivitis as a primary indication.
+The TxGNN score is very high, but no clinical trials exist and the literature consists of old case reports and reviews that address only tuberculosis- or BCG-related eye disease, not conjunctivitis in general. The Philippines registration is cancelled, and some literature points to ocular harm.
 
 **To proceed, the following is needed:**
-
-- **Clarify the exact indication scope**: "Tuberculous conjunctivitis" treated with standard anti-TB therapy (which already has clinical precedent) is fundamentally different from "conjunctivitis" as a standalone indication. The repurposing hypothesis should be refined before any further investment.
-- **Retrieve full safety data**: Obtain the TFDA/PhilFDA package insert to extract key warnings, hepatotoxicity risk, peripheral neuropathy, and DDI profile (especially rifampicin co-administration).
-- **Systematic literature review**: Commission a formal review specifically on phlyctenular keratoconjunctivitis and BCG-associated ocular disease treated with isoniazid, to establish whether case report evidence is consistent enough to support an observational study design.
-- **Confirm Philippines regulatory pathway**: Verify actual market availability via direct PhilFDA inquiry — the 0-license record may be a data gap.
-- **MOA documentation**: Retrieve full DrugBank MOA record to complete the mechanistic link analysis.
+- Narrow the hypothesis to a defined subgroup (for example, tuberculosis-associated phlyctenular keratoconjunctivitis) and review it systematically.
+- Obtain mechanism of action data to support a mechanistic link.
+- Obtain package-insert warnings and contraindications from the DOH-FDA Philippines website.
+- Assess whether the available routes of administration are compatible with an ocular indication.
+- Clarify the regulatory pathway given that the only registration (PNF-0264) is cancelled.
+- Weigh ocular adverse-effect risk, hepatotoxicity and neuropathy risks against any potential benefit.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Adenosine
 parent: Model Prediction Only (L5)
-nav_order: 15
+nav_order: 16
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,99 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Adenosine: From Supraventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
-
----
+# Adenosine: From Ventricular Tachycardia to Obsolete Bundle Branch Block
 
 ## One-Sentence Summary
 
-Adenosine is a naturally occurring purine nucleoside clinically established for terminating paroxysmal supraventricular tachycardia (PSVT) via rapid AV nodal blockade, though it currently holds no Philippines market authorization.
-The TxGNN model's highest-ranked prediction ("obsolete bundle branch block", Rank 1) was set aside as it corresponds to a retired disease ontology term with no current clinical classification; the substantive evaluation focuses on **Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)** (Rank 2, score 99.42%), a rare life-threatening inherited arrhythmia.
-This repurposing direction is supported by **1 Phase 2a clinical trial** (testing a related A1 receptor agonist) and **13 publications** spanning mechanistic, preclinical, and clinical observation evidence.
-
----
+Adenosine was originally used for ventricular tachycardia (VT).
+The TxGNN model predicts it may be effective for **obsolete bundle branch block**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The prediction most likely reflects an ontology artifact rather than a real clinical opportunity. A second, more plausible candidate, catecholaminergic polymorphic ventricular tachycardia (CPVT), is discussed below.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in the Philippines; clinically established internationally for PSVT termination |
-| Predicted New Indication | Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.42% *(Rank 2; Rank 1 discarded — "obsolete bundle branch block" is a retired disease ontology term, not a valid clinical target)* |
-| Evidence Level | L4 (Preclinical/mechanistic studies + 1 early-phase exploratory trial with a related compound) |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Ventricular tachycardia (from the knowledge graph; the Philippines registration has no indication text) |
+| Predicted New Indication | Obsolete bundle branch block |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 |
+| Philippines Market Status | Cancelled only |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Adenosine acts primarily on cardiac A1 adenosine receptors, activating inhibitory Gi proteins that suppress adenylyl cyclase. The resulting drop in intracellular cAMP reduces protein kinase A (PKA) activity, which in turn decreases phosphorylation of the cardiac ryanodine receptor (RyR2) at key regulatory sites (Ser2808, Ser2814)—reducing spontaneous sarcoplasmic reticulum (SR) calcium leak. Additionally, adenosine exerts direct anti-adrenergic effects that antagonize the downstream consequences of catecholamine surge, and its short-acting AV nodal suppression is a well-established electrophysiological tool in clinical cardiology.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Adenosine is known to act on A1 receptors in the atrioventricular (AV) node, slowing conduction, which is why it is used in arrhythmia management.
 
-CPVT is caused precisely by dysregulated RyR2 or calsequestrin-2 function: inherited mutations allow pathological SR calcium leak under sympathetic stimulation (exercise, emotional stress), triggering fatal ventricular arrhythmias in structurally normal hearts. Adenosine's suppression of the cAMP–PKA–RyR2 phosphorylation axis directly counters CPVT's core pathomechanism. Biochemical evidence (PMID 23747301) further shows that ATP—rapidly dephosphorylated to adenosine in vivo—directly binds the RyR2 central domain (approximately residues 2000–2500), the exact region where the majority of CPVT-causative mutations cluster, providing molecular-level plausibility beyond the receptor-signaling cascade.
+For the top prediction, this mechanism does not fit well. "Obsolete bundle branch block" is a deprecated ontology term, not a distinct clinical entity. Slowing conduction would not plausibly treat a bundle branch conduction defect, and AV nodal blockade could worsen conduction disease. Adenosine is used diagnostically to unmask conduction abnormalities. The very high score (0.9994) is a knowledge-graph output only, and it is likely an artifact of ontology mapping.
 
-Two independent lines of translational evidence reinforce this rationale. First, a selective A1 adenosine receptor agonist (AGP100) is currently enrolling in a Phase 2a CPVT trial (NCT07263139), providing indirect but mechanistically on-target proof-of-concept for the adenosine–A1R–cAMP axis as a CPVT therapeutic strategy. Second, a published case report (PMID 18313614) documents that intravenous ATP successfully terminated bidirectional ventricular tachycardia in a pediatric CPVT patient, representing the first direct clinical observation linking an adenosine-class molecule to acute CPVT arrhythmia management.
-
----
+**Second-ranked prediction: catecholaminergic polymorphic ventricular tachycardia (CPVT).** Its score is 99.42%, and it is the more plausible candidate. CPVT is driven by abnormal sarcoplasmic reticulum calcium release (RyR2, CASQ2, TECRL variants) that triggers adrenergic-dependent delayed afterdepolarizations. Adenosine opposes beta-adrenergic stimulation through A1 receptor signaling and may suppress this cAMP-dependent triggered activity. This is plausible, but the evidence is indirect. It would support acute termination at most, not a treatment indication. Standard CPVT management (beta-blockers, flecainide, sympathetic denervation, ICD) is already well established.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT07263139](https://clinicaltrials.gov/study/NCT07263139) | Phase 2a | Recruiting | 10 | AGP100 (selective A1 adenosine receptor agonist, not adenosine itself) evaluated for safety, tolerability, and exploratory efficacy in adult CPVT patients. The trial directly validates the adenosine–A1R axis as a CPVT therapeutic target, providing high-relevance class-effect evidence in support of adenosine repurposing. Study started January 2026; completion expected June 2027. |
-
----
+Currently no related clinical trials registered, for either the top prediction or the CPVT prediction.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case Report | *Heart Rhythm* | ATP (adenosine precursor) terminated bidirectional ventricular tachycardia in a pediatric CPVT patient — the most direct clinical observation linking adenosine-class molecules to acute CPVT arrhythmia termination. |
-| [23747301](https://pubmed.ncbi.nlm.nih.gov/23747301/) | 2013 | Basic Science | *Biochim Biophys Acta* | ATP directly binds the RyR2 central domain (aa ~2000–2500), the precise mutation hotspot region for CPVT (R2474S, P2328S, N2386I, etc.), providing in vitro mechanistic support for an adenosine/ATP–RyR2 molecular interaction. |
-| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Review / Consensus | *Europace* | ESC/HRS/APHRS/LAHRS joint clinical consensus statement on pharmacological provocation testing in cardiac electrophysiology; contextualizes adenosine's diagnostic and therapeutic roles in inherited arrhythmia syndromes including CPVT. |
-| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Basic Science | *Cardiovascular Research* | PDE2A/PDE4B gene therapy prevents HF and arrhythmias in mice via improved subcellular cAMP compartmentation; reinforces the cAMP–PKA–RyR2 axis as a central, tractable target in arrhythmia settings overlapping with CPVT pathophysiology. |
-| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | Basic Science | *J Physiol* | Human cardiac–neural microtissues reveal CPVT is also a disease of the sympathetic neuron; adenosine's anti-adrenergic properties may provide dual protection by modulating both cardiomyocyte and sympathetic nerve components of CPVT. |
-| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Clinical Observation | *Heart Rhythm* | Postpacing abnormal repolarization documented in CPVT with RyR2 mutation; supports the value of electrophysiological provocation protocols in which adenosine is a standard pharmacological agent. |
-| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Basic Science | *Science Translational Medicine* | SR calcium leak via RyR2 selectively drives arrhythmia (not heart failure progression) in murine models; validates RyR2 stabilization as an antiarrhythmic target directly downstream of adenosine's cAMP-lowering action. |
-| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Basic Science | *Communications Biology* | TECRL deficiency causes aberrant mitochondrial function and CPVT-like arrhythmias; expands the CPVT disease model landscape and underscores the need for multi-mechanistic therapeutic approaches. |
-| [23858002](https://pubmed.ncbi.nlm.nih.gov/23858002/) | 2013 | Basic Science | *J General Physiology* | Calsequestrin regulation of single cardiac RyR2 in normal and CPVT pathological conditions; clarifies luminal Ca²⁺ regulation as a key modulator of the same release pathway targeted by adenosine. |
-| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | Review | *Paediatric Anaesthesia* | Clinical practice guide on pediatric arrhythmias for anesthesiologists; includes CPVT management context and notes adenosine as the standard first-line agent for SVT, supporting perioperative relevance in CPVT patients. |
+There is no literature for the top prediction (obsolete bundle branch block). The table below covers the second-ranked prediction, CPVT, and lists the most relevant items.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18313614](https://pubmed.ncbi.nlm.nih.gov/18313614/) | 2008 | Case report | Heart Rhythm | Adenosine triphosphate (ATP, not adenosine) terminated bidirectional VT in one CPVT patient. This supports acute termination only. |
+| [40165484](https://pubmed.ncbi.nlm.nih.gov/40165484/) | 2025 | Consensus statement | Europace | Consensus on pharmacological provocation testing in cardiac electrophysiology. Describes diagnostic use, not treatment. |
+| [21699856](https://pubmed.ncbi.nlm.nih.gov/21699856/) | 2011 | Case series | Heart Rhythm | Abnormal post-pacing repolarization in CPVT with an RyR2 mutation. |
+| [18368865](https://pubmed.ncbi.nlm.nih.gov/18368865/) | 2007 | Review | J Assoc Physicians India | Recognition and management of VT in structurally normal hearts. |
+| [39148245](https://pubmed.ncbi.nlm.nih.gov/39148245/) | 2024 | Review | Paediatr Anaesth | Pediatric arrhythmias for anesthesiologists. |
+| [15324613](https://pubmed.ncbi.nlm.nih.gov/15324613/) | 2004 | Review | Curr Treat Options Cardiovasc Med | Management options for syncope. |
+| [38776406](https://pubmed.ncbi.nlm.nih.gov/38776406/) | 2024 | Preclinical | Cardiovasc Res | PDE2A and PDE4B gene therapy improves heart failure and arrhythmias in mice by modulating cAMP compartmentation. |
+| [41691612](https://pubmed.ncbi.nlm.nih.gov/41691612/) | 2026 | Preclinical | J Physiol | Human cardiac-neural microtissues suggest CPVT also involves the sympathetic neuron. |
+| [35577932](https://pubmed.ncbi.nlm.nih.gov/35577932/) | 2022 | Preclinical | Commun Biol | TECRL deficiency causes abnormal mitochondrial function in cardiomyocytes. |
+| [30209242](https://pubmed.ncbi.nlm.nih.gov/30209242/) | 2018 | Preclinical | Sci Transl Med | Sarcoplasmic reticulum calcium leak contributes to arrhythmia but not to heart failure progression. |
 
 ## Philippines Market Information
 
-Adenosine currently holds **no market authorization in the Philippines** (0 registered products across all dosage forms and routes of administration).
-
-> For reference, adenosine is approved and in routine clinical use in many other jurisdictions (United States, European Union, and others) primarily for acute PSVT termination and pharmacological cardiac stress testing. Any investigational use in the Philippines would require a separate regulatory pathway (e.g., compassionate use or clinical trial authorization).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0006 | Adenosine | Not specified | Not specified (status: cancelled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (knowledge-graph edges, not label text):** the following conditions are linked to adenosine as contraindications.
+  - Respiratory: chronic obstructive pulmonary disease, asthma (including intrinsic and allergic forms), pulmonary emphysema, respiratory failure.
+  - Conduction and rhythm: atrioventricular block, sick sinus syndrome (including the familial form).
+  - Valve and structural: aortic stenosis (including aortic valve disease and supravalvular forms), mitral valve stenosis, pulmonary valve insufficiency.
+  - Coronary and pericardial: acute coronary syndrome, coronary artery disease, pericarditis.
+  - Autonomic and blood pressure: hypotensive disorder, autonomic nervous system disease, Horner syndrome.
+- **Drug interactions:** 100 interactions were identified, and the main ones are listed here. The Major ones are **cisapride, dolasetron and papaverine**. Moderate ones include famotidine, clarithromycin, granisetron, levofloxacin, ondansetron and palonosetron. Several are QT-prolonging drugs, which warrants attention in patients with arrhythmias. The rest are of unknown severity.
 
-> ⚠️ **Data Gap Notice:** Philippines-specific prescribing information (package insert warnings and contraindications) was not available in this evidence pack. This is classified as a **blocking data gap (DG001)** that must be resolved before any formal safety pre-evaluation can proceed. No drug–drug interaction data was identified in the current evidence review.
-
----
+Please refer to the package insert for key warnings and label contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Adenosine's mechanistic connection to CPVT pathophysiology is biologically well-grounded—the cAMP–PKA–RyR2 axis, direct ATP–RyR2 binding, and anti-adrenergic effects all converge on CPVT's core pathomechanism—and is bolstered by a direct case observation and an ongoing A1R agonist trial. However, the available evidence concerns class-effect molecules (ATP, AGP100), not adenosine itself; the lone clinical trial is early-stage (Phase 2a, n=10) and tests a different compound; and there is no Philippines regulatory pathway currently in place. The overall evidence remains at L4, making clinical translation premature without further groundwork.
+- The top prediction, obsolete bundle branch block, is a deprecated ontology term with no trials or literature, and adenosine's mechanism could worsen conduction disease. The prediction should not be pursued.
+- The CPVT prediction is mechanistically plausible, but the only direct evidence is a single case report using ATP. Established therapies already exist.
+- The only Philippines registration is cancelled, and the package insert safety data is not available.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Establish Philippines FDA registration or import authorization for investigational use; adenosine is not currently marketed in the Philippines
-- **Safety data (Blocking — DG001)**: Obtain and review Philippines-specific package insert warnings and contraindications before any safety pre-evaluation
-- **MOA documentation (High — DG002)**: Formally document adenosine's mechanism of action from DrugBank or peer-reviewed sources
-- **Drug–drug interaction profile**: No DDI data was identified; a formal DDI review is required, particularly for co-administration with antiarrhythmic agents (β-blockers, flecainide) commonly used in CPVT
-- **Formulation strategy**: Adenosine has an extremely short plasma half-life (~10 seconds IV); chronic CPVT management would require a novel delivery approach (e.g., slow-release formulation or use of a selective, orally bioavailable A1R agonist such as AGP100)
-- **Direct adenosine evidence**: Design or identify a prospective protocol specifically evaluating adenosine (not just adenosine receptor agonists) in a CPVT-relevant efficacy endpoint, building on the AGP100 trial design and the ATP case report as scientific precedent
-- **Await AGP100 Phase 2a results (NCT07263139)**: Results from this trial (expected 2027) will substantially strengthen or weaken the case for adenosine in CPVT, and should be a formal go/no-go decision trigger
+- Confirm the ontology mapping of "obsolete bundle branch block" and discard it if it is not a valid clinical entity.
+- Detailed mechanism of action data (MOA).
+- Philippines package insert warnings and contraindications, from the DOH-FDA Philippines website.
+- If CPVT is pursued, prospective or controlled data on adenosine itself, and a comparison against standard therapy.
+- Review of the cancelled registration status and available formulations and routes.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
