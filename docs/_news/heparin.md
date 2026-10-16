@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Heparin with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (2)</strong>:<ul>
 <li>thrombophilia due to protein C deficiency, autosomal recessive (99.3%)</li>
 <li>primary release disorder of platelets (99.1%)</li>

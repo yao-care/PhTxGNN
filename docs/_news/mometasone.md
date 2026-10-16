@@ -3,7 +3,7 @@ layout: default
 title: "Mometasone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mometasone. Original indication: . 1 predicted indications."
+description: "Health news related to Mometasone. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/mometasone/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Mometasone with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>primary cutaneous T-cell lymphoma (99.4%)</li>
 </ul></li>

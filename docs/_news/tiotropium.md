@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Tiotropium with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>obstructive lung disease (100.0%)</li>
 <li>respiratory malformation (100.0%)</li>

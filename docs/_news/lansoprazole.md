@@ -3,7 +3,7 @@ layout: default
 title: "Lansoprazole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lansoprazole. Original indication: . 2 predicted indications."
+description: "Health news related to Lansoprazole. Original indication: There are important limits. A proton pump inhibito.... 2 predicted indications."
 permalink: /news/lansoprazole/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Lansoprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: There are important limits. A proton pump inhibitor does not stop bile from refluxing, so any benefit is probably symptomatic and limited to the acid component of the mucosal injury. The high TxGNN...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (2)</strong>:<ul>
 <li>duodenogastric reflux (99.7%)</li>
 <li>duodenal obstruction (99.7%)</li>

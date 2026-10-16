@@ -24,11 +24,12 @@ This page combines the AI-predicted indications for Memantine with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
-<li>pulmonary hypertension (99.5%)</li>
-<li>migraine disorder (99.5%)</li>
-<li>kyphoscoliotic heart disease (99.4%)</li>
-<li>migraine with brainstem aura (99.4%)</li>
+<li>Pulmonary hypertension | 99.54% | L5 | Hold (99.0%)</li>
+<li>Migraine disorder | 99.52% | L1 (nominal) | Proceed with Guardrails (99.0%)</li>
+<li>Kyphoscoliotic heart disease | 99.43% | L5 | Hold (99.0%)</li>
+<li>Migraine with brainstem aura | 99.41% | L4 | Research Question (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/memantine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Abacavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Abacavir. Original indication: . 3 predicted indications."
+description: "Health news related to Abacavir. Original indication: . 2 predicted indications."
 permalink: /news/abacavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/abacavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Abacavir?">
-<strong>Abacavir</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Abacavir</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,11 +24,10 @@ This page combines the AI-predicted indications for Abacavir with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
 <li>Feline acquired immunodeficiency syndrome (99.8%)</li>
 <li>Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.8%)</li>
-<li>simian immunodeficiency virus infection (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/abacavir/' | relative_url }}">View full drug report →</a></p>

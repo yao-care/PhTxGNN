@@ -3,7 +3,7 @@ layout: default
 title: "Halothane News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Halothane. Original indication: . 6 predicted indications."
+description: "Health news related to Halothane. Original indication: he TxGNN model predicts it may be effective for **.... 6 predicted indications."
 permalink: /news/halothane/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Halothane with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but there are **0 clinical trials** and only **4 publications**, none of which studies halothane as a treatment...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (6)</strong>:<ul>
 <li>manic bipolar affective disorder (99.8%)</li>
 <li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>

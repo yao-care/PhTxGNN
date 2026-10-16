@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Entecavir with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>chronic hepatitis C virus infection (100.0%)</li>
 <li>hepatitis B virus infection (99.8%)</li>

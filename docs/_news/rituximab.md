@@ -24,7 +24,6 @@ This page combines the AI-predicted indications for RITUXIMAB with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
 </ul>
 <p><a href="{{ '/drugs/rituximab/' | relative_url }}">View full drug report →</a></p>
 </div>

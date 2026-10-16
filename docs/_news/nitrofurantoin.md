@@ -3,7 +3,7 @@ layout: default
 title: "Nitrofurantoin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nitrofurantoin. Original indication: . 10 predicted indications."
+description: "Health news related to Nitrofurantoin. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/nitrofurantoin/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Nitrofurantoin with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **rheumatoid arthritis** with a very high score, yet there are **0 clinical trials** and no publications showing a therapeutic benefit. The retrieved...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>rheumatoid arthritis (99.9%)</li>
 <li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.8%)</li>

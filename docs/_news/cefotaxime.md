@@ -24,7 +24,6 @@ This page combines the AI-predicted indications for CEFOTAXIME with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
 </ul>
 <p><a href="{{ '/drugs/cefotaxime/' | relative_url }}">View full drug report →</a></p>
 </div>

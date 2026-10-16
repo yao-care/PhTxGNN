@@ -3,7 +3,7 @@ layout: default
 title: "Potassium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Potassium. Original indication: . 5 predicted indications."
+description: "Health news related to Potassium. Original indication: he TxGNN model predicts it may be useful for **hyp.... 5 predicted indications."
 permalink: /news/potassium/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Potassium with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **hypertensive disorder**, with **23 clinical trials** and **20 publications** retrieved. Most of the trials do not test potassium itself, and the...</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
 <li>hypertensive disorder (99.2%)</li>
 <li>pulmonary hypertension with unclear multifactorial mechanism (99.0%)</li>

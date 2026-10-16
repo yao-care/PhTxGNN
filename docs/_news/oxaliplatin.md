@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Oxaliplatin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
 <li>malignant pleural mesothelioma (99.7%)</li>
 <li>malignant epithelioid mesothelioma (99.5%)</li>

@@ -3,7 +3,7 @@ layout: default
 title: "Brinzolamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Brinzolamide. Original indication: . 1 predicted indications."
+description: "Health news related to Brinzolamide. Original indication: There are important caveats. This is a computation.... 1 predicted indications."
 permalink: /news/brinzolamide/
 ---
 
@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Brinzolamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: There are important caveats. This is a computational prediction only. Hereditary forms often arise from developmental angle anomalies (for example, CYP1B1 or MYOC mutations) and are frequently...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>primary hereditary glaucoma (99.5%)</li>

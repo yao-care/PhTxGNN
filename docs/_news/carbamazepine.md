@@ -3,7 +3,7 @@ layout: default
 title: "Carbamazepine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Carbamazepine. Original indication: . 11 predicted indications."
+description: "Health news related to Carbamazepine. Original indication: . 9 predicted indications."
 permalink: /news/carbamazepine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/carbamazepine/
 ---
 
 <p class="key-answer" data-question="What news is there about Carbamazepine?">
-<strong>Carbamazepine</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Carbamazepine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,8 +24,8 @@ This page combines the AI-predicted indications for Carbamazepine with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
 <li>Orgasm-induced seizures (100.0%)</li>
 <li>Startle epilepsy (100.0%)</li>
 <li>Eating seizures (100.0%)</li>
@@ -35,8 +35,6 @@ This page combines the AI-predicted indications for Carbamazepine with the lates
 <li>Reading seizures (100.0%)</li>
 <li>Beta-ketothiolase deficiency (99.9%)</li>
 <li>Rett syndrome, congenital variant (99.9%)</li>
-<li>trigeminal nerve neoplasm (100.0%)</li>
-<li>micturation-induced seizures (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/carbamazepine/' | relative_url }}">View full drug report →</a></p>

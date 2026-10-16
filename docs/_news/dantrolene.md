@@ -3,7 +3,7 @@ layout: default
 title: "Dantrolene News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dantrolene. Original indication: . 10 predicted indications."
+description: "Health news related to Dantrolene. Original indication: . 6 predicted indications."
 permalink: /news/dantrolene/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dantrolene/
 ---
 
 <p class="key-answer" data-question="What news is there about Dantrolene?">
-<strong>Dantrolene</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Dantrolene</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,13 @@ This page combines the AI-predicted indications for Dantrolene with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (6)</strong>:<ul>
 <li>King-Denborough syndrome (99.9%)</li>
 <li>Central core myopathy (99.9%)</li>
 <li>Myopathy, centronuclear (99.7%)</li>
 <li>Congenital multicore myopathy with external ophthalmoplegia (99.9%)</li>
 <li>Moderate multiminicore disease with hand involvement (99.9%)</li>
 <li>Hypokalaemic periodic paralysis (99.8%)</li>
-<li>malignant hyperthermia, susceptibility to (99.9%)</li>
-<li>hypokalemic periodic paralysis (99.8%)</li>
-<li>thyrotoxic periodic paralysis, susceptibility to (99.7%)</li>
-<li>thyrotoxic periodic paralysis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dantrolene/' | relative_url }}">View full drug report →</a></p>

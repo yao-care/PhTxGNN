@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Bleomycin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (6)</strong>:<ul>
 <li>cauda equina neoplasm (99.3%)</li>
 <li>adult astrocytic tumour (99.3%)</li>

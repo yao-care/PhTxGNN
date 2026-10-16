@@ -3,7 +3,7 @@ layout: default
 title: "Dipyridamole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dipyridamole. Original indication: . 11 predicted indications."
+description: "Health news related to Dipyridamole. Original indication: . 2 predicted indications."
 permalink: /news/dipyridamole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dipyridamole/
 ---
 
 <p class="key-answer" data-question="What news is there about Dipyridamole?">
-<strong>Dipyridamole</strong> currently has <strong>0 news articles</strong>, with 11 predicted indications.
+<strong>Dipyridamole</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,19 +24,10 @@ This page combines the AI-predicted indications for Dipyridamole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (11)</strong>:<ul>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
 <li>Stroke disorder (100.0%)</li>
 <li>Transient ischemic attack (99.9%)</li>
-<li>Prinzmetal angina (100.0%)</li>
-<li>thrombotic disease (99.9%)</li>
-<li>sick sinus syndrome 2, autosomal dominant (99.9%)</li>
-<li>transient ischemic attack (disease) (99.9%)</li>
-<li>sarcoglycanopathy (99.8%)</li>
-<li>Wildervanck syndrome (99.8%)</li>
-<li>macrocephaly, dysmorphic facies, and psychomotor retardation (99.8%)</li>
-<li>lateral sinus thrombosis (99.7%)</li>
-<li>cavernous sinus thrombosis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dipyridamole/' | relative_url }}">View full drug report →</a></p>

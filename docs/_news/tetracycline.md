@@ -3,7 +3,7 @@ layout: default
 title: "Tetracycline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tetracycline. Original indication: . 4 predicted indications."
+description: "Health news related to Tetracycline. Original indication: . 3 predicted indications."
 permalink: /news/tetracycline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tetracycline/
 ---
 
 <p class="key-answer" data-question="What news is there about Tetracycline?">
-<strong>Tetracycline</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Tetracycline</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,12 +24,11 @@ This page combines the AI-predicted indications for Tetracycline with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (99.6%)</li>
-<li>chronic ethmoidal sinusitis (99.2%)</li>
-<li>chronic rhinosinusitis (99.2%)</li>
-<li>paranasal sinus neoplasm (disease) (99.1%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Chronic ethmoidal sinusitis | 99.15% | L4 | One in vitro antibiotic susceptibility survey; no clinical efficacy data | Hold (99.0%)</li>
+<li>Chronic rhinosinusitis | 99.15% | L4 | Mostly class-level evidence (doxycycline systematic review and meta-analysis, Cochrane review of antibiotics with low-certainty evidence, an omadacycline case series); no tetracycline-specific trials | Research Question (99.0%)</li>
+<li>Paranasal sinus neoplasm | 99.10% | L5 | No trials or literature; computational prediction only | Hold (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tetracycline/' | relative_url }}">View full drug report →</a></p>

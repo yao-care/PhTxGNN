@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Aripiprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>major affective disorder (99.6%)</li>
 <li>gaze palsy, familial horizontal, with progressive scoliosis (99.6%)</li>

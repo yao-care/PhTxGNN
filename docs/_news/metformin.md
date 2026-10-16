@@ -3,7 +3,7 @@ layout: default
 title: "Metformin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Metformin. Original indication: . 5 predicted indications."
+description: "Health news related to Metformin. Original indication: . 4 predicted indications."
 permalink: /news/metformin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metformin/
 ---
 
 <p class="key-answer" data-question="What news is there about Metformin?">
-<strong>Metformin</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Metformin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,11 @@ This page combines the AI-predicted indications for Metformin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>focal stiff limb syndrome (99.5%)</li>
-<li>classic stiff person syndrome (99.5%)</li>
-<li>opsismodysplasia (99.4%)</li>
-<li>thiamine-responsive dysfunction syndrome (99.4%)</li>
-<li>drug-induced localized lipodystrophy (99.1%)</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Classic stiff person syndrome | 99.45% | Comorbid diabetes may explain the association; no evidence metformin treats the neurological disease (99.0%)</li>
+<li>Opsismodysplasia | 99.40% | INPPL1/SHIP2 loss affects PI3K/AKT and insulin signalling; plausible pathway link but untested, and paediatric safety not assessed (99.0%)</li>
+<li>Thiamine-responsive dysfunction syndrome | 99.40% | Diabetes is a feature, but the defect is thiamine transport and the standard treatment is thiamine (99.0%)</li>
+<li>Drug-induced localized lipodystrophy | 99.06% | Most mechanistically plausible (metformin has been studied in other lipodystrophies), but unvalidated here (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/metformin/' | relative_url }}">View full drug report →</a></p>

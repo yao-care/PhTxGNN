@@ -3,7 +3,7 @@ layout: default
 title: "Glucagon News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Glucagon. Original indication: . 1 predicted indications."
+description: "Health news related to Glucagon. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/glucagon/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Glucagon with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**.</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>irritable bowel syndrome (99.2%)</li>
 </ul></li>

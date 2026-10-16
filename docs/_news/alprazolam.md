@@ -3,7 +3,7 @@ layout: default
 title: "Alprazolam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alprazolam. Original indication: . 3 predicted indications."
+description: "Health news related to Alprazolam. Original indication: . 2 predicted indications."
 permalink: /news/alprazolam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alprazolam/
 ---
 
 <p class="key-answer" data-question="What news is there about Alprazolam?">
-<strong>Alprazolam</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Alprazolam</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,11 +24,10 @@ This page combines the AI-predicted indications for Alprazolam with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>insomnia (disease) (99.8%)</li>
-<li>benign paroxysmal torticollis of infancy (99.6%)</li>
-<li>agoraphobia (99.6%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>Benign paroxysmal torticollis of infancy | 99.61% | L5 | No trials or literature. A rare, self-limiting infantile condition; benzodiazepine use in infants is not justified and the prediction is likely a model artifact. Hold. (99.0%)</li>
+<li>Agoraphobia | 99.56% | L3 (conservative) | Several older placebo-controlled studies in panic disorder with agoraphobia exist (for example, a 526-patient multicenter trial from 1988). This is closer to an extension of the existing anxiety and panic use than to true repurposing. Research question: verify study designs and check whether it already falls within labeled use. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/alprazolam/' | relative_url }}">View full drug report →</a></p>

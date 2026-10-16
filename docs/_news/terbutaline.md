@@ -3,7 +3,7 @@ layout: default
 title: "Terbutaline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Terbutaline. Original indication: . 3 predicted indications."
+description: "Health news related to Terbutaline. Original indication: . 2 predicted indications."
 permalink: /news/terbutaline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/terbutaline/
 ---
 
 <p class="key-answer" data-question="What news is there about Terbutaline?">
-<strong>Terbutaline</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Terbutaline</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,11 +24,10 @@ This page combines the AI-predicted indications for Terbutaline with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Evidence level</strong>: L1</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
 <li>Respiratory malformation (99.5%)</li>
 <li>Rienhoff syndrome (99.4%)</li>
-<li>obstructive lung disease (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/terbutaline/' | relative_url }}">View full drug report →</a></p>

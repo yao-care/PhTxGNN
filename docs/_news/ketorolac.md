@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Ketorolac with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
 <li>headache disorder (99.4%)</li>
 <li>rosacea conjunctivitis (99.4%)</li>

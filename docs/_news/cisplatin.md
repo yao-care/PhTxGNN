@@ -24,7 +24,6 @@ This page combines the AI-predicted indications for CISPLATIN with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
 </ul>
 <p><a href="{{ '/drugs/cisplatin/' | relative_url }}">View full drug report →</a></p>
 </div>

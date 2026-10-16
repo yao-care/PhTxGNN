@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Tamoxifen with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>mammary Paget disease (99.7%)</li>
 <li>intraductal cribriform breast adenocarcinoma (99.7%)</li>

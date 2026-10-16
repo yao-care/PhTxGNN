@@ -3,7 +3,7 @@ layout: default
 title: "Thiamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thiamine. Original indication: . 4 predicted indications."
+description: "Health news related to Thiamine. Original indication: he TxGNN model predicts it may be useful for **hyp.... 4 predicted indications."
 permalink: /news/thiamine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Thiamine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **hyperthyroidism**, probably as supportive therapy for complications rather than as an antithyroid treatment.</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
 <li>hyperthyroidism (99.4%)</li>
 <li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.4%)</li>

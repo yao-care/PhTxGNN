@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Levofloxacin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>punctate epithelial keratoconjunctivitis (99.9%)</li>
 <li>polyclonal hyperviscosity syndrome (99.9%)</li>

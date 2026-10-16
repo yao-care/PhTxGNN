@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Epirubicin with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (7)</strong>:<ul>
 <li>primary pulmonary lymphoma (99.7%)</li>
 <li>well-differentiated fetal adenocarcinoma of the lung (99.7%)</li>

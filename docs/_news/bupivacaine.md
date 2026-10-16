@@ -3,7 +3,7 @@ layout: default
 title: "Bupivacaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bupivacaine. Original indication: . 4 predicted indications."
+description: "Health news related to Bupivacaine. Original indication: . 3 predicted indications."
 permalink: /news/bupivacaine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bupivacaine/
 ---
 
 <p class="key-answer" data-question="What news is there about Bupivacaine?">
-<strong>Bupivacaine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Bupivacaine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,10 @@ This page combines the AI-predicted indications for Bupivacaine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>acrodermatitis chronica atrophicans (99.2%)</li>
-<li>neonatal dermatomyositis (99.2%)</li>
-<li>secondary interstitial lung disease specific to childhood associated with a connective tissue disease (99.1%)</li>
-<li>amyopathic dermatomyositis (99.0%)</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Neonatal dermatomyositis | 99.15% | L5 | No disease-modifying mechanism. At most symptomatic or procedural analgesia. Neonatal use raises cardiotoxicity and systemic toxicity concerns. (99.0%)</li>
+<li>Secondary interstitial lung disease specific to childhood associated with a connective tissue disease | 99.11% | L5 | No anti-inflammatory or antifibrotic action. The score likely reflects network proximity to related diseases. (99.0%)</li>
+<li>Amyopathic dermatomyositis | 99.03% | L5 | Predominantly a cutaneous, immune-mediated disease. Bupivacaine could at best relieve symptoms such as pain or pruritus. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bupivacaine/' | relative_url }}">View full drug report →</a></p>

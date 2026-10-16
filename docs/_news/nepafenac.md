@@ -3,7 +3,7 @@ layout: default
 title: "Nepafenac News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nepafenac. Original indication: . 10 predicted indications."
+description: "Health news related to Nepafenac. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/nepafenac/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Nepafenac with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **eye disease**, a broad category.</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>eye disease (99.8%)</li>
 <li>optic papillitis (99.8%)</li>

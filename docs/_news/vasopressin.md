@@ -3,7 +3,7 @@ layout: default
 title: "Vasopressin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Vasopressin. Original indication: . 2 predicted indications."
+description: "Health news related to Vasopressin. Original indication: he TxGNN model predicts it may be effective for **.... 2 predicted indications."
 permalink: /news/vasopressin/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Vasopressin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **congenital prothrombin deficiency**,</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (2)</strong>:<ul>
 <li>congenital prothrombin deficiency (99.6%)</li>
 <li>drug-induced osteoporosis (99.6%)</li>

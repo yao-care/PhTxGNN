@@ -3,7 +3,7 @@ layout: default
 title: "Ketamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ketamine. Original indication: . 1 predicted indications."
+description: "Health news related to Ketamine. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/ketamine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Ketamine with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **headache disorder**,</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>headache disorder (99.3%)</li>
 </ul></li>

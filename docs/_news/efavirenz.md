@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Efavirenz with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
 <li>simian immunodeficiency virus infection (99.8%)</li>
 <li>feline acquired immunodeficiency syndrome (99.8%)</li>

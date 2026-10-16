@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Streptokinase with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>myocardial infarction (99.8%)</li>
 <li>Prinzmetal angina (99.8%)</li>

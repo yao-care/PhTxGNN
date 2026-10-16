@@ -3,7 +3,7 @@ layout: default
 title: "Sacubitril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sacubitril. Original indication: . 5 predicted indications."
+description: "Health news related to Sacubitril. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
 permalink: /news/sacubitril/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Sacubitril with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic nephropathy**, the most strongly supported of its top five predictions.</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
 <li>brain small vessel disease 1 with or without ocular anomalies (99.6%)</li>
 <li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.6%)</li>

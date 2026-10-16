@@ -3,7 +3,7 @@ layout: default
 title: "Cefoxitin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefoxitin. Original indication: . 10 predicted indications."
+description: "Health news related to Cefoxitin. Original indication: . 3 predicted indications."
 permalink: /news/cefoxitin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefoxitin/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefoxitin?">
-<strong>Cefoxitin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cefoxitin</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,11 @@ This page combines the AI-predicted indications for Cefoxitin with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Evidence level</strong>: L3</li>
+<li><strong>Predicted indications (3)</strong>:<ul>
 <li>Infectious otitis media (99.3%)</li>
 <li>Middle ear disease (99.1%)</li>
 <li>Gonococcal urethritis (99.1%)</li>
-<li>urinary tract infection (disease) (99.3%)</li>
-<li>chronic otitis media (99.1%)</li>
-<li>suppurative otitis media (99.1%)</li>
-<li>Ureaplasma urethritis (99.1%)</li>
-<li>toxocariasis (99.1%)</li>
-<li>otosalpingitis (99.1%)</li>
-<li>non-suppurative otitis media (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefoxitin/' | relative_url }}">View full drug report →</a></p>

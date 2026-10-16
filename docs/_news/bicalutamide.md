@@ -3,7 +3,7 @@ layout: default
 title: "Bicalutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bicalutamide. Original indication: . 10 predicted indications."
+description: "Health news related to Bicalutamide. Original indication: he TxGNN model predicts it may be useful for **hyp.... 10 predicted indications."
 permalink: /news/bicalutamide/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Bicalutamide with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **hypertrichosis**, but there are **0 clinical trials** and only **1 publication**, which is a commentary letter, supporting this direction.</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hypertrichosis (disease) (99.7%)</li>
 <li>malformation syndrome with odontal and/or periodontal component (99.6%)</li>

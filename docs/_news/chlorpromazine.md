@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Chlorpromazine with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>retinal dystrophy with or without extraocular anomalies (100.0%)</li>
 <li>congenital disorder of glycosylation with defective fucosylation (99.9%)</li>

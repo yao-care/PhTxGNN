@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Ertapenem with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (2)</strong>:<ul>
 <li>bacterial arthritis (99.7%)</li>
 <li>staphylococcus aureus infection (99.3%)</li>

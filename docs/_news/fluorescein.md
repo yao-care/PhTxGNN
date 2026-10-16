@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Fluorescein with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>Prinzmetal angina (99.8%)</li>
 <li>antithrombin deficiency type 2 (99.8%)</li>

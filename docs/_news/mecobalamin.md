@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Mecobalamin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (3)</strong>:<ul>
 <li>sclerosing cholangitis (99.5%)</li>
 <li>multiple endocrine neoplasia (99.3%)</li>

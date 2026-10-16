@@ -3,7 +3,7 @@ layout: default
 title: "Aminophylline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aminophylline. Original indication: . 10 predicted indications."
+description: "Health news related to Aminophylline. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/aminophylline/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Aminophylline with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **4 publications** (one 2023 review, two case reports and one 1964...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.9%)</li>
 <li>migraine with brainstem aura (99.8%)</li>

@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Atenolol with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (9)</strong>:<ul>
 <li>posteroinferior myocardial infarction (99.9%)</li>
 <li>posterolateral myocardial infarction (99.9%)</li>

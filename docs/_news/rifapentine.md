@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Rifapentine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>leprosy (99.8%)</li>
 <li>female breast carcinoma (99.7%)</li>

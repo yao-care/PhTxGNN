@@ -3,7 +3,7 @@ layout: default
 title: "Medroxyprogesterone Acetate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Medroxyprogesterone Acetate. Original indication: . 10 predicted indications."
+description: "Health news related to Medroxyprogesterone Acetate. Original indication: . 0 predicted indications."
 permalink: /news/medroxyprogesterone_acetate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/medroxyprogesterone_acetate/
 ---
 
 <p class="key-answer" data-question="What news is there about Medroxyprogesterone Acetate?">
-<strong>Medroxyprogesterone Acetate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Medroxyprogesterone Acetate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Medroxyprogesterone Acetate 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Breast fibrocystic disease (100.0%)</li>
-<li>Benign mammary dysplasia (99.9%)</li>
-<li>Cervix endometriosis (99.9%)</li>
-<li>Endometriosis in cutaneous scar (99.9%)</li>
-<li>Endometriosis of rectovaginal septum and vagina (99.9%)</li>
-<li>Apocrine adenosis of breast (99.9%)</li>
-<li>Blunt duct adenosis of breast (99.9%)</li>
-<li>amenorrhea (disease) (100.0%)</li>
-<li>renal hypoplasia, bilateral (99.9%)</li>
-<li>renal hypoplasia (disease) (99.9%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/medroxyprogesterone-acetate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/medroxyprogesterone_acetate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

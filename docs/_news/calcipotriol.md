@@ -3,7 +3,7 @@ layout: default
 title: "Calcipotriol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcipotriol. Original indication: . 10 predicted indications."
+description: "Health news related to Calcipotriol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/calcipotriol/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Calcipotriol with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **seborrheic keratosis**, with **no registered clinical trials** and **4 publications** (small case series and case reports) currently supporting this...</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>seborrheic keratosis (100.0%)</li>
 <li>vulvar inverted follicular keratosis (99.9%)</li>

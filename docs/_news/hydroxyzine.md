@@ -26,11 +26,11 @@ This page combines the AI-predicted indications for Hydroxyzine with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
-<li>allergic urticaria (99.8%)</li>
-<li>rosacea conjunctivitis (99.7%)</li>
-<li>cold urticaria (99.7%)</li>
-<li>recalcitrant atopic dermatitis (99.4%)</li>
-<li>IgE responsiveness, atopic (99.3%)</li>
+<li>Allergic urticaria | 99.77% | L4 | Close to an existing on-label use; literature is mostly about cetirizine (99.0%)</li>
+<li>Rosacea conjunctivitis | 99.70% | L5 | No trials or literature (99.0%)</li>
+<li>Cold urticaria | 99.66% | L3 | Some hydroxyzine-specific clinical data (99.0%)</li>
+<li>Recalcitrant atopic dermatitis | 99.36% | L5 | No trials or literature (99.0%)</li>
+<li>IgE responsiveness, atopic | 99.27% | L5 | Too nonspecific to define an endpoint (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/hydroxyzine/' | relative_url }}">View full drug report →</a></p>

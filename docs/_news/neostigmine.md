@@ -3,7 +3,7 @@ layout: default
 title: "Neostigmine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Neostigmine. Original indication: . 10 predicted indications."
+description: "Health news related to Neostigmine. Original indication: . 9 predicted indications."
 permalink: /news/neostigmine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/neostigmine/
 ---
 
 <p class="key-answer" data-question="What news is there about Neostigmine?">
-<strong>Neostigmine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Neostigmine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,18 +24,17 @@ This page combines the AI-predicted indications for Neostigmine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>myasthenia gravis with thymus hyperplasia (100.0%)</li>
-<li>myasthenia, limb-girdle, autoimmune (100.0%)</li>
-<li>autoimmune disease of peripheral nervous system (100.0%)</li>
-<li>neonatal myasthenia gravis (100.0%)</li>
-<li>disease of receptor activity (100.0%)</li>
-<li>hypersplenism (disease) (99.9%)</li>
-<li>atypical hemolytic-uremic syndrome with B factor anomaly (99.8%)</li>
-<li>bronchitis (99.8%)</li>
-<li>fetal akinesia deformation sequence (99.7%)</li>
-<li>myasthenia, congenital, refractory to acetylcholinesterase inhibitors (99.4%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Myasthenia, limb-girdle, autoimmune | 99.97% | L4 | Same junction defect. Only one general review was retrieved. (99.0%)</li>
+<li>Autoimmune disease of peripheral nervous system | 99.97% | L4 | Literature is mostly myasthenia gravis mechanistic, historical and animal work. The rationale is weak outside myasthenia gravis. (99.0%)</li>
+<li>Neonatal myasthenia gravis | 99.97% | L4 | Mostly case reports. The condition is self-limiting, and neonatal dosing and safety need care. (99.0%)</li>
+<li>Disease of receptor activity | 99.96% | L5 | Too broad to act on. (99.0%)</li>
+<li>Hypersplenism | 99.87% | L5 | No mechanistic link found. (99.0%)</li>
+<li>Atypical hemolytic-uremic syndrome with B factor anomaly | 99.83% | L5 | Unrelated mechanism. Likely a knowledge-graph artifact. (99.0%)</li>
+<li>Bronchitis | 99.79% | L4 | Increased cholinergic tone may worsen bronchial symptoms. Evidence is anecdotal and outdated. (99.0%)</li>
+<li>Fetal akinesia deformation sequence | 99.72% | L5 | Speculative link, with major safety concerns in fetal use. (99.0%)</li>
+<li>Congenital myasthenia refractory to acetylcholinesterase inhibitors | 99.37% | L5 | Contradicts the disease definition and is likely a false positive. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/neostigmine/' | relative_url }}">View full drug report →</a></p>

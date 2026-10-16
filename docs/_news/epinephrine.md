@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Epinephrine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
 <li>obstructive lung disease (99.7%)</li>
 <li>food-dependent exercise-induced anaphylaxis (99.6%)</li>

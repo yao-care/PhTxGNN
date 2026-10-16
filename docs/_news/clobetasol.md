@@ -3,7 +3,7 @@ layout: default
 title: "Clobetasol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clobetasol. Original indication: . 1 predicted indications."
+description: "Health news related to Clobetasol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/clobetasol/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Clobetasol with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, mainly the early-stage form known as mycosis fungoides.</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>primary cutaneous T-cell lymphoma (99.5%)</li>
 </ul></li>

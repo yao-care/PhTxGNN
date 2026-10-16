@@ -3,7 +3,7 @@ layout: default
 title: "Flunarizine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Flunarizine. Original indication: . 1 predicted indications."
+description: "Health news related to Flunarizine. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/flunarizine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Flunarizine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**,</li>
+<li><strong>Evidence level</strong>: L2</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
 <li>migraine disorder (99.1%)</li>
 </ul></li>

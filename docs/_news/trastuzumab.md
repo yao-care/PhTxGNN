@@ -3,7 +3,7 @@ layout: default
 title: "Trastuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trastuzumab. Original indication: . 10 predicted indications."
+description: "Health news related to Trastuzumab. Original indication: The benefit is driven by HER2 expression, not by P.... 10 predicted indications."
 permalink: /news/trastuzumab/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Trastuzumab with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: The benefit is driven by HER2 expression, not by PR status. The evidence does not extend to HR+/HER2-negative disease, so any use should be restricted to confirmed HER2-positive tumours.</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>progesterone-receptor positive breast cancer (99.9%)</li>
 <li>normal breast-like subtype of breast carcinoma (99.9%)</li>

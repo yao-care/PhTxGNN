@@ -3,7 +3,7 @@ layout: default
 title: "Clozapine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clozapine. Original indication: . 10 predicted indications."
+description: "Health news related to Clozapine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/clozapine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Clozapine with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **manic bipolar affective disorder** (the top-ranked prediction), and the closely related **bipolar disorder** has **13 clinical trials** and **20...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>manic bipolar affective disorder (100.0%)</li>
 <li>Tourette syndrome (99.9%)</li>

@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Simvastatin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (8)</strong>:<ul>
 <li>familial hypercholesterolemia (99.6%)</li>
 <li>brain stem infarction (99.4%)</li>

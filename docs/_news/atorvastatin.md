@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Atorvastatin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (6)</strong>:<ul>
 <li>familial hypercholesterolemia (99.4%)</li>
 <li>HIV infectious disease (99.3%)</li>

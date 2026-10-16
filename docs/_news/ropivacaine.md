@@ -3,7 +3,7 @@ layout: default
 title: "Ropivacaine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ropivacaine. Original indication: . 4 predicted indications."
+description: "Health news related to Ropivacaine. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
 permalink: /news/ropivacaine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Ropivacaine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, with **2 clinical trials** and **3 publications** currently supporting this direction.</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (4)</strong>:<ul>
 <li>migraine disorder (99.7%)</li>
 <li>migraine with brainstem aura (99.5%)</li>

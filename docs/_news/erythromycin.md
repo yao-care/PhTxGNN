@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Erythromycin with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
 <li>punctate epithelial keratoconjunctivitis (99.9%)</li>
 <li>acute contagious conjunctivitis (99.5%)</li>

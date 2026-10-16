@@ -3,7 +3,7 @@ layout: default
 title: "Chloramphenicol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloramphenicol. Original indication: . 9 predicted indications."
+description: "Health news related to Chloramphenicol. Original indication: . 8 predicted indications."
 permalink: /news/chloramphenicol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chloramphenicol/
 ---
 
 <p class="key-answer" data-question="What news is there about Chloramphenicol?">
-<strong>Chloramphenicol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Chloramphenicol</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,17 +24,16 @@ This page combines the AI-predicted indications for Chloramphenicol with the lat
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>conjunctivitis (99.7%)</li>
-<li>diffuse scleroderma (99.7%)</li>
-<li>postinfectious vasculitis (99.6%)</li>
-<li>post-bacterial disorder (99.6%)</li>
-<li>post-infectious syndrome (99.6%)</li>
-<li>infective urethral stricture (99.5%)</li>
-<li>Chagas cardiomyopathy (99.5%)</li>
-<li>infection-related hemolytic uremic syndrome (99.5%)</li>
-<li>punctate epithelial keratoconjunctivitis (99.2%)</li>
+<li><strong>Evidence level</strong>: L3</li>
+<li><strong>Predicted indications (8)</strong>:<ul>
+<li>Diffuse scleroderma | 99.65% | L5 | Hold | The literature concerns collagen gene regulation in scleroderma fibroblasts. Chloramphenicol appears to be used only as a reporter-assay tool, so this is likely an artifact (99.0%)</li>
+<li>Postinfectious vasculitis | 99.58% | L5 | Hold | Prediction only; the condition is immune-mediated and no evidence was found (99.0%)</li>
+<li>Post-bacterial disorder | 99.57% | L5 | Hold | The one linked trial ([NCT05106803](https://clinicaltrials.gov/study/NCT05106803)) is a susceptibility profiling study, not a treatment trial (99.0%)</li>
+<li>Post-infectious syndrome | 99.56% | L5 | Hold | Prediction only, with little mechanistic rationale (99.0%)</li>
+<li>Infective urethral stricture | 99.52% | L5 | Hold | Only an irrelevant 1964 case report was found (99.0%)</li>
+<li>Chagas cardiomyopathy | 99.51% | L5 | Hold | Not an established antitrypanosomal agent; myelotoxicity is a concern (99.0%)</li>
+<li>Infection-related hemolytic uremic syndrome | 99.50% | L5 | Hold | Antibiotics are generally avoided in STEC-associated HUS, and hematologic toxicity is a concern (99.0%)</li>
+<li>Punctate epithelial keratoconjunctivitis | 99.17% | L4 | Hold | Evidence is case series on microsporidial disease, where chloramphenicol has no established activity (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chloramphenicol/' | relative_url }}">View full drug report →</a></p>

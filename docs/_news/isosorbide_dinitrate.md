@@ -3,7 +3,7 @@ layout: default
 title: "Isosorbide Dinitrate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Isosorbide Dinitrate. Original indication: . 10 predicted indications."
+description: "Health news related to Isosorbide Dinitrate. Original indication: . 0 predicted indications."
 permalink: /news/isosorbide_dinitrate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isosorbide_dinitrate/
 ---
 
 <p class="key-answer" data-question="What news is there about Isosorbide Dinitrate?">
-<strong>Isosorbide Dinitrate</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Isosorbide Dinitrate</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,20 +24,8 @@ This page combines the AI-predicted indications for Isosorbide Dinitrate with th
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>Pulmonary hypertension (100.0%)</li>
-<li>Vascular disease (100.0%)</li>
-<li>alopecia (100.0%)</li>
-<li>congenital hypotrichosis milia (100.0%)</li>
-<li>hypotrichosis simplex of the scalp (100.0%)</li>
-<li>diffuse alopecia areata (100.0%)</li>
-<li>hypertrichosis (disease) (100.0%)</li>
-<li>kyphoscoliotic heart disease (100.0%)</li>
-<li>visceral calciphylaxis (100.0%)</li>
-<li>venous thoracic outlet syndrome (100.0%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/isosorbide-dinitrate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/isosorbide_dinitrate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

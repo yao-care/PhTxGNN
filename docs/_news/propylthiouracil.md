@@ -3,7 +3,7 @@ layout: default
 title: "Propylthiouracil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propylthiouracil. Original indication: . 3 predicted indications."
+description: "Health news related to Propylthiouracil. Original indication: . 2 predicted indications."
 permalink: /news/propylthiouracil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propylthiouracil/
 ---
 
 <p class="key-answer" data-question="What news is there about Propylthiouracil?">
-<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Propylthiouracil</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,11 +24,10 @@ This page combines the AI-predicted indications for Propylthiouracil with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.7%)</li>
-<li>neonatal thyrotoxicosis (99.4%)</li>
-<li>hyperthyroxinemia (99.1%)</li>
+<li><strong>Evidence level</strong>: L4</li>
+<li><strong>Predicted indications (2)</strong>:<ul>
+<li>Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, as it is an extension of the existing Graves/thyrotoxicosis use. The literature (19 publications, mostly reviews) addresses maternal antithyroid drug use in pregnancy, not direct neonatal PTU trials. Recommendation: Research Question. (99.0%)</li>
+<li>Hyperthyroxinemia | 99.08% | L4 | A laboratory finding with many causes. PTU is relevant only when it reflects true thyroid overproduction, which overlaps with existing indications. It is not indicated, and may be harmful, in binding-protein defects or RTH. Recommendation: Hold. (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/propylthiouracil/' | relative_url }}">View full drug report →</a></p>

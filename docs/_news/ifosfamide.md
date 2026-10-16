@@ -3,7 +3,7 @@ layout: default
 title: "Ifosfamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ifosfamide. Original indication: . 10 predicted indications."
+description: "Health news related to Ifosfamide. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/ifosfamide/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Ifosfamide with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with **6 clinical trials** (all early-phase or Phase 2, none confirmatory) and **20 publications** currently supporting...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>female breast carcinoma (99.9%)</li>
 <li>unclassified myelodysplastic syndrome (99.7%)</li>

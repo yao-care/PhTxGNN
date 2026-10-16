@@ -3,7 +3,7 @@ layout: default
 title: "Nitroglycerin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nitroglycerin. Original indication: . 5 predicted indications."
+description: "Health news related to Nitroglycerin. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
 permalink: /news/nitroglycerin/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Nitroglycerin with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **pulmonary hypertension**,</li>
+<li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (5)</strong>:<ul>
 <li>pulmonary hypertension (99.6%)</li>
 <li>kyphoscoliotic heart disease (99.4%)</li>

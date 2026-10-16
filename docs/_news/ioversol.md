@@ -3,7 +3,7 @@ layout: default
 title: "Ioversol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ioversol. Original indication: . 10 predicted indications."
+description: "Health news related to Ioversol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/ioversol/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Ioversol with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **osteoarthritis susceptibility**, but there are **0 clinical trials** and **0 publications** directly supporting this prediction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>osteoarthritis susceptibility (99.7%)</li>
 <li>osteoarthritis (99.6%)</li>

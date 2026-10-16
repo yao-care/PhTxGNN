@@ -3,7 +3,7 @@ layout: default
 title: "Artemether News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Artemether. Original indication: . 10 predicted indications."
+description: "Health news related to Artemether. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/artemether/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Artemether with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **acquired angioedema**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the computational model alone.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>acquired angioedema (99.9%)</li>
 <li>Plasmodium falciparum malaria (99.8%)</li>

@@ -24,7 +24,7 @@ This page combines the AI-predicted indications for Pantoprazole with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (6)</strong>:<ul>
 <li>active peptic ulcer disease (99.7%)</li>
 <li>gastrojejunal ulcer (99.6%)</li>

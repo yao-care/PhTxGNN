@@ -3,7 +3,7 @@ layout: default
 title: "Benzoyl Peroxide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Benzoyl Peroxide. Original indication: . 4 predicted indications."
+description: "Health news related to Benzoyl Peroxide. Original indication: . 0 predicted indications."
 permalink: /news/benzoyl_peroxide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/benzoyl_peroxide/
 ---
 
 <p class="key-answer" data-question="What news is there about Benzoyl Peroxide?">
-<strong>Benzoyl Peroxide</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Benzoyl Peroxide</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,14 +24,8 @@ This page combines the AI-predicted indications for Benzoyl Peroxide with the la
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>vulvar inverted follicular keratosis (99.9%)</li>
-<li>2-hydroxyethyl methacrylate sensitization (99.4%)</li>
-<li>acrodermatitis chronica atrophicans (99.2%)</li>
-<li>acne keloid (99.1%)</li>
-</ul></li>
 </ul>
-<p><a href="{{ '/drugs/benzoyl-peroxide/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/benzoyl_peroxide/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
