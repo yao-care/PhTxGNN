@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Methylene Blue with the late
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/methylene_blue/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/methylene-blue/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

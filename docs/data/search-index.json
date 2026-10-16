@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 405,
+  "drug_count": 348,
   "indication_count": 958,
   "drugs": [
     {
@@ -658,14 +658,6 @@
       ]
     },
     {
-      "name": "AMPHOTERICIN B",
-      "slug": "amphotericin-b",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Ampicillin",
       "slug": "ampicillin",
       "brands": [],
@@ -875,14 +867,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "ARTESUNATE",
-      "slug": "artesunate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ascorbic Acid",
@@ -1343,22 +1327,6 @@
       ]
     },
     {
-      "name": "BERACTANT",
-      "slug": "beractant",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "BETAHISTINE",
-      "slug": "betahistine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Betamethasone",
       "slug": "betamethasone",
       "brands": [],
@@ -1550,14 +1518,6 @@
       ]
     },
     {
-      "name": "BISACODYL",
-      "slug": "bisacodyl",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Bisoprolol",
       "slug": "bisoprolol",
       "brands": [],
@@ -1629,14 +1589,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "BRIMONIDINE",
-      "slug": "brimonidine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Brinzolamide",
@@ -1924,14 +1876,6 @@
           "level": "L1"
         }
       ]
-    },
-    {
-      "name": "Calcium Gluconate",
-      "slug": "calcium-gluconate",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Capecitabine",
@@ -2294,30 +2238,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "CEFEPIME",
-      "slug": "cefepime",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CEFIXIME",
-      "slug": "cefixime",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CEFOTAXIME",
-      "slug": "cefotaxime",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Cefoxitin",
@@ -2702,14 +2622,6 @@
       ]
     },
     {
-      "name": "CHLORHEXIDINE",
-      "slug": "chlorhexidine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Chloroquine",
       "slug": "chloroquine",
       "brands": [],
@@ -2798,22 +2710,6 @@
       ]
     },
     {
-      "name": "CILOSTAZOL",
-      "slug": "cilostazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "CINNARIZINE",
-      "slug": "cinnarizine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Ciprofloxacin",
       "slug": "ciprofloxacin",
       "brands": [],
@@ -2871,14 +2767,6 @@
           "level": "L3"
         }
       ]
-    },
-    {
-      "name": "CISPLATIN",
-      "slug": "cisplatin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Clarithromycin",
@@ -3207,14 +3095,6 @@
       ]
     },
     {
-      "name": "CLOXACILLIN",
-      "slug": "cloxacillin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Clozapine",
       "slug": "clozapine",
       "brands": [],
@@ -3384,14 +3264,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "CROTAMITON",
-      "slug": "crotamiton",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Cyclophosphamide",
@@ -4474,14 +4346,6 @@
       ]
     },
     {
-      "name": "DOPAMINE",
-      "slug": "dopamine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Dorzolamide",
       "slug": "dorzolamide",
       "brands": [],
@@ -4702,14 +4566,6 @@
       ]
     },
     {
-      "name": "Enalapril",
-      "slug": "enalapril",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Enoxaparin",
       "slug": "enoxaparin",
       "brands": [],
@@ -4880,14 +4736,6 @@
       ]
     },
     {
-      "name": "ERGOTAMINE",
-      "slug": "ergotamine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Ertapenem",
       "slug": "ertapenem",
       "brands": [],
@@ -4939,22 +4787,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Escitalopram",
-      "slug": "escitalopram",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "ESMOLOL",
-      "slug": "esmolol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ethambutol",
@@ -5937,14 +5769,6 @@
       ]
     },
     {
-      "name": "FONDAPARINUX",
-      "slug": "fondaparinux",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Formoterol",
       "slug": "formoterol",
       "brands": [],
@@ -6043,14 +5867,6 @@
       ]
     },
     {
-      "name": "FUROSEMIDE",
-      "slug": "furosemide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Fusidic Acid",
       "slug": "fusidic-acid",
       "brands": [],
@@ -6110,22 +5926,6 @@
       ]
     },
     {
-      "name": "Gabapentin",
-      "slug": "gabapentin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "GANCICLOVIR",
-      "slug": "ganciclovir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Gemcitabine",
       "slug": "gemcitabine",
       "brands": [],
@@ -6183,14 +5983,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "GLICLAZIDE",
-      "slug": "gliclazide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Glucagon",
@@ -6348,22 +6140,6 @@
       ]
     },
     {
-      "name": "HYDRALAZINE",
-      "slug": "hydralazine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "HYDROCHLOROTHIAZIDE",
-      "slug": "hydrochlorothiazide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Hydrocortisone",
       "slug": "hydrocortisone",
       "brands": [],
@@ -6421,14 +6197,6 @@
           "level": "L4"
         }
       ]
-    },
-    {
-      "name": "HYDROXYCHLOROQUINE",
-      "slug": "hydroxychloroquine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Hydroxyurea",
@@ -6561,14 +6329,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "IDARUBICIN",
-      "slug": "idarubicin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ifosfamide",
@@ -6839,14 +6599,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "INDAPAMIDE",
-      "slug": "indapamide",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Insulin Glargine",
@@ -7333,14 +7085,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "KANAMYCIN",
-      "slug": "kanamycin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ketamine",
@@ -8030,14 +7774,6 @@
       ]
     },
     {
-      "name": "LINEZOLID",
-      "slug": "linezolid",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Lithium Carbonate",
       "slug": "lithium-carbonate",
       "brands": [],
@@ -8178,14 +7914,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "LORATADINE",
-      "slug": "loratadine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Losartan",
@@ -8344,14 +8072,6 @@
       ]
     },
     {
-      "name": "MEBEVERINE",
-      "slug": "mebeverine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Mecobalamin",
       "slug": "mecobalamin",
       "brands": [],
@@ -8425,14 +8145,6 @@
       "brands": [],
       "original": "",
       "level": "L3",
-      "indications": []
-    },
-    {
-      "name": "MEFLOQUINE",
-      "slug": "mefloquine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
       "indications": []
     },
     {
@@ -8723,14 +8435,6 @@
       ]
     },
     {
-      "name": "METHIMAZOLE",
-      "slug": "methimazole",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Methotrexate",
       "slug": "methotrexate",
       "brands": [],
@@ -8788,14 +8492,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "METHYLDOPA",
-      "slug": "methyldopa",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Methylene Blue",
@@ -9416,22 +9112,6 @@
       ]
     },
     {
-      "name": "NALOXONE",
-      "slug": "naloxone",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NALTREXONE",
-      "slug": "naltrexone",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Naproxen",
       "slug": "naproxen",
       "brands": [],
@@ -9625,22 +9305,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "NICOTINE",
-      "slug": "nicotine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "NIFEDIPINE",
-      "slug": "nifedipine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Nimodipine",
@@ -10054,14 +9718,6 @@
       ]
     },
     {
-      "name": "OSELTAMIVIR",
-      "slug": "oseltamivir",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Oxacillin",
       "slug": "oxacillin",
       "brands": [],
@@ -10201,14 +9857,6 @@
           "level": "L1"
         }
       ]
-    },
-    {
-      "name": "OXYTOCIN",
-      "slug": "oxytocin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Paclitaxel",
@@ -10425,14 +10073,6 @@
           "level": "L1"
         }
       ]
-    },
-    {
-      "name": "PERMETHRIN",
-      "slug": "permethrin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Phenobarbital",
@@ -10694,14 +10334,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "PRAZIQUANTEL",
-      "slug": "praziquantel",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Prednisolone",
@@ -11056,22 +10688,6 @@
       ]
     },
     {
-      "name": "PYRIDOXINE",
-      "slug": "pyridoxine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "PYRIMETHAMINE",
-      "slug": "pyrimethamine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Quetiapine",
       "slug": "quetiapine",
       "brands": [],
@@ -11129,14 +10745,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "QUININE",
-      "slug": "quinine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Rabeprazole",
@@ -11582,14 +11190,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "RITUXIMAB",
-      "slug": "rituximab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Rivastigmine",
@@ -12587,14 +12187,6 @@
       ]
     },
     {
-      "name": "TAFLUPROST",
-      "slug": "tafluprost",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Tamoxifen",
       "slug": "tamoxifen",
       "brands": [],
@@ -12933,14 +12525,6 @@
       ]
     },
     {
-      "name": "TERBINAFINE",
-      "slug": "terbinafine",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Terbutaline",
       "slug": "terbutaline",
       "brands": [],
@@ -12958,14 +12542,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "TESTOSTERONE",
-      "slug": "testosterone",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Tetracaine",
@@ -13171,22 +12747,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "TIMOLOL",
-      "slug": "timolol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "TINZAPARIN",
-      "slug": "tinzaparin",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Tiotropium",
@@ -13659,14 +13219,6 @@
       ]
     },
     {
-      "name": "TRICLABENDAZOLE",
-      "slug": "triclabendazole",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Trimethoprim",
       "slug": "trimethoprim",
       "brands": [],
@@ -14050,14 +13602,6 @@
     {
       "name": "Vitamin A",
       "slug": "vitamin-a",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "VORICONAZOLE",
-      "slug": "voriconazole",
       "brands": [],
       "original": "",
       "level": "L5",

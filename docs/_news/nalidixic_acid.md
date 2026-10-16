@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Nalidixic Acid with the late
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/nalidixic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/nalidixic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

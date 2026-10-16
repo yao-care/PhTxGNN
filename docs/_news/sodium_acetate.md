@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Sodium Acetate with the late
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/sodium_acetate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/sodium-acetate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Ascorbic Acid with the lates
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/ascorbic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ascorbic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

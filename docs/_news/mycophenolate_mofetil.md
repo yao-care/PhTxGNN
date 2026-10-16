@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Mycophenolate Mofetil with t
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/mycophenolate_mofetil/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/mycophenolate-mofetil/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

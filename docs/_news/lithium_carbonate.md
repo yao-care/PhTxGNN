@@ -25,7 +25,7 @@ This page combines the AI-predicted indications for Lithium Carbonate with the l
 <strong>Drug Information</strong>
 <ul>
 </ul>
-<p><a href="{{ '/drugs/lithium_carbonate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/lithium-carbonate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
