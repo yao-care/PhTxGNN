@@ -21,8 +21,8 @@ PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the Tx
 |--------|-------|
 | PNF Drugs Analyzed | 529 |
 | DrugBank Mapping Rate | 85.4% |
-| Drug-Indication Pairs | 3,322 |
-| Unique Drugs with Indications | 338 |
+| Predicted New Indications (known uses excluded) | {{ site.data.site_stats.indications }} |
+| Drug Reports | {{ site.data.site_stats.drugs }} |
 | Unique Diseases | 880 |
 
 ## Data Sources
