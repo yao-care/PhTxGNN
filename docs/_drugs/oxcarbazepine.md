@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxcarbazepine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy, partial motor epilepsy"
+monitor_inn: "Oxcarbazepine"
+predicted_indications: ["visual epilepsy", "restless legs syndrome", "micturation-induced seizures", "orgasm-induced seizures", "eating seizures", "thinking seizures", "startle epilepsy", "audiogenic seizures", "status epilepticus", "reading seizures"]
 ---
 
 # Oxcarbazepine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the Philippines registration data"
+monitor_inn: "Levobupivacaine"
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Levobupivacaine

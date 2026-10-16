@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (infectious otitis media, bacterial pneumonia…"
+monitor_inn: "Clarithromycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 ---
 
 # Clarithromycin

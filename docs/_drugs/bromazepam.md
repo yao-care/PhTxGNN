@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Bromazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the registration record"
+monitor_inn: "Bromazepam"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Bromazepam

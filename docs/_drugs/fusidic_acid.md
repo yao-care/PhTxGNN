@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L4). Approved use: Urinary tract infection, bronchitis, acne, folliculitis…"
+monitor_inn: "Fusidic acid"
+predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---
 
 # Fusidic Acid

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Spectinomycin: predicted new indication Urethral disease (evidence level L5). Approved use: Acute gonococcal cervicitis"
+monitor_inn: "Spectinomycin"
+predicted_indications: ["disease of uterine broad ligament", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
 ---
 
 # Spectinomycin

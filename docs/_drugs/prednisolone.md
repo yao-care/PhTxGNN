@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease (other listed indications include Crohn disease…"
+monitor_inn: "Prednisolone"
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland", "idiopathic steroid-sensitive nephrotic syndrome"]
 ---
 
 # Prednisolone

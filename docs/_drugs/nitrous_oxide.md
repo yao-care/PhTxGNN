@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the Philippines registration data"
+monitor_inn: "Nitrous oxide"
+predicted_indications: ["benign prostatic hyperplasia (disease)"]
 ---
 
 # Nitrous Oxide

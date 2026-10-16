@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the Philippines registration data"
+monitor_inn: "Clozapine"
+predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
 ---
 
 # Clozapine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Delamanid: predicted new indication Tuberculosis, bovine (evidence level L5). Approved use: Multidrug-resistant tuberculosis"
+monitor_inn: "Delamanid"
+predicted_indications: ["tuberculosis, bovine", "tuberculous ascites", "inactive tuberculosis", "tuberculosis, avian", "tuberculoma", "allergic urticaria", "cutaneous tuberculosis"]
 ---
 
 # Delamanid

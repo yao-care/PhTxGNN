@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Thiamine: predicted new indication Hyperthyroidism (evidence level L3). Approved use: Not available"
+monitor_inn: "Thiamine"
+predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
 ---
 
 # Thiamine

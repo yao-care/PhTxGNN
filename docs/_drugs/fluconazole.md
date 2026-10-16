@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
+monitor_inn: "Fluconazole"
+predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 ---
 
 # Fluconazole

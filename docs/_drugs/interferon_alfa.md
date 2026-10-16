@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Interferon Alfa: predicted new indication Heart disease (evidence level L4). Approved use: Not stated in the registration data"
+monitor_inn: "Interferon alfa"
+predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "interventricular septum aneurysm"]
 ---
 
 # Interferon Alfa

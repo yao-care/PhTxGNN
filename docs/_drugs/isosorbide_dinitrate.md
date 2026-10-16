@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Isosorbide Dinitrate: predicted new indication 99.99% (evidence level L5). Approved use: Alopecia"
+monitor_inn: "Isosorbide dinitrate"
+predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "venous thoracic outlet syndrome"]
 ---
 
 # Isosorbide Dinitrate

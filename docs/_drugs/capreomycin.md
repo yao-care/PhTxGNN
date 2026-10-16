@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Pulmonary tuberculosis"
+monitor_inn: "Capreomycin"
+predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "osteoarthritis susceptibility", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Capreomycin

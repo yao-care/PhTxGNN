@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Fomepizole: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not listed in the Philippines registration record"
+monitor_inn: "Fomepizole"
+predicted_indications: ["sclerosing cholangitis"]
 ---
 
 # Fomepizole

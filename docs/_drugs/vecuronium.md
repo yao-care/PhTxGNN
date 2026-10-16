@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Vecuronium: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Philippines registration data (the approved indicat…"
+monitor_inn: "Vecuronium"
+predicted_indications: ["insomnia (disease)", "irritable bowel syndrome"]
 ---
 
 # Vecuronium

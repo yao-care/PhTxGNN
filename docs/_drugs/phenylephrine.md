@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+monitor_inn: "Phenylephrine"
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine

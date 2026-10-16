@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
+monitor_inn: "Paclitaxel"
+predicted_indications: ["female breast carcinoma", "estrogen-receptor negative breast cancer", "estrogen-receptor positive breast cancer", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "nipple carcinoma", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Paclitaxel

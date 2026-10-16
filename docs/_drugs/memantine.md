@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not available"
+monitor_inn: "Memantine"
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 ---
 
 # Memantine

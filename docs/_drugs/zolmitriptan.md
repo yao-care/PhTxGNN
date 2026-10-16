@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Zolmitriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (migraine with or without aura)"
+monitor_inn: "Zolmitriptan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 ---
 
 # Zolmitriptan

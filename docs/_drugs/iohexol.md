@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Iohexol: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
+monitor_inn: "Iohexol"
+predicted_indications: ["insomnia (disease)", "anxiety"]
 ---
 
 # Iohexol

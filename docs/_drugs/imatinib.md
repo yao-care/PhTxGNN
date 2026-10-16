@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Imatinib: predicted new indication Heart fibrosarcoma (evidence level L4). Approved use: Not stated in the Philippines registration record. The knowledge grap…"
+monitor_inn: "Imatinib"
+predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
 ---
 
 # Imatinib

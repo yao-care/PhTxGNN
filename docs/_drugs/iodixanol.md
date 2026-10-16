@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Iodixanol: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: Not available in the Philippines registration data"
+monitor_inn: "Iodixanol"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis"]
 ---
 
 # Iodixanol

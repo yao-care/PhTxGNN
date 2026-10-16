@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L4). Approved use: Female breast carcinoma, invasive ductal breast carcinoma…"
+monitor_inn: "Tamoxifen"
+predicted_indications: ["mammary Paget disease", "intraductal cribriform breast adenocarcinoma", "basal-like breast carcinoma", "breast carcinoma in situ", "sebaceous breast carcinoma", "invasive tubular breast carcinoma", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "estrogen-receptor positive breast cancer", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Tamoxifen

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Iopromide: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: No approved indication text is available in the Philippines registrat…"
+monitor_inn: "Iopromide"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
 ---
 
 # Iopromide

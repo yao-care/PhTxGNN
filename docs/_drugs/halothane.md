@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Halothane: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the Philippines licence data (halothane is generally…"
+monitor_inn: "Halothane"
+predicted_indications: ["manic bipolar affective disorder", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "trichotillomania", "bipolar disorder", "major affective disorder"]
 ---
 
 # Halothane

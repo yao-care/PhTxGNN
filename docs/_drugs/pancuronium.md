@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pancuronium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the Philippines registration data"
+monitor_inn: "Pancuronium"
+predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "migraine disorder", "migraine with brainstem aura", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "autonomic nervous system disease", "MVP1"]
 ---
 
 # Pancuronium

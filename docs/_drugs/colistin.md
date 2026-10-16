@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Colistin: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Escherichia coli infection, otitis externa, external ear disease"
+monitor_inn: "Colistin"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 ---
 
 # Colistin

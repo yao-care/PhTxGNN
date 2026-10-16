@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Staphylococcus aureus infection"
+monitor_inn: "Oxacillin"
+predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
 ---
 
 # Oxacillin

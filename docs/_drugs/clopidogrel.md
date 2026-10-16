@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Clopidogrel: predicted new indication Migraine disorder (evidence level L2). Approved use: Acute coronary syndrome, intracranial embolism…"
+monitor_inn: "Clopidogrel"
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "osteoarthritis susceptibility"]
 ---
 
 # Clopidogrel

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not stated in the Philippines license record"
+monitor_inn: "Letrozole"
+predicted_indications: ["female breast carcinoma", "nipple carcinoma", "estrogen-receptor negative breast cancer", "estrogen-receptor positive breast cancer", "hormone-resistant breast carcinoma", "Ehrlich tumor carcinoma", "bilateral breast carcinoma", "breast carcinoma by gene expression profile", "breast fibrocystic disease", "benign mammary dysplasia"]
 ---
 
 # Letrozole
