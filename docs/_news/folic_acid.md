@@ -28,7 +28,7 @@ This page combines the AI-predicted indications for Folic Acid with the latest h
 <li>biotin metabolic disease (99.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/folic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/folic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

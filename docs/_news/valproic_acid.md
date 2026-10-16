@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Valproic Acid with the lates
 <li>reading seizures (99.8%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/valproic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/valproic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

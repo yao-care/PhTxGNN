@@ -28,7 +28,7 @@ This page combines the AI-predicted indications for Ursodeoxycholic Acid with th
 <li>homozygous familial hypercholesterolemia (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/ursodeoxycholic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/ursodeoxycholic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Medroxyprogesterone Acetate 
 <li>renal hypoplasia (disease) (99.9%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/medroxyprogesterone_acetate/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/medroxyprogesterone-acetate/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -31,7 +31,7 @@ This page combines the AI-predicted indications for Benzoyl Peroxide with the la
 <li>acne keloid (99.1%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/benzoyl_peroxide/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/benzoyl-peroxide/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

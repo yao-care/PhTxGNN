@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Insulin Glargine with the la
 <li>idiopathic localized lipodystrophy (99.3%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/insulin_glargine/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/insulin-glargine/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

@@ -30,7 +30,7 @@ This page combines the AI-predicted indications for Methylene Blue with the late
 <li>methemoglobinemia due to deficiency of methemoglobin reductase (99.4%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/methylene_blue/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/methylene-blue/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
