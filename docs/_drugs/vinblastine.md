@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 356
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Hodgkin lymphoma, non-Hodgkin lymphoma…"
 ---
 
 # Vinblastine

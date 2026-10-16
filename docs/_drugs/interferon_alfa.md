@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 177
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Interferon Alfa: predicted new indication Heart disease (evidence level L4). Approved use: Not stated in the registration data"
 ---
 
 # Interferon Alfa

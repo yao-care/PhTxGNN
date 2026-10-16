@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 236
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Miconazole: predicted new indication Acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
 # Miconazole

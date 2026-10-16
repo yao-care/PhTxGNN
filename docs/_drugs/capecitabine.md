@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (GAPPS) (evidence level L5). Approved use: Gastric cancer, metastasis from malignant tumour of colon"
 ---
 
 # Capecitabine

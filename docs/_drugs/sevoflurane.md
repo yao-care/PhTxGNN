@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Philippines licence record (sevoflurane is known as…"
 ---
 
 # Sevoflurane

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 130
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections such as pneumonia, otitis media, pertussis…"
 ---
 
 # Erythromycin

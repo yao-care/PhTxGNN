@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 304
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L3). Approved use: Not available in the registration data"
 ---
 
 # Sacubitril

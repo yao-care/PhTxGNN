@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the Philippines registration data"
 ---
 
 # Baclofen

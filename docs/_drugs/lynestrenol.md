@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 214
 evidence_level: L3
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Lynestrenol: predicted new indication Migraine with or without aura, susceptibility to (evidence level L3). Approved use: Not available"
 ---
 
 # Lynestrenol

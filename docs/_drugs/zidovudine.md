@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 360
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infection and AIDS"
 ---
 
 # Zidovudine

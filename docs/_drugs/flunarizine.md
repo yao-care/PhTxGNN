@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 146
 evidence_level: L2
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Flunarizine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not available in the registration data"
 ---
 
 # Flunarizine

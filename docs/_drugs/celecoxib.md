@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 69
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Celecoxib: predicted new indication Inflammatory spondylopathy (evidence level L1). Approved use: Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis…"
 ---
 
 # Celecoxib

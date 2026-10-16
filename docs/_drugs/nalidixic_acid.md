@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 246
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not stated in the registration data (class use: bacterial infections)"
 ---
 
 # Nalidixic Acid

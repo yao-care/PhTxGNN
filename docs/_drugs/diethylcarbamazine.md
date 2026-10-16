@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Diethylcarbamazine: predicted new indication Syndromic lymphedema (evidence level L5). Approved use: Filariasis and related conditions (elephantiasis, lymphedema, loiasis…"
 ---
 
 # Diethylcarbamazine

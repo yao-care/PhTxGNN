@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 66
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ceftazidime: predicted new indication Urinary tract infection . The rank 1 prediction by TxGNN score is pol… (evidence level L2). Approved use: Bacterial infections (streptococcal, staphylococcal, pn…"
 ---
 
 # Ceftazidime

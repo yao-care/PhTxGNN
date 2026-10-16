@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Fluorouracil: predicted new indication Rhabdomyosarcoma (evidence level L5). Approved use: Superficial multifocal basal cell carcinoma, actinic keratosis…"
 ---
 
 # Fluorouracil

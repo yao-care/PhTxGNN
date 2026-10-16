@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 76
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (infectious otitis media, bacterial pneumonia…"
 ---
 
 # Clarithromycin

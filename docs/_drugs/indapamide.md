@@ -9,6 +9,7 @@ last_modified_date: 2026-03-11
 evidence_level: L5
 nav_exclude: true
 search_exclude: true
+last_modified_at: 2026-03-12
 ---
 
 # INDAPAMIDE

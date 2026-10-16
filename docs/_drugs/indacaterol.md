@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (NSIAD) (evidence level L5). Approved use: Not recorded in the Philippines registration data (pharmacologicall…"
 ---
 
 # Indacaterol

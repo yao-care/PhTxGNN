@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 206
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Streptococcal infection, bacterial pneumonia, anthrax infection…"
 ---
 
 # Levofloxacin

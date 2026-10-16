@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ofloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Typhoid fever, salmonellosis, paratyphoid fever…"
 ---
 
 # Ofloxacin

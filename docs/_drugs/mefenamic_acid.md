@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Mefenamic Acid: predicted new indication 99.73% (evidence level L3). Approved use: Rheumatoid arthritis"
 ---
 
 # Mefenamic Acid

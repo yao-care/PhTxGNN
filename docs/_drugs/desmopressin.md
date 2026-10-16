@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 102
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Desmopressin: predicted new indication Primary release disorder of platelets (evidence level L3). Approved use: Hereditary von Willebrand disease…"
 ---
 
 # Desmopressin

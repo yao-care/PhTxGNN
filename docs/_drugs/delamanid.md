@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Delamanid: predicted new indication Tuberculosis, bovine (evidence level L5). Approved use: Multidrug-resistant tuberculosis"
 ---
 
 # Delamanid

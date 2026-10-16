@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 89
 evidence_level: L2
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Cyclophosphamide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: No approved indication text is available for the Philippine registrat…"
 ---
 
 # Cyclophosphamide

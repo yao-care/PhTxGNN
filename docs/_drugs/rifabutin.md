@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 293
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Rifabutin: predicted new indication HIV infectious disease (in practice, HIV-associated MAC/TB) (evidence level L1). Approved use: Not available in the Philippines license record"
 ---
 
 # Rifabutin

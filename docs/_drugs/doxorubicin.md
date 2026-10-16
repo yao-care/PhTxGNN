@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 119
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Doxorubicin: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
 ---
 
 # Doxorubicin

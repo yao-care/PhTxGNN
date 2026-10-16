@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 166
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L4). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 ---
 
 # Heparin

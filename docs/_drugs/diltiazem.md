@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Diltiazem: predicted new indication Obsolete susceptibility to ischemic stroke (evidence level L5). Approved use: Hypertension, atrial fibrillation, Prinzmetal angina…"
 ---
 
 # Diltiazem

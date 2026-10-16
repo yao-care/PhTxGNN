@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 75
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ciprofloxacin: predicted new indication Diffuse scleroderma (evidence level L4). Approved use: Bacterial infections (typhoid fever, salmonellosis, paratyphoid fever…"
 ---
 
 # Ciprofloxacin

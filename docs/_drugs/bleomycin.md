@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 47
 evidence_level: L1
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Bleomycin: predicted new indication Reticulum cell sarcoma (evidence level L1). Approved use: Hodgkin and non-Hodgkin lymphoma, mantle cell and follicular lymphoma…"
 ---
 
 # Bleomycin

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-15
+description: "Goserelin: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis (including endometriosis of uterus)"
 ---
 
 # Goserelin
