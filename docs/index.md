@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Drug Repurposing Predictions — Philippines
 nav_order: 1
 ---
 
