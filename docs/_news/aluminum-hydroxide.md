@@ -32,7 +32,7 @@ This page combines the AI-predicted indications for ALUMINUM HYDROXIDE with the 
 <li>peptic ulcer perforation (99.5%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/aluminum-hydroxide/' | relative_url }}">View full drug report →</a></p>
+
 </div>
 
 ## Related News (0)

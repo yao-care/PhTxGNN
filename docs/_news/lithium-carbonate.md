@@ -38,7 +38,7 @@ This page combines the AI-predicted indications for LITHIUM CARBONATE with the l
 <li>combined immunodeficiency due to moesin deficiency (99.3%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/lithium-carbonate/' | relative_url }}">View full drug report →</a></p>
+
 </div>
 
 ## Related News (0)

@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for SALICYLIC ACID with the late
 <li>Spondyloarthropathy, susceptibility to | 99.34% | Moderate class-level plausibility (NSAID-type symptom relief); no salicylic acid-specific evidence (99.0%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/salicylic-acid/' | relative_url }}">View full drug report →</a></p>
+
 </div>
 
 ## Related News (0)
