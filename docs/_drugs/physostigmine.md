@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Physostigmine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
-monitor_inn: "Physostigmine"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Physostigmine
@@ -27,7 +25,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

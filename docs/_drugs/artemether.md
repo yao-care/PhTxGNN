@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Artemether: predicted new indication Acquired angioedema (evidence level L5). Approved use: Not recorded in the Philippines license data (antimalarial by drug cl…"
 monitor_inn: "Artemether"
-predicted_indications: ["acquired angioedema", "Plasmodium falciparum malaria", "malaria", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
+predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
 ---
 
 # Artemether
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

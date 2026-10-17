@@ -3,7 +3,7 @@ layout: default
 title: Methodology
 nav_order: 91
 permalink: /methodology/
-description: "How PhTxGNN produces and validates predictions: TxGNN knowledge graph prediction, evidence collection, L1-L5 grading, and decision recommendations."
+description: "How PhTxGNN produces and validates predictions: TxGNN deep learning prediction, evidence collection, L1-L5 grading, and decision recommendations."
 ---
 
 # Methodology

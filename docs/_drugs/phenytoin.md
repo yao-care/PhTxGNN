@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic seizures…"
 monitor_inn: "Phenytoin"
-predicted_indications: ["trigeminal nerve neoplasm", "orgasm-induced seizures", "audiogenic seizures", "micturation-induced seizures", "thinking seizures", "eating seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Phenytoin
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

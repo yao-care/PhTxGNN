@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ranitidine: predicted new indication Active peptic ulcer disease (evidence level L4). Approved use: Gastric ulcer, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Ranitidine"
-predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Ranitidine
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
