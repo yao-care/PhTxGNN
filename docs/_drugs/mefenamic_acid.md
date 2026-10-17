@@ -6,9 +6,9 @@ nav_order: 219
 evidence_level: L3
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Mefenamic Acid: predicted new indication 99.73% (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L3)."
 ---
 
 # Mefenamic Acid
