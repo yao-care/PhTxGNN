@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-15
 description: "Tazobactam: predicted new indication Pneumonia (evidence level L1). Approved use: Bacterial pneumonia, peritonitis, appendicitis…"
 monitor_inn: "Tazobactam"
-predicted_indications: ["pneumonia", "urinary tract infection (disease)"]
+predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Tazobactam

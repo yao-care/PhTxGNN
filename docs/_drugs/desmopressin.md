@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-15
 description: "Desmopressin: predicted new indication Primary release disorder of platelets (evidence level L3). Approved use: Hereditary von Willebrand disease…"
 monitor_inn: "Desmopressin"
-predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Scott syndrome", "flood factor deficiency"]
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 ---
 
 # Desmopressin

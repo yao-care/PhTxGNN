@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Thiopental: predicted new indication Trichotillomania (evidence level L5). Approved use: Epilepsy, pseudotumor cerebri, intracranial hypertension"
 monitor_inn: "Thiopental"
-predicted_indications: ["trichotillomania", "frontal lobe epilepsy", "Prinzmetal angina", "migraine disorder", "absence epilepsy", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
+predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
 
 # Thiopental

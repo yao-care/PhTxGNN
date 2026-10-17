@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Hydroxyzine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Atopic eczema, allergic rhinitis, urticaria, angioedema…"
 monitor_inn: "Hydroxyzine"
-predicted_indications: ["allergic urticaria", "rosacea conjunctivitis", "cold urticaria", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Hydroxyzine

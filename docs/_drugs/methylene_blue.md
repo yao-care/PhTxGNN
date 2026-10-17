@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "Methylene blue"
-predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
+predicted_indications: ["bronchitis"]
 ---
 
 # Methylene Blue
