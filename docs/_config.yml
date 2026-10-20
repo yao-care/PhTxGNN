@@ -2,7 +2,7 @@
 
 # Basic settings
 title: "PhTxGNN Drug Repurposing Reports"
-description: "Philippine drug repurposing predictions using TxGNN knowledge graph"
+description: "Philippine drug repurposing predictions using the TxGNN graph neural network"
 
 url: "https://phtxgnn.yao.care"
 baseurl: ""

@@ -6,7 +6,7 @@ nav_order: 1
 
 # PhTxGNN Drug Repurposing Reports
 
-Philippine drug repurposing predictions using TxGNN knowledge graph.
+Philippine drug repurposing predictions using the TxGNN graph neural network.
 
 {: .warning }
 > **Disclaimer**: These predictions are for research purposes only. They do not constitute medical advice and require clinical validation before any clinical application.
@@ -28,7 +28,7 @@ PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the Tx
 ## Data Sources
 
 - **Philippine National Formulary (PNF)**: Essential Medicines List, 8th Edition (2022)
-- **TxGNN Knowledge Graph**: Drug-disease relationship predictions
+- **TxGNN**: Graph neural network trained on a knowledge graph; predicts drug-disease relationships (known uses already in the graph are excluded)
 - **DrugBank**: Drug identifier mapping
 
 ## Quick Links
@@ -40,7 +40,7 @@ PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the Tx
 
 1. **Drug Extraction**: Extract drug names from PNF-EML 2022
 2. **DrugBank Mapping**: Map drug names to standard DrugBank identifiers
-3. **TxGNN Prediction**: Use knowledge graph to find potential indications
+3. **TxGNN Prediction**: Use the TxGNN graph neural network (score ≥ 0.99) to find potential new indications, excluding known uses
 4. **FHIR Export**: Generate FHIR R4 resources for interoperability
 
 ## Contact
