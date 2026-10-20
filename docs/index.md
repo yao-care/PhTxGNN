@@ -13,7 +13,7 @@ Philippine drug repurposing predictions using the TxGNN graph neural network.
 
 ## Overview
 
-PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the TxGNN knowledge graph to identify potential new therapeutic uses for existing medications.
+PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the TxGNN graph neural network to identify potential new therapeutic uses for existing medications.
 
 ### Key Statistics
 
