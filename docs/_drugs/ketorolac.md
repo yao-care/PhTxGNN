@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Atopic, papillary and vernal conjunctivitis"
 monitor_inn: "Ketorolac"
-predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

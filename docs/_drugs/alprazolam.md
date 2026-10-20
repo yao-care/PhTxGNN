@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
 monitor_inn: "Alprazolam"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Alprazolam
