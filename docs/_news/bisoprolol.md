@@ -3,7 +3,7 @@ layout: default
 title: "Bisoprolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bisoprolol. Original indication: . 5 predicted indications."
+description: "Health news related to Bisoprolol. Original indication: . 1 predicted indications."
 permalink: /news/bisoprolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bisoprolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Bisoprolol?">
-<strong>Bisoprolol</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Bisoprolol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ This page combines the AI-predicted indications for Bisoprolol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>malignant hypertensive renal disease (99.9%)</li>
-<li>malignant renovascular hypertension (99.9%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
-<li>Braddock syndrome (99.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant hypertensive renal disease (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bisoprolol/' | relative_url }}">View full drug report →</a></p>

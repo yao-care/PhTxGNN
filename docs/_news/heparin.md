@@ -3,7 +3,7 @@ layout: default
 title: "Heparin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Heparin. Original indication: . 2 predicted indications."
+description: "Health news related to Heparin. Original indication: . 1 predicted indications."
 permalink: /news/heparin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/heparin/
 ---
 
 <p class="key-answer" data-question="What news is there about Heparin?">
-<strong>Heparin</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Heparin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Heparin with the latest heal
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>thrombophilia due to protein C deficiency, autosomal recessive (99.3%)</li>
-<li>primary release disorder of platelets (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Thrombophilia due to protein C deficiency, autosomal recessive (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/heparin/' | relative_url }}">View full drug report →</a></p>

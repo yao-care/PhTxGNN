@@ -3,7 +3,7 @@ layout: default
 title: "Fosfomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fosfomycin. Original indication: . 10 predicted indications."
+description: "Health news related to Fosfomycin. Original indication: . 1 predicted indications."
 permalink: /news/fosfomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fosfomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Fosfomycin?">
-<strong>Fosfomycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fosfomycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Fosfomycin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>gonococcal urethritis (100.0%)</li>
-<li>Ureaplasma urethritis (100.0%)</li>
-<li>uterine inflammatory disease (100.0%)</li>
-<li>xanthogranulomatous pyelonephritis (100.0%)</li>
-<li>epiglottitis (99.9%)</li>
-<li>urogenital tuberculosis (99.9%)</li>
-<li>laryngitis (99.7%)</li>
-<li>hyperamylasemia (99.5%)</li>
-<li>polyclonal hyperviscosity syndrome (99.5%)</li>
-<li>pyelitis (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Gonococcal urethritis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fosfomycin/' | relative_url }}">View full drug report →</a></p>

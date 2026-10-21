@@ -3,7 +3,7 @@ layout: default
 title: "Atropine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atropine. Original indication: he TxGNN model predicts it may be effective for **.... 2 predicted indications."
+description: "Health news related to Atropine. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/atropine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atropine/
 ---
 
 <p class="key-answer" data-question="What news is there about Atropine?">
-<strong>Atropine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Atropine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,9 +26,8 @@ This page combines the AI-predicted indications for Atropine with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and only **11 publications** (mostly preclinical, case reports, or off-topic). This...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>migraine disorder (99.6%)</li>
-<li>migraine with brainstem aura (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atropine/' | relative_url }}">View full drug report →</a></p>

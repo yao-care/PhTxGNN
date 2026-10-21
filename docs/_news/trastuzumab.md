@@ -3,7 +3,7 @@ layout: default
 title: "Trastuzumab News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Trastuzumab. Original indication: The benefit is driven by HER2 expression, not by P.... 10 predicted indications."
+description: "Health news related to Trastuzumab. Original indication: The benefit is driven by HER2 expression, not by P.... 1 predicted indications."
 permalink: /news/trastuzumab/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/trastuzumab/
 ---
 
 <p class="key-answer" data-question="What news is there about Trastuzumab?">
-<strong>Trastuzumab</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Trastuzumab</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Trastuzumab with the latest 
 <ul>
 <li><strong>Original indication</strong>: The benefit is driven by HER2 expression, not by PR status. The evidence does not extend to HR+/HER2-negative disease, so any use should be restricted to confirmed HER2-positive tumours.</li>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>progesterone-receptor positive breast cancer (99.9%)</li>
-<li>normal breast-like subtype of breast carcinoma (99.9%)</li>
-<li>progesterone-receptor negative breast cancer (99.9%)</li>
-<li>breast tumor luminal A or B (99.9%)</li>
-<li>malignant cutaneous granular cell skin tumor (99.5%)</li>
-<li>ectomesenchymoma (99.5%)</li>
-<li>human herpesvirus 8-related tumor (99.5%)</li>
-<li>middle ear neuroendocrine tumor (99.4%)</li>
-<li>kidney pelvis sarcomatoid transitional cell carcinoma (99.0%)</li>
-<li>prostatic urethra urothelial carcinoma (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Progesterone-receptor positive breast cancer (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/trastuzumab/' | relative_url }}">View full drug report →</a></p>

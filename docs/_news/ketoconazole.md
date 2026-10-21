@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Ketoconazole with the latest
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>acne (disease) (99.8%)</li>
+<li>Acne (disease) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ketoconazole/' | relative_url }}">View full drug report →</a></p>

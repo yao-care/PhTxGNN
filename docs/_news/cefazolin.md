@@ -3,7 +3,7 @@ layout: default
 title: "Cefazolin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefazolin. Original indication: . 8 predicted indications."
+description: "Health news related to Cefazolin. Original indication: . 1 predicted indications."
 permalink: /news/cefazolin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefazolin/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefazolin?">
-<strong>Cefazolin</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Cefazolin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Cefazolin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>infectious otitis media (99.4%)</li>
-<li>bronchitis (99.3%)</li>
-<li>middle ear disease (99.1%)</li>
-<li>chronic otitis media (99.1%)</li>
-<li>suppurative otitis media (99.1%)</li>
-<li>otosalpingitis (99.1%)</li>
-<li>non-suppurative otitis media (99.0%)</li>
-<li>allergic otitis media (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Infectious otitis media (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefazolin/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Bumetanide with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>acute pulmonary heart disease (99.6%)</li>
+<li>Acute pulmonary heart disease (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bumetanide/' | relative_url }}">View full drug report →</a></p>

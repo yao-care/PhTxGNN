@@ -3,7 +3,7 @@ layout: default
 title: "Acetylcysteine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acetylcysteine. Original indication: . 10 predicted indications."
+description: "Health news related to Acetylcysteine. Original indication: . 1 predicted indications."
 permalink: /news/acetylcysteine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acetylcysteine/
 ---
 
 <p class="key-answer" data-question="What news is there about Acetylcysteine?">
-<strong>Acetylcysteine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Acetylcysteine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Acetylcysteine with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>thrombotic disease (100.0%)</li>
-<li>closed-angle glaucoma (100.0%)</li>
-<li>nasal cavity disease (99.9%)</li>
-<li>dry eye syndrome (99.9%)</li>
-<li>pharyngitis (99.8%)</li>
-<li>acute laryngopharyngitis (99.8%)</li>
-<li>tracheal disease (99.6%)</li>
-<li>transient ischemic attack (disease) (99.5%)</li>
-<li>laryngotracheitis (99.3%)</li>
-<li>angle-closure glaucoma (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Thrombotic disease (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acetylcysteine/' | relative_url }}">View full drug report →</a></p>

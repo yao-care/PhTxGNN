@@ -3,7 +3,7 @@ layout: default
 title: "Rifampicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rifampicin. Original indication: . 10 predicted indications."
+description: "Health news related to Rifampicin. Original indication: . 1 predicted indications."
 permalink: /news/rifampicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rifampicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Rifampicin?">
-<strong>Rifampicin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Rifampicin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Rifampicin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>conjunctivitis (100.0%)</li>
-<li>multiple endocrine neoplasia (99.9%)</li>
-<li>acne (disease) (99.7%)</li>
-<li>conjunctivitis (disease) (99.6%)</li>
-<li>HIV infectious disease (99.6%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.5%)</li>
-<li>rheumatoid arthritis (99.5%)</li>
-<li>acute contagious conjunctivitis (99.4%)</li>
-<li>simian immunodeficiency virus infection (99.3%)</li>
-<li>feline acquired immunodeficiency syndrome (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Conjunctivitis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rifampicin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Biperiden News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Biperiden. Original indication: . 10 predicted indications."
+description: "Health news related to Biperiden. Original indication: . 1 predicted indications."
 permalink: /news/biperiden/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/biperiden/
 ---
 
 <p class="key-answer" data-question="What news is there about Biperiden?">
-<strong>Biperiden</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Biperiden</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Biperiden with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
 <li>Rasmussen subacute encephalitis (99.9%)</li>
-<li>myelitis (99.9%)</li>
-<li>PLA2G6-associated neurodegeneration (99.9%)</li>
-<li>transaldolase deficiency (99.8%)</li>
-<li>fructose-1,6-bisphosphatase deficiency (99.8%)</li>
-<li>progressive supranuclear palsy-corticobasal syndrome (99.8%)</li>
-<li>paralysis agitans, juvenile, of Hunt (99.7%)</li>
-<li>Lewy body dementia (99.7%)</li>
-<li>attention deficit-hyperactivity disorder (99.7%)</li>
-<li>X-linked intellectual disability-ataxia-apraxia syndrome (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/biperiden/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Sumatriptan with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>migraine with brainstem aura (99.7%)</li>
+<li>Migraine with brainstem aura (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sumatriptan/' | relative_url }}">View full drug report →</a></p>

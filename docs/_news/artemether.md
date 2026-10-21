@@ -3,7 +3,7 @@ layout: default
 title: "Artemether News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Artemether. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Artemether. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/artemether/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/artemether/
 ---
 
 <p class="key-answer" data-question="What news is there about Artemether?">
-<strong>Artemether</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Artemether</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Artemether with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **acquired angioedema**, but **0 clinical trials** and **0 publications** support this prediction, so it rests on the computational model alone.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>acquired angioedema (99.9%)</li>
-<li>Plasmodium falciparum malaria (99.8%)</li>
-<li>malaria (99.6%)</li>
-<li>angioedema (99.6%)</li>
-<li>hereditary angioedema (99.5%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.4%)</li>
-<li>acute contagious conjunctivitis (99.4%)</li>
-<li>scleroderma (disease) (99.4%)</li>
-<li>conjunctivitis (99.2%)</li>
-<li>renin-angiotensin-aldosterone system-blocker-induced angioedema (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Acquired angioedema (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/artemether/' | relative_url }}">View full drug report →</a></p>

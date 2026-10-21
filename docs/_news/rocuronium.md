@@ -3,7 +3,7 @@ layout: default
 title: "Rocuronium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rocuronium. Original indication: . 10 predicted indications."
+description: "Health news related to Rocuronium. Original indication: . 1 predicted indications."
 permalink: /news/rocuronium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rocuronium/
 ---
 
 <p class="key-answer" data-question="What news is there about Rocuronium?">
-<strong>Rocuronium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Rocuronium</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Rocuronium with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (99.9%)</li>
-<li>migraine with brainstem aura (99.9%)</li>
-<li>cauda equina syndrome (99.7%)</li>
-<li>migraine with or without aura, susceptibility to (99.7%)</li>
-<li>atrophoderma vermiculata (99.6%)</li>
-<li>ulerythema ophryogenesis (99.5%)</li>
-<li>obsolete neurogenic bladder (disease) (99.4%)</li>
-<li>irritable bowel syndrome (99.1%)</li>
-<li>sciatic neuropathy (99.1%)</li>
-<li>headache disorder (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rocuronium/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Lopinavir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lopinavir. Original indication: . 3 predicted indications."
+description: "Health news related to Lopinavir. Original indication: . 1 predicted indications."
 permalink: /news/lopinavir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lopinavir/
 ---
 
 <p class="key-answer" data-question="What news is there about Lopinavir?">
-<strong>Lopinavir</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Lopinavir</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Lopinavir with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>feline acquired immunodeficiency syndrome (99.9%)</li>
-<li>simian immunodeficiency virus infection (99.9%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Feline acquired immunodeficiency syndrome (rank 1, no supporting studies). Simian immunodeficiency virus infection (rank 2, preclinical studies only) is discussed in detail below. (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lopinavir/' | relative_url }}">View full drug report →</a></p>

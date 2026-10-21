@@ -3,7 +3,7 @@ layout: default
 title: "Ivermectin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ivermectin. Original indication: . 9 predicted indications."
+description: "Health news related to Ivermectin. Original indication: . 1 predicted indications."
 permalink: /news/ivermectin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ivermectin/
 ---
 
 <p class="key-answer" data-question="What news is there about Ivermectin?">
-<strong>Ivermectin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Ivermectin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Ivermectin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>vulvovaginal candidiasis (100.0%)</li>
-<li>esophageal candidiasis (99.7%)</li>
-<li>anogenital human papillomavirus infection (99.5%)</li>
-<li>vulvovaginitis (99.4%)</li>
-<li>congenital candidiasis (99.2%)</li>
-<li>candida glabrata (99.2%)</li>
-<li>neonatal candidiasis (99.2%)</li>
-<li>postmenopausal atrophic vaginitis (99.2%)</li>
-<li>candidiasis, invasive (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Vulvovaginal candidiasis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ivermectin/' | relative_url }}">View full drug report →</a></p>

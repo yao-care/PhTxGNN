@@ -3,7 +3,7 @@ layout: default
 title: "Tiotropium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tiotropium. Original indication: . 10 predicted indications."
+description: "Health news related to Tiotropium. Original indication: . 1 predicted indications."
 permalink: /news/tiotropium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tiotropium/
 ---
 
 <p class="key-answer" data-question="What news is there about Tiotropium?">
-<strong>Tiotropium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tiotropium</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tiotropium with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>obstructive lung disease (100.0%)</li>
-<li>respiratory malformation (100.0%)</li>
-<li>Rienhoff syndrome (99.9%)</li>
-<li>COPD, severe early onset (99.9%)</li>
-<li>chronic obstructive pulmonary disease (99.9%)</li>
-<li>hyperlucent lung (99.8%)</li>
-<li>compensatory emphysema (99.8%)</li>
-<li>interstitial emphysema (99.8%)</li>
-<li>tracheal stenosis (99.8%)</li>
-<li>susceptibility to respiratory infections associated with CD8alpha chain mutation (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obstructive lung disease (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tiotropium/' | relative_url }}">View full drug report →</a></p>

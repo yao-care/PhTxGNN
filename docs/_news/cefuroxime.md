@@ -3,7 +3,7 @@ layout: default
 title: "Cefuroxime News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefuroxime. Original indication: . 10 predicted indications."
+description: "Health news related to Cefuroxime. Original indication: . 1 predicted indications."
 permalink: /news/cefuroxime/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefuroxime/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefuroxime?">
-<strong>Cefuroxime</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Cefuroxime</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Cefuroxime with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>polyclonal hyperviscosity syndrome (99.8%)</li>
-<li>hyperamylasemia (99.8%)</li>
-<li>congenital analbuminemia (99.7%)</li>
-<li>Peptostreptococcus infectious disease (99.7%)</li>
-<li>blood group incompatibility (99.7%)</li>
-<li>urinary tract infection (disease) (99.6%)</li>
-<li>premalignant hematological system disease (99.6%)</li>
-<li>monoclonal gammopathy (99.6%)</li>
-<li>suppurative otitis media (99.6%)</li>
-<li>hematological disease associated with an acquired peripheral neuropathy (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polyclonal hyperviscosity syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cefuroxime/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Letrozole News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Letrozole. Original indication: he TxGNN model's top prediction is **female breast.... 10 predicted indications."
+description: "Health news related to Letrozole. Original indication: he TxGNN model's top prediction is **female breast.... 1 predicted indications."
 permalink: /news/letrozole/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/letrozole/
 ---
 
 <p class="key-answer" data-question="What news is there about Letrozole?">
-<strong>Letrozole</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Letrozole</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Letrozole with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model's top prediction is **female breast carcinoma**, backed by **40 clinical trials** and **20 publications** in the data compiled for this report.</li>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>female breast carcinoma (100.0%)</li>
-<li>nipple carcinoma (99.8%)</li>
-<li>estrogen-receptor negative breast cancer (99.8%)</li>
-<li>estrogen-receptor positive breast cancer (99.8%)</li>
-<li>hormone-resistant breast carcinoma (99.8%)</li>
-<li>Ehrlich tumor carcinoma (99.8%)</li>
-<li>bilateral breast carcinoma (99.7%)</li>
-<li>breast carcinoma by gene expression profile (99.7%)</li>
-<li>breast fibrocystic disease (99.6%)</li>
-<li>benign mammary dysplasia (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Female breast carcinoma (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/letrozole/' | relative_url }}">View full drug report →</a></p>

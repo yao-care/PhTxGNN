@@ -3,7 +3,7 @@ layout: default
 title: "Acetazolamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Acetazolamide. Original indication: . 10 predicted indications."
+description: "Health news related to Acetazolamide. Original indication: . 1 predicted indications."
 permalink: /news/acetazolamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/acetazolamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Acetazolamide?">
-<strong>Acetazolamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Acetazolamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Acetazolamide with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>exercise-induced malignant hyperthermia (100.0%)</li>
-<li>hypertrophic cardiomyopathy (99.9%)</li>
-<li>congenital myopathy with excess of thin filaments (99.9%)</li>
-<li>hypertrophic cardiomyopathy due to intensive athletic training (99.9%)</li>
-<li>distal myopathy, Tateyama type (99.9%)</li>
-<li>cirrhotic cardiomyopathy (99.9%)</li>
-<li>cardiomyopathy (99.8%)</li>
-<li>intestinal obstruction (99.8%)</li>
-<li>glycogen storage disease due to acid maltase deficiency, late-onset (99.8%)</li>
-<li>myopathic intestinal pseudoobstruction (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Exercise-induced malignant hyperthermia (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acetazolamide/' | relative_url }}">View full drug report →</a></p>

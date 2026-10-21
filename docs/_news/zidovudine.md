@@ -3,7 +3,7 @@ layout: default
 title: "Zidovudine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Zidovudine. Original indication: . 6 predicted indications."
+description: "Health news related to Zidovudine. Original indication: . 1 predicted indications."
 permalink: /news/zidovudine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/zidovudine/
 ---
 
 <p class="key-answer" data-question="What news is there about Zidovudine?">
-<strong>Zidovudine</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Zidovudine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,8 @@ This page combines the AI-predicted indications for Zidovudine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>feline acquired immunodeficiency syndrome (100.0%)</li>
-<li>simian immunodeficiency virus infection (100.0%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
-<li>obsolete familial combined hyperlipidemia (99.6%)</li>
-<li>AIDS related complex (99.2%)</li>
-<li>congenital human immunodeficiency virus (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Feline acquired immunodeficiency syndrome (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/zidovudine/' | relative_url }}">View full drug report →</a></p>

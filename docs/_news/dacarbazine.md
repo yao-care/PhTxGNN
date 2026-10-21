@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Dacarbazine with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>upper aerodigestive tract neoplasm (99.3%)</li>
+<li>Upper aerodigestive tract neoplasm (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dacarbazine/' | relative_url }}">View full drug report →</a></p>

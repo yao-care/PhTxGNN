@@ -3,7 +3,7 @@ layout: default
 title: "Thiamine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Thiamine. Original indication: he TxGNN model predicts it may be useful for **hyp.... 4 predicted indications."
+description: "Health news related to Thiamine. Original indication: he TxGNN model predicts it may be useful for **hyp.... 1 predicted indications."
 permalink: /news/thiamine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/thiamine/
 ---
 
 <p class="key-answer" data-question="What news is there about Thiamine?">
-<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Thiamine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,11 +26,8 @@ This page combines the AI-predicted indications for Thiamine with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **hyperthyroidism**, probably as supportive therapy for complications rather than as an antithyroid treatment.</li>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>hyperthyroidism (99.4%)</li>
-<li>resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (99.4%)</li>
-<li>primary hereditary glaucoma (99.4%)</li>
-<li>open-angle glaucoma (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hyperthyroidism (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/thiamine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Tamoxifen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tamoxifen. Original indication: . 10 predicted indications."
+description: "Health news related to Tamoxifen. Original indication: . 1 predicted indications."
 permalink: /news/tamoxifen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tamoxifen/
 ---
 
 <p class="key-answer" data-question="What news is there about Tamoxifen?">
-<strong>Tamoxifen</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tamoxifen</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tamoxifen with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>mammary Paget disease (99.7%)</li>
-<li>intraductal cribriform breast adenocarcinoma (99.7%)</li>
-<li>basal-like breast carcinoma (99.7%)</li>
-<li>breast carcinoma in situ (99.7%)</li>
-<li>sebaceous breast carcinoma (99.7%)</li>
-<li>invasive tubular breast carcinoma (99.7%)</li>
-<li>hormone-resistant breast carcinoma (99.7%)</li>
-<li>Ehrlich tumor carcinoma (99.7%)</li>
-<li>estrogen-receptor positive breast cancer (99.7%)</li>
-<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Mammary Paget disease (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tamoxifen/' | relative_url }}">View full drug report →</a></p>

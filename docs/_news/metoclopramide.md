@@ -3,7 +3,7 @@ layout: default
 title: "Metoclopramide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Metoclopramide. Original indication: . 5 predicted indications."
+description: "Health news related to Metoclopramide. Original indication: . 1 predicted indications."
 permalink: /news/metoclopramide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metoclopramide/
 ---
 
 <p class="key-answer" data-question="What news is there about Metoclopramide?">
-<strong>Metoclopramide</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Metoclopramide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ This page combines the AI-predicted indications for Metoclopramide with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>gastric ulcer (disease) (99.9%)</li>
-<li>gastroduodenitis (99.9%)</li>
-<li>peptic ulcer disease (99.8%)</li>
-<li>gastrojejunal ulcer (99.8%)</li>
-<li>peptic ulcer perforation (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Gastric ulcer (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/metoclopramide/' | relative_url }}">View full drug report →</a></p>

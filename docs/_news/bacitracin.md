@@ -3,7 +3,7 @@ layout: default
 title: "Bacitracin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bacitracin. Original indication: . 10 predicted indications."
+description: "Health news related to Bacitracin. Original indication: . 1 predicted indications."
 permalink: /news/bacitracin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bacitracin/
 ---
 
 <p class="key-answer" data-question="What news is there about Bacitracin?">
-<strong>Bacitracin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bacitracin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Bacitracin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (100.0%)</li>
-<li>exposure keratitis (100.0%)</li>
-<li>non-human animal disease (100.0%)</li>
-<li>otitis externa (100.0%)</li>
-<li>postinfectious vasculitis (100.0%)</li>
-<li>post-bacterial disorder (100.0%)</li>
-<li>infective urethral stricture (100.0%)</li>
-<li>post-infectious syndrome (100.0%)</li>
-<li>infection-related hemolytic uremic syndrome (100.0%)</li>
-<li>Chagas cardiomyopathy (100.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bacitracin/' | relative_url }}">View full drug report →</a></p>

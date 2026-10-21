@@ -3,7 +3,7 @@ layout: default
 title: "Azathioprine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Azathioprine. Original indication: . 10 predicted indications."
+description: "Health news related to Azathioprine. Original indication: . 1 predicted indications."
 permalink: /news/azathioprine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/azathioprine/
 ---
 
 <p class="key-answer" data-question="What news is there about Azathioprine?">
-<strong>Azathioprine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Azathioprine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Azathioprine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (100.0%)</li>
-<li>brachydactyly-syndactyly syndrome (100.0%)</li>
-<li>osteoarthritis susceptibility (99.7%)</li>
-<li>WHIM syndrome (99.7%)</li>
-<li>inflammatory bowel disease (99.5%)</li>
-<li>granulomatous disease, chronic, autosomal recessive, 5 (99.4%)</li>
-<li>osteoarthritis (99.4%)</li>
-<li>granulomatous disease with defect in neutrophil chemotaxis (99.4%)</li>
-<li>ulcerative colitis (disease) (99.3%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/azathioprine/' | relative_url }}">View full drug report →</a></p>

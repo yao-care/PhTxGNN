@@ -3,7 +3,7 @@ layout: default
 title: "Fluocinonide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluocinonide. Original indication: . 7 predicted indications."
+description: "Health news related to Fluocinonide. Original indication: . 1 predicted indications."
 permalink: /news/fluocinonide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluocinonide/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluocinonide?">
-<strong>Fluocinonide</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Fluocinonide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Fluocinonide with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>alopecia mucinosa (99.6%)</li>
-<li>telogen effluvium (99.6%)</li>
-<li>alopecia areata (99.6%)</li>
-<li>Quinquaud's folliculitis decalvans (99.6%)</li>
-<li>hereditary hypotrichosis with recurrent skin vesicles (99.6%)</li>
-<li>alopecia antibody deficiency (99.5%)</li>
-<li>alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Alopecia mucinosa (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluocinonide/' | relative_url }}">View full drug report →</a></p>

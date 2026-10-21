@@ -3,7 +3,7 @@ layout: default
 title: "Bicalutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bicalutamide. Original indication: he TxGNN model predicts it may be useful for **hyp.... 10 predicted indications."
+description: "Health news related to Bicalutamide. Original indication: he TxGNN model predicts it may be useful for **hyp.... 1 predicted indications."
 permalink: /news/bicalutamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bicalutamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Bicalutamide?">
-<strong>Bicalutamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bicalutamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Bicalutamide with the latest
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **hypertrichosis**, but there are **0 clinical trials** and only **1 publication**, which is a commentary letter, supporting this direction.</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypertrichosis (disease) (99.7%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (99.6%)</li>
-<li>Ambras type hypertrichosis universalis congenita (99.6%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (99.6%)</li>
-<li>isolated genetic hair shaft abnormality (99.5%)</li>
-<li>leprosy (99.4%)</li>
-<li>multiple endocrine neoplasia (99.2%)</li>
-<li>pulmonary hypertension (99.2%)</li>
-<li>female breast carcinoma (99.1%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypertrichosis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bicalutamide/' | relative_url }}">View full drug report →</a></p>

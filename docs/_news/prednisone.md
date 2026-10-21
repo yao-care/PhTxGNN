@@ -3,7 +3,7 @@ layout: default
 title: "Prednisone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Prednisone. Original indication: . 10 predicted indications."
+description: "Health news related to Prednisone. Original indication: . 1 predicted indications."
 permalink: /news/prednisone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/prednisone/
 ---
 
 <p class="key-answer" data-question="What news is there about Prednisone?">
-<strong>Prednisone</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Prednisone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Prednisone with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>alopecia areata (100.0%)</li>
-<li>alopecia mucinosa (100.0%)</li>
-<li>telogen effluvium (100.0%)</li>
-<li>Quinquaud's folliculitis decalvans (100.0%)</li>
-<li>alopecia antibody deficiency (100.0%)</li>
-<li>hereditary hypotrichosis with recurrent skin vesicles (100.0%)</li>
-<li>alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome (100.0%)</li>
-<li>atrichia with papular lesions (100.0%)</li>
-<li>tenosynovitis (99.8%)</li>
-<li>prolapse of lacrimal gland (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Alopecia areata (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/prednisone/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Doxycycline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Doxycycline. Original indication: . 10 predicted indications."
+description: "Health news related to Doxycycline. Original indication: . 1 predicted indications."
 permalink: /news/doxycycline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/doxycycline/
 ---
 
 <p class="key-answer" data-question="What news is there about Doxycycline?">
-<strong>Doxycycline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Doxycycline</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Doxycycline with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (99.9%)</li>
-<li>otitis externa (99.9%)</li>
-<li>postinfectious vasculitis (99.9%)</li>
-<li>post-bacterial disorder (99.9%)</li>
-<li>post-infectious syndrome (99.9%)</li>
-<li>infective urethral stricture (99.9%)</li>
-<li>Chagas cardiomyopathy (99.9%)</li>
-<li>infection-related hemolytic uremic syndrome (99.9%)</li>
-<li>exposure keratitis (99.8%)</li>
-<li>chronic gingivitis (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/doxycycline/' | relative_url }}">View full drug report →</a></p>

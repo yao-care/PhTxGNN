@@ -3,7 +3,7 @@ layout: default
 title: "Deferiprone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Deferiprone. Original indication: . 9 predicted indications."
+description: "Health news related to Deferiprone. Original indication: . 1 predicted indications."
 permalink: /news/deferiprone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/deferiprone/
 ---
 
 <p class="key-answer" data-question="What news is there about Deferiprone?">
-<strong>Deferiprone</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Deferiprone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Deferiprone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>hepatic porphyria (99.2%)</li>
-<li>hepatopulmonary syndrome (99.2%)</li>
-<li>hepatoportal sclerosis (99.2%)</li>
-<li>idiopathic copper-associated cirrhosis (99.2%)</li>
-<li>early-onset familial noncirrhotic portal hypertension (99.2%)</li>
-<li>primitive portal vein thrombosis (99.2%)</li>
-<li>pyruvate kinase deficiency of red cells (99.2%)</li>
-<li>beta-thalassemia with other manifestations (99.0%)</li>
-<li>pyropoikilocytosis, hereditary (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hepatic porphyria (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/deferiprone/' | relative_url }}">View full drug report →</a></p>

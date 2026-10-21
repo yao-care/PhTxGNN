@@ -3,7 +3,7 @@ layout: default
 title: "Isoxsuprine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Isoxsuprine. Original indication: . 10 predicted indications."
+description: "Health news related to Isoxsuprine. Original indication: . 1 predicted indications."
 permalink: /news/isoxsuprine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isoxsuprine/
 ---
 
 <p class="key-answer" data-question="What news is there about Isoxsuprine?">
-<strong>Isoxsuprine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Isoxsuprine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Isoxsuprine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign prostatic hyperplasia (disease) (100.0%)</li>
-<li>arterial thoracic outlet syndrome (99.9%)</li>
-<li>venous thoracic outlet syndrome (99.9%)</li>
-<li>blue toe syndrome (99.9%)</li>
-<li>atheroembolism of kidney (99.9%)</li>
-<li>hemangioendothelioma (99.9%)</li>
-<li>angiodysplasia of stomach (99.9%)</li>
-<li>respiratory failure (99.9%)</li>
-<li>neurogenic thoracic outlet syndrome (99.9%)</li>
-<li>idiopathic spontaneous coronary artery dissection (99.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Benign prostatic hyperplasia (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/isoxsuprine/' | relative_url }}">View full drug report →</a></p>

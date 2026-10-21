@@ -3,7 +3,7 @@ layout: default
 title: "Losartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Losartan. Original indication: . 8 predicted indications."
+description: "Health news related to Losartan. Original indication: . 1 predicted indications."
 permalink: /news/losartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/losartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Losartan?">
-<strong>Losartan</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Losartan</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Losartan with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>malignant hypertensive renal disease (99.7%)</li>
-<li>malignant renovascular hypertension (99.7%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.7%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.7%)</li>
-<li>Braddock syndrome (99.6%)</li>
-<li>Prinzmetal angina (99.5%)</li>
-<li>autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (99.4%)</li>
-<li>brain small vessel disease 1 with or without ocular anomalies (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant hypertensive renal disease (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/losartan/' | relative_url }}">View full drug report →</a></p>

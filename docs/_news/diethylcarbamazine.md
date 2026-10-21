@@ -3,7 +3,7 @@ layout: default
 title: "Diethylcarbamazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Diethylcarbamazine. Original indication: . 2 predicted indications."
+description: "Health news related to Diethylcarbamazine. Original indication: . 1 predicted indications."
 permalink: /news/diethylcarbamazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diethylcarbamazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Diethylcarbamazine?">
-<strong>Diethylcarbamazine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Diethylcarbamazine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Diethylcarbamazine with the 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>syndromic lymphedema (99.6%)</li>
-<li>primary lymphedema (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Syndromic lymphedema (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/diethylcarbamazine/' | relative_url }}">View full drug report →</a></p>

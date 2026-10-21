@@ -3,7 +3,7 @@ layout: default
 title: "Levothyroxine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Levothyroxine. Original indication: . 10 predicted indications."
+description: "Health news related to Levothyroxine. Original indication: . 1 predicted indications."
 permalink: /news/levothyroxine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/levothyroxine/
 ---
 
 <p class="key-answer" data-question="What news is there about Levothyroxine?">
-<strong>Levothyroxine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Levothyroxine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Levothyroxine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>endemic goiter (99.8%)</li>
-<li>renal hypodysplasia/aplasia (99.7%)</li>
-<li>nodular goiter (disease) (99.6%)</li>
-<li>bilateral renal agenesis (99.6%)</li>
-<li>nontoxic goiter (99.4%)</li>
-<li>substernal goiter (99.4%)</li>
-<li>lingual goiter (99.4%)</li>
-<li>dyshormonogenic goiter (99.4%)</li>
-<li>Potter sequence (99.3%)</li>
-<li>Carney complex (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Endemic goiter (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/levothyroxine/' | relative_url }}">View full drug report →</a></p>

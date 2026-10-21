@@ -3,7 +3,7 @@ layout: default
 title: "Naproxen News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Naproxen. Original indication: . 3 predicted indications."
+description: "Health news related to Naproxen. Original indication: . 4 predicted indications."
 permalink: /news/naproxen/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/naproxen/
 ---
 
 <p class="key-answer" data-question="What news is there about Naproxen?">
-<strong>Naproxen</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Naproxen</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,11 @@ This page combines the AI-predicted indications for Naproxen with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.22% | L5 (99.0%)</li>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.17% | L5 (99.0%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.06% | L5 (99.0%)</li>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Brachydactyly-syndactyly syndrome (99.3%)</li>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.2%)</li>
+<li>Acromesomelic dysplasia, Hunter-Thompson type (99.2%)</li>
+<li>Brachyolmia-amelogenesis imperfecta syndrome (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/naproxen/' | relative_url }}">View full drug report →</a></p>

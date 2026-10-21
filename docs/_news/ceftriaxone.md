@@ -3,7 +3,7 @@ layout: default
 title: "Ceftriaxone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ceftriaxone. Original indication: . 7 predicted indications."
+description: "Health news related to Ceftriaxone. Original indication: . 1 predicted indications."
 permalink: /news/ceftriaxone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ceftriaxone/
 ---
 
 <p class="key-answer" data-question="What news is there about Ceftriaxone?">
-<strong>Ceftriaxone</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Ceftriaxone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Ceftriaxone with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>polyclonal hyperviscosity syndrome (99.4%)</li>
-<li>hyperamylasemia (99.4%)</li>
-<li>congenital analbuminemia (99.4%)</li>
-<li>infectious otitis media (99.3%)</li>
-<li>blood group incompatibility (99.1%)</li>
-<li>suppurative otitis media (99.0%)</li>
-<li>chronic otitis media (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polyclonal hyperviscosity syndrome (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ceftriaxone/' | relative_url }}">View full drug report →</a></p>

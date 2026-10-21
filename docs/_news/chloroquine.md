@@ -3,7 +3,7 @@ layout: default
 title: "Chloroquine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Chloroquine. Original indication: . 4 predicted indications."
+description: "Health news related to Chloroquine. Original indication: . 1 predicted indications."
 permalink: /news/chloroquine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/chloroquine/
 ---
 
 <p class="key-answer" data-question="What news is there about Chloroquine?">
-<strong>Chloroquine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Chloroquine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,8 @@ This page combines the AI-predicted indications for Chloroquine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (99.4%)</li>
-<li>rheumatoid nodulosis (99.3%)</li>
-<li>juvenile chronic polyarthritis (99.3%)</li>
-<li>juvenile idiopathic arthritis (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/chloroquine/' | relative_url }}">View full drug report →</a></p>

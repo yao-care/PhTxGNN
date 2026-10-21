@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Betaxolol with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>primary hereditary glaucoma (99.7%)</li>
+<li>Primary hereditary glaucoma (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/betaxolol/' | relative_url }}">View full drug report →</a></p>

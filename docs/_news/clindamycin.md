@@ -3,7 +3,7 @@ layout: default
 title: "Clindamycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clindamycin. Original indication: . 6 predicted indications."
+description: "Health news related to Clindamycin. Original indication: . 1 predicted indications."
 permalink: /news/clindamycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clindamycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Clindamycin?">
-<strong>Clindamycin</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Clindamycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,8 @@ This page combines the AI-predicted indications for Clindamycin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>punctate epithelial keratoconjunctivitis (100.0%)</li>
-<li>exposure keratitis (99.8%)</li>
-<li>non-human animal disease (99.7%)</li>
-<li>neurotrophic keratopathy (99.5%)</li>
-<li>epidemic keratoconjunctivitis (99.5%)</li>
-<li>postmenopausal atrophic vaginitis (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Punctate epithelial keratoconjunctivitis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clindamycin/' | relative_url }}">View full drug report →</a></p>

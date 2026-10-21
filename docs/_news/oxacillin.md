@@ -3,7 +3,7 @@ layout: default
 title: "Oxacillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Oxacillin. Original indication: . 4 predicted indications."
+description: "Health news related to Oxacillin. Original indication: . 1 predicted indications."
 permalink: /news/oxacillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/oxacillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Oxacillin?">
-<strong>Oxacillin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Oxacillin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,8 @@ This page combines the AI-predicted indications for Oxacillin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>epiglottitis (99.9%)</li>
-<li>laryngitis (99.7%)</li>
-<li>bacterial arthritis (99.5%)</li>
-<li>urinary tract infection (disease) (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Epiglottitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/oxacillin/' | relative_url }}">View full drug report →</a></p>

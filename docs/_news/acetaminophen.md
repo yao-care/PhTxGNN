@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Acetaminophen with the lates
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>migraine with brainstem aura (99.2%)</li>
+<li>Migraine with brainstem aura (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/acetaminophen/' | relative_url }}">View full drug report →</a></p>

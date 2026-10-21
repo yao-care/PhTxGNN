@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Fomepizole with the latest h
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **sclerosing cholangitis**, but **no clinical trials and no publications** currently support this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>sclerosing cholangitis (99.3%)</li>
+<li>Sclerosing cholangitis (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fomepizole/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Midazolam with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>insomnia (disease) (99.7%)</li>
+<li>Insomnia (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/midazolam/' | relative_url }}">View full drug report →</a></p>

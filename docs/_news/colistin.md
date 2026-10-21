@@ -3,7 +3,7 @@ layout: default
 title: "Colistin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Colistin. Original indication: . 10 predicted indications."
+description: "Health news related to Colistin. Original indication: . 1 predicted indications."
 permalink: /news/colistin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/colistin/
 ---
 
 <p class="key-answer" data-question="What news is there about Colistin?">
-<strong>Colistin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Colistin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Colistin with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>postinfectious vasculitis (99.9%)</li>
-<li>post-bacterial disorder (99.9%)</li>
-<li>post-infectious syndrome (99.9%)</li>
-<li>Chagas cardiomyopathy (99.9%)</li>
-<li>infection-related hemolytic uremic syndrome (99.9%)</li>
-<li>infective urethral stricture (99.9%)</li>
-<li>paratyphoid fever (99.5%)</li>
-<li>sinusitis (99.2%)</li>
-<li>chronic rhinosinusitis (99.2%)</li>
-<li>chronic ethmoidal sinusitis (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Postinfectious vasculitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/colistin/' | relative_url }}">View full drug report →</a></p>

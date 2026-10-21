@@ -3,7 +3,7 @@ layout: default
 title: "Delamanid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Delamanid. Original indication: . 7 predicted indications."
+description: "Health news related to Delamanid. Original indication: . 1 predicted indications."
 permalink: /news/delamanid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/delamanid/
 ---
 
 <p class="key-answer" data-question="What news is there about Delamanid?">
-<strong>Delamanid</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Delamanid</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Delamanid with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>tuberculosis, bovine (99.9%)</li>
-<li>tuberculous ascites (99.9%)</li>
-<li>inactive tuberculosis (99.9%)</li>
-<li>tuberculosis, avian (99.9%)</li>
-<li>tuberculoma (99.9%)</li>
-<li>allergic urticaria (99.6%)</li>
-<li>cutaneous tuberculosis (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Tuberculosis, bovine (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/delamanid/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Norethisterone with the late
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>amenorrhea (disease) (99.6%)</li>
+<li>Amenorrhea (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/norethisterone/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Tenofovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tenofovir. Original indication: . 3 predicted indications."
+description: "Health news related to Tenofovir. Original indication: . 1 predicted indications."
 permalink: /news/tenofovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tenofovir/
 ---
 
 <p class="key-answer" data-question="What news is there about Tenofovir?">
-<strong>Tenofovir</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Tenofovir</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Tenofovir with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>feline acquired immunodeficiency syndrome (100.0%)</li>
-<li>simian immunodeficiency virus infection (100.0%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Feline acquired immunodeficiency syndrome (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tenofovir/' | relative_url }}">View full drug report →</a></p>

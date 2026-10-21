@@ -3,7 +3,7 @@ layout: default
 title: "Clopidogrel News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clopidogrel. Original indication: . 8 predicted indications."
+description: "Health news related to Clopidogrel. Original indication: . 1 predicted indications."
 permalink: /news/clopidogrel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clopidogrel/
 ---
 
 <p class="key-answer" data-question="What news is there about Clopidogrel?">
-<strong>Clopidogrel</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Clopidogrel</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Clopidogrel with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>migraine with brainstem aura (99.4%)</li>
-<li>migraine disorder (99.4%)</li>
-<li>osteoarthritis (99.2%)</li>
-<li>tendinitis (99.2%)</li>
-<li>idiopathic granulomatous myositis (99.1%)</li>
-<li>myositis fibrosa (99.1%)</li>
-<li>rheumatoid arthritis (99.0%)</li>
-<li>osteoarthritis susceptibility (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clopidogrel/' | relative_url }}">View full drug report →</a></p>

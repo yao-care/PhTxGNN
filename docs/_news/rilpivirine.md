@@ -3,7 +3,7 @@ layout: default
 title: "Rilpivirine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rilpivirine. Original indication: . 4 predicted indications."
+description: "Health news related to Rilpivirine. Original indication: . 5 predicted indications."
 permalink: /news/rilpivirine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rilpivirine/
 ---
 
 <p class="key-answer" data-question="What news is there about Rilpivirine?">
-<strong>Rilpivirine</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Rilpivirine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,12 @@ This page combines the AI-predicted indications for Rilpivirine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>Simian immunodeficiency virus infection | 99.97% | L4 | Macaque studies of long-acting rilpivirine (alone or with cabotegravir) on resistance selection, post-exposure prophylaxis and virologic remission. These are animal-model data supporting HIV pharmacology, not a human indication. (99.0%)</li>
-<li>Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.97% | L5 | No mechanistic link, trials or literature. Likely a knowledge-graph artifact. (99.0%)</li>
-<li>AIDS related complex | 99.56% | L4 | Historical term for symptomatic HIV disease, already covered by the existing HIV indication. Not a true repurposing. (99.0%)</li>
-<li>Congenital HIV | 99.56% | L4 | Pregnancy and perinatal literature on long-acting cabotegravir/rilpivirine (cohort, PK, case reports). Mostly cabotegravir-centred, and the one listed trial (NCT04340388) studies dolutegravir, not rilpivirine. (99.0%)</li>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Feline acquired immunodeficiency syndrome (100.0%)</li>
+<li>Simian immunodeficiency virus infection (100.0%)</li>
+<li>Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (100.0%)</li>
+<li>AIDS related complex (99.6%)</li>
+<li>Congenital HIV (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rilpivirine/' | relative_url }}">View full drug report →</a></p>

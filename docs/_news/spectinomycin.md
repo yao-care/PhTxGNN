@@ -3,7 +3,7 @@ layout: default
 title: "Spectinomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Spectinomycin. Original indication: . 10 predicted indications."
+description: "Health news related to Spectinomycin. Original indication: . 1 predicted indications."
 permalink: /news/spectinomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/spectinomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Spectinomycin?">
-<strong>Spectinomycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Spectinomycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Spectinomycin with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>disease of uterine broad ligament (99.6%)</li>
-<li>abdominal cystic lymphangioma (99.6%)</li>
-<li>celiac trunk compression syndrome (99.6%)</li>
-<li>abdominal ectopic pregnancy (99.6%)</li>
-<li>lymph node palisaded myofibroblastoma (99.6%)</li>
-<li>disease of retroperitoneum (99.6%)</li>
-<li>sacrum chordoma (99.6%)</li>
-<li>urethral disease (99.5%)</li>
-<li>disease of peritoneum (99.5%)</li>
-<li>embryonic cyst of fallopian tube (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Urethral disease (the best-supported of the top 10 predictions; the rank 1 prediction is disease of uterine broad ligament, with no evidence) (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/spectinomycin/' | relative_url }}">View full drug report →</a></p>

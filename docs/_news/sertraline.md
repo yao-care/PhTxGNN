@@ -3,7 +3,7 @@ layout: default
 title: "Sertraline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sertraline. Original indication: . 8 predicted indications."
+description: "Health news related to Sertraline. Original indication: . 1 predicted indications."
 permalink: /news/sertraline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sertraline/
 ---
 
 <p class="key-answer" data-question="What news is there about Sertraline?">
-<strong>Sertraline</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Sertraline</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Sertraline with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>histrionic personality disorder (disease) (99.9%)</li>
-<li>schizotypal personality disorder (99.9%)</li>
-<li>paranoid personality disorder (99.9%)</li>
-<li>schizoid personality disorder (99.9%)</li>
-<li>benign paroxysmal torticollis of infancy (99.5%)</li>
-<li>agoraphobia (99.5%)</li>
-<li>dependent personality disorder (99.2%)</li>
-<li>narcissistic personality disorder (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Histrionic personality disorder (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sertraline/' | relative_url }}">View full drug report →</a></p>

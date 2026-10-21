@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Irinotecan with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>female breast carcinoma (99.1%)</li>
+<li>Female breast carcinoma (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/irinotecan/' | relative_url }}">View full drug report →</a></p>

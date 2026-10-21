@@ -3,7 +3,7 @@ layout: default
 title: "Lynestrenol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lynestrenol. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
+description: "Health news related to Lynestrenol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/lynestrenol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lynestrenol/
 ---
 
 <p class="key-answer" data-question="What news is there about Lynestrenol?">
-<strong>Lynestrenol</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Lynestrenol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,8 @@ This page combines the AI-predicted indications for Lynestrenol with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine (with or without aura, susceptibility to)**, but there are **0 registered clinical trials** and only **3 publications** (one 1963 clinical...</li>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>migraine with or without aura, susceptibility to (99.5%)</li>
-<li>migraine disorder (99.5%)</li>
-<li>migraine with brainstem aura (99.3%)</li>
-<li>insomnia (disease) (99.1%)</li>
-<li>leprosy (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine with or without aura, susceptibility to (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lynestrenol/' | relative_url }}">View full drug report →</a></p>

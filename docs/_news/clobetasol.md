@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Clobetasol with the latest h
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**, mainly the early-stage form known as mycosis fungoides.</li>
 <li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>primary cutaneous T-cell lymphoma (99.5%)</li>
+<li>Primary cutaneous T-cell lymphoma (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clobetasol/' | relative_url }}">View full drug report →</a></p>

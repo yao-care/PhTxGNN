@@ -3,7 +3,7 @@ layout: default
 title: "Azithromycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Azithromycin. Original indication: . 10 predicted indications."
+description: "Health news related to Azithromycin. Original indication: . 1 predicted indications."
 permalink: /news/azithromycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/azithromycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Azithromycin?">
-<strong>Azithromycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Azithromycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Azithromycin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>polyclonal hyperviscosity syndrome (99.8%)</li>
-<li>hyperamylasemia (99.8%)</li>
-<li>congenital analbuminemia (99.8%)</li>
-<li>punctate epithelial keratoconjunctivitis (99.8%)</li>
-<li>blood group incompatibility (99.7%)</li>
-<li>premalignant hematological system disease (99.6%)</li>
-<li>monoclonal gammopathy (99.6%)</li>
-<li>hematological disease associated with an acquired peripheral neuropathy (99.6%)</li>
-<li>septicemic plague (99.5%)</li>
-<li>congenital hematological disorder (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polyclonal hyperviscosity syndrome (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/azithromycin/' | relative_url }}">View full drug report →</a></p>

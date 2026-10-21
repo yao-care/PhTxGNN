@@ -3,7 +3,7 @@ layout: default
 title: "Tobramycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tobramycin. Original indication: . 10 predicted indications."
+description: "Health news related to Tobramycin. Original indication: . 1 predicted indications."
 permalink: /news/tobramycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tobramycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Tobramycin?">
-<strong>Tobramycin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tobramycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Tobramycin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>exposure keratitis (99.9%)</li>
-<li>non-human animal disease (99.8%)</li>
-<li>otitis externa (99.8%)</li>
-<li>postinfectious vasculitis (99.8%)</li>
-<li>post-bacterial disorder (99.8%)</li>
-<li>post-infectious syndrome (99.8%)</li>
-<li>infective urethral stricture (99.8%)</li>
-<li>Chagas cardiomyopathy (99.8%)</li>
-<li>infection-related hemolytic uremic syndrome (99.8%)</li>
-<li>epidemic keratoconjunctivitis (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Exposure keratitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tobramycin/' | relative_url }}">View full drug report →</a></p>

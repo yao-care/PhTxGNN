@@ -3,7 +3,7 @@ layout: default
 title: "Isoflurane News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Isoflurane. Original indication: . 6 predicted indications."
+description: "Health news related to Isoflurane. Original indication: . 7 predicted indications."
 permalink: /news/isoflurane/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/isoflurane/
 ---
 
 <p class="key-answer" data-question="What news is there about Isoflurane?">
-<strong>Isoflurane</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Isoflurane</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Isoflurane with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Prinzmetal angina (99.7%)</li>
 <li>Tourette syndrome (99.6%)</li>
 <li>Manic bipolar affective disorder (99.6%)</li>
 <li>Trichotillomania (99.5%)</li>

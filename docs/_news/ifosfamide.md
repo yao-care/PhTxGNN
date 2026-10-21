@@ -3,7 +3,7 @@ layout: default
 title: "Ifosfamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ifosfamide. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Ifosfamide. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/ifosfamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ifosfamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Ifosfamide?">
-<strong>Ifosfamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ifosfamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Ifosfamide with the latest h
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with **6 clinical trials** (all early-phase or Phase 2, none confirmatory) and **20 publications** currently supporting...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>female breast carcinoma (99.9%)</li>
-<li>unclassified myelodysplastic syndrome (99.7%)</li>
-<li>partial deletion of the long arm of chromosome 5 (99.7%)</li>
-<li>refractory cytopenia of childhood (99.7%)</li>
-<li>severe congenital hypochromic anemia with ringed sideroblasts (99.7%)</li>
-<li>aregenerative anemia (99.7%)</li>
-<li>rhabdomyosarcoma (disease) (99.7%)</li>
-<li>myelodysplastic syndrome (99.7%)</li>
-<li>monocytic leukemia (99.6%)</li>
-<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Female breast carcinoma (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ifosfamide/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Cytarabine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cytarabine. Original indication: . 9 predicted indications."
+description: "Health news related to Cytarabine. Original indication: . 1 predicted indications."
 permalink: /news/cytarabine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cytarabine/
 ---
 
 <p class="key-answer" data-question="What news is there about Cytarabine?">
-<strong>Cytarabine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Cytarabine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Cytarabine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>small cell lung carcinoma (99.8%)</li>
-<li>primary pulmonary lymphoma (99.8%)</li>
-<li>well-differentiated fetal adenocarcinoma of the lung (99.8%)</li>
-<li>pulmonary blastoma (99.8%)</li>
-<li>upper aerodigestive tract neoplasm (99.5%)</li>
-<li>ganglioneuroblastoma (disease) (99.4%)</li>
-<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.3%)</li>
-<li>retroperitoneal neoplasm (99.2%)</li>
-<li>neuroblastoma (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Small cell lung carcinoma (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cytarabine/' | relative_url }}">View full drug report →</a></p>

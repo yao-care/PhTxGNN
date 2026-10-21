@@ -3,7 +3,7 @@ layout: default
 title: "Ioversol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ioversol. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Ioversol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/ioversol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ioversol/
 ---
 
 <p class="key-answer" data-question="What news is there about Ioversol?">
-<strong>Ioversol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ioversol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Ioversol with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **osteoarthritis susceptibility**, but there are **0 clinical trials** and **0 publications** directly supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>osteoarthritis susceptibility (99.7%)</li>
-<li>osteoarthritis (99.6%)</li>
-<li>rheumatoid arthritis (99.6%)</li>
-<li>brachyolmia (99.4%)</li>
-<li>hemoglobinopathy (99.3%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.3%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.3%)</li>
-<li>myosclerosis (99.3%)</li>
-<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.3%)</li>
-<li>alopecia (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Osteoarthritis susceptibility (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ioversol/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Finasteride News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Finasteride. Original indication: . 6 predicted indications."
+description: "Health news related to Finasteride. Original indication: . 1 predicted indications."
 permalink: /news/finasteride/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/finasteride/
 ---
 
 <p class="key-answer" data-question="What news is there about Finasteride?">
-<strong>Finasteride</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Finasteride</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,8 @@ This page combines the AI-predicted indications for Finasteride with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>Ambras type hypertrichosis universalis congenita (100.0%)</li>
-<li>hypertrichosis (disease) (100.0%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (100.0%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (100.0%)</li>
-<li>isolated genetic hair shaft abnormality (100.0%)</li>
-<li>familial isolated trichomegaly (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Ambras type hypertrichosis universalis congenita (top-ranked prediction); hypertrichosis is the best-supported alternative (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/finasteride/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Rivastigmine with the latest
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>glaucoma (99.3%)</li>
+<li>Glaucoma (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rivastigmine/' | relative_url }}">View full drug report →</a></p>

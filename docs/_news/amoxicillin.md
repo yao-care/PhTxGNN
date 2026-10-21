@@ -3,7 +3,7 @@ layout: default
 title: "Amoxicillin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amoxicillin. Original indication: . 7 predicted indications."
+description: "Health news related to Amoxicillin. Original indication: . 8 predicted indications."
 permalink: /news/amoxicillin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amoxicillin/
 ---
 
 <p class="key-answer" data-question="What news is there about Amoxicillin?">
-<strong>Amoxicillin</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Amoxicillin</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,15 @@ This page combines the AI-predicted indications for Amoxicillin with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>Hyperamylasemia | 99.63% | L5 | No mechanistic link, no studies (99.0%)</li>
-<li>Congenital analbuminemia | 99.59% | L5 | No plausible mechanism, likely a network artifact (99.0%)</li>
-<li>Blood group incompatibility | 99.40% | L4 | One case report of an infection complicating transplantation, indirect only (99.0%)</li>
-<li>Premalignant hematological system disease | 99.29% | L5 | No mechanism, no studies (99.0%)</li>
-<li>Monoclonal gammopathy | 99.22% | L4 | Indirect evidence only (infections in immunocompromised patients) (99.0%)</li>
-<li>Hematological disease associated with an acquired peripheral neuropathy | 99.14% | L5 | No mechanism, no studies (99.0%)</li>
-<li>Septicemic plague | 99.13% | L4 | Biologically plausible, but only laboratory and animal data; flagged as a research question (99.0%)</li>
+<li><strong>Predicted indications (8)</strong>:<ul>
+<li>Polyclonal hyperviscosity syndrome (99.6%)</li>
+<li>Hyperamylasemia (99.6%)</li>
+<li>Congenital analbuminemia (99.6%)</li>
+<li>Blood group incompatibility (99.4%)</li>
+<li>Premalignant hematological system disease (99.3%)</li>
+<li>Monoclonal gammopathy (99.2%)</li>
+<li>Hematological disease associated with an acquired peripheral neuropathy (99.1%)</li>
+<li>Septicemic plague (99.1%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amoxicillin/' | relative_url }}">View full drug report →</a></p>

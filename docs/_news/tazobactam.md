@@ -3,7 +3,7 @@ layout: default
 title: "Tazobactam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tazobactam. Original indication: . 2 predicted indications."
+description: "Health news related to Tazobactam. Original indication: . 1 predicted indications."
 permalink: /news/tazobactam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tazobactam/
 ---
 
 <p class="key-answer" data-question="What news is there about Tazobactam?">
-<strong>Tazobactam</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Tazobactam</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Tazobactam with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>pneumonia (99.5%)</li>
-<li>urinary tract infection (disease) (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Pneumonia (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tazobactam/' | relative_url }}">View full drug report →</a></p>

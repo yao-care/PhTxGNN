@@ -3,7 +3,7 @@ layout: default
 title: "Cyclophosphamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cyclophosphamide. Original indication: . 5 predicted indications."
+description: "Health news related to Cyclophosphamide. Original indication: . 1 predicted indications."
 permalink: /news/cyclophosphamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cyclophosphamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Cyclophosphamide?">
-<strong>Cyclophosphamide</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Cyclophosphamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ This page combines the AI-predicted indications for Cyclophosphamide with the la
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>myeloid leukemia (99.5%)</li>
-<li>ganglioneuroblastoma (disease) (99.4%)</li>
-<li>vertebral anomalies and variable endocrine and T-cell dysfunction (99.4%)</li>
-<li>retroperitoneal neoplasm (99.4%)</li>
-<li>lymph node cancer (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Myeloid leukemia (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/cyclophosphamide/' | relative_url }}">View full drug report →</a></p>

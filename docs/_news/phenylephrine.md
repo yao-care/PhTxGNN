@@ -3,7 +3,7 @@ layout: default
 title: "Phenylephrine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Phenylephrine. Original indication: . 2 predicted indications."
+description: "Health news related to Phenylephrine. Original indication: . 3 predicted indications."
 permalink: /news/phenylephrine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/phenylephrine/
 ---
 
 <p class="key-answer" data-question="What news is there about Phenylephrine?">
-<strong>Phenylephrine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Phenylephrine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Phenylephrine with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
+<li><strong>Predicted indications (3)</strong>:<ul>
+<li>Nasal cavity disease (100.0%)</li>
 <li>Acute laryngopharyngitis (100.0%)</li>
 <li>Trigeminal autonomic cephalalgia (99.3%)</li>
 </ul></li>

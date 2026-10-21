@@ -3,7 +3,7 @@ layout: default
 title: "Metoprolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Metoprolol. Original indication: . 10 predicted indications."
+description: "Health news related to Metoprolol. Original indication: . 1 predicted indications."
 permalink: /news/metoprolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/metoprolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Metoprolol?">
-<strong>Metoprolol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Metoprolol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Metoprolol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>malignant hypertensive renal disease (99.9%)</li>
-<li>malignant renovascular hypertension (99.9%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.9%)</li>
-<li>Braddock syndrome (99.9%)</li>
-<li>posterolateral myocardial infarction (99.8%)</li>
-<li>posteroinferior myocardial infarction (99.8%)</li>
-<li>septal myocardial infarction (99.8%)</li>
-<li>chronic pulmonary heart disease (99.4%)</li>
-<li>trichotillomania (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant hypertensive renal disease (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/metoprolol/' | relative_url }}">View full drug report →</a></p>

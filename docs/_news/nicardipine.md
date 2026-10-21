@@ -3,7 +3,7 @@ layout: default
 title: "Nicardipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nicardipine. Original indication: . 5 predicted indications."
+description: "Health news related to Nicardipine. Original indication: . 1 predicted indications."
 permalink: /news/nicardipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nicardipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Nicardipine?">
-<strong>Nicardipine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Nicardipine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,12 +25,8 @@ This page combines the AI-predicted indications for Nicardipine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.3%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.3%)</li>
-<li>malignant hypertensive renal disease (99.1%)</li>
-<li>malignant renovascular hypertension (99.1%)</li>
-<li>Braddock syndrome (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Pulmonary hypertension owing to lung disease and/or hypoxia (the top-ranked prediction is "pulmonary hypertension with unclear multifactorial mechanism", which has no supporting evidence; this one has the strongest supporting literature) (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nicardipine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Amlodipine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Amlodipine. Original indication: . 1 predicted indications."
+description: "Health news related to Amlodipine. Original indication: . 5 predicted indications."
 permalink: /news/amlodipine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/amlodipine/
 ---
 
 <p class="key-answer" data-question="What news is there about Amlodipine?">
-<strong>Amlodipine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
+<strong>Amlodipine</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,8 +25,12 @@ This page combines the AI-predicted indications for Amlodipine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (1)</strong>:<ul>
+<li><strong>Predicted indications (5)</strong>:<ul>
+<li>Brain stem infarction (rank 1) (99.9%)</li>
+<li>Intracerebral hemorrhage (99.8%)</li>
+<li>Cerebral artery occlusion (99.9%)</li>
 <li>Pulmonary hypertension owing to lung disease and/or hypoxia (99.9%)</li>
+<li>Malignant renovascular hypertension (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/amlodipine/' | relative_url }}">View full drug report →</a></p>

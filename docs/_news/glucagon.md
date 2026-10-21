@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Glucagon with the latest hea
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**.</li>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>irritable bowel syndrome (99.2%)</li>
+<li>Irritable bowel syndrome (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/glucagon/' | relative_url }}">View full drug report →</a></p>

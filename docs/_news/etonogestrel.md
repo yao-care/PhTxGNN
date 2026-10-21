@@ -3,7 +3,7 @@ layout: default
 title: "Etonogestrel News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Etonogestrel. Original indication: he TxGNN model predicts it may be associated with .... 5 predicted indications."
+description: "Health news related to Etonogestrel. Original indication: he TxGNN model predicts it may be associated with .... 1 predicted indications."
 permalink: /news/etonogestrel/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/etonogestrel/
 ---
 
 <p class="key-answer" data-question="What news is there about Etonogestrel?">
-<strong>Etonogestrel</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Etonogestrel</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,8 @@ This page combines the AI-predicted indications for Etonogestrel with the latest
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be associated with **amenorrhea**, but there are **0 clinical trials** and only **1 publication** (unrelated to this drug), so the prediction rests on the model alone.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>amenorrhea (disease) (99.8%)</li>
-<li>breast fibrocystic disease (99.6%)</li>
-<li>apocrine adenosis of breast (99.3%)</li>
-<li>blunt duct adenosis of breast (99.3%)</li>
-<li>benign mammary dysplasia (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Amenorrhea (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/etonogestrel/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Clonidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clonidine. Original indication: . 10 predicted indications."
+description: "Health news related to Clonidine. Original indication: . 1 predicted indications."
 permalink: /news/clonidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clonidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Clonidine?">
-<strong>Clonidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Clonidine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Clonidine with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>faciodigitogenital syndrome (100.0%)</li>
-<li>specific developmental disorder (100.0%)</li>
-<li>chondromyxoid fibroma (100.0%)</li>
-<li>trichotillomania (100.0%)</li>
-<li>Tourette syndrome (100.0%)</li>
-<li>obesity disorder (99.9%)</li>
-<li>hypervitaminosis (99.9%)</li>
-<li>proximal 16p11.2 microdeletion syndrome (99.9%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>manic bipolar affective disorder (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Faciodigitogenital syndrome (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clonidine/' | relative_url }}">View full drug report →</a></p>

@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Micafungin with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>urinary tract infection (disease) (99.0%)</li>
+<li>Urinary tract infection (99.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/micafungin/' | relative_url }}">View full drug report →</a></p>

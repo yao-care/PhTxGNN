@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Miconazole with the latest h
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>acne (disease) (99.5%)</li>
+<li>Acne (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/miconazole/' | relative_url }}">View full drug report →</a></p>

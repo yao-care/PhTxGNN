@@ -3,7 +3,7 @@ layout: default
 title: "Aztreonam News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Aztreonam. Original indication: . 10 predicted indications."
+description: "Health news related to Aztreonam. Original indication: . 1 predicted indications."
 permalink: /news/aztreonam/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/aztreonam/
 ---
 
 <p class="key-answer" data-question="What news is there about Aztreonam?">
-<strong>Aztreonam</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Aztreonam</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Aztreonam with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>polyclonal hyperviscosity syndrome (99.7%)</li>
-<li>hyperamylasemia (99.7%)</li>
-<li>congenital analbuminemia (99.7%)</li>
-<li>gonococcal urethritis (99.6%)</li>
-<li>Ureaplasma urethritis (99.6%)</li>
-<li>blood group incompatibility (99.6%)</li>
-<li>premalignant hematological system disease (99.5%)</li>
-<li>epiglottitis (99.5%)</li>
-<li>monoclonal gammopathy (99.5%)</li>
-<li>xanthogranulomatous pyelonephritis (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Polyclonal hyperviscosity syndrome (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/aztreonam/' | relative_url }}">View full drug report →</a></p>

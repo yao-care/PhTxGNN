@@ -3,7 +3,7 @@ layout: default
 title: "Colchicine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Colchicine. Original indication: . 3 predicted indications."
+description: "Health news related to Colchicine. Original indication: . 1 predicted indications."
 permalink: /news/colchicine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/colchicine/
 ---
 
 <p class="key-answer" data-question="What news is there about Colchicine?">
-<strong>Colchicine</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Colchicine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Colchicine with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
 <li>Plasmodium falciparum malaria (99.6%)</li>
-<li>familial Mediterranean fever, autosomal dominant (99.4%)</li>
-<li>dermatofibrosarcoma protuberans (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/colchicine/' | relative_url }}">View full drug report →</a></p>

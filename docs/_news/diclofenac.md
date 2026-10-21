@@ -3,7 +3,7 @@ layout: default
 title: "Diclofenac News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Diclofenac. Original indication: . 10 predicted indications."
+description: "Health news related to Diclofenac. Original indication: . 1 predicted indications."
 permalink: /news/diclofenac/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/diclofenac/
 ---
 
 <p class="key-answer" data-question="What news is there about Diclofenac?">
-<strong>Diclofenac</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Diclofenac</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Diclofenac with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypotrichosis simplex of the scalp (99.7%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (99.7%)</li>
-<li>pseudoachondroplasia (99.7%)</li>
-<li>brachyolmia (99.7%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (99.6%)</li>
-<li>congenital hypotrichosis milia (99.6%)</li>
-<li>myosclerosis (99.6%)</li>
-<li>diffuse alopecia areata (99.6%)</li>
-<li>juvenile idiopathic arthritis (99.2%)</li>
-<li>WHIM syndrome (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypotrichosis simplex of the scalp (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/diclofenac/' | relative_url }}">View full drug report →</a></p>

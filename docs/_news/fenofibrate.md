@@ -3,7 +3,7 @@ layout: default
 title: "Fenofibrate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fenofibrate. Original indication: . 7 predicted indications."
+description: "Health news related to Fenofibrate. Original indication: . 1 predicted indications."
 permalink: /news/fenofibrate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fenofibrate/
 ---
 
 <p class="key-answer" data-question="What news is there about Fenofibrate?">
-<strong>Fenofibrate</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Fenofibrate</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Fenofibrate with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>homozygous familial hypercholesterolemia (99.9%)</li>
-<li>hyperlipoproteinemia (99.7%)</li>
-<li>familial hypercholesterolemia (99.6%)</li>
-<li>cholesterol-ester transfer protein deficiency (99.6%)</li>
-<li>hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency (99.5%)</li>
-<li>hyperlipidemia due to hepatic triglyceride lipase deficiency (99.4%)</li>
-<li>hypercholesterolemia, autosomal dominant (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Homozygous familial hypercholesterolemia (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fenofibrate/' | relative_url }}">View full drug report →</a></p>

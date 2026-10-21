@@ -3,7 +3,7 @@ layout: default
 title: "Calcitriol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Calcitriol. Original indication: . 7 predicted indications."
+description: "Health news related to Calcitriol. Original indication: . 1 predicted indications."
 permalink: /news/calcitriol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/calcitriol/
 ---
 
 <p class="key-answer" data-question="What news is there about Calcitriol?">
-<strong>Calcitriol</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Calcitriol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Calcitriol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>obsolete vitamin D deficiency (100.0%)</li>
-<li>renal tubular acidosis (99.9%)</li>
-<li>familial isolated hypoparathyroidism due to impaired PTH secretion (99.8%)</li>
-<li>acromesomelic dysplasia, Campailla Martinelli type (99.8%)</li>
-<li>craniofacial conodysplasia (99.8%)</li>
-<li>Dahlberg-Borer-Newcomer syndrome (99.8%)</li>
-<li>hereditary hypophosphatemic rickets (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obsolete vitamin D deficiency (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/calcitriol/' | relative_url }}">View full drug report →</a></p>

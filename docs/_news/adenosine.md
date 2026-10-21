@@ -3,7 +3,7 @@ layout: default
 title: "Adenosine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Adenosine. Original indication: . 2 predicted indications."
+description: "Health news related to Adenosine. Original indication: . 1 predicted indications."
 permalink: /news/adenosine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/adenosine/
 ---
 
 <p class="key-answer" data-question="What news is there about Adenosine?">
-<strong>Adenosine</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Adenosine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Adenosine with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>obsolete bundle branch block (99.9%)</li>
-<li>catecholaminergic polymorphic ventricular tachycardia (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obsolete bundle branch block (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/adenosine/' | relative_url }}">View full drug report →</a></p>

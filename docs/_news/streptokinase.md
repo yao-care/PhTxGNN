@@ -3,7 +3,7 @@ layout: default
 title: "Streptokinase News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Streptokinase. Original indication: . 10 predicted indications."
+description: "Health news related to Streptokinase. Original indication: . 1 predicted indications."
 permalink: /news/streptokinase/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/streptokinase/
 ---
 
 <p class="key-answer" data-question="What news is there about Streptokinase?">
-<strong>Streptokinase</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Streptokinase</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Streptokinase with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>myocardial infarction (99.8%)</li>
-<li>Prinzmetal angina (99.8%)</li>
-<li>hemoglobinopathy (99.8%)</li>
-<li>coronary thrombosis (99.7%)</li>
-<li>septal myocardial infarction (99.7%)</li>
-<li>posterolateral myocardial infarction (99.7%)</li>
-<li>posteroinferior myocardial infarction (99.7%)</li>
-<li>peripheral vascular disease (99.7%)</li>
-<li>peripheral arterial disease (99.6%)</li>
-<li>partial deletion of the short arm of chromosome 16 (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Myocardial infarction (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/streptokinase/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Fentanyl News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fentanyl. Original indication: he TxGNN model predicts it may be effective for **.... 2 predicted indications."
+description: "Health news related to Fentanyl. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/fentanyl/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fentanyl/
 ---
 
 <p class="key-answer" data-question="What news is there about Fentanyl?">
-<strong>Fentanyl</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Fentanyl</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,9 +26,8 @@ This page combines the AI-predicted indications for Fentanyl with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
-<li>Tourette syndrome (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Nephrogenic syndrome of inappropriate antidiuresis (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fentanyl/' | relative_url }}">View full drug report →</a></p>

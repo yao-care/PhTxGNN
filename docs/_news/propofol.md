@@ -3,7 +3,7 @@ layout: default
 title: "Propofol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Propofol. Original indication: he TxGNN model predicts it may be effective for **.... 5 predicted indications."
+description: "Health news related to Propofol. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/propofol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/propofol/
 ---
 
 <p class="key-answer" data-question="What news is there about Propofol?">
-<strong>Propofol</strong> currently has <strong>0 news articles</strong>, with 5 predicted indications.
+<strong>Propofol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,12 +26,8 @@ This page combines the AI-predicted indications for Propofol with the latest hea
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **migraine disorder**, with **3 clinical trials** and **19 publications** currently supporting this direction, including several randomized trials in...</li>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (5)</strong>:<ul>
-<li>migraine disorder (99.7%)</li>
-<li>migraine with brainstem aura (99.6%)</li>
-<li>Prinzmetal angina (99.2%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.2%)</li>
-<li>Tourette syndrome (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/propofol/' | relative_url }}">View full drug report →</a></p>

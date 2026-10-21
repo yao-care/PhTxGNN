@@ -3,7 +3,7 @@ layout: default
 title: "Sulfacetamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sulfacetamide. Original indication: . 10 predicted indications."
+description: "Health news related to Sulfacetamide. Original indication: . 1 predicted indications."
 permalink: /news/sulfacetamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sulfacetamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Sulfacetamide?">
-<strong>Sulfacetamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Sulfacetamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Sulfacetamide with the lates
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>postinfectious vasculitis (100.0%)</li>
-<li>post-bacterial disorder (100.0%)</li>
-<li>otitis externa (100.0%)</li>
-<li>post-infectious syndrome (100.0%)</li>
-<li>infective urethral stricture (100.0%)</li>
-<li>Chagas cardiomyopathy (100.0%)</li>
-<li>infection-related hemolytic uremic syndrome (100.0%)</li>
-<li>punctate epithelial keratoconjunctivitis (100.0%)</li>
-<li>exposure keratitis (99.9%)</li>
-<li>parasitic eyelid infestation (99.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Postinfectious vasculitis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sulfacetamide/' | relative_url }}">View full drug report →</a></p>

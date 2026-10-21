@@ -3,7 +3,7 @@ layout: default
 title: "Mitoxantrone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mitoxantrone. Original indication: . 8 predicted indications."
+description: "Health news related to Mitoxantrone. Original indication: . 1 predicted indications."
 permalink: /news/mitoxantrone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mitoxantrone/
 ---
 
 <p class="key-answer" data-question="What news is there about Mitoxantrone?">
-<strong>Mitoxantrone</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Mitoxantrone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Mitoxantrone with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>upper aerodigestive tract neoplasm (99.8%)</li>
-<li>small cell lung carcinoma (99.4%)</li>
-<li>primary pulmonary lymphoma (99.4%)</li>
-<li>well-differentiated fetal adenocarcinoma of the lung (99.4%)</li>
-<li>pulmonary blastoma (99.3%)</li>
-<li>chronic myelogenous leukemia, BCR-ABL1 positive (99.3%)</li>
-<li>head and neck cancer (99.3%)</li>
-<li>bladder exstrophy-epispadias-cloacal exstrophy complex (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Head and neck cancer (rank 7 of 8 by TxGNN score; selected for the strongest evidence) (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mitoxantrone/' | relative_url }}">View full drug report →</a></p>

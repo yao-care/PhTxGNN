@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Isoniazid with the latest he
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>conjunctivitis (99.4%)</li>
+<li>Conjunctivitis (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/isoniazid/' | relative_url }}">View full drug report →</a></p>

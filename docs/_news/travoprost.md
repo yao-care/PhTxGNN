@@ -3,7 +3,7 @@ layout: default
 title: "Travoprost News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Travoprost. Original indication: . 10 predicted indications."
+description: "Health news related to Travoprost. Original indication: . 1 predicted indications."
 permalink: /news/travoprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/travoprost/
 ---
 
 <p class="key-answer" data-question="What news is there about Travoprost?">
-<strong>Travoprost</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Travoprost</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Travoprost with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>visceral calciphylaxis (100.0%)</li>
-<li>arterial thoracic outlet syndrome (100.0%)</li>
-<li>venous thoracic outlet syndrome (100.0%)</li>
-<li>neurogenic thoracic outlet syndrome (100.0%)</li>
-<li>vascular disease (100.0%)</li>
-<li>angiodysplasia of stomach (100.0%)</li>
-<li>blue toe syndrome (100.0%)</li>
-<li>idiopathic spontaneous coronary artery dissection (100.0%)</li>
-<li>lymphangiectasis (100.0%)</li>
-<li>hemangioendothelioma (100.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Visceral calciphylaxis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/travoprost/' | relative_url }}">View full drug report →</a></p>

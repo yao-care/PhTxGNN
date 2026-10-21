@@ -3,7 +3,7 @@ layout: default
 title: "Dactinomycin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dactinomycin. Original indication: . 9 predicted indications."
+description: "Health news related to Dactinomycin. Original indication: . 1 predicted indications."
 permalink: /news/dactinomycin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dactinomycin/
 ---
 
 <p class="key-answer" data-question="What news is there about Dactinomycin?">
-<strong>Dactinomycin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Dactinomycin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Dactinomycin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>relapsing-remitting multiple sclerosis (99.6%)</li>
-<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.5%)</li>
-<li>extrahepatic bile duct rhabdomyosarcoma (99.5%)</li>
-<li>embryonal extrahepatic bile duct rhabdomyosarcoma (99.5%)</li>
-<li>parameningeal embryonal rhabdomyosarcoma (99.5%)</li>
-<li>prostate embryonal rhabdomyosarcoma (99.5%)</li>
-<li>liver sarcoma (99.4%)</li>
-<li>upper aerodigestive tract neoplasm (99.2%)</li>
-<li>head and neck cancer (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Relapsing-remitting multiple sclerosis (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dactinomycin/' | relative_url }}">View full drug report →</a></p>

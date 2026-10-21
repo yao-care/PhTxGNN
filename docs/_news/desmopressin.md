@@ -3,7 +3,7 @@ layout: default
 title: "Desmopressin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Desmopressin. Original indication: . 6 predicted indications."
+description: "Health news related to Desmopressin. Original indication: . 7 predicted indications."
 permalink: /news/desmopressin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/desmopressin/
 ---
 
 <p class="key-answer" data-question="What news is there about Desmopressin?">
-<strong>Desmopressin</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Desmopressin</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Desmopressin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Primary release disorder of platelets (99.3%)</li>
 <li>Congenital prothrombin deficiency (99.7%)</li>
 <li>Inherited thrombophilia (99.4%)</li>
 <li>Glanzmann thrombasthenia (99.3%)</li>

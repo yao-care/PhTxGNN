@@ -3,7 +3,7 @@ layout: default
 title: "Fluorouracil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluorouracil. Original indication: . 10 predicted indications."
+description: "Health news related to Fluorouracil. Original indication: . 1 predicted indications."
 permalink: /news/fluorouracil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluorouracil/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluorouracil?">
-<strong>Fluorouracil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fluorouracil</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Fluorouracil with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>botryoid-type embryonal rhabdomyosarcoma of the vagina (99.8%)</li>
-<li>rhabdomyosarcoma (disease) (99.7%)</li>
-<li>parameningeal embryonal rhabdomyosarcoma (99.7%)</li>
-<li>embryonal extrahepatic bile duct rhabdomyosarcoma (99.7%)</li>
-<li>prostate embryonal rhabdomyosarcoma (99.7%)</li>
-<li>extrahepatic bile duct rhabdomyosarcoma (99.7%)</li>
-<li>liver sarcoma (99.7%)</li>
-<li>sickle cell-hemoglobin c disease syndrome (99.6%)</li>
-<li>sickle cell-hemoglobin E disease syndrome (99.6%)</li>
-<li>sickle cell-hemoglobin d disease syndrome (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Rhabdomyosarcoma (the top-ranked prediction is botryoid-type embryonal rhabdomyosarcoma of the vagina) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluorouracil/' | relative_url }}">View full drug report →</a></p>

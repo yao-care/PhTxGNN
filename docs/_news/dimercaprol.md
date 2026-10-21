@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Dimercaprol with the latest 
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>bronchitis (99.5%)</li>
+<li>Bronchitis (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dimercaprol/' | relative_url }}">View full drug report →</a></p>

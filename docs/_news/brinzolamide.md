@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Brinzolamide with the latest
 <li><strong>Original indication</strong>: There are important caveats. This is a computational prediction only. Hereditary forms often arise from developmental angle anomalies (for example, CYP1B1 or MYOC mutations) and are frequently...</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>primary hereditary glaucoma (99.5%)</li>
+<li>Primary hereditary glaucoma (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/brinzolamide/' | relative_url }}">View full drug report →</a></p>

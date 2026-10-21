@@ -3,7 +3,7 @@ layout: default
 title: "Moxifloxacin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Moxifloxacin. Original indication: . 10 predicted indications."
+description: "Health news related to Moxifloxacin. Original indication: . 1 predicted indications."
 permalink: /news/moxifloxacin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/moxifloxacin/
 ---
 
 <p class="key-answer" data-question="What news is there about Moxifloxacin?">
-<strong>Moxifloxacin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Moxifloxacin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Moxifloxacin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hyperamylasemia (100.0%)</li>
-<li>polyclonal hyperviscosity syndrome (100.0%)</li>
-<li>congenital analbuminemia (100.0%)</li>
-<li>blood group incompatibility (100.0%)</li>
-<li>premalignant hematological system disease (100.0%)</li>
-<li>monoclonal gammopathy (100.0%)</li>
-<li>hematological disease associated with an acquired peripheral neuropathy (99.9%)</li>
-<li>congenital hematological disorder (99.9%)</li>
-<li>hematopoietic and lymphoid system neoplasm (99.7%)</li>
-<li>bubonic plague (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hyperamylasemia (rank 1) (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/moxifloxacin/' | relative_url }}">View full drug report →</a></p>

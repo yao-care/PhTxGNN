@@ -3,7 +3,7 @@ layout: default
 title: "Rifapentine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rifapentine. Original indication: . 10 predicted indications."
+description: "Health news related to Rifapentine. Original indication: . 1 predicted indications."
 permalink: /news/rifapentine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rifapentine/
 ---
 
 <p class="key-answer" data-question="What news is there about Rifapentine?">
-<strong>Rifapentine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Rifapentine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Rifapentine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>leprosy (99.8%)</li>
-<li>female breast carcinoma (99.7%)</li>
-<li>Prinzmetal angina (99.6%)</li>
-<li>HIV infectious disease (99.5%)</li>
-<li>neuroretinitis (99.5%)</li>
-<li>vestibular neuronitis (99.5%)</li>
-<li>motor nerve neuritis (99.5%)</li>
-<li>brachial plexus neuritis (99.5%)</li>
-<li>dermatofibrosarcoma protuberans (99.4%)</li>
-<li>rheumatoid arthritis (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Leprosy (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rifapentine/' | relative_url }}">View full drug report →</a></p>

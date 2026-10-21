@@ -27,7 +27,7 @@ This page combines the AI-predicted indications for Mometasone with the latest h
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **primary cutaneous T-cell lymphoma**.</li>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>primary cutaneous T-cell lymphoma (99.4%)</li>
+<li>Primary cutaneous T-cell lymphoma (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mometasone/' | relative_url }}">View full drug report →</a></p>

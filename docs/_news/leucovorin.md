@@ -3,7 +3,7 @@ layout: default
 title: "Leucovorin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Leucovorin. Original indication: . 2 predicted indications."
+description: "Health news related to Leucovorin. Original indication: . 1 predicted indications."
 permalink: /news/leucovorin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/leucovorin/
 ---
 
 <p class="key-answer" data-question="What news is there about Leucovorin?">
-<strong>Leucovorin</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Leucovorin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Leucovorin with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>primary hyperoxaluria (99.4%)</li>
-<li>congenital intrinsic factor deficiency (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Primary hyperoxaluria (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/leucovorin/' | relative_url }}">View full drug report →</a></p>

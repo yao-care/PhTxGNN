@@ -3,7 +3,7 @@ layout: default
 title: "Salmeterol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Salmeterol. Original indication: . 7 predicted indications."
+description: "Health news related to Salmeterol. Original indication: . 1 predicted indications."
 permalink: /news/salmeterol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salmeterol/
 ---
 
 <p class="key-answer" data-question="What news is there about Salmeterol?">
-<strong>Salmeterol</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Salmeterol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Salmeterol with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>bronchitis (99.9%)</li>
-<li>respiratory malformation (99.9%)</li>
-<li>obstructive lung disease (99.9%)</li>
-<li>Rienhoff syndrome (99.9%)</li>
-<li>asthma (99.8%)</li>
-<li>asthma-related traits, susceptibility to (99.5%)</li>
-<li>atopic eczema (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Bronchitis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/salmeterol/' | relative_url }}">View full drug report →</a></p>

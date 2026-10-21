@@ -3,7 +3,7 @@ layout: default
 title: "Mercaptopurine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Mercaptopurine. Original indication: . 10 predicted indications."
+description: "Health news related to Mercaptopurine. Original indication: . 1 predicted indications."
 permalink: /news/mercaptopurine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/mercaptopurine/
 ---
 
 <p class="key-answer" data-question="What news is there about Mercaptopurine?">
-<strong>Mercaptopurine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Mercaptopurine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Mercaptopurine with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>myeloid leukemia (99.9%)</li>
-<li>chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation (99.8%)</li>
-<li>pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (99.8%)</li>
-<li>pulmonary blastoma (99.8%)</li>
-<li>Hodgkins lymphoma (99.8%)</li>
-<li>primary pulmonary lymphoma (99.8%)</li>
-<li>small cell lung carcinoma (99.8%)</li>
-<li>well-differentiated fetal adenocarcinoma of the lung (99.8%)</li>
-<li>precursor lymphoblastic lymphoma/leukemia (99.7%)</li>
-<li>acute lymphoblastic leukemia (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Myeloid leukemia (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/mercaptopurine/' | relative_url }}">View full drug report →</a></p>

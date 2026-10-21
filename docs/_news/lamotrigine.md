@@ -3,7 +3,7 @@ layout: default
 title: "Lamotrigine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Lamotrigine. Original indication: . 9 predicted indications."
+description: "Health news related to Lamotrigine. Original indication: . 1 predicted indications."
 permalink: /news/lamotrigine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/lamotrigine/
 ---
 
 <p class="key-answer" data-question="What news is there about Lamotrigine?">
-<strong>Lamotrigine</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Lamotrigine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Lamotrigine with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>trigeminal nerve neoplasm (100.0%)</li>
-<li>trigeminal neuralgia (99.9%)</li>
-<li>micturation-induced seizures (99.4%)</li>
-<li>audiogenic seizures (99.4%)</li>
-<li>startle epilepsy (99.4%)</li>
-<li>thinking seizures (99.4%)</li>
-<li>orgasm-induced seizures (99.4%)</li>
-<li>eating seizures (99.4%)</li>
-<li>reading seizures (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the best-supported candidate (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/lamotrigine/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Irbesartan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Irbesartan. Original indication: . 4 predicted indications."
+description: "Health news related to Irbesartan. Original indication: . 1 predicted indications."
 permalink: /news/irbesartan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/irbesartan/
 ---
 
 <p class="key-answer" data-question="What news is there about Irbesartan?">
-<strong>Irbesartan</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Irbesartan</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,8 @@ This page combines the AI-predicted indications for Irbesartan with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>malignant renovascular hypertension (99.3%)</li>
-<li>malignant hypertensive renal disease (99.3%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.2%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant renovascular hypertension (rank 1); pulmonary hypertension owing to lung disease and/or hypoxia (rank 3, the only prediction with literature) (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/irbesartan/' | relative_url }}">View full drug report →</a></p>

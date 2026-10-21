@@ -3,7 +3,7 @@ layout: default
 title: "Atenolol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Atenolol. Original indication: . 9 predicted indications."
+description: "Health news related to Atenolol. Original indication: . 1 predicted indications."
 permalink: /news/atenolol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/atenolol/
 ---
 
 <p class="key-answer" data-question="What news is there about Atenolol?">
-<strong>Atenolol</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Atenolol</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,8 @@ This page combines the AI-predicted indications for Atenolol with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>posteroinferior myocardial infarction (99.9%)</li>
-<li>posterolateral myocardial infarction (99.9%)</li>
-<li>malignant renovascular hypertension (99.8%)</li>
-<li>malignant hypertensive renal disease (99.8%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.8%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.8%)</li>
-<li>septal myocardial infarction (99.8%)</li>
-<li>Braddock syndrome (99.8%)</li>
-<li>chronic pulmonary heart disease (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Posteroinferior myocardial infarction (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/atenolol/' | relative_url }}">View full drug report →</a></p>

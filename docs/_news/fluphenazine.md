@@ -3,7 +3,7 @@ layout: default
 title: "Fluphenazine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluphenazine. Original indication: . 10 predicted indications."
+description: "Health news related to Fluphenazine. Original indication: . 1 predicted indications."
 permalink: /news/fluphenazine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluphenazine/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluphenazine?">
-<strong>Fluphenazine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fluphenazine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Fluphenazine with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>retinal dystrophy with or without extraocular anomalies (100.0%)</li>
-<li>syndromic myopia (100.0%)</li>
-<li>myopia X-linked (100.0%)</li>
-<li>hydranencephaly (disease) (100.0%)</li>
-<li>congenital disorder of glycosylation with defective fucosylation (100.0%)</li>
-<li>myopia 26, X-linked, female-limited (100.0%)</li>
-<li>Charcot-Marie-Tooth disease, demyelinating, type 1G (100.0%)</li>
-<li>polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (100.0%)</li>
-<li>atypical glycine encephalopathy (100.0%)</li>
-<li>manic bipolar affective disorder (100.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Retinal dystrophy with or without extraocular anomalies (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluphenazine/' | relative_url }}">View full drug report →</a></p>

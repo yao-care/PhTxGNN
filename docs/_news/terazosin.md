@@ -3,7 +3,7 @@ layout: default
 title: "Terazosin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Terazosin. Original indication: . 10 predicted indications."
+description: "Health news related to Terazosin. Original indication: . 1 predicted indications."
 permalink: /news/terazosin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/terazosin/
 ---
 
 <p class="key-answer" data-question="What news is there about Terazosin?">
-<strong>Terazosin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Terazosin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Terazosin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypotrichosis simplex of the scalp (100.0%)</li>
-<li>congenital hypotrichosis milia (100.0%)</li>
-<li>diffuse alopecia areata (100.0%)</li>
-<li>alopecia (100.0%)</li>
-<li>migraine disorder (99.9%)</li>
-<li>migraine with brainstem aura (99.9%)</li>
-<li>Raynaud disease (99.8%)</li>
-<li>Ambras type hypertrichosis universalis congenita (99.7%)</li>
-<li>manic bipolar affective disorder (99.5%)</li>
-<li>kyphoscoliotic heart disease (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypotrichosis simplex of the scalp (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/terazosin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Tacrolimus News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tacrolimus. Original indication: . 3 predicted indications."
+description: "Health news related to Tacrolimus. Original indication: . 1 predicted indications."
 permalink: /news/tacrolimus/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tacrolimus/
 ---
 
 <p class="key-answer" data-question="What news is there about Tacrolimus?">
-<strong>Tacrolimus</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Tacrolimus</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Tacrolimus with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L2</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>seborrheic dermatitis (99.3%)</li>
-<li>parapsoriasis (99.2%)</li>
-<li>dermatitis (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Seborrheic dermatitis (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tacrolimus/' | relative_url }}">View full drug report →</a></p>

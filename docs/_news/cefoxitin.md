@@ -3,7 +3,7 @@ layout: default
 title: "Cefoxitin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cefoxitin. Original indication: . 3 predicted indications."
+description: "Health news related to Cefoxitin. Original indication: . 4 predicted indications."
 permalink: /news/cefoxitin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cefoxitin/
 ---
 
 <p class="key-answer" data-question="What news is there about Cefoxitin?">
-<strong>Cefoxitin</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Cefoxitin</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Cefoxitin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L3</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Urinary tract infection (rank 2; see the note on ranking below) (99.3%)</li>
 <li>Infectious otitis media (99.3%)</li>
 <li>Middle ear disease (99.1%)</li>
 <li>Gonococcal urethritis (99.1%)</li>

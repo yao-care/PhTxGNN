@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Diphenhydramine with the lat
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>rosacea conjunctivitis (99.2%)</li>
+<li>Rosacea conjunctivitis (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/diphenhydramine/' | relative_url }}">View full drug report →</a></p>

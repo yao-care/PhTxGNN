@@ -3,7 +3,7 @@ layout: default
 title: "Flutamide News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Flutamide. Original indication: . 10 predicted indications."
+description: "Health news related to Flutamide. Original indication: . 1 predicted indications."
 permalink: /news/flutamide/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/flutamide/
 ---
 
 <p class="key-answer" data-question="What news is there about Flutamide?">
-<strong>Flutamide</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Flutamide</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Flutamide with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>prostate cancer/brain cancer susceptibility (100.0%)</li>
-<li>fibroma of prostate (100.0%)</li>
-<li>Brenner tumor (100.0%)</li>
-<li>benign reproductive system neoplasm (100.0%)</li>
-<li>prostate leiomyoma (100.0%)</li>
-<li>male reproductive organ cancer (100.0%)</li>
-<li>benign prostate phyllodes tumor (100.0%)</li>
-<li>HIV infectious disease (99.9%)</li>
-<li>feline acquired immunodeficiency syndrome (99.9%)</li>
-<li>simian immunodeficiency virus infection (99.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Prostate cancer/brain cancer susceptibility (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/flutamide/' | relative_url }}">View full drug report →</a></p>

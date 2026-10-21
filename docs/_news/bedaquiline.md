@@ -3,7 +3,7 @@ layout: default
 title: "Bedaquiline News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Bedaquiline. Original indication: . 10 predicted indications."
+description: "Health news related to Bedaquiline. Original indication: . 1 predicted indications."
 permalink: /news/bedaquiline/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/bedaquiline/
 ---
 
 <p class="key-answer" data-question="What news is there about Bedaquiline?">
-<strong>Bedaquiline</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Bedaquiline</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Bedaquiline with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>tuberculosis, bovine (100.0%)</li>
-<li>inactive tuberculosis (100.0%)</li>
-<li>tuberculosis, avian (100.0%)</li>
-<li>tuberculoma (100.0%)</li>
-<li>tuberculous ascites (100.0%)</li>
-<li>vulvovaginal candidiasis (99.9%)</li>
-<li>fascioliasis (99.9%)</li>
-<li>urea cycle disorder (99.8%)</li>
-<li>cutaneous tuberculosis (99.7%)</li>
-<li>esophageal candidiasis (99.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Inactive tuberculosis (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/bedaquiline/' | relative_url }}">View full drug report →</a></p>

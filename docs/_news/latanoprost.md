@@ -3,7 +3,7 @@ layout: default
 title: "Latanoprost News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Latanoprost. Original indication: . 6 predicted indications."
+description: "Health news related to Latanoprost. Original indication: . 7 predicted indications."
 permalink: /news/latanoprost/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/latanoprost/
 ---
 
 <p class="key-answer" data-question="What news is there about Latanoprost?">
-<strong>Latanoprost</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Latanoprost</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,14 @@ This page combines the AI-predicted indications for Latanoprost with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>Visceral calciphylaxis | 99.83% | No clear mechanistic link; topical ocular route unlikely to reach relevant tissue (99.0%)</li>
-<li>Hypotrichosis simplex of the scalp | 99.81% | Biologically plausible, since prostaglandin analogues stimulate hair growth (eyelash hypertrichosis); structural follicle defects may limit benefit (99.0%)</li>
-<li>Congenital hypotrichosis milia | 99.71% | Similar hair-growth rationale, but congenital structural defect may limit benefit (99.0%)</li>
-<li>Angiodysplasia of stomach | 99.70% | No plausible link; vasodilation could be unfavourable (99.0%)</li>
-<li>Blue toe syndrome | 99.69% | Negligible systemic exposure from topical ophthalmic use (99.0%)</li>
-<li>Lymphangiectasis | 99.67% | Speculative link only (99.0%)</li>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Primary hereditary glaucoma (99.9%)</li>
+<li>Visceral calciphylaxis (99.8%)</li>
+<li>Hypotrichosis simplex of the scalp (99.8%)</li>
+<li>Congenital hypotrichosis milia (99.7%)</li>
+<li>Angiodysplasia of stomach (99.7%)</li>
+<li>Blue toe syndrome (99.7%)</li>
+<li>Lymphangiectasis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/latanoprost/' | relative_url }}">View full drug report →</a></p>

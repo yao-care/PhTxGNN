@@ -3,7 +3,7 @@ layout: default
 title: "Ketorolac News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ketorolac. Original indication: . 3 predicted indications."
+description: "Health news related to Ketorolac. Original indication: . 1 predicted indications."
 permalink: /news/ketorolac/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ketorolac/
 ---
 
 <p class="key-answer" data-question="What news is there about Ketorolac?">
-<strong>Ketorolac</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Ketorolac</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,10 +25,8 @@ This page combines the AI-predicted indications for Ketorolac with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
-<li>headache disorder (99.4%)</li>
-<li>rosacea conjunctivitis (99.4%)</li>
-<li>trigeminal autonomic cephalalgia (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Headache disorder (99.4%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ketorolac/' | relative_url }}">View full drug report →</a></p>

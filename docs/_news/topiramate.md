@@ -3,7 +3,7 @@ layout: default
 title: "Topiramate News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Topiramate. Original indication: . 8 predicted indications."
+description: "Health news related to Topiramate. Original indication: . 9 predicted indications."
 permalink: /news/topiramate/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/topiramate/
 ---
 
 <p class="key-answer" data-question="What news is there about Topiramate?">
-<strong>Topiramate</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Topiramate</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Topiramate with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Trigeminal nerve neoplasm (99.7%)</li>
 <li>Visual epilepsy (99.3%)</li>
 <li>Audiogenic seizures (99.2%)</li>
 <li>Eating seizures (99.2%)</li>

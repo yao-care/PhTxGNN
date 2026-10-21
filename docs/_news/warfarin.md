@@ -3,7 +3,7 @@ layout: default
 title: "Warfarin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Warfarin. Original indication: . 7 predicted indications."
+description: "Health news related to Warfarin. Original indication: . 1 predicted indications."
 permalink: /news/warfarin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/warfarin/
 ---
 
 <p class="key-answer" data-question="What news is there about Warfarin?">
-<strong>Warfarin</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
+<strong>Warfarin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,14 +25,8 @@ This page combines the AI-predicted indications for Warfarin with the latest hea
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (7)</strong>:<ul>
-<li>heparin cofactor 2 deficiency (99.9%)</li>
-<li>factor 5 excess with spontaneous thrombosis (99.8%)</li>
-<li>antithrombin deficiency type 2 (99.8%)</li>
-<li>thrombophilia (99.8%)</li>
-<li>rheumatoid arthritis (99.2%)</li>
-<li>breast fibrocystic disease (99.2%)</li>
-<li>benign mammary dysplasia (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Thrombophilia (the top-ranked prediction by TxGNN score is heparin cofactor 2 deficiency, but thrombophilia has the strongest supporting evidence and is the focus of this report) (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/warfarin/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Dantrolene News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dantrolene. Original indication: . 6 predicted indications."
+description: "Health news related to Dantrolene. Original indication: . 7 predicted indications."
 permalink: /news/dantrolene/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dantrolene/
 ---
 
 <p class="key-answer" data-question="What news is there about Dantrolene?">
-<strong>Dantrolene</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Dantrolene</strong> currently has <strong>0 news articles</strong>, with 7 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,7 +25,8 @@ This page combines the AI-predicted indications for Dantrolene with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
+<li><strong>Predicted indications (7)</strong>:<ul>
+<li>Malignant hyperthermia, susceptibility to (99.9%)</li>
 <li>King-Denborough syndrome (99.9%)</li>
 <li>Central core myopathy (99.9%)</li>
 <li>Myopathy, centronuclear (99.7%)</li>

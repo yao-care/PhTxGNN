@@ -3,7 +3,7 @@ layout: default
 title: "Methylergometrine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methylergometrine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Methylergometrine. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/methylergometrine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/methylergometrine/
 ---
 
 <p class="key-answer" data-question="What news is there about Methylergometrine?">
-<strong>Methylergometrine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Methylergometrine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Methylergometrine with the l
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>hypertrichosis (disease) (99.9%)</li>
-<li>pulmonary hypertension (99.9%)</li>
-<li>migraine disorder (99.8%)</li>
-<li>Ambras type hypertrichosis universalis congenita (99.8%)</li>
-<li>malformation syndrome with odontal and/or periodontal component (99.8%)</li>
-<li>syndrome with a Dandy-Walker malformation as major feature (99.8%)</li>
-<li>isolated genetic hair shaft abnormality (99.8%)</li>
-<li>kyphoscoliotic heart disease (99.8%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>nephrogenic syndrome of inappropriate antidiuresis (99.6%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypertrichosis (99.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/methylergometrine/' | relative_url }}">View full drug report →</a></p>

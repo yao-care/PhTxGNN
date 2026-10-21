@@ -3,7 +3,7 @@ layout: default
 title: "Rosuvastatin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rosuvastatin. Original indication: . 10 predicted indications."
+description: "Health news related to Rosuvastatin. Original indication: . 1 predicted indications."
 permalink: /news/rosuvastatin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rosuvastatin/
 ---
 
 <p class="key-answer" data-question="What news is there about Rosuvastatin?">
-<strong>Rosuvastatin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Rosuvastatin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Rosuvastatin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>cholesterol-ester transfer protein deficiency (99.5%)</li>
-<li>familial hypercholesterolemia (99.5%)</li>
-<li>hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency (99.5%)</li>
-<li>brain stem infarction (99.4%)</li>
-<li>HIV infectious disease (99.4%)</li>
-<li>hypoalphalipoproteinemia (99.2%)</li>
-<li>neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter (99.2%)</li>
-<li>hyperlipidemia due to hepatic triglyceride lipase deficiency (99.2%)</li>
-<li>ABri amyloidosis (99.2%)</li>
-<li>hyperlipidemia (99.1%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Cholesterol-ester transfer protein deficiency (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rosuvastatin/' | relative_url }}">View full drug report →</a></p>

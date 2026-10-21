@@ -3,7 +3,7 @@ layout: default
 title: "Sofosbuvir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sofosbuvir. Original indication: . 8 predicted indications."
+description: "Health news related to Sofosbuvir. Original indication: . 1 predicted indications."
 permalink: /news/sofosbuvir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sofosbuvir/
 ---
 
 <p class="key-answer" data-question="What news is there about Sofosbuvir?">
-<strong>Sofosbuvir</strong> currently has <strong>0 news articles</strong>, with 8 predicted indications.
+<strong>Sofosbuvir</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,15 +25,8 @@ This page combines the AI-predicted indications for Sofosbuvir with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (8)</strong>:<ul>
-<li>hepatitis B virus infection (99.8%)</li>
-<li>hepatitis E virus infection (99.5%)</li>
-<li>hepatitis, viral, animal (99.5%)</li>
-<li>hepatitis A virus infection (99.5%)</li>
-<li>Omsk hemorrhagic fever (99.5%)</li>
-<li>chronic hepatitis B virus infection (99.5%)</li>
-<li>Kyasanur forest disease (99.5%)</li>
-<li>HIV infectious disease (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hepatitis B virus infection (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sofosbuvir/' | relative_url }}">View full drug report →</a></p>

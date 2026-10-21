@@ -3,7 +3,7 @@ layout: default
 title: "Captopril News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Captopril. Original indication: . 4 predicted indications."
+description: "Health news related to Captopril. Original indication: . 1 predicted indications."
 permalink: /news/captopril/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/captopril/
 ---
 
 <p class="key-answer" data-question="What news is there about Captopril?">
-<strong>Captopril</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
+<strong>Captopril</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,11 +25,8 @@ This page combines the AI-predicted indications for Captopril with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (4)</strong>:<ul>
-<li>malignant renovascular hypertension (99.3%)</li>
-<li>malignant hypertensive renal disease (99.3%)</li>
-<li>pulmonary hypertension owing to lung disease and/or hypoxia (99.2%)</li>
-<li>pulmonary hypertension with unclear multifactorial mechanism (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Malignant renovascular hypertension (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/captopril/' | relative_url }}">View full drug report →</a></p>

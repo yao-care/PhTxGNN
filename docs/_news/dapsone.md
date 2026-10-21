@@ -26,7 +26,7 @@ This page combines the AI-predicted indications for Dapsone with the latest heal
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
 <li><strong>Predicted indications (1)</strong>:<ul>
-<li>pneumocystosis (99.7%)</li>
+<li>Pneumocystosis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/dapsone/' | relative_url }}">View full drug report →</a></p>

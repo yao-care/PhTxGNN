@@ -3,7 +3,7 @@ layout: default
 title: "Spironolactone News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Spironolactone. Original indication: . 2 predicted indications."
+description: "Health news related to Spironolactone. Original indication: . 1 predicted indications."
 permalink: /news/spironolactone/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/spironolactone/
 ---
 
 <p class="key-answer" data-question="What news is there about Spironolactone?">
-<strong>Spironolactone</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Spironolactone</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Spironolactone with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>hypotrichosis simplex of the scalp (99.3%)</li>
-<li>congenital hypotrichosis milia (99.0%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Hypotrichosis simplex of the scalp (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/spironolactone/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Fluorescein News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fluorescein. Original indication: . 10 predicted indications."
+description: "Health news related to Fluorescein. Original indication: . 1 predicted indications."
 permalink: /news/fluorescein/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fluorescein/
 ---
 
 <p class="key-answer" data-question="What news is there about Fluorescein?">
-<strong>Fluorescein</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Fluorescein</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Fluorescein with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
 <li>Prinzmetal angina (99.8%)</li>
-<li>antithrombin deficiency type 2 (99.8%)</li>
-<li>rheumatoid arthritis (99.7%)</li>
-<li>factor 5 excess with spontaneous thrombosis (99.7%)</li>
-<li>hemoglobinopathy (99.7%)</li>
-<li>heparin cofactor 2 deficiency (99.7%)</li>
-<li>thrombophilia (99.7%)</li>
-<li>hyperthyroidism (99.6%)</li>
-<li>partial deletion of the short arm of chromosome 16 (99.6%)</li>
-<li>beta-thalassemia with other manifestations (99.6%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/fluorescein/' | relative_url }}">View full drug report →</a></p>

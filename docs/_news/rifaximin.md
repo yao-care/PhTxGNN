@@ -3,7 +3,7 @@ layout: default
 title: "Rifaximin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Rifaximin. Original indication: . 6 predicted indications."
+description: "Health news related to Rifaximin. Original indication: . 1 predicted indications."
 permalink: /news/rifaximin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/rifaximin/
 ---
 
 <p class="key-answer" data-question="What news is there about Rifaximin?">
-<strong>Rifaximin</strong> currently has <strong>0 news articles</strong>, with 6 predicted indications.
+<strong>Rifaximin</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,13 +25,8 @@ This page combines the AI-predicted indications for Rifaximin with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (6)</strong>:<ul>
-<li>oral candidiasis (99.8%)</li>
-<li>commissural lip fistula (99.6%)</li>
-<li>osteoradionecrosis of the mandible (99.6%)</li>
-<li>burning mouth syndrome (99.6%)</li>
-<li>oral leukoedema (99.6%)</li>
-<li>candidiasis (99.2%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Oral candidiasis (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/rifaximin/' | relative_url }}">View full drug report →</a></p>

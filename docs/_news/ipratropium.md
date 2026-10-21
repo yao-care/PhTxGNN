@@ -3,7 +3,7 @@ layout: default
 title: "Ipratropium News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ipratropium. Original indication: . 10 predicted indications."
+description: "Health news related to Ipratropium. Original indication: . 1 predicted indications."
 permalink: /news/ipratropium/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ipratropium/
 ---
 
 <p class="key-answer" data-question="What news is there about Ipratropium?">
-<strong>Ipratropium</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Ipratropium</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Ipratropium with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L1</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>obstructive lung disease (100.0%)</li>
-<li>nasal cavity disease (99.9%)</li>
-<li>pharyngitis (99.8%)</li>
-<li>acute laryngopharyngitis (99.8%)</li>
-<li>respiratory malformation (99.8%)</li>
-<li>papillary conjunctivitis (99.8%)</li>
-<li>Rienhoff syndrome (99.7%)</li>
-<li>tracheal disease (99.7%)</li>
-<li>anaphylaxis (99.4%)</li>
-<li>food-dependent exercise-induced anaphylaxis (99.4%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Obstructive lung disease (100.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ipratropium/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Clomifene News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Clomifene. Original indication: . 10 predicted indications."
+description: "Health news related to Clomifene. Original indication: . 1 predicted indications."
 permalink: /news/clomifene/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/clomifene/
 ---
 
 <p class="key-answer" data-question="What news is there about Clomifene?">
-<strong>Clomifene</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Clomifene</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Clomifene with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
+<li><strong>Predicted indications (1)</strong>:<ul>
 <li>46,XY disorder of sex development due to testicular steroidogenesis defect (99.9%)</li>
-<li>transverse vaginal septum (99.9%)</li>
-<li>longitudinal vaginal septum (99.9%)</li>
-<li>symptomatic form of fragile X syndrome in female carrier (99.7%)</li>
-<li>blepharophimosis-epicanthus inversus-ptosis (99.6%)</li>
-<li>blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome (99.6%)</li>
-<li>partial trisomy/tetrasomy of the short arm of chromosome 18 (99.5%)</li>
-<li>partial trisomy/tetrasomy of the short arm of chromosome 5 (99.5%)</li>
-<li>partial trisomy/tetrasomy of the short arm of chromosome 12 (99.5%)</li>
-<li>ovarian remnant syndrome (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/clomifene/' | relative_url }}">View full drug report →</a></p>

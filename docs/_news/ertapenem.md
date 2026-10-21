@@ -3,7 +3,7 @@ layout: default
 title: "Ertapenem News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Ertapenem. Original indication: . 2 predicted indications."
+description: "Health news related to Ertapenem. Original indication: . 1 predicted indications."
 permalink: /news/ertapenem/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/ertapenem/
 ---
 
 <p class="key-answer" data-question="What news is there about Ertapenem?">
-<strong>Ertapenem</strong> currently has <strong>0 news articles</strong>, with 2 predicted indications.
+<strong>Ertapenem</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,9 +25,8 @@ This page combines the AI-predicted indications for Ertapenem with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (2)</strong>:<ul>
-<li>bacterial arthritis (99.7%)</li>
-<li>staphylococcus aureus infection (99.3%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Bacterial arthritis (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/ertapenem/' | relative_url }}">View full drug report →</a></p>

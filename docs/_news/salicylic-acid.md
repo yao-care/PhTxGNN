@@ -3,7 +3,7 @@ layout: default
 title: "SALICYLIC ACID News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to SALICYLIC ACID. Original indication: . 9 predicted indications."
+description: "Health news related to SALICYLIC ACID. Original indication: . 10 predicted indications."
 permalink: /news/salicylic-acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/salicylic-acid/
 ---
 
 <p class="key-answer" data-question="What news is there about SALICYLIC ACID?">
-<strong>SALICYLIC ACID</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>SALICYLIC ACID</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for SALICYLIC ACID with the late
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.78% | No plausible mechanistic link; developmental genetic disorder (99.0%)</li>
-<li>Brachydactyly-syndactyly syndrome | 99.73% | No plausible link; likely a graph artifact (99.0%)</li>
-<li>Brachyolmia-amelogenesis imperfecta syndrome | 99.55% | No plausible link (99.0%)</li>
-<li>Rosacea conjunctivitis | 99.53% | Weak, indirect link via inflammatory skin disease; speculative, with ocular safety concerns (99.0%)</li>
-<li>Acromesomelic dysplasia, Hunter-Thompson type | 99.52% | No plausible link (99.0%)</li>
-<li>Pseudoachondroplasia | 99.51% | No plausible link; at most tangential joint pain relevance (99.0%)</li>
-<li>Myosclerosis | 99.49% | Weak, loose thematic link to musculoskeletal inflammation (99.0%)</li>
-<li>Brachyolmia | 99.44% | No plausible link (99.0%)</li>
-<li>Spondyloarthropathy, susceptibility to | 99.34% | Moderate class-level plausibility (NSAID-type symptom relief); no salicylic acid-specific evidence (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Papillary conjunctivitis (99.9%)</li>
+<li>Colobomatous microphthalmia-rhizomelic dysplasia syndrome (99.8%)</li>
+<li>Brachydactyly-syndactyly syndrome (99.7%)</li>
+<li>Brachyolmia-amelogenesis imperfecta syndrome (99.5%)</li>
+<li>Rosacea conjunctivitis (99.5%)</li>
+<li>Acromesomelic dysplasia, Hunter-Thompson type (99.5%)</li>
+<li>Pseudoachondroplasia (99.5%)</li>
+<li>Myosclerosis (99.5%)</li>
+<li>Brachyolmia (99.4%)</li>
+<li>Spondyloarthropathy, susceptibility to (99.3%)</li>
 </ul></li>
 </ul>
 
