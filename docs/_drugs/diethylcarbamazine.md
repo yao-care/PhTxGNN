@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Diethylcarbamazine: From Filarial Lymphatic Disease to Syndromic Lymphedema
+## Diethylcarbamazine: From Filarial Lymphatic Disease to Syndromic Lymphedema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

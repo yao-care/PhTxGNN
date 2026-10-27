@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Halothane: From General Anaesthesia to Manic Bipolar Affective Disorder
+## Halothane: From General Anaesthesia to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

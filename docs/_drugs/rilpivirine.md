@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Rilpivirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Rilpivirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

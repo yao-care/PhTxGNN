@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Levetiracetam: From Partial Epilepsy to Visual Epilepsy
+## Levetiracetam: From Partial Epilepsy to Visual Epilepsy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

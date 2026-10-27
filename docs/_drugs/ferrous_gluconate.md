@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Ferrous Gluconate: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+## Ferrous Gluconate: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

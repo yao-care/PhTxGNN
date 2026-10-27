@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-# Propofol: From General Anesthesia to Migraine Disorder
+## Propofol: From General Anesthesia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
+## Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

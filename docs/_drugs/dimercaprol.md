@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Dimercaprol: From Heavy Metal Poisoning to Bronchitis
+## Dimercaprol: From Heavy Metal Poisoning to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

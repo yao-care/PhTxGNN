@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfacetamide: From Bacterial and Inflammatory Skin/Eye Conditions to Postinfectious Vasculitis
+## Sulfacetamide: From Bacterial and Inflammatory Skin/Eye Conditions to Postinfectious Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

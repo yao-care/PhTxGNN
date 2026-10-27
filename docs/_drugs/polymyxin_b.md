@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Polymyxin B: Predicted New Indication, Bronchitis
+## Polymyxin B: Predicted New Indication, Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

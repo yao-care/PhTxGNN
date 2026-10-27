@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Doxorubicin: From Hematologic Malignancies (Leukaemia and Lymphoma) to Ewing Sarcoma
+## Doxorubicin: From Hematologic Malignancies (Leukaemia and Lymphoma) to Ewing Sarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

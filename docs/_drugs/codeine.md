@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Codeine: From Rhinitis and Headache Symptom Relief to Nasal Cavity Disease
+## Codeine: From Rhinitis and Headache Symptom Relief to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

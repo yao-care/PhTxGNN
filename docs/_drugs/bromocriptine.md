@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bromocriptine: From Parkinson Disease and Hyperprolactinemia to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Bromocriptine: From Parkinson Disease and Hyperprolactinemia to Congenital Disorder of Glycosylation with Defective Fucosylation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Phenylephrine: From Rhinitis and Nasal Congestion to Nasal Cavity Disease
+## Phenylephrine: From Rhinitis and Nasal Congestion to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

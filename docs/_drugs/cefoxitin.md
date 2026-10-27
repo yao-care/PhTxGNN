@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cefoxitin: From Bacterial Infections to Urinary Tract Infection
+## Cefoxitin: From Bacterial Infections to Urinary Tract Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

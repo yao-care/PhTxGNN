@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Bromazepam: From Anxiety-Related Use to Migraine Disorder
+## Bromazepam: From Anxiety-Related Use to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Norethisterone: From Acne and Gynaecological Hormonal Conditions to Amenorrhea
+## Norethisterone: From Acne and Gynaecological Hormonal Conditions to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

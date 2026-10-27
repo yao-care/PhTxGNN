@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Benzoyl Peroxide: From Acne and Dermatitis to Vulvar Inverted Follicular Keratosis
+## Benzoyl Peroxide: From Acne and Dermatitis to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

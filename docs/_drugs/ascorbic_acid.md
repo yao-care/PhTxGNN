@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-syndromic Esophageal Malformation
+## Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-syndromic Esophageal Malformation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

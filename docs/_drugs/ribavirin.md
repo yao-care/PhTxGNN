@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ribavirin: From Chronic Hepatitis C to Chronic Hepatitis B Virus Infection
+## Ribavirin: From Chronic Hepatitis C to Chronic Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

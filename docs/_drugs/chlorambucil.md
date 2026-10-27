@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Chlorambucil: From Hodgkin Lymphoma and B-Cell Neoplasms to Primary Pulmonary Lymphoma
+## Chlorambucil: From Hodgkin Lymphoma and B-Cell Neoplasms to Primary Pulmonary Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

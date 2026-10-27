@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ranitidine: From Gastric Ulcer to Active Peptic Ulcer Disease
+## Ranitidine: From Gastric Ulcer to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

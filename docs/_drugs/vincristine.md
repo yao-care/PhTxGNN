@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Vincristine: From Acute Lymphoblastic Leukaemia and Lymphoma to Ganglioneuroblastoma
+## Vincristine: From Acute Lymphoblastic Leukaemia and Lymphoma to Ganglioneuroblastoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

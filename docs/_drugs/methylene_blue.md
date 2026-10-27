@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Methylene Blue: From Methemoglobinemia to Bronchitis
+## Methylene Blue: From Methemoglobinemia to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

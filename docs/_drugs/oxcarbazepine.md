@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+## Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Piperacillin: From Bacterial Infection Treatment to Rheumatoid Arthritis
+## Piperacillin: From Bacterial Infection Treatment to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

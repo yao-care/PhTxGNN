@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-# Selegiline: From Parkinson's Disease to Schizophrenia
+## Selegiline: From Parkinson's Disease to Schizophrenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

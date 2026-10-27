@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Levofloxacin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

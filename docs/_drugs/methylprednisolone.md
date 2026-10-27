@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylprednisolone: From Autoimmune and Inflammatory Diseases to Alopecia Areata
+## Methylprednisolone: From Autoimmune and Inflammatory Diseases to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

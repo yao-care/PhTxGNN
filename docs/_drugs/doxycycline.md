@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Doxycycline: From Bacterial Infections (Bronchitis, Pneumonia, Acne) to Punctate Epithelial Keratoconjunctivitis
+## Doxycycline: From Bacterial Infections (Bronchitis, Pneumonia, Acne) to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

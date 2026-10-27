@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Nitroglycerin: From an Unspecified Original Indication to Pulmonary Hypertension
+## Nitroglycerin: From an Unspecified Original Indication to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

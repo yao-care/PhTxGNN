@@ -31,7 +31,8 @@ Evidence Level: **L2** | Predicted Indications: **1**
 
 </div>
 
-# Flunarizine: From an Unspecified Original Indication to Migraine Disorder
+## Flunarizine: From an Unspecified Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

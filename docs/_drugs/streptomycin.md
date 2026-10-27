@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Streptomycin: From Pulmonary Tuberculosis to Conjunctivitis
+## Streptomycin: From Pulmonary Tuberculosis to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

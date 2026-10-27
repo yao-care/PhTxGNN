@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pancuronium: From Neuromuscular Blockade to Cauda Equina Syndrome
+## Pancuronium: From Neuromuscular Blockade to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

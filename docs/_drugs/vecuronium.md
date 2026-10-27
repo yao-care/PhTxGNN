@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Vecuronium: From Neuromuscular Blockade to Insomnia
+## Vecuronium: From Neuromuscular Blockade to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

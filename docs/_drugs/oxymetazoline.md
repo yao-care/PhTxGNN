@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Oxymetazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

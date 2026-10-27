@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dipyridamole: From Atrial Fibrillation to Prinzmetal Angina
+## Dipyridamole: From Atrial Fibrillation to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

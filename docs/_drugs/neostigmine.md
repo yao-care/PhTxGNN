@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Neostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Neostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

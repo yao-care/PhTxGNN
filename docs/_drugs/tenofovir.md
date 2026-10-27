@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tenofovir: From Chronic Hepatitis B and HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Tenofovir: From Chronic Hepatitis B and HIV Infection to Feline Acquired Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

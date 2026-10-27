@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aminophylline: From an Unspecified Original Indication to Migraine Disorder
+## Aminophylline: From an Unspecified Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

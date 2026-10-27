@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Norepinephrine: From Asthma and Hypotensive Disorder to Obstructive Lung Disease
+## Norepinephrine: From Asthma and Hypotensive Disorder to Obstructive Lung Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

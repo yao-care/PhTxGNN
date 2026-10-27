@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Biperiden: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Biperiden: From Parkinson Disease to Rasmussen Subacute Encephalitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -31,7 +31,8 @@ Evidence Level: **L1** | Predicted Indications: **2**
 
 </div>
 
-# Tazobactam: From Bacterial Pneumonia to Pneumonia (Extended Evidence in Hospital-Acquired and Ventilator-Associated Settings)
+## Tazobactam: From Bacterial Pneumonia to Pneumonia (Extended Evidence in Hospital-Acquired and Ventilator-Associated Settings)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

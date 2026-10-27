@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-# Aluminum Hydroxide: From Gastric Ulcer to Active Peptic Ulcer Disease
+## Aluminum Hydroxide: From Gastric Ulcer to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

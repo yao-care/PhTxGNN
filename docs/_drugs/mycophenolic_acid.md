@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Mycophenolic Acid: From an Immunosuppressant to Hemoglobinopathy
+## Mycophenolic Acid: From an Immunosuppressant to Hemoglobinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

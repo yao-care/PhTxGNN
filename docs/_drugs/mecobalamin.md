@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Mecobalamin: From an Unspecified Original Indication to Sclerosing Cholangitis
+## Mecobalamin: From an Unspecified Original Indication to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorouracil: From Skin Conditions and Gastrointestinal Cancers to Rhabdomyosarcoma
+## Fluorouracil: From Skin Conditions and Gastrointestinal Cancers to Rhabdomyosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

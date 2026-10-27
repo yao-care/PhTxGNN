@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Ertapenem: From Bacterial Pneumonia to Bacterial Arthritis
+## Ertapenem: From Bacterial Pneumonia to Bacterial Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

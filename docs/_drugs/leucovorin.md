@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Leucovorin: From Megaloblastic Anemia to Primary Hyperoxaluria
+## Leucovorin: From Megaloblastic Anemia to Primary Hyperoxaluria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

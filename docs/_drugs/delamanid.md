@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Delamanid: From Multidrug-Resistant Tuberculosis to Bovine Tuberculosis
+## Delamanid: From Multidrug-Resistant Tuberculosis to Bovine Tuberculosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

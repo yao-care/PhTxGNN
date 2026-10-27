@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Nepafenac: From an Unspecified Original Indication to Eye Disease
+## Nepafenac: From an Unspecified Original Indication to Eye Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-# Potassium: From an Unspecified Original Indication to Hypertensive Disorder
+## Potassium: From an Unspecified Original Indication to Hypertensive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

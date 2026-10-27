@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Chloroquine: From Rheumatoid Arthritis and Malaria to Rheumatoid Factor-Positive Polyarticular Juvenile Idiopathic Arthritis
+## Chloroquine: From Rheumatoid Arthritis and Malaria to Rheumatoid Factor-Positive Polyarticular Juvenile Idiopathic Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Nicardipine: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+## Nicardipine: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artemether: From Antimalarial Use to Acquired Angioedema
+## Artemether: From Antimalarial Use to Acquired Angioedema
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Fentanyl: From an Unspecified Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Fentanyl: From an Unspecified Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

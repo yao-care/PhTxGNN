@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Atropine: From an Unspecified Original Indication to Migraine Disorder
+## Atropine: From an Unspecified Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

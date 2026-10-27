@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Flucytosine: From Fungal Infection to Bone Paget Disease
+## Flucytosine: From Fungal Infection to Bone Paget Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

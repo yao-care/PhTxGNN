@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sevoflurane: From General Anaesthesia to Prinzmetal Angina
+## Sevoflurane: From General Anaesthesia to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

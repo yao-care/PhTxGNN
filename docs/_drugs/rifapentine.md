@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Rifapentine: From Pulmonary Tuberculosis to Leprosy
+## Rifapentine: From Pulmonary Tuberculosis to Leprosy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

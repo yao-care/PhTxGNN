@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Vasopressin: From Unspecified Original Indication to Congenital Prothrombin Deficiency
+## Vasopressin: From Unspecified Original Indication to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

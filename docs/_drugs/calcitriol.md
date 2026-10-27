@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Calcitriol: From Hypercalcemia and Mineral Metabolism Disorders to Vitamin D Deficiency (Obsolete Disease Entry)
+## Calcitriol: From Hypercalcemia and Mineral Metabolism Disorders to Vitamin D Deficiency (Obsolete Disease Entry)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

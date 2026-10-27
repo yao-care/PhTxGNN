@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Salmeterol: From Asthma and Chronic Airway Disease to Bronchitis
+## Salmeterol: From Asthma and Chronic Airway Disease to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

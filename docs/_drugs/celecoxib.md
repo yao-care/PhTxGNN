@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Celecoxib: From Arthritis and Spondyloarthropathy to Inflammatory Spondylopathy
+## Celecoxib: From Arthritis and Spondyloarthropathy to Inflammatory Spondylopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

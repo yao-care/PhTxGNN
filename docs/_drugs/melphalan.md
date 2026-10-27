@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+{: .text-alpha }
 
 ## One-Sentence Summary
 

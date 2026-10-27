@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Imatinib: From Gastrointestinal Stromal Tumor and Leukaemia to Heart Fibrosarcoma
+## Imatinib: From Gastrointestinal Stromal Tumor and Leukaemia to Heart Fibrosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

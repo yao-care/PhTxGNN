@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Lopinavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Lopinavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

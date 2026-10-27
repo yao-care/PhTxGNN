@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rocuronium: From Neuromuscular Blockade in Anaesthesia to Migraine Disorder
+## Rocuronium: From Neuromuscular Blockade in Anaesthesia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

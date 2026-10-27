@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
+## Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

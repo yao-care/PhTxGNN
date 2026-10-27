@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-# Thiamine: From Vitamin B1 Supplementation to Hyperthyroidism
+## Thiamine: From Vitamin B1 Supplementation to Hyperthyroidism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

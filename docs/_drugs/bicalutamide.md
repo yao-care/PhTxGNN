@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bicalutamide: From Androgen Receptor Blockade to Hypertrichosis
+## Bicalutamide: From Androgen Receptor Blockade to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

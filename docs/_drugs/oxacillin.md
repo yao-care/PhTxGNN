@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Oxacillin: From Staphylococcus aureus Infection to Epiglottitis
+## Oxacillin: From Staphylococcus aureus Infection to Epiglottitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

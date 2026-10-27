@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isoxsuprine: From Cerebrovascular and Peripheral Vascular Disorders to Benign Prostatic Hyperplasia
+## Isoxsuprine: From Cerebrovascular and Peripheral Vascular Disorders to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tobramycin: From Bacterial Eye and Central Nervous System Infections to Exposure Keratitis
+## Tobramycin: From Bacterial Eye and Central Nervous System Infections to Exposure Keratitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Gabapentin: Preliminary Assessment — Insufficient Data for Repurposing Prediction
+## Gabapentin: Preliminary Assessment — Insufficient Data for Repurposing Prediction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

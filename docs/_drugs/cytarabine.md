@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Cytarabine: From Acute Leukemia to Small Cell Lung Carcinoma
+## Cytarabine: From Acute Leukemia to Small Cell Lung Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

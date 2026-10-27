@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Bupivacaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Bupivacaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

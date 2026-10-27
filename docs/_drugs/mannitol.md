@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mannitol: From Intracranial and Ocular Pressure Reduction to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Mannitol: From Intracranial and Ocular Pressure Reduction to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

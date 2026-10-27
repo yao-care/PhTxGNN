@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salbutamol: From Asthma and Bronchial Disease to Papillary Conjunctivitis
+## Salbutamol: From Asthma and Bronchial Disease to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

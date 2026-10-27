@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Desmopressin: From Von Willebrand Disease and Nocturnal Enuresis to Primary Release Disorder of Platelets
+## Desmopressin: From Von Willebrand Disease and Nocturnal Enuresis to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

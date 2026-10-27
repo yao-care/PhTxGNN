@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Memantine: From an Unspecified Original Indication to Pulmonary Hypertension
+## Memantine: From an Unspecified Original Indication to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

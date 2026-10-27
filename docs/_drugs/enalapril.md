@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Enalapril: Evaluation on Hold — Insufficient Evidence Pack Data
+## Enalapril: Evaluation on Hold — Insufficient Evidence Pack Data
+{: .text-alpha }
 
 ## One-Sentence Summary
 

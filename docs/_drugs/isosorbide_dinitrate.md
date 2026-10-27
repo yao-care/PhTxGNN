@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Dinitrate: From an Established Nitrate Vasodilator to Alopecia
+## Isosorbide Dinitrate: From an Established Nitrate Vasodilator to Alopecia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

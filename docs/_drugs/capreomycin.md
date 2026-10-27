@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capreomycin: From Pulmonary Tuberculosis to Gout
+## Capreomycin: From Pulmonary Tuberculosis to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

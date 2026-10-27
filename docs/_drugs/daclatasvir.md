@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Daclatasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+## Daclatasvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

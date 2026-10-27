@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Levothyroxine: From Hypothyroidism to Endemic Goiter
+## Levothyroxine: From Hypothyroidism to Endemic Goiter
+{: .text-alpha }
 
 ## One-Sentence Summary
 

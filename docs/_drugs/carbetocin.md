@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Carbetocin: From Prader-Willi Syndrome and Noonan Syndrome to Isotretinoin-like Syndrome
+## Carbetocin: From Prader-Willi Syndrome and Noonan Syndrome to Isotretinoin-like Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

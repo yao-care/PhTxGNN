@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorescein: From a Diagnostic Dye to Prinzmetal Angina
+## Fluorescein: From a Diagnostic Dye to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

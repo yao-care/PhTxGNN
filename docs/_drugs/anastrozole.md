@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Anastrozole: From Breast Cancer (Original Indication Not Recorded in the Local Registry) to Female Breast Carcinoma
+## Anastrozole: From Breast Cancer (Original Indication Not Recorded in the Local Registry) to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

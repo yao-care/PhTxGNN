@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

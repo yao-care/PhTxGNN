@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Lynestrenol: From an Unspecified Original Indication to Migraine
+## Lynestrenol: From an Unspecified Original Indication to Migraine
+{: .text-alpha }
 
 ## One-Sentence Summary
 

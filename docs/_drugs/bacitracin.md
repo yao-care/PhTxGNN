@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bacitracin: From Keratitis to Punctate Epithelial Keratoconjunctivitis
+## Bacitracin: From Keratitis to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

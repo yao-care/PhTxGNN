@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Fluticasone: From an Unspecified Original Indication to Migraine Disorder
+## Fluticasone: From an Unspecified Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

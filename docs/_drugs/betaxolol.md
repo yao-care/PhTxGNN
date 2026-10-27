@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Betaxolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Betaxolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

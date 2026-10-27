@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Dactinomycin: From Ewing Sarcoma and Rhabdomyosarcoma to Relapsing-Remitting Multiple Sclerosis
+## Dactinomycin: From Ewing Sarcoma and Rhabdomyosarcoma to Relapsing-Remitting Multiple Sclerosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

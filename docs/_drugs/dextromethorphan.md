@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Dextromethorphan: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+## Dextromethorphan: From Allergic Rhinitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

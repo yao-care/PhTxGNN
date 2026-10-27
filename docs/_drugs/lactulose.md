@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Lactulose: From Hepatic Encephalopathy to Acute Urate Nephropathy
+## Lactulose: From Hepatic Encephalopathy to Acute Urate Nephropathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

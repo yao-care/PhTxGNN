@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Enoxaparin: From Pulmonary Embolism to Thrombophilia Due to Protein C Deficiency (Autosomal Recessive)
+## Enoxaparin: From Pulmonary Embolism to Thrombophilia Due to Protein C Deficiency (Autosomal Recessive)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

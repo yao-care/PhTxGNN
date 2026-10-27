@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Ceftriaxone: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Ceftriaxone: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

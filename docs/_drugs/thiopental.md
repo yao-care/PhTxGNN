@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thiopental: From Epilepsy and Intracranial Hypertension to Trichotillomania
+## Thiopental: From Epilepsy and Intracranial Hypertension to Trichotillomania
+{: .text-alpha }
 
 ## One-Sentence Summary
 

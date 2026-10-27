@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ioversol: From an Iodinated Contrast Agent to Osteoarthritis Susceptibility
+## Ioversol: From an Iodinated Contrast Agent to Osteoarthritis Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

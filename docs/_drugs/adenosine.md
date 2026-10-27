@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Adenosine: From Ventricular Tachycardia to Obsolete Bundle Branch Block
+## Adenosine: From Ventricular Tachycardia to Obsolete Bundle Branch Block
+{: .text-alpha }
 
 ## One-Sentence Summary
 

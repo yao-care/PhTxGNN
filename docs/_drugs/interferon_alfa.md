@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Interferon alfa: From an Unspecified Original Indication to Heart Disease
+## Interferon alfa: From an Unspecified Original Indication to Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

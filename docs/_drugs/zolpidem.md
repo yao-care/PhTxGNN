@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Zolpidem: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Zolpidem: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Hydroxyzine: From Allergic and Atopic Skin Conditions to Cold Urticaria
+## Hydroxyzine: From Allergic and Atopic Skin Conditions to Cold Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

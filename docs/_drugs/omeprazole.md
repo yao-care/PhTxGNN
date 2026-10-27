@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Omeprazole: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+## Omeprazole: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

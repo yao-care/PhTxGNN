@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Propranolol: From Hypertension and Cardiac Arrhythmias to Distal Myopathy, Tateyama Type
+## Propranolol: From Hypertension and Cardiac Arrhythmias to Distal Myopathy, Tateyama Type
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aztreonam: From Bacterial Infections (Urinary Tract Infection and Others) to Polyclonal Hyperviscosity Syndrome
+## Aztreonam: From Bacterial Infections (Urinary Tract Infection and Others) to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

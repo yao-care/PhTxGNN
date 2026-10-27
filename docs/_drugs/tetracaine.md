@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

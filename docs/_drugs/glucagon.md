@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Glucagon: From an Unspecified Original Indication to Irritable Bowel Syndrome
+## Glucagon: From an Unspecified Original Indication to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

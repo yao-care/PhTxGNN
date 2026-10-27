@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Levobupivacaine: From Local Anaesthesia to Gastroduodenitis
+## Levobupivacaine: From Local Anaesthesia to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

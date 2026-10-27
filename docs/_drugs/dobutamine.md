@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dobutamine: From Acute Cardiac Decompensation (Inotropic Support) to Alopecia
+## Dobutamine: From Acute Cardiac Decompensation (Inotropic Support) to Alopecia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

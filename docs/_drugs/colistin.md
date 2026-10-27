@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Colistin: From Gram-negative Infections (Escherichia coli Infection, Otitis Externa) to Postinfectious Vasculitis
+## Colistin: From Gram-negative Infections (Escherichia coli Infection, Otitis Externa) to Postinfectious Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

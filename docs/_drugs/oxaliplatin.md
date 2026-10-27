@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Oxaliplatin: From Metastatic Colon Cancer to Malignant Pleural Mesothelioma
+## Oxaliplatin: From Metastatic Colon Cancer to Malignant Pleural Mesothelioma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

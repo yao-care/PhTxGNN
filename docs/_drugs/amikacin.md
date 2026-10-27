@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Amikacin: From Bacterial Infections to Paratyphoid Fever
+## Amikacin: From Bacterial Infections to Paratyphoid Fever
+{: .text-alpha }
 
 ## One-Sentence Summary
 

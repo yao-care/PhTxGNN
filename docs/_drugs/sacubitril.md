@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-# Sacubitril: From an Unspecified Original Indication to Diabetic Nephropathy
+## Sacubitril: From an Unspecified Original Indication to Diabetic Nephropathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

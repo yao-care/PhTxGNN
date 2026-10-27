@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Losartan: From Hypertension to Malignant Hypertensive Renal Disease
+## Losartan: From Hypertension to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

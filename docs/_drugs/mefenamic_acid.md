@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 </div>
 
-# Mefenamic Acid: Repurposing Prediction for Rheumatoid Arthritis
+## Mefenamic Acid: Repurposing Prediction for Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

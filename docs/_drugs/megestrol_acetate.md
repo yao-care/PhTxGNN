@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Megestrol Acetate: From Endometrial Carcinoma to Uterine Corpus Endometrial Carcinoma
+## Megestrol Acetate: From Endometrial Carcinoma to Uterine Corpus Endometrial Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

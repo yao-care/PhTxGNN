@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Etonogestrel: From an Unspecified Original Indication to Amenorrhea
+## Etonogestrel: From an Unspecified Original Indication to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

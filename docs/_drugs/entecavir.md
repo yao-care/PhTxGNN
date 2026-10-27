@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Entecavir: From Chronic Hepatitis B Virus Infection to Chronic Hepatitis C Virus Infection
+## Entecavir: From Chronic Hepatitis B Virus Infection to Chronic Hepatitis C Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Spectinomycin: From Gonorrhea to Urethral Disease
+## Spectinomycin: From Gonorrhea to Urethral Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

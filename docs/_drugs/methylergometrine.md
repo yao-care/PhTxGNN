@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylergometrine: From Uterotonic Use (Original Indication Not Recorded) to Hypertrichosis
+## Methylergometrine: From Uterotonic Use (Original Indication Not Recorded) to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

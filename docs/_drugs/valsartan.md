@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+## Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

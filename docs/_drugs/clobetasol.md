@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Clobetasol: From Dermatological Use to Primary Cutaneous T-Cell Lymphoma
+## Clobetasol: From Dermatological Use to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

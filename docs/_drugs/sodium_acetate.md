@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Acetate: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
+## Sodium Acetate: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

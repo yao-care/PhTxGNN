@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetazolamide: From Absence Epilepsy, Glaucoma and Heart Failure to Exercise-Induced Malignant Hyperthermia
+## Acetazolamide: From Absence Epilepsy, Glaucoma and Heart Failure to Exercise-Induced Malignant Hyperthermia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

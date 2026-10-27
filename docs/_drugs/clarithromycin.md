@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Hyperamylasemia
+## Clarithromycin: From Respiratory and Soft-Tissue Bacterial Infections to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

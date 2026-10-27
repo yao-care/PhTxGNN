@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Indacaterol: From a Long-Acting Beta2-Agonist Bronchodilator to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Indacaterol: From a Long-Acting Beta2-Agonist Bronchodilator to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 
