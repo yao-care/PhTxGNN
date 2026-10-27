@@ -26,7 +26,7 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 
 ## Example drug reports
 
-- ALUMINUM HYDROXIDE (L1): https://phtxgnn.yao.care/drugs/aluminum-hydroxide/
+- Atorvastatin (L1): https://phtxgnn.yao.care/drugs/atorvastatin/
 - Anastrozole (L1): https://phtxgnn.yao.care/drugs/anastrozole/
 - Aripiprazole (L1): https://phtxgnn.yao.care/drugs/aripiprazole/
 
