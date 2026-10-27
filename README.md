@@ -19,7 +19,7 @@ Drug repurposing predictions for Philippines DOH-FDA Philippines-approved drugs 
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 338 |
+| **Drug Reports** | 348 |
 | **Total Predictions** | 806,312 |
 | **Unique Drugs** | 456 |
 | **Unique Indications** | 16,853 |
