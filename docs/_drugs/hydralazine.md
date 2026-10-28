@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | HYDRALAZINE |
 | DrugBank ID | [DB01275](https://go.drugbank.com/drugs/DB01275) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 7 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | IDARUBICIN |
 | DrugBank ID | [DB01177](https://go.drugbank.com/drugs/DB01177) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 27 |

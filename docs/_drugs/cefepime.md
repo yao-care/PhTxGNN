@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | CEFEPIME |
 | DrugBank ID | [DB01413](https://go.drugbank.com/drugs/DB01413) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 6 |
 | DL Predictions (≥0.7) | 56 |

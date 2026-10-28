@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | BETAHISTINE |
 | DrugBank ID | [DB06698](https://go.drugbank.com/drugs/DB06698) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 176 |

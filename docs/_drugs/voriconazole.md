@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | VORICONAZOLE |
 | DrugBank ID | [DB00582](https://go.drugbank.com/drugs/DB00582) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 5 |
 | DL Predictions (≥0.7) | 109 |

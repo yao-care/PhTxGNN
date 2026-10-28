@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | PYRIDOXINE |
 | DrugBank ID | [DB00165](https://go.drugbank.com/drugs/DB00165) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 41 |

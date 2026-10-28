@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | FONDAPARINUX |
 | DrugBank ID | [DB00569](https://go.drugbank.com/drugs/DB00569) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 28 |

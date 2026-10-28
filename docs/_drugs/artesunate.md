@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | ARTESUNATE |
 | DrugBank ID | [DB09274](https://go.drugbank.com/drugs/DB09274) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 6 |

@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | PYRIMETHAMINE |
 | DrugBank ID | [DB00205](https://go.drugbank.com/drugs/DB00205) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 4 |
 | DL Predictions (≥0.7) | 50 |

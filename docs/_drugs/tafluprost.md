@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | TAFLUPROST |
 | DrugBank ID | [DB08819](https://go.drugbank.com/drugs/DB08819) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 27 |

@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | NALTREXONE |
 | DrugBank ID | [DB00704](https://go.drugbank.com/drugs/DB00704) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 9 |

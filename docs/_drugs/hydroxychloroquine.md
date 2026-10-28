@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | HYDROXYCHLOROQUINE |
 | DrugBank ID | [DB01611](https://go.drugbank.com/drugs/DB01611) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 11 |
 | DL Predictions (≥0.7) | 99 |

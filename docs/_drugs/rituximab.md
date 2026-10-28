@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RITUXIMAB |
 | DrugBank ID | [DB00073](https://go.drugbank.com/drugs/DB00073) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 73 |

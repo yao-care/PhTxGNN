@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | NICOTINE |
 | DrugBank ID | [DB00184](https://go.drugbank.com/drugs/DB00184) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 24 |

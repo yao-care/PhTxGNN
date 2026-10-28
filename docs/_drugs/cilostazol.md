@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | CILOSTAZOL |
 | DrugBank ID | [DB01166](https://go.drugbank.com/drugs/DB01166) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 37 |

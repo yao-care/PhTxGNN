@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | TRICLABENDAZOLE |
 | DrugBank ID | [DB12245](https://go.drugbank.com/drugs/DB12245) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 28 |

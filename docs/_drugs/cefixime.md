@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CEFIXIME |
 | DrugBank ID | [DB00671](https://go.drugbank.com/drugs/DB00671) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 66 |

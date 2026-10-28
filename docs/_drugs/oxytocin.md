@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | OXYTOCIN |
 | DrugBank ID | [DB00107](https://go.drugbank.com/drugs/DB00107) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 9 |

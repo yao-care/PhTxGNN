@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | TERBINAFINE |
 | DrugBank ID | [DB00857](https://go.drugbank.com/drugs/DB00857) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 6 |
 | DL Predictions (≥0.7) | 28 |

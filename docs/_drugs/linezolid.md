@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | LINEZOLID |
 | DrugBank ID | [DB00601](https://go.drugbank.com/drugs/DB00601) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 5 |
 | DL Predictions (≥0.7) | 16 |

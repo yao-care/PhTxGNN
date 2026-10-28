@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CEFOTAXIME |
 | DrugBank ID | [DB00493](https://go.drugbank.com/drugs/DB00493) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 11 |
 | DL Predictions (≥0.7) | 97 |

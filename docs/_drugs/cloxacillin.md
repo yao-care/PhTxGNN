@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | CLOXACILLIN |
 | DrugBank ID | [DB01147](https://go.drugbank.com/drugs/DB01147) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 5 |
 | DL Predictions (≥0.7) | 53 |

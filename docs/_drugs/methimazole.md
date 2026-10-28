@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | METHIMAZOLE |
 | DrugBank ID | [DB00763](https://go.drugbank.com/drugs/DB00763) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 16 |

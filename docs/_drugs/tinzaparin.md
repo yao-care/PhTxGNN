@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | TINZAPARIN |
 | DrugBank ID | [DB06822](https://go.drugbank.com/drugs/DB06822) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 25 |

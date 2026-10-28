@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | PRAZIQUANTEL |
 | DrugBank ID | [DB01058](https://go.drugbank.com/drugs/DB01058) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 4 |
 | DL Predictions (≥0.7) | 116 |

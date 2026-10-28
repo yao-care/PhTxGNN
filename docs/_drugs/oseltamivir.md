@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | OSELTAMIVIR |
 | DrugBank ID | [DB00198](https://go.drugbank.com/drugs/DB00198) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 66 |

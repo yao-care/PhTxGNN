@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CISPLATIN |
 | DrugBank ID | [DB00515](https://go.drugbank.com/drugs/DB00515) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 21 |
 | DL Predictions (≥0.7) | 115 |

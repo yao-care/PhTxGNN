@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | DOPAMINE |
 | DrugBank ID | [DB00988](https://go.drugbank.com/drugs/DB00988) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 11 |

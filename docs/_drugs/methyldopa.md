@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | METHYLDOPA |
 | DrugBank ID | [DB00968](https://go.drugbank.com/drugs/DB00968) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 7 |

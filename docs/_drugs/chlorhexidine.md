@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | CHLORHEXIDINE |
 | DrugBank ID | [DB00878](https://go.drugbank.com/drugs/DB00878) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 42 |

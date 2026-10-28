@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | PERMETHRIN |
 | DrugBank ID | [DB04930](https://go.drugbank.com/drugs/DB04930) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 6 |
 | DL Predictions (≥0.7) | 132 |

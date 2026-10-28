@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | KANAMYCIN |
 | DrugBank ID | [DB01172](https://go.drugbank.com/drugs/DB01172) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 12 |
 | DL Predictions (≥0.7) | 32 |

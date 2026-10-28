@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | MEFLOQUINE |
 | DrugBank ID | [DB00358](https://go.drugbank.com/drugs/DB00358) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 1 |
 | DL Predictions (≥0.7) | 43 |

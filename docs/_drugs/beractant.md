@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | BERACTANT |
 | DrugBank ID | [DB06761](https://go.drugbank.com/drugs/DB06761) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 7 |

@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | HYDROCHLOROTHIAZIDE |
 | DrugBank ID | [DB00999](https://go.drugbank.com/drugs/DB00999) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 14 |

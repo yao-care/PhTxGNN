@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | NIFEDIPINE |
 | DrugBank ID | [DB01115](https://go.drugbank.com/drugs/DB01115) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 10 |

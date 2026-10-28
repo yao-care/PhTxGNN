@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TESTOSTERONE |
 | DrugBank ID | [DB00624](https://go.drugbank.com/drugs/DB00624) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 30 |
 | DL Predictions (≥0.7) | 119 |

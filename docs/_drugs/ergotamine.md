@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ERGOTAMINE |
 | DrugBank ID | [DB00696](https://go.drugbank.com/drugs/DB00696) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 6 |
 | DL Predictions (≥0.7) | 22 |

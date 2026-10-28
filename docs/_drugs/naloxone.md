@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | NALOXONE |
 | DrugBank ID | [DB01183](https://go.drugbank.com/drugs/DB01183) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 36 |

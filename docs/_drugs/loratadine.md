@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LORATADINE |
 | DrugBank ID | [DB00455](https://go.drugbank.com/drugs/DB00455) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 9 |
 | DL Predictions (≥0.7) | 18 |

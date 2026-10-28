@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | AMPHOTERICIN B |
 | DrugBank ID | [DB00681](https://go.drugbank.com/drugs/DB00681) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 53 |
 | DL Predictions (≥0.7) | 71 |

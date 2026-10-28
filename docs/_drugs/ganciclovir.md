@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | GANCICLOVIR |
 | DrugBank ID | [DB01004](https://go.drugbank.com/drugs/DB01004) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 295 |

@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | QUININE |
 | DrugBank ID | [DB00468](https://go.drugbank.com/drugs/DB00468) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 2 |
 | DL Predictions (≥0.7) | 19 |

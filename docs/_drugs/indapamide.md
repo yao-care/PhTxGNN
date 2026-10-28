@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | INDAPAMIDE |
 | DrugBank ID | [DB00808](https://go.drugbank.com/drugs/DB00808) |
 | PNF Status | Listed in Philippine National Formulary |
-| KG Predictions | 3 |
 | DL Predictions (≥0.7) | 15 |
