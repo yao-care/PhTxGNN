@@ -1,17 +1,17 @@
 {
-  "total": 339,
-  "generated_at": "2026-10-28T04:36:37.525095",
+  "total": 337,
+  "generated_at": "2026-10-28T18:00:38.760473",
   "drugs": [
     {
       "name": "Abacavir",
       "file": "abacavir.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Abacavir",
       "predicted_indications": [
-        "simian immunodeficiency virus infection",
         "feline acquired immunodeficiency syndrome",
+        "simian immunodeficiency virus infection",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -38,7 +38,7 @@
     {
       "name": "Acetylcysteine",
       "file": "acetylcysteine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Acetylcysteine",
@@ -79,7 +79,7 @@
       "name": "Adenosine",
       "file": "adenosine.md",
       "evidence_level": "L5",
-      "indication_count": 2,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Adenosine",
       "predicted_indications": [
@@ -122,27 +122,27 @@
     {
       "name": "Allopurinol",
       "file": "allopurinol.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Allopurinol",
       "predicted_indications": [
         "hepatic porphyria",
-        "hepatoportal sclerosis",
         "hepatopulmonary syndrome",
-        "early-onset familial noncirrhotic portal hypertension",
         "idiopathic copper-associated cirrhosis",
+        "hepatoportal sclerosis",
         "primitive portal vein thrombosis",
+        "early-onset familial noncirrhotic portal hypertension",
         "disorder of phenylalanine metabolism",
         "immune-mediated necrotizing myopathy",
         "antisynthetase syndrome",
-        "inflammatory myopathy with abundant macrophages"
+        "idiopathic eosinophilic myositis"
       ]
     },
     {
       "name": "Alprazolam",
       "file": "alprazolam.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Alprazolam",
@@ -153,20 +153,9 @@
       ]
     },
     {
-      "name": "Aluminum Hydroxide",
-      "file": "aluminum_hydroxide.md",
-      "evidence_level": "L4",
-      "indication_count": 4,
-      "predicted_indication": "",
-      "inn": "Aluminum hydroxide",
-      "predicted_indications": [
-        "gastroduodenitis"
-      ]
-    },
-    {
       "name": "Amikacin",
       "file": "amikacin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Amikacin",
@@ -187,13 +176,12 @@
       "name": "Aminophylline",
       "file": "aminophylline.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Aminophylline",
       "predicted_indications": [
         "migraine disorder",
         "migraine with brainstem aura",
-        "migraine with or without aura, susceptibility to",
         "atrophoderma vermiculata",
         "ulerythema ophryogenesis",
         "Prinzmetal angina",
@@ -227,13 +215,13 @@
       "name": "Amlodipine",
       "file": "amlodipine.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Amlodipine",
       "predicted_indications": [
         "brain stem infarction",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
         "cerebral artery occlusion",
         "Braddock syndrome",
@@ -250,8 +238,8 @@
       "predicted_indication": "",
       "inn": "Amoxicillin",
       "predicted_indications": [
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "blood group incompatibility",
         "premalignant hematological system disease",
@@ -264,12 +252,11 @@
       "name": "Ampicillin",
       "file": "ampicillin.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Ampicillin",
       "predicted_indications": [
         "laryngitis",
-        "gonococcal urethritis",
         "Ureaplasma urethritis",
         "chronic rhinosinusitis",
         "chronic ethmoidal sinusitis",
@@ -283,8 +270,8 @@
     {
       "name": "Anastrozole",
       "file": "anastrozole.md",
-      "evidence_level": "L1",
-      "indication_count": 6,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "anastrozole",
       "predicted_indications": [
@@ -298,14 +285,13 @@
     {
       "name": "Aripiprazole",
       "file": "aripiprazole.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Aripiprazole",
       "predicted_indications": [
         "major affective disorder",
         "gaze palsy, familial horizontal, with progressive scoliosis",
-        "asperger syndrome, susceptibility to",
         "Phelan-McDermid syndrome",
         "amelocerebrohypohidrotic syndrome",
         "distal 17p13.3 microdeletion syndrome",
@@ -319,12 +305,11 @@
       "name": "Artemether",
       "file": "artemether.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Artemether",
       "predicted_indications": [
         "acquired angioedema",
-        "Plasmodium falciparum malaria",
         "angioedema",
         "hereditary angioedema",
         "nephrogenic syndrome of inappropriate antidiuresis",
@@ -348,8 +333,8 @@
         "injury",
         "biotin metabolic disease",
         "perinatal disease",
-        "segmental odontomaxillary dysplasia",
         "florid cemento-osseous dysplasia",
+        "segmental odontomaxillary dysplasia",
         "disease by subcellular system affected",
         "vitamin deficiency disorder"
       ]
@@ -357,22 +342,23 @@
     {
       "name": "Atenolol",
       "file": "atenolol.md",
-      "evidence_level": "L4",
-      "indication_count": 9,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Atenolol",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
-        "Braddock syndrome"
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "Braddock syndrome",
+        "chronic pulmonary heart disease"
       ]
     },
     {
       "name": "Atorvastatin",
       "file": "atorvastatin.md",
-      "evidence_level": "L1",
-      "indication_count": 6,
+      "evidence_level": "L2",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Atorvastatin",
       "predicted_indications": [
@@ -385,7 +371,7 @@
     {
       "name": "Atropine",
       "file": "atropine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Atropine",
@@ -398,13 +384,12 @@
       "name": "Azathioprine",
       "file": "azathioprine.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Azathioprine",
       "predicted_indications": [
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
         "brachydactyly-syndactyly syndrome",
-        "osteoarthritis susceptibility",
         "WHIM syndrome",
         "granulomatous disease, chronic, autosomal recessive, 5",
         "osteoarthritis",
@@ -420,8 +405,8 @@
       "predicted_indication": "",
       "inn": "Azithromycin",
       "predicted_indications": [
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "punctate epithelial keratoconjunctivitis",
         "blood group incompatibility",
@@ -443,8 +428,8 @@
         "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
         "congenital analbuminemia",
-        "gonococcal urethritis",
         "Ureaplasma urethritis",
+        "gonococcal urethritis",
         "blood group incompatibility",
         "premalignant hematological system disease",
         "epiglottitis",
@@ -488,7 +473,7 @@
       "name": "Bedaquiline",
       "file": "bedaquiline.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Bedaquiline",
       "predicted_indications": [
@@ -515,8 +500,8 @@
     {
       "name": "Betamethasone",
       "file": "betamethasone.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L2",
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Betamethasone",
       "predicted_indications": [
@@ -574,20 +559,20 @@
       "name": "Bisoprolol",
       "file": "bisoprolol.md",
       "evidence_level": "L5",
-      "indication_count": 5,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Bisoprolol",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
         "Braddock syndrome"
       ]
     },
     {
       "name": "Bleomycin",
       "file": "bleomycin.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "",
       "inn": "Bleomycin",
@@ -700,31 +685,39 @@
       "name": "Calcitriol",
       "file": "calcitriol.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Calcitriol",
       "predicted_indications": [
         "obsolete vitamin D deficiency",
         "renal tubular acidosis",
-        "familial isolated hypoparathyroidism due to impaired PTH secretion",
         "acromesomelic dysplasia, Campailla Martinelli type",
         "craniofacial conodysplasia",
-        "Dahlberg-Borer-Newcomer syndrome",
         "hereditary hypophosphatemic rickets"
+      ]
+    },
+    {
+      "name": "Capecitabine",
+      "file": "capecitabine.md",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "predicted_indication": "",
+      "inn": "Capecitabine",
+      "predicted_indications": [
+        "gastric adenocarcinoma and proximal polyposis of the stomach"
       ]
     },
     {
       "name": "Capreomycin",
       "file": "capreomycin.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Capreomycin",
       "predicted_indications": [
         "gout",
         "rheumatoid arthritis",
         "osteoarthritis",
-        "osteoarthritis susceptibility",
         "sclerosing cholangitis",
         "brachydactyly-syndactyly syndrome",
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
@@ -736,21 +729,21 @@
     {
       "name": "Captopril",
       "file": "captopril.md",
-      "evidence_level": "L4",
-      "indication_count": 4,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Captopril",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension owing to lung disease and/or hypoxia",
-        "pulmonary hypertension with unclear multifactorial mechanism"
+        "pulmonary hypertension with unclear multifactorial mechanism",
+        "pulmonary hypertension owing to lung disease and/or hypoxia"
       ]
     },
     {
       "name": "Carbamazepine",
       "file": "carbamazepine.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Carbamazepine",
       "predicted_indications": [
@@ -774,8 +767,8 @@
     {
       "name": "Carboplatin",
       "file": "carboplatin.md",
-      "evidence_level": "L2",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Carboplatin",
       "predicted_indications": [
@@ -785,8 +778,8 @@
         "cervical mucinous adenocarcinoma",
         "gallbladder mucinous adenocarcinoma",
         "endometrial mucinous adenocarcinoma",
-        "villoglandular endometrial endometrioid adenocarcinoma",
         "endometrial mixed adenocarcinoma",
+        "villoglandular endometrial endometrioid adenocarcinoma",
         "extrahepatic bile duct mucinous adenocarcinoma"
       ]
     },
@@ -794,20 +787,20 @@
       "name": "Carvedilol",
       "file": "carvedilol.md",
       "evidence_level": "L5",
-      "indication_count": 5,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Carvedilol",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "Braddock syndrome"
       ]
     },
     {
       "name": "Cefazolin",
       "file": "cefazolin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 8,
       "predicted_indication": "",
       "inn": "Cefazolin",
@@ -825,8 +818,8 @@
     {
       "name": "Cefoxitin",
       "file": "cefoxitin.md",
-      "evidence_level": "L3",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Cefoxitin",
       "predicted_indications": [
@@ -836,7 +829,6 @@
         "suppurative otitis media",
         "middle ear disease",
         "Ureaplasma urethritis",
-        "gonococcal urethritis",
         "toxocariasis",
         "otosalpingitis",
         "non-suppurative otitis media"
@@ -845,18 +837,18 @@
     {
       "name": "Ceftazidime",
       "file": "ceftazidime.md",
-      "evidence_level": "L2",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Ceftazidime",
       "predicted_indications": [
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "urinary tract infection (disease)",
         "epiglottitis",
-        "Ureaplasma urethritis",
         "gonococcal urethritis",
+        "Ureaplasma urethritis",
         "blood group incompatibility",
         "infectious otitis media",
         "Peptostreptococcus infectious disease"
@@ -870,8 +862,8 @@
       "predicted_indication": "",
       "inn": "Ceftriaxone",
       "predicted_indications": [
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "infectious otitis media",
         "blood group incompatibility",
@@ -883,27 +875,26 @@
       "name": "Cefuroxime",
       "file": "cefuroxime.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Cefuroxime",
       "predicted_indications": [
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "Peptostreptococcus infectious disease",
         "blood group incompatibility",
         "urinary tract infection (disease)",
         "premalignant hematological system disease",
         "monoclonal gammopathy",
-        "suppurative otitis media",
         "hematological disease associated with an acquired peripheral neuropathy"
       ]
     },
     {
       "name": "Celecoxib",
       "file": "celecoxib.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Celecoxib",
       "predicted_indications": [
@@ -913,20 +904,18 @@
         "hypermobility of coccyx",
         "brachyolmia",
         "rheumatoid nodulosis",
-        "inflammatory spondylopathy",
         "WHIM syndrome"
       ]
     },
     {
       "name": "Cetirizine",
       "file": "cetirizine.md",
-      "evidence_level": "L2",
-      "indication_count": 6,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Cetirizine",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "rosacea conjunctivitis",
         "recalcitrant atopic dermatitis"
       ]
@@ -935,12 +924,12 @@
       "name": "Chlorambucil",
       "file": "chlorambucil.md",
       "evidence_level": "L5",
-      "indication_count": 8,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Chlorambucil",
       "predicted_indications": [
-        "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
         "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
+        "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
         "ALK-positive large B-cell lymphoma",
         "primary pulmonary lymphoma",
         "well-differentiated fetal adenocarcinoma of the lung",
@@ -951,7 +940,7 @@
     {
       "name": "Chloramphenicol",
       "file": "chloramphenicol.md",
-      "evidence_level": "L3",
+      "evidence_level": "L1",
       "indication_count": 9,
       "predicted_indication": "",
       "inn": "Chloramphenicol",
@@ -984,8 +973,8 @@
     {
       "name": "Chlorpromazine",
       "file": "chlorpromazine.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Chlorpromazine",
       "predicted_indications": [
@@ -1003,14 +992,14 @@
     {
       "name": "Ciprofloxacin",
       "file": "ciprofloxacin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Ciprofloxacin",
       "predicted_indications": [
         "diffuse scleroderma",
-        "hyperamylasemia",
         "polyclonal hyperviscosity syndrome",
+        "hyperamylasemia",
         "congenital analbuminemia",
         "blood group incompatibility",
         "premalignant hematological system disease",
@@ -1131,8 +1120,8 @@
     {
       "name": "Clopidogrel",
       "file": "clopidogrel.md",
-      "evidence_level": "L2",
-      "indication_count": 8,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Clopidogrel",
       "predicted_indications": [
@@ -1142,14 +1131,13 @@
         "tendinitis",
         "idiopathic granulomatous myositis",
         "myositis fibrosa",
-        "rheumatoid arthritis",
-        "osteoarthritis susceptibility"
+        "rheumatoid arthritis"
       ]
     },
     {
       "name": "Clotrimazole",
       "file": "clotrimazole.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Clotrimazole",
@@ -1182,13 +1170,12 @@
     {
       "name": "Codeine",
       "file": "codeine.md",
-      "evidence_level": "L4",
-      "indication_count": 4,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Codeine",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia",
         "allergic urticaria"
       ]
@@ -1197,7 +1184,7 @@
       "name": "Colchicine",
       "file": "colchicine.md",
       "evidence_level": "L5",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Colchicine",
       "predicted_indications": [
@@ -1228,13 +1215,12 @@
     {
       "name": "Cyclophosphamide",
       "file": "cyclophosphamide.md",
-      "evidence_level": "L2",
-      "indication_count": 5,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Cyclophosphamide",
       "predicted_indications": [
         "myeloid leukemia",
-        "ganglioneuroblastoma (disease)",
         "vertebral anomalies and variable endocrine and T-cell dysfunction",
         "retroperitoneal neoplasm",
         "lymph node cancer"
@@ -1261,7 +1247,7 @@
       "name": "Cyproterone Acetate",
       "file": "cyproterone_acetate.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Cyproterone acetate",
       "predicted_indications": [
@@ -1271,7 +1257,6 @@
         "antithrombin deficiency type 2",
         "heparin cofactor 2 deficiency",
         "factor 5 excess with spontaneous thrombosis",
-        "migraine with or without aura, susceptibility to",
         "amenorrhea (disease)",
         "breast fibrocystic disease",
         "thrombophilia"
@@ -1299,7 +1284,7 @@
     {
       "name": "Dacarbazine",
       "file": "dacarbazine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Dacarbazine",
@@ -1322,8 +1307,8 @@
         "hepatitis, viral, animal",
         "Omsk hemorrhagic fever",
         "Kyasanur forest disease",
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -1331,16 +1316,11 @@
       "name": "Dactinomycin",
       "file": "dactinomycin.md",
       "evidence_level": "L5",
-      "indication_count": 9,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Dactinomycin",
       "predicted_indications": [
         "relapsing-remitting multiple sclerosis",
-        "botryoid-type embryonal rhabdomyosarcoma of the vagina",
-        "extrahepatic bile duct rhabdomyosarcoma",
-        "embryonal extrahepatic bile duct rhabdomyosarcoma",
-        "parameningeal embryonal rhabdomyosarcoma",
-        "prostate embryonal rhabdomyosarcoma",
         "liver sarcoma",
         "upper aerodigestive tract neoplasm",
         "head and neck cancer"
@@ -1349,17 +1329,17 @@
     {
       "name": "Danazol",
       "file": "danazol.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Danazol",
       "predicted_indications": [
         "amenorrhea (disease)",
         "benign mammary dysplasia",
-        "blunt duct adenosis of breast",
         "apocrine adenosis of breast",
-        "breast abscess",
+        "blunt duct adenosis of breast",
         "fat necrosis of breast",
+        "breast abscess",
         "lactation disease",
         "breast adenosis",
         "vulvovaginitis",
@@ -1370,7 +1350,7 @@
       "name": "Dantrolene",
       "file": "dantrolene.md",
       "evidence_level": "L5",
-      "indication_count": 9,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Dantrolene",
       "predicted_indications": [
@@ -1379,7 +1359,6 @@
         "congenital multicore myopathy with external ophthalmoplegia",
         "central core myopathy",
         "hypokalemic periodic paralysis",
-        "thyrotoxic periodic paralysis, susceptibility to",
         "thyrotoxic periodic paralysis",
         "myopathy, centronuclear"
       ]
@@ -1398,7 +1377,7 @@
     {
       "name": "Deferasirox",
       "file": "deferasirox.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Deferasirox",
@@ -1414,16 +1393,16 @@
       "name": "Deferiprone",
       "file": "deferiprone.md",
       "evidence_level": "L4",
-      "indication_count": 9,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Deferiprone",
       "predicted_indications": [
         "hepatic porphyria",
-        "hepatopulmonary syndrome",
         "hepatoportal sclerosis",
+        "primitive portal vein thrombosis",
         "idiopathic copper-associated cirrhosis",
         "early-onset familial noncirrhotic portal hypertension",
-        "primitive portal vein thrombosis",
+        "hepatopulmonary syndrome",
         "pyruvate kinase deficiency of red cells",
         "pyropoikilocytosis, hereditary"
       ]
@@ -1432,7 +1411,7 @@
       "name": "Delamanid",
       "file": "delamanid.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Delamanid",
       "predicted_indications": [
@@ -1442,8 +1421,8 @@
     {
       "name": "Desmopressin",
       "file": "desmopressin.md",
-      "evidence_level": "L3",
-      "indication_count": 7,
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Desmopressin",
       "predicted_indications": [
@@ -1458,7 +1437,7 @@
     {
       "name": "Dexamethasone",
       "file": "dexamethasone.md",
-      "evidence_level": "L2",
+      "evidence_level": "L1",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Dexamethasone",
@@ -1479,12 +1458,11 @@
       "name": "Dextromethorphan",
       "file": "dextromethorphan.md",
       "evidence_level": "L5",
-      "indication_count": 6,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Dextromethorphan",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "faucial diphtheria",
         "trigeminal autonomic cephalalgia",
         "cervical disc degenerative disorder",
@@ -1503,9 +1481,9 @@
         "cauda equina syndrome",
         "sleep disorder, initiating and maintaining sleep",
         "attention deficit hyperactivity disorder, inattentive type",
-        "hallucinogen abuse",
         "barbiturate abuse",
         "antidepressant type abuse",
+        "hallucinogen abuse",
         "specific developmental disorder",
         "attention deficit-hyperactivity disorder",
         "obsolete neurogenic bladder (disease)"
@@ -1547,7 +1525,7 @@
       "name": "Digoxin",
       "file": "digoxin.md",
       "evidence_level": "L5",
-      "indication_count": 6,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Digoxin",
       "predicted_indications": [
@@ -1555,19 +1533,7 @@
         "duodenal obstruction",
         "duodenal ulcer (disease)",
         "duodenogastric reflux",
-        "obsolete susceptibility to ischemic stroke",
         "hypoalphalipoproteinemia"
-      ]
-    },
-    {
-      "name": "Diltiazem",
-      "file": "diltiazem.md",
-      "evidence_level": "L5",
-      "indication_count": 1,
-      "predicted_indication": "",
-      "inn": "Diltiazem",
-      "predicted_indications": [
-        "obsolete susceptibility to ischemic stroke"
       ]
     },
     {
@@ -1596,11 +1562,10 @@
       "name": "Dipyridamole",
       "file": "dipyridamole.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Dipyridamole",
       "predicted_indications": [
-        "stroke disorder",
         "thrombotic disease",
         "sick sinus syndrome 2, autosomal dominant",
         "transient ischemic attack (disease)",
@@ -1634,13 +1599,12 @@
     {
       "name": "Docetaxel",
       "file": "docetaxel.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L2",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Docetaxel",
       "predicted_indications": [
         "Ewing sarcoma",
-        "well-differentiated fetal adenocarcinoma of the lung",
         "primary pulmonary lymphoma",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina",
         "pulmonary blastoma",
@@ -1652,7 +1616,7 @@
     {
       "name": "Dolutegravir",
       "file": "dolutegravir.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Dolutegravir",
@@ -1695,7 +1659,7 @@
       "name": "Dorzolamide",
       "file": "dorzolamide.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Dorzolamide",
       "predicted_indications": [
@@ -1712,7 +1676,7 @@
       "name": "Doxorubicin",
       "file": "doxorubicin.md",
       "evidence_level": "L2",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Doxorubicin",
       "predicted_indications": [
@@ -1723,14 +1687,13 @@
         "monocytic leukemia",
         "botryoid-type embryonal rhabdomyosarcoma of the vagina",
         "parameningeal embryonal rhabdomyosarcoma",
-        "rhabdomyosarcoma (disease)",
-        "ganglioneuroblastoma (disease)"
+        "rhabdomyosarcoma (disease)"
       ]
     },
     {
       "name": "Doxycycline",
       "file": "doxycycline.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Doxycycline",
@@ -1750,26 +1713,26 @@
     {
       "name": "Efavirenz",
       "file": "efavirenz.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Efavirenz",
       "predicted_indications": [
-        "simian immunodeficiency virus infection",
         "feline acquired immunodeficiency syndrome",
+        "simian immunodeficiency virus infection",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
     {
       "name": "Emtricitabine",
       "file": "emtricitabine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Emtricitabine",
       "predicted_indications": [
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -1787,8 +1750,8 @@
     {
       "name": "Entecavir",
       "file": "entecavir.md",
-      "evidence_level": "L3",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Entecavir",
       "predicted_indications": [
@@ -1806,26 +1769,24 @@
     {
       "name": "Ephedrine",
       "file": "ephedrine.md",
-      "evidence_level": "L4",
-      "indication_count": 3,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Ephedrine",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia"
       ]
     },
     {
       "name": "Epinephrine",
       "file": "epinephrine.md",
-      "evidence_level": "L1",
-      "indication_count": 4,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Epinephrine",
       "predicted_indications": [
         "obstructive lung disease",
-        "food-dependent exercise-induced anaphylaxis",
         "Rienhoff syndrome",
         "respiratory malformation"
       ]
@@ -1833,7 +1794,7 @@
     {
       "name": "Epirubicin",
       "file": "epirubicin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 7,
       "predicted_indication": "",
       "inn": "Epirubicin",
@@ -1850,7 +1811,7 @@
     {
       "name": "Ertapenem",
       "file": "ertapenem.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Ertapenem",
@@ -1862,7 +1823,7 @@
     {
       "name": "Erythromycin",
       "file": "erythromycin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Erythromycin",
@@ -1877,7 +1838,7 @@
     {
       "name": "Ethambutol",
       "file": "ethambutol.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Ethambutol",
@@ -1939,7 +1900,7 @@
       "name": "Everolimus",
       "file": "everolimus.md",
       "evidence_level": "L2",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Everolimus",
       "predicted_indications": [
@@ -1956,14 +1917,13 @@
     {
       "name": "Famotidine",
       "file": "famotidine.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Famotidine",
       "predicted_indications": [
         "duodenal obstruction",
         "abnormality of glucagon secretion",
-        "gastroduodenitis",
         "multiple endocrine neoplasia",
         "acne (disease)"
       ]
@@ -1972,12 +1932,12 @@
       "name": "Felodipine",
       "file": "felodipine.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Felodipine",
       "predicted_indications": [
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
         "Braddock syndrome",
         "chronic pulmonary heart disease"
@@ -1986,17 +1946,12 @@
     {
       "name": "Fenofibrate",
       "file": "fenofibrate.md",
-      "evidence_level": "L4",
-      "indication_count": 7,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Fenofibrate",
       "predicted_indications": [
-        "homozygous familial hypercholesterolemia",
-        "hyperlipoproteinemia",
-        "cholesterol-ester transfer protein deficiency",
-        "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency",
-        "hyperlipidemia due to hepatic triglyceride lipase deficiency",
-        "hypercholesterolemia, autosomal dominant"
+        "cholesterol-ester transfer protein deficiency"
       ]
     },
     {
@@ -2014,7 +1969,7 @@
     {
       "name": "Ferrous Gluconate",
       "file": "ferrous_gluconate.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Ferrous gluconate",
@@ -2136,28 +2091,28 @@
         "prostate embryonal rhabdomyosarcoma",
         "extrahepatic bile duct rhabdomyosarcoma",
         "liver sarcoma",
-        "sickle cell-hemoglobin c disease syndrome",
-        "sickle cell-hemoglobin E disease syndrome",
-        "sickle cell-hemoglobin d disease syndrome"
+        "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome",
+        "sickle cell-hemoglobin d disease syndrome",
+        "sickle cell-beta-thalassemia disease syndrome"
       ]
     },
     {
       "name": "Fluoxetine",
       "file": "fluoxetine.md",
-      "evidence_level": "L3",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Fluoxetine",
       "predicted_indications": [
-        "schizotypal personality disorder",
         "paranoid personality disorder",
         "schizoid personality disorder",
+        "schizotypal personality disorder",
         "histrionic personality disorder (disease)",
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
+        "manic bipolar affective disorder",
         "phobic disorder",
-        "Ohdo syndrome and variants",
-        "melancholia"
+        "Ohdo syndrome and variants"
       ]
     },
     {
@@ -2203,7 +2158,7 @@
       "name": "Flutamide",
       "file": "flutamide.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Flutamide",
       "predicted_indications": [
@@ -2213,8 +2168,8 @@
         "prostate leiomyoma",
         "benign prostate phyllodes tumor",
         "HIV infectious disease",
-        "feline acquired immunodeficiency syndrome",
-        "simian immunodeficiency virus infection"
+        "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome"
       ]
     },
     {
@@ -2256,7 +2211,7 @@
       "name": "Formoterol",
       "file": "formoterol.md",
       "evidence_level": "L5",
-      "indication_count": 6,
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Formoterol",
       "predicted_indications": [
@@ -2269,12 +2224,10 @@
       "name": "Fosfomycin",
       "file": "fosfomycin.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Fosfomycin",
       "predicted_indications": [
-        "gonococcal urethritis",
-        "Ureaplasma urethritis",
         "uterine inflammatory disease",
         "xanthogranulomatous pyelonephritis",
         "epiglottitis",
@@ -2288,7 +2241,7 @@
     {
       "name": "Fusidic Acid",
       "file": "fusidic_acid.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Fusidic acid",
@@ -2308,19 +2261,19 @@
     {
       "name": "Gemcitabine",
       "file": "gemcitabine.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Gemcitabine",
       "predicted_indications": [
         "rectum mucinous adenocarcinoma",
         "colon mucinous adenocarcinoma",
-        "villoglandular endometrial endometrioid adenocarcinoma",
         "endometrial mixed adenocarcinoma",
+        "villoglandular endometrial endometrioid adenocarcinoma",
         "endometrial mucinous adenocarcinoma",
         "cervical mucinous adenocarcinoma",
         "gallbladder mucinous adenocarcinoma",
-        "mucin-rich endometrial endometrioid adenocarcinoma"
+        "secretory uterine corpus endometrioid adenocarcinoma"
       ]
     },
     {
@@ -2386,7 +2339,7 @@
     {
       "name": "Heparin",
       "file": "heparin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Heparin",
@@ -2398,8 +2351,8 @@
     {
       "name": "Hydrocortisone",
       "file": "hydrocortisone.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L1",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Hydrocortisone",
       "predicted_indications": [
@@ -2417,16 +2370,16 @@
     {
       "name": "Hydroxyurea",
       "file": "hydroxyurea.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Hydroxyurea",
       "predicted_indications": [
         "female breast carcinoma",
-        "sickle cell-hemoglobin c disease syndrome",
-        "sickle cell-hemoglobin E disease syndrome",
         "sickle cell-hemoglobin d disease syndrome",
+        "sickle cell-hemoglobin c disease syndrome",
         "sickle cell-beta-thalassemia disease syndrome",
+        "sickle cell-hemoglobin E disease syndrome",
         "cervical adenosarcoma",
         "colon mucinous adenocarcinoma",
         "rectum mucinous adenocarcinoma",
@@ -2437,7 +2390,7 @@
       "name": "Hydroxyzine",
       "file": "hydroxyzine.md",
       "evidence_level": "L5",
-      "indication_count": 5,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Hydroxyzine",
       "predicted_indications": [
@@ -2484,7 +2437,7 @@
     {
       "name": "Imatinib",
       "file": "imatinib.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Imatinib",
@@ -2504,7 +2457,7 @@
     {
       "name": "Imiglucerase",
       "file": "imiglucerase.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Imiglucerase",
@@ -2579,7 +2532,7 @@
     {
       "name": "Interferon Alfa",
       "file": "interferon_alfa.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Interferon alfa",
@@ -2588,8 +2541,8 @@
         "Jeune syndrome situs inversus",
         "orofacial clefting syndrome",
         "Pierre Robin syndrome associated with a chromosomal anomaly",
-        "partial deletion of the long arm of chromosome 22",
         "disorder of fucoglycosan synthesis",
+        "partial deletion of the long arm of chromosome 22",
         "partial deletion of the long arm of chromosome 7",
         "Laubry-Pezzi syndrome",
         "genetic syndromic Pierre Robin syndrome",
@@ -2600,11 +2553,10 @@
       "name": "Iodixanol",
       "file": "iodixanol.md",
       "evidence_level": "L5",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Iodixanol",
       "predicted_indications": [
-        "osteoarthritis susceptibility",
         "osteoarthritis",
         "rheumatoid arthritis"
       ]
@@ -2625,11 +2577,10 @@
       "name": "Iopromide",
       "file": "iopromide.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Iopromide",
       "predicted_indications": [
-        "osteoarthritis susceptibility",
         "osteoarthritis",
         "rheumatoid arthritis",
         "brachyolmia",
@@ -2645,11 +2596,10 @@
       "name": "Ioversol",
       "file": "ioversol.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Ioversol",
       "predicted_indications": [
-        "osteoarthritis susceptibility",
         "osteoarthritis",
         "rheumatoid arthritis",
         "brachyolmia",
@@ -2664,8 +2614,8 @@
     {
       "name": "Ipratropium",
       "file": "ipratropium.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Ipratropium",
       "predicted_indications": [
@@ -2684,19 +2634,19 @@
       "name": "Irbesartan",
       "file": "irbesartan.md",
       "evidence_level": "L5",
-      "indication_count": 4,
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Irbesartan",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension owing to lung disease and/or hypoxia",
-        "pulmonary hypertension with unclear multifactorial mechanism"
+        "pulmonary hypertension with unclear multifactorial mechanism",
+        "pulmonary hypertension owing to lung disease and/or hypoxia"
       ]
     },
     {
       "name": "Irinotecan",
       "file": "irinotecan.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Irinotecan",
@@ -2724,7 +2674,7 @@
     {
       "name": "Isoniazid",
       "file": "isoniazid.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Isoniazid",
@@ -2747,8 +2697,9 @@
         "diffuse alopecia areata",
         "vascular disease",
         "hypertrichosis (disease)",
+        "kyphoscoliotic heart disease",
         "visceral calciphylaxis",
-        "venous thoracic outlet syndrome"
+        "arterial thoracic outlet syndrome"
       ]
     },
     {
@@ -2794,7 +2745,7 @@
     {
       "name": "Itraconazole",
       "file": "itraconazole.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Itraconazole",
@@ -2814,9 +2765,9 @@
         "esophageal candidiasis",
         "anogenital human papillomavirus infection",
         "vulvovaginitis",
-        "congenital candidiasis",
         "candida glabrata",
         "neonatal candidiasis",
+        "congenital candidiasis",
         "postmenopausal atrophic vaginitis",
         "candidiasis, invasive"
       ]
@@ -2824,7 +2775,7 @@
     {
       "name": "Ketamine",
       "file": "ketamine.md",
-      "evidence_level": "L5",
+      "evidence_level": "L1",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Ketamine",
@@ -2847,7 +2798,7 @@
       "name": "Ketoprofen",
       "file": "ketoprofen.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Ketoprofen",
       "predicted_indications": [
@@ -2858,7 +2809,6 @@
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
         "brachydactyly-syndactyly syndrome",
         "pseudoachondroplasia",
-        "spondyloarthropathy, susceptibility to",
         "WHIM syndrome",
         "juvenile arthritis due to defect in LACC1"
       ]
@@ -2913,7 +2863,7 @@
       "name": "Lamotrigine",
       "file": "lamotrigine.md",
       "evidence_level": "L5",
-      "indication_count": 9,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Lamotrigine",
       "predicted_indications": [
@@ -2924,8 +2874,8 @@
     {
       "name": "Lansoprazole",
       "file": "lansoprazole.md",
-      "evidence_level": "L4",
-      "indication_count": 2,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Lansoprazole",
       "predicted_indications": [
@@ -2936,7 +2886,7 @@
       "name": "Latanoprost",
       "file": "latanoprost.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Latanoprost",
       "predicted_indications": [
@@ -2955,7 +2905,7 @@
       "name": "Letrozole",
       "file": "letrozole.md",
       "evidence_level": "L1",
-      "indication_count": 10,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Letrozole",
       "predicted_indications": [
@@ -2980,8 +2930,8 @@
     {
       "name": "Levetiracetam",
       "file": "levetiracetam.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Levetiracetam",
       "predicted_indications": [
@@ -3013,14 +2963,14 @@
     {
       "name": "Levofloxacin",
       "file": "levofloxacin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Levofloxacin",
       "predicted_indications": [
         "punctate epithelial keratoconjunctivitis",
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "congenital analbuminemia",
         "blood group incompatibility",
         "premalignant hematological system disease",
@@ -3034,33 +2984,27 @@
       "name": "Levonorgestrel",
       "file": "levonorgestrel.md",
       "evidence_level": "L4",
-      "indication_count": 6,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Levonorgestrel",
       "predicted_indications": [
         "acne (disease)",
         "Worth syndrome",
         "autosomal dominant neovascular inflammatory vitreoretinopathy",
-        "blunt duct adenosis of breast",
-        "apocrine adenosis of breast"
+        "apocrine adenosis of breast",
+        "blunt duct adenosis of breast"
       ]
     },
     {
       "name": "Levothyroxine",
       "file": "levothyroxine.md",
-      "evidence_level": "L3",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Levothyroxine",
       "predicted_indications": [
-        "endemic goiter",
         "renal hypodysplasia/aplasia",
-        "nodular goiter (disease)",
         "bilateral renal agenesis",
-        "nontoxic goiter",
-        "substernal goiter",
-        "lingual goiter",
-        "dyshormonogenic goiter",
         "Potter sequence",
         "Carney complex"
       ]
@@ -3081,6 +3025,7 @@
         "conjunctival disorder",
         "nephrotic syndrome",
         "non-human animal disease",
+        "tinea corporis",
         "sporadic idiopathic steroid-resistant nephrotic syndrome"
       ]
     },
@@ -3117,8 +3062,8 @@
         "conjunctivitis",
         "gastroduodenitis",
         "pseudomembranous conjunctivitis",
-        "serous conjunctivitis except viral",
         "conjunctival folliculosis",
+        "serous conjunctivitis except viral",
         "chronic follicular conjunctivitis",
         "parasitic conjunctivitis",
         "Angelucci syndrome"
@@ -3132,8 +3077,8 @@
       "predicted_indication": "",
       "inn": "Lopinavir",
       "predicted_indications": [
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -3141,13 +3086,13 @@
       "name": "Losartan",
       "file": "losartan.md",
       "evidence_level": "L5",
-      "indication_count": 8,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Losartan",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "Braddock syndrome",
         "Prinzmetal angina",
         "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
@@ -3157,12 +3102,11 @@
     {
       "name": "Lynestrenol",
       "file": "lynestrenol.md",
-      "evidence_level": "L3",
-      "indication_count": 5,
+      "evidence_level": "L4",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Lynestrenol",
       "predicted_indications": [
-        "migraine with or without aura, susceptibility to",
         "migraine disorder",
         "migraine with brainstem aura",
         "insomnia (disease)",
@@ -3173,14 +3117,13 @@
       "name": "Mannitol",
       "file": "mannitol.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Mannitol",
       "predicted_indications": [
         "nephrogenic syndrome of inappropriate antidiuresis",
         "acute pulmonary heart disease",
         "exercise-induced malignant hyperthermia",
-        "malignant hyperthermia, susceptibility to",
         "familial periodic paralysis",
         "hypokalemic periodic paralysis",
         "congenital multicore myopathy with external ophthalmoplegia",
@@ -3216,33 +3159,29 @@
     {
       "name": "Medroxyprogesterone Acetate",
       "file": "medroxyprogesterone_acetate.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Medroxyprogesterone acetate",
       "predicted_indications": [
         "amenorrhea (disease)",
         "breast fibrocystic disease",
         "benign mammary dysplasia",
-        "cervix endometriosis",
-        "endometriosis in cutaneous scar",
-        "endometriosis of rectovaginal septum and vagina",
         "renal hypoplasia, bilateral",
         "renal hypoplasia (disease)",
-        "apocrine adenosis of breast",
-        "blunt duct adenosis of breast"
+        "blunt duct adenosis of breast",
+        "apocrine adenosis of breast"
       ]
     },
     {
       "name": "Mefenamic Acid",
       "file": "mefenamic_acid.md",
       "evidence_level": "L3",
-      "indication_count": 8,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Mefenamic acid",
       "predicted_indications": [
         "rheumatoid arthritis",
-        "osteoarthritis susceptibility",
         "headache disorder",
         "trigeminal autonomic cephalalgia",
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
@@ -3254,8 +3193,8 @@
     {
       "name": "Megestrol Acetate",
       "file": "megestrol_acetate.md",
-      "evidence_level": "L2",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Megestrol acetate",
       "predicted_indications": [
@@ -3272,7 +3211,7 @@
       "name": "Melphalan",
       "file": "melphalan.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Melphalan",
       "predicted_indications": [
@@ -3302,13 +3241,13 @@
       "name": "Mercaptopurine",
       "file": "mercaptopurine.md",
       "evidence_level": "L2",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Mercaptopurine",
       "predicted_indications": [
         "myeloid leukemia",
-        "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
         "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
+        "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation",
         "pulmonary blastoma",
         "Hodgkins lymphoma",
         "primary pulmonary lymphoma",
@@ -3319,8 +3258,8 @@
     {
       "name": "Meropenem",
       "file": "meropenem.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L4",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Meropenem",
       "predicted_indications": [
@@ -3331,15 +3270,15 @@
         "paratyphoid fever",
         "Lyme disease",
         "Peptostreptococcus infectious disease",
-        "Ureaplasma urethritis",
-        "gonococcal urethritis"
+        "gonococcal urethritis",
+        "Ureaplasma urethritis"
       ]
     },
     {
       "name": "Mesalazine",
       "file": "mesalazine.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Mesalazine",
       "predicted_indications": [
@@ -3347,7 +3286,6 @@
         "osteoarthritis",
         "rheumatoid arthritis",
         "seborrheic keratosis",
-        "osteoarthritis susceptibility",
         "vulvar inverted follicular keratosis",
         "pseudoachondroplasia"
       ]
@@ -3371,7 +3309,7 @@
       "name": "Methotrexate",
       "file": "methotrexate.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Methotrexate",
       "predicted_indications": [
@@ -3388,13 +3326,11 @@
       "name": "Methylene Blue",
       "file": "methylene_blue.md",
       "evidence_level": "L5",
-      "indication_count": 3,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Methylene blue",
       "predicted_indications": [
-        "bronchitis",
-        "methemoglobinemia, alpha type",
-        "methemoglobinemia due to deficiency of methemoglobin reductase"
+        "bronchitis"
       ]
     },
     {
@@ -3434,8 +3370,8 @@
     {
       "name": "Methylprednisolone",
       "file": "methylprednisolone.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L2",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Methylprednisolone",
       "predicted_indications": [
@@ -3453,8 +3389,8 @@
     {
       "name": "Metoclopramide",
       "file": "metoclopramide.md",
-      "evidence_level": "L3",
-      "indication_count": 5,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Metoclopramide",
       "predicted_indications": [
@@ -3466,14 +3402,15 @@
       "name": "Metoprolol",
       "file": "metoprolol.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Metoprolol",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension owing to lung disease and/or hypoxia",
         "pulmonary hypertension with unclear multifactorial mechanism",
+        "pulmonary hypertension owing to lung disease and/or hypoxia",
         "Braddock syndrome",
+        "chronic pulmonary heart disease",
         "trichotillomania"
       ]
     },
@@ -3534,7 +3471,7 @@
       "name": "Mitoxantrone",
       "file": "mitoxantrone.md",
       "evidence_level": "L5",
-      "indication_count": 8,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Mitoxantrone",
       "predicted_indications": [
@@ -3561,8 +3498,8 @@
     {
       "name": "Montelukast",
       "file": "montelukast.md",
-      "evidence_level": "L5",
-      "indication_count": 5,
+      "evidence_level": "L2",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Montelukast",
       "predicted_indications": [
@@ -3595,20 +3532,19 @@
       "name": "Moxifloxacin",
       "file": "moxifloxacin.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Moxifloxacin",
       "predicted_indications": [
-        "hyperamylasemia",
         "polyclonal hyperviscosity syndrome",
+        "hyperamylasemia",
         "congenital analbuminemia",
         "blood group incompatibility",
         "premalignant hematological system disease",
         "monoclonal gammopathy",
         "hematological disease associated with an acquired peripheral neuropathy",
         "congenital hematological disorder",
-        "hematopoietic and lymphoid system neoplasm",
-        "bubonic plague"
+        "hematopoietic and lymphoid system neoplasm"
       ]
     },
     {
@@ -3626,7 +3562,7 @@
     {
       "name": "Mycophenolate Mofetil",
       "file": "mycophenolate_mofetil.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Mycophenolate mofetil",
@@ -3634,8 +3570,8 @@
         "HIV infectious disease",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
         "bone Paget disease",
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "multiple sclerosis",
         "hemosiderosis",
         "Heiner syndrome",
@@ -3646,7 +3582,7 @@
     {
       "name": "Mycophenolic Acid",
       "file": "mycophenolic_acid.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "Mycophenolic acid",
@@ -3666,7 +3602,7 @@
     {
       "name": "Nalidixic Acid",
       "file": "nalidixic_acid.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 4,
       "predicted_indication": "",
       "inn": "Nalidixic acid",
@@ -3694,8 +3630,8 @@
     {
       "name": "Neostigmine",
       "file": "neostigmine.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Neostigmine",
       "predicted_indications": [
@@ -3731,7 +3667,7 @@
     {
       "name": "Nevirapine",
       "file": "nevirapine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Nevirapine",
@@ -3745,12 +3681,12 @@
       "name": "Nicardipine",
       "file": "nicardipine.md",
       "evidence_level": "L5",
-      "indication_count": 5,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Nicardipine",
       "predicted_indications": [
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
         "Braddock syndrome"
       ]
@@ -3791,7 +3727,7 @@
       "name": "Nitroglycerin",
       "file": "nitroglycerin.md",
       "evidence_level": "L3",
-      "indication_count": 5,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Nitroglycerin",
       "predicted_indications": [
@@ -3804,8 +3740,8 @@
     {
       "name": "Nitroprusside",
       "file": "nitroprusside.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L4",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "nitroprusside",
       "predicted_indications": [
@@ -3815,7 +3751,6 @@
         "congenital hypotrichosis milia",
         "diffuse alopecia areata",
         "hypotrichosis simplex of the scalp",
-        "migraine with or without aura, susceptibility to",
         "pulmonary hypertension",
         "benign prostatic hyperplasia (disease)",
         "kyphoscoliotic heart disease"
@@ -3824,7 +3759,7 @@
     {
       "name": "Nitrous Oxide",
       "file": "nitrous_oxide.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Nitrous oxide",
@@ -3896,8 +3831,8 @@
       "predicted_indication": "",
       "inn": "Ofloxacin",
       "predicted_indications": [
-        "hyperamylasemia",
         "polyclonal hyperviscosity syndrome",
+        "hyperamylasemia",
         "congenital analbuminemia",
         "blood group incompatibility",
         "premalignant hematological system disease",
@@ -3912,20 +3847,19 @@
       "name": "Olanzapine",
       "file": "olanzapine.md",
       "evidence_level": "L5",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Olanzapine",
       "predicted_indications": [
         "benign paroxysmal torticollis of infancy",
-        "agoraphobia",
-        "dysthymic disorder"
+        "agoraphobia"
       ]
     },
     {
       "name": "Olodaterol",
       "file": "olodaterol.md",
-      "evidence_level": "L4",
-      "indication_count": 2,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Olodaterol",
       "predicted_indications": [
@@ -3935,8 +3869,8 @@
     {
       "name": "Omeprazole",
       "file": "omeprazole.md",
-      "evidence_level": "L3",
-      "indication_count": 2,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Omeprazole",
       "predicted_indications": [
@@ -3975,7 +3909,7 @@
       "name": "Oxcarbazepine",
       "file": "oxcarbazepine.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Oxcarbazepine",
       "predicted_indications": [
@@ -3985,13 +3919,12 @@
     {
       "name": "Oxymetazoline",
       "file": "oxymetazoline.md",
-      "evidence_level": "L4",
-      "indication_count": 3,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Oxymetazoline",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "headache disorder"
       ]
     },
@@ -3999,7 +3932,7 @@
       "name": "Paclitaxel",
       "file": "paclitaxel.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Paclitaxel",
       "predicted_indications": [
@@ -4011,7 +3944,7 @@
       "name": "Paliperidone",
       "file": "paliperidone.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Paliperidone",
       "predicted_indications": [
@@ -4049,8 +3982,8 @@
     {
       "name": "Pantoprazole",
       "file": "pantoprazole.md",
-      "evidence_level": "L1",
-      "indication_count": 6,
+      "evidence_level": "L5",
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Pantoprazole",
       "predicted_indications": [
@@ -4061,7 +3994,7 @@
       "name": "Phenobarbital",
       "file": "phenobarbital.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Phenobarbital",
       "predicted_indications": [
@@ -4074,12 +4007,11 @@
       "name": "Phenylephrine",
       "file": "phenylephrine.md",
       "evidence_level": "L4",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Phenylephrine",
       "predicted_indications": [
         "nasal cavity disease",
-        "acute laryngopharyngitis",
         "trigeminal autonomic cephalalgia"
       ]
     },
@@ -4087,7 +4019,7 @@
       "name": "Phenytoin",
       "file": "phenytoin.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Phenytoin",
       "predicted_indications": [
@@ -4100,7 +4032,7 @@
       "name": "Piperacillin",
       "file": "piperacillin.md",
       "evidence_level": "L5",
-      "indication_count": 9,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Piperacillin",
       "predicted_indications": [
@@ -4108,7 +4040,6 @@
         "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
         "brachydactyly-syndactyly syndrome",
         "sclerosing cholangitis",
-        "osteoarthritis susceptibility",
         "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
         "brain small vessel disease 1 with or without ocular anomalies",
         "diabetic nephropathy",
@@ -4119,7 +4050,7 @@
       "name": "Polymyxin B",
       "file": "polymyxin_b.md",
       "evidence_level": "L4",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Polymyxin B",
       "predicted_indications": [
@@ -4136,8 +4067,8 @@
       "inn": "Potassium",
       "predicted_indications": [
         "hypertensive disorder",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
         "malignant renovascular hypertension"
       ]
@@ -4146,7 +4077,7 @@
       "name": "Prednisolone",
       "file": "prednisolone.md",
       "evidence_level": "L2",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Prednisolone",
       "predicted_indications": [
@@ -4154,8 +4085,8 @@
         "alopecia mucinosa",
         "telogen effluvium",
         "Quinquaud's folliculitis decalvans",
-        "hereditary hypotrichosis with recurrent skin vesicles",
         "alopecia antibody deficiency",
+        "hereditary hypotrichosis with recurrent skin vesicles",
         "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome",
         "atrichia with papular lesions",
         "prolapse of lacrimal gland"
@@ -4185,13 +4116,13 @@
       "name": "Primaquine",
       "file": "primaquine.md",
       "evidence_level": "L5",
-      "indication_count": 8,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Primaquine",
       "predicted_indications": [
         "myiasis",
-        "wound myiasis",
         "creeping myiasis",
+        "wound myiasis",
         "furuncular myiasis",
         "toxoplasmosis",
         "nocardiosis",
@@ -4217,7 +4148,7 @@
       "name": "Propranolol",
       "file": "propranolol.md",
       "evidence_level": "L5",
-      "indication_count": 6,
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Propranolol",
       "predicted_indications": [
@@ -4231,12 +4162,11 @@
       "name": "Propylthiouracil",
       "file": "propylthiouracil.md",
       "evidence_level": "L4",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Propylthiouracil",
       "predicted_indications": [
         "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
-        "neonatal thyrotoxicosis",
         "hyperthyroxinemia"
       ]
     },
@@ -4263,8 +4193,8 @@
     {
       "name": "Pyridostigmine",
       "file": "pyridostigmine.md",
-      "evidence_level": "L3",
-      "indication_count": 7,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Pyridostigmine",
       "predicted_indications": [
@@ -4295,21 +4225,10 @@
       ]
     },
     {
-      "name": "Rabeprazole",
-      "file": "rabeprazole.md",
-      "evidence_level": "L5",
-      "indication_count": 2,
-      "predicted_indication": "",
-      "inn": "Rabeprazole",
-      "predicted_indications": [
-        "lymphoadenopathic mastocytosis with eosinophilia"
-      ]
-    },
-    {
       "name": "Ranitidine",
       "file": "ranitidine.md",
       "evidence_level": "L4",
-      "indication_count": 10,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Ranitidine",
       "predicted_indications": [
@@ -4324,21 +4243,20 @@
     {
       "name": "Ribavirin",
       "file": "ribavirin.md",
-      "evidence_level": "L5",
-      "indication_count": 10,
+      "evidence_level": "L2",
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Ribavirin",
       "predicted_indications": [
         "chronic hepatitis B virus infection",
-        "primitive portal vein thrombosis",
-        "hepatoportal sclerosis",
-        "hepatopulmonary syndrome",
         "early-onset familial noncirrhotic portal hypertension",
-        "idiopathic copper-associated cirrhosis",
+        "hepatopulmonary syndrome",
+        "hepatoportal sclerosis",
+        "primitive portal vein thrombosis",
         "hepatic porphyria",
         "IgG4-related pachymeningitis",
         "IgG4-related mediastinitis",
-        "IgG4-related mesenteritis"
+        "eosinophilic angiocentric fibrosis"
       ]
     },
     {
@@ -4377,8 +4295,8 @@
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
         "rheumatoid arthritis",
         "acute contagious conjunctivitis",
-        "simian immunodeficiency virus infection",
-        "feline acquired immunodeficiency syndrome"
+        "feline acquired immunodeficiency syndrome",
+        "simian immunodeficiency virus infection"
       ]
     },
     {
@@ -4404,7 +4322,7 @@
     {
       "name": "Rifaximin",
       "file": "rifaximin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 6,
       "predicted_indication": "",
       "inn": "Rifaximin",
@@ -4412,21 +4330,21 @@
         "oral candidiasis",
         "commissural lip fistula",
         "osteoradionecrosis of the mandible",
-        "burning mouth syndrome",
         "oral leukoedema",
+        "burning mouth syndrome",
         "candidiasis"
       ]
     },
     {
       "name": "Rilpivirine",
       "file": "rilpivirine.md",
-      "evidence_level": "L4",
-      "indication_count": 5,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Rilpivirine",
       "predicted_indications": [
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -4434,12 +4352,11 @@
       "name": "Risperidone",
       "file": "risperidone.md",
       "evidence_level": "L5",
-      "indication_count": 6,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Risperidone",
       "predicted_indications": [
         "gaze palsy, familial horizontal, with progressive scoliosis",
-        "asperger syndrome, susceptibility to",
         "amelocerebrohypohidrotic syndrome",
         "Phelan-McDermid syndrome",
         "trichotillomania",
@@ -4462,7 +4379,7 @@
     {
       "name": "Rivastigmine",
       "file": "rivastigmine.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Rivastigmine",
@@ -4474,14 +4391,13 @@
       "name": "Rocuronium",
       "file": "rocuronium.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Rocuronium",
       "predicted_indications": [
         "migraine disorder",
         "migraine with brainstem aura",
         "cauda equina syndrome",
-        "migraine with or without aura, susceptibility to",
         "atrophoderma vermiculata",
         "ulerythema ophryogenesis",
         "obsolete neurogenic bladder (disease)",
@@ -4508,7 +4424,7 @@
       "name": "Rosuvastatin",
       "file": "rosuvastatin.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Rosuvastatin",
       "predicted_indications": [
@@ -4517,14 +4433,13 @@
         "HIV infectious disease",
         "hypoalphalipoproteinemia",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
-        "hyperlipidemia due to hepatic triglyceride lipase deficiency",
         "ABri amyloidosis"
       ]
     },
     {
       "name": "Sacubitril",
       "file": "sacubitril.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 5,
       "predicted_indication": "",
       "inn": "Sacubitril",
@@ -4540,7 +4455,7 @@
       "name": "Salbutamol",
       "file": "salbutamol.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Salbutamol",
       "predicted_indications": [
@@ -4559,7 +4474,7 @@
       "name": "Salicylic Acid",
       "file": "salicylic_acid.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Salicylic acid",
       "predicted_indications": [
@@ -4571,15 +4486,14 @@
         "acromesomelic dysplasia, Hunter-Thompson type",
         "pseudoachondroplasia",
         "myosclerosis",
-        "brachyolmia",
-        "spondyloarthropathy, susceptibility to"
+        "brachyolmia"
       ]
     },
     {
       "name": "Salmeterol",
       "file": "salmeterol.md",
       "evidence_level": "L1",
-      "indication_count": 7,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Salmeterol",
       "predicted_indications": [
@@ -4593,7 +4507,7 @@
     {
       "name": "Selegiline",
       "file": "selegiline.md",
-      "evidence_level": "L3",
+      "evidence_level": "L5",
       "indication_count": 4,
       "predicted_indication": "",
       "inn": "Selegiline",
@@ -4628,10 +4542,10 @@
       "predicted_indication": "",
       "inn": "Sertraline",
       "predicted_indications": [
-        "histrionic personality disorder (disease)",
+        "schizoid personality disorder",
         "schizotypal personality disorder",
         "paranoid personality disorder",
-        "schizoid personality disorder",
+        "histrionic personality disorder (disease)",
         "benign paroxysmal torticollis of infancy",
         "agoraphobia",
         "dependent personality disorder",
@@ -4661,8 +4575,8 @@
     {
       "name": "Simvastatin",
       "file": "simvastatin.md",
-      "evidence_level": "L1",
-      "indication_count": 8,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Simvastatin",
       "predicted_indications": [
@@ -4677,7 +4591,7 @@
       "name": "Sirolimus",
       "file": "sirolimus.md",
       "evidence_level": "L2",
-      "indication_count": 10,
+      "indication_count": 7,
       "predicted_indication": "",
       "inn": "Sirolimus",
       "predicted_indications": [
@@ -4702,8 +4616,8 @@
         "epiglottitis",
         "urinary tract infection (disease)",
         "sclerosing cholangitis",
-        "Ureaplasma urethritis",
         "gonococcal urethritis",
+        "Ureaplasma urethritis",
         "dyspepsia",
         "uterine inflammatory disease",
         "gastroparesis (disease)",
@@ -4713,7 +4627,7 @@
     {
       "name": "Sofosbuvir",
       "file": "sofosbuvir.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 8,
       "predicted_indication": "",
       "inn": "Sofosbuvir",
@@ -4737,14 +4651,14 @@
       "inn": "Spectinomycin",
       "predicted_indications": [
         "disease of uterine broad ligament",
-        "abdominal cystic lymphangioma",
         "celiac trunk compression syndrome",
         "abdominal ectopic pregnancy",
+        "abdominal cystic lymphangioma",
         "lymph node palisaded myofibroblastoma",
         "disease of retroperitoneum",
         "sacrum chordoma",
-        "urethral disease",
         "disease of peritoneum",
+        "urethral disease",
         "embryonic cyst of fallopian tube"
       ]
     },
@@ -4763,18 +4677,13 @@
     {
       "name": "Streptokinase",
       "file": "streptokinase.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Streptokinase",
       "predicted_indications": [
-        "myocardial infarction",
         "Prinzmetal angina",
         "hemoglobinopathy",
-        "coronary thrombosis",
-        "septal myocardial infarction",
-        "posterolateral myocardial infarction",
-        "posteroinferior myocardial infarction",
         "peripheral vascular disease",
         "peripheral arterial disease",
         "partial deletion of the short arm of chromosome 16"
@@ -4803,7 +4712,7 @@
     {
       "name": "Sucralfate",
       "file": "sucralfate.md",
-      "evidence_level": "L5",
+      "evidence_level": "L2",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Sucralfate",
@@ -4836,7 +4745,7 @@
       "name": "Tacrolimus",
       "file": "tacrolimus.md",
       "evidence_level": "L2",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Tacrolimus",
       "predicted_indications": [
@@ -4847,8 +4756,8 @@
     {
       "name": "Tamoxifen",
       "file": "tamoxifen.md",
-      "evidence_level": "L4",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Tamoxifen",
       "predicted_indications": [
@@ -4901,7 +4810,7 @@
       "name": "Telmisartan",
       "file": "telmisartan.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Telmisartan",
       "predicted_indications": [
@@ -4909,8 +4818,8 @@
         "brain stem infarction",
         "ABri amyloidosis",
         "cerebral artery occlusion",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "malignant hypertensive renal disease",
         "intracerebral hemorrhage",
         "Braddock syndrome"
@@ -4919,13 +4828,13 @@
     {
       "name": "Tenofovir",
       "file": "tenofovir.md",
-      "evidence_level": "L5",
+      "evidence_level": "L4",
       "indication_count": 3,
       "predicted_indication": "",
       "inn": "Tenofovir",
       "predicted_indications": [
-        "feline acquired immunodeficiency syndrome",
         "simian immunodeficiency virus infection",
+        "feline acquired immunodeficiency syndrome",
         "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"
       ]
     },
@@ -4984,7 +4893,7 @@
     {
       "name": "Tetracycline",
       "file": "tetracycline.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 4,
       "predicted_indication": "",
       "inn": "Tetracycline",
@@ -4999,7 +4908,7 @@
       "name": "Theophylline",
       "file": "theophylline.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Theophylline",
       "predicted_indications": [
@@ -5007,25 +4916,28 @@
         "nasal cavity disease",
         "laryngotracheitis",
         "tracheal disease",
+        "pharyngitis",
         "acute laryngopharyngitis"
       ]
     },
     {
       "name": "Thiamine",
       "file": "thiamine.md",
-      "evidence_level": "L3",
-      "indication_count": 4,
+      "evidence_level": "L5",
+      "indication_count": 3,
       "predicted_indication": "",
       "inn": "Thiamine",
       "predicted_indications": [
-        "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+        "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+        "primary hereditary glaucoma",
+        "open-angle glaucoma"
       ]
     },
     {
       "name": "Thiopental",
       "file": "thiopental.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 8,
       "predicted_indication": "",
       "inn": "Thiopental",
       "predicted_indications": [
@@ -5043,7 +4955,7 @@
       "name": "Tiotropium",
       "file": "tiotropium.md",
       "evidence_level": "L1",
-      "indication_count": 10,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Tiotropium",
       "predicted_indications": [
@@ -5051,8 +4963,7 @@
         "respiratory malformation",
         "Rienhoff syndrome",
         "hyperlucent lung",
-        "tracheal stenosis",
-        "susceptibility to respiratory infections associated with CD8alpha chain mutation"
+        "tracheal stenosis"
       ]
     },
     {
@@ -5079,24 +4990,22 @@
       "name": "Tocilizumab",
       "file": "tocilizumab.md",
       "evidence_level": "L3",
-      "indication_count": 10,
+      "indication_count": 5,
       "predicted_indication": "",
       "inn": "Tocilizumab",
       "predicted_indications": [
         "ankylosing spondylitis",
         "hypermobility of coccyx",
-        "spondyloarthropathy, susceptibility to",
         "inflammatory spondylopathy",
         "Kummell disease",
-        "vertebral disease",
-        "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+        "vertebral disease"
       ]
     },
     {
       "name": "Tolvaptan",
       "file": "tolvaptan.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Tolvaptan",
       "predicted_indications": [
@@ -5115,7 +5024,7 @@
       "name": "Topiramate",
       "file": "topiramate.md",
       "evidence_level": "L5",
-      "indication_count": 9,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Topiramate",
       "predicted_indications": [
@@ -5126,7 +5035,7 @@
       "name": "Tramadol",
       "file": "tramadol.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 9,
       "predicted_indication": "",
       "inn": "Tramadol",
       "predicted_indications": [
@@ -5135,7 +5044,6 @@
         "myosclerosis",
         "brachyolmia",
         "pseudoachondroplasia",
-        "spondyloarthropathy, susceptibility to",
         "juvenile idiopathic arthritis",
         "juvenile arthritis due to defect in LACC1",
         "rheumatoid nodulosis",
@@ -5145,7 +5053,7 @@
     {
       "name": "Tranexamic Acid",
       "file": "tranexamic_acid.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 1,
       "predicted_indication": "",
       "inn": "Tranexamic acid",
@@ -5156,8 +5064,8 @@
     {
       "name": "Trastuzumab",
       "file": "trastuzumab.md",
-      "evidence_level": "L1",
-      "indication_count": 10,
+      "evidence_level": "L5",
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Trastuzumab",
       "predicted_indications": [
@@ -5193,7 +5101,7 @@
       "name": "Trimethoprim",
       "file": "trimethoprim.md",
       "evidence_level": "L5",
-      "indication_count": 2,
+      "indication_count": 1,
       "predicted_indication": "",
       "inn": "Trimethoprim",
       "predicted_indications": [
@@ -5228,7 +5136,7 @@
       "name": "Valproic Acid",
       "file": "valproic_acid.md",
       "evidence_level": "L5",
-      "indication_count": 10,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Valproic acid",
       "predicted_indications": [
@@ -5240,13 +5148,13 @@
       "name": "Valsartan",
       "file": "valsartan.md",
       "evidence_level": "L4",
-      "indication_count": 7,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Valsartan",
       "predicted_indications": [
         "malignant hypertensive renal disease",
-        "pulmonary hypertension with unclear multifactorial mechanism",
         "pulmonary hypertension owing to lung disease and/or hypoxia",
+        "pulmonary hypertension with unclear multifactorial mechanism",
         "Braddock syndrome",
         "chronic pulmonary heart disease",
         "Prinzmetal angina"
@@ -5264,8 +5172,8 @@
         "paratyphoid fever",
         "salmonellosis",
         "congenital analbuminemia",
-        "polyclonal hyperviscosity syndrome",
         "hyperamylasemia",
+        "polyclonal hyperviscosity syndrome",
         "typhoid fever",
         "blood group incompatibility",
         "streptococcal pneumonia",
@@ -5295,7 +5203,7 @@
     {
       "name": "Vasopressin",
       "file": "vasopressin.md",
-      "evidence_level": "L4",
+      "evidence_level": "L5",
       "indication_count": 2,
       "predicted_indication": "",
       "inn": "Vasopressin",
@@ -5320,7 +5228,7 @@
       "name": "Verapamil",
       "file": "verapamil.md",
       "evidence_level": "L5",
-      "indication_count": 7,
+      "indication_count": 6,
       "predicted_indication": "",
       "inn": "Verapamil",
       "predicted_indications": [
@@ -5355,12 +5263,11 @@
     {
       "name": "Vincristine",
       "file": "vincristine.md",
-      "evidence_level": "L3",
-      "indication_count": 3,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Vincristine",
       "predicted_indications": [
-        "ganglioneuroblastoma (disease)",
         "vertebral anomalies and variable endocrine and T-cell dysfunction",
         "retroperitoneal neoplasm"
       ]
@@ -5379,8 +5286,8 @@
         "injury",
         "cell proliferation disorder",
         "florid cemento-osseous dysplasia",
-        "perinatal disease",
         "segmental odontomaxillary dysplasia",
+        "perinatal disease",
         "disease by subcellular system affected",
         "radiation or chemically induced disorder"
       ]
@@ -5405,8 +5312,8 @@
     {
       "name": "Zidovudine",
       "file": "zidovudine.md",
-      "evidence_level": "L4",
-      "indication_count": 6,
+      "evidence_level": "L5",
+      "indication_count": 4,
       "predicted_indication": "",
       "inn": "Zidovudine",
       "predicted_indications": [
@@ -5419,8 +5326,8 @@
     {
       "name": "Zolmitriptan",
       "file": "zolmitriptan.md",
-      "evidence_level": "L4",
-      "indication_count": 3,
+      "evidence_level": "L5",
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Zolmitriptan",
       "predicted_indications": [
@@ -5432,7 +5339,7 @@
       "name": "Zolpidem",
       "file": "zolpidem.md",
       "evidence_level": "L5",
-      "indication_count": 3,
+      "indication_count": 2,
       "predicted_indication": "",
       "inn": "Zolpidem",
       "predicted_indications": [
