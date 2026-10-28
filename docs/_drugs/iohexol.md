@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Iohexol: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]

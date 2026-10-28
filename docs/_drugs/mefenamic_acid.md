@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L3)."

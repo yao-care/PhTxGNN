@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L2). Approved use: Chronic hepatitis C virus infection"
 ---
 

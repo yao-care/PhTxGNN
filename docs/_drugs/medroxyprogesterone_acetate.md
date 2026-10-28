@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Medroxyprogesterone Acetate: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 

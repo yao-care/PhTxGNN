@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Epirubicin: predicted new indication primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
