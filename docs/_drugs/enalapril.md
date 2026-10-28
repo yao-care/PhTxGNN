@@ -8,6 +8,7 @@ nav_order: 123
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Enalapril
@@ -51,8 +52,8 @@ A complete drug repurposing evaluation **cannot be performed** until the missing
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction not yet generated; no supporting studies retrievable) |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

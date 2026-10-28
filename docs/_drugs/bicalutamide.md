@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **hypertrichosis**, but there are 
 |------|------|
 | Original Indication | Not recorded in the Philippines registration data |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0050 | Bicalutamide | Cancelled |
+| PNF-0050 | Bicalutamide | Valid |
 
 Dosage form and approved indication are not recorded for this authorization.
 
@@ -113,9 +113,9 @@ Please refer to the package insert for warnings and label-based contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and a single commentary letter, with no clinical trials. The drug has no valid registration in the Philippines, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
+The prediction rests on a model score and a single commentary letter, with no clinical trials. The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
 
-For context, a lower-ranked prediction in the same data, **female breast carcinoma** (score 99.11%), has stronger support. It has one active Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab) and substantial preclinical literature on AR-positive triple-negative breast cancer. It was assessed at evidence level L2 with a "Proceed with Guardrails" recommendation, and may be a better candidate for further evaluation.
+For context, a lower-ranked prediction in the same data, **female breast carcinoma** (score 0.9911), has stronger support. It has one active Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab) and substantial preclinical literature on AR-positive triple-negative breast cancer. It was assessed at evidence level L2 with a "Proceed with Guardrails" recommendation, and may be a better candidate for further evaluation.
 
 **To proceed, the following is needed:**
 - The primary study behind the commentary (the 35-patient retrospective review) and any controlled data in hypertrichosis

@@ -4,17 +4,17 @@ title: Salmeterol
 parent: High Evidence (L1-L2)
 nav_order: 307
 evidence_level: L1
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "Salmeterol"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **7** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-## Salmeterol: From Asthma and Chronic Airway Disease to Bronchitis
+## Salmeterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (the Philippine registration record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

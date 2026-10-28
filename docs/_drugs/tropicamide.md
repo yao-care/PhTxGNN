@@ -6,9 +6,9 @@ nav_order: 347
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this direction,
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,11 +60,11 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Cauda equina syndrome can cause bladder dysfunction, such as detrusor overactivity or urinary retention. Antimuscarinic drugs are sometimes used to control such symptoms, which gives the prediction a loose mechanistic basis.
 
-The link is speculative, however. Tropicamide is only used topically in the eye, and no systemic or urological use is documented. Cauda equina syndrome is a surgical emergency whose main treatment is decompression. A symptomatic anticholinergic would not address the underlying condition. The high model score (0.995) is the only support.
+The link is speculative, however. Tropicamide is only used topically in the eye, and no systemic or urological use is documented. Cauda equina syndrome is a surgical emergency whose main treatment is decompression. A symptomatic anticholinergic would not address the underlying condition. The high model score (0.9953) is the only support.
 
 **Other predictions in the data (all L5, all Hold):**
-- **Obsolete neurogenic bladder** (score 99.13%): Antimuscarinics such as oxybutynin and tolterodine are standard therapy, but tropicamide has no clinical data here and no oral or intravesical formulation. The disease term is also obsolete in the ontology.
-- **Irritable bowel syndrome** (score 99.12%): Antispasmodic anticholinergics are used for IBS cramping, but there is no evidence for tropicamide itself, and established alternatives exist.
+- **Obsolete neurogenic bladder** (score 0.9913): Antimuscarinics such as oxybutynin and tolterodine are standard therapy, but tropicamide has no clinical data here and no oral or intravesical formulation. The disease term is also obsolete in the ontology.
+- **Irritable bowel syndrome** (score 0.9912): Antispasmodic anticholinergics are used for IBS cramping, but there is no evidence for tropicamide itself, and established alternatives exist.
 
 ## Clinical Trial Evidence
 
@@ -78,9 +78,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0501 | Tropicamide | Not specified | Not specified (registration cancelled) |
+| PNF-0501 | Tropicamide | Not specified | Not specified (registration valid) |
 
-The only registration is cancelled, and no valid single-ingredient or combination registrations exist.
 
 ## Safety Considerations
 

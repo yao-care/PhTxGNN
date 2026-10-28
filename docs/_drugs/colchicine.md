@@ -4,7 +4,7 @@ title: Colchicine
 parent: Model Prediction Only (L5)
 nav_order: 87
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
@@ -14,7 +14,7 @@ predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma pr
 # Colchicine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 |------|------|
 | Original Indication | Gout; familial Mediterranean fever (the Philippines registration record has no approved indication text) |
 | Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,8 +62,7 @@ The mechanistic link to malaria is theoretical: *P. falciparum* depends on tubul
 Colchicine also has a narrow therapeutic index and significant human toxicity, which argues against its use as an antimalarial. The high TxGNN score is a computational prediction only.
 
 **Other predictions in the data (for context):**
-- **Familial Mediterranean fever, autosomal dominant (score 99.38%, L4):** Colchicine is already the standard first-line FMF therapy, so this is a subtype or naming variant of an existing indication rather than true repurposing. Supporting literature is mostly reviews.
-- **Dermatofibrosarcoma protuberans (score 99.37%, L5):** There is no clinical or literature support. The disease is driven by the COL1A1-PDGFB fusion and treated with surgery and imatinib, and colchicine's toxicity at antimitotic doses limits plausibility.
+- **Dermatofibrosarcoma protuberans (score 0.9937, L5):** There is no clinical or literature support. The disease is driven by the COL1A1-PDGFB fusion and treated with surgery and imatinib, and colchicine's toxicity at antimitotic doses limits plausibility.
 
 ## Clinical Trial Evidence
 
@@ -80,7 +79,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0116 | Colchicine (status: cancelled) | Not specified | Not specified |
+| PNF-0116 | Colchicine (status: valid) | Not specified | Not specified |
 
 ## Safety Considerations
 

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 clinical
 |------|------|
 | Original Indication | Anxiety |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,7 +83,7 @@ This is less a novel repurposing than a rediscovery. Oral midazolam was studied 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0327 | Midazolam | Not specified | Not specified (registration cancelled) |
+| PNF-0327 | Midazolam | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

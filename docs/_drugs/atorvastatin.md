@@ -3,18 +3,18 @@ layout: default
 title: Atorvastatin
 parent: High Evidence (L1-L2)
 nav_order: 33
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Atorvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hypertriglyceridemia, stroke and cerebrovascular disorder…"
+evidence_level: L2
+indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-27
+description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Atorvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,87 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Atorvastatin: From Hyperlipidemia and Atherosclerosis to Familial Hypercholesterolemia
+## Atorvastatin: HMG-CoA reductase inhibitor (statin) → HIV infectious disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Atorvastatin is a statin originally used for lipid disorders (including homozygous familial hypercholesterolemia and hypertriglyceridemia) and for atherosclerotic and cerebrovascular disease.
-The TxGNN model predicts it may be effective for **familial hypercholesterolemia**,
-with **14 clinical trials** and **20 publications** compiled for this direction. Because familial hypercholesterolemia is already close to its original indications, this is better described as an on-label or closely adjacent use than as true repurposing.
+Atorvastatin is a statin that lowers blood lipids by inhibiting HMG-CoA reductase.
+The TxGNN model predicts it may be useful for **HIV infectious disease**, mainly for reducing immune activation and inflammation in people on antiretroviral therapy.
+The data compiled for this report include **14 clinical trials** and **20 publications**. Most are small, and many focus on lipid management or drug interactions rather than control of the virus itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridemia, stroke and cerebrovascular disorder, atherosclerosis, familial combined hyperlipidemia, homozygous familial hypercholesterolemia, among others (the Philippine licence record has no approved indication text) |
-| Predicted New Indication | Familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.42% |
-| Evidence Level | L1 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | HIV infectious disease |
+| TxGNN Prediction Score | 0.9931 |
+| Evidence Level | L2 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Atorvastatin inhibits HMG-CoA reductase, which lowers hepatic cholesterol synthesis and upregulates LDL receptors, increasing LDL-C clearance. This is the same pathway that is impaired in familial hypercholesterolemia.
+Detailed mechanism of action data for atorvastatin are not available in the data compiled for this report. Statins are known to have effects beyond lowering cholesterol. These include reduced monocyte and macrophage activation and lower systemic inflammation.
 
-The original indications already include homozygous familial hypercholesterolemia and several related lipid disorders. The predicted indication is therefore essentially the same disease family, and the mechanism applies directly.
+Chronic immune activation and inflammation persist in many people with HIV even when the virus is suppressed by antiretroviral therapy. They are linked to cardiovascular disease and to HIV-associated neurocognitive disorders. A statin could therefore plausibly help in this setting. Atorvastatin has also been studied for lipid increases caused by protease inhibitors, a common problem in HIV treatment.
 
-Other top-ranked predictions are discussed in the conclusion. Detailed mechanism-of-action data for the drug were not available in the data compiled for this report. The description above relies on the mechanistic rationale compiled for this prediction.
+Evidence that atorvastatin has a real antiviral or immune benefit, as distinct from lipid lowering, remains limited. Its use alongside antiretrovirals also needs careful management of CYP3A4 interactions, especially with boosted protease inhibitors.
 
 ## Clinical Trial Evidence
 
-Most trials below test atorvastatin as background or comparator therapy, or in combination with another agent, rather than as the sole variable.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Completed | 400 | Torcetrapib/atorvastatin vs maximally tolerated atorvastatin alone in heterozygous FH; the torcetrapib programme was terminated for safety findings |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Completed | 800 | Carotid ultrasound study of torcetrapib/atorvastatin vs atorvastatin alone in heterozygous FH over 24 months |
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Completed | 272 | Three-year open-label study of atorvastatin in children and adolescents with heterozygous FH (growth, development, cholesterol reduction) |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Randomized, placebo-controlled study of alirocumab in heterozygous FH on lipid-modifying therapy |
-| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Completed | 153 | Alirocumab vs placebo in children with heterozygous FH on stable statin therapy |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10 mg added to atorvastatin or simvastatin in homozygous FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term open-label safety of ezetimibe added to atorvastatin or simvastatin in homozygous FH |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | Completed | 30 | Open-label forced-titration study of torcetrapib/atorvastatin in homozygous FH |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Completed | 39 | Pharmacokinetics, pharmacodynamics and safety of atorvastatin in children and adolescents with heterozygous FH |
-| [NCT01279590](https://clinicaltrials.gov/study/NCT01279590) | Phase 2 | Completed | 282 | PPD10558 vs atorvastatin on statin-associated myalgia in statin-intolerant patients with primary hypercholesterolemia |
+| [NCT01766076](https://clinicaltrials.gov/study/NCT01766076) | Phase 3 | Completed | 30 | Randomised trial of atorvastatin as adjuvant therapy in suboptimal responders to antiretroviral therapy; tests whether immune activation changes |
+| [NCT00367458](https://clinicaltrials.gov/study/NCT00367458) | Phase 2 | Completed | 24 | Placebo-controlled trial in HIV-positive patients not on antiretrovirals; effects on viral load and immune activation markers |
+| [NCT03037372](https://clinicaltrials.gov/study/NCT03037372) | Phase 3 | Unknown | 320 | Atorvastatin vs rosuvastatin over 36 months for immune activation, inflammation and immune ageing in antiretroviral-treated adults |
+| [NCT00663234](https://clinicaltrials.gov/study/NCT00663234) | Phase 1/2 | Terminated | 28 | Safety and efficacy of escalating atorvastatin doses for protease-inhibitor-associated high LDL cholesterol in children and adolescents with HIV |
+| [NCT01600170](https://clinicaltrials.gov/study/NCT01600170) | Phase 4 | Completed | 11 | Statin modulation of monocyte/macrophage activation for HIV-associated neurocognitive disorder |
+| [NCT00965185](https://clinicaltrials.gov/study/NCT00965185) | Not applicable | Completed | 40 | Statin therapy to reduce plaque inflammation and atherosclerosis in HIV patients |
+| [NCT02081638](https://clinicaltrials.gov/study/NCT02081638) | Phase 2 | Completed | 53 | Statin vs aspirin on inflammation and clotting in elite controllers and antiretroviral-treated HIV patients |
+| [NCT00355251](https://clinicaltrials.gov/study/NCT00355251) | Phase 4 | Terminated | 5 | Effect of atorvastatin on plasma viral replication before treatment interruption; minimal enrollment |
+| [NCT01263938](https://clinicaltrials.gov/study/NCT01263938) | Phase 4 | Completed | 5 | Pilot study of monocyte activation in HAART-treated patients; too small to be informative |
+| [NCT01442428](https://clinicaltrials.gov/study/NCT01442428) | Phase 2/3 | Withdrawn | 0 | Corticosteroids vs NSAIDs, with or without atorvastatin, for TB-associated immune reconstitution syndrome in HIV; never enrolled |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | RCT | Nutr Metab Cardiovasc Dis | Atorvastatin vs simvastatin in heterozygous FH for reaching LDL-C goals, with comparison of fibrinogen and coagulation changes |
-| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | Review | Cochrane Database Syst Rev | Dose-related lipid-lowering effect of atorvastatin |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort | J Am Coll Cardiol | Statin-related reduction of coronary artery disease events and mortality in heterozygous FH |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Clinical study | J Clin Lipidol | Three-year study of atorvastatin in children and adolescents with heterozygous FH |
-| [9301631](https://pubmed.ncbi.nlm.nih.gov/9301631/) | 1997 | Clinical study | Arterioscler Thromb Vasc Biol | Open-label study of atorvastatin 80 mg given once or twice daily in proven FH, showing efficacy and good tolerability |
-| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | Clinical study | Med Sci Monit | Atorvastatin reduced microalbuminuria in FH with normal glucose tolerance |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guidelines for dyslipidemia management and cardiovascular prevention |
-| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Review | Semin Vasc Med | Diagnosis and treatment of FH in children |
-| [30270066](https://pubmed.ncbi.nlm.nih.gov/30270066/) | 2018 | Retrospective study | Atherosclerosis | FH treatment patterns in Slovakia; maximal-dose potent statins are the cornerstone, but many patients miss LDL-C goals |
-| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Preclinical | Toxicology | Lipophilic vs hydrophilic statin myotoxicity in iPSC-derived muscle cells from FH patients |
-
-## Philippines Market Information
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0032 | Atorvastatin | Not stated | Not stated (status: cancelled) |
+| [37450602](https://pubmed.ncbi.nlm.nih.gov/37450602/) | 2023 | Open-label RCT | AIDS | Atorvastatin vs aspirin in elite controllers and antiretroviral-treated people with HIV, targeting residual inflammation |
+| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | Randomised open-label study | Curr HIV Res | Rosuvastatin, pravastatin and atorvastatin for hypercholesterolaemia in 94 patients on protease inhibitors |
+| [25907504](https://pubmed.ncbi.nlm.nih.gov/25907504/) | 2015 | Systematic review | Am J Cardiol | Usefulness of statin therapy in HIV-infected patients, who have higher cardiovascular risk |
+| [29804227](https://pubmed.ncbi.nlm.nih.gov/29804227/) | 2018 | Review | Curr Infect Dis Rep | Benefits and risks of statins for cardiovascular risk reduction in HIV |
+| [26658651](https://pubmed.ncbi.nlm.nih.gov/26658651/) | 2016 | Review | Curr Opin Infect Dis | Evidence that statins reduce cardiovascular risk in treated HIV |
+| [31126301](https://pubmed.ncbi.nlm.nih.gov/31126301/) | 2019 | Review | AIDS Res Ther | Statins and aspirin for cardiovascular prevention in HIV-positive patients |
+| [22770622](https://pubmed.ncbi.nlm.nih.gov/22770622/) | 2012 | Review | Expert Opin Pharmacother | Safety and effectiveness of statins for HIV dyslipidaemia |
+| [29770749](https://pubmed.ncbi.nlm.nih.gov/29770749/) | 2018 | Cohort | HIV Clin Trials | Rosuvastatin and atorvastatin preserved renal function in HIV patients with chronic kidney disease and hyperlipidaemia |
+| [36549898](https://pubmed.ncbi.nlm.nih.gov/36549898/) | 2023 | Pharmacokinetic analysis | HIV Med | Atorvastatin exposure and vitamin D levels vs lipid outcomes in people with HIV |
+| [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Preclinical | JCI Insight | In mice, atorvastatin suppressed HIV/antiretroviral-induced cardiac fibrosis by blocking platelet TGF-β1 signalling |
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph disease associations, not label text)**: liver failure, liver disease, kidney disease, gallbladder disease, hypothyroidism (including myxedema and congenital hypothyroidism), myopathy and other muscle diseases, rhabdomyolysis, familial periodic paralysis, hypotensive disorder, substance abuse/dependence, nodular fasciitis, pyoureter, injury.
-- **Drug Interactions**: 100 interactions were identified in the interaction database; the first 20 are summarised below.
+- **Drug Interactions**: 100 interactions were found. The main ones among those listed are:
   - **Major**: clarithromycin.
-  - **Moderate**: aprepitant, omeprazole, esomeprazole, lansoprazole, pantoprazole, cimetidine, clotrimazole, miconazole, dexamethasone, eliglustat, eluxadoline, metronidazole, naltrexone, pectin, rosuvastatin, simvastatin.
-  - **Minor**: aluminum hydroxide, magnesium hydroxide, liraglutide.
-  - Combining atorvastatin with other statins (rosuvastatin, simvastatin) should be avoided.
+  - **Moderate**: aprepitant, omeprazole and other proton pump inhibitors (esomeprazole, lansoprazole, pantoprazole), cimetidine, clotrimazole, miconazole, dexamethasone, eliglustat, eluxadoline, metronidazole, naltrexone, pectin, rosuvastatin and simvastatin.
+  - **Minor**: aluminium hydroxide, magnesium hydroxide and liraglutide.
+- **HIV-specific interaction concern**: Several publications and trials in the evidence show that protease inhibitors, especially boosted regimens, raise statin exposure through CYP3A4 inhibition. This needs dose and regimen review before any use in people with HIV.
 
-Package insert warnings and contraindications for the Philippine product were not available. Please refer to the package insert.
+Please refer to the package insert for other warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Several completed Phase 3 studies, including RCTs, involve atorvastatin in familial hypercholesterolemia, and the mechanism is direct. However, many trials test add-on agents rather than atorvastatin alone, and in the Philippines the only registration on record is cancelled.
-
-**Other predictions in the ranking:**
-- **HIV infectious disease** (score 99.31%, Evidence Level L2): several small trials suggest effects on immune activation and on protease-inhibitor-associated dyslipidemia, but no benefit independent of lipid lowering is shown. Treat as a research question. CYP3A4 interactions with boosted protease inhibitors need careful management.
-- **Brain stem infarction** (L4), **cholesterol-ester transfer protein deficiency** (L4), **cholesterol 7alpha-hydroxylase deficiency** (L5) and the **neurodevelopmental disorder with ataxic gait** (L5): no direct clinical evidence. Hold.
+Atorvastatin has directly relevant randomised trials in HIV, so the evidence level is L2. These trials are small, with 24 and 30 participants. Most of the other studies address lipid management, cardiovascular risk or drug interactions rather than antiviral or immune benefit. The larger Phase 3 trial (320 participants) has unknown status. The package insert safety information is also not yet available.
 
 **To proceed, the following is needed:**
-- Confirmation of the regulatory status in the Philippines (the single registration is cancelled) and of the approved indication, dosage form and manufacturer
-- Package insert warnings and contraindications for the Philippine product
-- Detailed mechanism-of-action data
-- Review of trials where atorvastatin is only background therapy, to isolate its own effect
-- A drug-interaction management plan, especially for CYP3A4 inhibitors such as clarithromycin and for patients with liver disease, muscle disease or hypothyroidism
+- Results from larger, adequately powered trials showing benefit on immune activation or clinical outcomes, such as the 320-participant Phase 3 trial
+- Package insert warnings and contraindications from the Philippine regulator
+- Mechanism of action data
+- A plan for managing CYP3A4 interactions with antiretroviral regimens, particularly boosted protease inhibitors
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

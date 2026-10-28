@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 240
-evidence_level: L5
-indication_count: 5
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (from the knowledge-graph indication list; the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (as assigned in the compiled data; see note below) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The compiled data assigns L2 to this prediction, but the studies are mostly in related diseases, small, or non-randomized. The direct bronchitis evidence is limited to one Phase 4 trial of recurrent obstructive bronchitis in children (status unknown) and one trial in nonasthmatic eosinophilic bronchitis. I therefore treat the practical strength as modest and recommend Hold.
@@ -111,9 +111,8 @@ Several other listed trials are small Phase 2 safety/PK studies in infants (e.g.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0330 | Montelukast | Not specified | Not specified (registration status: cancelled) |
+| PNF-0330 | Montelukast | Not specified | Not specified (registration status: valid) |
 
-The only registration on record is cancelled, so no valid Philippines marketing authorization currently exists in the data compiled for this report.
 
 ---
 

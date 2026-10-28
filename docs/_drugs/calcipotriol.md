@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 |------|------|
 | Original Indication | Not stated in the Philippines registration record |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,7 +78,7 @@ All the studies are small and uncontrolled, and none is a randomised trial. The 
 
 ## Philippines Market Information
 
-Calcipotriol has one registration in the Philippines (PNF-0065, single-ingredient product), and its status is cancelled. No dosage form, manufacturer or approved indication is recorded, and there is no currently valid registration.
+Calcipotriol has one registration in the Philippines (PNF-0065, single-ingredient product), and its status is valid. No dosage form, manufacturer or approved indication is recorded.
 
 ## Safety Considerations
 

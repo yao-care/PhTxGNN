@@ -4,17 +4,17 @@ title: Levonorgestrel
 parent: Moderate Evidence (L3-L4)
 nav_order: 207
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Levonorgestrel"
-predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Levonorgestrel: From Postmenopausal Osteoporosis to Acne
+## Levonorgestrel: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,17 +46,17 @@ This is a model-driven hypothesis with weak direct support.
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis; osteoporosis (from the knowledge graph, not from Philippine label text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levonorgestrel is a synthetic progestin used mainly in contraceptives (oral pills, intrauterine systems and implants), and its link to osteoporosis in the knowledge graph is not supported by the literature compiled here.
+Currently, detailed mechanism of action data is not available. Based on known information, levonorgestrel is a synthetic progestin used mainly in contraceptives (oral pills, intrauterine systems and implants). Scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Acne is driven in part by androgen action on the sebaceous glands. Levonorgestrel is derived from the 19-nortestosterone family and retains some residual androgenic activity, which is a mechanistic concern rather than a benefit for acne. Dermatological benefit has been reported mainly for combined oral contraceptives, driven by the estrogen component or by anti-androgenic progestins such as chlormadinone acetate, and not by levonorgestrel alone.
 
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0288 | Levonorgestrel | Not specified | Not specified (status: cancelled) |
+| PNF-0288 | Levonorgestrel | Not specified | Not specified (status: valid) |
 
 The only registration found is cancelled, so no product is currently marketed under it.
 
@@ -102,7 +102,7 @@ The package insert warnings and contraindications are not available in the data 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no clinical trials exist, and the literature is mostly about contraception. The one acne trial tested a combined pill, so the effect of levonorgestrel alone cannot be separated out. Levonorgestrel's residual androgenic activity also works against the proposed use. In addition, there is no valid Philippine registration, and the package insert safety data are missing.
+The prediction score is very high, but no clinical trials exist, and the literature is mostly about contraception. The one acne trial tested a combined pill, so the effect of levonorgestrel alone cannot be separated out. Levonorgestrel's residual androgenic activity also works against the proposed use.
 
 **To proceed, the following is needed:**
 - The results of PMID 12196750, and any comparison of levonorgestrel-containing pills against other progestins in acne
@@ -111,7 +111,7 @@ The prediction score is very high, but no clinical trials exist, and the literat
 - Clarification of the regulatory status of the cancelled registration and the available dosage forms
 - A review of the interactions with glucose-lowering drugs and of the knowledge-graph contraindications
 
-**Other predictions (all Hold, TxGNN scores 99.0–99.6%):** Worth syndrome, pregnancy-associated osteoporosis, autosomal dominant neovascular inflammatory vitreoretinopathy, blunt duct adenosis of breast and apocrine adenosis of breast. None has any trial or literature support; all rest on the model score alone (Evidence Level L5).
+**Other predictions (all Hold, TxGNN scores 0.9902–0.9961):** Worth syndrome, autosomal dominant neovascular inflammatory vitreoretinopathy, blunt duct adenosis of breast and apocrine adenosis of breast. None has any trial or literature support; all rest on the model score alone (Evidence Level L5).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 344
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Trastuzumab: predicted new indication Progesterone-receptor positive breast cancer (evidence level L1). Approved use: HER2-positive breast carcinoma"
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Trastuzumab: From HER2-Positive Breast Carcinoma to Progesterone-Receptor Positive Breast Cancer
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trastuzumab is a HER2-targeted antibody originally used to treat HER2-positive breast carcinoma.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **14 clinical trials** and **20 publications** currently supporting this direction.
 This is best understood as a subpopulation of the original indication (HR+/HER2+ disease) rather than a true new use.
 
 ---
@@ -48,12 +47,12 @@ This is best understood as a subpopulation of the original indication (HR+/HER2+
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-positive breast carcinoma |
-| Predicted New Indication | Progesterone-receptor positive breast cancer |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant cutaneous granular cell skin tumor |
+| TxGNN Prediction Score | 0.9948 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -104,11 +103,11 @@ The benefit is driven by HER2 expression, not by PR status. The evidence does no
 
 ## Philippines Market Information
 
-The data compiled for this report show one registration, which is cancelled. There is no currently valid registration in the Philippines.
+The data compiled for this report show one registration, which is cancelled.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0496 | Trastuzumab | Not recorded | Not recorded (status: cancelled) |
+| PNF-0496 | Trastuzumab | Not recorded | Not recorded (status: valid) |
 
 ---
 
@@ -151,7 +150,7 @@ Large Phase 3 data, including a completed adjuvant trial of 3,270 patients, supp
 - A cardiac monitoring plan and a review of the Major drug interactions
 
 **Other predicted indications (for reference):**
-- The "progesterone-receptor negative breast cancer" prediction (99.90%) and the "breast tumor luminal A or B" prediction (99.90%) also support Proceed with Guardrails, but only in HER2-positive disease. Luminal A is generally HER2-negative, so no HER2-directed benefit is expected.
+- Luminal A is generally HER2-negative, so no HER2-directed benefit is expected.
 - The "normal breast-like subtype" prediction is Hold (L4). The only related trial involves a different molecule (trastuzumab rezetecan) and has not started recruiting.
 - Predictions ranked 5 to 10 (including malignant cutaneous granular cell tumour, ectomesenchymoma, HHV-8-related tumour, middle ear neuroendocrine tumour, and two urothelial carcinomas) have no clinical or literature evidence (L5) and are Hold.
 ## Disclaimer

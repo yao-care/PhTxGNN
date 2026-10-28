@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 313
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma"
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sirolimus: From Renal Cell Carcinoma to Liposarcoma
+## Sirolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **1 clinical trial** (a completed single-arm Phase 2 study) and **7 publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma; lymphangioleiomyomatosis (from the knowledge graph; no approved indication text in the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,7 +91,7 @@ The data also show other predictions with stronger evidence than liposarcoma:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0444 | Sirolimus | Not stated | Not stated (registration cancelled) |
+| PNF-0444 | Sirolimus | Not stated | Not stated (registration valid) |
 
 ## Safety Considerations
 
@@ -107,7 +107,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-For liposarcoma, the prediction score is high (99.89%), but the only direct evidence is one single-arm Phase 2 combination trial without reported results. This cannot show the effect of sirolimus alone. The sirolimus registration in the Philippines is also cancelled, and package insert safety data are missing.
+For liposarcoma, the prediction score is high (0.9989), but the only direct evidence is one single-arm Phase 2 combination trial without reported results. This cannot show the effect of sirolimus alone. The sirolimus registration in the Philippines is also cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Results and combination details from NCT02821507 (sirolimus plus cyclophosphamide), and any randomized evidence in liposarcoma

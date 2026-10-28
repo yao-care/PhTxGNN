@@ -6,9 +6,9 @@ nav_order: 258
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norethisterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Acne, primary ovarian failure, endometriosis…"
 monitor_inn: "Norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norethisterone
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Norethisterone: From Acne and Gynaecological Hormonal Conditions to Amenorrhea
+## Norethisterone: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Norethisterone is a synthetic progestin, listed in the knowledge graph for conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis and atrophic vaginitis.
+Norethisterone is a synthetic progestin, associated with conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis and atrophic vaginitis.
 The TxGNN model predicts it may be effective for **amenorrhea**,
 but the evidence is limited: **no clinical trials** are registered and the **20 publications** found mostly concern contraceptive use, where amenorrhea is a side effect rather than a treatment target.
 
@@ -48,12 +48,12 @@ but the evidence is limited: **no clinical trials** are registered and the **20 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, primary ovarian failure, endometriosis, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (from the knowledge graph; no approved indication text is available for the Philippine registration) |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.60% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0354 | Norethisterone | Not specified | Not specified (status: cancelled) |
+| PNF-0354 | Norethisterone | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -117,7 +117,7 @@ The prediction is biologically plausible, since progestins are used in the proge
 - Clinical studies or guideline evidence on norethisterone for treating primary or secondary amenorrhea
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the Philippine regulator
-- Clarification of the regulatory route, since there is currently no valid registration in the Philippines
+- Clarification of the regulatory route for the new indication, since the drug is currently marketed in this country with 1 valid licence of 1
 - Review of the knowledge-graph contraindications (hypertension, liver disease, diabetes, breast cancer, etc.) against the label
 ## Disclaimer
 

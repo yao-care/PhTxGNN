@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Interferon Alfa
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 177
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Interferon Alfa: predicted new indication Heart disease (evidence level L4). Approved use: Not stated in the registration data"
 monitor_inn: "Interferon alfa"
-predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "interventricular septum aneurysm"]
+predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "interventricular septum aneurysm"]
+last_modified_at: 2026-10-27
+description: "Interferon Alfa: predicted new indication heart disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Interferon Alfa
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,100 +33,74 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Interferon alfa: From an Unspecified Original Indication to Heart Disease
+## Interferon alfa: immunomodulatory cytokine → heart disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Interferon alfa is an immunomodulatory and antiviral biologic. The Philippines registration data compiled for this report does not state an original indication.
-The TxGNN model predicts it may be effective for **heart disease**, but the support is weak: **1 clinical trial** (graded as only weakly relevant) and **20 publications** (mostly incidental or mismatched) are currently linked to this prediction.
-
----
+Interferon alfa is an immunomodulatory cytokine, and the approved indication is not recorded in the local data compiled for this report. The TxGNN model predicts it may be relevant to **heart disease**, but **1 clinical trial** and **20 publications** were retrieved, and none directly studies heart disease as a treatment target. Evidence is therefore limited to the model prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data |
-| Predicted New Indication | Heart disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | heart disease |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Interferon alfa is known as an immunomodulatory and antiviral cytokine therapy used in conditions such as hepatitis B and C, myeloproliferative neoplasms, renal cell carcinoma and melanoma. This is background knowledge, not something confirmed by the registration data compiled for this report.
+Currently, detailed mechanism of action data is not available. Interferon alfa belongs to the interferon class of immune-signalling proteins, which modulate immune and antiviral responses. No specific mechanism linking interferon alfa to a cardiac benefit is established in the data compiled for this report.
 
-The prediction comes from a knowledge-graph model, and the score is very high. But "heart disease" is a broad, non-specific category, and no cardiac-specific mechanism of interferon alfa is established in the data compiled for this report. The literature that mentions the heart is mostly incidental. For example, interferon alfa is used to treat Erdheim-Chester disease, which can involve the pericardium or coronary arteries, and it has been used in infants with hepatic hemangiomatosis complicated by heart failure. In these cases the drug treats the underlying disease, not a primary heart condition.
+"Heart disease" is a broad category. The retrieved literature mentions the heart only incidentally:
+- Interferon alfa treated the underlying disease in cases of pericarditis or coronary involvement from Erdheim-Chester disease.
+- It was used for neonatal hemangiomatosis with heart failure.
+- It was used for post-transplant lymphoproliferative disease after heart transplantation.
 
-Interferon alfa is also known to cause cardiovascular adverse effects, such as cardiomyopathy, arrhythmia and drug-associated pulmonary arterial hypertension. A French study of 138 dermatology patients found cardiac manifestations in 4.3%. This argues against a protective role in the heart.
-
----
+In these reports the heart condition was a complication or a setting, not the treatment target. Interferon alfa also has reported cardiovascular adverse effects, such as pericarditis, heart failure and cardiac manifestations during therapy. This argues against a cardioprotective role. The prediction should be treated as a computational hypothesis only.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | Reducing immunosuppression, then giving interferon alfa and ProMACE-CytaBOM chemotherapy for lymphoproliferative disease after cardiac transplant. This targets lymphoma, not heart disease, so it is not direct evidence (relevance grade C). |
-
----
+| [NCT00002657](https://clinicaltrials.gov/study/NCT00002657) | Phase 2 | Completed | 20 | Reducing immunosuppression, then interferon alfa and ProMACE-CytaBOM chemotherapy, for lymphoproliferative disease after cardiac transplant. This targets lymphoma, not heart disease, so it is indirect evidence at most. |
 
 ## Literature Evidence
 
-The 20 publications retrieved for heart disease are mostly case reports, reviews and adverse-effect reports. None is a randomized trial of interferon alfa for a cardiac condition. A selection of the most relevant items:
+None of these publications tests interferon alfa as a treatment for heart disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32607694](https://pubmed.ncbi.nlm.nih.gov/32607694/) | 2020 | Review | Current Cardiology Reports | Erdheim-Chester disease as a rare cause of recurrent pericarditis |
-| [35987957](https://pubmed.ncbi.nlm.nih.gov/35987957/) | 2022 | Systematic review/meta-analysis | Scientific Reports | Topical interferon alfa-2b, 5-FU and mitomycin-C for ocular surface squamous neoplasia (not cardiac) |
-| [7666100](https://pubmed.ncbi.nlm.nih.gov/7666100/) | 1995 | Review | Journal of Clinical Oncology | Immune-mediated and unusual complications of interferon alfa in chronic myelogenous leukemia |
-| [7509184](https://pubmed.ncbi.nlm.nih.gov/7509184/) | 1993 | Clinical study | British Journal of Ophthalmology | Systemic interferon alfa-2 for choroidal neovascularisation in macular degeneration (retrospective, 48 eyes) |
-| [1807177](https://pubmed.ncbi.nlm.nih.gov/1807177/) | 1991 | Clinical study | Annales de Médecine Interne | Cardiovascular manifestations in 138 patients given interferon alfa-2a; 6 (4.3%) had cardiac events |
-| [21161021](https://pubmed.ncbi.nlm.nih.gov/21161021/) | 2010 | Case report | World Journal of Hepatology | Pericarditis and neuropathy during pegylated interferon alfa-2a for hepatitis C |
-| [12554528](https://pubmed.ncbi.nlm.nih.gov/12554528/) | 2003 | Case report | Pediatric Hematology and Oncology | Interferon alfa-2a for hepatic hemangiomatosis with congestive heart failure in an infant |
-| [8655722](https://pubmed.ncbi.nlm.nih.gov/8655722/) | 1996 | Case report | J Am Acad Dermatol | Neonatal hemangiomatosis with heart failure, controlled with prednisone, interferon alfa-2b and embolization |
-| [7524218](https://pubmed.ncbi.nlm.nih.gov/7524218/) | 1994 | Case report | Transplantation Proceedings | Post-transplant lymphoproliferative disease after heart transplant treated with interferon alfa-2b and immunoglobulin |
-| [30527170](https://pubmed.ncbi.nlm.nih.gov/30527170/) | 2018 | Case report | Canadian Journal of Cardiology | Treatment of Erdheim-Chester disease with coronary artery involvement |
-
-Overall, these reports describe interferon alfa treating an underlying tumour or vascular lesion that affected the heart, or causing cardiac side effects. They do not show benefit in heart disease itself.
-
----
-
-## Philippines Market Information
-
-The Philippines data compiled for this report contains one registration, and it has been cancelled. No product is currently valid on the market.
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0251 (cancelled) | Interferon Alfa | Not stated | Not stated |
-
----
+| [1807177](https://pubmed.ncbi.nlm.nih.gov/1807177/) | 1991 | Clinical study | Ann Med Interne | Cardiac manifestations occurred in 6 of 138 patients (4.3%) given interferon alfa-2a for skin diseases, which is a safety signal. |
+| [21161021](https://pubmed.ncbi.nlm.nih.gov/21161021/) | 2010 | Case report | World J Hepatol | Pericarditis and heart failure during pegylated interferon alfa-2a therapy for hepatitis C. |
+| [12554528](https://pubmed.ncbi.nlm.nih.gov/12554528/) | 2003 | Case report | Pediatr Hematol Oncol | Interferon alfa-2a for hepatic hemangiomatosis with congestive heart failure in an infant. The heart failure was secondary to the liver lesions. |
+| [8655722](https://pubmed.ncbi.nlm.nih.gov/8655722/) | 1996 | Case report | J Am Acad Dermatol | Neonatal hemangiomatosis with heart failure controlled with prednisone, interferon alfa-2b and embolization. |
+| [15283793](https://pubmed.ncbi.nlm.nih.gov/15283793/) | 2004 | Case report | Pediatr Dermatol | Two infants with miliary hemangiomatosis, heart failure and septal hypertrophy. |
+| [32607694](https://pubmed.ncbi.nlm.nih.gov/32607694/) | 2020 | Review | Curr Cardiol Rep | Erdheim-Chester disease as a rare cause of recurrent pericarditis. |
+| [30527170](https://pubmed.ncbi.nlm.nih.gov/30527170/) | 2018 | Case report | Can J Cardiol | Treatment of Erdheim-Chester disease with coronary artery involvement. |
+| [7524218](https://pubmed.ncbi.nlm.nih.gov/7524218/) | 1994 | Case report | Transplant Proc | Interferon alfa-2b and immunoglobulin for post-transplant lymphoproliferative disease after heart transplantation. |
+| [29508628](https://pubmed.ncbi.nlm.nih.gov/29508628/) | 2018 | Review | Clin Toxicol | Drug-associated pulmonary arterial hypertension. |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The data compiled for this report has no label warnings, contraindications or drug-interaction records for this product.
-
-The literature does indicate that interferon alfa can cause cardiovascular adverse effects (arrhythmia, cardiomyopathy, pericarditis, pulmonary arterial hypertension) and immune-mediated complications. These should be weighed carefully before any cardiac use is considered.
-
----
+Package insert warnings and contraindications were not available in the data compiled for this report, and no drug interaction records were found. Please refer to the package insert for safety information. The published reports above indicate that cardiovascular adverse effects can occur during interferon alfa therapy, so any cardiac use would need careful cardiac risk assessment.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score rests on a graph-based prediction alone. The only trial is a lymphoma-focused study in transplant patients, and the literature is incidental or shows cardiac harm. There is no plausible cardiac mechanism, and the only Philippines registration is cancelled. Evidence is limited to L4.
+The prediction is supported by the model alone. The only retrieved trial targets a lymphoproliferative disease. The literature either describes heart problems as complications or reports cardiovascular adverse effects of interferon alfa. No study directly addresses heart disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- A mechanism-of-action dataset and a defined cardiac sub-indication (for example, a specific cardiomyopathy or myocarditis) in place of the broad "heart disease" label
-- The package insert warnings and contraindications, which are required before any safety screening
-- Original indication, dosage form and manufacturer details for the Philippines registration, and confirmation of whether any valid product remains
-- Controlled clinical evidence in a cardiac population, with specific assessment of cardiovascular safety
-- Review of the other nine predictions, which are model predictions only with no supporting clinical evidence; the literature retrieved for "disorder of fucoglycosan synthesis" is mismatched and should not be treated as support
+- Mechanism of action data and a plausible cardiac-specific mechanism
+- A narrower, clinically defined cardiac condition in place of the broad "heart disease" category
+- Preclinical or clinical studies directly testing interferon alfa in that condition
+- Package insert warnings and contraindications, with a cardiovascular safety assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

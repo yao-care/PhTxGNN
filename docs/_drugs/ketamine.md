@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 192
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the registration data"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 |------|------|
 | Original Indication | Not recorded in the registration data |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.33% |
+| TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The L1 label comes from the data compiled for this report. Strictly, the completed Phase 3 trial (THINK, n=80) is the only one at that phase, and no outcome data were provided. Under the stated rules (≥2 completed Phase 3 RCTs), the level is arguably closer to L2 or lower. Treat L1 with caution.
@@ -60,7 +60,7 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, ketamine blocks NMDA-type glutamate receptors. Glutamate signaling and central sensitization contribute to migraine, cluster headache, and chronic headache pain, so NMDA blockade offers a plausible analgesic and anti-sensitization mechanism.
 
-Ketamine also affects cortical spreading depression and pain-pathway modulation, including trigeminal nociceptive processing. This adds biological plausibility. The very high TxGNN score (0.993) fits this picture. The link rests on general pharmacology rather than a curated mechanism, and the original indication is unknown, so the relationship between old and new indications cannot be assessed.
+Ketamine also affects cortical spreading depression and pain-pathway modulation, including trigeminal nociceptive processing. This adds biological plausibility. The very high TxGNN score (0.9933) fits this picture. The link rests on general pharmacology rather than a curated mechanism, and the original indication is unknown, so the relationship between old and new indications cannot be assessed.
 
 "Headache disorder" is a broad category. It covers acute migraine in the emergency department, tension-type headache, cluster headache, and chronic or refractory headache. Evidence differs by subtype.
 
@@ -99,7 +99,7 @@ Several other retrieved papers concern ketamine in depression or alcohol use dis
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0271 | Ketamine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0271 | Ketamine | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 

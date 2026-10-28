@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Physostigmine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 276
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Physostigmine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Physostigmine: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Physostigmine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,40 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Physostigmine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Physostigmine: known uses and market status in the Philippines; currently no new candidate indication -->
+## Physostigmine: Known uses and market status in the Philippines
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidates for Physostigmine, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. This page records the market status in the Philippines.
 
-Physostigmine was originally used to treat open-angle glaucoma.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in the Philippines | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on its well-established pharmacology, physostigmine is a reversible acetylcholinesterase inhibitor. By raising acetylcholine levels at muscarinic receptors in the eye, it causes pupil constriction (miosis) and contraction of the ciliary muscle. This opens the trabecular meshwork, improves drainage of aqueous humor, and lowers intraocular pressure.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Open-angle glaucoma and primary hereditary glaucoma both involve impaired aqueous outflow and raised eye pressure. Because the drug acts on outflow, it is mechanistically plausible that it could help in the hereditary form too.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The very high prediction score (0.996) most likely reflects this close similarity to the original indication. It is a computational prediction only. No trials or publications specific to this subtype were found. Practical concerns also weigh against it: the product is no longer registered in the Philippines, the drug has a short half-life and notable cholinergic side effects, and modern first-line agents (prostaglandin analogs, beta-blockers, carbonic anhydrase inhibitors) are generally preferred.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0385 | Physostigmine | Not specified | Not specified (registration cancelled) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| PNF-0385 | Physostigmine |  | Valid |
 
 ## Safety Considerations
 
@@ -83,20 +89,6 @@ The very high prediction score (0.996) most likely reflects this close similarit
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is very high, but it is not backed by any clinical trial or publication (Evidence Level L5). The only Philippine registration is cancelled, and the contraindication and interaction burden is substantial. There is currently insufficient basis to advance.
-
-**To proceed, the following is needed:**
-- Clinical or literature evidence specific to primary hereditary glaucoma
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Confirmed mechanism of action data from DrugBank
-- Comparison against current first-line glaucoma therapies
-- A review of the interaction burden, especially with anticholinergic agents and bupropion
-- Clarification of available formulations and routes (e.g. ophthalmic) and of the reason for the registration cancellation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

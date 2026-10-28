@@ -1,0 +1,37 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "clomifene-46-xy-disorder-of-sex-development-due-to-testicular-steroidogenesis-defect",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+    ]
+  },
+  "type": "indication",
+  "status": "active",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/clomifene"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "46,XY disorder of sex development due to testicular steroidogenesis defect"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.999
+    }
+  ]
+}

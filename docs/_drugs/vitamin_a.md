@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
-predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
+predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 ---
 
 # Vitamin A
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 |------|------|
 | Original Indication | Vitamin deficiency disorder; vitamin A deficiency |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 
 Currently, detailed mechanism of action data is not available. Vitamin A (retinol) is an essential nutrient. Its efficacy in correcting vitamin A deficiency is well established. Its active metabolite, retinoic acid, signals through nuclear receptors and regulates gene expression.
 
-The TxGNN score is very high (99.97%), but it is a graph-based association only. The prediction is hard to justify mechanistically:
+The TxGNN score is very high (0.9997), but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction is hard to justify mechanistically:
 
 - Prothrombin (factor II) synthesis depends on vitamin K-dependent gamma-carboxylation. Vitamin A has no established role in this pathway.
 - Congenital prothrombin deficiency is a genetic (F2) defect. A vitamin supplement is not expected to correct it.
@@ -86,7 +86,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0516 | Vitamin A | Cancelled |
+| PNF-0516 | Vitamin A | Valid |
 
 The only registration is a single-ingredient product that has been cancelled. No dosage form or approved indication text is on record.
 
@@ -119,8 +119,8 @@ The prediction rests only on a model score. No trials or publications support it
 
 **Note on other predictions for this drug:**
 Two lower-ranked predictions have more supporting evidence and may deserve a separate review:
-- **Perinatal disease (score 99.63%):** The evidence level is L1. Multiple Cochrane meta-analyses of vitamin A supplementation in very low birth weight infants support it, for reducing bronchopulmonary dysplasia and related morbidity. The benefit is modest, and dose and route matter. A large malaria-in-pregnancy trial (NCT01115478) also exists but is a different perinatal setting. This is the strongest candidate (Proceed with Guardrails).
-- **Injury (score 99.69%):** The evidence level is L2. Reviews on wound healing support it, and two neonatal trials (NCT02102711, NCT01203488) address lung injury in preterm infants. Safety signals include bone fracture risk and liver toxicity at high doses.
+- **Perinatal disease (score 0.9963):** The evidence level is L1. Multiple Cochrane meta-analyses of vitamin A supplementation in very low birth weight infants support it, for reducing bronchopulmonary dysplasia and related morbidity. The benefit is modest, and dose and route matter. A large malaria-in-pregnancy trial (NCT01115478) also exists but is a different perinatal setting. This is the strongest candidate (Proceed with Guardrails).
+- **Injury (score 0.9969):** The evidence level is L2. Reviews on wound healing support it, and two neonatal trials (NCT02102711, NCT01203488) address lung injury in preterm infants. Safety signals include bone fracture risk and liver toxicity at high doses.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

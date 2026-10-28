@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 268
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 |------|------|
 | Original Indication | Pharyngitis, common cold |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,8 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 "Nasal cavity disease" is a very broad category and overlaps heavily with the existing common cold and nasal congestion use. The high model score is consistent with this mechanism, but it likely reflects similarity to the original indication rather than a distinct new finding. Specific sub-indications (for example, rhinitis, sinusitis, or mucosal bleeding) would need to be defined before this could be treated as true repurposing.
 
 Two other predictions are worth noting:
-- **Acute laryngopharyngitis** (score 99.95%): closely related to the original pharyngitis indication, but there is no clear mechanism for treating laryngeal or pharyngeal inflammation with a nasal vasoconstrictor. There are no trials or literature. Evidence level is L5.
-- **Headache disorder** (score 99.04%): has the most relevant clinical signal, a study of intranasal tetracaine plus oxymetazoline in status migrainosus. The combination means oxymetazoline's own contribution cannot be separated. Evidence level is L3.
+- **Headache disorder** (score 0.9904): has the most relevant clinical signal, a study of intranasal tetracaine plus oxymetazoline in status migrainosus. The combination means oxymetazoline's own contribution cannot be separated. Evidence level is L3.
 
 ## Clinical Trial Evidence
 
@@ -91,7 +90,7 @@ For the headache disorder prediction (secondary):
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0368 | Oxymetazoline | Not specified | Not specified (status: cancelled) |
+| PNF-0368 | Oxymetazoline | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

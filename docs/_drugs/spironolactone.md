@@ -6,9 +6,9 @@ nav_order: 317
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension, congestive heart failure, hyperaldosteronism…"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Spironolactone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Spironolactone: From Hypertension and Heart Failure to Hypotrichosis Simplex of the Scalp
+## Spironolactone: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but the data compiled for this report contain **0 clinical trials** and **0 publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, congestive heart failure, hyperaldosteronism, primary aldosteronism, Bartter disease (the Philippines registration record has no approved indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Spironolactone is generally known as an aldosterone (mineralocorticoid receptor) antagonist, and it also has anti-androgen activity: it blocks the androgen receptor and reduces androgen synthesis. This is the basis for its off-label use in female pattern hair loss.
 
-The link to the predicted indication is weak. Hypotrichosis simplex is a genetic hair-loss disorder (for example, variants in CDSN, APCDD1 or RPL21) and is not mainly driven by androgens. The high score may reflect the knowledge graph's closeness to androgenetic alopecia rather than a disease-specific mechanism, so the mechanistic link should be treated as speculative.
+The link to the predicted indication is weak. Hypotrichosis simplex is a genetic hair-loss disorder (for example, variants in CDSN, APCDD1 or RPL21) and is not mainly driven by androgens. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as androgenetic alopecia, not biological evidence, so the mechanistic link should be treated as speculative.
 
-A second prediction, **congenital hypotrichosis milia** (score 99.04%), has the same limitation. It is a rare genetic condition, and there is no evidence that blocking mineralocorticoid or androgen receptors would change its course. It is likely driven by shared hair and skin phenotype associations in the graph.
+A second prediction, **congenital hypotrichosis milia** (score 0.9904), has the same limitation. It is a rare genetic condition, and there is no evidence that blocking mineralocorticoid or androgen receptors would change its course. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0458 | Spironolactone | Not stated | Not stated (registration status: cancelled) |
+| PNF-0458 | Spironolactone | Not stated | Not stated (registration status: valid) |
 
 ## Safety Considerations
 

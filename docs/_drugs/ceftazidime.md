@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ceftazidime
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 66
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ceftazidime: predicted new indication Urinary tract infection . The rank 1 prediction by TxGNN score is pol… (evidence level L2). Approved use: Bacterial infections (streptococcal, staphylococcal, pn…"
 monitor_inn: "Ceftazidime"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "urinary tract infection (disease)", "epiglottitis", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "infectious otitis media", "Peptostreptococcus infectious disease"]
+last_modified_at: 2026-10-27
+description: "Ceftazidime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ceftazidime
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,68 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ceftazidime: From Bacterial Infections to Urinary Tract Infection (Disease)
+## Ceftazidime: third-generation cephalosporin (inhibitor of bacterial cell wall synthesis) → hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ceftazidime is a third-generation cephalosporin antibiotic, originally used for bacterial infections such as pneumonia, meningitis, peritonitis and staphylococcal and streptococcal infections.
-The top-ranked TxGNN predictions (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia) have no supporting evidence and no plausible mechanism, so this report focuses on the best-supported prediction, **urinary tract infection**, which has **4 clinical trials** and **20 publications**. Most of this evidence concerns ceftazidime-avibactam combinations rather than ceftazidime alone.
-
----
+Ceftazidime is a beta-lactam antibiotic of the cephalosporin class that acts against bacteria.
+The TxGNN model predicts it may be relevant for **hyperamylasemia**, with a score of **0.9951**.
+No clinical trials or publications were found for this prediction, so it rests on the model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, meningitis, peritonitis, among others). No approved indication text is available for the Philippines registration. |
-| Predicted New Indication | Urinary tract infection (best-supported prediction). The rank 1 prediction by TxGNN score is polyclonal hyperviscosity syndrome, which has no evidence and no plausible mechanism. |
-| TxGNN Prediction Score | 99.41% for urinary tract infection (99.51% for the rank 1 prediction, polyclonal hyperviscosity syndrome) |
-| Evidence Level | L2 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | hyperamylasemia |
+| TxGNN Prediction Score | 0.9951 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ceftazidime is a beta-lactam cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins. It is active against Gram-negative organisms, including *Pseudomonas aeruginosa* and Enterobacterales. It is cleared by the kidneys and reaches high concentrations in urine, so it is mechanistically well suited to urinary tract infection.
+Detailed mechanism of action data is not available in the data compiled for this report. Ceftazidime is known as a beta-lactam antibiotic that inhibits bacterial cell wall synthesis.
 
-Complicated urinary tract infection lies close to ceftazidime's existing antibacterial profile. This is largely an extension of current use rather than true repurposing. The trial evidence mostly concerns the ceftazidime-avibactam combination, so it supports the combination more than ceftazidime alone.
-
-Several other predictions have no plausible mechanism and are likely graph-based artifacts. These include polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility and Ureaplasma urethritis. *Ureaplasma* has no cell wall, so beta-lactams are intrinsically ineffective against it.
-
----
+Hyperamylasemia is a biochemical finding (raised serum amylase) and has no direct antibacterial target. No plausible mechanistic link between ceftazidime and this condition could be identified, and the high model score is most likely an artifact of the model rather than a sign of real therapeutic benefit. The prediction should therefore be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00921024](https://clinicaltrials.gov/study/NCT00921024) | Phase 2 | Completed | 129 | Double-blind randomized study of intravenous CXA-101 versus ceftazidime in complicated UTI, including pyelonephritis. This is the strongest direct evidence. |
-| [NCT04882085](https://clinicaltrials.gov/study/NCT04882085) | Phase 4 | Completed | 60 | Open-label randomized study of ceftazidime-avibactam versus best available treatment for carbapenem-resistant Gram-negative infections (including cUTI) in Chinese adults. |
-| [NCT01430910](https://clinicaltrials.gov/study/NCT01430910) | Phase 1 | Completed | 43 | Pharmacokinetic and drug interaction study of avibactam plus ceftazidime in healthy subjects. No efficacy data in patients. |
-| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Recruiting | 5000 | Pediatric pharmacokinetic and safety program for understudied drugs. Only indirect support. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39817442](https://pubmed.ncbi.nlm.nih.gov/39817442/) | 2025 | Systematic review / network meta-analysis | J Comp Eff Res | Efficacy of treatment options for complicated UTI and acute pyelonephritis |
-| [32094128](https://pubmed.ncbi.nlm.nih.gov/32094128/) | 2020 | Retrospective cohort | Antimicrob Agents Chemother | Meropenem-vaborbactam versus ceftazidime-avibactam for carbapenem-resistant Enterobacteriaceae infections |
-| [33618353](https://pubmed.ncbi.nlm.nih.gov/33618353/) | 2021 | Cohort | Clin Infect Dis | Retrospective multicenter study of ceftazidime-avibactam for KPC-producing *K. pneumoniae* |
-| [30270406](https://pubmed.ncbi.nlm.nih.gov/30270406/) | 2018 | RCT | Infect Dis Ther | TANGO II: meropenem-vaborbactam versus best available therapy for carbapenem-resistant Enterobacteriaceae |
-| [38688353](https://pubmed.ncbi.nlm.nih.gov/38688353/) | 2024 | Review/Guideline | Int J Antimicrob Agents | Practical approach to multidrug-resistant Gram-negative infections (Italian and French societies) |
-| [35787918](https://pubmed.ncbi.nlm.nih.gov/35787918/) | 2022 | Review | Int J Antimicrob Agents | Clinical data on novel antibiotics for multidrug-resistant Gram-negative infections, including ceftazidime-avibactam |
-| [30219824](https://pubmed.ncbi.nlm.nih.gov/30219824/) | 2019 | Review | Clin Infect Dis | Renal dose adjustment of antibiotics, including ceftazidime-avibactam |
-| [26289307](https://pubmed.ncbi.nlm.nih.gov/26289307/) | 2015 | Review | Pharmacotherapy | Ceftazidime-avibactam spectrum and activity against multidrug-resistant Gram-negative bacteria |
-| [39934901](https://pubmed.ncbi.nlm.nih.gov/39934901/) | 2025 | Systematic review / meta-analysis | Antimicrob Resist Infect Control | Global trends of ceftazidime-avibactam resistance in Gram-negative bacteria |
-| [30224941](https://pubmed.ncbi.nlm.nih.gov/30224941/) | 2018 | Observational | Can J Infect Dis Med Microbiol | Catheter-associated UTI and biofilm producers |
-
-Note that several of these papers concern other antibiotics or the avibactam combination, so they support the field rather than ceftazidime alone.
-
-### Other Predictions with Limited Evidence
-
-- **Infectious otitis media** (L3): Pediatric studies of ceftazidime in pseudomonal chronic suppurative otitis media, including a randomized comparison with aztreonam ([10826908](https://pubmed.ncbi.nlm.nih.gov/10826908/)) and outpatient parenteral therapy ([10768520](https://pubmed.ncbi.nlm.nih.gov/10768520/)). The studies are older and small, and topical quinolones are generally preferred first-line.
-- **Epiglottitis** (L4): Only case reports, which are tangential. Ceftriaxone or cefotaxime are standard.
-- **Peptostreptococcus infection** (L4): Only a 1981 in-vitro study showing relatively weak anaerobic activity.
-- **Gonococcal urethritis** (L5): No relevant evidence. Ceftriaxone is standard.
-
----
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0088 | Ceftazidime | Not specified | Not specified (status: cancelled) |
-
-The only registration is cancelled, so no valid registration is currently available in the Philippines.
-
----
+| PNF-0088 | Ceftazidime | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Disease-level contraindication signals (knowledge graph, not label text)**: kidney disease, pyoureter, liver disease, gallbladder disease, blood coagulation disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis and congenital prothrombin deficiency.
-- **Drug Interactions** (100 interactions found; the main ones are listed):
-  - Moderate: amphotericin B (including the cholesteryl sulfate, lipid complex and liposomal forms), kanamycin, neomycin, streptomycin and picosulfuric acid.
-  - Unknown severity: calcitriol, pantoprazole, doxycycline, morphine, metformin, omeprazole, sucralfate, lansoprazole, vancomycin, atropine, lactulose and triamcinolone.
+- **Conditions listed as contraindications in the reference data** (not label text): kidney disease, pyoureter, liver disease, gallbladder disease, blood coagulation disease, Clostridium difficile colitis, perinatal necrotizing enterocolitis, congenital prothrombin deficiency.
+- **Drug Interactions** (100 interactions identified; main examples):
+  - Moderate: amphotericin B (including cholesteryl sulfate, lipid complex and liposomal forms), kanamycin, neomycin, streptomycin, picosulfuric acid.
+  - Unknown severity: calcitriol, pantoprazole, doxycycline, morphine, metformin, omeprazole, sucralfate, lansoprazole, vancomycin, atropine, lactulose, triamcinolone.
 
-Please refer to the package insert for label warnings and contraindications.
-
----
+Please refer to the package insert for full safety information, as local label warnings were not available.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for urinary tract infection only). The other predictions should be placed on **Hold**.
+**Decision: Hold**
 
 **Rationale:**
-- Urinary tract infection has a completed randomized Phase 2 trial and a strong mechanistic fit, but the evidence mostly concerns ceftazidime-avibactam combinations. It is also an extension of existing antibacterial use rather than true repurposing. The top-scoring predictions have no evidence and no plausible mechanism.
+The prediction has no supporting trials or publications and no plausible mechanism, so the evidence level is L5 and there is no basis to advance it.
 
 **To proceed, the following is needed:**
-- Confirm the comparator and agent in NCT00921024, and obtain ceftazidime-specific efficacy data for cUTI.
-- Verify the Philippines registration, because the only listed license is cancelled and no approved indication or dosage form is recorded.
-- Obtain the package insert warnings and contraindications.
-- Obtain mechanism of action data.
-- Evaluate renal and hepatic impairment, *C. difficile* risk and aminoglycoside or amphotericin B co-administration.
-- Consider local antimicrobial resistance patterns and stewardship guidance.
+- A credible mechanistic hypothesis linking ceftazidime to hyperamylasemia
+- Any clinical or preclinical studies directly examining this condition
+- Local package insert warnings and contraindications
+- Mechanism of action data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

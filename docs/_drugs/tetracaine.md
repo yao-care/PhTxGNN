@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
+description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracaine
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Tetracaine: Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tetracaine is an ester-type local anaesthetic whose original indication in the knowledge graph is dermatitis.
+Tetracaine is an ester-type local anesthetic; the TxGNN model (deep learning) lists dermatitis as its original indication, which may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans**, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
 Across the other predicted indications, the only trial and literature found concern procedural anaesthesia or adverse effects, not treatment of disease.
 
@@ -48,12 +48,12 @@ Across the other predicted indications, the only trial and literature found conc
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Across the other predicted indications, the only trial and literature found conc
 
 Currently, detailed mechanism of action data is not available. Tetracaine is known as a topical or ester-type local anaesthetic that blocks sodium channels. Its original indication is dermatitis, and the model likely links it to the new indication through dermatological associations.
 
-On closer inspection, the mechanistic link is weak. Acrodermatitis chronica atrophicans is a late-stage skin infection caused by *Borrelia*. A sodium-channel-blocking anaesthetic has no plausible disease-modifying role in it. The high score is most likely driven by the shared dermatological context in the knowledge graph rather than by a real therapeutic relationship.
+On closer inspection, the mechanistic link is weak. Acrodermatitis chronica atrophicans is a late-stage skin infection caused by *Borrelia*. A sodium-channel-blocking anesthetic has no plausible disease-modifying role in it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions show the same pattern. Neonatal dermatomyositis, amyopathic dermatomyositis, childhood interstitial lung disease and hydroa vacciniforme have no plausible mechanism. For bronchitis and acne keloid, tetracaine provides procedural anaesthesia (for example during bronchoscopy or laser treatment), not treatment of the disease. Irritable bowel syndrome is speculative. For cauda equina syndrome, the literature shows tetracaine as a **cause** of the condition, not a treatment.
 
@@ -102,13 +102,13 @@ The data compiled for this report lists one registration, which is cancelled. No
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0482 | Tetracaine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0482 | Tetracaine | Not recorded | Not recorded (status: valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph signals, not label text)**: The knowledge graph links tetracaine to caution in epilepsy, kidney disease, liver disease, gallbladder disease, heart and cardiovascular disease (including sudden cardiac arrest and heart conduction disease), respiratory failure, myasthenia gravis and other neuromuscular junction disease, butyrylcholinesterase deficiency, hyperthyroidism (Graves disease, thyrotoxicosis), and several eye conditions (uveitis, iris and ciliary body disease, conjunctivitis, eye infections).
+- **Contraindications (TxGNN model signals, not label text)**: The TxGNN model (deep learning) links tetracaine to caution in epilepsy, kidney disease, liver disease, gallbladder disease, heart and cardiovascular disease (including sudden cardiac arrest and heart conduction disease), respiratory failure, myasthenia gravis and other neuromuscular junction disease, butyrylcholinesterase deficiency, hyperthyroidism (Graves disease, thyrotoxicosis), and several eye conditions (uveitis, iris and ciliary body disease, conjunctivitis, eye infections). These signals may reflect similarities the model learned between related diseases, not biological evidence.
 - **Drug Interactions**: 32 interactions were recorded. Major interactions include:
   - Nitrous acid
   - Liposomal bupivacaine

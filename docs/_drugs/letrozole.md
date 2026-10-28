@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 201
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not stated in the Philippines license record"
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From an Established Breast Cancer Therapy to Female Breast Carcinoma
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is a nonsteroidal aromatase inhibitor. The Philippines license record does not state an approved indication, but the drug is established in hormone receptor-positive breast cancer.
-The TxGNN model's top prediction is **female breast carcinoma**, backed by **40 clinical trials** and **20 publications** in the data compiled for this report.
 This is effectively a confirmation of a known use rather than a new repurposing, so the signal mainly checks the model rather than opening a new indication.
 
 ---
@@ -48,12 +47,12 @@ This is effectively a confirmation of a known use rather than a new repurposing,
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Philippines license record (the registration has no indication text) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -111,7 +110,7 @@ Ten of the most relevant trials for female breast carcinoma are listed below.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0281 | Letrozole | Not stated | Not stated (status: cancelled) |
+| PNF-0281 | Letrozole | Not stated | Not stated (status: valid) |
 
 ---
 

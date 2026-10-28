@@ -48,10 +48,10 @@ The prediction is therefore supported by the model only, not by direct clinical 
 |------|------|
 | Original Indication | Acute lymphoblastic leukemia and acute myeloid leukemia (including several AML subtypes) |
 | Predicted New Indication | Small cell lung carcinoma |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0124 | Cytarabine | Not specified | Not specified (status: cancelled) |
+| PNF-0124 | Cytarabine | Not specified | Not specified (status: valid) |
 
 ## Cytotoxicity
 

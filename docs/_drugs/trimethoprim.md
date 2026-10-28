@@ -4,17 +4,17 @@ title: Trimethoprim
 parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection, infectious otitis media, pneumocystosis…"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
+description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
+## Trimethoprim: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, infectious otitis media, pneumocystosis, shigellosis, conjunctivitis (taken from the drug's knowledge-graph indications, because the local registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, trimethoprim is an antibacterial agent that is understood to inhibit bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including bacterial conjunctivitis, is established, and the model likely links it to the new indication because of this closeness to its existing eye indications.
 
-The high score (0.996) most likely reflects network proximity to trimethoprim's existing ocular indications (conjunctivitis, acute contagious conjunctivitis, blepharoconjunctivitis). However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious. An antibacterial drug would not be expected to act on a viral cause. No mechanistic link can be verified with the data compiled for this report.
+The high score (0.9957) most likely reflects network proximity to trimethoprim's existing ocular indications (conjunctivitis, acute contagious conjunctivitis, blepharoconjunctivitis). However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious. An antibacterial drug would not be expected to act on a viral cause. No mechanistic link can be verified with the data compiled for this report.
 
 ## Clinical Trial Evidence
 
@@ -83,7 +83,7 @@ Many other retrieved publications were off-target (cat-scratch disease, veterina
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0500 | Trimethoprim | Not specified | Not specified (status: cancelled) |
+| PNF-0500 | Trimethoprim | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

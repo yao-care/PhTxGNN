@@ -50,10 +50,10 @@ There are **no registered clinical trials**, but **15 publications** support thi
 |------|------|
 | Original Indication | Not available in the Philippines registration data |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -97,9 +97,9 @@ Most of the remaining retrieved publications are case reports on MF subtypes or 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0106 | Clobetasol (status: cancelled) | Not specified | Not specified |
+| PNF-0106 | Clobetasol (status: valid) | Not specified | Not specified |
 
-There is no currently valid registration for clobetasol in the Philippines.
+Clobetasol is marketed in the Philippines, with 1 valid license out of 1.
 
 ---
 
@@ -117,7 +117,7 @@ For other safety information, please refer to the package insert.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF, and clobetasol has no valid registration in the Philippines.
+Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF. Clobetasol is marketed in the Philippines, with 1 valid license out of 1.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, which are currently missing and block the safety screening

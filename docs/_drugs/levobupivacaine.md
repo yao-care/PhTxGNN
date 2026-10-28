@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
-description: "Levobupivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not stated in the Philippines registration data"
 monitor_inn: "Levobupivacaine"
 predicted_indications: ["gastroduodenitis"]
+last_modified_at: 2026-10-27
+description: "Levobupivacaine: predicted new indication gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levobupivacaine
@@ -33,63 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Levobupivacaine: From Local Anaesthesia to Gastroduodenitis
+## Levobupivacaine: long-acting amide local anesthetic (sodium channel blocker) → gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Levobupivacaine is a long-acting amide local anaesthetic, used mainly for infiltration, nerve block and epidural anaesthesia.
-The TxGNN model predicts it may be effective for **gastroduodenitis**,
-but at present there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+Levobupivacaine is a long-acting amide local anesthetic that blocks voltage-gated sodium channels.
+The TxGNN model predicts it may be relevant to **gastroduodenitis**, but **no clinical trials and no publications** were found to support this direction, so it rests on the model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Philippines registration data |
-| Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.09% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | gastroduodenitis |
+| TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Levobupivacaine is generally known as a long-acting amide local anaesthetic that blocks voltage-gated sodium channels. Its use is established for local and regional anaesthesia, not for gastrointestinal disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, levobupivacaine is a long-acting amide local anesthetic that blocks voltage-gated sodium channels, and it is used mainly for infiltration, nerve block and epidural anesthesia.
 
-A possible but unverified link is local suppression of visceral pain signalling or neurogenic inflammation in the gastroduodenal mucosa. This is speculative. No studies were identified that support a role for levobupivacaine in treating gastroduodenal inflammation.
+A plausible but unverified link would be local suppression of visceral pain signaling or neurogenic inflammation in the gastroduodenal mucosa. This is speculative: no study in the compiled data tests the drug in gastroduodenitis. Systemic or oral delivery would also raise concerns about cardiotoxicity and central nervous system toxicity. Route compatibility has not been assessed.
 
-Delivery is also a concern. Systemic or oral administration would raise cardiotoxicity and central nervous system toxicity risks. Route compatibility with the predicted indication has not been assessed.
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0285 | Levobupivacaine | Not stated | Not stated (registration status: cancelled) |
-
-The only registration is cancelled, so no valid marketing authorization currently exists in the Philippines.
+| PNF-0285 | Levobupivacaine | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Disease associations from the knowledge graph** (these come from a drug-disease contraindication network, not from label text): kidney disease, pyoureter, liver disease, gallbladder disease, myasthenia gravis (including adult-onset), neuromuscular junction disease, butyrylcholinesterase deficiency, cardiovascular disease and heart disease.
-- **Drug Interactions**: 62 interactions were recorded. Examples at **Moderate** level include aprepitant, cimetidine, clarithromycin, obeticholic acid, miconazole, clotrimazole, cobicistat, deferasirox, ticlopidine, fostamatinib, thiabendazole, primaquine, and other local anaesthetics (topical lidocaine, benzocaine, cocaine and ophthalmic lidocaine). Examples at **Minor** level include dexamethasone, omeprazole, hyaluronidase and albendazole.
+- **Drug Interactions**: 62 interacting drugs were identified. Examples of moderate-level interactions include aprepitant, cimetidine, clarithromycin, obeticholic acid, miconazole, clotrimazole, cobicistat, deferasirox, ticlopidine, fostamatinib, thiabendazole, primaquine, and other topical or ophthalmic local anesthetics (lidocaine, benzocaine, cocaine). Minor-level examples include dexamethasone, omeprazole, hyaluronidase and albendazole.
+- **Conditions flagged for caution in the data compiled for this report**: kidney disease, liver disease, gallbladder disease, myasthenia gravis, neuromuscular junction disease, butyrylcholinesterase deficiency, and cardiovascular or heart disease. These come from drug-disease relation data, not from label text.
 
-Please refer to the package insert for warnings and formal contraindications.
+Please also refer to the package insert for full safety information; label warnings and contraindications were not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high TxGNN score (99.09%). There are no clinical trials or publications, the mechanism of action data is unavailable, and the only Philippines registration is cancelled. The proposed link to gastroduodenitis is speculative, and the route of administration that would be needed carries safety concerns.
+The only support is a high model score (0.9909). There are no clinical trials or publications, the mechanism data is missing, and the likely route of delivery for an anesthetic does not obviously fit a gastroduodenal condition.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, for example from DrugBank
-- Package insert warnings and contraindications for safety screening
-- A literature and clinical trial search for local anaesthetics in gastroduodenal inflammation or visceral pain
-- Assessment of a feasible route of administration and its systemic toxicity risk
-- Clarification of the cancelled registration and the original approved indications
+- Mechanism of action data and a mechanistic rationale specific to gastroduodenal inflammation
+- Any preclinical or clinical studies of the drug in gastroduodenitis
+- Package insert warnings and contraindications from the Philippines FDA
+- Assessment of route and formulation compatibility, including systemic safety (cardiac and CNS toxicity)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

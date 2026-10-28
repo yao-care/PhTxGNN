@@ -48,10 +48,10 @@ with **no registered clinical trials** but **20 publications** (including one do
 |------|------|
 | Original Indication | Autoimmune disease, acute lymphoblastic leukaemia, Crohn disease and inflammatory bowel disease, adrenocortical insufficiency (Addison disease), congenital adrenal hyperplasia, eosinophilic pneumonia, humoral hypercalcaemia of malignancy |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

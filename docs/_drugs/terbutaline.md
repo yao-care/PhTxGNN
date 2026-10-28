@@ -6,9 +6,9 @@ nav_order: 331
 evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma"
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Terbutaline
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Terbutaline: From Asthma to Obstructive Lung Disease
+## Terbutaline: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction is close to an on-label use, so it is better seen as confirmatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma (the Philippines license record contains no approved indication text; asthma, bronchitis and emphysema are taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -112,9 +112,8 @@ Notes:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0478 | Terbutaline | Not recorded | Not recorded (status: cancelled) |
+| PNF-0478 | Terbutaline | Not recorded | Not recorded (status: valid) |
 
-The only registration is cancelled, so no valid terbutaline product is currently marketed in the Philippines according to the data compiled for this report.
 
 ---
 
@@ -135,8 +134,8 @@ The following comes from drug-disease contraindication links in the knowledge gr
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|
-| Respiratory malformation | 99.52% | L4 | Hold | No evidence of therapeutic benefit. Bronchodilation does not correct structural defects; the score likely reflects proximity to asthma in the knowledge graph |
-| Rienhoff syndrome | 99.38% | L5 | Hold | No trials or literature. Mechanistic rationale is speculative |
+| Respiratory malformation | 0.9952 | L5 | Hold | No evidence of therapeutic benefit. Bronchodilation does not correct structural defects; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| Rienhoff syndrome | 0.9938 | L5 | Hold | No trials or literature. Mechanistic rationale is speculative |
 
 ---
 
@@ -148,7 +147,6 @@ The following comes from drug-disease contraindication links in the knowledge gr
 - Many completed Phase 3 trials, several with thousands of participants, include terbutaline in asthma and COPD care, and the drug has long-standing use in these conditions. However, in most trials terbutaline is a comparator or reliever, not the test drug, and the only registration in the Philippines is cancelled.
 
 **To proceed, the following is needed:**
-- Confirm the regulatory pathway, since there is no currently valid Philippines registration (re-registration or a new product authorisation)
 - Obtain the package insert warnings and contraindications from the DOH-FDA Philippines website
 - Obtain detailed mechanism of action data from DrugBank
 - Define a safety monitoring plan for patients with cardiovascular disease, diabetes, hyperthyroidism or hypokalaemia

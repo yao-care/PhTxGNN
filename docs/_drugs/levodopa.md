@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian disorders |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,11 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0286 | Levodopa | Not specified | Not specified (registration cancelled) |
+| PNF-0286 | Levodopa | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not package insert text)**: The knowledge graph links levodopa to the following conditions as contraindications:
+- **Contraindications (from TxGNN model associations, not package insert text)**: The TxGNN model (deep learning) links levodopa to the following conditions as contraindications; these associations may reflect similarities the model learned between related diseases, not biological evidence:
   - **Cardiovascular:** myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease, orthostatic hypotension, postural orthostatic tachycardia syndrome
   - **Neurological and psychiatric:** epilepsy, drug-induced dyskinesia, multiple system atrophy, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder, anxiety disorder, neurotic disorder, dysthymic disorder
   - **Eye:** open-angle glaucoma, angle-closure glaucoma

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "segmental odontomaxillary dysplasia", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
 ---
 
 # Ascorbic Acid
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Ascorbic acid (vitamin C) was originally used to treat and prevent vitamin C deficiency and scurvy.
 The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, a congenital structural anomaly.
-At present there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model's graph-based score alone.
+At present there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the TxGNN model (deep learning) score alone.
 
 ---
 
@@ -50,10 +50,10 @@ At present there are **0 clinical trials** and **0 publications** supporting thi
 |------|------|
 | Original Indication | Ascorbic acid deficiency, scurvy |
 | Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only (no currently valid registration) |
-| Number of Registrations | 2 (both cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 For this predicted indication, no plausible mechanistic link could be identified. Non-syndromic esophageal malformation is a congenital developmental anomaly. Ascorbic acid's antioxidant and collagen-cofactor roles are not known to correct structural malformations that arise during embryonic development.
 
-The very high score (99.96%) reflects a pattern in the knowledge graph, not clinical or experimental support. Without trials or publications, the prediction should be treated as a hypothesis only.
+The very high score (0.9996) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Without trials or publications, the prediction should be treated as a hypothesis only.
 
 ---
 
@@ -84,8 +84,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0028 | Ascorbic Acid | Cancelled |
-| PNF-0520 | Vitamin C | Cancelled |
+| PNF-0028 | Ascorbic Acid | Valid |
+| PNF-0520 | Vitamin C | Valid |
 
 Both registrations are single-ingredient products and neither is currently valid.
 
@@ -93,7 +93,7 @@ Both registrations are single-ingredient products and neither is currently valid
 
 ## Safety Considerations
 
-- **Contraindications (from drug–disease relationships in the knowledge graph, not label text):** The graph links ascorbic acid to caution in the following conditions. Please verify against the official package insert.
+- **Contraindications (from drug–disease relationships in the TxGNN model (deep learning), not label text):** The model links ascorbic acid to caution in the following conditions. These links may reflect similarities the model learned between related diseases, not biological evidence. Please verify against the official package insert.
   - Cardiovascular and metabolic: hypertension, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, potassium deficiency
   - Renal and urinary: kidney disease, anuria, nephrocalcinosis, pyoureter, primary hyperoxaluria
   - Hepatic and digestive: liver disease, gallbladder disease, peptic ulcer disease
@@ -114,7 +114,7 @@ Both registrations are single-ingredient products and neither is currently valid
 
 **Rationale:**
 - The prediction has no clinical trials, no literature and no plausible mechanism, and the target is a congenital structural anomaly that a vitamin is unlikely to correct.
-- In the Philippines there is also no currently valid registration for this drug.
+- In this country the drug is marketed, with 2 valid licenses out of 2.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking ascorbic acid to esophageal development

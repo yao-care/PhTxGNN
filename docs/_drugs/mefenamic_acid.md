@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L3
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L3)."
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **8** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The TxGNN model predicts it may be useful for **rheumatoid arthritis**, with **n
 | Item | Content |
 |------|------|
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,7 +93,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0304 | Mefenamic Acid | Cancelled |
+| PNF-0304 | Mefenamic Acid | Valid |
 
 Dosage form and approved indication text are not recorded for this authorization.
 

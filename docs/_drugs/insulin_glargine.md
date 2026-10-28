@@ -48,17 +48,17 @@ The score comes from the model alone, so the evidence is very weak.
 |------|------|
 | Original Indication | Type 2 diabetes mellitus, type 1 diabetes mellitus, diabetic ketoacidosis (approved indication text is not available for the Philippines registration) |
 | Predicted New Indication | Autoimmune oophoritis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, insulin glargine is a long-acting basal insulin analog whose efficacy in diabetes mellitus is well established.
 
-For autoimmune oophoritis, there is no clear mechanistic link. This condition is an immune-mediated injury of the ovary, and insulin glargine has no known immunomodulatory action in this setting. The high score is most likely a knowledge-graph effect, driven by network proximity to autoimmune endocrine diseases, such as autoimmune polyglandular syndromes in which diabetes also occurs.
+For autoimmune oophoritis, there is no clear mechanistic link. This condition is an immune-mediated injury of the ovary, and insulin glargine has no known immunomodulatory action in this setting. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as autoimmune polyglandular syndromes in which diabetes also occurs, not biological evidence.
 
 The model's other top predictions show the same pattern. Most are linked to insulin only through comorbid diabetes or autoimmunity (thiamine-responsive dysfunction syndrome, stiff person syndrome, focal stiff limb syndrome). Others are linked through insulin-related signaling (opsismodysplasia). Several localized lipodystrophies are in fact known adverse effects of insulin injection, so they are safety concerns rather than repurposing opportunities. Pancreatic agenesis (rank 6) is mechanistically coherent, since it causes insulin-deficient diabetes. However, insulin replacement there is essentially the same as the existing diabetes use, not a new indication.
 
@@ -83,9 +83,9 @@ The only literature retrieved among the top predictions relates to pancreatic ag
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0250 | Insulin Glargine | Not specified | Not specified (status: cancelled) |
+| PNF-0250 | Insulin Glargine | Not specified | Not specified (status: valid) |
 
-The only registration is cancelled, so no valid registration currently exists in the Philippines.
+The only registration is valid, so a valid registration currently exists in the Philippines.
 
 ## Safety Considerations
 

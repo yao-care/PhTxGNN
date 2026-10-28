@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Budesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Crohn disease, inflammatory bowel disease, asthma, allergic rhinitis"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
+last_modified_at: 2026-10-27
+description: "Budesonide: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Budesonide
@@ -33,33 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Budesonide: From Crohn Disease and Asthma to Atopic Eczema
+## Budesonide: Glucocorticoid anti-inflammatory → atopic eczema
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Budesonide is a glucocorticoid originally used for inflammatory conditions such as Crohn disease, asthma and allergic rhinitis.
-The TxGNN model predicts it may be effective for **atopic eczema**, but there are currently **0 registered clinical trials** and **no literature showing clinical efficacy** in this condition. The evidence is therefore model prediction only.
+Budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. The TxGNN model predicts it may be effective for **atopic eczema**, but the data compiled for this report contain **no clinical trials** and **no publication showing clinical efficacy** for this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Crohn disease, inflammatory bowel disease, asthma, allergic rhinitis (from the knowledge graph; no approved indication text is on file for the Philippine registration) |
-| Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | atopic eczema |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity. Its efficacy in inflammatory airway and bowel disease is established, and mechanistically it may be applicable to Th2-driven skin inflammation such as atopic eczema.
+Detailed mechanism of action data are not currently available. Budesonide is a glucocorticoid, a class known for broad anti-inflammatory and immunosuppressive effects. This is plausibly relevant to the Th2-driven skin inflammation seen in atopic eczema.
 
-The original indications (asthma, allergic rhinitis, Crohn disease) and atopic eczema are all immune-mediated inflammatory conditions, and asthma, allergic rhinitis and eczema often occur together in the same patients. This supports the plausibility of the prediction.
-
-The high score is still a model output only. None of the supplied literature shows clinical benefit of budesonide in atopic eczema. The only directly relevant paper is a 2024 preclinical formulation study of budesonide nanoparticles in hydrogels. Most of the remaining papers deal with corticosteroid hypersensitivity, adrenal suppression or growth effects, which are safety concerns rather than efficacy evidence.
+This reasoning is only a class-level argument. The literature compiled for this report does not demonstrate clinical efficacy of budesonide in atopic eczema. The one directly relevant item is a 2024 preclinical formulation study of budesonide-loaded nanoparticles in hydrogels for atopic dermatitis. Most other papers concern corticosteroid contact allergy, adrenal suppression, growth effects in children, or other diseases. These point to safety and hypersensitivity concerns, not efficacy. The high score is a model prediction only.
 
 ## Clinical Trial Evidence
 
@@ -67,75 +64,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of the publications below is an RCT. The most relevant are listed first.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preclinical formulation study | Gels | Budesonide-loaded pH-sensitive nanoparticles in hydrogels for local atopic dermatitis therapy; aims to improve delivery and reduce adverse effects |
-| [35056927](https://pubmed.ncbi.nlm.nih.gov/35056927/) | 2021 | Ex vivo formulation study | Pharmaceutics | Cyclodextrin complexation and poloxamer hydrogels to improve budesonide skin retention |
-| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | In vitro study | Int Immunopharmacol | Budesonide, unlike tacrolimus, affects immune functions of normal human keratinocytes; relevant to innate immune suppression in skin |
-| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Open longitudinal study | Pediatr Dermatol | Knemometry in 14 children aged 5-12 with atopic dermatitis, testing whether topical budesonide affects short-term growth (safety focus) |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasal corticosteroids and adrenal suppression in allergic disease, including patients with atopic dermatitis |
-| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Corticosteroid allergy in asthma; glucocorticoids frequently cause delayed contact allergy and occasionally immediate allergy |
-| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Patch-test series | Contact Dermatitis | Budesonide is the marker for corticosteroid hypersensitivity; allergy trend has been decreasing over two decades |
-| [9543750](https://pubmed.ncbi.nlm.nih.gov/9543750/) | 1997 | Review | Ned Tijdschr Geneeskd | Contact allergy to corticosteroids is not rare, especially in people with long-standing atopic dermatitis |
-| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Case report | Cureus | Steroid-induced angioedema and urticaria in a patient with atopic dermatitis |
-| [31705907](https://pubmed.ncbi.nlm.nih.gov/31705907/) | 2020 | Review | J Allergy Clin Immunol | Emerging therapies for eosinophilic esophagitis, including swallowed topical corticosteroids (an indirect allergic-disease context) |
+| [38275852](https://pubmed.ncbi.nlm.nih.gov/38275852/) | 2024 | Preclinical formulation study | Gels | Budesonide-loaded pH-sensitive nanoparticles in hydrogels developed for local therapy of pediatric atopic dermatitis |
+| [35056927](https://pubmed.ncbi.nlm.nih.gov/35056927/) | 2021 | Formulation study | Pharmaceutics | Cyclodextrin complexation and poloxamer hydrogels tested to improve budesonide skin retention (ex vivo) |
+| [16428071](https://pubmed.ncbi.nlm.nih.gov/16428071/) | 2006 | Laboratory study | Int Immunopharmacol | Budesonide affected immune functions of normal human keratinocytes, unlike tacrolimus |
+| [9496795](https://pubmed.ncbi.nlm.nih.gov/9496795/) | 1998 | Open longitudinal trial | Pediatr Dermatol | Knemometry used to assess short-term growth effects of topical budesonide in 14 children with atopic dermatitis (safety focus) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Review | Neuroimmunomodulation | Intranasal corticosteroids and adrenal suppression |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Review | Allergy | Corticosteroids frequently cause delayed contact allergy and occasionally immediate allergy |
+| [33931866](https://pubmed.ncbi.nlm.nih.gov/33931866/) | 2021 | Patch-test series | Contact Dermatitis | Budesonide is a marker of corticosteroid hypersensitivity; allergy trend decreasing |
+| [37927648](https://pubmed.ncbi.nlm.nih.gov/37927648/) | 2023 | Case report | Cureus | Steroid-induced angioedema and urticaria in a patient with atopic dermatitis history |
+| [9543750](https://pubmed.ncbi.nlm.nih.gov/9543750/) | 1997 | Review | Ned Tijdschr Geneeskd | Contact allergy to corticosteroids is not rare, especially in long-standing atopic dermatitis |
+| [23331686](https://pubmed.ncbi.nlm.nih.gov/23331686/) | 2013 | Systematic review | Vet Dermatol | RCTs for canine atopic dermatitis; not budesonide-specific |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0059 | Budesonide (single-ingredient) | Cancelled |
-
-There is no valid registration at present. Dosage form and approved indication details are not available for this record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0059 | Budesonide | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-**Contraindications (knowledge graph, not label text):** The TxGNN knowledge graph links budesonide to contraindications in these disease groups:
-- Hypertension and congestive heart failure
-- Epilepsy
-- Liver disease and gallbladder disease
-- Hyperglycemia
-- Measles and herpes simplex virus keratitis
-- Pituitary and growth hormone deficiency disorders, hypogonadotropic hypogonadism and Kallmann syndrome
-- Urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia)
+- **Drug Interactions**: 100 interactions were found in the interaction screening. Examples include:
+  - Major: adalimumab, fosamprenavir
+  - Moderate: zidovudine, isotretinoin, acebutolol, ketorolac, nifedipine, ibuprofen, ethinylestradiol, aldesleukin, alemtuzumab, fluvoxamine
+  - Minor: formoterol, salbutamol
+- **Literature safety signals**: The compiled papers describe corticosteroid contact allergy, adrenal suppression with intranasal use, and growth-related effects in children treated with topical glucocorticoids.
 
-**Drug Interactions:** The interaction screen returned 100 interactions, of which 20 were reviewed here. Major interactions:
-- Adalimumab
-- Fosamprenavir
-
-Moderate interactions include:
-- Zidovudine
-- Isotretinoin
-- Acebutolol
-- Ketorolac
-- Nifedipine
-- Ibuprofen
-- Ethinylestradiol
-- Fluvoxamine
-
-Minor interactions include formoterol and salbutamol.
-
-**Safety signals in the literature:** The papers describe corticosteroid contact allergy and hypersensitivity, adrenal suppression, and growth effects in children with atopic dermatitis. These are directly relevant to any skin use.
-
-For label-based warnings, please refer to the package insert.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests only on the model score. There are no clinical trials, and the literature contains no efficacy data for budesonide in atopic eczema.
-- The Philippine registration is cancelled, and the literature repeatedly flags hypersensitivity and systemic absorption concerns in atopic skin.
-- Budesonide's other predicted indication, bronchitis, has more support: 9 trials listed, Phase 2/4 studies, and an L2 evidence level. It may be a better candidate to prioritize.
+No clinical trial or clinical efficacy study of budesonide in atopic eczema was found, and the only directly relevant paper is a preclinical formulation study. The evidence level is therefore L5, and the supporting literature mainly raises safety and hypersensitivity concerns.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to support the mechanistic link
-- Clinical efficacy data in atopic eczema, such as a controlled trial of a topical budesonide formulation
-- A dermal formulation and route plan, since no topical product is currently registered
-- Package insert warnings and contraindications for a formal safety review
-- A hypersensitivity and growth/adrenal safety plan for paediatric and long-term use
+- Clinical efficacy data (controlled trials) of budesonide in atopic eczema
+- Mechanism of action data
+- Package insert warnings and contraindications from the Philippines regulator
+- Clarification of the licence record, including dosage form and approved indication, and confirmation of current licence status
+- A topical formulation and safety plan, particularly for children (skin absorption, growth, adrenal suppression, contact allergy)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

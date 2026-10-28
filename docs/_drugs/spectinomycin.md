@@ -6,9 +6,9 @@ nav_order: 316
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Spectinomycin: predicted new indication Urethral disease (evidence level L5). Approved use: Acute gonococcal cervicitis"
+description: "Spectinomycin: predicted new indication disease of uterine broad ligament (evidence level L5). Approved use: Acute gonococcal cervicitis"
 monitor_inn: "Spectinomycin"
-predicted_indications: ["disease of uterine broad ligament", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "disease of peritoneum", "embryonic cyst of fallopian tube"]
+predicted_indications: ["disease of uterine broad ligament", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "disease of peritoneum", "urethral disease", "embryonic cyst of fallopian tube"]
 ---
 
 # Spectinomycin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Spectinomycin: From Gonorrhea to Urethral Disease
+## Spectinomycin: From Gonorrhea to Disease of Uterine Broad Ligament
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked predictions are unusual non-infectious conditions w
 |------|------|
 | Original Indication | Acute gonococcal cervicitis; gonorrhea (the Philippines license record lists no approved indication text) |
 | Predicted New Indication | Urethral disease (the best-supported of the top 10 predictions; the rank 1 prediction is disease of uterine broad ligament, with no evidence) |
-| TxGNN Prediction Score | 99.53% (urethral disease); 99.57% for the rank 1 prediction |
-| Evidence Level | L3 (urethral disease); the other nine predictions are L4–L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| TxGNN Prediction Score | 0.9953 (urethral disease); 0.9957 for the rank 1 prediction |
+| Evidence Level | L5 (urethral disease); the other nine predictions are L4–L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 For **urethral disease**, the prediction is reasonable mainly because gonococcal urethritis is an infection of the urethra. This is largely a restatement of the original indication rather than true repurposing. A recent 2025 retrospective report of four cases suggests intramuscular spectinomycin may help in difficult-to-treat *Mycoplasma genitalium* urethritis. That would be a genuinely new use, but the evidence is very small.
 
-The other top-ranked predictions have no plausible link to an antibacterial mechanism. They include disease of the uterine broad ligament, abdominal cystic lymphangioma, celiac trunk compression syndrome, abdominal ectopic pregnancy, lymph node palisaded myofibroblastoma, sacrum chordoma and embryonic cyst of the fallopian tube. They have no trials or literature, and their high scores likely reflect proximity in the knowledge graph rather than a real mechanism. "Disease of peritoneum" has only one 1979 review of gonococcal pelvic inflammatory disease, which relates to the original indication.
+The other top-ranked predictions have no plausible link to an antibacterial mechanism. They include disease of the uterine broad ligament, abdominal cystic lymphangioma, celiac trunk compression syndrome, abdominal ectopic pregnancy, lymph node palisaded myofibroblastoma, sacrum chordoma and embryonic cyst of the fallopian tube. They have no trials or literature, and their high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. "Disease of peritoneum" has only one 1979 review of gonococcal pelvic inflammatory disease, which relates to the original indication.
 
 ---
 
@@ -96,7 +96,7 @@ The 20 publications retrieved for urethral disease are listed below, ranked by r
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0457 | Spectinomycin | Not recorded | Not recorded (status: cancelled) |
+| PNF-0457 | Spectinomycin | Not recorded | Not recorded (status: valid) |
 
 The only registration is cancelled, so the drug is not currently authorized in the Philippines.
 

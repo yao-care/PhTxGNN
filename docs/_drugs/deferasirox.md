@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Deferasirox
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 99
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L4). Approved use: Beta-thalassemia and related hemoglobinopathies"
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
+last_modified_at: 2026-10-27
+description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Deferasirox
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,92 +33,74 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Deferasirox: From Beta-Thalassemia (Iron Overload) to HIV Infectious Disease
+## Deferasirox: iron chelator → HIV infectious disease (HIV infectious disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Deferasirox is an iron chelator, listed in the knowledge graph for beta-thalassemia and related hemoglobinopathies.
+Deferasirox is an oral iron chelator used for conditions of iron overload.
 The TxGNN model predicts it may be effective for **HIV infectious disease**,
-but there are currently **0 clinical trials** and only **2 publications** (one general drug overview and one preclinical study), so support is limited to indirect laboratory evidence.
-
----
+but there are **0 clinical trials** and only **1 relevant preclinical publication** supporting this direction, so this remains a research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Beta-thalassemia and related hemoglobinopathies (from the knowledge graph; no approved indication text is available from Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.40% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9940 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, deferasirox is an iron chelator, its use in iron-related blood disorders such as beta-thalassemia is established, and mechanistically it may be applicable to HIV infection through iron homeostasis.
+Currently, detailed mechanism of action data is not available. Based on known information, deferasirox is an iron chelator, meaning it binds iron and reduces iron available inside the body and within cells.
 
-A 2021 preclinical study (PMID 34550543) reports that iron inside endolysosomes restricts HIV-1 Tat-mediated transactivation of the viral promoter (LTR) by increasing Tat oligomerization and β-catenin expression. This suggests iron status can influence HIV-1 transcription, so an iron chelator is conceptually relevant.
+A 2021 laboratory study (PMID 34550543) reports that iron inside endolysosomes restricts HIV-1 Tat-mediated activation of the viral promoter (LTR), by increasing Tat oligomerization and β-catenin expression. This suggests iron levels can influence HIV-1 transcription, so a link with an iron chelator is plausible.
 
-However, the direction of the effect is unclear. Removing iron could either relieve or worsen the restriction, so the net effect of chelation is uncertain. No clinical studies are available to resolve this. The other retrieved paper is a general new-drug overview and has no HIV-specific evidence.
-
----
+However, the direction of the effect is unclear. Removing iron could relieve the restriction and increase viral transcription, or it could have the opposite effect. The net effect of chelation on HIV is therefore uncertain. No study retrieved for this report tests deferasirox in HIV infection, so the evidence level is capped at L5 despite the mechanistic hint.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclinical/In vitro study | Journal of Neurovirology | Endolysosomal iron restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review | Journal of the American Pharmacists Association | General overview of new drugs, including deferasirox; no HIV-specific evidence |
-
----
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclinical/In vitro mechanistic study | Journal of neurovirology | Endolysosomal iron restricts Tat-mediated HIV-1 LTR transactivation by increasing Tat oligomerization and β-catenin expression; does not test deferasirox |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Review | Journal of the American Pharmacists Association | General overview of new drugs including deferasirox; no HIV-specific evidence |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0132 | Deferasirox | Not specified | Not specified (registration status: cancelled) |
+| PNF-0132 | Deferasirox | Not recorded | Not recorded |
 
----
+## Cytotoxicity
+
+Not applicable. Deferasirox is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-- **Contraindications (suggested by the knowledge graph, not package insert text)**: liver failure, liver disease, cirrhosis, kidney disease, impaired renal function, thrombocytopenia, neutropenia and related congenital neutropenia syndromes, agranulocytosis, anemia, hyperbilirubinemia including Gilbert syndrome, gallbladder disease, active peptic ulcer disease, ocular hypertension, multiple organ dysfunction syndrome, and cancer.
-- **Drug Interactions**: 100 interactions were found in total. Examples of major-level interactions include:
-  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone)
-  - Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms)
-  - Acetylsalicylic acid (aspirin)
-  - Mesalazine and balsalazide
+- **Drug Interactions**: 100 interactions were found in the interaction database. Examples classed as **Major** include hydrocortisone, dexamethasone, betamethasone, triamcinolone, acetylsalicylic acid, mesalazine, balsalazide and several amphotericin B formulations. Examples classed as **Moderate** include rabeprazole, pioglitazone, clarithromycin, aprepitant, saxagliptin and aluminum hydroxide.
 
-  Moderate-level examples include rabeprazole, pioglitazone, clarithromycin, aprepitant, saxagliptin and aluminum hydroxide.
-
-The knowledge-graph contraindications overlap with conditions common in people living with HIV (cytopenias, liver and kidney disease), which warrants particular caution. Please also refer to the package insert for authoritative safety information.
-
----
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but it rests only on one indirect preclinical study with an unclear direction of effect. There are no clinical trials, the Philippines registration is cancelled, and the safety profile (cytopenia, hepatic and renal risks) is a concern in an HIV population.
+The prediction score is high, but no clinical trial exists and the only supportive paper is a laboratory study on iron and HIV-1 Tat that does not test deferasirox. The direction of the effect of iron chelation on HIV is unclear.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to clarify whether iron chelation helps or harms in HIV
-- In vitro and animal studies testing deferasirox directly against HIV-1 replication
-- Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing and blocking safety screening)
-- Clarification of regulatory status, since the only registration is cancelled
-- A review of the other predicted indications (HCV, rare neurodevelopmental disorder, obsolete familial combined hyperlipidemia, dermatofibrosarcoma protuberans), none of which have clinical evidence and all of which are at Hold
+- Laboratory studies testing deferasirox directly on HIV-1 replication, to settle whether chelation helps or harms
+- Mechanism of action data for deferasirox
+- Package insert warnings and contraindications from the Philippines regulator, for safety screening
+- A review of the major interactions, especially with corticosteroids and nephrotoxic agents, if HIV patients are considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

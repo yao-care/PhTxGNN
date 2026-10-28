@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
-description: "Bromazepam: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the registration record"
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
+last_modified_at: 2026-10-27
+description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bromazepam
@@ -33,84 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Bromazepam: From Anxiety-Related Use to Migraine Disorder
+## Bromazepam: benzodiazepine, GABA-A positive allosteric modulator → migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bromazepam is a benzodiazepine, but the data compiled for this report do not list an approved indication for it.
-The TxGNN model predicts it may be effective for **migraine disorder**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
----
+Bromazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxGNN model predicts it may be relevant to **migraine disorder**, with a prediction score of **0.9906**. No clinical trials or publications were found in the data compiled for this report, so the prediction rests on the model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the registration record |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.06% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | migraine disorder |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Bromazepam is a benzodiazepine, a class that acts as a positive allosteric modulator of GABA-A receptors and produces anxiolytic, muscle-relaxant, and sedative effects. This class description comes from general pharmacological knowledge, not from the source record.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, bromazepam is a benzodiazepine. It acts as a positive allosteric modulator of GABA-A receptors, producing anxiolytic, muscle-relaxant and sedative effects.
 
-A link to migraine would be indirect. Possible routes include reduced central hyperexcitability, fewer stress- and anxiety-related triggers, and relief of associated muscle tension. These are plausible hypotheses only, and no study in the compiled data tests them.
+A link to migraine would be indirect. It could work through reduced central hyperexcitability, fewer stress- and anxiety-related triggers, and relief of associated muscle tension. This is a hypothesis only, and no study in the compiled data tests it.
 
-The TxGNN score is very high (99.06%), but it is a model output and not evidence of clinical benefit. Benzodiazepines are generally not recommended as standard preventive or acute migraine therapy because of the risks of dependence, tolerance, sedation, and medication-overuse headache.
-
----
+The high score reflects a model output and is not evidence of clinical benefit. Benzodiazepines are generally not recommended as standard preventive or acute migraine therapy. The concerns are dependence, tolerance, sedation and the risk of medication-overuse headache.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0057 | Bromazepam | Not specified | Not specified (registration cancelled) |
-
-The only registration is cancelled, so there is currently no valid marketed product in the Philippines.
-
----
+Local regulatory data lists the market status as Marketed, with at least one licence recorded as valid. Product-level details such as dosage form and approved indication text are not recorded in the local data.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-No drug interactions were found in the data compiled for this report. Benzodiazepines as a class carry risks of dependence, tolerance, and sedation, and these would need careful review in any migraine development plan.
-
----
+Benzodiazepines as a class carry general concerns about sedation, dependence and tolerance. These concerns are especially relevant for a condition that may need repeated or long-term treatment.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or publications (evidence level L5). The registration is cancelled, and the benzodiazepine class is not recommended for migraine because of dependence and medication-overuse headache risks. Together these make a practical development path unlikely at present.
+The prediction has no supporting clinical trials or publications, so it stays at evidence level L5. Class-level concerns about dependence, sedation and medication-overuse headache also argue against pursuing this use without further evidence.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Detailed mechanism of action data (for example from DrugBank)
-- Clinical or preclinical evidence supporting use in migraine
-- A benefit-risk assessment addressing dependence and medication-overuse headache
-- Clarification of the original approved indication and the reason for registration cancellation
+- Published or registered studies that directly examine bromazepam or related benzodiazepines in migraine disorder
+- Mechanism-of-action data from a verified source
+- Package insert warnings and contraindications for the Philippines market
+- A benefit-risk assessment covering dependence, tolerance, sedation and medication-overuse headache
+- Confirmation of the dosage forms and routes available locally, to check they suit a migraine use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,0 +1,37 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "donepezil-extrapyramidal-and-movement-disease",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+    ]
+  },
+  "type": "indication",
+  "status": "active",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/donepezil"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "extrapyramidal and movement disease"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9916
+    }
+  ]
+}

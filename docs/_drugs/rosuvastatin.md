@@ -4,17 +4,17 @@ title: Rosuvastatin
 parent: Model Prediction Only (L5)
 nav_order: 303
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Lipid disorders (hypertriglyceridemia, familial hypercholesterolemia…"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rosuvastatin: From Lipid and Cardiovascular Disorders to Cholesterol-Ester Transfer Protein Deficiency
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 
 | Item | Content |
 |------|------|
-| Original Indication | Lipid disorders (hypertriglyceridemia, familial hypercholesterolemia, hyperlipoproteinemia), atherosclerosis, stroke and cerebral infarction (from the knowledge graph; the Philippine registration lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -81,13 +81,13 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0431 | Rosuvastatin | Not specified | Not specified (registration status: cancelled) |
+| PNF-0431 | Rosuvastatin | Not specified | Not specified (registration status: valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, hypothyroidism, myxedema, congenital hypothyroidism, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury, proteinuria.
+- **Contraindications (TxGNN model (deep learning) associations that may reflect similarities the model learned between related diseases, not biological evidence or label text)**: liver disease, gallbladder disease, hypothyroidism, myxedema, congenital hypothyroidism, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, substance abuse/dependence, rhabdomyolysis, nodular fasciitis, injury, proteinuria.
 - **Drug Interactions**: 100 interactions are recorded. Examples from the first 20 entries:
   - **Major**: fenofibrate, atazanavir.
   - **Moderate**: atorvastatin, ezetimibe, bempedoic acid, amiodarone, paclitaxel, zidovudine, alpelisib, apalutamide, ethanol and others.
@@ -104,7 +104,6 @@ For label-based warnings, please refer to the package insert.
 **Rationale:**
 The prediction rests on the model score alone, with no trials or publications, and the mechanistic case is weak because CETP deficiency already involves low LDL-C. The Philippine registration is also cancelled, so there is currently no marketed product to repurpose locally.
 
-Other predicted indications in the compiled data have much stronger support, namely familial hypercholesterolemia and general hyperlipidemia (L1, multiple completed Phase 3 trials). These largely overlap with rosuvastatin's established uses, so they are on-label rather than true repurposing.
 
 **To proceed, the following is needed:**
 - Any clinical or genetic-epidemiology evidence that statin therapy provides benefit in CETP deficiency.

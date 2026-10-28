@@ -6,7 +6,7 @@ nav_order: 299
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection / AIDS"
+description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "Ritonavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Ritonavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Ritonavir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model's top-ranked prediction is feline acquired immunodeficiency synd
 |------|------|
 | Original Indication | HIV infection / AIDS; chronic hepatitis C virus infection (the Philippines registration has no indication text on file) |
 | Predicted New Indication | Simian immunodeficiency virus infection (rank 1 by score is feline acquired immunodeficiency syndrome, which has no supporting evidence) |
-| TxGNN Prediction Score | 99.92% (the same for the top two predictions) |
-| Evidence Level | L4 (preclinical studies only); feline AIDS and the neurodevelopmental disorder are L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9992 (the same for the top two predictions) |
+| Evidence Level | L5 (preclinical studies only); feline AIDS and the neurodevelopmental disorder are L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,8 +62,8 @@ SIV is a lentivirus closely related to HIV, and its protease is susceptible to H
 There is little repurposing gain, though. SIV infection is an animal model disease with no direct human clinical indication. Its value is as a translational model for HIV, which is already an approved use.
 
 The other two predictions are weaker:
-- **Feline AIDS:** FIV is a lentivirus, so protease inhibition is plausible in principle. But FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. The high score likely reflects knowledge-graph similarity to HIV/AIDS, not independent evidence.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter:** No plausible mechanistic link is evident. This is a rare genetic disorder unrelated to ritonavir's known actions. The identical score magnitude suggests a graph-based artifact.
+- **Feline AIDS:** FIV is a lentivirus, so protease inhibition is plausible in principle. But FIV protease differs from HIV-1 protease in substrate specificity and inhibitor sensitivity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases such as HIV/AIDS, not biological evidence.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter:** No plausible mechanistic link is evident. This is a rare genetic disorder unrelated to ritonavir's known actions. The identical score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -90,7 +90,7 @@ Most of these studies used combination regimens, so ritonavir-specific effects c
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0428 | Ritonavir | Not specified | Not specified (registration cancelled) |
+| PNF-0428 | Ritonavir | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 
@@ -114,7 +114,7 @@ Package insert warnings and contraindications for the Philippines are not availa
 **Decision: Hold**
 
 **Rationale:**
-- The high TxGNN scores (about 99.92%) are not backed by any clinical trial. For SIV infection, the preclinical data support plausibility, but SIV is an animal model disease with no human indication, so the repurposing gain is minimal. Feline AIDS and the neurodevelopmental disorder have no supporting evidence.
+- The high TxGNN scores (about 0.9992) are not backed by any clinical trial. For SIV infection, the preclinical data support plausibility, but SIV is an animal model disease with no human indication, so the repurposing gain is minimal. Feline AIDS and the neurodevelopmental disorder have no supporting evidence.
 - The only Philippines registration is cancelled, and the safety profile is substantial (cardiac, hepatic, metabolic and interaction concerns).
 - SIV infection is best treated as a research question for translational HIV modelling, not a development candidate.
 

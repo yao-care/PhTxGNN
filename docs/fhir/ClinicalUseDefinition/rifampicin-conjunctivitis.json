@@ -1,0 +1,37 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "rifampicin-conjunctivitis",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+    ]
+  },
+  "type": "indication",
+  "status": "active",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/rifampicin"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "conjunctivitis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L4"
+    },
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9995
+    }
+  ]
+}

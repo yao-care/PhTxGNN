@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Tranexamic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 343
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Tranexamic Acid: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
+description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)"]
 # Tranexamic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Tranexamic Acid: From Endometriosis to Amenorrhea
+## Tranexamic Acid: From Endometriosis to amenorrhea
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic drug, listed in the knowledge graph for endometriosis-related conditions.
+Tranexamic acid is an antifibrinolytic drug. The amenorrhea prediction (score 0.9919) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 The TxGNN model predicts it may be effective for **amenorrhea**, but this rests on a model score only:
 there are **0 registered clinical trials** and **2 review articles** (indirectly related), so direct supporting evidence is very limited.
 
@@ -50,10 +50,10 @@ there are **0 registered clinical trials** and **2 review articles** (indirectly
 |------|------|
 | Original Indication | Endometriosis (endometriosis of uterus) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link to amenorrhea is **indirect**. Tranexamic acid reduces heavy menstrual bleeding but does not by itself induce amenorrhea (absence of menses). The literature found concerns management of abnormal uterine bleeding and menses suppression or prophylaxis in hematologic cancer patients, where tranexamic acid may be one option for bleeding control. It is not a treatment for amenorrhea as a disease.
 
-The high TxGNN score (0.99) is a model prediction and is not backed by clinical evidence. The prediction should be read as a bleeding-related signal rather than proof of benefit in amenorrhea.
+The high TxGNN score (0.9919) is a model prediction and is not backed by clinical evidence. The prediction should be read as a bleeding-related signal rather than proof of benefit in amenorrhea.
 
 ---
 
@@ -87,7 +87,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0495 | Tranexamic Acid | Not specified | Not specified (registration cancelled) |
+| PNF-0495 | Tranexamic Acid | Not specified | Not specified (registration valid) |
 
 ---
 

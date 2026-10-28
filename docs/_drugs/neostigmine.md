@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Neostigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 248
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Neostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L4). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
+description: "Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Neostigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Neostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Neostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Neostigmine is a cholinesterase inhibitor originally used to treat myasthenia gravis and related neuromuscular junction disorders.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, a subtype of the disease it is already used for.
 There are currently **0 clinical trials** and **0 publications** specific to this subtype, so support is indirect and rests on the parent myasthenia gravis indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,15 +67,13 @@ The model produced other high-scoring predictions, but the evidence for them is 
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Myasthenia, limb-girdle, autoimmune | 99.97% | L4 | Same junction defect. Only one general review was retrieved. |
-| 3 | Autoimmune disease of peripheral nervous system | 99.97% | L4 | Literature is mostly myasthenia gravis mechanistic, historical and animal work. The rationale is weak outside myasthenia gravis. |
-| 4 | Neonatal myasthenia gravis | 99.97% | L4 | Mostly case reports. The condition is self-limiting, and neonatal dosing and safety need care. |
-| 5 | Disease of receptor activity | 99.96% | L5 | Too broad to act on. |
-| 6 | Hypersplenism | 99.87% | L5 | No mechanistic link found. |
-| 7 | Atypical hemolytic-uremic syndrome with B factor anomaly | 99.83% | L5 | Unrelated mechanism. Likely a knowledge-graph artifact. |
-| 8 | Bronchitis | 99.79% | L4 | Increased cholinergic tone may worsen bronchial symptoms. Evidence is anecdotal and outdated. |
-| 9 | Fetal akinesia deformation sequence | 99.72% | L5 | Speculative link, with major safety concerns in fetal use. |
-| 10 | Congenital myasthenia refractory to acetylcholinesterase inhibitors | 99.37% | L5 | Contradicts the disease definition and is likely a false positive. |
+| 3 | Autoimmune disease of peripheral nervous system | 0.9997 | L5 | Literature is mostly myasthenia gravis mechanistic, historical and animal work. The rationale is weak outside myasthenia gravis. |
+| 5 | Disease of receptor activity | 0.9996 | L5 | Too broad to act on. |
+| 6 | Hypersplenism | 0.9987 | L5 | No mechanistic link found. |
+| 7 | Atypical hemolytic-uremic syndrome with B factor anomaly | 0.9983 | L5 | Unrelated mechanism. Likely a TxGNN model (deep learning) artifact. |
+| 8 | Bronchitis | 0.9979 | L4 | Increased cholinergic tone may worsen bronchial symptoms. Evidence is anecdotal and outdated. |
+| 9 | Fetal akinesia deformation sequence | 0.9972 | L5 | Speculative link, with major safety concerns in fetal use. |
+| 10 | Congenital myasthenia refractory to acetylcholinesterase inhibitors | 0.9937 | L5 | Contradicts the disease definition and is likely a false positive. |
 
 ## Clinical Trial Evidence
 
@@ -98,7 +95,7 @@ No literature was retrieved for the top-ranked indication. The closest supportin
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0343 | Neostigmine | Not specified | Not specified (status: cancelled) |
+| PNF-0343 | Neostigmine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

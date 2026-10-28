@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Heparin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 166
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L4). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombophilia due to protein C deficiency, autosomal re
 # Heparin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Heparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
+## Heparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency, Autosomal Recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans, acquired purpura fulminans |
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9929 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The new indication is closely related to the original ones. Severe (homozygous) protein C deficiency is a classic cause of purpura fulminans, which is already among heparin's original indications. This makes the prediction biologically plausible.
 
-Caution is needed. The very high TxGNN score is a computational result and likely reflects how close this disease sits to purpura fulminans in the knowledge graph. Standard care for severe congenital protein C deficiency is protein C concentrate or fresh frozen plasma, with anticoagulation as an adjunct. This is background knowledge, not evidence from the data compiled here.
+Caution is needed. The very high TxGNN score is a computational result from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Standard care for severe congenital protein C deficiency is protein C concentrate or fresh frozen plasma, with anticoagulation as an adjunct. This is background knowledge, not evidence from the data compiled here.
 
 ---
 
@@ -82,7 +82,7 @@ Currently no related literature available for this indication.
 
 ## Philippines Market Information
 
-Heparin has one registration on record (PNF-0225, single-ingredient product), and it is **cancelled**. No dosage form, manufacturer or approved indication text is available. There is no currently valid registration in the Philippines.
+Heparin has one registration on record (PNF-0225, single-ingredient product), and it is **valid**. No dosage form, manufacturer or approved indication text is available. There is 1 currently valid registration of 1 in the Philippines.
 
 ---
 
@@ -104,7 +104,7 @@ Additional signals from the knowledge graph (these are drug-disease relationship
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible and close to heparin's existing use in purpura fulminans, but no trials or publications address this specific disease. The evidence is limited to a model score and reasoning (L4). Heparin also has no valid registration in the Philippines, and label safety data is missing.
+The prediction is mechanistically plausible and close to heparin's existing use in purpura fulminans, but no trials or publications address this specific disease. The evidence is limited to a model score and reasoning (L4). Heparin has 1 valid registration of 1 in the Philippines, but label safety data is missing.
 
 **To proceed, the following is needed:**
 - Targeted literature review of heparin or other anticoagulants in severe congenital protein C deficiency, compared with protein C concentrate or plasma
@@ -117,7 +117,7 @@ The prediction is mechanistically plausible and close to heparin's existing use 
 
 ## Appendix: Second-Ranked Prediction (Not Recommended)
 
-The model's second prediction, **primary release disorder of platelets** (score 99.06%, evidence level L5, decision **Hold**), has no credible mechanistic rationale. These are bleeding-tendency platelet function defects, and heparin is an anticoagulant that raises bleeding risk. It can also cause platelet-related harm such as heparin-induced thrombocytopenia. The 20 retrieved publications are loosely related to coagulation, HIT, cirrhosis and cancer-associated thrombosis, and none addresses heparin treatment of this condition. The high score is probably an artifact of graph proximity to platelet and coagulation terms. This prediction is not recommended for further pursuit.
+The model's second prediction, **primary release disorder of platelets** (score 0.9906, evidence level L5, decision **Hold**), has no credible mechanistic rationale. These are bleeding-tendency platelet function defects, and heparin is an anticoagulant that raises bleeding risk. It can also cause platelet-related harm such as heparin-induced thrombocytopenia. The 20 retrieved publications are loosely related to coagulation, HIT, cirrhosis and cancer-associated thrombosis, and none addresses heparin treatment of this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction is not recommended for further pursuit.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

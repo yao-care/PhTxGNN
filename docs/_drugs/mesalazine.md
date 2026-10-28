@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Mesalazine: From Ulcerative Colitis to Rheumatoid Arthritis
+## Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The TxGNN model's top-ranked prediction is a rare genetic disorder, **congenital
 | Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the Philippines licence record contains no approved indication text) |
 | Predicted New Indication (top-ranked) | Congenital hypotrichosis with juvenile macular dystrophy |
 | Best-Supported Alternative | Rheumatoid arthritis (rank 3) |
-| TxGNN Prediction Score | 99.65% (top-ranked); 99.57% (rheumatoid arthritis) |
+| TxGNN Prediction Score | 0.9965 (top-ranked); 0.9957 (rheumatoid arthritis) |
 | Evidence Level | L5 (top-ranked); L4 (rheumatoid arthritis) |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The TxGNN model's top-ranked prediction is a rare genetic disorder, **congenital
 
 Detailed mechanism of action data is not available in the data compiled for this report. Mesalazine is generally understood to be an anti-inflammatory agent acting locally in the gut, with effects on prostaglandin and leukotriene synthesis, NF-kB signalling and antioxidant activity. These actions are the basis of its effectiveness in ulcerative colitis.
 
-**Top-ranked prediction (congenital hypotrichosis with juvenile macular dystrophy):** No plausible mechanistic link was found. This is a rare genetic disorder caused by CDH3 (cadherin-3) mutation, affecting hair follicles and the retina. Anti-inflammatory activity has no relevance to this defect. The high score is a knowledge-graph output only.
+**Top-ranked prediction (congenital hypotrichosis with juvenile macular dystrophy):** No plausible mechanistic link was found. This is a rare genetic disorder caused by CDH3 (cadherin-3) mutation, affecting hair follicles and the retina. Anti-inflammatory activity has no relevance to this defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-**Rheumatoid arthritis:** Mesalazine is the active moiety released from sulfasalazine, an established disease-modifying antirheumatic drug. However, the antirheumatic effect of sulfasalazine is generally attributed to its sulfapyridine moiety rather than to mesalazine, so efficacy of mesalazine alone is not supported. The high score likely reflects the sulfasalazine relationship in the knowledge graph.
+**Rheumatoid arthritis:** Mesalazine is the active moiety released from sulfasalazine, an established disease-modifying antirheumatic drug. However, the antirheumatic effect of sulfasalazine is generally attributed to its sulfapyridine moiety rather than to mesalazine, so efficacy of mesalazine alone is not supported. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions:** Osteoarthritis has a conceptually plausible link through low-grade synovial inflammation, but support is limited to one computational study. Osteoarthritis susceptibility, seborrheic keratosis, vulvar inverted follicular keratosis and pseudoachondroplasia have no identified mechanistic link and no evidence.
 
@@ -98,7 +98,7 @@ For osteoarthritis, the only linked paper is [PMID 38491514](https://pubmed.ncbi
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0312 | Mesalazine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0312 | Mesalazine | Not recorded | Not recorded (status: valid) |
 
 ---
 
@@ -121,7 +121,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 - The top-ranked prediction has no trials, no literature and no plausible mechanism, so the high TxGNN score is not supported by evidence.
 - Rheumatoid arthritis, the best-supported alternative, rests only on indirect sulfasalazine-related literature, with no evidence that mesalazine alone is effective.
-- Mesalazine currently has no valid registration in the Philippines (its only licence is cancelled).
+- Mesalazine currently has a valid registration in the Philippines (1 valid licence of 1).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications, to complete safety screening

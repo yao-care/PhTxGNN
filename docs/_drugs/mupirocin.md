@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **pleural empyema**, but **no c
 |------|------|
 | Original Indication | Impetigo, bullous impetigo |
 | Predicted New Indication | Pleural empyema |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Pleural empyema is often caused by similar Gram-positive bacteria, so a pathogen-level link is plausible. However, this link is speculative. Mupirocin is formulated for topical use and is not suitable for systemic or intrapleural delivery. There is no established pharmacokinetic route for it to reach the pleural space. The prediction is supported only by the model score.
 
-A second predicted indication, punctate epithelial keratoconjunctivitis (score 99.10%), is also at Evidence Level L5 with a Hold recommendation. This condition is often viral (adenovirus), which an antibacterial mechanism would not be expected to address. Mupirocin is also not formulated for ophthalmic use, so ocular tolerability is unknown.
+A second predicted indication, punctate epithelial keratoconjunctivitis (score 0.9910), is also at Evidence Level L5 with a Hold recommendation. This condition is often viral (adenovirus), which an antibacterial mechanism would not be expected to address. Mupirocin is also not formulated for ophthalmic use, so ocular tolerability is unknown.
 
 ---
 
@@ -71,7 +71,7 @@ A second predicted indication, punctate epithelial keratoconjunctivitis (score 9
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0333 | Mupirocin | Not specified | Not specified (registration cancelled) |
+| PNF-0333 | Mupirocin | Not specified | Not specified (registration valid) |
 
 ---
 

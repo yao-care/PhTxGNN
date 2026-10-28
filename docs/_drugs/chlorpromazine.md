@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 74
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Manic bipolar affective disorder, psychotic disorder…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+last_modified_at: 2026-10-27
+description: "Chlorpromazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,93 +33,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Chlorpromazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy
+## Chlorpromazine: phenothiazine antipsychotic (dopamine receptor antagonist) → retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Chlorpromazine is an antipsychotic originally used for schizophrenia and other psychotic and mood-related disorders.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication**, and that publication describes a drug-induced adverse reaction rather than a benefit.
-
----
+Chlorpromazine is a phenothiazine antipsychotic. The TxGNN model predicts it may be relevant to **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication**, and that publication describes a drug-induced adverse reaction rather than a benefit. This prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, schizophrenia, acute intermittent porphyria, oppositional defiant disorder (from the knowledge-graph indication list; no indication text on the Philippines registration) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, chlorpromazine is a phenothiazine antipsychotic that acts mainly as a dopamine D2 and multi-receptor antagonist. Its efficacy in schizophrenia and related psychotic disorders is well established.
+Detailed mechanism of action data is not currently available for this report. Chlorpromazine is generally known as a dopamine D2 and multi-receptor antagonist, but this could not be confirmed from the data compiled here.
 
-For the top prediction, retinal dystrophy, the data compiled for this report do not support a plausible therapeutic link. The only publication (1967) reports phototoxic reactions caused by high doses of chlorpromazine and thioridazine. Chlorpromazine is also known to deposit in ocular tissues and cause pigmentary changes. This points to potential harm rather than benefit in retinal disease. The very high TxGNN score is therefore not backed by any mechanistic or clinical rationale and should be treated as a model output only.
+The one publication retrieved (PMID 5336672, 1967) reports phototoxic reactions from high doses of chlorpromazine and thioridazine. This is a harm signal, not a therapeutic one. Chlorpromazine is known to deposit in ocular tissues and cause pigmentary changes, which points toward potential harm in retinal disease rather than benefit.
 
-Other high-scoring predictions had no evidence at all. These were congenital glycosylation disorder, X-linked and syndromic myopia, hydranencephaly, a polymicrogyria syndrome, Charcot-Marie-Tooth type 1G and atypical glycine encephalopathy. The only prediction with a credible link is **early-onset schizophrenia** (score 99.47%). It is an age-subgroup extension of chlorpromazine's existing indication rather than true repurposing, and is noted below as a research question.
-
----
+There is therefore no identifiable mechanistic or clinical rationale for treating retinal dystrophy with this drug. The high score (0.9995) should be read as a model output only and not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Case report / observational (adverse reaction) | JAMA | Phototoxic reactions induced by high doses of chlorpromazine and thioridazine. This is a safety signal, not evidence of benefit. |
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Case report / observational (adverse reaction) | JAMA | Phototoxic reactions induced by high doses of chlorpromazine and thioridazine; an adverse effect, not a treatment effect. No abstract available. |
 
-**Supplementary note, early-onset schizophrenia (the only prediction with supporting literature):** Six observational, imaging and pharmacogenetic studies (PMIDs 28976410, 24854724, 10703271, 22802957, 18408624, 17915974) support biological plausibility and exposure in this population. They include BDNF and AKT1 polymorphism studies related to chlorpromazine response and extrapyramidal effects. None provides controlled efficacy data for pediatric or adolescent use, and no registered trials were identified.
-
----
+This publication does not study chlorpromazine as a treatment for the predicted disease.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0098 | Chlorpromazine | Not specified | Not specified (status: cancelled) |
+| PNF-0098 | Chlorpromazine | Not recorded | Not recorded |
 
----
+The approved indication is not recorded in the local data.
 
 ## Safety Considerations
 
-- **Contraindications / risk conditions (from the knowledge graph, not label text):**
-  - Cardiac and conduction: long QT syndrome (including familial), torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction and coronary thrombosis
-  - Blood-related: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anemia (including macrocytic) and hemoglobinopathy
-  - Blood pressure and autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome and multiple system atrophy
-  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia and blepharospasm
-  - Hepatobiliary: liver disease and gallbladder disease
-  - Metabolic and other: hyperglycemia, obesity disorders (including monogenic obesity), benign prostatic hyperplasia, substance abuse/dependence and female breast carcinoma
-- **Drug Interactions:** 100 interactions were recorded. Major interactions include **bupropion** and **morphine**. Moderate interactions include antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide), anticholinergics (atropine, hyoscyamine, glycopyrronium), epinephrine, hydrocortisone, famotidine, amphotericin B, loperamide, lorcaserin and bisacodyl.
-- **Prediction-specific concerns:** Ocular phototoxicity and pigmentary deposition are relevant to retinal indications. Chlorpromazine lowers the seizure threshold, which is a concern in epileptic or metabolic encephalopathies.
+- **Drug Interactions**: 100 interacting drugs were found in the interaction database. Major-level interactions include **bupropion** and **morphine**. Moderate-level interactions include acarbose, famotidine, epinephrine, hydrocortisone, metformin, pioglitazone, amphotericin B, atropine, loperamide, glycopyrronium, canagliflozin and chlorpropamide, among others (only the first 20 are listed in the data compiled here).
+- **Ocular risk**: The only retrieved literature links high-dose chlorpromazine to phototoxic reactions, which is relevant to any ocular use.
 
-Please refer to the package insert for label warnings and contraindications.
-
----
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top prediction, retinal dystrophy, has no clinical trials and only one publication, which documents ocular toxicity rather than benefit. The remaining top predictions have no evidence. The one plausible direction, early-onset schizophrenia, is an extension of an existing indication with no controlled data, and the only Philippines registration is cancelled.
+- No clinical trials exist and the only publication reports an adverse effect, not a benefit. The prediction has no supporting mechanism, and the drug's known ocular toxicity argues against use in retinal disease.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from DOH-FDA Philippines, which are required before any safety screening
-- Detailed mechanism of action data (MOA) from DrugBank
-- For early-onset schizophrenia: controlled pediatric/adolescent efficacy and safety data (extrapyramidal symptoms, sedation, metabolic effects)
-- Confirmation of product availability in the Philippines, since the only registration is cancelled
-- For retinal indications: preclinical evidence of benefit that outweighs the known ocular toxicity risk, otherwise deprioritize
+- Mechanism of action data and a plausible biological link to retinal dystrophy
+- Preclinical or clinical studies that directly address this disease
+- Package insert warnings and contraindications from the DOH-FDA Philippines, including an ocular safety assessment
+- Clarification of the current licence status in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

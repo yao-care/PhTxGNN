@@ -50,10 +50,10 @@ The prediction rests on the model alone.
 |------|------|
 | Original Indication | Not available (the registration record contains no approved indication text) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction rests on the model alone.
 
 Currently, detailed mechanism of action data is not available. Fluorescein is a diagnostic fluorescent dye used in angiography. It has no known vasodilatory or anti-vasospastic activity, which is what would be needed to treat Prinzmetal angina (a coronary vasospasm disorder).
 
-The high TxGNN score is a graph-based computational prediction. No clinical trials or literature support it, and no plausible mechanistic link to the original use could be identified.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No clinical trials or literature support it, and no plausible mechanistic link to the original use could be identified.
 
 The same holds for the other top-ranked predictions. Antithrombin deficiency type 2, factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency, the chromosome 16 partial deletion and beta-thalassemia with other manifestations have no supporting evidence and no mechanistic basis. For rheumatoid arthritis, hemoglobinopathy, thrombophilia and hyperthyroidism, the retrieved articles mention fluorescein only as a diagnostic tool. Examples are corneal staining in dry eye and angiography of retinal complications. They do not show a therapeutic effect.
 
@@ -86,7 +86,7 @@ For context, articles retrieved for lower-ranked predictions (rheumatoid arthrit
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0197 | Fluorescein | Not recorded | Not recorded (status: cancelled) |
+| PNF-0197 | Fluorescein | Not recorded | Not recorded (status: valid) |
 
 ---
 

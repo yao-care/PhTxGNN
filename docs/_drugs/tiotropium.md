@@ -4,17 +4,17 @@ title: Tiotropium
 parent: High Evidence (L1-L2)
 nav_order: 337
 evidence_level: L1
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Bronchitis, asthma, intrinsic asthma, allergic asthma…"
 monitor_inn: "Tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tiotropium: From Bronchitis, Asthma and Emphysema to Obstructive Lung Disease
+## Tiotropium: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, w
 
 | Item | Content |
 |------|------|
-| Original Indication | Bronchitis, asthma, intrinsic asthma, allergic asthma, pulmonary emphysema (from the knowledge graph; the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,9 +109,9 @@ The data set contains further trials, including Phase 2 dose-ranging, device com
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0489 | Tiotropium | Not recorded | Not recorded (status: cancelled) |
+| PNF-0489 | Tiotropium | Not recorded | Not recorded (status: valid) |
 
-The only registration is cancelled, so no valid registration currently exists in the Philippines.
+The only registration is valid, so one valid registration currently exists in the Philippines.
 
 ---
 

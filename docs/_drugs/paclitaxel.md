@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Paclitaxel: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paclitaxel: From Ovarian Cancer to Female Breast Carcinoma
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Paclitaxel is a microtubule-stabilizing cytotoxic drug, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
 with **40 clinical trials** and **20 publications** currently listed for this direction. Most of the trials are Phase 1/2 combination studies, and paclitaxel is already a mainstream breast cancer treatment, so this is not a novel repurposing signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the registration record contains no approved-indication text, so this is taken from the knowledge-graph indications, which also list hypertension and open-angle glaucoma) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.995% |
-| Evidence Level | L2 (L1 for the ER-positive breast cancer sub-node) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 (L1 for the ER-positive breast cancer sub-node) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -100,16 +99,14 @@ The list below shows 10 of the 20 publications compiled for this disease node.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0370 | Paclitaxel | Not specified | Not specified (status: cancelled) |
+| PNF-0370 | Paclitaxel | Not specified | Not specified (status: valid) |
 
-The only registration has been cancelled, and no valid single-ingredient or combination registrations exist.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (taxane, microtubule stabilizer) |
-| Myelosuppression Risk | High (neutropenia is the main concern; the knowledge graph also flags neutropenia, agranulocytosis, thrombocytopenia and anemia) |
 | Emetogenicity Classification | Low to moderate |
 | Monitoring Items | CBC with differential, liver and renal function, peripheral neuropathy assessment, hypersensitivity monitoring during infusion |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -132,12 +129,10 @@ The package insert warnings and contraindications could not be obtained, so plea
 Paclitaxel has extensive Phase 2 and Phase 3 trial activity and long-standing guideline use in breast cancer, so the biological plausibility is strong. However, this is an established use rather than a new repurposing finding. The Philippines registration is cancelled and the package insert safety data is missing.
 
 **To proceed, the following is needed:**
-- Confirm the regulatory pathway, since there is no valid Philippines registration (only PNF-0370, cancelled)
 - Obtain the package insert warnings and contraindications from DOH-FDA Philippines (a blocking data gap for safety screening)
 - Obtain detailed mechanism of action data (for example from DrugBank)
 - Select a Phase 3 trial specific to paclitaxel efficacy in breast cancer, since most listed trials test combination partners
 - Define a safety monitoring plan covering myelosuppression, neuropathy, hypersensitivity and drug interactions
-- Do not pursue the lower-ranked predictions at present: Ehrlich tumor carcinoma (preclinical only, Hold), the rhabdomyosarcoma predictions (model prediction only, Hold), and the bilateral, nipple, and gene-expression-defined breast carcinoma categories (research questions)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

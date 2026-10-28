@@ -4,17 +4,17 @@ title: Phenobarbital
 parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (generalized tonic-clonic and partial seizures), migraine…"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenobarbital
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenobarbital: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenobarbital: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ It rests on model output alone and is not backed by specific evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalized tonic-clonic and partial seizures), migraine, Lennox-Gastaut syndrome. The Philippines licence record contains no indication text, so this comes from the knowledge-graph indication list. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 For trigeminal nerve neoplasm, **no credible mechanistic link was found**. The only retrieved paper concerns Sturge-Weber syndrome, a neurocutaneous disorder with seizures, not trigeminal nerve tumours. At most, phenobarbital could control seizures associated with a tumour or syndrome. That would be symptomatic treatment and not disease-modifying.
 
-The very high TxGNN score appears to reflect proximity in the knowledge graph to epilepsy and other neurological conditions, not a specific therapeutic rationale. The prediction should be treated as a hypothesis only.
+The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as epilepsy and other neurological conditions, not biological evidence or a specific therapeutic rationale. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0381 | Phenobarbital | Not stated | Not stated (status: cancelled) |
+| PNF-0381 | Phenobarbital | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ferrous Gluconate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 141
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ferrous Gluconate: predicted new indication Plummer-Vinson syndrome (evidence level L4). Approved use: Iron deficiency anemia (also anemia of prematurity, hypochromic…"
@@ -14,7 +14,7 @@ predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-inde
 # Ferrous Gluconate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction largely reflects an extension of the existing anemia indication r
 |------|------|
 | Original Indication | Iron deficiency anemia (also anemia of prematurity, hypochromic, deficiency and microcytic anemia) |
 | Predicted New Indication | Plummer-Vinson syndrome |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -70,10 +70,10 @@ Support is indirect (mechanistic and guideline-based) only, since no trials or l
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Vitamin B12- and folate-independent constitutional megaloblastic anemia | 99.94% | L5 | Pathway unclear; likely driven by graph proximity to anemia terms. Hold |
-| Non-syndromic esophageal malformation | 99.67% | L5 | Structural defect iron would not be expected to correct; likely linked via esophageal webs. Hold |
-| Biotin metabolic disease | 99.42% | L5 | No plausible mechanism; probable graph artifact. Hold |
-| Vitamin deficiency disorder | 99.17% | L4 | One small pilot trial (iron and FGF23 in hypophosphatemic rickets); hypothesis-generating only |
+| Vitamin B12- and folate-independent constitutional megaloblastic anemia | 0.9994 | L5 | Pathway unclear; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Hold |
+| Non-syndromic esophageal malformation | 0.9967 | L5 | Structural defect iron would not be expected to correct; likely linked via esophageal webs. Hold |
+| Biotin metabolic disease | 0.9942 | L5 | No plausible mechanism; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Hold |
+| Vitamin deficiency disorder | 0.9917 | L5 | One small pilot trial (iron and FGF23 in hypophosphatemic rickets); hypothesis-generating only |
 
 ---
 

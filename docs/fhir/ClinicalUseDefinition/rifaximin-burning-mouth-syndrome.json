@@ -1,0 +1,37 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "rifaximin-burning-mouth-syndrome",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+    ]
+  },
+  "type": "indication",
+  "status": "active",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/rifaximin"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "burning mouth syndrome"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9964
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 122
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Emtricitabine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease, AIDS"
 monitor_inn: "Emtricitabine"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,33 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Emtricitabine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Emtricitabine: From HIV Infection to Simian Immunodeficiency Virus Infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Emtricitabine is a nucleoside reverse transcriptase inhibitor, originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary disease.
-There are **no clinical trials** and only **1 publication** directly supporting this prediction, and the evidence is mainly preclinical.
+Emtricitabine is an antiretroviral drug whose use in HIV infectious disease and AIDS is recorded in the knowledge graph. The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**. This is supported by **0 clinical trials** and **18 publications**, mostly macaque studies of SHIV/SIV prevention and treatment, so the evidence is preclinical and indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease, AIDS |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only (registration cancelled) |
-| Number of Registrations | 1 |
+| Original Indication | HIV infectious disease; AIDS (relations recorded in the knowledge graph; no approved indication text in the local licence record) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (the cited studies are mainly animal models using SHIV/SIV, or reviews; none directly studies the predicted disease in a clinical setting) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Number of Approvals | 1 licence (single-ingredient) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI) active against HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and mechanistically it may be applicable to related lentivirus infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, emtricitabine is a nucleoside reverse transcriptase inhibitor (NRTI). After conversion to its active triphosphate form, it terminates proviral DNA chain elongation.
 
-Feline immunodeficiency virus (FIV) is a lentivirus that causes progressive immune dysfunction in cats, similar to HIV in humans. Because its reverse transcriptase is related to that of HIV, NRTI activity is biologically plausible.
+Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV and also depends on reverse transcriptase. This makes the mechanistic link plausible. Macaque studies show that emtricitabine combined with tenofovir (given orally or as a gel) protected animals from SHIV challenge, which supports the idea that the drug acts against these viruses.
 
-Some caveats apply. The only publication (2023) studied a combination antiretroviral regimen (dolutegravir, tenofovir and emtricitabine) in FIV-infected cats, so the effect of emtricitabine alone cannot be separated out. The indication is also veterinary and does not translate into a new human therapeutic opportunity. The very high TxGNN score most likely reflects the disease's similarity to HIV rather than independent evidence.
-
-The second-ranked prediction, **simian immunodeficiency virus infection**, has the same score (99.92%). It is supported by many macaque studies of emtricitabine/tenofovir prophylaxis, but it is also an animal model of HIV and adds no new human indication. The third-ranked prediction, a rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.92%), has no supporting trials or literature and no evident mechanistic link.
+However, SIV infection is mainly a veterinary and research-model disease. Its main value is as a translational model for HIV prevention and treatment, which is already the recorded use of the drug. The prediction therefore adds little independent repurposing value beyond HIV. Also, many of the cited studies use emtricitabine in combination with tenofovir, so the effect of emtricitabine alone is not isolated.
 
 ## Clinical Trial Evidence
 
@@ -70,51 +67,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Preclinical/veterinary study | Viruses | Evaluated the pharmacokinetics and clinical outcomes of a combination antiretroviral regimen (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats. Study type inferred from the title and abstract excerpt; the outcome for emtricitabine specifically is unclear. |
-
-For reference, the related simian immunodeficiency virus (SIV/SHIV) prediction has more literature, all preclinical or review:
+Of the 18 retrieved publications, the most relevant are listed below (animal studies and reviews; no human RCTs).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal study | J Infect Dis | Oral emtricitabine + tenofovir alafenamide protected macaques from rectal SHIV infection |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal study | J Infect Dis | Emtricitabine/TDF prevented vaginal SHIV infection in macaques co-infected with Chlamydia and Trichomonas |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Animal study | J Infect Dis | Oral TAF/emtricitabine or TAF alone against vaginal SHIV infection in macaques |
-| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Animal study | AIDS Res Hum Retroviruses | HIV virus-like particle vaccine combined with oral PrEP prevented SHIV infection in macaques |
-| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Virology study | J Virol | M184V resistance mutation emerged in SIV-infected macaques on lamivudine or emtricitabine; the mutant had reduced fitness |
-| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Lessons from animal models of antiretroviral prophylaxis |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal study | J Infect Dis | Oral emtricitabine + tenofovir alafenamide protected macaques from repeated rectal SHIV exposure |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Animal study | J Infect Dis | Emtricitabine/tenofovir DF prevented vaginal SHIV infection in macaques, even with Chlamydia and Trichomonas coinfection |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Animal study | J Infect Dis | Oral tenofovir alafenamide/emtricitabine or tenofovir alafenamide alone tested against vaginal SHIV in macaques |
+| [24914761](https://pubmed.ncbi.nlm.nih.gov/24914761/) | 2014 | Animal study | AIDS Res Hum Retroviruses | Polyvalent virus-like particle vaccine plus partially protective oral PrEP prevented SHIV infection in macaques |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Animal study | J Infect Dis | Emtricitabine/tenofovir DF PrEP tested against a tenofovir-resistant (K65R) SHIV in macaques |
+| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Animal study | J Virol | Intermittent Truvada prophylaxis tested against an emtricitabine-resistant (M184V) SHIV in macaques |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical virology | J Virol | M184V-mutant SIV emerged in macaques treated with lamivudine or emtricitabine, with reduced viral fitness |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Review | Curr Opin HIV AIDS | Review of animal models of antiretroviral prophylaxis for HIV prevention |
+| [22918448](https://pubmed.ncbi.nlm.nih.gov/22918448/) | 2012 | Review | Curr Opin HIV AIDS | Considerations for antiretroviral chemoprophylaxis in men who have sex with men |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Review of systemic pre-exposure prophylaxis for HIV infection |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0163 | Emtricitabine | Not specified | Not specified (status: cancelled) |
+| PNF-0163 | Emtricitabine | Not specified | Not specified in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Relations recorded in the knowledge graph (not label text):** the knowledge graph links emtricitabine with contraindication relations for conditions including liver disease, liver failure, kidney disease, chronic hepatitis B and C virus infection, lactic acidosis, Fanconi renotubular syndrome, hypophosphatemia, osteomalacia, long QT syndrome and torsades de pointes, and several psychiatric disorders. These are model-derived relations and need verification against the official label.
+- **Drug Interactions:** 20 interactions were found in the DDI database. The **Major** ones are **leflunomide** and **teriflunomide**. **Moderate** ones include orlistat, naltrexone, cobicistat, methotrexate, cladribine, clofarabine, epirubicin, idelalisib, interferon beta-1a/1b, peginterferon beta-1a, asparaginase, pegaspargase, brentuximab vedotin, cabozantinib, tioguanine and trabectedin. **Minor:** eribulin.
 
-The following are drawn from a drug-disease knowledge graph and are not label text. They should be verified against the official labelling:
-- **Knowledge-graph contraindication signals**: long QT syndrome, torsades de pointes, liver failure, liver disease, kidney disease, chronic hepatitis B and C virus infection, lactic acidosis, Fanconi renotubular syndrome, fatty liver disease/non-alcoholic steatohepatitis, hypophosphatemia, osteomalacia, rickets, epilepsy and several psychiatric disorders.
-- **Drug interactions**: 20 interactions were identified.
-  - **Major**: leflunomide, teriflunomide.
-  - **Moderate**: cobicistat, orlistat, naltrexone, methotrexate, interferon beta-1a/1b, peginterferon beta-1a, cladribine, clofarabine, tioguanine, epirubicin, idelalisib, cabozantinib, brentuximab vedotin, trabectedin, asparaginase, pegaspargase.
-  - **Minor**: eribulin.
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a veterinary disease supported by a single combination-therapy study in cats, with no clinical trials. It offers no human repurposing opportunity beyond the already approved HIV indication. The Philippines registration is also cancelled, and package insert safety data are unavailable.
+The prediction is mechanistically plausible, but the supporting evidence comes only from macaque and other animal models, mostly using emtricitabine in combination with tenofovir. SIV infection is not a human disease, so the prediction offers little repurposing value beyond HIV, which is already the drug's recorded use. The package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- A clear human-relevant target indication, since the top three predictions are veterinary, an animal model, or unsupported
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Confirmation of the current regulatory status in the Philippines, since the only registration is cancelled
-- If a veterinary application is pursued, full-text review of the FIV study to establish emtricitabine's specific contribution, and a veterinary regulatory pathway assessment
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- Mechanism of action data from DrugBank
+- A clear decision on whether a non-human, model-organism disease is a worthwhile target; if not, the focus should return to HIV-related indications
+- Approved indication text and dosage forms for licence PNF-0163
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

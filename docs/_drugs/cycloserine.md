@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, cycloserine is a second-line anti-tuberculosis agent. Its use in pulmonary tuberculosis is established, but the data compiled for this report do not show a plausible mechanistic link to irritable bowel syndrome (IBS).
 
-Cycloserine is known to inhibit bacterial cell-wall synthesis and to act on NMDA receptors in the central nervous system. Neither action has been tied to IBS pathophysiology in the data compiled here. The very high TxGNN score reflects a pattern found by the model in its knowledge graph, not confirmed clinical benefit.
+Cycloserine is known to inhibit bacterial cell-wall synthesis and to act on NMDA receptors in the central nervous system. Neither action has been tied to IBS pathophysiology in the data compiled here. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or confirmed clinical benefit.
 
 Other top-ranked predictions (acne, gastroparesis, conjunctivitis, insomnia, pharyngitis, nasal cavity disease) also have no clinical trials and little or no relevant literature. For insomnia, the literature points to cycloserine **causing** insomnia and psychosis, which is a safety signal rather than support for use.
 
@@ -73,7 +73,7 @@ Currently no related literature available for irritable bowel syndrome.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0122 | Cycloserine | Not specified | Not specified (status: cancelled) |
+| PNF-0122 | Cycloserine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

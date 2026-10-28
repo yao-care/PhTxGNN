@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Model Prediction Only (L5)
 nav_order: 242
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Moxifloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, pneumonia…"
+indication_count: 9
 monitor_inn: "Moxifloxacin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
+last_modified_at: 2026-10-23
+description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, pneumonia…"
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,123 +33,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Moxifloxacin: From Bacterial Infections to Hyperamylasemia
+## Moxifloxacin: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Moxifloxacin is a fluoroquinolone antibiotic originally used for bacterial infections such as pneumonia, peritonitis, conjunctivitis and plague.
-The TxGNN model's top-ranked prediction is **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting it, so this looks like a knowledge-graph artifact.
-The only prediction with a coherent rationale is **bubonic plague**, which falls within the drug's existing indication family and is supported by **4 preclinical studies** (plus 1 unrelated adverse-event case report).
-
----
+Moxifloxacin is a fluoroquinolone antibacterial.
+The TxGNN model predicts it may be useful for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, peritonitis, conjunctivitis, plague, among others) |
-| Predicted New Indication | Hyperamylasemia (rank 1) |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, peritonitis, conjunctivitis, plague), as recorded in the knowledge graph. The local licence record contains no approved indication text. |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Number of Approvals | 1 (single-ingredient registration) |
 | Recommended Decision | Hold |
-
-Note: the registration record in the data compiled for this report contains no approved-indication text, so the original indication above is taken from the drug's knowledge-graph indication list.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, moxifloxacin is a fluoroquinolone antibacterial that inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy in bacterial infections is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin is generally known as a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV.
 
-**For the top prediction, hyperamylasemia, no plausible mechanistic link exists.** An antibacterial has no recognized role in lowering amylase, and there are no trials or publications. The high score most likely reflects graph proximity rather than a real therapeutic signal.
-
-The other high-scoring predictions (polyclonal hyperviscosity syndrome, blood group incompatibility, congenital analbuminemia, premalignant and congenital hematological disorders, monoclonal gammopathy, hematopoietic and lymphoid neoplasm) share the same problem. Their links are indirect, such as infection prophylaxis in immunocompromised patients, or absent altogether.
-
-**The one coherent prediction is bubonic plague (rank 10, score 99.41%).** Moxifloxacin inhibits bacterial DNA gyrase and topoisomerase IV and is active against *Yersinia pestis* in vitro and in animals. Plague and pneumonic plague are already among its original indications, so this is an extension within an existing indication family rather than true repurposing.
-
-Because the sections below follow the rank 1 prediction, they show no trials or literature. The bubonic plague evidence is summarized in the Literature Evidence section as a point of reference.
-
----
+For this prediction, no plausible mechanistic link was identified. Polyclonal hyperviscosity comes from excess immunoglobulin in the blood and is not an infectious process, so an antibacterial would not be expected to treat it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not a finding backed by clinical or literature evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hyperamylasemia.
+Currently no related clinical trials are registered for polyclonal hyperviscosity syndrome.
 
-For reference, the lower-ranked predictions include trials in which moxifloxacin was used only for supportive care or as a comparator:
+For context, other lower-ranked predictions had only indirectly related trials, none of which studied the predicted disease itself:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00324324](https://clinicaltrials.gov/study/NCT00324324) | Phase 3 | Terminated | 240 | Placebo-controlled antibacterial prophylaxis after allogeneic stem cell transplant (indirect relevance) |
-| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | Terminated | 351 | Moxifloxacin alone vs ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients (indirect relevance) |
-| [NCT07023029](https://clinicaltrials.gov/study/NCT07023029) | Phase 1 | Completed | 33 | Etavopivat cardiac repolarisation study in healthy participants; moxifloxacin is likely the QT positive control |
-
-None of these tests moxifloxacin for a predicted new indication.
-
----
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | Terminated | 351 | Moxifloxacin alone vs. ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients (matched to monoclonal gammopathy and congenital hematological disorder; indirect only) |
+| [NCT00324324](https://clinicaltrials.gov/study/NCT00324324) | Phase 3 | Terminated | 240 | Moxifloxacin vs. placebo to prevent bacterial infections after allogeneic stem cell transplant (infection prevention, not the predicted disease) |
 
 ## Literature Evidence
 
-Currently no related literature available for hyperamylasemia.
-
-For reference, the literature for the bubonic plague prediction (rank 10) is below.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [20052916](https://pubmed.ncbi.nlm.nih.gov/20052916/) | 2009 | Preclinical (mouse) | Antibiotiki i khimioterapiia | Y. pestis strains highly susceptible; ED50 of levofloxacin and moxifloxacin 5.5–14.0 mg/kg in infected mice |
-| [15555886](https://pubmed.ncbi.nlm.nih.gov/15555886/) | 2004 | Preclinical (mouse) | Int J Antimicrob Agents | Moxifloxacin and gatifloxacin protected mice in systemic and pneumonic plague models, compared with ciprofloxacin |
-| [21115791](https://pubmed.ncbi.nlm.nih.gov/21115791/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | In vitro pharmacodynamic model used to derive a moxifloxacin regimen that kills Y. pestis and prevents resistance |
-| [21486959](https://pubmed.ncbi.nlm.nih.gov/21486959/) | 2011 | Preclinical (in vitro) | Antimicrob Agents Chemother | Comparative efficacy of candidate antibiotics against Y. pestis in an in vitro model |
-| [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/) | 2018 | Case report | Ther Adv Drug Saf | Moxifloxacin-induced tinnitus in an older adult (adverse event, not efficacy) |
-
----
+Currently no related literature available for polyclonal hyperviscosity syndrome.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0332 | Moxifloxacin | Not specified | Not specified (registration status: cancelled) |
+| PNF-0332 | Moxifloxacin | Not specified | Not specified |
 
-The only registration on record is cancelled, so no currently valid moxifloxacin product was identified in the Philippines.
-
----
+This is a single-ingredient registration. The record contains no approved indication text, so the indications listed above come from the TxGNN model (deep learning). The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
+- **Relations recorded in the knowledge graph as contraindications** (not label text): long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease, epilepsy, cirrhosis of liver, drug-induced liver injury, potassium deficiency disease, tendinitis, peripheral neuropathy and other peripheral nervous system disease, myasthenia gravis, neuromuscular junction disease, Clostridium difficile colitis and perinatal necrotizing enterocolitis.
+- **Drug Interactions**: 100 interactions were found. Major-level ones among those listed include hydrocortisone, dexamethasone, betamethasone, triamcinolone (corticosteroids), bupropion and chlorpropamide. Moderate-level ones include antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, acetylsalicylic acid and calcium or potassium salts.
 
-**Contraindication-related conditions from the knowledge graph (not label text):**
-- **Cardiac:** long QT syndrome, familial long QT syndrome, torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease
-- **Neurological and neuromuscular:** epilepsy, myasthenia gravis, neuromuscular junction disease, peripheral neuropathy
-- **Musculoskeletal:** tendinitis, periarthritis, exostosis
-- **Hepatic:** cirrhosis of liver, drug-induced liver injury
-- **Gastrointestinal:** *Clostridium difficile* colitis, perinatal necrotizing enterocolitis
-- **Metabolic:** potassium deficiency disease
-
-**Drug interactions:** 100 interactions were found. The main **Major**-level ones among those listed are:
-- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
-- Bupropion
-- Chlorpropamide
-
-Moderate-level interactions include antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, aspirin, and calcium- and potassium-containing products.
-
----
+Please also refer to the package insert for the full safety information, which was not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top prediction, hyperamylasemia, has no clinical or literature support and no plausible mechanism, so it is best treated as a computational artifact. The other high-ranking predictions are likewise unsupported or only indirectly related.
-- Moxifloxacin's known safety concerns (QT prolongation, tendon and neuropathy risks, dysglycemia) argue against speculative use. Its only registration in the Philippines is cancelled.
+The prediction has no supporting trials or literature and no plausible mechanism. The evidence level is L5. The contraindication profile (QT prolongation, neuropathy, dysglycemia) argues against use in this setting.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Mechanism of action data from DrugBank
-- For bubonic plague, which is already within the original indication family, a review of whether the preclinical evidence is sufficient. Human data would be needed, and a market-availability check should come first.
-- Confirmation of a currently valid Philippines registration
+- A credible mechanistic hypothesis linking moxifloxacin to hyperviscosity from polyclonal immunoglobulin excess
+- Mechanism of action data and Philippine package insert warnings and contraindications
+- Preclinical or clinical studies that directly address this disease
+- A benefit-risk review that takes the knowledge-graph contraindications into account
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

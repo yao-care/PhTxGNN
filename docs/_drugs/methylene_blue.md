@@ -4,17 +4,17 @@ title: Methylene Blue
 parent: Model Prediction Only (L5)
 nav_order: 228
 evidence_level: L5
-indication_count: 3
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Methemoglobinemia, sulfhemoglobinemia"
 monitor_inn: "Methylene blue"
-predicted_indications: ["bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia due to deficiency of methemoglobin reductase"]
+predicted_indications: ["bronchitis"]
+description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methylene Blue
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Methylene Blue: From Methemoglobinemia to Bronchitis
+## Methylene Blue: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 | Item | Content |
 |------|------|
-| Original Indication | Methemoglobinemia, sulfhemoglobinemia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,8 +64,6 @@ Currently, detailed mechanism of action data is not available. Based on known in
 The link between this mechanism and bronchitis is not demonstrated. Any biological rationale, such as inhibition of nitric oxide/guanylate cyclase signalling or anti-inflammatory effects, is speculative. The high TxGNN score is likely driven by keyword co-occurrence. Methylene blue appears in the literature mainly as a diagnostic stain or laboratory marker in airway-related work, not as a therapy.
 
 Two other predictions are worth noting. Both are subtypes of the drug's original indication, so they are confirmation of known use rather than new repurposing:
-- **Methemoglobinemia, alpha type** (score 99.36%): mechanistically strong, but there are no specific trials, and the only publication retrieved concerns protein conformation studies, not treatment. Evidence level L4.
-- **Methemoglobinemia due to methemoglobin reductase deficiency** (score 99.36%): methylene blue can bypass the impaired NADH-dependent pathway through the NADPH-dependent route. Support comes from veterinary reports of oral methylene blue in dogs with cytochrome b5 reductase deficiency (PMIDs 35202847, 36638001) and human case reports. Evidence level L4.
 
 ---
 
@@ -104,9 +102,8 @@ For the related methemoglobinemia subtype (reductase deficiency), the most relev
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0318 | Methylene Blue | Not specified | Not specified (status: cancelled) |
+| PNF-0318 | Methylene Blue | Not specified | Not specified (status: valid) |
 
-The only registration is cancelled, so no valid product is currently registered.
 
 ---
 

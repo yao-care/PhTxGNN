@@ -6,9 +6,9 @@ nav_order: 330
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terazosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Terazosin: From Hypertension and Benign Prostatic Hyperplasia to Hypotrichosis Simplex of the Scalp
+## Terazosin: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more credible repurposing signals in the data are for **Raynaud disease** an
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (from the knowledge graph, as the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +62,11 @@ The more credible repurposing signals in the data are for **Raynaud disease** an
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, terazosin is an alpha-1 adrenergic blocker. Its efficacy in hypertension and BPH is established, and it works by relaxing vascular and prostatic smooth muscle.
 
-For the top-ranked prediction, hypotrichosis simplex of the scalp, the link is speculative. A hair-growth effect through alpha-1 blockade or vasodilation is conceivable, but nothing in the data supports it. This is a rare hereditary condition, and the high score most likely reflects the model's proximity to other hair-loss terms in the knowledge graph rather than a real pharmacological signal. The same applies to the other hair-related predictions (congenital hypotrichosis milia, diffuse alopecia areata, Ambras-type hypertrichosis) and to manic bipolar affective disorder and kyphoscoliotic heart disease. All of these are prediction-only.
+For the top-ranked prediction, hypotrichosis simplex of the scalp, the link is speculative. A hair-growth effect through alpha-1 blockade or vasodilation is conceivable, but nothing in the data supports it. This is a rare hereditary condition, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a real pharmacological signal. The same applies to the other hair-related predictions (congenital hypotrichosis milia, diffuse alopecia areata, Ambras-type hypertrichosis) and to manic bipolar affective disorder and kyphoscoliotic heart disease. All of these are prediction-only.
 
 Two predictions have a more plausible biological rationale and some published support:
-- **Raynaud disease** (score 99.83%): Alpha-1 blockade reduces sympathetic vasoconstriction in digital vessels. A 1997 publication reports fewer and milder vasospastic attacks with terazosin.
-- **Migraine disorder** (score 99.92%): Older reports suggest alpha-1 blockers may help prevent migraine through effects on adrenergic and vascular tone.
+- **Raynaud disease** (score 0.9983): Alpha-1 blockade reduces sympathetic vasoconstriction in digital vessels. A 1997 publication reports fewer and milder vasospastic attacks with terazosin.
+- **Migraine disorder** (score 0.9992): Older reports suggest alpha-1 blockers may help prevent migraine through effects on adrenergic and vascular tone.
 
 ---
 
@@ -95,9 +95,9 @@ The 1994 migraine paper concerns migraine without aura, so it does not match the
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0476 | Terazosin | Not specified | Not specified (status: cancelled) |
+| PNF-0476 | Terazosin | Not specified | Not specified (status: valid) |
 
-Terazosin has no currently valid registration in the Philippines, so any new use would require a new registration or a variation of the existing one.
+Terazosin is currently marketed in the Philippines, with 1 valid license out of 1, so any new use would require a new registration or a variation of the existing one.
 
 ---
 

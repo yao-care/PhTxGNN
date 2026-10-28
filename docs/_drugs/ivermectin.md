@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-15
-description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Strongyloidiasis, onchocerciasis"
 monitor_inn: "Ivermectin"
-predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "candida glabrata", "neonatal candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
+last_modified_at: 2026-10-27
+description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivermectin
@@ -33,32 +33,30 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Ivermectin: From Strongyloidiasis and Onchocerciasis to Vulvovaginal Candidiasis
+## Ivermectin: Antiparasitic (avermectin class) → vulvovaginal candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ivermectin is an antiparasitic drug originally used to treat strongyloidiasis and onchocerciasis.
-The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+Ivermectin is an antiparasitic drug. The TxGNN model predicts it may be relevant for **vulvovaginal candidiasis**, with a score of 0.9995. The data compiled for this report contain **no clinical trials and no publications** that directly study this disease, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Strongyloidiasis, onchocerciasis (the Philippines license record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ivermectin is known as an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. Its efficacy in strongyloidiasis and onchocerciasis is established.
+Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Ivermectin is generally known as an antiparasitic that acts on glutamate-gated chloride channels in invertebrates. These channels are not present in fungi, so no mechanistic link to *Candida* infection is established.
 
-These channels are not present in fungi, and the data compiled for this report show no mechanistic link between ivermectin and *Candida* or vulvovaginal candidiasis. The high score (99.95%) appears to be a graph-based association only. Other candidiasis and vaginitis entries in the prediction list score similarly high, which suggests the model is picking up on disease-network proximity rather than a pharmacological rationale.
+The high score is a computational prediction only. Several other predictions for this drug are also candidiasis- or vaginitis-related, which suggests the score may reflect proximity among related disease entries in the model rather than a demonstrated antifungal effect. This prediction should be treated as a hypothesis, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -66,18 +64,9 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top prediction, vulvovaginal candidiasis.
-
-Two publications were linked to lower-ranked predictions. Neither supports antifungal efficacy:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case report | BMJ Case Reports | Disseminated strongyloidiasis after prolonged corticosteroid treatment. This is the drug's original indication, not candidiasis (linked to esophageal candidiasis). |
-| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case report | Australasian Journal of Dermatology | Two immunocompromised children with crusted scabies were treated successfully with oral ivermectin. One child had chronic mucocutaneous candidiasis, but the report does not show an antifungal effect (linked to congenital candidiasis). |
+Currently no related literature available for vulvovaginal candidiasis.
 
 ## Philippines Market Information
-
-The Philippines registration record lists one authorization, which has been cancelled. It carries no dosage form or approved-indication text. There are no currently valid single-ingredient or combination registrations.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -85,36 +74,24 @@ The Philippines registration record lists one authorization, which has been canc
 
 ## Safety Considerations
 
-- **Disease-level contraindications (from the knowledge graph, not label text)**: loiasis and filariasis.
-- **Drug Interactions**: 100 interactions were identified. The main ones rated Moderate are:
-  - Aprepitant
-  - Clarithromycin
-  - Ethanol
-  - Cobicistat
-  - Deferasirox
-  - Warfarin
-  - Dicoumarol
-  - Fostamatinib
-  - Radioactive iodide (I-123, I-131)
-  - Abametapir (topical)
+- **Drug Interactions**: The interaction check returned 100 records, and the main ones are listed below.
+  - Moderate: aprepitant, clarithromycin, ethanol, cobicistat, deferasirox, iodide I-123, iodide I-131, dicoumarol, fostamatinib, warfarin, abametapir (topical)
+  - Level not classified: omeprazole, lansoprazole, prednisone, prednisolone, ranitidine, famotidine, dexamethasone, ursodeoxycholic acid, heparin
 
-  Other interactions have no severity rating, including omeprazole, lansoprazole, prednisone, prednisolone, dexamethasone, ranitidine, famotidine, ursodeoxycholic acid and heparin.
-
-Please refer to the package insert for label warnings and contraindications.
+Please refer to the package insert for other safety information (warnings and contraindications).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or relevant literature, and no plausible antifungal mechanism is evident. The drug has no valid Philippines registration at present. The evidence level is L5 (model prediction only).
+The prediction has no supporting clinical trials or publications, and no plausible antifungal mechanism is identified in the available data. Evidence remains at the model-prediction level (L5).
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action data, and any in vitro evidence of activity against *Candida* species
-- Preclinical or early clinical studies in vulvovaginal candidiasis
-- Package insert warnings and contraindications from DOH-FDA Philippines
-- Clarification of the regulatory status of the cancelled registration, and the route and formulation that would be needed
-- A review of whether established antifungal treatments already meet the clinical need
+- Mechanism of action data for ivermectin, and evidence of any activity against *Candida* species (e.g. in vitro studies)
+- Clinical or preclinical studies directly addressing vulvovaginal candidiasis
+- Package insert warnings and contraindications from the DOH-FDA Philippines
+- Confirmation of route and dosage form compatibility with the intended use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

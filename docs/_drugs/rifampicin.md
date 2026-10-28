@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
-predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
+predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Rifampicin
@@ -50,10 +50,10 @@ but there are currently **no registered clinical trials** and only **a small amo
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 This activity could plausibly apply to bacterial or chlamydial conjunctivitis. Older studies tested topical rifampicin ointment in trachoma and in chlamydial eye infection, which is the closest thing to direct clinical support. However, most of the retrieved literature consists of susceptibility surveys, case reports and general reviews, with no controlled data for rifampicin in conjunctivitis itself. Topical ophthalmic use is also not an established standard of care.
 
 Other predictions were also reviewed. Most have even weaker support:
-- **Rheumatoid arthritis** (score 99.45%, evidence level L3): several small, older clinical studies (1988–1993) showed limited benefit, and the idea was not adopted. The only registered trial is a Phase 1 drug-interaction study.
+- **Rheumatoid arthritis** (score 0.9945, evidence level L3): several small, older clinical studies (1988–1993) showed limited benefit, and the idea was not adopted. The only registered trial is a Phase 1 drug-interaction study.
 - **Acne**: the literature mostly concerns hidradenitis suppurativa (a different disease), where rifampicin plus clindamycin is used. There is no acne-specific trial.
 - **HIV infection**: the trials concern HIV/TB co-infection, where rifampicin treats the TB. It is not an HIV treatment and does not count as repurposing.
 - **Multiple endocrine neoplasia, a rare neurodevelopmental disorder, acute contagious conjunctivitis, simian immunodeficiency virus infection, feline AIDS**: computational prediction only, with no supporting evidence and no plausible mechanistic link.
@@ -97,7 +97,7 @@ Currently no related clinical trials registered for conjunctivitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0421 | Rifampicin | Not specified | Not specified (registration cancelled) |
+| PNF-0421 | Rifampicin | Not specified | Not specified (registration valid) |
 
 ---
 
@@ -118,7 +118,7 @@ Additional information from other sources:
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but it is a model output only. There are no registered trials in conjunctivitis, and the literature is old, small or non-interventional. Rifampicin has no valid registration in the Philippines, and topical ophthalmic use is not standard care. None of the ten predicted indications is currently strong enough to advance, and rheumatoid arthritis has the most prior clinical testing but showed limited benefit.
+The prediction score is very high, but it is a model output only. There are no registered trials in conjunctivitis, and the literature is old, small or non-interventional. Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but topical ophthalmic use is not standard care. None of the ten predicted indications is currently strong enough to advance, and rheumatoid arthritis has the most prior clinical testing but showed limited benefit.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

@@ -48,17 +48,17 @@ but **no clinical trials** and only **10 publications** (reviews and case report
 |------|------|
 | Original Indication | Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis, bacterial vaginosis, rosacea, intracranial abscess and others (the Philippines registration record has no indication text) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Metronidazole is generally known as a nitroimidazole antimicrobial that works against anaerobic bacteria and protozoa after its nitro group is reduced inside the organism.
 
-That mechanism does not carry over to pneumocystosis. *Pneumocystis* is a fungus and lacks this activation pathway, and the retrieved literature gives no credible mechanistic link. The very high TxGNN score is most likely an artifact of the knowledge graph, which groups metronidazole with antiprotozoal drugs. The retrieved papers are general antiparasitic reviews and HIV opportunistic infection reports in which metronidazole treated a co-existing infection such as amoebiasis, not Pneumocystis.
+That mechanism does not carry over to pneumocystosis. *Pneumocystis* is a fungus and lacks this activation pathway, and the retrieved literature gives no credible mechanistic link. The very high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved papers are general antiparasitic reviews and HIV opportunistic infection reports in which metronidazole treated a co-existing infection such as amoebiasis, not Pneumocystis.
 
 ## Clinical Trial Evidence
 
@@ -83,7 +83,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0324 | Metronidazole | Not specified | Not specified (status: cancelled) |
+| PNF-0324 | Metronidazole | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

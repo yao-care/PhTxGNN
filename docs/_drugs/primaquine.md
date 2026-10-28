@@ -4,17 +4,17 @@ title: Primaquine
 parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Plasmodium vivax malaria"
 monitor_inn: "Primaquine"
-predicted_indications: ["myiasis", "wound myiasis", "creeping myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primaquine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Primaquine: From Plasmodium vivax Malaria to Myiasis
+## Primaquine: Myiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Primaquine is an 8-aminoquinoline antimalarial, originally used for radical cure of *Plasmodium vivax* malaria.
 The TxGNN model predicts it may be effective for **myiasis** (fly-larva infestation), but **no clinical trials and no publications** support this prediction.
-The data compiled for this report do show stronger evidence for two other predicted uses, malaria transmission-blocking and *Pneumocystis* pneumonia (see "Other Predicted Indications With Evidence").
+The data compiled for this report do show stronger evidence for another predicted use, *Pneumocystis* pneumonia (see "Other Predicted Indications With Evidence").
 
 ---
 
@@ -48,12 +48,12 @@ The data compiled for this report do show stronger evidence for two other predic
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasmodium vivax malaria (taken from knowledge-graph indication data, because the local registration lists no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The data compiled for this report do show stronger evidence for two other predic
 
 Currently, detailed mechanism of action data is not available. Primaquine is known to act on the liver stages (hypnozoites) and gametocytes of malaria parasites. Its efficacy in *P. vivax* malaria is well established.
 
-For myiasis, however, no mechanistic rationale is evident. Myiasis is a tissue infestation by fly larvae, an ectoparasitic condition. Primaquine targets *Plasmodium*, a protozoan blood and liver parasite. The high score appears to reflect closeness to other antiparasitic drugs in the knowledge graph rather than a biological link.
+For myiasis, however, no mechanistic rationale is evident. Myiasis is a tissue infestation by fly larvae, an ectoparasitic condition. Primaquine targets *Plasmodium*, a protozoan blood and liver parasite. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Three related predictions (wound myiasis, creeping myiasis and furuncular myiasis) have nearly identical scores of about 99.73%. They appear to be inherited from the parent term "myiasis" rather than independently supported. Furuncular myiasis is usually managed by larval removal or occlusion, and sometimes ivermectin. Nothing suggests a role for primaquine.
+Three related predictions (wound myiasis, creeping myiasis and furuncular myiasis) have nearly identical scores of about 0.9973. They appear to be inherited from the parent term "myiasis" rather than independently supported. Furuncular myiasis is usually managed by larval removal or occlusion, and sometimes ivermectin. Nothing suggests a role for primaquine.
 
 ---
 
@@ -84,7 +84,6 @@ Currently no related literature available for myiasis.
 
 These are not the lead prediction, but they are the only places where the compiled data show meaningful support.
 
-**Malaria (score 99.38%, Evidence Level L1, Proceed with Guardrails).** This is essentially the approved indication family, not a novel repurposing. The transmission-blocking use in falciparum malaria goes beyond the original indication.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -97,7 +96,7 @@ These are not the lead prediction, but they are the only places where the compil
 
 Supporting reviews include [25363455](https://pubmed.ncbi.nlm.nih.gov/25363455/) (2014, Malaria Journal, primaquine risks and benefits), [22152065](https://pubmed.ncbi.nlm.nih.gov/22152065/) (2011, Malaria Journal, primaquine in vivax malaria) and [38123228](https://pubmed.ncbi.nlm.nih.gov/38123228/) (2023, BMJ Global Health, individual patient data meta-analysis in South Asia).
 
-**Pneumocystosis (score 99.32%, Evidence Level L1, Research Question).** Primaquine with clindamycin is an established second-line regimen for mild-to-moderate *Pneumocystis jirovecii* pneumonia. It is mainly used when TMP-SMX cannot be given. Primaquine alone has no supporting evidence.
+**Pneumocystosis (score 0.9932, Evidence Level L1, Research Question).** Primaquine with clindamycin is an established second-line regimen for mild-to-moderate *Pneumocystis jirovecii* pneumonia. It is mainly used when TMP-SMX cannot be given. Primaquine alone has no supporting evidence.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
@@ -107,7 +106,7 @@ Supporting reviews include [25363455](https://pubmed.ncbi.nlm.nih.gov/25363455/)
 
 Supporting literature includes [39732393](https://pubmed.ncbi.nlm.nih.gov/39732393/) (2025, network meta-analysis of PCP regimens in people living with HIV) and [27550993](https://pubmed.ncbi.nlm.nih.gov/27550993/) (2016, ECIL guidelines for PCP in non-HIV haematology patients).
 
-**Toxoplasmosis (score 99.64%, Evidence Level L4, Hold).** Only general protozoan reviews that mention primaquine incidentally were found. There is no toxoplasmosis-specific efficacy data.
+**Toxoplasmosis (score 0.9964, Evidence Level L4, Hold).** Only general protozoan reviews that mention primaquine incidentally were found. There is no toxoplasmosis-specific efficacy data.
 
 ---
 
@@ -115,7 +114,7 @@ Supporting literature includes [39732393](https://pubmed.ncbi.nlm.nih.gov/397323
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0400 | Primaquine | Not stated | Not stated (status: cancelled) |
+| PNF-0400 | Primaquine | Not stated | Not stated (status: valid) |
 
 ---
 

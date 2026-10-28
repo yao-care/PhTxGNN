@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 |------|------|
 | Original Indication | Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis (the license record has no approved indication text) |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 
 Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is a first-line anti-tuberculosis agent. It is a prodrug that is converted to pyrazinoic acid by mycobacterial pyrazinamidase, so it acts specifically against *Mycobacterium tuberculosis*.
 
-The prediction for infectious otitis media is therefore hard to support mechanistically. Pyrazinamide has no activity against the usual causes of otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). The high score most likely reflects the drug's closeness to tuberculous otitis in the knowledge graph, not a real mechanistic link.
+The prediction for infectious otitis media is therefore hard to support mechanistically. Pyrazinamide has no activity against the usual causes of otitis media (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other highly ranked ear-related predictions fall into two groups:
 - **Tuberculous subset only:** Middle ear disease, chronic otitis media and suppurative otitis media have case reports where pyrazinamide was part of standard multidrug anti-TB therapy. This is an on-label use of the drug for extrapulmonary TB, not a new repurposing mechanism.
@@ -96,7 +96,7 @@ There is no literature for the top prediction (infectious otitis media). The tab
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0407 | Pyrazinamide | Not specified | Not specified (registration cancelled) |
+| PNF-0407 | Pyrazinamide | Not specified | Not specified (registration valid) |
 
 ---
 

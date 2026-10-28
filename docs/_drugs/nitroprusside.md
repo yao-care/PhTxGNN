@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitroprusside
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 255
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Nitroprusside: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "nitroprusside"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease"]
 ---
 
 # Nitroprusside
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Of the ten predictions, **pulmonary hypertension** has the most plausible mechan
 |------|------|
 | Original Indication | Not available (the Philippines registration has no indication text) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L4 (preclinical and mechanism studies only) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -97,7 +97,7 @@ The literature shows that nitroprusside is a **migraine research tool and trigge
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0452 | Sodium Nitroprusside | Not specified | Not specified (status: cancelled) |
+| PNF-0452 | Sodium Nitroprusside | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

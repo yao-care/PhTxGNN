@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrheal disease, dysentery"
 monitor_inn: "Loperamide"
-predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "Angelucci syndrome"]
+predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "Angelucci syndrome"]
 ---
 
 # Loperamide
@@ -48,17 +48,17 @@ but there are **0 clinical trials** and **0 publications** supporting this predi
 |------|------|
 | Original Indication | Diarrheal disease, dysentery |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Loperamide is a peripheral mu-opioid receptor agonist. It acts on the myenteric neurons of the gut to reduce motility. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
 
-No plausible mechanistic link was identified between this gut-acting mechanism and infectious conjunctivitis. Ocular exposure and relevance to the eye are unsupported. The high TxGNN score is most likely a graph-based artifact, probably driven by shared ontology neighbors among conjunctivitis-related terms.
+No plausible mechanistic link was identified between this gut-acting mechanism and infectious conjunctivitis. Ocular exposure and relevance to the eye are unsupported. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The same pattern appears in the other top-ranked predictions, which are mostly conjunctivitis variants (conjunctivitis, pseudomembranous conjunctivitis, serous conjunctivitis except viral, conjunctival folliculosis, chronic follicular conjunctivitis, parasitic conjunctivitis and Angelucci syndrome). None has clinical or mechanistic support. For amebic dysentery and gastroduodenitis, the only available literature points to safety concerns rather than efficacy (see Literature Evidence).
 
@@ -80,7 +80,7 @@ No literature is available for the top-ranked prediction (acute contagious conju
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0293 | Loperamide | Not specified | Not specified (status: cancelled) |
+| PNF-0293 | Loperamide | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

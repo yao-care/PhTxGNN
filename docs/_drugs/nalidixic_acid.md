@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nalidixic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 246
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not stated in the registration data (class use: bacterial infections)"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid 
 # Nalidixic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, with **0 cl
 |------|------|
 | Original Indication | Not stated in the registration data (class use: bacterial infections) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,9 +67,9 @@ Other predicted indications are weaker still:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Note |
 |---|---|---|---|---|
-| 2 | Sclerosing cholangitis | 99.63% | L5 | No trials or literature. Any link through gut microbiota is speculative. |
-| 3 | Rheumatoid arthritis | 99.41% | L5 | The only article is an unrelated observational study of oral Staphylococcus colonization. |
-| 4 | Infectious otitis media | 99.04% | L4 | The only article studies ofloxacin, a different drug, so it is indirect class-level evidence. |
+| 2 | Sclerosing cholangitis | 0.9963 | L5 | No trials or literature. Any link through gut microbiota is speculative. |
+| 3 | Rheumatoid arthritis | 0.9941 | L5 | The only article is an unrelated observational study of oral Staphylococcus colonization. |
+| 4 | Infectious otitis media | 0.9904 | L5 | The only article studies ofloxacin, a different drug, so it is indirect class-level evidence. |
 
 ---
 
@@ -97,7 +97,7 @@ None of these articles tests nalidixic acid against conjunctivitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0338 | Nalidixic Acid (cancelled) | Not stated | Not stated |
+| PNF-0338 | Nalidixic Acid (valid) | Not stated | Not stated |
 
 ---
 

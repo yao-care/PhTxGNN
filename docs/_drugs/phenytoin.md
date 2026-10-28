@@ -4,17 +4,17 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 275
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalized tonic-clonic seizures…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
+## Phenytoin: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (including generalized tonic-clonic seizures, partial epilepsy, status epilepticus, Lennox-Gastaut syndrome). Taken from knowledge-graph indications, because the local registration lists no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,9 @@ Neither paper provides direct evidence for phenytoin in trigeminal nerve neoplas
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0384 | Phenytoin | Cancelled |
+| PNF-0384 | Phenytoin | Valid |
 
-This is the only registration, and it is a single-ingredient product. No dosage form or approved indication text is listed. There are no currently valid registrations.
+This is the only registration, and it is a single-ingredient product. No dosage form or approved indication text is listed. This registration is currently valid (1 valid licence of 1).
 
 ## Safety Considerations
 

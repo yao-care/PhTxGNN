@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
 nav_order: 286
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "Propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (TRβ Mutation)
+## Propylthiouracil: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (from the knowledge-graph indication data; the local registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,8 +65,7 @@ The high TxGNN score most likely reflects network proximity to thyroid-hormone-a
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Neonatal thyrotoxicosis | 99.40% | L4 | Mechanistically plausible, as it is an extension of the existing Graves/thyrotoxicosis use. The literature (19 publications, mostly reviews) addresses maternal antithyroid drug use in pregnancy, not direct neonatal PTU trials. Recommendation: Research Question. |
-| 3 | Hyperthyroxinemia | 99.08% | L4 | A laboratory finding with many causes. PTU is relevant only when it reflects true thyroid overproduction, which overlaps with existing indications. It is not indicated, and may be harmful, in binding-protein defects or RTH. Recommendation: Hold. |
+| 3 | Hyperthyroxinemia | 0.9908 | L4 | A laboratory finding with many causes. PTU is relevant only when it reflects true thyroid overproduction, which overlaps with existing indications. It is not indicated, and may be harmful, in binding-protein defects or RTH. Recommendation: Hold. |
 
 ## Clinical Trial Evidence
 
@@ -85,7 +84,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0403 | Propylthiouracil | Not specified | Not specified (status: cancelled) |
+| PNF-0403 | Propylthiouracil | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -113,7 +112,6 @@ The top prediction (RTH-β) has no clinical trials, no studies testing PTU as tr
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and the package insert warnings and contraindications
 - Expert endocrinology review to confirm that PTU is not appropriate for RTH-β
-- If the team wishes to pursue this further, the rank 2 prediction (neonatal thyrotoxicosis) is a better research question, using direct neonatal data and a safety assessment of hepatotoxicity
 - Clarification of the regulatory pathway, since the only local registration (PNF-0403) is cancelled
 ## Disclaimer
 

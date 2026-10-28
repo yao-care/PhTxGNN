@@ -6,9 +6,9 @@ nav_order: 216
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Enterobiasis, ascariasis, trichuriasis"
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Mebendazole: From Enterobiasis, Ascariasis and Trichuriasis to Acne
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **acne**, but there are current
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascariasis, trichuriasis (from the knowledge graph; the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0300 | Mebendazole | Not stated | Not stated (status: cancelled) |
+| PNF-0300 | Mebendazole | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 
@@ -91,7 +91,7 @@ Please refer to the package insert for further safety information, such as warni
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (evidence level L5). There are no clinical trials, the only publication is an unrelated case report, and no mechanistic link to acne is established. The drug also has no currently valid registration in the Philippines.
+The prediction is supported only by a model score (evidence level L5). There are no clinical trials, the only publication is an unrelated case report, and no mechanistic link to acne is established. The drug is marketed in this country, with 1 of 1 licenses currently valid.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link to acne

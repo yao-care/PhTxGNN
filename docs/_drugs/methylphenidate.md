@@ -50,10 +50,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available from the Philippines registration) |
 | Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,9 +68,9 @@ Faciodigitogenital syndrome (Aarskog-Scott syndrome) is an X-linked developmenta
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Chondromyxoid fibroma | 99.991% | L5 | No plausible mechanistic link; likely a graph-based artefact |
-| Specific developmental disorder | 99.988% | L4 | Indirect evidence via ADHD co-occurrence; no trial in the learning disorder itself. 18 articles were found, 10 reviewed here |
-| Dysthymic disorder | 99.109% | L4 | Indirect evidence via ADHD with comorbid subsyndromal depression; no trial in dysthymia |
+| Chondromyxoid fibroma | 0.9999 | L5 | No plausible mechanistic link; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| Specific developmental disorder | 0.9999 | L5 | Indirect evidence via ADHD co-occurrence; no trial in the learning disorder itself. 18 articles were found, 10 reviewed here |
+| Dysthymic disorder | 0.9911 | L5 | Indirect evidence via ADHD with comorbid subsyndromal depression; no trial in dysthymia |
 
 ---
 
@@ -88,7 +88,7 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 ## Philippines Market Information
 
-The one registration on record (PNF-0320, methylphenidate, single-ingredient) has been cancelled. No dosage form or approved indication text is available, and there are no currently valid registrations.
+The one registration on record (PNF-0320, methylphenidate, single-ingredient) is valid, and the drug is marketed. No dosage form or approved indication text is available.
 
 ---
 

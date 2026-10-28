@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sucralfate
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 320
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Duodenal ulcer"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sucralfate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
+## Sucralfate: Duodenogastric reflux
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 
 | Item | Content |
 |------|------|
-| Original Indication | Duodenal ulcer (from the TxGNN knowledge graph; no approved indication text is available in the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 (see note below) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Evidence level note: no completed Phase 2/3 trial is registered. The L2 rating rests on small published randomized studies, so it should be read as a cautious, provisional level.*
@@ -96,7 +96,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0462 | Sucralfate | Not specified | Not specified (status: cancelled) |
+| PNF-0462 | Sucralfate | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -126,7 +126,7 @@ The TxGNN score is high and the mechanism is plausible, but there are no registe
 - A valid Philippines registration or a plan to re-register the product
 - A safety plan for patients with kidney disease or diabetes, and for interactions (especially with integrase inhibitors, tetracyclines and bisphosphonates)
 
-*Note on the second prediction: "duodenal obstruction" (TxGNN score 99.30%) was also reviewed. No credible mechanistic link or supporting evidence was found, because obstruction is a structural problem a mucosal protectant would not be expected to relieve. It is rated L5 with a Hold recommendation.*
+*Note on the second prediction: "duodenal obstruction" (TxGNN score 0.9930) was also reviewed. No credible mechanistic link or supporting evidence was found, because obstruction is a structural problem a mucosal protectant would not be expected to relieve. It is rated L5 with a Hold recommendation.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

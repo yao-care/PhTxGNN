@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 109
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Diltiazem: predicted new indication Obsolete susceptibility to ischemic stroke (evidence level L5). Approved use: Hypertension, atrial fibrillation, Prinzmetal angina…"
-monitor_inn: "Diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,44 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Diltiazem: From Hypertension to Susceptibility to Ischemic Stroke (Obsolete Term)
+<!-- known-uses-page -->
+<!-- description: Diltiazem: known uses and market status in the Philippines; currently no new candidate indication -->
+## Diltiazem: Known uses and market status in the Philippines
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Diltiazem are all known uses, so there is currently no new predicted indication. The one candidate that can be traced to a source is already supported by a licence in another country.
 
-Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
-The TxGNN model predicts it may be effective for **susceptibility to ischemic stroke (an obsolete ontology term)**,
-but **no clinical trials and no publications** currently support this prediction; it is a model output only.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (from the knowledge graph; no approved indication text is available for the Philippine registration) |
-| Predicted New Indication | Obsolete susceptibility to ischemic stroke |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in the Philippines | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, diltiazem is a non-dihydropyridine calcium channel blocker. Its efficacy in hypertension and atrial fibrillation is established, and mechanistically it may be applicable to stroke risk reduction.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| Prinzmetal angina | Licence in another country (approved indication: angina) |
 
-A plausible indirect rationale is that lowering blood pressure reduces a major stroke risk factor. Calcium channel blockade may also reduce cerebral vasospasm and calcium-mediated ischemic injury. These are hypotheses, not verified findings.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There are two important caveats:
-- **Confounding:** Hypertension and atrial fibrillation are both established stroke risk factors. Any apparent stroke-prevention signal may reflect treatment of those conditions rather than a distinct repurposing effect.
-- **Obsolete term:** The predicted disease is labelled "obsolete", suggesting a deprecated ontology entry. It may map poorly onto current stroke classifications and could inflate or distort the prediction.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0146 | Diltiazem | Not specified | Not specified (status: cancelled) |
-
-The only registration found is cancelled, and no product is currently marketed under a valid single or combination license.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| PNF-0146 | Diltiazem |  | Valid |
 
 ## Safety Considerations
 
@@ -86,19 +86,6 @@ The only registration found is cancelled, and no product is currently marketed u
 
 Please refer to the package insert for label warnings, as none were available.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction score is high but rests on the model alone, with no trials or literature. The predicted disease term is obsolete, the benefit is confounded by existing hypertension and atrial fibrillation indications, and the only Philippine registration is cancelled.
-
-**To proceed, the following is needed:**
-- Mapping of the obsolete disease term to a current ischemic stroke classification
-- A literature and clinical trial search focused on diltiazem and stroke prevention or outcomes, separating effects from blood pressure and rhythm control
-- Mechanism of action data (from DrugBank)
-- Package insert warnings and contraindications from the DOH-FDA Philippines, which are required before safety screening
-- Clarification of the cancelled registration status and whether any valid product is available locally
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

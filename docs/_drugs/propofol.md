@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **3
 |------|------|
 | Original Indication | Not recorded in the Philippines license data (general anesthesia/sedation is the known use of propofol) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.69% |
+| TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Philippines Market Status | ✗ Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -132,8 +132,8 @@ A completed Phase 2/3 trial and several randomized trials in the emergency depar
 
 | Predicted Indication | Evidence Level | Decision | Note |
 |------|------|------|------|
-| Migraine with brainstem aura | L3 | Research Question | Evidence is extrapolated from general migraine; no subtype-specific trials; caution advised given brainstem effects |
-| Prinzmetal angina | L4 | Hold | Only case reports of anesthesia-induced coronary spasm, which suggest a safety signal rather than benefit |
+| Migraine with brainstem aura | L5 | Research Question | Evidence is extrapolated from general migraine; no subtype-specific trials; caution advised given brainstem effects |
+| Prinzmetal angina | L5 | Hold | Only case reports of anesthesia-induced coronary spasm, which suggest a safety signal rather than benefit |
 | Nephrogenic syndrome of inappropriate antidiuresis | L5 | Hold | Computational prediction only, with no plausible mechanism evident |
 | Tourette syndrome | L4 | Hold | Evidence concerns sedation during deep brain stimulation surgery, not treatment of tics |
 ## Disclaimer

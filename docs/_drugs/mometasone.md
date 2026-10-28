@@ -48,10 +48,10 @@ Support is very limited: **0 clinical trials** and **2 publications**, both case
 |------|------|
 | Original Indication | Not stated in the Philippines registration data |
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
-| TxGNN Prediction Score | 99.36% |
+| TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0329 | Mometasone | Not specified | Not specified (status: cancelled) |
+| PNF-0329 | Mometasone | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

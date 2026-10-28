@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 |------|------|
 | Original Indication | Not available in the Philippines registration data (the one registration has no indication text) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 for manic bipolar affective disorder (one completed Phase 2 double-blind trial, n=42). The broader bipolar disorder prediction reaches L1. |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 for manic bipolar affective disorder (one completed Phase 2 double-blind trial, n=42). The broader bipolar disorder prediction reaches L1. |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (limited to treatment-refractory patients) |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ Trials for manic bipolar affective disorder and the closely related bipolar diso
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0114 | Clozapine | Not specified | Not specified (status: cancelled) |
+| PNF-0114 | Clozapine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

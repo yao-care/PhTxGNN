@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 29
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Aripiprazole: predicted new indication Major affective disorder (major depressive disorder) (evidence level L1). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia…"
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Several large Phase 3 placebo-controlled trials support adjunctive use in depres
 |------|------|
 | Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia, autism spectrum disorder (the Philippines registration record has no indication text) |
 | Predicted New Indication | Major affective disorder (major depressive disorder) |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9962 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ Note: PMID 38669232, a meta-analysis on aripiprazole or bupropion augmentation, 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0025 | Aripiprazole | Not recorded | Not recorded (status: cancelled) |
+| PNF-0025 | Aripiprazole | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 
@@ -109,9 +109,9 @@ Please refer to the package insert for label warnings and contraindications.
 
 ## Other Predicted Indications (Brief)
 
-- **Trichotillomania** (score 99.26%): Two small trials (one open-label, completed, n=12; one placebo-controlled Phase 2, not yet recruiting, n=100), plus case reports. Case reports also describe aripiprazole *causing* trichotillomania, so results are inconsistent. Evidence level L3, research question only.
+- **Trichotillomania** (score 0.9926): Two small trials (one open-label, completed, n=12; one placebo-controlled Phase 2, not yet recruiting, n=100), plus case reports. Case reports also describe aripiprazole *causing* trichotillomania, so results are inconsistent. Evidence level L3, research question only.
 - **Asperger syndrome and Phelan-McDermid syndrome**: Only indirect relevance through autism-related irritability. No specific trials or literature. Hold.
-- **Other predictions** (e.g., familial horizontal gaze palsy with scoliosis, hydranencephaly, Malan syndrome, retinal dystrophy): No plausible mechanism or clinical evidence; likely knowledge-graph artifacts. Hold.
+- **Other predictions** (e.g., familial horizontal gaze palsy with scoliosis, hydranencephaly, Malan syndrome, retinal dystrophy): No plausible mechanism or clinical evidence; likely TxGNN model (deep learning) artifacts. Hold.
 
 ## Conclusion and Next Steps
 

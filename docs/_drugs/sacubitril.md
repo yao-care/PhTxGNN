@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 304
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Sacubitril: predicted new indication Diabetic nephropathy (evidence level L3). Approved use: Not available in the registration data"
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-## Sacubitril: From an Unspecified Original Indication to Diabetic Nephropathy
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ That support consists of **1 clinical trial** (Phase 4, status unknown) and **15
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the registration data |
-| Predicted New Indication | Diabetic nephropathy (the highest-ranked prediction with meaningful evidence; the top-scoring prediction, brain small vessel disease 1, has almost none) |
-| TxGNN Prediction Score | 99.50% (diabetic nephropathy). The top-ranked prediction scores 99.58% |
-| Evidence Level | L3 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Neprilysin inhibition raises natriuretic peptides, which promotes vasodilation a
 
 Preclinical work in diabetic rodent models (db/db mice, Zucker obese rats, and others) reports less oxidative stress, less NF-κB-driven inflammation, less fibrosis, and changes in gut microbiota. A secondary analysis of the PARADIGM-HF trial also looked at renal function in patients with type 2 diabetes and heart failure. Direct human outcome evidence in diabetic nephropathy is still limited.
 
-The other four predictions have little or no support. For brain small vessel disease 1, the autosomal dominant hematuria-retinal arteriolar tortuosity syndrome, rheumatoid arthritis, and hemoglobinopathy, no clinical trials were found and no relevant literature supports a mechanistic link. For these, the high TxGNN scores (99.2% to 99.6%) rest on the model's network-based prediction alone.
+The other four predictions have little or no support. For brain small vessel disease 1, the autosomal dominant hematuria-retinal arteriolar tortuosity syndrome, rheumatoid arthritis, and hemoglobinopathy, no clinical trials were found and no relevant literature supports a mechanistic link.
 
 ## Clinical Trial Evidence
 
@@ -91,7 +91,7 @@ The table lists the most relevant publications for diabetic nephropathy. Clinica
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0432 | Sacubitril | Not recorded | Not recorded (registration cancelled) |
+| PNF-0432 | Sacubitril | Not recorded | Not recorded (registration valid) |
 
 ## Safety Considerations
 

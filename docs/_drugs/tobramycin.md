@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 |------|------|
 | Original Indication | Bacterial meningitis, uveitis, conjunctivitis, Staphylococcus aureus infection and related conditions (the registration record lists no approved indication text) |
 | Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,7 +86,7 @@ None of these studies directly tests tobramycin in exposure keratitis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0490 | Tobramycin | Not specified | Not specified (registration cancelled) |
+| PNF-0490 | Tobramycin | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

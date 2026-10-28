@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-15
-description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Prader-Willi syndrome, Noonan syndrome"
 monitor_inn: "Carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
+last_modified_at: 2026-10-27
+description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Carbetocin
@@ -33,84 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Carbetocin: From Prader-Willi Syndrome and Noonan Syndrome to Isotretinoin-like Syndrome
+## Carbetocin: oxytocin receptor agonist → isotretinoin-like syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Carbetocin is a long-acting oxytocin analogue. In the knowledge graph used for this report it is linked to Prader-Willi syndrome and Noonan syndrome, and its pharmacology data describe use in preventing postpartum haemorrhage due to uterine atony.
-The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but **no clinical trials and no publications** currently support this direction.
-This is a model-only prediction and should be treated as hypothesis-generating.
-
----
+Carbetocin is a long-acting oxytocin analogue that acts on the oxytocin receptor and is used to prevent postpartum haemorrhage due to uterine atony.
+The TxGNN model predicts it may be relevant to **isotretinoin-like syndrome**, with a score of 0.9915.
+There are currently **no clinical trials** and **no publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Prader-Willi syndrome, Noonan syndrome (knowledge-graph indications; no approved indication text on the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Isotretinoin-like syndrome |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on the pharmacology data compiled for this report, carbetocin is a peptide oxytocin analogue that acts on the oxytocin receptor (OXTR). An intranasal formulation has been under development for Prader-Willi syndrome, intended to reduce the extreme hunger that leads to hyperphagia.
+Currently, detailed mechanism of action data is not available. Based on known information, carbetocin is a long-acting oxytocin analogue that binds the oxytocin receptor (OXTR). Its established clinical use is the prevention of postpartum haemorrhage due to uterine atony, and an intranasal formulation has been under development for hyperphagia in Prader-Willi syndrome.
 
-The original indications (Prader-Willi syndrome and Noonan syndrome) are developmental syndromes. This suggests the prediction may reflect shared neighbours in the knowledge graph. However, isotretinoin-like syndrome is a teratogenic embryopathy associated with disruption of the retinoic acid pathway. No biological pathway connecting oxytocin receptor agonism to this phenotype can be established from the available data.
-
-The prediction rests only on the high model score. It has no trial or literature backing, so its plausibility should be regarded as low until a mechanistic rationale is shown.
-
-A second predicted indication, **Goodman syndrome** (score 99.06%), is a rare craniofacial and limb malformation disorder. It also has no supporting trials or literature, and oxytocin-based therapy would not be expected to correct a structural congenital malformation. It is likewise rated L5 / Hold.
-
----
+Isotretinoin-like syndrome is a teratogenic phenotype (embryopathy linked to disruption of the retinoic acid pathway). No biological pathway connecting oxytocin receptor agonism to this phenotype can be established from the available data. The prediction rests only on a high model score, so it should be treated as hypothesis-generating, not as a mechanistically supported finding. The plausibility of clinical benefit is unproven.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0076 | Carbetocin | Not specified | Not specified (registration status: cancelled) |
+| PNF-0076 | Carbetocin | Not recorded | Not recorded |
 
----
+Only one authorization record exists, and it is a single-ingredient product.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query completed, but it returned only a pharmacology target record (oxytocin receptor, OXTR, human) and no drug-drug interactions with a defined severity level.
+- **Drug Interactions**: The only recorded item is a pharmacology entry on the target, the oxytocin receptor (OXTR), which is carbetocin's mechanism and not a drug-drug interaction. No specific interacting drugs are recorded.
 
-Please refer to the package insert for further safety information, including warnings and contraindications.
-
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction relies only on a model score. There are no clinical trials or publications, the mechanism of action is unavailable, and no biological link between oxytocin receptor agonism and isotretinoin-like embryopathy can be established. The only Philippines registration is cancelled, and the safety information from the package insert is missing.
+The prediction has no supporting clinical trials or publications and no plausible mechanistic link, so the evidence level is L5. It is not suitable for advancing at this stage.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- A plausible biological rationale linking oxytocin receptor agonism to the predicted indication
-- Any preclinical or clinical evidence for the predicted indication
-- Clarification of the cancelled registration status and the available dosage forms and routes
+- Mechanism of action data, and a plausible biological link between oxytocin receptor agonism and isotretinoin-like syndrome
+- Any published or registered study directly addressing this disease
+- Package insert warnings and contraindications from the Philippine regulator
+- Route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 127
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **obstructive lung disease** (i
 |------|------|
 | Original Indication | Open-angle glaucoma, bronchitis, hypotensive disorder, asthma, pulmonary emphysema, anaphylaxis, bronchiectasis (the Philippines license record has no indication text) |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -97,7 +97,7 @@ Of the 15 trials compiled, the 10 most relevant are listed below (asthma trials 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0169 | Epinephrine | Not specified | Not specified (status: cancelled) |
+| PNF-0169 | Epinephrine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

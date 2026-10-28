@@ -4,7 +4,7 @@ title: Everolimus
 parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (including clear cell type), breast cancer…"
 monitor_inn: "Everolimus"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofib
 # Everolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -41,7 +41,6 @@ Evidence Level: **L2** | Predicted Indications: **10**
 Everolimus is an mTOR inhibitor, originally used for renal cell carcinoma, breast cancer and tuberous sclerosis-related conditions.
 The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clinical trial** (a Phase 2 combination study) and **4 publications** currently supporting this direction. The evidence is indirect, because the trial tests everolimus only in combination with ribociclib.
 
-Note: The best-supported prediction for everolimus alone is **unclassified renal cell carcinoma** (9 publications, including a randomized Phase 2 trial). It is covered in the Conclusion section.
 
 ---
 
@@ -51,10 +50,10 @@ Note: The best-supported prediction for everolimus alone is **unclassified renal
 |------|------|
 | Original Indication | Renal cell carcinoma (including clear cell type), breast cancer, kidney angiomyolipoma, tuberous sclerosis |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (see the Conclusion for the stronger alternative) |
 
 ---
@@ -92,7 +91,7 @@ Everolimus is already established for renal cancer and other tumours with mTOR p
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0182 | Everolimus | Not specified | Not specified (status: cancelled) |
+| PNF-0182 | Everolimus | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -128,7 +127,6 @@ Label text for warnings and contraindications is not available in the data compi
 - The other predicted indications do not change this picture:
   - Rhabdomyosarcoma has only early-phase, mixed-tumour data (L3).
   - The other rhabdomyosarcoma subtypes, ovarian myxoid liposarcoma and TFE3-fusion renal cell carcinoma have no direct evidence (L4–L5).
-- **Unclassified renal cell carcinoma** (TxGNN score 99.72%) is the strongest alternative. It has randomized Phase 2 data (ASPEN, everolimus vs sunitinib) and several single-arm Phase 2 studies, and merits **Proceed with Guardrails**. It is a small, heterogeneous subgroup within those trials.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening).

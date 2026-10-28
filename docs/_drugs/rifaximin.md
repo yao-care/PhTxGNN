@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 296
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
 monitor_inn: "Rifaximin"
-predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 clinical trials** and only **1 publication**, and that publica
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy, hepatic coma (from the knowledge graph; no approved indication text is on file for the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 For oral candidiasis, a mechanistic link is hard to support. Rifaximin has no known antifungal activity. The only publication found (PMID 34180023) is a cohort study in allogeneic stem cell transplant recipients. It suggests rifaximin use was associated with **micafungin-resistant Candida infections**. This points to a possible safety concern, likely through disruption of the gut microbiome, rather than a therapeutic benefit.
 
-The high prediction score therefore appears to reflect network similarity in the model rather than a validated biological rationale. The related prediction for general candidiasis (score 99.15%) shows the same pattern. Its two observational studies also suggest increased risk, not benefit.
+The high prediction score therefore appears to reflect network similarity in the model rather than a validated biological rationale. The related prediction for general candidiasis (score 0.9915) shows the same pattern. Its two observational studies also suggest increased risk, not benefit.
 
 ## Clinical Trial Evidence
 
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0423 | Rifaximin | Not specified | Not specified (status: cancelled) |
+| PNF-0423 | Rifaximin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

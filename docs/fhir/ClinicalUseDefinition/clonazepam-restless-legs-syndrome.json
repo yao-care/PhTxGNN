@@ -1,0 +1,37 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "clonazepam-restless-legs-syndrome",
+  "meta": {
+    "profile": [
+      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+    ]
+  },
+  "type": "indication",
+  "status": "active",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/clonazepam"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "restless legs syndrome"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L3"
+    },
+    {
+      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9965
+    }
+  ]
+}

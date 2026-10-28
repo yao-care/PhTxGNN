@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 |------|------|
 | Original Indication | Absence epilepsy, congestive heart failure, open-angle glaucoma, angle-closure glaucoma, altitude sickness (the Philippines registration record contains no indication text) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, acetazolamide is a carbonic anhydrase inhibitor. It has established use in several conditions, including glaucoma, heart failure and altitude sickness, in which it alters fluid and acid-base balance.
 
-Carbonic anhydrase inhibition could plausibly change acid-base balance and influence muscle excitation-contraction coupling. However, this link is speculative. Malignant hyperthermia is mainly a disorder of ryanodine receptor and calcium handling, and nothing in the data compiled for this report supports a direct mechanistic connection. The very high score (99.95%) reflects model similarity only and should not be read as evidence of efficacy.
+Carbonic anhydrase inhibition could plausibly change acid-base balance and influence muscle excitation-contraction coupling. However, this link is speculative. Malignant hyperthermia is mainly a disorder of ryanodine receptor and calcium handling, and nothing in the data compiled for this report supports a direct mechanistic connection. The very high score (0.9995) reflects model similarity only and should not be read as evidence of efficacy.
 
 Other top-ranked predictions are also unsupported and are not recommended for development. These include hypertrophic cardiomyopathy, cardiomyopathy, cirrhotic cardiomyopathy, intestinal obstruction and myopathic intestinal pseudoobstruction. For the intestinal conditions, the literature points to acetazolamide-induced ileus, which is the opposite of a therapeutic effect.
 
@@ -79,7 +79,7 @@ No literature is available for exercise-induced malignant hyperthermia. The clos
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0002 | Acetazolamide | Not specified | Not specified (status: cancelled) |
+| PNF-0002 | Acetazolamide | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials and no literature, so it rests on a model score alone (L5). The product also has no currently valid registration in the Philippines, and some lower-ranked predictions carry safety signals.
+The top prediction has no clinical trials and no literature, so it rests on a model score alone (L5). The product is marketed in the Philippines, with 1 valid licence out of 1, and some lower-ranked predictions carry safety signals.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for acetazolamide, and a plausible biological link to malignant hyperthermia

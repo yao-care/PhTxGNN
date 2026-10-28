@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Abacavir
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 11
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Abacavir"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Abacavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,38 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Abacavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Abacavir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Abacavir is an antiretroviral drug originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a non-human primate disease.
-Support is thin: **0 clinical trials** and **1 publication** (a 2004 in vitro susceptibility study).
+Abacavir is a nucleoside reverse transcriptase inhibitor, and HIV infectious disease and AIDS are its original uses.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary condition.
+Support is thin: **0 clinical trials** and **1 publication**, an in vitro combination study.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease; AIDS |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.79% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | HIV infectious disease, AIDS (relations recorded in the knowledge graph; the local licence record contains no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, abacavir is a nucleoside reverse transcriptase inhibitor (NRTI). It is converted inside cells to carbovir triphosphate, which terminates viral DNA chain elongation. Its efficacy in HIV infection is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Abacavir belongs to the nucleoside reverse transcriptase inhibitor (NRTI) class. In general terms, it is converted inside cells to carbovir triphosphate, which stops viral DNA chain elongation.
 
-SIV is a lentivirus closely related to HIV and uses a homologous reverse transcriptase, so activity is biologically plausible. The very high TxGNN score most likely reflects this close similarity to HIV, the original indication, rather than a new repurposing signal.
+Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is related to that of HIV-1. This gives a plausible mechanistic rationale. However, the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-An important limitation is that SIV infection is a disease of non-human primates. It has no human clinical indication. The evidence is relevant to animal models, not to human therapy.
+The only study is an in vitro test of a zidovudine, lamivudine and abacavir combination against FIV. It cannot separate the contribution of abacavir alone. The indication is also veterinary, so its relevance to human drug repurposing is limited.
+
+Two other predictions were also reviewed:
+- **Simian immunodeficiency virus infection** (score 0.9979): one in vitro susceptibility study, with no clinical development path in humans.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9978): no trials or literature, and no evident link to the antiviral mechanism.
 
 ## Clinical Trial Evidence
 
@@ -70,47 +74,39 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility study | Antiviral Therapy | Tested 16 approved anti-HIV drugs and one experimental drug (AMD3100) against HIV-2, SIV and SHIV strains, to inform treatment and post-exposure prophylaxis. This is indirect, non-clinical evidence. |
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Preclinical combination study (classified from the title) | Antiviral Research | Zidovudine, lamivudine and abacavir combination suppressed FIV replication in vitro. FIV in cats is used as an animal model for HIV. |
+
+The evidence level is L5 because the cited study is an in vitro study of a combination and does not directly demonstrate the effect of abacavir alone, nor any clinical effect in the predicted disease.
 
 ## Philippines Market Information
 
-The only registration on record (PNF-0001, Abacavir, single-ingredient product) has been cancelled. No dosage form or approved indication text is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0001 | Abacavir | Not specified | Not specified |
+
+This is a single-ingredient record with valid status. The record contains no approved indication text.
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (from the TxGNN knowledge graph, not label text):
-  - Liver and biliary: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, pancreatitis, gallbladder disease
-  - Kidney and urinary: kidney disease, pyoureter
-  - Blood: neutropenia, agranulocytosis, anemia, macrocytic anemia
-  - Muscle: myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, dermatomyositis, myositis
-  - Metabolic: lactic acidosis, hypertriglyceridemia, obesity disorder, monogenic obesity
-- **Drug Interactions**: 93 interactions were identified. The main ones with a graded level are **Naltrexone** (Moderate) and **Orlistat** (Moderate). Many others are of unknown severity, including metformin, rosiglitazone, glimepiride, omeprazole, pantoprazole, lansoprazole, morphine, prednisone, hydrocortisone, vancomycin, amphotericin B and sulfasalazine.
+- **Relations recorded in the knowledge graph (not label text):** The knowledge graph lists contraindication relations with liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, pyoureter, lactic acidosis, neutropenia, agranulocytosis, anemia, macrocytic anemia, hypertriglyceridemia, obesity disorder, monogenic obesity, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, dermatomyositis and myositis.
+- **Drug Interactions:** 93 interactions were found. The main ones listed are:
+  - Moderate: naltrexone, orlistat.
+  - Unclassified: metformin, morphine, omeprazole, pantoprazole, lansoprazole, glimepiride, rosiglitazone, prednisone, hydrocortisone, vancomycin, amphotericin B, sulfasalazine and others.
 
-Please also refer to the package insert for label warnings and contraindications.
+Please refer to the package insert for label warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is an in vitro study in a non-human primate virus. SIV infection has no human clinical indication, and the high TxGNN score mostly reflects similarity to HIV. The sole Philippine registration is cancelled.
+The prediction rests on a single in vitro combination study in a veterinary model, and no clinical trials exist. The indication offers no human development path, so the evidence is insufficient to proceed.
 
 **To proceed, the following is needed:**
-- Clarification of whether a veterinary or animal-model indication falls within the scope of human drug repurposing
-- Detailed mechanism of action data
-- Package insert warnings and contraindications for safety screening
-- Current Philippine registration status, if human use is to be considered
-
----
-
-### Other Predictions Considered
-
-The data compiled for this report also contained two lower-ranked predictions. Neither changes the recommendation.
-
-| Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
-|------|------|------|------|------|
-| Feline acquired immunodeficiency syndrome | 99.79% | L4 | Hold | One 2002 preclinical in vitro study (PMID [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/)) of a zidovudine, lamivudine and abacavir combination against feline immunodeficiency virus. Abacavir's individual contribution cannot be separated. This is a veterinary condition. |
-| Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.78% | L5 | Hold | Model prediction only. There are no trials or literature, and no biological rationale can be derived. It should be treated as hypothesis-generating only. |
+- Studies of abacavir alone in the predicted disease
+- Mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Philippine regulator
+- Clarification of whether a human or veterinary development goal is intended
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

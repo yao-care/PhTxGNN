@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Selegiline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 308
-evidence_level: L3
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Selegiline: predicted new indication Schizophrenia (evidence level L3). Approved use: Parkinson's disease"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selegiline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-## Selegiline: From Parkinson's Disease to Schizophrenia
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **schizophrenia** (the predicte
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (also depressive disorders and anxiety disorder in the knowledge graph) |
-| Predicted New Indication | Schizophrenia (the rank 1 prediction, a rare polymicrogyria syndrome, has no supporting evidence, so the best-supported candidate is evaluated here) |
-| TxGNN Prediction Score | 99.14% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
+| TxGNN Prediction Score | 0.9915 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -66,9 +66,9 @@ Negative symptoms of schizophrenia (such as reduced motivation and emotional blu
 This rationale is reasonable but not proven. Published studies have given mixed results, as noted in one of the retrieved articles ("the results are contradictory so far").
 
 Other predictions for this drug were reviewed and are not supported:
-- **Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis** (score 99.15%): a rare, genetically driven brain malformation. There is no plausible mechanism and no trials or literature.
-- **Congenital disorder of glycosylation with defective fucosylation** (score 99.02%): MAO-B inhibition has no known link to fucosylation. No trials or literature.
-- **Retinal dystrophy** (score 99.01%): only one indirect review on protein aggregation in retinal cells, with no selegiline-specific data (evidence level L4).
+- **Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis** (score 0.9915): a rare, genetically driven brain malformation. There is no plausible mechanism and no trials or literature.
+- **Congenital disorder of glycosylation with defective fucosylation** (score 0.9902): MAO-B inhibition has no known link to fucosylation. No trials or literature.
+- **Retinal dystrophy** (score 0.9901): only one indirect review on protein aggregation in retinal cells, with no selegiline-specific data (evidence level L4).
 
 ---
 

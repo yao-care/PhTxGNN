@@ -6,9 +6,9 @@ nav_order: 321
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Acne, seborrheic dermatitis, conjunctivitis, uveitis…"
 monitor_inn: "Sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
+description: "Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfacetamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfacetamide: From Bacterial and Inflammatory Skin/Eye Conditions to Postinfectious Vasculitis
+## Sulfacetamide: Postinfectious vasculitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **postinfectious vasculitis**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, seborrheic dermatitis, conjunctivitis, uveitis, amebiasis and others (from the knowledge graph; no approved indication text in the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Postinfectious vasculitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Sulfacetamide is generally known as a bacteriostatic sulfonamide that inhibits bacterial dihydropteroate synthase, which explains its use in superficial bacterial infections of the skin and eye.
 
-Postinfectious vasculitis, however, is an immune-mediated process that follows an infection rather than an active bacterial infection itself. Antibacterial activity therefore gives no clear mechanistic rationale. The prediction most likely reflects proximity in the knowledge graph to the drug's infection-related indications, not a demonstrated biological link.
+Postinfectious vasculitis, however, is an immune-mediated process that follows an infection rather than an active bacterial infection itself. Antibacterial activity therefore gives no clear mechanistic rationale. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other lower-ranked predictions show the same pattern. Several are post-infectious or vague categories (post-bacterial disorder, post-infectious syndrome). Otitis externa and punctate epithelial keratoconjunctivitis are plausible by analogy to topical antibacterial use, but have no supporting evidence. For infection-related hemolytic uremic syndrome, antibiotics are generally not recommended, which is a potential concern rather than a rationale.
 
@@ -80,11 +80,11 @@ For lower-ranked predictions, two papers were retrieved. Neither supports effica
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0464 | Sulfacetamide | Not specified | Not specified (status: cancelled) |
+| PNF-0464 | Sulfacetamide | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not package insert text):** The graph links sulfacetamide to a broad list of conditions, including:
+- **Contraindications (associations listed in the data source, not package insert text):** The data source lists sulfacetamide alongside a broad list of conditions, including:
   - Metabolic and blood disorders: G6PD deficiency, porphyria, hematologic disease, diabetes mellitus, diabetic ketoacidosis, hyperthyroidism
   - Organ disease: kidney disease, liver disease, gallbladder disease, heart disease, coronary artery disease, hypertension
   - Eye conditions: open-angle and angle-closure glaucoma, ocular hypertension, herpes simplex virus keratitis

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Isoniazid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 186
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis"]
 # Isoniazid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.36% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9936 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ None of the publications is an RCT. Those most relevant to the predicted indicat
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0264 | Isoniazid (single-ingredient; status: cancelled) | Not specified | Not specified |
+| PNF-0264 | Isoniazid (single-ingredient; status: valid) | Not specified | Not specified |
 
 ## Safety Considerations
 

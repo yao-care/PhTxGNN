@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Itraconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 190
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Itraconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The mechanistic link is weak, so this prediction should be treated with caution.
 |------|------|
 | Original Indication | Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis, blastomycosis, sporotrichosis and other fungal infections (the registration record lists no approved indication text) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9934 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The prediction for pneumocystosis is mechanistically doubtful. *Pneumocystis jirovecii* lacks ergosterol in its cell membrane and uses cholesterol instead, so azole antifungals are not expected to work well against it. Standard treatment and prophylaxis (trimethoprim-sulfamethoxazole, atovaquone, pentamidine) act through different pathways.
 
-The high TxGNN score most likely reflects itraconazole's broad antifungal profile and its closeness in the knowledge graph to other fungal diseases (e.g., histoplasmosis, aspergillosis), rather than a true mechanistic link. Literature that mentions both itraconazole and *Pneumocystis* is mostly about broad prophylaxis or co-infection in immunocompromised patients, not about itraconazole treating pneumocystosis itself.
+The high score comes from the TxGNN model (deep learning) and most likely reflects itraconazole's broad antifungal profile and similarities the model learned between related diseases, such as other fungal diseases (e.g., histoplasmosis, aspergillosis), not biological evidence or a true mechanistic link. Literature that mentions both itraconazole and *Pneumocystis* is mostly about broad prophylaxis or co-infection in immunocompromised patients, not about itraconazole treating pneumocystosis itself.
 
 ---
 

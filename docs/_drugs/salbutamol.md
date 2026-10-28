@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Asthma, bronchial disease"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salbutamol: From Asthma and Bronchial Disease to Papillary Conjunctivitis
+## Salbutamol: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, bronchial disease |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Beta-2 agonism could also plausibly dampen mast cell mediator release in allergic eye disease. Papillary conjunctivitis is an allergic or inflammatory eye condition, so a link is conceivable. This is speculative and is not supported by any evidence retrieved for papillary conjunctivitis itself.
 
-Older preclinical work on a related condition, atopic conjunctivitis, reported that topical salbutamol suppressed immediate allergic conjunctivitis in guinea pigs (PMID 3666475). That is indirect, animal-only evidence and does not establish efficacy in humans. The TxGNN score reflects pattern similarity in a knowledge graph, not proof of benefit.
+Older preclinical work on a related condition, atopic conjunctivitis, reported that topical salbutamol suppressed immediate allergic conjunctivitis in guinea pigs (PMID 3666475). That is indirect, animal-only evidence and does not establish efficacy in humans. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -73,9 +73,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication | Status |
 |---------|------|------|-----------|------|
-| PNF-0433 | Salbutamol | — | — | Cancelled |
+| PNF-0433 | Salbutamol | — | — | Valid |
 
-There is no valid single-ingredient or combination registration in the Philippines. The only record is cancelled, and no dosage form or approved indication text is on file. No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
+The only record is cancelled, and no dosage form or approved indication text is on file. No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
 
 ## Safety Considerations
 

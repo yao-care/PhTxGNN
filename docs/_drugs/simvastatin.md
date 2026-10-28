@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 312
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Simvastatin: predicted new indication Familial hypercholesterolemia (evidence level L1). Approved use: Hyperlipidemia-related conditions, including hypertriglyceridemia…"
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-## Simvastatin: From Hyperlipidemia and Atherosclerosis to Familial Hypercholesterolemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Simvastatin is a statin (HMG-CoA reductase inhibitor) originally used for lipid disorders such as hypertriglyceridemia and homozygous familial hypercholesterolemia, and for stroke and atherosclerotic disease.
-The TxGNN model predicts it may be effective for **familial hypercholesterolemia**, with **8 clinical trials** and **20 publications** compiled for this direction.
 This prediction is on-label or near on-label, so it is better viewed as confirmation of an existing use than as a true repurposing signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperlipidemia-related conditions, including hypertriglyceridemia, homozygous familial hypercholesterolemia, atherosclerosis, and stroke/cerebral infarction (from the knowledge graph; no approved-indication text is available from Philippine licences) |
-| Predicted New Indication | Familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, simvastatin inhibits HMG-CoA reductase, which lowers hepatic cholesterol synthesis and upregulates LDL receptors, increasing LDL-C clearance.
 
-Familial hypercholesterolemia is a genetic condition of high LDL-C, and its mechanism fits this action directly. Simvastatin's original indications already include homozygous familial hypercholesterolemia and hyperlipoproteinemia, so the prediction largely overlaps with existing use. Efficacy depends on residual LDL receptor function, so response in homozygous disease is limited and add-on therapy is often required.
+Familial hypercholesterolemia is a genetic condition of high LDL-C, and its mechanism fits this action directly. Efficacy depends on residual LDL receptor function, so response in homozygous disease is limited and add-on therapy is often required.
 
 The other predicted indications (ranks 2–8) are much weaker. Examples are brain stem infarction, CETP deficiency, CYP7A1 deficiency, ABri amyloidosis and a rare neurodevelopmental disorder, all with no supporting trials or with only indirect literature. HIV infection appears only through lipid management and drug-interaction studies, not antiviral benefit. Autosomal dominant hypercholesterolemia is essentially the same entity as familial hypercholesterolemia.
 
@@ -95,7 +94,7 @@ The other predicted indications (ranks 2–8) are much weaker. Examples are brai
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0443 | Simvastatin | Not specified | Not specified (status: cancelled) |
+| PNF-0443 | Simvastatin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Donepezil: From Alzheimer Disease to Chronic Tic Disorder
+## Donepezil: From Alzheimer Disease to Psychogenic Movement Disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ Donepezil is a cholinesterase inhibitor originally used to treat Alzheimer disea
 |------|------|
 | Original Indication | Alzheimer disease (no approved indication text is available from the Philippines registration) |
 | Predicted New Indication | Top TxGNN rank: psychogenic movement disorders. Best-supported: chronic tic disorder (rank 2) |
-| TxGNN Prediction Score | 99.23% (psychogenic movement disorders); 99.19% (chronic tic disorder) |
+| TxGNN Prediction Score | 0.9923 (psychogenic movement disorders); 0.9919 (chronic tic disorder) |
 | Evidence Level | L5 for the top-ranked indication; L3 for chronic tic disorder |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold for psychogenic movement disorders; Proceed with Guardrails at research-question level for chronic tic disorder |
 
 ## Why is This Prediction Reasonable?
@@ -93,7 +93,7 @@ Related movement disorder literature (indirect or mixed):
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0156 | Donepezil | Not specified | Not specified (registration cancelled) |
+| PNF-0156 | Donepezil | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

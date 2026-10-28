@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Bupivacaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+last_modified_at: 2026-10-27
+description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bupivacaine
@@ -33,40 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Bupivacaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
+## Bupivacaine: local amide anesthetic (sodium channel blocker) → acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Bupivacaine is a local amide anesthetic. In the knowledge graph used for this report, its original indication is recorded as dermatitis.
-The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
+Bupivacaine is a local anesthetic that blocks voltage-gated sodium channels.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis (from the knowledge graph; no approved indication text in the local registration record) |
-| Predicted New Indication | Acrodermatitis chronica atrophicans |
-| TxGNN Prediction Score | 99.23% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acrodermatitis chronica atrophicans |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Generally, bupivacaine is known as a local amide anesthetic that blocks voltage-gated sodium channels. Its recorded original indication here (dermatitis) likely reflects a symptomatic, skin-related association rather than a disease-modifying effect.
+Detailed mechanism of action data is not available in the data compiled for this report. Bupivacaine is generally known as an amide local anesthetic that blocks voltage-gated sodium channels, which produces local numbness and pain relief.
 
-Acrodermatitis chronica atrophicans is the late skin stage of Lyme borreliosis and is treated with antibiotics. A local anesthetic has no plausible role in treating the underlying infection. The high score (0.992) is most likely driven by the drug's link to dermatitis in the knowledge graph, and no clinical or literature evidence supports it.
-
-Other top predictions show the same pattern, and none has trial or literature support:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 2 | Neonatal dermatomyositis | 99.15% | L5 | No disease-modifying mechanism. At most symptomatic or procedural analgesia. Neonatal use raises cardiotoxicity and systemic toxicity concerns. |
-| 3 | Secondary interstitial lung disease specific to childhood associated with a connective tissue disease | 99.11% | L5 | No anti-inflammatory or antifibrotic action. The score likely reflects network proximity to related diseases. |
-| 4 | Amyopathic dermatomyositis | 99.03% | L5 | Predominantly a cutaneous, immune-mediated disease. Bupivacaine could at best relieve symptoms such as pain or pruritus. |
+Acrodermatitis chronica atrophicans is the late skin stage of Lyme borreliosis and is treated with antibiotics. A local anesthetic has no plausible role in treating the underlying infection. The high score (0.9923) is a model output only. It may reflect the drug's association with skin conditions, but no trial or publication backs it up. At most, bupivacaine could offer symptomatic or procedural pain relief, not disease modification.
 
 ## Clinical Trial Evidence
 
@@ -80,30 +71,26 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0061 | Bupivacaine | Not specified | Not specified (status: cancelled) |
-
-There is currently no valid registration for bupivacaine in the Philippines according to the data compiled for this report.
+| PNF-0061 | Bupivacaine | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (drug-disease contraindication edges, not package insert text): hypertensive disorder, hypertension, hypotensive disorder, liver failure, liver disease, kidney disease, gallbladder disease, epilepsy, COPD (including severe early-onset), respiratory failure, hypothyroidism, myxedema, congenital hypothyroidism, inflammatory bowel disease, potassium deficiency disease, diabetes mellitus, diabetic ketoacidosis, benign prostatic hyperplasia, atrial fibrillation, coronary artery disease, myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease, hemoglobinopathy, substance abuse/dependence, pyoureter, and angle-closure glaucoma.
-- **Drug Interactions**: 56 interactions were found in total. Those with a stated severity are **moderate**: aprepitant and liposomal morphine. The others are listed without a severity grade, including pantoprazole, omeprazole, lansoprazole, vancomycin, atropine, corticosteroids (triamcinolone, prednisone, prednisolone, hydrocortisone, dexamethasone), simvastatin, potassium chloride, ranitidine, famotidine, ondansetron, metoclopramide, metronidazole and naloxone.
-- Package insert warnings and contraindications could not be obtained. Please refer to the package insert for full safety information.
-- Neonatal use (relevant to the neonatal dermatomyositis prediction) would require special attention because of systemic and cardiac toxicity risks.
+- **Drug Interactions**: The interaction check found 56 interacting drugs. Those with a graded level are Moderate: aprepitant and liposomal morphine. Others, including pantoprazole, omeprazole, lansoprazole, vancomycin, atropine, several corticosteroids (triamcinolone, prednisone, prednisolone, hydrocortisone, dexamethasone), simvastatin, ondansetron, metoclopramide and naloxone, have no graded severity.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All four predictions rest on model scores alone (L5), with no clinical trials or publications. No plausible disease-modifying mechanism links a local anesthetic to the predicted conditions. The only Philippines registration is cancelled.
+There are no clinical trials or publications for this disease, and no plausible mechanistic link between a local anesthetic and treatment of the underlying infection. The prediction stays at model level (L5).
 
 **To proceed, the following is needed:**
-- Mechanism of action data to assess any biological link
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Evidence that the prediction has real clinical meaning (for example, a symptomatic benefit such as local analgesia, rather than treatment of the underlying disease)
-- Clarification of the current registration status and available dosage forms and routes in the Philippines
-- A review of the knowledge-graph contraindication list against official labelling before any further evaluation
+- Package insert warnings and contraindications from the Philippines regulator
+- Mechanism of action data
+- Any preclinical or clinical study that directly examines bupivacaine in acrodermatitis chronica atrophicans
+- Review of route and formulation compatibility with the intended use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Fluorouracil: predicted new indication Rhabdomyosarcoma (evidence level L5). Approved use: Superficial multifocal basal cell carcinoma, actinic keratosis…"
 monitor_inn: "Fluorouracil"
-predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome"]
+predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
+last_modified_at: 2026-10-23
+description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Relations recorded in the knowledge graph (not label-approved): super…"
 ---
 
 # Fluorouracil
@@ -33,101 +33,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluorouracil: From Skin Conditions and Gastrointestinal Cancers to Rhabdomyosarcoma
+## Fluorouracil: From Gastric and Colorectal Cancer to Botryoid-Type Embryonal Rhabdomyosarcoma of the Vagina
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fluorouracil is an antimetabolite chemotherapy drug, originally used for skin conditions such as superficial basal cell carcinoma and actinic keratosis, and for gastrointestinal cancers such as gastric, pancreatic and colon cancer.
-The TxGNN model predicts it may be effective for **rhabdomyosarcoma**, with **0 clinical trials** and **4 publications** (mostly old, indirect or single case reports) currently supporting this direction.
-This is a model prediction with very weak direct evidence.
-
----
+Fluorouracil is a cytotoxic antimetabolite.
+The TxGNN model predicts it may be effective for **rhabdomyosarcoma** and related subtypes. No clinical trials have been found, and only **4 publications** (all indirect: older reviews, a cohort of nasopharyngeal carcinoma and one case report) were retrieved for the broader rhabdomyosarcoma entry, so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial multifocal basal cell carcinoma, actinic keratosis, gastric cancer, pancreatic adenocarcinoma, colon cancer metastasis (from the knowledge graph; no approved-indication text is available for the Philippine registration) |
-| Predicted New Indication | Rhabdomyosarcoma (the top-ranked prediction is botryoid-type embryonal rhabdomyosarcoma of the vagina) |
-| TxGNN Prediction Score | 99.75% (top-ranked prediction); 99.74% for rhabdomyosarcoma (disease) |
-| Evidence Level | L5 for the top-ranked prediction; L4 for rhabdomyosarcoma (disease) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Relations recorded in the knowledge graph (not label-approved): superficial basal cell carcinoma, actinic keratosis, colon cancer metastasis, pancreatic adenocarcinoma, gastric cancer. No approved indication text is available in the local licence record. |
+| Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina (top-ranked prediction); the broader "rhabdomyosarcoma" entry is also discussed below |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 (no cited study directly addresses the top-ranked disease; no clinical trials) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, fluorouracil is a thymidylate synthase inhibitor and antimetabolite. It disrupts DNA synthesis in rapidly dividing cells, and its efficacy in gastrointestinal and skin cancers is well established. Mechanistically, it could plausibly act on a highly proliferative sarcoma.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, fluorouracil is a pyrimidine antimetabolite that inhibits thymidylate synthase and interferes with DNA and RNA synthesis in rapidly dividing cells. That mechanism could plausibly apply to a fast-growing sarcoma.
 
-The prediction is likely driven by the structure of the knowledge graph, where fluorouracil sits close to many tumour types. However, standard rhabdomyosarcoma regimens (such as vincristine, actinomycin D and cyclophosphamide) do not rely on fluorouracil. No study isolates a fluorouracil contribution in this disease. For the biliary rhabdomyosarcoma prediction, the link may partly reflect fluorouracil use in biliary tract carcinoma, which is a different disease.
+The very high scores for rhabdomyosarcoma subtypes come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Standard rhabdomyosarcoma regimens (for example vincristine, dactinomycin, cyclophosphamide) do not centre on fluorouracil, so any role would be unproven.
 
----
+The same pattern appears in other predictions: several sickle cell syndromes (rank 8–10) share an identical score of 0.9962, which may reflect similarities the model learned between related diseases rather than disease-specific evidence. A fetal-hemoglobin induction rationale is speculative, and fluorouracil's toxicity makes it unattractive for a chronic non-malignant condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Four publications were retrieved for rhabdomyosarcoma (disease). None provides direct evidence for fluorouracil, and full-text review is needed.
+No literature was found for the top-ranked disease (botryoid-type embryonal rhabdomyosarcoma of the vagina). The table below shows the publications retrieved for the broader "rhabdomyosarcoma" prediction (rank 2). None is a controlled study of fluorouracil in this disease.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Review / clinical series | Cancer | Adjuvant chemotherapy in childhood sarcomas, including rhabdomyosarcoma; role of fluorouracil not isolated |
-| [42483493](https://pubmed.ncbi.nlm.nih.gov/42483493/) | 2026 | Case report | Case Reports in Oncological Medicine | Young adult with lingual rhabdomyosarcoma; disease progressed on cisplatin plus 5-fluorouracil, and a later vincristine/actinomycin D-based regimen followed |
-| [6277228](https://pubmed.ncbi.nlm.nih.gov/6277228/) | 1981 | Review | Annals of the Academy of Medicine, Singapore | General review of curable cancers with chemotherapy, mentioning rhabdomyosarcoma among childhood cancers |
-| [3951398](https://pubmed.ncbi.nlm.nih.gov/3951398/) | 1986 | Retrospective case series | Medical and Pediatric Oncology | Pediatric nasopharyngeal carcinoma; low relevance to rhabdomyosarcoma |
-
-The single case report suggests fluorouracil-containing therapy did not control the disease in that patient.
-
----
+| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Review | Cancer | Value of adjuvant chemotherapy for childhood sarcomas, about half of which are rhabdomyosarcomas; general overview |
+| [6277228](https://pubmed.ncbi.nlm.nih.gov/6277228/) | 1981 | Review | Ann Acad Med Singapore | Chemotherapy can cure several cancers, including childhood rhabdomyosarcoma; not specific to fluorouracil |
+| [3951398](https://pubmed.ncbi.nlm.nih.gov/3951398/) | 1986 | Cohort | Med Pediatr Oncol | Childhood nasopharyngeal carcinoma outcomes; a different disease |
+| [42483493](https://pubmed.ncbi.nlm.nih.gov/42483493/) | 2026 | Case report | Case Rep Oncol Med | Young adult with lingual rhabdomyosarcoma; cisplatin plus 5-fluorouracil was followed by disease progression, and a later vincristine/actinomycin D-based regimen was used |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0198 | Fluorouracil | Not specified | Not specified (status: cancelled) |
-
----
+| PNF-0198 | Fluorouracil | Not specified | Not specified in the licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine antimetabolite) |
-| Myelosuppression Risk | Medium to high; the knowledge graph lists neutropenia, leukopenia, thrombocytopenia and agranulocytosis as contraindication-related conditions |
-| Emetogenicity Classification | Low to medium |
-| Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes, and mucositis and diarrhoea assessment |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
-
----
+| Myelosuppression Risk | Medium to high; the knowledge graph lists thrombocytopenia, neutropenia, leukopenia and agranulocytosis as contraindication-related conditions |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes; mucosal and gastrointestinal toxicity |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Contraindications / cautions (from the knowledge graph, not label text)**: kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, diarrhoeal disease, active peptic ulcer disease, pharyngitis, stomatitis, and dihydropyrimidine dehydrogenase (DPD) deficiency.
-- **Drug Interactions**: 100 interactions were found. The main ones with a stated severity are **Moderate** with metronidazole and tinidazole, and **Minor** with cimetidine and levofloxacin. Many others have unknown severity (for example omeprazole, pantoprazole, metformin and morphine).
-- For package insert warnings, please refer to the product label, as label-based warnings and contraindications were not available.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, diarrhoeal disease, active peptic ulcer disease, pharyngitis, stomatitis, pyoureter and dihydropyrimidine dehydrogenase (DPD) deficiency.
+- **Drug Interactions**: 100 interactions were found in total. Moderate-level interactions include metronidazole and tinidazole. Minor-level interactions include cimetidine and levofloxacin. Many others (for example omeprazole, pantoprazole, metformin, morphine) have an unclassified severity level.
 
----
+Please also refer to the package insert, as no label warnings were available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by model scores, with no registered clinical trials and no direct literature for fluorouracil in rhabdomyosarcoma. Standard treatment uses other agents, fluorouracil is cytotoxic and myelosuppressive, and the only Philippine registration is cancelled.
+The predictions rest on model scores alone. The top-ranked disease has no trials or literature, and the literature for broader rhabdomyosarcoma is indirect and does not show a fluorouracil-specific benefit. Fluorouracil is also not part of standard rhabdomyosarcoma therapy and carries significant toxicity.
 
 **To proceed, the following is needed:**
-- Full-text review of the retrieved literature to clarify the role of fluorouracil
-- Preclinical or retrospective data on fluorouracil activity in rhabdomyosarcoma, compared against standard regimens
-- Detailed mechanism of action data
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the cancelled registration status and available dosage forms and routes
+- Package insert warnings, contraindications and approved indications for the Philippine licence (PNF-0198)
+- Mechanism of action data
+- Disease-specific preclinical or clinical data on fluorouracil in rhabdomyosarcoma subtypes
+- A comparison against standard rhabdomyosarcoma regimens
+- DPD deficiency screening and a haematological safety monitoring plan if any further study is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

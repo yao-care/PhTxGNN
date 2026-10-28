@@ -6,7 +6,7 @@ nav_order: 134
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Etonogestrel: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
+description: "Etonogestrel: predicted new indication amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be associated with **amenorrhea**, but there are
 |------|------|
 | Original Indication | Not available (the only registration has no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Etonogestrel is a progestin and is known to suppress ovulation and thin the endometrium. This is the general pharmacology of the class, not data from the compiled records.
 
-Amenorrhea is a well-recognised bleeding-pattern outcome of etonogestrel implants. It is an expected effect of contraception rather than a therapeutic indication, so the high model score (0.998) most likely reflects this known effect. It is not evidence that the drug treats amenorrhea. Treating amenorrhea generally means restoring menstruation, whereas etonogestrel tends to cause or maintain its absence.
+Amenorrhea is a well-recognised bleeding-pattern outcome of etonogestrel implants. It is an expected effect of contraception rather than a therapeutic indication, so the high model score (0.9984) most likely reflects this known effect. It is not evidence that the drug treats amenorrhea. Treating amenorrhea generally means restoring menstruation, whereas etonogestrel tends to cause or maintain its absence.
 
-The other top predictions are benign breast conditions: breast fibrocystic disease (99.61%), apocrine adenosis of breast (99.29%), blunt duct adenosis of breast (99.29%) and benign mammary dysplasia (99.21%). These share one theoretical idea, that progestins may counter estrogen-driven breast tissue proliferation. Hormonal contraceptives have mixed associations with benign breast conditions. The identical scores for the two adenosis conditions suggest they come from a shared neighbourhood in the model's knowledge graph rather than disease-specific evidence.
+The other top predictions are benign breast conditions: breast fibrocystic disease (0.9961), apocrine adenosis of breast (0.9929), blunt duct adenosis of breast (0.9929) and benign mammary dysplasia (0.9921). These share one theoretical idea, that progestins may counter estrogen-driven breast tissue proliferation. Hormonal contraceptives have mixed associations with benign breast conditions. The identical scores for the two adenosis conditions come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Literature Evidence
 
@@ -73,7 +73,7 @@ No clinical trials are registered for the predicted indication. No relevant lite
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0180 | Etonogestrel | Not specified | Not specified (registration cancelled) |
+| PNF-0180 | Etonogestrel | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

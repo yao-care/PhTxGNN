@@ -48,27 +48,27 @@ It is a computational association only, with no biological or clinical support.
 |------|------|
 | Original Indication | Not available in the license data (sennosides are generally known as stimulant laxatives) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, sennosides A and B are converted by gut bacteria into rheinanthrone, which acts on the colon to stimulate bowel movement. This is the basis of their use as a laxative.
 
-Hypotrichosis simplex of the scalp is a genetic hair follicle disorder (for example, variants in CDSN, APCDD1 or RPL21). No mechanistic link has been established between a colonic stimulant laxative and hair follicle biology. The high TxGNN score most likely reflects similarity within the knowledge graph rather than a biological rationale.
+Hypotrichosis simplex of the scalp is a genetic hair follicle disorder (for example, variants in CDSN, APCDD1 or RPL21). No mechanistic link has been established between a colonic stimulant laxative and hair follicle biology. The high TxGNN score (0.9929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top predictions show the same pattern, with no supporting evidence for any of them:
 
 | Rank | Predicted Indication | TxGNN Score | Note |
 |------|------|------|------|
-| 2 | Congenital hypotrichosis milia | 99.23% | Rare congenital condition, no plausible mechanism |
-| 3 | Diffuse alopecia areata | 99.12% | Autoimmune, T-cell-mediated; sennosides have no known immunomodulatory action and low systemic absorption |
-| 4 | Open-angle glaucoma | 99.11% | No link to intraocular pressure or retinal ganglion cell protection |
-| 5 | Primary hereditary glaucoma | 99.10% | Genetic outflow defect; no pharmacological rationale |
-| 6 | Alopecia | 99.10% | Shared across related hair-loss terms, likely a graph-neighborhood artifact |
+| 2 | Congenital hypotrichosis milia | 0.9923 | Rare congenital condition, no plausible mechanism |
+| 3 | Diffuse alopecia areata | 0.9912 | Autoimmune, T-cell-mediated; sennosides have no known immunomodulatory action and low systemic absorption |
+| 4 | Open-angle glaucoma | 0.9911 | No link to intraocular pressure or retinal ganglion cell protection |
+| 5 | Primary hereditary glaucoma | 0.9910 | Genetic outflow defect; no pharmacological rationale |
+| 6 | Alopecia | 0.9910 | Score from the TxGNN model (deep learning); may reflect similarities the model learned between related hair-loss diseases, not biological evidence |
 
 ## Clinical Trial Evidence
 
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0070 | Calcium Sennosides | Not specified | Not specified (status: cancelled) |
+| PNF-0070 | Calcium Sennosides | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

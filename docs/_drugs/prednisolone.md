@@ -4,17 +4,17 @@ title: Prednisolone
 parent: High Evidence (L1-L2)
 nav_order: 281
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease (other listed indications include Crohn disease…"
 monitor_inn: "Prednisolone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
+description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Prednisolone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Prednisolone: From Autoimmune Disease to Alopecia Areata
+## Prednisolone: Alopecia areata
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **0 registered clinical trials** and **20 publications** (including a place
 
 | Item | Content |
 |------|------|
-| Original Indication | Autoimmune disease (other listed indications include Crohn disease, inflammatory bowel disease, adrenocortical insufficiency, acute lymphoblastic leukemia and congenital adrenal hyperplasia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,7 +85,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0398 | Prednisolone | Not specified | Not specified (status: cancelled) |
+| PNF-0398 | Prednisolone | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -103,7 +103,6 @@ Please also refer to the package insert for full warnings and contraindications.
 Alopecia areata has the strongest evidence among the ten predicted indications: a placebo-controlled RCT, a Cochrane network meta-analysis, a systematic review and multiple reviews of pulse corticosteroid therapy. There are no registered trials, relapse after withdrawal is common, and the only Philippines registration is cancelled, so use should stay restricted to severe or rapidly progressive disease.
 
 **To proceed, the following is needed:**
-- Confirm the regulatory pathway, since there is currently no valid prednisolone registration in the Philippines
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Detailed mechanism of action data
 - Pulse-dosing protocol with monitoring for infection, glucose, blood pressure, bone health and (in children) growth
@@ -115,15 +114,14 @@ Alopecia areata has the strongest evidence among the ten predicted indications: 
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|------|
-| 2 | Alopecia mucinosa | 99.99% | L5 | Hold | The retrieved literature does not support prednisolone (one cyclosporine case report and one canine lymphoma series) |
-| 3 | Telogen effluvium | 99.98% | L5 | Hold | No literature; no clear mechanistic rationale |
-| 4 | Folliculitis decalvans | 99.98% | L4 | Hold | One case report of triple therapy (isotretinoin, clindamycin, prednisolone); the contribution of prednisolone cannot be separated |
-| 5 | Hereditary hypotrichosis with recurrent skin vesicles | 99.98% | L5 | Hold | No evidence |
-| 6 | Alopecia antibody deficiency | 99.98% | L5 | Hold | The only report is off-topic; steroids could worsen infection risk |
-| 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | 99.98% | L5 | Hold | No evidence |
-| 8 | Atrichia with papular lesions | 99.94% | L5 | Hold | Genetic, non-inflammatory disorder |
-| 9 | Prolapse of lacrimal gland | 99.94% | L5 | Hold | Structural problem, usually treated surgically |
-| 10 | Idiopathic steroid-sensitive nephrotic syndrome | 99.86% | L1 | Proceed with Guardrails | Glucocorticoids are established first-line therapy; the evidence level rests on the broader clinical evidence base, while the retrieved items include several on steroid-resistant disease, and no registered trials were retrieved. Guardrails: monitor growth, infection and steroid toxicity in children |
+| 2 | Alopecia mucinosa | 0.9999 | L5 | Hold | The retrieved literature does not support prednisolone (one cyclosporine case report and one canine lymphoma series) |
+| 3 | Telogen effluvium | 0.9998 | L5 | Hold | No literature; no clear mechanistic rationale |
+| 4 | Folliculitis decalvans | 0.9998 | L5 | Hold | One case report of triple therapy (isotretinoin, clindamycin, prednisolone); the contribution of prednisolone cannot be separated |
+| 5 | Hereditary hypotrichosis with recurrent skin vesicles | 0.9998 | L5 | Hold | No evidence |
+| 6 | Alopecia antibody deficiency | 0.9998 | L5 | Hold | The only report is off-topic; steroids could worsen infection risk |
+| 7 | Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome | 0.9998 | L5 | Hold | No evidence |
+| 8 | Atrichia with papular lesions | 0.9994 | L5 | Hold | Genetic, non-inflammatory disorder |
+| 9 | Prolapse of lacrimal gland | 0.9994 | L5 | Hold | Structural problem, usually treated surgically |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -8,6 +8,7 @@ nav_order: 131
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Escitalopram
@@ -51,8 +52,8 @@ This report documents all identified data gaps and defines the remediation steps
 | Predicted New Indication | **None** — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** — Pipeline incomplete; no actual study evidence assessed |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

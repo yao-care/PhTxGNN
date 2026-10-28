@@ -5,10 +5,10 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 197
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Lamivudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
+last_modified_at: 2026-10-27
+description: "Lamivudine: predicted new indication simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Lamivudine
@@ -33,34 +33,32 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Lamivudine: From Chronic Hepatitis B and HIV Infection to Simian Immunodeficiency Virus Infection
+## Lamivudine: Nucleoside reverse transcriptase inhibitor → simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lamivudine was originally used to treat chronic hepatitis B virus infection and HIV infection/AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**,
-but this is supported by **0 clinical trials** and only preclinical (animal-model) literature among **15 publications**, so the evidence is weak and of limited clinical value.
+Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiviral. The TxGNN model predicts it may be relevant to **simian immunodeficiency virus infection**, with a score of 0.9993. Currently there are **no registered clinical trials** and **15 publications** (mostly animal-model and general antiviral studies) behind this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infection / AIDS (from the knowledge graph; the Philippines registration has no indication text) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) active against HIV-1 reverse transcriptase and hepatitis B virus polymerase. Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to simian immunodeficiency virus (SIV).
+Detailed mechanism of action data is not currently available. Lamivudine is known as an NRTI, a class that blocks the reverse transcriptase enzyme that retroviruses use to copy their genetic material.
 
-SIV is a close lentiviral relative of HIV with a homologous reverse transcriptase. The literature includes macaque studies of the M184V mutation (the canonical lamivudine-resistance mutation) in SIV, post-exposure prophylaxis, and combination antiretroviral therapy in rhesus macaques.
+Simian immunodeficiency virus (SIV) is a close lentiviral relative of HIV and carries a homologous reverse transcriptase, so a mechanistic fit is plausible. The supplied literature includes macaque studies of the M184V mutation (the classic lamivudine resistance mutation) in SIV, post-exposure prophylaxis with lamivudine-containing combinations, and combination antiretroviral therapy in rhesus macaques.
 
-However, SIV is a non-human disease and mainly serves as a research model for HIV, an indication for which lamivudine is already used. The very high TxGNN score most likely reflects biological similarity to the existing HIV indication rather than a new therapeutic opportunity.
+An important caveat: SIV infection is a non-human disease and is mainly used as a research model for HIV. The very high score likely reflects biological similarity to HIV rather than a new therapeutic opportunity for patients, so standalone clinical repurposing value is limited.
 
 ## Clinical Trial Evidence
 
@@ -68,46 +66,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The retrieved publications are mostly preclinical or general reviews. No human randomized trial is included. The most relevant are listed below.
+All studies are preclinical, review or non-drug-specific; no human clinical study of SIV infection exists. Entries below are the most relevant to lamivudine.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Preclinical (macaque) | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir after vaginal SIV exposure |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclinical (macaque) | J Virol | Efavirenz, lamivudine and tenofovir suppressed virus load in macaques infected with RT-SHIV |
-| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical (macaque) | J Virol | SIV with the M184V mutation emerged within 5 weeks of lamivudine or emtricitabine therapy; the mutant showed reduced fitness |
-| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Preclinical | J Virol | M184V reversion in SIV selected by tenofovir, even in the presence of lamivudine |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque) | J Virol | Rapid viral decay in SIV-infected macaques given quadruple antiretroviral therapy |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Preclinical (in vitro) | Antivir Ther | Susceptibility of HIV-2, SIV and SHIV to approved anti-HIV-1 drugs, relevant to treatment and prophylaxis |
-| [12163615](https://pubmed.ncbi.nlm.nih.gov/12163615/) | 2002 | Preclinical | J Virol | M184V mutation delayed reversion of attenuated SIV variants |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Preclinical (macaque) | J Virol | Effect of short-term early antiretroviral prophylaxis on lymphocyte proliferation in SIVmac251 infection |
-| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Preclinical (macaque) | AIDS Res Hum Retroviruses | Infection and antiretroviral therapy (zidovudine, lamivudine, indinavir) changed P-glycoprotein and kinase expression in a primate AIDS model |
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Curr Opin HIV AIDS | Islatravir for HIV-1 treatment and prevention (not lamivudine-specific) |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical | J Virol | M184V mutants emerged within 5 weeks in macaques treated with lamivudine or emtricitabine; mutant virus showed reduced fitness |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Preclinical | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir after vaginal SIV exposure in macaques |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclinical | J Virol | Efavirenz, lamivudine and tenofovir combination suppressed viral load in RT-SHIV-infected macaques |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical | J Virol | Rapid viral decay in SIV-infected macaques on quadruple antiretroviral therapy |
+| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Preclinical | J Virol | Tenofovir selected for reversion of M184V in SIV, even with lamivudine present |
+| [12163615](https://pubmed.ncbi.nlm.nih.gov/12163615/) | 2002 | Preclinical | J Virol | M184V can delay reversion of attenuated SIV variants |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Preclinical | Antivir Ther | Susceptibility of HIV-2, SIV and SHIV to anti-HIV-1 compounds, relevant to treatment and prophylaxis |
+| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Preclinical | J Virol | Effect of early post-exposure antiviral combinations on lymphocyte proliferation in SIV-infected macaques |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0277 | Lamivudine | Not specified | Not specified (status: cancelled) |
+One local licence record (PNF-0277, Lamivudine, single-ingredient) is on file. No dosage form or approved-indication text is recorded for it.
 
 ## Safety Considerations
 
-- **Contraindications / disease associations (from the TxGNN knowledge graph, not label text)**: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, myopathy and other muscle diseases (including myositis and dermatomyositis), neutropenia, agranulocytosis, anemia, hypertriglyceridemia, obesity disorder, lactic acidosis, familial periodic paralysis, pyoureter.
-- **Drug Interactions**: 100 interactions were found. The ones with a stated severity are all Moderate: lactitol, mannitol, sorbitol (sugar alcohols), naltrexone and orlistat. Many others (for example metformin, cimetidine, morphine, amphotericin B, vancomycin, proton pump inhibitors) are listed with unknown severity.
+- **Interactions:** The interaction screen returned 100 entries. Moderate-level interactions include lactitol, mannitol, naltrexone, orlistat and sorbitol. Other listed agents (for example metformin, cimetidine, omeprazole, vancomycin) have an unclassified severity.
 
-Please refer to the package insert for the remaining safety information, such as key warnings.
+Please refer to the package insert for other safety information, as no label warnings or contraindications were available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by preclinical macaque and in vitro studies and general reviews, with no clinical trials. SIV is a non-human research model of HIV, so there is little standalone repurposing value. The Philippines registration is cancelled, and no package insert safety data are available.
+The only evidence for this prediction is animal-model and indirect preclinical work. SIV infection is a non-human research model of HIV, so the high score reflects biological similarity rather than a new patient-facing opportunity.
 
 **To proceed, the following is needed:**
-- Clarification of whether a clinically meaningful human indication exists, since SIV and the other predicted indications are not human diseases. Feline AIDS (rank 2) is veterinary only; the remaining predictions (a rare neurodevelopmental disorder, an obsolete familial combined hyperlipidemia term, and chronic hepatitis C) have no supporting evidence or mechanistic link.
 - Detailed mechanism of action data
-- Package insert warnings and contraindications from the Philippines FDA
-- Confirmation of the current Philippines registration status and approved indications
+- Package insert warnings and contraindications from the Philippines regulator
+- A clear statement of the intended use (research model versus any clinical purpose), since no human trials exist
+- Direct studies of lamivudine in SIV infection, as most supplied papers are about combinations, resistance mutations or other drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

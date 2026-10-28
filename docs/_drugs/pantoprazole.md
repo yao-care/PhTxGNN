@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pantoprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 272
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pantoprazole: predicted new indication Active peptic ulcer disease (evidence level L1). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pantoprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pantoprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **1 directly relevant clinical trial** and **20 publications** listed for this top prediction.
 This is effectively a confirmation of an already established use rather than a true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (the Philippine registration record has no indication text) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9921 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +62,7 @@ Active peptic ulcer disease is closely related to the drug's original indication
 Other predicted indications are weaker:
 - **Gastrojejunal (marginal) ulcer** and **peptic ulcer perforation**: mechanistically plausible, but there are no registered trials. Acid suppression is an adjunct, not a treatment of the perforation itself.
 - **Duodenogastric reflux**: evidence is limited to small physiological and observational studies.
-- **Duodenal obstruction**: no clear mechanistic link. The high score likely reflects graph proximity to duodenal ulcer.
+- **Duodenal obstruction**: no clear mechanistic link.
 - **Duodenal ulcer**: well supported by Phase 3 trials and RCTs, and again an on-label confirmation.
 
 ## Clinical Trial Evidence
@@ -93,7 +92,7 @@ For the related duodenal ulcer prediction, RCTs also support efficacy, including
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0373 | Pantoprazole | Not listed | Not listed (registration status: cancelled) |
+| PNF-0373 | Pantoprazole | Not listed | Not listed (registration status: valid) |
 
 ## Safety Considerations
 

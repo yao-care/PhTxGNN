@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vasopressin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 353
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 # Vasopressin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,19 +48,19 @@ but there are **0 clinical trials** and only **3 indirect publications** (none a
 |------|------|
 | Original Indication | Not available (the only registration has no indication text) |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9963 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this drug. Vasopressin and its analog desmopressin (DDAVP) are known to stimulate release of von Willebrand factor and factor VIII from endothelial stores through V2 receptor signaling. This is relevant to factor VIII and von Willebrand factor deficiencies.
 
-That mechanism does not plausibly raise prothrombin (factor II) levels, so there is no clear mechanistic bridge to congenital prothrombin deficiency. The very high TxGNN score most likely reflects the drug's proximity to coagulation-disorder nodes in the knowledge graph rather than a direct biological rationale. The retrieved papers concern acquired hemophilia A and combined factor V/VIII deficiency, and they describe desmopressin rather than vasopressin, so they are indirect evidence at best.
+That mechanism does not plausibly raise prothrombin (factor II) levels, so there is no clear mechanistic bridge to congenital prothrombin deficiency. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved papers concern acquired hemophilia A and combined factor V/VIII deficiency, and they describe desmopressin rather than vasopressin, so they are indirect evidence at best.
 
-A second prediction, **drug-induced osteoporosis** (score 99.62%), has no clinical trials and no literature. Vasopressin receptors are present on bone cells, but this is preclinical and hypothetical. Vasopressin-related hyponatremia is linked to bone loss and could suggest harm rather than benefit. This prediction rests on the model score alone (L5) and also warrants a Hold.
+A second prediction, **drug-induced osteoporosis** (score 0.9962), has no clinical trials and no literature. Vasopressin receptors are present on bone cells, but this is preclinical and hypothetical. Vasopressin-related hyponatremia is linked to bone loss and could suggest harm rather than benefit. This prediction rests on the model score alone (L5) and also warrants a Hold.
 
 ## Clinical Trial Evidence
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0511 | Vasopressin | Not specified | Not specified (status: cancelled) |
+| PNF-0511 | Vasopressin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

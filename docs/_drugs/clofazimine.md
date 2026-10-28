@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 79
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Clofazimine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Leprosy, multibacillary leprosy, pyoderma gangrenosum"
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
+last_modified_at: 2026-10-27
+description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clofazimine
@@ -33,91 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Clofazimine: From Leprosy to Pneumocystosis
+## Clofazimine: riminophenazine antimycobacterial agent → pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clofazimine is an antimycobacterial drug originally used for leprosy (including multibacillary leprosy) and pyoderma gangrenosum.
-The TxGNN model predicts it may be effective for **pneumocystosis**,
-but there are **0 clinical trials** and only **3 publications** (none directly showing benefit against Pneumocystis), so the prediction rests almost entirely on the model.
-
----
+Clofazimine is a riminophenazine antimycobacterial drug. The TxGNN model predicts it may be effective for **pneumocystosis**, but no clinical trials are registered and none of the 3 publications retrieved studies clofazimine for this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Leprosy, multibacillary leprosy, pyoderma gangrenosum (from the knowledge graph; no approved indication text is available for the local registration) |
-| Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.90% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | pneumocystosis |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (registration no longer valid) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general knowledge, clofazimine is a riminophenazine antimycobacterial with immunomodulatory and membrane-disrupting properties. It has an established role in leprosy and is also used in drug-resistant tuberculosis regimens.
+Detailed mechanism-of-action data for clofazimine are not available in the data compiled for this report. Clofazimine is known as a riminophenazine antimycobacterial with immunomodulatory and membrane-disrupting properties.
 
-The link to pneumocystosis is weak. Pneumocystis is a fungus, and nothing in the data compiled for this report shows clofazimine activity against it. The very high TxGNN score (0.999) is a graph-based prediction only. The literature that mentions both clofazimine and Pneumocystis involves AIDS patients who were at risk of or had Pneumocystis pneumonia, but clofazimine was given for mycobacterial infections, not for Pneumocystis.
+No credible mechanistic link to pneumocystosis is established. *Pneumocystis* is a fungus, and nothing in the compiled data shows clofazimine activity against it. The very high TxGNN score (0.9990) reflects a model-based prediction only and should not be read as evidence of efficacy.
 
-Other candidate predictions for this drug (malaria and gastrin secretion abnormality) are similarly weak. Malaria has only in vitro evidence on clofazimine analogues, and gastrin secretion abnormality has no supporting data at all.
-
----
+The literature that mentions both topics is incidental. One trial used clofazimine to prevent *Mycobacterium avium* complex infection in AIDS patients, some of whom had previously had *Pneumocystis* pneumonia. One case report describes an AIDS patient with *M. kansasii* lung disease treated with a multidrug regimen that included clofazimine, with trimethoprim-sulfamethoxazole added after *Pneumocystis* pneumonia developed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | Randomized open-label trial | J Infect Dis | Clofazimine as prophylaxis for disseminated *M. avium* complex in 110 HIV patients (prior Pneumocystis pneumonia or CD4 ≤100); the study concerned MAC, not Pneumocystis |
-| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case report | Infection | AIDS patient with *M. kansasii* lung disease complicated by Pneumocystis pneumonia; recovered on a regimen that included clofazimine, with trimethoprim-sulfamethoxazole added for Pneumocystis |
+| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | Randomized open-label trial | J Infect Dis | Clofazimine as prophylaxis for disseminated *M. avium* complex infection in 110 HIV patients, some with prior *Pneumocystis* pneumonia; does not study pneumocystosis itself |
+| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case report | Infection | AIDS patient with *M. kansasii* lung disease complicated by *Pneumocystis* pneumonia; recovered on a multidrug regimen including clofazimine, with trimethoprim-sulfamethoxazole added for the pneumonia |
 | [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | PI Perspective | General update on opportunistic infections; no abstract available |
-
----
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0107 | Clofazimine | Not specified | Not specified (status: cancelled) |
-
----
+| PNF-0107 | Clofazimine | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text)**: liver disease, gallbladder disease, diarrheal disease, active peptic ulcer disease, digestive system disease, intestinal disease, splenic infarction, splenic disease, hypersplenism.
-- **Drug Interactions**: 100 interactions were identified; the main ones listed here are from the first 20 reviewed.
-  - **Major**: cisapride, dolasetron
-  - **Moderate**: famotidine, loperamide, bisacodyl, clarithromycin, levofloxacin, granisetron, ondansetron, palonosetron, and several laxatives (picosulfuric acid, polyethylene glycol, castor oil, glycerin, lactitol, lactulose, magnesium citrate, magnesium hydroxide, mineral oil)
-  - **Minor**: metronidazole
+- **Drug Interactions**: 100 interacting drugs were identified. Major-level interactions include cisapride and dolasetron. Moderate-level interactions include famotidine, loperamide, bisacodyl, clarithromycin, levofloxacin, ondansetron, granisetron and palonosetron, as well as several laxatives (picosulfuric acid, polyethylene glycol, castor oil, lactulose, lactitol, magnesium citrate, magnesium hydroxide, glycerin, mineral oil). Metronidazole is listed as a minor interaction.
+- Conditions flagged as cautions in the data compiled for this report include liver disease, gallbladder disease, diarrhoeal and other intestinal or digestive disease, active peptic ulcer disease, and splenic disease. These are not taken from label text and need confirmation against the package insert.
 
-  The major interactions involve other drugs that can affect heart rhythm, so QT-related risk deserves attention.
-
-Package insert warnings were not available; please refer to the package insert for further safety information.
-
----
+Please refer to the package insert for key warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). No clinical trials exist, and the available literature does not show clofazimine acting against Pneumocystis. There is also no credible mechanistic link, and the only local registration has been cancelled.
+The prediction score is very high, but there are no clinical trials, no study of clofazimine in pneumocystosis, and no supported mechanism against *Pneumocystis*. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for clofazimine, and evidence of any activity against Pneumocystis (in vitro or animal studies)
-- Package insert warnings and contraindications from the Philippines FDA
-- Clarification of the cancelled registration status and available dosage forms
-- Review of the QT-related interaction risk and the gastrointestinal and hepatic contraindications before any clinical consideration
+- Mechanism of action data for clofazimine
+- Preclinical evidence of activity against *Pneumocystis*
+- Package insert warnings and contraindications from DOH-FDA Philippines
+- A safety review covering the flagged liver, gastrointestinal and splenic conditions and the major drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

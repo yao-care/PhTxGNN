@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis** with a
 |------|------|
 | Original Indication | Not stated in the registration record |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Nitrofurantoin is known as an antibacterial used for urinary tract infections, but the data compiled for this report do not record a mechanism or an approved indication, and no plausible anti-rheumatic mechanism is documented.
 
-The TxGNN score is very high (0.999), but the literature does not support a therapeutic effect. The retrieved papers describe nitrofurantoin-associated pulmonary fibrosis, its interaction with methotrexate in patients with rheumatoid arthritis, and a study on antibiotic use and rheumatoid arthritis flares. These are safety signals, not evidence of benefit. The model association probably reflects co-occurrence of the drug and the disease in the literature, such as lung disease or infections in people with rheumatoid arthritis, rather than a true treatment effect.
+The TxGNN score is very high (0.9989), but the literature does not support a therapeutic effect. The retrieved papers describe nitrofurantoin-associated pulmonary fibrosis, its interaction with methotrexate in patients with rheumatoid arthritis, and a study on antibiotic use and rheumatoid arthritis flares. These are safety signals, not evidence of benefit. The model association probably reflects co-occurrence of the drug and the disease in the literature, such as lung disease or infections in people with rheumatoid arthritis, rather than a true treatment effect.
 
 ## Clinical Trial Evidence
 
@@ -79,7 +79,7 @@ None of these studies shows that nitrofurantoin treats rheumatoid arthritis.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0350 | Nitrofurantoin | Not recorded | Not recorded (status: cancelled) |
+| PNF-0350 | Nitrofurantoin | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 

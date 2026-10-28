@@ -4,17 +4,17 @@ title: Tolvaptan
 parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tolvaptan: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Inappropriate ADH syndrome"
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
+description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tolvaptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tolvaptan: From Inappropriate ADH Syndrome to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
+## Tolvaptan: Renal-hepatic-pancreatic dysplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tolvaptan is a vasopressin V2 receptor antagonist, originally listed for inappropriate ADH syndrome (SIADH), nephrogenic syndrome of inappropriate antidiuresis and polycystic kidney disease.
-The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**.
 There are **no registered clinical trials** for this exact subtype, but **19 publications** (including two pivotal RCT reports, TEMPO 3:4 and REPRISE) support the closely related ADPKD setting.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inappropriate ADH syndrome; nephrogenic syndrome of inappropriate antidiuresis; polycystic kidney disease (the Philippines licence record has no indication text) |
-| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (based on the TEMPO 3:4 and REPRISE RCT reports in ADPKD; not specific to PKD3) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 (based on the TEMPO 3:4 and REPRISE RCT reports in ADPKD; not specific to PKD3) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +84,9 @@ Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 a
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0492 | Tolvaptan | Not specified | Not specified (status: cancelled) |
+| PNF-0492 | Tolvaptan | Not specified | Not specified (status: valid) |
 
-The only registration on record is cancelled, and no currently valid licence was found. This may reflect a specific product or formulation rather than overall availability.
+This may reflect a specific product or formulation rather than overall availability.
 
 ## Safety Considerations
 
@@ -121,7 +120,6 @@ Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and pol
 - **Thoracic malformation** (L4): only a neonatal case report where the effect reflects fluid management, not the malformation itself.
 - **Joubert syndrome with renal defect** (L5): the only article is a genetics review with no tolvaptan data. Polyuria from concentrating defects may be worsened by aquaretic therapy.
 - **Renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, adult familial nephronophthisis-spastic quadriparesia syndrome, Dandy-Walker-associated syndromes, and the odontal/periodontal malformation syndrome** (all L5): prediction only, with no evidence retrieved.
-- **Ambras-type hypertrichosis universalis congenita and hypertrichosis** (both L5): no plausible mechanism, and the scores are likely graph artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

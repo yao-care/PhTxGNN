@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 300
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rivastigmine: predicted new indication Glaucoma (evidence level L4). Approved use: Alzheimer disease"
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
+description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Rivastigmine: From Alzheimer Disease to Glaucoma
+## Rivastigmine: Glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer disease (other knowledge-graph indications: cerebellar degeneration, Reye syndrome, Pick disease) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Glaucoma |
-| TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9927 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0427 | Rivastigmine | Not specified | Not specified (status: cancelled) |
+| PNF-0427 | Rivastigmine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

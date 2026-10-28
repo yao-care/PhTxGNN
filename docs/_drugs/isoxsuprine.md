@@ -6,7 +6,7 @@ nav_order: 189
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Isoxsuprine: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Cerebrovascular disorder, vascular disease, Raynaud disease"
+description: "Isoxsuprine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Cerebrovascular disorder, vascular disease, Raynaud disease"
 monitor_inn: "Isoxsuprine"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "blue toe syndrome", "atheroembolism of kidney", "hemangioendothelioma", "angiodysplasia of stomach", "respiratory failure", "neurogenic thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isoxsuprine: From Cerebrovascular and Peripheral Vascular Disorders to Benign Prostatic Hyperplasia
+## Isoxsuprine: From Cerebrovascular and Peripheral Vascular Disorders to benign prostatic hyperplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Cerebrovascular disorder, vascular disease, Raynaud disease (from the TxGNN knowledge graph; no approved indication text is recorded in the Philippine registration) |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.9997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 A plausible link to BPH would be smooth muscle relaxation in the prostate and bladder neck. However, the established mechanism for this effect is alpha-1 adrenergic blockade, not beta-agonism or direct vasodilation. No trials or literature support the link, so the very high TxGNN score should be read as a network-based prediction only, not as evidence of efficacy.
 
-Other predicted indications are also ranked highly by the model, including arterial thoracic outlet syndrome, blue toe syndrome, and respiratory failure. All have the same L5 evidence level. Several of them (venous and neurogenic thoracic outlet syndrome, hemangioendothelioma, angiodysplasia of the stomach) have weak or questionable mechanistic links, which suggests the scores partly reflect shared vascular annotations in the knowledge graph.
+Other predicted indications are also ranked highly by the TxGNN model (deep learning), including arterial thoracic outlet syndrome, blue toe syndrome, and respiratory failure. All have the same L5 evidence level. Several of them (venous and neurogenic thoracic outlet syndrome, hemangioendothelioma, angiodysplasia of the stomach) have weak or questionable mechanistic links, which suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +74,7 @@ Currently no related literature available for benign prostatic hyperplasia.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0267 | Isoxsuprine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0267 | Isoxsuprine | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 

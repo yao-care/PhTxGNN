@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-15
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L2). Approved use: Not available"
 monitor_inn: "Potassium"
-predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
+predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
 ---
 
 # Potassium
@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Potassium is an essential mineral and electrolyte. In the Philippines it was registered as potassium phosphate, potassium chloride and potassium citrate, but all three registrations are now cancelled and no approved indication text is available.
+Potassium is an essential mineral and electrolyte. In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate. All three registrations are valid, and no approved indication text is available.
 The TxGNN model predicts it may be useful for **hypertensive disorder**, with **23 clinical trials** and **20 publications** retrieved. Most of the trials do not test potassium itself, and the strongest support comes from meta-analyses of dietary or supplemental potassium.
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **hypertensive disorder**, with **
 |------|------|
 | Original Indication | Not available (no approved indication text in the registrations) |
 | Predicted New Indication | Hypertensive disorder |
-| TxGNN Prediction Score | 99.16% |
+| TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L2 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 3 (all cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 3 of 3) |
+| Number of Registrations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -115,13 +115,13 @@ Only the trials most relevant to potassium as the intervention are listed. Sever
 
 ## Philippines Market Information
 
-All three registrations are cancelled. No dosage form or approved indication text is recorded.
+All three registrations are valid. No dosage form or approved indication text is recorded.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0392 | Potassium Chloride | Not recorded | Not recorded (cancelled) |
-| PNF-0393 | Potassium Citrate | Not recorded | Not recorded (cancelled) |
-| PNF-0394 | Potassium Phosphate | Not recorded | Not recorded (cancelled) |
+| PNF-0392 | Potassium Chloride | Not recorded | Not recorded (valid) |
+| PNF-0393 | Potassium Citrate | Not recorded | Not recorded (valid) |
+| PNF-0394 | Potassium Phosphate | Not recorded | Not recorded (valid) |
 
 ---
 
@@ -140,7 +140,7 @@ The main safety concern for potassium supplementation is hyperkalemia. Higher ri
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Meta-analyses of randomized trials support a blood-pressure-lowering effect of increased potassium intake, and the TxGNN score is high (99.16%). However, this evidence comes mainly from dietary or supplemental potassium. The Phase 3 trials that test potassium directly are small or lack reported results, and all Philippine registrations are cancelled. Evidence is therefore capped at L2.
+Meta-analyses of randomized trials support a blood-pressure-lowering effect of increased potassium intake, and the TxGNN score is high (0.9916). However, this evidence comes mainly from dietary or supplemental potassium. The Phase 3 trials that test potassium directly are small or lack reported results, although the drug is marketed in the Philippines with all three licenses valid. Evidence is therefore capped at L2.
 
 **To proceed, the following is needed:**
 - Package insert safety data (warnings, contraindications), which are currently missing and block formal safety screening

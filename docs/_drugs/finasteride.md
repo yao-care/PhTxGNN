@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
+## Finasteride: From Benign Prostatic Hyperplasia to Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,24 +47,24 @@ The TxGNN model predicts it may be effective for **hypertrichosis** (the highest
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita (top-ranked prediction); hypertrichosis is the best-supported alternative |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (L4 for hypertrichosis) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, finasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DHT). Its efficacy in BPH is established, and it is also used in androgenetic alopecia.
 
-The top-ranked prediction, Ambras type hypertrichosis universalis congenita, is a congenital condition linked to genomic rearrangements affecting TRPS1 regulation. Its hair overgrowth is not clearly androgen-driven, so a mechanistic link is speculative. The prediction likely reflects graph proximity to other hair-related phenotypes.
+The top-ranked prediction, Ambras type hypertrichosis universalis congenita, is a congenital condition linked to genomic rearrangements affecting TRPS1 regulation. Its hair overgrowth is not clearly androgen-driven, so a mechanistic link is speculative. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Hypertrichosis is by definition androgen-independent hair growth, so a DHT-lowering mechanism has limited rationale. Finasteride is more relevant to hirsutism, which is androgen-dependent. The other predictions are weaker still:
 
-- Malformation syndrome with odontal and/or periodontal component: no clear rationale; likely a graph artifact.
+- Malformation syndrome with odontal and/or periodontal component: no clear rationale; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - Syndrome with Dandy-Walker malformation: no plausible mechanism, and finasteride's teratogenic concerns (effects on male fetal genital development) argue against developmental-disorder use.
 - Isolated genetic hair shaft abnormality: structural defects are generally not DHT-dependent.
-- Familial isolated trichomegaly (score 99.15%): no established androgen-dependent mechanism.
+- Familial isolated trichomegaly (score 0.9915): no established androgen-dependent mechanism.
 
 ## Clinical Trial Evidence
 
@@ -85,7 +85,7 @@ The following publications were retrieved for hypertrichosis. None is a trial of
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0191 | Finasteride | Not specified | Not specified (registration cancelled) |
+| PNF-0191 | Finasteride | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

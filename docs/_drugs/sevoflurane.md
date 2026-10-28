@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but ther
 |------|------|
 | Original Indication | Not stated in the Philippines licence record (sevoflurane is known as an inhaled general anaesthetic) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on general pharmacology, sevoflurane is a volatile anaesthetic. Its anaesthetic effects are generally attributed to modulation of GABA-A and NMDA receptors. Volatile anaesthetics can also relax vascular smooth muscle and affect calcium handling. This is the only speculative link to coronary vasospasm, the cause of Prinzmetal angina.
 
-This link is not supported by the data compiled for this report. Sevoflurane is given by inhalation under controlled medical conditions and is not a practical chronic therapy for a vasospastic condition. The high score (99.78%) most likely reflects relationships in the knowledge graph rather than direct clinical evidence.
+This link is not supported by the data compiled for this report. Sevoflurane is given by inhalation under controlled medical conditions and is not a practical chronic therapy for a vasospastic condition. The high score (0.9978) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Other Predicted Indications (for reference)
 
@@ -65,15 +65,15 @@ All of the following are rated Hold. None has clinical trial support.
 
 | Rank | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|------|
-| 2 | Tourette syndrome | 99.50% | L5 | Prediction only. Speculative GABA/NMDA rationale. |
-| 3 | Fibromyalgia | 99.42% | L4 | One case report on anaesthetic management, not treatment. |
-| 4 | Tendinitis | 99.41% | L4 | Nine papers, all about anaesthesia in tendon-related surgery. None tests treatment of the disease. |
-| 5 | Myositis fibrosa | 99.41% | L5 | Prediction only. |
-| 6 | Idiopathic granulomatous myositis | 99.41% | L5 | Prediction only. The identical score to rank 5 suggests shared graph neighbours. |
-| 7 | Nephrogenic syndrome of inappropriate antidiuresis | 99.40% | L5 | Prediction only. No supported link. |
-| 8 | Trichotillomania | 99.33% | L5 | Prediction only. Speculative. |
-| 9 | Migraine disorder | 99.23% | L4 | One paediatric MRI anaesthesia cohort. The association is likely incidental. |
-| 10 | Inclusion body myositis | 99.09% | L4 | One case report on perioperative safety, which is the opposite of a repurposing signal. |
+| 2 | Tourette syndrome | 0.9950 | L5 | Prediction only. Speculative GABA/NMDA rationale. |
+| 3 | Fibromyalgia | 0.9942 | L4 | One case report on anaesthetic management, not treatment. |
+| 4 | Tendinitis | 0.9941 | L5 | Nine papers, all about anaesthesia in tendon-related surgery. None tests treatment of the disease. |
+| 5 | Myositis fibrosa | 0.9941 | L5 | Prediction only. |
+| 6 | Idiopathic granulomatous myositis | 0.9941 | L5 | Prediction only. The identical score to rank 5 may reflect similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence. |
+| 7 | Nephrogenic syndrome of inappropriate antidiuresis | 0.9940 | L5 | Prediction only. No supported link. |
+| 8 | Trichotillomania | 0.9933 | L5 | Prediction only. Speculative. |
+| 9 | Migraine disorder | 0.9923 | L5 | One paediatric MRI anaesthesia cohort. The association is likely incidental. |
+| 10 | Inclusion body myositis | 0.9909 | L4 | One case report on perioperative safety, which is the opposite of a repurposing signal. |
 
 ## Clinical Trial Evidence
 
@@ -96,7 +96,7 @@ For reference, the literature found for lower-ranked predictions concerns sevofl
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0441 | Sevoflurane | Not stated | Not stated (status: cancelled) |
+| PNF-0441 | Sevoflurane | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 

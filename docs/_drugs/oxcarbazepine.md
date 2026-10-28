@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxcarbazepine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy, partial motor epilepsy"
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oxcarbazepine is an antiseizure medication originally used for partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy** (a reflex epilepsy subtype),
 but there are currently **0 clinical trials** and only **general epilepsy literature** (16 publications, mostly reviews and guidelines) with no visual-epilepsy-specific data, so support is limited to model prediction and mechanistic plausibility.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy, partial motor epilepsy (from the knowledge graph; no approved indication text is available in the Philippines licence record) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Restless legs syndrome |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,7 +84,7 @@ None of these publications addresses oxcarbazepine for visual epilepsy specifica
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0365 | Oxcarbazepine | Not stated | Not stated (status: cancelled) |
+| PNF-0365 | Oxcarbazepine | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 
@@ -100,7 +99,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The score is high, but the evidence is at L4: no clinical trials, and the literature is general epilepsy reviews with nothing specific to visual epilepsy. The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence.
+The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence.
 
 **To proceed, the following is needed:**
 - A targeted literature search for oxcarbazepine in visual or photosensitive epilepsy, ideally with case series or controlled data

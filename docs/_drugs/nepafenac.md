@@ -50,10 +50,10 @@ The supporting evidence is specific to post-cataract-surgery inflammation and pa
 |------|------|
 | Original Indication | Not available in the Philippines registration data |
 | Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -111,7 +111,7 @@ The data list many trials. The 10 most relevant are shown below, favoring larger
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0344 | Nepafenac | Not recorded | Not recorded (registration cancelled) |
+| PNF-0344 | Nepafenac | Not recorded | Not recorded (registration valid) |
 
 ---
 

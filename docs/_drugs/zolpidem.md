@@ -4,17 +4,17 @@ title: Zolpidem
 parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Zolpidem: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zolpidem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Zolpidem: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Zolpidem: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zolpidem is a sedative-hypnotic originally used to treat insomnia.
-The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, which is essentially the same condition as its original use, so this is not a true repurposing.
 There are **no registered clinical trials** in the compiled data, but **19 publications** (including network meta-analyses, guidelines and one Phase 3 RCT using zolpidem as a comparator) discuss this use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Insomnia (approved indication text is not available in the Philippines registration record) |
-| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 (see note below) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 (see note below) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (see note below) |
 
 **Note on the evidence level:** The L1 rating comes from the compiled scoring. It rests on a Phase 3 RCT in which zolpidem was only the active comparator, plus network meta-analyses and guidelines, not on completed Phase 3 trials registered for this prediction. Treat it as a high-level but indirect rating.
@@ -63,8 +62,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 Difficulty initiating and maintaining sleep is the core feature of insomnia, the drug's original indication. The very high TxGNN score reflects this overlap rather than a new therapeutic discovery. Reviews in the literature list zolpidem alongside zaleplon, zopiclone and eszopiclone as GABA-A modulators with an established evidence base in insomnia.
 
 Other predicted indications were also reviewed. Both have only model-based support (L5) and are rated **Hold**:
-- **Benign paroxysmal torticollis of infancy** (score 99.26%): no clear mechanistic link, and zolpidem is not appropriate for infants.
-- **Agoraphobia** (score 99.25%): only a weak, indirect GABAergic link. Zolpidem has minimal anxiolytic activity, guidelines favour SSRIs/SNRIs and cognitive behavioural therapy, and dependence risk is a concern in anxious populations.
+- **Benign paroxysmal torticollis of infancy** (score 0.9926): no clear mechanistic link, and zolpidem is not appropriate for infants.
+- **Agoraphobia** (score 0.9925): only a weak, indirect GABAergic link. Zolpidem has minimal anxiolytic activity, guidelines favour SSRIs/SNRIs and cognitive behavioural therapy, and dependence risk is a concern in anxious populations.
 
 ## Clinical Trial Evidence
 
@@ -89,9 +88,9 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0529 | Zolpidem | Not specified | Not specified (status: cancelled) |
+| PNF-0529 | Zolpidem | Not specified | Not specified (status: valid) |
 
-This is the only registration on record, and it is cancelled. No currently valid product is registered in the Philippines.
+This is the only registration on record, and it is cancelled.
 
 ## Safety Considerations
 
@@ -103,7 +102,6 @@ Package insert warnings and contraindications for the Philippines were not avail
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for sleep disorder, initiating and maintaining sleep only; **Hold** for the other two predicted indications)
 
 **Rationale:**
 - The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses. However, the only Philippines registration is cancelled, and the package insert safety data are missing, so it cannot be treated as ready for use.

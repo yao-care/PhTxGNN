@@ -6,9 +6,9 @@ nav_order: 314
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not available"
 monitor_inn: "Sodium acetate"
-predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "Ureaplasma urethritis", "gonococcal urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
+predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
+description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sodium Acetate
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sodium Acetate: From an Unspecified Original Indication to Congenital Prothrombin Deficiency
+## Sodium Acetate: Congenital prothrombin deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Sodium acetate is an electrolyte and alkalinizing agent, and no original approved indication is recorded in the Philippines regulatory data compiled for this report.
 The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-The high score appears to be a knowledge-graph artifact rather than a biologically grounded signal.
+The high score appears to be a TxGNN model (deep learning) artifact rather than a biologically grounded signal.
 
 ---
 
@@ -48,12 +48,12 @@ The high score appears to be a knowledge-graph artifact rather than a biological
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the only registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ The high score appears to be a knowledge-graph artifact rather than a biological
 
 Currently, detailed mechanism of action data is not available. Sodium acetate is generally understood as an electrolyte and alkalinizing agent: acetate is metabolized to bicarbonate in the body.
 
-No plausible mechanistic link to the predicted indication was identified. Sodium acetate does not affect prothrombin synthesis or coagulation factor II activity. The high TxGNN score therefore looks like an artifact of the knowledge graph rather than a biologically grounded prediction.
+No plausible mechanistic link to the predicted indication was identified. Sodium acetate does not affect prothrombin synthesis or coagulation factor II activity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top-ranked predictions show the same pattern. They include epiglottitis, urinary tract infection, sclerosing cholangitis, Ureaplasma and gonococcal urethritis, dyspepsia, uterine inflammatory disease, gastroparesis and xanthogranulomatous pyelonephritis, all with scores of about 99.5% to 99.8%. None has supporting clinical data for sodium acetate. For dyspepsia and gastroparesis, the retrieved papers mostly use ¹³C-sodium acetate only as a breath-test tracer for measuring gastric emptying, which is not therapeutic evidence.
+The other top-ranked predictions show the same pattern. They include epiglottitis, urinary tract infection, sclerosing cholangitis, Ureaplasma and gonococcal urethritis, dyspepsia, uterine inflammatory disease, gastroparesis and xanthogranulomatous pyelonephritis, all with scores from 0.9946 to 0.9977. None has supporting clinical data for sodium acetate. For dyspepsia and gastroparesis, the retrieved papers mostly use ¹³C-sodium acetate only as a breath-test tracer for measuring gastric emptying, which is not therapeutic evidence.
 
 ---
 
@@ -72,9 +72,9 @@ The other top-ranked predictions show the same pattern. They include epiglottiti
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0447 | Sodium Chloride | Not specified | Not specified (status: cancelled) |
+| PNF-0447 | Sodium Chloride | Not specified | Not specified (status: valid) |
 
-The only registration is cancelled and has no valid single-ingredient or combination products. Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.
+Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.
 
 ---
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tetracycline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 333
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Not stated in the Philippines registration record. The knowledge grap…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 </div>
 
-## Tetracycline: From Bacterial Infections (e.g., Urinary Tract Infection, Acne) to Punctate Epithelial Keratoconjunctivitis
+## Tetracycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Philippines registration record. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax, gonorrhea, pharyngitis and pneumonia, among others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0483 | Tetracycline | Not specified | Not specified (status: cancelled) |
+| PNF-0483 | Tetracycline | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -108,9 +108,8 @@ The prediction score is high, but the evidence is a single case report with no t
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary | Recommendation |
 |------|------|------|------|------|------|
-| 2 | Chronic ethmoidal sinusitis | 99.15% | L4 | One in vitro antibiotic susceptibility survey; no clinical efficacy data | Hold |
-| 3 | Chronic rhinosinusitis | 99.15% | L4 | Mostly class-level evidence (doxycycline systematic review and meta-analysis, Cochrane review of antibiotics with low-certainty evidence, an omadacycline case series); no tetracycline-specific trials | Research Question |
-| 4 | Paranasal sinus neoplasm | 99.10% | L5 | No trials or literature; computational prediction only | Hold |
+| 2 | Chronic ethmoidal sinusitis | 0.9915 | L5 | One in vitro antibiotic susceptibility survey; no clinical efficacy data | Hold |
+| 4 | Paranasal sinus neoplasm | 0.9910 | L5 | No trials or literature; computational prediction only | Hold |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

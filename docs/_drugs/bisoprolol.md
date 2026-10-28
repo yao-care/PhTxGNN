@@ -4,17 +4,17 @@ title: Bisoprolol
 parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Bisoprolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 ---
 
 # Bisoprolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,22 +48,21 @@ but there are currently **0 clinical trials** and **0 publications** directly su
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, bisoprolol is a selective beta-1 adrenergic blocker. Its efficacy in hypertension is established, and it may lower blood pressure partly by reducing heart rate and cardiac output and by suppressing renin release from the kidney.
 
-Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. It is therefore closely related to the original indication, and the prediction is biologically plausible. However, it is an extension of the existing hypertension use rather than a new mechanism. In malignant hypertension, management typically relies on parenteral agents and blockade of the renin-angiotensin system, with beta-blockers in a supportive role. The very high score likely reflects how close this disease sits to hypertension in the knowledge graph, not independent clinical evidence.
+Malignant hypertensive renal disease is a severe kidney complication of very high blood pressure. It is therefore closely related to the original indication, and the prediction is biologically plausible. However, it is an extension of the existing hypertension use rather than a new mechanism. In malignant hypertension, management typically relies on parenteral agents and blockade of the renin-angiotensin system, with beta-blockers in a supportive role. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions for this drug are weaker:
-- **Malignant renovascular hypertension** (score 99.94%): beta-1 blockade reduces renin release, which is plausible, but definitive management (RAAS inhibitors, revascularization) differs.
-- **Pulmonary hypertension** (two forms, score 99.93%): no direct mechanistic rationale, and beta-blockers may be harmful because they can reduce right-ventricular reserve.
-- **Braddock syndrome** (score 99.91%): no mechanistic link could be established.
+- **Pulmonary hypertension** (two forms, score 0.9993): no direct mechanistic rationale, and beta-blockers may be harmful because they can reduce right-ventricular reserve.
+- **Braddock syndrome** (score 0.9991): no mechanistic link could be established.
 
 ## Clinical Trial Evidence
 
@@ -90,7 +89,7 @@ None of these studies evaluates bisoprolol in patients with pulmonary hypertensi
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0053 | Bisoprolol | Not specified | Not specified (status: cancelled) |
+| PNF-0053 | Bisoprolol | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

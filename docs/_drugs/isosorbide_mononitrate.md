@@ -50,10 +50,10 @@ Among the top 10 predictions, only **pulmonary arterial hypertension (PAH)** has
 |------|------|
 | Original Indication | Not available (the only registration has no indication text) |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.995% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ For **hypertrichosis**, no established mechanism links this drug to the conditio
 
 The other top-ranked predictions are mostly hair disorders (alopecia, hypotrichosis, alopecia areata, hair shaft abnormalities) and rare congenital malformation syndromes. Most are genetic or autoimmune structural conditions for which a vasodilator has no plausible role. Alopecia is the one exception with a hypothetical perfusion-based rationale, but it is also undocumented.
 
-The most biologically coherent prediction is **pulmonary arterial hypertension** (rank 10, score 99.94%). PAH involves impaired NO–sGC–cGMP signalling, a validated drug target pathway (PDE5 inhibitors, sGC stimulators). Nitrates raise cGMP, so the link is plausible. However, nitrates are not guideline-recommended for PAH, and practical concerns include tolerance, systemic hypotension, ventilation/perfusion mismatch and a dangerous interaction with PDE5 inhibitors.
+The most biologically coherent prediction is **pulmonary arterial hypertension** (rank 10, score 0.9994). PAH involves impaired NO–sGC–cGMP signalling, a validated drug target pathway (PDE5 inhibitors, sGC stimulators). Nitrates raise cGMP, so the link is plausible. However, nitrates are not guideline-recommended for PAH, and practical concerns include tolerance, systemic hypotension, ventilation/perfusion mismatch and a dangerous interaction with PDE5 inhibitors.
 
 ---
 
@@ -93,7 +93,7 @@ No literature is available for hypertrichosis or the other top predictions.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0266 | Isosorbide Mononitrate | Not specified | Not specified (status: cancelled) |
+| PNF-0266 | Isosorbide Mononitrate | Not specified | Not specified (status: valid) |
 
 ---
 

@@ -48,10 +48,10 @@ with **16 clinical trials** and **20 publications** currently supporting this di
 |------|------|
 | Original Indication | Gastric cancer (gastric neoplasm, diffuse gastric adenocarcinoma, gastric linitis plastica, gastric carcinoma) |
 | Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -98,7 +98,7 @@ The data compiled for this report include 16 trials. The 10 most relevant are li
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0473 | Tegafur | Not specified | Not specified (status: cancelled) |
+| PNF-0473 | Tegafur | Not specified | Not specified (status: valid) |
 
 ## Cytotoxicity
 
@@ -127,7 +127,7 @@ Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening), obtained from the DOH-FDA Philippines website
 - Detailed mechanism of action data from DrugBank
-- Clarification of the regulatory path, since there is currently no valid registration in the Philippines
+- Clarification of the regulatory path for a new indication, since the drug is currently marketed in the Philippines with 1 valid licence out of 1
 - Confirmation of which tegafur-containing formulations (UFT, S-1) would be available and suitable locally
 - A safety monitoring plan, including DPD deficiency and CYP2A6 considerations
 ## Disclaimer

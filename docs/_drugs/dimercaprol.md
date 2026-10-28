@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 |------|------|
 | Original Indication | Heavy metal poisoning (arsenic, mercury, gold, lead); the Philippines license record contains no indication text |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link to bronchitis is indirect. The only supporting literature describes bronchitis as a toxic consequence of acute mercury inhalation. In that setting, chelation would address the underlying poisoning rather than treat the bronchitis itself. Dimercaprol has no known direct anti-inflammatory, antimicrobial, or bronchial-protective action relevant to bronchitis of other causes (viral, bacterial, smoking-related, or chronic obstructive).
 
-The very high TxGNN score (99.54%) is a computational prediction. It is likely driven by the drug's association with metal toxicity rather than by clinical efficacy evidence, and should be interpreted with caution.
+The very high TxGNN score (0.9954) is a computational prediction. It is likely driven by the drug's association with metal toxicity rather than by clinical efficacy evidence, and should be interpreted with caution.
 
 ## Literature Evidence
 
@@ -71,7 +71,7 @@ The very high TxGNN score (99.54%) is a computational prediction. It is likely d
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0147 | Dimercaprol | Not specified | Not specified (status: cancelled) |
+| PNF-0147 | Dimercaprol | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

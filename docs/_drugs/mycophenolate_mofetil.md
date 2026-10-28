@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mycophenolate Mofetil
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 244
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Mycophenolate mofetil"
-predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
+predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 ---
 
 # Mycophenolate Mofetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **4 registered clinical trials** (none of which gives direct efficacy evide
 |------|------|
 | Original Indication | Not available in the Philippines registration data |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (per the data compiled for this report; see note below) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The L2 grade comes from the compiled scoring. Strictly applying the rules, no completed Phase 2/3 RCT directly tests MMF for HIV in the trials below. The one randomized study in the literature (PMID 15353978) was in treatment-naive patients and is only a small piece of supporting evidence. The practical strength of evidence is therefore lower than L2 suggests.
@@ -91,7 +91,7 @@ Small clinical studies support this biological plausibility. One case series (PM
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0334 | Mycophenolate Mofetil | Not stated | Not stated (status: cancelled) |
+| PNF-0334 | Mycophenolate Mofetil | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 
@@ -106,7 +106,7 @@ Please refer to the package insert for warnings and formal contraindications.
 ## Other Predicted Indications (Context)
 
 For comparison, the other top predictions are weaker or have different support:
-- **Multiple sclerosis** (score 99.54%): several small Phase 2 trials and a Cochrane review exist, but there are no robust Phase 3 data. This is the better-supported of the candidates.
+- **Multiple sclerosis** (score 0.9954): several small Phase 2 trials and a Cochrane review exist, but there are no robust Phase 3 data. This is the better-supported of the candidates.
 - **Pulmonary hemosiderosis:** only reviews and case-level reports.
 - **All others** (neurodevelopmental disorder, Paget disease, feline and simian immunodeficiency, Heiner syndrome, African iron overload, neonatal hemochromatosis): prediction only, no clinical or literature support.
 

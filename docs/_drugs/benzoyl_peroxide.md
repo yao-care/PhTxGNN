@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Benzoyl Peroxide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acne, atopic dermatitis, contact dermatitis, seborrheic dermatitis…"
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
+last_modified_at: 2026-10-27
+description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Benzoyl Peroxide
@@ -33,87 +33,65 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Benzoyl Peroxide: From Acne and Dermatitis to Vulvar Inverted Follicular Keratosis
+## Benzoyl Peroxide: Topical keratolytic and antibacterial agent → vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Benzoyl peroxide is a topical agent originally used for skin conditions such as acne, atopic and contact dermatitis, and seborrheic dermatitis.
-The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
+Benzoyl peroxide is a topical agent with keratolytic, comedolytic and antibacterial effects.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but the prediction rests on the model alone: **no clinical trials and no publications** were found for this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne, atopic dermatitis, contact dermatitis, seborrheic dermatitis, seborrheic keratosis, granuloma annulare (from the knowledge graph; no approved indication text is available from the Philippines registration) |
-| Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | vulvar inverted follicular keratosis |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, benzoyl peroxide is a topical agent with keratolytic, comedolytic and antimicrobial effects. Its efficacy in acne is well established, and mechanistically it may be applicable to follicular keratinization disorders.
+Currently, detailed mechanism of action data is not available. Benzoyl peroxide is known for keratolytic, comedolytic and antimicrobial effects, which could plausibly act on follicular keratinization.
 
-Inverted follicular keratosis is a benign follicular-derived lesion related to seborrheic keratosis, which is among benzoyl peroxide's original indications. This relationship is the most plausible reason for the model's prediction. However, no clinical or mechanistic data support use at the vulvar site. Vulvar mucosa is also sensitive to irritation, which raises a safety concern for a product known to cause local irritation.
-
-## Other Predictions Reviewed
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
-|------|------|------|------|------|
-| 2 | 2-hydroxyethyl methacrylate sensitization | 99.43% | L5 | Mechanistically implausible. Benzoyl peroxide is itself a contact sensitizer and a radical initiator in acrylate polymerization, so it may worsen the condition. |
-| 3 | Acrodermatitis chronica atrophicans | 99.17% | L5 | Unlikely. This is a late Borrelia skin infection treated with systemic antibiotics, and topical activity is not expected to reach the dermal organisms. |
-| 4 | Acne keloid | 99.06% | L4 | Plausible but indirect. It is a research question requiring direct data. |
+Inverted follicular keratosis is a benign follicular-derived lesion that is related to seborrheic keratosis, a skin condition for which benzoyl peroxide is also used. This relatedness is the likely basis of the model's signal. However, no clinical or mechanistic data support the use of benzoyl peroxide at the vulvar site. The vulvar mucosa is also sensitive to irritation, which raises a safety concern for a product known to cause local irritation.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the top predicted indication.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for the top predicted indication.
-
-For the fourth-ranked prediction (acne keloid), one paper was retrieved, but it is only indirectly relevant:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39090034](https://pubmed.ncbi.nlm.nih.gov/39090034/) | 2024 | Review (retrospective chart review) | Dermatology Online Journal | Review of 77 Black pediatric patients with acne vulgaris, a condition that often leads to scarring, keloid formation and post-inflammatory hyperpigmentation. It concerns acne vulgaris, not acne keloidalis. |
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0044 | Benzoyl Peroxide | Not specified | Not specified (status: cancelled) |
+| PNF-0044 | Benzoyl Peroxide | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications (from the knowledge graph, not label text)**: The knowledge graph links benzoyl peroxide to the following contraindicated conditions:
-  - Skin and photosensitivity: photosensitivity disease, photoparoxysmal response, exfoliative dermatitis, dermatitis, skin atrophy
-  - Vascular: telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia, peripheral vascular disease, intermittent vascular claudication, peripheral arterial disease
-  - Gastrointestinal: Crohn disease, Crohn's colitis, inflammatory bowel disease, ulcerative colitis, Clostridium difficile colitis, perinatal necrotizing enterocolitis
-  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency, Addison disease
-  - Other: kidney disease, pyoureter, anogenital human papillomavirus infection, common wart
+- **Disease associations flagged as contraindications (not from label text)**: Photosensitivity disease, photoparoxysmal response, kidney disease, diabetes mellitus, diabetic ketoacidosis, inflammatory bowel disease (including Crohn disease and ulcerative colitis), exfoliative dermatitis, dermatitis, skin atrophy, telangiectasis, hereditary hemorrhagic telangiectasia, peripheral vascular disease, adrenocortical insufficiency, anogenital human papillomavirus infection and common wart. These come from model-derived data and should be checked against the package insert.
+- **Local tolerability**: Vulvar mucosa is sensitive to irritation, so use at this site raises a specific concern.
 
-  These are model-derived associations and should be verified against the product label.
-
-Please refer to the package insert for further safety information, including warnings and drug interactions.
+No drug interaction records were found. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no clinical trials or literature. Benzoyl peroxide has no valid registration in the Philippines, and the vulvar site raises irritation concerns. Of the other predictions, two (methacrylate sensitization and acrodermatitis chronica atrophicans) are mechanistically implausible. Acne keloid is the only one with a plausible, if indirect, rationale and is best treated as a research question.
+The prediction has a very high model score, but no clinical trials or publications address vulvar inverted follicular keratosis, so the evidence level is L5. Mucosal irritation at the vulvar site adds a safety concern.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for benzoyl peroxide
-- Package insert warnings and contraindications to complete safety screening
-- Direct clinical or case evidence for inverted follicular keratosis, or for acne keloidalis if that indication is pursued
-- A mucosal and vulvar tolerability assessment
-- Confirmation of the current regulatory and market status in the Philippines, since the only registration is cancelled
+- Direct clinical or histopathological evidence for benzoyl peroxide in inverted follicular keratosis
+- Mechanism of action data
+- Package insert warnings and contraindications from the Philippine regulator
+- Assessment of vulvar mucosal tolerability and a suitable formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

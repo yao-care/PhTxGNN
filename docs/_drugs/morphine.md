@@ -6,9 +6,9 @@ nav_order: 241
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Diarrheal disease"
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
+description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Morphine
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Morphine: From Diarrheal Disease to Myofascial Pain Syndrome
+## Morphine: Myofascial pain syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Morphine is an opioid analgesic that the knowledge graph lists as originally used for diarrheal disease.
+Morphine is an opioid analgesic that is listed as originally used for diarrheal disease.
 The TxGNN model predicts it may be effective for **myofascial pain syndrome**, but there are **no registered clinical trials** and only **10 indirect publications** (stretching programs, opioid use in TMJ dysfunction, perioperative studies) supporting this direction.
 Among the ten predictions, **restless legs syndrome** has the strongest supporting evidence and is described in the conclusion.
 
@@ -48,12 +48,12 @@ Among the ten predictions, **restless legs syndrome** has the strongest supporti
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrheal disease (from the knowledge graph; no approved indication text in local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myofascial pain syndrome |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -90,13 +90,13 @@ These studies are indirect and do not test morphine as a treatment for myofascia
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0331 | Morphine | Not specified | Not specified (status: cancelled) |
+| PNF-0331 | Morphine | Not specified | Not specified (status: valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: Flagged conditions include hypertension, orthostatic hypotension, long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, epilepsy, COPD, pancreatitis, gallbladder disease, gastric ulcer, hypothyroidism, anxiety and other psychiatric disorders (including psychotic and schizoaffective disorders), and potassium deficiency.
+- **Contraindications (not label text)**: Flagged conditions include hypertension, orthostatic hypotension, long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, epilepsy, COPD, pancreatitis, gallbladder disease, gastric ulcer, hypothyroidism, anxiety and other psychiatric disorders (including psychotic and schizoaffective disorders), and potassium deficiency.
 - **Drug Interactions**: 100 interactions were found in total. Major interactions include fentanyl, codeine, dihydrocodeine, tramadol, alprazolam, butalbital, dichloralphenazone and ethanol (additive central nervous system and respiratory depression is the main concern). Moderate interactions include chlorpheniramine, cetirizine, nifedipine, hydrochlorothiazide, metformin and alfentanil, among others.
 - **Class risks noted in the literature**: Dependence, respiratory depression, opioid-induced hyperalgesia and medication-overuse headache.
 

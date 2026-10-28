@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 199
-evidence_level: L4
-indication_count: 2
-last_modified_at: 2026-10-15
-description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
+last_modified_at: 2026-10-27
+description: "Lansoprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,32 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Lansoprazole: From Gastric Ulcer and Acid-Related Disorders to Duodenogastric Reflux
+## Lansoprazole: proton pump inhibitor → duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lansoprazole is a proton pump inhibitor originally used for acid-related upper gastrointestinal conditions such as gastric ulcer, duodenal ulcer, gastroesophageal reflux disease and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **duodenogastric reflux**, but there are currently **0 clinical trials** and only **1 general review article** supporting this direction, so the prediction rests mainly on the model.
+Lansoprazole is a proton pump inhibitor used to reduce stomach acid. The TxGNN model predicts it may be relevant for **duodenal obstruction**, but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the Philippines registration record has no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | duodenal obstruction |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Lansoprazole is known to be a proton pump inhibitor that suppresses gastric acid secretion, and its efficacy in acid-related upper gastrointestinal disease is well established.
+Detailed mechanism of action data is not available for this report. Lansoprazole belongs to the proton pump inhibitor class, which suppresses gastric acid secretion.
 
-Duodenogastric (bile) reflux is closely related to the approved indications of gastroesophageal reflux disease, esophagitis and peptic ulcer disease. When bile and duodenal contents flow back into the stomach, reducing gastric acidity may ease mucosal irritation and symptoms.
+Duodenal obstruction is a mechanical or structural problem, for example from a tumour, stenosis or annular pancreas. Acid suppression does not treat the blockage itself. A possible indirect link is that ulcer disease of the duodenum can cause narrowing through scarring and swelling, so acid suppression might help with ulcer-related inflammatory narrowing or serve as supportive therapy. This is speculative.
 
-There are important limits. A proton pump inhibitor does not stop bile from refluxing, so any benefit is probably symptomatic and limited to the acid component of the mucosal injury. The high TxGNN score most likely reflects the disease's closeness to approved acid-related indications in the knowledge graph, not independent disease-specific evidence.
-
-A second predicted indication, **duodenal obstruction** (score 99.68%), has no supporting trials or literature. It is a mechanical or structural problem that acid suppression does not treat. A PPI could at most help with ulcer-related inflammatory narrowing, which is speculative, so it is not pursued further here.
+The high score (0.9968) most likely reflects the model's closeness between duodenal obstruction and duodenal ulcer-related conditions, not a demonstrated therapeutic effect.
 
 ## Clinical Trial Evidence
 
@@ -69,39 +66,35 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use and pharmacokinetics. PPIs are first-choice drugs for peptic ulcer, H. pylori infection, GERD, NSAID-related gastrointestinal lesions and Zollinger-Ellison syndrome. It does not specifically address duodenogastric reflux. |
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0279 | Lansoprazole | Not recorded | Not recorded (status: cancelled) |
+| PNF-0279 | Lansoprazole | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Drug Interactions**: A screening of 100 interacting drugs was completed. Examples of the interactions listed:
-  - **Major**: Acalabrutinib, Atazanavir
-  - **Moderate**: Hydrochlorothiazide, Amphotericin B, Amikacin, Amphetamine, Ampicillin, Fenofibrate, Apalutamide, Aprepitant, Atorvastatin, Bosutinib, Brigatinib, Bromocriptine
-  - **Minor**: Acetylsalicylic acid, Axitinib, Brivaracetam, Cyanocobalamin
-- **Disease-related cautions from the knowledge graph** (these come from knowledge graph links, not from label text, and should be checked against the official label): long QT syndrome and torsades de pointes, liver failure and liver disease, kidney disease, porphyria, osteoporosis, congestive heart failure, myocardial infarction, stroke and cerebrovascular disorders, blood coagulation disease, anaemia, *Clostridium difficile* colitis, myasthenia gravis, and others.
+- **Drug Interactions**: 100 interactions were found in the data compiled for this report. Examples:
+  - **Major**: acalabrutinib, atazanavir
+  - **Moderate**: amphotericin B, amikacin, ampicillin, amphetamine, apalutamide, aprepitant, atorvastatin, bosutinib, brigatinib, bromocriptine, fenofibrate, hydrochlorothiazide
+  - **Minor**: acetylsalicylic acid, axitinib, brivaracetam, cyanocobalamin
 
-Please refer to the package insert for warnings and contraindications.
+Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score and a general review that does not address duodenogastric reflux. No clinical trials exist, and a PPI would not be expected to stop bile reflux itself. In the Philippines, the only registration is cancelled, and no package insert safety information was available.
+The prediction has no supporting clinical trials or publications, and duodenal obstruction is a mechanical condition that acid suppression is not expected to treat directly. The high score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the DOH-FDA Philippines website (needed before any safety screening)
-- Mechanism of action data, for example from DrugBank
-- A targeted literature search for PPI use in bile or duodenogastric reflux, with clinical trial evidence if available
-- Confirmation of whether a valid lansoprazole registration and suitable dosage forms exist in the Philippines
-- A review of the major drug interactions (atazanavir, acalabrutinib) and the knowledge graph cautions against the official label
+- Clinical or observational studies that directly examine lansoprazole in duodenal obstruction
+- Mechanism of action data and a clear rationale for any effect beyond ulcer-related narrowing
+- Package insert warnings and contraindications from the Philippine regulator
+- Review of the major drug interactions (acalabrutinib, atazanavir) before any use in new populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

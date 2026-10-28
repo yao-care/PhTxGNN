@@ -6,7 +6,7 @@ nav_order: 135
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Etoposide: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumours"
+description: "Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumors"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Ewing Sarcoma
+## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumors to Well-Differentiated Fetal Adenocarcinoma of the Lung
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked predictions are lung-related rare tumours, but the 
 |------|------|
 | Original Indication | Small cell lung carcinoma, testicular cancer and germ cell tumours (the approved indication text for the Philippines registration is blank) |
 | Predicted New Indication | Ewing sarcoma (best-supported); the highest-ranked prediction by score is well-differentiated fetal adenocarcinoma of the lung |
-| TxGNN Prediction Score | 99.84% (Ewing sarcoma); 99.94% (well-differentiated fetal adenocarcinoma of the lung) |
-| Evidence Level | L1 (Ewing sarcoma and rhabdomyosarcoma); L3–L5 for the other candidates |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9994 (well-differentiated fetal adenocarcinoma of the lung) |
+| Evidence Level | L5 (Ewing sarcoma and rhabdomyosarcoma); L3–L5 for the other candidates |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (Ewing sarcoma, rhabdomyosarcoma); Hold for the remaining candidates |
 
 ---
@@ -136,7 +136,7 @@ Literature for the other candidates (primary pulmonary lymphoma, vaginal botryoi
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0181 | Etoposide | Not specified | Not specified (status: cancelled) |
+| PNF-0181 | Etoposide | Not specified | Not specified (status: valid) |
 
 ---
 

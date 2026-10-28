@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 350
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 ## One-Sentence Summary
 
 Valsartan is an angiotensin II receptor blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (score 99.97%),
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease** (score 0.9997),
 but **no clinical trials** and only **1 indirect preclinical publication** (which does not test valsartan) currently support this direction.
 
 ## Quick Overview
@@ -48,10 +48,10 @@ but **no clinical trials** and only **1 indirect preclinical publication** (whic
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,6 @@ Currently, detailed mechanism of action data is not available in the data compil
 The predicted indication is closely related to the original one. Malignant hypertensive renal disease is kidney damage caused by severe hypertension, so this prediction sits near the labeled use rather than representing a true repurposing signal. The very high TxGNN score is a computational result and does not replace clinical data.
 
 Other predictions from the model are weaker still:
-- **Malignant renovascular hypertension** (score 99.97%): strongly angiotensin II-driven, and an animal study (PMID 11560862) shows AT1 blockade prevents lethal malignant hypertension. It is preclinical and it is unclear whether valsartan itself was tested. ARBs also carry a risk of acute kidney injury in bilateral renal artery stenosis.
 - **Pulmonary hypertension (two categories)**, **chronic pulmonary heart disease**, **Braddock syndrome** and **Prinzmetal angina**: evidence is model prediction or indirect literature (mostly sacubitril/valsartan, heart failure, or unrelated topics). These are not supported for valsartan alone.
 
 ## Clinical Trial Evidence
@@ -82,7 +81,7 @@ For the lead prediction, only one paper was retrieved, and it concerns a differe
 |------|-----|------|------|---------|
 | [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical | Pharmacological Research | Avosentan (an endothelin antagonist, not valsartan) protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention |
 
-Selected supporting papers for the second prediction (malignant renovascular hypertension) and other predictions:
+Selected supporting papers for the predictions:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -95,7 +94,7 @@ Selected supporting papers for the second prediction (malignant renovascular hyp
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0507 | Valsartan | Not specified | Not specified (status: cancelled) |
+| PNF-0507 | Valsartan | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -112,7 +111,7 @@ Please refer to the package insert for further safety information, as label warn
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, valsartan currently has no valid registration in the Philippines (its only record is cancelled), and label safety data are unavailable.
+The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, valsartan is currently marketed in the Philippines (1 valid license of 1), and label safety data are unavailable.
 
 **To proceed, the following is needed:**
 - Valsartan-specific clinical or preclinical evidence in malignant hypertensive renal disease

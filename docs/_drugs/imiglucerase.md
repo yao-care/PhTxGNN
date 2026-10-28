@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 173
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L4). Approved use: Gaucher disease"
+last_modified_at: 2026-10-28
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
+description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Imiglucerase: From Gaucher Disease to Hurler Syndrome
+## Imiglucerase: Hurler syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 clinical trials** and only **1 general review article** behind
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hurler syndrome |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,10 +63,10 @@ Hurler syndrome (MPS I) is a different disease. It is caused by a deficiency of 
 The high TxGNN score most likely reflects closeness within the lysosomal disease network rather than a true therapeutic mechanism. A disease-specific ERT (laronidase) already exists for this condition, which makes repurposing imiglucerase hard to justify.
 
 **Other predictions reviewed (all Hold):**
-- **Scheie syndrome** (score 99.29%, L4): an attenuated form of MPS I with the same reasoning as above. The only evidence is the same general ERT review, which does not report imiglucerase use in this disease.
-- **Benign neoplasm of adrenal gland** (99.28%, L5): no trials or literature, and no identified mechanistic basis.
-- **Autosomal ichthyosis syndrome with fatal disease course** (99.24%, L5): there is a theoretical link through glucosylceramide and the skin barrier, but no data. Systemically given imiglucerase is unlikely to reach the epidermis effectively.
-- **Cholesteryl ester storage disease** (99.12%, L5): caused by a different enzyme deficiency (lysosomal acid lipase). Sebelipase alfa is the disease-specific ERT.
+- **Scheie syndrome** (score 0.9929, L4): an attenuated form of MPS I with the same reasoning as above. The only evidence is the same general ERT review, which does not report imiglucerase use in this disease.
+- **Benign neoplasm of adrenal gland** (0.9928, L5): no trials or literature, and no identified mechanistic basis.
+- **Autosomal ichthyosis syndrome with fatal disease course** (0.9924, L5): there is a theoretical link through glucosylceramide and the skin barrier, but no data. Systemically given imiglucerase is unlikely to reach the epidermis effectively.
+- **Cholesteryl ester storage disease** (0.9912, L5): caused by a different enzyme deficiency (lysosomal acid lipase). Sebelipase alfa is the disease-specific ERT.
 
 ## Clinical Trial Evidence
 
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-Imiglucerase has one registration in the Philippines (PNF-0244), and it is **cancelled**. No dosage form or approved indication is recorded for it, and there are no currently valid registrations.
+Imiglucerase has one registration in the Philippines (PNF-0244), and it is **valid**. No dosage form or approved indication is recorded for it. The drug is marketed, with 1 valid licence out of 1.
 
 ## Safety Considerations
 

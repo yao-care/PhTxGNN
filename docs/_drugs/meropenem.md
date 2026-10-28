@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Meropenem
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 224
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Pseudomonas aeruginosa infection, meningococcal infection…"
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "Ureaplasma urethritis", "gonococcal urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Meropenem: From Pseudomonas aeruginosa Infection and Meningitis to Bacterial Arthritis
+## Meropenem: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Among the ten predictions compiled for this report, the best-supported one is **
 
 | Item | Content |
 |------|------|
-| Original Indication | Pseudomonas aeruginosa infection, meningococcal infection, peritonitis, bacterial meningitis (viral, pneumococcal and streptococcal meningitis also listed) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 (for bacterial arthritis) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-The original indications come from the TxGNN knowledge graph, because no approved indication text is available for the Philippines registration.
+The original indications are not available as approved indication text for the Philippines registration.
 
 ---
 
@@ -70,16 +70,15 @@ Bacterial arthritis (septic arthritis) is a bacterial infection, like the drug's
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Bacterial arthritis | 99.92% | L4 | Hold |
-| Epiglottitis | 99.91% | L4 | Hold; only case reports and susceptibility studies |
-| *Staphylococcus aureus* infection | 99.85% | L3 | Research question; a 2024 cohort of carbapenem combination therapy for persistent MSSA bacteraemia gives some signal |
-| Laryngitis | 99.59% | L5 | Hold; mostly viral, no clear rationale |
-| Paratyphoid fever | 99.57% | L4 | Hold; possible reserve option for extensively drug-resistant enteric fever |
-| Urinary tract infection | 99.52% | L1 | Proceed with Guardrails; confirmatory rather than novel |
-| Lyme disease | 99.46% | L5 | Hold; no clinical support |
-| Peptostreptococcus infection | 99.37% | L5 | Hold; no evidence retrieved |
-| Ureaplasma urethritis | 99.33% | L5 | Hold; conflicts with known biology, since Ureaplasma lacks a cell wall |
-| Gonococcal urethritis | 99.33% | L5 | Hold; standard therapy is ceftriaxone |
+| Bacterial arthritis | 0.9992 | L4 | Hold |
+| Epiglottitis | 0.9991 | L4 | Hold; only case reports and susceptibility studies |
+| *Staphylococcus aureus* infection | 0.9985 | L3 | Research question; a 2024 cohort of carbapenem combination therapy for persistent MSSA bacteraemia gives some signal |
+| Laryngitis | 0.9959 | L5 | Hold; mostly viral, no clear rationale |
+| Paratyphoid fever | 0.9957 | L4 | Hold; possible reserve option for extensively drug-resistant enteric fever |
+| Lyme disease | 0.9946 | L5 | Hold; no clinical support |
+| Peptostreptococcus infection | 0.9937 | L5 | Hold; no evidence retrieved |
+| Ureaplasma urethritis | 0.9933 | L5 | Hold; conflicts with known biology, since Ureaplasma lacks a cell wall |
+| Gonococcal urethritis | 0.9933 | L5 | Hold; standard therapy is ceftriaxone |
 
 ---
 
@@ -139,7 +138,7 @@ For the best-supported prediction (complicated UTI), key publications include:
 |---------|------|------|-----------|
 | PNF-0311 | Meropenem | Not specified | Not specified |
 
-This registration is **cancelled**. No currently valid single-ingredient or combination registrations exist.
+This registration is **cancelled**.
 
 ---
 

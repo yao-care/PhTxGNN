@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Bleomycin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 47
-evidence_level: L1
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
-description: "Bleomycin: predicted new indication Reticulum cell sarcoma (evidence level L1). Approved use: Hodgkin and non-Hodgkin lymphoma, mantle cell and follicular lymphoma…"
+last_modified_at: 2026-10-28
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Bleomycin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Bleomycin: From Lymphoma to Reticulum Cell Sarcoma (Non-Hodgkin Lymphoma)
+## Bleomycin: Cauda equina neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **cauda equina neoplasm**, but that h
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin and non-Hodgkin lymphoma, mantle cell and follicular lymphoma, Langerhans cell histiocytosis, head and neck cancer (the Philippines registration has no indication text) |
-| Predicted New Indication | Reticulum cell sarcoma (the highest-scoring candidate, cauda equina neoplasm, has only one off-target paper; reticulum cell sarcoma is the best-supported candidate and is evaluated in this report) |
-| TxGNN Prediction Score | 99.14% (reticulum cell sarcoma); 99.30% (cauda equina neoplasm, rank 1) |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Cauda equina neoplasm |
+| TxGNN Prediction Score | 0.9930 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -66,11 +66,11 @@ Detailed mechanism of action data is not available in the data compiled for this
 Two caveats apply. The Phase 3 trials compare whole regimens, so bleomycin's own contribution cannot be isolated. Modern first-line therapy for diffuse large B-cell lymphoma (R-CHOP) does not include bleomycin.
 
 The other predictions are weaker:
-- **Cauda equina neoplasm** (score 99.30%): Only one paper was retrieved, on radiotherapy for relapsed CNS germinoma. There is no direct link, and bleomycin penetrates the CNS poorly.
-- **Adult astrocytic tumour** (99.28%): Historical combination regimens and intratumoral bleomycin were tried in glioma, including a Phase I trial. Efficacy was not established, and one randomized study found no survival benefit from adding bleomycin.
-- **Primary pulmonary lymphoma** (99.10%): No specific studies were found, and bleomycin's lung toxicity is a concern.
-- **Pulmonary blastoma** (99.04%): Only two case reports were found.
-- **Well-differentiated fetal adenocarcinoma of the lung** (99.03%): No evidence was found.
+- **Cauda equina neoplasm** (score 0.9930): Only one paper was retrieved, on radiotherapy for relapsed CNS germinoma. There is no direct link, and bleomycin penetrates the CNS poorly.
+- **Adult astrocytic tumour** (0.9928): Historical combination regimens and intratumoral bleomycin were tried in glioma, including a Phase I trial. Efficacy was not established, and one randomized study found no survival benefit from adding bleomycin.
+- **Primary pulmonary lymphoma** (0.9910): No specific studies were found, and bleomycin's lung toxicity is a concern.
+- **Pulmonary blastoma** (0.9904): Only two case reports were found.
+- **Well-differentiated fetal adenocarcinoma of the lung** (0.9903): No evidence was found.
 
 ---
 
@@ -118,7 +118,7 @@ Literature for reticulum cell sarcoma (selected from 20 retrieved):
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0054 | Bleomycin | Not specified | Not specified (registration cancelled) |
+| PNF-0054 | Bleomycin | Not specified | Not specified (registration valid) |
 
 ---
 

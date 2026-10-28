@@ -4,17 +4,17 @@ title: Mannitol
 parent: Model Prediction Only (L5)
 nav_order: 215
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Brain edema, intracranial hypertension, ocular hypertension…"
 monitor_inn: "Mannitol"
-predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
+description: "Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mannitol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mannitol: From Intracranial and Ocular Pressure Reduction to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Mannitol: Nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **0 clinical trials** and only **1 general review** behind this pr
 
 | Item | Content |
 |------|------|
-| Original Indication | Brain edema, intracranial hypertension, ocular hypertension, pseudotumor cerebri, congestive heart failure, cystic fibrosis (the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 That theoretical link is weak here. Nephrogenic SIAD is caused by gain-of-function variants in the vasopressin V2 receptor, so the defect sits in the receptor signalling and osmotic diuresis would not correct it. The only retrieved paper is a general review of pitfalls in evaluating hyponatremia. It says nothing about mannitol in this condition. The high TxGNN score is therefore a model output only and should not be read as clinical support.
 
 Other top-ranked predictions are also weak. Most are supportive or indirect associations, and several are mechanistically implausible:
-- **Nephrogenic diabetes insipidus** (score 99.70%): osmotic diuresis would likely worsen polyuria and free-water loss, so the prediction is potentially harmful.
+- **Nephrogenic diabetes insipidus** (score 0.9970): osmotic diuresis would likely worsen polyuria and free-water loss, so the prediction is potentially harmful.
 - **Malignant hyperthermia, central core myopathy and related myopathies**: the links appear to come from RYR1-related network proximity, and mannitol is a vehicle component of dantrolene formulations. It has no known action on the underlying calcium dysregulation.
 - **Hypokalemic periodic paralysis**: mannitol serves as a glucose-free solvent for IV potassium. This is a supportive formulation choice, not disease-modifying treatment.
 - **Acute pulmonary heart disease**: only indirect, dated literature exists, and mannitol can transiently expand intravascular volume, which may worsen right heart strain.
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0299 | Mannitol | Not specified | Not specified (registration status: cancelled) |
+| PNF-0299 | Mannitol | Not specified | Not specified (registration status: valid) |
 
 ## Safety Considerations
 
@@ -98,7 +98,7 @@ The following comes from knowledge-graph disease associations, not from package 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials, the only paper is a general hyponatremia review, and the proposed mechanism does not fit the V2-receptor gain-of-function defect. The Philippines registration is also cancelled, so there is no active local product.
+The prediction score is high, but there are no clinical trials, the only paper is a general hyponatremia review, and the proposed mechanism does not fit the V2-receptor gain-of-function defect.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for mannitol, to allow a proper mechanistic analysis.

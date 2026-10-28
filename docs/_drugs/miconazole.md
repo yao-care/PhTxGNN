@@ -6,7 +6,7 @@ nav_order: 236
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Miconazole: predicted new indication Acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
+description: "Miconazole: predicted new indication acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **acne**, but there are **no re
 |------|------|
 | Original Indication | Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis, tinea unguium, pityriasis versicolor, dermatophytosis of the groin and perianal area, vulvovaginal candidiasis |
 | Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,7 +81,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0326 | Miconazole | Not specified | Not specified (registration cancelled) |
+| PNF-0326 | Miconazole | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

@@ -48,10 +48,10 @@ The data compiled for this report include **33 clinical trials** and **20 public
 |------|------|
 | Original Indication | Not available in the Philippines license record |
 | Predicted New Indication | HIV infectious disease (in practice, HIV-associated MAC/TB) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -100,7 +100,7 @@ Many other registered trials, such as MAC prophylaxis (NCT00002267, NCT00001030,
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0420 | Rifabutin | Not specified | Not specified (status: cancelled) |
+| PNF-0420 | Rifabutin | Not specified | Not specified (status: valid) |
 
 ## Cytotoxicity
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
-description: "Enoxaparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
+last_modified_at: 2026-10-27
+description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Enoxaparin
@@ -33,34 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Enoxaparin: From Pulmonary Embolism to Thrombophilia Due to Protein C Deficiency (Autosomal Recessive)
+## Enoxaparin: low-molecular-weight heparin (factor Xa inhibition via antithrombin) → thrombophilia due to protein C deficiency, autosomal recessive
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Enoxaparin is a low-molecular-weight heparin anticoagulant, originally used for pulmonary embolism, disseminated intravascular coagulation and purpura fulminans.
-The TxGNN model predicts it may be effective for **thrombophilia due to protein C deficiency, autosomal recessive**,
-but there are currently **0 clinical trials** and **0 publications** in the compiled data supporting this prediction, so it rests on model inference only.
+Enoxaparin is a low-molecular-weight heparin anticoagulant. The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency, autosomal recessive**, with a score of **0.9958**. However, **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on model inference alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, disseminated intravascular coagulation, purpura fulminans (from the knowledge graph; no approved indication text is available from Philippines licences) |
-| Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
-| TxGNN Prediction Score | 99.58% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from the original source is not available. Based on known information, enoxaparin is a low-molecular-weight heparin. It potentiates antithrombin and mainly inhibits factor Xa, with weaker inhibition of thrombin. This gives it plausible anticoagulant coverage for hypercoagulable states.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, enoxaparin enhances antithrombin activity and mainly inhibits factor Xa, with weaker inhibition of thrombin. This gives it plausible anticoagulant coverage in a hypercoagulable state.
 
-In protein C deficiency, the loss of protein C-mediated inactivation of factors Va and VIIIa leads to unchecked thrombin generation. Severe congenital deficiency can cause neonatal purpura fulminans. Enoxaparin's existing indications (purpura fulminans and disseminated intravascular coagulation) share this pathophysiology of microvascular thrombosis, which supports the model's prediction.
+In autosomal recessive protein C deficiency, the loss of protein C-mediated inactivation of factors Va and VIIIa leads to unchecked thrombin generation. In severe congenital forms this can cause neonatal purpura fulminans. A drug that dampens thrombin generation could therefore be mechanistically relevant.
 
-The score is very high, but it is a knowledge-graph inference only. Heparins are plausibly used in protein C deficiency, often as a bridge to or alongside protein C concentrate and vitamin K antagonists. However, this is general knowledge and is not documented in the data compiled for this report.
+The use of heparins in protein C deficiency, often alongside protein C concentrate and vitamin K antagonists, is plausible from general knowledge. It is not documented in the data compiled for this report, and the score is a model inference rather than clinical confirmation.
 
 ## Clinical Trial Evidence
 
@@ -74,40 +72,41 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0165 | Enoxaparin | Not specified | Not specified (status: cancelled) |
+| PNF-0165 | Enoxaparin | Not recorded | Not recorded |
 
-The only registration is cancelled, so this product is not currently available under a valid registration in the Philippines.
+The data lists one single-ingredient record for this drug. Its status is shown as cancelled, while the overall market status is reported as marketed. This discrepancy should be verified against the regulator's current register before any decision.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for these.
+Label-based warnings and contraindications are not available. Please refer to the package insert for safety information.
 
-- **Disease-level contraindications (knowledge graph, not label text)**: The knowledge graph links enoxaparin to contraindications in the following groups:
-  - Bleeding and coagulation disorders: hemophilia, blood coagulation disease, thrombocytopenia, heparin-induced thrombocytopenia, Glanzmann thrombasthenia, qualitative platelet defect, antithrombin III deficiency, hematologic disease
-  - Haemorrhage risk: intracranial hemorrhage, intracerebral hemorrhage, placental abruption
-  - Gastrointestinal and hepatobiliary: active peptic ulcer disease, ulcerative colitis, inflammatory bowel disease, liver failure, biliary tract disease, obstructive jaundice
-  - Eye conditions: retinal disease, retinitis, diabetic retinopathy, hypertensive retinopathy, diabetic cataract
-  - Infection and vascular: infective endocarditis (including subacute bacterial endocarditis), arteriosclerosis obliterans
-  - Bone: osteoporosis, postmenopausal osteoporosis
-- **Drug Interactions**: 100 interactions were identified, mostly related to bleeding risk. Major interactions in the data reviewed include:
-  - Antiplatelet and NSAID agents: acetylsalicylic acid, abciximab, ketorolac, ibuprofen
-  - Thrombolytics: alteplase
-  - Others: deferasirox, acalabrutinib, trastuzumab emtansine, ibritumomab tiuxetan, tositumomab (including I-131)
-  - Moderate interactions include dexfenfluramine, fenfluramine, sibutramine, sugammadex, aliskiren, radioactive iodide (I-123, I-131) and topical diclofenac.
+- **Drug Interactions**: 100 interactions are recorded. Major-level examples include:
+  - Acetylsalicylic acid
+  - Ibuprofen
+  - Ketorolac
+  - Alteplase
+  - Abciximab
+  - Acalabrutinib
+  - Deferasirox
+  - Trastuzumab emtansine
+  - Ibritumomab tiuxetan
+  - Tositumomab
+
+  Most are related to increased bleeding risk. Moderate-level examples include fenfluramine, dexfenfluramine, sibutramine, sugammadex and aliskiren.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, and the biological rationale is plausible. However, it is model inference only (L5), with no supporting trials or literature in the compiled data. The Philippines registration is cancelled, and package insert safety data are missing.
+The TxGNN score is very high (0.9958), but no trials or publications directly study this disease with enoxaparin, so the evidence level is L5. Package insert safety data and mechanism data are also missing, and the local licence record is cancelled.
 
 **To proceed, the following is needed:**
-- A literature and clinical trial search on heparins or low-molecular-weight heparins in protein C deficiency
-- Official mechanism of action data (for example, from DrugBank)
-- Package insert warnings and contraindications from the DOH-FDA Philippines, which are needed for safety screening
-- Clarification of the registration situation: whether a valid enoxaparin product exists in the Philippines, and which dosage forms and indications are approved
-- A bleeding-risk and drug interaction management plan for this rare-disease population, including consideration of protein C concentrate and vitamin K antagonist co-therapy
+- Literature and trial search for heparin or low-molecular-weight heparin use in severe congenital protein C deficiency
+- Mechanism-of-action data for enoxaparin
+- Package insert warnings and contraindications from the regulator
+- Verification of the current licence and market status in the Philippines
+- Safety and bleeding-risk plan, including management of interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

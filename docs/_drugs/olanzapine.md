@@ -4,17 +4,17 @@ title: Olanzapine
 parent: Model Prediction Only (L5)
 nav_order: 262
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, manic bipolar affective disorder…"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Olanzapine: From Bipolar Disorder and Schizophrenia to Benign Paroxysmal Torticollis of Infancy
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Two other predictions (agoraphobia and dysthymic disorder) have more supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, manic bipolar affective disorder, unipolar and major depressive disorder, anxiety disorder, schizophrenia (from the knowledge graph; no approved indication text in the Philippine registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,8 +64,7 @@ For benign paroxysmal torticollis of infancy, the link is weak. The disorder is 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Supporting Evidence |
 |------|------|------|------|
-| Agoraphobia | 99.47% | L3 | Small open-label trial of olanzapine augmentation in treatment-resistant panic disorder, case reports, and systematic reviews; evidence is for panic disorder rather than agoraphobia itself |
-| Dysthymic disorder | 99.28% | L3 | Cochrane review of second-generation antipsychotics for major depression and dysthymia; other items are indirect |
+| Agoraphobia | 0.9947 | L5 | Small open-label trial of olanzapine augmentation in treatment-resistant panic disorder, case reports, and systematic reviews; evidence is for panic disorder rather than agoraphobia itself |
 
 Both are at the research-question stage. Neither has registered clinical trials or RCT evidence.
 
@@ -81,9 +80,8 @@ Currently no related literature available for the top predicted indication.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0358 | Olanzapine | Not stated | Not stated (status: cancelled) |
+| PNF-0358 | Olanzapine | Not stated | Not stated (status: valid) |
 
-The only registration found is cancelled, so no valid marketing authorization for olanzapine is currently recorded in the Philippines.
 
 ## Safety Considerations
 

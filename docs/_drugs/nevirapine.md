@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nevirapine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 250
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Nevirapine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are **0 clinical trials** and only **1 relevant publication** (an in v
 |------|------|
 | Original Indication | HIV infectious disease; AIDS |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,8 +61,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 However, the mechanistic link is weak. FIV reverse transcriptase is generally reported to respond poorly to many NNRTIs because the NNRTI binding pocket differs structurally from that of HIV-1. The one relevant study (a 2023 biochemical and structural comparison of NNRTIs against feline and human immunodeficiency viruses) examined nevirapine, efavirenz and rilpivirine, but the information available does not allow the specific result for nevirapine to be confirmed. The high TxGNN score is a computational prediction, most likely reflecting similarity to the existing HIV indication, and it is not backed by clinical data. This is also a veterinary indication with no direct human clinical relevance.
 
 The other top predictions show the same pattern:
-- **Simian immunodeficiency virus infection** (score 99.85%, L4): the literature is preclinical and model-based. Wild-type SIV is naturally resistant to NNRTIs, and the chimeric SHIV viruses carrying HIV-1 reverse transcriptase are used only as research models. No clinical trials exist.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.82%, L5): no trials, no literature, and no identifiable mechanistic link. This is a prediction-only signal.
+- **Simian immunodeficiency virus infection** (score 0.9985, L4): the literature is preclinical and model-based. Wild-type SIV is naturally resistant to NNRTIs, and the chimeric SHIV viruses carrying HIV-1 reverse transcriptase are used only as research models. No clinical trials exist.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9982, L5): no trials, no literature, and no identifiable mechanistic link. This is a prediction-only signal.
 
 ## Clinical Trial Evidence
 
@@ -78,7 +78,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0345 | Nevirapine | Not specified | Not specified (registration cancelled) |
+| PNF-0345 | Nevirapine | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tenofovir
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 329
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Tenofovir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir"
-predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+last_modified_at: 2026-10-23
+description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infectious disease, AIDS"
 ---
 
 # Tenofovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,37 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tenofovir: From Chronic Hepatitis B and HIV Infection to Feline Acquired Immunodeficiency Syndrome
+## Tenofovir: From Chronic Hepatitis B and HIV Infection to Simian Immunodeficiency Virus Infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tenofovir is a nucleotide reverse transcriptase inhibitor, originally used to treat chronic hepatitis B virus infection, HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (feline AIDS, caused by FIV)**,
-but there are **0 registered clinical trials** and only **2 veterinary publications** supporting this direction.
+Tenofovir is an antiviral drug whose recorded uses in the knowledge graph are chronic hepatitis B virus infection, HIV infectious disease and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, a disease of non-human primates.
+There are **no registered clinical trials** and **20 publications** (mostly macaque studies) behind this prediction, so it mainly confirms the existing HIV use rather than opening a new human indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infectious disease; AIDS (the Philippine registration record contains no indication text) |
-| Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L3 (animal studies only; no human trials) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Chronic hepatitis B virus infection, HIV infectious disease, AIDS (relations recorded in the knowledge graph; the local licence contains no indication text) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L4 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Number of approvals | 1 registration (PNF-0475) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, tenofovir (and its analog PMPA) is a nucleotide reverse transcriptase inhibitor. Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to feline AIDS.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Tenofovir is generally known as a nucleotide reverse transcriptase inhibitor that stops viral DNA chain elongation. This is background knowledge, not something supplied in the compiled data.
 
-Feline immunodeficiency virus (FIV) is a lentivirus whose reverse transcriptase is homologous to that of HIV-1. This makes it plausible that the same mechanism carries over. Two publications describe antiviral treatment of FIV-infected cats with PMPA or an antiretroviral combination that included tenofovir, suggesting activity in the native host.
+SIV and SHIV (a simian-human hybrid virus) are lentiviruses closely related to HIV-1, so reverse transcriptase inhibition is a plausible mechanism. Macaque studies report that tenofovir-based regimens protected animals from SHIV challenge by the vaginal and rectal routes, and that tenofovir suppressed SIV viraemia.
 
-However, this is a veterinary indication. The data are preclinical or veterinary only, so relevance to human-oriented repurposing is limited. The missing mechanism-of-action data also weakens formal mechanistic validation.
-
-Two other predictions were also generated. The second, **simian immunodeficiency virus infection**, is supported by many macaque studies of tenofovir-based prevention. It is essentially an animal model of the already approved HIV indication, not a new human disease. The third, a rare neurodevelopmental disorder with ataxic gait, has no mechanistic link, no trials and no literature. Its score (about 99.96%) is nearly identical to the others, so the score does not discriminate well between indications.
+However, SIV infection in macaques is a preclinical model of HIV, not a human disease. The signal therefore mostly reflects the existing HIV indication and is not a new human repurposing opportunity. The other predictions are weaker:
+- **Feline acquired immunodeficiency syndrome** (rank 2): only two veterinary studies, and it is outside the human scope.
+- **A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (rank 3): no mechanistic link and no studies, so it is an unvalidated computational signal.
 
 ## Clinical Trial Evidence
 
@@ -70,31 +71,53 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+The 20 publications listed for this prediction are almost all animal studies or reviews. The table shows the most relevant ones.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Veterinary in vivo study | Viruses | Evaluated pharmacokinetics and clinical outcomes of combination antiretroviral therapy (dolutegravir, tenofovir, emtricitabine) in FIV-infected domestic cats |
-| [24782459](https://pubmed.ncbi.nlm.nih.gov/24782459/) | 2015 | Veterinary in vivo study | Journal of Feline Medicine and Surgery | Treatment of naturally FIV-infected cats with PMPA (a tenofovir analog); notes that no antiviral is registered for FIV in cats and that human antivirals have caused serious adverse effects in cats |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Animal study | J Infect Dis | Vaginal tenofovir alafenamide/elvitegravir inserts gave extended post-exposure protection against SHIV in macaques |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Animal study | J Infect Dis | Oral tenofovir alafenamide with or without emtricitabine tested against vaginal SHIV infection in macaques |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Animal study | J Infect Dis | Oral emtricitabine/tenofovir alafenamide protected macaques from rectal SHIV infection |
+| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Animal study | JCI Insight | Hypo-osmolar tenofovir rectal douche prevented SHIV acquisition in macaques |
+| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | Animal study | J Virol | Vaginal 1% tenofovir gel gave durable protection in macaques, related to tissue drug levels |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Animal study | J Infect Dis | Tenofovir disoproxil fumarate gave partial protection against repeated SHIV challenges |
+| [15113912](https://pubmed.ncbi.nlm.nih.gov/15113912/) | 2004 | Animal study | J Virol | Tenofovir suppressed virulent SIV viraemia in macaques, partly dependent on CD8+ cells |
+| [10684272](https://pubmed.ncbi.nlm.nih.gov/10684272/) | 2000 | Animal study | J Virol | Transient tenofovir treatment after SIV inoculation contained infection and affected rechallenge protection |
+| [19622373](https://pubmed.ncbi.nlm.nih.gov/19622373/) | 2010 | Review | Antiviral Res | Review of antiretrovirals in animal models of HIV infection |
+| [41012620](https://pubmed.ncbi.nlm.nih.gov/41012620/) | 2025 | Review | Viruses | Review of nonhuman primate models for advancing HIV PrEP |
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0475 | Tenofovir | Not specified | Not specified |
 
 ## Safety Considerations
 
-- **Disease-related cautions from the knowledge graph** (these are model-derived associations, not label text): the knowledge graph links tenofovir to contraindication-type concerns in several conditions, including kidney disease, Fanconi renotubular syndrome, liver disease, liver failure, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis, hypophosphatemia, osteomalacia, rickets, long QT syndrome and torsades de pointes, hepatitis C virus infection, and certain psychiatric and neurological conditions (such as epilepsy and anxiety disorder). These should be verified against an official package insert.
-- The animal literature itself notes that human antivirals have caused serious adverse effects in cats.
+Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for safety information.
 
-Please refer to the package insert for further safety information.
+The knowledge graph records contraindication relations (not label text) for several conditions. They include:
+- Kidney disease and Fanconi renotubular syndrome
+- Liver disease, liver failure, fatty liver disease and non-alcoholic steatohepatitis
+- Lactic acidosis
+- Hypophosphatemia, osteomalacia and rickets
+- Long QT syndrome and torsades de pointes
+- Hepatitis C virus infection
+
+These should be checked against the official label. No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is veterinary, with no registered clinical trials and only two animal studies. The only Philippine registration is cancelled, and package insert safety data and mechanism-of-action data are missing. The evidence does not support moving forward as a human drug repurposing candidate. The simian immunodeficiency virus prediction largely restates the existing HIV indication.
+The only supported prediction is for an animal-model disease, with no registered clinical trials and preclinical evidence only. It does not represent a new human indication, and the safety data are incomplete.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data from DrugBank
 - Package insert warnings and contraindications from DOH-FDA Philippines
-- Clarification of whether a veterinary indication falls within the scope of this repurposing program
-- Controlled veterinary efficacy and safety studies in FIV-infected cats, if the veterinary direction is pursued
-- Confirmation of the current regulatory status of the cancelled Philippine registration (PNF-0475)
+- Mechanism-of-action data (for example from DrugBank)
+- Approved indication and dosage form details for licence PNF-0475
+- Identification of a human disease target, since the current predictions are veterinary, animal-model or unsupported
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

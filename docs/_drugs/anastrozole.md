@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Anastrozole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 28
-evidence_level: L1
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Anastrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not recorded in the Philippines registration data"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
+last_modified_at: 2026-10-27
+description: "Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Anastrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,117 +33,76 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-## Anastrozole: From Breast Cancer (Original Indication Not Recorded in the Local Registry) to Female Breast Carcinoma
+## Anastrozole: aromatase inhibitor → neuroblastoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Anastrozole is a non-steroidal aromatase inhibitor; the Philippines registration data compiled for this report do not record an approved indication.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, supported by **29 clinical trials** and **20 publications**.
-This is an established, on-label use of the drug in many countries rather than a true repurposing, so the prediction largely recovers known pharmacology.
+Anastrozole is an aromatase inhibitor (estrogen-lowering hormonal therapy). The TxGNN model predicts it may be relevant for **neuroblastoma**, but no clinical trials or publications currently support this direction, so this is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Philippines registration data |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | neuroblastoma |
+| TxGNN Prediction Score | 0.9953 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Anastrozole is a third-generation non-steroidal aromatase inhibitor. It blocks the conversion of androgens to estrogens, lowering circulating estrogen in postmenopausal women. This directly targets estrogen-driven growth in hormone receptor (HR)-positive breast cancer.
+Currently, detailed mechanism of action data is not available. Anastrozole is generally known as an aromatase inhibitor, a class that lowers estrogen production.
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. The mechanism described here comes from the published literature and the model's rationale. Because the Philippines registration lists no indication text, the link between the "original" and "new" indication cannot be drawn from local data. The evidence shows the drug is already used for HR-positive breast cancer, so the prediction is well supported.
-
-The Phase 3 evidence applies to HR-positive disease only and does not extend to HR-negative disease.
+A clear mechanistic link to neuroblastoma is not evident. Neuroblastoma is not an estrogen-dependent tumour, and aromatase inhibition has no established rationale in this disease. The high score is a model-based prediction and may reflect network proximity to other cancer-related nodes rather than a biological mechanism. It should be regarded as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-The table lists the 10 most relevant of the 29 trials, prioritizing direct anastrozole studies and completed Phase 3 trials.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00784680](https://clinicaltrials.gov/study/NCT00784680) | Phase 3 | Completed | 308 | Double-blind comparison of Arimidex, tamoxifen, or both as adjuvant therapy in postmenopausal women; primary endpoint was quality of life |
-| [NCT00327769](https://clinicaltrials.gov/study/NCT00327769) | Phase 3 | Completed | 234 | Fulvestrant 250 mg vs anastrozole 1 mg as second-line therapy in ER-positive advanced breast cancer |
-| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Completed | 1914 | 6 vs 3 years of adjuvant anastrozole after 2-3 years of tamoxifen |
-| [NCT00300508](https://clinicaltrials.gov/study/NCT00300508) | Phase 3 | Completed | 856 | 3 further years of anastrozole vs no treatment after 5 years of adjuvant hormone therapy |
-| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | Completed | 298 | Exemestane vs anastrozole as initial hormonal therapy in advanced or recurrent disease (non-inferiority on time to progression) |
-| [NCT02246621](https://clinicaltrials.gov/study/NCT02246621) | Phase 3 | Active, not recruiting | 493 | Aromatase inhibitor (anastrozole or letrozole) plus abemaciclib vs placebo as first-line therapy in HR-positive, HER2-negative advanced disease |
-| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Phase 3 | Active, not recruiting | 1050 | SONIA study: sequencing of CDK4/6 inhibition with endocrine therapy; indirect evidence for anastrozole |
-| [NCT00784940](https://clinicaltrials.gov/study/NCT00784940) | Phase 3 | Completed | 308 | Effects of Arimidex, tamoxifen, or both on bone mineral density and metabolism |
-| [NCT00256217](https://clinicaltrials.gov/study/NCT00256217) | Phase 2 | Completed | 42 | Chemoprevention trial of anastrozole in DCIS and early invasive breast cancer; biomarker endpoints |
-| [NCT00437853](https://clinicaltrials.gov/study/NCT00437853) | N/A | Completed | 30 | Neoadjuvant anastrozole in postmenopausal women with ER-positive operable breast cancer |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | RCT | Lancet | ATAC trial (9,366 women): after 5 years, anastrozole significantly prolonged disease-free survival compared with tamoxifen |
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | RCT | Lancet | IBIS-II long-term results: anastrozole vs placebo for breast cancer prevention in high-risk women |
-| [27908454](https://pubmed.ncbi.nlm.nih.gov/27908454/) | 2016 | RCT | Lancet | FALCON: fulvestrant 500 mg vs anastrozole 1 mg as first-line therapy in HR-positive advanced breast cancer |
-| [26686960](https://pubmed.ncbi.nlm.nih.gov/26686960/) | 2016 | RCT | Lancet | NSABP B-35: patient-reported outcomes with anastrozole vs tamoxifen in DCIS |
-| [41632158](https://pubmed.ncbi.nlm.nih.gov/41632158/) | 2025 | Cohort | JAMA Netw Open | Real-world comparison of anastrozole, letrozole, and exemestane in postmenopausal breast cancer |
-| [31615937](https://pubmed.ncbi.nlm.nih.gov/31615937/) | 2020 | Clinical study | Clin Cancer Res | neoMONARCH: abemaciclib plus anastrozole in the neoadjuvant setting showed cell-cycle inhibition and immune response upregulation |
-| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Review | Oncology | Role of anastrozole from advanced disease to early disease and prevention |
-| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Review | Rev Assoc Med Bras | Literature review on anastrozole in breast cancer chemoprevention and treatment |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Review | Expert Opin Drug Saf | Anastrozole as an adjuvant aromatase inhibitor; greater efficacy than tamoxifen in several trials |
-| [17033446](https://pubmed.ncbi.nlm.nih.gov/17033446/) | 2006 | Case report | Eur J Gastroenterol Hepatol | First reported case of anastrozole-induced hepatotoxicity |
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0021 | Anastrazole | Not recorded | Not recorded (status: cancelled) |
+| PNF-0021 | Anastrazole | Not recorded | Not recorded |
 
-The only registration on file is cancelled, so there is currently no valid registration for anastrozole in the Philippines.
+At least one valid licence is held in the Philippines, per the local regulatory data.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hormonal (endocrine) therapy, non-steroidal aromatase inhibitor; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low; myelosuppression is not a characteristic toxicity of this class |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function (hepatotoxicity has been reported), bone mineral density, lipid profile; cardiovascular risk assessment |
+| Cytotoxicity Classification | Hormonal therapy (aromatase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (from drug-disease relationships in the knowledge graph, not label text): myocardial ischemia and coronary artery disease. These need confirmation against the package insert.
-- **Drug Interactions**: The interaction screen returned 147 potential interactions, all with severity level "Unknown". Examples include bupropion, pantoprazole, omeprazole, metformin, glimepiride, glyburide, glipizide, simvastatin, prednisone, morphine, and acetylsalicylic acid. The clinical significance of these interactions has not been classified.
-- **Literature signals**: A case report describes anastrozole-induced hepatotoxicity. In vitro work suggests anastrozole may add to platelet activation, which is relevant to thromboembolic risk.
+- **Contraindications (relation recorded in the compiled data, not label text)**: myocardial ischemia, coronary artery disease
+- **Drug Interactions**: 147 interactions were identified, all with an unspecified severity level. Examples include bupropion, pantoprazole, glimepiride, morphine, metformin, omeprazole, rosiglitazone, simvastatin, prednisone and acetylsalicylic acid.
 
-Package insert warnings and contraindications were not available, so please refer to the package insert for full safety information.
-
-## Other Predicted Indications (Not Recommended for Advancement)
-
-| Predicted Indication | TxGNN Score | Evidence Level | Decision |
-|------|------|------|------|
-| Neuroblastoma | 99.53% | L5 | Hold; no clinical evidence and no estrogen-dependent rationale |
-| Vertebral anomalies and variable endocrine and T-cell dysfunction | 99.42% | L5 | Hold; no evidence or mechanistic rationale |
-| Ganglioneuroblastoma | 99.41% | L5 | Hold; no evidence or mechanistic rationale |
-| Retroperitoneal neoplasm | 99.33% | L4 | Hold; the only evidence is one case report of breast cancer metastasis treated with a different agent |
-| Monocytic leukemia | 99.16% | L5 | Hold; no evidence and no established rationale |
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Several completed Phase 3 randomized trials and major RCT publications (ATAC, IBIS-II, FALCON) support anastrozole in HR-positive breast cancer, giving an L1 evidence level.
-- Anastrozole is an established breast cancer drug, so this is not true repurposing. The Philippines registration is cancelled and carries no indication or safety text, so local regulatory status is the main obstacle.
+The prediction rests solely on a model score, with no supporting clinical trials or publications and no clear biological rationale for aromatase inhibition in neuroblastoma.
 
 **To proceed, the following is needed:**
-- Confirm the regulatory pathway in the Philippines, since the only registration (PNF-0021) is cancelled and lists no indication
-- Obtain the DOH-FDA package insert (warnings, contraindications, dosage forms) to complete the safety review
-- Confirm mechanism of action data from DrugBank
-- Review the cardiovascular contraindication signals (myocardial ischemia, coronary artery disease) and the unclassified drug interactions
-- Restrict use to HR-positive disease in postmenopausal women, and establish liver function and bone density monitoring
+- Mechanism of action data and a plausible biological rationale for neuroblastoma
+- Preclinical or clinical studies that directly examine anastrozole in neuroblastoma
+- Package insert warnings and contraindications from the Philippines regulator
+- Review of the cardiovascular-related contraindication signals and drug interaction severity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

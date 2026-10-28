@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 315
-evidence_level: L5
+evidence_level: L2
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infect
 # Sofosbuvir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence says more about HBV reactivation risk during HCV treatment than abo
 |------|------|
 | Original Indication | Chronic hepatitis C virus infection |
 | Predicted New Indication | Hepatitis B virus infection |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Evidence level caveat:* L2 is based on a completed Phase 2/3 study (NCT02555943, n=23). That study is small and primarily examines HBV reactivation during HCV therapy rather than HBV treatment. The only HBV-specific efficacy study is a single-arm Phase 2 pilot (n=21). Real support for this indication is therefore weaker than L2 suggests.
@@ -108,7 +108,7 @@ The clinical data come from HCV/HBV co-infection. There, clearing HCV with direc
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0455 | Sofosbuvir | Not specified | Not specified (registration cancelled) |
+| PNF-0455 | Sofosbuvir | Not specified | Not specified (registration valid) |
 
 ---
 

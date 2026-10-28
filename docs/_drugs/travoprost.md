@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.9998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -109,7 +109,7 @@ No publications address travoprost in visceral calciphylaxis. The most relevant 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0497 | Travoprost | Not stated | Not stated (status: cancelled) |
+| PNF-0497 | Travoprost | Not stated | Not stated (status: valid) |
 
 ---
 

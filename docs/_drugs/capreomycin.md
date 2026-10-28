@@ -4,17 +4,17 @@ title: Capreomycin
 parent: Model Prediction Only (L5)
 nav_order: 58
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Capreomycin"
-predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "osteoarthritis susceptibility", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Capreomycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ The prediction is based on the model's output alone.
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, capreomycin is a cyclic peptide, aminoglycoside-like antibiotic that inhibits bacterial protein synthesis. Its efficacy in tuberculosis is established, but no mechanistic link to gout has been identified.
 
-Gout is driven by urate crystal-induced inflammation. Capreomycin has no known activity on urate metabolism or the NLRP3 inflammasome pathway. The high TxGNN score (99.91%) is a model prediction only and likely reflects proximity in the knowledge graph rather than pharmacology.
+Gout is driven by urate crystal-induced inflammation. Capreomycin has no known activity on urate metabolism or the NLRP3 inflammasome pathway. The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Its known kidney and hearing toxicity is also a concern in gout patients, who frequently have renal comorbidity.
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0072 | Capreomycin | Not specified | Not specified (status: cancelled) |
+| PNF-0072 | Capreomycin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

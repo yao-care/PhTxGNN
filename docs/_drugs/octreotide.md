@@ -6,9 +6,9 @@ nav_order: 260
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, carcinoid syndrome"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
+description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Octreotide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
+## Octreotide: Vulvar inverted follicular keratosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (from the knowledge graph; no approved indication text is available for the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, octreotide is a somatostatin analogue that acts mainly on somatostatin receptors SSTR2 and SSTR5. Its efficacy in acromegaly and carcinoid syndrome is established, but no data compiled for this report connect that pathway to the predicted new indication.
 
-Vulvar inverted follicular keratosis is a benign epithelial lesion. One speculative link would be an antiproliferative effect on keratinocytes through somatostatin receptor signaling, but nothing in the available data supports it. The very high TxGNN score (99.58%) is a computational output only and should not be read as biological validation.
+Vulvar inverted follicular keratosis is a benign epithelial lesion. One speculative link would be an antiproliferative effect on keratinocytes through somatostatin receptor signaling, but nothing in the available data supports it. The very high TxGNN score (0.9958) is a computational output only and should not be read as biological validation.
 
-A second prediction, **seborrheic keratosis** (score 99.55%), is also a benign keratinocyte lesion. The two predictions are probably not independent signals. Both may reflect proximity to skin-lesion nodes in the knowledge graph rather than a real biological rationale.
+A second prediction, **seborrheic keratosis** (score 0.9955), is also a benign keratinocyte lesion. The two predictions are probably not independent signals. Both scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0356 | Octreotide | Not specified | Not specified (status: cancelled) |
+| PNF-0356 | Octreotide | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

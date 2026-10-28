@@ -50,10 +50,10 @@ This prediction rests on a computational model alone.
 |------|------|
 | Original Indication | Not available in the compiled data (the approved indication text on the registration is empty) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,11 +64,11 @@ Currently, detailed mechanism of action data is not available. Fluticasone is ge
 
 The only publication retrieved (PMID 18681087) is a pharmacovigilance review of neuropsychiatric disturbances reported with intranasal corticosteroids. It addresses safety, not therapeutic benefit. Headache or migraine-like events may appear there as adverse events rather than as an indication.
 
-The high TxGNN score (0.992, rank 5485) reflects a graph-based prediction only and should not be read as clinical evidence.
+The high TxGNN score (0.9920, rank 5485) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 **Other predicted indications (also model-only, no trials or literature):**
-- **Prinzmetal angina** (score 99.19%): Any link to the anti-inflammatory or vascular effects of a corticosteroid is speculative.
-- **Migraine with brainstem aura** (score 99.09%): This likely reflects similarity to the parent migraine node in the knowledge graph rather than independent evidence.
+- **Prinzmetal angina** (score 0.9919): Any link to the anti-inflammatory or vascular effects of a corticosteroid is speculative.
+- **Migraine with brainstem aura** (score 0.9909): This score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0203 | Fluticasone | Not specified | Not specified (status: cancelled) |
+| PNF-0203 | Fluticasone | Not specified | Not specified (status: valid) |
 
 ---
 

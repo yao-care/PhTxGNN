@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 116
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
-description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Philippines registration record"
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
+last_modified_at: 2026-10-27
+description: "Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Domperidone
@@ -33,34 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Domperidone: From Gastrointestinal Symptom Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Domperidone: peripheral dopamine D2/D3 receptor antagonist → nephrogenic syndrome of inappropriate antidiuresis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Domperidone is a dopamine D2/D3 receptor antagonist used to manage dyspepsia, heartburn, epigastric pain, nausea and vomiting.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
-but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage dyspepsia, nausea and vomiting.
+The TxGNN model predicts it may be relevant to **nephrogenic syndrome of inappropriate antidiuresis**, with a score of **0.9908**.
+There are currently **no clinical trials and no publications** supporting this direction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Philippines registration record (pharmacology data describes dyspepsia, heartburn, epigastric pain, nausea and vomiting) |
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.08% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled record. Based on pharmacology data, domperidone is a peripheral antagonist of the dopamine D2 and D3 receptors (DRD2, DRD3). It acts mainly on the gastrointestinal tract and the chemoreceptor trigger zone, which explains its use against nausea, vomiting and dyspepsia.
+Detailed mechanism of action data is not available in the data compiled for this report. Domperidone is generally known as a peripheral dopamine D2/D3 receptor antagonist that acts mainly on the gastrointestinal tract and the chemoreceptor trigger zone.
 
-NSIAD is a different kind of condition. It is caused by activating mutations of the vasopressin V2 receptor (AVPR2, such as R137C/R137L). These produce constitutive receptor signalling even when vasopressin is suppressed. Management relies on fluid restriction, urea, and sometimes loop diuretics. No established mechanism links dopamine D2/D3 blockade to this pathway.
+Nephrogenic syndrome of inappropriate antidiuresis (NSIAD) is caused by activating mutations of the vasopressin V2 receptor (AVPR2, e.g. R137C/R137L). These produce constitutive receptor signalling despite suppressed vasopressin. Management relies on fluid restriction, urea and sometimes loop diuretics.
 
-Any connection would be speculative, for example through prolactin-mediated or dopaminergic modulation of renal water handling, and no supporting data was found. The high score probably reflects network proximity in the knowledge graph rather than a biologically validated relationship. This prediction should be treated as a hypothesis only.
+No established mechanism links domperidone to NSIAD. Any connection, such as prolactin-mediated or dopaminergic modulation of renal water handling, would be speculative and has no supporting data here. The high score may reflect network proximity in the model rather than a biologically validated relationship.
 
 ## Clinical Trial Evidence
 
@@ -74,32 +74,28 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0155 | Domperidone | Not specified | Not specified (status: cancelled) |
+| PNF-0155 | Domperidone | Not recorded | Not recorded |
 
-The only registration on record is cancelled, so no valid domperidone product is currently authorised in the Philippines according to the data compiled for this report.
+The local data lists one single-ingredient record for domperidone, and the market status is recorded as marketed.
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (these are drug-disease links from the TxGNN knowledge graph, not package insert text): long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease. The QT-related items are consistent with the known cardiac rhythm concerns for domperidone.
-- **Pharmacological targets**: dopamine D2 receptor (DRD2) and dopamine D3 receptor (DRD3). No drug-drug interactions with other medicines were identified in the data compiled.
-- Domperidone-containing medicines have been under benefit-risk review by the European Medicines Agency (since March 2013).
+- **Drug Interactions / Pharmacology**: Domperidone acts on the dopamine D2 receptor (DRD2) and D3 receptor (DRD3). No specific drug-drug interactions with interaction levels were recorded.
 
-Please refer to the package insert for full safety information.
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model prediction (L5), with no clinical trials, no literature and no plausible mechanistic link between D2/D3 antagonism and NSIAD. Domperidone also carries QT-prolongation concerns, and it has no valid registration in the Philippines.
+The prediction is supported only by a model score. There are no clinical trials or publications for this disease, and no plausible mechanistic link to NSIAD has been established. The evidence level is therefore L5.
 
 **To proceed, the following is needed:**
-- A mechanistic rationale connecting dopamine receptor antagonism to vasopressin V2 receptor signalling or renal water handling
-- Preclinical data or case reports in NSIAD or related water-balance disorders
-- The Philippines package insert (warnings and contraindications) from the DOH-FDA website
-- Detailed mechanism of action data from DrugBank
-- Clarification of the cancelled registration and whether any valid product is available
-- A cardiac safety assessment (QT risk), given that NSIAD patients may have electrolyte disturbances such as hyponatraemia
+- Mechanism of action data and a plausible biological rationale linking domperidone to the vasopressin V2 receptor pathway or renal water handling
+- Preclinical or clinical studies that directly address NSIAD
+- Package insert warnings and contraindications from the Philippines regulator, so safety screening can begin
+- Dosage form and approved indication details for the local registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

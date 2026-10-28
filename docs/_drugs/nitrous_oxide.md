@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nitrous Oxide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 256
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Nitrous oxide"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
+description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nitrous Oxide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Nitrous Oxide: From Anaesthesia/Analgesia Use to Benign Prostatic Hyperplasia
+## Nitrous Oxide: Benign prostatic hyperplasia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be useful for **benign prostatic hyperplasia (BP
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Philippines registration data |
-| Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign prostatic hyperplasia (disease) |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Nitrous oxide is generally known as an NMDA receptor antagonist with analgesic, anxiolytic and anaesthetic effects.
 
-The high TxGNN score comes from a graph-based prediction and is not backed by biological or clinical evidence. BPH is driven by androgen/DHT-related growth of prostatic stromal and epithelial tissue and by smooth muscle tone. No credible mechanistic link between nitrous oxide and these processes was identified, so the prediction should be viewed with caution.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. BPH is driven by androgen/DHT-related growth of prostatic stromal and epithelial tissue and by smooth muscle tone. No credible mechanistic link between nitrous oxide and these processes was identified, so the prediction should be viewed with caution.
 
 The only clinical connection is procedural. Nitrous oxide has been used to reduce anxiety and pain during prostate-related procedures, which does not treat BPH itself.
 
@@ -77,7 +77,7 @@ The only clinical connection is procedural. Nitrous oxide has been used to reduc
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0352 | Nitrous Oxide | Not recorded | Not recorded (status: cancelled) |
+| PNF-0352 | Nitrous Oxide | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 
@@ -92,7 +92,7 @@ Please refer to the package insert for other safety information, including warni
 **Decision: Hold**
 
 **Rationale:**
-The only supporting trial addresses procedural anxiety during prostate biopsy rather than BPH, and the single publication is an anaesthesia case report. There is no credible mechanistic link and no valid Philippines registration. The high model score alone is not enough to justify moving forward.
+The only supporting trial addresses procedural anxiety during prostate biopsy rather than BPH, and the single publication is an anaesthesia case report. The high model score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological rationale linking nitrous oxide to BPH

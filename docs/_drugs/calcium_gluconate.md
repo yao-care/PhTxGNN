@@ -8,6 +8,7 @@ nav_order: 56
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Calcium Gluconate
@@ -51,8 +52,8 @@ Without predicted indications, a formal repurposing pathway evaluation cannot be
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A |
-| Philippines Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

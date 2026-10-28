@@ -50,10 +50,10 @@ Supporting evidence is limited: **2 clinical trials** and **20 publications** we
 |------|------|
 | Original Indication | Not available (the registration record has no indication text) |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -100,7 +100,7 @@ Nearly all of this literature concerns GLP-1 and its analogues rather than gluca
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0218 | Glucagon | Not recorded | Not recorded (status: cancelled) |
+| PNF-0218 | Glucagon | Not recorded | Not recorded (status: valid) |
 
 ---
 

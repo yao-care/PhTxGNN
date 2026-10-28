@@ -6,9 +6,9 @@ nav_order: 352
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Philippines registration (the literature describes…"
 monitor_inn: "Varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
+description: "Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Varenicline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Varenicline: From Smoking Cessation to Migraine Disorder
+## Varenicline: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Philippines registration (the literature describes smoking cessation use) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 
 Varenicline is a partial agonist of the α4β2 nicotinic acetylcholine receptor and a full agonist of the α7 receptor. Nicotinic cholinergic signalling has been loosely linked to pain modulation and cortical excitability, which is the only plausible bridge to migraine.
 
-The compiled data provide no direct mechanistic or clinical evidence for this link. The very high TxGNN score (0.999) reflects graph-based similarity only. Related predictions such as migraine with brainstem aura rest on the same indirect hypothesis, and the many alopecia and hypotrichosis predictions suggest the score may partly reflect shared graph neighbours rather than real biology.
+The compiled data provide no direct mechanistic or clinical evidence for this link. The very high TxGNN score (0.9992) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Related predictions such as migraine with brainstem aura rest on the same indirect hypothesis, and the many alopecia and hypotrichosis predictions suggest the score may partly reflect similarities the model learned between related diseases rather than real biology.
 
 Detailed mechanism-of-action data from DrugBank were not available for this report. The mechanism described above comes from the analysis of the prediction itself and should be verified.
 
@@ -87,7 +87,7 @@ For the broader "headache disorder" prediction, 13 publications were retrieved, 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0509 | Varenicline | Not recorded | Not recorded (status: cancelled) |
+| PNF-0509 | Varenicline | Not recorded | Not recorded (status: valid) |
 
 ---
 
@@ -106,7 +106,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no clinical trials and no efficacy literature for migraine. The only retrieved publication is a safety case report, headache is a known adverse effect of varenicline, and there is no active Philippines registration.
+The prediction is model-only (L5), with no clinical trials and no efficacy literature for migraine.
 
 **To proceed, the following is needed:**
 - Mechanistic and preclinical evidence linking nicotinic receptor activity to migraine

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Streptokinase
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 318
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Streptokinase: predicted new indication Myocardial infarction (evidence level L1). Approved use: Not available"
 monitor_inn: "Streptokinase"
-predicted_indications: ["myocardial infarction", "Prinzmetal angina", "hemoglobinopathy", "coronary thrombosis", "septal myocardial infarction", "posterolateral myocardial infarction", "posteroinferior myocardial infarction", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
+predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
+description: "Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Streptokinase
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Streptokinase: From an Established Thrombolytic to Myocardial Infarction
+## Streptokinase: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Streptokinase is a clot-dissolving (thrombolytic) enzyme. The original indication is not recorded in the data compiled for this report, and the single Philippines registration has no indication text.
-The TxGNN model predicts it may be effective for **myocardial infarction**, with **7 clinical trials** and **20 publications** listed for this indication.
 Myocardial infarction is already an established, guideline-recognised use of streptokinase, so this is not a true repurposing case.
 
 ---
@@ -48,12 +47,12 @@ Myocardial infarction is already an established, guideline-recognised use of str
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the Philippines registration has no indication text) |
-| Predicted New Indication | Myocardial infarction |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Prinzmetal angina |
+| TxGNN Prediction Score | 0.9980 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -111,9 +110,8 @@ The evidence is mostly older reviews and trial reports. There are no recent head
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0459 | Streptokinase | Not recorded | Not recorded (registration status: cancelled) |
+| PNF-0459 | Streptokinase | Not recorded | Not recorded (registration status: valid) |
 
-The only registration is cancelled, so there is currently no valid streptokinase product registered in the Philippines.
 
 ---
 

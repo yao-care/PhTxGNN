@@ -8,6 +8,7 @@ nav_order: 160
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Gabapentin
@@ -47,8 +48,8 @@ Gabapentin (DrugBank: DB00996) is a well-known anticonvulsant and neuropathic pa
 | Predicted New Indication | None (no predictions generated) |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction not yet available |
-| Philippines Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?

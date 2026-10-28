@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 231
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease, adrenocortical insufficiency…"
 monitor_inn: "Methylprednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **1 clinical trial** and **20 publications** currently supporting this dire
 |------|------|
 | Original Indication | Autoimmune disease, adrenocortical insufficiency, Crohn disease and inflammatory bowel disease, acute lymphoblastic leukaemia, among others (no approved indication text is available for the Philippines registration) |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 (conservative grading; see below) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ The other predicted indications in the list are much weaker. Most have no trials
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0321 | Methylprednisolone | Not specified | Not specified (status: cancelled) |
+| PNF-0321 | Methylprednisolone | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

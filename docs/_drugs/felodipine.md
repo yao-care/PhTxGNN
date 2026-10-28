@@ -4,17 +4,17 @@ title: Felodipine
 parent: Model Prediction Only (L5)
 nav_order: 138
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-15
-description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder)…"
+indication_count: 5
 monitor_inn: "Felodipine"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
+last_modified_at: 2026-10-28
+description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Felodipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,89 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Felodipine: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+## Felodipine: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Felodipine is a calcium channel blocker originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**,
-but **0 clinical trials** and **0 publications** currently support this specific prediction, so it rests on the model score alone.
-
----
+Felodipine is a calcium channel blocker whose original use is hypertension (a relation recorded in the knowledge graph).
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but **no clinical trials** are registered and the **9 publications** retrieved are all preclinical studies that do not examine this disease directly.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder), taken from the knowledge-graph indication records because no approved indication text is available for the Philippines registration |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.91% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only (no valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, felodipine is a dihydropyridine L-type calcium channel blocker. Its efficacy in hypertension comes from relaxing vascular smooth muscle. Mechanistically, the same vasodilatory action could be applicable to the pulmonary circulation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, felodipine is an L-type calcium channel blocker with strong arterial vasodilatory activity. Hypoxic pulmonary vasoconstriction partly depends on calcium influx into pulmonary arterial smooth muscle, so a theoretical mechanistic link exists with lowering pulmonary vascular tone.
 
-Hypertension and pulmonary hypertension both involve raised vascular pressure and resistance, which likely explains why the model links them. However, they affect different vascular beds, and the high score (99.91%) is a computational prediction only. Calcium channel blockers are generally effective only in a small subset of patients with vasoreactive pulmonary arterial hypertension. The category predicted here is mechanistically undefined, so it is unclear which patients, if any, would benefit.
+The link has important limits. The retrieved literature covers hypoxia or anoxia-reoxygenation in rat kidney tubules, human atrial muscle, cerebral arteries, neutrophils and rodent behaviour. None of it studies pulmonary hypertension. Calcium channel blockers are also generally not recommended for pulmonary hypertension due to lung disease, because they can worsen ventilation-perfusion matching and gas exchange. The very high TxGNN score is a computational prediction only.
 
----
+Other predicted indications are weaker still:
+- Pulmonary hypertension with unclear multifactorial mechanism (0.9991): no trials or literature. Calcium channel blockers help only a small subset of vasoreactive patients with pulmonary arterial hypertension.
+- Malignant hypertensive renal disease (0.9990): close to the original use, but no specific evidence, and felodipine is not a first-line agent for hypertensive emergencies.
+- Braddock syndrome (0.9988): no support; likely a network-propagation artifact.
+- Chronic pulmonary heart disease (0.9919): only indirect 1980s haemodynamic studies (see below).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+None of the publications below directly studies pulmonary hypertension owing to lung disease or hypoxia. They are all preclinical hypoxia/anoxia studies.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8160846](https://pubmed.ncbi.nlm.nih.gov/8160846/) | 1994 | Preclinical (vascular) | Am J Physiol | A prior anoxic episode weakened anoxia-induced vasorelaxation of rat aortic rings |
+| [8584414](https://pubmed.ncbi.nlm.nih.gov/8584414/) | 1995 | Preclinical (rat tubules) | Pflugers Arch | Felodipine protected rat proximal tubules from hypoxic injury through a calcium-independent mechanism |
+| [9431863](https://pubmed.ncbi.nlm.nih.gov/9431863/) | 1997 | Preclinical (human atrial tissue) | Int J Cardiol | Felodipine protected human atrial muscle from hypoxia-reoxygenation dysfunction in vitro |
+| [3142891](https://pubmed.ncbi.nlm.nih.gov/3142891/) | 1988 | Preclinical (cerebral arteries) | J Cereb Blood Flow Metab | Vasodilators affected reoxygenation and calcium-induced contractions of dog cerebral arteries |
+| [8394565](https://pubmed.ncbi.nlm.nih.gov/8394565/) | 1993 | Preclinical (cellular) | Pflugers Arch | Calcium channel blockers including felodipine affected anoxia-induced rises in intracellular calcium in rabbit tubule cells |
+| [8110031](https://pubmed.ncbi.nlm.nih.gov/8110031/) | 1993 | Preclinical (animal behaviour) | Arch Int Pharmacodyn Ther | Nicardipine, felodipine and nifedipine affected passive avoidance behaviour in intact and hypoxia-exposed rats |
+| [3961832](https://pubmed.ncbi.nlm.nih.gov/3961832/) | 1986 | Preclinical (cerebral blood flow) | Stroke | Nifedipine and felodipine depressed the rise in rat cerebral blood flow during anoxia |
+| [3343292](https://pubmed.ncbi.nlm.nih.gov/3343292/) | 1988 | Preclinical (rat cortex) | J Cereb Blood Flow Metab | Both agents suppressed hypoxia-evoked adenosine and inosine release in rat cortex |
+| [9864178](https://pubmed.ncbi.nlm.nih.gov/9864178/) | 1999 | Preclinical (neutrophil) | Blood | Nitric oxide augmented free radical generation by rat neutrophils after hypoxia-reoxygenation |
+
+For the related prediction *chronic pulmonary heart disease*, only indirect haemodynamic data exist: an acute and long-term haemodynamic study of felodipine in severe COPD ([2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/), 1988, Eur Respir J) reported reductions in pulmonary vascular resistance (18%) and systemic vascular resistance (33%) with increased cardiac output. A heart failure haemodynamic study ([2487551](https://pubmed.ncbi.nlm.nih.gov/2487551/), 1989) and a review of calcium antagonists in hypertension ([3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/), 1988) are also available. None provides controlled outcome evidence.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0186 | Felodipine | Cancelled |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0186 | Felodipine | Not stated | Not stated |
 
-Dosage form and approved indication text are not available for this registration.
-
----
+The licence is a single-ingredient product and is currently valid. The record carries no indication text, so no approved indication can be confirmed from local data.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (knowledge-graph associations, not package insert text)**: Felodipine is linked to the following conditions, grouped here for readability:
-  - Cardiovascular: aortic stenosis and related aortic valve disease, hypertrophic cardiomyopathy, hypotensive disorder, renal artery obstruction, myocardial infarction, coronary artery disease, coronary thrombosis, and atherosclerosis
-  - Kidney, liver, and gallbladder disease
-  - Angioedema (several forms, including hereditary)
-  - Blood disorders: neutropenia, agranulocytosis, and hemoglobinopathy
-  - Connective tissue, bone, and cartilage disease
-  - Pyoureter
-- **Drug Interactions**: 100 interactions were found, and 20 are shown in the data compiled for this report.
-  - **Major**: Dolasetron.
-  - **Moderate** (examples): corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), cimetidine, clarithromycin, aprepitant, bupropion, morphine, acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), calcium salts (calcium phosphate, calcium acetate), magnesium sulfate, dronabinol, and nabilone.
+- **Relations recorded in the knowledge graph (not label text)**: the graph lists contraindication relations with kidney disease, liver disease, gallbladder disease, angioedema (several types), neutropenia and agranulocytosis, aortic stenosis, hypotensive disorder, hypertrophic cardiomyopathy, renal artery obstruction, myocardial infarction, coronary artery disease and atherosclerosis. These should be verified against the package insert.
+- **Drug Interactions**: 100 interactions were found. Dolasetron is rated **Major**. Examples of Moderate interactions include cimetidine, clarithromycin, aprepitant, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), bupropion, morphine, acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin) and magnesium sulfate.
+- **Disease-specific concern**: calcium channel blockers can worsen ventilation-perfusion matching and gas exchange in pulmonary hypertension due to lung disease.
 
-Package insert warnings and contraindications for the Philippines registration have not been obtained. Please refer to the package insert for complete safety information.
-
----
+Warnings and contraindications from the package insert were not available; please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), the only Philippines registration is cancelled, and calcium channel blockers are effective only in a small vasoreactive subset of pulmonary hypertension patients. A high model score alone is not enough to advance.
+The prediction rests on a model score and a plausible vasodilatory mechanism only. No cited study directly addresses pulmonary hypertension owing to lung disease or hypoxia, so the evidence level is L5. Calcium channel blockers are also generally discouraged in this setting because of possible gas-exchange worsening.
 
 **To proceed, the following is needed:**
-- Clinical or literature evidence in pulmonary hypertension patients, such as vasoreactivity testing data or controlled studies
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the DOH-FDA Philippines, so safety screening can begin
-- Clarification of the market situation, since no valid registration exists
-- Consideration of other predicted indications for this drug. **Prinzmetal angina** (L3, several small controlled clinical studies from 1989 to 1995) has the strongest supporting evidence. These studies are small and not Phase 3 trials, and established calcium channel blockers already serve this indication, so the incremental value is limited.
+- Clinical studies (ideally controlled) of felodipine in pulmonary hypertension owing to lung disease or hypoxia, including gas exchange and oxygenation outcomes
+- Mechanism of action data and the package insert warnings and contraindications from DOH-FDA Philippines
+- A review of the knowledge-graph contraindication relations against label text
+- Approved indication text and dosage form for licence PNF-0186
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

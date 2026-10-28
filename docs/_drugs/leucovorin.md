@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Megaloblastic anemia |
 | Predicted New Indication | Primary hyperoxaluria |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,13 +60,13 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Primary hyperoxaluria is an inherited disorder of glyoxylate metabolism (AGXT, GRHPR, HOGA1 defects) that causes oxalate overproduction. A folate-related connection is conceivable only through vitamin B6 (pyridoxine)-dependent AGT function or general one-carbon metabolism, and this is speculative. The high TxGNN score is a model output only and has no clinical or literature corroboration.
 
-**A second prediction worth noting:** *congenital intrinsic factor deficiency* (score 99.34%, also L5, Hold). It has a more plausible rationale, because leucovorin is already used in megaloblastic anemia and this condition produces a similar blood picture. However, leucovorin does not correct vitamin B12 deficiency itself and may mask hematologic signs while neurological damage progresses. Standard care is parenteral B12 replacement. This prediction is also unverified.
+**A second prediction worth noting:** *congenital intrinsic factor deficiency* (score 0.9934, also L5, Hold). It has a more plausible rationale, because leucovorin is already used in megaloblastic anemia and this condition produces a similar blood picture. However, leucovorin does not correct vitamin B12 deficiency itself and may mask hematologic signs while neurological damage progresses. Standard care is parenteral B12 replacement. This prediction is also unverified.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0282 | Leucovorin | Not specified | Not specified (status: cancelled) |
+| PNF-0282 | Leucovorin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

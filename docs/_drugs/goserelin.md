@@ -50,10 +50,10 @@ However, amenorrhea is largely an expected pharmacological effect of goserelin r
 |------|------|
 | Original Indication | Endometriosis (including endometriosis of uterus) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ This explains why endometriosis, an estrogen-dependent condition, responds to go
 
 The repurposing framing is therefore ambiguous. Deliberately inducing amenorrhea (for example, for heavy bleeding, or for ovarian protection during chemotherapy) is mechanistically plausible. Treating pathological amenorrhea would be counterproductive, because goserelin suppresses the very hormones that are already lacking.
 
-Two further predictions, renal hypoplasia and bilateral renal hypoplasia (scores about 99.1%), have no plausible mechanistic link, no trials and no literature. They are most likely knowledge-graph artifacts and are not pursued here.
+Two further predictions, renal hypoplasia and bilateral renal hypoplasia (score 0.9906 for each), have no plausible mechanistic link, no trials and no literature. They are most likely TxGNN model (deep learning) artifacts and are not pursued here.
 
 ---
 
@@ -101,7 +101,7 @@ Most of this literature concerns breast cancer and endometriosis, with amenorrhe
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0222 | Goserelin | Not specified | Not specified (status: cancelled) |
+| PNF-0222 | Goserelin | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -122,7 +122,7 @@ Please refer to the package insert for warnings and formal contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only related trial is a breast cancer study where amenorrhea is not the target, and the literature mainly describes amenorrhea as a pharmacological effect of ovarian suppression. The high TxGNN score likely reflects this association. In addition, goserelin has no valid registration in the Philippines (the single registration is cancelled).
+The only related trial is a breast cancer study where amenorrhea is not the target, and the literature mainly describes amenorrhea as a pharmacological effect of ovarian suppression. The high TxGNN score likely reflects this association. In addition, goserelin is marketed in the Philippines (1 valid licence of 1).
 
 **To proceed, the following is needed:**
 - A clear definition of the intended use (induced amenorrhea, for example for heavy bleeding or fertility protection, versus treatment of pathological amenorrhea)

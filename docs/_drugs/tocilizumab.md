@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Rheumatoid arthritis"
 monitor_inn: "Tocilizumab"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
+description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Tocilizumab: From Rheumatoid Arthritis to Ankylosing Spondylitis
+## Tocilizumab: Ankylosing spondylitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The evidence is therefore suggestive but not confirmatory.
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (the Philippines registration record contains no approved-indication text; the original indications come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ankylosing spondylitis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -98,7 +98,7 @@ However, the evidence points the other way in practice. Two placebo-controlled P
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0491 | Tocilizumab | Not listed | Not listed (status: cancelled) |
+| PNF-0491 | Tocilizumab | Not listed | Not listed (status: valid) |
 
 ---
 
@@ -116,7 +116,6 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- The two relevant AS trials were terminated with no confirmed efficacy results, the literature is mainly reviews, and tocilizumab has no valid Philippines registration at present.
 
 **To proceed, the following is needed:**
 - Results and reasons for termination of NCT01209689 and NCT01209702, plus the full BUILDER-1/2 outcomes
@@ -132,7 +131,7 @@ Please refer to the package insert for warnings and contraindications.
 |------|------|------|------|
 | Polyarticular juvenile rheumatoid arthritis | L1 | Proceed with Guardrails | Completed Phase 3 randomised withdrawal trial (NCT00988221, n=188), but this overlaps with an existing JIA indication, so it is not a true repurposing case |
 | RF-positive polyarticular JIA | L3 | Proceed with Guardrails | Subtype of the above; only case series and reviews specific to it |
-| Inflammatory spondylopathy | L3 | Hold | Same evidence as AS |
+| Inflammatory spondylopathy | L5 | Hold | Same evidence as AS |
 | Rheumatoid vasculitis | L4 | Research question | Case reports only; vasculitis-like reactions also reported |
 | Hypermobility of coccyx, Kummell disease, vertebral disease, spondyloarthropathy susceptibility | L5 | Hold | Model prediction only, with no plausible IL-6 mechanism or direct evidence |
 | MSMD due to IL12B deficiency | L5 | Hold | Biologically implausible and potentially harmful because tocilizumab raises infection risk |

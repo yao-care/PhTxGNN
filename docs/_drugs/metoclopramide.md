@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 232
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L3). Approved use: Gastroesophageal reflux disease, esophagitis, peptic esophagitis"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-10-28
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but the support is thin: **1 clinical trial** (on a procedural use, not ulcer tr
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastroesophageal reflux disease, esophagitis, peptic esophagitis |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,6 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Reflux disease and gastric ulcer both belong to upper gastrointestinal acid-peptic disorders, which is likely why the model links them. Mechanistically, however, the link is weak. Metoclopramide does not suppress acid and does not promote mucosal healing. At most it could help with coexisting symptoms such as delayed emptying, nausea or dyspepsia. Any benefit would be adjunctive and symptomatic, not disease-modifying. A 1981 study in healthy volunteers found no significant change in gastrin levels or acid secretion. Standard ulcer care (proton pump inhibitors, *H. pylori* eradication, endoscopic hemostasis) does not rely on it.
 
-The high TxGNN score should therefore be read as a knowledge-graph association, not as evidence of ulcer-healing efficacy.
 
 ## Clinical Trial Evidence
 
@@ -87,7 +86,7 @@ The high TxGNN score should therefore be read as a knowledge-graph association, 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0322 | Metoclopramide | Not specified | Not specified (status: cancelled) |
+| PNF-0322 | Metoclopramide | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -114,13 +113,12 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Decision: Hold**
 
 **Rationale:**
-The only registered trial and the most recent randomized studies concern a procedural use (endoscopic visualization in GI bleeding), not ulcer treatment. Mechanistically, metoclopramide offers no acid suppression or mucosal healing. The knowledge graph also lists active peptic ulcer disease among its contraindications. The model score therefore looks like a knowledge-graph association rather than a true therapeutic signal. In addition, the only Philippine registration is cancelled.
+The only registered trial and the most recent randomized studies concern a procedural use (endoscopic visualization in GI bleeding), not ulcer treatment. Mechanistically, metoclopramide offers no acid suppression or mucosal healing. The knowledge graph also lists active peptic ulcer disease among its contraindications. In addition, the only Philippine registration is cancelled.
 
 The other predictions are also weak:
-- Gastroduodenitis: 99.90%, L3, research question only
-- Peptic ulcer disease: 99.85%, L4, hold
-- Gastrojejunal ulcer: 99.78%, L4, hold
-- Peptic ulcer perforation: 99.78%, L5, hold. The score is likely a knowledge-graph artifact, and the drug is contraindicated in suspected perforation.
+- Gastroduodenitis: 0.9990, L3, research question only
+- Gastrojejunal ulcer: 0.9978, L4, hold
+- Peptic ulcer perforation: 0.9978, L5, hold. The score is likely a TxGNN model (deep learning) artifact, and the drug is contraindicated in suspected perforation.
 
 **To proceed, the following is needed:**
 - A well-designed trial or systematic review showing benefit in ulcer symptoms or healing, as an adjunct to standard therapy

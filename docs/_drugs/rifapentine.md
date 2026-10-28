@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **leprosy**, with **no register
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Leprosy |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,7 +95,7 @@ Currently no related clinical trials are registered for leprosy in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). However, no registered trial could be matched, rifapentine has no valid registration in the Philippines, and package insert safety data are missing, so the evidence cannot yet support moving forward.
+The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). Rifapentine is marketed in the Philippines with 1 valid licence of 1. However, no registered trial could be matched, and package insert safety data are missing, so the evidence cannot yet support moving forward.
 
 **To proceed, the following is needed:**
 - Verification of the design and results of the 2023 household contact trial, and of other registered leprosy trials

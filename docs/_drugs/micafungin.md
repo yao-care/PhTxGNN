@@ -6,9 +6,9 @@ nav_order: 235
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Micafungin: predicted new indication Urinary tract infection (evidence level L3). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis"
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
+description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Micafungin
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Micafungin: From Candidemia and Invasive Candidiasis to Urinary Tract Infection
+## Micafungin: Urinary tract infection (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **Urinary Tract Infection** (ma
 
 | Item | Content |
 |------|------|
-| Original Indication | Esophageal candidiasis, candidemia, disseminated candidiasis (taken from the knowledge-graph indication data; the Philippines registration has no indication text) |
-| Predicted New Indication | Urinary tract infection |
-| TxGNN Prediction Score | 99.03% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Urinary tract infection (disease) |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0325 | Micafungin | Not specified | Not specified (status: cancelled) |
+| PNF-0325 | Micafungin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

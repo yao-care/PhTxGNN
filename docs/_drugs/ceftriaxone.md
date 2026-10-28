@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-15
-description: "Ceftriaxone: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections (e.g., bacterial pneumonia, bacterial meningitis…"
 monitor_inn: "Ceftriaxone"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
+last_modified_at: 2026-10-23
+description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections . The local licence record has no indication text"
 ---
 
 # Ceftriaxone
@@ -33,86 +33,76 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Ceftriaxone: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Ceftriaxone: From Bacterial Infections to Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ceftriaxone is a beta-lactam antibiotic used for bacterial infections such as pneumonia, meningitis and gonorrhoea.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
-
----
+Ceftriaxone is a third-generation cephalosporin antibiotic used against infections such as streptococcal infection, bacterial pneumonia, bacterial meningitis and gonorrhea.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no clinical trials** and **no studies of ceftriaxone for this condition** support the prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g., bacterial pneumonia, bacterial meningitis, gonorrhoea, salmonellosis) |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 99.39% |
+| Original Indication | Bacterial infections (relations recorded in the knowledge graph, e.g. streptococcal infection, bacterial pneumonia, bacterial meningitis, gonorrhea). The local licence record has no indication text. |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Licence Records | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Ceftriaxone is a beta-lactam antibacterial that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. In general, ceftriaxone is a cephalosporin that kills bacteria by blocking cell wall synthesis.
 
-**No plausible mechanistic link to the predicted indication could be identified.** Polyclonal hyperviscosity syndrome is a haematologic/immunologic condition driven by elevated immunoglobulins. It is not a bacterial infection, and an antibacterial has no known role in lowering immunoglobulin levels or blood viscosity. The very high score (0.994) is a model output only. No trials or literature support it, and the score should not be read as evidence of benefit.
-
----
+Hyperamylasemia is a laboratory finding, an elevated blood amylase level, rather than an infection. It has many causes, including pancreatic disease and head injury. Ceftriaxone has no known effect on amylase regulation, so no credible mechanistic link was identified. The very high score (0.9939) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only loosely related item is a small study of ceftriaxone given to prevent infection after a biliary-pancreatic endoscopic procedure. In that setting the antibiotic targets infection, not amylase elevation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Clinical study | Bratisl Lek Listy | 30 patients received ceftriaxone 1 g after endoscopic papillosphincterotomy and were compared with 30 who did not. The study concerns infection prophylaxis, not treatment of hyperamylasemia. |
+| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Cohort | South Med J | Of 38 patients with intracranial bleeding, 25 had raised lipase and 17 of those also had raised amylase, without pancreatitis. It describes the condition and does not involve ceftriaxone. |
+| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Case report | Rev Esp Enferm Dig | A Weil syndrome case with upper gastrointestinal bleeding. It provides no evidence that ceftriaxone treats hyperamylasemia. |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0089 | Ceftriaxone | Cancelled |
+| PNF-0089 | Ceftriaxone | Valid, single-ingredient |
 
-The only registration is cancelled, so there is currently no valid marketing authorization for ceftriaxone in the Philippines in the data compiled for this report.
-
----
+The local record lists no dosage form, manufacturer or approved indication text.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (drug-disease associations, not package-insert text)**: liver disease, gallbladder disease, neonatal jaundice, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, hemolytic anemia.
-- **Drug Interactions** (100 interactions recorded; main ones listed):
-  - **Major**: calcium chloride, calcium glucoheptonate, calcium gluconate (calcium-containing products).
-  - **Moderate**: kanamycin, neomycin, streptomycin (aminoglycosides), picosulfuric acid.
+Label warnings and contraindications from the package insert are not available in the data compiled for this report.
 
-Please refer to the package insert for official warnings and contraindications.
+- **Contraindications recorded in the knowledge graph (not label text)**: liver disease, gallbladder disease, neonatal jaundice, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, hemolytic anemia.
+- **Drug interactions** (100 recorded in total; main ones shown):
+  - Major: calcium chloride, calcium glucoheptonate, calcium gluconate.
+  - Moderate: kanamycin, neomycin, streptomycin, picosulfuric acid.
 
----
+Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). There are no registered trials or publications, no plausible mechanism, and no currently valid Philippine registration. The associated conditions of concern (hyperbilirubinaemia, calcium interactions) add safety questions rather than reassurance.
+Hyperamylasemia is a laboratory finding, ceftriaxone has no plausible mechanism for correcting it, and no trial or study shows a benefit. The prediction looks like a model artifact. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- A credible mechanistic rationale linking ceftriaxone to immunoglobulin-driven hyperviscosity, supported by preclinical or case-level data
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the regulator
-- Clarification of the regulatory status of the cancelled registration
+- A clear clinical rationale for treating an elevated amylase, which is a sign rather than a disease.
+- Retrieval of the package insert for warnings and contraindications.
+- Mechanism of action data from DrugBank.
 
-**Note on other predictions:** Among the other predicted indications, infectious otitis media and suppurative otitis media have more supporting literature (L3), consistent with ceftriaxone's antibacterial activity. These are closer to established clinical practice than true repurposing, and they would be better candidates for further evaluation than polyclonal hyperviscosity syndrome.
+Note: other predictions in the same data, such as infectious otitis media, are far more biologically plausible and fit ceftriaxone's established antibacterial role. They would be better candidates for further review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 288
-evidence_level: L3
-indication_count: 7
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L3). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
+description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-## Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Pyridostigmine: Autoimmune disease of peripheral nervous system
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pyridostigmine is a cholinesterase inhibitor originally used to treat myasthenia gravis and other neuromuscular junction diseases.
-The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, but this is essentially a subtype of the original indication rather than a truly new use.
 Support currently comes from **0 clinical trials** and **3 publications** (one review, one case report, one cohort study), none of which tested pyridostigmine directly in this subtype.
 
 ---
@@ -48,12 +47,12 @@ Support currently comes from **0 clinical trials** and **3 publications** (one r
 
 | Item | Content |
 |------|------|
-| Original Indication | Myasthenia gravis, adult-onset myasthenia gravis, neuromuscular junction disease (from the knowledge graph; no approved indication text is available for the Philippines registration) |
-| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autoimmune disease of peripheral nervous system |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -88,9 +87,8 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0408 | Pyridostigmine | Not specified | Not specified (status: cancelled) |
+| PNF-0408 | Pyridostigmine | Not specified | Not specified (status: valid) |
 
-The only registration found has been cancelled, so no currently valid product is on the market in the Philippines.
 
 ---
 
@@ -118,7 +116,6 @@ The mechanism is well established for AChR-antibody myasthenia gravis, which is 
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Detailed mechanism of action data
 - A check of the contraindicating conditions listed above (asthma, kidney disease, urinary tract obstruction) and of concurrent corticosteroids, anticholinergics and aminoglycosides
-- Clarification of the regulatory status, because no valid registration currently exists in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

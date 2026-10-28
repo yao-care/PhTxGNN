@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
+indication_count: 9
 monitor_inn: "Ketoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+last_modified_at: 2026-10-27
+description: "Ketoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,35 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ketoprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ketoprofen: NSAID (non-selective COX inhibitor) → acromesomelic dysplasia, Hunter-Thompson type (acromesomelic dysplasia, Hunter-Thompson type)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ketoprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
-The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
+Ketoprofen is a non-steroidal anti-inflammatory drug (NSAID) that is on the market in the Philippines.
+The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter-Thompson type**, with a score of 0.9998.
+No clinical trials or publications were found for this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the knowledge graph; no approved indication text is available for the local registration) |
-| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ketoprofen is a non-selective cyclooxygenase (COX) inhibitor in the NSAID class. Its efficacy in joint pain and inflammation (rheumatoid arthritis, osteoarthritis) is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Ketoprofen belongs to the NSAID class, which works by inhibiting cyclooxygenase (COX) enzymes and reducing inflammation and pain.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. COX inhibition does not address this underlying biology, and no plausible mechanistic connection was identified. The high score most likely reflects the knowledge graph's proximity between this disease and musculoskeletal conditions such as arthropathy and osteoarthritis, rather than a true biological link. At most, an NSAID might offer symptomatic pain relief, not disease modification.
-
-**Other predictions reviewed.** The top 10 predictions were all L5, with no trials or literature. Most are rare skeletal or developmental syndromes with no mechanistic rationale (e.g., brachyolmia, myosclerosis, WHIM syndrome). Two are biologically more plausible and flagged as research questions:
-- **Spondyloarthropathy, susceptibility to** (score 99.86%): NSAIDs are first-line symptomatic therapy for spondyloarthritis, so this is likely a rediscovery of known class use rather than a novel repurposing.
-- **Juvenile arthritis due to defect in LACC1** (score 99.74%): NSAIDs are commonly used for symptomatic control of juvenile arthritis, but the effect is unlikely to be disease-modifying.
+Acromesomelic dysplasia, Hunter-Thompson type is a rare genetic skeletal disorder linked to the CDMP1/GDF5 pathway. COX inhibition has no established connection to this pathway, and no clinical or literature evidence supports a benefit. The high score most likely reflects model proximity to other musculoskeletal conditions rather than a biological rationale. At most, an NSAID might relieve pain symptoms; it would not be expected to modify the disease.
 
 ## Clinical Trial Evidence
 
@@ -75,29 +72,29 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0273 | Ketoprofen | Not specified | Not specified (registration status: cancelled) |
+| PNF-0273 | Ketoprofen | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not label text)**: hypertension/hypertensive disorder, liver failure, kidney disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction, coronary thrombosis, cardiovascular/heart disease, hemoglobinopathy, pyoureter.
-- **Drug Interactions** (100 interactions found; examples below):
-  - *Moderate*: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, glimepiride, chlorpropamide, mesalazine, balsalazide, naltrexone, potassium citrate/bicarbonate, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
-  - *Minor*: famotidine, ranitidine, cimetidine, linaclotide
+- **Conditions flagged as contraindicated or to be avoided (from reference relations, not label text)**: hypertension and other hypertensive disorders, liver failure, kidney disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction, coronary thrombosis, other cardiovascular and heart disease, hemoglobinopathy, pyoureter.
+- **Drug Interactions**: 100 interactions were found in the screening. Examples of those listed:
+  - Moderate: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, mesalazine, balsalazide, glimepiride, chlorpropamide, naltrexone, potassium citrate, potassium bicarbonate, picosulfuric acid, polyethylene glycol with electrolytes
+  - Minor: famotidine, ranitidine, cimetidine, linaclotide
 
-Please refer to the package insert for warnings and full safety information.
+Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (L5), with no clinical trials or literature and no plausible mechanism for this rare genetic skeletal disorder. The only local registration has been cancelled, which further limits practical development.
+The prediction has no supporting clinical trials or publications and no plausible mechanistic link between COX inhibition and this genetic skeletal dysplasia. The high score alone is not sufficient to justify further development.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for ketoprofen (e.g., from DrugBank)
-- Package insert warnings and contraindications (from DOH-FDA Philippines)
-- A targeted literature search on NSAID use in spondyloarthropathy and LACC1-related juvenile arthritis, the two more plausible candidates, which would be better prioritised than the top-ranked prediction
-- Clarification of whether a valid ketoprofen product is available in the Philippines, given the cancelled registration
+- Any direct preclinical or clinical evidence for this disease
+- Mechanism of action data and a mechanistic assessment against the CDMP1/GDF5 pathway
+- Package insert warnings and contraindications from the Philippine regulator
+- Clarification of the dosage form and approved indication for the local authorization
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

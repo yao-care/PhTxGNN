@@ -50,10 +50,10 @@ The evidence is early and small-scale (a 10-patient Phase 4 trial and observatio
 |------|------|
 | Original Indication | Not available in the data compiled (approved indication text is empty); generally used as a local/regional anaesthetic |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 In migraine, ropivacaine is used for regional nerve blocks (sphenopalatine ganglion and stellate ganglion) and for trigger point injections. These procedures may interrupt trigeminovascular and sympathetic/parasympathetic pain signalling, which is a plausible way to reduce headache.
 
-The very high TxGNN score (99.65%) is consistent with this rationale, but it is a computational prediction and not clinical proof. Whether the benefit comes from ropivacaine itself or from the nerve block procedure and other anaesthetics is not yet clear.
+The very high TxGNN score (0.9965) is consistent with this rationale, but it is a computational prediction and not clinical proof. Whether the benefit comes from ropivacaine itself or from the nerve block procedure and other anaesthetics is not yet clear.
 
 Other predicted indications (migraine with brainstem aura, nephrogenic syndrome of inappropriate antidiuresis, dysthymic disorder) have no supporting trials or literature and no convincing mechanistic link, so they are not pursued here.
 
@@ -93,7 +93,7 @@ Other predicted indications (migraine with brainstem aura, nephrogenic syndrome 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0430 | Ropivacaine | Not specified | Not specified (registration cancelled) |
+| PNF-0430 | Ropivacaine | Not specified | Not specified (registration valid) |
 
 ---
 
@@ -108,7 +108,7 @@ The knowledge graph links ropivacaine with caution in the following conditions, 
 - Gastrointestinal and urinary: inflammatory bowel disease, paralytic ileus, intestinal obstruction, benign prostatic hyperplasia, urethral stricture
 - Other: substance abuse/dependence, pseudotumor cerebri, intracranial hypertension
 
-These are knowledge-graph associations and should be verified against an official package insert.
+These are predictions from the TxGNN model (deep learning). They may reflect similarities the model learned between related diseases, not biological evidence, and should be verified against an official package insert.
 
 **Drug Interactions:** 64 interactions were identified in total. Examples with a Moderate level include:
 - Obeticholic acid

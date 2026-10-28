@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cefazolin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 64
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Cefazolin: predicted new indication Infectious otitis media (evidence level L4). Approved use: Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis"
@@ -14,7 +14,7 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 # Cefazolin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 |------|------|
 | Original Indication | Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis (approved indication text not available in the Philippines registration record) |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9944 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0083 | Cefazolin | Not specified | Not specified (registration status: cancelled) |
+| PNF-0083 | Cefazolin | Not specified | Not specified (registration status: valid) |
 
 ---
 

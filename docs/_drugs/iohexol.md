@@ -6,7 +6,7 @@ nav_order: 179
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Iohexol: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
+description: "Iohexol: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Iohexol: From Diagnostic Contrast Imaging to Insomnia
+## Iohexol: From Diagnostic Contrast Imaging to insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging aid. The TxGNN model predicts it may be effective for **insomnia**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The evidence is model prediction only, and the score most likely reflects a knowledge-graph artifact rather than real biology.
+Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging aid. The TxGNN model predicts it may be effective for **insomnia**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The evidence is model prediction only, and the score most likely reflects a TxGNN model (deep learning) artifact rather than real biology.
 
 ---
 
@@ -48,10 +48,10 @@ Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging ai
 |------|------|
 | Original Indication | Not stated in the Philippines registration record (iohexol is generally used as a diagnostic contrast agent) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,9 +60,9 @@ Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging ai
 
 Currently, detailed mechanism of action data is not available. Based on known information, iohexol is a non-ionic, iodinated contrast agent. It is pharmacologically inert, is not metabolised, and is excreted unchanged by the kidneys.
 
-**No mechanistic link to insomnia was identified.** Iohexol has no known activity on sleep-regulating pathways (GABAergic, orexinergic, histaminergic, or melatonergic). The very high TxGNN score (99.87%) most likely reflects knowledge-graph artifacts, such as shared drug-drug interaction neighbours or network proximity, rather than a biological rationale. The prediction should therefore be treated as a computational signal only.
+**No mechanistic link to insomnia was identified.** Iohexol has no known activity on sleep-regulating pathways (GABAergic, orexinergic, histaminergic, or melatonergic). The very high TxGNN score (0.9987) most likely reflects TxGNN model (deep learning) artifacts, such as shared drug-drug interaction neighbours or network proximity, rather than a biological rationale. The prediction should therefore be treated as a computational signal only.
 
-The second-ranked prediction, **anxiety** (score 99.25%), is also unsupported. Iohexol has no anxiolytic pharmacology. The four publications retrieved for it concern iohexol as a diagnostic agent or are unrelated papers. Anxiety appears at most as a procedural or adverse-event context, not as a therapeutic outcome.
+The second-ranked prediction, **anxiety** (score 0.9925), is also unsupported. Iohexol has no anxiolytic pharmacology. The four publications retrieved for it concern iohexol as a diagnostic agent or are unrelated papers. Anxiety appears at most as a procedural or adverse-event context, not as a therapeutic outcome.
 
 ---
 
@@ -117,7 +117,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or supporting literature, no plausible mechanism, and the only Philippines registration is cancelled. The very high TxGNN score is likely an artifact of the knowledge graph.
+The prediction rests only on a model score. There are no clinical trials or supporting literature, and no plausible mechanism. The drug is marketed in the Philippines, with 1 valid licence of 1. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking iohexol to sleep regulation (none is currently known)

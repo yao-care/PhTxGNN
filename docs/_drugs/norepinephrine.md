@@ -6,9 +6,9 @@ nav_order: 257
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Asthma, intrinsic and allergic asthma, bronchitis…"
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Norepinephrine
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Norepinephrine: From Asthma and Hypotensive Disorder to Obstructive Lung Disease
+## Norepinephrine: Obstructive lung disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but the data compiled for this report show **1 clinical trial (not relevant to t
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma, intrinsic and allergic asthma, bronchitis, hypotensive disorder, pulmonary emphysema, bronchiectasis (from the knowledge graph; the Philippines registration has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available for this drug. Norepinephrine
 
 Adrenergic and neuroimmune signalling is implicated in airway tone and inflammation in asthma and COPD, which gives a plausible but indirect biological link. The drug's original indications already included asthma, bronchitis and emphysema, which overlap with obstructive lung disease, and this probably contributes to the high model score.
 
-However, no evidence shows that systemic norepinephrine, a vasopressor with a narrow therapeutic window, is safe or effective in obstructive airway disease. The score of 99.84% is a computational prediction only.
+However, no evidence shows that systemic norepinephrine, a vasopressor with a narrow therapeutic window, is safe or effective in obstructive airway disease. The score of 0.9984 is a computational prediction only.
 
 ---
 
@@ -97,7 +97,7 @@ None of the retrieved publications is a clinical trial of norepinephrine in obst
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0353 | Norepinephrine | Not specified | Not specified (status: cancelled) |
+| PNF-0353 | Norepinephrine | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -116,7 +116,6 @@ Please refer to the package insert for warnings and other safety information.
 
 **Rationale:**
 - The only trial found is unrelated to this indication. The literature is mostly reviews and mechanistic papers, so the prediction is not supported by clinical evidence.
-- There is no valid local registration, and systemic norepinephrine is a vasopressor whose cardiovascular effects are a concern in obstructive lung disease.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications.
@@ -124,8 +123,8 @@ Please refer to the package insert for warnings and other safety information.
 - A regulatory pathway review, since the only Philippines registration is cancelled.
 
 **Other predicted indications (both Hold, evidence level L5):**
-- **Respiratory malformation (score 99.84%)**: there are no clinical trials. The literature covers central control of breathing and prenatal drug exposure, which is not a therapeutic rationale.
-- **Rienhoff syndrome (score 99.83%)**: there are no trials, no literature and no mechanistic link.
+- **Respiratory malformation (score 0.9984)**: there are no clinical trials. The literature covers central control of breathing and prenatal drug exposure, which is not a therapeutic rationale.
+- **Rienhoff syndrome (score 0.9983)**: there are no trials, no literature and no mechanistic link.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

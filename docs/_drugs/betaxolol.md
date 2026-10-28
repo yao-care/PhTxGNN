@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Betaxolol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 43
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Betaxolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, open-angle glaucoma, ocular hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Betaxolol: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Betaxolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,48 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Betaxolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Betaxolol: known uses and market status in the Philippines; currently no new candidate indication -->
+## Betaxolol: Known uses and market status in the Philippines
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model's candidates for Betaxolol (score ≥ 0.99) are all known uses that can be traced to a source. There is therefore currently no new predicted indication for this drug in the Philippines.
 
-Betaxolol is a beta-1 selective adrenergic blocker originally used for hypertension, open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, open-angle glaucoma, ocular hypertension (the Philippines licence record contains no indication text) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in the Philippines | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, betaxolol is a beta-1 selective adrenergic antagonist. It is already used for open-angle glaucoma and ocular hypertension, and it lowers intraocular pressure (IOP) by reducing aqueous humour production.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Elevated IOP is also a key driver of optic neuropathy in primary hereditary glaucoma, so a plausible mechanistic link exists. However, the very high score (0.997) likely reflects the close similarity to the approved glaucoma indications in the knowledge graph rather than independent evidence.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There are also limits to how far this applies. Primary hereditary glaucoma, including congenital and juvenile forms, often involves anatomical angle abnormalities that are treated surgically. Topical beta-blockers are generally only adjunctive. In children, systemic absorption of a beta-blocker also raises safety concerns such as bradycardia and bronchospasm.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0049 | Betaxolol | Not specified | Not specified (status: cancelled) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| PNF-0049 | Betaxolol |  | Valid |
 
 ## Safety Considerations
 
@@ -95,19 +93,6 @@ Currently no related literature available.
   Minor interactions include acetylsalicylic acid, aluminium hydroxide and attapulgite.
 - Package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting clinical trials or publications (Evidence Level L5). The only registration in the Philippines is cancelled. The proposed indication is typically managed surgically, and paediatric systemic beta-blockade carries safety risks.
-
-**To proceed, the following is needed:**
-- Search for and assess clinical or observational evidence of betaxolol in primary hereditary glaucoma, including paediatric data
-- Obtain the package insert warnings and contraindications from DOH-FDA Philippines
-- Obtain mechanism of action data (for example from DrugBank)
-- Clarify why the registration was cancelled and whether any ophthalmic formulation is available in the Philippines
-- Develop a safety plan for paediatric and high-risk groups (asthma, cardiac conduction disorders, diabetes)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

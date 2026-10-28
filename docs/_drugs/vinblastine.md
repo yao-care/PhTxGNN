@@ -50,10 +50,10 @@ Currently **no registered clinical trials** exist for this prediction, and the e
 |------|------|
 | Original Indication | Hodgkin lymphoma, non-Hodgkin lymphoma, mycosis fungoides / primary cutaneous T-cell lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (the Philippines licence record contains no indication text) |
 | Predicted New Indication | Rhabdomyosarcoma |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,7 +96,7 @@ For the subtype prostate embryonal rhabdomyosarcoma (rank 5), two 1980s case rep
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0514 | Vinblastine | Not recorded | Not recorded (registration cancelled) |
+| PNF-0514 | Vinblastine | Not recorded | Not recorded (registration valid) |
 
 ---
 
@@ -131,7 +131,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.86%), but the evidence is limited to case reports, one pilot study and preclinical work, with no registered trials. Vincristine, not vinblastine, is the established vinca alkaloid in rhabdomyosarcoma, and vinblastine's separate contribution is unproven. In addition, the only Philippines registration is cancelled, and package insert safety data are missing.
+The prediction score is very high (0.9986), but the evidence is limited to case reports, one pilot study and preclinical work, with no registered trials. Vincristine, not vinblastine, is the established vinca alkaloid in rhabdomyosarcoma, and vinblastine's separate contribution is unproven. In addition, the only Philippines registration is cancelled, and package insert safety data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank

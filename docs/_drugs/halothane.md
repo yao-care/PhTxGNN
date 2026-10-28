@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 |------|------|
 | Original Indication | Not recorded in the Philippines licence data (halothane is generally known as an inhaled general anaesthetic) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Halothane is a volatile anaesthetic, which is generally understood to enhance GABA-A receptor activity and modulate K2P potassium channels. These actions produce anaesthesia, and there is no established link to an antimanic effect.
 
-The high TxGNN score (0.998) comes from graph-based prediction only. The retrieved publications concern lithium and lamotrigine, with halothane serving only as the anaesthetic used in animal experiments. The prediction most likely reflects network proximity through shared lithium-related anaesthetic interaction nodes, not therapeutic relevance. The mechanistic case for this prediction is therefore weak.
+The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) only. The retrieved publications concern lithium and lamotrigine, with halothane serving only as the anesthetic used in animal experiments. The score may reflect similarities the model learned between related diseases, not biological evidence. The mechanistic case for this prediction is therefore weak.
 
 Other predictions in the same list (nephrogenic syndrome of inappropriate antidiuresis, Tourette syndrome, trichotillomania, bipolar disorder, major affective disorder) have similarly high scores but no clinical trial support. Those with literature are likewise indirect.
 
@@ -80,7 +80,7 @@ None of these studies tests halothane as a treatment for mania or bipolar disord
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0224 | Halothane | Not recorded | Not recorded (status: cancelled) |
+| PNF-0224 | Halothane | Not recorded | Not recorded (status: valid) |
 
 ## Safety Considerations
 
@@ -95,7 +95,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph model score. There are no clinical trials, the literature is indirect (halothane appears only as an anaesthetic in lithium and lamotrigine animal studies), and no plausible mechanism links halothane to antimanic effects. The Philippines licence is cancelled, and the safety profile (hepatotoxicity, cardiac and malignant hyperthermia signals) argues against chronic use.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, the literature is indirect (halothane appears only as an anesthetic in lithium and lamotrigine animal studies), and no plausible mechanism links halothane to antimanic effects. The drug is marketed in this country, with 1 valid license of 1, but the safety profile (hepatotoxicity, cardiac and malignant hyperthermia signals) argues against chronic use.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a plausible mechanistic rationale for antimanic effects

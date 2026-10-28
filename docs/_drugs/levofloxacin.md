@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levofloxacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 206
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Streptococcal infection, bacterial pneumonia, anthrax infection…"
 monitor_inn: "Levofloxacin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 |------|------|
 | Original Indication | Streptococcal infection, bacterial pneumonia, anthrax infection, staphylococcal infection, maxillary sinusitis, conjunctivitis, pyelonephritis (among others) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, levofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. It is established for bacterial conjunctivitis, so activity on the ocular surface is plausible.
 
-The link to the predicted indication is weak, however. The only linked paper describes an outbreak of **microsporidial** keratoconjunctivitis traced to swimming pool water in Taiwan. Microsporidia are eukaryotic, fungi-related organisms, and fluoroquinolones have no established activity against them. The association most likely reflects an antibiotic being mentioned in the outbreak report, not a therapeutic effect. The high model score (99.92%) is not backed by clinical data.
+The link to the predicted indication is weak, however. The only linked paper describes an outbreak of **microsporidial** keratoconjunctivitis traced to swimming pool water in Taiwan. Microsporidia are eukaryotic, fungi-related organisms, and fluoroquinolones have no established activity against them. The association most likely reflects an antibiotic being mentioned in the outbreak report, not a therapeutic effect. The high model score (0.9992) is not backed by clinical data.
 
 ## Clinical Trial Evidence
 
@@ -71,7 +71,7 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-The only registration on record (PNF-0287, Levofloxacin, single-ingredient product) has been **cancelled**. No dosage form or approved indication text is available, and there are no currently valid registrations.
+The only registration on record (PNF-0287, Levofloxacin, single-ingredient product) is currently **valid**, and the drug is marketed. No dosage form or approved indication text is available.
 
 ## Safety Considerations
 

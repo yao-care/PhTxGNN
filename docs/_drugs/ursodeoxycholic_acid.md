@@ -6,9 +6,9 @@ nav_order: 348
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
+description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ursodeoxycholic Acid
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Ursodeoxycholic Acid: From Gallstone Disease and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolemia
+## Ursodeoxycholic Acid: Homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome (from the knowledge graph; no approved indication text is available from the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A plausible but unverified rationale is that UDCA affects cholesterol homeostasis. It may reduce intestinal cholesterol absorption, decrease hepatic cholesterol secretion into bile, and modulate bile acid synthesis and FXR signaling. This would link the original indications, which involve cholesterol and bile metabolism, to a lipid disorder.
 
-However, the mechanistic link is weak. HoFH is driven mainly by absent or defective LDL receptor function (LDLR, and less often APOB, PCSK9 or LDLRAP1 variants). Modulating bile acid pathways is unlikely to compensate for the lack of LDL receptor activity. The high score of 99.86% is a model output only, and the underlying graph paths are not available for review.
+However, the mechanistic link is weak. HoFH is driven mainly by absent or defective LDL receptor function (LDLR, and less often APOB, PCSK9 or LDLRAP1 variants). Modulating bile acid pathways is unlikely to compensate for the lack of LDL receptor activity. The high score of 0.9986 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -84,9 +84,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0503 | Ursodeoxycholic Acid | Not specified | Not specified (status: cancelled) |
+| PNF-0503 | Ursodeoxycholic Acid | Not specified | Not specified (status: valid) |
 
-The only registration found is cancelled, so no valid marketing authorization currently exists in the Philippines.
 
 ---
 
@@ -112,7 +111,7 @@ The prediction has a very high model score but no clinical trials or literature 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (blocking gap for safety screening)
 - Detailed mechanism of action data (MOA) from DrugBank
-- The graph paths behind the TxGNN prediction, to test whether any plausible mechanism exists
+- The basis of the TxGNN model (deep learning) prediction, to test whether any plausible mechanism exists
 - Preclinical or literature evidence of UDCA's effect on LDL cholesterol in familial hypercholesterolemia
 - Severity classification of the unclassified drug interactions, especially with statins such as pravastatin
 - Clarification of the registration status and available dosage forms in the Philippines

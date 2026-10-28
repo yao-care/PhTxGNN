@@ -48,10 +48,10 @@ Isoflurane is a volatile (inhaled) general anaesthetic. The TxGNN model predicts
 |------|------|
 | Original Indication | Not stated in the Philippines registration record (general anaesthesia is the known use of this drug class) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,12 +66,12 @@ This is a hypothesis only. No trials or literature were found to support it. Iso
 
 | Predicted Indication | Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Tourette syndrome | 99.61% | L5 | Prediction only; no supporting data |
-| Manic bipolar affective disorder | 99.57% | L4 | Indirect evidence only (see below) |
-| Trichotillomania | 99.54% | L5 | Prediction only; no supporting data |
-| Dysthymic disorder | 99.27% | L5 | Prediction only; unsuitable for chronic use |
-| Nephrogenic syndrome of inappropriate antidiuresis | 99.09% | L5 | No plausible link (the disease arises from a vasopressin V2 receptor variant) |
-| Migraine disorder | 99.06% | L4 | Plausible preclinical rationale; flagged as a research question |
+| Tourette syndrome | 0.9961 | L5 | Prediction only; no supporting data |
+| Manic bipolar affective disorder | 0.9957 | L5 | Indirect evidence only (see below) |
+| Trichotillomania | 0.9954 | L5 | Prediction only; no supporting data |
+| Dysthymic disorder | 0.9927 | L5 | Prediction only; unsuitable for chronic use |
+| Nephrogenic syndrome of inappropriate antidiuresis | 0.9909 | L5 | No plausible link (the disease arises from a vasopressin V2 receptor variant) |
+| Migraine disorder | 0.9906 | L4 | Plausible preclinical rationale; flagged as a research question |
 
 For **migraine**, inhaled anaesthetics suppress cortical spreading depression, the biological basis of migraine aura (PMID 8665587). Two case reports describe general anaesthesia for status migrainosus. This is the most mechanistically plausible of the predictions, but practical use would be limited to refractory, hospital-based settings, and recurrence after emergence would need to be addressed.
 
@@ -116,7 +116,7 @@ The remaining migraine papers are preclinical migraine-model studies (CGRP, nitr
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0263 | Isoflurane | Not recorded | Not recorded (status: cancelled) |
+| PNF-0263 | Isoflurane | Not recorded | Not recorded (status: valid) |
 
 ---
 
@@ -149,7 +149,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 - The top prediction (Prinzmetal angina) rests on model score alone (L5), with no trials or publications.
 - Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical.
-- It has no valid registration in the Philippines.
+- It is marketed in the Philippines, with 1 valid license out of 1.
 - Migraine (refractory or status migrainosus) is the only prediction with a plausible mechanism and any clinical signal, but that signal is two case reports of one case. It is better treated as a research question than a development candidate.
 
 **To proceed, the following is needed:**

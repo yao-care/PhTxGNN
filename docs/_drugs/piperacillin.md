@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the registration data (the approved indication text…"
 monitor_inn: "Piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Piperacillin: From Bacterial Infection Treatment to Rheumatoid Arthritis
+## Piperacillin: Rheumatoid arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Piperacillin is a beta-lactam antibiotic that inhibits bacterial cell wall synth
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the registration data (the approved indication text is empty); known use is as an antibacterial |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 A plausible mechanistic link to rheumatoid arthritis could not be identified. Rheumatoid arthritis is an autoimmune disease, and piperacillin has no known immunomodulatory activity relevant to it. The retrieved publications describe piperacillin or related antibiotics being used for infections in RA patients (for example septic shock, prosthetic joint infection and pericarditis), or describe adverse events of other RA drugs such as methotrexate pancytopenia. These reflect antibiotic use in people who happen to have RA, not treatment of RA.
 
-The high TxGNN score (99.94%) should therefore be read as a model-based signal only. It is not supported by clinical or mechanistic evidence.
+The high TxGNN score (0.9994) should therefore be read as a model-based signal only. It is not supported by clinical or mechanistic evidence.
 
 Other predicted indications were also reviewed (colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, sclerosing cholangitis, osteoarthritis susceptibility, diabetic nephropathy, WHIM syndrome and others). All are Evidence Level L5, with no plausible mechanistic link and no supporting trials.
 
@@ -99,7 +99,6 @@ None of these publications tests piperacillin as a treatment for rheumatoid arth
 |---------|------|------|-----------|
 | PNF-0388 (cancelled) | Piperacillin | Not specified | Not specified |
 
-The only registration for this drug has been cancelled, so no valid product is currently marketed in the Philippines under this registration.
 
 ---
 

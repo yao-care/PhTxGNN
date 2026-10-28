@@ -48,17 +48,17 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, alfuzosin is a selective alpha-1 adrenergic antagonist acting on the lower urinary tract. Its efficacy in benign prostatic hyperplasia comes from relaxing smooth muscle in the prostate and bladder neck.
 
-No mechanistic link to the predicted indication has been established. Ambras syndrome is a rare congenital disorder linked to chromosomal rearrangements affecting regulation of the TRPS1 gene. Alpha-1 blockade has no known role in this pathway. The very high score (0.99999) is a graph-based prediction only and likely reflects proximity to hair-related phenotypes in the knowledge graph rather than biology.
+No mechanistic link to the predicted indication has been established. Ambras syndrome is a rare congenital disorder linked to chromosomal rearrangements affecting regulation of the TRPS1 gene. Alpha-1 blockade has no known role in this pathway. The very high score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions show the same pattern. They are mostly hair or developmental disorders (hypertrichosis, hair shaft abnormalities, trichomegaly, hypotrichosis, Dandy-Walker–related syndromes), and none has trials or publications. The same limitation applies to all of them.
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0010 | Alfuzosin | Not specified | Not specified (status: cancelled) |
+| PNF-0010 | Alfuzosin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

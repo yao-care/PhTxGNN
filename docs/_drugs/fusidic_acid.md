@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fusidic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 159
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L4). Approved use: Urinary tract infection, bronchitis, acne, folliculitis…"
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
+last_modified_at: 2026-10-27
+description: "Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fusidic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Fusidic Acid: From Bacterial Infections to Exposure Keratitis
+## Fusidic acid: antibacterial protein synthesis inhibitor → exposure keratitis (exposure keratitis)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fusidic acid is an antibiotic originally used for bacterial infections such as skin, respiratory, urinary tract and biliary infections.
-The TxGNN model predicts it may be effective for **exposure keratitis** with a very high score, but **0 clinical trials** and only **1 publication** (a case series that does not test fusidic acid) support this direction.
+Fusidic acid is an antibiotic that inhibits bacterial protein synthesis and is active mainly against Gram-positive bacteria such as Staphylococcus.
+The TxGNN model predicts it may be relevant for **exposure keratitis (exposure keratitis)**, with a score of 0.9995.
+The data compiled for this report contain **no clinical trials** and **1 publication** (a case series on ocular Tsukamurella infections), which does not test fusidic acid for this condition, so the evidence is model-based only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, bronchitis, acne, folliculitis, seborrheic dermatitis, bacterial pneumonia, and other bacterial infections (from the knowledge graph; no approved indication text is available in the Philippines registration) |
-| Predicted New Indication | Exposure keratitis |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | exposure keratitis (exposure keratitis) |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Fusidic acid inhibits bacterial protein synthesis by targeting elongation factor G. It is active mainly against Gram-positive organisms such as Staphylococcus. Detailed mechanism of action data from DrugBank is not available for this report, so this description relies on general pharmacological knowledge.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, fusidic acid inhibits bacterial protein synthesis by targeting elongation factor G and acts mainly on Gram-positive organisms such as Staphylococcus.
 
-Exposure keratitis is a non-infectious corneal injury caused by failure of the eyelids to close. Secondary bacterial infection is possible, so any benefit from fusidic acid would be indirect and limited to infection control. The only linked paper is a case series on ocular *Tsukamurella* infections, which does not test fusidic acid for this condition. The very high TxGNN score is therefore not supported by clinical data.
-
-Other predictions in the top 10 are also weakly supported. The most plausible is **otitis externa** (score 99.84%). *Staphylococcus aureus*, including MRSA, is a recognised pathogen there, and fusidic acid has anti-staphylococcal activity. The retrieved literature is bacteriology and resistance surveillance, including canine studies, and provides no efficacy data. It is flagged as a research question and may overlap with existing topical use in some regions.
+Exposure keratitis is a non-infectious corneal injury caused by failure of the eyelids to close. Secondary bacterial infection of the damaged cornea is possible, so any benefit of fusidic acid would be indirect and limited to infection control. The only linked paper is a case series on ocular Tsukamurella infections (a different organism and a different clinical setting), which does not test fusidic acid in exposure keratitis. The very high TxGNN score is therefore not supported by clinical data.
 
 ## Clinical Trial Evidence
 
@@ -69,46 +68,33 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest case series of *Tsukamurella* ophthalmic infections, covering clinical spectrum, risk factors, treatment and outcome. Does not test fusidic acid for exposure keratitis. |
-
-Supporting context for the secondary candidate, otitis externa (indirect evidence only):
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [12437801](https://pubmed.ncbi.nlm.nih.gov/12437801/) | 2002 | Microbiological study | J Laryngol Otol | In 161 patients with otorrhoea in Taiwan, *S. aureus* was found in 43.5% of isolates. |
-| [12542200](https://pubmed.ncbi.nlm.nih.gov/12542200/) | 2003 | Cohort/Microbiological | Acta Otolaryngol | Prevalence of community-acquired MRSA in discharging ears. |
-| [20434850](https://pubmed.ncbi.nlm.nih.gov/20434850/) | 2010 | Veterinary microbiology | Vet Microbiol | Coryneform bacteria in canine otitis externa. |
-| [41148721](https://pubmed.ncbi.nlm.nih.gov/41148721/) | 2025 | Veterinary resistance surveillance | Antibiotics (Basel) | Resistance profile of *S. pseudintermedius* in dogs with otitis externa. |
-| [41594059](https://pubmed.ncbi.nlm.nih.gov/41594059/) | 2025 | Veterinary resistance surveillance | Antibiotics (Basel) | Resistance patterns in canine skin and ear infections in Serbia. |
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Ophthalmic manifestations of Tsukamurella species infections, including the first report of ocular implant infection after enucleation; does not evaluate fusidic acid for exposure keratitis |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0210 | Fusidic Acid | Not specified | Not specified (status: cancelled) |
+| PNF-0210 | Fusidic Acid | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug interaction data were not available for this report. Please refer to the package insert for safety information.
+- **Conditions flagged for caution in related drug-disease records (not label text)**: liver failure, kidney disease, liver disease, gallbladder disease, glaucoma, ocular hypertension, herpes simplex virus keratitis, eye infectious disease, conjunctivitis, diabetes mellitus, atrial fibrillation, myasthenia gravis, Clostridium difficile colitis, and others. These should be checked against the official package insert before any use.
 
-The knowledge graph lists many disease contraindication associations, which come from graph edges rather than label text and need verification against the official labelling. Examples include liver failure, liver disease, kidney disease, gallbladder disease, and myasthenia gravis. They should not be treated as confirmed label contraindications.
-
-For the predicted indication of infection-related hemolytic uremic syndrome, antibiotic use is generally cautioned because it may increase toxin release.
+Please refer to the package insert for warnings, contraindications and drug interactions; no label-based safety text or interaction data were available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score for exposure keratitis is very high, but no clinical trials exist and the only linked paper does not evaluate fusidic acid. Exposure keratitis is mainly non-infectious, so benefit would be indirect. The only Philippines registration is cancelled, and safety data are missing.
+No clinical trial or study directly addresses fusidic acid in exposure keratitis. The single linked publication concerns a different ocular infection, so the high model score is not backed by evidence.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
+- Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism of action data from DrugBank
-- Targeted literature review of fusidic acid in ocular surface infections and otitis externa
-- Check of local *Staphylococcus* resistance trends
-- Confirmation of an available topical (ophthalmic or otic) formulation and its regulatory status in the Philippines
-- Consideration of otitis externa as a more plausible research question than exposure keratitis
+- Evidence that fusidic acid, in an ophthalmic-suitable formulation and route, benefits exposure keratitis or its secondary infection
+- Review of local Staphylococcus susceptibility and resistance trends
+- Clarification of the local licence status and available dosage forms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

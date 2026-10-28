@@ -6,7 +6,7 @@ nav_order: 229
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Methylergometrine: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not available"
+description: "Methylergometrine: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not available"
 monitor_inn: "Methylergometrine"
 predicted_indications: ["hypertrichosis (disease)", "pulmonary hypertension", "migraine disorder", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methylergometrine: From Uterotonic Use (Original Indication Not Recorded) to Hypertrichosis
+## Methylergometrine: From Uterotonic Use (Original Indication Not Recorded) to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Evidence is limited to a computational prediction, and the top-ranked prediction
 |------|------|
 | Original Indication | Not available (the only registration has no indication text) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,7 @@ For reference, the following two publications were retrieved for the third-ranke
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0319 | Methylergometrine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0319 | Methylergometrine | Not recorded | Not recorded (status: valid) |
 
 ---
 

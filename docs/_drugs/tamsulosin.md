@@ -50,10 +50,10 @@ The result is a computational prediction only and has no supporting evidence.
 |------|------|
 | Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The result is a computational prediction only and has no supporting evidence.
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Tamsulosin is generally known as an alpha-1A/1D adrenergic receptor antagonist. It relaxes smooth muscle in the prostate and bladder neck and is used to relieve urinary symptoms of BPH.
 
-The relationship between the original and predicted indications is weak. Ambras syndrome is a rare genetic disorder of hair growth, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. Alpha-1 adrenergic blockade has no established role in this process, so no mechanistic link can be established. The high TxGNN score reflects graph-based proximity only and should not be read as evidence of benefit.
+The relationship between the original and predicted indications is weak. Ambras syndrome is a rare genetic disorder of hair growth, linked to chromosomal rearrangements that affect regulation of the *TRPS1* gene. Alpha-1 adrenergic blockade has no established role in this process, so no mechanistic link can be established. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top predictions show the same pattern. They include hypertrichosis, hypotrichosis, alopecia, alopecia areata, hair shaft abnormalities, Dandy-Walker malformation syndromes, dental/periodontal malformation syndromes and migraine with brainstem aura. All are at evidence level L5, with no plausible mechanistic connection and no supporting trials. The two papers retrieved for alopecia do not test tamsulosin (see below).
 
@@ -89,7 +89,7 @@ No literature directly supports the top prediction (Ambras type hypertrichosis u
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0471 | Tamsulosin | Not specified | Not specified (status: cancelled) |
+| PNF-0471 | Tamsulosin | Not specified | Not specified (status: valid) |
 
 ---
 

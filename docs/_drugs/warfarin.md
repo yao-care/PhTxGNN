@@ -6,9 +6,9 @@ nav_order: 359
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Warfarin: predicted new indication Thrombophilia (evidence level L5). Approved use: Pulmonary embolism, thrombotic disease, intracranial embolism"
 monitor_inn: "Warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Warfarin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Warfarin: From Thrombotic Disease to Thrombophilia
+## Warfarin: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Most of the evidence consists of reviews and case reports, and the new indicatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary embolism, thrombotic disease, intracranial embolism (from the knowledge graph; no approved indication text is available for the local registration) |
-| Predicted New Indication | Thrombophilia (the top-ranked prediction by TxGNN score is heparin cofactor 2 deficiency, but thrombophilia has the strongest supporting evidence and is the focus of this report) |
-| TxGNN Prediction Score | 99.75% (thrombophilia); 99.87% for the top-ranked prediction, heparin cofactor 2 deficiency |
-| Evidence Level | L2 (one Phase 3 trial, but status unknown and not a direct warfarin-versus-control comparison; the data compilation conservatively rates it below L1) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Heparin cofactor 2 deficiency |
+| TxGNN Prediction Score | 0.9987 |
+| Evidence Level | L5 (one Phase 3 trial, but status unknown and not a direct warfarin-versus-control comparison; the data compilation conservatively rates it below L1) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,7 +91,7 @@ Literature for other predicted indications is limited to case reports (for examp
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0523 | Warfarin | Not stated | Not stated (registration status: cancelled) |
+| PNF-0523 | Warfarin | Not stated | Not stated (registration status: valid) |
 
 ## Cytotoxicity
 
@@ -113,7 +113,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- Thrombophilia is essentially an extension of warfarin's existing anticoagulant use, so the prediction is plausible but not novel. The only Phase 3 trial has unknown status and tests a D-dimer-guided strategy rather than warfarin itself, and the literature is mostly reviews and case reports. In the Philippines, the only registration is cancelled, so the drug is not currently marketed under it.
+- Thrombophilia is essentially an extension of warfarin's existing anticoagulant use, so the prediction is plausible but not novel. The only Phase 3 trial has unknown status and tests a D-dimer-guided strategy rather than warfarin itself, and the literature is mostly reviews and case reports.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing and a blocking gap for safety screening)

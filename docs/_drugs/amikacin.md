@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amikacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 22
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L4). Approved use: Bacterial pneumonia, Pseudomonas aeruginosa infection, cholangitis…"
+last_modified_at: 2026-10-28
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
+description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amikacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Amikacin: From Bacterial Infections to Paratyphoid Fever
+## Amikacin: Paratyphoid fever
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **Paratyphoid Fever**, but the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, *Pseudomonas aeruginosa* infection, cholangitis, bacterial meningitis, and other bacterial infections (the Philippines registration has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Paratyphoid fever |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the compiled da
 
 Paratyphoid fever is a gram-negative bacterial infection, so an antibacterial rationale exists, and this is likely why the model ranks it highly. The link is plausible in vitro but weak clinically. Aminoglycosides reach poor concentrations inside cells, where *Salmonella* persists, and they are not standard therapy for enteric fever. The retrieved literature is mostly epidemiology and antibiogram surveys, with no efficacy data for amikacin.
 
-Other top predictions show a similar pattern. Typhoid fever (99.77%) and salmonellosis (99.74%) have only in vitro, observational, or indirect evidence. Several others, such as diffuse scleroderma, congenital analbuminemia, and polyclonal hyperviscosity syndrome, have no plausible mechanism and no supporting evidence.
+Other top predictions show a similar pattern. Typhoid fever (0.9977) and salmonellosis (0.9974) have only in vitro, observational, or indirect evidence. Several others, such as diffuse scleroderma, congenital analbuminemia, and polyclonal hyperviscosity syndrome, have no plausible mechanism and no supporting evidence.
 
 ## Clinical Trial Evidence
 
@@ -84,7 +84,7 @@ For the closely related typhoid fever prediction, one small clinical study (PMID
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0014 | Amikacin | Not specified | Not specified (status: cancelled) |
+| PNF-0014 | Amikacin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

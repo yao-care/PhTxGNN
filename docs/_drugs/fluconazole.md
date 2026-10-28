@@ -48,10 +48,10 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, esophageal candidiasis, cryptococcal meningitis, candidemia, disseminated candidiasis |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.24% |
+| TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Punctate epithelial keratoconjunctivitis is a heterogeneous condition with several possible causes: viral (such as adenoviral), bacterial, fungal, and toxic or drug-related. A plausible link exists only for the fungal subset, where an antifungal could be relevant. Fluconazole penetrates the eye well after systemic administration and is used in fungal keratitis, but this link is inferred and is not supported by the data compiled here.
 
-For the more common viral or non-infectious causes, antifungal activity would not be expected to help. The very high score likely reflects network proximity to fungal keratitis or related ocular infections in the knowledge graph rather than a validated mechanism.
+For the more common viral or non-infectious causes, antifungal activity would not be expected to help. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -74,11 +74,11 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0192 | Fluconazole | Not specified | Not specified (status: cancelled) |
+| PNF-0192 | Fluconazole | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
+- **Contraindications (not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
 - **Drug Interactions**: 100 interactions were identified. Examples by severity:
   - **Major**: Chlorpropamide
   - **Moderate**: Famotidine, Rabeprazole, Omeprazole, Dexlansoprazole, Hydrocortisone, Dexamethasone, Betamethasone, Triamcinolone, Budesonide, Loperamide, Aprepitant, Saxagliptin, Bisacodyl, Picosulfuric acid, Polyethylene glycol (3350 with electrolytes)

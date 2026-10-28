@@ -4,17 +4,17 @@ title: Mitoxantrone
 parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Mitoxantrone: predicted new indication Head and neck cancer (evidence level L5). Approved use: Acute myeloid leukemia and related myeloid leukemias"
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Mitoxantrone: From Acute Myeloid Leukemia to Head and Neck Cancer
+## Mitoxantrone: Upper aerodigestive tract neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **6 clinical trials** and **20 publications** currently supporting this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute myeloid leukemia and related myeloid leukemias (the Philippines registration record contains no indication text) |
-| Predicted New Indication | Head and neck cancer (rank 7 of 8 by TxGNN score; selected for the strongest evidence) |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L1 (nominal; see note below) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Upper aerodigestive tract neoplasm |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 (nominal; see note below) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on the evidence level:* L1 formally reflects the existence of a Phase III randomized trial. That trial has not started recruiting and has no results. In practice, the direct evidence is closer to early-phase (Phase Ib/II) data, so the L1 label overstates the strength of the evidence.
@@ -104,7 +104,7 @@ The clinical record is mixed. Historic Phase II studies of conventional mitoxant
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0328 | Mitoxantrone | Not recorded | Not recorded (status: cancelled) |
+| PNF-0328 | Mitoxantrone | Not recorded | Not recorded (status: valid) |
 
 The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines.
 
@@ -126,7 +126,7 @@ Please refer to the package insert warnings and precautions for full details.
 
 ## Safety Considerations
 
-- **Disease-level cautions (from knowledge-graph associations, not label text):** liver failure, liver disease, heart failure, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anemia, epilepsy, gallbladder disease, and infectious or fungal diseases are linked to mitoxantrone as contraindication-type associations. These need confirmation against the product label.
+- These need confirmation against the product label.
 - **Drug Interactions:** 100 interactions were found. The more notable ones are:
   - **Major:** dolasetron
   - **Moderate:** clarithromycin, eliglustat, rolapitant

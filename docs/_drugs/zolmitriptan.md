@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zolmitriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 361
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Zolmitriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (migraine with or without aura)"
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Zolmitriptan: From Migraine to Migraine with Brainstem Aura
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zolmitriptan is a selective 5-HT1B/1D receptor agonist (a "triptan"), originally used for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
 but there are **0 clinical trials** and **20 publications** that only indirectly support this direction, with none specific to brainstem aura.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (migraine with or without aura) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +60,6 @@ Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist with both centr
 Migraine with brainstem aura is a subtype of migraine, so the shared pathophysiology (trigeminovascular activation, CGRP release, cranial vasodilation) makes a mechanistic link plausible.
 
 There are important caveats:
-- The very high TxGNN score largely reflects how close this disease sits to the approved migraine indication in the knowledge graph, not independent evidence.
 - Triptans are traditionally cautioned against or contraindicated in brainstem aura and hemiplegic migraine, because of theoretical concerns about vasoconstriction when aura involves brainstem dysfunction.
 - The retrieved literature consists of general migraine reviews, triptan comparisons, and one transcranial Doppler study. Evidence is indirect.
 

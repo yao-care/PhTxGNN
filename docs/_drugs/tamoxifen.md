@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Tamoxifen
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 324
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L4). Approved use: Female breast carcinoma, invasive ductal breast carcinoma…"
 monitor_inn: "Tamoxifen"
@@ -14,7 +14,7 @@ predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "bot
 # Tamoxifen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ but only **1 clinical trial** (which does not test tamoxifen for this condition)
 |------|------|
 | Original Indication | Female breast carcinoma, invasive ductal breast carcinoma, breast ductal adenocarcinoma |
 | Predicted New Indication | Mammary Paget disease |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9969 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Mammary Paget disease is usually associated with underlying ductal carcinoma in situ or invasive breast cancer, and these lesions are often hormone receptor-positive. Blocking estrogen signalling is therefore biologically plausible. In practice, this would be an extension of tamoxifen's existing breast cancer use rather than a new mechanism.
 
-The evidence does not yet show direct benefit. The literature consists of case reports, case series and one recurrence meta-analysis. None of it establishes that tamoxifen works specifically for Paget disease. The high TxGNN score likely reflects how closely the disease is linked to breast cancer in the knowledge graph.
+The evidence does not yet show direct benefit. The literature consists of case reports, case series and one recurrence meta-analysis. None of it establishes that tamoxifen works specifically for Paget disease. The high TxGNN score (deep learning model) may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -99,9 +99,9 @@ The Phase 3 label on this trial does not translate into direct evidence for the 
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0470 | Tamoxifen | Cancelled |
+| PNF-0470 | Tamoxifen | Valid |
 
-Tamoxifen has no currently valid registration in the Philippines.
+Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1.
 
 ---
 
@@ -121,7 +121,7 @@ Tamoxifen is an antineoplastic drug. It is a hormonal agent rather than a conven
 
 ## Safety Considerations
 
-- **Conditions linked to contraindication or caution (knowledge-graph associations, not label text)**: thrombocytopenia, leukopenia, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, stroke and other cerebrovascular disorders, cerebral infarction, pulmonary embolism, vision disorder, and blindness.
+- **Conditions linked to contraindication or caution (from the TxGNN model (deep learning); these may reflect similarities the model learned between related diseases, not biological evidence or label text)**: thrombocytopenia, leukopenia, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, stroke and other cerebrovascular disorders, cerebral infarction, pulmonary embolism, vision disorder, and blindness.
 - **Drug Interactions**: 100 interactions were identified. Major-level interactions include bupropion, lorcaserin, cimetidine, dolasetron, eliglustat, cisapride, dexfenfluramine, and fenfluramine. Moderate-level examples include famotidine, loperamide, aprepitant, dexamethasone, clarithromycin, granisetron, and levofloxacin.
 
 Please refer to the package insert for official warnings and contraindications.
@@ -133,7 +133,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-There is no direct trial evidence for tamoxifen in mammary Paget disease, and the available literature consists mainly of case reports, case series and one non-drug-specific recurrence analysis. The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication. The product also has no valid registration in the Philippines.
+There is no direct trial evidence for tamoxifen in mammary Paget disease, and the available literature consists mainly of case reports, case series and one non-drug-specific recurrence analysis. The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication. The product is marketed in the Philippines, with 1 valid licence out of 1.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the package insert, including warnings and contraindications

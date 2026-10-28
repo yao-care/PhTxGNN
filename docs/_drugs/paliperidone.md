@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, schizoaffective disorder, schizophreniform disorder…"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paliperidone: From Schizophrenia to Retinal Dystrophy (With or Without Extraocular Anomalies)
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ However, **no clinical trials and no publications** currently support this predi
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; no approved indication text is available for the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ However, **no clinical trials and no publications** currently support this predi
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Paliperidone is generally known as a dopamine D2 and serotonin 5-HT2A receptor antagonist, and its efficacy in schizophrenia is established.
 
-**No mechanistic link to inherited retinal dystrophy has been identified.** No established pathway connects D2/5-HT2A antagonism to the genetic degeneration of the retina. The high score is a graph-based pattern prediction and should not be read as a pharmacological rationale. Similarity to the original indication has not been assessed.
+**No mechanistic link to inherited retinal dystrophy has been identified.** No established pathway connects D2/5-HT2A antagonism to the genetic degeneration of the retina. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as a pharmacological rationale.
 
 For context, other high-scoring predictions (X-linked myopia, syndromic myopia, hydranencephaly, glycosylation disorders, Charcot-Marie-Tooth type 1G, atypical glycine encephalopathy) likewise lack supporting evidence. The only prediction in the list with any evidence is **treatment-refractory schizophrenia**, a subpopulation of the original indication rather than true repurposing. It has 3 Phase 4 trials, none confirmed to test paliperidone specifically, plus 2 reviews. Clozapine remains the standard therapy for that population.
 
@@ -84,7 +84,7 @@ Currently no related literature available for retinal dystrophy.
 
 | Authorization Number | Product Name | Kind | Status |
 |---------|------|------|-----------|
-| PNF-0371 | Paliperidone | Single-ingredient | Cancelled |
+| PNF-0371 | Paliperidone | Single-ingredient | Valid |
 
 No dosage form or approved indication text is recorded for this registration.
 
@@ -123,7 +123,6 @@ The prediction has a very high model score but no trials, no literature and no i
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Clarification of why the local registration was cancelled, and of the available dosage forms
-- Review of whether the treatment-refractory schizophrenia prediction deserves separate evaluation as a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

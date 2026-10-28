@@ -4,7 +4,7 @@ title: Polymyxin B
 parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4)."
 monitor_inn: "Polymyxin B"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "laryngotracheitis"]
 # Polymyxin B
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The evidence level is low (L4), so the recommendation is **Hold**.
 | Item | Content |
 |------|------|
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0390 | Polymyxin B | Not stated | Not stated (status: cancelled) |
+| PNF-0390 | Polymyxin B | Not stated | Not stated (status: valid) |
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 289
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quetiapine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Bipolar Disorder and Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction, No Supporting Evidence)
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,15 +47,15 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia (from the knowledge graph; no approved indication text is available for the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.57% |
+| TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: The top-ranked prediction has no evidence. The only candidate in the top 10 with any published literature is trichotillomania (TxGNN score 99.38%, evidence level L4, recommendation "Research Question"). It is discussed below as a secondary candidate.*
+*Note: The top-ranked prediction has no evidence. The only candidate in the top 10 with any published literature is trichotillomania (TxGNN score 0.9938, evidence level L4, recommendation "Research Question"). It is discussed below as a secondary candidate.*
 
 ---
 
@@ -96,15 +96,15 @@ One of the reports (PMID 11212595) describes quetiapine *worsening* obsessive-co
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0411 | Quetiapine | Not specified | Not specified (registration status: cancelled) |
+| PNF-0411 | Quetiapine | Not specified | Not specified (registration status: valid) |
 
-Quetiapine has no currently valid registration in the Philippines. Only one registration is on record, and it has been cancelled.
+Quetiapine is marketed in the Philippines. One registration is on record, and it is valid (1 valid registration of 1).
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications / conditions of concern (from knowledge-graph associations, not package insert text):** hypertension and hypertensive disorder; orthostatic hypotension, multiple system atrophy and postural orthostatic tachycardia syndrome; long QT syndrome, torsades de pointes and myocardial infarction; epilepsy; basal ganglia disease, focal hand dystonia and blepharospasm; liver disease and gallbladder disease; diabetes mellitus, diabetic ketoacidosis and hyperglycemia; hypothyroidism, myxedema and congenital hypothyroidism; hyperlipidemia, hypertriglyceridemia and obesity; neutropenia and agranulocytosis; potassium deficiency; female breast carcinoma.
+- **Contraindications / conditions of concern (not package insert text):** hypertension and hypertensive disorder; orthostatic hypotension, multiple system atrophy and postural orthostatic tachycardia syndrome; long QT syndrome, torsades de pointes and myocardial infarction; epilepsy; basal ganglia disease, focal hand dystonia and blepharospasm; liver disease and gallbladder disease; diabetes mellitus, diabetic ketoacidosis and hyperglycemia; hypothyroidism, myxedema and congenital hypothyroidism; hyperlipidemia, hypertriglyceridemia and obesity; neutropenia and agranulocytosis; potassium deficiency; female breast carcinoma.
 - **Drug Interactions:** 100 interactions were identified. Those shown in the data include:
   - **Major:** bupropion, morphine
   - **Moderate (examples):** antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide, chlorpropamide), anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), epinephrine, famotidine, dexamethasone, aprepitant, loperamide, bisacodyl, lorcaserin
@@ -118,7 +118,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (retinal dystrophy) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine also has no valid registration in the Philippines at present.
+The top-ranked prediction (retinal dystrophy with or without extraocular anomalies) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess biological plausibility

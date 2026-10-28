@@ -6,7 +6,7 @@ nav_order: 354
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Vecuronium: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Philippines registration data (the approved indicat…"
+description: "Vecuronium: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration data (the approved indicat…"
 monitor_inn: "Vecuronium"
 predicted_indications: ["insomnia (disease)", "irritable bowel syndrome"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Vecuronium: From Neuromuscular Blockade to Insomnia
+## Vecuronium: From Neuromuscular Blockade to insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Vecuronium is a non-depolarizing neuromuscular blocker used as a muscle relaxant
 |------|------|
 | Original Indication | Not stated in the Philippines registration data (the approved indication field is empty) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.34% |
+| TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ Currently, detailed mechanism-of-action data is not available in the data compil
 
 **The prediction does not appear to be pharmacologically reasonable.** Vecuronium has no known sedative, hypnotic or central nervous system activity, and it does not cross the blood-brain barrier appreciably. Insomnia is a disorder of sleep initiation or maintenance, and paralysis does not address it. Giving paralysis without sedation could also cause awake paralysis, which would be harmful.
 
-The high score (0.993) most likely reflects a graph-based association artifact, for example shared neighbours among anaesthesia-related and sedative drugs in the knowledge graph. It probably does not reflect a true pharmacological relationship.
+The high score (0.9934) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as anaesthesia-related and sedative drugs. It does not reflect biological evidence and probably does not reflect a true pharmacological relationship.
 
-The second-ranked prediction, **irritable bowel syndrome** (score 99.11%), is also not mechanistically supported. Vecuronium acts mainly on skeletal muscle and has minimal effect on smooth muscle or autonomic ganglia at clinical doses. It also requires mechanical ventilation, which makes chronic or outpatient use for a functional gastrointestinal disorder impractical. No clinical trials or publications were found for this prediction.
+The second-ranked prediction, **irritable bowel syndrome** (score 0.9911), is also not mechanistically supported. Vecuronium acts mainly on skeletal muscle and has minimal effect on smooth muscle or autonomic ganglia at clinical doses. It also requires mechanical ventilation, which makes chronic or outpatient use for a functional gastrointestinal disorder impractical. No clinical trials or publications were found for this prediction.
 
 ---
 
@@ -86,7 +86,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0512 | Vecuronium | Not stated | Not stated (registration status: cancelled) |
+| PNF-0512 | Vecuronium | Not stated | Not stated (registration status: valid) |
 
 ---
 

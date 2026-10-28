@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 |------|------|
 | Original Indication | Insomnia, vasomotor rhinitis, allergic rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis (the Philippines registration record contains no approved indication text) |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not currently available. Based on known inf
 
 The link to rosacea conjunctivitis is weak, however. Ocular rosacea is driven mainly by meibomian gland dysfunction, tear film instability, innate immune activation, and microbial or Demodex-related factors. Histamine plays at most a minor role. Any benefit would likely be limited to symptomatic relief of itching or redness rather than treatment of the underlying disease.
 
-The high TxGNN score (99.20%) is a computational prediction. It is probably driven by the drug's known association with other conjunctivitis subtypes. No clinical or literature evidence currently backs it, and the mechanism could not be cross-checked against curated target data.
+The high TxGNN score (0.9920) is a computational prediction. It is probably driven by the drug's known association with other conjunctivitis subtypes. No clinical or literature evidence currently backs it, and the mechanism could not be cross-checked against curated target data.
 
 ---
 

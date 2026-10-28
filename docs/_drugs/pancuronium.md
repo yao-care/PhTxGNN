@@ -50,10 +50,10 @@ The score is purely computational and the evidence level is L5.
 |------|------|
 | Original Indication | Not recorded in the Philippines registration data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The score is purely computational and the evidence level is L5.
 
 Detailed mechanism-of-action data is not available in the data compiled for this report. Pancuronium is generally known as a non-depolarizing neuromuscular blocker. It antagonizes nicotinic acetylcholine receptors at the motor end plate and has vagolytic activity.
 
-For cauda equina syndrome, the relationship is hard to justify. It is a compressive neurological emergency that requires surgical decompression. Blocking neuromuscular transmission has no plausible therapeutic effect on it. The high TxGNN score (rank 654) reflects proximity in the knowledge graph, not pharmacological reasoning.
+For cauda equina syndrome, the relationship is hard to justify. It is a compressive neurological emergency that requires surgical decompression. Blocking neuromuscular transmission has no plausible therapeutic effect on it. The high TxGNN score (rank 654) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions (irritable bowel syndrome, neurogenic bladder, neurocirculatory asthenia, migraine, mitral valve prolapse and autonomic nervous system disease) also lack a credible mechanistic link. The only one with any literature is autonomic nervous system disease, and that literature is indirect (see below).
 
@@ -96,7 +96,7 @@ These papers describe anesthetic and haemodynamic management in patients who alr
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0372 | Pancuronium | Not recorded | Not recorded (status: cancelled) |
+| PNF-0372 | Pancuronium | Not recorded | Not recorded (status: valid) |
 
 ---
 

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 187
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Isosorbide Dinitrate: predicted new indication Alopecia (evidence level L5)."
 monitor_inn: "Isosorbide dinitrate"
-predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "visceral calciphylaxis", "venous thoracic outlet syndrome"]
+predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
+last_modified_at: 2026-10-23
+description: "Isosorbide Dinitrate: predicted new indication Alopecia (evidence level L5). Approved use: Not stated in the local registration record"
 ---
 
 # Isosorbide Dinitrate
@@ -33,73 +33,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isosorbide Dinitrate: From an Established Nitrate Vasodilator to Alopecia
+## Isosorbide Dinitrate: From a Nitrate Vasodilator to Alopecia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Isosorbide dinitrate is a nitrate vasodilator that releases nitric oxide. The TxGNN model predicts it may be effective for **alopecia**, but **0 clinical trials** and **0 publications** currently support this prediction. The evidence rests on the model prediction alone.
+Isosorbide dinitrate is an organic nitrate vasodilator that is registered and marketed in the Philippines. The local record does not state an approved indication.
+The TxGNN model predicts it may be useful for **alopecia**, but **no clinical trials and no publications** currently support this prediction.
+The link is a TxGNN model (deep learning) prediction only, and it may reflect similarities the model learned between related diseases, not biological evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the local registration record |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Isosorbide dinitrate belongs to the organic nitrate class, which releases nitric oxide and relaxes vascular smooth muscle. Mechanistically, this could improve scalp blood flow, and that is the only theoretical link to hair loss.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Isosorbide dinitrate belongs to the organic nitrate class, which acts as a nitric oxide (NO) donor. In general, this raises cGMP and relaxes vascular smooth muscle.
 
-No clinical or published evidence supports this link. The very high prediction score is not backed by any data, and the model may be reflecting network proximity to other hair disorders rather than a true therapeutic signal. The original indication is not recorded in the local registration data, so a direct comparison with the new indication cannot be made.
+A possible, unproven link is that NO-mediated vasodilation could increase scalp microcirculation. This is similar to the hypothesis behind minoxidil-type vasodilators. This is speculative.
+
+No study in the compiled data tests isosorbide dinitrate in alopecia. The high TxGNN score (0.9999) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Related hair-disorder predictions (congenital hypotrichosis milia, hypotrichosis simplex of the scalp, diffuse alopecia areata, hypertrichosis) also rank highly with no supporting data. Several of these are genetic or autoimmune conditions that a vasodilator would not be expected to address.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for alopecia.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for alopecia.
+Currently no related literature available.
 
-## Other Predicted Indications with Evidence
-
-Alopecia is the top-ranked prediction, but two lower-ranked predictions have more supporting data. The other top-10 predictions (congenital hypotrichosis milia, hypotrichosis simplex of the scalp, diffuse alopecia areata, hypertrichosis, kyphoscoliotic heart disease, visceral calciphylaxis, venous thoracic outlet syndrome) have no trials or literature (L5, Hold).
-
-| Predicted Indication | TxGNN Score | Evidence Level | Supporting Data | Assessment |
-|------|------|------|------|------|
-| Pulmonary hypertension | 99.98% | L3 | 0 trials; about 19 publications, mostly small, old hemodynamic or animal studies, plus a 2025 bolus study ([39164577](https://pubmed.ncbi.nlm.nih.gov/39164577/)) | Research question. Plausible through the NO–cGMP pathway, but not confirmed in a Phase 2/3 RCT. Risks include worsened V/Q mismatch and hypoxemia in lung disease, and nitrate tolerance. |
-| Vascular disease | 99.97% | L2 | 6 trials, including [NCT02789033](https://clinicaltrials.gov/study/NCT02789033) (Phase 3, completed, n=68, ISDN spray plus chitosan in diabetic foot ulcers); about 20 publications | Research question. The category is very broad and overlaps with approved anti-anginal use. Most other listed trials do not test ISDN as the intervention. A specific indication such as diabetic foot ulcer should be assessed separately. |
+---
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0265 | Isosorbide Dinitrate | Cancelled |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0265 | Isosorbide Dinitrate | Not listed | Not listed |
 
-There are no currently valid single-ingredient or combination registrations. Dosage form and approved indication text are not recorded for this registration.
+This is a single-ingredient product with a valid status. The record does not include indication text, so no approved use can be described from local licence data.
+
+---
 
 ## Safety Considerations
 
-- **Key Warnings and Contraindications:** Label-based warnings and contraindications were not available. Please refer to the package insert.
-- **Knowledge-graph contraindication signals** (drug–disease links from the TxGNN knowledge graph, not label text): hypotensive disorder, hypertrophic cardiomyopathy, slow acetylation, coronary artery disease, stroke and cerebrovascular disorders, cerebral infarction, myocardial infarction, coronary thrombosis, hemoglobinopathy and anemia, hyperthyroidism (Graves disease, thyrotoxicosis), pseudotumor cerebri and intracranial hypertension, intracerebral hemorrhage, and Rowell syndrome. These signals need clinical verification before any use.
-- **Drug Interactions:** 100 interactions were identified. Moderate-level examples include bupropion, morphine, opium, dronabinol, nabilone, sapropterin, rosiglitazone, and the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin). Omeprazole is rated minor. Several others, such as atropine, epinephrine, cimetidine, and amphotericin B, have an unknown severity level.
+- **Contraindication-type relations in the knowledge graph (not label text):** The TxGNN knowledge graph records drug-disease contraindication relations for hypotensive disorder, hypertrophic cardiomyopathy, coronary artery disease, stroke and cerebrovascular disorders, myocardial infarction, intracerebral hemorrhage, intracranial hypertension, anaemia and haemoglobinopathy, hyperthyroidism and Graves disease, and slow acetylation. These come from graph data and must be checked against the official package insert.
+- **Drug Interactions:** The interaction database lists 100 interacting drugs in total. Moderate-level interactions in the sample include:
+  - bupropion
+  - morphine and opium
+  - dronabinol and nabilone
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - rosiglitazone
+  - sapropterin
+
+  Omeprazole is listed as minor.
+- Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The alopecia prediction has the highest score but no trials, no literature, and only a speculative vasodilation rationale (L5). The product's only Philippines registration is cancelled, and label safety data is unavailable.
+The alopecia prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications address this disease, so the evidence level is L5. The mechanistic rationale (NO-mediated vasodilation) is speculative, and nothing links it to hair growth outcomes.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence linking nitrate therapy to hair follicle outcomes
-- Mechanism of action data and the package insert warnings and contraindications
-- Confirmation of the original approved indication and a current registration status in the Philippines
-- Separate evaluation of the better-supported candidates, pulmonary hypertension and a defined vascular indication such as diabetic foot ulcer, ideally with a controlled trial design
+- Preclinical or exploratory clinical evidence that isosorbide dinitrate, probably topical, affects hair growth or scalp perfusion
+- Mechanism of action data and the package insert (warnings, contraindications, indications, dosage forms)
+- A safety assessment of hypotension and headache risks, especially if topical absorption is possible
+- A review of other predictions with more existing data, such as pulmonary hypertension and vascular disease (including the Phase 3 diabetic foot ulcer trial NCT02789033). These may be better candidates for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

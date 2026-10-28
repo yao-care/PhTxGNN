@@ -4,17 +4,17 @@ title: Risperidone
 parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia, bipolar disorder (including mania)…"
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Familial Horizontal Gaze Palsy with Progressive Scoliosis
+## Risperidone: From Schizophrenia and Bipolar Disorder to Gaze Palsy, Familial Horizontal, with Progressive Scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,25 +48,25 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 |------|------|
 | Original Indication | Schizophrenia, bipolar disorder (including mania), autism spectrum disorder (the Philippines license record contains no indication text) |
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally known as a dopamine D2 and serotonin 5-HT2A antagonist. Its efficacy in psychotic and mood disorders is established.
 
-The predicted disease is a rare genetic disorder (ROBO3-related) of axon guidance and hindbrain development. It causes absent horizontal eye movements and progressive scoliosis. Blocking D2/5-HT2A receptors has no plausible role in correcting this structural neurodevelopmental defect, and no mechanistic link could be identified. The very high TxGNN score most likely reflects network proximity in the knowledge graph rather than true biological relevance. This prediction should not be treated as a credible repurposing opportunity without independent supporting data.
+The predicted disease is a rare genetic disorder (ROBO3-related) of axon guidance and hindbrain development. It causes absent horizontal eye movements and progressive scoliosis. Blocking D2/5-HT2A receptors has no plausible role in correcting this structural neurodevelopmental defect, and no mechanistic link could be identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should not be treated as a credible repurposing opportunity without independent supporting data.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0425 | Risperidone | Cancelled |
+| PNF-0425 | Risperidone | Valid |
 
-The record contains no dosage form or approved indication text. No valid registration exists, so any local use would first require re-registration or confirmation of supply status.
+The record contains no dosage form or approved indication text. The drug is marketed in this country, with 1 valid license of 1.
 
 ## Safety Considerations
 
@@ -89,7 +89,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanism links risperidone to this structural genetic disorder. The drug also has no valid registration in the Philippines.
+The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanism links risperidone to this structural genetic disorder. The drug is marketed in the Philippines, with 1 valid license of 1.
 
 **To proceed, the following is needed:**
 - Mechanistic or preclinical evidence linking risperidone to ROBO3-related axon guidance defects

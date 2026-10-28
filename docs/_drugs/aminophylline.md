@@ -4,17 +4,17 @@ title: Aminophylline
 parent: Moderate Evidence (L3-L4)
 nav_order: 23
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Aminophylline"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not available (the only Philippines license has no indication text) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ For reference, among the other predicted indications, only pulmonary hypertensio
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0015 | Aminophylline | Not specified | Not specified (status: cancelled) |
+| PNF-0015 | Aminophylline | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -108,7 +108,7 @@ The prediction score is very high, but the evidence is L4: a plausible adenosine
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Controlled clinical studies (at least Phase 2) of aminophylline in migraine or post-dural headache
 - A cardiovascular safety assessment, given the vasospasm signal and the major interaction with bupropion
-- A decision on the regulatory route, since there is no valid registration
+- A decision on the regulatory route
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

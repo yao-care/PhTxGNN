@@ -4,17 +4,17 @@ title: Verapamil
 parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension (also atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
+description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Verapamil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Verapamil: From Hypertension to Obsolete Bundle Branch Block
+## Verapamil: Obsolete bundle branch block
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,30 +45,29 @@ The TxGNN model predicts it may be effective for **obsolete bundle branch block*
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (also atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Obsolete bundle branch block |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil is an L-type calcium channel blocker that slows conduction through the atrioventricular (AV) node. Its efficacy in hypertension and arrhythmias is established.
 
-For bundle branch block, however, this mechanism does not support the prediction. Slowing conduction is generally undesirable, or even contraindicated, in conduction-system disease. The high TxGNN score therefore has no supporting biological rationale and may be a graph artifact. The disease term is also obsolete in the ontology.
+For bundle branch block, however, this mechanism does not support the prediction. Slowing conduction is generally undesirable, or even contraindicated, in conduction-system disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The disease term is also obsolete in the ontology.
 
 Other predicted indications were reviewed as well. None has clinical trial support:
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Malignant hypertensive renal disease | 99.27% | L5 | Extension of the existing hypertension indication; no specific evidence. Malignant hypertension is usually managed with IV agents, and verapamil's negative inotropy and conduction effects limit acute use. |
-| 3 | Malignant renovascular hypertension | 99.27% | L5 | Vasodilation is plausible, but the two retrieved papers (an aldosterone/renin ratio review and a pediatric case report) do not address verapamil. |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.26% | L5 | Calcium channel blockers help only vasoreactive responders; verapamil is not preferred because of negative inotropy. |
-| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.26% | L4 | Preclinical plausibility only; most retrieved literature is indirect. Vasodilators may worsen ventilation-perfusion matching. |
-| 6 | Braddock syndrome | 99.15% | L5 | No mechanistic rationale; possible graph artifact. |
-| 7 | Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Calcium channel link conceivable in principle, with no evidence. |
+| 2 | Malignant hypertensive renal disease | 0.9927 | L5 | Extension of the existing hypertension indication; no specific evidence. Malignant hypertension is usually managed with IV agents, and verapamil's negative inotropy and conduction effects limit acute use. |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9926 | L5 | Calcium channel blockers help only vasoreactive responders; verapamil is not preferred because of negative inotropy. |
+| 5 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9926 | L5 | Preclinical plausibility only; most retrieved literature is indirect. Vasodilators may worsen ventilation-perfusion matching. |
+| 6 | Braddock syndrome | 0.9915 | L5 | No mechanistic rationale; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| 7 | Periodic paralysis with transient compartment-like syndrome | 0.9908 | L5 | Calcium channel link conceivable in principle, with no evidence. |
 
 ## Clinical Trial Evidence
 
@@ -94,9 +93,8 @@ For malignant renovascular hypertension, two papers were retrieved: [22147655](h
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0513 | Verapamil | Not specified | Not specified (status: cancelled) |
+| PNF-0513 | Verapamil | Not specified | Not specified (status: valid) |
 
-The only registration is cancelled, so no valid Philippines authorization is currently in place.
 
 ## Safety Considerations
 
@@ -117,7 +115,7 @@ All predictions are model-only (L5, or L4 for hypoxia-related pulmonary hyperten
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Clinical evidence specific to verapamil in any predicted indication, with preclinical and mechanistic work first for pulmonary hypertension owing to lung disease and/or hypoxia
-- Clarification of whether the TxGNN link for obsolete bundle branch block is a graph artifact
+- Clarification of whether the TxGNN score for obsolete bundle branch block reflects only similarities the model learned between related diseases, not biological evidence
 - Confirmation of whether any valid verapamil registration or supply exists in the Philippines
 ## Disclaimer
 

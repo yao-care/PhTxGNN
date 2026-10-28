@@ -6,9 +6,9 @@ nav_order: 210
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Bipolar disorder"
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
+description: "Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lithium Carbonate
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
+## Lithium Carbonate: Pseudoachondroplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Lithium carbonate is a mood stabiliser, originally used for bipolar disorder and related affective disorders (the knowledge graph also lists arthritis-related and headache conditions).
+Lithium carbonate is a mood stabilizer, originally used for bipolar disorder and related affective disorders.
 The TxGNN model predicts it may be effective for **pseudoachondroplasia**,
 but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model's score alone.
 
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder (the registration record has no approved indication text; this is taken from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pseudoachondroplasia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The only mechanistic link available is speculative. Lithium is known to inhibit GSK-3beta and modulate Wnt signalling, which is relevant to cartilage and bone biology. Pseudoachondroplasia, however, is caused by COMP gene mutations that lead to endoplasmic reticulum stress and death of cartilage cells (chondrocytes). No direct connection between lithium and this mechanism has been established.
 
-The high score is a graph-based prediction only. It should be treated as a hypothesis to examine, not as evidence of benefit.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis to examine, not as evidence of benefit.
 
-Other top-ranked predictions are also unsupported by data. They are mostly rare skeletal dysplasias (such as acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), plus Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency. Each has a score of at least 99.28%, and none has trials. Only one general review exists, for brachyolmia-amelogenesis imperfecta syndrome (PMID 31888683, 2019, Orphanet J Rare Dis). It is a broad overview of genetic skeletal disorders and is not specific to lithium.
+Other top-ranked predictions are also unsupported by data. They are mostly rare skeletal dysplasias (such as acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), plus Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency. Each has a score of at least 0.9929, and none has trials. Only one general review exists, for brachyolmia-amelogenesis imperfecta syndrome (PMID 31888683, 2019, Orphanet J Rare Dis). It is a broad overview of genetic skeletal disorders and is not specific to lithium.
 
 ## Clinical Trial Evidence
 
@@ -76,9 +76,9 @@ Currently no related literature available for pseudoachondroplasia.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0292 | Lithium Carbonate | Not specified | Not specified (status: cancelled) |
+| PNF-0292 | Lithium Carbonate | Not specified | Not specified (status: valid) |
 
-The only registration on record has been cancelled, so no valid registration is currently listed.
+The only license on record is valid, so the drug is currently marketed with 1 valid license of 1.
 
 ## Safety Considerations
 

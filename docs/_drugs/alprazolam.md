@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprazolam
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 20
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+last_modified_at: 2026-10-27
+description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,69 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to Insomnia
+## Alprazolam: benzodiazepine, GABA-A receptor positive modulator → insomnia (insomnia (disease))
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Alprazolam is a benzodiazepine originally used to treat anxiety disorders, including mixed anxiety and depressive disorder.
-The TxGNN model predicts it may be effective for **insomnia**, but there are **0 registered clinical trials** and only **18 publications**, almost none of which directly test alprazolam for insomnia.
-
----
+Alprazolam is a benzodiazepine that enhances GABA-A receptor signaling. The TxGNN model predicts it may be useful for **insomnia (disease)**, but there are currently **no registered clinical trials** and only **18 publications**, none of which is a controlled study of alprazolam in primary insomnia. This is a model-based prediction with very limited direct support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder; mixed anxiety and depressive disorder (from the knowledge graph; no approved indication text is available for the local registration) |
-| Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | insomnia (disease) |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor signalling. This produces sedative and anxiolytic effects that could plausibly shorten the time needed to fall asleep. This link rests on general class knowledge, not on supplied data.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of the benzodiazepine class, alprazolam enhances GABA-A receptor signaling, producing sedative and anxiolytic effects that could plausibly shorten the time needed to fall asleep.
 
-Insomnia is also commonly comorbid with anxiety and panic, which are the drug's established uses. This overlap helps explain why the model links the two conditions. However, a high computational score is not clinical proof. No controlled trial of alprazolam for primary insomnia was found.
-
----
+Insomnia often occurs together with anxiety and panic, which is a plausible clinical link. However, this link rests on class pharmacology, not on supplied data. The TxGNN score is high (0.9981), but it is a computational prediction only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-The retrieved publications are mostly indirect. Only the first two rows below involve insomnia or alprazolam use in insomnia, and neither is a controlled trial of alprazolam for primary insomnia.
+The 18 retrieved records are mostly indirect. None directly tests alprazolam for insomnia in a controlled design, so the evidence level is capped at L5.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Retrospective clinical study | Medicine | 116 patients with coronary heart disease and insomnia; alprazolam was the control treatment against moxibustion plus ear acupuncture, so it does not test alprazolam as the intervention of interest |
-| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharmaceutica | Safety and dosing of tranquilizers in elderly patients with chronic diseases |
+| [39183410](https://pubmed.ncbi.nlm.nih.gov/39183410/) | 2024 | Clinical study (retrospective) | Medicine | Alprazolam was the control treatment in 116 patients with coronary heart disease and insomnia, compared with moxibustion plus ear acupuncture; not a test of alprazolam for primary insomnia |
+| [38363887](https://pubmed.ncbi.nlm.nih.gov/38363887/) | 2024 | Cross-sectional | Medicine | Insomnia prevalence and risk factors among COVID-19 survivors; not about alprazolam treatment |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Meta-analysis | Acta Pharmaceutica | Tranquilizer safety and dosing in elderly patients with chronic diseases |
 | [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Review | Expert Opin Drug Metab Toxicol | Pharmacokinetics of anxiolytic drugs |
 | [7484706](https://pubmed.ncbi.nlm.nih.gov/7484706/) | 1995 | Review | Am Fam Physician | Overview of panic disorder |
-| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive model | Value Health Reg Issues | Trends and economic burden of benzodiazepine use, including long-term harms such as dependence and falls |
-| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Animal study | Aging | Repeated alprazolam administration caused mitochondrial dysfunction and impaired memory in mice |
-| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Prescription pattern study | Sleep Med | Hypnotic prescribing patterns in a managed-care population |
-
----
-
-## Philippines Market Information
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0012 | Alprazolam | Not recorded | Not recorded (status: cancelled) |
-
----
+| [37984023](https://pubmed.ncbi.nlm.nih.gov/37984023/) | 2024 | Predictive model | Value Health Reg Issues | Benzodiazepine use trends and economic burden; notes dependence, falls and memory risks |
+| [15341891](https://pubmed.ncbi.nlm.nih.gov/15341891/) | 2004 | Observational | Sleep Medicine | Hypnotic prescribing patterns in a managed-care population |
+| [37801512](https://pubmed.ncbi.nlm.nih.gov/37801512/) | 2023 | Preclinical (mice) | Aging | Repeated alprazolam caused mitochondrial dysfunction and impaired memory consolidation |
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (not from label text): anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, liver disease, gallbladder disease, open-angle and angle-closure glaucoma, obesity disorder, obstructive sleep apnea and other sleep apnea syndromes, congenital central hypoventilation syndrome, and substance-related disorder or substance abuse/dependence.
-- **Drug Interactions**: 100 interactions were identified. Examples include:
-  - **Major**: morphine, including liposomal morphine (risk of additive central nervous system and respiratory depression)
-  - **Moderate**: aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, glycerol phenylbutyrate, metoclopramide, miconazole
-  - **Minor**: several antacids (aluminium hydroxide, calcium carbonate, magnesium salts) and corticosteroids (betamethasone, dexamethasone)
-- **Literature-noted risks**: dependence, tolerance, memory impairment, falls in older adults, and difficult discontinuation.
+- **Drug Interactions**: 100 interactions were found. Examples include **Major** interactions with morphine and liposomal morphine, and **Moderate** interactions with aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, metoclopramide and miconazole.
+- Literature in the retrieved set raises concerns about dependence, tolerance, memory impairment, falls and next-day impairment with long-term benzodiazepine use.
 
-Please also refer to the package insert for full warnings and contraindications.
-
----
-
-## Other Predicted Indications
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
-|------|------|------|------|------|
-| 2 | Benign paroxysmal torticollis of infancy | 99.61% | L5 | No trials or literature. A rare, self-limiting infantile condition; benzodiazepine use in infants is not justified and the prediction is likely a model artifact. Hold. |
-| 3 | Agoraphobia | 99.56% | L3 (conservative) | Several older placebo-controlled studies in panic disorder with agoraphobia exist (for example, a 526-patient multicenter trial from 1988). This is closer to an extension of the existing anxiety and panic use than to true repurposing. Research question: verify study designs and check whether it already falls within labeled use. |
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.81%) is a computational prediction only. There are no registered trials and no controlled study of alprazolam in primary insomnia. The benzodiazepine risks (dependence, tolerance, next-day impairment, and 100 drug interactions including a major one with opioids) weigh against pursuing repurposing now. The product's only Philippine registration is cancelled.
+The prediction score is very high, but no clinical trial or published study directly examines alprazolam in insomnia, so the evidence is at model-prediction level (L5). The known risks of dependence, sedation and drug interactions argue against advancing without better evidence.
 
 **To proceed, the following is needed:**
-- Controlled trial evidence of alprazolam in primary insomnia, or a systematic review comparing it with established hypnotics
-- Mechanism of action data (from DrugBank)
-- Package insert warnings and contraindications (from DOH-FDA Philippines), which are needed before any safety screening
-- Confirmation of a valid Philippine registration, since the only record is cancelled
-- A risk assessment for dependence and withdrawal, with a plan for short-term use only
-- Separate follow-up on agoraphobia: full-text review of the older panic disorder trials and the 2023 network meta-analysis
+- Controlled clinical data on alprazolam in primary insomnia, compared with existing hypnotics
+- Mechanism of action data and the package insert warnings and contraindications
+- A risk–benefit assessment covering dependence, tolerance, next-day impairment and the major drug interactions
+- Confirmation of the current licence status of alprazolam products in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

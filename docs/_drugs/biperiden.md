@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
+last_modified_at: 2026-10-27
+description: "Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Biperiden
@@ -33,61 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Biperiden: From Parkinson Disease to Rasmussen Subacute Encephalitis
+## Biperiden: Central muscarinic antagonist → Rasmussen subacute encephalitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Biperiden is an anticholinergic drug, originally used to treat Parkinson disease and related parkinsonian and dystonic movement disorders.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
-but this rests on the model score alone, with **0 clinical trials** and **0 publications** currently supporting this direction.
+Biperiden is an anticholinergic medicine that acts on the central nervous system and is used for movement disorders.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but **no clinical trials and no publications** on this disease were found, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (from the knowledge graph; no approved indication text is available for the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, biperiden is a centrally acting anticholinergic (muscarinic antagonist). Its use in Parkinson disease and other movement disorders is established, and mechanistically it might be applicable to a focal inflammatory epileptic encephalopathy through modulation of cholinergic signalling.
+Detailed mechanism of action data is not available in the data compiled for this report. Biperiden is generally known as a central muscarinic anticholinergic agent. One speculative link is that modulating cholinergic signalling might affect a focal, inflammatory epileptic encephalopathy.
 
-This link is speculative. Rasmussen encephalitis is an immune-mediated disease driven by T-cell cytotoxicity, and biperiden has no known immunomodulatory action. The high TxGNN score (99.94%) is a model-derived prediction and is not backed by any clinical or literature evidence.
+This link is weak. Rasmussen encephalitis is an immune-mediated disease driven by T-cell cytotoxicity, and biperiden has no known immunomodulatory action. The high score (0.9994) is a model-derived prediction only and should not be read as evidence of benefit.
 
-Other top-ranked predictions show the same pattern. Several (myelitis, transaldolase deficiency, fructose-1,6-bisphosphatase deficiency) have no plausible mechanistic link. Others (juvenile parkinsonism, PLA2G6-associated neurodegeneration) mostly overlap with the existing parkinsonian indications. For Lewy body dementia, the mechanistic direction is opposed, because anticholinergic effects would be expected to worsen cognition.
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0051 | Biperiden | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-- **Contraindications and risk conditions (from the knowledge graph, not label text)**: The knowledge graph links biperiden with the following conditions, which should be treated as potential cautions:
-  - Eye: open-angle, angle-closure and closed-angle glaucoma
-  - Urinary tract and prostate: benign prostatic hyperplasia
-  - Gastrointestinal: paralytic ileus, achalasia and megaesophagus, ulcerative colitis, inflammatory bowel disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, gastric ulcer, hiatus hernia
-  - Cardiovascular: hypertension, hypotension, coronary artery disease, heart conduction disease, sudden cardiac arrest
-  - Neuromuscular: myasthenia gravis and neuromuscular junction disease
-  - Respiratory: chronic obstructive pulmonary disease
-  - Organ disease: kidney, liver and gallbladder disease
-- **Drug Interactions**: 75 interactions were identified. The main ones are:
-  - **Major**: potassium chloride and potassium citrate
-  - **Moderate**: other anticholinergic and antispasmodic agents (atropine, hyoscyamine, dicyclomine, glycopyrronium, clidinium, propantheline, methscopolamine, mepenzolate), opioids and antidiarrhoeals (morphine, opium, loperamide, eluxadoline), cannabinoids (dronabinol, nabilone), metoclopramide, and pramlintide
+- **Drug Interactions**: 75 interactions were found in total. The two classed as Major involve potassium salts (potassium chloride and potassium citrate). Many Moderate interactions involve other anticholinergic or antispasmodic agents (e.g., atropine, hyoscyamine, dicyclomine, glycopyrronium, propantheline), opioids and related agents (e.g., morphine, loperamide, opium), and others such as metoclopramide, dronabinol, nabilone, eluxadoline and pramlintide.
+
+Please refer to the package insert for other safety information, including warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials or publications for Rasmussen subacute encephalitis, so the prediction is model-only (L5). The proposed mechanism is speculative, since the disease is immune-mediated and biperiden has no known immunomodulatory action. The only local registration is cancelled, and the safety profile includes many anticholinergic cautions.
+The prediction is supported only by a model score. There are no trials or publications on this disease, and the proposed mechanism is speculative and conflicts with the immune-mediated nature of the disease.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for biperiden, and a clearer mechanistic hypothesis for Rasmussen encephalitis
-- Preclinical or case-level evidence of benefit in Rasmussen encephalitis
-- Package insert warnings and contraindications, which were not available for this report
-- Clarification of the Philippines regulatory status, since the only registration is cancelled and no dosage form or approved indication is recorded
+- Any clinical or preclinical study that directly examines biperiden in Rasmussen encephalitis
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the Philippines regulator
+- A safety review for the target population, given the many interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

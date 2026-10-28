@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Megestrol Acetate
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 220
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Megestrol Acetate: predicted new indication Uterine corpus endometrial carcinoma (evidence level L2). Approved use: Endometrial carcinoma"
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
+description: "Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Megestrol Acetate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Megestrol Acetate: From Endometrial Carcinoma to Uterine Corpus Endometrial Carcinoma
+## Megestrol Acetate: Hereditary breast ovarian cancer syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Megestrol acetate is a synthetic progestin (hormonal agent) that is already linked to endometrial carcinoma as its original indication.
-The TxGNN model predicts it may be effective for **uterine corpus endometrial carcinoma**. This is essentially the same disease family as the original indication, so it is not true repurposing.
+This is essentially the same disease family as the original indication, so it is not true repurposing.
 Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publications** specific to this prediction support it.
 
 ---
@@ -48,12 +48,12 @@ Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publicatio
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometrial carcinoma (from the knowledge graph; the local registration lists no indication text) |
-| Predicted New Indication | Uterine corpus endometrial carcinoma |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L2 |
-| Philippines Market Status | ✗ Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hereditary breast ovarian cancer syndrome |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,7 @@ Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publicatio
 
 Detailed mechanism of action data is not available. Based on known information, megestrol acetate is a synthetic progestin. It is thought to act through progesterone receptor signaling, promoting differentiation and suppressing proliferation of hormone-sensitive endometrial tumour cells.
 
-Endometrial carcinoma and uterine corpus endometrial carcinoma describe essentially the same disease, so the model's prediction mainly reflects the drug's existing association with this cancer. The hormonal rationale is well supported. A randomized Phase 2 trial has also tested megestrol-containing hormonal therapy in advanced or recurrent disease.
+The hormonal rationale is well supported. A randomized Phase 2 trial has also tested megestrol-containing hormonal therapy in advanced or recurrent disease.
 
 This prediction should be read as confirmation of an existing use, not as a new therapeutic area.
 
@@ -82,9 +82,9 @@ Megestrol is part of a combination regimen in this trial, so its individual effe
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0306 | Megestrol | Cancelled |
+| PNF-0306 | Megestrol | Valid |
 
-Dosage form and approved indication are not recorded for this registration. No valid single-ingredient or combination registrations exist at present.
+Dosage form and approved indication are not recorded for this registration.
 
 ---
 
@@ -112,7 +112,7 @@ Dosage form and approved indication are not recorded for this registration. No v
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-One completed randomized Phase 2 trial in endometrial cancer and a plausible hormonal mechanism support this indication. However, megestrol was tested only within a combination regimen. The indication also overlaps with the original use, and the drug has no valid registration in the Philippines.
+One completed randomized Phase 2 trial in endometrial cancer and a plausible hormonal mechanism support this indication. However, megestrol was tested only within a combination regimen.
 
 **To proceed, the following is needed:**
 - The official package insert (warnings and contraindications), which is currently missing

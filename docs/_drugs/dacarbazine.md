@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 93
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Hodgkin lymphoma, metastatic melanoma"
@@ -14,7 +14,7 @@ predicted_indications: ["upper aerodigestive tract neoplasm"]
 # Dacarbazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but **no clinical trials** are registered for this indication, and the **20 publ
 |------|------|
 | Original Indication | Hodgkin lymphoma, metastatic melanoma (the Philippines registration record has no approved indication text) |
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
-| TxGNN Prediction Score | 99.26% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9926 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,7 +87,7 @@ No randomized trial tests dacarbazine in upper aerodigestive tract neoplasm. The
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0125 | Dacarbazine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0125 | Dacarbazine | Not recorded | Not recorded (status: valid) |
 
 ## Cytotoxicity
 

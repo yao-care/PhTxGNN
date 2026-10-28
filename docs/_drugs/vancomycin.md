@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "Vancomycin"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 ---
 
 # Vancomycin
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, but th
 |------|------|
 | Original Indication | Clostridium difficile colitis, staphylococcal infections, endocarditis, bacterial arthritis, staphylococcal pneumonia |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,21 +61,21 @@ The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, but th
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, vancomycin is a glycopeptide antibiotic that blocks bacterial cell wall synthesis and acts only on Gram-positive bacteria.
 
-Diffuse scleroderma (systemic sclerosis) is an autoimmune disease marked by fibrosis and blood-vessel damage. No plausible antibacterial mechanism links vancomycin to this process. The high TxGNN score (ranked 892nd) is most likely a graph-based artifact rather than a real biological signal. The one paper retrieved is a case report on erythroderma with sepsis and eosinophilia, which is not about scleroderma.
+Diffuse scleroderma (systemic sclerosis) is an autoimmune disease marked by fibrosis and blood-vessel damage. No plausible antibacterial mechanism links vancomycin to this process. The high TxGNN score (ranked 892nd) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The one paper retrieved is a case report on erythroderma with sepsis and eosinophilia, which is not about scleroderma.
 
 **Other top predictions were also reviewed:**
 
 | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|
-| Paratyphoid fever | 99.85% | Gram-negative organism, intrinsically resistant to vancomycin; no efficacy evidence |
-| Salmonellosis | 99.81% | Same issue; literature is mostly resistance surveillance |
-| Congenital analbuminemia | 99.79% | No mechanism; no trials or literature |
-| Polyclonal hyperviscosity syndrome | 99.79% | No mechanism; no trials or literature |
-| Hyperamylasemia | 99.79% | A laboratory finding, not a treatable disease target |
-| Typhoid fever | 99.75% | Gram-negative; guideline therapy uses other agents |
-| Blood group incompatibility | 99.63% | No antibacterial target; the one paper is unrelated |
-| **Streptococcal pneumonia** | 99.60% | Only mechanistically credible candidate (L4, "Research Question"), but it overlaps with the existing staphylococcal pneumonia indication, is not a true new use, and has no direct trial evidence |
-| Premalignant hematological system disease | 99.54% | No mechanism; no trials or literature |
+| Paratyphoid fever | 0.9985 | Gram-negative organism, intrinsically resistant to vancomycin; no efficacy evidence |
+| Salmonellosis | 0.9981 | Same issue; literature is mostly resistance surveillance |
+| Congenital analbuminemia | 0.9979 | No mechanism; no trials or literature |
+| Polyclonal hyperviscosity syndrome | 0.9979 | No mechanism; no trials or literature |
+| Hyperamylasemia | 0.9979 | A laboratory finding, not a treatable disease target |
+| Typhoid fever | 0.9975 | Gram-negative; guideline therapy uses other agents |
+| Blood group incompatibility | 0.9963 | No antibacterial target; the one paper is unrelated |
+| **Streptococcal pneumonia** | 0.9960 | Only mechanistically credible candidate (L4, "Research Question"), but it overlaps with the existing staphylococcal pneumonia indication, is not a true new use, and has no direct trial evidence |
+| Premalignant hematological system disease | 0.9954 | No mechanism; no trials or literature |
 
 ---
 
@@ -97,13 +97,13 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0508 | Vancomycin | Not specified | Not specified (registration cancelled) |
+| PNF-0508 | Vancomycin | Not specified | Not specified (registration valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not label text)**: kidney disease, pyoureter, neutropenia, agranulocytosis, hearing disorder, auditory system disease.
+- **Contraindications (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence)**: kidney disease, pyoureter, neutropenia, agranulocytosis, hearing disorder, auditory system disease.
 - **Drug Interactions**: 100 interactions were identified, of which 20 were reviewed. Major-level interactions include:
   - Human immunoglobulin G (intravenous)
   - Human botulinum neurotoxin A/B immune globulin
@@ -120,7 +120,7 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for diffuse scleroderma rests only on a model score. There is no clinical trial, no relevant literature, and no plausible mechanism. Vancomycin also has no currently valid registration in the Philippines.
+The prediction for diffuse scleroderma rests only on a model score. There is no clinical trial, no relevant literature, and no plausible mechanism. Vancomycin is currently marketed in the Philippines, with 1 valid license out of 1.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale connecting vancomycin to systemic sclerosis pathophysiology, if any exists

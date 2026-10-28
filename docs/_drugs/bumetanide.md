@@ -50,10 +50,10 @@ but currently there are **no registered clinical trials** and only **5 publicati
 |------|------|
 | Original Indication | Congestive heart failure |
 | Predicted New Indication | Acute pulmonary heart disease |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -92,13 +92,13 @@ None of these publications directly studies bumetanide in acute pulmonary heart 
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0060 | Bumetanide | Not specified | Not specified (status: cancelled) |
+| PNF-0060 | Bumetanide | Not specified | Not specified (status: valid) |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not package insert text)**: liver disease, gallbladder disease, thrombocytopenia, potassium deficiency, diabetes mellitus, diabetic ketoacidosis, hyperuricaemia, hepatic coma, hepatic encephalopathy, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hearing disorders and auditory system disease.
+- **Contraindications (not taken from package insert text; may reflect similarities the TxGNN model (deep learning) learned between related diseases, not biological evidence)**: liver disease, gallbladder disease, thrombocytopenia, potassium deficiency, diabetes mellitus, diabetic ketoacidosis, hyperuricaemia, hepatic coma, hepatic encephalopathy, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hearing disorders and auditory system disease.
 - **Drug Interactions**: The interaction screening returned 100 interacting drugs; 20 are shown in the compiled data, and most are Moderate. Examples include:
   - Antidiabetic drugs (acarbose, alogliptin, albiglutide, metformin, acetohexamide)
   - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, beclomethasone)

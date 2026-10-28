@@ -48,19 +48,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Subarachnoid hemorrhage (including acquired aneurysmal subarachnoid hemorrhage) |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Nimodipine is known to be a dihydropyridine L-type calcium channel blocker, and its efficacy in subarachnoid hemorrhage is established. Whether this mechanism applies to homozygous familial hypercholesterolemia is unclear.
 
-The link between the two conditions is weak. Homozygous familial hypercholesterolemia is caused by dysfunction of the LDL receptor pathway. Calcium channel blockers have been explored for possible anti-atherosclerotic or vascular effects, but this does not address that underlying defect. The score of 0.993 is a model prediction only and has no supporting clinical or literature evidence.
+The link between the two conditions is weak. Homozygous familial hypercholesterolemia is caused by dysfunction of the LDL receptor pathway. Calcium channel blockers have been explored for possible anti-atherosclerotic or vascular effects, but this does not address that underlying defect. The score of 0.9929 is a model prediction only and has no supporting clinical or literature evidence.
 
-A second prediction, **nephrogenic syndrome of inappropriate antidiuresis** (score 99.05%), has the same limitation. The disease is driven by gain-of-function variants in the vasopressin V2 receptor (AVPR2) or in GNAS, and calcium channel blockade does not clearly target that pathway. Calcium signaling does act downstream in aquaporin-2 regulation, so a loose hypothetical link exists, but it is unsupported. This prediction also has no trials or publications and an L5 evidence level.
+A second prediction, **nephrogenic syndrome of inappropriate antidiuresis** (score 0.9905), has the same limitation. The disease is driven by gain-of-function variants in the vasopressin V2 receptor (AVPR2) or in GNAS, and calcium channel blockade does not clearly target that pathway. Calcium signaling does act downstream in aquaporin-2 regulation, so a loose hypothetical link exists, but it is unsupported. This prediction also has no trials or publications and an L5 evidence level.
 
 ## Clinical Trial Evidence
 
@@ -74,7 +74,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0349 | Nimodipine | Not specified | Not specified (status: cancelled) |
+| PNF-0349 | Nimodipine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

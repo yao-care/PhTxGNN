@@ -4,7 +4,7 @@ title: Nitroglycerin
 parent: Moderate Evidence (L3-L4)
 nav_order: 254
 evidence_level: L3
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease"
 # Nitroglycerin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **3 clinical trials** and **20 publications** currently supporting this dir
 |------|------|
 | Original Indication | Not available (the registration record has no indication text) |
 | Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ There are important caveats. The evidence is mostly small and short-term. No Pha
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0351 | Nitroglycerin | Not specified | Not specified (status: cancelled) |
+| PNF-0351 | Nitroglycerin | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

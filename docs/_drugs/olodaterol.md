@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olodaterol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 263
-evidence_level: L4
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Olodaterol: predicted new indication Bronchitis (evidence level L4). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Olodaterol"
 predicted_indications: ["bronchitis"]
+description: "Olodaterol: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
+## Olodaterol: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **bronchitis**, but this predic
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9984 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,9 @@ Neither publication studies bronchitis directly.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0359 | Olodaterol | Cancelled |
+| PNF-0359 | Olodaterol | Valid |
 
-Dosage form and approved indication text are not recorded for this registration. There is no currently valid single-ingredient or combination registration.
+Dosage form and approved indication text are not recorded for this registration.
 
 ## Safety Considerations
 
@@ -97,7 +97,7 @@ Package insert warnings and contraindications are not available in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction has no direct trials and only two COPD-focused publications. The high score likely reflects overlap with the approved COPD indication rather than new evidence. The only Philippines registration is cancelled, so the drug is not currently marketed there.
+The bronchitis prediction has no direct trials and only two COPD-focused publications. The high score likely reflects overlap with the approved COPD indication rather than new evidence.
 
 **To proceed, the following is needed:**
 - Clarify whether the target is chronic bronchitis (already covered under COPD) or acute bronchitis (no rationale for LABA therapy)
@@ -106,7 +106,6 @@ The bronchitis prediction has no direct trials and only two COPD-focused publica
 - Package insert warnings and contraindications
 - Confirmation of current availability and formulation in the Philippines, since the registration is cancelled and olodaterol is often used in combination with tiotropium
 
-**Note on a related prediction:** The same drug is also predicted for *obstructive lung disease* (score 99.57%). Several completed Phase 3 trials support this, for example NCT01431274 (n=2,624), NCT00796653 (n=937) and NCT01525615 (n=404). However, this is essentially the existing COPD indication rather than true repurposing. Extrapolation to asthma would need separate validation because LABA monotherapy is a safety concern there. This is a separate evaluation from the bronchitis prediction above.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

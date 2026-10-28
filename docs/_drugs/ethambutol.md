@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ethambutol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 132
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
@@ -14,7 +14,7 @@ predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection",
 # Ethambutol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are **0 clinical trials** and only **1 publication** (a case series on
 |------|------|
 | Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,7 +74,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0178 | Ethambutol | Not specified | Not specified (status: cancelled) |
+| PNF-0178 | Ethambutol | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 
@@ -88,7 +88,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, the only supporting literature is a single case series on laryngeal tuberculosis, and no plausible mechanism links ethambutol to typical (bacterial) epiglottitis. The high model score is not backed by evidence. In addition, ethambutol currently has no valid registration in the Philippines.
+There are no clinical trials, the only supporting literature is a single case series on laryngeal tuberculosis, and no plausible mechanism links ethambutol to typical (bacterial) epiglottitis. The high model score is not backed by evidence. In addition, ethambutol is currently marketed in the Philippines, with 1 valid licence of 1.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for ethambutol

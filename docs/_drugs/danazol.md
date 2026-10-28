@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Danazol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 96
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Danazol: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis"
 monitor_inn: "Danazol"
-predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
+description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Danazol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Danazol: From Endometriosis to Amenorrhea
+## Danazol: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Amenorrhea**, but there are *
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis; endometriosis of uterus; breast fibrocystic disease |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,8 @@ Most of these studies concern **inducing** amenorrhea. None shows danazol treati
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0128 | Danazol | Not specified | Not specified (status: cancelled) |
+| PNF-0128 | Danazol | Not specified | Not specified (status: valid) |
 
-The only registration is cancelled, so there is currently no valid marketed danazol product in the Philippines.
 
 ---
 

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Rabeprazole
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 290
-evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-15
-description: "Rabeprazole: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Peptic ulcer disease, gastroesophageal reflux disease…"
-monitor_inn: "Rabeprazole"
-predicted_indications: ["lymphoadenopathic mastocytosis with eosinophilia"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Rabeprazole: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Rabeprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Rabeprazole: From Peptic Ulcer Disease to Smouldering Systemic Mastocytosis
+<!-- known-uses-page -->
+<!-- description: Rabeprazole: known uses and market status in the Philippines; currently no new candidate indication -->
+## Rabeprazole: Known uses and market status in the Philippines
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications for Rabeprazole. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The two known uses below appear only as relations in the knowledge graph, and no approval was found for them.
 
-Rabeprazole is a proton pump inhibitor, originally used for acid-related conditions such as peptic ulcer disease, gastroesophageal reflux disease and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**,
-but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, and related acid-related conditions (the Philippines registration record has no indication text) |
-| Predicted New Indication | Smouldering systemic mastocytosis |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (registration cancelled) |
-| Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 2 |
+| Evidence level | Not applicable |
+| Market status in the Philippines | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Currently, detailed mechanism of action data is not available. Based on known information, rabeprazole is a proton pump inhibitor (acid-suppressing drug). Its efficacy in acid-related disorders is established, and the knowledge graph already lists systemic mastocytosis and mastocytosis among its indications.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Smouldering systemic mastocytosis is a subtype of systemic mastocytosis. The high TxGNN score (0.994) most likely reflects this shared disease relationship rather than new biological evidence. In mastocytosis, mast cells release excess histamine, which can drive gastric acid hypersecretion. Rabeprazole could plausibly help control these acid-related symptoms.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-This benefit would be symptomatic only. There is no indication that rabeprazole affects the underlying clonal mast cell disease. No independent mechanistic evidence is available.
-
-A second prediction, lymphoadenopathic mastocytosis with eosinophilia (score 99.35%), follows the same logic. It also has no trials or literature, and any benefit would be limited to acid suppression.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| Smouldering systemic mastocytosis |
+| lymphoadenopathic mastocytosis with eosinophilia |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0413 | Rabeprazole | Not specified | Not specified (status: cancelled) |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| PNF-0413 | Rabeprazole |  | Valid |
 
 ## Safety Considerations
 
@@ -80,19 +83,6 @@ A second prediction, lymphoadenopathic mastocytosis with eosinophilia (score 99.
 
 Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting clinical trials or literature (Evidence Level L5). Any plausible benefit is limited to symptomatic acid suppression, not treatment of the disease itself. The only Philippines registration is cancelled.
-
-**To proceed, the following is needed:**
-- Package insert warnings and contraindications from the DOH-FDA Philippines (currently a blocking gap)
-- Detailed mechanism of action data (e.g., from DrugBank)
-- Clinical or observational evidence of rabeprazole use in smouldering systemic mastocytosis
-- Clarification of the current market and registration status in the Philippines, and of available dosage forms and routes
-- Review of the interaction profile (including the major interactions with acalabrutinib and atazanavir) and of the bone and liver-related associations for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

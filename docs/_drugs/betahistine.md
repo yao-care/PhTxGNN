@@ -10,6 +10,7 @@ evidence_level: L5
 nav_exclude: true
 search_exclude: true
 last_modified_at: 2026-03-12
+predicted_indications: []
 ---
 
 # BETAHISTINE
@@ -29,7 +30,7 @@ last_modified_at: 2026-03-12
 
 ## Predicted Indications
 
-The following indications are predicted based on TxGNN knowledge graph analysis:
+The following indications are predicted by the TxGNN model (deep learning):
 
 | Indication | Source | Evidence |
 |------------|--------|----------|

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vincristine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 357
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-15
-description: "Vincristine: predicted new indication Ganglioneuroblastoma (evidence level L3). Approved use: Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma…"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Vincristine"
-predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-10-23
+description: "Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-## Vincristine: From Acute Lymphoblastic Leukaemia and Lymphoma to Ganglioneuroblastoma
+## Vincristine: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Vincristine is a vinca alkaloid chemotherapy drug, originally used for acute lymphoblastic leukaemia, Hodgkin and non-Hodgkin lymphomas, and Langerhans cell histiocytosis.
-The TxGNN model predicts it may be effective for **Ganglioneuroblastoma**,
-but there are **no registered clinical trials** and only **6 publications** (mostly case reports) supporting this direction.
+Vincristine is a cytotoxic anticancer drug. Its known uses include acute lymphoblastic leukemia, Hodgkin and non-Hodgkin lymphoma, mantle cell lymphoma and Langerhans cell histiocytosis. The TxGNN model (deep learning) predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, a rare congenital syndrome. **No clinical trials and no publications** currently support this prediction, so it rests on a computational score alone.
 
 ---
 
@@ -48,23 +46,21 @@ but there are **no registered clinical trials** and only **6 publications** (mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (the Philippines registration has no indication text on file) |
-| Predicted New Indication | Ganglioneuroblastoma |
-| TxGNN Prediction Score | 99.31% |
-| Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9924 |
+| Evidence Level | L5 (model prediction only) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, vincristine binds tubulin and inhibits microtubule polymerisation, causing mitotic arrest in rapidly dividing cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Vincristine is generally known as a vinca alkaloid that blocks microtubule formation and arrests dividing cells in mitosis. This makes it cytotoxic to rapidly dividing cells, which fits its use in lymphoid cancers.
 
-Ganglioneuroblastoma belongs to the same neuroblastic tumour family as neuroblastoma. Vincristine is a standard component of multi-agent chemotherapy regimens for these tumours, usually together with cyclophosphamide, doxorubicin, cisplatin and etoposide. Its antimitotic action is therefore biologically coherent for this disease.
-
-This reasoning is inferred from the drug class and not from source mechanism data. The high TxGNN score is a computational prediction only. In the available literature, vincristine is used as part of combination regimens, so its individual contribution cannot be separated.
+A mechanistic link to the predicted condition could not be established. The condition is a rare congenital syndrome with vertebral, endocrine and T-cell features. It is not a cancer of rapidly dividing cells, and no plausible pathway connects an antimitotic drug to it. The high score (0.9924) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The prediction should be treated as a hypothesis only.
 
 ---
 
@@ -76,14 +72,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Prospective clinical trial | Pediatric Blood & Cancer | JN-L-10 trial using image-defined risk factors to guide surgical timing in low-risk neuroblastoma. It addresses surgical decisions, not vincristine efficacy. |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Case report | Postgraduate Medical Journal | Unresectable spinal ganglioneuroblastoma achieved histologically proven complete remission with combination chemotherapy (doxorubicin, vincristine, cyclophosphamide, etoposide, ifosfamide, cisplatin). |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Case report | J Pediatr Hematol Oncol | Ganglioneuroblastoma presenting with obstructive jaundice, treated with cisplatin, pirarubicin/doxorubicin, cyclophosphamide and vincristine. |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Case report | J Thorac Cardiovasc Surg | 31 patients with intrathoracic ganglioneuroblastoma. Treatment was resection, radiation or chemotherapy. 27 of 31 survived, with follow-up up to 25 years. |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Case report | J Pediatr Hematol Oncol | Infant with stage 4 multifocal ganglioneuroblastoma with gastric involvement. |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Case report | Hinyokika Kiyo | Adult adrenal ganglioneuroblastoma with giant regional lymph node metastasis, treated with multimodality therapy. |
+Currently no related literature available.
 
 ---
 
@@ -91,7 +80,9 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0515 | Vincristine | Not recorded | Not recorded (status: cancelled) |
+| PNF-0515 | Vincristine | Not specified | Not specified |
+
+This is a single-ingredient product with valid status. The licence record contains no indication text, so the local approved use cannot be confirmed from the data compiled for this report.
 
 ---
 
@@ -99,23 +90,20 @@ Currently no related clinical trials registered.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimicrotubule agent) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph lists leukopenia as a contraindication-related condition. |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count, liver function (including bilirubin), and neurological assessment for peripheral neuropathy |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
+| Myelosuppression Risk | Low to medium. Neurotoxicity is usually the dose-limiting effect, but blood counts should still be checked |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with differential, liver function (including bilirubin), neurological examination |
+| Handling Protection | Must follow cytotoxic drug handling regulations. Please refer to the package insert warnings and precautions for administration precautions |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure, hyperbilirubinaemia (including Gilbert syndrome), cholestasis (including benign recurrent and familial intrahepatic forms), leukopenia, peripheral neuropathy and other peripheral nervous system diseases, Charcot-Marie-Tooth disease, neuromuscular disease, neuritis, acute urate nephropathy, and fungal, dermatophyte or other infectious diseases.
-- **Drug Interactions** (100 interactions in total; main ones listed):
-  - **Major**: Clarithromycin
-  - **Moderate**: Aprepitant, Dexamethasone, Metronidazole, Eliglustat, Naltrexone, Glycerol phenylbutyrate, Miconazole, Rolapitant, Rosuvastatin, Simvastatin, Tinidazole, Troglitazone
-  - **Minor**: Levofloxacin
+- **Contraindication relations in the knowledge graph (not label text):** liver failure, cholestasis, hyperbilirubinaemia (including Gilbert syndrome), leukopenia, peripheral neuropathy and other neuromuscular diseases (including Charcot-Marie-Tooth disease), acute urate nephropathy, and fungal and other infectious diseases.
+- **Drug Interactions:** the interaction query returned 100 records, and 20 are shown in the data compiled for this report. One is rated **Major**: clarithromycin. Most of the rest are rated Moderate, including aprepitant, dexamethasone, metronidazole, eliglustat, naltrexone, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole and troglitazone. Levofloxacin is rated Minor.
 
-For label-based warnings and contraindications, please refer to the package insert.
+Please refer to the package insert for warnings and contraindications from the label.
 
 ---
 
@@ -124,14 +112,15 @@ For label-based warnings and contraindications, please refer to the package inse
 **Decision: Hold**
 
 **Rationale:**
-The evidence for ganglioneuroblastoma is limited to case reports and a trial that does not test vincristine. No clinical trials are registered. The only Philippines registration is cancelled, and package insert safety data are missing. Vincristine is already a recognised part of neuroblastic tumour regimens, so this is a reasonable research question, but not yet ready for a decision to proceed.
+The prediction has a very high model score but no supporting trials or publications, and no plausible mechanism links an antimitotic cytotoxic drug to this congenital syndrome. Vincristine also carries substantial toxicity, so there is no basis to proceed.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from DOH-FDA Philippines
-- Mechanism of action data from DrugBank
-- Higher-quality evidence, such as neuroblastoma or ganglioneuroblastoma trials or cohort studies, with vincristine's contribution assessed
-- Clarification of the regulatory pathway, since there is no valid registration in the Philippines
-- Clinical review of hepatic, neurological and haematological risk, and of the CYP3A4-related interaction with clarithromycin
+- A mechanistic rationale, supported by detailed mechanism of action data, linking vincristine to the biology of this syndrome.
+- Any preclinical or clinical study that directly addresses this condition.
+- The Philippines package insert, covering the approved indication, warnings and contraindications.
+- A risk–benefit assessment, since cytotoxic exposure in a non-malignant congenital condition is a major concern.
+
+**Note on a second candidate:** The same analysis also ranked **retroperitoneal neoplasm** (score 0.9923). That prediction has 20 retrieved publications, mostly case reports of vincristine-containing regimens in rhabdomyosarcoma, paraganglioma and similar tumours, and no registered trials. Because "retroperitoneal neoplasm" is an anatomical category rather than a single disease, the evidence is indirect, and it is better treated as a separate research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia"
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methotrexate: From Acute Lymphoblastic Leukemia to Pulmonary Blastoma
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia (the Philippines registration record has no indication text, so this comes from the drug's known indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary blastoma |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma**, but the
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methotrexate is a dihydrofolate reductase (DHFR) inhibitor. It blocks folate-dependent DNA synthesis, so it is most active against rapidly dividing cells. Its efficacy in leukemia and lymphoma is well established.
 
-Pulmonary blastoma is a rare, aggressive lung tumor made of rapidly proliferating cells. In principle, an antifolate could act on it. However, the only support for this link is the high TxGNN score (0.994). There are no trials or publications specific to pulmonary blastoma, so the mechanistic argument is general and untested for this tumor.
+Pulmonary blastoma is a rare, aggressive lung tumor made of rapidly proliferating cells. In principle, an antifolate could act on it. However, the only support for this link is the high TxGNN score (0.9945). There are no trials or publications specific to pulmonary blastoma, so the mechanistic argument is general and untested for this tumor.
 
 ---
 
@@ -81,9 +81,8 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0316 | Methotrexate | Not specified | Not specified (status: cancelled) |
+| PNF-0316 | Methotrexate | Not specified | Not specified (status: valid) |
 
-The only registration found has been cancelled, so no valid methotrexate product is currently registered in the Philippines.
 
 ---
 
@@ -101,7 +100,7 @@ The only registration found has been cancelled, so no valid methotrexate product
 
 ## Safety Considerations
 
-- **Conditions flagged as contraindications (from knowledge-graph associations, not label text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anemia (including macrocytic anemia), interstitial lung disease, pulmonary fibrosis, peptic and gastric ulcer, ulcerative colitis, inflammatory bowel disease, stomatitis, immune system disease, substance abuse/dependence, and pyoureter. Notably, the lung-related items (interstitial lung disease, pulmonary fibrosis) matter for a lung tumor indication.
+- **Conditions flagged as contraindications (not taken from label text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, leukopenia, anemia (including macrocytic anemia), interstitial lung disease, pulmonary fibrosis, peptic and gastric ulcer, ulcerative colitis, inflammatory bowel disease, stomatitis, immune system disease, substance abuse/dependence, and pyoureter. Notably, the lung-related items (interstitial lung disease, pulmonary fibrosis) matter for a lung tumor indication.
 - **Drug Interactions:** 100 interactions were recorded, and the 20 reviewed include these major ones:
   - Rabeprazole (Major)
   - Amoxicillin (Major)

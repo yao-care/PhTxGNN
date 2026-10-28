@@ -4,17 +4,17 @@ title: Iopromide
 parent: Model Prediction Only (L5)
 nav_order: 180
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Iopromide: predicted new indication Osteoarthritis susceptibility (evidence level L5). Approved use: No approved indication text is available in the Philippines registrat…"
+indication_count: 9
 monitor_inn: "Iopromide"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
+last_modified_at: 2026-10-23
+description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Philippines licence record"
 ---
 
 # Iopromide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Iopromide: From Contrast Imaging Agent to Osteoarthritis Susceptibility
+## Iopromide: From Radiographic Contrast Imaging to Osteoarthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Iopromide is an iodinated, non-ionic radiographic contrast agent used for diagnostic imaging. The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but **no clinical trials and no publications** were found to support this prediction. It is a computational prediction only and should be treated as a low-confidence signal.
+Iopromide is an iodinated, non-ionic radiographic contrast agent, and it has one registration in the Philippines.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** were found to support this prediction.
+The prediction rests on a TxGNN model (deep learning) score alone, so the evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication text is available in the Philippines registration record (the drug is a diagnostic contrast agent) |
-| Predicted New Indication | Osteoarthritis susceptibility |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not stated in the Philippines licence record (the contrast-agent use comes from the drug class, not from licence text) |
+| Predicted New Indication | Osteoarthritis |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iopromide is an iodinated, non-ionic contrast agent. It is used for imaging, not to treat disease, and it has no known pharmacological activity on cartilage or joint pathways.
+At present, detailed mechanism of action data is not available. Iopromide belongs to the class of iodinated, non-ionic contrast agents. These agents make tissues visible on X-ray and CT imaging. They are not known to have any anti-inflammatory or cartilage-protecting activity.
 
-The relationship between the original use and the predicted indication is weak. "Osteoarthritis susceptibility" describes a genetic risk concept rather than a treatable clinical condition. The high score (0.9957) most likely reflects network-topology patterns in the knowledge graph rather than a real drug effect.
+No mechanistic link to osteoarthritis has been established. The high score (0.9953) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It does not reflect pharmacological activity.
 
-The other top predictions point the same way. They include osteoarthritis, rheumatoid arthritis, rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia, pseudoachondroplasia), alopecia, myosclerosis and hemoglobinopathy. All have scores above 0.99, none has any clinical evidence, and none has a plausible mechanistic link. Iodinated contrast agents also carry cautions in some hemoglobinopathies, such as sickle cell disease.
+The other predicted conditions are rheumatoid arthritis, several rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia Hunter-Thompson type, pseudoachondroplasia), alopecia, myosclerosis and hemoglobinopathy. All of them also have scores ≥ 0.99. None has any trial, publication or plausible mechanism. This suggests the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or real therapeutic potential.
 
 ## Clinical Trial Evidence
 
@@ -72,14 +74,23 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0256 | Iopromide | Not specified | Not specified (registration status: cancelled) |
+| PNF-0256 | Iopromide | Not stated | Not stated |
+
+This is a single-ingredient product with valid status.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screening returned 100 interacting drugs in total, and the main ones are listed below. Most are rated Major.
-  - **Major**: metformin, amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), mesalazine, balsalazide, olsalazine, sulfasalazine, vancomycin, and the aminoglycosides and polymyxin (kanamycin, neomycin, streptomycin, polymyxin B).
-  - **Moderate**: mannitol.
-  - **Unknown severity**: clotrimazole, acetylsalicylic acid, bupropion, dexamethasone, pantoprazole.
+- **Drug Interactions**: The data compiled for this report list 100 interacting drugs in total (20 shown). Most of the listed ones are rated Major. Examples:
+  - Metformin
+  - Amphotericin B, including its lipid complex, cholesteryl sulfate and liposomal forms
+  - Vancomycin
+  - Aminoglycosides (kanamycin, neomycin, streptomycin)
+  - Polymyxin B
+  - Aminosalicylates (mesalazine, balsalazide, olsalazine, sulfasalazine)
+  - Mannitol is rated Moderate.
+  - Clotrimazole, acetylsalicylic acid, bupropion, dexamethasone and pantoprazole have an unknown severity level.
+
+  Several of the Major interactions involve drugs that can affect the kidneys, so renal function deserves attention. This is a general observation and not a statement from the data.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -88,14 +99,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score. There are no clinical trials or publications, no mechanistic link, and the only Philippines registration is cancelled. Iopromide is a diagnostic imaging agent, so a therapeutic role in joint or skeletal disease is not credible on current data.
+No clinical trial or publication studies iopromide in osteoarthritis or in any other predicted disease. There is also no plausible mechanism, since iopromide is a diagnostic contrast agent. The evidence is limited to a model score, which places it at level L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DrugBank) and a documented biological rationale
-- Package insert warnings and contraindications from DOH-FDA Philippines
-- Any preclinical or clinical evidence in the predicted indication
-- Clarification of whether a more clinically defined target (for example, osteoarthritis rather than "susceptibility") is meaningful for a contrast agent
-- Confirmation of the registration status and original approved indication in the Philippines
+- Mechanism of action data from DrugBank
+- Package insert warnings and contraindications from the Philippines FDA, which are currently missing and block safety screening
+- Dosage form and approved indication details for licence PNF-0256
+- Preclinical or mechanistic studies of iopromide in joint or cartilage models before any clinical consideration
+- A check on whether the predictions reflect similarities the TxGNN model (deep learning) learned between related diseases rather than therapeutic effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

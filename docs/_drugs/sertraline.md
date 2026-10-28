@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
-description: "Sertraline: predicted new indication Histrionic personality disorder (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Sertraline"
-predicted_indications: ["histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-10-23
+description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Anxiety disorder, OCD, PTSD, social phobia and related conditions"
 ---
 
 # Sertraline
@@ -33,82 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorders to Histrionic Personality Disorder
+## Sertraline: From Anxiety Disorders to Schizoid Personality Disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sertraline is an antidepressant of the SSRI class. It was originally used for anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related conditions.
-The TxGNN model predicts it may be effective for **histrionic personality disorder** with a very high score, but **no clinical trials and no publications** currently support this specific prediction.
-
----
+Sertraline is a selective serotonin reuptake inhibitor (SSRI). The knowledge graph records anxiety disorder, obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD) and social phobia among its known uses. The TxGNN model predicts it may be useful for **schizoid personality disorder**, but this rests on the model score alone: there are **0 clinical trials** and **1 publication**, and that publication does not study this disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder (the Philippines registration has no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Histrionic personality disorder |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Anxiety disorder, OCD, PTSD, social phobia and related conditions (relations recorded in the knowledge graph; the local licence record has no indication text) |
+| Predicted New Indication | Schizoid personality disorder |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sertraline is an SSRI, and its efficacy in anxiety, obsessive-compulsive and phobic conditions is established. Mechanistically, it may be applicable to histrionic personality disorder, but this link is speculative.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Sertraline is an SSRI, and serotonergic modulation might plausibly affect affective flattening or comorbid anxiety and depression. The TxGNN model (deep learning) also predicts anxiety-related conditions, and these predictions may reflect similarities the model learned between related diseases, not biological evidence.
 
-The only plausible bridge is indirect. Serotonergic modulation may reduce affective lability and impulsivity, which are features that can accompany this disorder. The data compiled for this report show no trials or literature testing this idea. The high score reflects a pattern in the model's knowledge graph rather than demonstrated clinical benefit. Several neighbouring personality-disorder predictions (paranoid, schizoid, dependent, narcissistic) show a similar picture of indirect or no evidence.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by direct clinical findings. Schizoid personality disorder is characterized by emotional detachment and restricted affect, and any benefit would most likely come from treating comorbid mood or anxiety symptoms. This is a hypothesis only.
 
----
+The only linked paper concerns binge-eating disorder, so no direct clinical support exists for this condition.
+
+**Note on other predictions:** Among the other predictions for sertraline, **agoraphobia** (score 0.9954) has much stronger support, with a Phase 4 trial in a related condition (generalized social phobia) and multiple RCTs and network meta-analyses in panic disorder with or without agoraphobia. It may be a better candidate for follow-up than the top-ranked prediction.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [19794312](https://pubmed.ncbi.nlm.nih.gov/19794312/) | 2009 | Other (multimodal treatment study) | International Clinical Psychopharmacology | 30 patients with binge-eating disorder were randomised to three 6-month treatment groups. One group received diet, cognitive-behavioural therapy and sertraline (50–150 mg/day). It does not study schizoid personality disorder. |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0439 | Sertraline | Cancelled |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0439 | Sertraline | Not specified | Not specified |
 
-There is no currently valid registration in the Philippines. Dosage form and approved indication text are not available for this record.
-
----
+Only one single-ingredient registration is on record, and it is valid. The local record has no indication text, so the uses listed above come from the TxGNN model (deep learning), may reflect similarities the model learned between related diseases, not biological evidence, and are not confirmed approvals.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not package-insert text)**: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, serotonin syndrome.
-- **Drug Interactions**: 100 interactions are recorded. Those rated **Major** among the first 20 listed are bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Many others, such as acetylsalicylic acid, clarithromycin, morphine and several antidiabetic agents, are rated Moderate.
+- **Contraindication-type relations recorded in the knowledge graph** (not label text): epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
+- **Drug Interactions**: 100 interactions were found in total, and 20 are listed in the data. **Major** interactions among them are:
+  - Bupropion
+  - Lorcaserin
+  - Diethylpropion
+  - Dolasetron
+  - Eliglustat
+  - Palonosetron
+  - Phentermine
 
-Please refer to the package insert for label warnings, as these were not available for this report.
+  **Moderate** interactions include famotidine, loperamide, morphine, acetylsalicylic acid, clarithromycin, chlorpropamide, glimepiride and several laxatives and bowel-preparation agents.
 
----
+Please refer to the package insert for warnings and contraindications, as no label text was available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone, with no trials, no relevant publications, and no established mechanistic link. The Philippines registration is also cancelled. For comparison, other predictions for sertraline in the same data show stronger support. Agoraphobia reaches L1, with systematic reviews, network meta-analyses and sertraline panic-disorder trials. However, it is close to sertraline's existing anxiety and phobia uses, so it is more a confirmation of current use than new repurposing. Schizotypal personality disorder has only one very small, adjacent trial (n=8).
+The prediction rests only on a high model score (0.9993). No clinical trials exist, and the single linked paper concerns a different disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to assess a plausible link to histrionic personality disorder
-- Controlled clinical evidence in this population, or at minimum a systematic literature search specific to this diagnosis
-- Package insert warnings and contraindications from the Philippines regulator
-- Clarification of the cancelled registration, and whether a currently valid product is available locally
-- A safety plan covering the major drug interactions and the serotonin syndrome risk
+- Direct clinical or observational studies of sertraline in schizoid personality disorder, or in its core symptoms
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the DOH-FDA Philippines record, plus the registered dosage form and approved indication
+- Consideration of agoraphobia, which has stronger supporting evidence, as a higher-priority candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

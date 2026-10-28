@@ -4,17 +4,17 @@ title: Valproic Acid
 parent: Model Prediction Only (L5)
 nav_order: 349
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Valproic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Valproic Acid: From Epilepsy to Trigeminal Nerve Neoplasm
+## Valproic Acid: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The more credible repurposing directions are in other seizure-related and neural
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (from the TxGNN knowledge graph, since no approved indication text is available in the local licences) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 2 (both cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 2 of 2) |
+| Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,12 +65,7 @@ Currently, detailed mechanism of action data is not available from the compiled 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, no credible mechanistic link is established. The only retrieved paper is a 1997 case series on Sturge-Weber syndrome, which is a different condition. The high TxGNN score is not supported by clinical or preclinical evidence in the data compiled for this report.
 
 Several lower-ranked predictions have more plausible links, because they are close to the original epilepsy indication:
-- **Startle epilepsy (rank 5, L3):** small clinical studies and case reports, including one on valproate's effect on the auditory startle reflex in epilepsy patients, and a case of hyperekplexia that responded to valproate. There is no randomized evidence.
-- **Visual epilepsy (rank 2, L4):** indirect evidence extrapolated from valproate's approved epilepsy use.
 - **Trigeminal neuralgia (rank 3, L4):** older reviews list valproate as a second-line or adjunct anticonvulsant, but the retrieved papers mostly concern carbamazepine.
-- **Reading seizures (rank 10, L4):** valproate is a standard treatment in generalized epilepsies where reflex triggers occur, but no paper addresses reading epilepsy specifically.
-- **Audiogenic seizures (rank 7, L4):** animal-model evidence only.
-- **Micturition-induced, orgasm-induced, thinking and eating seizures (ranks 4, 6, 8, 9):** no syndrome-specific evidence.
 
 ---
 
@@ -109,10 +104,9 @@ Selected literature for the better-supported alternative predictions:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0454 | Sodium Valproate | Not recorded | Not recorded (status: cancelled) |
-| PNF-0506 | Valproic Acid | Not recorded | Not recorded (status: cancelled) |
+| PNF-0454 | Sodium Valproate | Not recorded | Not recorded (status: valid) |
+| PNF-0506 | Valproic Acid | Not recorded | Not recorded (status: valid) |
 
-Both registrations are cancelled, so no valid product is currently marketed in the Philippines under these records.
 
 ---
 
@@ -140,12 +134,11 @@ Literature in the compiled data also points to other well-known concerns: terato
 
 **Rationale:**
 - The top-ranked prediction (trigeminal nerve neoplasm) has no clinical trials and no relevant literature, so it sits at L5 (model prediction only). None of the ten predicted indications has a registered trial, and the best-supported one, startle epilepsy (L3), rests on small observational studies and case reports.
-- Valproic acid has no valid registration in the Philippines (both licences cancelled), and the package insert safety data could not be obtained.
+- Valproic acid is marketed in the Philippines (2 of 2 licences valid), and the package insert safety data could not be obtained.
 
 **To proceed, the following is needed:**
 - Review of the package insert, as safety screening cannot proceed without warnings and contraindications
 - Mechanism of action data from DrugBank
-- A re-registration or import pathway, since no valid Philippines licence exists
 - For startle epilepsy, trigeminal neuralgia and reading seizures, a focused literature review or small controlled study, since these have the most plausible links to existing evidence
 - For the trigeminal nerve neoplasm prediction, preclinical evidence (for example HDAC-inhibitor activity in relevant tumour models) before any further investment
 - A pregnancy-prevention and liver-monitoring plan, given the known risks in women of reproductive age

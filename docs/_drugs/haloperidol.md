@@ -50,10 +50,10 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 |------|------|
 | Original Indication | Psychotic disorder, schizophrenia, schizophreniform and schizoaffective disorders, Tourette syndrome |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No plausible link was found between D2 antagonism and this predicted condition. Congenital disorders of glycosylation with defective fucosylation involve problems in fucose metabolism or transport, such as GDP-fucose transport. Nothing in the available data connects haloperidol to these pathways.
 
-The high score (99.91%) most likely reflects patterns in the knowledge graph rather than a validated biological mechanism. It should be treated as a hypothesis-generating signal only.
+The high score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal only.
 
 ---
 
@@ -84,9 +84,9 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0223 | Haloperidol (single-ingredient) | Cancelled |
+| PNF-0223 | Haloperidol (single-ingredient) | Valid |
 
-There are no valid registrations. Dosage form and approved indication text were not available for this record.
+There is 1 valid licence out of 1. Dosage form and approved indication text were not available for this record.
 
 ---
 

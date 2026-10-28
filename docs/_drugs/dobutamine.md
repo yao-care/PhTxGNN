@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 |------|------|
 | Original Indication | Not recorded in the Philippine registration data |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist that increases the strength of heart contraction, and it is used as an intravenous inotrope.
 
-**The prediction is not mechanistically plausible.** Dobutamine has no known effect on hair follicle biology. The high TxGNN score most likely reflects a knowledge-graph artifact: dobutamine shares vasoactive and cardiovascular neighbours with minoxidil, a vasodilator used for hair loss. The only literature hit describes heart failure caused by minoxidil intoxication in a cat. In that report dobutamine was merely used to treat hypotension, so it says nothing about dobutamine treating alopecia.
+**The prediction is not mechanistically plausible.** Dobutamine has no known effect on hair follicle biology. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact: dobutamine shares vasoactive and cardiovascular neighbours with minoxidil, a vasodilator used for hair loss. The only literature hit describes heart failure caused by minoxidil intoxication in a cat. In that report dobutamine was merely used to treat hypotension, so it says nothing about dobutamine treating alopecia.
 
 The other top predictions do not change this picture:
 - **Hair disorders** (hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, hypertrichosis): no mechanistic rationale and no evidence. Alopecia areata is autoimmune, and dobutamine has no relevant immunomodulatory action.
@@ -90,7 +90,7 @@ For the top prediction (alopecia), only one publication was retrieved, and it do
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0152 | Dobutamine | Not recorded | Not recorded (registration status: cancelled) |
+| PNF-0152 | Dobutamine | Not recorded | Not recorded (registration status: valid) |
 
 ---
 
@@ -111,7 +111,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but it appears to be a graph artifact. There are no clinical trials, no supporting literature, and no plausible mechanism linking dobutamine to alopecia or to any of the other top predictions. The only Philippine registration is cancelled, and the drug is an IV inotrope that is not suited to chronic hair-loss therapy. All predictions remain at evidence level L5.
+The TxGNN score is high, but it comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, no supporting literature, and no plausible mechanism linking dobutamine to alopecia or to any of the other top predictions. The only Philippine registration is valid and the drug is marketed, but it is an IV inotrope that is not suited to chronic hair-loss therapy. All predictions remain at evidence level L5.
 
 **To proceed, the following is needed:**
 - Mechanistic or preclinical evidence that beta-1 adrenergic signalling affects hair follicle biology

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mycophenolic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 245
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L3). Approved use: Not available in the registration data"
@@ -14,7 +14,7 @@ predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with 
 # Mycophenolic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **hemoglobinopathy**, but the evid
 |------|------|
 | Original Indication | Not available in the registration data |
 | Predicted New Indication | Hemoglobinopathy |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L3 |
-| Philippines Market Status | ✗ Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| TxGNN Prediction Score | 0.9960 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,7 @@ The very high TxGNN score should therefore be read as a computational signal, no
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0335 | Mycophenolic Acid | Not recorded | Not recorded (registration cancelled) |
+| PNF-0335 | Mycophenolic Acid | Not recorded | Not recorded (registration valid) |
 
 ## Safety Considerations
 

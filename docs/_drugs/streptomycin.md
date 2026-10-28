@@ -48,10 +48,10 @@ but the evidence is weak: there are **no clinical trials** and only **case repor
 |------|------|
 | Original Indication | Pulmonary tuberculosis (other listed indications include plague, tularemia, brucellosis, chancroid, leptospirosis) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Philippines Market Status | ✗ Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

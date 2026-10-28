@@ -6,9 +6,9 @@ nav_order: 259
 evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Cutaneous candidiasis, oral candidiasis, candidiasis…"
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
+description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Nystatin
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Nystatin: From Cutaneous Candidiasis to Vulvovaginitis
+## Nystatin: Vulvovaginitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Support comes from **0 registered clinical trials** and **20 publications**, mos
 
 | Item | Content |
 |------|------|
-| Original Indication | Cutaneous candidiasis, oral candidiasis, candidiasis, vulvovaginal candidiasis (from the knowledge graph; no approved indication text is available for the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

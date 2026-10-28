@@ -28,6 +28,10 @@
     {
       "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
       "valueString": "TxGNN Knowledge Graph"
+    },
+    {
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9964
     }
   ]
 }

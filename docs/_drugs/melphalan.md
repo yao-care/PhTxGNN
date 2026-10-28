@@ -4,17 +4,17 @@ title: Melphalan
 parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Melphalan: predicted new indication Gonadal germ cell tumor (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumor
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Melphalan is an alkylating chemotherapy drug, originally used for ovarian cancer.
-The TxGNN model predicts it may be effective for **gonadal germ cell tumor**,
 with **7 clinical trials** and **1 publication** currently linked to this prediction. Most of these trials are small, mixed-population studies in which melphalan is one component of a high-dose regimen.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (from the knowledge graph; no approved indication text is available for the local registration) |
-| Predicted New Indication | Gonadal germ cell tumor |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 (see note below) |
-| Philippines Market Status | Cancelled only (registration cancelled) |
-| Number of Registrations | 1 (0 currently valid) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (see note below) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assign L2 on the basis of one completed Phase 2 trial (NCT00936936, 64 patients). That trial tested a multi-drug regimen and does not isolate melphalan's contribution. It is also a single-arm study, not a randomised controlled trial, so by the strict rule the evidence is weaker than L2.
@@ -60,7 +59,7 @@ with **7 clinical trials** and **1 publication** currently linked to this predic
 
 Currently, detailed mechanism of action data is not available. Based on known information, melphalan is a DNA-alkylating agent that forms interstrand crosslinks. Its efficacy in ovarian cancer is established, and mechanistically it may be applicable to gonadal germ cell tumors.
 
-Germ cell tumors are highly chemosensitive to DNA-damaging agents. Melphalan has been used in high-dose chemotherapy regimens with autologous stem cell rescue for relapsed or poor-prognosis germ cell tumors. The very high TxGNN score is also consistent with the existing ovarian germ cell tumor labels in the knowledge graph.
+Germ cell tumors are highly chemosensitive to DNA-damaging agents. Melphalan has been used in high-dose chemotherapy regimens with autologous stem cell rescue for relapsed or poor-prognosis germ cell tumors.
 
 Other predictions for ovarian primitive germ cell tumor and female breast carcinoma are supported by small Phase 1/2 studies and case reports. Predictions for choriocarcinoma of ovary, non-epithelial ovarian tumor and several mucinous adenocarcinomas (rectum, colon, gallbladder, cervix, endometrium) rest on the model alone, with no trials or literature found.
 
@@ -88,16 +87,14 @@ Literature is much richer for the lower-ranked prediction of female breast carci
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0307 | Melphalan | Not specified | Not specified (status: cancelled) |
+| PNF-0307 | Melphalan | Not specified | Not specified (status: valid) |
 
-The only registration found is cancelled, so no valid melphalan product is currently registered in the Philippines according to the data compiled for this report.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent, nitrogen mustard class) |
-| Myelosuppression Risk | High (the knowledge graph links melphalan to neutropenia, leukopenia, thrombocytopenia and anemia) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | CBC with differential, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
@@ -118,7 +115,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is plausible and the TxGNN score is very high, but the supporting trials are small and combine melphalan with other agents, so its own benefit cannot be separated out. No melphalan product is currently valid in the Philippines, and the package-insert safety data are missing, which blocks safety screening.
+The mechanistic rationale is plausible and the TxGNN score is very high, but the supporting trials are small and combine melphalan with other agents, so its own benefit cannot be separated out.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines

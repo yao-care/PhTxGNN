@@ -48,10 +48,10 @@ with **3 clinical trials** (2 directly relevant, both Phase 2) and **20 publicat
 |------|------|
 | Original Indication | Metastasis from malignant tumour of colon |
 | Predicted New Indication | Malignant pleural mesothelioma |
-| TxGNN Prediction Score | 99.68% |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L2 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ Evidence is not uniformly positive. One small second-line study of raltitrexed p
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0364 | Oxaliplatin | Not specified | Not specified (status: cancelled) |
+| PNF-0364 | Oxaliplatin | Not specified | Not specified (status: valid) |
 
 ## Cytotoxicity
 

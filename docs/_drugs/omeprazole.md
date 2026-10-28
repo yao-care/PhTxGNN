@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 264
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-## Omeprazole: From Gastric Ulcer and Reflux Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor, originally used for gastric and duodenal ulcers, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the support is limited: **1 clinical trial** (a diagnostic imaging study, only indirectly relevant) and **15 publications** (mostly small physiological studies, animal studies and reviews).
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the Philippines licence record contains no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +64,7 @@ In duodenogastric reflux, bile and duodenal contents flow back into the stomach.
 
 Omeprazole does not bind bile or stop the reflux itself, so any benefit is likely symptomatic and indirect. Rat studies also raise a safety concern: acid blockade combined with duodenogastric reflux promoted mucosal growth stimulation and gastric carcinogenesis (PMID 10389684, 8943968). A later rat study (PMID 33027361) examined whether omeprazole might be protective. The link to the original indications is plausible, but the evidence is small, mostly physiological, and has mixed safety signals.
 
-A second prediction, **duodenal obstruction** (score 99.64%, evidence level L4), was also generated. Omeprazole can heal underlying ulcers, but it does not relieve an established fixed obstruction, which usually needs endoscopic or surgical treatment. The retrieved literature is limited to case reports and descriptive articles, so this prediction is on Hold and is not evaluated further here.
+A second prediction, **duodenal obstruction** (score 0.9964, evidence level L4), was also generated. Omeprazole can heal underlying ulcers, but it does not relieve an established fixed obstruction, which usually needs endoscopic or surgical treatment. The retrieved literature is limited to case reports and descriptive articles, so this prediction is on Hold and is not evaluated further here.
 
 ---
 
@@ -98,7 +97,7 @@ A second prediction, **duodenal obstruction** (score 99.64%, evidence level L4),
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0360 | Omeprazole | Not stated | Not stated (status: cancelled) |
+| PNF-0360 | Omeprazole | Not stated | Not stated (status: valid) |
 
 ---
 

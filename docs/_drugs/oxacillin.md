@@ -6,9 +6,9 @@ nav_order: 265
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Staphylococcus aureus infection"
 monitor_inn: "Oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
+description: "Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxacillin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Oxacillin: From Staphylococcus aureus Infection to Epiglottitis
+## Oxacillin: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Staphylococcus aureus infection (the Philippines license record contains no indication text; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Detailed mechanism of action data is not currently available. Based on general k
 Epiglottitis is a bacterial infection of the upper airway, and the original indications (pharyngitis, sinusitis) are also upper respiratory infections, which gives the prediction some biological plausibility. However, the usual causes of epiglottitis, such as *Haemophilus influenzae* type b and streptococci, are not well covered by oxacillin. The link therefore holds only for the staphylococcal subset of cases.
 
 Other predictions for this drug are weaker or similar in strength:
-- **Laryngitis** (score 99.73%): mostly viral and self-limiting, so the antibacterial rationale is weak. Evidence level L5, Hold.
-- **Bacterial arthritis** (score 99.50%): *S. aureus* is a leading cause, and oxacillin is a standard agent for methicillin-susceptible strains. This is largely an extension of the existing indication. Evidence level L4, Research Question.
-- **Urinary tract infection** (score 99.03%): the main pathogens are Gram-negative and not covered by oxacillin. Evidence level L4, Hold.
+- **Laryngitis** (score 0.9973): mostly viral and self-limiting, so the antibacterial rationale is weak. Evidence level L5, Hold.
+- **Bacterial arthritis** (score 0.9950): *S. aureus* is a leading cause, and oxacillin is a standard agent for methicillin-susceptible strains. This is largely an extension of the existing indication. Evidence level L4, Research Question.
+- **Urinary tract infection** (score 0.9903): the main pathogens are Gram-negative and not covered by oxacillin. Evidence level L4, Hold.
 
 ## Clinical Trial Evidence
 
@@ -86,7 +86,7 @@ For reference, the closest related prediction, bacterial arthritis, has some ind
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0363 | Oxacillin | Not stated | Not stated (status: cancelled) |
+| PNF-0363 | Oxacillin | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 

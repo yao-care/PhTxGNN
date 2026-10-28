@@ -6,9 +6,9 @@ nav_order: 247
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis…"
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Naproxen: From Inflammatory and Musculoskeletal Pain Conditions to Brachydactyly-Syndactyly Syndrome
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis, gout, migraine, osteoarthritis and related conditions (from the knowledge graph; no approved-indication text is available for the local registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology knowledge, naproxen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin synthesis, which explains its anti-inflammatory, analgesic and antipyretic effects in its original indications.
 
-Brachydactyly-syndactyly syndromes are congenital limb malformations, typically caused by developmental genetic defects (for example, variants in the HOX gene family). Blocking prostaglandin synthesis is not expected to correct a structural malformation that forms during development. The high TxGNN score (0.994, rank 4669) is a graph-based prediction and most likely reflects network proximity rather than biological plausibility.
+Brachydactyly-syndactyly syndromes are congenital limb malformations, typically caused by developmental genetic defects (for example, variants in the HOX gene family). Blocking prostaglandin synthesis is not expected to correct a structural malformation that forms during development. The high TxGNN score (0.9935, rank 4669) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 In short, **no mechanistic link is supported by the available data**. At most, naproxen might be considered for symptomatic pain relief, which is not a disease-modifying repurposing rationale. NSAID exposure during pregnancy also carries fetal safety concerns.
 
@@ -65,9 +65,9 @@ Other predictions with the same pattern (high score, no evidence, no mechanistic
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level |
 |------|------|------|------|
-| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.22% | L5 |
-| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 99.17% | L5 |
-| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.06% | L5 |
+| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9922 | L5 |
+| 3 | Acromesomelic dysplasia, Hunter-Thompson type | 0.9917 | L5 |
+| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9906 | L5 |
 
 All four are rare congenital skeletal or developmental disorders of genetic origin. None has supporting trials or literature.
 
@@ -83,7 +83,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0341 | Naproxen | Not specified | Not specified (registration cancelled) |
+| PNF-0341 | Naproxen | Not specified | Not specified (registration valid) |
 
 ## Safety Considerations
 

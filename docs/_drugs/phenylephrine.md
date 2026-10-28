@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Moderate Evidence (L3-L4)
 nav_order: 274
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Phenylephrine: From Rhinitis and Nasal Congestion to Nasal Cavity Disease
+## Phenylephrine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The prediction is largely an extension of existing nasal indications rather than
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (also conjunctivitis, headache disorder, hemorrhoid, proctitis, per the knowledge graph); no approved indication text is available for the local registration |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is largely an extension of existing nasal indications rather than
 
 Currently, detailed mechanism of action data is not available. Based on general pharmacology, phenylephrine is an alpha-1 adrenergic agonist. It constricts the blood vessels of the nasal mucosa, which reduces congestion, swelling, and mucosal bleeding.
 
-This is consistent with its established uses in rhinitis and nasopharyngitis. "Nasal cavity disease" is a broad category that largely overlaps with these existing indications, so the very high TxGNN score (99.97%) probably reflects that overlap rather than a new therapeutic discovery.
+This is consistent with its established uses in rhinitis and nasopharyngitis. "Nasal cavity disease" is a broad category that largely overlaps with these existing indications, so the very high TxGNN score (0.9997) probably reflects that overlap rather than a new therapeutic discovery.
 
 The literature mentions phenylephrine in combination nasal sprays (for example, Polydexa, which also contains dexamethasone, neomycin, and polymyxin B) and as a topical vasoconstrictor in endoscopic sinus surgery. The titles and abstracts available do not show controlled trials of phenylephrine alone.
 
@@ -90,7 +90,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0383 | Phenylephrine | Not specified | Not specified (status: cancelled) |
+| PNF-0383 | Phenylephrine | Not specified | Not specified (status: valid) |
 
 ---
 
@@ -119,7 +119,6 @@ Please refer to the package insert for official warnings and contraindications.
 - Official package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Controlled clinical evidence of phenylephrine in nasal cavity disease, separate from combination sprays
-- A clear regulatory pathway, since no registration is currently valid in the Philippines
 - Defined route and dosage form for the intended nasal use
 
 ---
@@ -128,8 +127,7 @@ Please refer to the package insert for official warnings and contraindications.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
 |------|------|------|------|------|
-| Acute laryngopharyngitis | 99.97% | L5 | Hold | No trials or literature. Decongestion does not address the infectious or inflammatory cause, so the link is speculative. |
-| Trigeminal autonomic cephalalgia | 99.30% | L4 | Hold | The 13 publications are mostly pupillometry studies in cluster headache, paroxysmal hemicrania, and SUNCT, where phenylephrine is a diagnostic probe of sympathetic function, not a treatment. They give no support for therapeutic use. A systemic vasoconstrictor and pressor could also be a concern in headache patients. |
+| Trigeminal autonomic cephalalgia | 0.9930 | L4 | Hold | The 13 publications are mostly pupillometry studies in cluster headache, paroxysmal hemicrania, and SUNCT, where phenylephrine is a diagnostic probe of sympathetic function, not a treatment. They give no support for therapeutic use. A systemic vasoconstrictor and pressor could also be a concern in headache patients. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

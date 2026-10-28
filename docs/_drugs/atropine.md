@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Atropine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 34
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 # Atropine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not available (the single registration has no indication text) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Atropine is a non-selective muscarinic acetylcholine receptor antagonist. Precli
 
 However, **no direct clinical evidence shows that atropine treats or prevents migraine**. Several retrieved papers are off-topic or are adverse-event case reports (botulinum-induced dropped head syndrome, topiramate-related eye effects, stunned myocardium after anaesthesia). The very high TxGNN score is a computational prediction and does not replace clinical data.
 
-The second prediction, migraine with brainstem aura (score 99.42%, evidence level L5), is mechanistically ambiguous. One mouse study found that muscarinic receptor activation *inhibits* cortical spreading depression, so a muscarinic antagonist like atropine might have neutral or even opposing effects. This prediction is not supported by the current evidence.
+The second prediction, migraine with brainstem aura (score 0.9942, evidence level L5), is mechanistically ambiguous. One mouse study found that muscarinic receptor activation *inhibits* cortical spreading depression, so a muscarinic antagonist like atropine might have neutral or even opposing effects. This prediction is not supported by the current evidence.
 
 ## Clinical Trial Evidence
 
@@ -84,7 +84,7 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0034 | Atropine | Not specified | Not specified (status: cancelled) |
+| PNF-0034 | Atropine | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

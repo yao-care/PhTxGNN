@@ -4,17 +4,17 @@ title: Salicylic Acid
 parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Tinea pedis, synovitis, tenosynovitis, rheumatoid arthritis…"
 monitor_inn: "Salicylic acid"
-predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to"]
+predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salicylic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Salicylic Acid: From Superficial Skin and Inflammatory Conditions to Papillary Conjunctivitis
+## Salicylic Acid: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, synovitis, tenosynovitis, rheumatoid arthritis, allergic rhinitis, acne, seborrheic dermatitis and others (from the knowledge graph; no approved indication text in the Philippines registration) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 (0 valid, 1 cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,21 +66,20 @@ This link is speculative. No clinical or literature evidence supports it, and ap
 
 | Rank | Predicted Disease | Score | Assessment |
 |---|---|---|---|
-| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.78% | No plausible mechanistic link; developmental genetic disorder |
-| 3 | Brachydactyly-syndactyly syndrome | 99.73% | No plausible link; likely a graph artifact |
-| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.55% | No plausible link |
-| 5 | Rosacea conjunctivitis | 99.53% | Weak, indirect link via inflammatory skin disease; speculative, with ocular safety concerns |
-| 6 | Acromesomelic dysplasia, Hunter-Thompson type | 99.52% | No plausible link |
-| 7 | Pseudoachondroplasia | 99.51% | No plausible link; at most tangential joint pain relevance |
-| 8 | Myosclerosis | 99.49% | Weak, loose thematic link to musculoskeletal inflammation |
-| 9 | Brachyolmia | 99.44% | No plausible link |
-| 10 | Spondyloarthropathy, susceptibility to | 99.34% | Moderate class-level plausibility (NSAID-type symptom relief); no salicylic acid-specific evidence |
+| 2 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9978 | No plausible mechanistic link; developmental genetic disorder |
+| 3 | Brachydactyly-syndactyly syndrome | 0.9973 | No plausible link; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9955 | No plausible link |
+| 5 | Rosacea conjunctivitis | 0.9953 | Weak, indirect link via inflammatory skin disease; speculative, with ocular safety concerns |
+| 6 | Acromesomelic dysplasia, Hunter-Thompson type | 0.9952 | No plausible link |
+| 7 | Pseudoachondroplasia | 0.9951 | No plausible link; at most tangential joint pain relevance |
+| 8 | Myosclerosis | 0.9949 | Weak, loose thematic link to musculoskeletal inflammation |
+| 9 | Brachyolmia | 0.9944 | No plausible link |
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0434 | Salicylic Acid | Not specified | Not specified (status: cancelled) |
+| PNF-0434 | Salicylic Acid | Not specified | Not specified (status: valid) |
 
 ## Safety Considerations
 

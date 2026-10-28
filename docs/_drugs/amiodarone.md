@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **catecholaminergic polymorphic
 |------|------|
 | Original Indication | Ventricular fibrillation |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (CPVT) |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,7 +82,7 @@ None of the publications below evaluates amiodarone as a treatment for CPVT. The
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0016 | Amiodarone | Not stated | Not stated (status: cancelled) |
+| PNF-0016 | Amiodarone | Not stated | Not stated (status: valid) |
 
 ## Safety Considerations
 
@@ -108,7 +108,7 @@ Please also refer to the package insert for official warnings.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no clinical trials exist and no published study tests amiodarone in CPVT. The mechanism is only plausible, and CPVT is usually treated with other drugs. Amiodarone also has no currently valid registration in the Philippines and a heavy safety and interaction burden.
+The prediction score is high, but no clinical trials exist and no published study tests amiodarone in CPVT. The mechanism is only plausible, and CPVT is usually treated with other drugs. Amiodarone is also marketed in the Philippines, with 1 valid licence of 1, and it carries a heavy safety and interaction burden.
 
 For context, the model also predicts amiodarone for general ventricular tachycardia (rank 3). That use is already supported by Phase 3 and Phase 4 trials and is largely a confirmation of an established use rather than new repurposing.
 

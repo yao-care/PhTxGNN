@@ -4,17 +4,17 @@ title: Ampicillin
 parent: Moderate Evidence (L3-L4)
 nav_order: 27
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Urinary tract infection, infectious otitis media, bacterial pneumonia…"
 monitor_inn: "Ampicillin"
-predicted_indications: ["laryngitis", "gonococcal urethritis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Ampicillin is a beta-lactam antibiotic originally used for infections such as urinary tract infection, otitis media, bacterial pneumonia, meningitis and staphylococcal or streptococcal infections.
-The TxGNN model predicts it may be effective for **laryngitis**, with a very high model score of 99.97%.
+The TxGNN model predicts it may be effective for **laryngitis**, with a very high model score of 0.9997.
 However, there are **0 registered clinical trials** and only **literature of low quality** (mostly case reports, reviews and surveillance papers), so the evidence is weak.
 
 ---
@@ -50,10 +50,10 @@ However, there are **0 registered clinical trials** and only **literature of low
 |------|------|
 | Original Indication | Urinary tract infection, infectious otitis media, bacterial pneumonia, bacterial meningitis, staphylococcal and streptococcal infections, among others (the Philippines registration record contains no indication text) |
 | Predicted New Indication | Laryngitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,7 +114,7 @@ Of the other predictions, gonococcal urethritis has the strongest literature (se
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Current local resistance data (especially *H. influenzae*, *N. gonorrhoeae*) and comparison with current guideline-recommended agents
 - Evidence of ampicillin treatment outcomes in laryngeal infections specifically (e.g., prospective or comparative studies)
-- Clarification of the registration status in the Philippines, since no valid license currently exists
+- Clarification of the registration status in the Philippines, since 1 of 1 licenses is currently valid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

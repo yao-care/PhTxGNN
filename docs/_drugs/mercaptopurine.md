@@ -4,17 +4,17 @@ title: Mercaptopurine
 parent: High Evidence (L1-L2)
 nav_order: 223
 evidence_level: L2
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Acute lymphoblastic leukemia (also listed: precursor T-cell ALL…"
 monitor_inn: "Mercaptopurine"
-predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+## Mercaptopurine: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The data compiled for this report list **15 clinical trials** and **20 publicati
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukemia (also listed: precursor T-cell ALL, acute promyelocytic leukemia) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myeloid leukemia |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 |
-| Philippines Market Status | ✗ Registration cancelled (no valid registration) |
-| Number of Registrations | 1 (cancelled) |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -110,7 +110,7 @@ The table shows 10 of the 20 publications listed. None is a randomized trial. Wh
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0310 | Mercaptopurine (single-ingredient, **cancelled**) | Not stated | Not stated |
+| PNF-0310 | Mercaptopurine (single-ingredient, **valid**) | Not stated | Not stated |
 
 ---
 

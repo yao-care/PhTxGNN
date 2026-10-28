@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Gemcitabine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 161
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Gemcitabine: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Ovarian cancer"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Gemcitabine"
-predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
+predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "secretory uterine corpus endometrioid adenocarcinoma"]
+last_modified_at: 2026-10-23
+description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Ovarian cancer and related ovarian tumours"
 ---
 
 # Gemcitabine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,105 +33,77 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Gemcitabine: From Ovarian Cancer to Female Breast Carcinoma
+## Gemcitabine: From Ovarian Cancer to Rectum Mucinous Adenocarcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Gemcitabine is a nucleoside-analogue chemotherapy drug, originally used to treat ovarian cancer.
-The TxGNN model predicts it may be effective for **female breast carcinoma**,
-with **34 clinical trials** and **20 publications** currently supporting this direction (including 3 Phase 3 trials, of which 2 are completed).
+Gemcitabine is a cytotoxic nucleoside-analog chemotherapy.
+The TxGNN model predicts it may be effective for **rectum mucinous adenocarcinoma**, but the data compiled for this report contain **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the license record has no approved indication text; this is taken from the drug's original indication list) |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Philippines Market Status | Cancelled only (no currently valid registration) |
-| Number of Registrations | 1 (cancelled) |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Ovarian cancer and related ovarian tumours (a relation recorded in the knowledge graph; the local licence has no indication text) |
+| Predicted New Indication | Rectum mucinous adenocarcinoma |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Licences | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Gemcitabine is a nucleoside analogue. It inhibits DNA synthesis by blocking ribonucleotide reductase and by terminating the DNA chain. This makes it active against rapidly dividing tumour cells. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on general knowledge of the drug class.
+Gemcitabine is a nucleoside analog that inhibits DNA synthesis. This is the only mechanistic information in the data compiled for this report. Detailed mechanism-of-action data are not available.
 
-Ovarian cancer and breast cancer are both common solid tumours in women, and both respond to cytotoxic chemotherapy. Gemcitabine is already established in ovarian cancer, and it works well alongside taxanes and platinum agents. These combinations have been studied in metastatic breast cancer, including triple-negative disease. Published reviews report single-agent response rates of about 16–37% in metastatic breast cancer, which supports the TxGNN prediction.
+Ovarian cancer and mucinous adenocarcinoma of the rectum are both epithelial adenocarcinomas. A DNA-synthesis inhibitor could plausibly act on rapidly dividing cells in either tumour. However, the high TxGNN score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trial or publication for this disease was retrieved, so this reasoning is an extrapolation, not clinical support.
 
 ## Clinical Trial Evidence
 
-The data include 34 trials. The table lists the 10 most relevant, with Phase 3 trials and directly breast-cancer-specific trials prioritised.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00006459](https://clinicaltrials.gov/study/NCT00006459) | Phase 3 | Completed | Not listed | Randomised trial of gemcitabine plus paclitaxel versus paclitaxel in unresectable, locally recurrent or metastatic breast cancer |
-| [NCT00093795](https://clinicaltrials.gov/study/NCT00093795) | Phase 3 | Completed | 4,894 | Adjuvant comparison of three regimens in node-positive breast cancer, including dose-dense AC followed by paclitaxel plus gemcitabine |
-| [NCT00408408](https://clinicaltrials.gov/study/NCT00408408) | Phase 3 | Unknown | 1,206 | Neoadjuvant trial of adding capecitabine or gemcitabine to docetaxel, measuring pathologic complete response |
-| [NCT00070278](https://clinicaltrials.gov/study/NCT00070278) | Phase 3 | Unknown | 800 | Neoadjuvant epirubicin/cyclophosphamide followed by paclitaxel with or without gemcitabine in poor-risk early breast cancer |
-| [NCT00039546](https://clinicaltrials.gov/study/NCT00039546) | Phase 3 | Unknown | Not listed | tAnGo: adding gemcitabine to paclitaxel-containing, epirubicin-based adjuvant chemotherapy in early breast cancer |
-| [NCT00006007](https://clinicaltrials.gov/study/NCT00006007) | Phase 2 | Completed | 59 | Pemetrexed plus gemcitabine in metastatic breast cancer |
-| [NCT00003540](https://clinicaltrials.gov/study/NCT00003540) | Phase 2 | Completed | 30 | Gemcitabine alone in metastatic breast cancer after doxorubicin and paclitaxel |
-| [NCT00110084](https://clinicaltrials.gov/study/NCT00110084) | Phase 2 | Completed | 50 | Weekly nab-paclitaxel plus gemcitabine in metastatic breast cancer |
-| [NCT00005991](https://clinicaltrials.gov/study/NCT00005991) | Phase 1/2 | Completed | 76 | Gemcitabine plus liposomal doxorubicin in advanced solid tumours and metastatic breast cancer |
-| [NCT07528768](https://clinicaltrials.gov/study/NCT07528768) | Phase 2 | Not yet recruiting | 750 | Gemcitabine versus paclitaxel in women of African ancestry with metastatic triple-negative breast cancer |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26673577](https://pubmed.ncbi.nlm.nih.gov/26673577/) | 2015 | RCT protocol | Trials | Phase II/III tnAcity study design: nab-paclitaxel plus gemcitabine or carboplatin versus gemcitabine/carboplatin in metastatic triple-negative breast cancer |
-| [40779028](https://pubmed.ncbi.nlm.nih.gov/40779028/) | 2025 | Clinical trial | Breast Cancer Res Treat | Phase I of carboplatin, gemcitabine and mifepristone in advanced breast and recurrent ovarian cancer |
-| [15685819](https://pubmed.ncbi.nlm.nih.gov/15685819/) | 2004 | Review | Oncology (Williston Park) | Gemcitabine plus paclitaxel in metastatic breast cancer; 52% response in phase II trials |
-| [15685821](https://pubmed.ncbi.nlm.nih.gov/15685821/) | 2004 | Review | Oncology (Williston Park) | Gemcitabine with platinum compounds gives significant clinical benefit and response rates |
-| [14768404](https://pubmed.ncbi.nlm.nih.gov/14768404/) | 2003 | Review | Oncology (Williston Park) | Gemcitabine, anthracycline and taxane combinations in advanced breast cancer |
-| [12138397](https://pubmed.ncbi.nlm.nih.gov/12138397/) | 2002 | Review | Seminars in Oncology | Single-agent response rates of 16–37%; higher with combinations |
-| [14754469](https://pubmed.ncbi.nlm.nih.gov/14754469/) | 2004 | Review | Clinical Breast Cancer | Gemcitabine plus trastuzumab in HER2-positive metastatic breast cancer |
-| [12057045](https://pubmed.ncbi.nlm.nih.gov/12057045/) | 2002 | Review | Clinical Breast Cancer | Neoadjuvant gemcitabine in breast cancer |
-| [38781103](https://pubmed.ncbi.nlm.nih.gov/38781103/) | 2024 | Preclinical | Mol Cancer Ther | PKMYT1 as a target in CDK4/6 inhibitor-resistant ER+ breast cancer |
-| [29548985](https://pubmed.ncbi.nlm.nih.gov/29548985/) | 2018 | Preclinical | J Control Release | Nanoparticle formulation improving oral bioavailability of gemcitabine for breast cancer |
+Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0215 | Gemcitabine (status: cancelled) | Not listed | Not listed |
+| Authorization Number | Product Name |
+|---------|------|
+| PNF-0215 | Gemcitabine |
+
+This single-ingredient licence is valid. The data compiled for this report contain no dosage form or approved indication text for it. The ovarian-cancer use above therefore cannot be described as a locally approved indication.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (pyrimidine nucleoside antimetabolite) |
-| Myelosuppression Risk | Moderate to high (neutropenia, thrombocytopenia and anaemia are common) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function, renal function |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
-
-Please also refer to the package insert warnings and precautions.
+| Cytotoxicity Classification | Conventional cytotoxic (nucleoside-analog antimetabolite) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. The knowledge graph links gemcitabine to thrombocytopenia, leukopenia and anaemia as contraindication relations, so blood-count monitoring is advisable. |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Complete blood count, liver and renal function |
+| Handling Protection | Follow local cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Disease-level cautions (from the knowledge graph, not label text)**: the drug is linked to caution in kidney disease, liver disease, gallbladder disease, thrombocytopenia, anaemia, leukopenia, infectious disease, interstitial lung disease, and haemolytic-uremic syndrome (including the typical form).
-- **Drug Interactions**: 100 interactions were found. The main ones with a graded level are naltrexone (Moderate) and levofloxacin (Minor). Others, such as calcitriol, doxycycline, pantoprazole, omeprazole, metformin, morphine and prednisone, have no graded level.
-- **Other reported safety signals**: a case report links gemcitabine to retinopathy.
+- **Contraindication relations in the knowledge graph (not label text):** kidney disease, liver disease, gallbladder disease, thrombocytopenia, leukopenia, anaemia, macrocytic anaemia, infectious disease, interstitial lung disease, pyoureter, hemolytic-uremic syndrome and typical hemolytic-uremic syndrome.
+- **Drug interactions:** 100 interaction records were found. The only graded ones among those listed are naltrexone (Moderate) and levofloxacin (Minor). The other listed drugs have no severity grade. These include calcitriol, doxycycline, pantoprazole, omeprazole, lansoprazole, glimepiride, metformin, morphine, prednisone, simvastatin, vancomycin, aprepitant and palonosetron.
 
-Please refer to the package insert for label warnings and contraindications.
+Please refer to the package insert for label-based warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- There are two completed Phase 3 trials (NCT00006459 and NCT00093795) and several completed Phase 2 trials in breast cancer, plus supportive reviews. This meets the L1 evidence level.
-- Gemcitabine has no valid registration in the Philippines, and no label safety data were available, so it should be used only with safeguards.
+The prediction has a high model score but no supporting trial or publication for rectum mucinous adenocarcinoma, so the evidence level is L5. Other gemcitabine predictions in the same analysis, such as endometrial mucinous adenocarcinoma, have more supporting evidence and may be better candidates to pursue first.
 
 **To proceed, the following is needed:**
-- Review of the Phase 3 results (efficacy and survival outcomes) to confirm benefit in specific breast cancer subtypes, such as triple-negative disease
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- A current registration or import pathway for gemcitabine in the Philippines
-- Detailed mechanism-of-action data
-- A monitoring plan for myelosuppression, liver and renal function, and the drug interactions noted above
+- Clinical or preclinical studies of gemcitabine in rectal or colorectal mucinous adenocarcinoma
+- Mechanism-of-action data and an analysis of how this tumour relates to the original ovarian use
+- The package insert for PNF-0215, covering approved indications, dosage form, warnings and contraindications
+- A safety monitoring plan, particularly for haematological toxicity and for patients with kidney or liver disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

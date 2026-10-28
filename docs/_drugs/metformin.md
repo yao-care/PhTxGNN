@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| Philippines Market Status | Cancelled only |
-| Number of Registrations | 1 |
+| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,16 +60,16 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Focal stiff limb syndrome is a variant of the stiff-person spectrum, an autoimmune disorder involving anti-GAD65 or related antibodies and impaired GABAergic inhibition. There is no established link between metformin's mechanisms and this pathway. A possible connection is the shared GAD-autoimmunity background with diabetes, or a general immunomodulatory effect, but this is speculative and not supported by the data compiled.
 
-The model also gave an identical score (99.45%) to classic stiff person syndrome, which suggests both predictions come from shared graph neighbours rather than independent evidence.
+The model also gave an identical score (0.9945) to classic stiff person syndrome. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the data, all with L5 evidence and a Hold recommendation:
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Classic stiff person syndrome | 99.45% | Comorbid diabetes may explain the association; no evidence metformin treats the neurological disease |
-| 3 | Opsismodysplasia | 99.40% | INPPL1/SHIP2 loss affects PI3K/AKT and insulin signalling; plausible pathway link but untested, and paediatric safety not assessed |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Diabetes is a feature, but the defect is thiamine transport and the standard treatment is thiamine |
-| 5 | Drug-induced localized lipodystrophy | 99.06% | Most mechanistically plausible (metformin has been studied in other lipodystrophies), but unvalidated here |
+| 2 | Classic stiff person syndrome | 0.9945 | Comorbid diabetes may explain the association; no evidence metformin treats the neurological disease |
+| 3 | Opsismodysplasia | 0.9940 | INPPL1/SHIP2 loss affects PI3K/AKT and insulin signalling; plausible pathway link but untested, and paediatric safety not assessed |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9940 | Diabetes is a feature, but the defect is thiamine transport and the standard treatment is thiamine |
+| 5 | Drug-induced localized lipodystrophy | 0.9906 | Most mechanistically plausible (metformin has been studied in other lipodystrophies), but unvalidated here |
 
 ## Clinical Trial Evidence
 
@@ -85,7 +85,7 @@ Only one registration is on record, and it is cancelled. Dosage form and approve
 
 | Authorization Number | Product Name | Status |
 |---------|------|------|
-| PNF-0314 | Metformin | Cancelled |
+| PNF-0314 | Metformin | Valid |
 
 ## Safety Considerations
 
