@@ -33,6 +33,11 @@ redirect_from:
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+This list is based on the registration data of [FDA Philippines](https://www.fda.gov.ph/) (Philippines).
+
+<!-- local-home:end -->
+
 ## Evidence level breakdown
 
 | Evidence level | Drugs | Description |

@@ -11,6 +11,37 @@ Philippine drug repurposing predictions using the TxGNN graph neural network.
 {: .warning }
 > **Disclaimer**: These predictions are for research purposes only. They do not constitute medical advice and require clinical validation before any clinical application.
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Philippines: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [FDA Philippines](https://www.fda.gov.ph/) (Philippines).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Acetylcysteine](/drugs/acetylcysteine/) | L1 |
+| [Dexamethasone](/drugs/dexamethasone/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Tegafur](/drugs/tegafur/) | L1 |
+| [Chloramphenicol](/drugs/chloramphenicol/) | L1 |
+| [Hydrocortisone](/drugs/hydrocortisone/) | L1 |
+| [Salmeterol](/drugs/salmeterol/) | L1 |
+| [Tiotropium](/drugs/tiotropium/) | L1 |
+| [Letrozole](/drugs/letrozole/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Interferon Alfa](/drugs/interferon-alfa/) | L5 |
+| [Physostigmine](/drugs/physostigmine/) | N/A |
+
+<!-- local-home:end -->
+
 ## Overview
 
 PhTxGNN analyzes drugs from the Philippine National Formulary (PNF) using the TxGNN graph neural network to identify potential new therapeutic uses for existing medications.
