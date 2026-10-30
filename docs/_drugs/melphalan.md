@@ -50,7 +50,7 @@ with **7 clinical trials** and **1 publication** currently linked to this predic
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assign L2 on the basis of one completed Phase 2 trial (NCT00936936, 64 patients). That trial tested a multi-drug regimen and does not isolate melphalan's contribution. It is also a single-arm study, not a randomised controlled trial, so by the strict rule the evidence is weaker than L2.

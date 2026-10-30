@@ -23,7 +23,7 @@ evidence_level: N/A
 | Property | Value |
 |----------|-------|
 | Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 2 (valid: 2) |
+| Number of PNF Entries | 2 (valid: 2) |
 | Drug Name | PYRIDOXINE |
 | DrugBank ID | [DB00165](https://go.drugbank.com/drugs/DB00165) |
 | PNF Status | Listed in Philippine National Formulary |

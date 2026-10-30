@@ -52,7 +52,7 @@ The TxGNN model predicts it may be useful for **hypertensive disorder**, with **
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L2 |
 | Philippines Market Status | Listed in the Philippine National Formulary (3 of 3) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 3 (valid: 3) |
+| Number of PNF Entries | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

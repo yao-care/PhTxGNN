@@ -53,7 +53,7 @@ The evidence says more about HBV reactivation risk during HCV treatment than abo
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Evidence level caveat:* L2 is based on a completed Phase 2/3 study (NCT02555943, n=23). That study is small and primarily examines HBV reactivation during HCV therapy rather than HBV treatment. The only HBV-specific efficacy study is a single-arm Phase 2 pilot (n=21). Real support for this indication is therefore weaker than L2 suggests.

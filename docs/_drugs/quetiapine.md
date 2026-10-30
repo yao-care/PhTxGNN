@@ -52,7 +52,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The top-ranked prediction has no evidence. The only candidate in the top 10 with any published literature is trichotillomania (TxGNN score 0.9938, evidence level L4, recommendation "Research Question"). It is discussed below as a secondary candidate.*

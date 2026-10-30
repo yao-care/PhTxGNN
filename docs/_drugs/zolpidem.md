@@ -50,7 +50,7 @@ There are **no registered clinical trials** in the compiled data, but **19 publi
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 (see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (see note below) |
 
 **Note on the evidence level:** The L1 rating comes from the compiled scoring. It rests on a Phase 3 RCT in which zolpidem was only the active comparator, plus network meta-analyses and guidelines, not on completed Phase 3 trials registered for this prediction. Treat it as a high-level but indirect rating.

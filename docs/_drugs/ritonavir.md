@@ -50,7 +50,7 @@ The TxGNN model's top-ranked prediction is feline acquired immunodeficiency synd
 | TxGNN Prediction Score | 0.9992 (the same for the top two predictions) |
 | Evidence Level | L5 (preclinical studies only); feline AIDS and the neurodevelopmental disorder are L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

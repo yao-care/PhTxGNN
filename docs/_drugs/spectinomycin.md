@@ -52,7 +52,7 @@ The TxGNN model's top-ranked predictions are unusual non-infectious conditions w
 | TxGNN Prediction Score | 0.9953 (urethral disease); 0.9957 for the rank 1 prediction |
 | Evidence Level | L5 (urethral disease); the other nine predictions are L4–L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

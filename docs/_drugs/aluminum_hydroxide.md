@@ -46,8 +46,8 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| Market status in the Philippines | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 (valid: 1) |
 
 ## Known uses among the model's candidates
 

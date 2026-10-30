@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 (as assigned in the compiled data; see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The compiled data assigns L2 to this prediction, but the studies are mostly in related diseases, small, or non-randomized. The direct bronchitis evidence is limited to one Phase 4 trial of recurrent obstructive bronchitis in children (status unknown) and one trial in nonasthmatic eosinophilic bronchitis. I therefore treat the practical strength as modest and recommend Hold.

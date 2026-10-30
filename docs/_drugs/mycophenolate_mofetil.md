@@ -51,7 +51,7 @@ with **4 registered clinical trials** (none of which gives direct efficacy evide
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (per the data compiled for this report; see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The L2 grade comes from the compiled scoring. Strictly applying the rules, no completed Phase 2/3 RCT directly tests MMF for HIV in the trials below. The one randomized study in the literature (PMID 15353978) was in treatment-naive patients and is only a small piece of supporting evidence. The practical strength of evidence is therefore lower than L2 suggests.

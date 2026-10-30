@@ -53,7 +53,7 @@ The evidence is early and small-scale (a 10-patient Phase 4 trial and observatio
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -51,7 +51,7 @@ Nicardipine is a calcium channel blocker whose use in hypertensive disorders is 
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Number of Approvals | 1 (single-ingredient registration) |
 | Recommended Decision | Hold |
 

@@ -52,7 +52,7 @@ The TxGNN model's top-ranked predictions are lung-related rare tumours, but the 
 | TxGNN Prediction Score | 0.9994 (well-differentiated fetal adenocarcinoma of the lung) |
 | Evidence Level | L5 (Ewing sarcoma and rhabdomyosarcoma); L3–L5 for the other candidates |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (Ewing sarcoma, rhabdomyosarcoma); Hold for the remaining candidates |
 
 ---

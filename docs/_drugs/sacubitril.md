@@ -51,7 +51,7 @@ That support consists of **1 clinical trial** (Phase 4, status unknown) and **15
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

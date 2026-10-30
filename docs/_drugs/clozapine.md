@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 for manic bipolar affective disorder (one completed Phase 2 double-blind trial, n=42). The broader bipolar disorder prediction reaches L1. |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (limited to treatment-refractory patients) |
 
 ## Why is This Prediction Reasonable?

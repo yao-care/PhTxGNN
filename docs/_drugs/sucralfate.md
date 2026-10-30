@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 (see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Evidence level note: no completed Phase 2/3 trial is registered. The L2 rating rests on small published randomized studies, so it should be read as a cautious, provisional level.*

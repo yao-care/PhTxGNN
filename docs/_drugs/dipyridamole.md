@@ -50,7 +50,7 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, with **no 
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 (no trials; support comes from reviews and mechanism studies) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The L1 label comes from the data compiled for this report. Strictly, the completed Phase 3 trial (THINK, n=80) is the only one at that phase, and no outcome data were provided. Under the stated rules (≥2 completed Phase 3 RCTs), the level is arguably closer to L2 or lower. Treat L1 with caution.

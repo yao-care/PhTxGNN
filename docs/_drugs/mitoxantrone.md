@@ -53,7 +53,7 @@ with **6 clinical trials** and **20 publications** currently supporting this dir
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (nominal; see note below) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on the evidence level:* L1 formally reflects the existence of a Phase III randomized trial. That trial has not started recruiting and has no results. In practice, the direct evidence is closer to early-phase (Phase Ib/II) data, so the L1 label overstates the strength of the evidence.

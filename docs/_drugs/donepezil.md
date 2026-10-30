@@ -49,7 +49,7 @@ Donepezil is a cholinesterase inhibitor originally used to treat Alzheimer disea
 | TxGNN Prediction Score | 0.9923 (psychogenic movement disorders); 0.9919 (chronic tic disorder) |
 | Evidence Level | L5 for the top-ranked indication; L3 for chronic tic disorder |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold for psychogenic movement disorders; Proceed with Guardrails at research-question level for chronic tic disorder |
 
 ## Why is This Prediction Reasonable?

@@ -21,7 +21,7 @@ evidence_level: N/A
 | Property | Value |
 |----------|-------|
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Drug Name | LORATADINE |
 | DrugBank ID | [DB00455](https://go.drugbank.com/drugs/DB00455) |
 | PNF Status | Listed in Philippine National Formulary |

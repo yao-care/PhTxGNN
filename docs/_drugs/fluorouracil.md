@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **rhabdomyosarcoma** and relate
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 (no cited study directly addresses the top-ranked disease; no clinical trials) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -53,7 +53,7 @@ with **2 clinical trials** (one completed Phase 3, one completed Phase 4) and **
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L2 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The data compiled for this report assigns L1 to this prediction. However, only one completed Phase 3 trial (NCT02004860) is directly in seborrheic dermatitis, and the second trial is Phase 4. Under the stated criteria (≥2 completed Phase 3 RCTs for L1), this report conservatively rates it L2. Neither trial has published results in the data reviewed.

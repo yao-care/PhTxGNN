@@ -49,7 +49,7 @@ Emtricitabine is an antiretroviral drug whose use in HIV infectious disease and 
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (the cited studies are mainly animal models using SHIV/SIV, or reviews; none directly studies the predicted disease in a clinical setting) |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Number of Approvals | 1 licence (single-ingredient) |
 | Recommended Decision | Hold |
 

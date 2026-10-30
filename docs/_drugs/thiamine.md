@@ -53,7 +53,7 @@ The one prediction with some literature is **open-angle glaucoma** (6 publicatio
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 2 (valid: 2) |
+| Number of PNF Entries | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ Hydroxyzine is a first-generation antihistamine that blocks H1 receptors. The Tx
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

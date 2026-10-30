@@ -50,7 +50,7 @@ but there are currently **0 clinical trials** and only **general epilepsy litera
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of Registrations | 1 (valid: 1) |
+| Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
