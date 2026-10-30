@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but the data compiled for this report contain **0 clinical trials** and **0 publ
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

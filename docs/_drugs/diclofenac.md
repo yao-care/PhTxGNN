@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Diclofenac is a nonsteroidal anti-inflammatory drug (NSAID) that blocks prostagl
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

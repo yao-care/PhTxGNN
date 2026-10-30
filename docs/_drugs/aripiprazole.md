@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aripiprazole: predicted new indication Major affective disorder (major depressive disorder) (evidence level L1). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia…"
 monitor_inn: "Aripiprazole"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
@@ -50,7 +50,7 @@ Several large Phase 3 placebo-controlled trials support adjunctive use in depres
 | Predicted New Indication | Major affective disorder (major depressive disorder) |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lamivudine: predicted new indication simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiviral. The
 | Predicted New Indication | simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

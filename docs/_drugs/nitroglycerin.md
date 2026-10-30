@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 254
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -50,7 +50,7 @@ with **3 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

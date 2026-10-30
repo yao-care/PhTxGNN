@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 320
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 (see note below) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

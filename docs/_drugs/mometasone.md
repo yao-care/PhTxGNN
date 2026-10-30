@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the Philippines registration data"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,7 +50,7 @@ Support is very limited: **0 clinical trials** and **2 publications**, both case
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

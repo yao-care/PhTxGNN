@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Codeine is an opioid medicine (a prodrug converted to morphine in the body) that
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

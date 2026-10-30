@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Latanoprost: predicted new indication visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Latanoprost is a prostaglandin F2-alpha analogue used as an eye drop. The TxGNN 
 | Predicted New Indication | visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

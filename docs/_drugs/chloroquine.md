@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ There are **no registered clinical trials** and only **1 publication**, which st
 | Predicted New Indication | rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

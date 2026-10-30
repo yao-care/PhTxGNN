@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 192
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -50,7 +50,7 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

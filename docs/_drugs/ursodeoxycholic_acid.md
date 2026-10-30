@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

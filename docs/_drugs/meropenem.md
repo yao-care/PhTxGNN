@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 224
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ Among the ten predictions compiled for this report, the best-supported one is **
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 (for bacterial arthritis) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

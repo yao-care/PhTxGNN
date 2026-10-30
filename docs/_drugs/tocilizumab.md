@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The evidence is therefore suggestive but not confirmatory.
 | Predicted New Indication | Ankylosing spondylitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

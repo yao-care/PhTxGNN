@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **trichotillomania**, but there
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

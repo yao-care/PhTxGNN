@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

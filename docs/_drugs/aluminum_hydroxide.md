@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 21
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aluminum Hydroxide: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 4 |
 | Evidence level | Not applicable |
-| Market status in the Philippines | Marketed (valid licenses: 1 of 1) |
+| Market status in the Philippines | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 
 ## Known uses among the model's candidates

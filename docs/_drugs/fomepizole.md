@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fomepizole"
 predicted_indications: ["sclerosing cholangitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fomepizole: predicted new indication sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ No clinical trials or publications currently support this direction, so the pred
 | Predicted New Indication | sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

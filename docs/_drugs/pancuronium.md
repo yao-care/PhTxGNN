@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pancuronium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Pancuronium"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "migraine disorder", "migraine with brainstem aura", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "autonomic nervous system disease", "MVP1"]
@@ -52,7 +52,7 @@ The score is purely computational and the evidence level is L5.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

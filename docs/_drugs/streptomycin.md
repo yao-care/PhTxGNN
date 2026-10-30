@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 319
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis (other listed indications include plague…"
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
@@ -50,7 +50,7 @@ but the evidence is weak: there are **no clinical trials** and only **case repor
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

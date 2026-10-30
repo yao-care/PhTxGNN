@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (urinary tract infection, otitis media…"
 ---
 
@@ -48,7 +48,7 @@ Amoxicillin is a beta-lactam antibiotic whose relations recorded in the knowledg
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Number of Approvals | 1 (single-ingredient product) |
 | Recommended Decision | Hold |

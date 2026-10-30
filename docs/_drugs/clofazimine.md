@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Clofazimine is a riminophenazine antimycobacterial drug. The TxGNN model predict
 | Predicted New Indication | pneumocystosis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

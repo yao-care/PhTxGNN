@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The data compiled for this report include **33 listed clinical trials** and **20
 | Predicted New Indication | myeloid leukemia |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

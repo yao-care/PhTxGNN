@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ Memantine is an NMDA receptor antagonist with a local licence record in the Phil
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

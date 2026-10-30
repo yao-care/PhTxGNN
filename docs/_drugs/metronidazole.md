@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -50,7 +50,7 @@ but **no clinical trials** and only **10 publications** (reviews and case report
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

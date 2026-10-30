@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Anxiety disorder, OCD, PTSD, social phobia and related conditions"
 ---
 
@@ -48,7 +48,7 @@ Sertraline is a selective serotonin reuptake inhibitor (SSRI). The knowledge gra
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

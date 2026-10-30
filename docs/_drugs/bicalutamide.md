@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 44
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bicalutamide: predicted new indication Hypertrichosis (evidence level L4). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be useful for **hypertrichosis**, but there are 
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

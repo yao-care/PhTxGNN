@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ That support consists of **1 clinical trial** (Phase 4, status unknown) and **15
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

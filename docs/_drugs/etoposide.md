@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumors"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked predictions are lung-related rare tumours, but the 
 | Predicted New Indication | Ewing sarcoma (best-supported); the highest-ranked prediction by score is well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN Prediction Score | 0.9994 (well-differentiated fetal adenocarcinoma of the lung) |
 | Evidence Level | L5 (Ewing sarcoma and rhabdomyosarcoma); L3–L5 for the other candidates |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (Ewing sarcoma, rhabdomyosarcoma); Hold for the remaining candidates |
 

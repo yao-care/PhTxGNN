@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 323
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -52,7 +52,7 @@ with **2 clinical trials** (one completed Phase 3, one completed Phase 4) and **
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

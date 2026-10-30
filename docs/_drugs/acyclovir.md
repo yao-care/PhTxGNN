@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ However, there are **no clinical trials** and only **2 publications** retrieved,
 | Predicted New Indication | punctate epithelial keratoconjunctivitis (punctate epithelial keratoconjunctivitis) |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

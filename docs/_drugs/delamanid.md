@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Delamanid"
 predicted_indications: ["allergic urticaria"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Delamanid: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Delamanid is an antimycobacterial drug used against tuberculosis. The TxGNN mode
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

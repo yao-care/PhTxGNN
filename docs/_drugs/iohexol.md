@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iohexol: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -50,7 +50,7 @@ Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging ai
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

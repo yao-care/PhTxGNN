@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available in the Philippines licence record (indication text is e…"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Enoxaparin is a low-molecular-weight heparin anticoagulant. The TxGNN model pred
 | Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

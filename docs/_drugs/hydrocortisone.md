@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L5). Approved use: Adrenocortical insufficiency, Addison disease, autoimmune disease…"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -50,7 +50,7 @@ The only trial used hydrocortisone as the weaker comparator, so it does not show
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L1 by the formal rule (one completed Phase 3 RCT), but effectively weaker because hydrocortisone was the comparator arm and the trial was small |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

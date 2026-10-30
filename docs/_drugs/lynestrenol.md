@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Lynestrenol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "leprosy"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lynestrenol: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the local licence record"
 ---
 
@@ -50,7 +50,7 @@ The evidence is weak and mostly indirect, so this should be treated as a researc
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

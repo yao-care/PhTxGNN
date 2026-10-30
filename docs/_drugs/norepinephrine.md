@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 257
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ but the data compiled for this report show **1 clinical trial (not relevant to t
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

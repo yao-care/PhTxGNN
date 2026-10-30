@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diazepam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Diazepam is a long-established benzodiazepine that enhances GABA-A receptor sign
 | Predicted New Indication | insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 (raw value 0.9999975) |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

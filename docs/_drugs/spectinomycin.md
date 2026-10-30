@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Spectinomycin: predicted new indication disease of uterine broad ligament (evidence level L5). Approved use: Acute gonococcal cervicitis"
 monitor_inn: "Spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "disease of peritoneum", "urethral disease", "embryonic cyst of fallopian tube"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked predictions are unusual non-infectious conditions w
 | Predicted New Indication | Urethral disease (the best-supported of the top 10 predictions; the rank 1 prediction is disease of uterine broad ligament, with no evidence) |
 | TxGNN Prediction Score | 0.9953 (urethral disease); 0.9957 for the rank 1 prediction |
 | Evidence Level | L5 (urethral disease); the other nine predictions are L4–L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

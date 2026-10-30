@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 3
 monitor_inn: "Albendazole"
 predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Albendazole: predicted new indication alveolar echinococcosis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ with **3 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | alveolar echinococcosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

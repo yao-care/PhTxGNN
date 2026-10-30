@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Philippines licence record"
 ---
 
@@ -50,7 +50,7 @@ The prediction rests on a TxGNN model (deep learning) score alone, so the eviden
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

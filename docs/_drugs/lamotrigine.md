@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, partial epilepsy, Lennox-Gastaut syndrome"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,7 +52,7 @@ The best-supported candidate in the list is **trigeminal neuralgia**, with **2 c
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the best-supported candidate |
 | TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 for trigeminal nerve neoplasm; L2 for trigeminal neuralgia |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold for trigeminal nerve neoplasm; Proceed with Guardrails for trigeminal neuralgia as a research question |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The more credible repurposing directions are in other seizure-related and neural
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 2 of 2) |
+| Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

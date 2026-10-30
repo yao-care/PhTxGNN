@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Capecitabine: predicted new indication gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ No clinical trials or publications were found for this disease, so the support i
 | Predicted New Indication | gastric adenocarcinoma and proximal polyposis of the stomach |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

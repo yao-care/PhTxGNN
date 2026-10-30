@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ The data compiled for this report contain **no registered clinical trials** for 
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L1 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

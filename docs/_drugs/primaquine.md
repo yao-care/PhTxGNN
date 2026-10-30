@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The data compiled for this report do show stronger evidence for another predicte
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

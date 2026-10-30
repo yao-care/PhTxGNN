@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,7 +48,7 @@ Ranitidine is an H2-receptor blocker, originally used to treat gastric and duode
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

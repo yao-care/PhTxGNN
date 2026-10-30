@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -52,7 +52,7 @@ The mechanistic link is weak, so this prediction should be treated with caution.
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

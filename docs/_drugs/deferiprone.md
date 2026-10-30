@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 100
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis and beta-thalassemia (related forms include hemoglobino…"
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
@@ -50,7 +50,7 @@ but there are **0 clinical trials** and only **2 preclinical publications** supp
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

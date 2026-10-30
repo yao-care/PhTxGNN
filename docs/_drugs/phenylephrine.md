@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 274
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ The prediction is largely an extension of existing nasal indications rather than
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **obstructive lung disease** (i
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

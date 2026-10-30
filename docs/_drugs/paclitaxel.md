@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,7 @@ with **40 clinical trials** and **20 publications** currently listed for this di
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (L1 for the ER-positive breast cancer sub-node) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

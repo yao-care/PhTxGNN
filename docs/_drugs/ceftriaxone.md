@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections . The local licence record has no indication text"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Licence Records | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

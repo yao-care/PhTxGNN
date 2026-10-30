@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ A complete drug repurposing evaluation **cannot be performed** until the missing
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction not yet generated; no supporting studies retrievable) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 

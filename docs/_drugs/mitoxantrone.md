@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **6 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (nominal; see note below) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

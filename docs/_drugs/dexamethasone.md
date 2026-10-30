@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexamethasone: predicted new indication alopecia areata (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ No registered clinical trials were found, but **20 publications** are listed, in
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L1 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 327
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tegafur: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer (gastric neoplasm, diffuse gastric adenocarcinoma…"
 monitor_inn: "Tegafur"
 predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
@@ -50,7 +50,7 @@ with **16 clinical trials** and **20 publications** currently supporting this di
 | Predicted New Indication | Colonic neoplasm |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L1 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

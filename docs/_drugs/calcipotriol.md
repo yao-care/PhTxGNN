@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 54
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the Philippines registration record"
 monitor_inn: "Calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

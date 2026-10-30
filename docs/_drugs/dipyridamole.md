@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 8
 monitor_inn: "Dipyridamole"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dipyridamole: predicted new indication Thrombotic disease (evidence level L5). Approved use: Atrial fibrillation"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, with **no 
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 (no trials; support comes from reviews and mechanism studies) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 282
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, acute lymphoblastic leukaemia…"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
@@ -50,7 +50,7 @@ with **no registered clinical trials** but **20 publications** (including one do
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

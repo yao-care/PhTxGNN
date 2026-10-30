@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 244
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -50,7 +50,7 @@ with **4 registered clinical trials** (none of which gives direct efficacy evide
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (per the data compiled for this report; see note below) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 3
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ketorolac: predicted new indication headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ with **17 clinical trials** and **20 publications** compiled for this report, ma
 | Predicted New Indication | headache disorder |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

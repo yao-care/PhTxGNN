@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ferrous Gluconate: predicted new indication Plummer-Vinson syndrome (evidence level L4). Approved use: Iron deficiency anemia (also anemia of prematurity, hypochromic…"
 monitor_inn: "Ferrous gluconate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
@@ -52,7 +52,7 @@ The prediction largely reflects an extension of the existing anemia indication r
 | Predicted New Indication | Plummer-Vinson syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not stated in the local licence record. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence…"
 ---
 
@@ -50,7 +50,7 @@ The best-supported repurposing directions in the data compiled for this report a
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Number of Approvals | 1 registration (single-ingredient) |
 | Recommended Decision | Hold |

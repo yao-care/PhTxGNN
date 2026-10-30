@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
@@ -50,7 +50,7 @@ A second prediction, *Staphylococcus aureus* infection, has more support (**2 cl
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 237
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Midazolam: predicted new indication Insomnia (evidence level L3). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 clinical
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

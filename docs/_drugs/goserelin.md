@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Goserelin: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis (including endometriosis of uterus)"
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -52,7 +52,7 @@ However, amenorrhea is largely an expected pharmacological effect of goserelin r
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

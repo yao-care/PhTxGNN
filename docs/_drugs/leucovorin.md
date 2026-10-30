@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Megaloblastic anemia"
 monitor_inn: "Leucovorin"
 predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency"]
@@ -50,7 +50,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

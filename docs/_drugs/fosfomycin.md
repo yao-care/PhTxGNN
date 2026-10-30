@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **uterine inflammatory disease*
 | Predicted New Indication | Uterine inflammatory disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (no cited study directly addresses this disease) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Licences | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

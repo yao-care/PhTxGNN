@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ This prediction rests on a computational model alone.
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

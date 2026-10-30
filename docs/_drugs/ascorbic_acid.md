@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
@@ -52,7 +52,7 @@ At present there are **0 clinical trials** and **0 publications** supporting thi
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 2 of 2) |
+| Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

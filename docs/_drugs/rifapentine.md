@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 295
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Rifapentine: predicted new indication Leprosy (evidence level L3). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **leprosy**, with **no register
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

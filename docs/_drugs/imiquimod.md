@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Imiquimod: predicted new indication pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,7 +52,7 @@ with **2 clinical trials** and **9 publications** currently linked to this direc
 | Predicted New Indication | pre-malignant neoplasm |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

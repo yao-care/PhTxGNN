@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Anastrozole is an aromatase inhibitor (estrogen-lowering hormonal therapy). The 
 | Predicted New Indication | neuroblastoma |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

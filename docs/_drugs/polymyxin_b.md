@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4)."
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -51,7 +51,7 @@ The evidence level is low (L4), so the recommendation is **Hold**.
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

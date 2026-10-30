@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Interferon alfa"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "interventricular septum aneurysm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Interferon Alfa: predicted new indication heart disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Interferon alfa is an immunomodulatory cytokine, and the approved indication is 
 | Predicted New Indication | heart disease |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "secretory uterine corpus endometrioid adenocarcinoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Ovarian cancer and related ovarian tumours"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **rectum mucinous adenocarcinom
 | Predicted New Indication | Rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Licences | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

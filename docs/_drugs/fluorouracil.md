@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Relations recorded in the knowledge graph (not label-approved): super…"
 ---
 
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **rhabdomyosarcoma** and relate
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina (top-ranked prediction); the broader "rhabdomyosarcoma" entry is also discussed below |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 (no cited study directly addresses the top-ranked disease; no clinical trials) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Philippines registration record (general anaesthesi…"
 monitor_inn: "Isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -50,7 +50,7 @@ Isoflurane is a volatile (inhaled) general anaesthetic. The TxGNN model predicts
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

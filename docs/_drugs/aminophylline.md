@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 23
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

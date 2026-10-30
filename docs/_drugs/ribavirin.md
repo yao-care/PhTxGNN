@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L2). Approved use: Chronic hepatitis C virus infection"
 ---
 
@@ -50,7 +50,7 @@ The data compiled for this report include **15 clinical trials** and **20 public
 | Predicted New Indication | Chronic hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Number of Approvals | 1 licence (single-ingredient, valid) |
 | Recommended Decision | Hold |

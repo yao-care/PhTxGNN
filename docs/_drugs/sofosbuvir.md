@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 315
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -52,7 +52,7 @@ The evidence says more about HBV reactivation risk during HCV treatment than abo
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

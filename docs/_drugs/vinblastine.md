@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 356
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
@@ -52,7 +52,7 @@ Currently **no registered clinical trials** exist for this prediction, and the e
 | Predicted New Indication | Rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

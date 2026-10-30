@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bedaquiline: predicted new indication vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Bedaquiline is an antimycobacterial drug that targets mycobacterial ATP synthase
 | Predicted New Indication | vulvovaginal candidiasis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

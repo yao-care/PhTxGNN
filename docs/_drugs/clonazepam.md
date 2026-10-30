@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 3
 monitor_inn: "Clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ No clinical trials are registered for this prediction, and the supporting eviden
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

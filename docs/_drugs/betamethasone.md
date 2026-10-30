@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Betamethasone: predicted new indication alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,7 +50,7 @@ with **6 clinical trials** (1 of them a completed Phase 2 trial with betamethaso
 | Predicted New Indication | alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

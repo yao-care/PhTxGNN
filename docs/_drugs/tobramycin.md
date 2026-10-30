@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 338
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial meningitis, uveitis, conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

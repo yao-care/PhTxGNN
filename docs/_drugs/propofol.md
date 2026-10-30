@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 284
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the Philippines license data (general anesthesia/seda…"
 monitor_inn: "Propofol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **3
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

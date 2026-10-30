@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 27
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Urinary tract infection, infectious otitis media, bacterial pneumonia…"
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -52,7 +52,7 @@ However, there are **0 registered clinical trials** and only **literature of low
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

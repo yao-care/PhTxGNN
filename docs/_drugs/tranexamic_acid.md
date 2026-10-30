@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,7 +52,7 @@ there are **0 registered clinical trials** and **2 review articles** (indirectly
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| Philippines Market Status | Marketed (valid licenses: 1 of 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of Registrations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
