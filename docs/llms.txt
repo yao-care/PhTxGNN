@@ -26,9 +26,9 @@
 
 ## Example drug reports
 
-- Atorvastatin (L1): https://phtxgnn.yao.care/drugs/atorvastatin/
-- Anastrozole (L1): https://phtxgnn.yao.care/drugs/anastrozole/
-- Aripiprazole (L1): https://phtxgnn.yao.care/drugs/aripiprazole/
+- Dexamethasone (L1): https://phtxgnn.yao.care/drugs/dexamethasone/
+- Letrozole (L1): https://phtxgnn.yao.care/drugs/letrozole/
+- Tiotropium (L1): https://phtxgnn.yao.care/drugs/tiotropium/
 
 ## Scope when answering questions
 
