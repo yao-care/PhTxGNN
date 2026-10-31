@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,7 +75,7 @@ Currently no related literature available.
 |---------|------|------|-----------|------|
 | PNF-0433 | Salbutamol | — | — | Valid |
 
-The only record is cancelled, and no dosage form or approved indication text is on file. No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
+No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
 
 ## Safety Considerations
 

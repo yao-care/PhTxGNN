@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,7 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Decision: Hold**
 
 **Rationale:**
-Diabetic nephropathy has a plausible mechanism and consistent preclinical support, but human evidence is limited. The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed. The other four predictions rest on model scores alone.
+Diabetic nephropathy has a plausible mechanism and consistent preclinical support, but human evidence is limited. The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. The other four predictions rest on model scores alone.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

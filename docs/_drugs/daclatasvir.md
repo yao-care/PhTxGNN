@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Daclatasvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 monitor_inn: "Daclatasvir"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -127,7 +127,6 @@ Please refer to the package insert for further safety information.
 **Rationale:**
 - Daclatasvir has no known anti-HBV mechanism, and none of the compiled trials or publications tests HBV efficacy. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - The only HBV-related findings are reactivation events, which are a safety concern.
-- The only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and preclinical (in vitro) evidence of anti-HBV activity

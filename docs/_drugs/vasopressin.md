@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not available"
 monitor_inn: "Vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -94,7 +94,7 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials, only indirect literature on other factor deficiencies (and on desmopressin rather than vasopressin), and no plausible mechanism for raising prothrombin. The second prediction has no supporting evidence at all. The only Philippine registration is cancelled, and label-based safety information is missing.
+The top prediction has no clinical trials, only indirect literature on other factor deficiencies (and on desmopressin rather than vasopressin), and no plausible mechanism for raising prothrombin. The second prediction has no supporting evidence at all.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing, and blocking safety screening)

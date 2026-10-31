@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 293
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Rifabutin: predicted new indication HIV infectious disease (in practice, HIV-associated MAC/TB) (evidence level L1). Approved use: Not available in the Philippines license record"
 monitor_inn: "Rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -125,7 +125,6 @@ Several Phase 3 randomized trials support rifabutin-containing regimens for MAC 
 **To proceed, the following is needed:**
 - Define the indication as HIV-associated MAC/TB, not HIV infection.
 - Obtain the package insert warnings and contraindications.
-- Confirm the original approved indication and the registration pathway, since the only license is cancelled.
 - Prepare an interaction management plan for protease inhibitors, cabotegravir/rilpivirine, dolutegravir and other ART.
 - Plan monitoring for neutropenia and uveitis, with particular care in children.
 - Obtain detailed mechanism of action data from DrugBank.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,14 +92,13 @@ One item with data: the pharmacology record lists ASIC3 as an interacting target
 **Decision: Hold**
 
 **Rationale:**
-The prediction for papillary conjunctivitis has no supporting clinical trials or literature (evidence level L5). The only Philippines registration is cancelled, and the mechanistic link is speculative with ocular safety concerns. Most other top predictions are rare genetic disorders with no plausible biological link.
+The prediction for papillary conjunctivitis has no supporting clinical trials or literature (evidence level L5). Most other top predictions are rare genetic disorders with no plausible biological link.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Philippines regulator (currently missing, and blocking safety screening)
 - Mechanism of action data (for example, from DrugBank)
 - Preclinical or literature evidence on salicylic acid in allergic or inflammatory ocular surface disease
 - Ocular tolerability and safety assessment, plus a feasible ophthalmic formulation and route
-- Clarification of the market status, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

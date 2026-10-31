@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the registration record"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -103,7 +103,6 @@ Please refer to the package insert for full warnings and contraindications.
 
 **Rationale:**
 - The score is high, but there are no clinical trials and no literature showing benefit. The available evidence points to harm (pulmonary toxicity, methotrexate interaction), and there is no plausible mechanism.
-- The only Philippine registration is cancelled, with no recorded indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible anti-rheumatic rationale

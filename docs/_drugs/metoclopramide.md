@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -113,7 +113,7 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Decision: Hold**
 
 **Rationale:**
-The only registered trial and the most recent randomized studies concern a procedural use (endoscopic visualization in GI bleeding), not ulcer treatment. Mechanistically, metoclopramide offers no acid suppression or mucosal healing. The knowledge graph also lists active peptic ulcer disease among its contraindications. In addition, the only Philippine registration is cancelled.
+The only registered trial and the most recent randomized studies concern a procedural use (endoscopic visualization in GI bleeding), not ulcer treatment. Mechanistically, metoclopramide offers no acid suppression or mucosal healing. The knowledge graph also lists active peptic ulcer disease among its contraindications.
 
 The other predictions are also weak:
 - Gastroduodenitis: 0.9990, L3, research question only

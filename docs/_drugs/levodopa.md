@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders"
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -98,7 +98,7 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high model score. There are no clinical trials or publications, and no plausible mechanism is evident. Levodopa would not be expected to address the inflammatory and epileptogenic basis of Rasmussen encephalitis. Its only Philippines registration is cancelled, and epilepsy appears among its knowledge-graph contraindications.
+The prediction is supported only by a high model score. There are no clinical trials or publications, and no plausible mechanism is evident. Levodopa would not be expected to address the inflammatory and epileptogenic basis of Rasmussen encephalitis.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a mechanistic rationale for Rasmussen encephalitis

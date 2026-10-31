@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Methylene blue"
 predicted_indications: ["bronchitis"]
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -125,7 +125,7 @@ Serotonin syndrome risk with serotonergic drugs is a key guardrail. Please also 
 **Decision: Hold**
 
 **Rationale:**
-- The very high TxGNN score for bronchitis is not backed by any clinical trial or relevant publication; the apparent link is probably keyword co-occurrence. The methemoglobinemia subtypes are mechanistically sound but are extensions of the existing indication, not new repurposing. The only Philippines registration is cancelled.
+- The very high TxGNN score for bronchitis is not backed by any clinical trial or relevant publication; the apparent link is probably keyword co-occurrence. The methemoglobinemia subtypes are mechanistically sound but are extensions of the existing indication, not new repurposing.
 
 **To proceed, the following is needed:**
 - Preclinical or clinical evidence that methylene blue treats bronchitis, if that indication is to be pursued

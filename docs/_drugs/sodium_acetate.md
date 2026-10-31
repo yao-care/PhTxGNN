@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,7 +94,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no clinical trials or relevant literature, and no plausible mechanism links sodium acetate to prothrombin deficiency. The only Philippines registration is cancelled, so there is no current local product to repurpose. The knowledge-graph contraindications, especially renal and cardiac disease, add further caution.
+The prediction rests on a model score alone (L5), with no clinical trials or relevant literature, and no plausible mechanism links sodium acetate to prothrombin deficiency. The knowledge-graph contraindications, especially renal and cardiac disease, add further caution.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

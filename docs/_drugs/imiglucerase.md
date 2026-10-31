@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,7 +93,7 @@ For other safety information (warnings and contraindications), please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a single general review and no clinical trials. The mechanism does not fit, since imiglucerase targets glucosylceramide rather than the glycosaminoglycans that accumulate in Hurler syndrome. An approved, disease-specific therapy already exists. In addition, the only Philippines registration is cancelled.
+The prediction rests on a single general review and no clinical trials. The mechanism does not fit, since imiglucerase targets glucosylceramide rather than the glycosaminoglycans that accumulate in Hurler syndrome. An approved, disease-specific therapy already exists.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data

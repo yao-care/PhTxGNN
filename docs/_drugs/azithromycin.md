@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not stated in the local licence record. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence…"
 ---
 
@@ -116,7 +116,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, hyperamylasemia, rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no publications and no supported mechanism. The strongest alternative direction (sickle cell disease) has only withdrawn trials and indirect evidence. Safety signals, especially QT prolongation, add to the need for caution.
+The top prediction, hyperamylasemia, rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no publications and no supported mechanism. Safety signals, especially QT prolongation, add to the need for caution.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link to the predicted disease

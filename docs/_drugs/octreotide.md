@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,7 +94,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score, with no clinical trials, no literature and no established mechanistic link. The only Philippines registration is cancelled, and safety label data are missing.
+The prediction is supported only by the TxGNN score, with no clinical trials, no literature and no established mechanistic link.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g., from DrugBank) and a plausible biological link between somatostatin receptor signaling and the benign keratinocyte lesions

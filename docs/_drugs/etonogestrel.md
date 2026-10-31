@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Etonogestrel: predicted new indication amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
@@ -87,7 +87,7 @@ No package insert warnings or contraindications were available. Please refer to 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score (L5). No clinical trials support it, and the one linked publication is unrelated. Amenorrhea is an expected effect of this drug rather than a treatable condition, and the only Philippines registration is cancelled.
+The prediction rests only on a model score (L5). No clinical trials support it, and the one linked publication is unrelated.
 
 **To proceed, the following is needed:**
 - A clear clinical rationale showing whether amenorrhea or a benign breast condition is a therapeutic target rather than an expected effect

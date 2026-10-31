@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 192
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -116,13 +116,12 @@ Package insert warnings and contraindications were not available, so please refe
 
 **Rationale:**
 - The biological rationale is plausible, and the ED trials directly test ketamine in headache. However, no efficacy results were provided, the trials are small, the only Phase 3 trial of note is complete without reported outcomes, and the other is still recruiting.
-- The only Philippine registration is cancelled, with no recorded indication or dosage form. No label safety information is available, and the knowledge graph flags many cardiovascular and cerebrovascular contraindications, which matter for headache patients.
+No label safety information is available, and the knowledge graph flags many cardiovascular and cerebrovascular contraindications, which matter for headache patients.
 
 **To proceed, the following is needed:**
 - Published results from THINK (NCT03081416), CHECK (NCT02657031), and the placebo-controlled migraine trial (NCT02697071), plus the KetHead outcomes when available.
 - A clearer target headache subtype (acute ED migraine, cluster headache, or chronic daily headache).
 - The Philippine package insert (warnings and contraindications) and a curated mechanism of action.
-- Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and available routes (IV, intranasal).
 - A safety plan for patients with cardiovascular, cerebrovascular, or substance-use risk factors, and an interaction-management plan for opioids and sympathomimetics.
 ## Disclaimer
 

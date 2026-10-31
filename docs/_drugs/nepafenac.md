@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 249
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -131,7 +131,6 @@ For formal warnings and contraindications, please refer to the package insert.
 
 **Rationale:**
 - Several large Phase 3 RCTs, including diabetic cohorts of over 800 participants each, support nepafenac for post-cataract-surgery inflammation, pain and macular edema, and a network meta-analysis supports the class. The evidence is strong for this established use, not for the broad "eye disease" label.
-- The only Philippines registration is cancelled, and the original indication, mechanism data and label safety information are missing.
 
 **To proceed, the following is needed:**
 - Confirm the regulatory status and whether re-registration or import is feasible, since the sole Philippines license is cancelled.

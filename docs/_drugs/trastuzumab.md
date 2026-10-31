@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -144,7 +144,6 @@ Large Phase 3 data, including a completed adjuvant trial of 3,270 patients, supp
 
 **To proceed, the following is needed:**
 - Restrict use to confirmed HER2-positive disease; no benefit is expected in HR+/HER2-negative or triple-negative disease
-- A currently valid Philippines registration (the only registration on record is cancelled)
 - Package insert warnings and contraindications, which are not yet available
 - Detailed mechanism of action data
 - A cardiac monitoring plan and a review of the Major drug interactions

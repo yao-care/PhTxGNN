@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Goserelin: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis (including endometriosis of uterus)"
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -127,7 +127,6 @@ The only related trial is a breast cancer study where amenorrhea is not the targ
 **To proceed, the following is needed:**
 - A clear definition of the intended use (induced amenorrhea, for example for heavy bleeding or fertility protection, versus treatment of pathological amenorrhea)
 - Mechanism of action data and package insert safety information (warnings and contraindications)
-- Clarification of regulatory status in the Philippines, since the only registration is cancelled
 - Prospective clinical evidence with amenorrhea or ovarian protection as a defined endpoint
 ## Disclaimer
 

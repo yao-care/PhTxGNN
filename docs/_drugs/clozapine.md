@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "psychotic disorder", "Malan overgrowth syndrome"]
@@ -119,7 +119,6 @@ No package insert warnings or contraindications were available in the data compi
 
 **Rationale:**
 - For manic bipolar affective disorder alone, the evidence is a single completed Phase 2 trial (n=42) plus a meta-analysis (L2). The broader bipolar disorder indication has a completed Phase 3 placebo-controlled trial (in children and adolescents) and several ongoing trials. Clozapine's risks (agranulocytosis, myocarditis, seizures, metabolic effects) argue for restricting use to treatment-refractory patients.
-- Clozapine's only Philippines registration is cancelled, so no product is currently marketed there under this registration.
 
 **To proceed, the following is needed:**
 - Verify the regulatory status and approved indications of clozapine in the Philippines, including whether any product is currently valid.

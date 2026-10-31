@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Spectinomycin: predicted new indication disease of uterine broad ligament (evidence level L5). Approved use: Acute gonococcal cervicitis"
 monitor_inn: "Spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "disease of peritoneum", "urethral disease", "embryonic cyst of fallopian tube"]
@@ -98,7 +98,6 @@ The 20 publications retrieved for urethral disease are listed below, ranked by r
 |---------|------|------|-----------|
 | PNF-0457 | Spectinomycin | Not recorded | Not recorded (status: valid) |
 
-The only registration is cancelled, so the drug is not currently authorized in the Philippines.
 
 ---
 

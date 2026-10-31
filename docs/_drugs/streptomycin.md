@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 319
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Streptomycin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis (other listed indications include plague…"
 monitor_inn: "Streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
@@ -107,7 +107,7 @@ Please refer to the package insert for further safety information, as label warn
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by case reports, reviews and laboratory studies, mostly tied to tularemia and brucellosis, not to conjunctivitis in general. Safer topical alternatives already exist, systemic streptomycin carries ototoxicity and nephrotoxicity risks, and the only Philippines registration is cancelled.
+The prediction is supported only by case reports, reviews and laboratory studies, mostly tied to tularemia and brucellosis, not to conjunctivitis in general.
 
 **To proceed, the following is needed:**
 - Controlled clinical evidence for streptomycin in bacterial conjunctivitis (none currently exists)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -143,7 +143,6 @@ The myiasis prediction is supported only by the model score, with no trials, no 
 - Package insert warnings and contraindications.
 - Detailed mechanism of action data.
 - A decision on whether to redirect the evaluation to the better-supported indications. These are malaria transmission-blocking and *Pneumocystis* pneumonia as a second-line combination, and both would need G6PD screening guardrails.
-- Clarification of the regulatory position in the Philippines, since the only registration (PNF-0400) is cancelled.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

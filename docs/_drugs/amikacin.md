@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,7 +100,7 @@ Safety information from the compiled data is limited. Package insert warnings an
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the evidence consists of surveillance, susceptibility, and case-level reports with no efficacy trials for amikacin. Aminoglycosides are not standard therapy for paratyphoid or enteric fever, because of poor intracellular penetration and the availability of better-established agents. The only Philippine registration is cancelled, and package insert safety data are missing.
+The prediction score is very high, but the evidence consists of surveillance, susceptibility, and case-level reports with no efficacy trials for amikacin. Aminoglycosides are not standard therapy for paratyphoid or enteric fever, because of poor intracellular penetration and the availability of better-established agents.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines

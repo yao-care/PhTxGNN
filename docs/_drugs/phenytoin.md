@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,7 +105,6 @@ The prediction rests on model output alone (L5). There are no clinical trials an
 - Evidence of anti-tumour activity or a clinically meaningful role in trigeminal nerve tumours, such as symptom control or seizure prophylaxis
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for the Philippines
-- Confirmation of whether any valid phenytoin product is available locally, since the only registration is cancelled
 - A review of the related prediction **trigeminal neuralgia**. It has L3 evidence, including guidelines, reviews, and retrospective cohorts of IV phenytoin for acute exacerbations. It is a more practical research question than the neoplasm prediction, but only as a niche option when oral therapy is not possible.
 ## Disclaimer
 

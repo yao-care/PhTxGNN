@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Bisoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Bisoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
@@ -104,7 +104,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-All predictions are supported only by the computational score (L5), with no registered trials and no direct literature. The top prediction is essentially an extension of the existing hypertension indication, where beta-blockers play a supportive rather than primary role. Other predictions have weak or potentially unfavorable mechanistic links. The only Philippines registration is cancelled.
+All predictions are supported only by the computational score (L5), with no registered trials and no direct literature. The top prediction is essentially an extension of the existing hypertension indication, where beta-blockers play a supportive rather than primary role. Other predictions have weak or potentially unfavorable mechanistic links.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -115,7 +115,6 @@ The TxGNN score is very high, but no clinical trials exist and the literature co
 - Obtain mechanism of action data to support a mechanistic link.
 - Obtain package-insert warnings and contraindications from the DOH-FDA Philippines website.
 - Assess whether the available routes of administration are compatible with an ocular indication.
-- Clarify the regulatory pathway given that the only registration (PNF-0264) is cancelled.
 - Weigh ocular adverse-effect risk, hepatotoxicity and neuropathy risks against any potential benefit.
 ## Disclaimer
 

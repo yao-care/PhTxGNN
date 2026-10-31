@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -122,7 +122,6 @@ Please refer to the package insert for further safety information, as label warn
 
 **Rationale:**
 - Schizophrenia has the strongest support among the predictions, with several randomized trials of selegiline for negative symptoms. However, results are mixed, the registered trial is early phase, and no completed Phase 2/3 results are available in the compiled data. The other three predictions have no credible support.
-- The only Philippines registration is cancelled, and the knowledge graph lists psychotic disorders as contraindications, which adds a safety question for this population.
 
 **To proceed, the following is needed:**
 - Review the full results of the RCTs (PMIDs 15677608, 17972359, 10587287) and the 2023 meta-analysis (PMID 37087864) to judge the net effect on negative symptoms

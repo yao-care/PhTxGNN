@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -106,7 +106,6 @@ The clinical record is mixed. Historic Phase II studies of conventional mitoxant
 |---------|------|------|-----------|
 | PNF-0328 | Mitoxantrone | Not recorded | Not recorded (status: valid) |
 
-The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines.
 
 ---
 
@@ -142,7 +141,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Head and neck cancer has the strongest evidence among the eight predictions: a completed Phase Ib study, a 2025 publication, and an upcoming Phase III trial in nasopharyngeal carcinoma. However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data apply to the liposomal formulation, and the only Philippine registration is cancelled. Treat this as a research question rather than a ready-to-implement indication.
+Head and neck cancer has the strongest evidence among the eight predictions: a completed Phase Ib study, a 2025 publication, and an upcoming Phase III trial in nasopharyngeal carcinoma. Treat this as a research question rather than a ready-to-implement indication.
 
 **To proceed, the following is needed:**
 - Results from the Phase III trial NCT05717764 and the Phase II trials in nasopharyngeal carcinoma

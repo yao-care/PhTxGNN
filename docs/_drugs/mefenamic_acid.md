@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L3)."
@@ -117,7 +117,6 @@ Please refer to the package insert for the full warnings and contraindications.
 
 **Rationale:**
 - Mefenamic acid has only small, decades-old crossover studies in rheumatoid arthritis. They show symptom relief comparable to other NSAIDs, with no registered trials and no disease-modifying effect.
-- The only Philippines registration is cancelled, and the package insert data are missing.
 
 By comparison, migraine is a stronger candidate for this drug. It has several double-blind trials and a Proceed with Guardrails rating in the same analysis.
 

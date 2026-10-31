@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -87,7 +87,6 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | PNF-0288 | Levonorgestrel | Not specified | Not specified (status: valid) |
 
-The only registration found is cancelled, so no product is currently marketed under it.
 
 ## Safety Considerations
 

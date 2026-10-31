@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -111,7 +111,7 @@ Please refer to the package insert for label-based warnings and contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no clinical trials and only two indirectly related reviews. Tranexamic acid reduces bleeding rather than treating amenorrhea, so the mechanistic link is weak. The only Philippines registration is cancelled, and label safety data are missing.
+The prediction rests on a model score alone, with no clinical trials and only two indirectly related reviews. Tranexamic acid reduces bleeding rather than treating amenorrhea, so the mechanistic link is weak.
 
 **To proceed, the following is needed:**
 - Clarify whether the intended use is really amenorrhea or bleeding control and menses suppression, and re-define the target indication accordingly

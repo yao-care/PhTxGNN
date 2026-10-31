@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 231
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methylprednisolone: predicted new indication Alopecia areata (evidence level L5). Approved use: Autoimmune disease, adrenocortical insufficiency…"
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -105,7 +105,6 @@ Package insert warnings and contraindications were not available. Please refer t
 
 **Rationale:**
 - Alopecia areata has a clear immune-mediated rationale, one completed Phase 4 study, and a substantial body of pulse-methylprednisolone literature. Most of it is open-label, retrospective or review-level, and the literature reports high relapse rates, so the evidence is graded L2 conservatively rather than as confirmed Phase 3 RCT-level.
-- The only Philippines registration is cancelled, so there is currently no marketed product locally.
 
 **To proceed, the following is needed:**
 - Review of the NCT01167946 design and results (randomisation, control arm, response and relapse outcomes)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
 description: "Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -107,7 +107,6 @@ The prediction is supported only by the model score, with no clinical trials or 
 - Mechanism of action data (for example from DrugBank) to assess any biological link to vasculitis
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A literature and trial search specific to sulfacetamide and postinfectious vasculitis
-- Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes
 - If any further work is pursued, a review of the more clinically plausible ocular and otic predictions (for example otitis externa, punctate epithelial keratoconjunctivitis), with attention to the erythema multiforme safety signal
 ## Disclaimer
 

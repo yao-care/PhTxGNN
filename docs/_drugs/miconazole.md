@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 236
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Miconazole: predicted new indication acne (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
@@ -106,7 +106,7 @@ Product label warnings and contraindications were not available. Please refer to
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible, but the evidence is limited to a review, one small non-randomized study, in vitro data and a study of a related condition. There are no registered clinical trials. In addition, the only Philippines registration is cancelled, and product label safety data is missing, so safety screening cannot yet proceed.
+The prediction is mechanistically plausible, but the evidence is limited to a review, one small non-randomized study, in vitro data and a study of a related condition. There are no registered clinical trials.
 
 **To proceed, the following is needed:**
 - Obtain the package insert warnings and contraindications from the DOH-FDA Philippines website, which is a blocking gap for safety screening

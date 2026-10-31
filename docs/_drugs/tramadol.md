@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Tramadol"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,7 +95,6 @@ The prediction has a very high model score but no clinical trials, no literature
 - Mechanism of action data and a biological rationale linking tramadol to the GDF5/CDMP1 pathway
 - Preclinical or clinical evidence for the predicted indication (or a decision to focus on a symptomatic pain indication instead)
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the regulatory status, since the only registration is cancelled
 - A safety assessment for the target population, especially children
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -116,7 +116,7 @@ Currently no related literature available.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials, no literature and no tumor-specific mechanistic evidence for pulmonary blastoma. The only Philippines registration is cancelled, and methotrexate has significant toxicity, including pulmonary toxicity.
+The prediction rests on a model score alone (L5), with no trials, no literature and no tumor-specific mechanistic evidence for pulmonary blastoma.
 
 **To proceed, the following is needed:**
 - Case reports, series or preclinical data on methotrexate in pulmonary blastoma, or a clear mechanistic rationale for this tumor

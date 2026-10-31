@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,7 +95,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the evidence is a single case report with no trials, and it mainly reflects tetracycline's existing use in chlamydial eye infection. The only Philippines registration is cancelled, which limits practical development.
+The prediction score is high, but the evidence is a single case report with no trials, and it mainly reflects tetracycline's existing use in chlamydial eye infection.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing and blocking safety screening)

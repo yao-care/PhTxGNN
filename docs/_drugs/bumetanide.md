@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L4). Approved use: Congestive heart failure"
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
@@ -116,7 +116,7 @@ None of these publications directly studies bumetanide in acute pulmonary heart 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only model-level support (Evidence Level L4): no clinical trials and no literature specific to acute pulmonary heart disease. The mechanism is plausible only as indirect decongestive support, and over-diuresis could harm patients with preload-dependent right ventricular failure. In addition, the only Philippines registration is cancelled.
+The prediction has only model-level support (Evidence Level L4): no clinical trials and no literature specific to acute pulmonary heart disease. The mechanism is plausible only as indirect decongestive support, and over-diuresis could harm patients with preload-dependent right ventricular failure.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

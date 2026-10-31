@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -90,7 +90,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled. The risk-benefit balance for a functional gut condition like IBS is unfavorable.
+The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. The risk-benefit balance for a functional gut condition like IBS is unfavorable.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link to IBS

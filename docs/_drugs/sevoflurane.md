@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Philippines licence record (sevoflurane is known as…"
 monitor_inn: "Sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -115,7 +115,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for Prinzmetal angina has no supporting clinical trials or literature (L5). Sevoflurane is an inhaled anaesthetic that is not suited to chronic treatment of this condition. In the Philippines its only registration is cancelled. The same applies to the other nine predicted indications, which lack trials and have only incidental anaesthesia literature.
+The prediction for Prinzmetal angina has no supporting clinical trials or literature (L5). Sevoflurane is an inhaled anaesthetic that is not suited to chronic treatment of this condition. The same applies to the other nine predicted indications, which lack trials and have only incidental anaesthesia literature.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess any link to coronary vasospasm

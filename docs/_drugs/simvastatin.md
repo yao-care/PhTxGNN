@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,7 +109,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials, including ENHANCE and the adolescent ezetimibe-simvastatin trial, directly evaluate simvastatin in familial hypercholesterolemia, and Cochrane reviews and guidelines support statin use. The indication is essentially on-label. The only Philippine registration is cancelled, and the label safety data is missing. Ranks 2, 3, 5, 7 and 8 have no supporting evidence (Hold), and HIV is a research question limited by interaction risk.
+Multiple completed Phase 3 trials, including ENHANCE and the adolescent ezetimibe-simvastatin trial, directly evaluate simvastatin in familial hypercholesterolemia, and Cochrane reviews and guidelines support statin use. The indication is essentially on-label. Ranks 2, 3, 5, 7 and 8 have no supporting evidence (Hold), and HIV is a research question limited by interaction risk.
 
 **To proceed, the following is needed:**
 - Obtain the package insert from DOH-FDA Philippines to complete warnings and contraindications (a blocking gap for safety screening)

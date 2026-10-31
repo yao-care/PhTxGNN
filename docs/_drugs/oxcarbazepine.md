@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -99,13 +99,11 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence.
 
 **To proceed, the following is needed:**
 - A targeted literature search for oxcarbazepine in visual or photosensitive epilepsy, ideally with case series or controlled data
 - Detailed mechanism of action data (MOA) from DrugBank
 - The package insert (warnings and contraindications) from the DOH-FDA Philippines
-- Clarification of the licence situation (the only registration is cancelled) and available dosage forms
 - Review of the relevant safety signals, including seizure aggravation in generalized epilepsy, hyponatraemia/SIADH, and renal impairment
 - A reassessment of other candidates: status epilepticus and restless legs syndrome have case-level reports only, and the remaining reflex seizure types have little or no direct evidence
 ## Disclaimer

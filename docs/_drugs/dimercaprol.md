@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Dimercaprol: predicted new indication Bronchitis (evidence level L4). Approved use: Heavy metal poisoning (arsenic, mercury, gold, lead)"
 monitor_inn: "Dimercaprol"
 predicted_indications: ["bronchitis"]
@@ -85,7 +85,7 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The only evidence is a 1963 case report in which bronchitis was a consequence of mercury exposure, so it does not show that dimercaprol treats bronchitis. The high TxGNN score is not backed by clinical evidence, and the only Philippines registration is cancelled, which limits practical feasibility.
+The only evidence is a 1963 case report in which bronchitis was a consequence of mercury exposure, so it does not show that dimercaprol treats bronchitis.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

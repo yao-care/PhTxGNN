@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 description: "Danazol: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -117,13 +117,12 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication appears to be a directional mismatch, because amenorrhea is an effect of danazol rather than a disease it treats. There are no clinical trials, and the evidence is at L4. In addition, the only Philippines registration is cancelled.
+- The predicted indication appears to be a directional mismatch, because amenorrhea is an effect of danazol rather than a disease it treats. There are no clinical trials, and the evidence is at L4.
 
 **To proceed, the following is needed:**
 - Confirm whether the prediction reflects a true therapeutic target or only the drug's known pharmacological effect (for example, by reviewing the TxGNN mapping of this indication)
 - Consider re-evaluating the benign breast disease predictions (benign mammary dysplasia, breast adenosis), which have more supporting literature but overlap with the existing indication
 - Obtain the package insert (warnings and contraindications) and mechanism of action data
-- Clarify the regulatory pathway, since the only Philippines registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

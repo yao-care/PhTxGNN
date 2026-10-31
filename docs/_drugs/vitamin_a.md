@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -109,7 +109,7 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. No trials or publications support it, and there is no plausible mechanistic link to the vitamin K-dependent prothrombin pathway. The only Philippine registration is cancelled.
+The prediction rests only on a model score. No trials or publications support it, and there is no plausible mechanistic link to the vitamin K-dependent prothrombin pathway.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological hypothesis linking vitamin A to prothrombin deficiency

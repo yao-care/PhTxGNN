@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 282
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, acute lymphoblastic leukaemia…"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "tenosynovitis", "prolapse of lacrimal gland"]
@@ -105,10 +105,9 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible and a double-blind randomized trial supports low-dose prednisone as part of a combination regimen in severe alopecia areata. However, there are no registered trials, much of the evidence is old or consists of small case series, relapse after withdrawal is common, and the only Philippine registration is cancelled.
+The mechanism is plausible and a double-blind randomized trial supports low-dose prednisone as part of a combination regimen in severe alopecia areata.
 
 **To proceed, the following is needed:**
-- Confirm a currently valid Philippine registration or product source, since the only licence on record is cancelled
 - Obtain the package insert warnings and contraindications for formal safety screening
 - Obtain detailed mechanism of action data
 - Define a defined use case (for example, short-course bridging or combination with methotrexate or a JAK inhibitor) with steroid-exposure limits and monitoring of blood pressure, glucose and eye health

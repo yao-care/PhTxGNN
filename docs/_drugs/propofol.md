@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 284
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the Philippines license data (general anesthesia/seda…"
 monitor_inn: "Propofol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -117,7 +117,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A completed Phase 2/3 trial and several randomized trials in the emergency department support propofol for acute migraine, which fits evidence level L2. However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 RCT.
+A completed Phase 2/3 trial and several randomized trials in the emergency department support propofol for acute migraine, which fits evidence level L2.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Aripiprazole: predicted new indication Major affective disorder (major depressive disorder) (evidence level L1). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia…"
 monitor_inn: "Aripiprazole"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
@@ -118,7 +118,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 placebo-controlled trials (each with several hundred to over 1,000 participants) and several network meta-analyses support adjunctive aripiprazole in major depressive disorder. However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further steps.
+Multiple completed Phase 3 placebo-controlled trials (each with several hundred to over 1,000 participants) and several network meta-analyses support adjunctive aripiprazole in major depressive disorder.
 
 **To proceed, the following is needed:**
 - Confirm regulatory status in the Philippines, since the sole registration (PNF-0025) is cancelled, and determine whether a new or reinstated registration is needed

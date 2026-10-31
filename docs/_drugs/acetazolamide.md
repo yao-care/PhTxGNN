@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Acetazolamide: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Absence epilepsy, congestive heart failure, open-angle glaucoma…"
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -103,7 +103,6 @@ The top prediction has no clinical trials and no literature, so it rests on a mo
 - Mechanism of action data for acetazolamide, and a plausible biological link to malignant hyperthermia
 - Preclinical or mechanistic studies supporting the predicted indication
 - Package insert warnings and contraindications from the Philippine regulator
-- Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded
 - A review of the interaction and contraindication profile for the target population
 ## Disclaimer
 

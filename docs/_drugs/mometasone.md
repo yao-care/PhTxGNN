@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the Philippines registration data"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -90,7 +90,7 @@ Please refer to the package insert for other safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is model prediction only (L5). There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma. The only Philippines registration is cancelled, and there is no label-based safety information.
+The evidence is model prediction only (L5). There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, so safety screening can begin

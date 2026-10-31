@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -107,7 +107,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or literature and no plausible mechanistic link between alpha-1 adrenergic blockade and Ambras syndrome. The only Philippines registration is cancelled. The evidence level is L5 (model prediction only).
+The prediction has no supporting clinical trials or literature and no plausible mechanistic link between alpha-1 adrenergic blockade and Ambras syndrome. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
 - Mechanistic evidence, or preclinical data linking alpha-1A/1D blockade to hair follicle biology

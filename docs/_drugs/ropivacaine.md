@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 302
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the data compiled (approved indication text is empty)"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -127,7 +127,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and there are small studies in migraine, but the evidence is limited to a 10-patient Phase 4 trial, a non-migraine-specific pediatric headache study, and observational reports. In addition, the only Philippines registration is cancelled, so there is no currently marketed product.
+The mechanism is plausible and there are small studies in migraine, but the evidence is limited to a 10-patient Phase 4 trial, a non-migraine-specific pediatric headache study, and observational reports.
 
 **To proceed, the following is needed:**
 - Larger randomised, placebo-controlled trials of ropivacaine nerve blocks or trigger point injections specifically in adult migraine

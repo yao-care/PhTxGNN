@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -122,7 +122,6 @@ Please also refer to the package insert for safety information.
 - Package insert warnings and contraindications from the Philippine FDA.
 - Detailed mechanism of action data from DrugBank.
 - Confirmation of whether any human indication is worth pursuing, given that the human predictions are on-label HIV uses.
-- Clarification of the current regulatory status, since the only registration is cancelled.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -95,7 +95,6 @@ There are no clinical trials, the only supporting literature is a single case se
 - Package insert warnings and contraindications from the Philippine regulator
 - Clarification of whether the question is tuberculous epiglottic involvement (already covered by standard anti-TB regimens) or epiglottitis of other causes
 - Controlled clinical evidence, if the indication is to be pursued at all
-- A review of the current registration status, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

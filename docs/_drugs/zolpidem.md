@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,7 +104,7 @@ Package insert warnings and contraindications for the Philippines were not avail
 
 
 **Rationale:**
-- The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses. However, the only Philippines registration is cancelled, and the package insert safety data are missing, so it cannot be treated as ready for use.
+- The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses.
 
 **To proceed, the following is needed:**
 - Verify the regulatory status in the Philippines and confirm whether a valid registration exists or a new one is needed

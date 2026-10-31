@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not available"
 monitor_inn: "Isosorbide mononitrate"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
@@ -123,7 +123,6 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 - Hypertrichosis and the other top-ranked predictions rest on model scores alone (Evidence Level L5), with no trials, no literature and no plausible mechanism.
 - PAH is biologically plausible (Evidence Level L4, flagged as a research question), but the evidence is indirect, nitrates are not guideline-recommended, and the PDE5 inhibitor interaction is a serious concern.
-- The only Philippines registration is cancelled, so there is no currently marketed product.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,7 +109,7 @@ Package insert warnings were not available. Please refer to the package insert f
 **Decision: Hold**
 
 **Rationale:**
-All predictions are model-only (L5, or L4 for hypoxia-related pulmonary hypertension) with no clinical trials. The top prediction, bundle branch block, is mechanistically contradictory because verapamil slows conduction, and its disease term is obsolete. The only Philippines registration is cancelled.
+All predictions are model-only (L5, or L4 for hypoxia-related pulmonary hypertension) with no clinical trials. The top prediction, bundle branch block, is mechanistically contradictory because verapamil slows conduction, and its disease term is obsolete.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently a blocking gap for safety screening)

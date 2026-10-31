@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 240
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -139,7 +139,6 @@ Most supporting studies concern bronchiolitis or transplant-related bronchioliti
 - A defined target population (e.g., eosinophilic bronchitis or pediatric recurrent obstructive bronchitis)
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of registration status, since the only registration is cancelled
 - A neuropsychiatric safety monitoring plan, especially for children
 
 ---

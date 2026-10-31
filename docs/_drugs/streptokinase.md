@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Streptokinase"
 predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
 description: "Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -137,7 +137,7 @@ Please refer to the package insert for label warnings and contraindications.
 
 **Rationale:**
 - Streptokinase has a long-established evidence base in acute MI, including large randomised trials and meta-analyses, and the same applies to coronary thrombosis.
-- Streptokinase is already a recognised MI treatment, so this is a confirmation of an existing use rather than a new repurposing finding. Fibrin-specific agents and primary PCI are preferred in many settings, and the only Philippines registration is cancelled.
+- Streptokinase is already a recognised MI treatment, so this is a confirmation of an existing use rather than a new repurposing finding.
 
 **To proceed, the following is needed:**
 - Confirm whether any streptokinase product is currently available or can be registered in the Philippines.

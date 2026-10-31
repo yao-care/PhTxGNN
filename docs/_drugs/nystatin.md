@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 259
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Vulvovaginitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -115,7 +115,7 @@ Please refer to the package insert for warnings and other safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- Candidal vulvovaginitis is an established use of nystatin, supported by reviews and several comparative studies, so the biological plausibility is strong. However, the evidence is indirect (L4), there are no registered trials, and the only local registration is cancelled.
+- Candidal vulvovaginitis is an established use of nystatin, supported by reviews and several comparative studies, so the biological plausibility is strong.
 - Other predictions from the same model (orbital disease, cystic teratoma, biotin metabolic disease and similar) have no credible mechanism or evidence and should be held.
 
 **To proceed, the following is needed:**

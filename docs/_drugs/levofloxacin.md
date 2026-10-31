@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Streptococcal infection, bacterial pneumonia, anthrax infection…"
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -90,7 +90,6 @@ Package insert warnings and contraindications were not available for this report
 
 **Rationale:**
 - The prediction rests mainly on the model score. The one linked paper concerns a microsporidial outbreak, a pathogen not expected to respond to levofloxacin, and there are no clinical trials.
-- Levofloxacin's only Philippines registration is cancelled, and label safety data could not be obtained.
 
 **To proceed, the following is needed:**
 - Evidence that levofloxacin is effective in punctate epithelial keratoconjunctivitis (for example, a controlled study or relevant ophthalmic data)

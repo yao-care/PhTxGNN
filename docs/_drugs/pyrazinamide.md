@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis"
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -121,7 +121,6 @@ Please refer to the package insert for safety information. Label warnings and co
 - Mechanism of action data and a clear rationale for any non-tuberculous ear indication.
 - The package insert warnings and contraindications from the DOH-FDA Philippines, which are needed for safety screening.
 - If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity.
-- Confirmation of the current Philippines registration status, since the only record is cancelled.
 - Any further exploration of the Lyme disease hypothesis would need laboratory data on pyrazinamide against *Borrelia* first.
 ## Disclaimer
 

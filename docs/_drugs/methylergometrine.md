@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methylergometrine: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Not available"
 monitor_inn: "Methylergometrine"
 predicted_indications: ["hypertrichosis (disease)", "pulmonary hypertension", "migraine disorder", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -116,13 +116,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism for hypertrichosis. The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascular safety concerns.
+The prediction rests on a model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism for hypertrichosis.
 
 **To proceed, the following is needed:**
 - The mechanism of action data for methylergometrine, to test whether any link to the predicted disease exists
 - The approved indication and package insert warnings and contraindications from the Philippines registration
 - Preclinical or clinical evidence for the predicted indication; migraine is the only prediction with indirect supporting literature, but a safety review of its vasoconstrictive risk would come first
-- Confirmation of the current market and supply status, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -127,7 +127,6 @@ Package insert warnings and contraindications were not available. Please refer t
 - Package insert warnings and contraindications, to complete safety screening
 - Mechanism of action data from DrugBank
 - Direct clinical evidence (trials or well-designed studies) for any shortlisted indication, especially rheumatoid arthritis and osteoarthritis
-- Clarification of regulatory status, since the only licence is cancelled
 - Renal and haematological safety review, given the knowledge-graph flags and the interaction profile
 ## Disclaimer
 

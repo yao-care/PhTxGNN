@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 338
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial meningitis, uveitis, conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -110,13 +110,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but it is supported only by model output and indirect literature (case reports and in vitro data), with no trials in exposure keratitis. Corneal toxicity is a concern in this setting. The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed.
+The prediction score is high, but it is supported only by model output and indirect literature (case reports and in vitro data), with no trials in exposure keratitis. Corneal toxicity is a concern in this setting.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Mechanism of action data (for example from DrugBank)
 - Clinical or well-designed preclinical data on tobramycin in exposure keratitis, including corneal epithelial safety
-- Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form
 - A comparison with existing standard care for exposure keratitis
 ## Disclaimer
 

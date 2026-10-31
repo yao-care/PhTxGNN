@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 295
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Rifapentine: predicted new indication Leprosy (evidence level L3). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -101,7 +101,6 @@ The mechanistic rationale and a 2023 randomized trial report for leprosy post-ex
 - Verification of the design and results of the 2023 household contact trial, and of other registered leprosy trials
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Mechanism of action data from DrugBank
-- Clarification of the regulatory pathway, since the only registration (PNF-0422) is cancelled
 - A drug-interaction management plan, particularly for co-administered drugs affected by CYP induction
 
 ---

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia…"
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
@@ -122,7 +122,6 @@ Package insert warnings and contraindications for the Philippines were not avail
 - Mechanistic data showing any plausible connection between haloperidol and fucosylation pathways, plus detailed mechanism of action data.
 - Preclinical studies, for example in patient-derived cells or animal models of the disorder.
 - Philippines package insert warnings and contraindications.
-- Verification of local product availability, since the only registration is cancelled.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

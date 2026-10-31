@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 92
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukemia and acute myeloid leukemia (including se…"
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
@@ -105,7 +105,7 @@ Please refer to the package insert for the full warnings, as label-based safety 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. No clinical trials exist, and no study tests cytarabine in SCLC. The related NSCLC data show low response rates (14-18%) with substantial myelosuppression. The only Philippine registration is cancelled.
+The prediction rests on the model score alone. No clinical trials exist, and no study tests cytarabine in SCLC. The related NSCLC data show low response rates (14-18%) with substantial myelosuppression.
 
 **To proceed, the following is needed:**
 - SCLC-specific preclinical or clinical data for cytarabine

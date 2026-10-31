@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 237
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Midazolam: predicted new indication Insomnia (evidence level L3). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -103,7 +103,6 @@ The mechanism is plausible and older studies, including a randomised 14-day comp
 - Download and review the package insert warnings and contraindications from the DOH-FDA Philippines website
 - Detailed mechanism of action data from DrugBank
 - A review of the 1980s–1990s oral midazolam insomnia studies, including dependence, next-day sedation and respiratory risks
-- Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown
 - A comparison with currently available hypnotics to establish whether there is a clinical need
 ## Disclaimer
 

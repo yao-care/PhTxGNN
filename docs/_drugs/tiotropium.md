@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 337
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Tiotropium"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
@@ -130,7 +130,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and meta-analyses support tiotropium in obstructive lung disease and COPD, giving L1 evidence. However, this is established on-label use rather than true repurposing, and the only Philippines registration is cancelled. Predictions for the other eight conditions lack supporting evidence and should stay on Hold.
+Multiple completed Phase 3 RCTs and meta-analyses support tiotropium in obstructive lung disease and COPD, giving L1 evidence. Predictions for the other eight conditions lack supporting evidence and should stay on Hold.
 
 **To proceed, the following is needed:**
 - Confirm the current regulatory and market availability of tiotropium in the Philippines, including which formulations (HandiHaler or Respimat) are available.

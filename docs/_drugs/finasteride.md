@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -106,7 +106,6 @@ The TxGNN scores are very high, but there are no clinical trials, and the only l
 - Mechanism of action data from DrugBank
 - Philippines package insert warnings and contraindications (a blocking gap for safety screening)
 - Direct clinical or preclinical evidence of finasteride in hypertrichosis or the other predicted conditions
-- Clarification of the current Philippines regulatory status, since the only registration is cancelled
 - Review of the ~100 drug interactions for severity, since all are currently unclassified
 ## Disclaimer
 

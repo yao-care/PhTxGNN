@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 248
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
 description: "Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
@@ -112,13 +112,12 @@ Package insert warnings and contraindications were not available for this report
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is a subtype of a disease neostigmine already treats, so it adds little as a repurposing opportunity. No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled. The other predictions are either weakly supported or likely false positives.
+The top prediction is a subtype of a disease neostigmine already treats, so it adds little as a repurposing opportunity. The other predictions are either weakly supported or likely false positives.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines. This is currently a blocking gap for safety screening.
 - Detailed mechanism of action data (for example, from DrugBank).
 - Subtype-specific clinical evidence for thymic hyperplasia-associated myasthenia gravis.
-- Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is recorded.
 - A review of the Major interaction with bupropion and the disease-level contraindications (epilepsy, asthma, cardiac conduction disease) before any clinical use.
 ## Disclaimer
 

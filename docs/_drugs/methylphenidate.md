@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -114,7 +114,7 @@ Please refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction for faciodigitogenital syndrome rests on a very high model score only, with no clinical trials, no literature and no established mechanistic link. The only Philippines registration is cancelled, so there is no currently marketed product.
+The prediction for faciodigitogenital syndrome rests on a very high model score only, with no clinical trials, no literature and no established mechanistic link.
 
 **To proceed, the following is needed:**
 - Independent biological rationale and literature for methylphenidate in faciodigitogenital syndrome (for example, studies of ADHD-like symptoms in Aarskog-Scott syndrome)

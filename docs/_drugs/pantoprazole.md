@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,10 +109,9 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- Pantoprazole's efficacy in acid-related ulcer disease is supported by completed Phase 3 trials and RCTs. The prediction confirms an established use rather than a new one. The only Philippine registration is cancelled, so availability is the main practical barrier.
+- Pantoprazole's efficacy in acid-related ulcer disease is supported by completed Phase 3 trials and RCTs. The prediction confirms an established use rather than a new one.
 
 **To proceed, the following is needed:**
-- Verify product availability and registration status in the Philippines, since the only licence is cancelled
 - Obtain the package insert warnings and contraindications
 - Review the 100 listed drug interactions, especially the major ones (acalabrutinib, atazanavir)
 - Plan long-term safety monitoring, including bone health (osteoporosis and fracture signals) and vitamin B12 status (pernicious anemia signal)

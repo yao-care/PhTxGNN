@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L4). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -110,7 +110,6 @@ The prediction is mechanistically plausible and close to heparin's existing use 
 - Targeted literature review of heparin or other anticoagulants in severe congenital protein C deficiency, compared with protein C concentrate or plasma
 - Mechanism of action data (MOA) from DrugBank
 - Package insert warnings and contraindications from DOH-FDA Philippines
-- Clarification of regulatory status, since the only registration is cancelled
 - Clinical expert review of dosing, bleeding risk and monitoring in this population
 
 ---

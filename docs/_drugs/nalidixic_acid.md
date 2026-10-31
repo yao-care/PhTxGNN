@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not stated in the registration data (class use: bacterial infections)"
 monitor_inn: "Nalidixic acid"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
@@ -131,7 +131,6 @@ Label-based warnings and contraindications from the package insert are not avail
 
 **Rationale:**
 - The prediction rests mainly on a computational score. No clinical trials exist, and none of the retrieved literature tests nalidixic acid for conjunctivitis.
-- The drug's only Philippines registration is cancelled.
 - Newer fluoroquinolones are better suited to eye infections, and quinolone resistance is widespread.
 - The safety profile includes neurological and tendon-related concerns.
 

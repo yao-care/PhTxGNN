@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Isoxsuprine: predicted new indication benign prostatic hyperplasia (evidence level L5). Approved use: Cerebrovascular disorder, vascular disease, Raynaud disease"
 monitor_inn: "Isoxsuprine"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "blue toe syndrome", "atheroembolism of kidney", "hemangioendothelioma", "angiodysplasia of stomach", "respiratory failure", "neurogenic thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection"]
@@ -94,7 +94,7 @@ Please refer to the package insert for further safety information, including war
 **Decision: Hold**
 
 **Rationale:**
-The prediction has the highest model score but no clinical trial or literature support (L5). The mechanistic link to BPH is weak compared with established alpha-1 blockers. In addition, the only Philippine registration is cancelled, which limits practical feasibility.
+The prediction has the highest model score but no clinical trial or literature support (L5). The mechanistic link to BPH is weak compared with established alpha-1 blockers.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank)

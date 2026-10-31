@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 356
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (evidence level L3). Approved use: Hodgkin lymphoma, non-Hodgkin lymphoma…"
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
@@ -131,7 +131,7 @@ Package insert warnings and contraindications were not available in the compiled
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (0.9986), but the evidence is limited to case reports, one pilot study and preclinical work, with no registered trials. Vincristine, not vinblastine, is the established vinca alkaloid in rhabdomyosarcoma, and vinblastine's separate contribution is unproven. In addition, the only Philippines registration is cancelled, and package insert safety data are missing.
+The prediction score is very high (0.9986), but the evidence is limited to case reports, one pilot study and preclinical work, with no registered trials. Vincristine, not vinblastine, is the established vinca alkaloid in rhabdomyosarcoma, and vinblastine's separate contribution is unproven.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) from DrugBank

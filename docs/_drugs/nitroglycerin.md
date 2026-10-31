@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 254
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Nitroglycerin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not available"
 monitor_inn: "Nitroglycerin"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "primary hereditary glaucoma", "congenital hypotrichosis milia"]
@@ -104,7 +104,7 @@ There are important caveats. The evidence is mostly small and short-term. No Pha
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and small studies, including one randomized neonatal trial, suggest a pulmonary vasodilatory effect. However, there is no Phase 3 or confirmatory evidence, and the only Philippine registration is cancelled. The package insert safety data and the original indication are also missing. The other predicted indications are either already standard practice (Prinzmetal angina) or lack credible support (kyphoscoliotic heart disease, primary hereditary glaucoma, congenital hypotrichosis milia).
+The mechanism is plausible and small studies, including one randomized neonatal trial, suggest a pulmonary vasodilatory effect. The package insert safety data and the original indication are also missing. The other predicted indications are either already standard practice (Prinzmetal angina) or lack credible support (kyphoscoliotic heart disease, primary hereditary glaucoma, congenital hypotrichosis milia).
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (a blocking gap for safety screening)

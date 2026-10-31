@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -116,7 +116,7 @@ Label-based warnings and contraindications are not available in the data compile
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no trials, no literature and no identified mechanism (Evidence Level L5). The only local registration is cancelled, and label safety data are missing.
+The prediction has a very high model score but no trials, no literature and no identified mechanism (Evidence Level L5).
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking paliperidone's pharmacology to the retinal dystrophy pathway, such as preclinical or cellular studies

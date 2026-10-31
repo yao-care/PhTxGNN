@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -91,7 +91,7 @@ Package insert warnings and contraindications were not available; please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a high model score alone, with no clinical trials or literature. The plausible mechanism applies only to a fungal subset of a mostly viral or non-infectious condition. The only Philippines registration is cancelled, and the label safety data are missing.
+The prediction rests on a high model score alone, with no clinical trials or literature. The plausible mechanism applies only to a fungal subset of a mostly viral or non-infectious condition.
 
 **To proceed, the following is needed:**
 - Literature and trial searches for fluconazole in fungal keratitis and punctate keratoconjunctivitis subtypes

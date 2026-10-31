@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4)."
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -126,7 +126,6 @@ Please refer to the package insert for further safety information, including war
 
 **Rationale:**
 - There are no clinical trials and no clinical evidence specific to bronchitis. Much of the literature points to a bronchoconstriction and airway-irritation risk with inhaled use. The high TxGNN score alone is not enough to advance.
-- The only Philippine registration is cancelled, so no product is currently marketed.
 - Another predicted indication, **conjunctivitis**, has stronger support: several randomized comparisons of topical polymyxin B/trimethoprim against moxifloxacin. This is closer to confirming an established use than to true repurposing. It may be worth evaluating separately, with guardrails.
 
 **To proceed, the following is needed:**

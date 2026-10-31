@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -155,7 +155,6 @@ Package insert warnings and contraindications were not available. Please refer t
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data
-- Confirmation of current local availability, since the only Philippines registration is cancelled
 - A monitoring plan for pulmonary toxicity, age-related risk and cumulative dose limits
 - Review of whether bleomycin-containing regimens still fit current standard of care, since R-CHOP omits bleomycin
 ## Disclaimer

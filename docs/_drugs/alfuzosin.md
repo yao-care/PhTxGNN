@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -94,7 +94,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score behind it (L5), with no clinical trials or literature. No plausible mechanism links alpha-1 blockade to Ambras syndrome. In addition, the only Philippine registration is cancelled, and the safety profile includes hypotension and QT-related concerns.
+The prediction has only a model score behind it (L5), with no clinical trials or literature. No plausible mechanism links alpha-1 blockade to Ambras syndrome.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and a plausible biological rationale for the predicted indication

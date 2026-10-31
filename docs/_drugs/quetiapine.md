@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -124,7 +124,6 @@ The top-ranked prediction (retinal dystrophy with or without extraocular anomali
 - Mechanism of action data to assess biological plausibility
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently missing; needed for safety screening)
 - For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted
-- Clarification of the regulatory pathway, since the only Philippine registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

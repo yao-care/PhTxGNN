@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 274
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -112,7 +112,6 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is high, but the evidence is L4 with no registered clinical trials, and the only local registration is cancelled.
 - The prediction mostly restates existing nasal indications, so it adds little new value.
 
 **To proceed, the following is needed:**

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -106,7 +106,7 @@ For warnings and contraindications, please refer to the package insert for safet
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no clinical trials or literature (L5). The mechanistic link is weak, because HoFH stems mainly from defective LDL receptors, which bile acid modulation is unlikely to correct. The only Philippines registration is cancelled, and package insert safety data are missing.
+The prediction has a very high model score but no clinical trials or literature (L5). The mechanistic link is weak, because HoFH stems mainly from defective LDL receptors, which bile acid modulation is unlikely to correct.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (blocking gap for safety screening)

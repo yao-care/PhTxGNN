@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Metformin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -107,13 +107,12 @@ Package insert warnings and contraindications for the Philippines were not obtai
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials or publications, and the mechanistic link to stiff-person spectrum disorders is speculative. The only Philippines registration is cancelled, and label-based safety information is missing.
+The prediction rests only on a model score, with no clinical trials or publications, and the mechanistic link to stiff-person spectrum disorders is speculative.
 
 **To proceed, the following is needed:**
 - Systematic literature and trial searches for metformin in stiff-person spectrum disorders
 - Mechanism of action data (e.g. from DrugBank)
 - Philippines package insert warnings and contraindications from the DOH-FDA Philippines website
-- Clarification of the current regulatory status in the Philippines, since the only registration is cancelled
 - Preclinical or mechanistic studies to test whether any plausible link exists
 - If any prediction is pursued, lipodystrophy is the most mechanistically plausible candidate to prioritise for evidence review
 ## Disclaimer

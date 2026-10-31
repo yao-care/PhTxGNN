@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrheal disease, dysentery"
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "Angelucci syndrome"]
@@ -101,7 +101,6 @@ The prediction rests on a model score alone (L5), with no clinical trials, no li
 - A plausible mechanistic rationale for loperamide in ocular surface disease, plus preclinical data
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the regulatory status, since the only registration is cancelled
 - Consideration of other candidate indications or drugs with better evidence
 ## Disclaimer
 

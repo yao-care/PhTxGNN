@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (including clear cell type), breast cancer…"
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -123,7 +123,7 @@ Label text for warnings and contraindications is not available in the data compi
 **Decision: Hold** (for liposarcoma)
 
 **Rationale:**
-- Liposarcoma evidence rests on one single-arm Phase 2 combination trial, so the effect of everolimus alone is unproven. The only local registration is cancelled.
+- Liposarcoma evidence rests on one single-arm Phase 2 combination trial, so the effect of everolimus alone is unproven.
 - The other predicted indications do not change this picture:
   - Rhabdomyosarcoma has only early-phase, mixed-tumour data (L3).
   - The other rhabdomyosarcoma subtypes, ovarian myxoid liposarcoma and TFE3-fusion renal cell carcinoma have no direct evidence (L4–L5).

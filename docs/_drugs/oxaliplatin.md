@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 266
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Oxaliplatin: predicted new indication Malignant pleural mesothelioma (evidence level L2). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -115,7 +115,7 @@ For other warnings, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-Two Phase 2 trials (one completed, one of unknown status) and several Phase 2 publications support oxaliplatin combinations in pleural mesothelioma. However, all are small, single-arm studies with modest or mixed results, and no Phase 3 data exist. The only Philippines registration is cancelled, and no package insert safety data have been obtained. The evidence supports further research, not immediate use.
+Two Phase 2 trials (one completed, one of unknown status) and several Phase 2 publications support oxaliplatin combinations in pleural mesothelioma. However, all are small, single-arm studies with modest or mixed results, and no Phase 3 data exist. The evidence supports further research, not immediate use.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Philippines FDA, which is a blocking gap for safety screening

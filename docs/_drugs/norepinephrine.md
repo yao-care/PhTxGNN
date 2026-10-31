@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 257
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -120,7 +120,6 @@ Please refer to the package insert for warnings and other safety information.
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications.
 - Evidence of safety and efficacy in obstructive lung disease, starting with preclinical or early clinical studies, and a route and formulation suited to the airways.
-- A regulatory pathway review, since the only Philippines registration is cancelled.
 
 **Other predicted indications (both Hold, evidence level L5):**
 - **Respiratory malformation (score 0.9984)**: there are no clinical trials. The literature covers central control of breathing and prenatal drug exposure, which is not a therapeutic rationale.

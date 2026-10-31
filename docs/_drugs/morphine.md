@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 241
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: predicted new indication Myofascial pain syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -114,7 +114,6 @@ For myofascial pain syndrome, the prediction rests on indirect, mostly non-rando
 **To proceed, the following is needed:**
 - Mechanism of action data and package insert warnings and contraindications (currently unavailable)
 - Controlled clinical evidence specific to morphine in myofascial pain, or a decision to prioritize restless legs syndrome for a focused evidence review
-- Confirmation of the Philippines regulatory pathway, since the only registration is cancelled
 - A risk assessment covering dependence, respiratory depression and the interaction burden with central nervous system depressants
 ## Disclaimer
 

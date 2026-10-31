@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
@@ -97,7 +97,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The bacterial arthritis prediction is mechanistically plausible, but it rests on case reports, small cohorts and in vitro work, with no registered trials. The only Philippines registration is cancelled, and the package insert safety data are missing.
+The bacterial arthritis prediction is mechanistically plausible, but it rests on case reports, small cohorts and in vitro work, with no registered trials.
 
 **To proceed, the following is needed:**
 - Prospective or comparative studies of ertapenem in bacterial arthritis, including bone and joint penetration and dosing data

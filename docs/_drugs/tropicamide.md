@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,7 +96,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting clinical trials or publications (Evidence Level L5). Tropicamide is a topical ophthalmic agent with no documented systemic or urological use. Its only Philippines registration is cancelled. Established antimuscarinic alternatives exist for the bladder and bowel indications.
+The prediction has no supporting clinical trials or publications (Evidence Level L5). Tropicamide is a topical ophthalmic agent with no documented systemic or urological use. Established antimuscarinic alternatives exist for the bladder and bowel indications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

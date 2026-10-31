@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 320
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
@@ -117,7 +117,7 @@ Please refer to the package insert for label warnings, which were not available 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high and the mechanism is plausible, but there are no registered trials, the randomized studies are small and about 20-40 years old, and the only Philippines registration is cancelled. The evidence is not strong enough to proceed.
+The evidence is not strong enough to proceed.
 
 **To proceed, the following is needed:**
 - Full-text review of the two randomized trials (PMID 3839973 and 12923369) to confirm actual outcomes

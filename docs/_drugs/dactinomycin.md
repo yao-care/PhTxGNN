@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, rhabdomyosarcoma, Wilms tumor…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -123,7 +123,7 @@ Package insert warnings and contraindications for the Philippines are not availa
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it (L5). It has no plausible mechanism for MS, and dactinomycin's toxicity is a major barrier in a chronic non-oncologic condition. The only Philippines registration is cancelled.
+The prediction has no clinical trials or literature behind it (L5). It has no plausible mechanism for MS, and dactinomycin's toxicity is a major barrier in a chronic non-oncologic condition.
 
 **To proceed, the following is needed:**
 - A credible biological rationale or preclinical data linking dactinomycin to MS pathology

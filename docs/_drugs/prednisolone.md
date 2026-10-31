@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 281
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -100,7 +100,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Alopecia areata has the strongest evidence among the ten predicted indications: a placebo-controlled RCT, a Cochrane network meta-analysis, a systematic review and multiple reviews of pulse corticosteroid therapy. There are no registered trials, relapse after withdrawal is common, and the only Philippines registration is cancelled, so use should stay restricted to severe or rapidly progressive disease.
+Alopecia areata has the strongest evidence among the ten predicted indications: a placebo-controlled RCT, a Cochrane network meta-analysis, a systematic review and multiple reviews of pulse corticosteroid therapy.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines

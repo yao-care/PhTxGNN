@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Vecuronium: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration data (the approved indicat…"
 monitor_inn: "Vecuronium"
 predicted_indications: ["insomnia (disease)", "irritable bowel syndrome"]
@@ -110,7 +110,6 @@ For other safety information, please refer to the package insert.
 - The prediction rests only on a model score. No relevant clinical trials or publications exist, and the evidence level is L5.
 - Vecuronium has no sedative or hypnotic activity, so the mechanism does not support its use in insomnia.
 - The paralysis it causes is a safety risk in this setting.
-- The only Philippines registration is cancelled.
 
 **To proceed, the following is needed:**
 - Detailed mechanism-of-action data and the original indication, to support any mechanistic analysis.

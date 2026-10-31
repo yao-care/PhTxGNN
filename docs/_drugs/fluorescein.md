@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Fluorescein: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not available"
 monitor_inn: "Fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -101,14 +101,13 @@ Please refer to the package insert for safety information. No drug-interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no supporting literature and no plausible mechanism. Fluorescein is a diagnostic dye, and its only Philippine registration is cancelled. The evidence level is L5.
+The prediction has no clinical trials, no supporting literature and no plausible mechanism. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - A plausible mechanism linking fluorescein to coronary vasospasm, supported by preclinical data
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Confirmation of the original approved indication and available dosage forms
-- Evidence of a current valid registration, or a plan for one, since the only license is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

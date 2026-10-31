@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 27
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Urinary tract infection, infectious otitis media, bacterial pneumonia…"
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -105,7 +105,7 @@ Please also refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no clinical trials and the literature is low-quality and partly off-target. The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role. In the Philippines, the only registration is cancelled.
+The TxGNN score is very high, but there are no clinical trials and the literature is low-quality and partly off-target. The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role.
 
 Of the other predictions, gonococcal urethritis has the strongest literature (several older randomized comparative studies, L3), but this reflects historical use, and resistance means ampicillin is no longer recommended. Ureaplasma urethritis and paranasal sinus neoplasm are mechanistically implausible. Chronic rhinosinusitis, chronic ethmoidal sinusitis, gingivitis, bacterial arthritis, conjunctivitis and pericoronitis have only indirect evidence (all L4).
 

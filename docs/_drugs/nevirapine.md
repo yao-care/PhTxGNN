@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -92,14 +92,13 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a computational score and one in vitro study. There are no clinical trials, the predicted indication is veterinary, and FIV (like SIV) is expected to respond poorly to NNRTIs. In the Philippines, the only registration is cancelled.
+The prediction rests on a computational score and one in vitro study. There are no clinical trials, the predicted indication is veterinary, and FIV (like SIV) is expected to respond poorly to NNRTIs.
 
 **To proceed, the following is needed:**
 - Confirmation of the nevirapine-specific findings in the 2023 FIV study (PMID 38031646), including potency against FIV reverse transcriptase
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications from DOH-FDA Philippines, which are needed before any safety screening
 - A clear decision on whether a veterinary indication falls within the scope of this repurposing programme
-- Clarification of the regulatory status of nevirapine in the Philippines, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

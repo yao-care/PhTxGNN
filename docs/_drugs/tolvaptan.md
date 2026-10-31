@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -105,7 +105,7 @@ Package insert warnings were not available, so please refer to the package inser
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications. However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled.
+Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumors"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
@@ -169,7 +169,6 @@ Literature for the other candidates (primary pulmonary lymphoma, vaginal botryoi
 - The highest-scoring predictions (lung blastoma-type tumours and pulmonary lymphoma) have only case reports or indirect evidence. The Philippines registration is cancelled, so there is currently no marketed product.
 
 **To proceed, the following is needed:**
-- Re-registration or an alternative supply route in the Philippines, since the only licence is cancelled.
 - Package insert warnings and contraindications from DOH-FDA Philippines (safety screening cannot move forward without them).
 - Mechanism of action data from DrugBank.
 - Use only within established risk-stratified combination protocols, with myelosuppression and secondary malignancy monitoring.

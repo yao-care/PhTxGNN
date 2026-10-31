@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 264
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -119,14 +119,13 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only clinical trial is a diagnostic imaging study, and the human literature consists of small physiological studies. Omeprazole acts only indirectly on duodenogastric reflux, and rat studies suggest a possible carcinogenesis risk when acid suppression is combined with bile reflux. In the Philippines, the only registration is cancelled.
+The only clinical trial is a diagnostic imaging study, and the human literature consists of small physiological studies. Omeprazole acts only indirectly on duodenogastric reflux, and rat studies suggest a possible carcinogenesis risk when acid suppression is combined with bile reflux.
 
 **To proceed, the following is needed:**
 - Controlled clinical trials of omeprazole in duodenogastric reflux, with symptom and bile exposure endpoints
 - Long-term safety assessment of mucosal changes under acid suppression with bile reflux
 - Detailed mechanism of action data
 - The Philippines package insert, to review warnings and contraindications
-- A decision on the registration status in the Philippines, since the only registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

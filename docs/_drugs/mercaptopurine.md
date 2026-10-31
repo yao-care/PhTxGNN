@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 223
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -141,7 +141,7 @@ Please refer to the package insert for full warnings. Label warnings are not ava
 **Decision: Hold**
 
 **Rationale:**
-The biological rationale is sound, and mercaptopurine already has a role in APL maintenance. However, the Phase 3 trials listed mostly do not isolate mercaptopurine's contribution, and the supporting AML literature is small, observational or old. The only Philippine registration is cancelled, and label safety data are unavailable.
+The biological rationale is sound, and mercaptopurine already has a role in APL maintenance. However, the Phase 3 trials listed mostly do not isolate mercaptopurine's contribution, and the supporting AML literature is small, observational or old.
 
 **To proceed, the following is needed:**
 - Confirmation of mercaptopurine's exact role in the key APL and AML protocols (NCT00003934, NCT00002701, NCT00492856, NCT00551460).

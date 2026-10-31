@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 23
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -101,7 +101,7 @@ Please refer to the package insert for warnings and contraindications, as none w
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the evidence is L4: a plausible adenosine-antagonism mechanism supported only by a narrative review and case reports, with no clinical trials. The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available.
+The prediction score is very high, but the evidence is L4: a plausible adenosine-antagonism mechanism supported only by a narrative review and case reports, with no clinical trials.
 
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from a source such as DrugBank

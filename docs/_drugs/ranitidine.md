@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L4). Approved use: Not recorded in the local data"
@@ -105,7 +105,7 @@ Please refer to the package insert for warnings and label contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-- The leading prediction is an existing ranitidine indication, so it offers no new repurposing value. Trials in the data are comparator studies with PPIs, and PPIs generally outperform ranitidine in this setting. The only Philippine registration is cancelled.
+- The leading prediction is an existing ranitidine indication, so it offers no new repurposing value. Trials in the data are comparator studies with PPIs, and PPIs generally outperform ranitidine in this setting.
 - The other predicted indications rest on indirect or no evidence (L4-L5).
 
 **To proceed, the following is needed:**

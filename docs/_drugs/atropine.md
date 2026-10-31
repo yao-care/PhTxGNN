@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 34
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -101,7 +101,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists only of preclinical mechanistic studies, small observational reports, and off-topic papers. There are no clinical trials in migraine. The only Philippines registration is cancelled, and no label-based safety data are available.
+The evidence consists only of preclinical mechanistic studies, small observational reports, and off-topic papers. There are no clinical trials in migraine.
 
 **To proceed, the following is needed:**
 - Clinical evidence in migraine patients, such as pilot or exploratory trials

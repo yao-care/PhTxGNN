@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -123,7 +123,6 @@ The prediction score is very high, but it is a model output only. There are no r
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data (e.g. from DrugBank)
-- A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled
 - Modern controlled trial evidence for rifampicin in bacterial or chlamydial conjunctivitis, compared with current standard antibiotics
 - A review of ocular safety, and of antimicrobial resistance concerns, since rifampicin is a key anti-tuberculosis drug
 ## Disclaimer

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 54
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the Philippines registration record"
 monitor_inn: "Calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -95,7 +95,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The model score is very high and the mechanism is plausible, but the supporting evidence is limited to small uncontrolled case series and case reports with no registered trials. In addition, the only Philippines registration is cancelled and no label safety data was available. This is best treated as a research question rather than a candidate ready for progression.
+The model score is very high and the mechanism is plausible, but the supporting evidence is limited to small uncontrolled case series and case reports with no registered trials. This is best treated as a research question rather than a candidate ready for progression.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, to allow safety screening

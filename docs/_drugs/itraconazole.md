@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -110,7 +110,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone: there are no clinical trials, and no study shows itraconazole is effective against pneumocystosis. *Pneumocystis* lacks ergosterol, so the azole mechanism is not expected to work, and established therapies exist. In the Philippines, the only registration is cancelled.
+The prediction rests on model output alone: there are no clinical trials, and no study shows itraconazole is effective against pneumocystosis. *Pneumocystis* lacks ergosterol, so the azole mechanism is not expected to work, and established therapies exist.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence, or preclinical data, showing activity against *Pneumocystis*

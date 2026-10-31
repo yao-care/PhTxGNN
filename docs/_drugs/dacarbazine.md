@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Hodgkin lymphoma, metastatic melanoma"
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -111,7 +111,7 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a computational score alone. There are no clinical trials in this indication, and the literature only indirectly links dacarbazine to head and neck-region tumours. The only Philippines registration is cancelled, and the package insert safety data is unavailable, which blocks safety screening.
+The prediction rests on a computational score alone. There are no clinical trials in this indication, and the literature only indirectly links dacarbazine to head and neck-region tumours.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines website

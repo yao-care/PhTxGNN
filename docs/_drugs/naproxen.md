@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -101,13 +101,12 @@ Please refer to the package insert for label-level warnings and contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials or literature (Evidence Level L5). The biological rationale is also weak, because COX inhibition is not expected to correct congenital limb malformations. The only local registration is cancelled.
+The prediction is supported only by a model score, with no clinical trials or literature (Evidence Level L5). The biological rationale is also weak, because COX inhibition is not expected to correct congenital limb malformations.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link between COX inhibition and the target syndrome
 - Preclinical or case-based evidence in the predicted disease
 - Package insert warnings and contraindications for the local product, and an assessment of fetal safety
-- Clarification of the current regulatory status in the Philippines, since the only registration (PNF-0341) is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

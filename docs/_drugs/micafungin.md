@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -98,7 +98,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to cohort studies, case series and case reports, with no registered clinical trials. Guidelines do not routinely recommend echinocandins for candiduria because of low urinary concentrations. The only Philippines registration is cancelled, and no label safety data were available. The biological rationale is coherent, so this is best treated as a research question rather than a candidate ready for adoption.
+The evidence is limited to cohort studies, case series and case reports, with no registered clinical trials. Guidelines do not routinely recommend echinocandins for candiduria because of low urinary concentrations. The biological rationale is coherent, so this is best treated as a research question rather than a candidate ready for adoption.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, since the safety screening cannot proceed without them

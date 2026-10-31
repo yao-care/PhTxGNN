@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 258
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -111,7 +111,7 @@ Currently no related clinical trials registered.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is biologically plausible, since progestins are used in the progestin challenge test for secondary amenorrhea. However, there are no registered clinical trials, the literature does not show therapeutic efficacy (amenorrhea appears only as a contraceptive side effect), and the only Philippine registration is cancelled. The evidence level is L4.
+The prediction is biologically plausible, since progestins are used in the progestin challenge test for secondary amenorrhea. The evidence level is L4.
 
 **To proceed, the following is needed:**
 - Clinical studies or guideline evidence on norethisterone for treating primary or secondary amenorrhea

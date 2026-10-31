@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,13 +95,12 @@ For package-insert warnings, please refer to the official label, as none were av
 **Decision: Hold**
 
 **Rationale:**
-The Prinzmetal angina prediction has a very high model score but no supporting clinical trials or literature (L5). The only Philippines registration is cancelled, and label-based safety data are missing. There is not enough evidence to advance this candidate.
+The Prinzmetal angina prediction has a very high model score but no supporting clinical trials or literature (L5). There is not enough evidence to advance this candidate.
 
 **To proceed, the following is needed:**
 - A systematic literature search on ARBs/telmisartan in coronary vasospasm and Prinzmetal angina, including preclinical and case-level data
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the Philippines regulator
-- Confirmation of current regulatory and market availability, since the only registration found is cancelled
 
 **Note on other predicted indications:** Among the lower-ranked predictions, **intracerebral hemorrhage** has the strongest evidence. It rests on the large Phase 3 TRIDENT trial (NCT02699645, n=1671), which tested a low-dose triple-pill combination that includes telmisartan. Its benefit cannot be attributed to telmisartan alone, and the full results should be verified. **Cerebral artery occlusion** has only preclinical support and substantially overlaps with the already-established stroke indication. A separate report on these may be worthwhile.
 ## Disclaimer

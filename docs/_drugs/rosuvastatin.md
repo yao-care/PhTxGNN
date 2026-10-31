@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,7 +109,6 @@ The prediction rests on the model score alone, with no trials or publications, a
 - Any clinical or genetic-epidemiology evidence that statin therapy provides benefit in CETP deficiency.
 - Detailed mechanism of action data.
 - Package insert warnings and contraindications from DOH-FDA Philippines.
-- Confirmation of whether any valid rosuvastatin registration exists in the Philippines, given that the only record is cancelled.
 - A review of the 100 recorded drug interactions, especially the major ones (fenofibrate, atazanavir).
 ## Disclaimer
 

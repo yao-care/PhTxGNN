@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "Mecobalamin"
 predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease"]
 description: "Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,7 +89,6 @@ Package insert warnings and contraindications were not available. Please refer t
 
 **Rationale:**
 - The prediction has only a model score behind it (Evidence Level L5), with no clinical trials or literature for any of the three top predicted indications.
-- The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
