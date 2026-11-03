@@ -2,11 +2,11 @@
   "generated": "2026-11-03",
   "total_drugs": 348,
   "level_counts": {
-    "L1": 8,
+    "L1": 6,
     "L2": 17,
     "L3": 14,
     "L4": 30,
-    "L5": 266
+    "L5": 268
   },
   "all_drugs": [
     {
@@ -1128,7 +1128,7 @@
     {
       "name": "Letrozole",
       "slug": "letrozole",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {
@@ -1680,7 +1680,7 @@
     {
       "name": "Rifabutin",
       "slug": "rifabutin",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 10
     },
     {

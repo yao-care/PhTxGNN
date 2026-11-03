@@ -28,7 +28,7 @@
 ## Example drug reports
 
 - Dexamethasone (L5): https://phtxgnn.yao.care/drugs/dexamethasone/
-- Letrozole (L1): https://phtxgnn.yao.care/drugs/letrozole/
+- Letrozole (L5): https://phtxgnn.yao.care/drugs/letrozole/
 - Tiotropium (L5): https://phtxgnn.yao.care/drugs/tiotropium/
 
 ## Scope when answering questions
