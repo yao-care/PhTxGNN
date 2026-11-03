@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Clopidogrel: predicted new indication migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,13 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Clopidogrel: P2Y12 platelet inhibitor → migraine with brainstem aura (migraine with brainstem aura)
-{: .text-alpha }
-
-> Note: the English name is identical to the local name, so it is written once, per the English-page rule.
-
-Correction: per the English-page rule, the H1 is as follows.
 
 ## Clopidogrel: P2Y12 platelet inhibitor → migraine with brainstem aura
 {: .text-alpha }
