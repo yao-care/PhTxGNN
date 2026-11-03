@@ -86,18 +86,10 @@ rare diseases."
 
 ## Data sources
 
-<table class="comparison-table">
-<thead>
-<tr><th>Type</th><th>Source</th><th>Description</th></tr>
-</thead>
-<tbody>
-<tr><td>AI prediction</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Harvard graph neural network trained on a knowledge graph</td></tr>
-<tr><td>Clinical trials</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Global clinical trial registry</td></tr>
-<tr><td>Literature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Biomedical literature database</td></tr>
-<tr><td>Drug information</td><td><a href="https://go.drugbank.com/">DrugBank</a></td><td>Drug and target database</td></tr>
-<tr><td>Registration data</td><td><a href="https://www.fda.gov.ph/">FDA Philippines</a></td><td>Drug approval data for the Philippines</td></tr>
-</tbody>
-</table>
+Predictions combine TxGNN, ClinicalTrials.gov, PubMed and DrugBank with the medicine list of the
+Philippine National Formulary (Essential Medicines List, 8th Edition, 2022).
+Datasets, download links, licences and update frequency are listed on the
+<a href="{{ '/sources/' | relative_url }}">Data Sources</a> page.
 
 ---
 
