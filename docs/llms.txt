@@ -14,6 +14,7 @@
 - Home: https://phtxgnn.yao.care/
 - Drugs: https://phtxgnn.yao.care/drugs/
 - High Evidence (L1-L2): https://phtxgnn.yao.care/evidence-high/
+- Philippine Drugs with Trial Evidence for a New Use: https://phtxgnn.yao.care/clinical-trial-evidence/
 - Moderate Evidence (L3-L4): https://phtxgnn.yao.care/evidence-medium/
 - Model Prediction Only (L5): https://phtxgnn.yao.care/evidence-low/
 - Methodology: https://phtxgnn.yao.care/methodology/
