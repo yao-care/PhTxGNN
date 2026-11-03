@@ -34,7 +34,7 @@ redirect_from:
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-This list is based on the registration data of [FDA Philippines](https://www.fda.gov.ph/) (Philippines).
+This list is based on the [Philippine National Formulary](https://www.doh.gov.ph/philippine-national-formulary) Essential Medicines List (Philippines).
 
 <!-- local-home:end -->
 

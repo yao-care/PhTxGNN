@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-phtxgnn.yao.care-blue)](https://phtxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Drug repurposing predictions for Philippines DOH-FDA Philippines-approved drugs using the TxGNN model.
+Drug repurposing predictions for medicines in the Philippine National Formulary (Essential Medicines List) using the TxGNN model.
 
 ## Disclaimer
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| DOH-FDA Philippines Total Drugs | 529 |
+| Philippine National Formulary Total Drugs | 529 |
 | Mapped to DrugBank | 462 (87.3%) |
 | Repurposing Candidates | 3,322 |
 
@@ -131,7 +131,7 @@ The TxGNN score represents the model's confidence in a drug-disease pair, rangin
 flowchart TD
     A["TxGNN Prediction Results"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Drug-level: DOH-FDA Philippines, DDI, DrugBank"]
+        B1["Drug-level: PNF, DDI, DrugBank"]
         B2["Indication-level: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -154,7 +154,7 @@ flowchart TD
 
 | File | Download |
 |------|------|
-| DOH-FDA Philippines Data | [Philippine National Formulary Essential Medicines List](https://www.doh.gov.ph/philippine-national-formulary) |
+| PNF Data | [Philippine National Formulary Essential Medicines List](https://www.doh.gov.ph/philippine-national-formulary) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -216,7 +216,7 @@ PYTHONPATH=src python -m phtxgnn.predict.txgnn_model
 
 | Category | Data | Source | Note |
 |------|------|------|------|
-| **Drug Data** | DOH-FDA Philippines | [Philippine National Formulary Essential Medicines List](https://www.doh.gov.ph/philippine-national-formulary) | Philippines |
+| **Drug Data** | DOH Philippine National Formulary | [Philippine National Formulary Essential Medicines List](https://www.doh.gov.ph/philippine-national-formulary) | Philippines |
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
 | **Drug Interactions** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
@@ -302,7 +302,7 @@ PhTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["DOH-FDA Philippines Data"] --> proc["process_fda_data.py"]
+    FDA["PNF Data"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Data"] --> prep["prepare_external_data.py"]
 
     proc --> json["ph_fda_drugs.json"]
