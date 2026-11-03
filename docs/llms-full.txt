@@ -26,9 +26,9 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 
 ## Example drug reports
 
-- Dexamethasone (L1): https://phtxgnn.yao.care/drugs/dexamethasone/
+- Dexamethasone (L5): https://phtxgnn.yao.care/drugs/dexamethasone/
 - Letrozole (L1): https://phtxgnn.yao.care/drugs/letrozole/
-- Tiotropium (L1): https://phtxgnn.yao.care/drugs/tiotropium/
+- Tiotropium (L5): https://phtxgnn.yao.care/drugs/tiotropium/
 
 ## Citation and limitations
 
