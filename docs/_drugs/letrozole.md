@@ -38,7 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Letrozole is a non-steroidal aromatase inhibitor that lowers estrogen production. The TxGNN model predicts it may be useful for **nipple carcinoma**, but there are **0 clinical trials** and only **8 publications**, mostly case reports, and none of them tests letrozole in this disease. The evidence level is therefore **L5**.
+Letrozole is an aromatase inhibitor, a hormone-modulating drug that lowers estrogen production.
+The TxGNN model predicts it may be relevant for **nipple carcinoma**, but no clinical trials are registered and the 8 publications found are case reports and reviews that do not test letrozole in this disease. The evidence level is **L5** (model prediction only).
 
 ## Quick Overview
 
@@ -54,9 +55,9 @@ Letrozole is a non-steroidal aromatase inhibitor that lowers estrogen production
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Letrozole belongs to the aromatase inhibitor class, which blocks the conversion of androgens to estrogens. If a nipple tumour is hormone-receptor-positive, estrogen suppression is plausible by extension from other breast carcinomas.
+Detailed mechanism of action data is not available in the data compiled for this report. Letrozole belongs to the aromatase inhibitor class, which blocks the conversion of androgens to estrogens. This is the general rationale for using it in estrogen-driven tumours.
 
-This remains a theoretical link. The retrieved publications are case reports and reviews, and some deal with unrelated entities such as accessory breast cancer and tall cell carcinoma. No study tests letrozole in nipple carcinoma, so the prediction rests on the model score alone.
+If a nipple carcinoma is hormone-receptor-positive, aromatase inhibition is plausible by extension from breast carcinoma. This remains a hypothesis. The publications gathered concern rare breast tumour case reports (for example solid papillary carcinoma in situ of the nipple, accessory breast cancer, tall cell carcinoma). None of them tests letrozole in nipple carcinoma, and some involve unrelated entities.
 
 ## Clinical Trial Evidence
 
@@ -66,14 +67,14 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Case report | Medicine | Neoadjuvant endocrine therapy in poorly differentiated neuroendocrine carcinoma of the breast; no standard treatment exists and the effect of endocrine therapy is unclear |
-| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Case report | Clinical Case Reports | Rare solid papillary carcinoma in situ arising in the nipple of a 73-year-old woman; limited evidence on treatment |
-| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Case report | Cureus | Axillary recurrence in breast cancer that presented with bloody nipple discharge |
-| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Case report | Surgical Case Reports | Accessory breast cancer in the inframammary region |
-| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Case report | Diagnostics | Metastatic infra-mammary accessory breast cancer with ipsilateral breast cancer |
+| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Cohort/case report | Medicine | Neoadjuvant endocrine therapy in poorly differentiated neuroendocrine carcinoma of the breast; a rare cancer with no standard treatment |
+| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Case report | Clinical Case Reports | Nipple-originating solid papillary carcinoma in situ in a 73-year-old woman; diagnostic and treatment evidence is limited |
+| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Case report | Surgical Case Reports | Rare accessory breast cancer in the inframammary region |
+| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Case report | Cureus | Axillary recurrence in breast cancer presenting with bloody nipple discharge |
+| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Case report | Diagnostics (Basel) | Synchronous metastatic infra-mammary accessory breast cancer and ipsilateral breast cancer |
 | [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Case report | Clinical Case Reports | Tall cell carcinoma of the breast with reverse polarity and IDH1 R132 mutation |
 | [42305961](https://pubmed.ncbi.nlm.nih.gov/42305961/) | 2026 | Case report | Frontiers in Medicine | Synchronous accessory breast cancer, papillary thyroid carcinoma and nasal papilloma |
-| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Case report | Cureus | Imaging findings of florid lobular carcinoma in situ |
+| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Case report | Cureus | Ultrasound findings in florid lobular carcinoma in situ |
 
 ## Philippines Market Information
 
@@ -81,24 +82,34 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | PNF-0281 | Letrozole | Not stated | Not stated (status: valid) |
 
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Hormonal (endocrine) therapy, not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interacting drugs were identified. The one rated Moderate is aprepitant. Others, rated Unknown, include calcitriol, glimepiride, metformin, rosiglitazone, simvastatin, prednisone, triamcinolone, acetylsalicylic acid, morphine and several proton pump inhibitors (omeprazole, lansoprazole, pantoprazole).
+- **Drug Interactions**: 100 potential interactions were identified. The only one with a stated severity is aprepitant (Moderate). Others, whose severity is not classified, include calcitriol, glimepiride, lansoprazole, dolasetron, granisetron, famotidine, acetylsalicylic acid, pantoprazole, morphine, metformin, omeprazole, rosiglitazone, simvastatin and prednisone.
 
-Please refer to the package insert for other safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no clinical trial or publication tests letrozole in nipple carcinoma, so the evidence level is L5. The available literature consists of case reports on related or unrelated breast conditions.
+The evidence level is L5. No study tests letrozole in nipple carcinoma, and the literature consists of case reports, some about unrelated entities. The prediction rests on the model score of 0.9976 alone.
 
 **To proceed, the following is needed:**
-- Studies or case series testing letrozole directly in nipple carcinoma, with hormone-receptor status reported
+- Studies or case series that directly assess aromatase inhibition in nipple carcinoma, including hormone-receptor status
+- Package insert warnings and contraindications for the Philippines licence
 - Mechanism of action data
-- Package insert warnings and contraindications from the Philippine regulator
-- A safety review for patients with liver impairment, osteoporosis or cerebrovascular disease
+- A safety plan covering the listed drug interactions
 
 ## Disclaimer
 
