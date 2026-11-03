@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 313
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Sirolimus"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -65,7 +65,6 @@ The direct support is limited, though. The only trial is a single-arm Phase 2 st
 ### Other predictions worth noting
 
 The data also show other predictions with stronger evidence than liposarcoma:
-- **Lymphangiomyoma (LAM-related)**: Evidence Level L1, with a completed Phase 3 trial (MILES, NCT00414648, n=89) and an ongoing Phase 3 trial (MILED, NCT03150914). LAM is already one of sirolimus's original indications, so this is established use rather than new repurposing.
 - **Benign PEComa**: Evidence Level L3, with case reports and observational studies of sirolimus. The biology involves TSC1/TSC2 loss and mTORC1 hyperactivation.
 - Several other predictions (ovarian myxoid liposarcoma, uterine PEComa, RCC subtypes) have a high score but no trials or literature.
 

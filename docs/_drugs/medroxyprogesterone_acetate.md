@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-10-30
-description: "Medroxyprogesterone Acetate: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
+last_modified_at: 2026-11-03
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Medroxyprogesterone acetate: synthetic progestin → amenorrhea (disease)
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate is a synthetic progestin. The TxGNN model predicts it may be relevant for **amenorrhea (disease)**, but no clinical trials are registered and the 20 publications retrieved are mostly contraception reviews and narrative articles, so the supporting evidence is weak.
+Medroxyprogesterone acetate is a synthetic progestin.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | amenorrhea (disease) |
-| TxGNN Prediction Score | 1.0000 |
+| Predicted New Indication | Breast fibrocystic disease |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |

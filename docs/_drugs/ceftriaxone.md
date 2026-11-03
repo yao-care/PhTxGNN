@@ -4,17 +4,17 @@ title: Ceftriaxone
 parent: Model Prediction Only (L5)
 nav_order: 67
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "Ceftriaxone"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
-last_modified_at: 2026-10-30
-description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections . The local licence record has no indication text"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
+last_modified_at: 2026-11-03
+description: "Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Ceftriaxone: From Bacterial Infections to Hyperamylasemia
+## Ceftriaxone: Hyperamylasemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,7 +45,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (relations recorded in the knowledge graph, e.g. streptococcal infection, bacterial pneumonia, bacterial meningitis, gonorrhea). The local licence record has no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
@@ -102,7 +102,7 @@ Hyperamylasemia is a laboratory finding, ceftriaxone has no plausible mechanism 
 - Retrieval of the package insert for warnings and contraindications.
 - Mechanism of action data from DrugBank.
 
-Note: other predictions in the same data, such as infectious otitis media, are far more biologically plausible and fit ceftriaxone's established antibacterial role. They would be better candidates for further review.
+They would be better candidates for further review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olodaterol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 263
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Olodaterol"
-predicted_indications: ["bronchitis"]
-description: "Olodaterol: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Olodaterol: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,46 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Olodaterol: Bronchitis
+## Olodaterol
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Olodaterol is an inhaled long-acting beta2-agonist (LABA) originally used for the maintenance treatment of chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **bronchitis**, but this prediction currently has **0 registered clinical trials** and **2 publications**, both of which concern COPD rather than bronchitis itself.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 0.9984 |
-| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the data compiled for this report. Olodaterol is known to be a long-acting beta2-agonist. It activates beta2-adrenoceptors on airway smooth muscle, which raises cAMP and produces sustained bronchodilation.
-
-Chronic bronchitis is a clinical phenotype within COPD, which is olodaterol's established indication. The very high prediction score therefore most likely reflects overlap with the COPD indication rather than a distinct repurposing signal.
-
-Acute bronchitis is usually viral and self-limited, and there is no established rationale for LABA therapy in it. The evidence for bronchitis is indirect, via COPD.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials are registered for bronchitis.
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | American Journal of Health-System Pharmacy | Reviews the pharmacology, pharmacokinetics, efficacy and safety of once-daily olodaterol for COPD |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic & Clinical Pharmacology & Toxicology | Finnish national guideline on the diagnosis, assessment and drug treatment of stable COPD, intended mainly for primary care |
-
-Neither publication studies bronchitis directly.
 
 ## Philippines Market Information
 
@@ -91,20 +61,6 @@ Package insert warnings and contraindications are not available in the data comp
 - QT-relevant drugs such as clarithromycin, cisapride, dolasetron, palonosetron and granisetron
 - Glucose-lowering and weight-loss agents such as semaglutide, albiglutide, canagliflozin and ertugliflozin
 - Famotidine, loperamide and fenfluramine
-
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The bronchitis prediction has no direct trials and only two COPD-focused publications. The high score likely reflects overlap with the approved COPD indication rather than new evidence.
-
-**To proceed, the following is needed:**
-- Clarify whether the target is chronic bronchitis (already covered under COPD) or acute bronchitis (no rationale for LABA therapy)
-- Trials or observational data specific to bronchitis
-- Detailed mechanism of action data
-- Package insert warnings and contraindications
-- Confirmation of current availability and formulation in the Philippines, since the registration is cancelled and olodaterol is often used in combination with tiotropium
 
 ## Disclaimer
 

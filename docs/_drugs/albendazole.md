@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 17
-evidence_level: L2
-indication_count: 3
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Albendazole"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
-last_modified_at: 2026-10-30
-description: "Albendazole: predicted new indication alveolar echinococcosis (evidence level L2). Approved use: Not recorded in the local data"
+predicted_indications: ["coenurosis"]
+last_modified_at: 2026-11-03
+description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidence Level: **L2** | Predicted Indications: **3**
 
 </div>
 
-## Albendazole: benzimidazole anthelmintic (β-tubulin inhibitor) → alveolar echinococcosis
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Albendazole is a benzimidazole anthelmintic that acts against larval tapeworm infections.
-The TxGNN model predicts it may be effective for **alveolar echinococcosis**,
-with **3 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | alveolar echinococcosis |
-| TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Predicted New Indication | Coenurosis |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

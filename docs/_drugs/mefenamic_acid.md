@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: Moderate Evidence (L3-L4)
 nav_order: 219
 evidence_level: L3
-indication_count: 7
-last_modified_at: 2026-10-31
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
-description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L3)."
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L3)."
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-## Mefenamic Acid: Repurposing Prediction for Rheumatoid Arthritis
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mefenamic acid is a nonsteroidal anti-inflammatory drug (NSAID) that blocks prostaglandin production.
-The TxGNN model predicts it may be useful for **rheumatoid arthritis**, with **no registered clinical trials** but **20 publications** retrieved. Only about eight of these are direct studies of mefenamic acid in rheumatoid arthritis, and most date from the 1960s to 1970s.
+Only about eight of these are direct studies of mefenamic acid in rheumatoid arthritis, and most date from the 1960s to 1970s.
 
 ---
 
@@ -47,8 +47,8 @@ The TxGNN model predicts it may be useful for **rheumatoid arthritis**, with **n
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9973 |
+| Predicted New Indication | Headache disorder |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L3 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
@@ -58,7 +58,7 @@ The TxGNN model predicts it may be useful for **rheumatoid arthritis**, with **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Mefenamic acid is known to be a COX-1/COX-2 inhibitor, which lowers prostaglandin synthesis. Prostaglandins drive the pain and inflammation seen in rheumatoid arthritis, so the mechanism fits the predicted use.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Mefenamic acid is known to be a COX-1/COX-2 inhibitor, which lowers prostaglandin synthesis.
 
 Several older clinical studies tested mefenamic acid directly in rheumatoid arthritis. Some compared it with ibuprofen, sulindac, flurbiprofen, indomethacin, aspirin and phenylbutazone. The benefit is symptomatic (pain, joint tenderness, morning stiffness). It is not disease-modifying.
 

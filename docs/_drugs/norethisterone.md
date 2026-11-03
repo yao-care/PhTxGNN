@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Norethisterone
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 258
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Norethisterone"
-predicted_indications: ["amenorrhea (disease)"]
-description: "Norethisterone: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Norethisterone: known uses and market status in the Philippines; currently no new candidate indication"
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Norethisterone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,61 +33,16 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Norethisterone: Amenorrhea (disease)
+## Norethisterone
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Norethisterone is a synthetic progestin, associated with conditions such as endometriosis, primary ovarian failure, postmenopausal osteoporosis and atrophic vaginitis.
-The TxGNN model predicts it may be effective for **amenorrhea**,
-but the evidence is limited: **no clinical trials** are registered and the **20 publications** found mostly concern contraceptive use, where amenorrhea is a side effect rather than a treatment target.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Amenorrhea (disease) |
-| TxGNN Prediction Score | 0.9960 |
-| Evidence Level | L4 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not currently available. Based on known pharmacology, norethisterone is a synthetic progestin derived from 19-nortestosterone. Cyclic progestin administration induces withdrawal bleeding in women with amenorrhea who have adequate endogenous estrogen. This is the basis of the progestin challenge test used for secondary amenorrhea. Progestins are also used for endometrial protection in low-estrogen states.
-
-The new indication is close to norethisterone's existing uses. Primary ovarian failure and endometriosis are both listed original indications and share progesterone receptor signaling and hypothalamic-pituitary-gonadal (HPG) axis pathways. The high TxGNN score most likely reflects this network proximity.
-
-The supplied literature does not directly support the prediction, however. Most papers describe contraceptive formulations in which amenorrhea is an adverse effect or a bleeding-pattern outcome. For example, a 2026 study (PMID 41489365) examines how injectable contraceptives affect the HPG axis and amenorrhea incidence. That is a side-effect finding, not evidence of therapeutic efficacy.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Review (Cochrane) | Cochrane Database Syst Rev | Combination injectable contraceptives are effective and reversible; bleeding-pattern changes may limit acceptability |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the same review on combination injectable contraceptives |
-| [41489365](https://pubmed.ncbi.nlm.nih.gov/41489365/) | 2026 | Cohort | Biology of Reproduction | Secondary analysis of a trial of DMPA-IM vs NET-EN: both lowered estradiol, but amenorrhea was more common with DMPA-IM |
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | Randomized trial | PLoS One | WHICH trial: effects of DMPA-IM and NET-EN on estradiol, menstrual and psychological measures |
-| [8336583](https://pubmed.ncbi.nlm.nih.gov/8336583/) | 1993 | Randomized trial | Med J Aust | Continuous low-dose oestrogen plus progestogen hormone replacement therapy; efficacy and acceptability of three progestogens |
-| [6786825](https://pubmed.ncbi.nlm.nih.gov/6786825/) | 1981 | Phase I trial | Contraception | In 20 women, norethisterone enanthate and norethisterone acetate abolished the preovulatory LH/FSH peaks; menstrual disorders including amenorrhea occurred |
-| [6230212](https://pubmed.ncbi.nlm.nih.gov/6230212/) | 1983 | Survey | Contraception | Survey of how investigators manage menstrual disturbances during DMPA and NET-EN use |
-| [3695501](https://pubmed.ncbi.nlm.nih.gov/3695501/) | 1987 | Formulation study | J Steroid Biochem | Norethisterone microspheres for contraception; amenorrhea reported as a side effect |
-| [31056890](https://pubmed.ncbi.nlm.nih.gov/31056890/) | 2019 | Case report | JBRA Assist Reprod | Autoimmune hypothyroidism with intermittent ovarian failure in a woman with secondary amenorrhea and infertility |
-| [12290848](https://pubmed.ncbi.nlm.nih.gov/12290848/) | 1994 | Review | J Obstet Gynaecol | Review of once-a-month combined injectable contraceptives |
 
 ---
 
@@ -106,19 +61,6 @@ Currently no related clinical trials registered.
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is biologically plausible, since progestins are used in the progestin challenge test for secondary amenorrhea. The evidence level is L4.
-
-**To proceed, the following is needed:**
-- Clinical studies or guideline evidence on norethisterone for treating primary or secondary amenorrhea
-- Detailed mechanism of action data
-- Package insert warnings and contraindications from the Philippine regulator
-- Clarification of the regulatory route for the new indication, since the drug is currently marketed in this country with 1 valid licence of 1
-- Review of the knowledge-graph contraindications (hypertension, liver disease, diabetes, breast cancer, etc.) against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

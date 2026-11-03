@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-31
+indication_count: 9
+last_modified_at: 2026-11-03
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia…"
 monitor_inn: "Haloperidol"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -116,7 +116,6 @@ Package insert warnings and contraindications for the Philippines were not avail
 **Rationale:**
 - The prediction has no clinical, preclinical or mechanistic support, and no plausible link between D2 antagonism and fucosylation defects.
 - Haloperidol's local registration is cancelled, and its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial.
-- Among the other predicted indications, only manic bipolar affective disorder has trial and literature support (Phase 3 trials and network meta-analyses). That is an established, guideline-recognised antipsychotic use rather than a novel repurposing. It does not support this indication.
 
 **To proceed, the following is needed:**
 - Mechanistic data showing any plausible connection between haloperidol and fucosylation pathways, plus detailed mechanism of action data.

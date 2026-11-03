@@ -4,17 +4,17 @@ title: Ertapenem
 parent: Model Prediction Only (L5)
 nav_order: 129
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-31
-description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Bacterial pneumonia, streptococcal pneumonia…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Ertapenem"
-predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"]
+predicted_indications: ["bacterial arthritis"]
+description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ertapenem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Ertapenem: From Bacterial Pneumonia to Bacterial Arthritis
+## Ertapenem: Bacterial arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ A second prediction, *Staphylococcus aureus* infection, has more support (**2 cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial pneumonia, streptococcal pneumonia, Peptostreptococcus infectious disease (the Philippines registration record has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
@@ -107,7 +107,7 @@ The bacterial arthritis prediction is mechanistically plausible, but it rests on
 
 ### Note on the second prediction: *Staphylococcus aureus* infection
 
-The second predicted indication, *Staphylococcus aureus* infection (score 0.9928), has stronger support at Evidence Level L2, although its recommendation is "Research Question" rather than Go. Ertapenem would not be used alone. The evidence concerns **cefazolin plus ertapenem** for persistent methicillin-susceptible *S. aureus* (MSSA) bacteremia. The proposed mechanism is complementary penicillin-binding protein saturation, which gives synergistic killing.
+Ertapenem would not be used alone. The evidence concerns **cefazolin plus ertapenem** for persistent methicillin-susceptible *S. aureus* (MSSA) bacteremia. The proposed mechanism is complementary penicillin-binding protein saturation, which gives synergistic killing.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|

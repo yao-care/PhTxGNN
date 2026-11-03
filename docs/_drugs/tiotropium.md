@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tiotropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 337
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-31
+evidence_level: L5
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Tiotropium"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
+description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiotropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **5**
 
 </div>
 
-## Tiotropium: Obstructive lung disease
+## Tiotropium: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tiotropium is a long-acting inhaled muscarinic antagonist, originally used for bronchitis, asthma and pulmonary emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **39 clinical trials** and **20 publications** compiled for this prediction. Note that this prediction overlaps heavily with the drug's existing uses, so it is closer to an on-label category than a true repurposing candidate.
+Note that this prediction overlaps heavily with the drug's existing uses, so it is closer to an on-label category than a true repurposing candidate.
 
 ---
 
@@ -48,9 +48,9 @@ The TxGNN model predicts it may be effective for **obstructive lung disease**, w
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9999 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
@@ -137,7 +137,6 @@ Multiple completed Phase 3 RCTs and meta-analyses support tiotropium in obstruct
 - Obtain the Philippine package insert to complete the warnings and contraindications review.
 - Complete the mechanism of action data from DrugBank.
 - Put anticholinergic safety monitoring in place (glaucoma, urinary retention, prostatic hyperplasia, renal impairment, cardiovascular events).
-- Treat the COPD and obstructive lung disease predictions as confirmation of existing use rather than as new-indication findings.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tegafur
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 327
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Tegafur: predicted new indication Colonic neoplasm (evidence level L1). Approved use: Gastric cancer (gastric neoplasm, diffuse gastric adenocarcinoma…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Tegafur"
-predicted_indications: ["colonic neoplasm", "cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "rectosigmoid junction neoplasm", "colonic lymphangioma", "cavernous hemangioma of colon"]
+predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
+description: "Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tegafur
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Tegafur: From Gastric Cancer to Colonic Neoplasm
+## Tegafur: Cecum villous adenoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tegafur is an oral prodrug of 5-fluorouracil (5-FU), originally used to treat gastric cancer.
-The TxGNN model predicts it may be effective for **colonic neoplasm**,
-with **16 clinical trials** and **20 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric cancer (gastric neoplasm, diffuse gastric adenocarcinoma, gastric linitis plastica, gastric carcinoma) |
-| Predicted New Indication | Colonic neoplasm |
-| TxGNN Prediction Score | 0.9990 |
-| Evidence Level | L1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Cecum villous adenoma |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

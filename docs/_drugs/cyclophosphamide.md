@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: Model Prediction Only (L5)
 nav_order: 89
 evidence_level: L5
-indication_count: 4
+indication_count: 2
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
-last_modified_at: 2026-10-30
-description: "Cyclophosphamide: predicted new indication myeloid leukemia (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-11-03
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: alkylating agent (DNA crosslinker) → myeloid leukemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Cyclophosphamide is an alkylating chemotherapy agent whose active metabolites crosslink DNA and kill rapidly dividing cells.
-The TxGNN model predicts it may be useful for **myeloid leukemia**.
 The data compiled for this report include **33 listed clinical trials** and **20 publications**, but most of them study cyclophosphamide as part of transplant conditioning or graft-versus-host disease prophylaxis, not as a stand-alone treatment for myeloid leukemia.
 
 ## Quick Overview
@@ -47,8 +46,8 @@ The data compiled for this report include **33 listed clinical trials** and **20
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | myeloid leukemia |
-| TxGNN Prediction Score | 0.9947 |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |

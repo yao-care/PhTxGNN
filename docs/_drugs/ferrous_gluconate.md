@@ -4,17 +4,17 @@ title: Ferrous Gluconate
 parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-30
-description: "Ferrous Gluconate: predicted new indication Plummer-Vinson syndrome (evidence level L4). Approved use: Iron deficiency anemia (also anemia of prematurity, hypochromic…"
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Ferrous gluconate"
-predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
+description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ferrous Gluconate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Ferrous Gluconate: From Iron Deficiency Anemia to Plummer-Vinson Syndrome
+## Ferrous Gluconate: Vitamin B12- and folate-independent constitutional megaloblastic anemia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ferrous gluconate is an iron supplement originally used to treat iron deficiency anemia and related anemias.
-The TxGNN model predicts it may be effective for **Plummer-Vinson syndrome**, but there are currently **no clinical trials and no publications** supporting this specific prediction.
 The prediction largely reflects an extension of the existing anemia indication rather than a truly new use.
 
 ---
@@ -48,8 +47,8 @@ The prediction largely reflects an extension of the existing anemia indication r
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency anemia (also anemia of prematurity, hypochromic, deficiency and microcytic anemia) |
-| Predicted New Indication | Plummer-Vinson syndrome |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
@@ -108,7 +107,7 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The leading prediction (Plummer-Vinson syndrome) is biologically sound but is essentially covered by the existing iron deficiency anemia use, with no trials or literature to support it as a distinct repurposing opportunity. The only registered Philippines license is cancelled, and label safety data is unavailable.
+The only registered Philippines license is cancelled, and label safety data is unavailable.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines

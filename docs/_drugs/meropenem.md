@@ -4,17 +4,17 @@ title: Meropenem
 parent: Moderate Evidence (L3-L4)
 nav_order: 224
 evidence_level: L4
-indication_count: 9
-last_modified_at: 2026-10-30
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Meropenem"
-predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus aureus infection", "laryngitis", "paratyphoid fever", "Lyme disease", "Peptostreptococcus infectious disease", "gonococcal urethritis", "Ureaplasma urethritis"]
+predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -72,11 +72,9 @@ Bacterial arthritis (septic arthritis) is a bacterial infection, like the drug's
 |------|------|------|------|
 | Bacterial arthritis | 0.9992 | L4 | Hold |
 | Epiglottitis | 0.9991 | L4 | Hold; only case reports and susceptibility studies |
-| *Staphylococcus aureus* infection | 0.9985 | L3 | Research question; a 2024 cohort of carbapenem combination therapy for persistent MSSA bacteraemia gives some signal |
 | Laryngitis | 0.9959 | L5 | Hold; mostly viral, no clear rationale |
 | Paratyphoid fever | 0.9957 | L4 | Hold; possible reserve option for extensively drug-resistant enteric fever |
 | Lyme disease | 0.9946 | L5 | Hold; no clinical support |
-| Peptostreptococcus infection | 0.9937 | L5 | Hold; no evidence retrieved |
 | Ureaplasma urethritis | 0.9933 | L5 | Hold; conflicts with known biology, since Ureaplasma lacks a cell wall |
 | Gonococcal urethritis | 0.9933 | L5 | Hold; standard therapy is ceftriaxone |
 

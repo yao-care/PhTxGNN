@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-19",
   "drug_count": 365,
-  "indication_count": 917,
+  "indication_count": 907,
   "drugs": [
     {
       "slug": "abacavir",
@@ -4480,7 +4480,6 @@
       },
       "related_drugs": [
         "acetylcysteine",
-        "dipyridamole",
         "theophylline"
       ]
     },
@@ -4590,8 +4589,7 @@
         "zh": []
       },
       "related_drugs": [
-        "acetylcysteine",
-        "dipyridamole"
+        "acetylcysteine"
       ]
     },
     {
@@ -4648,34 +4646,10 @@
       ]
     },
     {
-      "name": "alveolar echinococcosis",
-      "keywords": {
-        "en": [
-          "alveolar echinococcosis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "albendazole"
-      ]
-    },
-    {
       "name": "coenurosis",
       "keywords": {
         "en": [
           "coenurosis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "albendazole"
-      ]
-    },
-    {
-      "name": "Cestode infectious disease",
-      "keywords": {
-        "en": [
-          "Cestode infectious disease"
         ],
         "zh": []
       },
@@ -5007,8 +4981,6 @@
         "zh": []
       },
       "related_drugs": [
-        "alprazolam",
-        "fluoxetine",
         "olanzapine",
         "zolpidem"
       ]
@@ -5184,18 +5156,6 @@
       "keywords": {
         "en": [
           "incessant infant ventricular tachycardia"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "amiodarone"
-      ]
-    },
-    {
-      "name": "ventricular tachycardia",
-      "keywords": {
-        "en": [
-          "ventricular tachycardia"
         ],
         "zh": []
       },
@@ -5466,9 +5426,7 @@
         "zh": []
       },
       "related_drugs": [
-        "amoxicillin",
-        "ciprofloxacin",
-        "levofloxacin"
+        "amoxicillin"
       ]
     },
     {
@@ -5594,7 +5552,6 @@
       },
       "related_drugs": [
         "ampicillin",
-        "chloramphenicol",
         "cycloserine",
         "isoniazid",
         "rifampicin"
@@ -5610,19 +5567,6 @@
       },
       "related_drugs": [
         "ampicillin"
-      ]
-    },
-    {
-      "name": "major affective disorder",
-      "keywords": {
-        "en": [
-          "major affective disorder"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "aripiprazole",
-        "risperidone"
       ]
     },
     {
@@ -6650,11 +6594,8 @@
         "zh": []
       },
       "related_drugs": [
-        "betamethasone",
-        "dexamethasone",
         "fluocinonide",
         "hydrocortisone",
-        "methylprednisolone",
         "prednisone"
       ]
     },
@@ -7160,9 +7101,6 @@
         "cefazolin",
         "montelukast",
         "neostigmine",
-        "olodaterol",
-        "salbutamol",
-        "salmeterol",
         "tetracaine"
       ]
     },
@@ -7899,7 +7837,6 @@
       "related_drugs": [
         "cefazolin",
         "cefoxitin",
-        "ceftriaxone",
         "ethambutol",
         "pyrazinamide"
       ]
@@ -7944,7 +7881,6 @@
       "related_drugs": [
         "cefazolin",
         "cefoxitin",
-        "ceftriaxone",
         "cefuroxime",
         "pyrazinamide"
       ]
@@ -7999,8 +7935,6 @@
         "zh": []
       },
       "related_drugs": [
-        "cefoxitin",
-        "cefuroxime",
         "meropenem",
         "micafungin",
         "oxacillin",
@@ -8136,8 +8070,7 @@
         "zh": []
       },
       "related_drugs": [
-        "cefuroxime",
-        "meropenem"
+        "cefuroxime"
       ]
     },
     {
@@ -8823,10 +8756,8 @@
         "zh": []
       },
       "related_drugs": [
-        "clotrimazole",
         "danazol",
-        "ivermectin",
-        "nystatin"
+        "ivermectin"
       ]
     },
     {
@@ -8905,7 +8836,6 @@
         "zh": []
       },
       "related_drugs": [
-        "cyclophosphamide",
         "mercaptopurine"
       ]
     },
@@ -8951,18 +8881,6 @@
         "cyclophosphamide",
         "cytarabine",
         "vincristine"
-      ]
-    },
-    {
-      "name": "lymph node cancer",
-      "keywords": {
-        "en": [
-          "lymph node cancer"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "cyclophosphamide"
       ]
     },
     {
@@ -9284,8 +9202,7 @@
       },
       "related_drugs": [
         "danazol",
-        "goserelin",
-        "norethisterone"
+        "goserelin"
       ]
     },
     {
@@ -9297,7 +9214,6 @@
         "zh": []
       },
       "related_drugs": [
-        "danazol",
         "warfarin"
       ]
     },
@@ -10360,14 +10276,10 @@
       "related_drugs": [
         "epinephrine",
         "ipratropium",
-        "montelukast",
         "norepinephrine",
         "olodaterol",
         "salbutamol",
-        "salmeterol",
-        "terbutaline",
-        "theophylline",
-        "tiotropium"
+        "theophylline"
       ]
     },
     {
@@ -10499,19 +10411,6 @@
       },
       "related_drugs": [
         "epirubicin"
-      ]
-    },
-    {
-      "name": "staphylococcus aureus infection",
-      "keywords": {
-        "en": [
-          "staphylococcus aureus infection"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "ertapenem",
-        "meropenem"
       ]
     },
     {
@@ -14112,18 +14011,6 @@
       ]
     },
     {
-      "name": "tenosynovitis",
-      "keywords": {
-        "en": [
-          "tenosynovitis"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "prednisone"
-      ]
-    },
-    {
       "name": "wound myiasis",
       "keywords": {
         "en": [
@@ -14720,18 +14607,6 @@
       ]
     },
     {
-      "name": "lymphangiomyoma",
-      "keywords": {
-        "en": [
-          "lymphangiomyoma"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "sirolimus"
-      ]
-    },
-    {
       "name": "renal cell carcinoma associated with neuroblastoma",
       "keywords": {
         "en": [
@@ -15116,18 +14991,6 @@
       ]
     },
     {
-      "name": "colonic neoplasm",
-      "keywords": {
-        "en": [
-          "colonic neoplasm"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "tegafur"
-      ]
-    },
-    {
       "name": "cecum villous adenoma",
       "keywords": {
         "en": [
@@ -15192,18 +15055,6 @@
       "keywords": {
         "en": [
           "benign neoplasm of cecum"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "tegafur"
-      ]
-    },
-    {
-      "name": "rectosigmoid junction neoplasm",
-      "keywords": {
-        "en": [
-          "rectosigmoid junction neoplasm"
         ],
         "zh": []
       },

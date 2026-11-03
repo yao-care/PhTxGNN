@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "Sertraline"
-predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-30
-description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Anxiety disorder, OCD, PTSD, social phobia and related conditions"
+predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-11-03
+description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorders to Schizoid Personality Disorder
+## Sertraline: Schizoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,7 +44,7 @@ Sertraline is a selective serotonin reuptake inhibitor (SSRI). The knowledge gra
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, OCD, PTSD, social phobia and related conditions (relations recorded in the knowledge graph; the local licence record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
@@ -60,7 +60,7 @@ The prediction comes from the TxGNN model (deep learning) and may reflect simila
 
 The only linked paper concerns binge-eating disorder, so no direct clinical support exists for this condition.
 
-**Note on other predictions:** Among the other predictions for sertraline, **agoraphobia** (score 0.9954) has much stronger support, with a Phase 4 trial in a related condition (generalized social phobia) and multiple RCTs and network meta-analyses in panic disorder with or without agoraphobia. It may be a better candidate for follow-up than the top-ranked prediction.
+It may be a better candidate for follow-up than the top-ranked prediction.
 
 ## Clinical Trial Evidence
 
@@ -107,7 +107,6 @@ The prediction rests only on a high model score (0.9993). No clinical trials exi
 - Direct clinical or observational studies of sertraline in schizoid personality disorder, or in its core symptoms
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the DOH-FDA Philippines record, plus the registered dosage form and approved indication
-- Consideration of agoraphobia, which has stronger supporting evidence, as a higher-priority candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -4,17 +4,17 @@ title: Salbutamol
 parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Salbutamol"
-predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "bronchitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
+predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Salbutamol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -104,7 +104,6 @@ The prediction for papillary conjunctivitis is supported only by a high model sc
 **Other predictions in the data compiled for this report** have more evidence than papillary conjunctivitis:
 - **Obstructive lung disease (L1):** it includes a completed Phase 3 trial (n=1,118) of an ipratropium/salbutamol combination. This is largely an extension of the original respiratory use rather than true repurposing.
 - **Anaphylaxis (L3):** its only Phase 3 trial was terminated early (n=24).
-- **Bronchitis (L2):** the evidence is mostly about bronchiolitis, and reviews suggest limited benefit there.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

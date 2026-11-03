@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 72
-evidence_level: L1
-indication_count: 9
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Chloramphenicol"
-predicted_indications: ["conjunctivitis", "diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
-description: "Chloramphenicol: predicted new indication Conjunctivitis (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-11-03
+description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **9**
 
 </div>
 
-## Chloramphenicol: Bacteriostatic antibiotic (50S ribosomal inhibitor) → Conjunctivitis
+## Chloramphenicol: Diffuse scleroderma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Chloramphenicol is a broad-spectrum antibiotic that blocks bacterial protein synthesis.
-The TxGNN model predicts it may be effective for **conjunctivitis**, with a score of 0.9966.
 The data compiled for this report contain **no registered clinical trials** for this disease, but **19 publications** were retrieved, including several comparative clinical studies of eye drops.
 
 ## Quick Overview
@@ -47,9 +46,9 @@ The data compiled for this report contain **no registered clinical trials** for 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 0.9966 |
-| Evidence Level | L1 |
+| Predicted New Indication | Diffuse scleroderma |
+| TxGNN Prediction Score | 0.9965 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
@@ -72,14 +71,11 @@ Currently no related clinical trials registered.
 |------|-----|------|------|---------|
 | [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
 | [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res | Moxifloxacin versus chloramphenicol for bacterial eye infections |
-| [8353434](https://pubmed.ncbi.nlm.nih.gov/8353434/) | 1993 | Comparative clinical study | Eur J Ophthalmol | Ciprofloxacin 0.3% as safe and effective as chloramphenicol 0.5% in bacterial conjunctivitis and blepharitis; over 90% microbiological improvement in both |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomized single-blind trial | Acta Ophthalmol | Clinical success 84% with fusidic acid vs 81% with chloramphenicol in acute purulent conjunctivitis |
 | [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Randomized open comparison | Acta Ophthalmol | In Tanzania, fusidic acid had 93% success vs 48% for chloramphenicol and 74% for framycetin |
 | [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Safety review | Drug Saf | Controversy over a link between topical ocular chloramphenicol and aplastic anaemia |
 | [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review/commentary | Eye | Discussion of appropriate use of topical chloramphenicol |
 | [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
 | [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Review | Clin Pharmacokinet | Treatment of ocular infections with topical antibacterials |
-| [22186318](https://pubmed.ncbi.nlm.nih.gov/22186318/) | 2012 | Animal study | Pak J Pharm Sci | Chloramphenicol niosomes compared with 0.5% eye drops in experimental conjunctivitis in rabbits |
 
 ## Philippines Market Information
 

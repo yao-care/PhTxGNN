@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 331
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-30
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Not recorded in the local data"
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Terbutaline: Obstructive lung disease
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Terbutaline is a short-acting beta-2 agonist bronchodilator, originally used for asthma and related airway conditions such as bronchitis and emphysema.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **14 clinical trials** and **20 publications** currently supporting this direction.
 This prediction is close to an on-label use, so it is better seen as confirmation of the existing use than as true repurposing.
 
 ---
@@ -49,9 +48,9 @@ This prediction is close to an on-label use, so it is better seen as confirmatio
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 0.9996 |
-| Evidence Level | L1 |
+| Predicted New Indication | Respiratory malformation |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
