@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Dexamethasone is a potent systemic glucocorticoid that suppresses immune and inflammatory activity.
-No registered clinical trials were found, but **20 publications** are listed, including one randomized controlled trial in children and one network meta-analysis.
+Dexamethasone is a corticosteroid (glucocorticoid) medicine that is already marketed in the Philippines.
+The TxGNN model predicts it may be useful for **alopecia mucinosa**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
@@ -51,13 +51,13 @@ No registered clinical trials were found, but **20 publications** are listed, in
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, dexamethasone is a potent glucocorticoid that suppresses cytotoxic T-cell activity and pro-inflammatory cytokine signaling.
+Currently, detailed mechanism of action data is not available. Based on known information, dexamethasone is a glucocorticoid, a class with strong anti-inflammatory and immunosuppressive activity.
 
-Alopecia areata is a T-cell-mediated autoimmune attack on hair follicles, with collapse of the follicle's immune privilege. Suppressing that immune attack gives a direct biological rationale. Oral mini-pulse dosing (for example, twice weekly) is an established off-label regimen in the published literature.
+Alopecia mucinosa (follicular mucinosis) is an inflammatory disorder of the hair follicle. Glucocorticoid anti-inflammatory activity may therefore be applicable, which is a plausible but unproven rationale. This link is a model prediction only. No trials or publications for this disease are available to confirm it, and the route of administration that would suit this skin condition has not yet been assessed.
 
 ## Clinical Trial Evidence
 
@@ -65,18 +65,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Open-label comparison in 30 children with severe, non-progressive alopecia areata: low-dose oral dexamethasone mini-pulse vs diphenylcyclopropenone contact sensitisation |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Systematic review / network meta-analysis | Archives of Dermatological Research | Compared systemic steroids, oral JAK inhibitors and contact immunotherapy in severe alopecia areata |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospective cohort | Journal of Clinical Medicine | Real-world effectiveness and safety of oral corticosteroid mini-pulse in alopecia areata, with factors linked to response |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Multicentre cohort | Dermatologic Therapy | Oral dexamethasone mini-pulse in moderate to severe alopecia areata |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | Reviewed dosing regimens and side effects of pulse corticosteroids in children with alopecia areata |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Clinical study | Journal of Dermatology | Twice-weekly 5 mg oral dexamethasone pulse in 30 patients with extensive alopecia areata |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospective study | Dermatologic Therapy | 73 children with severe disease: 1-day vs 3-day IV dexamethasone pulses plus topical clobetasol |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Long-term follow-up | Dermatologic Therapy | Combined oral pulse and topical corticosteroids in 65 children, median follow-up 96 months |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Retrospective chart review | European Journal of Dermatology | Pulse dexamethasone rescue added to baricitinib in non-responders with severe disease |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Case report and focused review | Journal of Dermatological Treatment | Durable remission with oral mini-pulse in a patient for whom JAK inhibitors were not an option |
+Currently no related literature available.
 
 ## Philippines Market Information
 
@@ -84,26 +73,30 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | PNF-0137 | Dexamethasone | Not recorded | Not recorded |
 
+At least one valid single-ingredient authorization is on record, and the drug is marketed in the Philippines.
+
 ## Safety Considerations
 
-- **Drug Interactions**: 100 interactions were found in the interaction database. Examples:
-  - Major: fentanyl, adalimumab
-  - Moderate: zidovudine, paclitaxel, isotretinoin, abemaciclib, acalabrutinib, acarbose, acebutolol, acetazolamide, ibuprofen, ketorolac, nifedipine
+- **Drug Interactions**: 100 interacting drugs are recorded. Examples include:
+  - **Major**: fentanyl, adalimumab
+  - **Moderate**: zidovudine, paclitaxel, abemaciclib, acalabrutinib, isotretinoin, acarbose, acebutolol, acetazolamide, codeine, dihydrocodeine, ketorolac, ibuprofen, nifedipine
+  - **Minor**: dolutegravir, lidocaine, formoterol
 
-Please refer to the package insert for other safety information, including warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One randomized controlled trial (in children), one network meta-analysis and several cohort studies directly address dexamethasone or systemic steroids in alopecia areata. The evidence is supportive, but there are no registered clinical trials, the RCT is small and open-label, and package insert safety data are missing.
+The prediction score is high, but it rests on the model alone. No clinical trials or publications address alopecia mucinosa, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- The package insert warnings and contraindications for the Philippines product
-- Detailed mechanism-of-action data
-- A defined dosing regimen and monitoring plan for long-term steroid exposure, including children
-- Comparison against JAK inhibitors in terms of efficacy, relapse rate and cost
+- Published case reports, case series, or trials of corticosteroid treatment in alopecia mucinosa
+- Detailed mechanism of action data
+- Package insert warnings and contraindications, to complete the safety review
+- An assessment of which route and formulation (for example topical, intralesional, or systemic) would suit this condition, given the long-term steroid safety profile
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

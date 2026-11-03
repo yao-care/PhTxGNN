@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Danazol is a synthetic steroid originally used for endometriosis and fibrocystic breast disease.
-The TxGNN model predicts it may be effective for **Amenorrhea**, but there are **no registered clinical trials** and only **20 publications** (mostly older reviews and small studies), and the literature suggests this prediction may be a directional mismatch: danazol *causes* amenorrhea rather than treating it.
-
----
+Danazol is a synthetic steroid that suppresses the pituitary-ovarian axis. The TxGNN model predicts **amenorrhea** for it, with a score of 1.0000 (rounded from 0.99999511). No clinical trials are registered for this prediction, and none of the 20 publications retrieved studies treating amenorrhea as a disease. The literature instead describes amenorrhea as an effect of danazol, so the prediction may be pointing in the wrong direction.
 
 ## Quick Overview
 
@@ -55,42 +52,30 @@ The TxGNN model predicts it may be effective for **Amenorrhea**, but there are *
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From the literature, danazol suppresses the pituitary-ovarian axis (reducing the GnRH/LH/FSH midcycle surge) and creates an anovulatory, low-oestrogen, high-androgen state.
+Detailed mechanism-of-action data are not available in the data compiled for this report. The literature describes danazol as a synthetic derivative of 17α-ethinyl testosterone. It inhibits gonadotropin release (GnRH/LH/FSH, including the midcycle surge), suppresses ovarian and adrenal steroid production, and creates an anovulatory, low-oestrogen, high-androgen state.
 
-This is the key problem with the prediction. Amenorrhea is a known **pharmacological effect** of danazol, not a condition it treats. The literature supports inducing amenorrhea as an intended endpoint in endometriosis and in menstrual suppression (for example, in transgender individuals), not treating amenorrhea as a disease. The high TxGNN score likely reflects this strong drug–condition association, and the direction of the relationship appears reversed.
-
-Other predicted indications are mostly benign breast conditions (benign mammary dysplasia, breast adenosis, and similar). These overlap with danazol's existing fibrocystic breast disease indication, so they are essentially aliases of an approved use rather than new repurposing opportunities.
-
----
+This matters for how the prediction should be read. Amenorrhea is a **known pharmacological effect** of danazol, not something it treats. The retrieved papers discuss deliberately inducing amenorrhea (for example, menstrual suppression), not correcting it in patients who have lost their periods. The very high score probably reflects the strong drug–amenorrhea association in the data. That association is directional: the drug causes the condition. It therefore does not support using danazol to treat amenorrhea, and it could be harmful if applied that way.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+None of the publications below studies danazol as a treatment for amenorrhea. They are relevant only because they report amenorrhea as an effect or endpoint.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | RCT | Fertility and Sterility | Gestrinone vs danazol in 39 infertile women with endometriosis; amenorrhea was the treatment target and dose was escalated if not achieved |
-| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | Double-blind randomized study | Fertility and Sterility | Nafarelin vs danazol in 82 women with endometriosis; both led to significant regression of active disease |
-| [6210867](https://pubmed.ncbi.nlm.nih.gov/6210867/) | 1982 | Double-blind dose study | Obstetrics and Gynecology | Danazol 100–600 mg/day for 6 months in endometriosis; clinical improvement varied with dose |
-| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | Systematic review | Archives of Gynecology and Obstetrics | Safety and effectiveness of gestrinone (a related agent) in endometriosis, which induces amenorrhea |
-| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Retrospective cohort | Women's Health | Danazol used for menstrual suppression in transgender individuals; induces amenorrhea with reversible androgenic effects |
-| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | J Reprod Med | Danazol has diverse effects, including gonadotropin inhibition and suppression of gonadal steroidogenesis |
-| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | Human Reproduction Update | Management of endometriosis; lesions regress during amenorrhoea or menopause |
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Pharmacological therapy for abnormal uterine bleeding |
-| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Therapeutic induction of amenorrhoea in female personnel |
-| [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Review | Prog Clin Biol Res | Danazol in endometriosis and infertility; suppresses ovarian function |
-
-Most of these studies concern **inducing** amenorrhea. None shows danazol treating amenorrhea as a disease.
-
----
+| [2523321](https://pubmed.ncbi.nlm.nih.gov/2523321/) | 1989 | RCT | Fertility and Sterility | Gestrinone vs danazol (600 mg/day) in 39 infertile women with endometriosis. Amenorrhea was a treatment-response marker used to adjust doses. |
+| [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Retrospective cohort | Women's Health | Danazol used for menstrual suppression in transgender and nonbinary individuals because it induces amenorrhea. Reversible androgenic effects were noted. |
+| [1533675](https://pubmed.ncbi.nlm.nih.gov/1533675/) | 1992 | Review | J R Army Med Corps | Therapeutic induction of amenorrhoea (continuous oral contraceptive, GnRH analogue goserelin) for female personnel. |
+| [2404115](https://pubmed.ncbi.nlm.nih.gov/2404115/) | 1990 | Review | J Reprod Med | Danazol inhibits gonadotropins, suppresses gametogenesis and steroidogenesis, and has immunoregulatory effects. |
+| [36434439](https://pubmed.ncbi.nlm.nih.gov/36434439/) | 2023 | Systematic review | Arch Gynecol Obstet | Review of gestrinone for endometriosis, an antioestrogen that induces endometrial atrophy and/or amenorrhea. Danazol is not the subject. |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based medical therapy for abnormal uterine bleeding. |
+| [16280355](https://pubmed.ncbi.nlm.nih.gov/16280355/) | 2006 | Review | Hum Reprod Update | In oestrogen-dependent disease, lesions regress during amenorrhoea or menopause. |
+| [2140996](https://pubmed.ncbi.nlm.nih.gov/2140996/) | 1990 | Randomized, double-blind | Fertility and Sterility | Nafarelin vs danazol (600 mg/day) in 82 patients over 6 months. Both reduced active disease. |
 
 ## Philippines Market Information
 
@@ -98,31 +83,29 @@ Most of these studies concern **inducing** amenorrhea. None shows danazol treati
 |---------|------|------|-----------|
 | PNF-0128 | Danazol | Not specified | Not specified (status: valid) |
 
-
----
-
 ## Safety Considerations
 
-- **Disease-level contraindication signals (from the knowledge graph, not label text)**: epilepsy, porphyria (including inherited porphyria and porphyrin metabolism disease), kidney disease, liver disease, gallbladder disease, female breast carcinoma, migraine disorder, and familial combined hyperlipidaemia.
-- **Drug Interactions**: 100 interactions were recorded. Examples include **Cisapride (Major)**. Moderate interactions include antidiabetic agents (acarbose, SGLT2 inhibitors such as canagliflozin, dapagliflozin and empagliflozin, GLP-1 agonists such as exenatide and dulaglutide, sulfonylureas such as glipizide, glimepiride and glyburide, and insulins), budesonide, and eliglustat. The literature also reports potentiation of warfarin's anticoagulant effect with bleeding complications.
-- **Pregnancy and lactation**: Danazol is generally avoided in pregnancy (risk of fetal virilization) and lactation.
-- **Androgenic effects**: These include voice changes and hair pigmentation, which limit use.
+- **Drug Interactions:** 100 interacting drugs are recorded. The main ones are listed below.
+  - **Major:** cisapride.
+  - **Moderate, glucose-lowering agents:** acarbose, albiglutide, alogliptin, canagliflozin, dapagliflozin, dulaglutide, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide, and insulins (human, aspart).
+  - **Moderate, other:** budesonide (including nasal) and eliglustat.
 
-Package insert warnings and contraindications were not available; please refer to the package insert for full safety information.
-
----
+Local package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for them.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication appears to be a directional mismatch, because amenorrhea is an effect of danazol rather than a disease it treats. There are no clinical trials, and the evidence is at L4.
+- No clinical trial or publication studies danazol as a treatment for amenorrhea, so the evidence level is L5.
+- The literature shows amenorrhea is an effect danazol causes, so the high score likely reflects a directional mismatch.
 
 **To proceed, the following is needed:**
-- Confirm whether the prediction reflects a true therapeutic target or only the drug's known pharmacological effect (for example, by reviewing the TxGNN mapping of this indication)
-- Consider re-evaluating the benign breast disease predictions (benign mammary dysplasia, breast adenosis), which have more supporting literature but overlap with the existing indication
-- Obtain the package insert (warnings and contraindications) and mechanism of action data
+- Evidence that danazol treats amenorrhea as a disease, rather than only inducing it.
+- Mechanism-of-action data for danazol.
+- Local package insert warnings and contraindications.
+- A safety review, including interactions with glucose-lowering agents and cisapride.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

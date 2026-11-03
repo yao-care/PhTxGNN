@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amiodarone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 24
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L4). Approved use: Not recorded in the local data"
+description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,8 +38,9 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Amiodarone is an antiarrhythmic drug originally used to treat ventricular fibrillation.
-The TxGNN model predicts it may be effective for **catecholaminergic polymorphic ventricular tachycardia (CPVT)**, but there are currently **0 clinical trials** and **9 publications** (cohort studies, a systematic review, general reviews and case reports). None of these tests amiodarone in CPVT.
+Amiodarone is an antiarrhythmic drug that blocks several ion channels and has beta-adrenergic antagonist activity.
+The TxGNN model predicts it may be useful for **catecholaminergic polymorphic ventricular tachycardia (CPVT)**.
+Currently there are **no registered clinical trials** and **9 publications** (cohort descriptions, case reports and general reviews, none controlled) on this disease, so the evidence is weak.
 
 ## Quick Overview
 
@@ -48,16 +49,16 @@ The TxGNN model predicts it may be effective for **catecholaminergic polymorphic
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Amiodarone is generally known as a multichannel blocker (potassium, sodium and calcium channels) with beta-adrenergic antagonism. This profile suppresses ventricular arrhythmias and could plausibly help with arrhythmias triggered by adrenergic stress, which is the defining feature of CPVT.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amiodarone blocks potassium, sodium and calcium channels and has beta-adrenergic antagonist effects. This is plausibly relevant to arrhythmias triggered by adrenergic stress, which is the hallmark of CPVT.
 
-Ventricular fibrillation and CPVT are both life-threatening ventricular rhythm disorders, so the model links them. The mechanisms differ, however. CPVT is driven by RYR2/CASQ2-mediated diastolic calcium leak. Amiodarone is generally considered less effective here than beta-blockers and flecainide. The prediction is therefore plausible but unproven.
+However, CPVT is driven mainly by abnormal diastolic calcium leak from the sarcoplasmic reticulum (RYR2 or CASQ2 variants). Amiodarone is generally considered less effective than beta-blockers and flecainide in this condition. The mechanistic link is therefore plausible but unproven, and no controlled data support amiodarone for CPVT.
 
 ## Clinical Trial Evidence
 
@@ -65,18 +66,18 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of the publications below evaluates amiodarone as a treatment for CPVT. They describe CPVT itself or general arrhythmia management.
+The retrieved publications are about CPVT itself or its general management. None is a controlled study of amiodarone in CPVT, so the evidence level is capped at L5.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematic review | Life (Basel) | Clinical characteristics, genetic findings and arrhythmic outcomes of CPVT patients in China, compared with Western populations |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohort | Rev Cardiovasc Med | Clinical features, genetics, healthcare use and costs of CPVT in a Chinese city |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematic review (cohort data) | Life (Basel) | Clinical characteristics, genetic findings and arrhythmic outcomes of CPVT patients from China |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Retrospective cohort | Rev Cardiovasc Med | Clinical features, genetics, healthcare use and costs of CPVT patients in a Chinese city |
 | [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Review | Expert Opin Pharmacother | Antiarrhythmic drugs remain important for acute conversion and chronic prevention of ventricular arrhythmias |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case report | Pacing Clin Electrophysiol | Flecainide suppressed defibrillator-induced storming in a boy with CASQ2-related CPVT |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case report | Turk Pediatri Arsivi | CPVT presenting as sudden cardiac arrest in a 2-year-old |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case report | Medicine | CPVT with an RYR2 mutation, diagnosed 6 years late in a child |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case report | Front Cardiovasc Med | Right cardiac sympathetic denervation resolved CPVT in a teenager after left-sided denervation |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case report | BMJ Case Rep | Survival of a young child with recurrent VT/VF cardiac arrest and a diagnostic dilemma |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Case report | Pacing Clin Electrophysiol | Flecainide suppressed defibrillator-induced storming in a boy with CPVT |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Case report | Front Cardiovasc Med | Resolution of CPVT with right cardiac sympathetic denervation after left-sided denervation |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Case report | Medicine | Six-year delayed diagnosis of CPVT with an RYR2 variant in a 9-year-old child |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Case report | Turk Pediatri Arsivi | CPVT as a rare cause of sudden cardiac arrest in a 2-year-old |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Case report | BMJ Case Rep | Survival of a young child with cardiac arrest and recurrent ventricular arrhythmias after 40 shocks |
 
 ## Philippines Market Information
 
@@ -86,38 +87,23 @@ None of the publications below evaluates amiodarone as a treatment for CPVT. The
 
 ## Safety Considerations
 
-- **Contraindications / conditions of concern (from the drug–disease knowledge graph, not label text):**
-  - Cardiac rhythm and conduction: long QT syndrome (including familial), torsades de pointes, atrioventricular block, sick sinus syndrome.
-  - Lung: interstitial lung disease, eosinophilic pneumonia, hypersensitivity pneumonitis.
-  - Liver and gallbladder: liver disease, drug-induced liver injury, gallbladder disease.
-  - Thyroid: hypothyroidism and hyperthyroidism (including Graves disease and thyrotoxicosis).
-  - Eye and nerve: optic neuritis and optic nerve disease, corneal deposits, peripheral neuropathy.
-  - Other: potassium deficiency.
-- **Drug interactions:** 100 interactions were identified. Major-level examples include:
-  - Cisapride, clarithromycin, dolasetron and eliglustat.
-  - Hydrocortisone and dexamethasone.
-  - Amphotericin B (including its lipid, liposomal and cholesteryl sulfate forms).
-  - Clotrimazole and agalsidase beta.
+- **Drug Interactions**: Interaction screening found 100 recorded interacting drugs. Major-level examples include clarithromycin, cisapride, dolasetron, dexamethasone, hydrocortisone, clotrimazole, eliglustat, agalsidase beta and several amphotericin B formulations. Moderate-level examples include famotidine, cimetidine, aprepitant, bisacodyl and budesonide.
 
-  Moderate-level examples include famotidine, cimetidine, aprepitant and budesonide.
-
-Please also refer to the package insert for official warnings.
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no clinical trials exist and no published study tests amiodarone in CPVT. The mechanism is only plausible, and CPVT is usually treated with other drugs. Amiodarone is also marketed in the Philippines, with 1 valid licence of 1, and it carries a heavy safety and interaction burden.
-
-That use is already supported by Phase 3 and Phase 4 trials and is largely a confirmation of an established use rather than new repurposing.
+The prediction score is high, but no clinical trial or controlled publication studies amiodarone in CPVT. The mechanism is only partly plausible, and established alternatives (beta-blockers, flecainide) are considered more effective.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a clearer rationale for CPVT
-- Controlled or comparative data for amiodarone in CPVT versus beta-blockers and flecainide
-- Philippines package insert warnings and contraindications
-- Clarification of the cancelled registration status and available dosage forms
-- A safety monitoring plan covering lung, thyroid, liver, eye and QT effects, plus a drug-interaction management plan
+- Controlled or comparative clinical data on amiodarone in CPVT
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the Philippine regulator
+- A safety review, given the extensive interaction list and the serious organ toxicity risks of long-term amiodarone use
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

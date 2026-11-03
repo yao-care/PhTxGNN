@@ -38,10 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Tiotropium is a long-acting inhaled muscarinic antagonist, originally used for bronchitis, asthma and pulmonary emphysema.
-Note that this prediction overlaps heavily with the drug's existing uses, so it is closer to an on-label category than a true repurposing candidate.
-
----
+Tiotropium is a long-acting inhaled anticholinergic bronchodilator.
+The TxGNN model predicts it may be relevant to **respiratory malformation** (respiratory malformation), with a score of 0.9995.
+Evidence is weak: the **3 clinical trials** found were in cystic fibrosis, not in respiratory malformation, and the **5 publications** retrieved address other conditions.
 
 ## Quick Overview
 
@@ -53,57 +52,35 @@ Note that this prediction overlaps heavily with the drug's existing uses, so it 
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the drug database. Based on general pharmacology, tiotropium is a long-acting muscarinic antagonist (LAMA). It blocks M3 receptors on airway smooth muscle, which produces sustained bronchodilation and reduces cholinergic tone and mucus secretion. It dissociates slowly from M1 and M3 receptors, which allows once-daily dosing.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Tiotropium is a long-acting muscarinic antagonist class drug, and its known pharmacological effect is bronchodilation through relaxation of airway smooth muscle.
 
-Obstructive lung disease is the broad category that includes the drug's original indications (bronchitis, asthma, emphysema). The prediction is therefore mechanistically consistent, but it largely restates established use rather than identifying a new one. The same applies to the related predictions for COPD (rank 5) and severe early-onset COPD (rank 4).
-
-Other predictions in the list are much weaker. Respiratory malformation, tracheal stenosis, hyperlucent lung, compensatory emphysema and interstitial emphysema involve structural or non-obstructive processes. Rienhoff syndrome and the CD8alpha-related infection susceptibility are rare conditions with no identified rationale. None of these has supporting evidence, and all are rated Hold.
-
----
+The link to respiratory malformation is weak. Structural malformations are not treated by bronchodilation, and any benefit would be symptomatic, in patients with coexisting airway obstruction, rather than disease-modifying. The high score most likely reflects the model's network proximity to obstructive airway conditions rather than a true mechanistic rationale. No trial or publication reviewed studies this disease directly.
 
 ## Clinical Trial Evidence
 
-The table lists the most relevant trials, with Phase 3 and graded studies given priority.
+None of these trials enrolled patients with respiratory malformation. All three were in cystic fibrosis and are therefore indirect.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00240435](https://clinicaltrials.gov/study/NCT00240435) | Phase 3 | Completed | 491 | Tiotropium Respimat 5 and 10 mcg vs placebo and ipratropium MDI in COPD; bronchodilator efficacy and safety |
-| [NCT01431274](https://clinicaltrials.gov/study/NCT01431274) | Phase 3 | Completed | 2,624 | 52-week tiotropium + olodaterol vs individual components in COPD (TOnado 1) |
-| [NCT00877383](https://clinicaltrials.gov/study/NCT00877383) | Phase 3 | Completed | 1,142 | Indacaterol added to tiotropium vs tiotropium alone, 12 weeks, moderate-to-severe COPD |
-| [NCT00900731](https://clinicaltrials.gov/study/NCT00900731) | Phase 3 | Completed | 1,598 | Indacaterol vs tiotropium over 12 weeks in moderate-to-severe COPD |
-| [NCT01854645](https://clinicaltrials.gov/study/NCT01854645) | Phase 3 | Completed | 2,103 | Triple/dual MDI therapies vs placebo, with open-label tiotropium as active control, 24 weeks |
-| [NCT01610037](https://clinicaltrials.gov/study/NCT01610037) | Phase 3 | Completed | 1,215 | 52-week long-term safety of QVA149 vs placebo and tiotropium |
-| [NCT01525615](https://clinicaltrials.gov/study/NCT01525615) | Phase 3 | Completed | 404 | Tiotropium + olodaterol vs placebo on exercise endurance over 12 weeks |
-| [NCT01316380](https://clinicaltrials.gov/study/NCT01316380) | Phase 3 | Completed | 465 | Tiotropium Respimat vs placebo in mild persistent asthma over 12 weeks |
-| [NCT00772538](https://clinicaltrials.gov/study/NCT00772538) | Phase 3 | Completed | 459 | Tiotropium 5 mcg add-on to usual care in severe persistent asthma over 48 weeks |
-| [NCT02172443](https://clinicaltrials.gov/study/NCT02172443) | Phase 3 | Completed | 50 | Tiotropium capsules vs ipratropium MDI in COPD (small, active-comparator design) |
-
-The data set contains further trials, including Phase 2 dose-ranging, device comparison and pharmacokinetic studies. The 52-week combination study (NCT01431274) and the placebo- and active-controlled study (NCT00240435) were graded as direct efficacy evidence.
-
----
+| [NCT01179347](https://clinicaltrials.gov/study/NCT01179347) | Phase 3 | Completed | 464 | Placebo-controlled trial of tiotropium 5 mcg once daily via Respimat for 12 weeks in cystic fibrosis |
+| [NCT00737100](https://clinicaltrials.gov/study/NCT00737100) | Phase 2 | Completed | 510 | Two doses (2.5 and 5 mcg) vs placebo via Respimat for 12 weeks in cystic fibrosis, assessing lung function and dose selection |
+| [NCT02172534](https://clinicaltrials.gov/study/NCT02172534) | Phase 1 | Completed | 113 | Safety, tolerability and pharmacokinetics of single and multiple doses in children, adolescents and adults with cystic fibrosis |
 
 ## Literature Evidence
 
+None of the publications addresses respiratory malformation directly.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28877027](https://pubmed.ncbi.nlm.nih.gov/28877027/) | 2017 | RCT | N Engl J Med | Tested long-term tiotropium on lung function and its decline in mild-to-moderate COPD |
-| [29779416](https://pubmed.ncbi.nlm.nih.gov/29779416/) | 2018 | RCT | Am J Respir Crit Care Med | SUNSET: de-escalation from triple therapy to indacaterol/glycopyrronium in COPD |
-| [27724909](https://pubmed.ncbi.nlm.nih.gov/27724909/) | 2016 | Systematic Review | BMC Pulm Med | Compared tiotropium Respimat and HandiHaler in COPD |
-| [33095662](https://pubmed.ncbi.nlm.nih.gov/33095662/) | 2021 | Review | Curr Med Res Opin | Reviewed tiotropium + olodaterol for reducing COPD exacerbations |
-| [12010082](https://pubmed.ncbi.nlm.nih.gov/12010082/) | 2002 | Review | Drugs | Tiotropium as an anticholinergic bronchodilator with once-daily dosing and improved lung function in COPD |
-| [32727455](https://pubmed.ncbi.nlm.nih.gov/32727455/) | 2020 | Review | Respir Res | Review of the clinical development of tiotropium in COPD |
-| [23170031](https://pubmed.ncbi.nlm.nih.gov/23170031/) | 2012 | Review | Ann Pharmacother | Efficacy and safety of ipratropium combined with tiotropium |
-| [10069510](https://pubmed.ncbi.nlm.nih.gov/10069510/) | 1999 | Mechanistic review | Life Sci | Mechanistic considerations and clinical profile of tiotropium in obstructive lung disease |
-| [35510163](https://pubmed.ncbi.nlm.nih.gov/35510163/) | 2022 | Cohort | Int J Chron Obstruct Pulmon Dis | Real-world comparison of three LABA/LAMA combinations in Taiwan |
-| [23728670](https://pubmed.ncbi.nlm.nih.gov/23728670/) | 2013 | Cochrane review | Cochrane Database Syst Rev | Inhaled steroid/LABA combination vs tiotropium in COPD |
-
----
+| [31522031](https://pubmed.ncbi.nlm.nih.gov/31522031/) | 2019 | RCT | Respiratory Medicine | Lung deflation with tiotropium/olodaterol and cardiocirculatory responses to exercise in COPD |
+| [26229457](https://pubmed.ncbi.nlm.nih.gov/26229457/) | 2015 | Review | Int J Chron Obstruct Pulmon Dis | Dual bronchodilation with indacaterol-glycopyrronium in COPD and its effect on patient outcomes |
+| [22608352](https://pubmed.ncbi.nlm.nih.gov/22608352/) | 2012 | Observational | Respiratory Medicine | Reduced ciliary beating in nasal cilia from COPD subjects |
+| [33787023](https://pubmed.ncbi.nlm.nih.gov/33787023/) | 2021 | Case report | Rev Fac Cienc Med (Córdoba) | COVID-19 in a young patient with pectus excavatum |
+| [40850565](https://pubmed.ncbi.nlm.nih.gov/40850565/) | 2025 | Preclinical | Chem Biol Interact | Mechanisms of ventilatory dysfunction in mice exposed to an organophosphorus nerve agent |
 
 ## Philippines Market Information
 
@@ -111,32 +88,25 @@ The data set contains further trials, including Phase 2 dose-ranging, device com
 |---------|------|------|-----------|
 | PNF-0489 | Tiotropium | Not recorded | Not recorded (status: valid) |
 
-The only registration is valid, so one valid registration currently exists in the Philippines.
-
----
-
 ## Safety Considerations
 
-- **Contraindications / conditions of concern (from the knowledge graph, not label text)**: benign prostatic hyperplasia, impaired renal function, angle-closure (closed-angle) glaucoma, bladder neck obstruction.
-- **Drug Interactions**: 100 interactions were found in the DDI screening. The main ones are additive anticholinergic effects with other antimuscarinic agents, rated Moderate: hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline and scopolamine. Other Moderate interactions include eluxadoline, prucalopride and inhaled rapid-acting insulin. Cimetidine is rated Minor.
-- **Other signals from the literature**: ocular effects (an anterior chamber study, NCT06525051) and cardiovascular and mortality questions (PMID 32274526, PMID 21672999) are covered in the compiled publications.
+- **Drug Interactions**: Interactions were found with other anticholinergic agents, mostly rated Moderate, including hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline and scopolamine, where additive anticholinergic effects are a concern. Other Moderate interactions include eluxadoline, prucalopride and inhaled human insulin. Cimetidine is rated Minor.
 
-Please refer to the package insert for the official warnings and contraindications, because label text was not available for this report.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 3 RCTs and meta-analyses support tiotropium in obstructive lung disease and COPD, giving L1 evidence. Predictions for the other eight conditions lack supporting evidence and should stay on Hold.
+No study examines tiotropium in respiratory malformation. The available trials were in cystic fibrosis, and there is no plausible mechanism by which bronchodilation would treat a structural defect. The high score is a model prediction only.
 
 **To proceed, the following is needed:**
-- Confirm the current regulatory and market availability of tiotropium in the Philippines, including which formulations (HandiHaler or Respimat) are available.
-- Obtain the Philippine package insert to complete the warnings and contraindications review.
-- Complete the mechanism of action data from DrugBank.
-- Put anticholinergic safety monitoring in place (glaucoma, urinary retention, prostatic hyperplasia, renal impairment, cardiovascular events).
+- Evidence from studies that directly enrol patients with respiratory malformation
+- A clear mechanistic rationale for the predicted use
+- Package insert warnings and contraindications for the Philippines product
+- Mechanism-of-action data
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

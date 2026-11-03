@@ -38,10 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Nystatin is a polyene antifungal originally used for candidiasis of the skin, mouth and vagina.
-Support comes from **0 registered clinical trials** and **20 publications**, mostly reviews and topical-therapy overviews.
-
----
+Nystatin is a polyene antifungal that is registered and marketed in the Philippines. The TxGNN model predicts it may be relevant to **disease of orbital region** (score 0.9990). No clinical trial or publication directly studies this use, so the prediction is currently model output only.
 
 ## Quick Overview
 
@@ -53,76 +50,62 @@ Support comes from **0 registered clinical trials** and **20 publications**, mos
 | Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Nystatin is a polyene antifungal. It binds ergosterol in the Candida cell membrane, forms pores and causes leakage of cell contents. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
+Detailed mechanism of action data is not available for this report. Nystatin is generally known to bind ergosterol in fungal cell membranes and disrupt membrane integrity. This is a fungus-specific action.
 
-Vulvovaginal candidiasis is already a core use of nystatin, so the prediction mostly re-confirms an existing indication. Nystatin was introduced in the 1950s for this purpose. It has since been surpassed by azoles as first-line therapy, but it remains an option, for example in fluconazole-resistant disease and in pregnancy.
-
-Bacterial, trichomonal and atrophic (estrogen-deficiency) vulvovaginitis fall outside nystatin's antifungal spectrum.
-
----
+No credible mechanistic link to orbital disease has been identified. Orbital disease covers many non-fungal causes, such as inflammatory, vascular and structural conditions. The only trial retrieved for this prediction studies a different drug in a different eye condition and gives no support to nystatin. The high score most likely reflects statistical proximity in the model rather than a biological rationale, so it should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for vulvovaginitis.
-
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03178149](https://clinicaltrials.gov/study/NCT03178149) | Phase 1 | Recruiting | 42 | Dose-escalation safety study of ASP7317, a cell therapy, in geographic atrophy secondary to age-related macular degeneration. It does not involve nystatin and does not address orbital disease, so it is not relevant evidence. |
 
 ## Literature Evidence
 
-No randomised controlled trial was classified as such in the compiled data, but several studies compare nystatin directly with fluconazole. Reviews are listed first, followed by the comparative studies.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clin Evid | Vulvovaginal candidiasis is the second most common cause of vaginitis; *C. albicans* accounts for 85–90% of cases |
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Reviews alternatives for fluconazole-resistant vulvovaginal candidiasis, including boric acid, nystatin and newer agents |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | Boric acid for recurrent vulvovaginal candidiasis; non-albicans species are more resistant to azoles |
-| [18729533](https://pubmed.ncbi.nlm.nih.gov/18729533/) | 2008 | Review | Drugs | Local and oral therapy considered equally effective for uncomplicated disease; local treatment has distinct advantages |
-| [10796183](https://pubmed.ncbi.nlm.nih.gov/10796183/) | 2000 | Cochrane review | Cochrane Database Syst Rev | Topical treatment for vaginal candidiasis in pregnancy |
-| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin has been surpassed by imidazoles and triazoles as first choice for vulvovaginal candidiasis |
-| [25416649](https://pubmed.ncbi.nlm.nih.gov/25416649/) | 2015 | Comparative clinical study | Mycopathologia | Vaginal nystatin (14 days per month) vs oral fluconazole in 293 patients with recurrent disease; initial mycological cure 78.3% (nystatin) vs 73.8% (fluconazole) |
-| [21918792](https://pubmed.ncbi.nlm.nih.gov/21918792/) | 2012 | Clinical study | Acta Derm Venereol | Compared fluconazole and nystatin for vaginal Candida in Brazilian women |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Clinical study | Mycoses | Correlated in vitro fluconazole and nystatin susceptibility with outcome in 283 patients with complicated disease |
-| [36588489](https://pubmed.ncbi.nlm.nih.gov/36588489/) | 2022 | Clinical/histopathological study | Rom J Morphol Embryol | Clinical and histopathological aspects of candida vaginitis before local nystatin treatment |
-
----
+Currently no related literature available.
 
 ## Philippines Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| PNF-0355 (cancelled) | Nystatin | Not specified | Not specified |
+| PNF-0355 | Nystatin | Not specified | Not specified |
 
----
+Current local status: marketed, with a valid single-ingredient licence.
 
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (graph-derived associations, not label text): adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary hemorrhagic telangiectasia.
-- **Drug Interactions**: The interaction screen returned 100 potential interacting drugs, but none has a severity grade (all "Unknown"). Examples include cyclosporine, fluconazole, erythromycin, azithromycin, bortezomib, tramadol and sildenafil. These need clinical review before any conclusions are drawn.
+**Drug Interactions**
 
-Please refer to the package insert for warnings and other safety information.
+An interaction search returned 100 potential interacting drugs. None has a severity grade assigned. Examples include:
+- Cyclosporine
+- Fluconazole
+- Erythromycin
+- Azithromycin
+- Tramadol
+- Lorazepam
+- Sildenafil
+- Bortezomib
 
----
+Please refer to the package insert for warnings and contraindications. The package insert was not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- Candidal vulvovaginitis is an established use of nystatin, supported by reviews and several comparative studies, so the biological plausibility is strong.
-- Other predictions from the same model (orbital disease, cystic teratoma, biotin metabolic disease and similar) have no credible mechanism or evidence and should be held.
+- The prediction rests on a model score alone. The only trial found is unrelated, no literature exists, and no plausible mechanism links nystatin to orbital disease.
 
 **To proceed, the following is needed:**
-- A valid local registration or a new application, with confirmed dosage forms (especially a vaginal formulation) and approved indication text
-- The package insert warnings and contraindications
-- Detailed mechanism of action data confirmed from a primary source
-- Clinical review of the ungraded interaction list
-- Confirmation that use is limited to candidal (not bacterial, trichomonal or atrophic) vulvovaginitis, with guidance on place in therapy relative to azoles
+- At least one clinical or preclinical study that directly examines nystatin in orbital disease
+- A defined, plausible mechanism, with a clear clinical target condition within orbital disease
+- Package insert warnings and contraindications from the Philippines regulator
+- Mechanism of action data from a drug reference source
+- Review of the route of administration, since the dosage form of the local licence is not recorded
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

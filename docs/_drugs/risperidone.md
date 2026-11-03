@@ -6,9 +6,9 @@ nav_order: 298
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-03
-description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Schizophrenia, bipolar disorder (including mania)…"
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
+description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Risperidone
@@ -33,20 +33,18 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Risperidone: From Schizophrenia and Bipolar Disorder to Gaze Palsy, Familial Horizontal, with Progressive Scoliosis
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Risperidone is an antipsychotic originally used for schizophrenia, bipolar (manic) disorder and autism-related conditions.
-The TxGNN model predicts it may be effective for **gaze palsy, familial horizontal, with progressive scoliosis**, a rare genetic disorder.
-**No clinical trials and no publications** currently support this prediction, so it is a model output only.
+Risperidone is an antipsychotic medicine. The TxGNN model predicts it may be relevant to **gaze palsy, familial horizontal, with progressive scoliosis**, but **no clinical trials and no publications** were found for this disease, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, bipolar disorder (including mania), autism spectrum disorder (the Philippines license record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
@@ -56,9 +54,19 @@ The TxGNN model predicts it may be effective for **gaze palsy, familial horizont
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Risperidone is generally known as a dopamine D2 and serotonin 5-HT2A antagonist. Its efficacy in psychotic and mood disorders is established.
+Currently, detailed mechanism of action data is not available for this report. Risperidone is generally known as a dopamine D2 and serotonin 5-HT2A receptor antagonist.
 
-The predicted disease is a rare genetic disorder (ROBO3-related) of axon guidance and hindbrain development. It causes absent horizontal eye movements and progressive scoliosis. Blocking D2/5-HT2A receptors has no plausible role in correcting this structural neurodevelopmental defect, and no mechanistic link could be identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should not be treated as a credible repurposing opportunity without independent supporting data.
+No plausible mechanistic link to this condition was identified. Familial horizontal gaze palsy with progressive scoliosis is a rare genetic disorder (ROBO3-related) of axon guidance and hindbrain development. Blocking D2 and 5-HT2A receptors has no apparent role in correcting this structural neurodevelopmental defect.
+
+The high score is therefore most likely an artifact of how closely the drug and disease sit in the model's network, rather than a sign of real therapeutic potential.
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available.
 
 ## Philippines Market Information
 
@@ -66,37 +74,30 @@ The predicted disease is a rare genetic disorder (ROBO3-related) of axon guidanc
 |---------|------|------|
 | PNF-0425 | Risperidone | Valid |
 
-The record contains no dosage form or approved indication text. The drug is marketed in this country, with 1 valid license of 1.
+At least one valid single-ingredient registration exists in the Philippines for risperidone.
 
 ## Safety Considerations
 
-- **Contraindication-related conditions from the knowledge graph** (drug-disease contraindication links, not label text):
-  - Cardiovascular and cerebrovascular: myocardial infarction, coronary thrombosis, heart conduction disease, sudden cardiac arrest, heart disease, stroke and cerebral infarction, orthostatic and other hypotension.
-  - Metabolic: diabetes mellitus, diabetic ketoacidosis, hyperglycemia, hyperlipidemia, obesity.
-  - Haematological: neutropenia, agranulocytosis.
-  - Hepatic and biliary: liver disease or failure, gallbladder disease.
-  - Neurological: epilepsy, multiple system atrophy.
-  - Other: postural orthostatic tachycardia syndrome, female breast carcinoma, hemoglobinopathy.
-- **Drug Interactions**: 100 interactions were recorded.
-  - **Major**: bupropion, morphine.
-  - **Moderate**, among others: metformin, acarbose, alogliptin, canagliflozin, albiglutide (antidiabetic agents); epinephrine; hydrocortisone; amphotericin B; atropine, hyoscyamine, glycopyrronium, clidinium (anticholinergics); loperamide; lorcaserin; bisacodyl; famotidine.
-  - **Minor**: ranitidine.
+- **Drug Interactions** (100 interactions recorded; main examples):
+  - **Major:** bupropion, morphine
+  - **Moderate:** acarbose, famotidine, epinephrine, hydrocortisone, albiglutide, alogliptin, metformin, amphotericin B, hyoscyamine, loperamide, atropine, lorcaserin, bisacodyl, glycopyrronium, canagliflozin, clidinium
+  - **Minor:** ranitidine
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for complete safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or publications, and no plausible mechanism links risperidone to this structural genetic disorder. The drug is marketed in the Philippines, with 1 valid license of 1.
+The prediction has no supporting trials or publications, and no mechanistic link to a ROBO3-related developmental disorder could be identified. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Mechanistic or preclinical evidence linking risperidone to ROBO3-related axon guidance defects
-- Mechanism of action data and package insert warnings and contraindications
-- Confirmation of the regulatory status of the cancelled registration PNF-0425
+- Any direct preclinical or clinical evidence in this specific disease
+- A plausible mechanistic rationale linking risperidone to the disease biology
+- Package insert warnings and contraindications from the Philippine regulator
+- Mechanism of action data for the drug
 
-**Other candidates in the compiled data:** Other predicted indications for risperidone have stronger support than this one. The strongest is **major affective disorder** (treatment-resistant major depression, adjunctive use). It is rated L1 and supported by two completed Phase 3 trials (NCT00095134, n=630; NCT00044681, n=258) and several meta-analyses. Its suggested decision is Proceed with Guardrails: metabolic monitoring, prolactin, extrapyramidal symptoms, QT considerations and the high interaction burden. This category partly overlaps with the existing bipolar indication, and trial outcomes should be confirmed from the primary publications. **Trichotillomania** (L3, case reports and small case series only) and **Phelan-McDermid syndrome** (L4, preclinical evidence) are best treated as research questions. A separate report on these candidates would be a more productive next step than pursuing the top-ranked prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Betamethasone
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 42
-evidence_level: L2
+evidence_level: L4
 indication_count: 7
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 last_modified_at: 2026-11-03
-description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L2). Approved use: Not recorded in the local data"
+description: "Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Betamethasone is a potent glucocorticoid with anti-inflammatory and immunosuppressive activity.
+Betamethasone is a corticosteroid that is already marketed in the Philippines.
+The TxGNN model predicts it may be useful for **alopecia mucinosa**.
+The evidence is thin: **no clinical trials** and **1 publication**, a 1964 case series with a therapy review.
 
 ## Quick Overview
 
@@ -47,60 +49,58 @@ Betamethasone is a potent glucocorticoid with anti-inflammatory and immunosuppre
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Alopecia mucinosa |
 | TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L2 |
+| Evidence Level | L4 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, betamethasone is a potent glucocorticoid. In alopecia areata, the immune privilege of the hair follicle collapses and T cells attack it. A glucocorticoid can suppress this T-cell-mediated autoimmune attack.
+Detailed mechanism of action data is not currently available for this drug. Betamethasone belongs to the glucocorticoid class, which is broadly anti-inflammatory and immunosuppressive.
 
-Alopecia areata is an autoimmune disease, and betamethasone's anti-inflammatory and immunosuppressive activity is consistent with this. Topical, intralesional and oral mini-pulse routes are all used in the studies listed below.
-
-**Note on the evidence level:** The trial list contains no completed Phase 3 trial. One completed Phase 2 trial (NCT06786689) includes betamethasone as a direct study arm, and several randomized trials and a network meta-analysis exist. The conservative level is therefore L2, not L1.
+Alopecia mucinosa (follicular mucinosis) involves mucin build-up in hair follicles, usually with an inflammatory cell infiltrate around the follicle. Corticosteroids may reduce this infiltrate, which is the plausible link to the prediction. The link is indirect, because the only supporting evidence is a 1964 case series and therapy review, and no modern controlled data exist.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Phase 2 | Completed | 60 | Weekly azathioprine pulse vs oral betamethasone mini-pulse in moderate to severe alopecia areata; betamethasone is a direct study arm |
-| [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Phase 4 | Completed | 50 | Topical latanoprost vs topical corticosteroid (betamethasone) in localized alopecia areata |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | N/A | Not yet recruiting | 60 | Topical metformin, simvastatin and betamethasone valerate combination in patchy alopecia areata; betamethasone's contribution cannot be separated |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37870096](https://pubmed.ncbi.nlm.nih.gov/37870096/) | 2023 | Network meta-analysis | Cochrane Database Syst Rev | Compares treatments for alopecia areata, including immunosuppressants, hair growth stimulants and contact immunotherapy |
-| [39393548](https://pubmed.ncbi.nlm.nih.gov/39393548/) | 2025 | RCT | J Am Acad Dermatol | Microneedle transdermal delivery of compound betamethasone, as an alternative to painful intralesional injection |
-| [34400956](https://pubmed.ncbi.nlm.nih.gov/34400956/) | 2021 | RCT | Iran J Pharm Res | Oral pulse betamethasone, methotrexate and their combination vs placebo in 36 patients with severe alopecia areata |
-| [32594786](https://pubmed.ncbi.nlm.nih.gov/32594786/) | 2022 | RCT | J Dermatolog Treat | Within-patient comparison of intralesional betamethasone and triamcinolone acetonide in localized alopecia areata |
-| [40510104](https://pubmed.ncbi.nlm.nih.gov/40510104/) | 2025 | RCT | Cureus | Oral cyclosporine vs oral betamethasone mini-pulse in 60 patients with alopecia areata |
-| [36257912](https://pubmed.ncbi.nlm.nih.gov/36257912/) | 2022 | RCT | Dermatol Ther | Latanoprost vs minoxidil, betamethasone and combinations in six groups of 18 patients |
-| [27746635](https://pubmed.ncbi.nlm.nih.gov/27746635/) | 2016 | Comparative study | Ann Dermatol | Oral cyclosporine vs betamethasone mini-pulse therapy |
-| [40519428](https://pubmed.ncbi.nlm.nih.gov/40519428/) | 2025 | Clinical study | Cureus | Efficacy and safety of oral betamethasone mini-pulses in moderate to severe alopecia areata |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Efficacy, relapse rates and side effects of corticosteroid pulse therapy in alopecia areata |
-| [17642661](https://pubmed.ncbi.nlm.nih.gov/17642661/) | 2004 | Open uncontrolled study | Indian J Dermatol Venereol Leprol | Extensive alopecia areata treated with betamethasone oral mini-pulse therapy |
+| [14164963](https://pubmed.ncbi.nlm.nih.gov/14164963/) | 1964 | Case series / Review | Archives of Dermatology | Report of three cases of follicular mucinosis (alopecia mucinosa) with a review of therapy. No abstract is available, so the findings cannot be summarised further. |
+
+## Philippines Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| PNF-0048 | Betamethasone | Not recorded in local data | Not recorded in local data |
+
+The one registration on file is a valid single-ingredient licence.
 
 ## Safety Considerations
 
-- **Drug Interactions**: Interaction screening returned 100 entries. Examples include a major interaction with adalimumab, and moderate interactions with zidovudine, isotretinoin, acarbose, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, aldesleukin, alemtuzumab, fluvoxamine and fosamprenavir.
+- **Drug Interactions**: The interaction screening returned 100 entries. The main ones in the data compiled for this report:
+  - **Major**: adalimumab.
+  - **Moderate**: zidovudine, isotretinoin, acarbose, acebutolol, acetazolamide, ketorolac, ibuprofen, nifedipine, ethinylestradiol, albiglutide, aldesleukin, alefacept, alemtuzumab, fluvoxamine, fosamprenavir, and tetanus toxoid vaccine.
+  - **Minor**: formoterol and salbutamol.
 
-For other safety information, please refer to the package insert.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 trial and several randomized trials include betamethasone (oral mini-pulse, topical and intralesional) for alopecia areata, and the mechanism is plausible for an autoimmune hair disease. However, no Phase 3 trial is available, and most trials use betamethasone as a comparator.
+The only support for alopecia mucinosa is one 1964 case series and therapy review, with no registered clinical trials. The mechanistic link is plausible but indirect, so the evidence is not yet strong enough to advance.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the Philippines regulator
+- Modern clinical evidence (controlled studies or larger case series) of betamethasone in alopecia mucinosa, including the route and regimen used
+- Confirmation of available dosage forms and routes locally, since the registration lacks dosage form data
+- Package insert warnings and contraindications from the Philippine regulator
 - Detailed mechanism of action data
-- Confirmation of the route and dosage form to be used, since the local licence record lists no dosage form
-- A safety monitoring plan for repeated or oral pulse use, and for patients taking interacting drugs
+- A review of the interaction profile, especially with adalimumab, for the intended patient population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

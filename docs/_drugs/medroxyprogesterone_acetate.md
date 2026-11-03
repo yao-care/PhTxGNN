@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 218
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 last_modified_at: 2026-11-03
-description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Medroxyprogesterone acetate is a synthetic progestin.
+Medroxyprogesterone acetate (MPA) is a synthetic progestin that is already marketed in the Philippines.
+The TxGNN model predicts it may be useful for **breast fibrocystic disease**.
+No clinical trials are registered for this use, but **9 publications** were retrieved, including 2 older small clinical reports that studied MPA directly in this condition.
 
 ## Quick Overview
 
@@ -47,16 +49,18 @@ Medroxyprogesterone acetate is a synthetic progestin.
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L5 |
+| Evidence Level | L3 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Medroxyprogesterone acetate is a synthetic progestin. Progestins act on the endometrium and suppress gonadotropins, so absence of menstruation is a well-known pharmacologic effect of depot medroxyprogesterone contraception. A progestin challenge is also used clinically to trigger withdrawal bleeding when evaluating secondary amenorrhea.
+Currently, detailed mechanism of action data is not available. Based on known information, MPA is a progestin, meaning it acts on progesterone-responsive tissue. Mechanistically it may be applicable to breast fibrocystic disease.
 
-This means the prediction partly reflects a known effect or side effect rather than a clearly new therapeutic use. The retrieved literature contains no controlled studies of this drug as a treatment for amenorrhea. Since no cited study directly examines treatment of amenorrhea with this drug, the evidence level is L5 (model prediction only).
+The literature describes fibrocystic breast changes as hormone-responsive. One review attributes them to estrogen predominance and relative progesterone deficiency, which drive overgrowth of connective tissue and epithelium. A progestin could in theory restore the estrogen-progestin balance and limit this proliferation.
+
+The evidence is mixed, however. Other retrieved papers on hormone replacement therapy (HRT) suggest that progestin-containing regimens can increase breast density and epithelial proliferation. An older review also notes that MPA caused severe myoepithelial hyperplasia in beagle dogs. The direction of benefit versus risk for breast tissue is therefore unresolved.
 
 ## Clinical Trial Evidence
 
@@ -64,18 +68,17 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The publications retrieved are mostly reviews on hormonal and injectable contraception. None is a controlled trial of the drug for amenorrhea. Representative items:
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Systematic review | Cochrane Database of Systematic Reviews | Combination injectable contraceptives are a highly effective, reversible method; bleeding pattern changes may limit acceptability |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Systematic review | Cochrane Database of Systematic Reviews | Updated review of combination injectable contraceptives for contraception |
-| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | Review | American Journal of Obstetrics and Gynecology | Depot medroxyprogesterone acetate 150 mg every 3 months has contraceptive efficacy above 99% |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | International Journal of Fertility and Menopausal Studies | Long-acting contraceptive options, including injectables, with annual pregnancy rates below 1 per 100 woman-years |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Review | International Journal of Gynaecology and Obstetrics | Postpartum contraception timing; return of ovulation is unpredictable regardless of postpartum amenorrhea |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Review | Drug Intelligence & Clinical Pharmacy | Drug-induced infertility, including hormonal effects on the hypothalamic-pituitary-gonadal axis |
-| [7030000](https://pubmed.ncbi.nlm.nih.gov/7030000/) | 1981 | Review | Acta Obstetricia et Gynecologica Scandinavica. Supplement | Progestins in advanced breast cancer; average response rate about 30% |
-| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Review | MCN. The American Journal of Maternal Child Nursing | Narrative article on Depo-Provera |
+| [6241963](https://pubmed.ncbi.nlm.nih.gov/6241963/) | 1983 | Clinical study (therapeutic trial, likely small) | Rev Chil Obstet Ginecol | Therapeutic trial of MPA in severe fibrocystic breast disease; no abstract available |
+| [2978834](https://pubmed.ncbi.nlm.nih.gov/2978834/) | 1988 | Clinical study (likely small, uncontrolled) | Rev Chil Pediatr | MPA used in adolescents with fibrocystic breast disease; no abstract available |
+| [12841885](https://pubmed.ncbi.nlm.nih.gov/12841885/) | 2003 | Clinical study (HRT) | Climacteric | Compared five hormone replacement regimens in postmenopausal women with benign fibrocystic mastopathy |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Fibrocystic disease is driven by estrogen predominance and progesterone deficiency; breast cancer risk is raised two- to fourfold |
+| [3657597](https://pubmed.ncbi.nlm.nih.gov/3657597/) | 1987 | Review | Maturitas | The cause of fibrocystic breast disease remains unclear. MPA induced myoepithelial hyperplasia in beagles, while classical oral contraceptives reduced incidence in women |
+| [11379380](https://pubmed.ncbi.nlm.nih.gov/11379380/) | 2001 | Cohort/Cytology study (HRT) | Climacteric | Evaluated fine-needle-aspiration cytology to follow breast epithelial proliferation during HRT |
+| [11379377](https://pubmed.ncbi.nlm.nih.gov/11379377/) | 2001 | Cohort/Imaging study (HRT) | Climacteric | Evaluated the effect of different HRT regimens on mammographic breast density |
+| [10576236](https://pubmed.ncbi.nlm.nih.gov/10576236/) | 1999 | Cohort/Imaging study (HRT) | Int J Gynaecol Obstet | Assessed mammographic density changes and new solid or cystic breast formations during different HRT types |
+| [8603031](https://pubmed.ncbi.nlm.nih.gov/8603031/) | 1996 | Preclinical/Mechanistic | J Steroid Biochem Mol Biol | Androgen receptor signalling and growth control in breast and endometrial tissue |
 
 ## Philippines Market Information
 
@@ -85,7 +88,10 @@ The publications retrieved are mostly reviews on hormonal and injectable contrac
 
 ## Safety Considerations
 
-- **Drug Interactions**: Moderate-level interactions were identified with many antidiabetic agents, including acarbose, metformin, glimepiride, chlorpropamide, canagliflozin, dapagliflozin, empagliflozin, alogliptin, saxagliptin, semaglutide, liraglutide, dulaglutide, albiglutide and several insulins. Moderate interactions were also listed with aprepitant, dexamethasone, clarithromycin and pegvaliase. The list shown is partial (100 interactions in total).
+- **Drug Interactions**: 100 interactions were found in the interaction data compiled for this report. The examples reviewed are all rated Moderate. They include:
+  - Antidiabetic drugs: metformin, glimepiride, chlorpropamide, acarbose, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), DPP-4 inhibitors (alogliptin, saxagliptin), GLP-1 agonists (semaglutide, liraglutide, dulaglutide, albiglutide) and insulins (aspart, degludec, detemir)
+  - Other drugs: dexamethasone, aprepitant, clarithromycin and pegvaliase
+- **Breast tissue concern**: The retrieved literature suggests progestin exposure may increase breast density and epithelial proliferation. This needs specific assessment before any use in benign breast disease.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -94,14 +100,16 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but amenorrhea is largely a known pharmacologic effect of this drug rather than a new therapeutic use. No trials were found, and the retrieved literature is mainly contraception reviews.
+The only direct evidence for this use is two small, old, probably uncontrolled reports from 1983 and 1988. No clinical trials are registered. Other literature raises an unresolved concern that progestins may stimulate breast proliferation.
 
 **To proceed, the following is needed:**
-- A clear clinical question defining whether the goal is treating amenorrhea or inducing withdrawal bleeding
-- Controlled studies that directly address the predicted condition
+- Package insert warnings and contraindications for the locally registered product
 - Mechanism of action data
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Verification of the current status and dosage forms of the local registration
+- Full text and design details of the two direct MPA studies
+- Controlled clinical data in fibrocystic breast disease
+- A breast-specific benefit-risk assessment
+- Dosage form and approved indication details for the local registration
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
