@@ -38,6 +38,8 @@ This list is based on the [Philippine National Formulary](https://www.doh.gov.ph
 
 <!-- local-home:end -->
 
+Shortlist: [Philippine formulary medicines with clinical-trial evidence for a new indication]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, with the predicted indication and the number of registered trials cited).
+
 ## Evidence level breakdown
 
 | Evidence level | Drugs | Description |

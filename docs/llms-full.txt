@@ -15,6 +15,7 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 - `/` Home
 - `/drugs/` Drugs
 - `/evidence-high/` High Evidence (L1-L2) — L1-L2 drug repurposing candidates in PhTxGNN, supported by clinical trials or systematic reviews.
+- `/clinical-trial-evidence/` Philippine Drugs with Trial Evidence for a New Use — Philippine National Formulary medicines whose TxGNN-predicted new indication has clinical-trial evidence (L1-L2): indication, level, registered trials.
 - `/evidence-medium/` Moderate Evidence (L3-L4) — L3-L4 drug repurposing candidates in PhTxGNN, backed by observational or preclinical evidence.
 - `/evidence-low/` Model Prediction Only (L5) — L5 candidates in PhTxGNN: model prediction only, with no clinical or literature evidence yet.
 - `/methodology/` Methodology — How PhTxGNN produces and validates predictions: TxGNN deep learning prediction, evidence collection, L1-L5 grading, and decision recommendations.
