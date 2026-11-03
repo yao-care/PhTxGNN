@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 21
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Aluminum Hydroxide: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN deep-learning model produced candidate indications for Aluminum Hydroxide with a score of at least 0.99. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The four known uses are listed below by the kind of source behind each one.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN deep-learning model produced candidate indications for Aluminum Hydrox
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | gastroduodenitis | gastritis |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | active peptic ulcer disease |

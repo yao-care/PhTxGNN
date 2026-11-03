@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -124,6 +124,7 @@ The other nine predicted indications also have no clinical trials. Most are refl
 | Reading seizures | L4 | Non-specific literature |
 | Trigeminal neuralgia | L4 | Carbamazepine is the standard drug; phenobarbital would lower its levels as a CYP inducer |
 | Beta-ketothiolase deficiency | L5 | No mechanistic link, no literature |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

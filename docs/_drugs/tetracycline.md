@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -110,6 +110,7 @@ The prediction score is high, but the evidence is a single case report with no t
 |------|------|------|------|------|------|
 | 2 | Chronic ethmoidal sinusitis | 0.9915 | L5 | One in vitro antibiotic susceptibility survey; no clinical efficacy data | Hold |
 | 4 | Paranasal sinus neoplasm | 0.9910 | L5 | No trials or literature; computational prediction only | Hold |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

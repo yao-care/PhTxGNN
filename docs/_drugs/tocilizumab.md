@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -135,6 +135,7 @@ Please refer to the package insert for warnings and contraindications.
 | Rheumatoid vasculitis | L4 | Research question | Case reports only; vasculitis-like reactions also reported |
 | Hypermobility of coccyx, Kummell disease, vertebral disease, spondyloarthropathy susceptibility | L5 | Hold | Model prediction only, with no plausible IL-6 mechanism or direct evidence |
 | MSMD due to IL12B deficiency | L5 | Hold | Biologically implausible and potentially harmful because tocilizumab raises infection risk |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

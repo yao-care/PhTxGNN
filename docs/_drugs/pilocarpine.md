@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 277
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Pilocarpine: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model's candidates for Pilocarpine are all already known uses. Every candidate that can be traced to a source matches an existing indication, so there is currently no new predicted indication for this drug in the Philippines.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | New predicted indications | None (all traceable model candidates are known uses) |
@@ -52,16 +53,19 @@ The TxGNN model's candidates for Pilocarpine are all already known uses. Every c
 ## Known uses among the model's candidates
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | primary hereditary glaucoma | licence in another country (approved indication: glaucoma) |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |
