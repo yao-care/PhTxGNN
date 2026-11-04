@@ -1,0 +1,6 @@
+[
+  [
+    "docs/index.md",
+    "(^description: \"TxGNN drug repurposing reports for )([\\d,]+)( medicines in the Philippine National Formulary)"
+  ]
+]
