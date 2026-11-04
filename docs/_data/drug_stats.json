@@ -4,9 +4,9 @@
   "level_counts": {
     "L1": 5,
     "L2": 18,
-    "L3": 16,
+    "L3": 15,
     "L4": 26,
-    "L5": 270
+    "L5": 271
   },
   "all_drugs": [
     {
@@ -1800,7 +1800,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 6
     },
     {
