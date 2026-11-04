@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sirolimus
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 313
-evidence_level: L2
+evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L3** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Sirolimus is an mTOR inhibitor originally listed for renal cell carcinoma and lymphangioleiomyomatosis (LAM).
-The TxGNN model predicts it may be effective for **liposarcoma**,
-with **1 clinical trial** (a completed single-arm Phase 2 study) and **7 publications** (mostly reviews and indirect papers) currently supporting this direction.
+Sirolimus is an mTOR inhibitor, and the data compiled for this report show it is marketed in the Philippines.
+The TxGNN model predicts it may be effective for **liposarcoma**, with a score of 0.9989.
+Evidence is limited: **1 clinical trial** (a single-arm phase 2 study of sirolimus plus cyclophosphamide) and a small set of mostly indirect publications, so the evidence level is **L3**.
 
 ## Quick Overview
 
@@ -49,42 +49,34 @@ with **1 clinical trial** (a completed single-arm Phase 2 study) and **7 publica
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sirolimus inhibits mTORC1 and is already used in mTOR-driven conditions such as renal cell carcinoma and LAM. Mechanistically it may be applicable to liposarcoma.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on what is generally known, sirolimus inhibits mTORC1, a kinase complex that drives cell growth and proliferation.
 
-Activation of the mTOR pathway has been documented in soft tissue sarcomas, including liposarcoma. Preclinical models also suggest that mTOR inhibition can slow tumour growth. This links the drug's original cancer indications to the predicted new one.
-
-The direct support is limited, though. The only trial is a single-arm Phase 2 study of sirolimus combined with another agent, and no efficacy results are available. The literature consists mostly of reviews of targeted sarcoma therapy and transplant cancer-risk papers, which are indirect evidence.
-
-### Other predictions worth noting
-
-The data also show other predictions with stronger evidence than liposarcoma:
-- **Benign PEComa**: Evidence Level L3, with case reports and observational studies of sirolimus. The biology involves TSC1/TSC2 loss and mTORC1 hyperactivation.
-- Several other predictions (ovarian myxoid liposarcoma, uterine PEComa, RCC subtypes) have a high score but no trials or literature.
+mTOR pathway activation has been described in soft tissue sarcomas, including liposarcoma, and animal models suggest that mTOR inhibition can slow tumour growth. This gives a plausible biological reason for testing sirolimus in liposarcoma. The supporting literature is mostly reviews of targeted sarcoma therapy and transplant-related cancer-risk papers, which are indirect and do not show treatment benefit in liposarcoma itself.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Single-arm trial of sirolimus plus cyclophosphamide in metastatic or unresectable myxoid liposarcoma and chondrosarcoma. No results provided. |
+| [NCT02821507](https://clinicaltrials.gov/study/NCT02821507) | Phase 2 | Completed | 70 | Single-arm, multicentre study of sirolimus combined with cyclophosphamide in metastatic or unresectable myxoid liposarcoma and chondrosarcoma; no efficacy results are available in the data compiled |
+
+This is the only trial. It has no randomized control, and the combination design makes it hard to attribute any effect to sirolimus alone.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | Overview of novel therapeutics in soft tissue sarcoma |
-| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Current Opinion in Oncology | Rationale and results of recent trials of molecular-targeted agents for advanced sarcomas |
-| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT (secondary analysis) | J Am Soc Nephrol | In renal transplant patients, sirolimus after early cyclosporine withdrawal reduced cancer risk. Indirect evidence. |
+| [39796641](https://pubmed.ncbi.nlm.nih.gov/39796641/) | 2024 | Review | Cancers | Overview of novel therapeutics and recent regulatory approvals in soft tissue sarcoma |
+| [37222206](https://pubmed.ncbi.nlm.nih.gov/37222206/) | 2023 | Review | Current Opinion in Oncology | Rationale and results of recent trials of molecular-targeted agents in advanced sarcomas |
+| [16434506](https://pubmed.ncbi.nlm.nih.gov/16434506/) | 2006 | RCT (secondary analysis) | J Am Soc Nephrol | In kidney transplant recipients, sirolimus after early cyclosporine withdrawal reduced cancer risk; not a liposarcoma study |
 | [20497911](https://pubmed.ncbi.nlm.nih.gov/20497911/) | 2010 | Review | Bulletin du Cancer | Targeted treatments for rare connective tissue tumours and sarcomas |
-| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Review | Transplantation Proceedings | Cancer screening and immunosuppressive drug effects in renal transplant patients. Indirect. |
-| [42753013](https://pubmed.ncbi.nlm.nih.gov/42753013/) | 2026 | Retrospective cohort | Familial Cancer | Clinical spectrum of PTEN hamartoma tumour syndrome. Indirect. |
-| [32711543](https://pubmed.ncbi.nlm.nih.gov/32711543/) | 2020 | Case report | Diagnostic Pathology | Fibro-adipose vascular anomaly with emphasis on the mTOR pathway. Indirect. |
+| [26093731](https://pubmed.ncbi.nlm.nih.gov/26093731/) | 2015 | Review | Transplantation Proceedings | Cancer screening in renal transplant patients on long-term immunosuppression |
 
 ## Philippines Market Information
 
@@ -92,29 +84,37 @@ The data also show other predictions with stronger evidence than liposarcoma:
 |---------|------|------|-----------|
 | PNF-0444 | Sirolimus | Not stated | Not stated (registration valid) |
 
+The data compiled for this report show 1 licence for sirolimus, and it is valid.
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (mTOR inhibitor); it is also used in combination with cyclophosphamide, a conventional cytotoxic, in the trial above |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; routine monitoring typically includes CBC, liver and renal function, and lipids |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
 ## Safety Considerations
 
-- **Contraindications flagged in the knowledge graph** (these come from drug-disease relationship data, not from package insert text): hypertension, kidney disease, liver disease, hyperglycaemia and diabetes mellitus, hyperlipidaemia and hypertriglyceridaemia, infectious diseases (including cytomegalovirus infection and pneumocystosis), interstitial lung disease, cerebrovascular disorders, hyperbilirubinaemia, pericardial effusion, progressive multifocal leukoencephalopathy, and some cancers.
-- **Drug Interactions**: 100 interactions were found. The ones listed here are the first 20 returned, so the list is partial.
-  - **Major**: amphotericin B (including the lipid complex), clarithromycin, mesalazine, balsalazide
-  - **Moderate**: antidiabetic drugs (acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, dapagliflozin), corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), aprepitant, cimetidine
+- **Drug Interactions**: 100 interactions were recorded. Examples classed as Major include amphotericin B (including the lipid complex), mesalazine, balsalazide and clarithromycin. Moderate examples include metformin, pioglitazone, dexamethasone, hydrocortisone and cimetidine.
 
-Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-For liposarcoma, the prediction score is high (0.9989), but the only direct evidence is one single-arm Phase 2 combination trial without reported results. This cannot show the effect of sirolimus alone. The sirolimus registration in the Philippines is also cancelled, and package insert safety data are missing.
+Only one single-arm phase 2 trial, testing sirolimus in combination with cyclophosphamide, supports this prediction, and no efficacy results are available. The other literature is indirect, so the evidence level is L3 and the data do not yet justify moving forward.
 
 **To proceed, the following is needed:**
-- Results and combination details from NCT02821507 (sirolimus plus cyclophosphamide), and any randomized evidence in liposarcoma
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- A current, valid Philippines registration or a clear regulatory pathway
-- A safety plan covering metabolic effects, infection risk and the major interactions above
-- A separate review of the LAM and PEComa-family indications, where the evidence is considerably stronger
+- The results of NCT02821507, including the liposarcoma subgroup and the contribution of sirolimus within the combination
+- Mechanism of action data
+- Package insert warnings and contraindications from the Philippines regulator
+- A safety review of drug interactions and monitoring needs for sarcoma patients
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

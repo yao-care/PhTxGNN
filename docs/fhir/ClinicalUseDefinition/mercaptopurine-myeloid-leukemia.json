@@ -23,7 +23,7 @@
   "extension": [
     {
       "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L2"
+      "valueCode": "L3"
     },
     {
       "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",

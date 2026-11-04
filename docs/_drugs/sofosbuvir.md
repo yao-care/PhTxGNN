@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sofosbuvir
-parent: High Evidence (L1-L2)
+parent: Moderate Evidence (L3-L4)
 nav_order: 315
-evidence_level: L2
+evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-30
-description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
+last_modified_at: 2026-11-04
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
+description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Sofosbuvir
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,59 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 </div>
 
-## Sofosbuvir: From Chronic Hepatitis C to Hepatitis B Virus Infection
+## Sofosbuvir: Hepatitis B virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sofosbuvir is a direct-acting antiviral originally used to treat chronic hepatitis C virus (HCV) infection.
-The TxGNN model predicts it may be effective for **hepatitis B virus infection**, but the supporting studies are mostly HCV/HBV co-infection studies, with **10 clinical trials** and **19 publications** retrieved and only a few addressing HBV directly.
-The evidence says more about HBV reactivation risk during HCV treatment than about any benefit against HBV itself.
-
----
+Sofosbuvir is a nucleotide analogue antiviral that inhibits a viral RNA polymerase. The TxGNN model predicts it may be useful for **hepatitis B virus infection**. The data compiled for this report include **12 clinical trial records** and **19 publications**, but only one single-arm Phase 2 pilot (21 participants) directly tests sofosbuvir-based therapy in hepatitis B infection.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9977 |
-| Evidence Level | L2 (as assigned in the compiled data; see the caveat below) |
+| Evidence Level | L3 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Evidence level caveat:* L2 is based on a completed Phase 2/3 study (NCT02555943, n=23). That study is small and primarily examines HBV reactivation during HCV therapy rather than HBV treatment. The only HBV-specific efficacy study is a single-arm Phase 2 pilot (n=21). Real support for this indication is therefore weaker than L2 suggests.
-
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known information, sofosbuvir is a nucleotide analogue that inhibits the HCV NS5B RNA-dependent RNA polymerase. Its efficacy in hepatitis C is well established.
+Sofosbuvir is a nucleotide prodrug. Its active triphosphate form blocks the NS5B RNA-dependent RNA polymerase of its target virus. Detailed mechanism-of-action data were not available in the compiled data, so this description is based on general pharmacology.
 
-The mechanistic link to HBV is weak. HBV is a DNA virus that replicates through a reverse transcriptase, so sofosbuvir has no direct target there. The high prediction score likely reflects the close association between HCV and HBV in co-infected patients, who share transmission routes and liver disease.
+The mechanistic link to hepatitis B is weak. Hepatitis B virus is a DNA virus that replicates through a reverse transcriptase, so sofosbuvir has no direct target in it. The clinical signals come mainly from patients infected with both viruses. In these patients, clearing the other virus with direct-acting antivirals changes hepatitis B viral kinetics, including a risk of hepatitis B reactivation.
 
-The clinical data come from HCV/HBV co-infection. There, clearing HCV with direct-acting antivirals can change HBV kinetics, including causing HBV reactivation. One Phase 2 pilot of ledipasvir/sofosbuvir in HBV mono-infection (published 2023) tested whether HBsAg declines, based on a modest reduction seen in co-infected patients. It was small and single-arm, and it used the ledipasvir/sofosbuvir combination rather than sofosbuvir alone.
-
----
+The most direct evidence is a Phase 2 open-label pilot of ledipasvir/sofosbuvir for 12 weeks in people with hepatitis B infection (NCT03312023, published as PMID 36045503). It was prompted by a modest drop in HBsAg seen in earlier retrospective data from co-infected patients. The study was single-arm and small, and it used a combination product rather than sofosbuvir alone. The prediction is therefore a research hypothesis, not an established use.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label ledipasvir/sofosbuvir for 12 weeks in HBV infection. Primary endpoint is HBsAg decline. Single-arm and small. |
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | DAAs in HCV/HBV co-infection. Examines HBV reactivation during anti-HCV treatment. |
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | SOF/VEL with prophylactic TAF in HCV/HBV co-infection. Addresses prevention of HBV reactivation. |
-| [NCT03186313](https://clinicaltrials.gov/study/NCT03186313) | Phase 3 | Completed | 72 | Randomized sofosbuvir/daclatasvir regimens in Egyptian genotype 4 HCV. Endpoint is HCV, not HBV. |
-| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Phase 2 | Unknown | 21 | Ledipasvir/sofosbuvir in HCV-associated B-cell lymphoma. Indirect relevance. |
-| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Phase 4 | Unknown | 25 | Antiretroviral switch followed by SOF/VEL in HIV-HCV co-infection. HBV is not the focus. |
-| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Phase 4 | Completed | 64 | HCV screening and treatment program in prisons. Not an HBV efficacy study. |
-| [NCT02363517](https://clinicaltrials.gov/study/NCT02363517) | Phase 3 | Unknown | 420 | Ledipasvir/sofosbuvir in people who inject drugs. Not an HBV efficacy study. |
-| [NCT03579576](https://clinicaltrials.gov/study/NCT03579576) | N/A | Completed | 803 | Simplified HCV treatment model in Myanmar. No HBV endpoint. |
-| [NCT02483156](https://clinicaltrials.gov/study/NCT02483156) | Phase 2/3 | Completed | 80 | Sofosbuvir plus ribavirin in Egyptian genotype 4 HCV. Primary endpoint is HCV. |
-
----
+| [NCT03312023](https://clinicaltrials.gov/study/NCT03312023) | Phase 2 | Completed | 21 | Open-label ledipasvir/sofosbuvir for 12 weeks in hepatitis B infection; primary endpoint is HBsAg decline, secondary is HBV DNA decline |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Phase 2/3 | Completed | 23 | Direct-acting antivirals in co-infected patients; examines hepatitis B reactivation, morbidity and predisposing factors |
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Phase 4 | Unknown | 120 | Sofosbuvir/velpatasvir with prophylactic tenofovir alafenamide in co-infected patients; focus is preventing HBV reactivation, not treating HBV |
+| [NCT03186313](https://clinicaltrials.gov/study/NCT03186313) | Phase 3 | Completed | 72 | Randomised open-label sofosbuvir/daclatasvir study; efficacy endpoint is not HBV |
+| [NCT02483156](https://clinicaltrials.gov/study/NCT02483156) | Phase 2/3 | Completed | 80 | Randomised open-label sofosbuvir plus ribavirin study; primary endpoint is not HBV |
+| [NCT03261349](https://clinicaltrials.gov/study/NCT03261349) | Phase 2 | Unknown | 21 | Pilot of ledipasvir/sofosbuvir in a lymphoma population; HBV relevance is indirect |
+| [NCT03549312](https://clinicaltrials.gov/study/NCT03549312) | Phase 4 | Unknown | 25 | Antiretroviral switch followed by sofosbuvir/velpatasvir; HBV is not the focus |
+| [NCT02768961](https://clinicaltrials.gov/study/NCT02768961) | Phase 4 | Completed | 64 | Prison screening and treatment programme that also screened for HBV; no HBV efficacy question |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label trial | J Med Virol | Ledipasvir/sofosbuvir for 12 weeks in HBV mono-infection. Tested HBsAg and HBV DNA decline at Week 12. |
-| [42558970](https://pubmed.ncbi.nlm.nih.gov/42558970/) | 2026 | Multicenter study | J Clin Transl Hepatol | Safety and efficacy of SOF/VEL with TAF pre-treatment on HBV reactivation in HBV/HCV co-infection. |
-| [35268497](https://pubmed.ncbi.nlm.nih.gov/35268497/) | 2022 | Cohort | J Clin Med | HBV-DNA and HBsAg kinetics in HCV co-infected patients during DAA therapy. |
-| [42145438](https://pubmed.ncbi.nlm.nih.gov/42145438/) | 2026 | Comparative effectiveness study | Bioinformation | Compares tenofovir/entecavir for HBV with sofosbuvir-based or glecaprevir/pibrentasvir regimens for HCV. Sofosbuvir-based regimens were evaluated for HCV. |
-| [26967675](https://pubmed.ncbi.nlm.nih.gov/26967675/) | 2016 | Clinical review | J Clin Virol | HBV reactivation in coinfected adults on direct-acting antivirals. |
-| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospective observational | J Viral Hepat | HBV reactivation in cancer patients receiving DAAs for HCV. |
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Rep | HBV reactivation with an immune-escape mutant during sofosbuvir/velpatasvir treatment. |
-| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Case report | Hosp Pharm | HBV reactivation during simeprevir plus sofosbuvir treatment. |
-| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antiviral drugs for hepatitis B and C and their effects on kidney function. |
-| [39914746](https://pubmed.ncbi.nlm.nih.gov/39914746/) | 2025 | Review | J Hepatol | HCV treatment uptake 2014-2023 and lessons for new HBV and HDV therapies. |
-
----
+| [36045503](https://pubmed.ncbi.nlm.nih.gov/36045503/) | 2023 | Phase 2 open-label trial | J Med Virol | Pilot of ledipasvir/sofosbuvir for 12 weeks in HBV mono-infected subjects; assesses HBsAg and HBV DNA decline at week 12 |
+| [35268497](https://pubmed.ncbi.nlm.nih.gov/35268497/) | 2022 | Cohort | J Clin Med | HBV-DNA and HBsAg kinetics differ in co-infected patients during direct-acting antiviral therapy; reactivation can occur |
+| [42558970](https://pubmed.ncbi.nlm.nih.gov/42558970/) | 2026 | Multicenter study | J Clin Transl Hepatol | Sofosbuvir/velpatasvir with tenofovir alafenamide pre-treatment, assessed for safety and effect on HBV reactivation |
+| [33523503](https://pubmed.ncbi.nlm.nih.gov/33523503/) | 2021 | Prospective observational | J Viral Hepat | HBV reactivation risk in cancer patients who are co-infected and receive direct-acting antivirals |
+| [26967675](https://pubmed.ncbi.nlm.nih.gov/26967675/) | 2016 | Review | J Clin Virol | HBV reactivation as a challenge during direct-acting antiviral treatment |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Case report | J Med Case Rep | HBV reactivation with an immune-escape mutant during sofosbuvir/velpatasvir |
+| [27621502](https://pubmed.ncbi.nlm.nih.gov/27621502/) | 2015 | Case report | Hosp Pharm | HBV reactivation during simeprevir plus sofosbuvir treatment |
+| [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antiviral medications for hepatitis B and C and their effects on kidney function |
+| [42145438](https://pubmed.ncbi.nlm.nih.gov/42145438/) | 2026 | Comparative effectiveness study | Bioinformation | Compares antiviral regimens across 480 patients; tenofovir or entecavir were used for HBV |
 
 ## Philippines Market Information
 
@@ -110,34 +93,34 @@ The clinical data come from HCV/HBV co-infection. There, clearing HCV with direc
 |---------|------|------|-----------|
 | PNF-0455 | Sofosbuvir | Not specified | Not specified (registration valid) |
 
----
+Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed.
 
 ## Safety Considerations
 
-- **Drug Interactions** (8 interactions recorded):
-  - **Major:** apalutamide, enzalutamide, lorlatinib
-  - **Moderate:** fostamatinib, warfarin, dicoumarol, encorafenib
-  - **Minor:** cyclosporine
-- **HBV reactivation:** Multiple studies and case reports describe HBV reactivation in HCV/HBV co-infected patients treated with sofosbuvir-containing regimens. HBV screening and monitoring is a key guardrail, and prophylaxis with a nucleos(t)ide analogue such as TAF has been studied.
+- **Hepatitis B reactivation**: Several publications and case reports describe HBV reactivation in people with prior or concurrent hepatitis B infection who receive sofosbuvir-based regimens. This directly affects any use in hepatitis B and calls for monitoring and prophylaxis planning.
+- **Drug interactions**: 8 interactions were found in the interaction database.
+  - Major: apalutamide, enzalutamide, lorlatinib.
+  - Moderate: fostamatinib, warfarin, dicoumarol, encorafenib.
+  - Minor: cyclosporine.
 
-Please refer to the package insert for other safety information, including warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Sofosbuvir targets the HCV NS5B polymerase, and HBV has no equivalent target. The available evidence is HCV/HBV co-infection data, mainly showing HBV reactivation risk rather than therapeutic benefit. The only HBV-specific study is a small single-arm pilot of a combination product.
-- Sofosbuvir's Philippines registration is cancelled, and the package insert safety data are not available.
+- The model score is high (0.9977), but there is no direct mechanistic target in hepatitis B virus.
+- The only direct clinical evidence is one small, uncontrolled Phase 2 pilot of a combination product.
+- Most other studies concern co-infection and mainly document reactivation risk rather than benefit.
 
 **To proceed, the following is needed:**
-- A controlled study in HBV mono-infection, with a defined mechanistic hypothesis for any anti-HBV effect.
-- Detailed mechanism of action data (MOA).
-- The Philippines package insert warnings and contraindications, which are currently a blocking data gap for safety screening.
-- A HBV screening and reactivation monitoring plan for any use in co-infected patients.
-- Clarification of the cancelled registration status in the Philippines.
+- Review the full results of NCT03312023 / PMID 36045503 for the size and durability of the HBsAg and HBV DNA effects.
+- Sofosbuvir-specific data, since the pilot used a combination product.
+- A controlled study with a clinically meaningful hepatitis B endpoint, such as a functional cure.
+- A reactivation monitoring and prophylaxis plan for people with hepatitis B.
+- The package insert warnings and contraindications for the Philippine registration, and mechanism-of-action data.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

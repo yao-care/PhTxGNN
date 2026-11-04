@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Glucagon
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 162
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
-description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L4). Approved use: Not available"
+last_modified_at: 2026-11-04
 monitor_inn: "Glucagon"
 predicted_indications: ["irritable bowel syndrome"]
+description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glucagon
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +33,56 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Glucagon: From an Unspecified Original Indication to Irritable Bowel Syndrome
+## Glucagon: Irritable bowel syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glucagon is a peptide hormone whose original approved indication is not recorded in the Philippine registration data compiled for this report.
-The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**.
-Supporting evidence is limited: **2 clinical trials** and **20 publications** were found, but the trials tested GLP-1 receptor agonists (not glucagon itself) and none directly tested glucagon in IBS.
-
----
+Glucagon is a pancreatic peptide hormone that is registered in the Philippines.
+The TxGNN model predicts it may be useful for **irritable bowel syndrome**, but no study found tests glucagon itself in this condition. The **2 clinical trials** and the literature compiled for this report concern GLP-1 and GLP-1 receptor agonists, which are different drugs, so the evidence level is **L5**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (the registration record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9924 |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
 | Number of PNF Entries | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for glucagon. Glucagon is known clinically as a gastrointestinal smooth-muscle relaxant (for example, in diagnostic imaging), which gives some plausibility for effects on gut motility.
+Detailed mechanism of action data for glucagon is not available in the data compiled for this report.
 
-The evidence gathered relates to GLP-1 and its analogue ROSE-010. Both belong to the same proglucagon-derived peptide family as glucagon and share the gut-brain/enteroendocrine axis. However, they act on a different receptor (GLP-1R rather than the glucagon receptor). GLP-1R agonists inhibit antro-duodeno-jejunal motility and may reduce abdominal pain and colonic motility, which is mechanistically plausible for IBS symptom relief.
+Glucagon is known to relax gastrointestinal smooth muscle and is used for this purpose in diagnostic imaging. This gives some plausibility for an effect on gut motility, which is relevant to irritable bowel syndrome. No study provided tests this in IBS patients.
 
-The high TxGNN score is a computational prediction and does not replace clinical evidence. No study supplied here tests glucagon itself in IBS, so the link is indirect.
-
----
+The studies linked to this prediction examine GLP-1 and its analogue ROSE-010. These belong to the same proglucagon-derived peptide family but act on a different receptor (GLP-1 receptor rather than the glucagon receptor). They are class-adjacent evidence only and cannot be counted as evidence for glucagon. The high TxGNN score is a computational prediction and does not replace clinical evidence.
 
 ## Clinical Trial Evidence
 
+None of these trials tests glucagon.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Completed | 52 | ROSE-010 (a GLP-1 agonist) on gastric, small-bowel and colonic motor function in women with constipation-predominant IBS. Correct patient population, but a different drug class and a physiological rather than symptom-efficacy study. |
-| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Completed | 12 | Native GLP-1 vs analogue ROSE-010 on prandial stomach, duodenal and jejunal motility, apparently in healthy volunteers. Indirect mechanistic support only. |
-
----
+| [NCT01056107](https://clinicaltrials.gov/study/NCT01056107) | Phase 1/2 | Completed | 52 | ROSE-010 (a GLP-1 analogue) on gastrointestinal motor function in women with constipation-predominant IBS; a physiological motility study, not a symptom-efficacy trial |
+| [NCT02731664](https://clinicaltrials.gov/study/NCT02731664) | Phase 1 | Completed | 12 | Native GLP-1 versus ROSE-010 on stomach, duodenal and jejunal motility after meals in apparently healthy volunteers; indirect mechanistic support only |
 
 ## Literature Evidence
 
+The publications below concern GLP-1 or GLP-1 receptor agonists, or IBS in general. None studies glucagon in IBS.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematic Review / Meta-analysis | Front Endocrinol | GLP-1 receptor agonists and IBS; GLP-1 and ROSE-010 inhibit the migrating motor complex and reduce GI motility in IBS patients. |
-| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Systematic Review | J Headache Pain | Role of GLP-1 receptor agonists in headache and pain disorders; relevant to pain pathways only. |
-| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Exploratory cross-analysis | Scand J Gastroenterol | ROSE-010 showed promising pain reduction during IBS attacks; analysis to identify the best-responding subpopulation. |
-| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Review | Exp Physiol | Proposes a role for gut L-cell GLP-1 secretion in IBS pathophysiology. |
-| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohort | Ann Gastroenterol | Prescription and discontinuation patterns of GLP-1 receptor agonists among IBS patients (GI adverse effects context). |
-| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Review | Adv Exp Med Biol | Aerosolized GLP-1 for diabetes and IBS. |
-| [30023410](https://pubmed.ncbi.nlm.nih.gov/30023410/) | 2018 | Review | Cell Mol Gastroenterol Hepatol | Brain-gut-microbiome axis and its effects on gut motility and secretion. |
-| [41480755](https://pubmed.ncbi.nlm.nih.gov/41480755/) | 2026 | Review | J Clin Invest | Mechanisms of gut-brain interaction, including incretin-based therapies. |
-| [26765585](https://pubmed.ncbi.nlm.nih.gov/26765585/) | 2016 | Review | Expert Opin Investig Drugs | Novel investigational drugs for constipation-predominant IBS. |
-| [40880735](https://pubmed.ncbi.nlm.nih.gov/40880735/) | 2025 | Clinical study | Front Nutr | Circulating GLP-1 rose after a low-FODMAP diet in IBS patients. |
-
-Nearly all of this literature concerns GLP-1 and its analogues rather than glucagon, so it supports the gut-hormone concept rather than glucagon itself.
-
----
+| [40134805](https://pubmed.ncbi.nlm.nih.gov/40134805/) | 2025 | Systematic Review | Front Endocrinol | GLP-1 receptor agonists and IBS; GLP-1 and ROSE-010 inhibit gut motility in IBS patients |
+| [38997662](https://pubmed.ncbi.nlm.nih.gov/38997662/) | 2024 | Systematic Review | J Headache Pain | Role of GLP-1 receptor agonists in headache and pain disorders |
+| [40697433](https://pubmed.ncbi.nlm.nih.gov/40697433/) | 2025 | Cohort | Ann Gastroenterol | Prescription and discontinuation patterns of GLP-1 receptor agonists in IBS patients |
+| [35234561](https://pubmed.ncbi.nlm.nih.gov/35234561/) | 2022 | Clinical study cross-analysis | Scand J Gastroenterol | Pain relief with ROSE-010 during IBS attacks; exploratory search for the best-suited subpopulation |
+| [30444291](https://pubmed.ncbi.nlm.nih.gov/30444291/) | 2019 | Review | Exp Physiol | Possible role of GLP-1 and L-cells in IBS pathophysiology |
+| [25427821](https://pubmed.ncbi.nlm.nih.gov/25427821/) | 2015 | Review | Adv Exp Med Biol | Aerosolized GLP-1 for diabetes and IBS |
+| [41974246](https://pubmed.ncbi.nlm.nih.gov/41974246/) | 2026 | Review | Clin Gastroenterol Hepatol | Care gaps in IBS and future therapies targeting visceral afferent signalling |
 
 ## Philippines Market Information
 
@@ -102,29 +90,25 @@ Nearly all of this literature concerns GLP-1 and its analogues rather than gluca
 |---------|------|------|-----------|
 | PNF-0218 | Glucagon | Not recorded | Not recorded (status: valid) |
 
----
-
 ## Safety Considerations
 
-**Drug Interactions**: 25 interactions were identified in the interaction database, of which the 20 listed were all classified as **Minor**. They mainly involve beta-blockers (e.g., atenolol, bisoprolol, carvedilol, metoprolol, propranolol, labetalol, nadolol, sotalol, timolol, esmolol) and warfarin.
+- **Drug Interactions**: 25 interactions were identified in the interaction screening, all of minor severity. The listed ones include warfarin and a range of beta-blockers (for example atenolol, bisoprolol, carvedilol, metoprolol, propranolol, labetalol and timolol, including ophthalmic forms).
 
 Please refer to the package insert for warnings and contraindications.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the supporting trials tested GLP-1 receptor agonists, not glucagon, and none evaluated glucagon in IBS. The Philippine registration is cancelled and carries no indication or dosage-form information, which limits near-term feasibility.
+No study tests glucagon in irritable bowel syndrome. The supporting trials and publications concern GLP-1 and GLP-1 receptor agonists, which are different drugs acting on a different receptor. The prediction therefore rests on the model score alone (evidence level L5).
 
 **To proceed, the following is needed:**
-- Direct evidence for glucagon (not GLP-1 analogues) in IBS, such as a mechanistic or pilot study
-- Mechanism of action data for glucagon and a clear rationale for glucagon-receptor effects on gut motility
-- Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the cancelled registration and a feasible route/dosage form for a chronic GI indication
-- Review of the safety profile for repeated or long-term use in IBS
+- Direct preclinical or clinical studies of glucagon in irritable bowel syndrome
+- Mechanism of action data for glucagon and an analysis of how the glucagon receptor could affect IBS symptoms
+- Package insert warnings and contraindications from the Philippines regulator
+- Product details for the local registration (dosage form and approved indication)
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
