@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-05T05:43:16.082623",
+  "last_check": "2026-11-05T19:42:14.850161",
   "seen_trials": {
     "Acetaminophen": [
       "NCT05039619",
@@ -2396,6 +2396,9 @@
     ],
     "Ertapenem": [
       "NCT04886284"
+    ],
+    "Clozapine": [
+      "NCT05603104"
     ]
   }
 }
