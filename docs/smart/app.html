@@ -12,283 +12,102 @@
     window.TXGNN_ANALYTICS = Object.assign({"measurementId": "G-W7ZNBYKJHJ", "contentGroup": "PhTxGNN", "language": "en", "citationHosts": ["fda.gov.ph"], "linkerDomains": ["yao.care", "www.yao.care", "phtxgnn.yao.care", "www.ods.yao.care", "app.ods.yao.care"], "pageType": "smart", "pagePath": "/smart/app.html"}, { pageTitle: document.title });
   </script>
   <script src="/assets/js/analytics.js" defer></script>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #f5f5f5;
-            color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        header {
-            background: linear-gradient(135deg, #0038A8, #CE1126);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        header h1 {
-            margin: 0;
-        }
-        header p {
-            margin: 5px 0 0 0;
-            opacity: 0.9;
-        }
-        .card {
-            background: white;
-            border-radius: 10px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        .card h2 {
-            margin-top: 0;
-            color: #0038A8;
-            border-bottom: 2px solid #FCD116;
-            padding-bottom: 10px;
-        }
-        .patient-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-        .info-item {
-            background: #f8f9fa;
-            padding: 10px 15px;
-            border-radius: 5px;
-        }
-        .info-item label {
-            display: block;
-            font-size: 0.8em;
-            color: #666;
-            margin-bottom: 3px;
-        }
-        .info-item span {
-            font-weight: 600;
-        }
-        .medication-list {
-            list-style: none;
-            padding: 0;
-        }
-        .medication-list li {
-            padding: 15px;
-            border-bottom: 1px solid #eee;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .medication-list li:last-child {
-            border-bottom: none;
-        }
-        .medication-name {
-            font-weight: 600;
-        }
-        .repurposing-badge {
-            background: #FCD116;
-            color: #333;
-            padding: 3px 8px;
-            border-radius: 3px;
-            font-size: 0.8em;
-        }
-        .indication-list {
-            margin-top: 10px;
-            padding-left: 20px;
-        }
-        .indication-item {
-            padding: 5px 0;
-            color: #666;
-        }
-        .disclaimer {
-            background: #fff3cd;
-            border: 1px solid #ffc107;
-            color: #856404;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        .loading {
-            text-align: center;
-            padding: 50px;
-        }
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #0038A8;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .error {
-            background: #f8d7da;
-            border: 1px solid #f5c6cb;
-            color: #721c24;
-            padding: 15px;
-            border-radius: 5px;
-        }
-    </style>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f5f5; color: #222; min-height: 100vh; line-height: 1.5; }
+    .header { background: linear-gradient(135deg, #0038A8, #CE1126); color: #fff; padding: 20px; }
+    .header h1 { font-size: 1.5rem; }
+    .header p { opacity: 0.9; font-size: 0.95rem; }
+    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+    .loading { display: flex; flex-direction: column; align-items: center; padding: 48px 0; color: #555; }
+    .spinner { width: 36px; height: 36px; border: 4px solid #ddd; border-top-color: #555; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 12px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error { display: none; background: #fdecea; border: 1px solid #f5c2c0; color: #8a1c1c; padding: 16px; border-radius: 8px; }
+    .error-title { font-size: 1.1rem; margin-bottom: 6px; }
+    .content { display: none; }
+    .card { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 16px 20px; margin-bottom: 20px; }
+    .section-title { font-size: 1.1rem; margin-bottom: 12px; }
+    .patient-card .patient-name { font-weight: 600; font-size: 1.05rem; }
+    .patient-card .patient-details span { margin-right: 16px; color: #555; font-size: 0.9rem; }
+    .med-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .btn { border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; font-size: 0.9rem; }
+    .btn-primary { background: #1565c0; color: #fff; }
+    .btn-secondary { background: #e0e0e0; color: #222; }
+    .med-item { border: 1px solid #e0e0e0; border-radius: 6px; padding: 10px 12px; margin-bottom: 8px; }
+    .med-item.no-match { opacity: 0.7; }
+    .med-label { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .med-name { font-weight: 500; }
+    .match-badge { font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; }
+    .match-badge.matched { background: #e8f5e9; color: #2e7d32; }
+    .match-badge.unmatched { background: #eee; color: #666; }
+    .med-mapping { margin-left: 26px; font-size: 0.85rem; color: #555; }
+    .level-badge { display: inline-block; font-size: 0.75rem; font-weight: 600; padding: 1px 6px; border-radius: 4px; background: #eceff1; color: #37474f; margin-left: 4px; }
+    .level-L1 { background: #c8e6c9; color: #1b5e20; } .level-L2 { background: #dcedc8; color: #33691e; }
+    .level-L3 { background: #fff9c4; color: #f57f17; } .level-L4 { background: #ffe0b2; color: #e65100; }
+    .level-L5 { background: #eceff1; color: #455a64; }
+    .drug-result-card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
+    .drug-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+    .drug-header h3 { font-size: 1.05rem; }
+    .drug-original, .drug-indications { margin-top: 8px; font-size: 0.9rem; }
+    .indication-item { display: flex; gap: 8px; align-items: center; padding: 3px 0; }
+    .ind-score { margin-left: auto; color: #666; font-size: 0.85rem; }
+    .more-indications, .no-indications, .empty-state { color: #666; font-size: 0.9rem; padding: 6px 0; }
+    .disclaimer { background: #fff3cd; border: 1px solid #ffe69c; color: #664d03; padding: 12px 16px; border-radius: 8px; font-size: 0.85rem; }
+    a { color: #1565c0; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>PhTxGNN</h1>
-            <p>Philippine Drug Repurposing Insights powered by the TxGNN graph neural network</p>
-        </header>
+  <header class="header">
+    <h1>PhTxGNN SMART App</h1>
+    <p>Drug repurposing candidates for the patient's medications (FDA Philippines-registered medicines)</p>
+  </header>
 
-        <div id="loading" class="card loading">
-            <div class="spinner"></div>
-            <p>Loading patient data...</p>
-        </div>
-
-        <div id="content" style="display: none;">
-            <div class="card">
-                <h2>Patient Information</h2>
-                <div class="patient-info" id="patient-info"></div>
-            </div>
-
-            <div class="card">
-                <h2>Current Medications & Repurposing Insights</h2>
-                <ul class="medication-list" id="medication-list"></ul>
-            </div>
-
-            <div class="disclaimer">
-                <strong>Disclaimer:</strong> The drug repurposing predictions shown here are generated
-                by the TxGNN graph neural network for research purposes only. They do not constitute medical
-                advice and should not be used for clinical decision-making without proper validation.
-                Always consult with qualified healthcare professionals.
-            </div>
-        </div>
-
-        <div id="error" class="card error" style="display: none;"></div>
+  <div class="container">
+    <!-- Loading -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading...</div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/fhirclient@2.5.4/build/fhir-client.min.js" integrity="sha384-oPoE+RWX2AZE9PQcDKKsuPU0dLmhGHCmCScrIneODytrl3mhPoRcGbDXVJyt0Q1t" crossorigin="anonymous"></script>
-    <script>
-        // PhTxGNN FHIR endpoint
-        const PHTXGNN_FHIR_BASE = "https://phtxgnn.github.io/fhir";
+    <!-- Error -->
+    <div class="error" id="error">
+      <h2 class="error-title">An error occurred</h2>
+      <p class="error-message"></p>
+    </div>
 
-        async function loadRepurposingData(drugName) {
-            try {
-                const slug = drugName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-                const response = await fetch(`${PHTXGNN_FHIR_BASE}/MedicationKnowledge/${slug}.json`);
-                if (response.ok) {
-                    return await response.json();
-                }
-            } catch (e) {
-                console.log(`No repurposing data for ${drugName}`);
-            }
-            return null;
-        }
+    <!-- Main content, filled by /assets/js/smart-app.js -->
+    <main class="content" id="content">
+      <div class="card" id="patient-info"></div>
 
-        function displayPatient(patient) {
-            const info = document.getElementById('patient-info');
-            const name = patient.name?.[0];
-            const fullName = name ?
-                `${name.given?.join(' ') || ''} ${name.family || ''}`.trim() :
-                'Unknown';
+      <section class="card">
+        <h2 class="section-title">Patient medication list (from the EHR)</h2>
+        <div class="med-actions">
+          <button class="btn btn-secondary" id="select-all-btn">Select / deselect all</button>
+          <button class="btn btn-primary" id="query-btn">Search repurposing candidates for selected drugs</button>
+        </div>
+        <div id="medication-list"></div>
+      </section>
 
-            info.innerHTML = `
-                <div class="info-item">
-                    <label>Name</label>
-                    <span>${fullName}</span>
-                </div>
-                <div class="info-item">
-                    <label>Date of Birth</label>
-                    <span>${patient.birthDate || 'Unknown'}</span>
-                </div>
-                <div class="info-item">
-                    <label>Gender</label>
-                    <span>${patient.gender || 'Unknown'}</span>
-                </div>
-                <div class="info-item">
-                    <label>Patient ID</label>
-                    <span>${patient.id}</span>
-                </div>
-            `;
-        }
+      <section class="card">
+        <h2 class="section-title">Repurposing candidates</h2>
+        <div id="repurposing-results">
+          <div class="empty-state">
+            <p>Select drugs and click the search button. Medications are matched by exact name or synonym against this site's drug list; drugs that cannot be matched are shown as "No predictions".</p>
+          </div>
+        </div>
+      </section>
 
-        async function displayMedications(client) {
-            const list = document.getElementById('medication-list');
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> The drug repurposing predictions shown here are generated by the TxGNN graph neural network for research purposes only. They do not constitute medical advice and should not be used for clinical decision-making without proper validation. Always consult with qualified healthcare professionals.
+        This app does not store any patient data. <a href="/privacy-policy/">Privacy policy</a>
+      </div>
+    </main>
+  </div>
 
-            try {
-                // Fetch MedicationRequest
-                const medRequests = await client.request(
-                    `MedicationRequest?patient=${client.patient.id}&status=active`
-                );
-
-                const medications = medRequests.entry || [];
-
-                if (medications.length === 0) {
-                    list.innerHTML = '<li>No active medications found.</li>';
-                    return;
-                }
-
-                for (const entry of medications) {
-                    const med = entry.resource;
-                    const medName = med.medicationCodeableConcept?.text ||
-                                   med.medicationCodeableConcept?.coding?.[0]?.display ||
-                                   'Unknown Medication';
-
-                    // Check for repurposing data
-                    const repurposingData = await loadRepurposingData(medName);
-
-                    const li = document.createElement('li');
-                    li.innerHTML = `
-                        <div>
-                            <div class="medication-name">${medName}</div>
-                            ${repurposingData ? `
-                                <div class="indication-list">
-                                    <span class="repurposing-badge">Repurposing Insights Available</span>
-                                </div>
-                            ` : ''}
-                        </div>
-                    `;
-                    list.appendChild(li);
-                }
-            } catch (e) {
-                console.error('Error loading medications:', e);
-                list.innerHTML = '<li>Error loading medications. Please try again.</li>';
-            }
-        }
-
-        // Main SMART app logic
-        FHIR.oauth2.ready().then(async function(client) {
-            try {
-                // Load patient
-                const patient = await client.request(`Patient/${client.patient.id}`);
-                displayPatient(patient);
-
-                // Load medications
-                await displayMedications(client);
-
-                // Show content
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('content').style.display = 'block';
-            } catch (error) {
-                console.error('Error:', error);
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent =
-                    'Error loading patient data: ' + (error.message || 'Unknown error');
-            }
-        }).catch(function(error) {
-            console.error('SMART Ready Error:', error);
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('error').style.display = 'block';
-            document.getElementById('error').textContent =
-                'Authentication error: ' + (error.message || 'Unknown error');
-        });
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" integrity="sha384-PCSoOZTpbkikBEtd/+uV3WNdc676i9KUf01KOA8CnJotvlx8rRrETbDuwdjqTYvt" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fhirclient@2.5.4/build/fhir-client.min.js" integrity="sha384-oPoE+RWX2AZE9PQcDKKsuPU0dLmhGHCmCScrIneODytrl3mhPoRcGbDXVJyt0Q1t" crossorigin="anonymous"></script>
+  <script src="/assets/js/smart-fhir-mapper.js"></script>
+  <script src="/assets/js/smart-app.js"></script>
 </body>
 </html>
