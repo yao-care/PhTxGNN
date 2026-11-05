@@ -20,27 +20,28 @@ Drug repurposing predictions for medicines in the Philippine National Formulary 
 | Item | Count |
 |------|------|
 | **Drug Reports** | 348 |
-| **Total Predictions** | 806,312 |
-| **Unique Drugs** | 456 |
-| **Unique Indications** | 16,853 |
+| **Total Predictions** | 829,607 |
+| **Unique Drugs** | 462 |
+| **Unique Indications** | 16,854 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 338 MK / 3,322 CUD |
+| **FHIR Resources** | 410 MK / 1,936 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 338 | Computational prediction only |
+| **L1** | 5 | Multiple Phase 3 RCTs |
+| **L2** | 18 | Single RCT or multiple Phase 2 |
+| **L3** | 15 | Observational studies |
+| **L4** | 26 | Preclinical / mechanistic studies |
+| **L5** | 271 | Computational prediction only |
+| **N/A** | 13 | Known uses only (no new prediction) |
 
 ### By Source
 
 | Source | Predictions |
 |------|------|
-| DL | 802,990 |
+| DL | 826,285 |
 | KG + DL | 2,868 |
 | KG | 454 |
 
@@ -49,9 +50,9 @@ Drug repurposing predictions for medicines in the Philippine National Formulary 
 | Confidence | Predictions |
 |------|------|
 | very_high | 2,105 |
-| high | 41,038 |
-| medium | 76,833 |
-| low | 686,336 |
+| high | 42,922 |
+| medium | 80,108 |
+| low | 704,472 |
 
 ---
 
@@ -71,7 +72,7 @@ uv run python scripts/run_kg_prediction.py
 | Metric | Value |
 |------|------|
 | Philippine National Formulary Total Drugs | 529 |
-| Mapped to DrugBank | 462 (87.3%) |
+| Mapped to DrugBank | 469 (88.7%) |
 | Repurposing Candidates | 3,322 |
 
 ### Deep Learning Method
@@ -83,9 +84,9 @@ PYTHONPATH=src python -m phtxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 792,236 |
-| Unique Drugs | 456 |
-| Unique Indications | 16,853 |
+| Total DL Predictions | 814,113 |
+| Unique Drugs | 462 |
+| Unique Indications | 16,854 |
 
 ### Score Interpretation
 
