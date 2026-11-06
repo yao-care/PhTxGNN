@@ -64,8 +64,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
-        with:
-          # 預設 600000（10 分鐘）。2026-11-06 部署卡在 syncing_files 超過 10 分鐘被 Timeout reached 取消
-          # （run 42240152301：build 與 artifact 上傳都成功），放寬到 30 分鐘。
-          # deploy-pages v4（d6db9016）的 action.yml 有 timeout 輸入，單位毫秒。
-          timeout: 1800000
