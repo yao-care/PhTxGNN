@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 23
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ For reference, among the other predicted indications, only pulmonary hypertensio
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0015 | Aminophylline | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Aminophylline (theophylline ethylenediamine) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

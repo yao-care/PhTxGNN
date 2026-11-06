@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lidocaine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not stated in local licence text. Relations recorded in the knowledge…"
 ---
 
@@ -49,9 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 registration (PNF-0290) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +78,11 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0290 | Lidocaine | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lidocaine (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -102,7 +103,7 @@ The prediction has a very high model score but no trials or publications on the 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear mechanistic case beyond symptom relief
 - Preclinical or clinical studies of lidocaine in punctate epithelial keratoconjunctivitis, including corneal safety
-- Package insert warnings and contraindications from DOH-FDA Philippines, along with dosage form and approved indication for PNF-0290
+- Package insert warnings and contraindications from DOH-FDA Philippines, along with dosage form and approved indication
 - Confirmation of which ophthalmic routes and formulations are available locally
 ## Disclaimer
 

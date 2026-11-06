@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Benzoyl peroxide"
 predicted_indications: ["vulvar inverted follicular keratosis", "2-hydroxyethyl methacrylate sensitization", "acrodermatitis chronica atrophicans", "acne keloid"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **vulvar inverted follicular ke
 | Predicted New Indication | vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0044 | Benzoyl Peroxide | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Benzoyl Peroxide | Gel |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, partial epilepsy, Lennox-Gastaut syndrome"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,8 +52,8 @@ The best-supported candidate in the list is **trigeminal neuralgia**, with **2 c
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) is the best-supported candidate |
 | TxGNN Prediction Score | 0.9997 (trigeminal nerve neoplasm); 0.9989 (trigeminal neuralgia) |
 | Evidence Level | L5 for trigeminal nerve neoplasm; L2 for trigeminal neuralgia |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold for trigeminal nerve neoplasm; Proceed with Guardrails for trigeminal neuralgia as a research question |
 
 ---
@@ -107,9 +107,11 @@ Other indications (limited, mostly indirect):
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0278 | Lamotrigine | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lamotrigine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -129,13 +131,12 @@ Package insert warnings and contraindications were not available. Please refer t
 **Rationale:**
 - The top-ranked prediction, trigeminal nerve neoplasm, has no supporting evidence, and the literature relates to neuralgia rather than tumours. It should not be pursued.
 - For trigeminal neuralgia, there are two small completed trials (n=20 and n=21) and guideline/review support as an add-on or second-line agent. This is promising but not definitive. Startle-induced seizures have small case series. Other reflex seizure predictions have only indirect or animal evidence.
-- Lamotrigine is marketed in the Philippines, with 1 valid license out of 1.
 
 **To proceed, the following is needed:**
 - Published results of NCT00913107 and NCT00203229, to confirm efficacy
 - A larger randomised trial in trigeminal neuralgia
 - Package insert warnings and contraindications, and a mechanism of action record
-- Clarification of the regulatory route, given the cancelled registration
+- Clarification of the regulatory route
 - A review of the knowledge-graph contraindications (blood disorders, liver disease) and the interaction profile before any use in a new population
 ## Disclaimer
 

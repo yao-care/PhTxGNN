@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **congenital prothrombin defici
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,11 +84,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0516 | Vitamin A | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Retinol (vitamin A) (as palmitate) | Oral |
 
-The only registration is a single-ingredient product that has been cancelled. No dosage form or approved indication text is on record.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+No dosage form or approved indication text is on record.
 
 ---
 

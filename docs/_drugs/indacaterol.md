@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **nephrogenic syndrome of inappr
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,7 @@ Currently no related literature available for this disease.
 
 ## Philippines Market Information
 
-The local licence record for this drug (PNF-0247, Indacaterol, single-ingredient) carries no recorded dosage form or approved indication text. Market status in the Philippines is recorded as marketed.
+Market status in the Philippines is recorded as marketed.
 
 ## Safety Considerations
 

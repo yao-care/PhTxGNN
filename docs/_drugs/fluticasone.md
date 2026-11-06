@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ This prediction rests on a computational model alone.
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,13 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0203 | Fluticasone | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fluticasone (as propionate) | Nasal Aqueous Solution, Inhalation (DPI), Inhalation (MDI),… |
+| Fluticasone (as propionate) + Formoterol (as fumarate dihydrate) | Inhalation, Inhalation (MDI) |
+| Fluticasone (as propionate) + Salmeterol (as xinafoate) | Inhalation, Inhalation (DPI), Inhalation (MDI) |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

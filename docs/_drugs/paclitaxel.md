@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Paclitaxel"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **40 clinical trials** and **20 publications** currently listed for this di
 | Predicted New Indication | Parameningeal embryonal rhabdomyosarcoma |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 (L1 for the ER-positive breast cancer sub-node) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -97,10 +97,11 @@ The list below shows 10 of the 20 publications compiled for this disease node.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0370 | Paclitaxel | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Paclitaxel | Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -126,7 +127,7 @@ The package insert warnings and contraindications could not be obtained, so plea
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Paclitaxel has extensive Phase 2 and Phase 3 trial activity and long-standing guideline use in breast cancer, so the biological plausibility is strong. However, this is an established use rather than a new repurposing finding. The Philippines registration is cancelled and the package insert safety data is missing.
+Paclitaxel has extensive Phase 2 and Phase 3 trial activity and long-standing guideline use in breast cancer, so the biological plausibility is strong. However, this is an established use rather than a new repurposing finding. The package insert safety data is missing.
 
 **To proceed, the following is needed:**
 - Obtain the package insert warnings and contraindications from DOH-FDA Philippines (a blocking data gap for safety screening)

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Carboplatin is a platinum-based cytotoxic chemotherapy drug that is registered in the Philippines.
+Carboplatin is a platinum-based cytotoxic chemotherapy drug.
 The TxGNN model predicts it may be useful for **rectum mucinous adenocarcinoma**, with a score of 0.9928.
 **No clinical trials and no publications** were found for this specific disease, so the prediction is currently model-based only.
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be useful for **rectum mucinous adenocarcinoma**
 | Predicted New Indication | rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name |
-|---------|------|
-| PNF-0077 | Carboplatin |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Carboplatin | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 The approved indication text and dosage form are not recorded in the local data.
 
@@ -111,7 +113,7 @@ The prediction score is high (0.9928), but no clinical trial or publication was 
 - Searches for, or generation of, disease-specific clinical or preclinical evidence on carboplatin in rectal mucinous adenocarcinoma
 - Mechanism of action data and a platinum-specific rationale for this tumour type
 - Package insert warnings and contraindications from the Philippine regulator
-- Clarification of the licence record (PNF-0077), including its indication text and dosage form
+- Clarification of the licence record, including its indication text and dosage form
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

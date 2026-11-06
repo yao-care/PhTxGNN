@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Irinotecan"
 predicted_indications: ["female breast carcinoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Irinotecan is a topoisomerase I inhibitor chemotherapy drug. The TxGNN model pre
 | Predicted New Indication | Female breast carcinoma (female breast carcinoma) |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,11 @@ The strongest supporting evidence is indirect. Sacituzumab govitecan, an anti-Tr
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0261 | Irinotecan | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Irinotecan (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 

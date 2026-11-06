@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Etonogestrel: predicted new indication amenorrhea (evidence level L5). Approved use: Not available"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be associated with **amenorrhea**, but there are
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,11 @@ No clinical trials are registered for the predicted indication. No relevant lite
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0180 | Etonogestrel | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Etonogestrel | Not stated |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -94,7 +96,6 @@ The prediction rests only on a model score (L5). No clinical trials support it, 
 - Mechanism of action data (from DrugBank)
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - A literature search specific to etonogestrel and the predicted conditions
-- Clarification of the cancelled registration status and the original approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

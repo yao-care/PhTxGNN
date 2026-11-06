@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 100
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Hemosiderosis and beta-thalassemia (related forms include hemoglobino…"
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **2 preclinical publications** supp
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,11 +75,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-The only registration on record has been cancelled, and no dosage form or approved indication text is available.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Deferiprone | Oral |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0131 (cancelled) | Deferiprone | Not specified | Not specified |
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -98,12 +98,12 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the evidence is limited to two preclinical studies with no human trials (L4). The only Philippines registration has been cancelled, and warnings and contraindications are unavailable. Other predicted indications are weaker still. Beta-thalassemia with other manifestations largely overlaps the existing use rather than being new.
+The prediction score is high, but the evidence is limited to two preclinical studies with no human trials (L4). Warnings and contraindications are unavailable. Other predicted indications are weaker still. Beta-thalassemia with other manifestations largely overlaps the existing use rather than being new.
 
 **To proceed, the following is needed:**
 - Human clinical data (case series or trials) in hepatic porphyria, such as porphyria cutanea tarda
 - Mechanism of action data
-- Package insert warnings and contraindications from the DOH-FDA Philippines, and clarification of why the registration was cancelled
+- Package insert warnings and contraindications from the DOH-FDA Philippines
 - A safety plan covering chelator-specific monitoring and the cation-containing drug interactions above
 ## Disclaimer
 

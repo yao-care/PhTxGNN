@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 110
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dimercaprol: predicted new indication Bronchitis (evidence level L4). Approved use: Heavy metal poisoning (arsenic, mercury, gold, lead)"
 monitor_inn: "Dimercaprol"
 predicted_indications: ["bronchitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,11 @@ The very high TxGNN score (0.9954) is a computational prediction. It is likely d
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0147 | Dimercaprol | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dimercaprol | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

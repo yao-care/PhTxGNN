@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Iohexol: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not stated in the Philippines registration record (iohexol is general…"
 monitor_inn: "Iohexol"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -50,8 +50,8 @@ Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging ai
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,11 @@ No literature is available for insomnia. For the second-ranked prediction (anxie
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0254 (cancelled) | Iohexol | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Iohexol | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -117,14 +119,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials or supporting literature, and no plausible mechanism. The drug is marketed in the Philippines, with 1 valid licence of 1. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+The prediction rests only on a model score. There are no clinical trials or supporting literature, and no plausible mechanism. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence linking iohexol to sleep regulation (none is currently known)
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism of action data from DrugBank
 - Preclinical or clinical studies in insomnia, if the hypothesis is still pursued
-- A valid local registration and route compatibility assessment
+- Route compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

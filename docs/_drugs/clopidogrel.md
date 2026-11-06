@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clopidogrel: predicted new indication migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials are registered for this exact condition, and the **16 publica
 | Predicted New Indication | migraine with brainstem aura |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,7 @@ The studies below concern related conditions (migraine with aura, migraine with 
 
 ## Philippines Market Information
 
-Local records list one clopidogrel licence (PNF-0111, single-ingredient). No dosage form or approved indication text is recorded.
+No dosage form or approved indication text is recorded.
 
 ## Safety Considerations
 

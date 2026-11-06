@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Memantine is an NMDA receptor antagonist with a local licence record in the Philippines. The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only: **no clinical trials** and **no publications that study memantine in this disease** were found in the data compiled for this report.
+Memantine is an NMDA receptor antagonist. The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only: **no clinical trials** and **no publications that study memantine in this disease** were found in the data compiled for this report.
 
 ---
 
@@ -50,8 +50,8 @@ Memantine is an NMDA receptor antagonist with a local licence record in the Phil
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,7 +83,7 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-The local record lists one single-ingredient authorization (PNF-0308, product name Memantine). Dosage form and approved indication text are not recorded in the local data.
+Dosage form and approved indication text are not recorded in the local data.
 
 ---
 

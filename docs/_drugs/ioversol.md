@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ioversol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ioversol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the local registration record"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Ioversol is an iodinated, water-soluble contrast agent used in diagnostic imaging, and it is registered in the Philippines.
+Ioversol is an iodinated, water-soluble contrast agent used in diagnostic imaging.
 The TxGNN model predicts it may be useful for **osteoarthritis**, but there are **0 clinical trials** and **1 publication** in the data compiled for this report, and that publication does not study ioversol as a treatment.
 This prediction is a model output without supporting clinical evidence.
 
@@ -50,8 +50,8 @@ This prediction is a model output without supporting clinical evidence.
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0258 | Ioversol | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ioversol | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -99,7 +101,7 @@ The only cited study concerns a different embolic agent used for knee osteoarthr
 **To proceed, the following is needed:**
 - Mechanism of action data for ioversol, and any biological rationale for osteoarthritis
 - Direct preclinical or clinical studies of ioversol in osteoarthritis
-- Approved indication text and package insert (warnings and contraindications) for the Philippines registration PNF-0258
+- Approved indication text and package insert (warnings and contraindications)
 - Evaluation of route and formulation compatibility, since it is unclear whether an intravascular contrast agent could be given for a joint disease
 ## Disclaimer
 

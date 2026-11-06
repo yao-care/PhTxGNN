@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Bromocriptine"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bromocriptine: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ No mechanistic link was identified between dopamine D2 agonism and fucosylation 
 
 ## Philippines Market Information
 
-Philippines market status is marketed. The local licence record contains one single-ingredient entry (PNF-0058, Bromocriptine), and it carries no recorded dosage form or approved-indication text.
+Philippines market status is marketed.
 
 ## Safety Considerations
 

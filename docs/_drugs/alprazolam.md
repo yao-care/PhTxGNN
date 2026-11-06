@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Alprazolam is a benzodiazepine that enhances GABA-A receptor signaling. The TxGN
 | Predicted New Indication | 失眠 (insomnia (disease)) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,11 @@ Most of the 18 publications compiled are indirect (pharmacokinetics, prescribing
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0012 | Alprazolam | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Alprazolam | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

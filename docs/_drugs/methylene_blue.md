@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Methylene blue"
 predicted_indications: ["bronchitis"]
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -100,10 +100,11 @@ For the related methemoglobinemia subtype (reductase deficiency), the most relev
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0318 | Methylene Blue | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Methylene Blue | Oral, Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

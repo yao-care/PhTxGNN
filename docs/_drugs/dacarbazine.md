@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Hodgkin lymphoma, metastatic melanoma"
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -50,8 +50,8 @@ but **no clinical trials** are registered for this indication, and the **20 publ
 | Predicted New Indication | Upper aerodigestive tract neoplasm |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,11 @@ No randomized trial tests dacarbazine in upper aerodigestive tract neoplasm. The
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0125 | Dacarbazine | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dacarbazine | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -118,7 +120,7 @@ The prediction rests on a computational score alone. There are no clinical trial
 - Mechanism of action data from DrugBank
 - Disease-specific evidence in upper aerodigestive tract neoplasm, such as preclinical or early clinical studies
 - Clarification of which disease subtypes (for example squamous carcinoma versus mucosal melanoma) the prediction covers
-- Confirmation of the local regulatory pathway, since the existing registration is cancelled
+- Confirmation of the local regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

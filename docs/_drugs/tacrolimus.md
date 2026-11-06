@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 323
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -52,8 +52,8 @@ with **2 clinical trials** (one completed Phase 3, one completed Phase 4) and **
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note:* The data compiled for this report assigns L1 to this prediction. However, only one completed Phase 3 trial (NCT02004860) is directly in seborrheic dermatitis, and the second trial is Phase 4. Under the stated criteria (≥2 completed Phase 3 RCTs for L1), this report conservatively rates it L2. Neither trial has published results in the data reviewed.
@@ -96,9 +96,11 @@ Atopic dermatitis and seborrheic dermatitis are both chronic, relapsing inflamma
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0468 | Tacrolimus | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tacrolimus | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -117,13 +119,12 @@ Please refer to the package insert for further safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A completed Phase 3 trial and a completed Phase 4 trial directly test tacrolimus ointment in seborrheic dermatitis, supported by a clinical study and several reviews, and the mechanism is plausible. However, there are no published results from the Phase 3 trial in the data reviewed. The Philippines registration is cancelled, and the boxed warning on malignancy and lymphoma for topical calcineurin inhibitors requires careful management.
+A completed Phase 3 trial and a completed Phase 4 trial directly test tacrolimus ointment in seborrheic dermatitis, supported by a clinical study and several reviews, and the mechanism is plausible. However, there are no published results from the Phase 3 trial in the data reviewed. The boxed warning on malignancy and lymphoma for topical calcineurin inhibitors requires careful management.
 
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070 (efficacy, relapse rates, safety)
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
-- Clarification of the cancelled registration status and whether a topical product is available or can be registered in the Philippines
 - A long-term safety monitoring plan consistent with the boxed warning (short-term or intermittent use, avoiding infected skin and very young children)
 ## Disclaimer
 

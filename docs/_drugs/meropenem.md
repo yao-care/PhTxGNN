@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 224
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the ten predictions compiled for this report, the best-supported one is **
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 (for bacterial arthritis) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 The original indications are not available as approved indication text for the Philippines registration.
@@ -132,11 +132,11 @@ For the best-supported prediction (complicated UTI), key publications include:
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0311 | Meropenem | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Meropenem (as trihydrate) | Injection |
 
-This registration is **cancelled**.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -157,14 +157,13 @@ Please refer to the package insert for warnings and label contraindications, whi
 
 **Rationale:**
 - Bacterial arthritis has no clinical trials and only low-level evidence (case reports, a retrospective cohort, pharmacokinetic and surveillance studies), so it stays at L4.
-- Complicated UTI is the only prediction with Phase 3 RCT support (L1, Proceed with Guardrails), but it confirms meropenem's established role rather than a new use. It would need stewardship guardrails (reserve for resistant or severe infections), and the Philippines registration is cancelled.
+- Complicated UTI is the only prediction with Phase 3 RCT support (L1, Proceed with Guardrails), but it confirms meropenem's established role rather than a new use. It would need stewardship guardrails (reserve for resistant or severe infections).
 - *S. aureus* infection (L3) is a possible research question. Ureaplasma urethritis conflicts with known biology, and laryngitis, Lyme disease, Peptostreptococcus infection and gonococcal urethritis lack clinical support.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines, which is a blocking gap for safety screening
 - Mechanism of action data from DrugBank
 - For bacterial arthritis: prospective or comparative clinical data on meropenem in septic arthritis and bone and joint infections
-- Clarification of the cancelled registration status and whether re-registration or an alternative supply route is needed
 - A stewardship and antimicrobial-resistance plan if any indication is pursued
 ## Disclaimer
 

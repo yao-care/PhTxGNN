@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not stated in the local licence record. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence…"
 ---
 
@@ -50,9 +50,8 @@ The best-supported repurposing directions in the data compiled for this report a
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 registration (single-ingredient) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -95,11 +94,13 @@ For reference, selected publications from lower-ranked predictions are below.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0036 | Azithromycin | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Azithromycin | Oral, Injection |
 
-The record shows one valid single-ingredient registration. Approved indication text is not available in the local record.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Approved indication text is not available in the local record.
 
 ## Safety Considerations
 

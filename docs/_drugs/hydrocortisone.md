@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 167
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence level is L2.
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,11 @@ There is an important caveat. The only direct controlled trial used hydrocortiso
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0232 | Hydrocortisone | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Hydrocortisone | Oral, Injection, Cream or Ointment, Lotion |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

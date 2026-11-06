@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Thiamine: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not available"
 ---
 
@@ -40,7 +40,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report contain no approved indication text for it.
 The TxGNN model predicts it may be useful for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model score alone.
 The one prediction with some literature is **open-angle glaucoma** (6 publications, all observational or laboratory-based, none interventional).
 
@@ -52,8 +51,8 @@ The one prediction with some literature is **open-angle glaucoma** (6 publicatio
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 2 (valid: 2) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,10 +84,13 @@ No literature is available for resistance to thyroid hormone. The table below co
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0485 | Thiamine | Not recorded | Not recorded |
-| PNF-0517 | Vitamin B1 | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Thiamine (Vitamin B1) | Oral, Injection |
+| Amino Acid + glucose + electrolytes + vitamin B1 | Injection |
+| Vitamin B1 B6 B12 | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

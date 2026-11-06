@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the Philippines registration data"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ Support is very limited: **0 clinical trials** and **2 publications**, both case
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Not listed in the Philippine National Formulary (PNF) Essential Medicines List – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 0 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,7 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0329 | Mometasone | Not specified | Not specified (status: valid) |
+Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.
 
 ## Safety Considerations
 
@@ -96,7 +94,7 @@ The evidence is model prediction only (L5). There are no clinical trials, and th
 - Package insert warnings and contraindications from DOH-FDA Philippines, so safety screening can begin
 - Mechanism-of-action data from DrugBank
 - Mometasone-specific clinical or observational data in early-stage mycosis fungoides or other primary cutaneous T-cell lymphoma
-- Clarification of the original approved indication and available dosage forms, including whether a valid topical product is registered in the Philippines
+- Clarification of the original approved indication and available dosage forms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

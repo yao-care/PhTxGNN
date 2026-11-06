@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 219
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks pro
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0304 | Mefenamic Acid | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mefenamic Acid | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

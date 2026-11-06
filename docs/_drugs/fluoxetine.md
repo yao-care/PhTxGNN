@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Fluoxetine is a selective serotonin reuptake inhibitor, marketed in the Philippines under one valid licence.
+Fluoxetine is a selective serotonin reuptake inhibitor.
 The TxGNN model predicts it may be useful for **paranoid personality disorder**, with a score of 0.9992.
 There are **no clinical trials** and only **7 loosely related publications** (none specific to this disease), so the prediction rests on model output alone.
 
@@ -50,8 +50,8 @@ There are **no clinical trials** and only **7 loosely related publications** (no
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,11 @@ None of these papers studies paranoid personality disorder as a fluoxetine treat
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0199 | Fluoxetine | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fluoxetine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

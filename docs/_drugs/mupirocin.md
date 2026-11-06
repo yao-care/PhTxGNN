@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pleural empyema**, but **no c
 | Predicted New Indication | Pleural empyema |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -69,9 +69,11 @@ A second predicted indication, punctate epithelial keratoconjunctivitis (score 0
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0333 | Mupirocin | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mupirocin | Cream, Ointment |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

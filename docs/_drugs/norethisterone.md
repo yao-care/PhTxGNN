@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 258
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Norethisterone"
 description: "Norethisterone: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
@@ -41,16 +41,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 
 ---
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0354 | Norethisterone | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Norethisterone (as acetate and as base) | Oral |
+| Ethinylestradiol + Norethisterone | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

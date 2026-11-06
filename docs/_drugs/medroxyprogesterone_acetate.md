@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 6
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials are registered for this use, but **9 publications** were retr
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0303 | Medroxyprogesterone | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Medroxyprogesterone | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

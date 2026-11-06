@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The high score appears to be a TxGNN model (deep learning) artifact rather than 
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Not listed in the Philippine National Formulary (PNF) Essential Medicines List – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 0 |
 | Recommended Decision | Hold |
 
 ---
@@ -70,9 +70,7 @@ The other top-ranked predictions show the same pattern. They include epiglottiti
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0447 | Sodium Chloride | Not specified | Not specified (status: valid) |
+Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.
 
 Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.
 
@@ -99,7 +97,7 @@ The prediction rests on a model score alone (L5), with no clinical trials or rel
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Confirmation of the original approved indication and whether the cancelled registration actually corresponds to sodium acetate
+- Confirmation of the original approved indication
 - A biologically grounded rationale, or direct preclinical or clinical evidence, for any predicted indication
 - Reassessment of the lower-ranked predictions, such as urinary alkalinization in urinary tract infection, if a mechanistic case can be made
 ## Disclaimer

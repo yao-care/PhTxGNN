@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders"
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0286 | Levodopa | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Levodopa + Carbidopa | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -104,7 +106,6 @@ The prediction is supported only by a high model score. There are no clinical tr
 - Mechanism of action data and a mechanistic rationale for Rasmussen encephalitis
 - Preclinical or case-level evidence of benefit
 - Package insert warnings and contraindications, to complete safety screening
-- Review of the cancelled registration and available dosage forms and routes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

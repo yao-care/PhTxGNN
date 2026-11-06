@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 general review article** behind
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-Imiglucerase has one registration in the Philippines (PNF-0244), and it is **valid**. No dosage form or approved indication is recorded for it. The drug is marketed, with 1 valid licence out of 1.
+No dosage form or approved indication is recorded for it.
 
 ## Safety Considerations
 
@@ -99,7 +99,6 @@ The prediction rests on a single general review and no clinical trials. The mech
 - Detailed mechanism of action data
 - Preclinical evidence that glucocerebrosidase has any activity on dermatan or heparan sulfate substrates
 - Package insert safety information (warnings and contraindications) from the Philippines regulator
-- Clarification of the regulatory status of the cancelled registration
 - A comparison against laronidase, the approved therapy for MPS I, to show any added value
 ## Disclaimer
 

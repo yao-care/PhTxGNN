@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Ranitidine is an acid-suppressing H2-receptor blocker that is registered in the Philippines.
+Ranitidine is an acid-suppressing H2-receptor blocker.
 The TxGNN model predicts it may be useful for **peptic ulcer perforation**, with a score of **0.9988**.
 **No clinical trials** are registered for this use, and none of the **20 publications** tests ranitidine as treatment of this condition, so the evidence level is **L5**.
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be useful for **peptic ulcer perforation**, with
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -86,11 +86,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0416 | Ranitidine | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ranitidine (as hydrochloride) | Oral, Injection |
 
-The local record shows one valid licence for a single-ingredient product.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -116,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 - Studies that directly assess ranitidine in peptic ulcer perforation, for example as adjunct to surgical or non-operative management.
 - Mechanism-of-action data for ranitidine.
 - Package insert warnings and contraindications from the DOH-FDA Philippines.
-- Dosage form and approved indication details for licence PNF-0416.
+- Dosage form and approved indication details.
 
 ## Disclaimer
 

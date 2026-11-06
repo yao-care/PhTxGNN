@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 192
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not recorded in the registration data"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -50,8 +50,8 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 *Note on the evidence level:* The L1 label comes from the data compiled for this report. Strictly, the completed Phase 3 trial (THINK, n=80) is the only one at that phase, and no outcome data were provided. Under the stated rules (≥2 completed Phase 3 RCTs), the level is arguably closer to L2 or lower. Treat L1 with caution.
@@ -97,9 +97,11 @@ Several other retrieved papers concern ketamine in depression or alcohol use dis
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0271 | Ketamine | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ketamine (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

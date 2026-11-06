@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the registration record"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis** with a
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,11 @@ None of these studies shows that nitrofurantoin treats rheumatoid arthritis.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0350 | Nitrofurantoin | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Nitrofurantoin | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -109,7 +111,6 @@ Please refer to the package insert for full warnings and contraindications.
 - Package insert warnings and contraindications from the Philippine regulator
 - Preclinical or clinical studies showing benefit in rheumatoid arthritis
 - A pulmonary and hepatic safety assessment for patients on methotrexate or other disease-modifying drugs
-- Clarification of the registration status and approved indication of the cancelled license
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Isosorbide Mononitrate: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not available"
 monitor_inn: "Isosorbide mononitrate"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "alopecia", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pulmonary arterial hypertension"]
@@ -52,8 +52,8 @@ Among the top 10 predictions, only **pulmonary arterial hypertension (PAH)** has
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,11 @@ No literature is available for hypertrichosis or the other top predictions.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0266 | Isosorbide Mononitrate | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Isosorbide-5-Mononitrate | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -127,7 +129,6 @@ Package insert warnings and contraindications were not available. Please refer t
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Original approved indication and dosage form for the cancelled registration
 - For PAH: a targeted literature review for direct nitrate data and a safety assessment of PDE5 inhibitor co-use
 - For hair disorders: preclinical or pilot evidence for any perfusion-based benefit before further consideration
 ## Disclaimer

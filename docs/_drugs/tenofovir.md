@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "Tenofovir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tenofovir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection, HIV infectious disease, AIDS"
 ---
 
@@ -50,9 +50,8 @@ There are **no registered clinical trials** and **20 publications** (mostly maca
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of approvals | 1 registration (PNF-0475) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 6) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +87,16 @@ The 20 publications listed for this prediction are almost all animal studies or 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0475 | Tenofovir | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tenofovir alafenamide fumarate | Oral |
+| Tenofovir disoproxil fumarate | Oral |
+| Emtricitabine + Tenofovir Disoproxil Fumarate | Oral |
+| Lamivudine + Efavirenz + Tenofovir | Oral |
+| Lamivudine +Tenofovir | Oral |
+| Tenofovir + Lamivudine + Dolutegravir | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -116,7 +122,7 @@ The only supported prediction is for an animal-model disease, with no registered
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism-of-action data (for example from DrugBank)
-- Approved indication and dosage form details for licence PNF-0475
+- Approved indication and dosage form details
 - Identification of a human disease target, since the current predictions are veterinary, animal-model or unsupported
 ## Disclaimer
 

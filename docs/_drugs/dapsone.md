@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dapsone is a sulfone antibacterial drug that has been used in several diseases. 
 | Predicted New Indication | pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,9 +89,11 @@ Pneumocystis jirovecii is an opportunistic fungal pathogen that depends on folat
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0130 | Dapsone | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dapsone | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -113,7 +115,7 @@ Four completed Phase 3 randomized trials (NCT00000802, NCT00000991, NCT00001028,
 - Mechanism of action data from DrugBank
 - G6PD screening and monitoring plan for methemoglobinemia and hemolysis
 - Check for sulfonamide cross-reactivity
-- Confirm local product availability and dosage forms, since the only registration record has no recorded dosage form or indication text
+- Confirm local product availability and dosage forms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

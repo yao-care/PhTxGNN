@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ There are **no registered clinical trials** in the compiled data, but **19 publi
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 (see note below) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails (see note below) |
 
 **Note on the evidence level:** The L1 rating comes from the compiled scoring. It rests on a Phase 3 RCT in which zolpidem was only the active comparator, plus network meta-analyses and guidelines, not on completed Phase 3 trials registered for this prediction. Treat it as a high-level but indirect rating.
@@ -86,11 +86,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0529 | Zolpidem | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Zolpidem | Oral |
 
-This is the only registration on record, and it is cancelled.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -102,12 +102,11 @@ Package insert warnings and contraindications for the Philippines were not avail
 
 ## Conclusion and Next Steps
 
-
 **Rationale:**
 - The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses.
 
 **To proceed, the following is needed:**
-- Verify the regulatory status in the Philippines and confirm whether a valid registration exists or a new one is needed
+- Verify the regulatory status in the Philippines
 - Obtain and review the Philippines package insert (warnings, contraindications, dosage forms, approved indications)
 - Obtain DrugBank mechanism of action data to replace the general-knowledge description above
 - Set a safety plan covering short-term use limits, dependence and abuse risk, falls in older adults, and combinations with opioids and other central nervous system depressants

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are **no registered clinical trials** in the data compiled for this report
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-Of the 1 registration found, 1 is currently valid.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Diazepam | Oral, Injection |
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0140 | Diazepam | Valid |
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

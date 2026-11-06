@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ethinylestradiol: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Ethinylestradiol is a synthetic estrogen. The TxGNN model predicts it may be rel
 | Predicted New Indication | zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 4) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,9 +68,14 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0179 | Ethinylestradiol | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ethinylestradiol + Desogestrel | Oral |
+| Ethinylestradiol + Levonorgestrel | Oral |
+| Ethinylestradiol + Norethisterone | Oral |
+| Ethinylestradiol + Norgestrel | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

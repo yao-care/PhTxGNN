@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **7 clinical trials** and **1 publication** currently linked to this predic
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (see note below) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The data compiled for this report assign L2 on the basis of one completed Phase 2 trial (NCT00936936, 64 patients). That trial tested a multi-drug regimen and does not isolate melphalan's contribution. It is also a single-arm study, not a randomised controlled trial, so by the strict rule the evidence is weaker than L2.
@@ -85,10 +85,11 @@ Literature is much richer for the lower-ranked prediction of female breast carci
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0307 | Melphalan | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Melphalan | Oral |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -121,7 +122,6 @@ The mechanistic rationale is plausible and the TxGNN score is very high, but the
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism of action data (for example from DrugBank)
 - Clinical data that isolate melphalan's contribution in germ cell tumors, and a review of established standard regimens for comparison
-- Clarification of the cancelled registration (PNF-0307) and a plan for the dosage form and route of any product to be used
 - A safety monitoring plan covering severe myelosuppression, renal impairment and pulmonary toxicity
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 *Note: The top-ranked prediction has no evidence. The only candidate in the top 10 with any published literature is trichotillomania (TxGNN score 0.9938, evidence level L4, recommendation "Research Question"). It is discussed below as a secondary candidate.*
@@ -94,11 +94,13 @@ One of the reports (PMID 11212595) describes quetiapine *worsening* obsessive-co
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0411 | Quetiapine | Not specified | Not specified (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Quetiapine (as fumarate) | Oral |
 
-Quetiapine is marketed in the Philippines. One registration is on record, and it is valid (1 valid registration of 1).
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Quetiapine is marketed in the Philippines.
 
 ---
 
@@ -118,7 +120,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (retinal dystrophy with or without extraocular anomalies) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record.
+The top-ranked prediction (retinal dystrophy with or without extraocular anomalies) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess biological plausibility

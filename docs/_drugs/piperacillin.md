@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 278
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Piperacillin is a beta-lactam antibiotic that inhibits bacterial cell wall synth
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,10 +95,11 @@ None of these publications tests piperacillin as a treatment for rheumatoid arth
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0388 (cancelled) | Piperacillin | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Piperacillin + Tazobactam (as sodium salt) | Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -120,7 +121,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score. There are no clinical trials, no literature showing efficacy in RA, and no plausible mechanistic link between a bacterial cell wall inhibitor and an autoimmune joint disease. The only Philippines registration has also been cancelled.
+The prediction rests only on a model score. There are no clinical trials, no literature showing efficacy in RA, and no plausible mechanistic link between a bacterial cell wall inhibitor and an autoimmune joint disease.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence for a link between piperacillin and RA pathways (the MOA data are currently missing)

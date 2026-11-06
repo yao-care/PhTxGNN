@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L3). Approved use: Not available in the registration data"
 monitor_inn: "Mycophenolic acid"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **hemoglobinopathy**, but the evid
 | Predicted New Indication | Hemoglobinopathy |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,11 @@ The very high TxGNN score should therefore be read as a computational signal, no
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0335 | Mycophenolic Acid | Not recorded | Not recorded (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mycophenolic Acid (as Mycophenolate Sodium) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -95,13 +97,13 @@ For warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The link to hemoglobinopathy is indirect. The only related trial tests a different drug (basiliximab), and the only related publication is a dosing study of the prodrug in transplant patients. There is no efficacy evidence for treating the blood disorder itself. The product is also no longer validly registered in the Philippines.
+The link to hemoglobinopathy is indirect. The only related trial tests a different drug (basiliximab), and the only related publication is a dosing study of the prodrug in transplant patients. There is no efficacy evidence for treating the blood disorder itself.
 
 **To proceed, the following is needed:**
 - Efficacy and safety data for mycophenolate-based GVHD prophylaxis specifically in thalassemia or other hemoglobinopathy transplant populations
 - Clarification of the original approved indication and mechanism of action data
 - Package insert warnings and contraindications, which are needed before any safety screening
-- Review of the regulatory status, since the only Philippine registration (PNF-0335) is cancelled
+- Review of the regulatory status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

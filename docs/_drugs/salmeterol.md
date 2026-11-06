@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Salmeterol is an inhaled long-acting beta2-adrenergic agonist (bronchodilator). 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ No publication addresses respiratory malformation directly. The items below are 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0436 | Salmeterol | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fluticasone (as propionate) + Salmeterol (as xinafoate) | Inhalation, Inhalation (DPI), Inhalation (MDI) |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -102,7 +104,7 @@ Please refer to the package insert for warnings and contraindications. The local
 - Mechanism of action data and a defined biological rationale linking beta2-agonism to the malformation phenotype
 - Clinical or preclinical studies in respiratory malformation
 - Review of the local package insert for warnings and contraindications (including the major interaction with clarithromycin)
-- The approved indication and dosage form for licence PNF-0436
+- The approved indication and dosage form
 
 ## Disclaimer
 

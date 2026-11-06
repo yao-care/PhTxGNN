@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ Several large Phase 3 placebo-controlled trials support adjunctive use in depres
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,9 +95,11 @@ Note: PMID 38669232, a meta-analysis on aripiprazole or bupropion augmentation, 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0025 | Aripiprazole | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Aripiprazole | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -120,7 +122,7 @@ Please refer to the package insert for label warnings and contraindications.
 Multiple completed Phase 3 placebo-controlled trials (each with several hundred to over 1,000 participants) and several network meta-analyses support adjunctive aripiprazole in major depressive disorder.
 
 **To proceed, the following is needed:**
-- Confirm regulatory status in the Philippines, since the sole registration (PNF-0025) is cancelled, and determine whether a new or reinstated registration is needed
+- Confirm regulatory status in the Philippines
 - Obtain the package insert and verify warnings and contraindications (this safety data was missing)
 - Obtain formal mechanism-of-action data from DrugBank
 - Develop a safety monitoring plan covering metabolic parameters, blood counts, neuroleptic malignant syndrome, and the bupropion interaction

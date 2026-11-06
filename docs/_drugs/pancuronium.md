@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pancuronium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Pancuronium"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "migraine disorder", "migraine with brainstem aura", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "autonomic nervous system disease", "MVP1"]
@@ -52,8 +52,8 @@ The score is purely computational and the evidence level is L5.
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,9 +94,11 @@ These papers describe anesthetic and haemodynamic management in patients who alr
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0372 | Pancuronium | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Pancuronium (as bromide) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -116,7 +118,7 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the TxGNN network score. There are no clinical trials or direct literature, and no plausible mechanism links neuromuscular blockade to cauda equina syndrome. Systemic paralytic dosing would also be unsuitable for any chronic condition. The only registration in the Philippines is cancelled.
+The prediction rests only on the TxGNN network score. There are no clinical trials or direct literature, and no plausible mechanism links neuromuscular blockade to cauda equina syndrome. Systemic paralytic dosing would also be unsuitable for any chronic condition.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data

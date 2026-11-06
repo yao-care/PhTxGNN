@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available in the Philippines licence record (indication text is e…"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Iodixanol is an iodinated, iso-osmolar radiographic contrast agent. It is registered in the Philippines, but the data compiled for this report contain no approved indication text.
+Iodixanol is an iodinated, iso-osmolar radiographic contrast agent.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but there are **0 clinical trials** and **5 publications**, none of which show a therapeutic effect. They describe iodixanol only as an imaging probe, so this prediction rests on the model alone.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,11 @@ None of these studies tests iodixanol as a treatment for osteoarthritis. All are
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0253 | Iodixanol | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Iodixanol | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 0.9927 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0427 | Rivastigmine | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Rivastigmine (as hydrogen tartrate) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -94,13 +96,13 @@ Package insert warnings and contraindications for the Philippines were not avail
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is a preclinical rabbit study and two reviews. There are no clinical trials and no human data, and the high TxGNN score is a model prediction only. The Philippines registration is cancelled, and local label safety information is missing.
+The only supporting evidence is a preclinical rabbit study and two reviews. There are no clinical trials and no human data, and the high TxGNN score is a model prediction only. Local label safety information is missing.
 
 **To proceed, the following is needed:**
 - Human efficacy and safety data for ocular use (a pilot clinical study, or a systematic literature search for any existing clinical reports)
 - A topical or ocular formulation and route assessment, since none is currently identified
 - Confirmation of mechanism of action from DrugBank
-- The Philippines package insert (warnings, contraindications) and clarification of the cancelled registration status
+- The Philippines package insert (warnings, contraindications)
 - Review of ocular and systemic cholinergic adverse effects, including the knowledge-graph contraindications (asthma/COPD, cardiac conduction disorders, Parkinson disease) and interactions with anticholinergic drugs
 ## Disclaimer
 

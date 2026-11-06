@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Levothyroxine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0289 | Levothyroxine | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Levothyroxine (as sodium/anhydrous sodium) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,7 @@ Please refer to the package insert for warnings and formal contraindications.
 The prediction is supported only by a TxGNN model (deep learning) score. No clinical trial or publication studies this disease, so the evidence level is L5. Renal hypodysplasia/aplasia is a structural malformation that thyroid hormone replacement is not expected to correct, and the other top predictions are likewise not clinically actionable.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the DOH-FDA Philippines (the licence record has no indication, dosage form or manufacturer details)
+- Package insert warnings and contraindications from the DOH-FDA Philippines
 - Mechanism of action data for levothyroxine
 - Any preclinical or clinical evidence that thyroid hormone affects kidney development in a way that could be treated
 - A clear rationale for a disease where treatment is plausible, before any further evaluation

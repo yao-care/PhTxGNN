@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 244
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -50,8 +50,8 @@ with **4 registered clinical trials** (none of which gives direct efficacy evide
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (per the data compiled for this report; see note below) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* The L2 grade comes from the compiled scoring. Strictly applying the rules, no completed Phase 2/3 RCT directly tests MMF for HIV in the trials below. The one randomized study in the literature (PMID 15353978) was in treatment-naive patients and is only a small piece of supporting evidence. The practical strength of evidence is therefore lower than L2 suggests.
@@ -89,9 +89,11 @@ Small clinical studies support this biological plausibility. One case series (PM
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0334 | Mycophenolate Mofetil | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mycophenolate Mofetil | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

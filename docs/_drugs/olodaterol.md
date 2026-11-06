@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Known Uses Only (No New Predictions)
 nav_order: 263
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Olodaterol"
 description: "Olodaterol: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
@@ -41,14 +41,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0359 | Olodaterol | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Olodaterol (as hydrochloride) | Inhalation |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 Dosage form and approved indication text are not recorded for this registration.
 

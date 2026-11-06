@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 87
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0116 | Colchicine (status: valid) | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Colchicine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -93,14 +95,13 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no direct evidence of colchicine activity against *P. falciparum*. Colchicine's narrow therapeutic index and toxicity, plus its cancelled registration in the Philippines, make it an unlikely antimalarial candidate despite the high model score.
+The prediction has no clinical trials and no direct evidence of colchicine activity against *P. falciparum*. Colchicine's narrow therapeutic index and toxicity make it an unlikely antimalarial candidate despite the high model score.
 
 **To proceed, the following is needed:**
 - In vitro and in vivo data showing colchicine's antiplasmodial activity at clinically achievable, tolerable doses
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the Philippine regulator
 - A safety and therapeutic-index assessment against existing antimalarials
-- Clarification of the cancelled registration status if any use in the Philippines is contemplated
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

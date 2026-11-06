@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Dolutegravir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **feline acquired immunodeficienc
 | Predicted New Indication | feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,12 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0154 | Dolutegravir | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dolutegravir | Oral |
+| Tenofovir + Lamivudine + Dolutegravir | Oral |
 
-The only record in the local data is a single-ingredient entry with a cancelled status.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

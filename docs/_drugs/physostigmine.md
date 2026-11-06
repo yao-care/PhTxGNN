@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 276
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Physostigmine: known uses and market status in the Philippines; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Physostigmine, but every candidate that 
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,11 @@ The TxGNN model produced candidates for Physostigmine, but every candidate that 
 
 ## Philippines Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| PNF-0385 | Physostigmine |  | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Physostigmine (as salicylate) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

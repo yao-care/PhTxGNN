@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Goserelin: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis (including endometriosis of uterus)"
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -52,8 +52,8 @@ However, amenorrhea is largely an expected pharmacological effect of goserelin r
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,9 +99,11 @@ Most of this literature concerns breast cancer and endometriosis, with amenorrhe
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0222 | Goserelin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Goserelin (as acetate) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -122,7 +124,7 @@ Please refer to the package insert for warnings and formal contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only related trial is a breast cancer study where amenorrhea is not the target, and the literature mainly describes amenorrhea as a pharmacological effect of ovarian suppression. The high TxGNN score likely reflects this association. In addition, goserelin is marketed in the Philippines (1 valid licence of 1).
+The only related trial is a breast cancer study where amenorrhea is not the target, and the literature mainly describes amenorrhea as a pharmacological effect of ovarian suppression. The high TxGNN score likely reflects this association.
 
 **To proceed, the following is needed:**
 - A clear definition of the intended use (induced amenorrhea, for example for heavy bleeding or fertility protection, versus treatment of pathological amenorrhea)

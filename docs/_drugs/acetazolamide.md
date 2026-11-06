@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Acetazolamide: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Absence epilepsy, congestive heart failure, open-angle glaucoma…"
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,11 @@ No literature is available for exercise-induced malignant hyperthermia. The clos
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0002 | Acetazolamide | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Acetazolamide | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,7 @@ Please also refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials and no literature, so it rests on a model score alone (L5). The product is marketed in the Philippines, with 1 valid licence out of 1, and some lower-ranked predictions carry safety signals.
+The top prediction has no clinical trials and no literature, so it rests on a model score alone (L5). Some lower-ranked predictions carry safety signals.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for acetazolamide, and a plausible biological link to malignant hyperthermia

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Subarachnoid hemorrhage (including acquired aneurysmal subarachnoid h…"
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0349 | Nimodipine | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Nimodipine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -90,14 +92,14 @@ Please refer to the package insert for other safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score (L5), with no clinical trials or publications and no clear mechanistic link to either predicted indication. The only Philippines registration has been cancelled, and no label-based safety data are available.
+The prediction has only a model score (L5), with no clinical trials or publications and no clear mechanistic link to either predicted indication. No label-based safety data are available.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for nimodipine (for example, from DrugBank)
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Preclinical or mechanistic studies testing nimodipine in homozygous familial hypercholesterolemia
 - A systematic literature and trial-registry search for the predicted indication
-- Clarification of whether a valid local product is available, since the sole registration is cancelled
+- Clarification of whether a valid local product is available
 - Review of the major interactions (clarithromycin, dolasetron) and of the hypotension and liver disease concerns
 ## Disclaimer
 

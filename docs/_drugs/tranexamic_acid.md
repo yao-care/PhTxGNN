@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,8 +52,8 @@ there are **0 registered clinical trials** and **2 review articles** (indirectly
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,9 +85,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0495 | Tranexamic Acid | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tranexamic Acid | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -118,7 +120,7 @@ The prediction rests on a model score alone, with no clinical trials and only tw
 - Mechanism of action data (e.g., from DrugBank)
 - Philippines package insert warnings and contraindications from the DOH-FDA Philippines website
 - Clinical evidence, such as controlled studies in the redefined indication
-- Review of the regulatory status, since the sole registration is cancelled, and of available dosage forms and routes
+- Review of the regulatory status and of available dosage forms and routes
 - Thrombotic risk assessment, particularly for use alongside hormonal agents
 ## Disclaimer
 

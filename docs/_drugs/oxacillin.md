@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
 description: "Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,11 @@ For reference, the closest related prediction, bacterial arthritis, has some ind
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0363 | Oxacillin | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Oxacillin (as sodium salt) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -107,7 +109,7 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but there are no clinical trials or publications for epiglottitis. The main causative organisms are poorly covered by oxacillin, and the only Philippines registration has been cancelled.
+The TxGNN score is very high, but there are no clinical trials or publications for epiglottitis. The main causative organisms are poorly covered by oxacillin.
 
 **To proceed, the following is needed:**
 - Clinical or microbiological evidence for oxacillin in staphylococcal epiglottitis

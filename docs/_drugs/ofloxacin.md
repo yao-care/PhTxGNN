@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,13 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0357 | Ofloxacin | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ofloxacin | Oral, Eye Drops Solution, Ear Drops Solution |
 
-The registration is a single-ingredient product with valid status. No approved indication text is available in the data compiled for this report, so the approved uses in the Philippines cannot be confirmed. The infections listed above are relations recorded in the knowledge graph, not confirmed approved indications.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+No approved indication text is available in the data compiled for this report, so the approved uses in the Philippines cannot be confirmed. The infections listed above are relations recorded in the knowledge graph, not confirmed approved indications.
 
 ## Safety Considerations
 

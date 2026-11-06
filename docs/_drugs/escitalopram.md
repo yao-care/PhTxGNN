@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ This report documents all identified data gaps and defines the remediation steps
 | Predicted New Indication | **None** — TxGNN returned no predictions |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** — Pipeline incomplete; no actual study evidence assessed |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | **Hold** |
 
 ---

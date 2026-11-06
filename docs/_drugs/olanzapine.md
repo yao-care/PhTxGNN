@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Two other predictions (agoraphobia and dysthymic disorder) have more supporting 
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,10 +78,11 @@ Currently no related literature available for the top predicted indication.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0358 | Olanzapine | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Olanzapine | Oral |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -101,7 +102,7 @@ Please refer to the package insert for package-insert warnings and contraindicat
 **Decision: Hold**
 
 **Rationale:**
-The prediction for benign paroxysmal torticollis of infancy rests on the model score alone, with no trials or literature. There is no plausible mechanism, the condition is benign and self-limiting, and antipsychotic exposure in infants carries safety risks. The only Philippine registration is also cancelled.
+The prediction for benign paroxysmal torticollis of infancy rests on the model score alone, with no trials or literature. There is no plausible mechanism, the condition is benign and self-limiting, and antipsychotic exposure in infants carries safety risks.
 
 **To proceed, the following is needed:**
 - Do not pursue this indication unless new mechanistic or clinical evidence emerges

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This prediction is on-label or near on-label, so it is better viewed as confirma
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -92,9 +92,11 @@ The other predicted indications (ranks 2–8) are much weaker. Examples are brai
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0443 | Simvastatin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Simvastatin | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -114,7 +116,7 @@ Multiple completed Phase 3 trials, including ENHANCE and the adolescent ezetimib
 **To proceed, the following is needed:**
 - Obtain the package insert from DOH-FDA Philippines to complete warnings and contraindications (a blocking gap for safety screening)
 - Obtain detailed mechanism-of-action data from DrugBank
-- Confirm the regulatory pathway, since the sole Philippine registration is cancelled, including product, dosage form and approved indication
+- Confirm the regulatory pathway, including product, dosage form and approved indication
 - Define a monitoring plan for myopathy/rhabdomyolysis and liver function, and an interaction management plan for CYP3A4 inhibitors, amiodarone, amlodipine, fenofibrate and HIV regimens
 - Note that the ENHANCE trial found no added atherosclerosis benefit from ezetimibe over simvastatin alone, a point to weigh in regimen choice
 ## Disclaimer

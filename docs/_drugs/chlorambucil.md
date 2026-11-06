@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model's top prediction is **CLL/SLL with somatic hypermutation of the 
 | Predicted New Indication | ALK-positive large B-cell lymphoma |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,11 @@ Literature exists only for lower-ranked predictions (for example, primary pulmon
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0093 | Chlorambucil | Not listed | Not listed |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Chlorambucil | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -102,7 +104,7 @@ Package insert warnings and contraindications for the Philippine product are not
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score for IGHV-mutated CLL/SLL is not backed by any trial or publication on this subtype, so the evidence level is L5. Chlorambucil carries significant myelosuppression risk, and the Philippine licence record has no indication or safety text.
+The high TxGNN score for IGHV-mutated CLL/SLL is not backed by any trial or publication on this subtype, so the evidence level is L5. Chlorambucil carries significant myelosuppression risk.
 
 **To proceed, the following is needed:**
 - Subtype-specific clinical data on chlorambucil in IGHV-mutated CLL/SLL, including comparison with current standard therapies

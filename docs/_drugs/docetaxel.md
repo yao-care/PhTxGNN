@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Support comes from **8 related clinical trials** (4 completed Phase 2 trials amo
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

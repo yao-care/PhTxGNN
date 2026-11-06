@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The data compiled for this report do show stronger evidence for another predicte
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,7 +84,6 @@ Currently no related literature available for myiasis.
 
 These are not the lead prediction, but they are the only places where the compiled data show meaningful support.
 
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT01074905](https://clinicaltrials.gov/study/NCT01074905) | Phase 3 | Completed | 655 | Chloroquine/primaquine vs chloroquine vs artesunate for vivax malaria, Thai-Burmese border |
@@ -112,9 +111,11 @@ Supporting literature includes [39732393](https://pubmed.ncbi.nlm.nih.gov/397323
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0400 | Primaquine | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Primaquine (as diphosphate) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

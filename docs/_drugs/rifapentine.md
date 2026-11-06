@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 295
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Rifapentine: predicted new indication Leprosy (evidence level L3). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **leprosy**, with **no register
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,11 @@ Currently no related clinical trials are registered for leprosy in the data comp
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0422 (cancelled) | Rifapentine | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Rifapentine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -95,7 +97,7 @@ Currently no related clinical trials are registered for leprosy in the data comp
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). Rifapentine is marketed in the Philippines with 1 valid licence of 1. However, no registered trial could be matched, and package insert safety data are missing, so the evidence cannot yet support moving forward.
+The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). However, no registered trial could be matched, and package insert safety data are missing, so the evidence cannot yet support moving forward.
 
 **To proceed, the following is needed:**
 - Verification of the design and results of the 2023 household contact trial, and of other registered leprosy trials

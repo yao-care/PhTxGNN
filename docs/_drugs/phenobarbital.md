@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ It rests on model output alone and is not backed by specific evidence.
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0381 | Phenobarbital | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Phenobarbital | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -102,7 +104,7 @@ Package insert warnings and contraindications for the Philippines were not avail
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials, and the single retrieved paper does not concern the predicted disease. No mechanistic link to tumour biology was found, and the Philippines registration is cancelled.
+The prediction rests on a model score alone. There are no clinical trials, and the single retrieved paper does not concern the predicted disease. No mechanistic link to tumour biology was found.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g., from DrugBank)

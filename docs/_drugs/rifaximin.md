@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **0 clinical trials** and only **1 publication**, and that publica
 | Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0423 | Rifaximin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Rifaximin | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -91,11 +93,11 @@ Please refer to the package insert for further safety information, such as warni
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not supported by a plausible mechanism or by clinical evidence. The only available study suggests a possible harm (resistant *Candida* infections). The Philippines registration is also cancelled, with no indication or dosage form on file.
+The high TxGNN score is not supported by a plausible mechanism or by clinical evidence. The only available study suggests a possible harm (resistant *Candida* infections).
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess whether any biological link to oral candidiasis exists
-- Package insert warnings and contraindications from the Philippines regulator (the current registration is cancelled)
+- Package insert warnings and contraindications from the Philippines regulator
 - Further analysis of the *Candida* resistance signal, ideally with controlled data that accounts for underlying disease
 - Preclinical or in vitro evidence of any benefit in oral candidiasis before considering clinical studies
 ## Disclaimer

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
@@ -50,8 +50,8 @@ This prediction rests on the model score alone.
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0144 | Digoxin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Digoxin | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -92,13 +94,12 @@ Please also refer to the package insert for label-based warnings and contraindic
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone: no trials, no relevant literature, and no plausible mechanism. Digoxin has no expected benefit in vasospasm. Its contraindication profile includes several cardiac conditions. The drug is marketed in this country, with 1 valid license of 1.
+The prediction rests on the model score alone: no trials, no relevant literature, and no plausible mechanism. Digoxin has no expected benefit in vasospasm. Its contraindication profile includes several cardiac conditions.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data and a credible mechanistic rationale for coronary vasospasm
 - Preclinical or clinical studies of digoxin in Prinzmetal angina
 - Package insert warnings and contraindications from the Philippines FDA
-- Clarification of the cancelled registration status if local use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

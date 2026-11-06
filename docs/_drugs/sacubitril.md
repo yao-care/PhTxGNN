@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ That support consists of **1 clinical trial** (Phase 4, status unknown) and **15
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,9 +89,11 @@ The table lists the most relevant publications for diabetic nephropathy. Clinica
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0432 | Sacubitril | Not recorded | Not recorded (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sacubitril/Valsartan | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -110,7 +112,6 @@ Diabetic nephropathy has a plausible mechanism and consistent preclinical suppor
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Results or a status update for NCT06501651, and any completed Phase 3 RCTs in diabetic nephropathy
-- Clarification of the cancelled registration and of the original approved indication
 - Full-text review of the clinical studies (PMIDs 37549515 and 40416927) to confirm study design and outcomes
 ## Disclaimer
 

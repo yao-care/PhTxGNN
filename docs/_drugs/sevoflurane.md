@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sevoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Philippines licence record (sevoflurane is known as…"
 monitor_inn: "Sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina**, but ther
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,9 +94,11 @@ For reference, the literature found for lower-ranked predictions concerns sevofl
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0441 | Sevoflurane | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sevoflurane | Inhalation |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -122,7 +124,6 @@ The prediction for Prinzmetal angina has no supporting clinical trials or litera
 - Preclinical or early clinical evidence of benefit in the predicted indication
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - An assessment of whether a suitable route and dosage form could exist for a chronic condition
-- Clarification of the cancelled registration status and the original approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

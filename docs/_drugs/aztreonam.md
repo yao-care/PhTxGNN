@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Aztreonam"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Aztreonam: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0037 | Aztreonam | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Aztreonam | Injection |
 
-The local data lists one single-ingredient licence record, and its status is recorded as cancelled. The overall market status in the Philippines is reported as marketed; the two should be reconciled with the regulator before any decision.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The overall market status in the Philippines is reported as marketed; the two should be reconciled with the regulator before any decision.
 
 ## Safety Considerations
 
@@ -97,7 +99,6 @@ There are no clinical trials or publications for polyclonal hyperviscosity syndr
 **To proceed, the following is needed:**
 - Any direct preclinical or clinical evidence in this disease, together with a credible mechanistic hypothesis
 - Package insert warnings and contraindications for the Philippines product
-- Clarification of the licence status (the single record is cancelled, while the market status is reported as marketed)
 - Complete mechanism of action data
 ## Disclaimer
 

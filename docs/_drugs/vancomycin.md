@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, but th
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0508 | Vancomycin | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Vancomycin (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -120,13 +122,12 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for diffuse scleroderma rests only on a model score. There is no clinical trial, no relevant literature, and no plausible mechanism. Vancomycin is currently marketed in the Philippines, with 1 valid license out of 1.
+The prediction for diffuse scleroderma rests only on a model score. There is no clinical trial, no relevant literature, and no plausible mechanism.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale connecting vancomycin to systemic sclerosis pathophysiology, if any exists
 - Mechanism of action data (MOA) from DrugBank
 - Package insert warnings and contraindications from DOH-FDA Philippines
-- Clarification of why the registration was cancelled and whether any valid vancomycin product exists locally
 - If a repurposing candidate is still wanted, streptococcal pneumonia (resistant pneumococcus) is the only mechanistically credible option. It should be treated as an extension of an existing use, not a novel repurposing, and would need direct clinical evidence.
 ## Disclaimer
 

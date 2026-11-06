@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "Ritonavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is feline acquired immunodeficiency synd
 | Predicted New Indication | Simian immunodeficiency virus infection (rank 1 by score is feline acquired immunodeficiency syndrome, which has no supporting evidence) |
 | TxGNN Prediction Score | 0.9992 (the same for the top two predictions) |
 | Evidence Level | L5 (preclinical studies only); feline AIDS and the neurodevelopmental disorder are L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,11 @@ Most of these studies used combination regimens, so ritonavir-specific effects c
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0428 | Ritonavir | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lopinavir + Ritonavir | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

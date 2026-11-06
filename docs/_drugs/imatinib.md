@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Imatinib is a tyrosine kinase inhibitor developed for blood cancers and gastroin
 | Predicted New Indication | heart fibrosarcoma |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,8 +71,6 @@ Currently no related clinical trials registered.
 | [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Review | Prescrire international | Drug bulletin on new imatinib indications; it notes that the supporting evidence was not robust. It does not study heart fibrosarcoma. |
 
 ## Philippines Market Information
-
-Local registration data list imatinib as marketed, with one single-ingredient licence record on file. The record carries no dosage form or approved-indication text.
 
 ## Cytotoxicity
 

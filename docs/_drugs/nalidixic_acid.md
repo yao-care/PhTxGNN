@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not stated in the registration data (class use: bacterial infections)"
 monitor_inn: "Nalidixic acid"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, with **0 cl
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,11 @@ None of these articles tests nalidixic acid against conjunctivitis.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0338 | Nalidixic Acid (valid) | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Nalidixic Acid | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -139,7 +141,6 @@ Label-based warnings and contraindications from the package insert are not avail
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Evidence of nalidixic acid activity against ocular pathogens, such as susceptibility data or ocular penetration studies
 - A comparison with currently available ophthalmic fluoroquinolones to show any added value
-- Clarification of the cancelled registration status and whether any formulation suitable for ophthalmic use exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

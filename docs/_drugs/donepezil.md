@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Donepezil: predicted new indication Top TxGNN rank: psychogenic movement disorders. Best-supported: chron… (evidence level L5). Approved use: Alzheimer disease"
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -48,8 +48,8 @@ Donepezil is a cholinesterase inhibitor originally used to treat Alzheimer disea
 | Predicted New Indication | Top TxGNN rank: psychogenic movement disorders. Best-supported: chronic tic disorder (rank 2) |
 | TxGNN Prediction Score | 0.9923 (psychogenic movement disorders); 0.9919 (chronic tic disorder) |
 | Evidence Level | L5 for the top-ranked indication; L3 for chronic tic disorder |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold for psychogenic movement disorders; Proceed with Guardrails at research-question level for chronic tic disorder |
 
 ## Why is This Prediction Reasonable?
@@ -91,9 +91,11 @@ Related movement disorder literature (indirect or mixed):
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0156 | Donepezil | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Donepezil | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -112,13 +114,12 @@ Package insert warnings and contraindications for the Philippines could not be r
 **Decision: Hold (psychogenic movement disorders and the other L5 predictions); chronic tic disorder is a Research Question that could Proceed with Guardrails**
 
 **Rationale:**
-- The top-ranked prediction, psychogenic movement disorders, is supported only by the model score, with no trials or literature. Chronic tic disorder has a plausible mechanism and small clinical and preclinical data, but no controlled trials. The movement-disorder safety signal and the cancelled Philippines registration argue for caution.
+- The top-ranked prediction, psychogenic movement disorders, is supported only by the model score, with no trials or literature. Chronic tic disorder has a plausible mechanism and small clinical and preclinical data, but no controlled trials. The movement-disorder safety signal.
 
 **To proceed, the following is needed:**
 - A randomized, controlled trial of donepezil in chronic tic disorder or Tourette syndrome
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from DOH-FDA Philippines
-- Clarification of the cancelled registration status and available dosage forms before any local use
 - A safety plan covering the movement-disorder signal, cardiac conduction (sick sinus syndrome, AV block), peptic ulcer, asthma and seizure risk, and the interaction with bupropion
 ## Disclaimer
 

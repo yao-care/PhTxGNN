@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the data compiled for this report contain **0 clinical trials** and **0 publ
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0458 | Spironolactone | Not stated | Not stated (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Spironolactone (K-sparer) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -100,13 +102,12 @@ Package insert warnings and contraindications were not available, so please refe
 **Decision: Hold**
 
 **Rationale:**
-The only support for this prediction is a high model score. There are no clinical trials or publications, and the mechanistic link is speculative because the target conditions are genetic and not primarily androgen-driven. The only Philippines registration has been cancelled, which further limits near-term feasibility.
+The only support for this prediction is a high model score. There are no clinical trials or publications, and the mechanistic link is speculative because the target conditions are genetic and not primarily androgen-driven.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Published evidence (case reports, case series or trials) of spironolactone in hypotrichosis simplex or related hereditary hair-loss disorders
-- Confirmation of whether a valid registration or an alternative supply route exists in the Philippines
 - Assessment of route compatibility (oral versus topical) for a hair-loss indication
 ## Disclaimer
 

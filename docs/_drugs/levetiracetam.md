@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Levetiracetam is an antiseizure medicine, originally used to treat partial (foca
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,10 +93,11 @@ The publications below are general antiseizure studies. None addresses visual ep
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0284 | Levetiracetam | Not recorded | Not recorded (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Levetiracetam | Oral, Injection, Solution |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -115,7 +116,6 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The only registration in the Philippines is cancelled.
 
 It is already an established use, so it is closer to confirming existing practice than repurposing. Startle epilepsy and reading epilepsy have small case-level evidence and could be treated as research questions.
 
@@ -123,7 +123,7 @@ It is already an established use, so it is closer to confirming existing practic
 - Disease-specific evidence for levetiracetam in visually induced or photosensitive epilepsy, such as photosensitivity (photoparoxysmal response) studies or case series
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for the product
-- Clarification of current Philippines regulatory status, since the sole registration is cancelled
+- Clarification of current Philippines regulatory status
 - A safety monitoring plan for psychiatric, renal and haematological risks
 ## Disclaimer
 

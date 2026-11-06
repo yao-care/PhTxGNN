@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Mecobalamin"
 predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease"]
 description: "Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The prediction rests on the model score alone.
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 Two other predictions also scored high, and neither has supporting evidence:
@@ -70,9 +70,11 @@ For the other two predicted indications, the rationale is weaker:
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0302 | Mecobalamin | Not specified | Not specified (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mecobalamin | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -94,7 +96,7 @@ Package insert warnings and contraindications were not available. Please refer t
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data for mecobalamin, to assess biological plausibility
 - A literature and trial search specific to sclerosing cholangitis and vitamin B12 or methylcobalamin
-- Clarification of the original approved indication and dosage form, and of why the registration was cancelled
+- Clarification of the original approved indication and dosage form
 - A route-of-administration and formulation compatibility assessment for the new indication
 ## Disclaimer
 

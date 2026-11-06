@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 315
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Sofosbuvir is a nucleotide analogue antiviral that inhibits a viral RNA polymera
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,11 +89,13 @@ The most direct evidence is a Phase 2 open-label pilot of ledipasvir/sofosbuvir 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0455 | Sofosbuvir | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sofosbuvir | Oral |
+| Sofosbuvir + ledipasvir | Oral |
+| Sofosbuvir + velpatasvir | Oral |
 
-Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,11 @@ Many other retrieved publications were off-target (cat-scratch disease, veterina
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0500 | Trimethoprim | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Cotrimoxazole (sulfamethoxazole + trimethoprim) | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -99,13 +101,13 @@ No package insert warnings or contraindications are available; please refer to t
 **Decision: Hold**
 
 **Rationale:**
-The prediction for punctate epithelial keratoconjunctivitis rests on the model score alone, with no trials or literature, and the likely viral or non-infectious cause makes an antibacterial mechanism implausible. The local registration is cancelled, with no indication text or dosage form on record, and label safety data are missing.
+The prediction for punctate epithelial keratoconjunctivitis rests on the model score alone, with no trials or literature, and the likely viral or non-infectious cause makes an antibacterial mechanism implausible. Label safety data are missing.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for trimethoprim
 - Evidence that bacterial infection contributes to punctate epithelial keratoconjunctivitis, or clinical data in this condition
 - Package insert warnings and contraindications, to complete the safety screening
-- Confirmation of an available ophthalmic formulation and its route compatibility, given the cancelled local registration
+- Confirmation of an available ophthalmic formulation and its route compatibility
 - Review of the 2008 and 1984 ophthalmic studies for design and outcomes, to confirm that they are controlled studies
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L4). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -52,8 +52,8 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available for this indication.
 
 ## Philippines Market Information
 
-Heparin has one registration on record (PNF-0225, single-ingredient product), and it is **valid**. No dosage form, manufacturer or approved indication text is available. There is 1 currently valid registration of 1 in the Philippines.
+No dosage form, manufacturer or approved indication text is available.
 
 ---
 
@@ -104,7 +104,7 @@ Additional signals from the knowledge graph (these are drug-disease relationship
 **Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically plausible and close to heparin's existing use in purpura fulminans, but no trials or publications address this specific disease. The evidence is limited to a model score and reasoning (L4). Heparin has 1 valid registration of 1 in the Philippines, but label safety data is missing.
+The prediction is mechanistically plausible and close to heparin's existing use in purpura fulminans, but no trials or publications address this specific disease. The evidence is limited to a model score and reasoning (L4). Label safety data is missing.
 
 **To proceed, the following is needed:**
 - Targeted literature review of heparin or other anticoagulants in severe congenital protein C deficiency, compared with protein C concentrate or plasma

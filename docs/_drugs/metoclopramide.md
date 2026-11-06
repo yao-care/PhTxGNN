@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but the support is thin: **1 clinical trial** (on a procedural use, not ulcer tr
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,6 @@ but the support is thin: **1 clinical trial** (on a procedural use, not ulcer tr
 Detailed mechanism of action data is not available in the data compiled for this report. From the literature, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist that speeds gastric emptying and raises lower esophageal sphincter tone. This explains its use in reflux disease.
 
 Reflux disease and gastric ulcer both belong to upper gastrointestinal acid-peptic disorders, which is likely why the model links them. Mechanistically, however, the link is weak. Metoclopramide does not suppress acid and does not promote mucosal healing. At most it could help with coexisting symptoms such as delayed emptying, nausea or dyspepsia. Any benefit would be adjunctive and symptomatic, not disease-modifying. A 1981 study in healthy volunteers found no significant change in gastrin levels or acid secretion. Standard ulcer care (proton pump inhibitors, *H. pylori* eradication, endoscopic hemostasis) does not rely on it.
-
 
 ## Clinical Trial Evidence
 
@@ -84,9 +83,11 @@ Reflux disease and gastric ulcer both belong to upper gastrointestinal acid-pept
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0322 | Metoclopramide | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Metoclopramide | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -125,7 +126,6 @@ The other predictions are also weak:
 - Clarification of the "active peptic ulcer disease" contraindication signal against the official label
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently missing, and a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
-- Confirmation of the regulatory pathway, since the Philippine registration is cancelled and has no recorded dosage form or indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

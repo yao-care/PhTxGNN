@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia…"
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
@@ -52,8 +52,8 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0223 | Haloperidol (single-ingredient) | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Haloperidol | Oral, Injection |
 
-There is 1 valid licence out of 1. Dosage form and approved indication text were not available for this record.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Dosage form and approved indication text were not available for this record.
 
 ---
 
@@ -115,7 +117,7 @@ Package insert warnings and contraindications for the Philippines were not avail
 
 **Rationale:**
 - The prediction has no clinical, preclinical or mechanistic support, and no plausible link between D2 antagonism and fucosylation defects.
-- Haloperidol's local registration is cancelled, and its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial.
+- Its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial.
 
 **To proceed, the following is needed:**
 - Mechanistic data showing any plausible connection between haloperidol and fucosylation pathways, plus detailed mechanism of action data.

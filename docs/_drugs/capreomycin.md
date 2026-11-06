@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -50,8 +50,8 @@ The prediction is based on the model's output alone.
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0072 | Capreomycin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Capreomycin | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -92,14 +94,14 @@ Please refer to the package insert for the full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The gout prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanism. Capreomycin also has significant toxicity, and its only Philippines registration has been cancelled.
+The gout prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanism. Capreomycin also has significant toxicity.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and any evidence of activity on urate or inflammatory pathways
 - Preclinical or in vitro evidence supporting a gout effect
 - Package insert warnings and contraindications, to complete the safety review
 - A renal and hearing safety assessment for the target population
-- Clarification of the market and supply situation, given the cancelled registration
+- Clarification of the market and supply situation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

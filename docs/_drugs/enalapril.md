@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ A complete drug repurposing evaluation **cannot be performed** until the missing
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (model prediction not yet generated; no supporting studies retrievable) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -82,13 +82,12 @@ No TxGNN-predicted indication is available in this Evidence Pack. Indication-spe
 
 ## Philippines Market Information
 
-Enalapril is currently **not registered** in the Philippines under this Evidence Pack. No product authorizations were found.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Enalapril (as maleate) | Oral |
+| Enalapril + Hydrochlorothiazide | Oral |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|----------------------|--------------|-------------|---------------------|
-| — | No registered products found | — | — |
-
-> **Note:** Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verification with FDA Philippines (Food and Drug Administration, Philippines) is recommended, as the absence of records may reflect a data ingestion issue rather than a true absence from the market.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -115,7 +114,7 @@ This Evidence Pack is critically incomplete across all four evaluation pillars �
 - **[Critical — Blocking]** Resolve **DG001**: Download and parse the package insert PDF from the TFDA (or FDA Philippines equivalent) to extract key warnings and contraindications
 - **[High]** Resolve **DG002**: Query the DrugBank API for Enalapril's mechanism of action to enable mechanistic plausibility analysis
 - **[High]** Confirm original approved indications from at least one regulatory source (e.g., FDA Philippines, TFDA, EMA, or FDA USA)
-- **[Medium]** Independently verify Philippines FDA registration status, as Enalapril is a widely available generic; a zero-registration result may indicate a data pipeline issue
+- **[Medium]** Independently verify Philippines FDA registration status, as Enalapril is a widely available generic
 - **[Medium]** Re-query DDI databases (e.g., DrugBank interactions endpoint) once the drug identity is confirmed, as the `not_found` status is unexpected for a drug with known interaction profiles
 ## Disclaimer
 

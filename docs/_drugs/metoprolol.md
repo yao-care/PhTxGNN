@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,11 +89,11 @@ Selected publications on metoprolol in COPD with heart disease (another predicte
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0323 | Metoprolol | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Metoprolol (as tartrate) | Oral |
 
-The licence record contains no indication text, so no approved use is confirmed from local label data.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -113,7 +113,7 @@ The prediction for malignant hypertensive renal disease has no supporting trials
 **To proceed, the following is needed:**
 - Studies of metoprolol specifically in malignant hypertensive nephropathy
 - Mechanism of action data
-- Package insert warnings and contraindications from the Philippines FDA, and the approved indication text for licence PNF-0323
+- Package insert warnings and contraindications from the Philippines FDA, and the approved indication text
 - Dosage form and route information for the Philippine product
 - A review of the knowledge-graph contraindication relations against the label
 ## Disclaimer

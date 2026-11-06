@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 286
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0403 | Propylthiouracil | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Propylthiouracil | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -107,12 +109,12 @@ The literature also notes concerns about hepatotoxicity and embryopathy with ant
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (RTH-β) has no clinical trials, no studies testing PTU as treatment, and a mechanism that may worsen the condition by raising TSH. Safety concerns (haematological toxicity, hepatotoxicity) and the cancelled Philippines registration add further barriers.
+The top prediction (RTH-β) has no clinical trials, no studies testing PTU as treatment, and a mechanism that may worsen the condition by raising TSH. Safety concerns (haematological toxicity, hepatotoxicity) add further barriers.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (MOA) and the package insert warnings and contraindications
 - Expert endocrinology review to confirm that PTU is not appropriate for RTH-β
-- Clarification of the regulatory pathway, since the only local registration (PNF-0403) is cancelled
+- Clarification of the regulatory pathway
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

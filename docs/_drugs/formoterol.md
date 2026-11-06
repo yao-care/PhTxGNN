@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are **no clinical trials** and no publications that directly study this co
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

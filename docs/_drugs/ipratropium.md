@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ipratropium: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Ipratropium is an anticholinergic (muscarinic receptor blocking) drug that is ma
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

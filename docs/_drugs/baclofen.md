@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Baclofen is a GABA-B receptor agonist. The TxGNN model predicts it may be effect
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ None of these studies tests baclofen in attention deficit-hyperactivity disorder
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0039 | Baclofen | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Baclofen | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

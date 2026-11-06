@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,9 +50,8 @@ There are **no clinical trials** and only **1 publication** (an in vitro biochem
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of approvals | 1 licence (single-ingredient product, registration no. PNF-0162) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 *Note on evidence level: the only publication on this disease is an in vitro biochemical and structural comparison of reverse transcriptase inhibitors. It is not a clinical or in vivo study of the drug in feline disease, and the data compiled for this report contain no clinical trial for it. By the evidence ceiling rule, the level is therefore L5, although the earlier automated scoring listed L4.*
@@ -75,11 +74,12 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0162 | Efavirenz | Not stated | Not stated in the licence record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Efavirenz | Oral |
+| Lamivudine + Efavirenz + Tenofovir | Oral |
 
-The licence is for a single-ingredient product and is currently valid. The record has no indication text or dosage form, so the approved use cannot be confirmed from it.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

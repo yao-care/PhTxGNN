@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nicardipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 ---
 
@@ -50,9 +50,8 @@ Nicardipine is a calcium channel blocker whose use in hypertensive disorders is 
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 (single-ingredient registration) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +89,11 @@ Most retrieved publications are preclinical or off-topic. The table lists the mo
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0346 | Nicardipine | Not specified | Not specified in the record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Nicardipine (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -118,7 +119,7 @@ The prediction rests on a model score and a single 1988 animal study. No study d
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Human haemodynamic and gas-exchange studies, or registered trials, in this patient group
 - Review of guideline positions on calcium channel blockers in pulmonary hypertension due to lung disease
-- Confirmation of the dosage forms and approved indication for registration PNF-0346
+- Confirmation of the dosage forms and approved indication
 
 ---
 

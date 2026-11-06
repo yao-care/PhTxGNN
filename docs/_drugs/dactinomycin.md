@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, rhabdomyosarcoma, Wilms tumor…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **relapsing-remitting multiple 
 | Predicted New Indication | Relapsing-remitting multiple sclerosis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0127 | Dactinomycin | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dactinomycin | Injection |
 
-Dosage form and approved-indication text are not recorded for this registration. The drug is marketed in the Philippines, with 1 valid licence of 1.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Dosage form and approved-indication text are not recorded for this registration.
 
 ---
 

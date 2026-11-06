@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Artemether: predicted new indication acquired angioedema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Artemether is an artemisinin-class medicine with a licence record in the Philippines. The TxGNN model predicts it may be relevant to **acquired angioedema**, with a score of 0.9990. There are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+Artemether is an artemisinin-class medicine. The TxGNN model predicts it may be relevant to **acquired angioedema**, with a score of 0.9990. There are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
@@ -48,8 +48,8 @@ Artemether is an artemisinin-class medicine with a licence record in the Philipp
 | Predicted New Indication | acquired angioedema |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,9 +68,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0026 | Artemether | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Artemether + Lumefantrin | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

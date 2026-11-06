@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Emtricitabine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 ---
 
@@ -48,9 +48,8 @@ Emtricitabine is an antiretroviral drug whose use in HIV infectious disease and 
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (the cited studies are mainly animal models using SHIV/SIV, or reviews; none directly studies the predicted disease in a clinical setting) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 licence (single-ingredient) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +83,11 @@ Of the 18 retrieved publications, the most relevant are listed below (animal stu
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0163 | Emtricitabine | Not specified | Not specified in the record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Emtricitabine + Tenofovir Disoproxil Fumarate | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -106,7 +107,7 @@ The prediction is mechanistically plausible, but the supporting evidence comes o
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism of action data from DrugBank
 - A clear decision on whether a non-human, model-organism disease is a worthwhile target; if not, the focus should return to HIV-related indications
-- Approved indication text and dosage forms for licence PNF-0163
+- Approved indication text and dosage forms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

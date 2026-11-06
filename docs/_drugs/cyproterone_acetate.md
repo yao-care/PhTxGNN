@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 91
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the local registration record"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,11 @@ None of these papers shows CPA treating migraine.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0123 (cancelled) | Cyproterone | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Cyproterone (as acetate) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -104,13 +106,13 @@ Please refer to the package insert for further safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and indirect hormonal literature, with no clinical trials. The direction of effect is uncertain, because hormonal therapy can worsen migraine. The drug is also marketed in the Philippines (1 valid license of 1), and its thrombotic safety signal is a concern.
+The prediction rests on a model score and indirect hormonal literature, with no clinical trials. The direction of effect is uncertain, because hormonal therapy can worsen migraine. Its thrombotic safety signal is a concern.
 
 **To proceed, the following is needed:**
 - Direct clinical evidence of CPA benefit in migraine, such as controlled trials
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications for safety screening
-- Clarification of the regulatory status in the Philippines, including whether any valid registration or product is available
+- Clarification of the regulatory status in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

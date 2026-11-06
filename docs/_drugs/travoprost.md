@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -107,9 +107,11 @@ No publications address travoprost in visceral calciphylaxis. The most relevant 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0497 | Travoprost | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Travoprost | Ophthalmic Solution |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -128,13 +130,13 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone (L5). There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links an ocular FP receptor agonist, with minimal systemic exposure from eye drops, to this condition. The only registration in the Philippines is cancelled.
+The prediction rests on the model score alone (L5). There are no trials or publications for visceral calciphylaxis, and no plausible mechanism links an ocular FP receptor agonist, with minimal systemic exposure from eye drops, to this condition.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a testable biological rationale for calcific uremic arteriolopathy
 - Preclinical evidence (for example, in vascular calcification models) showing an FP receptor effect at achievable exposures
 - Assessment of whether a systemic or alternative route of administration would be needed, since the topical ocular route is unlikely to be suitable
-- Package insert warnings and contraindications from the Philippine regulator, and a current valid registration or a defined regulatory pathway
+- Package insert warnings and contraindications from the Philippine regulator
 - Review of the unclassified drug interactions, especially for patients on typical calciphylaxis therapies
 ## Disclaimer
 

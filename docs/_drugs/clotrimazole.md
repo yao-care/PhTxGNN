@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clotrimazole: predicted new indication Acne (acne (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Evidence for this specific prediction is therefore weak.
 | Predicted New Indication | Acne (acne (disease)) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,7 +80,7 @@ This trial does not directly establish clotrimazole's effect on acne: the exact 
 
 ## Philippines Market Information
 
-The local data lists one clotrimazole record (single-ingredient, number PNF-0112) with no dosage form or approved indication text recorded. The market status for clotrimazole in the Philippines is **Marketed**.
+The market status for clotrimazole in the Philippines is **Marketed**.
 
 ---
 

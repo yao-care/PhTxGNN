@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials** are registered and the **9 publications** retrieved a
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,11 +90,11 @@ For the related prediction *chronic pulmonary heart disease*, only indirect haem
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0186 | Felodipine | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Felodipine | Oral |
 
-The licence is a single-ingredient product and is currently valid. The record carries no indication text, so no approved indication can be confirmed from local data.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -115,7 +115,7 @@ The prediction rests on a model score and a plausible vasodilatory mechanism onl
 - Clinical studies (ideally controlled) of felodipine in pulmonary hypertension owing to lung disease or hypoxia, including gas exchange and oxygenation outcomes
 - Mechanism of action data and the package insert warnings and contraindications from DOH-FDA Philippines
 - A review of the knowledge-graph contraindication relations against label text
-- Approved indication text and dosage form for licence PNF-0186
+- Approved indication text and dosage form
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

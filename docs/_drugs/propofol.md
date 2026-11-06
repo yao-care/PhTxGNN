@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 284
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Propofol: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the Philippines license data (general anesthesia/seda…"
 monitor_inn: "Propofol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Propofol is an intravenous anesthetic and sedative agent. No approved indication text is recorded for its single Philippines registration, so the original use is inferred from its known role as a general anesthetic.
+Propofol is an intravenous anesthetic and sedative agent. The original use is inferred from its known role as a general anesthetic.
 The TxGNN model predicts it may be effective for **migraine disorder**, with **3 clinical trials** and **19 publications** currently supporting this direction, including several randomized trials in emergency department settings.
 
 ---
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **3
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,9 +96,11 @@ Use at the doses studied is confined to monitored settings such as the emergency
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0401 (cancelled) | Propofol | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Propofol | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -122,7 +124,6 @@ A completed Phase 2/3 trial and several randomized trials in the emergency depar
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
-- A valid registration route or product pathway, since the existing license is cancelled
 - A protocol limiting use to monitored settings with sedation, respiratory, and blood pressure monitoring
 - Review of the knowledge-graph contraindication signals (epilepsy, hypotension, respiratory failure) against patient selection criteria
 

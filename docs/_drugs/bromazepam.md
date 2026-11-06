@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bromazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxG
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Local regulatory data lists the market status as Marketed, with at least one licence recorded as valid. Product-level details such as dosage form and approved indication text are not recorded in the local data.
+Product-level details such as dosage form and approved indication text are not recorded in the local data.
 
 ## Safety Considerations
 

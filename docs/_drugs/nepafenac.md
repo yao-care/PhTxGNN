@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 249
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -52,8 +52,8 @@ The supporting evidence is specific to post-cataract-surgery inflammation and pa
 | Predicted New Indication | Eye disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,9 +109,11 @@ The data list many trials. The 10 most relevant are shown below, favoring larger
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0344 | Nepafenac | Not recorded | Not recorded (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Nepafenac | Eye Suspension |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -133,7 +135,7 @@ For formal warnings and contraindications, please refer to the package insert.
 - Several large Phase 3 RCTs, including diabetic cohorts of over 800 participants each, support nepafenac for post-cataract-surgery inflammation, pain and macular edema, and a network meta-analysis supports the class. The evidence is strong for this established use, not for the broad "eye disease" label.
 
 **To proceed, the following is needed:**
-- Confirm the regulatory status and whether re-registration or import is feasible, since the sole Philippines license is cancelled.
+- Confirm the regulatory status.
 - Obtain the package insert, with its warnings and contraindications, from the DOH-FDA Philippines.
 - Narrow the target to post-cataract-surgery inflammation, pain and macular edema, rather than the broad "eye disease" label.
 - Review the corneal and systemic risk signals (keratitis, dry eye, corneal ulcer, diabetes, coagulation disorders) and set patient-selection and monitoring rules.

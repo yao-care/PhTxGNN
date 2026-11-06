@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 54
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the Philippines registration record"
 monitor_inn: "Calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,7 +78,7 @@ All the studies are small and uncontrolled, and none is a randomised trial. The 
 
 ## Philippines Market Information
 
-Calcipotriol has one registration in the Philippines (PNF-0065, single-ingredient product), and its status is valid. No dosage form, manufacturer or approved indication is recorded.
+No dosage form, manufacturer or approved indication is recorded.
 
 ## Safety Considerations
 
@@ -101,7 +101,6 @@ The model score is very high and the mechanism is plausible, but the supporting 
 - Package insert warnings and contraindications from DOH-FDA Philippines, to allow safety screening
 - Confirmed mechanism of action data from DrugBank
 - A controlled study (for example, a randomised comparison against standard treatments such as cryotherapy) of topical calcipotriol in seborrheic keratosis
-- Clarification of the regulatory pathway given the cancelled registration, and confirmation of an available topical formulation
 - A review of hypercalcemia risk and the knowledge-graph contraindications for the intended patient population
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Polymyxin B: predicted new indication Bronchitis (evidence level L4)."
 monitor_inn: "Polymyxin B"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
@@ -51,8 +51,8 @@ The evidence level is low (L4), so the recommendation is **Hold**.
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0390 | Polymyxin B | Not stated | Not stated (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Polymyxin B (as sulfate) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -133,7 +135,6 @@ Please refer to the package insert for further safety information, including war
 - Detailed mechanism of action data (e.g., from DrugBank)
 - Clinical studies that specifically define bacterial bronchitis as the target, with a clear distinction from pneumonia
 - A route and formulation assessment, including a safety evaluation of inhaled delivery given the bronchoconstriction reports
-- Confirmation of local product availability, given that the registration is cancelled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

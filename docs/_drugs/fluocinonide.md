@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Fluocinonide"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluocinonide: predicted new indication alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials** and **no publications** that directly
 | Predicted New Indication | alopecia mucinosa |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0196 | Fluocinonide | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fluocinonide | Cream or Ointment |
 
-The local record lists one single-ingredient authorization, PNF-0196, with a status of cancelled. Overall market status in the local data is Marketed.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Overall market status in the local data is Marketed.
 
 ## Safety Considerations
 
@@ -95,7 +97,6 @@ The prediction rests on the TxGNN score and a plausible class-level mechanism. N
 - Case series, trials or literature on topical corticosteroids, and fluocinonide specifically, in alopecia mucinosa
 - Mechanism of action data for fluocinonide
 - Package insert warnings and contraindications from the Philippines regulator
-- Confirmation of the dosage form and approved indication for the local authorization, and clarification of its cancelled status
 - Review of the interaction list and of safety in patients with the relevant endocrine and metabolic conditions
 ## Disclaimer
 

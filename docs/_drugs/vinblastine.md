@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 356
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Support is limited: **no registered clinical trials** and only case reports and 
 | Predicted New Indication | Rhabdomyosarcoma (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,11 @@ The only patient-level evidence is case reports in which vinblastine was given w
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0514 | Vinblastine | Not recorded | Not recorded (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Vinblastine (as sulfate) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 

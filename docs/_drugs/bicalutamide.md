@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 44
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Bicalutamide: predicted new indication Hypertrichosis (evidence level L4). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **hypertrichosis**, but there are 
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0050 | Bicalutamide | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Bicalutamide | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 Dosage form and approved indication are not recorded for this authorization.
 
@@ -113,7 +115,7 @@ Please refer to the package insert for warnings and label-based contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and a single commentary letter, with no clinical trials. The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
+The prediction rests on a model score and a single commentary letter, with no clinical trials. The mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
 
 For context, a lower-ranked prediction in the same data, **female breast carcinoma** (score 0.9911), has stronger support. It has one active Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab) and substantial preclinical literature on AR-positive triple-negative breast cancer. It was assessed at evidence level L2 with a "Proceed with Guardrails" recommendation, and may be a better candidate for further evaluation.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, pneumonia…"
 ---
 
@@ -49,9 +49,8 @@ The TxGNN model predicts it may be useful for **polyclonal hyperviscosity syndro
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 (single-ingredient registration) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,11 +76,13 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0332 | Moxifloxacin | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Moxifloxacin | Oral, Ophthalmic solution |
 
-This is a single-ingredient registration. The record contains no approved indication text, so the indications listed above come from the TxGNN model (deep learning). The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+This is a single-ingredient registration. The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
 
 ## Safety Considerations
 

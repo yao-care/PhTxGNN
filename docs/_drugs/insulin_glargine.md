@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Insulin Glargine: predicted new indication Autoimmune oophoritis (evidence level L5). Approved use: Type 2 diabetes mellitus, type 1 diabetes mellitus…"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -50,8 +50,8 @@ The score comes from the model alone, so the evidence is very weak.
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,11 +81,11 @@ The only literature retrieved among the top predictions relates to pancreatic ag
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0250 | Insulin Glargine | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Insulin Glargine | Injection |
 
-The only registration is valid, so a valid registration currently exists in the Philippines.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -112,7 +112,6 @@ The prediction for autoimmune oophoritis rests on a model score alone (L5), with
 - Mechanistic evidence that insulin glargine affects autoimmune ovarian injury, and any clinical or preclinical data in this condition
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the Philippines FDA
-- Clarification of the cancelled registration status and a valid local authorization, if use is planned
 - If a new indication is pursued, a better-supported prediction. Pancreatic agenesis is coherent but overlaps with the existing use. The lipodystrophy predictions should be treated as safety signals.
 ## Disclaimer
 

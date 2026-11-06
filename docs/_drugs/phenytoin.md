@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, 
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,13 @@ Neither paper provides direct evidence for phenytoin in trigeminal nerve neoplas
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0384 | Phenytoin | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Phenytoin (as sodium salt) | Oral, Injection |
 
-This is the only registration, and it is a single-ingredient product. No dosage form or approved indication text is listed. This registration is currently valid (1 valid licence of 1).
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+No dosage form or approved indication text is listed.
 
 ## Safety Considerations
 
@@ -99,7 +101,7 @@ Please refer to the package insert for official warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There are no clinical trials and no literature specific to trigeminal nerve neoplasm, and there is no known anti-tumour mechanism. The only registration in the Philippines is cancelled.
+The prediction rests on model output alone (L5). There are no clinical trials and no literature specific to trigeminal nerve neoplasm, and there is no known anti-tumour mechanism.
 
 **To proceed, the following is needed:**
 - Evidence of anti-tumour activity or a clinically meaningful role in trigeminal nerve tumours, such as symptom control or seizure prophylaxis

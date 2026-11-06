@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute urate nephropathy**, bu
 | Predicted New Indication | Acute urate nephropathy |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Local records show 1 single-ingredient registration (PNF-0275, product name "Lactulose"). Its dosage form, manufacturer and indication text are not recorded in the local data. The market status in the Philippines is Marketed.
+Its dosage form, manufacturer and indication text are not recorded in the local data. The market status in the Philippines is Marketed.
 
 ## Safety Considerations
 

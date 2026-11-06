@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "secretory uterine corpus endometrioid adenocarcinoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Ovarian cancer and related ovarian tumours"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rectum mucinous adenocarcinom
 | Predicted New Indication | Rectum mucinous adenocarcinoma |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,11 +69,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name |
-|---------|------|
-| PNF-0215 | Gemcitabine |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Gemcitabine (as hydrochloride) | Injection |
 
-This single-ingredient licence is valid. The data compiled for this report contain no dosage form or approved indication text for it. The ovarian-cancer use above therefore cannot be described as a locally approved indication.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The data compiled for this report contain no dosage form or approved indication text for it. The ovarian-cancer use above therefore cannot be described as a locally approved indication.
 
 ## Cytotoxicity
 
@@ -102,7 +104,7 @@ The prediction has a high model score but no supporting trial or publication for
 **To proceed, the following is needed:**
 - Clinical or preclinical studies of gemcitabine in rectal or colorectal mucinous adenocarcinoma
 - Mechanism-of-action data and an analysis of how this tumour relates to the original ovarian use
-- The package insert for PNF-0215, covering approved indications, dosage form, warnings and contraindications
+- The package insert, covering approved indications, dosage form, warnings and contraindications
 - A safety monitoring plan, particularly for haematological toxicity and for patients with kidney or liver disease
 ## Disclaimer
 

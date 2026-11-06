@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ However, **no clinical trials and no publications** currently support this predi
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,11 @@ Currently no related literature available for retinal dystrophy.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Kind | Status |
-|---------|------|------|-----------|
-| PNF-0371 | Paliperidone | Single-ingredient | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Paliperidone | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 No dosage form or approved indication text is recorded for this registration.
 
@@ -122,7 +124,6 @@ The prediction has a very high model score but no trials, no literature and no i
 - Mechanistic evidence linking paliperidone's pharmacology to the retinal dystrophy pathway, such as preclinical or cellular studies
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of why the local registration was cancelled, and of the available dosage forms
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

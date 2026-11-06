@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Spectinomycin: predicted new indication disease of uterine broad ligament (evidence level L5). Approved use: Acute gonococcal cervicitis"
 monitor_inn: "Spectinomycin"
 predicted_indications: ["disease of uterine broad ligament", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of retroperitoneum", "sacrum chordoma", "disease of peritoneum", "urethral disease", "embryonic cyst of fallopian tube"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked predictions are unusual non-infectious conditions w
 | Predicted New Indication | Urethral disease (the best-supported of the top 10 predictions; the rank 1 prediction is disease of uterine broad ligament, with no evidence) |
 | TxGNN Prediction Score | 0.9953 (urethral disease); 0.9957 for the rank 1 prediction |
 | Evidence Level | L5 (urethral disease); the other nine predictions are L4–L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,10 +94,11 @@ The 20 publications retrieved for urethral disease are listed below, ranked by r
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0457 | Spectinomycin | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Spectinomycin | Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -116,7 +117,6 @@ For other safety information, such as warnings and contraindications, please ref
 **Rationale:**
 - The top-ranked predictions are non-infectious conditions with no trials or literature and no plausible antibacterial mechanism.
 - The best-supported prediction, urethral disease (L3), mostly restates the original gonorrhea indication. The only truly new signal is a four-case *M. genitalium* report.
-- The Philippines registration is cancelled, so the drug is not currently available.
 
 **To proceed, the following is needed:**
 - Confirmation of current availability, either through re-registration or special import.

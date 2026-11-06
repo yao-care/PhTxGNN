@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The data compiled for this report include **2 clinical trials** and **20 publica
 | Predicted New Indication | chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,8 +83,6 @@ The high model score probably reflects the two infections being closely associat
 | [35108715](https://pubmed.ncbi.nlm.nih.gov/35108715/) | 2022 | Not classified | Dig Dis | Incidence and course of HBV reactivation in patients treated with DAAs for HCV. |
 
 ## Philippines Market Information
-
-The Philippines records list one registration for entecavir (PNF-0166), and the local data do not record an approved indication, dosage form or manufacturer for it.
 
 ## Safety Considerations
 

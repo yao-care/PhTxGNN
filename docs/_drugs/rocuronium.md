@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rocuronium: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the Philippines registration data (rocuronium is gen…"
 monitor_inn: "Rocuronium"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "atrophoderma vermiculata", "ulerythema ophryogenesis", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "sciatic neuropathy", "headache disorder"]
@@ -50,8 +50,8 @@ Rocuronium is a non-depolarizing neuromuscular blocker used as an anaesthetic ad
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,11 @@ For the related prediction **headache disorder** (rank 10), two publications wer
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0429 | Rocuronium | Not specified | Not specified (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Rocuronium (as bromide) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -114,7 +116,7 @@ Please refer to the package insert for warnings and contraindications.
 
 **Rationale:**
 - The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There is no plausible mechanism linking neuromuscular blockade to migraine. The only trial found is not relevant to the indication, and no supporting literature exists.
-- Rocuronium is a systemic, short-acting intravenous anesthetic agent that is unsuitable for chronic migraine management. It is currently marketed in the Philippines, with 1 valid licence of 1.
+- Rocuronium is a systemic, short-acting intravenous anesthetic agent that is unsuitable for chronic migraine management.
 
 **To proceed, the following is needed:**
 - Mechanistic evidence for any link between rocuronium (or neuromuscular blockade) and migraine pathophysiology

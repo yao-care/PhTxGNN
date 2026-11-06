@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Halothane: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the Philippines licence data (halothane is generally…"
 monitor_inn: "Halothane"
 predicted_indications: ["manic bipolar affective disorder", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "trichotillomania", "bipolar disorder", "major affective disorder"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ None of these studies tests halothane as a treatment for mania or bipolar disord
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0224 | Halothane | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Halothane | Inhalation |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -95,13 +97,12 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, the literature is indirect (halothane appears only as an anesthetic in lithium and lamotrigine animal studies), and no plausible mechanism links halothane to antimanic effects. The drug is marketed in this country, with 1 valid license of 1, but the safety profile (hepatotoxicity, cardiac and malignant hyperthermia signals) argues against chronic use.
+The prediction rests only on a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials, the literature is indirect (halothane appears only as an anesthetic in lithium and lamotrigine animal studies), and no plausible mechanism links halothane to antimanic effects. The safety profile (hepatotoxicity, cardiac and malignant hyperthermia signals) argues against chronic use.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data and a plausible mechanistic rationale for antimanic effects
 - Direct preclinical or clinical evidence of halothane in mood disorders
 - Package insert warnings and contraindications (not currently available)
-- Clarification of the cancelled Philippines registration and the original approved indication
 - A feasibility assessment for any route of administration suitable for a psychiatric indication
 ## Disclaimer
 

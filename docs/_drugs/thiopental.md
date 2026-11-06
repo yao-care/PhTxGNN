@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,15 +49,15 @@ The TxGNN model predicts it may be effective for **trichotillomania**, but there
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Thiopental is a barbiturate, a class known to enhance GABA-A receptor signaling.
 
-The link to trichotillomania, a compulsive hair-pulling disorder, is speculative. One could argue that GABAergic modulation might dampen compulsive or impulsive circuitry, but no trial or publication supports this for thiopental. The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect. The drug's registration in the Philippines has also been cancelled.
+The link to trichotillomania, a compulsive hair-pulling disorder, is speculative. One could argue that GABAergic modulation might dampen compulsive or impulsive circuitry, but no trial or publication supports this for thiopental. The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect.
 
 ### Other Predicted Indications (for reference)
 
@@ -81,7 +81,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for trichotillomania.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [8223422](https://pubmed.ncbi.nlm.nih.gov/8223422/) | 1993 | Cohort | Epilepsy Res | Thiopental test in 103 epilepsy surgery candidates, using EEG changes to localize focal dysfunction (a diagnostic use, not a treatment) |
@@ -91,9 +90,11 @@ Currently no related literature available for trichotillomania.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0486 | Thiopental | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Thiopental Sodium | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -115,14 +116,13 @@ Please refer to the package insert for full warnings and contraindications, as l
 **Decision: Hold**
 
 **Rationale:**
-The prediction for trichotillomania is based only on a model score, with no clinical trials or publications (Evidence Level L5). The mechanism is speculative, safety data from the label are missing, and the Philippines registration is cancelled. Thiopental is also an injectable anesthetic-class barbiturate with significant safety constraints, which makes it a poor fit for a chronic behavioral disorder.
+The prediction for trichotillomania is based only on a model score, with no clinical trials or publications (Evidence Level L5). The mechanism is speculative, safety data from the label are missing. Thiopental is also an injectable anesthetic-class barbiturate with significant safety constraints, which makes it a poor fit for a chronic behavioral disorder.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess whether any link to trichotillomania is credible
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Any preclinical or clinical evidence for thiopental in trichotillomania
 - Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit
-- Clarification of the cancelled registration status and whether any product is available locally
 - Consideration of better-supported alternatives, such as the epilepsy-related predictions, which already have indirect literature
 ## Disclaimer
 

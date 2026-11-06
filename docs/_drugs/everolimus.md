@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 136
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Everolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma (including clear cell type), breast cancer…"
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
@@ -41,7 +41,6 @@ Evidence Level: **L2** | Predicted Indications: **8**
 Everolimus is an mTOR inhibitor, originally used for renal cell carcinoma, breast cancer and tuberous sclerosis-related conditions.
 The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clinical trial** (a Phase 2 combination study) and **4 publications** currently supporting this direction. The evidence is indirect, because the trial tests everolimus only in combination with ribociclib.
 
-
 ---
 
 ## Quick Overview
@@ -52,8 +51,8 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold (see the Conclusion for the stronger alternative) |
 
 ---
@@ -89,9 +88,11 @@ Everolimus is already established for renal cancer and other tumours with mTOR p
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0182 | Everolimus | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Everolimus | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -131,7 +132,6 @@ Label text for warnings and contraindications is not available in the data compi
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening).
 - Mechanism-of-action data from DrugBank.
-- Clarification of the cancelled registration status and whether a valid product is available locally.
 - For liposarcoma: efficacy data for everolimus alone, or randomized evidence.
 - A monitoring plan for myelosuppression, metabolic effects, lung toxicity and drug interactions.
 ## Disclaimer

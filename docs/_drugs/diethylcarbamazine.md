@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Diethylcarbamazine"
 predicted_indications: ["syndromic lymphedema", "primary lymphedema"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diethylcarbamazine: predicted new indication syndromic lymphedema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Diethylcarbamazine is an antifilarial medicine used against filarial parasite in
 | Predicted New Indication | syndromic lymphedema |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ None of the retrieved publications studies syndromic lymphedema directly. The tw
 
 ## Philippines Market Information
 
-One single-ingredient registration is recorded locally (PNF-0143, Diethylcarbamazine). No dosage form, manufacturer or indication text is recorded for it.
+No dosage form, manufacturer or indication text is recorded for it.
 
 ## Safety Considerations
 

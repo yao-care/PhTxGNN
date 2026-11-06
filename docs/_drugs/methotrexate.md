@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma**, but the
 | Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,10 +79,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0316 | Methotrexate | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Methotrexate | Oral, Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -121,7 +122,7 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 **To proceed, the following is needed:**
 - Case reports, series or preclinical data on methotrexate in pulmonary blastoma, or a clear mechanistic rationale for this tumor
 - Detailed mechanism of action data (MOA) from a curated source
-- The Philippines package insert (warnings and contraindications) and the status of any valid methotrexate registration
+- The Philippines package insert (warnings and contraindications)
 - A review of other predicted indications that have more evidence, such as Hodgkin lymphoma and rhabdomyosarcoma (both L2), which may be better candidates to pursue first
 ## Disclaimer
 

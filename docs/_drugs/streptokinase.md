@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Streptokinase"
 predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
 description: "Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Streptokinase is a clot-dissolving (thrombolytic) enzyme. The original indication is not recorded in the data compiled for this report, and the single Philippines registration has no indication text.
+Streptokinase is a clot-dissolving (thrombolytic) enzyme. The original indication is not recorded in the data compiled for this report.
 Myocardial infarction is already an established, guideline-recognised use of streptokinase, so this is not a true repurposing case.
 
 ---
@@ -51,8 +51,8 @@ Myocardial infarction is already an established, guideline-recognised use of str
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,10 +108,11 @@ The evidence is mostly older reviews and trial reports. There are no recent head
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0459 | Streptokinase | Not recorded | Not recorded (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Streptokinase | Injection |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

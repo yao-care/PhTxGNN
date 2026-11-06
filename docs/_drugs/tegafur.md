@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tegafur"
 predicted_indications: ["cecum villous adenoma", "cecum neuroendocrine tumor G1", "lipoma of colon", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "colonic lymphangioma", "cavernous hemangioma of colon"]
 description: "Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Tegafur is an oral prodrug of 5-fluorouracil (5-FU), originally used to treat ga
 | Predicted New Indication | Cecum villous adenoma |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -94,9 +94,11 @@ The data compiled for this report include 16 trials. The 10 most relevant are li
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0473 | Tegafur | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tegafur + Uracil | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -120,12 +122,12 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in colon cancer support efficacy, and the mechanism is well established. However, the Philippine registration for tegafur is cancelled, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing.
+Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in colon cancer support efficacy, and the mechanism is well established. However, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening), obtained from the DOH-FDA Philippines website
 - Detailed mechanism of action data from DrugBank
-- Clarification of the regulatory path for a new indication, since the drug is currently marketed in the Philippines with 1 valid licence out of 1
+- Clarification of the regulatory path for a new indication
 - Confirmation of which tegafur-containing formulations (UFT, S-1) would be available and suitable locally
 - A safety monitoring plan, including DPD deficiency and CYP2A6 considerations
 ## Disclaimer

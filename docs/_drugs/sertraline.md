@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Sertraline is a selective serotonin reuptake inhibitor (SSRI). The knowledge gra
 | Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,13 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0439 | Sertraline | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sertraline (as hydrochloride) | Oral |
 
-Only one single-ingredient registration is on record, and it is valid. The local record has no indication text, so the uses listed above come from the TxGNN model (deep learning), may reflect similarities the model learned between related diseases, not biological evidence, and are not confirmed approvals.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The local record has no indication text, so the uses listed above come from the TxGNN model (deep learning), may reflect similarities the model learned between related diseases, not biological evidence, and are not confirmed approvals.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Lynestrenol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "leprosy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lynestrenol: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the local licence record"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Lynestrenol is a progestin (a hormonal medicine) registered in the Philippines, but no approved indication text is available in the local licence record.
+Lynestrenol is a progestin (a hormonal medicine).
 The TxGNN model predicts it may be useful for **migraine disorder**, with **0 clinical trials** and **2 publications** (one 1963 case report and one 2026 review of oral contraceptives) in the data compiled for this report.
 The evidence is weak and mostly indirect, so this should be treated as a research question rather than a ready-to-use new indication.
 
@@ -50,8 +50,8 @@ The evidence is weak and mostly indirect, so this should be treated as a researc
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0297 | Lynestrenol | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lynestrenol | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

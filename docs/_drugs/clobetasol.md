@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 78
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -52,8 +52,8 @@ There are **no registered clinical trials**, but **15 publications** support thi
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -95,11 +95,11 @@ Most of the remaining retrieved publications are case reports on MF subtypes or 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0106 | Clobetasol (status: valid) | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Clobetasol (as propionate) | Cream or Ointment, Shampoo |
 
-Clobetasol is marketed in the Philippines, with 1 valid license out of 1.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -117,12 +117,11 @@ For other safety information, please refer to the package insert.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF. Clobetasol is marketed in the Philippines, with 1 valid license out of 1.
+Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, which are currently missing and block the safety screening
 - Detailed mechanism of action data from DrugBank
-- A valid local registration, or a confirmed supply route, for a topical clobetasol product
 - Confirmation of the topical dosage form and route
 - Restriction of use to early-stage (patch/plaque) MF, with a monitoring plan for long-term skin adverse effects
 - Severity grading of the potential drug interactions

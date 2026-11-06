@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Flutamide: predicted new indication fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The data compiled for this report contain **no clinical trials and no publicatio
 | Predicted New Indication | fibroma of prostate |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,7 +80,7 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-The data compiled for this report list one local registration (PNF-0202, Flutamide, single-ingredient) with no dosage form or approved-indication text recorded. The overall local market status is **Marketed**.
+The overall local market status is **Marketed**.
 
 ---
 

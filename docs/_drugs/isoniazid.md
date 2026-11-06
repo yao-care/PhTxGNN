@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 186
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 5) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,9 +87,15 @@ None of the publications is an RCT. Those most relevant to the predicted indicat
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0264 | Isoniazid (single-ingredient; status: valid) | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Isoniazid | Oral |
+| Isoniazid + Rifampicin | Oral |
+| Isoniazid + Rifampicin + Ethambutol | Oral |
+| Isoniazid + Rifampicin + Pyrazinamide | Oral |
+| Isoniazid + Rifampicin + Pyrazinamide + Ethambutol | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -108,7 +114,7 @@ Package-insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no clinical trials exist and the literature consists of old case reports and reviews that address only tuberculosis- or BCG-related eye disease, not conjunctivitis in general. The Philippines registration is cancelled, and some literature points to ocular harm.
+The TxGNN score is very high, but no clinical trials exist and the literature consists of old case reports and reviews that address only tuberculosis- or BCG-related eye disease, not conjunctivitis in general. Some literature points to ocular harm.
 
 **To proceed, the following is needed:**
 - Narrow the hypothesis to a defined subgroup (for example, tuberculosis-associated phlyctenular keratoconjunctivitis) and review it systematically.

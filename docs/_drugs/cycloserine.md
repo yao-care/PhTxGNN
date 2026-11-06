@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,11 @@ Currently no related literature available for irritable bowel syndrome.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0122 | Cycloserine | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Cycloserine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,6 @@ The prediction rests on model output alone (Evidence Level L5), with no trials o
 - Preclinical or clinical evidence of benefit in IBS
 - Package insert warnings and contraindications from the Philippines regulator
 - A safety plan addressing neuropsychiatric toxicity and the major drug interactions
-- Clarification of the cancelled registration status and the availability of any marketed product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

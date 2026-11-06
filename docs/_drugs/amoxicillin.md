@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amoxicillin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (urinary tract infection, otitis media…"
 ---
 
@@ -48,9 +48,8 @@ Amoxicillin is a beta-lactam antibiotic whose relations recorded in the knowledg
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
-| Number of Approvals | 1 (single-ingredient product) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +70,14 @@ Currently no related literature available for hyperamylasemia.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0018 | Amoxicillin | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Amoxicillin (as trihydrate) | Oral |
+| Co-Amoxiclav (amoxicillin + potassium clavulanate) | Oral |
 
-This is a single-ingredient product with valid status. The record shows no manufacturer or indication text.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The record shows no manufacturer or indication text.
 
 ## Safety Considerations
 
@@ -96,7 +98,7 @@ The prediction for hyperamylasemia has a high model score but no clinical trials
 
 **To proceed, the following is needed:**
 - Mechanism of action data for amoxicillin
-- Package insert warnings and contraindications from the Philippines product (PNF-0018), including dosage form and approved indications
+- Package insert warnings and contraindications from the Philippines product, including dosage form and approved indications
 - Any clinical or mechanistic evidence linking amoxicillin to hyperamylasemia
 - If the antibacterial direction is pursued, septicemic plague could be explored as a research question, but it would require clinical evidence beyond the current animal and in vitro studies
 ## Disclaimer

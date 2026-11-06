@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 143
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis** (the highest
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita (top-ranked prediction); hypertrichosis is the best-supported alternative |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (L4 for hypertrichosis) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,11 @@ The following publications were retrieved for hypertrichosis. None is a trial of
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0191 | Finasteride | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Finasteride | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -100,7 +102,7 @@ Please refer to the package insert for further safety information, including key
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN scores are very high, but there are no clinical trials, and the only literature is indirect. Hypertrichosis is androgen-independent, so the DHT-lowering mechanism has limited rationale. The Philippines registration is cancelled.
+The TxGNN scores are very high, but there are no clinical trials, and the only literature is indirect. Hypertrichosis is androgen-independent, so the DHT-lowering mechanism has limited rationale.
 
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank

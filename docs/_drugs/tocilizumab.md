@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is therefore suggestive but not confirmatory.
 | Predicted New Indication | Ankylosing spondylitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,11 @@ However, the evidence points the other way in practice. Two placebo-controlled P
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0491 | Tocilizumab | Not listed | Not listed (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tocilizumab | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -121,7 +123,6 @@ Please refer to the package insert for warnings and contraindications.
 - Results and reasons for termination of NCT01209689 and NCT01209702, plus the full BUILDER-1/2 outcomes
 - Mechanism of action data
 - Package insert warnings and contraindications
-- Clarification of the cancelled Philippines registration (PNF-0491) and its regulatory status
 
 ---
 

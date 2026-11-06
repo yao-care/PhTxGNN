@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 3
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ketorolac: predicted new indication headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Ketorolac is a non-steroidal anti-inflammatory drug (NSAID) that is registered in the Philippines.
+Ketorolac is a non-steroidal anti-inflammatory drug (NSAID).
 The TxGNN model predicts it may be effective for **headache disorder**,
 with **17 clinical trials** and **20 publications** compiled for this report, many of them in migraine and tension-type headache.
 
@@ -50,8 +50,8 @@ with **17 clinical trials** and **20 publications** compiled for this report, ma
 | Predicted New Indication | headache disorder |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -92,11 +92,11 @@ Prostaglandin-mediated inflammation is also the target of ketorolac in its other
 
 ## Philippines Market Information
 
-Ketorolac has 1 registration record in the Philippines, and the local market status is marketed.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ketorolac (as tromethamol) | Injection |
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0274 | Ketorolac | Not recorded | Not recorded in the local data |
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

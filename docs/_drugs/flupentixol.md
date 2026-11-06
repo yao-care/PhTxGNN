@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Flupentixol: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials or publications currently support this prediction, so it rest
 | Predicted New Indication | retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0200 | Flupentixol | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Flupentixol (as decanoate) | Injection |
 
-The local data lists one licence record for single-ingredient flupentixol. The licence-level status in that record is marked as cancelled, while the overall market status is reported as marketed.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -97,7 +97,7 @@ The prediction has no supporting clinical trials or publications (evidence level
 - Mechanistic evidence linking flupentixol to retinal degeneration pathways
 - Preclinical studies (e.g., retinal cell or animal models) testing the prediction
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the current licence status of PNF-0200
+- Clarification of the current licence status
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

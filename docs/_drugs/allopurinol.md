@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout, hyperuricemia and acute urate nephropathy"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **hepatic porphyria**, but **no c
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,13 @@ No clinical trials are currently registered for this prediction. Neither paper d
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0011 | Allopurinol | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Allopurinol | Oral |
 
-The record lists 1 single-ingredient registration with valid status. The list is complete.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The list is complete.
 
 ---
 

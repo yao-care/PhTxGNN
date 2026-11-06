@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ A second prediction, *Staphylococcus aureus* infection, has more support (**2 cl
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,11 @@ Currently no related clinical trials registered for bacterial arthritis.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0174 | Ertapenem | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ertapenem (as sodium salt) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -101,7 +103,7 @@ The bacterial arthritis prediction is mechanistically plausible, but it rests on
 
 **To proceed, the following is needed:**
 - Prospective or comparative studies of ertapenem in bacterial arthritis, including bone and joint penetration and dosing data
-- Confirmation of the regulatory status of PNF-0174, or a new registration
+- Confirmation of the regulatory status, or a new registration
 - The Philippines package insert warnings and contraindications
 - Mechanism of action data from DrugBank
 

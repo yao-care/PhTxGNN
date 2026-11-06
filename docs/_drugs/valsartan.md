@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 350
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -50,8 +50,8 @@ but **no clinical trials** and only **1 indirect preclinical publication** (whic
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,9 +92,13 @@ Selected supporting papers for the predictions:
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0507 | Valsartan | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Valsartan | Oral |
+| Sacubitril/Valsartan | Oral |
+| Valsartan + Hydrochlorothiazide | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -111,7 +115,7 @@ Please refer to the package insert for further safety information, as label warn
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, valsartan is currently marketed in the Philippines (1 valid license of 1), and label safety data are unavailable.
+The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, label safety data are unavailable.
 
 **To proceed, the following is needed:**
 - Valsartan-specific clinical or preclinical evidence in malignant hypertensive renal disease

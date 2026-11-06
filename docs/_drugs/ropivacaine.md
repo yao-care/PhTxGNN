@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 302
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the data compiled (approved indication text is empty)"
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -52,8 +52,8 @@ The evidence is early and small-scale (a 10-patient Phase 4 trial and observatio
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,11 @@ Other predicted indications (migraine with brainstem aura, nephrogenic syndrome 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0430 | Ropivacaine | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ropivacaine (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

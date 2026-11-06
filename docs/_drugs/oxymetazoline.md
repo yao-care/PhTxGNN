@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,11 @@ For the headache disorder prediction (secondary):
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0368 | Oxymetazoline | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Oxymetazoline (as hydrochloride) | Nasal Drops Solution |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -115,7 +117,7 @@ The prediction rests on model output alone, with no registered trials and only i
 - Define specific sub-indications within nasal cavity disease (for example, rhinitis, sinusitis, epistaxis)
 - Detailed mechanism of action data
 - Package insert warnings and contraindications for the Philippines
-- Confirmation of the regulatory status and whether a valid registration exists or can be obtained
+- Confirmation of the regulatory status
 - For the headache signal: verify the design of the status migrainosus study and separate oxymetazoline's effect from tetracaine
 - A safety plan covering cardiovascular risk, MAO inhibitor interactions, and rebound congestion with prolonged use
 ## Disclaimer

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridemia, hyperlipidemia…"
 ---
 
@@ -50,8 +50,8 @@ The evidence is weak, and the prediction is a computational signal rather than a
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0187 | Fenofibrate | Not stated | Not stated in the record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fenofibrate | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -98,7 +100,7 @@ No clinical trials and no study directly addressing CETP deficiency exist; the t
 - Evidence that studies CETP deficiency directly (patient data or a disease-relevant model)
 - A clear rationale for the therapeutic goal, given the already elevated HDL cholesterol
 - Mechanism of action data
-- Package insert warnings and contraindications from the Philippine FDA, including the dosage form and approved indication for PNF-0187
+- Package insert warnings and contraindications from the Philippine FDA, including the dosage form and approved indication
 - Review of the knowledge-graph contraindication signals against the label
 ## Disclaimer
 

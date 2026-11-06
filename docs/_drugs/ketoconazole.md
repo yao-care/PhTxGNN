@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ketoconazole: predicted new indication acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne (disease)**, but only **
 | Predicted New Indication | acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---

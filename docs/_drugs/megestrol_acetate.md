@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 description: "Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publicatio
 | Predicted New Indication | Hereditary breast ovarian cancer syndrome |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -80,9 +80,11 @@ Megestrol is part of a combination regimen in this trial, so its individual effe
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0306 | Megestrol | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Megestrol (as acetate) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 Dosage form and approved indication are not recorded for this registration.
 
@@ -118,7 +120,6 @@ One completed randomized Phase 2 trial in endometrial cancer and a plausible hor
 - The official package insert (warnings and contraindications), which is currently missing
 - Detailed mechanism of action data
 - Trial results isolating the contribution of megestrol, or monotherapy data
-- Clarification of why the Philippines registration was cancelled, and of its dosage form and indication
 - A glucose, blood pressure and adrenal function monitoring plan, especially for patients taking diabetes medicines
 
 **Additional note:** Among the other predicted indications, ovarian cancer has the most supporting material, including Phase 2 studies of high-dose megestrol in previously treated disease. It shows only modest, limited activity, and is better treated as a separate research question.

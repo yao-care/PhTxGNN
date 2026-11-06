@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 235
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Urinary Tract Infection** (ma
 | Predicted New Indication | Urinary tract infection (disease) |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0325 | Micafungin | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Micafungin | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -106,7 +108,6 @@ The evidence is limited to cohort studies, case series and case reports, with no
 - Prospective or controlled studies (ideally randomized) comparing micafungin with fluconazole or amphotericin B-based therapy in Candida UTI
 - Further urinary pharmacokinetic data to define the dose and patient groups where micafungin achieves adequate concentrations
 - Review of the kidney disease and pyoureter contraindication signals against actual clinical use
-- Clarification of the cancelled registration status and the current availability of micafungin in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

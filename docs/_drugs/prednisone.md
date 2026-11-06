@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 282
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease, acute lymphoblastic leukaemia…"
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **20 publications** (including one do
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,11 @@ The 10 most relevant publications are listed below, prioritizing trials, then co
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0399 (cancelled) | Prednisone | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Prednisone | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

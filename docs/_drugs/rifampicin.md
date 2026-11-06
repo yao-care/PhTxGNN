@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 294
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **a small amo
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 5) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,15 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0421 | Rifampicin | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Rifampicin | Oral |
+| Isoniazid + Rifampicin | Oral |
+| Isoniazid + Rifampicin + Ethambutol | Oral |
+| Isoniazid + Rifampicin + Pyrazinamide | Oral |
+| Isoniazid + Rifampicin + Pyrazinamide + Ethambutol | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -118,7 +124,7 @@ Additional information from other sources:
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but it is a model output only. There are no registered trials in conjunctivitis, and the literature is old, small or non-interventional. Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but topical ophthalmic use is not standard care. None of the ten predicted indications is currently strong enough to advance, and rheumatoid arthritis has the most prior clinical testing but showed limited benefit.
+The prediction score is very high, but it is a model output only. There are no registered trials in conjunctivitis, and the literature is old, small or non-interventional. Topical ophthalmic use is not standard care. None of the ten predicted indications is currently strong enough to advance, and rheumatoid arthritis has the most prior clinical testing but showed limited benefit.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)

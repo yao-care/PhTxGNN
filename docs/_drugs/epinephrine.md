@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **obstructive lung disease** (i
 | Predicted New Indication | Obstructive lung disease |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -95,9 +95,11 @@ Of the 15 trials compiled, the 10 most relevant are listed below (asthma trials 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0169 | Epinephrine | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Epinephrine (adrenaline) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -111,7 +113,7 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 3 trials support inhaled epinephrine in asthma, which gives a high evidence level. However, asthma is already an original indication, so this is not new. For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit. The Philippines registration is cancelled, so no product is currently marketed.
+Several completed Phase 3 trials support inhaled epinephrine in asthma, which gives a high evidence level. However, asthma is already an original indication, so this is not new. For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit.
 
 Other predicted indications are weaker:
 - **Food-dependent exercise-induced anaphylaxis**: Research question only (L4). It is a subtype of anaphylaxis, an original indication. There are no trials, only reviews and case reports.
@@ -122,7 +124,6 @@ Other predicted indications are weaker:
 - Package insert warnings and contraindications from the DOH-FDA Philippines (a blocking gap for safety screening)
 - Detailed mechanism-of-action data from DrugBank
 - A decision on whether to focus on infant bronchiolitis as the real repurposing question, with a review of the latest meta-analytic evidence
-- Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines
 - A cardiovascular and drug-interaction safety plan, especially for patients on tricyclic antidepressants or beta-blockers
 ## Disclaimer
 

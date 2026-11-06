@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **schizophrenia** (the predicte
 | Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -128,7 +128,7 @@ Please refer to the package insert for further safety information, as label warn
 - Mechanism of action data (MOA) from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A risk assessment of the psychosis-related contraindication signal and the major drug interactions (especially with antidepressants and sympathomimetics)
-- Clarification of the regulatory status and availability of selegiline in the Philippines, since the sole registration is cancelled
+- Clarification of the regulatory status and availability of selegiline in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

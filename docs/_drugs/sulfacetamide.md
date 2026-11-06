@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
 description: "Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **postinfectious vasculitis**, 
 | Predicted New Indication | Postinfectious vasculitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ For lower-ranked predictions, two papers were retrieved. Neither supports effica
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0464 | Sulfacetamide | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sulfacetamide + Prednisolone | Eye Drops Suspension |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -101,7 +103,7 @@ Please refer to the package insert for full warnings and precautions.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score, with no clinical trials or literature, and no clear mechanistic link between an antibacterial sulfonamide and an immune-mediated condition. The Philippines registration is cancelled, and package insert safety information is unavailable.
+The prediction is supported only by the model score, with no clinical trials or literature, and no clear mechanistic link between an antibacterial sulfonamide and an immune-mediated condition. Package insert safety information is unavailable.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess any biological link to vasculitis

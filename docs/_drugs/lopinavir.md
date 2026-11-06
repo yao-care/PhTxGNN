@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,8 +50,8 @@ Currently there are **0 clinical trials** and **3 publications** (all non-human 
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0294 | Lopinavir | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lopinavir + Ritonavir | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -97,7 +99,7 @@ The prediction is supported only by non-human primate studies of an animal model
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Philippines FDA, to enable safety screening
 - Mechanism of action data for lopinavir
-- Approved indication text and dosage form for licence PNF-0294
+- Approved indication text and dosage form
 - A clear rationale for why an SIV model indication would be relevant to human repurposing; otherwise consider other predicted indications with human disease relevance
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 240
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -38,7 +38,7 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Montelukast is a cysteinyl leukotriene receptor antagonist with a valid registration in the Philippines.
+Montelukast is a cysteinyl leukotriene receptor antagonist.
 The TxGNN model predicts it may be useful for **bronchitis**.
 The data compiled for this report include **17 clinical trials** and **20 publications**, but most of them study bronchiolitis, not bronchitis in the strict sense. Only a few address bronchitis directly, mainly nonasthmatic eosinophilic bronchitis and recurrent obstructive bronchitis in children.
 
@@ -50,8 +50,8 @@ The data compiled for this report include **17 clinical trials** and **20 public
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -94,9 +94,11 @@ The link is indirect. Many of the listed studies address infant viral bronchioli
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0330 | Montelukast | Not specified | Not specified (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Montelukast (as sodium salt) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

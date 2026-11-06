@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 320
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 (see note below) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 *Evidence level note: no completed Phase 2/3 trial is registered. The L2 rating rests on small published randomized studies, so it should be read as a cautious, provisional level.*
@@ -94,9 +94,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0462 | Sucralfate | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Sucralfate | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -123,7 +125,6 @@ The evidence is not strong enough to proceed.
 - Full-text review of the two randomized trials (PMID 3839973 and 12923369) to confirm actual outcomes
 - Confirmed mechanism of action data from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- A valid Philippines registration or a plan to re-register the product
 - A safety plan for patients with kidney disease or diabetes, and for interactions (especially with integrase inhibitors, tetracyclines and bisphosphonates)
 
 *Note on the second prediction: "duodenal obstruction" (TxGNN score 0.9930) was also reviewed. No credible mechanistic link or supporting evidence was found, because obstruction is a structural problem a mucosal protectant would not be expected to relieve. It is rated L5 with a Hold recommendation.*

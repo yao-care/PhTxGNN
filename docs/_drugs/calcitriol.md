@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ The result is a model prediction only and should be treated as a hypothesis.
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ However, the disease entry is flagged as obsolete in the ontology, and there are
 
 ## Philippines Market Information
 
-Local data show one registration (PNF-0066, Calcitriol, single-ingredient). The record is listed with a status of cancelled, and no dosage form or approved indication text is recorded. The overall market status in the local data is "Marketed".
+The overall market status in the local data is "Marketed".
 
 ## Safety Considerations
 

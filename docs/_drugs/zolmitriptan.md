@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are **0 clinical trials** and **20 publications** that only indirectly
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0528 (cancelled) | Zolmitriptan | Not specified | Not specified |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Zolmitriptan | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -101,7 +103,7 @@ Please also refer to the package insert for full safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on proximity to the approved migraine indication, with no clinical trials and no brainstem-aura-specific literature. Triptans are traditionally cautioned in this subtype, and the only Philippines registration has been cancelled.
+The prediction rests on proximity to the approved migraine indication, with no clinical trials and no brainstem-aura-specific literature. Triptans are traditionally cautioned in this subtype.
 
 **To proceed, the following is needed:**
 - Clinical or observational data on triptan safety and efficacy specifically in migraine with brainstem aura

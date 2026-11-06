@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 280
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L2). Approved use: Not available"
 monitor_inn: "Potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Potassium is an essential mineral and electrolyte. In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate. All three registrations are valid, and no approved indication text is available.
+Potassium is an essential mineral and electrolyte.
 The TxGNN model predicts it may be useful for **hypertensive disorder**, with **23 clinical trials** and **20 publications** retrieved. Most of the trials do not test potassium itself, and the strongest support comes from meta-analyses of dietary or supplemental potassium.
 
 ---
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **hypertensive disorder**, with **
 | Predicted New Indication | Hypertensive disorder |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (3 of 3) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 3 (valid: 3) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 3) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -115,13 +115,15 @@ Only the trials most relevant to potassium as the intervention are listed. Sever
 
 ## Philippines Market Information
 
-All three registrations are valid. No dosage form or approved indication text is recorded.
+No dosage form or approved indication text is recorded.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0392 | Potassium Chloride | Not recorded | Not recorded (valid) |
-| PNF-0393 | Potassium Citrate | Not recorded | Not recorded (valid) |
-| PNF-0394 | Potassium Phosphate | Not recorded | Not recorded (valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Potassium (as citrate) | Oral |
+| Potassium Chloride | Oral, Injection |
+| Potassium Phosphate | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -144,7 +146,6 @@ Meta-analyses of randomized trials support a blood-pressure-lowering effect of i
 
 **To proceed, the following is needed:**
 - Package insert safety data (warnings, contraindications), which are currently missing and block formal safety screening
-- Regulatory clarification of the cancelled market status and the missing original indication
 - Mechanism of action data from DrugBank
 - Results and enrollment details for NCT00000509, or a new adequately powered trial of a potassium product in hypertension
 - A safety plan covering hyperkalemia: serum potassium and renal function monitoring, and exclusion or close monitoring of patients with CKD or on ACE inhibitors, ARBs or MRAs

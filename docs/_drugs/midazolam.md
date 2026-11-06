@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 237
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Midazolam: predicted new indication Insomnia (evidence level L3). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 clinical
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Midazolam is a short-acting benzodiazepine. It enhances the inhibitory effect of
 
 Anxiety and insomnia often occur together and share a common target: calming excessive neural arousal through GABAergic inhibition. Other benzodiazepines, such as flurazepam and triazolam, are established treatments for sleep disorders, so the prediction is pharmacologically plausible.
 
-This is less a novel repurposing than a rediscovery. Oral midazolam was studied as a sleep medicine in the 1980s and 1990s, including a 14-day comparison with flurazepam in chronic insomnia. The very high TxGNN score is consistent with this history. However, the Philippines registration is cancelled, which limits practical translation.
+This is less a novel repurposing than a rediscovery. Oral midazolam was studied as a sleep medicine in the 1980s and 1990s, including a 14-day comparison with flurazepam in chronic insomnia. The very high TxGNN score is consistent with this history.
 
 ## Clinical Trial Evidence
 
@@ -81,9 +81,11 @@ This is less a novel repurposing than a rediscovery. Oral midazolam was studied 
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0327 | Midazolam | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Midazolam | Oral, Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

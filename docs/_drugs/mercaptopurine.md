@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 223
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mercaptopurine is an oral purine antimetabolite chemotherapy drug that is market
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -91,9 +91,11 @@ However, several Phase 3 trials appear under this disease term without showing t
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0310 | Mercaptopurine (single-ingredient, **valid**) | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Mercaptopurine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This is a model-only signal, and the other top-ranked predictions are also thinl
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,7 +95,6 @@ Currently no related literature is available for the top-ranked prediction. The 
 | [35763518](https://pubmed.ncbi.nlm.nih.gov/35763518/) | 2022 | Observational (inferred from title) | PLoS One | Examined the effect of propranolol infusion on cardiac function across degrees of cirrhosis; blunted cardiovascular effects of beta-blockers, related to severity |
 | [32446716](https://pubmed.ncbi.nlm.nih.gov/32446716/) | 2020 | Observational (inferred from title) | Journal of Hepatology | Non-selective beta-blockers impaired circulatory homeostasis and renal function in refractory ascites |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [6686544](https://pubmed.ncbi.nlm.nih.gov/6686544/) | 1983 | Clinical physiologic study | European Heart Journal | Effects of propranolol and verapamil on diastolic stiffness in hypertrophic cardiomyopathy (9 patients on propranolol) |
@@ -110,10 +109,11 @@ Many other entries retrieved for this prediction are general "Propranolol" monog
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0402 | Propranolol | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Propranolol (as hydrochloride) | Oral |
 
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -135,14 +135,14 @@ Please refer to the package insert for label warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, distal myopathy, Tateyama type, rests only on a TxGNN model (deep learning) score. It has no trials, no literature and no plausible mechanism, and the graph itself lists muscle disease as a contraindication. The only predictions with some supporting literature (cirrhotic cardiomyopathy and cardiomyopathy) either carry mixed safety signals or largely overlap with an existing indication. The sole Philippines registration is cancelled.
+The top prediction, distal myopathy, Tateyama type, rests only on a TxGNN model (deep learning) score. It has no trials, no literature and no plausible mechanism, and the graph itself lists muscle disease as a contraindication. The only predictions with some supporting literature (cirrhotic cardiomyopathy and cardiomyopathy) either carry mixed safety signals or largely overlap with an existing indication.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to assess any link between beta-blockade and the predicted disease
 - Package insert warnings and contraindications for safety screening
 - Preclinical or case-based evidence that beta-blockade affects CAV3-related or other myopathy pathology, and review of the myopathy contraindication signal
 - For cirrhotic cardiomyopathy as an alternative research question: full-text review of the three observational studies and a benefit-risk analysis by disease severity
-- Clarification of the regulatory and supply pathway in the Philippines, where the drug is marketed and 1 of 1 licenses is valid
+- Clarification of the regulatory and supply pathway in the Philippines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Philippines licence record"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Iopromide is an iodinated, non-ionic radiographic contrast agent, and it has one registration in the Philippines.
+Iopromide is an iodinated, non-ionic radiographic contrast agent.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** were found to support this prediction.
 The prediction rests on a TxGNN model (deep learning) score alone, so the evidence is very weak.
 
@@ -50,8 +50,8 @@ The prediction rests on a TxGNN model (deep learning) score alone, so the eviden
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0256 | Iopromide | Not stated | Not stated |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Iopromide | Injection |
 
-This is a single-ingredient product with valid status.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -104,7 +104,7 @@ No clinical trial or publication studies iopromide in osteoarthritis or in any o
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank
 - Package insert warnings and contraindications from the Philippines FDA, which are currently missing and block safety screening
-- Dosage form and approved indication details for licence PNF-0256
+- Dosage form and approved indication details
 - Preclinical or mechanistic studies of iopromide in joint or cartilage models before any clinical consideration
 - A check on whether the predictions reflect similarities the TxGNN model (deep learning) learned between related diseases rather than therapeutic effects
 ## Disclaimer

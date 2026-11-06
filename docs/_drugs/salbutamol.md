@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,12 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication | Status |
-|---------|------|------|-----------|------|
-| PNF-0433 | Salbutamol | — | — | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Salbutamol (as sulfate) | Oral, Inhalation, Breath Actuated MDI, Resp. Soln. |
+| Ipratropium + Salbutamol | Inhalation, Inhalation (MDI), Resp. Soln. |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
 
@@ -94,7 +97,7 @@ No package insert warnings or contraindications are available for the Philippine
 **Decision: Hold**
 
 **Rationale:**
-The prediction for papillary conjunctivitis is supported only by a high model score (L5). There are no trials or publications, and the mechanism is speculative. The product is also not currently registered in the Philippines.
+The prediction for papillary conjunctivitis is supported only by a high model score (L5). There are no trials or publications, and the mechanism is speculative.
 
 **To proceed, the following is needed:**
 - Preclinical or early human studies of topical or ocular salbutamol in papillary or allergic conjunctivitis, including ocular safety (intraocular pressure, glaucoma risk)

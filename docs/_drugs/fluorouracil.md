@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Relations recorded in the knowledge graph (not label-approved): super…"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rhabdomyosarcoma** and relate
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina (top-ranked prediction); the broader "rhabdomyosarcoma" entry is also discussed below |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 (no cited study directly addresses the top-ranked disease; no clinical trials) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ No literature was found for the top-ranked disease (botryoid-type embryonal rhab
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0198 | Fluorouracil | Not specified | Not specified in the licence record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fluorouracil | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Cytotoxicity
 
@@ -107,7 +109,7 @@ Please also refer to the package insert, as no label warnings were available.
 The predictions rest on model scores alone. The top-ranked disease has no trials or literature, and the literature for broader rhabdomyosarcoma is indirect and does not show a fluorouracil-specific benefit. Fluorouracil is also not part of standard rhabdomyosarcoma therapy and carries significant toxicity.
 
 **To proceed, the following is needed:**
-- Package insert warnings, contraindications and approved indications for the Philippine licence (PNF-0198)
+- Package insert warnings, contraindications and approved indications for the Philippine licence
 - Mechanism of action data
 - Disease-specific preclinical or clinical data on fluorouracil in rhabdomyosarcoma subtypes
 - A comparison against standard rhabdomyosarcoma regimens

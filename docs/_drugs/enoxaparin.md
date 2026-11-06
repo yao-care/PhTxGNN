@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Enoxaparin is a low-molecular-weight heparin anticoagulant. The TxGNN model pred
 | Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0165 | Enoxaparin | Not recorded | Not recorded |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Enoxaparin (as sodium salt) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 The data lists one single-ingredient record for this drug. Its status is shown as cancelled, while the overall market status is reported as marketed. This discrepancy should be verified against the regulator's current register before any decision.
 
@@ -99,7 +101,7 @@ Label-based warnings and contraindications are not available. Please refer to th
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (0.9958), but no trials or publications directly study this disease with enoxaparin, so the evidence level is L5. Package insert safety data and mechanism data are also missing, and the local licence record is cancelled.
+The TxGNN score is very high (0.9958), but no trials or publications directly study this disease with enoxaparin, so the evidence level is L5. Package insert safety data and mechanism data are also missing.
 
 **To proceed, the following is needed:**
 - Literature and trial search for heparin or low-molecular-weight heparin use in severe congenital protein C deficiency

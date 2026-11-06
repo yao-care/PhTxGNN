@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 207
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Evidence is at **L2**, resting on **1 randomized, placebo-controlled trial** of 
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0288 | Levonorgestrel | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ethinylestradiol + Levonorgestrel | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

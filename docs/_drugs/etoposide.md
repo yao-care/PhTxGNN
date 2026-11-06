@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Small cell lung carcinoma, testicular cancer and germ cell tumors"
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked predictions are lung-related rare tumours, but the 
 | Predicted New Indication | Ewing sarcoma (best-supported); the highest-ranked prediction by score is well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN Prediction Score | 0.9994 (well-differentiated fetal adenocarcinoma of the lung) |
 | Evidence Level | L5 (Ewing sarcoma and rhabdomyosarcoma); L3–L5 for the other candidates |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails (Ewing sarcoma, rhabdomyosarcoma); Hold for the remaining candidates |
 
 ---
@@ -134,9 +134,11 @@ Literature for the other candidates (primary pulmonary lymphoma, vaginal botryoi
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0181 | Etoposide | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Etoposide | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -166,7 +168,7 @@ Literature for the other candidates (primary pulmonary lymphoma, vaginal botryoi
 
 **Rationale:**
 - Ewing sarcoma and rhabdomyosarcoma are supported by multiple randomised phase 3 trials and publications in which etoposide is a core component of combination regimens. However, this evidence is for combinations, not etoposide alone, and these are likely already established uses in oncology rather than new discoveries.
-- The highest-scoring predictions (lung blastoma-type tumours and pulmonary lymphoma) have only case reports or indirect evidence. The Philippines registration is cancelled, so there is currently no marketed product.
+- The highest-scoring predictions (lung blastoma-type tumours and pulmonary lymphoma) have only case reports or indirect evidence.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (safety screening cannot move forward without them).

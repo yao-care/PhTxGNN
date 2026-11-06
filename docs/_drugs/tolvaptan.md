@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ There are **no registered clinical trials** for this exact subtype, but **19 pub
 | Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (based on the TEMPO 3:4 and REPRISE RCT reports in ADPKD; not specific to PKD3) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,11 @@ Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 a
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0492 | Tolvaptan | Not specified | Not specified (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tolvaptan | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 This may reflect a specific product or formulation rather than overall availability.
 
@@ -112,7 +114,6 @@ Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and pol
 - Detailed mechanism-of-action data (e.g. from DrugBank)
 - Evidence specific to PKD3 (GANAB-related) disease, or a justification for extrapolating from ADPKD
 - A liver monitoring plan and a review of high-risk drug interactions (especially strong CYP3A inhibitors such as clarithromycin)
-- Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced
 
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 338
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial meningitis, uveitis, conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,12 @@ None of these studies directly tests tobramycin in exposure keratitis.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0490 | Tobramycin | Not specified | Not specified (registration valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tobramycin | Eye Drops Solution, Eye Ointment |
+| Tobramycin + Dexamethasone | Eye Drops Suspension |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

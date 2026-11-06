@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **uterine inflammatory disease*
 | Predicted New Indication | Uterine inflammatory disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (no cited study directly addresses this disease) |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,11 @@ Neither trial studies uterine inflammatory disease.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0208 | Fosfomycin | Not stated in the record | Not stated in the record |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fosfomycin | Oral |
 
-This is a single-ingredient product with a valid status. The licence record contains no indication text, so the Philippine approved uses cannot be confirmed from the data compiled for this report.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

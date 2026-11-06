@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ with **7 clinical trials** and **20 publications** compiled for this prediction.
 | Predicted New Indication | thrombotic disease |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L1 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ This mechanism applies most directly to microvascular, VWF-driven thrombosis suc
 
 ## Philippines Market Information
 
-The data compiled for this report contain one registration (PNF-0003, Acetylcysteine, single-ingredient). Dosage form, manufacturer and indication text are not recorded.
+Dosage form, manufacturer and indication text are not recorded.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Isosorbide dinitrate"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Isosorbide Dinitrate: predicted new indication Alopecia (evidence level L5). Approved use: Not stated in the local registration record"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Isosorbide dinitrate is an organic nitrate vasodilator that is registered and marketed in the Philippines. The local record does not state an approved indication.
+Isosorbide dinitrate is an organic nitrate vasodilator. The local record does not state an approved indication.
 The TxGNN model predicts it may be useful for **alopecia**, but **no clinical trials and no publications** currently support this prediction.
 The link is a TxGNN model (deep learning) prediction only, and it may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -52,8 +52,8 @@ The link is a TxGNN model (deep learning) prediction only, and it may reflect si
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0265 | Isosorbide Dinitrate | Not listed | Not listed |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Isosorbide Dinitrate | Oral, Sublingual, Injection |
 
-This is a single-ingredient product with a valid status. The record does not include indication text, so no approved use can be described from local licence data.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

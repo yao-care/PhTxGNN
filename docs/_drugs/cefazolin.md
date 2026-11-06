@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Cefazolin: predicted new indication Infectious otitis media (evidence level L4). Approved use: Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis"
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 | Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,9 +84,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0083 | Cefazolin | Not specified | Not specified (registration status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Cefazolin (as sodium salt) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -110,7 +112,7 @@ Please refer to the package insert for full warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and the general antibacterial class effect. No clinical trials exist, and the two publications are a case report and an unrelated review. Cefazolin is parenteral only and has limited coverage of key otitis media pathogens. The only registration in the Philippines is cancelled.
+The prediction rests on a model score and the general antibacterial class effect. No clinical trials exist, and the two publications are a case report and an unrelated review. Cefazolin is parenteral only and has limited coverage of key otitis media pathogens.
 
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)

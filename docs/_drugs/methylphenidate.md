@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -52,8 +52,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,7 +88,7 @@ Currently no related literature available for faciodigitogenital syndrome.
 
 ## Philippines Market Information
 
-The one registration on record (PNF-0320, methylphenidate, single-ingredient) is valid, and the drug is marketed. No dosage form or approved indication text is available.
+No dosage form or approved indication text is available.
 
 ---
 
@@ -120,7 +120,7 @@ The prediction for faciodigitogenital syndrome rests on a very high model score 
 - Independent biological rationale and literature for methylphenidate in faciodigitogenital syndrome (for example, studies of ADHD-like symptoms in Aarskog-Scott syndrome)
 - Detailed mechanism of action data
 - Package insert warnings and contraindications, which are currently missing and are required before any safety screening
-- Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements
+- Clarification of the regulatory status in the Philippines, including controlled-substance requirements
 - If the programme is redirected, the more plausible candidates are specific developmental disorder and dysthymic disorder, but both currently have only indirect evidence and would need direct clinical studies
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The support is **0 registered clinical trials** and **19 publications**, all fro
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 4) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,14 @@ No randomized controlled trials were found. The table below lists the most relev
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0525 | Zidovudine (single-ingredient, status: valid) | Not listed | Not listed |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Zidovudine | Oral |
+| Lamivudine + Zidovudine | Oral |
+| Lamivudine + Zidovudine + Nevirapine | Oral |
+| Zidovudine + Lamivudine | Oral |
 
-There is currently 1 valid license out of 1 registered in the Philippines, and the drug is marketed.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 
@@ -112,7 +115,7 @@ Please also refer to the package insert for safety information.
 
 **Rationale:**
 - The top prediction is a feline disease supported only by veterinary and animal-model studies, with no registered human trials, so it is not a viable human repurposing candidate.
-- The Philippine registration is cancelled, and the package insert warnings are not available.
+- The package insert warnings are not available.
 - Two lower-ranked predictions are within zidovudine's established HIV use rather than new repurposing:
   - AIDS-related complex has Phase 3 support (NCT00001011, n=538).
   - Congenital HIV has Phase 3 support (NCT00102960, n=377), plus U.S. Public Health Service recommendations on perinatal use.

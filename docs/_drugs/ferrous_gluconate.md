@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ferrous gluconate"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Ferrous gluconate is an oral iron salt used to replenish the body's iron. The Tx
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 2) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,12 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0189 | Ferrous Sulfate | Not recorded | Not recorded in the local data |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ferrous Salt | Oral, N.B. |
+| Ferrous Salt + Folic Acid | Oral |
 
-The local records show this single-ingredient licence as valid, and the drug is marketed in the Philippines.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

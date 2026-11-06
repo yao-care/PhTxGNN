@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Across the other predicted indications, the only trial and literature found conc
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (1 of 1) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 1 (valid: 1) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -98,11 +98,13 @@ The cauda equina publications describe tetracaine as a cause of harm, which is a
 
 ## Philippines Market Information
 
-The data compiled for this report lists one registration, which is cancelled. No dosage form or approved indication text is recorded.
+No dosage form or approved indication text is recorded.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| PNF-0482 | Tetracaine | Not recorded | Not recorded (status: valid) |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Tetracaine | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -131,13 +133,12 @@ Label warnings and contraindications from the Philippine package insert were not
 
 **Rationale:**
 - The prediction is supported by model score only (Evidence Level L5). There are no trials or publications for acrodermatitis chronica atrophicans, and there is no plausible mechanism for a sodium channel blocker to treat a *Borrelia* skin infection.
-- The only registration in the Philippines is cancelled. None of the other top predictions has a supported therapeutic role, and cauda equina syndrome is a safety signal.
+- None of the other top predictions has a supported therapeutic role, and cauda equina syndrome is a safety signal.
 
 **To proceed, the following is needed:**
 - Philippine package insert warnings and contraindications (currently missing and blocking safety screening)
 - Mechanism of action data (for example from DrugBank)
 - Any clinical or preclinical evidence of therapeutic benefit in the predicted indications, rather than procedural anaesthesia
-- Clarification of the regulatory status of the cancelled registration and the available dosage forms and routes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

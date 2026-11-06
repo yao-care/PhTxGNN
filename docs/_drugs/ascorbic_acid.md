@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency, scurvy"
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected"]
@@ -52,8 +52,8 @@ At present there are **0 clinical trials** and **0 publications** supporting thi
 | Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| Philippines Market Status | Listed in the Philippine National Formulary (2 of 2) – FDA Philippines registration status is not included in this data |
-| Number of PNF Entries | 2 (valid: 2) |
+| Philippines Market Status | Listed in the Philippine National Formulary (PNF entries: 1) – FDA Philippines registration status is not included in this data |
+| Number of PNF Entries | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,12 +82,11 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-| Authorization Number | Product Name | Status |
-|---------|------|------|
-| PNF-0028 | Ascorbic Acid | Valid |
-| PNF-0520 | Vitamin C | Valid |
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ascorbic Acid (vitamin C) | Oral, Injection |
 
-Both registrations are single-ingredient products and neither is currently valid.
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 
@@ -114,13 +113,11 @@ Both registrations are single-ingredient products and neither is currently valid
 
 **Rationale:**
 - The prediction has no clinical trials, no literature and no plausible mechanism, and the target is a congenital structural anomaly that a vitamin is unlikely to correct.
-- In this country the drug is marketed, with 2 valid licenses out of 2.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking ascorbic acid to esophageal development
 - Any preclinical or clinical evidence specific to esophageal malformation
 - Package insert warnings and contraindications for safety screening
-- Confirmation of the current regulatory and product availability status in the Philippines (both registrations are cancelled)
 - Review of other model predictions for this drug that have more evidence, such as injury (Phase 2 trials exist) and vitamin deficiency disorders (which largely overlap the original use), as better candidates for further evaluation
 ## Disclaimer
 
