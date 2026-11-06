@@ -219,7 +219,7 @@
       "evidence_level": "L5",
       "indication_count": 5,
       "original_indication": "",
-      "predicted_indication": "Predicted Disease",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/atenolol/"
     },
@@ -2159,7 +2159,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/methylphenidate/"
     },
@@ -2479,7 +2479,7 @@
       "evidence_level": "L5",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/olanzapine/"
     },
@@ -2599,7 +2599,7 @@
       "evidence_level": "L4",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/phenylephrine/"
     },
@@ -3369,7 +3369,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/vancomycin/"
     },
