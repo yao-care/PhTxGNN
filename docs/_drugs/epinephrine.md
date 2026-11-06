@@ -6,7 +6,7 @@ nav_order: 127
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-11-06
-description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
+description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---

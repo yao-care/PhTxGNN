@@ -6,7 +6,7 @@ nav_order: 34
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Atropine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available"
+description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---

@@ -6,7 +6,7 @@ nav_order: 268
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Pharyngitis, common cold"
+description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---

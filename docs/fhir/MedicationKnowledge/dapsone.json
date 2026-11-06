@@ -36,7 +36,7 @@
   "extension": [
     {
       "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
-      "valueCode": "L5"
+      "valueCode": "L1"
     }
   ]
 }

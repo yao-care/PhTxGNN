@@ -6,7 +6,7 @@ nav_order: 166
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L4). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
+description: "Heparin: predicted new indication Thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Pulmonary embolism, disseminated intravascular coagulation…"
 monitor_inn: "Heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
 ---

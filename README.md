@@ -24,7 +24,7 @@ Drug repurposing predictions for medicines in the Philippine National Formulary 
 | **Unique Drugs** | 462 |
 | **Unique Indications** | 16,854 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 410 MK / 1,936 CUD |
+| **FHIR Resources** | 353 MK / 1,936 CUD |
 
 ### Evidence Level Distribution
 

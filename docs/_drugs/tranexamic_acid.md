@@ -6,7 +6,7 @@ nav_order: 343
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis (endometriosis of uterus)"
+description: "Tranexamic Acid: predicted new indication amenorrhea (evidence level L5). Approved use: Endometriosis (endometriosis of uterus)"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 ---

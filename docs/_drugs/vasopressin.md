@@ -6,7 +6,7 @@ nav_order: 353
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not available"
+description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not available"
 monitor_inn: "Vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
 ---
