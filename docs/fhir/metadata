@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "phtxgnn-fhir-server",
-  "url": "https://phtxgnn.github.io/fhir/metadata",
+  "url": "https://phtxgnn.yao.care/fhir/metadata",
   "version": "1.0.0",
   "name": "PhTxGNNFHIRServer",
   "title": "PhTxGNN FHIR Server",
