@@ -78,8 +78,6 @@ Currently no related literature available.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-The local data lists one single-ingredient record for domperidone, and the market status is recorded as marketed.
-
 ## Safety Considerations
 
 - **Drug Interactions / Pharmacology**: Domperidone acts on the dopamine D2 receptor (DRD2) and D3 receptor (DRD3). No specific drug-drug interactions with interaction levels were recorded.

@@ -334,5 +334,40 @@
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
   }
+ ],
+ "latanoprost": [
+  {
+   "sentence": "Please confirm the current registration status with the regulator before any decision, because the record status and the overall market status in the data are not fully consistent.",
+   "cut": ", because the record status and the overall market status in the data are not fully consistent",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "olanzapine": [
+  {
+   "sentence": "- Clarify the regulatory status (reason for cancellation) and whether any valid olanzapine product is available in the Philippines",
+   "cut": " (reason for cancellation)",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "midazolam": [
+  {
+   "sentence": "However, both registered trials are indirect perioperative studies, the supporting data are decades old, and the Philippines registration is cancelled.",
+   "cut": ", and the Philippines registration is cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "nitrous_oxide": [
+  {
+   "sentence": "- Clarification of the original approved indication and the reason for the registration cancellation",
+   "cut": " and the reason for the registration cancellation",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "vasopressin": [
+  {
+   "sentence": "- Clarification of the original approved indication and the reason for the registration cancellation",
+   "cut": " and the reason for the registration cancellation",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
  ]
 }

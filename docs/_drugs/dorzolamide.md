@@ -68,7 +68,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-The data compiled for this report lists dorzolamide as marketed in the Philippines. Product-level details, such as dosage forms and approved indication text, are not recorded in the local data.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Dorzolamide | Eye Drops Solution |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Product-level details, such as dosage forms and approved indication text, are not recorded in the local data.
 
 ## Safety Considerations
 

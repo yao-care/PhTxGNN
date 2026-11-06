@@ -89,6 +89,12 @@ This mechanism applies most directly to microvascular, VWF-driven thrombosis suc
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Acetylcysteine | Oral, Injection, Inhalation |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 Dosage form, manufacturer and indication text are not recorded.
 
 ## Safety Considerations

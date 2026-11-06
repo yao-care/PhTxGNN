@@ -142,7 +142,7 @@ The main safety concern for potassium supplementation is hyperkalemia. Higher ri
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Meta-analyses of randomized trials support a blood-pressure-lowering effect of increased potassium intake, and the TxGNN score is high (0.9916). However, this evidence comes mainly from dietary or supplemental potassium. The Phase 3 trials that test potassium directly are small or lack reported results, although the drug is marketed in the Philippines with all three licenses valid. Evidence is therefore capped at L2.
+Meta-analyses of randomized trials support a blood-pressure-lowering effect of increased potassium intake, and the TxGNN score is high (0.9916). However, this evidence comes mainly from dietary or supplemental potassium. The Phase 3 trials that test potassium directly are small or lack reported results. Evidence is therefore capped at L2.
 
 **To proceed, the following is needed:**
 - Package insert safety data (warnings, contraindications), which are currently missing and block formal safety screening

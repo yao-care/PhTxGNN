@@ -100,7 +100,7 @@ The only supporting trial addresses procedural anxiety during prostate biopsy ra
 - Mechanism of action data and a plausible biological rationale linking nitrous oxide to BPH
 - Clinical studies that directly assess BPH outcomes (not procedural anxiety or pain)
 - Package insert warnings and contraindications from the DOH-FDA Philippines
-- Clarification of the original approved indication and the reason for the registration cancellation
+- Clarification of the original approved indication
 - Assessment of route and formulation compatibility for the proposed use
 ## Disclaimer
 

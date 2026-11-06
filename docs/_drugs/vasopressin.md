@@ -102,7 +102,7 @@ The top prediction has no clinical trials, only indirect literature on other fac
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing, and blocking safety screening)
 - Mechanism of action data for vasopressin (for example from DrugBank)
 - Independent mechanistic or preclinical evidence linking vasopressin to prothrombin deficiency, or to drug-induced osteoporosis
-- Clarification of the original approved indication and the reason for the registration cancellation
+- Clarification of the original approved indication
 - Review of the major drug interactions (especially QT-prolonging agents) if development is reconsidered
 ## Disclaimer
 

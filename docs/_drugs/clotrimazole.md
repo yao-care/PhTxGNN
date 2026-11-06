@@ -80,7 +80,11 @@ This trial does not directly establish clotrimazole's effect on acne: the exact 
 
 ## Philippines Market Information
 
-The market status for clotrimazole in the Philippines is **Marketed**.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Clotrimazole | Cream, Vaginal Cream, Ear Solution |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ---
 

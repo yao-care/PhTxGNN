@@ -99,7 +99,7 @@ Please refer to the package insert for key warnings and labelled contraindicatio
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and older studies, including a randomised 14-day comparison with flurazepam, support midazolam as a hypnotic. However, both registered trials are indirect perioperative studies, the supporting data are decades old, and the Philippines registration is cancelled. The package insert safety review is also incomplete, so the candidate cannot yet advance past early screening.
+The mechanism is plausible and older studies, including a randomised 14-day comparison with flurazepam, support midazolam as a hypnotic. However, both registered trials are indirect perioperative studies, the supporting data are decades old. The package insert safety review is also incomplete, so the candidate cannot yet advance past early screening.
 
 **To proceed, the following is needed:**
 - Download and review the package insert warnings and contraindications from the DOH-FDA Philippines website

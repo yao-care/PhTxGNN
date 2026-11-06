@@ -69,7 +69,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Its dosage form, manufacturer and indication text are not recorded in the local data. The market status in the Philippines is Marketed.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lactulose | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+Its dosage form, manufacturer and indication text are not recorded in the local data.
 
 ## Safety Considerations
 

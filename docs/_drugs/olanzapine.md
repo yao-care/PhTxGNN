@@ -109,7 +109,7 @@ The prediction for benign paroxysmal torticollis of infancy rests on the model s
 - Consider redirecting research effort to agoraphobia or dysthymic disorder, where there is at least some published literature (a randomised, controlled study would be needed)
 - Obtain the package insert warnings and contraindications from the DOH-FDA Philippines (currently missing)
 - Obtain detailed mechanism of action data from DrugBank
-- Clarify the regulatory status (reason for cancellation) and whether any valid olanzapine product is available in the Philippines
+- Clarify the regulatory status and whether any valid olanzapine product is available in the Philippines
 - Prepare a metabolic, sedation and cardiovascular safety monitoring plan if any new indication is pursued
 ## Disclaimer
 

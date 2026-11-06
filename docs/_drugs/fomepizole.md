@@ -72,7 +72,13 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-The local regulatory data lists the product as marketed in the Philippines. No dosage form or approved-indication text is recorded for it.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Fomepizole (4 – methylprazole) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+No dosage form or approved-indication text is recorded for it.
 
 ## Safety Considerations
 

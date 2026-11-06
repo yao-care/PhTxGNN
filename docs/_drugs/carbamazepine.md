@@ -81,6 +81,12 @@ None of the publications below tests carbamazepine as a treatment for trigeminal
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Carbamazepine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 ## Safety Considerations
 
 - **Disease-related cautions (relations recorded in the data, not label text):** hypertension, kidney disease, liver disease, glaucoma, heart conduction disease and atrioventricular block, and blood disorders (thrombocytopenia, neutropenia, agranulocytosis, pancytopenia, anaemia).

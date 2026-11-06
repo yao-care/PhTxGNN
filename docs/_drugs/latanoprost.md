@@ -74,7 +74,7 @@ Currently no related literature available.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-The local data hold one single-ingredient record for this drug. Please confirm the current registration status with the regulator before any decision, because the record status and the overall market status in the data are not fully consistent.
+The local data hold one single-ingredient record for this drug. Please confirm the current registration status with the regulator before any decision.
 
 ## Safety Considerations
 

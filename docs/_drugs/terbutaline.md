@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Terbutaline is a beta-2 adrenergic agonist (bronchodilator) that is listed in the Philippines under a single-ingredient registration.
+Terbutaline is a beta-2 adrenergic agonist (bronchodilator).
 The TxGNN model predicts it may be relevant for **respiratory malformation**, but the supporting evidence is weak: **1 registered clinical trial** (a broad pediatric drug-study platform, not specific to this condition) and **13 publications**, none of which show a treatment benefit for this condition.
 
 ## Quick Overview

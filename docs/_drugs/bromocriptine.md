@@ -62,7 +62,11 @@ No mechanistic link was identified between dopamine D2 agonism and fucosylation 
 
 ## Philippines Market Information
 
-Philippines market status is marketed.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Bromocriptine (as mesilate) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

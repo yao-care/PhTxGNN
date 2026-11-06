@@ -73,7 +73,15 @@ Neither publication directly tests ipratropium in nasal cavity disease, so they 
 
 ## Philippines Market Information
 
-Local records show ipratropium as **Marketed** in the Philippines. The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ipratropium (as bromide) | Inhalation, Inhalation (MDI), Resp. Soln. |
+| Ipratropium (as bromide) + Fenoterol (as hydrobromide) | Inhalation, Inhalation (MDI) |
+| Ipratropium + Salbutamol | Inhalation, Inhalation (MDI), Resp. Soln. |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here.
 
 ## Safety Considerations
 

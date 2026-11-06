@@ -70,7 +70,13 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
-The market status recorded in the local data is "Marketed". The detailed licence list is generated separately by the site program and is not reproduced here.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Doxycycline | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+The detailed licence list is generated separately by the site program and is not reproduced here.
 
 ## Safety Considerations
 

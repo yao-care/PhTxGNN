@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Cetirizine is an H1-receptor antagonist (antihistamine) with a local registration record in the Philippines.
+Cetirizine is an H1-receptor antagonist (antihistamine).
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but no clinical trials are registered and the available **5 publications** do not directly study this disease as a specific condition.
 
 ## Quick Overview

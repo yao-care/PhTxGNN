@@ -10,7 +10,7 @@ PH 站的本地資料是菲律賓國家處方集（PNF），不是 FDA Philippin
 - 概覽表裡另外手寫的「Number of Approvals」列（把 PNF 品項寫成許可／註冊張數；程式產生的是「Number of PNF Entries」列）整列拿掉。
 - 概覽表有「Philippines Market Status」列、卻沒有「Number of PNF Entries」列的頁，在狀態列下面補一列（值＝PNF 品項數）。
 - 新資料沒有任何品項時拿掉表，改一句「Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.」
-- 段落裡沒有表的頁不新增；表以外的文字只動號碼括號。
+- 段落裡沒有表的頁（舊頁只有文字、或矛盾句刪完只剩標題）：在標題下補程式產生的表與來源句（沒有品項時補「Not listed …」句，已有就不重複）；表以外的文字只動號碼括號（2026-11-06 第三輪）。
 用法（repo 根目錄）：python3 scripts/sync_license_tables.py [--dry-run] [頁 ...]
 """
 import json
@@ -89,7 +89,12 @@ def process(text, recs, partial=False, log=None):
         a = lines.index(SEC) + 1
         b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
         tb = [k for k in range(a, b) if lines[k].startswith("|")]
-        if tb:
+        if not tb:
+            rows = table_rows(recs)
+            if rows or not any(l.strip() == NONE_LINE for l in lines[a:b]):
+                block = (HEAD + rows[:MAX_ROWS] + [""] + ([SHOW.format(n=MAX_ROWS, m=len(rows)) + " " + SOURCE] if len(rows) > MAX_ROWS else [SOURCE])) if rows else [NONE_LINE]
+                lines = lines[:a] + [""] + block + [""] + lines[a:]
+        else:
             x, y = tb[0], tb[0]
             while y + 1 < b and lines[y + 1].startswith("|"):
                 y += 1

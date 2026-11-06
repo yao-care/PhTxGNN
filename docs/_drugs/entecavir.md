@@ -84,6 +84,12 @@ The high model score probably reflects the two infections being closely associat
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Entecavir | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 ## Safety Considerations
 
 - **Drug Interactions**: 44 interactions were found. The ones listed are all of Moderate level, including famotidine, ranitidine, cimetidine, metformin, amphotericin B products, vancomycin, kanamycin, neomycin, polymyxin B, levofloxacin, amoxicillin, mesalazine, sulfasalazine, balsalazide, olsalazine and orlistat.

@@ -81,6 +81,18 @@ All studies are preclinical, review or non-drug-specific; no human clinical stud
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Lamivudine | Oral |
+| Lamivudine + Efavirenz + Tenofovir | Oral |
+| Lamivudine + Zidovudine | Oral |
+| Lamivudine + Zidovudine + Nevirapine | Oral |
+| Lamivudine +Tenofovir | Oral |
+| Tenofovir + Lamivudine + Dolutegravir | Oral |
+| Zidovudine + Lamivudine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 No dosage form or approved-indication text is recorded for it.
 
 ## Safety Considerations

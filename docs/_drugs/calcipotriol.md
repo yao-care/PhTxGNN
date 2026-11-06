@@ -78,6 +78,13 @@ All the studies are small and uncontrolled, and none is a randomised trial. The 
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Calcipotriol | Ointment |
+| Calcipotriol + Betamethasone | Ointment |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 No dosage form, manufacturer or approved indication is recorded.
 
 ## Safety Considerations

@@ -82,7 +82,7 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-This is a single-ingredient registration. The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
+The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
 
 ## Safety Considerations
 

@@ -83,6 +83,12 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Clonazepam | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 ## Safety Considerations
 
 - **Drug Interactions**: 100 interactions are recorded. Major-level interactions include morphine and liposomal morphine (additive central nervous system and respiratory depression). Moderate-level interactions include bupropion, aprepitant, omeprazole, cimetidine, clarithromycin, dronabinol, metoclopramide, nabilone, opium and sibutramine.

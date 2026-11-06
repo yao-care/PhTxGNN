@@ -69,7 +69,11 @@ Currently no related literature available for this disease.
 
 ## Philippines Market Information
 
-Market status in the Philippines is recorded as marketed.
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Indacaterol (as maleate) + glycopyrronium (as bromide) | Inhalation |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
 ## Safety Considerations
 

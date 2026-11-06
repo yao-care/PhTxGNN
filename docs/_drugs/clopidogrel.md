@@ -84,6 +84,12 @@ The studies below concern related conditions (migraine with aura, migraine with 
 
 ## Philippines Market Information
 
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Clopidogrel | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
 No dosage form or approved indication text is recorded.
 
 ## Safety Considerations

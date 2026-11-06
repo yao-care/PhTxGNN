@@ -105,7 +105,7 @@ Package insert warnings and contraindications were not available. Please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (L5). There are no clinical trials or publications, the mechanistic link to rosacea-associated ocular disease is weak, and the only Philippines registration has been cancelled.
+The prediction is supported only by the TxGNN model score (L5). There are no clinical trials or publications, the mechanistic link to rosacea-associated ocular disease is weak.
 
 **To proceed, the following is needed:**
 - A systematic literature search for diphenhydramine or other antihistamines in ocular rosacea
