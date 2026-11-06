@@ -3,7 +3,7 @@
   "id": "rivastigmine",
   "meta": {
     "profile": [
-      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-medication"
+      "https://phtxgnn.yao.care/fhir/StructureDefinition/phtxgnn-medication"
     ]
   },
   "status": "active",
@@ -15,7 +15,7 @@
         "display": "RIVASTIGMINE"
       },
       {
-        "system": "https://phtxgnn.github.io/drugs",
+        "system": "https://phtxgnn.yao.care/drugs",
         "code": "rivastigmine",
         "display": "RIVASTIGMINE"
       }
@@ -35,7 +35,7 @@
   ],
   "extension": [
     {
-      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
       "valueCode": "L5"
     }
   ]

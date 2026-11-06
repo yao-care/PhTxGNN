@@ -3,7 +3,7 @@
   "id": "megestrol_acetate-malignant-dysgerminomatous-germ-cell-tumor-of-ovary",
   "meta": {
     "profile": [
-      "https://phtxgnn.github.io/fhir/StructureDefinition/phtxgnn-indication"
+      "https://phtxgnn.yao.care/fhir/StructureDefinition/phtxgnn-indication"
     ]
   },
   "type": "indication",
@@ -22,11 +22,11 @@
   },
   "extension": [
     {
-      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/evidence-level",
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
       "valueCode": "L5"
     },
     {
-      "url": "https://phtxgnn.github.io/fhir/StructureDefinition/prediction-source",
+      "url": "https://phtxgnn.yao.care/fhir/StructureDefinition/prediction-source",
       "valueString": "TxGNN deep learning model"
     },
     {
