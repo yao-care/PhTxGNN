@@ -1,0 +1,338 @@
+{
+ "acetazolamide": [
+  {
+   "sentence": "The product is marketed in the Philippines, with 1 valid licence out of 1, and some lower-ranked predictions carry safety signals.",
+   "cut": "The product is marketed in the Philippines, with 1 valid licence out of 1, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "ampicillin": [
+  {
+   "sentence": "- Clarification of the registration status in the Philippines, since 1 of 1 licenses is currently valid",
+   "cut": ", since 1 of 1 licenses is currently valid",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "aripiprazole": [
+  {
+   "sentence": "- Confirm regulatory status in the Philippines, since the sole registration (PNF-0025) is cancelled, and determine whether a new or reinstated registration is needed",
+   "cut": ", since the sole registration (PNF-0025) is cancelled, and determine whether a new or reinstated registration is needed",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "bicalutamide": [
+  {
+   "sentence": "The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.",
+   "cut": "The drug is marketed in the Philippines, with 1 valid license out of 1, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "capreomycin": [
+  {
+   "sentence": "Capreomycin also has significant toxicity, and its only Philippines registration has been cancelled.",
+   "cut": ", and its only Philippines registration has been cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "chlorambucil": [
+  {
+   "sentence": "Chlorambucil carries significant myelosuppression risk, and the Philippine licence record has no indication or safety text.",
+   "cut": ", and the Philippine licence record has no indication or safety text",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "chloramphenicol": [
+  {
+   "sentence": "Chloramphenicol is an antibacterial drug that is currently registered in the Philippines.",
+   "cut": " that is currently registered in the Philippines",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "colchicine": [
+  {
+   "sentence": "Colchicine's narrow therapeutic index and toxicity, plus its cancelled registration in the Philippines, make it an unlikely antimalarial candidate despite the high model score.",
+   "cut": ", plus its cancelled registration in the Philippines,",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "cyproterone_acetate": [
+  {
+   "sentence": "The drug is also marketed in the Philippines (1 valid license of 1), and its thrombotic safety signal is a concern.",
+   "cut": "The drug is also marketed in the Philippines (1 valid license of 1), and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "deferiprone": [
+  {
+   "sentence": "The only Philippines registration has been cancelled, and warnings and contraindications are unavailable.",
+   "cut": "The only Philippines registration has been cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "dobutamine": [
+  {
+   "sentence": "The only Philippine registration is valid and the drug is marketed, but it is an IV inotrope that is not suited to chronic hair-loss therapy.",
+   "cut": "The only Philippine registration is valid and the drug is marketed, but ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  },
+  {
+   "sentence": "- The product label warnings and contraindications from the Philippine FDA, and the original approved indication and dosage form of the cancelled registration",
+   "cut": ", and the original approved indication and dosage form of the cancelled registration",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "enalapril": [
+  {
+   "sentence": "Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verification with FDA Philippines (Food and Drug Administration, Philippines) is recommended, as the absence of records may reflect a data ingestion issue rather than a true absence from the market.",
+   "reason": "本站資料是 PNF 品項（依成分重建後 enalapril 有 2 個 PNF 品項），舊頁說「查無紀錄、可能是資料擷取問題」與新資料矛盾；整句是這個說法，整句刪"
+  }
+ ],
+ "haloperidol": [
+  {
+   "sentence": "- Haloperidol's local registration is cancelled, and its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial.",
+   "cut": "Haloperidol's local registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "halothane": [
+  {
+   "sentence": "The drug is marketed in this country, with 1 valid license of 1, but the safety profile (hepatotoxicity, cardiac and malignant hyperthermia signals) argues against chronic use.",
+   "cut": "The drug is marketed in this country, with 1 valid license of 1, but ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "heparin": [
+  {
+   "sentence": "Heparin has 1 valid registration of 1 in the Philippines, but label safety data is missing.",
+   "cut": "Heparin has 1 valid registration of 1 in the Philippines, but ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "iohexol": [
+  {
+   "sentence": "- A valid local registration and route compatibility assessment",
+   "cut": "A valid local registration and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "isoniazid": [
+  {
+   "sentence": "The Philippines registration is cancelled, and some literature points to ocular harm.",
+   "cut": "The Philippines registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "levofloxacin": [
+  {
+   "sentence": "Levofloxacin is a fluoroquinolone antibacterial that is registered in the Philippines.",
+   "cut": " that is registered in the Philippines",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "levothyroxine": [
+  {
+   "sentence": "- Package insert warnings and contraindications from the DOH-FDA Philippines (the licence record has no indication, dosage form or manufacturer details)",
+   "cut": " (the licence record has no indication, dosage form or manufacturer details)",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "lynestrenol": [
+  {
+   "sentence": "Lynestrenol is a progestin (a hormonal medicine) registered in the Philippines, but no approved indication text is available in the local licence record.",
+   "cut": " registered in the Philippines, but no approved indication text is available in the local licence record",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "methylphenidate": [
+  {
+   "sentence": "- Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements",
+   "cut": " (the sole registration is cancelled)",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "metronidazole": [
+  {
+   "sentence": "Mechanistically it is implausible, and the only Philippines registration has been cancelled.",
+   "cut": ", and the only Philippines registration has been cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "mycophenolic_acid": [
+  {
+   "sentence": "- Review of the regulatory status, since the only Philippine registration (PNF-0335) is cancelled",
+   "cut": ", since the only Philippine registration (PNF-0335) is cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "nimodipine": [
+  {
+   "sentence": "The only Philippines registration has been cancelled, and no label-based safety data are available.",
+   "cut": "The only Philippines registration has been cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  },
+  {
+   "sentence": "- Clarification of whether a valid local product is available, since the sole registration is cancelled",
+   "cut": ", since the sole registration is cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "paclitaxel": [
+  {
+   "sentence": "The Philippines registration is cancelled and the package insert safety data is missing.",
+   "cut": "The Philippines registration is cancelled and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "potassium": [
+  {
+   "sentence": "In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate.",
+   "reason": "把 PNF 品項說成在菲律賓註冊；品項（Potassium Chloride、Potassium Phosphate、Potassium (as citrate)）已在程式產生的 PNF 表裡，整句刪"
+  }
+ ],
+ "propofol": [
+  {
+   "sentence": "No approved indication text is recorded for its single Philippines registration, so the original use is inferred from its known role as a general anesthetic.",
+   "cut": "No approved indication text is recorded for its single Philippines registration, so ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "propranolol": [
+  {
+   "sentence": "- Clarification of the regulatory and supply pathway in the Philippines, where the drug is marketed and 1 of 1 licenses is valid",
+   "cut": ", where the drug is marketed and 1 of 1 licenses is valid",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "propylthiouracil": [
+  {
+   "sentence": "Safety concerns (haematological toxicity, hepatotoxicity) and the cancelled Philippines registration add further barriers.",
+   "cut": " and the cancelled Philippines registration",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  },
+  {
+   "sentence": "- Clarification of the regulatory pathway, since the only local registration (PNF-0403) is cancelled",
+   "cut": ", since the only local registration (PNF-0403) is cancelled",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "rifampicin": [
+  {
+   "sentence": "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but topical ophthalmic use is not standard care.",
+   "cut": "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "rivastigmine": [
+  {
+   "sentence": "The Philippines registration is cancelled, and local label safety information is missing.",
+   "cut": "The Philippines registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "sennosides": [
+  {
+   "sentence": "In addition, the only Philippines registration has been cancelled, and its indication and safety information are missing.",
+   "cut": " the only Philippines registration has been cancelled, and",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "simvastatin": [
+  {
+   "sentence": "- Confirm the regulatory pathway, since the sole Philippine registration is cancelled, including product, dosage form and approved indication",
+   "cut": "since the sole Philippine registration is cancelled, ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "sulfacetamide": [
+  {
+   "sentence": "The Philippines registration is cancelled, and package insert safety information is unavailable.",
+   "cut": "The Philippines registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "tacrolimus": [
+  {
+   "sentence": "The Philippines registration is cancelled, and the boxed warning on malignancy and lymphoma for topical calcineurin inhibitors requires careful management.",
+   "cut": "The Philippines registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "tegafur": [
+  {
+   "sentence": "However, the Philippine registration for tegafur is cancelled, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing.",
+   "cut": " the Philippine registration for tegafur is cancelled,",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "terazosin": [
+  {
+   "sentence": "The registration in the Philippines is cancelled, and the package-insert safety data is missing.",
+   "cut": "The registration in the Philippines is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "tramadol": [
+  {
+   "sentence": "The only registration in the Philippines has been cancelled, and the safety profile (opioid, serotonergic, and seizure risks) argues against pursuing a rare-disease indication without supporting evidence.",
+   "cut": "The only registration in the Philippines has been cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "tranexamic_acid": [
+  {
+   "sentence": "- Review of the regulatory status, since the sole registration is cancelled, and of available dosage forms and routes",
+   "cut": ", since the sole registration is cancelled,",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "trimethoprim": [
+  {
+   "sentence": "The local registration is cancelled, with no indication text or dosage form on record, and label safety data are missing.",
+   "cut": "The local registration is cancelled, with no indication text or dosage form on record, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "valproic_acid": [
+  {
+   "sentence": "- Valproic acid is marketed in the Philippines (2 of 2 licences valid), and the package insert safety data could not be obtained.",
+   "cut": "Valproic acid is marketed in the Philippines (2 of 2 licences valid), and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ],
+ "valsartan": [
+  {
+   "sentence": "In addition, valsartan is currently marketed in the Philippines (1 valid license of 1), and label safety data are unavailable.",
+   "cut": " valsartan is currently marketed in the Philippines (1 valid license of 1), and",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  }
+ ],
+ "zidovudine": [
+  {
+   "sentence": "- The Philippine registration is cancelled, and the package insert warnings are not available.",
+   "cut": "The Philippine registration is cancelled, and ",
+   "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
+   "capitalize": true
+  }
+ ]
+}
