@@ -88,8 +88,6 @@ Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 a
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-This may reflect a specific product or formulation rather than overall availability.
-
 ## Safety Considerations
 
 - **Contraindications (from the knowledge graph, not label text)**: liver failure, cirrhosis of liver, substance abuse/dependence, active peptic ulcer disease, demyelinating disease.

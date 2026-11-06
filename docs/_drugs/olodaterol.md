@@ -52,8 +52,6 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-Dosage form and approved indication text are not recorded for this registration.
-
 ## Safety Considerations
 
 Package insert warnings and contraindications are not available in the data compiled for this report. Please refer to the package insert for safety information.

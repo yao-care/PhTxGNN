@@ -98,7 +98,7 @@ The cauda equina publications describe tetracaine as a cause of harm, which is a
 
 ## Philippines Market Information
 
-No dosage form or approved indication text is recorded.
+No approved indication text is recorded.
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|

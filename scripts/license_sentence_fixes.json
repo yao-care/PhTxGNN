@@ -27,6 +27,10 @@
    "cut": "The drug is marketed in the Philippines, with 1 valid license out of 1, and ",
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
+  },
+  {
+   "sentence": "Dosage form and approved indication are not recorded for this authorization.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾），並把 PNF 品項說成許可（authorization）；刪掉矛盾部分後只剩「Approved indication are not recorded」主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
   }
  ],
  "capreomycin": [
@@ -90,6 +94,19 @@
   {
    "sentence": "Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verification with FDA Philippines (Food and Drug Administration, Philippines) is recommended, as the absence of records may reflect a data ingestion issue rather than a true absence from the market.",
    "reason": "本站資料是 PNF 品項（依成分重建後 enalapril 有 2 個 PNF 品項），舊頁說「查無紀錄、可能是資料擷取問題」與新資料矛盾；整句是這個說法，整句刪"
+  },
+  {
+   "sentence": "The original approved indications field is also empty (`original_indications: []`), which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled.",
+   "cut": ", which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled",
+   "reason": "本站資料是 PhilHealth／DOH 菲律賓國家處方集（PNF）清單，依設計不含 FDA Philippines 許可或註冊紀錄；只刪「FDA Philippines 資料擷取未完成」子句，原適應症欄空白的說明保留（2026-11-06）"
+  },
+  {
+   "sentence": "Download and parse the package insert PDF from the TFDA (or FDA Philippines equivalent) to extract key warnings and contraindications",
+   "cut": [
+    "the TFDA (or ",
+    " equivalent)"
+   ],
+   "reason": "TwTxGNN 模板殘留：菲律賓站的仿單來源寫成台灣 TFDA；只刪「the TFDA (or … equivalent)」片段，留下 FDA Philippines，條目其餘保留（2026-11-06，「去查」錯誤機關的同類寫法）"
   }
  ],
  "haloperidol": [
@@ -98,6 +115,10 @@
    "cut": "Haloperidol's local registration is cancelled, and ",
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
+  },
+  {
+   "sentence": "Dosage form and approved indication text were not available for this record.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
   }
  ],
  "halothane": [
@@ -114,6 +135,11 @@
    "cut": "Heparin has 1 valid registration of 1 in the Philippines, but ",
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留",
    "capitalize": true
+  },
+  {
+   "sentence": "No dosage form, manufacturer or approved indication text is available.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form, "
   }
  ],
  "iohexol": [
@@ -158,6 +184,11 @@
    "sentence": "- Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements",
    "cut": " (the sole registration is cancelled)",
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／張數的片段，安全性、臨床理由與下一步保留"
+  },
+  {
+   "sentence": "No dosage form or approved indication text is available.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
   }
  ],
  "metronidazole": [
@@ -199,6 +230,11 @@
   {
    "sentence": "In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate.",
    "reason": "把 PNF 品項說成在菲律賓註冊；品項（Potassium Chloride、Potassium Phosphate、Potassium (as citrate)）已在程式產生的 PNF 表裡，整句刪"
+  },
+  {
+   "sentence": "No dosage form or approved indication text is recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
   }
  ],
  "propofol": [
@@ -368,6 +404,238 @@
    "sentence": "- Clarification of the original approved indication and the reason for the registration cancellation",
    "cut": " and the reason for the registration cancellation",
    "reason": "本站資料是菲律賓國家處方集（PNF）品項（依成分重建），不是 FDA Philippines 註冊；只刪說註冊有效／註銷／市場狀態的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "escitalopram": [
+  {
+   "sentence": "as critical input data — including original indications, mechanism of action, and local regulatory records — are absent from the Evidence Pack.",
+   "cut": ", and local regulatory records",
+   "reason": "本站資料是 PhilHealth／DOH 菲律賓國家處方集（PNF）清單，依設計不含 FDA Philippines 許可或註冊紀錄（本藥 PNF 清單 1 筆）；只刪「本地許可紀錄缺漏」片段，原適應症、作用機轉缺漏的說明保留（2026-11-06）"
+  }
+ ],
+ "delamanid": [
+  {
+   "sentence": "Clarification of the local licence record (dosage form and approved indication are missing)",
+   "reason": "本站資料是 PhilHealth／DOH 菲律賓國家處方集（PNF）清單，依設計不含 FDA Philippines 許可或註冊紀錄；條目把 PNF 清單紀錄說成本地許可紀錄並要求釐清，整條都是這個說法；整條刪（2026-11-06）"
+  }
+ ],
+ "acetylcysteine": [
+  {
+   "sentence": "Dosage form, manufacturer and indication text are not recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型沒有紀錄」，製造商、適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "Dosage form, ",
+   "capitalize": true
+  }
+ ],
+ "bromazepam": [
+  {
+   "sentence": "Product-level details such as dosage form and approved indication text are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form and "
+  }
+ ],
+ "carboplatin": [
+  {
+   "sentence": "The approved indication text and dosage form are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "colistin": [
+  {
+   "sentence": "Its details, including dosage form and indication text, are not recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form and "
+  }
+ ],
+ "dactinomycin": [
+  {
+   "sentence": "Dosage form and approved-indication text are not recorded for this registration.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾），並把 PNF 品項說成註冊；刪掉矛盾部分後只剩殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "dorzolamide": [
+  {
+   "sentence": "Product-level details, such as dosage forms and approved indication text, are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage forms and "
+  }
+ ],
+ "filgrastim": [
+  {
+   "sentence": "Dosage form and approved indication text are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "irbesartan": [
+  {
+   "sentence": "Dosage form and approved indication text are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "lactulose": [
+  {
+   "sentence": "Its dosage form, manufacturer and indication text are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，製造商、適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form, "
+  }
+ ],
+ "megestrol_acetate": [
+  {
+   "sentence": "Dosage form and approved indication are not recorded for this registration.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾），並把 PNF 品項說成註冊；刪掉矛盾部分後只剩殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "memantine": [
+  {
+   "sentence": "Dosage form and approved indication text are not recorded in the local data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "metformin": [
+  {
+   "sentence": "Dosage form and approved indication text are not available.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾）；只刪劑型會留下主謂不一致的殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "nystatin": [
+  {
+   "sentence": "Review of the route of administration, since the dosage form of the local licence is not recorded",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「本地許可的劑型沒有紀錄」子句（劑型與表矛盾，且把 PNF 品項說成許可），下一步條目其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": ", since the dosage form of the local licence is not recorded"
+  }
+ ],
+ "olodaterol": [
+  {
+   "sentence": "Dosage form and approved indication text are not recorded for this registration.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；句子說劑型沒有紀錄（與表矛盾），並把 PNF 品項說成註冊；刪掉矛盾部分後只剩殘句，整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "calcipotriol": [
+  {
+   "sentence": "No dosage form, manufacturer or approved indication is recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，製造商、適應症沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form, "
+  }
+ ],
+ "ceftriaxone": [
+  {
+   "sentence": "The local record lists no dosage form, manufacturer or approved indication text.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form, "
+  }
+ ],
+ "clopidogrel": [
+  {
+   "sentence": "No dosage form or approved indication text is recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "diethylcarbamazine": [
+  {
+   "sentence": "No dosage form, manufacturer or indication text is recorded for it.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form, "
+  }
+ ],
+ "fomepizole": [
+  {
+   "sentence": "No dosage form or approved-indication text is recorded for it.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "gemcitabine": [
+  {
+   "sentence": "The data compiled for this report contain no dosage form or approved indication text for it.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "imiglucerase": [
+  {
+   "sentence": "No dosage form or approved indication is recorded for it.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "ipratropium": [
+  {
+   "sentence": "The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；表已列出給藥途徑；只刪「劑型」與「無法確認給藥途徑」，適應症文字沒有紀錄的說明保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": [
+    "dosage form or ",
+    ", so the route of administration cannot be confirmed here"
+   ]
+  }
+ ],
+ "lamivudine": [
+  {
+   "sentence": "No dosage form or approved-indication text is recorded for it.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "paliperidone": [
+  {
+   "sentence": "No dosage form or approved indication text is recorded for this registration.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」與把 PNF 品項說成註冊的片段，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": [
+    "dosage form or ",
+    " for this registration"
+   ]
+  }
+ ],
+ "phenytoin": [
+  {
+   "sentence": "No dosage form or approved indication text is listed.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "tetracaine": [
+  {
+   "sentence": "No dosage form or approved indication text is recorded.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "vitamin_a": [
+  {
+   "sentence": "No dosage form or approved indication text is on record.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪「劑型」，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "dosage form or "
+  }
+ ],
+ "captopril": [
+  {
+   "sentence": "No indication text is recorded in the local licence data.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；只刪把 PNF 清單說成許可資料的「licence」一字，其餘保留（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）",
+   "cut": "licence "
+  }
+ ],
+ "doxycycline": [
+  {
+   "sentence": "The detailed licence list is generated separately by the site program and is not reproduced here.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；段落上方已有程式產生的 PNF 品項表；「許可清單另外產生、不在此列出」與表矛盾，且把 PNF 品項說成許可；整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "flucytosine": [
+  {
+   "sentence": "The list of authorizations may be incomplete.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；PNF 清單是完整的（本藥 1 筆，已列在表中），且不是許可；整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "sodium_acetate": [
+  {
+   "sentence": "Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；本藥沒有任何 PNF 品項（段落是「Not listed …」句）；本句的 Its 失去指涉，且說有一筆品名為 Sodium Chloride 的紀錄，與事實不符；整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
+  }
+ ],
+ "tolvaptan": [
+  {
+   "sentence": "This may reflect a specific product or formulation rather than overall availability.",
+   "reason": "本站資料是 PNF 處方集清單；段落上方的程式產生表已列出本藥 PNF 品項的給藥途徑／劑型（Routes in the PNF）；前文已刪、本句的 This 失去指涉（懸空代名詞句），整句刪（2026-11-06 用戶決定：補表後表下跟表矛盾的舊文字只刪矛盾部分）"
   }
  ]
 }

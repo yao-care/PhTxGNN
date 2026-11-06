@@ -8,6 +8,7 @@
    概覽表狀態列、張數列（sync_market_rows）→ 刪掉跟新事實矛盾的句子（.claude/delete_license_sentences.py，
    人工核對清單 scripts/license_sentence_fixes.json）→「Philippines Market Information」的表換成程式產生的 PNF 表（拿掉程式編的 PNF-xxxx 號碼）
    （scripts/sync_license_tables.py）→ lastmod（正文有變才換日期）。
+   另外 scripts/strip_pnf_ids.py 把 data/ 中間檔裡程式自編的 PNF-xxxx 號碼換成品名（2026-11-06；換完還有號碼就停損）。
 5. 停損（任一條不過就把 docs 還原、exit 非 0，workflow 開 issue）：
    - checker：任何 M 類（市場狀態）錯誤，或出現基準以外的新錯誤
    - gate（scripts/check_seo_docs.py）沒過；改到的頁 h1 不是恰好 1 個
@@ -90,6 +91,12 @@ def main(argv):
     if r.returncode != 0:
         stop(2, "PNF 解析或重建失敗：" + (r.stderr or r.stdout)[-300:])
     S.append("- 重建：" + r.stdout.strip().split("\n")[-1])
+    # 3. 中間檔（raw、processed、collected、evidence_packs、notes、txgnn_cache）裡程式自編的 PNF-xxxx 號碼換成品名（2026-11-06）；
+    #    換完還有號碼就停損，不發 Release
+    r = run([PY, "scripts/strip_pnf_ids.py"], check=False)
+    S.append("- 中間檔：" + (r.stdout.strip().split("\n") or [""])[0])
+    if r.returncode != 0:
+        stop(2, "data/ 中間檔還有 PNF-xxxx 號碼：" + (r.stdout or r.stderr)[-300:])
     # 4. 事實層、概覽表、許可證表、刪句、lastmod
     run([PY, ".claude/dump_license_facts_20261021.py", SITE], cwd=ws)
     tch, uns = lts.apply(SITE, labels)

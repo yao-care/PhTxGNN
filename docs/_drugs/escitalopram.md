@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Escitalopram is a selective serotonin reuptake inhibitor (SSRI) clinically established for major depressive disorder and generalised anxiety disorder.
-The TxGNN prediction pipeline returned **no predicted new indications** for this candidate, as critical input data — including original indications, mechanism of action, and local regulatory records — are absent from the Evidence Pack.
+The TxGNN prediction pipeline returned **no predicted new indications** for this candidate, as critical input data — including original indications, mechanism of action — are absent from the Evidence Pack.
 This report documents all identified data gaps and defines the remediation steps required before a formal repurposing analysis can proceed.
 
 ---

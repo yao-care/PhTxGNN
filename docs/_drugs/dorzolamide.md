@@ -74,7 +74,7 @@ Currently no related literature available.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-Product-level details, such as dosage forms and approved indication text, are not recorded in the local data.
+Product-level details, such as approved indication text, are not recorded in the local data.
 
 ## Safety Considerations
 

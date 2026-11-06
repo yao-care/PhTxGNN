@@ -79,7 +79,7 @@ Currently no related clinical trials registered.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-No indication text is recorded in the local licence data.
+No indication text is recorded in the local data.
 
 ## Safety Considerations
 

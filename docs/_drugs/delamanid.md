@@ -91,7 +91,6 @@ The prediction rests on a model score alone. No study tests delamanid in allergi
 - Mechanism of action data for delamanid
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Any direct preclinical or clinical evidence of delamanid in allergic urticaria
-- Clarification of the local licence record (dosage form and approved indication are missing)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

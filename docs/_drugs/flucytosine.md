@@ -76,8 +76,6 @@ Currently no related literature available.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-The list of authorizations may be incomplete.
-
 ## Safety Considerations
 
 - **Drug Interactions**: 85 interactions are recorded. Among those listed, one is Major: **deferiprone**. Moderate interactions include:

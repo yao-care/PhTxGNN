@@ -115,7 +115,7 @@ Only the trials most relevant to potassium as the intervention are listed. Sever
 
 ## Philippines Market Information
 
-No dosage form or approved indication text is recorded.
+No approved indication text is recorded.
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|

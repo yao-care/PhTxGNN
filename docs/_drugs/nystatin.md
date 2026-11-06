@@ -104,7 +104,7 @@ Please refer to the package insert for warnings and contraindications. The packa
 - A defined, plausible mechanism, with a clear clinical target condition within orbital disease
 - Package insert warnings and contraindications from the Philippines regulator
 - Mechanism of action data from a drug reference source
-- Review of the route of administration, since the dosage form of the local licence is not recorded
+- Review of the route of administration
 
 ## Disclaimer
 

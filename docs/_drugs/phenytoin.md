@@ -80,7 +80,7 @@ Neither paper provides direct evidence for phenytoin in trigeminal nerve neoplas
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-No dosage form or approved indication text is listed.
+No approved indication text is listed.
 
 ## Safety Considerations
 

@@ -81,8 +81,6 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
-Dosage form and approved indication text are not available.
-
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Metformin (as hydrochloride) | Oral |

@@ -64,7 +64,7 @@ No repurposing rationale can be constructed because the `predicted_indications` 
 
 Furthermore, the mechanism of action is flagged as a **high-severity data gap (DG002)**. Without MOA data, even a hypothesis-driven mechanistic bridge between an original indication and a potential new indication cannot be formulated.
 
-The original approved indications field is also empty (`original_indications: []`), which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled.
+The original approved indications field is also empty (`original_indications: []`).
 
 ---
 
@@ -111,7 +111,7 @@ This Evidence Pack is critically incomplete across all four evaluation pillars �
 **To proceed, the following is needed:**
 
 - **[Critical — Blocking]** Re-run the TxGNN prediction pipeline to populate `predicted_indications` for Enalapril (DB00584); the current empty array suggests the prediction step was not completed
-- **[Critical — Blocking]** Resolve **DG001**: Download and parse the package insert PDF from the TFDA (or FDA Philippines equivalent) to extract key warnings and contraindications
+- **[Critical — Blocking]** Resolve **DG001**: Download and parse the package insert PDF from FDA Philippines to extract key warnings and contraindications
 - **[High]** Resolve **DG002**: Query the DrugBank API for Enalapril's mechanism of action to enable mechanistic plausibility analysis
 - **[High]** Confirm original approved indications from at least one regulatory source (e.g., FDA Philippines, TFDA, EMA, or FDA USA)
 - **[Medium]** Independently verify Philippines FDA registration status, as Enalapril is a widely available generic

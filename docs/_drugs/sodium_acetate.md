@@ -72,8 +72,6 @@ The other top-ranked predictions show the same pattern. They include epiglottiti
 
 Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.
 
-Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate.
-
 ---
 
 ## Safety Considerations

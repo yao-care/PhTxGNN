@@ -623,7 +623,8 @@ def create_drug_records() -> List[Dict]:
 
     for i, drug_name in enumerate(PNF_DRUGS):
         record = {
-            "license_id": f"PNF-{i+1:04d}",
+            # 2026-11-06：不再編「PNF-0001」這種號碼（PNF 沒有這種號碼）；license_id＝PNF 品名，與 rebuild_licenses_by_ingredient.py 重建後相同
+            "license_id": drug_name,
             "brand_name": drug_name,
             "ingredient": normalize_drug_name(drug_name),
             "raw_ingredient": drug_name,

@@ -88,7 +88,7 @@ Currently no related literature available for retinal dystrophy.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
-No dosage form or approved indication text is recorded for this registration.
+No approved indication text is recorded.
 
 ---
 
