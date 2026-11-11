@@ -16,6 +16,10 @@ Accelerating drug repurposing evidence validation with AI — from prediction to
 
 ## Background
 
+<p class="key-answer" data-question="Is there a free dataset of drug repurposing predictions I can download?">
+Yes — PhTxGNN's prediction candidates, the TxGNN knowledge graph and the DrugBank vocabulary behind them are openly published with direct download links on the <a href="{{ '/sources/' | relative_url }}">Data Sources</a> page, free for research use.
+</p>
+
 <p class="key-answer" data-question="What is PhTxGNN?">
 <strong>PhTxGNN</strong> is a research-support platform for drug repurposing, built on the TxGNN
 model published in <em>Nature Medicine</em> by the Zitnik Lab at Harvard University. It predicts
