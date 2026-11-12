@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -64,6 +64,12 @@ Because no cited study directly examines heart fibrosarcoma, the evidence level 
 
 Currently no related clinical trials registered.
 
+<!-- review:begin ph-lic-20261106-imatinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Local registration data list imatinib as marketed, with one single-ingredient licence record on file. The record carries no dosage form or approved-indication text." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-imatinib-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -72,11 +78,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Imatinib (as mesilate) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -105,6 +115,19 @@ The prediction score is high, but no trial and no study directly addresses heart
 - Case series, tumour molecular profiling (KIT, PDGFRA/PDGFRB, COL1A1-PDGFB) or preclinical data specific to heart fibrosarcoma
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for the Philippine product, and a safety plan for the risks listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Local registration data list imatinib as marketed, with one single-ingredient licence record on file. The record carries no dosage form or a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

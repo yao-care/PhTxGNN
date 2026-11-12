@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis"
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -94,6 +94,8 @@ There is no literature for the top prediction (infectious otitis media). The tab
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Pyrazinamide | Oral |
@@ -101,6 +103,8 @@ There is no literature for the top prediction (infectious otitis media). The tab
 | Isoniazid + Rifampicin + Pyrazinamide + Ethambutol | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,11 +125,37 @@ Please refer to the package insert for safety information. Label warnings and co
 - The top prediction rests on a model score alone, with no trials or literature. The drug has no plausible activity against common otitis media pathogens.
 - The only supporting evidence is case reports of tuberculous ear infection, which are already covered by pyrazinamide's standard use in TB.
 
+<!-- review:begin ph-lic-20261106-pyrazinamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only supporting evidence is case reports of tuberculous ear infection, which are already covered by pyrazinamide's standard use in TB. In addition, the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-pyrazinamide-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear rationale for any non-tuberculous ear indication.
 - The package insert warnings and contraindications from the DOH-FDA Philippines, which are needed for safety screening.
 - If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity.
 - Any further exploration of the Lyme disease hypothesis would need laboratory data on pyrazinamide against *Borrelia* first.
+
+<!-- review:begin ph-lic-20261031-pyrazinamide-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity. / Confirmation of the current Philippines registration status, since the only record is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-pyrazinamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Confirmation of the current Philippines registration status, since the only record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "In addition, the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

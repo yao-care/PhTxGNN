@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clotrimazole: predicted new indication Acne (acne (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,11 +80,21 @@ This trial does not directly establish clotrimazole's effect on acne: the exact 
 
 ## Philippines Market Information
 
+<!-- review:begin ph-lic-20261106-clotrimazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data lists one clotrimazole record (single-ingredient, number PNF-xxxx) with no dosage form or approved indication text recorded. The market status for clotrimazole in the Philippines is **Marketed**." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-clotrimazole-1 -->
+
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Clotrimazole | Cream, Vaginal Cream, Ear Solution |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -111,6 +121,19 @@ The only trial for acne is a suspended combination-product study that cannot iso
 - Detailed mechanism of action data linking clotrimazole to acne pathology
 - Package insert warnings and contraindications for the Philippines
 - Confirmation of the dosage forms and routes available locally, as route compatibility has not been assessed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data lists one clotrimazole record (single-ingredient, number PNF-xxxx) with no dosage form or approved indication text recorded. " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

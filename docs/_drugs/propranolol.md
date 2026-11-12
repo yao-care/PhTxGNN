@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -109,11 +109,15 @@ Many other entries retrieved for this prediction are general "Propranolol" monog
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Propranolol (as hydrochloride) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,12 +141,38 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 The top prediction, distal myopathy, Tateyama type, rests only on a TxGNN model (deep learning) score. It has no trials, no literature and no plausible mechanism, and the graph itself lists muscle disease as a contraindication. The only predictions with some supporting literature (cirrhotic cardiomyopathy and cardiomyopathy) either carry mixed safety signals or largely overlap with an existing indication.
 
+<!-- review:begin ph-lic-20261106-propranolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only predictions with some supporting literature (cirrhotic cardiomyopathy and cardiomyopathy) either carry mixed safety signals or largely overlap with an existing indication. The sole Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-propranolol-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data to assess any link between beta-blockade and the predicted disease
 - Package insert warnings and contraindications for safety screening
 - Preclinical or case-based evidence that beta-blockade affects CAV3-related or other myopathy pathology, and review of the myopathy contraindication signal
 - For cirrhotic cardiomyopathy as an alternative research question: full-text review of the three observational studies and a benefit-risk analysis by disease severity
 - Clarification of the regulatory and supply pathway in the Philippines
+
+<!-- review:begin ph-lic-20261106-propranolol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory and supply pathway in the Philippines, where the drug is marketed and 1 of 1 licenses is valid" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-propranolol-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The sole Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "where the drug is marketed and 1 of 1 licenses is valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

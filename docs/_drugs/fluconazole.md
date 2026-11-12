@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 144
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -72,11 +72,15 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Fluconazole | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -95,6 +99,12 @@ Package insert warnings and contraindications were not available; please refer t
 **Rationale:**
 The prediction rests on a high model score alone, with no clinical trials or literature. The plausible mechanism applies only to a fungal subset of a mostly viral or non-infectious condition.
 
+<!-- review:begin ph-lic-20261031-fluconazole-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The plausible mechanism applies only to a fungal subset of a mostly viral or non-infectious condition. The only Philippines registration is cancelled, and the label safety data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-fluconazole-1 -->
+
 **To proceed, the following is needed:**
 - Literature and trial searches for fluconazole in fungal keratitis and punctate keratoconjunctivitis subtypes
 - Clarification of which etiologic subset of punctate epithelial keratoconjunctivitis is targeted
@@ -102,6 +112,19 @@ The prediction rests on a high model score alone, with no clinical trials or lit
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Review of the QT-prolongation and hepatic/renal risks and the interaction profile (especially chlorpropamide and corticosteroids)
 - Confirmation of the registration status, available formulations, and routes (for example, systemic versus ophthalmic) in the Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the label safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

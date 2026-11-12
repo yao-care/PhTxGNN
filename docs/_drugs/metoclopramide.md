@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,11 +83,15 @@ Reflux disease and gastric ulcer both belong to upper gastrointestinal acid-pept
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Metoclopramide | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +120,12 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Rationale:**
 The only registered trial and the most recent randomized studies concern a procedural use (endoscopic visualization in GI bleeding), not ulcer treatment. Mechanistically, metoclopramide offers no acid suppression or mucosal healing. The knowledge graph also lists active peptic ulcer disease among its contraindications.
 
+<!-- review:begin ph-lic-20261031-metoclopramide-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The knowledge graph also lists active peptic ulcer disease among its contraindications. In addition, the only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-metoclopramide-1 -->
+
 The other predictions are also weak:
 - Gastroduodenitis: 0.9990, L3, research question only
 - Gastrojejunal ulcer: 0.9978, L4, hold
@@ -126,6 +136,26 @@ The other predictions are also weak:
 - Clarification of the "active peptic ulcer disease" contraindication signal against the official label
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently missing, and a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
+
+<!-- review:begin ph-lic-20261106-metoclopramide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data from DrugBank / Confirmation of the regulatory pathway, since the Philippine registration is cancelled and has no recorded dosage form or indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-metoclopramide-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "In addition, the only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Confirmation of the regulatory pathway, since the Philippine registration is cancelled and has no recorded dosage form or indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not available in the license data (sennosides are generally known as…"
 monitor_inn: "sennosides"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -80,11 +80,15 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Calcium Sennosides (equivalent to Standardized Senna concentrate) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,11 +103,37 @@ No drug-drug interaction records were found in the data compiled for this report
 **Rationale:**
 The prediction is supported only by a model score, with no clinical trials, no literature and no plausible mechanism. In addition, its indication and safety information are missing.
 
+<!-- review:begin ph-lic-20261106-sennosides-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, the only Philippines registration has been cancelled, and its indication and safety information are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sennosides-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank and a plausible biological link to hair follicle or ocular disease
 - Preclinical or clinical evidence for any of the predicted indications
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Assessment of route and formulation compatibility (an oral laxative versus the routes required for hair or eye conditions)
+
+<!-- review:begin ph-lic-20261106-sennosides-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from DOH-FDA Philippines / Clarification of the cancelled registration status and the approved indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sennosides-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the only Philippines registration has been cancelled, and" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the approved indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

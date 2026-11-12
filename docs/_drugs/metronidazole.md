@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 234
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -81,11 +81,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Metronidazole | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,13 +108,39 @@ Please also refer to the package insert for warnings, as label-based safety info
 **Rationale:**
 The prediction is supported only by the model score. There are no clinical trials, and the literature contains no evidence that metronidazole treats Pneumocystis. Mechanistically it is implausible.
 
+<!-- review:begin ph-lic-20261106-metronidazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanistically it is implausible, and the only Philippines registration has been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-metronidazole-1 -->
+
 **To proceed, the following is needed:**
 - Mechanistic or in vitro evidence of metronidazole activity against *Pneumocystis*, which is currently lacking
 - Detailed mechanism of action data (MOA)
 - Philippines package insert warnings and contraindications
 
+<!-- review:begin ph-lic-20261106-metronidazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Philippines package insert warnings and contraindications / Confirmation of the registration status and approved indications of the cancelled authorization" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-metronidazole-2 -->
+
 **Other predictions worth considering:**
 Among the other predicted indications, those with limited case-level support (cap polyposis, ulcerative proctosigmoiditis, ulceration of vulva, myiasis as supportive wound care) are better framed as research questions than as repurposing candidates. They are supported only by case reports, reviews, or indirect rationale, with no controlled data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the only Philippines registration has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Confirmation of the registration status and approved indications of the cancelled authorization" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

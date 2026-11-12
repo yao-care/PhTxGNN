@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dacarbazine: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Hodgkin lymphoma, metastatic melanoma"
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
@@ -85,11 +85,15 @@ No randomized trial tests dacarbazine in upper aerodigestive tract neoplasm. The
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Dacarbazine | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -115,12 +119,38 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Rationale:**
 The prediction rests on a computational score alone. There are no clinical trials in this indication, and the literature only indirectly links dacarbazine to head and neck-region tumours.
 
+<!-- review:begin ph-lic-20261031-dacarbazine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials in this indication, and the literature only indirectly links dacarbazine to head and neck-region tumours. The only Philippines registration is cancelled, and the package insert safety data is unavailable, which blocks safety screening." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-dacarbazine-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines website
 - Mechanism of action data from DrugBank
 - Disease-specific evidence in upper aerodigestive tract neoplasm, such as preclinical or early clinical studies
 - Clarification of which disease subtypes (for example squamous carcinoma versus mucosal melanoma) the prediction covers
 - Confirmation of the local regulatory pathway
+
+<!-- review:begin ph-lic-20261106-dacarbazine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the local regulatory pathway, since the existing registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-dacarbazine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the package insert safety data is unavailable, which blocks safety screening" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "since the existing registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

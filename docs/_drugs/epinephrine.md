@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Epinephrine: predicted new indication Obstructive lung disease (evidence level L5). Approved use: Open-angle glaucoma, bronchitis, hypotensive disorder, asthma…"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -95,11 +95,15 @@ Of the 15 trials compiled, the 10 most relevant are listed below (asthma trials 
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Epinephrine (adrenaline) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,6 +119,12 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Rationale:**
 Several completed Phase 3 trials support inhaled epinephrine in asthma, which gives a high evidence level. However, asthma is already an original indication, so this is not new. For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit.
 
+<!-- review:begin ph-lic-20261106-epinephrine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit. The Philippines registration is cancelled, so no product is currently marketed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-epinephrine-1 -->
+
 Other predicted indications are weaker:
 - **Food-dependent exercise-induced anaphylaxis**: Research question only (L4). It is a subtype of anaphylaxis, an original indication. There are no trials, only reviews and case reports.
 - **Rienhoff syndrome**: Hold (L5). There is no trial or literature evidence and no clear mechanistic rationale.
@@ -125,6 +135,26 @@ Other predicted indications are weaker:
 - Detailed mechanism-of-action data from DrugBank
 - A decision on whether to focus on infant bronchiolitis as the real repurposing question, with a review of the latest meta-analytic evidence
 - A cardiovascular and drug-interaction safety plan, especially for patients on tricyclic antidepressants or beta-blockers
+
+<!-- review:begin ph-lic-20261106-epinephrine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A decision on whether to focus on infant bronchiolitis as the real repurposing question, with a review of the latest meta-analytic evidence / Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-epinephrine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The Philippines registration is cancelled, so no product is currently marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

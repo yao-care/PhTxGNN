@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Iodixanol"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Iodixanol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available in the Philippines licence record (indication text is e…"
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 Iodixanol is an iodinated, iso-osmolar radiographic contrast agent.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but there are **0 clinical trials** and **5 publications**, none of which show a therapeutic effect. They describe iodixanol only as an imaging probe, so this prediction rests on the model alone.
+
+<!-- review:begin ph-lic-20261106-iodixanol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Iodixanol is an iodinated, iso-osmolar radiographic contrast agent. It is registered in the Philippines, but the data compiled for this report contain no approved indication text." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-iodixanol-1 -->
 
 ## Quick Overview
 
@@ -79,11 +85,15 @@ None of these studies tests iodixanol as a treatment for osteoarthritis. All are
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Iodixanol | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction is supported only by the TxGNN score. No clinical trial exists, a
 - Mechanism of action data from DrugBank
 - The Philippines package insert, to confirm the approved indication, warnings and contraindications
 - A review of the major drug interactions, particularly with nephrotoxic agents and metformin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "It is registered in the Philippines, but the data compiled for this report contain no approved indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

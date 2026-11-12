@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not available"
 monitor_inn: "Vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -76,11 +76,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Vasopressin | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -98,12 +102,38 @@ Please refer to the package insert for safety information.
 **Rationale:**
 The top prediction has no clinical trials, only indirect literature on other factor deficiencies (and on desmopressin rather than vasopressin), and no plausible mechanism for raising prothrombin. The second prediction has no supporting evidence at all.
 
+<!-- review:begin ph-lic-20261031-vasopressin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The second prediction has no supporting evidence at all. The only Philippine registration is cancelled, and label-based safety information is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-vasopressin-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines (currently missing, and blocking safety screening)
 - Mechanism of action data for vasopressin (for example from DrugBank)
 - Independent mechanistic or preclinical evidence linking vasopressin to prothrombin deficiency, or to drug-induced osteoporosis
 - Clarification of the original approved indication
 - Review of the major drug interactions (especially QT-prolonging agents) if development is reconsidered
+
+<!-- review:begin ph-lic-20261106-vasopressin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the reason for the registration cancellation" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-vasopressin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled, and label-based safety information is missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and the reason for the registration cancellation" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

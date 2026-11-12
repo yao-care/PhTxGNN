@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 338
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial meningitis, uveitis, conjunctivitis…"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -84,12 +84,16 @@ None of these studies directly tests tobramycin in exposure keratitis.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Tobramycin | Eye Drops Solution, Eye Ointment |
 | Tobramycin + Dexamethasone | Eye Drops Suspension |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,11 +119,37 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction score is high, but it is supported only by model output and indirect literature (case reports and in vitro data), with no trials in exposure keratitis. Corneal toxicity is a concern in this setting.
 
+<!-- review:begin ph-lic-20261031-tobramycin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Corneal toxicity is a concern in this setting. The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-tobramycin-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Mechanism of action data (for example from DrugBank)
 - Clinical or well-designed preclinical data on tobramycin in exposure keratitis, including corneal epithelial safety
 - A comparison with existing standard care for exposure keratitis
+
+<!-- review:begin ph-lic-20261031-tobramycin-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Clinical or well-designed preclinical data on tobramycin in exposure keratitis, including corneal epithelial safety / Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-tobramycin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-10-31 | Removed: "Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

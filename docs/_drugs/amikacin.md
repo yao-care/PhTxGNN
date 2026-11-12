@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 22
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ For the closely related typhoid fever prediction, one small clinical study (PMID
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Amikacin (as sulfate) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,12 +108,31 @@ Safety information from the compiled data is limited. Package insert warnings an
 **Rationale:**
 The prediction score is very high, but the evidence consists of surveillance, susceptibility, and case-level reports with no efficacy trials for amikacin. Aminoglycosides are not standard therapy for paratyphoid or enteric fever, because of poor intracellular penetration and the availability of better-established agents.
 
+<!-- review:begin ph-lic-20261031-amikacin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Aminoglycosides are not standard therapy for paratyphoid or enteric fever, because of poor intracellular penetration and the availability of better-established agents. The only Philippine registration is cancelled, and package insert safety data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-amikacin-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Detailed mechanism of action data (for example from DrugBank)
 - Comparative clinical data on amikacin in enteric fever, ideally prospective, against current standard therapy
 - Clarification of the current registration status and available formulations in the Philippines
 - A safety monitoring plan covering nephrotoxicity, ototoxicity, and neuromuscular effects, given the contraindication-related conditions and major interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled, and package insert safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 154
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluticasone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -88,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Fluticasone (as propionate) | Nasal Aqueous Solution, Inhalation (DPI), Inhalation (MDI),… |
@@ -95,6 +97,8 @@ Currently no related clinical trials registered.
 | Fluticasone (as propionate) + Salmeterol (as xinafoate) | Inhalation, Inhalation (DPI), Inhalation (MDI) |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,12 +121,31 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction is supported only by a model score. There are no clinical trials, and the sole publication is a safety review rather than evidence of benefit.
 
+<!-- review:begin ph-lic-20261031-fluticasone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, and the sole publication is a safety review rather than evidence of benefit. The only Philippine registration is cancelled, and the package insert and mechanism data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-fluticasone-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data (for example, from DrugBank) to assess the link to migraine
 - A targeted literature search for corticosteroids in migraine, including the 2008 review's relevance to headache as an adverse event versus a treatment effect
 - Clarification of the original approved indication and available dosage forms or routes
 - Confirmation of the registration status of any current fluticasone products in the Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled, and the package insert and mechanism data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

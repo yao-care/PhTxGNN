@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 185
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Philippines registration record (general anaesthesi…"
 monitor_inn: "Isoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -114,11 +114,15 @@ The remaining migraine papers are preclinical migraine-model studies (CGRP, nitr
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Isoflurane | Inhalation |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -153,10 +157,36 @@ Package insert warnings and contraindications were not available. Please refer t
 - Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical.
 - Migraine (refractory or status migrainosus) is the only prediction with a plausible mechanism and any clinical signal, but that signal is two case reports of one case. It is better treated as a research question than a development candidate.
 
+<!-- review:begin ph-lic-20261106-isoflurane-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical. / It is marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-isoflurane-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Detailed mechanism of action data (for example from DrugBank)
 - For migraine: controlled clinical data in refractory or status migrainosus, with a risk-benefit assessment and a plan for post-emergence recurrence
+
+<!-- review:begin ph-lic-20261106-isoflurane-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "For migraine: controlled clinical data in refractory or status migrainosus, with a risk-benefit assessment and a plan for post-emergence recurrence / Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-isoflurane-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "It is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

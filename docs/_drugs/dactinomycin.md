@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 95
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, rhabdomyosarcoma, Wilms tumor…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -81,11 +81,21 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- review:begin ph-lic-20261106-dactinomycin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved-indication text are not recorded for this registration. The drug is marketed in the Philippines, with 1 valid licence of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-dactinomycin-2 -->
+
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Dactinomycin | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,11 +135,30 @@ Package insert warnings and contraindications for the Philippines are not availa
 **Rationale:**
 The prediction has no clinical trials or literature behind it (L5). It has no plausible mechanism for MS, and dactinomycin's toxicity is a major barrier in a chronic non-oncologic condition.
 
+<!-- review:begin ph-lic-20261031-dactinomycin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "It has no plausible mechanism for MS, and dactinomycin's toxicity is a major barrier in a chronic non-oncologic condition. The only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-dactinomycin-1 -->
+
 **To proceed, the following is needed:**
 - A credible biological rationale or preclinical data linking dactinomycin to MS pathology
 - Mechanism of action data
 - Package insert warnings and contraindications
 - A benefit-risk comparison against existing MS disease-modifying therapies
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Dosage form and approved-indication text are not recorded for this registration. The drug is marketed in the Philippines, with 1 valid licen" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 320
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data"
@@ -94,11 +94,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Sucralfate | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,13 +125,39 @@ Please refer to the package insert for label warnings, which were not available 
 **Rationale:**
 The evidence is not strong enough to proceed.
 
+<!-- review:begin ph-lic-20261031-sucralfate-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The TxGNN score is high and the mechanism is plausible, but there are no registered trials, the randomized studies are small and about 20-40 years old, and the only Philippines registration is cancelled. The evidence is not strong enough to proceed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-sucralfate-1 -->
+
 **To proceed, the following is needed:**
 - Full-text review of the two randomized trials (PMID 3839973 and 12923369) to confirm actual outcomes
 - Confirmed mechanism of action data from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A safety plan for patients with kidney disease or diabetes, and for interactions (especially with integrase inhibitors, tetracyclines and bisphosphonates)
 
+<!-- review:begin ph-lic-20261106-sucralfate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the DOH-FDA Philippines / A valid Philippines registration or a plan to re-register the product" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sucralfate-2 -->
+
 *Note on the second prediction: "duodenal obstruction" (TxGNN score 0.9930) was also reviewed. No credible mechanistic link or supporting evidence was found, because obstruction is a structural problem a mucosal protectant would not be expected to relieve. It is rated L5 with a Hold recommendation.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The TxGNN score is high and the mechanism is plausible, but there are no registered trials, the randomized studies are small and about 20-40" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "A valid Philippines registration or a plan to re-register the product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -74,13 +74,23 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Ofloxacin | Oral, Eye Drops Solution, Ear Drops Solution |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved indication text is available in the data compiled for this report, so the approved uses in the Philippines cannot be confirmed. The infections listed above are relations recorded in the knowledge graph, not confirmed approved indications.
+
+<!-- review:begin ph-lic-20261106-ofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The registration is a single-ingredient product with valid status. No approved indication text is available in the data compiled for this report, so the approved uses in the Philippines cannot be confirmed." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ofloxacin-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction for polyclonal hyperviscosity syndrome has no clinical, literatur
 - A plausible mechanistic hypothesis linking ofloxacin to immunoglobulin-driven hyperviscosity
 - Mechanism of action data and the Philippines package insert (warnings, contraindications, approved indications)
 - If a repurposing lead is wanted, consider re-prioritising toward septicemic plague, where in vitro and animal data exist; it would need human evidence and a review of the local regulatory position
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The registration is a single-ingredient product with valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout, hyperuricemia and acute urate nephropathy"
 ---
 
@@ -80,13 +80,23 @@ No clinical trials are currently registered for this prediction. Neither paper d
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Allopurinol | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The list is complete.
+
+<!-- review:begin ph-lic-20261106-allopurinol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record lists 1 single-ingredient registration with valid status. The list is complete." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-allopurinol-1 -->
 
 ---
 
@@ -119,6 +129,19 @@ The prediction is supported only by a model score. No trial or publication direc
 - Mechanism of action data
 - Clinical or mechanistic evidence on allopurinol's effect on heme biosynthesis and porphyria, including safety in porphyria patients
 - Expert review of whether the score reflects an adverse association rather than a therapeutic one
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record lists 1 single-ingredient registration with valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

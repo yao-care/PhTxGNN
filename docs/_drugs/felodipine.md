@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -88,13 +88,23 @@ None of the publications below directly studies pulmonary hypertension owing to 
 
 For the related prediction *chronic pulmonary heart disease*, only indirect haemodynamic data exist: an acute and long-term haemodynamic study of felodipine in severe COPD ([2838319](https://pubmed.ncbi.nlm.nih.gov/2838319/), 1988, Eur Respir J) reported reductions in pulmonary vascular resistance (18%) and systemic vascular resistance (33%) with increased cardiac output. A heart failure haemodynamic study ([2487551](https://pubmed.ncbi.nlm.nih.gov/2487551/), 1989) and a review of calcium antagonists in hypertension ([3154329](https://pubmed.ncbi.nlm.nih.gov/3154329/), 1988) are also available. None provides controlled outcome evidence.
 
+<!-- review:begin ph-lic-20261106-felodipine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence is a single-ingredient product and is currently valid. The record carries no indication text, so no approved indication can be confirmed from local data." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-felodipine-1 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Felodipine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +126,26 @@ The prediction rests on a model score and a plausible vasodilatory mechanism onl
 - Mechanism of action data and the package insert warnings and contraindications from DOH-FDA Philippines
 - A review of the knowledge-graph contraindication relations against label text
 - Approved indication text and dosage form
+
+<!-- review:begin ph-lic-20261106-felodipine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Approved indication text and dosage form for licence PNF-xxxx" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-felodipine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence is a single-ingredient product and is currently valid. The record carries no indication text, so no approved indication can be c" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

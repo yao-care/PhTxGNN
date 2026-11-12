@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 91
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyproterone Acetate: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the local registration record"
 monitor_inn: "Cyproterone acetate"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "amenorrhea (disease)", "breast fibrocystic disease", "thrombophilia"]
@@ -77,11 +77,15 @@ None of these papers shows CPA treating migraine.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Cyproterone (as acetate) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -108,11 +112,37 @@ Please refer to the package insert for further safety information.
 **Rationale:**
 The prediction rests on a model score and indirect hormonal literature, with no clinical trials. The direction of effect is uncertain, because hormonal therapy can worsen migraine. Its thrombotic safety signal is a concern.
 
+<!-- review:begin ph-lic-20261106-cyproterone_acetate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is also marketed in the Philippines (1 valid license of 1), and its thrombotic safety signal is a concern." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-cyproterone_acetate-1 -->
+
 **To proceed, the following is needed:**
 - Direct clinical evidence of CPA benefit in migraine, such as controlled trials
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications for safety screening
 - Clarification of the regulatory status in the Philippines
+
+<!-- review:begin ph-lic-20261106-cyproterone_acetate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status in the Philippines, including whether any valid registration or product is available" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-cyproterone_acetate-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug is also marketed in the Philippines (1 valid license of 1), and i" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "including whether any valid registration or product is available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

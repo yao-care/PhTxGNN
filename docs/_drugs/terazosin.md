@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,15 +89,25 @@ Currently no related literature is available for the top-ranked prediction (hypo
 
 The 1994 migraine paper concerns migraine without aura, so it does not match the "migraine with brainstem aura" subtype.
 
+<!-- review:begin ph-lic-20261106-terazosin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Terazosin is currently marketed in the Philippines, with 1 valid license out of 1, so any new use would require a new registration or a variation of the existing one." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-terazosin-1 -->
+
 ---
 
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Terazosin (as hydrochloride) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,11 +127,38 @@ Please refer to the package insert for warnings and label contraindications, as 
 **Rationale:**
 The top prediction, hypotrichosis simplex of the scalp, is supported only by the model score, with no trials or literature, so the evidence level is L5. The package-insert safety data is missing. Raynaud disease and migraine disorder have limited, dated, small-scale publications (evidence level L3, flagged as research questions) and could be considered for follow-up, but they are not sufficient to proceed.
 
+<!-- review:begin ph-lic-20261106-terazosin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The registration in the Philippines is cancelled, and the package-insert safety data is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-terazosin-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Philippine FDA
 - Detailed mechanism-of-action data
 - For Raynaud disease or migraine: a systematic literature review and, if justified, a controlled study, compared against established alternatives such as calcium channel blockers
 - Rationale or biological validation for the hair-related predictions before any further investment
+
+<!-- review:begin ph-lic-20261106-terazosin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "For Raynaud disease or migraine: a systematic literature review and, if justified, a controlled study, compared against established alternatives such as calcium channel blockers / Clarification of the Philippines registration status (cancelled) and the dosage form" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-terazosin-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Terazosin is currently marketed in the Philippines, with 1 valid license out of 1, so any new use would require a new registration or a vari" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "he registration in the Philippines is cancelled, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the Philippines registration status (cancelled) and the dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

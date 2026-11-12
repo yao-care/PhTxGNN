@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 323
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -96,11 +96,15 @@ Atopic dermatitis and seborrheic dermatitis are both chronic, relapsing inflamma
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Tacrolimus | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -121,11 +125,37 @@ Please refer to the package insert for further safety information.
 **Rationale:**
 A completed Phase 3 trial and a completed Phase 4 trial directly test tacrolimus ointment in seborrheic dermatitis, supported by a clinical study and several reviews, and the mechanism is plausible. However, there are no published results from the Phase 3 trial in the data reviewed. The boxed warning on malignancy and lymphoma for topical calcineurin inhibitors requires careful management.
 
+<!-- review:begin ph-lic-20261106-tacrolimus-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippines registration is cancelled, and the boxed warning on malignancy and lymphoma for topical calcineurin inhibitors requires careful management." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tacrolimus-1 -->
+
 **To proceed, the following is needed:**
 - Results of NCT02004860 and NCT01591070 (efficacy, relapse rates, safety)
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - A long-term safety monitoring plan consistent with the boxed warning (short-term or intermittent use, avoiding infected skin and very young children)
+
+<!-- review:begin ph-lic-20261106-tacrolimus-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data from DrugBank / Clarification of the cancelled registration status and whether a topical product is available or can be registered in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tacrolimus-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he Philippines registration is cancelled, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether a topical product is available or can be registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

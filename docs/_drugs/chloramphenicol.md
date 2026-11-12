@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -39,6 +39,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 ## One-Sentence Summary
 
 Chloramphenicol is an antibacterial drug. The TxGNN model predicts it may be relevant to **diffuse scleroderma** (score 0.9965). However, **no clinical trials** exist and the 4 publications retrieved are laboratory studies, not evidence that the drug works in patients.
+
+<!-- review:begin ph-lic-20261106-chloramphenicol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Chloramphenicol is an antibacterial drug that is currently registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-chloramphenicol-1 -->
 
 ## Quick Overview
 
@@ -77,13 +83,23 @@ All four are laboratory studies. None tested chloramphenicol as a treatment in p
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Chloramphenicol | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The approved indication is not recorded in the local data.
+
+<!-- review:begin ph-lic-20261106-chloramphenicol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippines licence for single-ingredient chloramphenicol is valid. The approved indication is not recorded in the local data." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-chloramphenicol-2 -->
 
 ## Safety Considerations
 
@@ -107,6 +123,19 @@ The prediction rests on model output alone. The only literature is laboratory re
 - Mechanism of action data
 - Local package insert warnings and contraindications
 - A risk-benefit assessment given the haematological toxicity profile
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that is currently registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The Philippines licence for single-ingredient chloramphenicol is valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

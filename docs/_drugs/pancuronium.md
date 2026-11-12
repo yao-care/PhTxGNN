@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pancuronium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Pancuronium"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "migraine disorder", "migraine with brainstem aura", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "autonomic nervous system disease", "MVP1"]
@@ -94,11 +94,15 @@ These papers describe anesthetic and haemodynamic management in patients who alr
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Pancuronium (as bromide) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,12 +124,31 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The prediction rests only on the TxGNN network score. There are no clinical trials or direct literature, and no plausible mechanism links neuromuscular blockade to cauda equina syndrome. Systemic paralytic dosing would also be unsuitable for any chronic condition.
 
+<!-- review:begin ph-lic-20261106-pancuronium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Systemic paralytic dosing would also be unsuitable for any chronic condition. The only registration in the Philippines is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-pancuronium-1 -->
+
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Package insert warnings and contraindications
 - Direct preclinical or clinical evidence for the predicted indication
 - A clear rationale for why a neuromuscular blocker would suit any of the predicted conditions
 - Confirmation of the regulatory and availability status in the Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only registration in the Philippines is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

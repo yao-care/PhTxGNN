@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "pyelitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -68,6 +68,12 @@ The link to the new indication is an inference. Uterine and pelvic infections ca
 
 Neither trial studies uterine inflammatory disease.
 
+<!-- review:begin ph-lic-20261106-fosfomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the Philippine approved uses cannot be confirmed from the data compiled for this report." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-fosfomycin-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -76,11 +82,15 @@ Neither trial studies uterine inflammatory disease.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Fosfomycin | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction rests on the model score and a plausible antibacterial mechanism.
 - The Philippine package insert, giving approved indications, dosage forms, warnings and contraindications
 - A review of the knowledge-graph contraindication relations (kidney disease and others) against the official label
 - Consideration of a better-supported nearby indication, such as pyelitis, which is close to urinary tract infection and has a randomized phase 2/3 trial of IV fosfomycin in complicated UTI and acute pyelonephritis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the Philippine approved uses can" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

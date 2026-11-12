@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 10
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -89,13 +89,23 @@ This mechanism applies most directly to microvascular, VWF-driven thrombosis suc
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Acetylcysteine | Oral, Injection, Inhalation |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 Manufacturer and indication text are not recorded.
+
+<!-- review:begin ph-lic-20261106-acetylcysteine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report contain one registration (PNF-xxxx, Acetylcysteine, single-ingredient). Dosage form, manufacturer and indication text are not recorded." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-acetylcysteine-1 -->
 
 ## Safety Considerations
 
@@ -115,6 +125,19 @@ Completed and ongoing Phase 2/3 trials directly study NAC in thrombotic microang
 - Definition of the target thrombotic condition (for example TTP or transplant-associated TMA)
 - Mechanism of action data and package insert warnings and contraindications
 - Review of the interaction profile in the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report contain one registration (PNF-xxxx, Acetylcysteine, single-ingredient). Dosage form, m" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

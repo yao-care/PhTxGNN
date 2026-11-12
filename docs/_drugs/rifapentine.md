@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 295
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rifapentine: predicted new indication Leprosy (evidence level L3). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -80,11 +80,15 @@ Currently no related clinical trials are registered for leprosy in the data comp
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Rifapentine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,15 +103,41 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 **Rationale:**
 The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). However, no registered trial could be matched, and package insert safety data are missing, so the evidence cannot yet support moving forward.
 
+<!-- review:begin ph-lic-20261106-rifapentine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanistic rationale and a 2023 randomized trial report for leprosy post-exposure prophylaxis are encouraging (evidence level L3 in this review). Rifapentine is marketed in the Philippines with 1 valid licence of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-rifapentine-2 -->
+
 **To proceed, the following is needed:**
 - Verification of the design and results of the 2023 household contact trial, and of other registered leprosy trials
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Mechanism of action data from DrugBank
 - A drug-interaction management plan, particularly for co-administered drugs affected by CYP induction
 
+<!-- review:begin ph-lic-20261031-rifapentine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Mechanism of action data from DrugBank / Clarification of the regulatory pathway, since the only registration (PNF-xxxx) is cancelled" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-rifapentine-1 -->
+
 ---
 
 **Note on other predictions:** Among the other predicted indications, HIV infectious disease has the strongest evidence (L1, including a completed 3,000-participant Phase 3 trial, NCT01404312). That evidence concerns TB prevention and treatment in people with HIV, not HIV infection itself, so it does not constitute a new indication. The remaining predictions (female breast carcinoma, Prinzmetal angina, neuroretinitis, vestibular neuronitis, motor nerve neuritis, brachial plexus neuritis, dermatofibrosarcoma protuberans, rheumatoid arthritis) have no supporting trials and little or no relevant literature, and are on Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Rifapentine is marketed in the Philippines with 1 valid licence of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

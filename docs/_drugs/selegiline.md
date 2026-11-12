@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -123,12 +123,38 @@ Please refer to the package insert for further safety information, as label warn
 **Rationale:**
 - Schizophrenia has the strongest support among the predictions, with several randomized trials of selegiline for negative symptoms. However, results are mixed, the registered trial is early phase, and no completed Phase 2/3 results are available in the compiled data. The other three predictions have no credible support.
 
+<!-- review:begin ph-lic-20261031-selegiline-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The other three predictions have no credible support. / The only Philippines registration is cancelled, and the knowledge graph lists psychotic disorders as contraindications, which adds a safety question for this population." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-selegiline-1 -->
+
 **To proceed, the following is needed:**
 - Review the full results of the RCTs (PMIDs 15677608, 17972359, 10587287) and the 2023 meta-analysis (PMID 37087864) to judge the net effect on negative symptoms
 - Mechanism of action data (MOA) from DrugBank
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A risk assessment of the psychosis-related contraindication signal and the major drug interactions (especially with antidepressants and sympathomimetics)
 - Clarification of the regulatory status and availability of selegiline in the Philippines
+
+<!-- review:begin ph-lic-20261106-selegiline-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status and availability of selegiline in the Philippines, since the sole registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-selegiline-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the knowledge graph lists psychotic disorders as contraindications, which adds a safety " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "since the sole registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

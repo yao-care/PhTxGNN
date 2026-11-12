@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Bacterial infections (streptococcal, staphylococcal, pneumonia…"
 ---
 
@@ -76,13 +76,23 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Moxifloxacin | Oral, Ophthalmic solution |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals.
+
+<!-- review:begin ph-lic-20261106-moxifloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient registration. The record contains no approved indication text, so the indications listed above come from the TxGNN model (deep learning). The scores may reflect similarities the model learned between related diseases, not biological evidence, and the indications are not confirmed approvals." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-moxifloxacin-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction has no supporting trials or literature and no plausible mechanism
 - Mechanism of action data and Philippine package insert warnings and contraindications
 - Preclinical or clinical studies that directly address this disease
 - A benefit-risk review that takes the knowledge-graph contraindications into account
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient registration. The record contains no approved indication text, so the indications listed above come from the TxG" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

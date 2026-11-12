@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pyridostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly"]
 description: "Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data"
@@ -85,11 +85,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Pyridostigmine (as bromide) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -112,11 +116,30 @@ Please refer to the package insert for the full warnings and contraindications.
 **Rationale:**
 The mechanism is well established for AChR-antibody myasthenia gravis, which is the typical form associated with thymic hyperplasia. The prediction, however, mostly restates an existing use, and no trials or direct evidence in this subtype are available.
 
+<!-- review:begin ph-lic-20261106-pyridostigmine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction, however, mostly restates an existing use, and no trials or direct evidence in this subtype are available. The only registration in the Philippines has been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-pyridostigmine-1 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the antibody subtype (AChR versus MuSK) before use, since MuSK-positive patients may respond poorly
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Detailed mechanism of action data
 - A check of the contraindicating conditions listed above (asthma, kidney disease, urinary tract obstruction) and of concurrent corticosteroids, anticholinergics and aminoglycosides
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The only registration in the Philippines has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 44
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bicalutamide: predicted new indication Hypertrichosis (evidence level L4). Approved use: Not recorded in the Philippines registration data"
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -83,11 +83,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Bicalutamide | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -104,6 +108,12 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
   - **Moderate:** famotidine, loperamide, aprepitant, bisacodyl, budesonide (including nasal), castor oil, clarithromycin, eliglustat, glycerin, granisetron, lactitol, lactulose, levofloxacin, magnesium citrate, magnesium hydroxide and mineral oil.
   - **Minor:** metronidazole.
 
+<!-- review:begin ph-lic-20261106-bicalutamide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved indication are not recorded for this authorization." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-bicalutamide-3 -->
+
 Please refer to the package insert for warnings and label-based contraindications.
 
 ---
@@ -115,6 +125,12 @@ Please refer to the package insert for warnings and label-based contraindication
 **Rationale:**
 The prediction rests on a model score and a single commentary letter, with no clinical trials. The mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis.
 
+<!-- review:begin ph-lic-20261106-bicalutamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-bicalutamide-2 -->
+
 For context, a lower-ranked prediction in the same data, **female breast carcinoma** (score 0.9911), has stronger support. It has one active Phase 2 trial (NCT03650894, bicalutamide with nivolumab and ipilimumab) and substantial preclinical literature on AR-positive triple-negative breast cancer. It was assessed at evidence level L2 with a "Proceed with Guardrails" recommendation, and may be a better candidate for further evaluation.
 
 **To proceed, the following is needed:**
@@ -123,6 +139,27 @@ For context, a lower-ranked prediction in the same data, **female breast carcino
 - Detailed mechanism of action data
 - The original approved indication and package insert warnings, contraindications and dosage forms from the DOH-FDA Philippines record
 - A safety plan covering liver function and the major drug interactions
+
+<!-- review:begin ph-lic-20261031-bicalutamide-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The original approved indication and package insert warnings, contraindications and dosage forms from the DOH-FDA Philippines record / Confirmation of regulatory status, since the only registration found is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-bicalutamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Confirmation of regulatory status, since the only registration found is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "he drug is marketed in the Philippines, with 1 valid license out of 1, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Dosage form and approved indication are not recorded for this authorization" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

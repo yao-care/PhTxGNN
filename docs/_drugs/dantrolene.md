@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,13 +80,23 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Dantrolene (as sodium salt) | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved-indication text is recorded for it in the local data.
+
+<!-- review:begin ph-lic-20261106-dantrolene-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Dantrolene is currently recorded as marketed in the Philippines, with at least one valid registration in the local data. No approved-indication text is recorded for it in the local data." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-dantrolene-1 -->
 
 ---
 
@@ -112,6 +122,19 @@ Other safety information, including warnings and contraindications, was not avai
 - A systematic literature and trial search for dantrolene in multiminicore disease and related RYR1 myopathies.
 - Detailed mechanism-of-action data for dantrolene.
 - The package insert warnings and contraindications, and a safety plan for this patient population.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Dantrolene is currently recorded as marketed in the Philippines, with at least one valid registration in the local data" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

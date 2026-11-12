@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Salbutamol (as sulfate) | Oral, Inhalation, Breath Actuated MDI, Resp. Soln. |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed.
+
+<!-- review:begin ph-lic-20261031-salbutamol-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The only record is cancelled, and no dosage form or approved indication text is on file. No ophthalmic (eye) route is documented either, and route compatibility for the proposed indication has not been assessed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-salbutamol-1 -->
 
 ## Safety Considerations
 
@@ -99,6 +109,12 @@ No package insert warnings or contraindications are available for the Philippine
 **Rationale:**
 The prediction for papillary conjunctivitis is supported only by a high model score (L5). There are no trials or publications, and the mechanism is speculative.
 
+<!-- review:begin ph-lic-20261106-salbutamol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There are no trials or publications, and the mechanism is speculative. The product is also not currently registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-salbutamol-2 -->
+
 **To proceed, the following is needed:**
 - Preclinical or early human studies of topical or ocular salbutamol in papillary or allergic conjunctivitis, including ocular safety (intraocular pressure, glaucoma risk)
 - Mechanism of action data and an assessment of route compatibility (an ophthalmic formulation)
@@ -107,6 +123,20 @@ The prediction for papillary conjunctivitis is supported only by a high model sc
 **Other predictions in the data compiled for this report** have more evidence than papillary conjunctivitis:
 - **Obstructive lung disease (L1):** it includes a completed Phase 3 trial (n=1,118) of an ipratropium/salbutamol combination. This is largely an extension of the original respiratory use rather than true repurposing.
 - **Anaphylaxis (L3):** its only Phase 3 trial was terminated early (n=24).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only record is cancelled, and no dosage form or approved indication text is on file" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The product is also not currently registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,13 +94,23 @@ One of the reports (PMID 11212595) describes quetiapine *worsening* obsessive-co
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Quetiapine (as fumarate) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 Quetiapine is marketed in the Philippines.
+
+<!-- review:begin ph-lic-20261106-quetiapine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Quetiapine is marketed in the Philippines. One registration is on record, and it is valid (1 valid registration of 1)." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-quetiapine-2 -->
 
 ---
 
@@ -122,10 +132,37 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Rationale:**
 The top-ranked prediction (retinal dystrophy with or without extraocular anomalies) and nearly all other top-10 predictions rest on model scores alone, with no trials, no literature and no plausible mechanism. Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks.
 
+<!-- review:begin ph-lic-20261106-quetiapine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-quetiapine-3 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data to assess biological plausibility
 - Package insert warnings and contraindications from DOH-FDA Philippines (currently missing; needed for safety screening)
 - For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted
+
+<!-- review:begin ph-lic-20261031-quetiapine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted / Clarification of the regulatory pathway, since the only Philippine registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-quetiapine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "One registration is on record, and it is valid (1 valid registration of 1)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

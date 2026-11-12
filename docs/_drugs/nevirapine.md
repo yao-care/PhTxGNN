@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nevirapine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -76,12 +76,16 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Nevirapine | Oral |
 | Lamivudine + Zidovudine + Nevirapine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,11 +101,37 @@ Please refer to the package insert for the official warnings and contraindicatio
 **Rationale:**
 The prediction rests on a computational score and one in vitro study. There are no clinical trials, the predicted indication is veterinary, and FIV (like SIV) is expected to respond poorly to NNRTIs.
 
+<!-- review:begin ph-lic-20261031-nevirapine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, the predicted indication is veterinary, and FIV (like SIV) is expected to respond poorly to NNRTIs. In the Philippines, the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-nevirapine-1 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the nevirapine-specific findings in the 2023 FIV study (PMID 38031646), including potency against FIV reverse transcriptase
 - Mechanism of action data (MOA)
 - Package insert warnings and contraindications from DOH-FDA Philippines, which are needed before any safety screening
 - A clear decision on whether a veterinary indication falls within the scope of this repurposing programme
+
+<!-- review:begin ph-lic-20261031-nevirapine-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "A clear decision on whether a veterinary indication falls within the scope of this repurposing programme / Clarification of the regulatory status of nevirapine in the Philippines, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-nevirapine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "In the Philippines, the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-10-31 | Removed: "Clarification of the regulatory status of nevirapine in the Philippines, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

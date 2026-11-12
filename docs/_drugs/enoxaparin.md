@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,13 +70,23 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Enoxaparin (as sodium salt) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The data lists one single-ingredient record for this drug.
+
+<!-- review:begin ph-lic-20261106-enoxaparin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data lists one single-ingredient record for this drug. Its status is shown as cancelled, while the overall market status is reported as marketed. This discrepancy should be verified against the regulator's current register before any decision." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-enoxaparin-2 -->
 
 ## Safety Considerations
 
@@ -103,12 +113,32 @@ Label-based warnings and contraindications are not available. Please refer to th
 **Rationale:**
 The TxGNN score is very high (0.9958), but no trials or publications directly study this disease with enoxaparin, so the evidence level is L5. Package insert safety data and mechanism data are also missing.
 
+<!-- review:begin ph-lic-20261106-enoxaparin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert safety data and mechanism data are also missing, and the local licence record is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-enoxaparin-1 -->
+
 **To proceed, the following is needed:**
 - Literature and trial search for heparin or low-molecular-weight heparin use in severe congenital protein C deficiency
 - Mechanism-of-action data for enoxaparin
 - Package insert warnings and contraindications from the regulator
 - Verification of the current licence and market status in the Philippines
 - Safety and bleeding-risk plan, including management of interacting drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the local licence record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Its status is shown as cancelled, while the overall market status is reported as marketed. This discrepancy should be verified against the r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

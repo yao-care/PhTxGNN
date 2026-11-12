@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -89,11 +89,15 @@ Pneumocystis jirovecii is an opportunistic fungal pathogen that depends on folat
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Dapsone | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -116,6 +120,25 @@ Four completed Phase 3 randomized trials (NCT00000802, NCT00000991, NCT00001028,
 - G6PD screening and monitoring plan for methemoglobinemia and hemolysis
 - Check for sulfonamide cross-reactivity
 - Confirm local product availability and dosage forms
+
+<!-- review:begin ph-lic-20261106-dapsone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm local product availability and dosage forms, since the only registration record has no recorded dosage form or indication text" Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-dapsone-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "since the only registration record has no recorded dosage form or indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

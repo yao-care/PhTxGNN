@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 78
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -91,15 +91,25 @@ The table lists the most relevant publications, with cohort studies first and th
 
 Most of the remaining retrieved publications are case reports on MF subtypes or diagnostic mimics. They do not directly assess clobetasol.
 
+<!-- review:begin ph-lic-20261106-clobetasol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clobetasol is marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-clobetasol-1 -->
+
 ---
 
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Clobetasol (as propionate) | Cream or Ointment, Shampoo |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -119,12 +129,39 @@ For other safety information, please refer to the package insert.
 **Rationale:**
 Cohort data and clinical experience support topical clobetasol as first-line skin-directed therapy for early-stage mycosis fungoides, and the mechanism is plausible. However, there are no registered trials. The evidence covers only early-stage MF.
 
+<!-- review:begin ph-lic-20261106-clobetasol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The evidence covers only early-stage MF. Clobetasol is marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-clobetasol-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, which are currently missing and block the safety screening
 - Detailed mechanism of action data from DrugBank
 - Confirmation of the topical dosage form and route
 - Restriction of use to early-stage (patch/plaque) MF, with a monitoring plan for long-term skin adverse effects
 - Severity grading of the potential drug interactions
+
+<!-- review:begin ph-lic-20261106-clobetasol-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data from DrugBank / A valid local registration, or a confirmed supply route, for a topical clobetasol product" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-clobetasol-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clobetasol is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clobetasol is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "A valid local registration, or a confirmed supply route, for a topical clobetasol product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

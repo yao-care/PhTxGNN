@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -84,13 +84,23 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Retinol (vitamin A) (as palmitate) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved indication text is on record.
+
+<!-- review:begin ph-lic-20261106-vitamin_a-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The only registration is a single-ingredient product that has been cancelled. No dosage form or approved indication text is on record." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-vitamin_a-2 -->
 
 ---
 
@@ -113,6 +123,12 @@ Package insert warnings and contraindications were not available for this report
 **Rationale:**
 The prediction rests only on a model score. No trials or publications support it, and there is no plausible mechanistic link to the vitamin K-dependent prothrombin pathway.
 
+<!-- review:begin ph-lic-20261031-vitamin_a-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "No trials or publications support it, and there is no plausible mechanistic link to the vitamin K-dependent prothrombin pathway. The only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-vitamin_a-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological hypothesis linking vitamin A to prothrombin deficiency
 - Package insert warnings and contraindications for safety screening
@@ -123,6 +139,20 @@ The prediction rests only on a model score. No trials or publications support it
 Two lower-ranked predictions have more supporting evidence and may deserve a separate review:
 - **Perinatal disease (score 0.9963):** The evidence level is L1. Multiple Cochrane meta-analyses of vitamin A supplementation in very low birth weight infants support it, for reducing bronchopulmonary dysplasia and related morbidity. The benefit is modest, and dose and route matter. A large malaria-in-pregnancy trial (NCT01115478) also exists but is a different perinatal setting. This is the strongest candidate (Proceed with Guardrails).
 - **Injury (score 0.9969):** The evidence level is L2. Reviews on wound healing support it, and two neonatal trials (NCT02102711, NCT01203488) address lung injury in preterm infants. Safety signals include bone fracture risk and liver toxicity at high doses.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The only registration is a single-ingredient product that has been cancelled. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

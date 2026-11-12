@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Nitrous oxide"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
 description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,11 +75,15 @@ The only clinical connection is procedural. Nitrous oxide has been used to reduc
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Nitrous Oxide | Inhalation |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,6 +106,25 @@ The only supporting trial addresses procedural anxiety during prostate biopsy ra
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Clarification of the original approved indication
 - Assessment of route and formulation compatibility for the proposed use
+
+<!-- review:begin ph-lic-20261106-nitrous_oxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and the reason for the registration cancellation" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-nitrous_oxide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the reason for the registration cancellation" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

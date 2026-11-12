@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,11 +89,15 @@ The table lists the most relevant publications for diabetic nephropathy. Clinica
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Sacubitril/Valsartan | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,11 +112,37 @@ Please refer to the package insert for warnings and contraindications, as these 
 **Rationale:**
 Diabetic nephropathy has a plausible mechanism and consistent preclinical support, but human evidence is limited. The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. The other four predictions rest on model scores alone.
 
+<!-- review:begin ph-lic-20261031-sacubitril-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-sacubitril-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Results or a status update for NCT06501651, and any completed Phase 3 RCTs in diabetic nephropathy
 - Full-text review of the clinical studies (PMIDs 37549515 and 40416927) to confirm study design and outcomes
+
+<!-- review:begin ph-lic-20261106-sacubitril-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Results or a status update for NCT06501651, and any completed Phase 3 RCTs in diabetic nephropathy / Clarification of the cancelled registration and of the original approved indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sacubitril-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration and of the original approved indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

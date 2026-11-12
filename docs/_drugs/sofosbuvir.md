@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 315
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sofosbuvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
 description: "Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data"
@@ -60,6 +60,12 @@ The mechanistic link to hepatitis B is weak. Hepatitis B virus is a DNA virus th
 
 The most direct evidence is a Phase 2 open-label pilot of ledipasvir/sofosbuvir for 12 weeks in people with hepatitis B infection (NCT03312023, published as PMID 36045503). It was prompted by a modest drop in HBsAg seen in earlier retrospective data from co-infected patients. The study was single-arm and small, and it used a combination product rather than sofosbuvir alone. The prediction is therefore a research hypothesis, not an established use.
 
+<!-- review:begin ph-lic-20261106-sofosbuvir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sofosbuvir-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -89,6 +95,8 @@ The most direct evidence is a Phase 2 open-label pilot of ledipasvir/sofosbuvir 
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Sofosbuvir | Oral |
@@ -96,6 +104,8 @@ The most direct evidence is a Phase 2 open-label pilot of ledipasvir/sofosbuvir 
 | Sofosbuvir + velpatasvir | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -122,6 +132,18 @@ Please refer to the package insert for warnings and contraindications.
 - A controlled study with a clinically meaningful hepatitis B endpoint, such as a functional cure.
 - A reactivation monitoring and prophylaxis plan for people with hepatitis B.
 - The package insert warnings and contraindications for the Philippine registration, and mechanism-of-action data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

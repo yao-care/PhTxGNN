@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 224
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data"
@@ -120,6 +120,12 @@ For bacterial arthritis (top prediction), the most relevant publications are:
 
 For the best-supported prediction (complicated UTI), key publications include:
 
+<!-- review:begin ph-lic-20261106-meropenem-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This registration is **cancelled**." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-meropenem-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [29486041](https://pubmed.ncbi.nlm.nih.gov/29486041/) | 2018 | RCT | JAMA | TANGO I: meropenem-vaborbactam vs piperacillin-tazobactam in complicated UTI |
@@ -132,11 +138,15 @@ For the best-supported prediction (complicated UTI), key publications include:
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Meropenem (as trihydrate) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -160,11 +170,38 @@ Please refer to the package insert for warnings and label contraindications, whi
 - Complicated UTI is the only prediction with Phase 3 RCT support (L1, Proceed with Guardrails), but it confirms meropenem's established role rather than a new use. It would need stewardship guardrails (reserve for resistant or severe infections).
 - *S. aureus* infection (L3) is a possible research question. Ureaplasma urethritis conflicts with known biology, and laryngitis, Lyme disease, Peptostreptococcus infection and gonococcal urethritis lack clinical support.
 
+<!-- review:begin ph-lic-20261106-meropenem-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It would need stewardship guardrails (reserve for resistant or severe infections), and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-meropenem-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the DOH-FDA Philippines, which is a blocking gap for safety screening
 - Mechanism of action data from DrugBank
 - For bacterial arthritis: prospective or comparative clinical data on meropenem in septic arthritis and bone and joint infections
 - A stewardship and antimicrobial-resistance plan if any indication is pursued
+
+<!-- review:begin ph-lic-20261106-meropenem-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "For bacterial arthritis: prospective or comparative clinical data on meropenem in septic arthritis and bone and joint infections / Clarification of the cancelled registration status and whether re-registration or an alternative supply route is needed" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-meropenem-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This registration is **cancelled**" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether re-registration or an alternative supply route is needed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

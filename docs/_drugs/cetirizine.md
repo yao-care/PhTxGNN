@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 Cetirizine is an H1-receptor antagonist (antihistamine).
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but no clinical trials are registered and the available **5 publications** do not directly study this disease as a specific condition.
+
+<!-- review:begin ph-lic-20261106-cetirizine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cetirizine is an H1-receptor antagonist (antihistamine) with a local registration record in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-cetirizine-1 -->
 
 ## Quick Overview
 
@@ -92,6 +98,19 @@ The prediction score is high, but no clinical trial exists and no cited study di
 - Detailed mechanism of action data
 - Package insert warnings and contraindications from the Philippines FDA
 - Review of the interaction profile for the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with a local registration record in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

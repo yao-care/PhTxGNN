@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ritonavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection / AIDS"
 monitor_inn: "Ritonavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -88,11 +88,15 @@ Most of these studies used combination regimens, so ritonavir-specific effects c
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Lopinavir + Ritonavir | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -119,12 +123,31 @@ Package insert warnings and contraindications for the Philippines are not availa
 - The high TxGNN scores (about 0.9992) are not backed by any clinical trial. For SIV infection, the preclinical data support plausibility, but SIV is an animal model disease with no human indication, so the repurposing gain is minimal. Feline AIDS and the neurodevelopmental disorder have no supporting evidence.
 - SIV infection is best treated as a research question for translational HIV modelling, not a development candidate.
 
+<!-- review:begin ph-lic-20261031-ritonavir-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Feline AIDS and the neurodevelopmental disorder have no supporting evidence. / The only Philippines registration is cancelled, and the safety profile is substantial (cardiac, hepatic, metabolic and interaction concerns)." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-ritonavir-1 -->
+
 **To proceed, the following is needed:**
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Ritonavir-specific (not combination-regimen) data in SIV or FIV models
 - A target-level rationale before considering the neurodevelopmental disorder
 - Clarification of the current Philippines registration status and approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the safety profile is substantial (cardiac, hepatic, metabolic and interaction concerns)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

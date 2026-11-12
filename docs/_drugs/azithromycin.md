@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not stated in the local licence record. The TxGNN model (deep learning) score may reflect similarities the model learned between related diseases, not biological evidence…"
 ---
 
@@ -94,13 +94,23 @@ For reference, selected publications from lower-ranked predictions are below.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Azithromycin | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 Approved indication text is not available in the local record.
+
+<!-- review:begin ph-lic-20261106-azithromycin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record shows one valid single-ingredient registration. Approved indication text is not available in the local record." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-azithromycin-2 -->
 
 ## Safety Considerations
 
@@ -119,11 +129,31 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 The top prediction, hyperamylasemia, rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no publications and no supported mechanism. Safety signals, especially QT prolongation, add to the need for caution.
 
+<!-- review:begin ph-lic-20261031-azithromycin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The top prediction, hyperamylasemia, rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no publications and no supported mechanism. The strongest alternative direction (sickle cell disease) has only withdrawn trials and indirect evidence." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-azithromycin-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link to the predicted disease
 - Package insert warnings and contraindications from the Philippines FDA
 - Any clinical or observational data on azithromycin and serum amylase
 - If the sickle cell disease direction is pursued, a new adequately powered trial with a cardiac (QT) safety plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The strongest alternative direction (sickle cell disease) has only withdrawn trials and indirect evidence" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The record shows one valid single-ingredient registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

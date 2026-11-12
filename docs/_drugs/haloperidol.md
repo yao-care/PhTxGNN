@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder, schizophrenia…"
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
@@ -82,11 +82,21 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- review:begin ph-lic-20261106-haloperidol-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There is 1 valid licence out of 1. Dosage form and approved indication text were not available for this record." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-haloperidol-2 -->
+
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Haloperidol | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,10 +127,37 @@ Package insert warnings and contraindications for the Philippines were not avail
 - The prediction has no clinical, preclinical or mechanistic support, and no plausible link between D2 antagonism and fucosylation defects.
 - Its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial.
 
+<!-- review:begin ph-lic-20261106-haloperidol-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Haloperidol's local registration is cancelled, and its safety profile (QT prolongation, extrapyramidal and haematological risks) is substantial." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-haloperidol-3 -->
+
 **To proceed, the following is needed:**
 - Mechanistic data showing any plausible connection between haloperidol and fucosylation pathways, plus detailed mechanism of action data.
 - Preclinical studies, for example in patient-derived cells or animal models of the disorder.
 - Philippines package insert warnings and contraindications.
+
+<!-- review:begin ph-lic-20261031-haloperidol-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Philippines package insert warnings and contraindications. / Verification of local product availability, since the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-haloperidol-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Verification of local product availability, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "There is 1 valid licence out of 1. Dosage form and approved indication text were not available for this record" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Haloperidol's local registration is cancelled, and i" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

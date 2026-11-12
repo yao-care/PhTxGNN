@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,11 +73,15 @@ Literature exists only for lower-ranked predictions (for example, primary pulmon
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Chlorambucil | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -106,11 +110,30 @@ Package insert warnings and contraindications for the Philippine product are not
 **Rationale:**
 The high TxGNN score for IGHV-mutated CLL/SLL is not backed by any trial or publication on this subtype, so the evidence level is L5. Chlorambucil carries significant myelosuppression risk.
 
+<!-- review:begin ph-lic-20261106-chlorambucil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Chlorambucil carries significant myelosuppression risk, and the Philippine licence record has no indication or safety text." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-chlorambucil-1 -->
+
 **To proceed, the following is needed:**
 - Subtype-specific clinical data on chlorambucil in IGHV-mutated CLL/SLL, including comparison with current standard therapies
 - Detailed mechanism of action data
 - Philippine package insert with approved indication, warnings and contraindications
 - A safety monitoring plan covering blood counts and the interaction risks identified above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the Philippine licence record has no indication or safety text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

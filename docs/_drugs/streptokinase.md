@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Streptokinase"
 predicted_indications: ["Prinzmetal angina", "hemoglobinopathy", "peripheral vascular disease", "peripheral arterial disease", "partial deletion of the short arm of chromosome 16"]
 description: "Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 Streptokinase is a clot-dissolving (thrombolytic) enzyme. The original indication is not recorded in the data compiled for this report.
 Myocardial infarction is already an established, guideline-recognised use of streptokinase, so this is not a true repurposing case.
+
+<!-- review:begin ph-lic-20261106-streptokinase-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The original indication is not recorded in the data compiled for this report, and the single Philippines registration has no indication text." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-streptokinase-2 -->
 
 ---
 
@@ -108,11 +114,15 @@ The evidence is mostly older reviews and trial reports. There are no recent head
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Streptokinase | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -140,6 +150,12 @@ Please refer to the package insert for label warnings and contraindications.
 - Streptokinase has a long-established evidence base in acute MI, including large randomised trials and meta-analyses, and the same applies to coronary thrombosis.
 - Streptokinase is already a recognised MI treatment, so this is a confirmation of an existing use rather than a new repurposing finding.
 
+<!-- review:begin ph-lic-20261031-streptokinase-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Streptokinase is already a recognised MI treatment, so this is a confirmation of an existing use rather than a new repurposing finding. Fibrin-specific agents and primary PCI are preferred in many settings, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-streptokinase-1 -->
+
 **To proceed, the following is needed:**
 - Confirm whether any streptokinase product is currently available or can be registered in the Philippines.
 - Obtain the package insert warnings and contraindications.
@@ -151,6 +167,20 @@ Please refer to the package insert for label warnings and contraindications.
   - Peripheral vascular and arterial disease: research questions only, to be assessed together.
   - MI subtypes (septal, posterolateral, posteroinferior): evaluate under the parent MI indication.
   - Prinzmetal angina, hemoglobinopathy and chromosome 16 partial deletion: hold, with no support for further work.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Fibrin-specific agents and primary PCI are preferred in many settings, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and the single Philippines registration has no indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

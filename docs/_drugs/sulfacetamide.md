@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
 description: "Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,11 +78,15 @@ For lower-ranked predictions, two papers were retrieved. Neither supports effica
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Sulfacetamide + Prednisolone | Eye Drops Suspension |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,11 +109,37 @@ Please refer to the package insert for full warnings and precautions.
 **Rationale:**
 The prediction is supported only by the model score, with no clinical trials or literature, and no clear mechanistic link between an antibacterial sulfonamide and an immune-mediated condition. Package insert safety information is unavailable.
 
+<!-- review:begin ph-lic-20261106-sulfacetamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippines registration is cancelled, and package insert safety information is unavailable." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sulfacetamide-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to assess any biological link to vasculitis
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A literature and trial search specific to sulfacetamide and postinfectious vasculitis
 - If any further work is pursued, a review of the more clinically plausible ocular and otic predictions (for example otitis externa, punctate epithelial keratoconjunctivitis), with attention to the erythema multiforme safety signal
+
+<!-- review:begin ph-lic-20261031-sulfacetamide-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "A literature and trial search specific to sulfacetamide and postinfectious vasculitis / Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-sulfacetamide-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The hilippines registration is cancelled, and p" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

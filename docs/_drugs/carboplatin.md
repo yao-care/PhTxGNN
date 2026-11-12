@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -42,6 +42,12 @@ Carboplatin is a platinum-based cytotoxic chemotherapy drug.
 The TxGNN model predicts it may be useful for **rectum mucinous adenocarcinoma**, with a score of 0.9928.
 **No clinical trials and no publications** were found for this specific disease, so the prediction is currently model-based only.
 
+<!-- review:begin ph-lic-20261106-carboplatin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Carboplatin is a platinum-based cytotoxic chemotherapy drug that is registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-carboplatin-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -68,13 +74,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ph-lic-20261106-carboplatin-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The approved indication text and dosage form are not recorded in the local data." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-carboplatin-3 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Carboplatin | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -112,6 +128,27 @@ The prediction score is high (0.9928), but no clinical trial or publication was 
 - Mechanism of action data and a platinum-specific rationale for this tumour type
 - Package insert warnings and contraindications from the Philippine regulator
 - Clarification of the licence record, including its indication text and dosage form
+
+<!-- review:begin ph-lic-20261106-carboplatin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the licence record (PNF-xxxx), including its indication text and dosage form" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-carboplatin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "(PNF-xxxx)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The approved indication text and dosage form are not recorded in the local data" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

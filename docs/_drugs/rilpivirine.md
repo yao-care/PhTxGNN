@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Rilpivirine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease, AIDS"
 ---
 
@@ -78,13 +78,23 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Rilpivirine (as hydrochloride) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 It lists no indication text, so no approved indication can be confirmed from local data.
+
+<!-- review:begin ph-lic-20261106-rilpivirine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record is a single-ingredient licence with valid status. It lists no indication text, so no approved indication can be confirmed from local data." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-rilpivirine-1 -->
 
 ## Safety Considerations
 
@@ -103,6 +113,19 @@ The prediction rests on animal-model studies that mainly reflect the existing HI
 - Mechanism of action data
 - A clear case for what unmet need SIV infection (a non-human disease) would address
 - Review of the QT, liver and kidney related relations and the acid-suppressant interactions against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single-ingredient licence with valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

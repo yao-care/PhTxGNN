@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -68,13 +68,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ph-lic-20261106-risperidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least one valid single-ingredient registration exists in the Philippines for risperidone." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-risperidone-1 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Risperidone | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -97,6 +107,18 @@ The prediction has no supporting trials or publications, and no mechanistic link
 - A plausible mechanistic rationale linking risperidone to the disease biology
 - Package insert warnings and contraindications from the Philippine regulator
 - Mechanism of action data for the drug
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least one valid single-ingredient registration exists in the Philippines for risperidone" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

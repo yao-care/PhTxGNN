@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -65,6 +65,12 @@ One important caveat: the PKD3 subtype (GANAB-related) has not been specifically
 
 Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 and REPRISE) appear only through the publications below.
 
+<!-- review:begin ph-lic-20261106-tolvaptan-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This may reflect a specific product or formulation rather than overall availability." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tolvaptan-3 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -82,11 +88,15 @@ Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 a
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Tolvaptan | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,11 +117,23 @@ Package insert warnings were not available, so please refer to the package inser
 **Rationale:**
 Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications.
 
+<!-- review:begin ph-lic-20261031-tolvaptan-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications. However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-tolvaptan-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Detailed mechanism-of-action data (e.g. from DrugBank)
 - Evidence specific to PKD3 (GANAB-related) disease, or a justification for extrapolating from ADPKD
 - A liver monitoring plan and a review of high-risk drug interactions (especially strong CYP3A inhibitors such as clarithromycin)
+
+<!-- review:begin ph-lic-20261106-tolvaptan-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A liver monitoring plan and a review of high-risk drug interactions (especially strong CYP3A inhibitors such as clarithromycin) / Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tolvaptan-2 -->
 
 ---
 
@@ -119,6 +141,21 @@ Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and pol
 - **Thoracic malformation** (L4): only a neonatal case report where the effect reflects fluid management, not the malformation itself.
 - **Joubert syndrome with renal defect** (L5): the only article is a genetics review with no tolvaptan data. Polyuria from concentrating defects may be worsened by aquaretic therapy.
 - **Renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, adult familial nephronophthisis-spastic quadriparesia syndrome, Dandy-Walker-associated syndromes, and the odontal/periodontal malformation syndrome** (all L5): prediction only, with no evidence retrieved.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "This may reflect a specific product or formulation rather than overall availability" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

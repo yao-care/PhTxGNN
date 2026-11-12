@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 163
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Goserelin: predicted new indication Amenorrhea (evidence level L3). Approved use: Endometriosis (including endometriosis of uterus)"
 monitor_inn: "Goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
@@ -99,11 +99,15 @@ Most of this literature concerns breast cancer and endometriosis, with amenorrhe
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Goserelin (as acetate) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -126,10 +130,36 @@ Please refer to the package insert for warnings and formal contraindications.
 **Rationale:**
 The only related trial is a breast cancer study where amenorrhea is not the target, and the literature mainly describes amenorrhea as a pharmacological effect of ovarian suppression. The high TxGNN score likely reflects this association.
 
+<!-- review:begin ph-lic-20261106-goserelin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The high TxGNN score likely reflects this association. In addition, goserelin is marketed in the Philippines (1 valid licence of 1)." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-goserelin-2 -->
+
 **To proceed, the following is needed:**
 - A clear definition of the intended use (induced amenorrhea, for example for heavy bleeding or fertility protection, versus treatment of pathological amenorrhea)
 - Mechanism of action data and package insert safety information (warnings and contraindications)
 - Prospective clinical evidence with amenorrhea or ovarian protection as a defined endpoint
+
+<!-- review:begin ph-lic-20261031-goserelin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Mechanism of action data and package insert safety information (warnings and contraindications) / Clarification of regulatory status in the Philippines, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-goserelin-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of regulatory status in the Philippines, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "In addition, goserelin is marketed in the Philippines (1 valid licence of 1)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

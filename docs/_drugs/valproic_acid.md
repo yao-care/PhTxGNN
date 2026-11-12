@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -102,6 +102,8 @@ Selected literature for the better-supported alternative predictions:
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Sodium Valproate | Oral |
@@ -109,6 +111,8 @@ Selected literature for the better-supported alternative predictions:
 | Valproic Acid | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -138,12 +142,31 @@ Literature in the compiled data also points to other well-known concerns: terato
 - The top-ranked prediction (trigeminal nerve neoplasm) has no clinical trials and no relevant literature, so it sits at L5 (model prediction only). None of the ten predicted indications has a registered trial, and the best-supported one, startle epilepsy (L3), rests on small observational studies and case reports.
 - The package insert safety data could not be obtained.
 
+<!-- review:begin ph-lic-20261106-valproic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Valproic acid is marketed in the Philippines (2 of 2 licences valid), and the package insert safety data could not be obtained." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-valproic_acid-1 -->
+
 **To proceed, the following is needed:**
 - Review of the package insert, as safety screening cannot proceed without warnings and contraindications
 - Mechanism of action data from DrugBank
 - For startle epilepsy, trigeminal neuralgia and reading seizures, a focused literature review or small controlled study, since these have the most plausible links to existing evidence
 - For the trigeminal nerve neoplasm prediction, preclinical evidence (for example HDAC-inhibitor activity in relevant tumour models) before any further investment
 - A pregnancy-prevention and liver-monitoring plan, given the known risks in women of reproductive age
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Valproic acid is marketed in the Philippines (2 of 2 licences valid), and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

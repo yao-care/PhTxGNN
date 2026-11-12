@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Glucagon"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 Glucagon is a pancreatic peptide hormone.
 The TxGNN model predicts it may be useful for **irritable bowel syndrome**, but no study found tests glucagon itself in this condition. The **2 clinical trials** and the literature compiled for this report concern GLP-1 and GLP-1 receptor agonists, which are different drugs, so the evidence level is **L5**.
+
+<!-- review:begin ph-lic-20261106-glucagon-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Glucagon is a pancreatic peptide hormone that is registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-glucagon-1 -->
 
 ## Quick Overview
 
@@ -86,11 +92,15 @@ The publications below concern GLP-1 or GLP-1 receptor agonists, or IBS in gener
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Glucagon (as hydrochloride) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -110,6 +120,18 @@ No study tests glucagon in irritable bowel syndrome. The supporting trials and p
 - Mechanism of action data for glucagon and an analysis of how the glucagon receptor could affect IBS symptoms
 - Package insert warnings and contraindications from the Philippines regulator
 - Product details for the local registration (dosage form and approved indication)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

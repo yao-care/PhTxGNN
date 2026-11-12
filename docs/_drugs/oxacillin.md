@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 265
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
 description: "Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -84,11 +84,15 @@ For reference, the closest related prediction, bacterial arthritis, has some ind
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Oxacillin (as sodium salt) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -111,12 +115,31 @@ Please refer to the package insert for the full warnings and contraindications.
 **Rationale:**
 The TxGNN score is very high, but there are no clinical trials or publications for epiglottitis. The main causative organisms are poorly covered by oxacillin.
 
+<!-- review:begin ph-lic-20261106-oxacillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The main causative organisms are poorly covered by oxacillin, and the only Philippines registration has been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-oxacillin-1 -->
+
 **To proceed, the following is needed:**
 - Clinical or microbiological evidence for oxacillin in staphylococcal epiglottitis
 - Detailed mechanism of action data (MOA)
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Confirmation of an available marketed product and dosage form in the Philippines
 - A comparison against standard empirical therapy for epiglottitis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the only Philippines registration has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

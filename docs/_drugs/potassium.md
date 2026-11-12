@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 280
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Potassium: predicted new indication Hypertensive disorder (evidence level L2). Approved use: Not available"
 monitor_inn: "Potassium"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -40,6 +40,12 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 Potassium is an essential mineral and electrolyte.
 The TxGNN model predicts it may be useful for **hypertensive disorder**, with **23 clinical trials** and **20 publications** retrieved. Most of the trials do not test potassium itself, and the strongest support comes from meta-analyses of dietary or supplemental potassium.
+
+<!-- review:begin ph-lic-20261106-potassium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Potassium is an essential mineral and electrolyte. In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate. All three registrations are valid, and no approved indication text is available." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-potassium-1 -->
 
 ---
 
@@ -117,6 +123,14 @@ Only the trials most relevant to potassium as the intervention are listed. Sever
 
 No approved indication text is recorded.
 
+<!-- review:begin ph-lic-20261106-potassium-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All three registrations are valid. No dosage form or approved indication text is recorded." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-potassium-2 -->
+
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Potassium (as citrate) | Oral |
@@ -124,6 +138,8 @@ No approved indication text is recorded.
 | Potassium Phosphate | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -144,11 +160,39 @@ The main safety concern for potassium supplementation is hyperkalemia. Higher ri
 **Rationale:**
 Meta-analyses of randomized trials support a blood-pressure-lowering effect of increased potassium intake, and the TxGNN score is high (0.9916). However, this evidence comes mainly from dietary or supplemental potassium. The Phase 3 trials that test potassium directly are small or lack reported results. Evidence is therefore capped at L2.
 
+<!-- review:begin ph-lic-20261106-potassium-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Phase 3 trials that test potassium directly are small or lack reported results, although the drug is marketed in the Philippines with all three licenses valid." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-potassium-4 -->
+
 **To proceed, the following is needed:**
 - Package insert safety data (warnings, contraindications), which are currently missing and block formal safety screening
 - Mechanism of action data from DrugBank
 - Results and enrollment details for NCT00000509, or a new adequately powered trial of a potassium product in hypertension
 - A safety plan covering hyperkalemia: serum potassium and renal function monitoring, and exclusion or close monitoring of patients with CKD or on ACE inhibitors, ARBs or MRAs
+
+<!-- review:begin ph-lic-20261106-potassium-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert safety data (warnings, contraindications), which are currently missing and block formal safety screening / Regulatory clarification of the cancelled market status and the missing original indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-potassium-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "In the Philippines it is registered as potassium phosphate, potassium chloride and potassium citrate. All three registrations are valid, and" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "All three registrations are valid. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Regulatory clarification of the cancelled market status and the missing original indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "although the drug is marketed in the Philippines with all three licenses valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

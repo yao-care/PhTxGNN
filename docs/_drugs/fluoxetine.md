@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 Fluoxetine is a selective serotonin reuptake inhibitor.
 The TxGNN model predicts it may be useful for **paranoid personality disorder**, with a score of 0.9992.
 There are **no clinical trials** and only **7 loosely related publications** (none specific to this disease), so the prediction rests on model output alone.
+
+<!-- review:begin ph-lic-20261106-fluoxetine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Fluoxetine is a selective serotonin reuptake inhibitor, marketed in the Philippines under one valid licence." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-fluoxetine-1 -->
 
 ## Quick Overview
 
@@ -80,11 +86,15 @@ None of these papers studies paranoid personality disorder as a fluoxetine treat
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Fluoxetine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ No clinical trial or publication directly studies fluoxetine in paranoid persona
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - A safety plan covering the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "marketed in the Philippines under one valid licence" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

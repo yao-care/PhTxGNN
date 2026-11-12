@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 5
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamivudine: predicted new indication simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,8 @@ All studies are preclinical, review or non-drug-specific; no human clinical stud
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Lamivudine | Oral |
@@ -93,7 +95,15 @@ All studies are preclinical, review or non-drug-specific; no human clinical stud
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved-indication text is recorded for it.
+
+<!-- review:begin ph-lic-20261106-lamivudine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One local licence record (PNF-xxxx, Lamivudine, single-ingredient) is on file. No dosage form or approved-indication text is recorded for it." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 7 entries for this drug, 7 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-lamivudine-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +123,19 @@ The only evidence for this prediction is animal-model and indirect preclinical w
 - Package insert warnings and contraindications from the Philippines regulator
 - A clear statement of the intended use (research model versus any clinical purpose), since no human trials exist
 - Direct studies of lamivudine in SIV infection, as most supplied papers are about combinations, resistance mutations or other drugs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One local licence record (PNF-xxxx, Lamivudine, single-ingredient) is on file. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

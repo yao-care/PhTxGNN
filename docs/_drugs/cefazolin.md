@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefazolin: predicted new indication Infectious otitis media (evidence level L5). Approved use: Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis"
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -84,11 +84,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Cefazolin (as sodium salt) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,12 +118,38 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction rests on a model score and the general antibacterial class effect. No clinical trials exist, and the two publications are a case report and an unrelated review. Cefazolin is parenteral only and has limited coverage of key otitis media pathogens.
 
+<!-- review:begin ph-lic-20261106-cefazolin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cefazolin is parenteral only and has limited coverage of key otitis media pathogens. The only registration in the Philippines is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-cefazolin-2 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications (a blocking gap for safety screening)
 - Detailed mechanism of action data from DrugBank
 - Evidence that cefazolin offers an advantage over standard oral or topical otitis media treatment, such as a comparative clinical study
 
+<!-- review:begin ph-lic-20261031-cefazolin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Evidence that cefazolin offers an advantage over standard oral or topical otitis media treatment, such as a comparative clinical study / Clarification of the regulatory situation, since the only Philippines registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-cefazolin-1 -->
+
 **Note on other predicted indications:** Among the other predictions, bronchitis (L3), chronic otitis media (L3) and suppurative otitis media (L3) have some dated, limited human data, including a 1982 comparative study in suppurative otitis media in which cefazolin served as the comparator. They are better treated as research questions than as repurposing candidates. Middle ear disease (L4) rests on indirect veterinary and microbiological data. Otosalpingitis, non-suppurative otitis media and allergic otitis media (L5) have no supporting studies. The last two are not primarily bacterial conditions, so the antibacterial rationale is weak.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the regulatory situation, since the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The only registration in the Philippines is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

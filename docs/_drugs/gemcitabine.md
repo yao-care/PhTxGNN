@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "secretory uterine corpus endometrioid adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Gemcitabine: predicted new indication Rectum mucinous adenocarcinoma (evidence level L5). Approved use: Ovarian cancer and related ovarian tumours"
 ---
 
@@ -69,13 +69,23 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Gemcitabine (as hydrochloride) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report contain no approved indication text for it. The ovarian-cancer use above therefore cannot be described as a locally approved indication.
+
+<!-- review:begin ph-lic-20261106-gemcitabine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This single-ingredient licence is valid. The data compiled for this report contain no dosage form or approved indication text for it." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-gemcitabine-1 -->
 
 ## Cytotoxicity
 
@@ -106,6 +116,26 @@ The prediction has a high model score but no supporting trial or publication for
 - Mechanism-of-action data and an analysis of how this tumour relates to the original ovarian use
 - The package insert, covering approved indications, dosage form, warnings and contraindications
 - A safety monitoring plan, particularly for haematological toxicity and for patients with kidney or liver disease
+
+<!-- review:begin ph-lic-20261106-gemcitabine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The package insert for PNF-xxxx, covering approved indications, dosage form, warnings and contraindications" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-gemcitabine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This single-ingredient licence is valid. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "for PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

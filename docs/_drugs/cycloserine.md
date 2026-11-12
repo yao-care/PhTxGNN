@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 90
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cycloserine: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
@@ -71,11 +71,15 @@ Currently no related literature available for irritable bowel syndrome.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Cycloserine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -94,11 +98,37 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. The risk-benefit balance for a functional gut condition like IBS is unfavorable.
 
+<!-- review:begin ph-lic-20261031-cycloserine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-cycloserine-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological link to IBS
 - Preclinical or clinical evidence of benefit in IBS
 - Package insert warnings and contraindications from the Philippines regulator
 - A safety plan addressing neuropsychiatric toxicity and the major drug interactions
+
+<!-- review:begin ph-lic-20261106-cycloserine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A safety plan addressing neuropsychiatric toxicity and the major drug interactions / Clarification of the cancelled registration status and the availability of any marketed product" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-cycloserine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the availability of any marketed product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

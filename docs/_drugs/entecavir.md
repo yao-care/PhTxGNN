@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -62,6 +62,12 @@ Hepatitis C virus is an RNA virus that replicates with the NS5B RNA-dependent RN
 
 The high model score probably reflects the two infections being closely associated in the literature, not a demonstrated antiviral effect on HCV.
 
+<!-- review:begin ph-lic-20261106-entecavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippines records list one registration for entecavir (PNF-xxxx), and the local data do not record an approved indication, dosage form or manufacturer for it." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-entecavir-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
@@ -84,11 +90,15 @@ The high model score probably reflects the two infections being closely associat
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Entecavir | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The cited studies address HBV in patients also infected with HCV, not HCV treatm
 - Mechanism of action data
 - Package insert warnings and contraindications from the Philippines FDA
 - If the co-infection setting is the interest, a separate question on HBV reactivation prophylaxis during DAA therapy
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The Philippines records list one registration for entecavir (PNF-xxxx), and the local data do not record an approved indication, dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

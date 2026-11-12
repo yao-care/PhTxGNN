@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, myocardial infarction"
 ---
 
@@ -84,13 +84,23 @@ Currently no related clinical trials registered for the top-ranked indication, m
 
 Currently no related literature available for malignant hypertensive renal disease.
 
+<!-- review:begin ph-lic-20261106-atenolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with valid status. The record contains no indication text, so no approved indication can be confirmed from the local record." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-atenolol-1 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Atenolol | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,6 +123,19 @@ The prediction is supported only by a high model score (0.9985). There are no cl
 - Clinical or observational studies that directly examine atenolol in malignant hypertensive renal disease
 - A clinical rationale for how an oral beta-blocker would fit into the care of hypertensive emergencies
 - Route and dosage form confirmation, since the local record lists no dosage form
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with valid status. The record contains no indication text, so no approved indication can be confirmed fr" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

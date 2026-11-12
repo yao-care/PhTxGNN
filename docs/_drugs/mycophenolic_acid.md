@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mycophenolic Acid: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not available in the registration data"
 monitor_inn: "Mycophenolic acid"
 predicted_indications: ["hemoglobinopathy", "migraine disorder", "migraine with brainstem aura", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyruvate kinase deficiency of red cells", "rheumatoid arthritis", "antithrombin deficiency type 2"]
@@ -75,11 +75,15 @@ The very high TxGNN score should therefore be read as a computational signal, no
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Mycophenolic Acid (as Mycophenolate Sodium) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -99,11 +103,37 @@ For warnings and contraindications, please refer to the package insert.
 **Rationale:**
 The link to hemoglobinopathy is indirect. The only related trial tests a different drug (basiliximab), and the only related publication is a dosing study of the prodrug in transplant patients. There is no efficacy evidence for treating the blood disorder itself.
 
+<!-- review:begin ph-lic-20261106-mycophenolic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There is no efficacy evidence for treating the blood disorder itself. The product is also no longer validly registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-mycophenolic_acid-1 -->
+
 **To proceed, the following is needed:**
 - Efficacy and safety data for mycophenolate-based GVHD prophylaxis specifically in thalassemia or other hemoglobinopathy transplant populations
 - Clarification of the original approved indication and mechanism of action data
 - Package insert warnings and contraindications, which are needed before any safety screening
 - Review of the regulatory status
+
+<!-- review:begin ph-lic-20261106-mycophenolic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of the regulatory status, since the only Philippine registration (PNF-xxxx) is cancelled" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-mycophenolic_acid-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The product is also no longer validly registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "since the only Philippine registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 350
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
@@ -92,6 +92,8 @@ Selected supporting papers for the predictions:
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Valsartan | Oral |
@@ -99,6 +101,8 @@ Selected supporting papers for the predictions:
 | Valsartan + Hydrochlorothiazide | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,12 +121,31 @@ Please refer to the package insert for further safety information, as label warn
 **Rationale:**
 The lead prediction is supported only by a model score and one indirect preclinical paper on a different drug, with no clinical trials (L4). It is also close to valsartan's existing hypertension indication. In addition, label safety data are unavailable.
 
+<!-- review:begin ph-lic-20261106-valsartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "In addition, valsartan is currently marketed in the Philippines (1 valid license of 1), and label safety data are unavailable." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-valsartan-1 -->
+
 **To proceed, the following is needed:**
 - Valsartan-specific clinical or preclinical evidence in malignant hypertensive renal disease
 - Confirmation of the current Philippines registration status and a valid product registration
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - Mechanism of action data (e.g., from DrugBank)
 - Renal safety assessment (renal artery stenosis, hyperkalaemia, impaired renal function) for severe hypertension with kidney involvement
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "valsartan is currently marketed in the Philippines (1 valid license of 1), and" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

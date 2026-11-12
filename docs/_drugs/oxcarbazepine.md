@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ None of these publications addresses oxcarbazepine for visual epilepsy specifica
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Oxcarbazepine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -102,12 +106,38 @@ Package insert warnings and contraindications were not available. Please refer t
 
 **Rationale:**
 
+<!-- review:begin ph-lic-20261031-oxcarbazepine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "**Rationale:** The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-oxcarbazepine-1 -->
+
 **To proceed, the following is needed:**
 - A targeted literature search for oxcarbazepine in visual or photosensitive epilepsy, ideally with case series or controlled data
 - Detailed mechanism of action data (MOA) from DrugBank
 - The package insert (warnings and contraindications) from the DOH-FDA Philippines
 - Review of the relevant safety signals, including seizure aggravation in generalized epilepsy, hyponatraemia/SIADH, and renal impairment
 - A reassessment of other candidates: status epilepticus and restless legs syndrome have case-level reports only, and the remaining reflex seizure types have little or no direct evidence
+
+<!-- review:begin ph-lic-20261031-oxcarbazepine-2 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The package insert (warnings and contraindications) from the DOH-FDA Philippines / Clarification of the licence situation (the only registration is cancelled) and available dosage forms" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-oxcarbazepine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current eviden" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-10-31 | Removed: "Clarification of the licence situation (the only registration is cancelled) and available dosage forms" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 Hydroxyurea is an antineoplastic drug that inhibits ribonucleotide reductase.
 The TxGNN model predicts it may be effective for **female breast carcinoma**.
 There are **no registered clinical trials** for this disease and **20 publications** were retrieved, but they are mostly preclinical or only indirectly relevant, so the evidence is weak.
+
+<!-- review:begin ph-lic-20261106-hydroxyurea-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Hydroxyurea is an antineoplastic drug that inhibits ribonucleotide reductase and is registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-hydroxyurea-1 -->
 
 ## Quick Overview
 
@@ -81,11 +87,15 @@ No retrieved paper is a clinical study of hydroxyurea in breast cancer. The most
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Hydroxyurea | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -116,6 +126,19 @@ The prediction score is very high, but no clinical trial and no clinical study o
 - Package insert warnings and contraindications from the Philippines regulator
 - Detailed mechanism-of-action data
 - A safety monitoring plan covering myelosuppression, kidney function and the conditions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

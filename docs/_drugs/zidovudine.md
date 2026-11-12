@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -70,6 +70,12 @@ Currently no related clinical trials registered.
 
 No randomized controlled trials were found. The table below lists the most relevant publications, all in cats or animal models.
 
+<!-- review:begin ph-lic-20261106-zidovudine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There is currently 1 valid license out of 1 registered in the Philippines, and the drug is marketed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 4 entries for this drug, 4 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-zidovudine-2 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinary clinical study | Viruses | Compared zidovudine alone and in combination (with interferon-α, lamivudine or valproic acid) in naturally FIV-infected cats over one year. Outcomes were clinical status, viral load and CD4+/CD8+ ratios. |
@@ -85,6 +91,8 @@ No randomized controlled trials were found. The table below lists the most relev
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Zidovudine | Oral |
@@ -93,6 +101,8 @@ No randomized controlled trials were found. The table below lists the most relev
 | Zidovudine + Lamivudine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -121,10 +131,37 @@ Please also refer to the package insert for safety information.
   - Congenital HIV has Phase 3 support (NCT00102960, n=377), plus U.S. Public Health Service recommendations on perinatal use.
   - Both carry Proceed with Guardrails ratings. Hematologic toxicity, myopathy, pregnancy safety, and use inside combination therapy rather than monotherapy would need attention.
 
+<!-- review:begin ph-lic-20261106-zidovudine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippine registration is cancelled, and the package insert warnings are not available." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 4 entries for this drug, 4 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-zidovudine-3 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from the Philippine FDA.
 - Detailed mechanism of action data from DrugBank.
 - Confirmation of whether any human indication is worth pursuing, given that the human predictions are on-label HIV uses.
+
+<!-- review:begin ph-lic-20261031-zidovudine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Confirmation of whether any human indication is worth pursuing, given that the human predictions are on-label HIV uses. / Clarification of the current regulatory status, since the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 4 entries for this drug, 4 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-zidovudine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of the current regulatory status, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "There is currently 1 valid license out of 1 registered in the Philippines, and the drug is marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "he Philippine registration is cancelled, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

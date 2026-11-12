@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tamoxifen: predicted new indication Mammary Paget disease (evidence level L5). Approved use: Female breast carcinoma, invasive ductal breast carcinoma…"
 monitor_inn: "Tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
@@ -97,17 +97,27 @@ The Phase 3 label on this trial does not translate into direct evidence for the 
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Tamoxifen (as citrate) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Cytotoxicity
 
 Tamoxifen is an antineoplastic drug. It is a hormonal agent rather than a conventional cytotoxic chemotherapy.
+
+<!-- review:begin ph-lic-20261106-tamoxifen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tamoxifen-1 -->
 
 | Item | Content |
 |------|------|
@@ -135,11 +145,38 @@ Please refer to the package insert for official warnings and contraindications.
 **Rationale:**
 There is no direct trial evidence for tamoxifen in mammary Paget disease, and the available literature consists mainly of case reports, case series and one non-drug-specific recurrence analysis. The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication.
 
+<!-- review:begin ph-lic-20261106-tamoxifen-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication. The product is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tamoxifen-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and the package insert, including warnings and contraindications
 - Hormone receptor status data in Paget disease cohorts, plus any prospective or comparative studies of endocrine therapy
 - A review of the underlying breast disease (DCIS or invasive carcinoma), where tamoxifen evidence is already strong, to see whether Paget disease can be managed within existing indications
 - A thromboembolism and endometrial risk-benefit plan, given the safety signals above
+
+<!-- review:begin ph-lic-20261106-tamoxifen-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A review of the underlying breast disease (DCIS or invasive carcinoma), where tamoxifen evidence is already strong, to see whether Paget disease can be managed within existing indications / A regulatory assessment of the cancelled Philippines registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tamoxifen-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "A regulatory assessment of the cancelled Philippines registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

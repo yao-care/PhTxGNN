@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,11 +82,15 @@ Currently no related literature available.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Ursodeoxycholic Acid | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,6 +113,12 @@ For warnings and contraindications, please refer to the package insert for safet
 **Rationale:**
 The prediction has a very high model score but no clinical trials or literature (L5). The mechanistic link is weak, because HoFH stems mainly from defective LDL receptors, which bile acid modulation is unlikely to correct.
 
+<!-- review:begin ph-lic-20261031-ursodeoxycholic_acid-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The mechanistic link is weak, because HoFH stems mainly from defective LDL receptors, which bile acid modulation is unlikely to correct. The only Philippines registration is cancelled, and package insert safety data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-ursodeoxycholic_acid-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (blocking gap for safety screening)
 - Detailed mechanism of action data (MOA) from DrugBank
@@ -116,6 +126,19 @@ The prediction has a very high model score but no clinical trials or literature 
 - Preclinical or literature evidence of UDCA's effect on LDL cholesterol in familial hypercholesterolemia
 - Severity classification of the unclassified drug interactions, especially with statins such as pravastatin
 - Clarification of the registration status and available dosage forms in the Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and package insert safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

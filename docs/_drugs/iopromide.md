@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Iopromide"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Iopromide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Philippines licence record"
 ---
 
@@ -42,6 +42,12 @@ Iopromide is an iodinated, non-ionic radiographic contrast agent.
 The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** were found to support this prediction.
 The prediction rests on a TxGNN model (deep learning) score alone, so the evidence is very weak.
 
+<!-- review:begin ph-lic-20261106-iopromide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Iopromide is an iodinated, non-ionic radiographic contrast agent, and it has one registration in the Philippines." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-iopromide-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -70,13 +76,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ph-lic-20261106-iopromide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with valid status." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-iopromide-2 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Iopromide | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -107,6 +123,27 @@ No clinical trial or publication studies iopromide in osteoarthritis or in any o
 - Dosage form and approved indication details
 - Preclinical or mechanistic studies of iopromide in joint or cartilage models before any clinical consideration
 - A check on whether the predictions reflect similarities the TxGNN model (deep learning) learned between related diseases rather than therapeutic effects
+
+<!-- review:begin ph-lic-20261106-iopromide-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved indication details for licence PNF-xxxx" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-iopromide-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and it has one registration in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

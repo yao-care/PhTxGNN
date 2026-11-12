@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L2). Approved use: Chronic hepatitis C virus infection"
 ---
 
@@ -81,6 +81,12 @@ The trials below are the ones most relevant to hepatitis B. Many other trials in
 
 All retrieved papers are reviews or general discussions of viral hepatitis. None is a randomized trial of ribavirin in hepatitis B.
 
+<!-- review:begin ph-lic-20261106-ribavirin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient licence with valid status. The licence record has no approved indication text, so no approved use can be stated from it." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ribavirin-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | HCV/HBV co-infection; peginterferon plus ribavirin was recommended for co-infected patients with positive HCV RNA |
@@ -93,11 +99,15 @@ All retrieved papers are reviews or general discussions of viral hepatitis. None
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Ribavirin | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ One completed Phase 3 trial (NCT00114361) tests peginterferon plus ribavirin dir
 - Mechanism-of-action data
 - Philippines package insert warnings and contraindications
 - A risk assessment for haemolytic anaemia and the other contraindication signals listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient licence with valid status. The licence record has no approved indication text, so no approved use can be stated " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

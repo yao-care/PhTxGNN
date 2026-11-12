@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -59,6 +59,12 @@ Currently, detailed mechanism of action data is not available. Thiopental is a b
 
 The link to trichotillomania, a compulsive hair-pulling disorder, is speculative. One could argue that GABAergic modulation might dampen compulsive or impulsive circuitry, but no trial or publication supports this for thiopental. The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect.
 
+<!-- review:begin ph-lic-20261106-thiopental-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect. The drug's registration in the Philippines has also been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-thiopental-1 -->
+
 ### Other Predicted Indications (for reference)
 
 Other high-scoring predictions were also reviewed. None has trial evidence.
@@ -90,11 +96,15 @@ Currently no related literature available for trichotillomania.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Thiopental Sodium | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,12 +128,39 @@ Please refer to the package insert for full warnings and contraindications, as l
 **Rationale:**
 The prediction for trichotillomania is based only on a model score, with no clinical trials or publications (Evidence Level L5). The mechanism is speculative, safety data from the label are missing. Thiopental is also an injectable anesthetic-class barbiturate with significant safety constraints, which makes it a poor fit for a chronic behavioral disorder.
 
+<!-- review:begin ph-lic-20261106-thiopental-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanism is speculative, safety data from the label are missing, and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-thiopental-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data to assess whether any link to trichotillomania is credible
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Any preclinical or clinical evidence for thiopental in trichotillomania
 - Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit
 - Consideration of better-supported alternatives, such as the epilepsy-related predictions, which already have indirect literature
+
+<!-- review:begin ph-lic-20261106-thiopental-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit / Clarification of the cancelled registration status and whether any product is available locally" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-thiopental-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The drug's registration in the Philippines has also been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether any product is available locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

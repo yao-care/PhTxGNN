@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 Escitalopram is a selective serotonin reuptake inhibitor (SSRI) clinically established for major depressive disorder and generalised anxiety disorder.
 The TxGNN prediction pipeline returned **no predicted new indications** for this candidate, as critical input data — including original indications, mechanism of action — are absent from the Evidence Pack.
 This report documents all identified data gaps and defines the remediation steps required before a formal repurposing analysis can proceed.
+
+<!-- review:begin ph-lic-20261106-escitalopram-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The TxGNN prediction pipeline returned **no predicted new indications** for this candidate, as critical input data — including original indications, mechanism of action, and local regulatory records — are absent from the Evidence Pack." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-escitalopram-1 -->
 
 ---
 
@@ -90,6 +96,19 @@ The Evidence Pack is critically incomplete on multiple dimensions — no TxGNN p
 - **[Required]** Re-run the TxGNN prediction pipeline with a complete drug profile (original indications + MOA + regulatory status) to generate `predicted_indications`.
 - **[Recommended]** Confirm Philippines FDA registration status via the online product verification portal; if unregistered, assess importation or registration pathway before any clinical translation.
 - **[Next step after pipeline completion]** Reassign evidence level (L1–L5), generate clinical trial and literature evidence tables, and re-score this candidate for a full Go / Proceed with Guardrails decision.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and local regulatory records" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

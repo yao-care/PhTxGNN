@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 249
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the Philippines registration data"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -109,11 +109,15 @@ The data list many trials. The 10 most relevant are shown below, favoring larger
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Nepafenac | Eye Suspension |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -134,12 +138,38 @@ For formal warnings and contraindications, please refer to the package insert.
 **Rationale:**
 - Several large Phase 3 RCTs, including diabetic cohorts of over 800 participants each, support nepafenac for post-cataract-surgery inflammation, pain and macular edema, and a network meta-analysis supports the class. The evidence is strong for this established use, not for the broad "eye disease" label.
 
+<!-- review:begin ph-lic-20261031-nepafenac-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The evidence is strong for this established use, not for the broad "eye disease" label. / The only Philippines registration is cancelled, and the original indication, mechanism data and label safety information are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-nepafenac-1 -->
+
 **To proceed, the following is needed:**
 - Confirm the regulatory status.
 - Obtain the package insert, with its warnings and contraindications, from the DOH-FDA Philippines.
 - Narrow the target to post-cataract-surgery inflammation, pain and macular edema, rather than the broad "eye disease" label.
 - Review the corneal and systemic risk signals (keratitis, dry eye, corneal ulcer, diabetes, coagulation disorders) and set patient-selection and monitoring rules.
 - Do not pursue the lower-ranked predictions (optic papillitis, skin and hair disorders, vitreous detachment) without new evidence.
+
+<!-- review:begin ph-lic-20261106-nepafenac-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm the regulatory status and whether re-registration or import is feasible, since the sole Philippines license is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-nepafenac-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the original indication, mechanism data and label safety information are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and whether re-registration or import is feasible, since the sole Philippines license is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

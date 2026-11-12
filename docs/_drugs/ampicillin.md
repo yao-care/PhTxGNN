@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 27
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Urinary tract infection, infectious otitis media, bacterial pneumonia…"
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -107,6 +107,12 @@ Please also refer to the package insert for warnings and contraindications.
 **Rationale:**
 The TxGNN score is very high, but there are no clinical trials and the literature is low-quality and partly off-target. The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role.
 
+<!-- review:begin ph-lic-20261031-ampicillin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role. In the Philippines, the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-ampicillin-1 -->
+
 Of the other predictions, gonococcal urethritis has the strongest literature (several older randomized comparative studies, L3), but this reflects historical use, and resistance means ampicillin is no longer recommended. Ureaplasma urethritis and paranasal sinus neoplasm are mechanistically implausible. Chronic rhinosinusitis, chronic ethmoidal sinusitis, gingivitis, bacterial arthritis, conjunctivitis and pericoronitis have only indirect evidence (all L4).
 
 **To proceed, the following is needed:**
@@ -115,6 +121,26 @@ Of the other predictions, gonococcal urethritis has the strongest literature (se
 - Current local resistance data (especially *H. influenzae*, *N. gonorrhoeae*) and comparison with current guideline-recommended agents
 - Evidence of ampicillin treatment outcomes in laryngeal infections specifically (e.g., prospective or comparative studies)
 - Clarification of the registration status in the Philippines
+
+<!-- review:begin ph-lic-20261106-ampicillin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the registration status in the Philippines, since 1 of 1 licenses is currently valid" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ampicillin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "In the Philippines, the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "since 1 of 1 licenses is currently valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

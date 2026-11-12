@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 3
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketorolac: predicted new indication headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
@@ -42,6 +42,12 @@ Ketorolac is a non-steroidal anti-inflammatory drug (NSAID).
 The TxGNN model predicts it may be effective for **headache disorder**,
 with **17 clinical trials** and **20 publications** compiled for this report, many of them in migraine and tension-type headache.
 
+<!-- review:begin ph-lic-20261106-ketorolac-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ketorolac is a non-steroidal anti-inflammatory drug (NSAID) that is registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ketorolac-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -59,6 +65,12 @@ with **17 clinical trials** and **20 publications** compiled for this report, ma
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ketorolac is a non-selective COX-1/COX-2 inhibitor. Blocking prostaglandin synthesis reduces peripheral and central sensitization, neurogenic inflammation and trigeminovascular activation, which drive migraine and tension-type headache pain.
 
 Prostaglandin-mediated inflammation is also the target of ketorolac in its other anti-inflammatory uses, so the same mechanism may carry over to headache. In practice, parenteral ketorolac is already used in emergency departments for acute migraine and tension-type headache, and the trials and reviews below reflect this.
+
+<!-- review:begin ph-lic-20261106-ketorolac-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ketorolac has 1 registration record in the Philippines, and the local market status is marketed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ketorolac-2 -->
 
 ## Clinical Trial Evidence
 
@@ -92,11 +104,15 @@ Prostaglandin-mediated inflammation is also the target of ketorolac in its other
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Ketorolac (as tromethamol) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +134,20 @@ Several completed Phase 3/4 and Phase 2 trials and multiple systematic reviews a
 - Clarification of the dosage form, route and approved indication of the local registration
 - Mechanism of action data from a primary source
 - A short-course dosing limit and screening for renal, gastrointestinal, bleeding and cardiovascular risk, and for interacting drugs such as lithium, anticoagulants and other NSAIDs
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Ketorolac has 1 registration record in the Philippines, and the local market status is marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mometasone: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L5). Approved use: Not stated in the Philippines registration data"
 monitor_inn: "Mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -75,7 +75,11 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -90,11 +94,37 @@ Please refer to the package insert for other safety information.
 **Rationale:**
 The evidence is model prediction only (L5). There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma.
 
+<!-- review:begin ph-lic-20261031-mometasone-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma. The only Philippines registration is cancelled, and there is no label-based safety information." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-mometasone-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines, so safety screening can begin
 - Mechanism-of-action data from DrugBank
 - Mometasone-specific clinical or observational data in early-stage mycosis fungoides or other primary cutaneous T-cell lymphoma
 - Clarification of the original approved indication and available dosage forms
+
+<!-- review:begin ph-lic-20261106-mometasone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and available dosage forms, including whether a valid topical product is registered in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-mometasone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and there is no label-based safety information" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "including whether a valid topical product is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ipratropium: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -73,6 +73,8 @@ Neither publication directly tests ipratropium in nasal cavity disease, so they 
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Ipratropium (as bromide) | Inhalation, Inhalation (MDI), Resp. Soln. |
@@ -81,7 +83,15 @@ Neither publication directly tests ipratropium in nasal cavity disease, so they 
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report do not include indication text for the local product.
+
+<!-- review:begin ph-lic-20261106-ipratropium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Local records show ipratropium as **Marketed** in the Philippines. The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ipratropium-1 -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The prediction score is high, but no clinical trial and no study directly addres
 - Clinical studies of ipratropium in that condition, in a nasal formulation
 - Detailed mechanism of action data
 - Confirmation of the locally registered dosage form and route, and the package insert warnings and contraindications from the Philippine regulator
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Local records show ipratropium as **Marketed** in the Philippines. dosage form or , so the route of administration cannot be confirmed here" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

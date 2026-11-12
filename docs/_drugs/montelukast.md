@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 240
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -41,6 +41,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 Montelukast is a cysteinyl leukotriene receptor antagonist.
 The TxGNN model predicts it may be useful for **bronchitis**.
 The data compiled for this report include **17 clinical trials** and **20 publications**, but most of them study bronchiolitis, not bronchitis in the strict sense. Only a few address bronchitis directly, mainly nonasthmatic eosinophilic bronchitis and recurrent obstructive bronchitis in children.
+
+<!-- review:begin ph-lic-20261106-montelukast-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Montelukast is a cysteinyl leukotriene receptor antagonist with a valid registration in the Philippines." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-montelukast-2 -->
 
 ## Quick Overview
 
@@ -94,11 +100,15 @@ The link is indirect. Many of the listed studies address infant viral bronchioli
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Montelukast (as sodium salt) | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The TxGNN score is very high (0.9995), and montelukast is marketed in the Philip
 - Full results of the direct bronchitis studies (NCT04613180, NCT01121016 and PMID 25563311), with confirmation in a larger randomised trial in a defined bronchitis population.
 - Detailed mechanism-of-action data.
 - Review of the moderate-severity drug interactions, especially with corticosteroids and antimicrobials commonly used in respiratory care.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "Clarification of registration status, since the only registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "with a valid registration in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis, staphylococcal infections…"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -95,11 +95,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Vancomycin (as hydrochloride) | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,11 +128,37 @@ Please also refer to the package insert for full warnings. Label-based warnings 
 **Rationale:**
 The prediction for diffuse scleroderma rests only on a model score. There is no clinical trial, no relevant literature, and no plausible mechanism.
 
+<!-- review:begin ph-lic-20261106-vancomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "There is no clinical trial, no relevant literature, and no plausible mechanism. Vancomycin is currently marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-vancomycin-1 -->
+
 **To proceed, the following is needed:**
 - A mechanistic rationale connecting vancomycin to systemic sclerosis pathophysiology, if any exists
 - Mechanism of action data (MOA) from DrugBank
 - Package insert warnings and contraindications from DOH-FDA Philippines
 - If a repurposing candidate is still wanted, streptococcal pneumonia (resistant pneumococcus) is the only mechanistically credible option. It should be treated as an extension of an existing use, not a novel repurposing, and would need direct clinical evidence.
+
+<!-- review:begin ph-lic-20261106-vancomycin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from DOH-FDA Philippines / Clarification of why the registration was cancelled and whether any valid vancomycin product exists locally" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-vancomycin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Vancomycin is currently marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of why the registration was cancelled and whether any valid vancomycin product exists locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

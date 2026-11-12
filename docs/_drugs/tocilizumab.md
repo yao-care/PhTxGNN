@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 339
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tocilizumab"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data"
@@ -96,11 +96,15 @@ However, the evidence points the other way in practice. Two placebo-controlled P
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Tocilizumab | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,6 +128,12 @@ Please refer to the package insert for warnings and contraindications.
 - Mechanism of action data
 - Package insert warnings and contraindications
 
+<!-- review:begin ph-lic-20261106-tocilizumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications / Clarification of the cancelled Philippines registration (PNF-xxxx) and its regulatory status" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-tocilizumab-1 -->
+
 ---
 
 ## Other Predicted Indications (Brief)
@@ -136,6 +146,18 @@ Please refer to the package insert for warnings and contraindications.
 | Rheumatoid vasculitis | L4 | Research question | Case reports only; vasculitis-like reactions also reported |
 | Hypermobility of coccyx, Kummell disease, vertebral disease, spondyloarthropathy susceptibility | L5 | Hold | Model prediction only, with no plausible IL-6 mechanism or direct evidence |
 | MSMD due to IL12B deficiency | L5 | Hold | Biologically implausible and potentially harmful because tocilizumab raises infection risk |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clarification of the cancelled Philippines registration (PNF-xxxx) and its regulatory status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

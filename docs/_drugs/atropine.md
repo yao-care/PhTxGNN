@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 34
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atropine: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available"
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -82,11 +82,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Atropine (as sulfate) | Oral, Injection, Solution |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,6 +109,12 @@ Please refer to the package insert for warnings and contraindications.
 **Rationale:**
 The evidence consists only of preclinical mechanistic studies, small observational reports, and off-topic papers. There are no clinical trials in migraine.
 
+<!-- review:begin ph-lic-20261031-atropine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials in migraine. The only Philippines registration is cancelled, and no label-based safety data are available." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-atropine-1 -->
+
 **To proceed, the following is needed:**
 - Clinical evidence in migraine patients, such as pilot or exploratory trials
 - Clarification of the mechanistic direction (muscarinic blockade vs. activation), especially for aura-related migraine
@@ -112,6 +122,19 @@ The evidence consists only of preclinical mechanistic studies, small observation
 - Detailed mechanism of action data
 - An assessment of whether a valid marketed product and a suitable route of administration exist in the Philippines
 - A safety evaluation of anticholinergic burden, including the interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and no label-based safety data are available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

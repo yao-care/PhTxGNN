@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Capecitabine: predicted new indication gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -42,6 +42,12 @@ Capecitabine is an oral fluoropyrimidine chemotherapy drug.
 The TxGNN model predicts it may be useful for **gastric adenocarcinoma and proximal polyposis of the stomach**, with a prediction score of **0.9994**.
 No clinical trials or publications were found for this disease, so the support is a model prediction only.
 
+<!-- review:begin ph-lic-20261106-capecitabine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Capecitabine is an oral fluoropyrimidine chemotherapy drug that is registered in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-capecitabine-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -70,13 +76,23 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ph-lic-20261106-capecitabine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Philippine record is a single-ingredient product with a valid status." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-capecitabine-2 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Capecitabine | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -106,6 +122,27 @@ The only support for this prediction is a high model score (0.9994). There are n
 - Mechanism of action data to support the mechanistic link
 - Philippine package insert warnings and contraindications for safety screening
 - Confirmation of dosage forms and approved indication text
+
+<!-- review:begin ph-lic-20261106-capecitabine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of dosage forms and approved indication text for licence PNF-xxxx" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-capecitabine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The Philippine record is a single-ingredient product with a valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

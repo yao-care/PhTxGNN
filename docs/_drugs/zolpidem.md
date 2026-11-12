@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
@@ -69,6 +69,12 @@ Other predicted indications were also reviewed. Both have only model-based suppo
 
 Currently no related clinical trials registered.
 
+<!-- review:begin ph-lic-20261106-zolpidem-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only registration on record, and it is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-zolpidem-2 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -86,11 +92,15 @@ Currently no related clinical trials registered.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Zolpidem | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -105,12 +115,39 @@ Package insert warnings and contraindications for the Philippines were not avail
 **Rationale:**
 - The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses.
 
+<!-- review:begin ph-lic-20261031-zolpidem-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The predicted indication is effectively zolpidem's established use in insomnia, supported by guidelines and network meta-analyses. However, the only Philippines registration is cancelled, and the package insert safety data are missing, so it cannot be treated as ready for use." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-zolpidem-1 -->
+
 **To proceed, the following is needed:**
 - Verify the regulatory status in the Philippines
 - Obtain and review the Philippines package insert (warnings, contraindications, dosage forms, approved indications)
 - Obtain DrugBank mechanism of action data to replace the general-knowledge description above
 - Set a safety plan covering short-term use limits, dependence and abuse risk, falls in older adults, and combinations with opioids and other central nervous system depressants
 - Do not pursue benign paroxysmal torticollis of infancy or agoraphobia without new mechanistic and clinical evidence
+
+<!-- review:begin ph-lic-20261106-zolpidem-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Verify the regulatory status in the Philippines and confirm whether a valid registration exists or a new one is needed" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-zolpidem-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "However, the only Philippines registration is cancelled, and the package insert safety data are missing, so it cannot be treated as ready fo" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "This is the only registration on record, and it is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and confirm whether a valid registration exists or a new one is needed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

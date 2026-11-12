@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,11 +92,15 @@ The other predicted indications (ranks 2–8) are much weaker. Examples are brai
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Simvastatin | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -113,12 +117,38 @@ Please refer to the package insert for label warnings and contraindications, whi
 **Rationale:**
 Multiple completed Phase 3 trials, including ENHANCE and the adolescent ezetimibe-simvastatin trial, directly evaluate simvastatin in familial hypercholesterolemia, and Cochrane reviews and guidelines support statin use. The indication is essentially on-label. Ranks 2, 3, 5, 7 and 8 have no supporting evidence (Hold), and HIV is a research question limited by interaction risk.
 
+<!-- review:begin ph-lic-20261031-simvastatin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The indication is essentially on-label. The only Philippine registration is cancelled, and the label safety data is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-simvastatin-1 -->
+
 **To proceed, the following is needed:**
 - Obtain the package insert from DOH-FDA Philippines to complete warnings and contraindications (a blocking gap for safety screening)
 - Obtain detailed mechanism-of-action data from DrugBank
 - Confirm the regulatory pathway, including product, dosage form and approved indication
 - Define a monitoring plan for myopathy/rhabdomyolysis and liver function, and an interaction management plan for CYP3A4 inhibitors, amiodarone, amlodipine, fenofibrate and HIV regimens
 - Note that the ENHANCE trial found no added atherosclerosis benefit from ezetimibe over simvastatin alone, a point to weigh in regimen choice
+
+<!-- review:begin ph-lic-20261106-simvastatin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm the regulatory pathway, since the sole Philippine registration is cancelled, including product, dosage form and approved indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-simvastatin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled, and the label safety data is missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "since the sole Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

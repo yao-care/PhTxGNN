@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,11 +81,15 @@ Many other retrieved publications were off-target (cat-scratch disease, veterina
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Cotrimoxazole (sulfamethoxazole + trimethoprim) | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -103,12 +107,38 @@ No package insert warnings or contraindications are available; please refer to t
 **Rationale:**
 The prediction for punctate epithelial keratoconjunctivitis rests on the model score alone, with no trials or literature, and the likely viral or non-infectious cause makes an antibacterial mechanism implausible. Label safety data are missing.
 
+<!-- review:begin ph-lic-20261106-trimethoprim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local registration is cancelled, with no indication text or dosage form on record, and label safety data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-trimethoprim-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data for trimethoprim
 - Evidence that bacterial infection contributes to punctate epithelial keratoconjunctivitis, or clinical data in this condition
 - Package insert warnings and contraindications, to complete the safety screening
 - Confirmation of an available ophthalmic formulation and its route compatibility
 - Review of the 2008 and 1984 ophthalmic studies for design and outcomes, to confirm that they are controlled studies
+
+<!-- review:begin ph-lic-20261106-trimethoprim-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of an available ophthalmic formulation and its route compatibility, given the cancelled local registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-trimethoprim-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local registration is cancelled, with no indication text or dosage form on record, and l" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "given the cancelled local registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -103,17 +103,27 @@ The benefit is driven by HER2 expression, not by PR status. The evidence does no
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Trastuzumab | Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Cytotoxicity
 
 Trastuzumab is an antineoplastic agent, so this section applies.
+
+<!-- review:begin ph-lic-20261106-trastuzumab-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one registration, which is cancelled." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-trastuzumab-2 -->
 
 | Item | Content |
 |------|------|
@@ -148,10 +158,30 @@ Large Phase 3 data, including a completed adjuvant trial of 3,270 patients, supp
 - Detailed mechanism of action data
 - A cardiac monitoring plan and a review of the Major drug interactions
 
+<!-- review:begin ph-lic-20261031-trastuzumab-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "Restrict use to confirmed HER2-positive disease; no benefit is expected in HR+/HER2-negative or triple-negative disease / A currently valid Philippines registration (the only registration on record is cancelled)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-trastuzumab-1 -->
+
 **Other predicted indications (for reference):**
 - Luminal A is generally HER2-negative, so no HER2-directed benefit is expected.
 - The "normal breast-like subtype" prediction is Hold (L4). The only related trial involves a different molecule (trastuzumab rezetecan) and has not started recruiting.
 - Predictions ranked 5 to 10 (including malignant cutaneous granular cell tumour, ectomesenchymoma, HHV-8-related tumour, middle ear neuroendocrine tumour, and two urothelial carcinomas) have no clinical or literature evidence (L5) and are Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "A currently valid Philippines registration (the only registration on record is cancelled)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "The data compiled for this report show one registration, which is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

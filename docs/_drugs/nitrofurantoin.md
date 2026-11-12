@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the registration record"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -77,11 +77,15 @@ None of these studies shows that nitrofurantoin treats rheumatoid arthritis.
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
 | Nitrofurantoin | Oral, Injection |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -106,11 +110,37 @@ Please refer to the package insert for full warnings and contraindications.
 **Rationale:**
 - The score is high, but there are no clinical trials and no literature showing benefit. The available evidence points to harm (pulmonary toxicity, methotrexate interaction), and there is no plausible mechanism.
 
+<!-- review:begin ph-lic-20261031-nitrofurantoin-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The available evidence points to harm (pulmonary toxicity, methotrexate interaction), and there is no plausible mechanism. / The only Philippine registration is cancelled, with no recorded indication." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-nitrofurantoin-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible anti-rheumatic rationale
 - Package insert warnings and contraindications from the Philippine regulator
 - Preclinical or clinical studies showing benefit in rheumatoid arthritis
 - A pulmonary and hepatic safety assessment for patients on methotrexate or other disease-modifying drugs
+
+<!-- review:begin ph-lic-20261106-nitrofurantoin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A pulmonary and hepatic safety assessment for patients on methotrexate or other disease-modifying drugs / Clarification of the registration status and approved indication of the cancelled license" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-nitrofurantoin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippine registration is cancelled, with no recorded indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Clarification of the registration status and approved indication of the cancelled license" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

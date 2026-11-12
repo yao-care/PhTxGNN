@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ferrous gluconate"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder"]
 description: "Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data"
@@ -66,7 +66,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin ph-lic-20261106-ferrous_gluconate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local records show this single-ingredient licence as valid, and the drug is marketed in the Philippines." Removed: it described the products as single-ingredient or combination products in a way that did not match the PNF data (the Philippine National Formulary as of 2026-11-06). Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-ferrous_gluconate-1 -->
+
 ## Philippines Market Information
+
+<!-- licenses:begin -->
 
 | PNF entry (active ingredient) | Routes in the PNF |
 |------|------|
@@ -74,6 +82,8 @@ Currently no related literature available.
 | Ferrous Salt + Folic Acid | Oral |
 
 Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -100,6 +110,18 @@ The prediction rests on the model score alone. No trials or publications address
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Clarification of the licence record, since the registered product name (Ferrous Sulfate) differs from the drug evaluated (ferrous gluconate), together with dosage form and approved-indication text
 - Clinical input on whether any patient subgroup, such as those with coexisting iron deficiency, could plausibly benefit
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local records show this single-ingredient licence as valid, and the drug is marketed in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

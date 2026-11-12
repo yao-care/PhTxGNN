@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 314
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sodium acetate"
 predicted_indications: ["congenital prothrombin deficiency", "epiglottitis", "urinary tract infection (disease)", "sclerosing cholangitis", "gonococcal urethritis", "Ureaplasma urethritis", "dyspepsia", "uterine inflammatory disease", "gastroparesis (disease)", "xanthogranulomatous pyelonephritis"]
 description: "Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -66,11 +66,21 @@ No plausible mechanistic link to the predicted indication was identified. Sodium
 
 The other top-ranked predictions show the same pattern. They include epiglottitis, urinary tract infection, sclerosing cholangitis, Ureaplasma and gonococcal urethritis, dyspepsia, uterine inflammatory disease, gastroparesis and xanthogranulomatous pyelonephritis, all with scores from 0.9946 to 0.9977. None has supporting clinical data for sodium acetate. For dyspepsia and gastroparesis, the retrieved papers mostly use ¹³C-sodium acetate only as a breath-test tracer for measuring gastric emptying, which is not therapeutic evidence.
 
+<!-- review:begin ph-lic-20261106-sodium_acetate-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sodium_acetate-3 -->
+
 ---
 
 ## Philippines Market Information
 
+<!-- licenses:begin -->
+
 Not listed in the Philippine National Formulary (PNF) Essential Medicines List used for this report.
+
+<!-- licenses:end -->
 
 ---
 
@@ -92,12 +102,39 @@ Please refer to the package insert for label warnings and contraindications.
 **Rationale:**
 The prediction rests on a model score alone (L5), with no clinical trials or relevant literature, and no plausible mechanism links sodium acetate to prothrombin deficiency. The knowledge-graph contraindications, especially renal and cardiac disease, add further caution.
 
+<!-- review:begin ph-lic-20261031-sodium_acetate-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on a model score alone (L5), with no clinical trials or relevant literature, and no plausible mechanism links sodium acetate to prothrombin deficiency. The only Philippines registration is cancelled, so there is no current local product to repurpose." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261031-sodium_acetate-1 -->
+
 **To proceed, the following is needed:**
 - Package insert warnings and contraindications from DOH-FDA Philippines (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
 - Confirmation of the original approved indication
 - A biologically grounded rationale, or direct preclinical or clinical evidence, for any predicted indication
 - Reassessment of the lower-ranked predictions, such as urinary alkalinization in urinary tract infection, if a mechanistic case can be made
+
+<!-- review:begin ph-lic-20261106-sodium_acetate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the original approved indication and whether the cancelled registration actually corresponds to sodium acetate" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+
+<!-- review:end ph-lic-20261106-sodium_acetate-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The only Philippines registration is cancelled, so there is no current local product to repurpose" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "and whether the cancelled registration actually corresponds to sodium acetate" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-06 | Removed: "Its product name is Sodium Chloride, so it may not correspond directly to sodium acetate" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
