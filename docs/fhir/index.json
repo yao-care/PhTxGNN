@@ -3,18 +3,18 @@
   "id": "phtxgnn-index",
   "type": "collection",
   "timestamp": "2026-03-02T18:30:01.090527",
-  "total": 2289,
+  "total": 2268,
   "entry": [
     {
       "resource": {
         "resourceType": "MedicationKnowledge",
-        "count": 353
+        "count": 348
       }
     },
     {
       "resource": {
         "resourceType": "ClinicalUseDefinition",
-        "count": 1936
+        "count": 1920
       }
     }
   ]

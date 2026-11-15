@@ -7,9 +7,9 @@
   "title": "PhTxGNN FHIR Server",
   "status": "active",
   "experimental": true,
-  "date": "2026-11-13",
+  "date": "2026-11-15",
   "publisher": "PhTxGNN Project",
-  "description": "Philippine drug repurposing predictions using TxGNN knowledge graph. Contains 353 drugs and 1936 predicted indications.",
+  "description": "Philippine drug repurposing predictions using TxGNN knowledge graph. Contains 348 drugs and 1920 predicted indications.",
   "kind": "instance",
   "fhirVersion": "4.0.1",
   "format": [
@@ -44,15 +44,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 353
+          "valueInteger": 348
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 1936
+          "valueInteger": 1920
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-13"
+          "valueDate": "2026-11-15"
         }
       ]
     }
