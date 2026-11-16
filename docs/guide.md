@@ -63,6 +63,17 @@ model prediction only, with no human evidence.</strong> Full criteria are on the
 
 ---
 
+## FDA Philippines-approved medicines with clinical trial evidence for a new indication
+
+<p class="key-answer" data-question="Which medicines approved by FDA Philippines have clinical trial evidence for a new indication?">
+On this platform, that means an L1 or L2 evidence level on the drug's report. Use the
+<a href="{{ '/evidence-high/' | relative_url }}">high-evidence list</a> to browse them directly, or search the
+<a href="{{ '/drugs/' | relative_url }}">All Drugs</a> index and check each report's evidence level. Open the NCT and PMID
+links on the report to read the underlying clinical trial evidence yourself.
+</p>
+
+---
+
 ## Citation and traceability
 
 Every piece of evidence in a report carries a traceable identifier:
