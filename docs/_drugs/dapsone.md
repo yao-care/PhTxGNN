@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 1
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dapsone: predicted new indication pneumocystosis (evidence level L1). In the Philippines: 1 PNF entry"
 ---
 

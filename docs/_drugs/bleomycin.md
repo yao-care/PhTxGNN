@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). In the Philippines: 1 PNF entry"

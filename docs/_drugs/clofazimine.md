@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clofazimine: predicted new indication pneumocystosis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

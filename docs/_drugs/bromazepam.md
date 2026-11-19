@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Bromazepam"
 predicted_indications: ["migraine disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bromazepam: predicted new indication migraine disorder (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

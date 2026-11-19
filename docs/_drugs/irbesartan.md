@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). In the Philippines: 2 PNF entries"
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). In the Philippines: 1 PNF entry"

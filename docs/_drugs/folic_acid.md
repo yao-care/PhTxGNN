@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). In the Philippines: 2 PNF entries"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

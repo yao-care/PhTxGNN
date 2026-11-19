@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["schizoid personality disorder", "schizotypal personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

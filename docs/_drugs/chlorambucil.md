@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

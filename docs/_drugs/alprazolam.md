@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 2
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). In the Philippines: 1 PNF entry"
 ---
 

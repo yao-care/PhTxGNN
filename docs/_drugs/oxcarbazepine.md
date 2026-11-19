@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 267
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In the Philippines: 1 PNF entry"

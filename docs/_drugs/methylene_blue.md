@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Methylene blue"
 predicted_indications: ["bronchitis"]
 description: "Methylene Blue: predicted new indication Bronchitis (evidence level L5). In the Philippines: 1 PNF entry"

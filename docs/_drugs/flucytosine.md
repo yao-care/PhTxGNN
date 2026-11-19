@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Flucytosine"
 predicted_indications: ["bone Paget disease"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Flucytosine: predicted new indication bone Paget disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 240
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L3). In the Philippines: 1 PNF entry"

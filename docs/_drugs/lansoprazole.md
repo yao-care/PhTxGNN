@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lansoprazole: predicted new indication duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
