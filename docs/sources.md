@@ -14,25 +14,25 @@ Every conclusion traces back to a public data source — nothing is a black box.
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Philippines: data behind this site
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Philippines: what the local data cover
 
-This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines in the [Philippine National Formulary](https://www.doh.gov.ph/philippine-national-formulary) Essential Medicines List (Philippines).
+Local data: [Philippine National Formulary](https://www.doh.gov.ph/philippine-national-formulary). The local data are entries in the Philippine National Formulary Essential Medicines List. The PNF is a formulary, not an FDA Philippines registration list, and registration status is not included in this data.
 
-Reports by evidence level:
+| Item | Value |
+|---|---|
+| Medicines found in the local data | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …with at least one listed entry | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …with entries but none listed | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Medicines not in the local data | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Local entries (PNF entries) | {{ site.data.local_facts.licence.items_total }} |
+| …of which listed | {{ site.data.local_facts.licence.items_current }} |
 
-| Evidence level | Reports | Share |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}Medicines with PNF entries in this data but none listed: {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, and {{ site.data.local_facts.no_current_more }} more{% endif %}{% endif %}
 
-10 predicted drug–disease pairs on this site appear on no other of the 30 TxGNN sites.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}Latest corrections of local registration facts: {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Source overview
 

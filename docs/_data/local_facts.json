@@ -1,0 +1,408 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 348,
+ "level_counts": {
+  "L1": 5,
+  "L2": 18,
+  "L3": 15,
+  "L4": 26,
+  "L5": 271
+ },
+ "level_na": 13,
+ "public_pages": 348,
+ "licence_snapshot": "ph_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 346,
+  "drugs_with_current": 346,
+  "drugs_none_current": 0,
+  "drugs_without_data": 2,
+  "drugs_partial": 0,
+  "items_total": 411,
+  "items_current": 411
+ },
+ "reviews": {
+  "records": 472,
+  "pages": 287,
+  "public_pages_with_records": 285,
+  "by_action": {
+   "correct": 472
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 348,
+  "clinical_use_definition": 1920
+ },
+ "top_licensed": [
+  {
+   "t": "Lamivudine",
+   "u": "/drugs/lamivudine/",
+   "l": "L4",
+   "lt": 7,
+   "lv": 7,
+   "r": 1,
+   "i": "simian immunodeficiency virus infection"
+  },
+  {
+   "t": "Tenofovir",
+   "u": "/drugs/tenofovir/",
+   "l": "L4",
+   "lt": 6,
+   "lv": 6,
+   "r": 1,
+   "i": "simian immunodeficiency virus infection"
+  },
+  {
+   "t": "Isoniazid",
+   "u": "/drugs/isoniazid/",
+   "l": "L5",
+   "lt": 5,
+   "lv": 5,
+   "r": 2,
+   "i": "conjunctivitis"
+  },
+  {
+   "t": "Rifampicin",
+   "u": "/drugs/rifampicin/",
+   "l": "L4",
+   "lt": 5,
+   "lv": 5,
+   "r": 2,
+   "i": "conjunctivitis"
+  },
+  {
+   "t": "Ethinylestradiol",
+   "u": "/drugs/ethinylestradiol/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 0,
+   "i": "zinc, elevated plasma"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 4,
+   "r": 3,
+   "i": "feline acquired immunodeficiency syndrome"
+  },
+  {
+   "t": "Ethambutol",
+   "u": "/drugs/ethambutol/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 2,
+   "i": "epiglottitis"
+  },
+  {
+   "t": "Fluticasone",
+   "u": "/drugs/fluticasone/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 3,
+   "r": 1,
+   "i": "migraine disorder"
+  }
+ ],
+ "no_current": [],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Nystatin",
+   "u": "/drugs/nystatin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "disease of orbital region"
+  },
+  {
+   "t": "Potassium",
+   "u": "/drugs/potassium/",
+   "l": "L2",
+   "lt": 3,
+   "lv": 3,
+   "r": 4,
+   "i": "hypertensive disorder"
+  },
+  {
+   "t": "Ranitidine",
+   "u": "/drugs/ranitidine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "peptic ulcer perforation"
+  },
+  {
+   "t": "Ascorbic Acid",
+   "u": "/drugs/ascorbic-acid/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "non-syndromic esophageal malformation"
+  },
+  {
+   "t": "Bicalutamide",
+   "u": "/drugs/bicalutamide/",
+   "l": "L4",
+   "lt": 1,
+   "lv": 1,
+   "r": 3,
+   "i": "hypertrichosis (disease)"
+  },
+  {
+   "t": "Calcipotriol",
+   "u": "/drugs/calcipotriol/",
+   "l": "L3",
+   "lt": 2,
+   "lv": 2,
+   "r": 3,
+   "i": "seborrheic keratosis"
+  }
+ ],
+ "example": {
+  "t": "Acetylcysteine",
+  "u": "/drugs/acetylcysteine/",
+  "l": "L1",
+  "lt": 1,
+  "lv": 1,
+  "r": 1,
+  "i": "thrombotic disease"
+ },
+ "recent_reviews": [
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Removed: \"and confirm whether a valid registration exists or a new one is needed\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Removed: \"and the only Philippines registration has been cancelled\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"he Philippine registration is cancelled, and t\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "s": "Removed: \"Clarification of why the Philippines registration was cancelled and whether another warfarin…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "Removed: \"The only registration is a single-ingredient product that has been cancelled. dosage form or\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vincristine",
+   "u": "/drugs/vincristine/",
+   "s": "Removed: \"This is a single-ingredient product with valid status. The licence record contains no indication…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vasopressin",
+   "u": "/drugs/vasopressin/",
+   "s": "Removed: \"and the reason for the registration cancellation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Removed: \"and the reason the registration was cancelled\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Removed: \"Clarification of why the registration was cancelled and whether any valid vancomycin product exists…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Removed: \"valsartan is currently marketed in the Philippines (1 valid license of 1), and\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Removed: \"Valproic acid is marketed in the Philippines (2 of 2 licences valid), and t\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Removed: \"given the cancelled local registration\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Removed: \"and a current valid registration or a defined regulatory pathway\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Removed: \"The data compiled for this report show one registration, which is cancelled\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tranexamic Acid",
+   "u": "/drugs/tranexamic-acid/",
+   "s": "Removed: \"since the sole registration is cancelled\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "s": "Removed: \"he only registration in the Philippines has been cancelled, and t\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Removed: \"Clarification of the cancelled registration status and the available dosage forms and routes\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tolvaptan",
+   "u": "/drugs/tolvaptan/",
+   "s": "Removed: \"This may reflect a specific product or formulation rather than overall availability\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tocilizumab",
+   "u": "/drugs/tocilizumab/",
+   "s": "Removed: \"Clarification of the cancelled Philippines registration (PNF-0491) and its regulatory status\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Thiopental",
+   "u": "/drugs/thiopental/",
+   "s": "Removed: \"Clarification of the cancelled registration status and whether any product is available locally\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Thiamine",
+   "u": "/drugs/thiamine/",
+   "s": "Removed: \"Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tetracaine",
+   "u": "/drugs/tetracaine/",
+   "s": "Removed: \"Clarification of the regulatory status of the cancelled registration and the available dosage forms…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
+   "s": "Removed: \"that is listed in the Philippines under a single-ingredient registration\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "s": "Removed: \"Clarification of the Philippines registration status (cancelled) and the dosage form\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Zolpidem",
+   "u": "/drugs/zolpidem/",
+   "s": "Removed: \"and confirm whether a valid registration exists or a new one is needed\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Removed: \"and the only Philippines registration has been cancelled\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zidovudine",
+   "u": "/drugs/zidovudine/",
+   "s": "Removed: \"he Philippine registration is cancelled, and t\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Warfarin",
+   "u": "/drugs/warfarin/",
+   "s": "Removed: \"Clarification of why the Philippines registration was cancelled and whether another warfarin…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vitamin A",
+   "u": "/drugs/vitamin-a/",
+   "s": "Removed: \"The only registration is a single-ingredient product that has been cancelled. dosage form or\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vincristine",
+   "u": "/drugs/vincristine/",
+   "s": "Removed: \"This is a single-ingredient product with valid status. The licence record contains no indication…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vasopressin",
+   "u": "/drugs/vasopressin/",
+   "s": "Removed: \"and the reason for the registration cancellation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Varenicline",
+   "u": "/drugs/varenicline/",
+   "s": "Removed: \"and the reason the registration was cancelled\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "files": {
+  "search_index": 348,
+  "drugs_json": 348
+ },
+ "by_level": {
+  "L1": {
+   "n": 5,
+   "current": 5
+  },
+  "L2": {
+   "n": 18,
+   "current": 18
+  },
+  "L3": {
+   "n": 15,
+   "current": 15
+  },
+  "L4": {
+   "n": 26,
+   "current": 26
+  },
+  "L5": {
+   "n": 271,
+   "current": 269
+  }
+ },
+ "cross": {
+  "unique_pairs": 10,
+  "unique_examples": [
+   {
+    "t": "Interferon Alfa",
+    "u": "/drugs/interferon-alfa/",
+    "i": "heart disease"
+   }
+  ]
+ }
+}

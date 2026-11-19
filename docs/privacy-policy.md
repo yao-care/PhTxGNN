@@ -47,11 +47,32 @@ patient identifiers. When you ask for clinical trials, the drug and indication n
 
 ---
 
-## Data subject rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-This site has no accounts and keeps no personal records on servers of its own (it has none). Usage statistics
-are collected by Google Analytics 4; you can block or delete its cookies in your browser settings.
-For questions about this policy, contact service@yao.care.
+For visitors in the Philippines the relevant law is the [Data Privacy Act of 2012 (Republic Act No. 10173)](https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html) and its implementing rules, enforced by the [National Privacy Commission](https://privacy.gov.ph/). The site collects no names or health records; the usage data from Google Analytics 4 cookies is the only personal information involved.
+
+## Your rights and how to use them
+
+- Right to be informed and to object to processing.
+- Right to access and to correct (rectify) your data.
+- Right to erasure or blocking, and to data portability.
+- Right to lodge a complaint with the National Privacy Commission.
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Intellectual Property Code of the Philippines (Republic Act No. 8293)](https://lawphil.net/statutes/repacts/ra1997/ra_8293_1997.html). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/PhTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [Philippine National Formulary](https://www.doh.gov.ph/philippine-national-formulary), published by Department of Health (Philippines); reuse is governed by the publisher's terms, and this site does not grant any further rights.
+
+<!-- privacy-law:end -->
 
 ---
 
