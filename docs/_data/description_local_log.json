@@ -1,0 +1,2575 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "acetylcysteine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "acyclovir": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "adenosine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "albendazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alprazolam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amikacin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amiodarone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amlodipine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "anastrozole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aripiprazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "artemether": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "atorvastatin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "azathioprine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aztreonam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bacitracin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "baclofen": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bedaquiline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "benzoyl_peroxide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "betamethasone": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "biperiden": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bleomycin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bromazepam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bromocriptine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "budesonide": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bumetanide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bupivacaine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "calcitriol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "capecitabine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "captopril": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carbamazepine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carbetocin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carboplatin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carvedilol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cefoxitin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ceftazidime": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ceftriaxone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cefuroxime": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "celecoxib": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cetirizine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorambucil": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chloramphenicol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chloroquine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorpromazine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ciprofloxacin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clarithromycin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clindamycin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clofazimine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clomifene": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clonazepam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clonidine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clopidogrel": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clotrimazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clozapine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "codeine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "colistin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyclophosphamide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "danazol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dantrolene": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dapsone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "deferasirox": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "delamanid": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "desmopressin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dexamethasone": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dextromethorphan": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diazepam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diclofenac": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diethylcarbamazine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dipyridamole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "docetaxel": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dolutegravir": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "domperidone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dorzolamide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "doxorubicin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "doxycycline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "enoxaparin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "entecavir": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ephedrine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "epirubicin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ertapenem": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "erythromycin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ethinylestradiol": {
+      "tail": "In the Philippines: 4 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "famotidine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "felodipine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fentanyl": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ferrous_gluconate": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "filgrastim": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flucytosine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluocinonide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluoxetine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flupentixol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluphenazine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flutamide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "folic_acid": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fomepizole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "formoterol": {
+      "tail": "In the Philippines: 3 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fusidic_acid": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "glucagon": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydrocortisone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydroxyurea": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydroxyzine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ibuprofen": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ifosfamide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "imatinib": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "imiglucerase": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "imiquimod": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "indacaterol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "interferon_alfa": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ipratropium": {
+      "tail": "In the Philippines: 3 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "irbesartan": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "irinotecan": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ivermectin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketoconazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketoprofen": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketorolac": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lactulose": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lamivudine": {
+      "tail": "In the Philippines: 7 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lansoprazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "latanoprost": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "letrozole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levetiracetam": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levobupivacaine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levofloxacin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levonorgestrel": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lithium_carbonate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "losartan": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mannitol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mebendazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mecobalamin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "medroxyprogesterone_acetate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mefenamic_acid": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "megestrol_acetate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "melphalan": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "memantine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mercaptopurine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "meropenem": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methotrexate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methylene_blue": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methylprednisolone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metoclopramide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metoprolol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "micafungin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "miconazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mitoxantrone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "montelukast": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "morphine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "naproxen": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "neostigmine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nitrous_oxide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "norepinephrine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nystatin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "octreotide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ofloxacin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "olanzapine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "omeprazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxacillin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxcarbazepine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "paclitaxel": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "paliperidone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pantoprazole": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenobarbital": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenylephrine": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenytoin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "piperacillin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prednisolone": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "primaquine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propranolol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propylthiouracil": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pyridostigmine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "quetiapine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ranitidine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rifabutin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rifaximin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "risperidone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rivastigmine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rosuvastatin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sacubitril": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salbutamol": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salicylic_acid": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "selegiline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sertraline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "simvastatin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sirolimus": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sodium_acetate": {
+      "tail": "In the Philippines: not in the Philippine National Formulary in this data",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sofosbuvir": {
+      "tail": "In the Philippines: 3 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "spironolactone": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "streptokinase": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sucralfate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfacetamide": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tegafur": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "telmisartan": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "terazosin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "terbutaline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tetracaine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tetracycline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "thiopental": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tiotropium": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tocilizumab": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tolvaptan": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "topiramate": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tramadol": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trastuzumab": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trimethoprim": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tropicamide": {
+      "tail": "In the Philippines: 2 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ursodeoxycholic_acid": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "valproic_acid": {
+      "tail": "In the Philippines: 3 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "varenicline": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "verapamil": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "vinblastine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "vincristine": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "warfarin": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zidovudine": {
+      "tail": "In the Philippines: 4 PNF entries",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zolmitriptan": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zolpidem": {
+      "tail": "In the Philippines: 1 PNF entry",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/acetylcysteine.md",
+      "date": "2026-11-19",
+      "from": "\"Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Acetylcysteine: predicted new indication thrombotic disease (evidence level L1). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acyclovir.md",
+      "date": "2026-11-19",
+      "from": "\"Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adenosine.md",
+      "date": "2026-11-19",
+      "from": "\"Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/albendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alprazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Alprazolam: predicted new indication 失眠 (insomnia (disease)) (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amikacin.md",
+      "date": "2026-11-19",
+      "from": "\"Amikacin: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amikacin: predicted new indication Paratyphoid fever (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amiodarone.md",
+      "date": "2026-11-19",
+      "from": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amlodipine.md",
+      "date": "2026-11-19",
+      "from": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/anastrozole.md",
+      "date": "2026-11-19",
+      "from": "\"Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Anastrozole: predicted new indication neuroblastoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aripiprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/artemether.md",
+      "date": "2026-11-19",
+      "from": "\"Artemether: predicted new indication acquired angioedema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Artemether: predicted new indication acquired angioedema (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atorvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/azathioprine.md",
+      "date": "2026-11-19",
+      "from": "\"Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aztreonam.md",
+      "date": "2026-11-19",
+      "from": "\"Aztreonam: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aztreonam: predicted new indication polyclonal hyperviscosity syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bacitracin.md",
+      "date": "2026-11-19",
+      "from": "\"Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bacitracin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/baclofen.md",
+      "date": "2026-11-19",
+      "from": "\"Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Baclofen: predicted new indication attention deficit-hyperactivity disorder (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bedaquiline.md",
+      "date": "2026-11-19",
+      "from": "\"Bedaquiline: predicted new indication vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bedaquiline: predicted new indication vulvovaginal candidiasis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benzoyl_peroxide.md",
+      "date": "2026-11-19",
+      "from": "\"Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Benzoyl Peroxide: predicted new indication vulvar inverted follicular keratosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/betamethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Betamethasone: predicted new indication Alopecia mucinosa (evidence level L4). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/biperiden.md",
+      "date": "2026-11-19",
+      "from": "\"Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bleomycin.md",
+      "date": "2026-11-19",
+      "from": "\"Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bromazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Bromazepam: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bromazepam: predicted new indication migraine disorder (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bromocriptine.md",
+      "date": "2026-11-19",
+      "from": "\"Bromocriptine: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bromocriptine: predicted new indication congenital disorder of glycosylation with defective fucosylation (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/budesonide.md",
+      "date": "2026-11-19",
+      "from": "\"Budesonide: predicted new indication atopic eczema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Budesonide: predicted new indication atopic eczema (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bumetanide.md",
+      "date": "2026-11-19",
+      "from": "\"Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bupivacaine.md",
+      "date": "2026-11-19",
+      "from": "\"Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/calcitriol.md",
+      "date": "2026-11-19",
+      "from": "\"Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/capecitabine.md",
+      "date": "2026-11-19",
+      "from": "\"Capecitabine: predicted new indication gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Capecitabine: predicted new indication gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/captopril.md",
+      "date": "2026-11-19",
+      "from": "\"Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Captopril: predicted new indication malignant hypertensive renal disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbamazepine.md",
+      "date": "2026-11-19",
+      "from": "\"Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carbamazepine: predicted new indication trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbetocin.md",
+      "date": "2026-11-19",
+      "from": "\"Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carboplatin.md",
+      "date": "2026-11-19",
+      "from": "\"Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carboplatin: predicted new indication rectum mucinous adenocarcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carvedilol.md",
+      "date": "2026-11-19",
+      "from": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefoxitin.md",
+      "date": "2026-11-19",
+      "from": "\"Cefoxitin: predicted new indication Infectious otitis media (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cefoxitin: predicted new indication Infectious otitis media (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ceftazidime.md",
+      "date": "2026-11-19",
+      "from": "\"Ceftazidime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ceftazidime: predicted new indication hyperamylasemia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ceftriaxone.md",
+      "date": "2026-11-19",
+      "from": "\"Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ceftriaxone: predicted new indication Hyperamylasemia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefuroxime.md",
+      "date": "2026-11-19",
+      "from": "\"Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/celecoxib.md",
+      "date": "2026-11-19",
+      "from": "\"Celecoxib: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Celecoxib: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cetirizine.md",
+      "date": "2026-11-19",
+      "from": "\"Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cetirizine: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorambucil.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chloramphenicol.md",
+      "date": "2026-11-19",
+      "from": "\"Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chloramphenicol: predicted new indication Diffuse scleroderma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chloroquine.md",
+      "date": "2026-11-19",
+      "from": "\"Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chloroquine: predicted new indication rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorpromazine.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorpromazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorpromazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciprofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clarithromycin.md",
+      "date": "2026-11-19",
+      "from": "\"Clarithromycin: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clarithromycin: predicted new indication hyperamylasemia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clindamycin.md",
+      "date": "2026-11-19",
+      "from": "\"Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clindamycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clofazimine.md",
+      "date": "2026-11-19",
+      "from": "\"Clofazimine: predicted new indication pneumocystosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clofazimine: predicted new indication pneumocystosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clomifene.md",
+      "date": "2026-11-19",
+      "from": "\"Clomifene: predicted new indication 46,XY disorder of sex development due to testicular steroidogenesis defect (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clomifene: predicted new indication 46,XY disorder of sex development due to testicular steroidogenesis defect (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonidine.md",
+      "date": "2026-11-19",
+      "from": "\"Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clopidogrel.md",
+      "date": "2026-11-19",
+      "from": "\"Clopidogrel: predicted new indication migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clopidogrel: predicted new indication migraine with brainstem aura (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clotrimazole.md",
+      "date": "2026-11-19",
+      "from": "\"Clotrimazole: predicted new indication Acne (acne (disease)) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clotrimazole: predicted new indication Acne (acne (disease)) (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clozapine.md",
+      "date": "2026-11-19",
+      "from": "\"Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/codeine.md",
+      "date": "2026-11-19",
+      "from": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/colistin.md",
+      "date": "2026-11-19",
+      "from": "\"Colistin: predicted new indication postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Colistin: predicted new indication postinfectious vasculitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyclophosphamide.md",
+      "date": "2026-11-19",
+      "from": "\"Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/danazol.md",
+      "date": "2026-11-19",
+      "from": "\"Danazol: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Danazol: predicted new indication Amenorrhea (disease) (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dantrolene.md",
+      "date": "2026-11-19",
+      "from": "\"Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dantrolene: predicted new indication moderate multiminicore disease with hand involvement (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dapsone.md",
+      "date": "2026-11-19",
+      "from": "\"Dapsone: predicted new indication pneumocystosis (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Dapsone: predicted new indication pneumocystosis (evidence level L1). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/deferasirox.md",
+      "date": "2026-11-19",
+      "from": "\"Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Deferasirox: predicted new indication HIV infectious disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/delamanid.md",
+      "date": "2026-11-19",
+      "from": "\"Delamanid: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Delamanid: predicted new indication Allergic urticaria (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/desmopressin.md",
+      "date": "2026-11-19",
+      "from": "\"Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Desmopressin: predicted new indication congenital prothrombin deficiency (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dexamethasone.md",
+      "date": "2026-11-19",
+      "from": "\"Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dexamethasone: predicted new indication Alopecia mucinosa (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dextromethorphan.md",
+      "date": "2026-11-19",
+      "from": "\"Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dextromethorphan: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Diazepam: predicted new indication Insomnia (disease) (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diclofenac.md",
+      "date": "2026-11-19",
+      "from": "\"Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diclofenac: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diethylcarbamazine.md",
+      "date": "2026-11-19",
+      "from": "\"Diethylcarbamazine: predicted new indication syndromic lymphedema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diethylcarbamazine: predicted new indication syndromic lymphedema (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dipyridamole.md",
+      "date": "2026-11-19",
+      "from": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/docetaxel.md",
+      "date": "2026-11-19",
+      "from": "\"Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dolutegravir.md",
+      "date": "2026-11-19",
+      "from": "\"Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dolutegravir: predicted new indication feline acquired immunodeficiency syndrome (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/domperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dorzolamide.md",
+      "date": "2026-11-19",
+      "from": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxorubicin.md",
+      "date": "2026-11-19",
+      "from": "\"Doxorubicin: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Doxorubicin: predicted new indication Ewing sarcoma (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxycycline.md",
+      "date": "2026-11-19",
+      "from": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/enoxaparin.md",
+      "date": "2026-11-19",
+      "from": "\"Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/entecavir.md",
+      "date": "2026-11-19",
+      "from": "\"Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ephedrine.md",
+      "date": "2026-11-19",
+      "from": "\"Ephedrine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ephedrine: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/epirubicin.md",
+      "date": "2026-11-19",
+      "from": "\"Epirubicin: predicted new indication primary pulmonary lymphoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Epirubicin: predicted new indication primary pulmonary lymphoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ertapenem.md",
+      "date": "2026-11-19",
+      "from": "\"Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/erythromycin.md",
+      "date": "2026-11-19",
+      "from": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ethinylestradiol.md",
+      "date": "2026-11-19",
+      "from": "\"Ethinylestradiol: predicted new indication zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ethinylestradiol: predicted new indication zinc, elevated plasma (evidence level L5). In the Philippines: 4 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/famotidine.md",
+      "date": "2026-11-19",
+      "from": "\"Famotidine: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Famotidine: predicted new indication duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/felodipine.md",
+      "date": "2026-11-19",
+      "from": "\"Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Felodipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fentanyl.md",
+      "date": "2026-11-19",
+      "from": "\"Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ferrous_gluconate.md",
+      "date": "2026-11-19",
+      "from": "\"Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ferrous Gluconate: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anemia (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/filgrastim.md",
+      "date": "2026-11-19",
+      "from": "\"Filgrastim: predicted new indication primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Filgrastim: predicted new indication primary release disorder of platelets (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flucytosine.md",
+      "date": "2026-11-19",
+      "from": "\"Flucytosine: predicted new indication bone Paget disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flucytosine: predicted new indication bone Paget disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluocinonide.md",
+      "date": "2026-11-19",
+      "from": "\"Fluocinonide: predicted new indication alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluocinonide: predicted new indication alopecia mucinosa (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flupentixol.md",
+      "date": "2026-11-19",
+      "from": "\"Flupentixol: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flupentixol: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluphenazine.md",
+      "date": "2026-11-19",
+      "from": "\"Fluphenazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluphenazine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flutamide.md",
+      "date": "2026-11-19",
+      "from": "\"Flutamide: predicted new indication fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flutamide: predicted new indication fibroma of prostate (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/folic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fomepizole.md",
+      "date": "2026-11-19",
+      "from": "\"Fomepizole: predicted new indication sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fomepizole: predicted new indication sclerosing cholangitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Formoterol: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 3 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fusidic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fusidic Acid: predicted new indication exposure keratitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glucagon.md",
+      "date": "2026-11-19",
+      "from": "\"Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydrocortisone.md",
+      "date": "2026-11-19",
+      "from": "\"Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydrocortisone: predicted new indication Alopecia areata (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyurea.md",
+      "date": "2026-11-19",
+      "from": "\"Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyzine.md",
+      "date": "2026-11-19",
+      "from": "\"Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ibuprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ibuprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ifosfamide.md",
+      "date": "2026-11-19",
+      "from": "\"Ifosfamide: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ifosfamide: predicted new indication female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imatinib.md",
+      "date": "2026-11-19",
+      "from": "\"Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Imatinib: predicted new indication heart fibrosarcoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imiglucerase.md",
+      "date": "2026-11-19",
+      "from": "\"Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Imiglucerase: predicted new indication Hurler syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imiquimod.md",
+      "date": "2026-11-19",
+      "from": "\"Imiquimod: predicted new indication pre-malignant neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Imiquimod: predicted new indication pre-malignant neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/indacaterol.md",
+      "date": "2026-11-19",
+      "from": "\"Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Indacaterol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/interferon_alfa.md",
+      "date": "2026-11-19",
+      "from": "\"Interferon Alfa: predicted new indication heart disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Interferon Alfa: predicted new indication heart disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ipratropium.md",
+      "date": "2026-11-19",
+      "from": "\"Ipratropium: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ipratropium: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 3 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/irbesartan.md",
+      "date": "2026-11-19",
+      "from": "\"Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Irbesartan: predicted new indication malignant hypertensive renal disease (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/irinotecan.md",
+      "date": "2026-11-19",
+      "from": "\"Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Irinotecan: predicted new indication Female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ivermectin.md",
+      "date": "2026-11-19",
+      "from": "\"Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoconazole: predicted new indication acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketoconazole: predicted new indication acne (disease) (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketorolac.md",
+      "date": "2026-11-19",
+      "from": "\"Ketorolac: predicted new indication headache disorder (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketorolac: predicted new indication headache disorder (evidence level L1). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lactulose.md",
+      "date": "2026-11-19",
+      "from": "\"Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lactulose: predicted new indication Acute urate nephropathy (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lamivudine.md",
+      "date": "2026-11-19",
+      "from": "\"Lamivudine: predicted new indication simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Lamivudine: predicted new indication simian immunodeficiency virus infection (evidence level L4). In the Philippines: 7 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lansoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Lansoprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lansoprazole: predicted new indication duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/latanoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Latanoprost: predicted new indication visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Latanoprost: predicted new indication visceral calciphylaxis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/letrozole.md",
+      "date": "2026-11-19",
+      "from": "\"Letrozole: predicted new indication Nipple carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Letrozole: predicted new indication Nipple carcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levetiracetam.md",
+      "date": "2026-11-19",
+      "from": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levobupivacaine.md",
+      "date": "2026-11-19",
+      "from": "\"Levobupivacaine: predicted new indication gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levobupivacaine: predicted new indication gastroduodenitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levonorgestrel.md",
+      "date": "2026-11-19",
+      "from": "\"Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Levonorgestrel: predicted new indication Acne (disease) (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lithium_carbonate.md",
+      "date": "2026-11-19",
+      "from": "\"Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lithium Carbonate: predicted new indication Pseudoachondroplasia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/losartan.md",
+      "date": "2026-11-19",
+      "from": "\"Losartan: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Losartan: predicted new indication malignant hypertensive renal disease (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mannitol.md",
+      "date": "2026-11-19",
+      "from": "\"Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mannitol: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mebendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mecobalamin.md",
+      "date": "2026-11-19",
+      "from": "\"Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/medroxyprogesterone_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Medroxyprogesterone Acetate: predicted new indication Breast fibrocystic disease (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mefenamic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/megestrol_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Megestrol Acetate: predicted new indication Hereditary breast ovarian cancer syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/melphalan.md",
+      "date": "2026-11-19",
+      "from": "\"Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Melphalan: predicted new indication Female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/memantine.md",
+      "date": "2026-11-19",
+      "from": "\"Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Memantine: predicted new indication Pulmonary hypertension (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mercaptopurine.md",
+      "date": "2026-11-19",
+      "from": "\"Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meropenem.md",
+      "date": "2026-11-19",
+      "from": "\"Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Meropenem: predicted new indication Bacterial arthritis (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methotrexate.md",
+      "date": "2026-11-19",
+      "from": "\"Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methylene_blue.md",
+      "date": "2026-11-19",
+      "from": "\"Methylene Blue: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methylene Blue: predicted new indication Bronchitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methylprednisolone.md",
+      "date": "2026-11-19",
+      "from": "\"Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methylprednisolone: predicted new indication Alopecia mucinosa (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoclopramide.md",
+      "date": "2026-11-19",
+      "from": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoprolol.md",
+      "date": "2026-11-19",
+      "from": "\"Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/micafungin.md",
+      "date": "2026-11-19",
+      "from": "\"Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/miconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Miconazole: predicted new indication Acne (disease) (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mitoxantrone.md",
+      "date": "2026-11-19",
+      "from": "\"Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/montelukast.md",
+      "date": "2026-11-19",
+      "from": "\"Montelukast: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Montelukast: predicted new indication Bronchitis (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/morphine.md",
+      "date": "2026-11-19",
+      "from": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Morphine: predicted new indication Myofascial pain syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/naproxen.md",
+      "date": "2026-11-19",
+      "from": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/neostigmine.md",
+      "date": "2026-11-19",
+      "from": "\"Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Neostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nitrous_oxide.md",
+      "date": "2026-11-19",
+      "from": "\"Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norepinephrine.md",
+      "date": "2026-11-19",
+      "from": "\"Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nystatin.md",
+      "date": "2026-11-19",
+      "from": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/octreotide.md",
+      "date": "2026-11-19",
+      "from": "\"Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Octreotide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/olanzapine.md",
+      "date": "2026-11-19",
+      "from": "\"Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Olanzapine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxacillin.md",
+      "date": "2026-11-19",
+      "from": "\"Oxacillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxacillin: predicted new indication Epiglottitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxcarbazepine.md",
+      "date": "2026-11-19",
+      "from": "\"Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paclitaxel.md",
+      "date": "2026-11-19",
+      "from": "\"Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Paclitaxel: predicted new indication Parameningeal embryonal rhabdomyosarcoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paliperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pantoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenobarbital.md",
+      "date": "2026-11-19",
+      "from": "\"Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenylephrine.md",
+      "date": "2026-11-19",
+      "from": "\"Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenylephrine: predicted new indication Nasal cavity disease (evidence level L4). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenytoin.md",
+      "date": "2026-11-19",
+      "from": "\"Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/piperacillin.md",
+      "date": "2026-11-19",
+      "from": "\"Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisolone.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Prednisolone: predicted new indication Alopecia areata (evidence level L2). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/primaquine.md",
+      "date": "2026-11-19",
+      "from": "\"Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Primaquine: predicted new indication Myiasis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propranolol.md",
+      "date": "2026-11-19",
+      "from": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propylthiouracil.md",
+      "date": "2026-11-19",
+      "from": "\"Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pyridostigmine.md",
+      "date": "2026-11-19",
+      "from": "\"Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pyridostigmine: predicted new indication Autoimmune disease of peripheral nervous system (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/quetiapine.md",
+      "date": "2026-11-19",
+      "from": "\"Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ranitidine.md",
+      "date": "2026-11-19",
+      "from": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifabutin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rifabutin: predicted new indication HIV infectious disease (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifaximin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/risperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-19",
+      "from": "\"Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rivastigmine: predicted new indication Glaucoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rosuvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rosuvastatin: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sacubitril.md",
+      "date": "2026-11-19",
+      "from": "\"Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sacubitril: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salbutamol.md",
+      "date": "2026-11-19",
+      "from": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salicylic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/selegiline.md",
+      "date": "2026-11-19",
+      "from": "\"Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sertraline.md",
+      "date": "2026-11-19",
+      "from": "\"Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sertraline: predicted new indication Schizoid personality disorder (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sirolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sirolimus: predicted new indication Liposarcoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sodium_acetate.md",
+      "date": "2026-11-19",
+      "from": "\"Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sodium Acetate: predicted new indication Congenital prothrombin deficiency (evidence level L5). In the Philippines: not in the Philippine National Formulary in this data\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sofosbuvir.md",
+      "date": "2026-11-19",
+      "from": "\"Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Sofosbuvir: predicted new indication Hepatitis B virus infection (evidence level L3). In the Philippines: 3 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/spironolactone.md",
+      "date": "2026-11-19",
+      "from": "\"Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Spironolactone: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/streptokinase.md",
+      "date": "2026-11-19",
+      "from": "\"Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Streptokinase: predicted new indication Prinzmetal angina (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sucralfate.md",
+      "date": "2026-11-19",
+      "from": "\"Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfacetamide.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfacetamide: predicted new indication Postinfectious vasculitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tegafur.md",
+      "date": "2026-11-19",
+      "from": "\"Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tegafur: predicted new indication Cecum villous adenoma (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/telmisartan.md",
+      "date": "2026-11-19",
+      "from": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/terazosin.md",
+      "date": "2026-11-19",
+      "from": "\"Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/terbutaline.md",
+      "date": "2026-11-19",
+      "from": "\"Terbutaline: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Terbutaline: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tetracaine.md",
+      "date": "2026-11-19",
+      "from": "\"Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tetracaine: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tetracycline.md",
+      "date": "2026-11-19",
+      "from": "\"Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/thiopental.md",
+      "date": "2026-11-19",
+      "from": "\"Thiopental: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Thiopental: predicted new indication Trichotillomania (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiotropium.md",
+      "date": "2026-11-19",
+      "from": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tocilizumab.md",
+      "date": "2026-11-19",
+      "from": "\"Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Tocilizumab: predicted new indication Ankylosing spondylitis (evidence level L3). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tolvaptan.md",
+      "date": "2026-11-19",
+      "from": "\"Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/topiramate.md",
+      "date": "2026-11-19",
+      "from": "\"Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tramadol.md",
+      "date": "2026-11-19",
+      "from": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trastuzumab.md",
+      "date": "2026-11-19",
+      "from": "\"Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trimethoprim.md",
+      "date": "2026-11-19",
+      "from": "\"Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tropicamide.md",
+      "date": "2026-11-19",
+      "from": "\"Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). In the Philippines: 2 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ursodeoxycholic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolemia (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valproic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 3 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/varenicline.md",
+      "date": "2026-11-19",
+      "from": "\"Varenicline: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Varenicline: predicted new indication Migraine disorder (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/verapamil.md",
+      "date": "2026-11-19",
+      "from": "\"Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vinblastine.md",
+      "date": "2026-11-19",
+      "from": "\"Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Vinblastine: predicted new indication Rhabdomyosarcoma (disease) (evidence level L4). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/vincristine.md",
+      "date": "2026-11-19",
+      "from": "\"Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Vincristine: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/warfarin.md",
+      "date": "2026-11-19",
+      "from": "\"Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Warfarin: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zidovudine.md",
+      "date": "2026-11-19",
+      "from": "\"Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zidovudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). In the Philippines: 4 PNF entries\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zolmitriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zolpidem.md",
+      "date": "2026-11-19",
+      "from": "\"Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zolpidem: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In the Philippines: 1 PNF entry\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

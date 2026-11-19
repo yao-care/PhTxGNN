@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Nitrous oxide"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
-description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Nitrous Oxide: predicted new indication Benign prostatic hyperplasia (disease) (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Nitrous Oxide

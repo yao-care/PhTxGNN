@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
 last_modified_at: 2026-11-12
-description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Metoprolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Metoprolol

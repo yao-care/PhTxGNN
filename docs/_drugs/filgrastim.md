@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
 last_modified_at: 2026-11-12
-description: "Filgrastim: predicted new indication primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the local data"
+description: "Filgrastim: predicted new indication primary release disorder of platelets (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Filgrastim

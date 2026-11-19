@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "Biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
 last_modified_at: 2026-11-12
-description: "Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Biperiden: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Biperiden

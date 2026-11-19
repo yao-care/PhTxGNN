@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 last_modified_at: 2026-11-12
-description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not recorded in the local data"
+description: "Memantine: predicted new indication Pulmonary hypertension (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Memantine

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
 last_modified_at: 2026-11-06
-description: "Ketoconazole: predicted new indication acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Ketoconazole: predicted new indication acne (disease) (evidence level L4). In the Philippines: 1 PNF entry"
 ---
 
 # Ketoconazole

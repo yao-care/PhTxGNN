@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
 last_modified_at: 2026-11-12
-description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Carbetocin

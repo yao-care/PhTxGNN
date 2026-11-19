@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "candida glabrata", "neonatal candidiasis", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 last_modified_at: 2026-11-12
-description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ivermectin: predicted new indication Vulvovaginal candidiasis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Ivermectin

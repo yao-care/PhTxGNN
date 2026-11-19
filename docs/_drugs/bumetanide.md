@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
-description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Bumetanide

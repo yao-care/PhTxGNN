@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
-description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
+description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). In the Philippines: 1 PNF entry"
 ---
 
 # Micafungin

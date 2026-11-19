@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenobarbital: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Phenobarbital

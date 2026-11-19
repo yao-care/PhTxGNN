@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 last_modified_at: 2026-11-12
-description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bupivacaine: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Bupivacaine

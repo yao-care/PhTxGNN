@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 last_modified_at: 2026-11-12
-description: "Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Hydroxyurea

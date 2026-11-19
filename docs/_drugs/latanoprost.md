@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 last_modified_at: 2026-11-12
-description: "Latanoprost: predicted new indication visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Latanoprost: predicted new indication visceral calciphylaxis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Latanoprost

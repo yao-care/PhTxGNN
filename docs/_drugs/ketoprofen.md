@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 last_modified_at: 2026-11-12
-description: "Ketoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ketoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Ketoprofen

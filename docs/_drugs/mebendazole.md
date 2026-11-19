@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
-description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Mebendazole

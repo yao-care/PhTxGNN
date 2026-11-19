@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Diethylcarbamazine"
 predicted_indications: ["syndromic lymphedema", "primary lymphedema"]
 last_modified_at: 2026-11-12
-description: "Diethylcarbamazine: predicted new indication syndromic lymphedema (evidence level L5). Approved use: Not recorded in the local data"
+description: "Diethylcarbamazine: predicted new indication syndromic lymphedema (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Diethylcarbamazine

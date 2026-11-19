@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Ertapenem"
 predicted_indications: ["bacterial arthritis"]
-description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ertapenem: predicted new indication Bacterial arthritis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Ertapenem

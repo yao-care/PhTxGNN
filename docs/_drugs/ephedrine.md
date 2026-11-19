@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Ephedrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 last_modified_at: 2026-11-12
-description: "Ephedrine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ephedrine: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Ephedrine

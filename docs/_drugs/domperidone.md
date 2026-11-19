@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 last_modified_at: 2026-11-12
-description: "Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Domperidone: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Domperidone

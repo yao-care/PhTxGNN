@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 last_modified_at: 2026-11-12
-description: "Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Fentanyl: predicted new indication nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Fentanyl

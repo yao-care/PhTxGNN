@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 last_modified_at: 2026-11-12
-description: "Ketorolac: predicted new indication headache disorder (evidence level L1). Approved use: Not recorded in the local data"
+description: "Ketorolac: predicted new indication headache disorder (evidence level L1). In the Philippines: 1 PNF entry"
 ---
 
 # Ketorolac

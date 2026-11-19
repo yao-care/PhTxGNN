@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Miconazole: predicted new indication Acne (disease) (evidence level L4). In the Philippines: 1 PNF entry"
 ---
 
 # Miconazole

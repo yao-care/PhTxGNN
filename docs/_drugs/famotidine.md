@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 last_modified_at: 2026-11-12
-description: "Famotidine: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Famotidine: predicted new indication duodenal obstruction (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Famotidine

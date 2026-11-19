@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
 last_modified_at: 2026-11-12
-description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Albendazole: predicted new indication Coenurosis (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Albendazole

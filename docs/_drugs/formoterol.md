@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 last_modified_at: 2026-11-06
-description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
+description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 3 PNF entries"
 ---
 
 # Formoterol

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
-description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the Philippines: 3 PNF entries"
 ---
 
 # Valproic Acid

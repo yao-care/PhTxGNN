@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
 last_modified_at: 2026-11-12
-description: "Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). Approved use: Not recorded in the local data"
+description: "Adenosine: predicted new indication obsolete bundle branch block (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
 # Adenosine
