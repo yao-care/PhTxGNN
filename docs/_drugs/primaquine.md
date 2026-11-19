@@ -60,7 +60,7 @@ The data compiled for this report do show stronger evidence for another predicte
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Primaquine is known to act on the liver stages (hypnozoites) and gametocytes of malaria parasites. Its efficacy in *P. vivax* malaria is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primaquine: "Primaquine phosphate is an 8-aminoquinoline antimalarial drug. The mechanism of action has not been fully established. The major assumptions are an inhibition of the mitochondrial system of dormant parasites, and an oxidative stress generated through reactive metabolites in infected cells." ([DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59), label version 2026-02-11; accessed 2026-11-19.) Primaquine is known to act on the liver stages (hypnozoites) and gametocytes of malaria parasites. Its efficacy in *P. vivax* malaria is well established.
 
 For myiasis, however, no mechanistic rationale is evident. Myiasis is a tissue infestation by fly larvae, an ectoparasitic condition. Primaquine targets *Plasmodium*, a protozoan blood and liver parasite. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -159,11 +159,12 @@ The myiasis prediction is supported only by the model score, with no trials, no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory position in the Philippines, since the only registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59) |
 
 <!-- review:end log -->
 

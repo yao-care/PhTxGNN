@@ -56,7 +56,7 @@ Evidence is weak: the **3 clinical trials** found were in cystic fibrosis, not i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Tiotropium is a long-acting muscarinic antagonist class drug, and its known pharmacological effect is bronchodilation through relaxation of airway smooth muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tiotropium: "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), label version 2025-11-10; accessed 2026-11-19.) Tiotropium is a long-acting muscarinic antagonist class drug, and its known pharmacological effect is bronchodilation through relaxation of airway smooth muscle.
 
 The link to respiratory malformation is weak. Structural malformations are not treated by bronchodilation, and any benefit would be symptomatic, in patients with coexisting airway obstruction, rather than disease-modifying. The high score most likely reflects the model's network proximity to obstructive airway conditions rather than a true mechanistic rationale. No trial or publication reviewed studies this disease directly.
 
@@ -117,11 +117,12 @@ No study examines tiotropium in respiratory malformation. The available trials w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, this is established on-label use rather than true repurposing, and the only Philippines registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **osteoarthritis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iodixanol is known as an iodinated, iso-osmolar radiographic contrast agent. It has no known disease-modifying activity in osteoarthritis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iodixanol: "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), label version 2026-10-16; accessed 2026-11-19.) Iodixanol is known as an iodinated, iso-osmolar radiographic contrast agent. It has no known disease-modifying activity in osteoarthritis.
 
 The retrieved literature concerns iodixanol as a research and imaging tool. Examples include contrast-enhanced CT of cartilage, diffusion of solutes and nanoparticles through cartilage and the osteochondral interface, and in vitro compatibility with platelet-rich plasma. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It most likely reflects the repeated association of iodixanol with joint imaging, not a therapeutic effect. No mechanistic link to treating osteoarthritis is supported at this time.
 
@@ -126,11 +126,12 @@ The prediction is supported only by the TxGNN score. No clinical trial exists, a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "It is registered in the Philippines, but the data compiled for this report contain no approved indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
 
 <!-- review:end log -->
 

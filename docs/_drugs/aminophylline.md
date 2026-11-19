@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled records. Based on known pharmacology, aminophylline is a non-selective adenosine receptor antagonist and phosphodiesterase (PDE) inhibitor. It is a methylxanthine, widely known for bronchodilation, and the original indication is not recorded in the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aminophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), label version 2026-05-26; accessed 2026-11-19.) Based on known pharmacology, aminophylline is a non-selective adenosine receptor antagonist and phosphodiesterase (PDE) inhibitor. It is a methylxanthine, widely known for bronchodilation, and the original indication is not recorded in the data compiled for this report.
 
 Adenosine signalling has been linked to activation of the trigeminovascular system and to pain modulation. A 2023 review proposes that migraine may involve impaired brain energy metabolism with high adenosine levels, and that adenosine antagonism by aminophylline may relieve pain, particularly post-dural headache. A case report of hemiplegic migraine triggered by regadenoson (an adenosine agonist) offers indirect support for adenosine involvement.
 
@@ -126,11 +126,12 @@ The prediction score is very high, but the evidence is L4: a plausible adenosine
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
 
 <!-- review:end log -->
 

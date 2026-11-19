@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Paratyphoid Fever**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general knowledge, amikacin is an aminoglycoside that binds the 30S ribosomal subunit and inhibits bacterial protein synthesis. It has activity against gram-negative Enterobacterales, including *Salmonella*.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amikacin: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), label version 2026-07-27; accessed 2026-11-19.) Based on general knowledge, amikacin is an aminoglycoside that binds the 30S ribosomal subunit and inhibits bacterial protein synthesis. It has activity against gram-negative Enterobacterales, including *Salmonella*.
 
 Paratyphoid fever is a gram-negative bacterial infection, so an antibacterial rationale exists, and this is likely why the model ranks it highly. The link is plausible in vitro but weak clinically. Aminoglycosides reach poor concentrations inside cells, where *Salmonella* persists, and they are not standard therapy for enteric fever. The retrieved literature is mostly epidemiology and antibiogram surveys, with no efficacy data for amikacin.
 
@@ -125,11 +125,12 @@ The prediction score is very high, but the evidence consists of surveillance, su
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, and package insert safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
 
 <!-- review:end log -->
 

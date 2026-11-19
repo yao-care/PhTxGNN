@@ -56,7 +56,7 @@ but **no clinical trials** are registered for this indication, and the **20 publ
 
 ## Why is This Prediction Reasonable?
 
-Dacarbazine is an alkylating agent. It is a prodrug that is activated in the body to MTIC, which methylates DNA and kills dividing tumour cells. Detailed mechanism of action data is not available in the data compiled for this report, so this explanation rests on general knowledge of the drug class.
+Dacarbazine is an alkylating agent. It is a prodrug that is activated in the body to MTIC, which methylates DNA and kills dividing tumour cells. ChEMBL (EMBL-EBI) records the mechanism of action of dacarbazine as: DNA inhibitor ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; accessed 2026-11-19.) This explanation rests on general knowledge of the drug class.
 
 The link to the predicted indication is indirect and based on anatomical site rather than disease type. Melanoma and Hodgkin lymphoma, the two original indications, can both involve the head and neck or the upper aerodigestive mucosa. Examples in the literature include mucosal melanoma and extranodal Hodgkin lymphoma at head and neck sites. Dacarbazine-containing regimens have also been reported in head and neck-region tumours such as medullary thyroid carcinoma and malignant paraganglioma. These are not true upper aerodigestive tract squamous neoplasms.
 
@@ -142,12 +142,13 @@ The prediction rests on a computational score alone. There are no clinical trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the package insert safety data is unavailable, which blocks safety screening" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the existing registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Codeine is an opioid medicine (a prodrug converted to morphine in the body) that
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this report. Codeine is generally understood as an opioid analgesic and cough suppressant that works mainly through mu-opioid receptor activity after conversion to morphine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), label version 2026-01-16; accessed 2026-11-19.) Codeine is generally understood as an opioid analgesic and cough suppressant that works mainly through mu-opioid receptor activity after conversion to morphine.
 
 The prediction score is very high, but it does not point to a convincing therapeutic mechanism. Opioid receptor activity and cough suppression offer no plausible disease-modifying role in conditions of the nasal cavity. The score most likely reflects the model's association with related upper-airway conditions rather than a distinct, new mechanism, so this should not be read as a true novel repurposing signal.
 
@@ -101,6 +101,19 @@ No clinical trial or study directly examines codeine as a treatment for nasal ca
 - Detailed mechanism of action data.
 - Package insert warnings and contraindications from the Philippine regulator.
 - Any study showing a benefit of codeine in nasal cavity disease; without it, the prediction should remain at the model-only level.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **leprosy**, with **no register
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rifapentine is a rifamycin that inhibits bacterial DNA-dependent RNA polymerase (rpoB). Its efficacy in tuberculosis is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rifapentine: "Rifapentine, a cyclopentyl rifamycin, is an antimycobacterial agent. […] Rifapentine, a cyclopentyl rifamycin, inhibits DNA-dependent RNA polymerase in susceptible strains of Mycobacterium tuberculosis but does not affect mammalian cells at concentrations that are active against these bacteria. At therapeutic levels, rifapentine inhibits RNA transcription by preventing the initiation of RNA chain formation." ([DailyMed: Priftin (rifapentine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a64fb70-b85e-43d9-8bcd-7e893f568ae1), label version 2026-02-06; accessed 2026-11-19.) Based on known pharmacology, rifapentine is a rifamycin that inhibits bacterial DNA-dependent RNA polymerase (rpoB). Its efficacy in tuberculosis is established.
 
 *Mycobacterium leprae*, the cause of leprosy, is also susceptible to rifamycins. Rifampicin is already a cornerstone of leprosy multidrug therapy and post-exposure prophylaxis. Rifapentine has a longer half-life and higher potency than rifampicin, which makes single-dose or intermittent prophylaxis plausible. Mouse studies of post-exposure prophylaxis and antibacterial activity support this.
 
@@ -129,12 +129,13 @@ The mechanistic rationale and a 2023 randomized trial report for leprosy post-ex
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Rifapentine is marketed in the Philippines with 1 valid licence of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Priftin (rifapentine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a64fb70-b85e-43d9-8bcd-7e893f568ae1) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ but there are **0 clinical trials** and **20 publications** that only indirectly
 
 ## Why is This Prediction Reasonable?
 
-Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist with both central and peripheral activity. The literature describes it as inhibiting trigeminovascular activation and cranial vasodilation, and it is already established for acute migraine with or without aura. Detailed mechanism of action data was not available in the structured drug record, so this description comes from the published reviews.
+Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist with both central and peripheral activity. The literature describes it as inhibiting trigeminovascular activation and cranial vasodilation, and it is already established for acute migraine with or without aura. According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) This description comes from the published reviews.
 
 Migraine with brainstem aura is a subtype of migraine, so the shared pathophysiology (trigeminovascular activation, CGRP release, cranial vasodilation) makes a mechanistic link plausible.
 
@@ -126,11 +126,12 @@ The prediction rests on proximity to the approved migraine indication, with no c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the only Philippines registration has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data was not available in the structured drug record, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
 
 <!-- review:end log -->
 

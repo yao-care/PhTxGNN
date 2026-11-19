@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Levothyroxine is a synthetic thyroid hormone. Scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not approved indications confirmed by local label text.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levothyroxine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), label version 2026-11-06; accessed 2026-11-19.) Levothyroxine is a synthetic thyroid hormone. Scores on this page come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They are not approved indications confirmed by local label text.
 
 A possible link is that thyroid hormone influences kidney development, and congenital hypothyroidism is associated with a higher rate of congenital kidney and urinary tract anomalies. However, this association does not show that levothyroxine treats or prevents renal hypodysplasia/aplasia. This is a structural developmental malformation, and postnatal hormone replacement is unlikely to reverse established defects. The prediction should be treated as a computational signal, not a therapeutic rationale.
 
@@ -118,11 +118,12 @@ The prediction is supported only by a TxGNN model (deep learning) score. No clin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "(the licence record has no indication, dosage form or manufacturer details)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
 
 <!-- review:end log -->
 

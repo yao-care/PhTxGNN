@@ -54,7 +54,7 @@ Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that blocks pro
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the compiled data. Based on known information, mefenamic acid is an NSAID that inhibits cyclooxygenase (COX) and, through it, the synthesis and action of prostaglandins. Prostaglandins are involved in pain signalling and in some headache types, especially headaches linked to the menstrual cycle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mefenamic acid: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), label version 2026-04-20; accessed 2026-11-19.) Based on known information, mefenamic acid is an NSAID that inhibits cyclooxygenase (COX) and, through it, the synthesis and action of prostaglandins. Prostaglandins are involved in pain signalling and in some headache types, especially headaches linked to the menstrual cycle.
 
 Because of this, the drug's analgesic action may be applicable to headache. The best-studied form of headache is migraine:
 - A double-blind crossover trial compared mefenamic acid with paracetamol for acute migraine attacks.
@@ -130,11 +130,12 @@ Small, decades-old double-blind trials in migraine support the prediction, and t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the package insert data are missing" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Bleomycin is a cytotoxic glycopeptide antineoplastic drug that damages tumour DN
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. In general terms, bleomycin is a cytotoxic glycopeptide that breaks DNA strands, which gives it a broad antitumour rationale.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bleomycin: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), label version 2026-04-17; accessed 2026-11-19.) In general terms, bleomycin is a cytotoxic glycopeptide that breaks DNA strands, which gives it a broad antitumour rationale.
 
 No direct mechanistic link to cauda equina tumours has been established. The only publication retrieved concerns radiation therapy for relapsed CNS germinoma after a chemotherapy regimen that included bleomycin, which is a different disease and does not test bleomycin in cauda equina tumours. In addition, systemic bleomycin is thought to penetrate the central nervous system poorly, which weakens the plausibility of this use. The high score (0.9930) is a model output only and should not be read as proof of benefit.
 
@@ -116,11 +116,12 @@ The prediction rests on the model score alone. No clinical trials exist, and the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirmation of current local availability, since the only Philippines registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
 
 <!-- review:end log -->
 

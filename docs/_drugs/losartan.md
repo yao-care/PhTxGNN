@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, losartan blocks the angiotensin II type 1 (AT1) receptor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for losartan: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), label version 2026-09-15; accessed 2026-11-19.) Based on known pharmacology, losartan blocks the angiotensin II type 1 (AT1) receptor.
 
 The one publication found (PMID 30809002) describes angiotensin II and the NF-κB system as drivers of kidney injury in a rat model of malignant hypertensive nephrosclerosis. This makes AT1 receptor blockade mechanistically plausible. However, it is a single animal-model study that does not test losartan in this disease, so it is not direct evidence.
 
@@ -101,6 +101,19 @@ The TxGNN score is high, but no clinical trial exists and the only publication i
 - Clinical or observational studies of losartan in malignant hypertensive kidney disease
 - Mechanism of action data and package insert warnings and contraindications
 - Review of the local licence status and the approved indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

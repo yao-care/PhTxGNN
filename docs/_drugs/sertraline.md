@@ -54,7 +54,7 @@ Sertraline is a selective serotonin reuptake inhibitor (SSRI). The knowledge gra
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Sertraline is an SSRI, and serotonergic modulation might plausibly affect affective flattening or comorbid anxiety and depression. The TxGNN model (deep learning) also predicts anxiety-related conditions, and these predictions may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sertraline: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), label version 2023-08-08; accessed 2026-11-19.) Sertraline is an SSRI, and serotonergic modulation might plausibly affect affective flattening or comorbid anxiety and depression. The TxGNN model (deep learning) also predicts anxiety-related conditions, and these predictions may reflect similarities the model learned between related diseases, not biological evidence.
 
 The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not supported by direct clinical findings. Schizoid personality disorder is characterized by emotional detachment and restricted affect, and any benefit would most likely come from treating comorbid mood or anxiety symptoms. This is a hypothesis only.
 
@@ -124,11 +124,12 @@ The prediction rests only on a high model score (0.9993). No clinical trials exi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient registration is on record, and it is valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
 
 <!-- review:end log -->
 

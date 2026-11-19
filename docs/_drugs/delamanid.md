@@ -54,7 +54,7 @@ Delamanid is an antimycobacterial drug used against tuberculosis. The TxGNN mode
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for delamanid. It is known as an antimycobacterial agent, but this does not explain any effect on allergic urticaria.
+ChEMBL (EMBL-EBI) records the mechanism of action of delamanid as: Mycobacterium tuberculosis H37Rv inhibitor ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0; accessed 2026-11-19.) It is known as an antimycobacterial agent, but this does not explain any effect on allergic urticaria.
 
 No credible mechanistic link between delamanid's antimycobacterial action and allergic urticaria was identified. The high TxGNN score (0.9956) is most likely an artifact of the model's network-based patterns rather than a true therapeutic signal. The only publication found describes urticaria *caused by* another antibiotic (piperacillin-tazobactam); it concerns a different drug and an adverse reaction, not a treatment effect. This prediction should be regarded as likely spurious.
 
@@ -106,11 +106,12 @@ The prediction rests on a model score alone. No study tests delamanid in allergi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the local licence record (dosage form and approved indication are missing)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for delamanid" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
 
 <!-- review:end log -->
 

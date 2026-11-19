@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, travoprost is a prostaglandin F2α analogue acting as an FP receptor agonist. It lowers intraocular pressure in glaucoma, and mechanistically it has vasodilatory properties that might be relevant to vascular conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known information, travoprost is a prostaglandin F2α analogue acting as an FP receptor agonist. It lowers intraocular pressure in glaucoma, and mechanistically it has vasodilatory properties that might be relevant to vascular conditions.
 
 Visceral calciphylaxis (calcific uremic arteriolopathy) is a small-vessel calcification and occlusion disorder. A plausible link between FP receptor agonism and this condition has not been established. In addition, travoprost is given as a topical eye drop with minimal systemic exposure, so it is unlikely to reach effective levels in affected tissues.
 
@@ -159,12 +159,13 @@ The prediction rests on the model score alone (L5). There are no trials or publi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only registration in the Philippines is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and a current valid registration or a defined regulatory pathway" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

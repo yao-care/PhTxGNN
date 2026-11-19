@@ -62,7 +62,7 @@ The TxGNN model predicts it may be useful for **peptic ulcer perforation**, with
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for ranitidine is not available in the data compiled for this report. The literature describes ranitidine as a histamine H2-receptor antagonist that lowers gastric acid. Acid suppression is a plausible supportive measure around ulcer complications, for example to reduce acid exposure while an ulcer heals or to prevent recurrence.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ranitidine: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), label version 2026-09-24; accessed 2026-11-19.) The literature describes ranitidine as a histamine H2-receptor antagonist that lowers gastric acid. Acid suppression is a plausible supportive measure around ulcer complications, for example to reduce acid exposure while an ulcer heals or to prevent recurrence.
 
 Perforation, however, is an acute surgical complication that acid suppression alone does not treat. The literature compiled here is indirect:
 - One randomized trial compares non-operative with surgical management of perforated ulcer, but it is not specific to ranitidine.
@@ -144,7 +144,7 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -152,6 +152,7 @@ Below is the review log for this page: statements checked against official Phili
 | 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The local record shows one valid licence for a single-ingredient product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for ranitidine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
 
 <!-- review:end log -->
 

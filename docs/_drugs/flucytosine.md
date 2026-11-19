@@ -54,7 +54,7 @@ Flucytosine is an antifungal medicine, and the TxGNN model predicts it may be re
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Flucytosine is generally known as an antifungal prodrug: fungal cytosine deaminase converts it to 5-fluorouracil, which interferes with fungal RNA and DNA synthesis.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for flucytosine: "Flucytosine is taken up by fungal organisms via the enzyme cytosine permease. Inside the fungal cell, flucytosine is rapidly converted to fluorouracil by the enzyme cytosine deaminase. Fluorouracil exerts its antifungal activity through the subsequent conversion into several active metabolites, which inhibit protein synthesis by being falsely incorporated into fungal RNA or interfere with the biosynthesis of fungal DNA through the inhibition of the enzyme thymidylate synthetase." ([DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e), label version 2022-02-02; accessed 2026-11-19.) Flucytosine is generally known as an antifungal prodrug: fungal cytosine deaminase converts it to 5-fluorouracil, which interferes with fungal RNA and DNA synthesis.
 
 Paget disease of bone is a disorder of excessive, disorganised bone remodelling driven by osteoclasts. Mutations in SQSTM1 and possibly viral factors have been proposed in its development. No direct link between flucytosine's mechanism and this process can be established from the available data. The high score may reflect indirect associations with related pyrimidine-analogue compounds rather than demonstrated biological plausibility.
 
@@ -117,11 +117,12 @@ The prediction score is very high, but no clinical trial or publication studies 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The list of authorizations may be incomplete. Flucytosine is recorded locally under one single-ingredient authorization (PNF-xxxx)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e) |
 
 <!-- review:end log -->
 

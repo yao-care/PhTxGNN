@@ -58,7 +58,7 @@ Isoflurane is a volatile (inhaled) general anaesthetic. The TxGNN model predicts
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on general pharmacology, volatile anaesthetics such as isoflurane inhibit voltage-gated calcium channels and relax vascular smooth muscle. In theory this could counter the coronary vasospasm behind Prinzmetal angina.
+ChEMBL (EMBL-EBI) records the mechanism of action of isoflurane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, volatile anaesthetics such as isoflurane inhibit voltage-gated calcium channels and relax vascular smooth muscle. In theory this could counter the coronary vasospasm behind Prinzmetal angina.
 
 This is a hypothesis only. No trials or literature were found to support it. Isoflurane is a general anaesthetic given by inhalation under monitored conditions, so it cannot be used for long-term management of a chronic condition like vasospastic angina.
 
@@ -178,12 +178,13 @@ Package insert warnings and contraindications were not available. Please refer t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "It is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
 
 <!-- review:end log -->
 

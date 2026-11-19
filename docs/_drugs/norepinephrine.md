@@ -60,7 +60,7 @@ but the data compiled for this report show **1 clinical trial (not relevant to t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Norepinephrine is a catecholamine that acts on adrenergic receptors (alpha and beta). It is used clinically as a vasopressor.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norepinephrine: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), label version 2026-10-27; accessed 2026-11-19.) Norepinephrine is a catecholamine that acts on adrenergic receptors (alpha and beta). It is used clinically as a vasopressor.
 
 Adrenergic and neuroimmune signalling is implicated in airway tone and inflammation in asthma and COPD, which gives a plausible but indirect biological link. The drug's original indications already included asthma, bronchitis and emphysema, which overlap with obstructive lung disease, and this probably contributes to the high model score.
 
@@ -141,11 +141,12 @@ Please refer to the package insert for warnings and other safety information.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "A regulatory pathway review, since the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Chloramphenicol is an antibacterial drug. The TxGNN model predicts it may be rel
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Chloramphenicol is a broad-spectrum antibacterial, and nothing in the data compiled for this report links it to a therapeutic effect in scleroderma.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for chloramphenicol: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), label version 2024-10-10; accessed 2026-11-19.) Chloramphenicol is a broad-spectrum antibacterial, and nothing in the data compiled for this report links it to a therapeutic effect in scleroderma.
 
 The four publications retrieved concern collagen gene regulation in scleroderma skin cells (alpha1(I) procollagen promoter activity, Smad3/Sp1/p300 interaction, and TGF-beta signalling). In this type of research, chloramphenicol appears to be used as a laboratory reporter tool (a chloramphenicol acetyltransferase reporter gene), not as a treatment. The high prediction score most likely reflects this literature association rather than a real therapeutic signal.
 
@@ -128,12 +128,13 @@ The prediction rests on model output alone. The only literature is laboratory re
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that is currently registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The Philippines licence for single-ingredient chloramphenicol is valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
 
 <!-- review:end log -->
 

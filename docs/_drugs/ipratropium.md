@@ -54,7 +54,7 @@ Ipratropium is an anticholinergic (muscarinic receptor blocking) drug that is ma
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, ipratropium blocks muscarinic acetylcholine receptors. Cholinergic signalling drives secretion from nasal glands, so blocking it could plausibly reduce watery nasal discharge. That is the main mechanistic argument for applying the drug to conditions of the nasal cavity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ipratropium: "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), label version 2025-11-05; accessed 2026-11-19.) Based on general pharmacology, ipratropium blocks muscarinic acetylcholine receptors. Cholinergic signalling drives secretion from nasal glands, so blocking it could plausibly reduce watery nasal discharge. That is the main mechanistic argument for applying the drug to conditions of the nasal cavity.
 
 "Nasal cavity disease" is a broad category rather than a single clinical entity. The mechanistic argument therefore fits only secretion-driven symptoms, not every condition in the group. The model score is high, but it is a statistical prediction and not evidence of benefit.
 
@@ -116,11 +116,12 @@ The prediction score is high, but no clinical trial and no study directly addres
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local records show ipratropium as **Marketed** in the Philippines. dosage form or , so the route of administration cannot be confirmed here" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

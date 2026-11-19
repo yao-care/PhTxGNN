@@ -56,7 +56,7 @@ Two other predictions (agoraphobia and dysthymic disorder) have more supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Olanzapine is known to be an atypical antipsychotic that acts on dopamine and serotonin receptors, and its efficacy in psychiatric disorders is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olanzapine: "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), label version 2026-10-26; accessed 2026-11-19.) Olanzapine is known to be an atypical antipsychotic that acts on dopamine and serotonin receptors, and its efficacy in psychiatric disorders is established.
 
 For benign paroxysmal torticollis of infancy, the link is weak. The disorder is a self-limiting, migraine-related condition of young children, with an association to CACNA1A reported. Olanzapine's dopamine and serotonin receptor antagonism has no established connection to its pathophysiology. Antipsychotic exposure in infants raises safety concerns, and because the condition resolves on its own, a favourable risk-benefit balance is unlikely. The high score is therefore best treated as a computational signal, not a clinical rationale.
 
@@ -132,12 +132,13 @@ The prediction for benign paroxysmal torticollis of infancy rests on the model s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only Philippine registration is also cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "(reason for cancellation)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
 
 <!-- review:end log -->
 

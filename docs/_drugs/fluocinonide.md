@@ -56,7 +56,7 @@ There are currently **no clinical trials** and **no publications** that directly
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Fluocinonide is a high-potency topical corticosteroid, and its anti-inflammatory and immunosuppressive effects are well recognized for this drug class.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinonide: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of Fluocinonide Cream USP, 0.1% in corticosteroid responsive dermatoses is unknown." ([DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f), label version 2023-01-11; accessed 2026-11-19.) Fluocinonide is a high-potency topical corticosteroid, and its anti-inflammatory and immunosuppressive effects are well recognized for this drug class.
 
 Alopecia mucinosa (follicular mucinosis) is an inflammatory disorder of the hair follicle. A glucocorticoid effect is therefore biologically plausible, and topical corticosteroids are used in clinical practice for localized lesions of this kind.
 
@@ -117,12 +117,13 @@ The prediction rests on the TxGNN score and a plausible class-level mechanism. N
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local record lists one single-ingredient authorization, PNF-xxxx, with a status of cancelled. Overall market status in the local data is" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Confirmation of the dosage form and approved indication for the local authorization, and clarification of its cancelled status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f) |
 
 <!-- review:end log -->
 

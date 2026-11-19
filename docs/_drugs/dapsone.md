@@ -54,7 +54,7 @@ Dapsone is a sulfone antibacterial drug that has been used in several diseases. 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase and blocks folate synthesis. This is the same pathway targeted by sulfonamides such as trimethoprim-sulfamethoxazole (TMP-SMX), the standard drug for Pneumocystis jirovecii pneumonia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dapsone: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), label version 2026-10-01; accessed 2026-11-19.) Based on known pharmacology, dapsone is a sulfone that inhibits dihydropteroate synthase and blocks folate synthesis. This is the same pathway targeted by sulfonamides such as trimethoprim-sulfamethoxazole (TMP-SMX), the standard drug for Pneumocystis jirovecii pneumonia.
 
 Pneumocystis jirovecii is an opportunistic fungal pathogen that depends on folate synthesis. A folate-pathway inhibitor is therefore mechanistically plausible against it. Clinical trials and reviews describe dapsone-based regimens as an alternative for prophylaxis and for mild-to-moderate treatment (with trimethoprim) in patients who cannot tolerate TMP-SMX. This is closer to an established, guideline-supported use than a novel repurposing.
 
@@ -131,11 +131,12 @@ Four completed Phase 3 randomized trials (NCT00000802, NCT00000991, NCT00001028,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "since the only registration record has no recorded dosage form or indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->
 

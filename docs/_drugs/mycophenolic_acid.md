@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **hemoglobinopathy**, but the evid
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled drug record. From the supporting literature, mycophenolic acid inhibits inosine monophosphate dehydrogenase (IMPDH), an enzyme needed for guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolic acid: "Mycophenolic acid (MPA), an immunosuppressant, is an uncompetitive and reversible inhibitor of inosine monophosphate dehydrogenase (IMPDH), and therefore inhibits the de novo pathway of guanosine nucleotide synthesis without incorporation to DNA. T- and B-lymphocytes are critically dependent for their proliferation on de novo synthesis of purines, whereas other cell types can utilize salvage pathways." ([DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53), label version 2026-07-29; accessed 2026-11-19.) From the supporting literature, mycophenolic acid inhibits inosine monophosphate dehydrogenase (IMPDH), an enzyme needed for guanine nucleotide synthesis. This suppresses the proliferation of T and B lymphocytes.
 
 Hemoglobinopathies such as thalassemia are not directly treated by this mechanism. The plausible link is indirect. Patients with thalassemia major who receive allogeneic stem cell transplantation are at risk of graft-versus-host disease (GVHD), and mycophenolate is a common component of GVHD prevention. A 2025 pharmacokinetic study explored off-label dosing in this population. This supports the idea that the drug is used *around* the disease (in transplant care), not that it treats the underlying blood disorder.
 
@@ -125,12 +125,13 @@ The link to hemoglobinopathy is indirect. The only related trial tests a differe
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The product is also no longer validly registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the only Philippine registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled drug record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myfortic (mycophenolic acid) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eed26501-890d-4ff6-88e7-6dbea4726e53) |
 
 <!-- review:end log -->
 

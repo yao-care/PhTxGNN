@@ -58,7 +58,7 @@ There are **no clinical trials** and only **1 publication** (an in vitro biochem
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Feline immunodeficiency virus (FIV) is also a lentivirus and has a reverse transcriptase, which is the likely reason the model links the two diseases.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) From general pharmacology, efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Feline immunodeficiency virus (FIV) is also a lentivirus and has a reverse transcriptase, which is the likely reason the model links the two diseases.
 
 The link is weak, however. NNRTIs are generally poor inhibitors of FIV reverse transcriptase because the NNRTI binding pocket differs structurally from that of HIV-1. The one retrieved 2023 study compared nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus enzymes in the laboratory. It does not show that the drug works in infected cats. The high TxGNN score probably reflects target similarity and not demonstrated activity. The disease is also veterinary, so its value for human drug repurposing is limited.
 
@@ -121,11 +121,12 @@ The prediction rests on a high model score and a single in vitro study. No clini
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence is for a single-ingredient product and is currently valid. The record has no indication text or dosage form, so the approved use" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

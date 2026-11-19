@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** supporting this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, clomifene blocks estrogen feedback at the hypothalamus. This raises GnRH, LH and FSH. In theory, higher LH could stimulate any residual Leydig cell steroidogenesis in the testis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomifene: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), label version 2025-10-07; accessed 2026-11-19.) Based on general pharmacology, clomifene blocks estrogen feedback at the hypothalamus. This raises GnRH, LH and FSH. In theory, higher LH could stimulate any residual Leydig cell steroidogenesis in the testis.
 
 The link is speculative. This condition is usually caused by a primary enzymatic or receptor defect in the testis (for example in LHCGR, HSD17B3 or CYP17A1). Stimulating the gonadotropin axis is therefore unlikely to restore function. No trial or publication was found that studies this disease. The high score should be read as a model signal and not as evidence of benefit.
 
@@ -99,6 +99,19 @@ The prediction has no supporting trials or literature (evidence level L5). The p
 - Detailed mechanism-of-action data for clomifene
 - Package insert warnings and contraindications from the DOH-FDA Philippines
 - Specialist review of whether gonadotropin stimulation is biologically plausible for this defect
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

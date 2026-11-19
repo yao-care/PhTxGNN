@@ -65,7 +65,7 @@ Myocardial infarction is already an established, guideline-recognised use of str
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, streptokinase forms a complex with plasminogen. The complex converts plasminogen to plasmin, which breaks down fibrin in blood clots. In acute myocardial infarction, this can dissolve the clot blocking a coronary artery and restore blood flow.
+ChEMBL (EMBL-EBI) records the mechanism of action of streptokinase as: Plasminogen activator ([ChEMBL CHEMBL2108147 (streptokinase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108147), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, streptokinase forms a complex with plasminogen. The complex converts plasminogen to plasmin, which breaks down fibrin in blood clots. In acute myocardial infarction, this can dissolve the clot blocking a coronary artery and restore blood flow.
 
 Myocardial infarction is the classic use of streptokinase. Large trials (such as ISIS-2 and GISSI, described in the literature below) showed a survival benefit. The high model score therefore reflects an existing therapeutic use rather than a new discovery.
 
@@ -172,12 +172,13 @@ Please refer to the package insert for label warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Fibrin-specific agents and primary PCI are preferred in many settings, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the single Philippines registration has no indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108147 (streptokinase): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108147) |
 
 <!-- review:end log -->
 

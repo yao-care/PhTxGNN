@@ -54,7 +54,7 @@ Tegafur is an oral prodrug of 5-fluorouracil (5-FU), originally used to treat ga
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, tegafur is a prodrug of 5-FU. It is converted in the liver by CYP2A6 into the active thymidylate synthase inhibitor. In combinations such as UFT (tegafur + uracil), uracil inhibits the DPD enzyme and slows 5-FU breakdown. Leucovorin stabilizes the thymidylate synthase–FdUMP complex.
+ChEMBL (EMBL-EBI) records the mechanism of action of tegafur as: RNA inhibitor; Thymidylate synthase inhibitor; DNA inhibitor ([ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, tegafur is a prodrug of 5-FU. It is converted in the liver by CYP2A6 into the active thymidylate synthase inhibitor. In combinations such as UFT (tegafur + uracil), uracil inhibits the DPD enzyme and slows 5-FU breakdown. Leucovorin stabilizes the thymidylate synthase–FdUMP complex.
 
 Gastric cancer and colorectal cancer are both gastrointestinal adenocarcinomas that respond to fluoropyrimidines, so the antimetabolite mechanism applies directly to colonic neoplasms. The very high TxGNN score is consistent with this.
 
@@ -151,12 +151,13 @@ Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "the Philippine registration for tegafur is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the drug is currently marketed in the Philippines with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->
 

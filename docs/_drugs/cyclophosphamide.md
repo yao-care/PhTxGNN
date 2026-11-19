@@ -60,7 +60,7 @@ The TxGNN model predicts it may be relevant to **vertebral anomalies and variabl
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cyclophosphamide belongs to the alkylating, cytotoxic and immunosuppressive drug class.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclophosphamide: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), label version 2026-08-26; accessed 2026-11-19.) Cyclophosphamide belongs to the alkylating, cytotoxic and immunosuppressive drug class.
 
 No mechanistic link to this syndrome has been identified. The high TxGNN score is a computational output only. The syndrome involves T-cell (immune) dysfunction. Because cyclophosphamide is immunosuppressive and cytotoxic, it could worsen T-cell deficiency rather than help it.
 
@@ -147,11 +147,12 @@ The prediction is supported only by a model score of 0.9938. There are no trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The one registered licence is valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
 
 <!-- review:end log -->
 

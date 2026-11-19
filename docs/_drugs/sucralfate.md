@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, sucralfate is a mucosal protectant. It binds to damaged gastric and esophageal mucosa and forms a protective barrier. It is also known to adsorb bile salts and pepsin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sucralfate: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), label version 2026-01-06; accessed 2026-11-19.) Based on general pharmacological knowledge, sucralfate is a mucosal protectant. It binds to damaged gastric and esophageal mucosa and forms a protective barrier. It is also known to adsorb bile salts and pepsin.
 
 Duodenogastric reflux (alkaline reflux gastritis) injures the stomach lining through bile and pancreatic secretions flowing back from the duodenum. A drug that shields the mucosa and binds bile salts could plausibly reduce this injury. This is consistent with its original use in duodenal ulcer, where mucosal protection is also the goal.
 
@@ -149,12 +149,13 @@ The evidence is not strong enough to proceed.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The TxGNN score is high and the mechanism is plausible, but there are no registered trials, the randomized studies are small and about 20-40" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "A valid Philippines registration or a plan to re-register the product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->
 

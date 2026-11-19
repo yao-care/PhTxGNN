@@ -54,7 +54,7 @@ Irinotecan is a topoisomerase I inhibitor chemotherapy drug. The TxGNN model pre
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Irinotecan is generally known as a topoisomerase I inhibitor. Its active metabolite SN-38 causes DNA damage in rapidly dividing cells, and this effect is not specific to one tumor type. Activity in breast carcinoma is therefore biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for irinotecan: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), label version 2026-05-12; accessed 2026-11-19.) Irinotecan is generally known as a topoisomerase I inhibitor. Its active metabolite SN-38 causes DNA damage in rapidly dividing cells, and this effect is not specific to one tumor type. Activity in breast carcinoma is therefore biologically plausible.
 
 The strongest supporting evidence is indirect. Sacituzumab govitecan, an anti-Trop-2 antibody linked to SN-38, has been studied in breast cancer, including the Phase III TROPiCS-02 trial in HR+/HER2- metastatic disease. This supports the activity of the SN-38 payload but does not show that irinotecan itself works in breast cancer. Direct irinotecan evidence consists of small Phase I studies and older reviews describing modest activity. The TxGNN score is a computational prediction and is not clinical evidence.
 
@@ -127,6 +127,19 @@ No cited study tests irinotecan against female breast carcinoma beyond small Pha
 - Detailed mechanism of action data
 - Confirmation of the practical availability of irinotecan products in the Philippines
 - A safety monitoring plan, particularly for diarrhea, myelosuppression, and liver dysfunction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **hypertrichosis**, but there are 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled database record. Bicalutamide is known as a nonsteroidal AR antagonist. Androgen signalling drives terminal hair growth in androgen-sensitive areas of the body, so blocking the AR is plausible for hirsutism-like or drug-induced hypertrichosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bicalutamide: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), label version 2026-02-27; accessed 2026-11-19.) Bicalutamide is known as a nonsteroidal AR antagonist. Androgen signalling drives terminal hair growth in androgen-sensitive areas of the body, so blocking the AR is plausible for hirsutism-like or drug-induced hypertrichosis.
 
 The only supporting literature is a commentary on a retrospective review of 35 patients. That review looked at bicalutamide for minoxidil-induced hypertrichosis in female pattern hair loss. This is indirect, secondary evidence, and no primary trial data were available for this report.
 
@@ -150,13 +150,14 @@ For context, a lower-ranked prediction in the same data, **female breast carcino
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirmation of regulatory status, since the only registration found is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "he drug is marketed in the Philippines, with 1 valid license out of 1, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Dosage form and approved indication are not recorded for this authorization" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled database record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
 
 <!-- review:end log -->
 

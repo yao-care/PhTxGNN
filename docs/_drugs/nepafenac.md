@@ -60,7 +60,7 @@ The supporting evidence is specific to post-cataract-surgery inflammation and pa
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the registration records. From the published literature, nepafenac is a prodrug. Ocular tissue hydrolases convert it to amfenac, a COX-1/COX-2 inhibitor that reduces prostaglandin synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nepafenac: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), label version 2026-04-01; accessed 2026-11-19.) From the published literature, nepafenac is a prodrug. Ocular tissue hydrolases convert it to amfenac, a COX-1/COX-2 inhibitor that reduces prostaglandin synthesis.
 
 This mechanism directly addresses postoperative ocular inflammation, pain and cystoid macular edema. The TxGNN prediction is consistent with it. Preclinical studies also show that topical nepafenac reaches the retina and inhibits retinal edema and neovascularization in animal models.
 
@@ -161,12 +161,13 @@ For formal warnings and contraindications, please refer to the package insert.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the original indication, mechanism data and label safety information are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and whether re-registration or import is feasible, since the sole Philippines license is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the registration records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
 
 <!-- review:end log -->
 

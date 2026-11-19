@@ -58,7 +58,7 @@ Iohexol is a non-ionic, iodinated contrast agent used as a diagnostic imaging ai
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, iohexol is a non-ionic, iodinated contrast agent. It is pharmacologically inert, is not metabolised, and is excreted unchanged by the kidneys.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for iohexol: "The iodine atoms in iohexol provide attenuation of X-rays in direct proportion to the concentration of iohexol. Since concentration changes over time, iohexol provides time-dependent image contrast which may assist in visualizing body structures." ([DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f), label version 2026-04-28; accessed 2026-11-19.) Based on known information, iohexol is a non-ionic, iodinated contrast agent. It is pharmacologically inert, is not metabolised, and is excreted unchanged by the kidneys.
 
 **No mechanistic link to insomnia was identified.** Iohexol has no known activity on sleep-regulating pathways (GABAergic, orexinergic, histaminergic, or melatonergic). The very high TxGNN score (0.9987) most likely reflects TxGNN model (deep learning) artifacts, such as shared drug-drug interaction neighbours or network proximity, rather than a biological rationale. The prediction should therefore be treated as a computational signal only.
 
@@ -148,12 +148,13 @@ The prediction rests only on a model score. There are no clinical trials or supp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug is marketed in the Philippines, with 1 valid licence of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "A valid local registration and r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
 
 <!-- review:end log -->
 

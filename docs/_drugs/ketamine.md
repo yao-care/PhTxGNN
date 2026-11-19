@@ -58,7 +58,7 @@ with **9 clinical trials** and **20 publications** currently supporting this dir
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, ketamine blocks NMDA-type glutamate receptors. Glutamate signaling and central sensitization contribute to migraine, cluster headache, and chronic headache pain, so NMDA blockade offers a plausible analgesic and anti-sensitization mechanism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketamine: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), label version 2026-03-27; accessed 2026-11-19.) Based on general pharmacology, ketamine blocks NMDA-type glutamate receptors. Glutamate signaling and central sensitization contribute to migraine, cluster headache, and chronic headache pain, so NMDA blockade offers a plausible analgesic and anti-sensitization mechanism.
 
 Ketamine also affects cortical spreading depression and pain-pathway modulation, including trigeminal nociceptive processing. This adds biological plausibility. The very high TxGNN score (0.9933) fits this picture. The link rests on general pharmacology rather than a curated mechanism, and the original indication is unknown, so the relationship between old and new indications cannot be assessed.
 
@@ -146,12 +146,13 @@ No label safety information is available, and the knowledge graph flags many car
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, with no recorded indication or dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and avail" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

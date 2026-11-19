@@ -62,7 +62,7 @@ There are **no clinical trials** and only **7 loosely related publications** (no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Fluoxetine is known as a selective serotonin reuptake inhibitor. Serotonergic modulation could plausibly ease comorbid anxiety, low mood and irritability seen in cluster A personality disorders, which include paranoid personality disorder.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Fluoxetine is known as a selective serotonin reuptake inhibitor. Serotonergic modulation could plausibly ease comorbid anxiety, low mood and irritability seen in cluster A personality disorders, which include paranoid personality disorder.
 
 However, none of the retrieved publications studies fluoxetine in paranoid personality disorder itself. The papers concern borderline personality disorder, depression with personality disorders, and general pharmacotherapy in cluster A disorders. The high score most likely reflects similarity to depressive and anxiety disorders, not direct evidence. This is why the evidence level is L5.
 
@@ -119,11 +119,12 @@ No clinical trial or publication directly studies fluoxetine in paranoid persona
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "marketed in the Philippines under one valid licence" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
 
 <!-- review:end log -->
 

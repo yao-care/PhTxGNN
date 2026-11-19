@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acute urate nephropathy**, bu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lactulose is known pharmacologically as an osmotic laxative that acidifies the gut and lowers gut-derived ammonia. Nothing in the data compiled for this report links this action to uric acid handling or to the kidney injury seen when uric acid crystals form in the renal tubules (for example after tumour lysis).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for lactulose: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), label version 2024-12-18; accessed 2026-11-19.) Lactulose is known pharmacologically as an osmotic laxative that acidifies the gut and lowers gut-derived ammonia. Nothing in the data compiled for this report links this action to uric acid handling or to the kidney injury seen when uric acid crystals form in the renal tubules (for example after tumour lysis).
 
 The very high model score (0.9989) is therefore not backed by any mechanistic rationale or study. It is best read as a statistical output of the model that needs independent verification before anyone treats it as a lead.
 
@@ -110,11 +110,12 @@ The prediction has the highest model score among the candidates but no trials, n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local records show 1 single-ingredient registration (PNF-xxxx, product name "Lactulose"). dosage form, The market status in the Philippines " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
 
 <!-- review:end log -->
 

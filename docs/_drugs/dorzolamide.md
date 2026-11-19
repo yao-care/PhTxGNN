@@ -54,7 +54,7 @@ Dorzolamide is a topical carbonic anhydrase inhibitor. The TxGNN model predicts 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that dorzolamide binds several human carbonic anhydrase enzymes (CA1, CA7, CA12 and CA14). It is therefore a carbonic anhydrase inhibitor, a class that works by changing local fluid and acid-base handling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dorzolamide: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), label version 2026-11-14; accessed 2026-11-19.) Pharmacology records show that dorzolamide binds several human carbonic anhydrase enzymes (CA1, CA7, CA12 and CA14). It is therefore a carbonic anhydrase inhibitor, a class that works by changing local fluid and acid-base handling.
 
 No clear biological link connects carbonic anhydrase inhibition to hair follicle development in hereditary hypotrichosis. The high score most likely reflects a statistical pattern in the model rather than a demonstrated mechanism. Topical dorzolamide also has minimal systemic exposure, which weakens any argument for an effect on hair follicles. The prediction should be treated as a hypothesis only.
 
@@ -108,11 +108,12 @@ The prediction has no supporting clinical trials or publications and no plausibl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report lists dorzolamide as marketed in the Philippines. dosage forms and" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->
 

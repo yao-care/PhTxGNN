@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rectum mucinous adenocarcinom
 
 ## Why is This Prediction Reasonable?
 
-Gemcitabine is a nucleoside analog that inhibits DNA synthesis. This is the only mechanistic information in the data compiled for this report. Detailed mechanism-of-action data are not available.
+Gemcitabine is a nucleoside analog that inhibits DNA synthesis. This is the only mechanistic information in the data compiled for this report. According to the Mechanism of Action section of the US FDA-approved prescribing information for gemcitabine: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), label version 2026-07-27; accessed 2026-11-19.)
 
 Ovarian cancer and mucinous adenocarcinoma of the rectum are both epithelial adenocarcinomas. A DNA-synthesis inhibitor could plausibly act on rapidly dividing cells in either tumour. However, the high TxGNN score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No trial or publication for this disease was retrieved, so this reasoning is an extrapolation, not clinical support.
 
@@ -127,12 +127,13 @@ The prediction has a high model score but no supporting trial or publication for
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This single-ingredient licence is valid. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "for PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
 
 <!-- review:end log -->
 

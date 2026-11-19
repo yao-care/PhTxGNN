@@ -59,7 +59,7 @@ The evidence level is low (L4), so the recommendation is **Hold**.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Polymyxin B is generally known as a cationic polypeptide antibiotic that disrupts the outer membrane of Gram-negative bacteria. There is therefore a plausible antibacterial rationale for bacterial bronchitis or tracheobronchitis caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for polymyxin b: "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6), label version 2026-06-22; accessed 2026-11-19.) Polymyxin B is generally known as a cationic polypeptide antibiotic that disrupts the outer membrane of Gram-negative bacteria. There is therefore a plausible antibacterial rationale for bacterial bronchitis or tracheobronchitis caused by multidrug-resistant Gram-negative organisms such as *Pseudomonas aeruginosa* and *Acinetobacter baumannii*.
 
 However, the supporting literature is weaker than the score suggests:
 - The clinical papers mostly concern ventilator-associated pneumonia, tracheobronchitis and salvage therapy with inhaled polymyxin B. They do not address bronchitis as a defined indication.
@@ -156,12 +156,13 @@ Please refer to the package insert for further safety information, including war
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, so no product is currently marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Confirmation of local product availability, given that the registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->
 

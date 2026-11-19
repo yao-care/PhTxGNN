@@ -54,7 +54,7 @@ Carbamazepine is an anticonvulsant that blocks voltage-gated sodium channels. Th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Carbamazepine is generally known to act by blocking voltage-gated sodium channels. This reduces abnormal nerve firing, and the literature shows it is a standard first-line treatment for trigeminal neuralgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carbamazepine: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), label version 2026-08-20; accessed 2026-11-19.) Carbamazepine is generally known to act by blocking voltage-gated sodium channels. This reduces abnormal nerve firing, and the literature shows it is a standard first-line treatment for trigeminal neuralgia.
 
 The literature links the prediction to the nerve rather than to the tumour. Tumours of the trigeminal nerve or nearby structures (schwannoma, meningioma, dermoid cyst, lipoma, lymphoma, melanoma) can cause secondary trigeminal neuralgia. In these case reports, carbamazepine was often given for the pain, sometimes with partial or temporary benefit, and sometimes without relief. This is symptom control, not an anti-tumour effect. The high score most likely reflects the closeness of "trigeminal nerve neoplasm" to trigeminal neuralgia. No evidence supports treating the neoplasm itself.
 
@@ -121,11 +121,12 @@ The prediction score is high, but no trial or publication shows that carbamazepi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One local record exists (PNF-xxxx, Carbamazepine, single-ingredient). It has no recorded dosage form or approved indication text" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
 
 <!-- review:end log -->
 

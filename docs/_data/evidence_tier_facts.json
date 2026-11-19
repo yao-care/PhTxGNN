@@ -9,7 +9,7 @@
   "with_current": 23,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 20,
+  "with_reviews": 23,
   "rows": [
    {
     "t": "Acetylcysteine",
@@ -18,7 +18,7 @@
     "i": "thrombotic disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain one registration (PNF-0003, Acetylcysteine…",
     "x": 0
    },
@@ -29,7 +29,7 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"since the only registration record has no recorded dosage form or indication text\"",
     "x": 0
    },
@@ -40,7 +40,7 @@
     "i": "headache disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the regulatory pathway, since the only registration is cancelled, and a review of…",
     "x": 0
    },
@@ -51,7 +51,7 @@
     "i": "headache disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Ketorolac has 1 registration record in the Philippines, and the local market status is marketed\"",
     "x": 0
    },
@@ -62,7 +62,7 @@
     "i": "eye disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and whether re-registration or import is feasible, since the sole Philippines license is cancelled\"",
     "x": 0
    },
@@ -73,8 +73,8 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for atorvastatin are not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -84,7 +84,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clozapine's only Philippines registration is cancelled, so no product is currently marketed there…",
     "x": 0
    },
@@ -95,7 +95,7 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Of the 1 registration found, 1 is currently valid\"",
     "x": 0
    },
@@ -106,8 +106,8 @@
     "i": "Ewing sarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -117,8 +117,8 @@
     "i": "Ewing sarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -128,7 +128,7 @@
     "i": "liposarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and whether a valid product is available locally\"",
     "x": 0
    },
@@ -139,7 +139,7 @@
     "i": "alopecia areata",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In addition, the only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -150,7 +150,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only registration found is cancelled, so no product is currently marketed under it\"",
     "x": 0
    },
@@ -161,7 +161,7 @@
     "i": "headache disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, and the package insert data are missing\"",
     "x": 0
    },
@@ -172,7 +172,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In the Philippines, the only registration is cancelled, and the package insert data are…",
     "x": 0
    },
@@ -183,7 +183,7 @@
     "i": "malignant pleural mesothelioma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, and no package insert safety data have been…",
     "x": 0
    },
@@ -205,7 +205,7 @@
     "i": "alopecia areata",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"There are no registered trials, relapse after withdrawal is common, and the only Philippines…",
     "x": 0
    },
@@ -216,7 +216,7 @@
     "i": "alopecia areata",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirm a currently valid Philippine registration or product source, since the only licence on…",
     "x": 0
    },
@@ -227,7 +227,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"A valid registration route or product pathway, since the existing license is cancelled\"",
     "x": 0
    },
@@ -238,7 +238,7 @@
     "i": "chronic hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient licence with valid status. The licence record has no approved…",
     "x": 0
    },
@@ -249,7 +249,7 @@
     "i": "duodenogastric reflux",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"A valid Philippines registration or a plan to re-register the product\"",
     "x": 0
    },
@@ -260,7 +260,7 @@
     "i": "seborrheic dermatitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and whether a topical product is available or…",
     "x": 0
    }
@@ -284,7 +284,7 @@
   "with_current": 41,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 38,
+  "with_reviews": 41,
   "rows": [
    {
     "t": "Alprazolam",
@@ -293,8 +293,8 @@
     "i": "失眠",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -315,7 +315,7 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"A valid local registration, or a confirmed supply route, for a topical clobetasol product\"",
     "x": 0
    },
@@ -326,7 +326,7 @@
     "i": "restless legs syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clonazepam has one local record, PNF-0109 (single-ingredient product). The data compiled for this…",
     "x": 0
    },
@@ -337,7 +337,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"In addition, goserelin is marketed in the Philippines (1 valid licence of 1)\"",
     "x": 0
    },
@@ -348,8 +348,8 @@
     "i": "breast fibrocystic disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -359,7 +359,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippine registration is cancelled, and label safety data are unavailable\"",
     "x": 0
    },
@@ -370,7 +370,7 @@
     "i": "urinary tract infection (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the current availability of micafungin in…",
     "x": 0
    },
@@ -381,7 +381,7 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"and the Philippines registration is cancelled\"",
     "x": 0
    },
@@ -392,7 +392,7 @@
     "i": "bronchitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"with a valid registration in the Philippines\"",
     "x": 0
    },
@@ -403,7 +403,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"However, there is no Phase 3 or confirmatory evidence, and the only Philippine registration is…",
     "x": 0
    },
@@ -414,7 +414,7 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Rifapentine is marketed in the Philippines with 1 valid licence of 1\"",
     "x": 0
    },
@@ -425,7 +425,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In addition, the only Philippines registration is cancelled, so there is no currently marketed…",
     "x": 0
    },
@@ -436,7 +436,7 @@
     "i": "hepatitis B virus infection",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed\"",
     "x": 0
    },
@@ -447,7 +447,7 @@
     "i": "ankylosing spondylitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the cancelled Philippines registration (PNF-0491) and its regulatory status\"",
     "x": 0
    },
@@ -458,7 +458,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines license is cancelled, so there is no currently marketed product, and no label…",
     "x": 0
    },
@@ -469,7 +469,7 @@
     "i": "laryngitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since 1 of 1 licenses is currently valid\"",
     "x": 0
    },
@@ -491,7 +491,7 @@
     "i": "alopecia mucinosa",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The one registration on file is a valid single-ingredient licence\"",
     "x": 0
    },
@@ -502,7 +502,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Dosage form and approved indication are not recorded for this authorization\"",
     "x": 0
    },
@@ -524,7 +524,7 @@
     "i": "small cell lung carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippine registration is cancelled\"",
     "x": 0
    },
@@ -535,7 +535,7 @@
     "i": "hepatic porphyria",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"and clarification of why the registration was cancelled\"",
     "x": 0
    },
@@ -546,7 +546,7 @@
     "i": "bronchitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The high TxGNN score is not backed by clinical evidence, and the only Philippines registration is…",
     "x": 0
    },
@@ -557,8 +557,8 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -568,7 +568,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One local licence record (PNF-0277, Lamivudine, single-ingredient) is on file. dosage form or\"",
     "x": 0
    },
@@ -590,7 +590,7 @@
     "i": "bacterial arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of the cancelled registration status and whether re-registration or an alternative…",
     "x": 0
    },
@@ -601,7 +601,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In addition, the only Philippines registration is cancelled, and product label safety data is…",
     "x": 0
    },
@@ -612,7 +612,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Original indication and dosage form for the cancelled registration\"",
     "x": 0
    },
@@ -623,7 +623,7 @@
     "i": "obstructive lung disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"A regulatory pathway review, since the only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -634,7 +634,7 @@
     "i": "restless legs syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the licence situation (the only registration is cancelled) and available dosage…",
     "x": 0
    },
@@ -645,7 +645,7 @@
     "i": "nasal cavity disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The TxGNN score is high, but the evidence is L4 with no registered clinical trials, and the only…",
     "x": 0
    },
@@ -656,7 +656,7 @@
     "i": "bronchitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of local product availability, given that the registration is cancelled\"",
     "x": 0
    },
@@ -667,7 +667,7 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the only local registration (PNF-0403) is cancelled\"",
     "x": 0
    },
@@ -678,7 +678,7 @@
     "i": "conjunctivitis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but t\"",
     "x": 0
    },
@@ -711,7 +711,7 @@
     "i": "exposure keratitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of an available topical ophthalmic product, since the only registration is cancelled…",
     "x": 0
    },
@@ -722,7 +722,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"valsartan is currently marketed in the Philippines (1 valid license of 1), and\"",
     "x": 0
    },
@@ -733,7 +733,7 @@
     "i": "rhabdomyosarcoma (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In addition, the only Philippines registration is cancelled, and package insert safety data are…",
     "x": 0
    }
@@ -756,7 +756,7 @@
   "with_current": 269,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 225,
+  "with_reviews": 266,
   "rows": [
    {
     "t": "Isoniazid",
@@ -765,7 +765,7 @@
     "i": "conjunctivitis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The Philippines registration is cancelled, and s\"",
     "x": 0
    },
@@ -787,7 +787,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"he Philippine registration is cancelled, and t\"",
     "x": 0
    },
@@ -809,7 +809,7 @@
     "i": "migraine disorder",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippine registration is cancelled, and the package insert and mechanism data are…",
     "x": 0
    },
@@ -820,8 +820,8 @@
     "i": "respiratory malformation",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -831,7 +831,7 @@
     "i": "nasal cavity disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local records show ipratropium as Marketed in the Philippines. dosage form or , so the route of…",
     "x": 0
    },
@@ -842,7 +842,7 @@
     "i": "infectious otitis media",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"In addition, the Philippines registration is cancelled\"",
     "x": 0
    },
@@ -864,7 +864,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Valproic acid is marketed in the Philippines (2 of 2 licences valid), and t\"",
     "x": 0
    },
@@ -875,7 +875,7 @@
     "i": "hyperamylasemia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"(PNF-0018)\"",
     "x": 0
    },
@@ -886,8 +886,8 @@
     "i": "atopic eczema",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -897,7 +897,7 @@
     "i": "alopecia mucinosa",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient authorization is on record, and the drug is marketed in the…",
     "x": 0
    },
@@ -908,7 +908,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only record in the local data is a single-ingredient entry with a cancelled status\"",
     "x": 0
    },
@@ -919,7 +919,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence is for a single-ingredient product and is currently valid. The record has no indication…",
     "x": 0
    },
@@ -941,8 +941,8 @@
     "i": "biotin metabolic disease",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data for folic acid are not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -952,7 +952,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Dosage form and approved indication text are not recorded in the local data\"",
     "x": 0
    },
@@ -963,8 +963,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -974,7 +974,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the regulatory status of nevirapine in the Philippines, since the only…",
     "x": 0
    },
@@ -985,7 +985,7 @@
     "i": "papillary conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The product is also not currently registered in the Philippines\"",
     "x": 0
    },
@@ -996,7 +996,7 @@
     "i": "Prinzmetal angina",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of current regulatory and market availability, since the only registration found is…",
     "x": 0
    },
@@ -1007,7 +1007,7 @@
     "i": "cauda equina syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Its only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -1018,7 +1018,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient record with valid status. The record contains no approved indication…",
     "x": 0
    },
@@ -1029,7 +1029,7 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The product is marketed in the Philippines, with 1 valid licence out of 1, and s\"",
     "x": 0
    },
@@ -1040,8 +1040,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1051,7 +1051,7 @@
     "i": "obsolete bundle branch block",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This single-ingredient record is marked as cancelled in the licence data, although the overall…",
     "x": 0
    },
@@ -1062,7 +1062,7 @@
     "i": "coenurosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The Philippine record shows one valid licence for the single-ingredient product\"",
     "x": 0
    },
@@ -1073,7 +1073,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the available dosage forms\"",
     "x": 0
    },
@@ -1084,7 +1084,7 @@
     "i": "hepatic porphyria",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record lists 1 single-ingredient registration with valid status\"",
     "x": 0
    },
@@ -1095,7 +1095,7 @@
     "i": "paratyphoid fever",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippine registration is cancelled, and package insert safety data are missing\"",
     "x": 0
    },
@@ -1106,8 +1106,8 @@
     "i": "catecholaminergic polymorphic ventricular tachycardia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1117,8 +1117,8 @@
     "i": "brain stem infarction",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1128,7 +1128,7 @@
     "i": "neuroblastoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid licence is held in the Philippines, per the local regulatory data\"",
     "x": 0
    },
@@ -1150,7 +1150,7 @@
     "i": "acquired angioedema",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with a licence record in the Philippines\"",
     "x": 0
    },
@@ -1161,7 +1161,7 @@
     "i": "non-syndromic esophageal malformation",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Confirmation of the current regulatory and product availability status in the Philippines (both…",
     "x": 0
    },
@@ -1172,7 +1172,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status. The record contains no indication text, so…",
     "x": 0
    },
@@ -1183,8 +1183,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1194,7 +1194,7 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The record shows one valid single-ingredient registration\"",
     "x": 0
    },
@@ -1205,7 +1205,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the licence status (the single record is cancelled, while the market status is…",
     "x": 0
    },
@@ -1216,8 +1216,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1227,8 +1227,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1238,8 +1238,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1249,8 +1249,8 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1271,7 +1271,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -1282,7 +1282,7 @@
     "i": "cauda equina neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Confirmation of current local availability, since the only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -1293,7 +1293,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local regulatory data lists the market status as Marketed, with at least one licence recorded as…",
     "x": 0
    },
@@ -1304,7 +1304,7 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Philippines market status is marketed. The local licence record contains one single-ingredient…",
     "x": 0
    },
@@ -1315,7 +1315,7 @@
     "i": "acute pulmonary heart disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"In addition, the only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -1326,8 +1326,8 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1337,7 +1337,7 @@
     "i": "obsolete vitamin D deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local data show one registration (PNF-0066, Calcitriol, single-ingredient). The record is listed…",
     "x": 0
    },
@@ -1348,7 +1348,7 @@
     "i": "gastric adenocarcinoma and proximal polyposis of the stomach",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"for licence PNF-0071\"",
     "x": 0
    },
@@ -1370,7 +1370,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local records list captopril as Marketed. licence\"",
     "x": 0
    },
@@ -1381,7 +1381,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One local record exists (PNF-0075, Carbamazepine, single-ingredient). It has no recorded dosage…",
     "x": 0
    },
@@ -1392,7 +1392,7 @@
     "i": "isotretinoin-like syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorization record exists, and it is a single-ingredient product\"",
     "x": 0
    },
@@ -1403,7 +1403,7 @@
     "i": "rectum mucinous adenocarcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"The approved indication text and dosage form are not recorded in the local data\"",
     "x": 0
    },
@@ -1414,7 +1414,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled records show one single-ingredient registration for carvedilol, with the overall…",
     "x": 0
    },
@@ -1425,7 +1425,7 @@
     "i": "infectious otitis media",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The only registration in the Philippines is cancelled\"",
     "x": 0
    },
@@ -1436,8 +1436,8 @@
     "i": "infectious otitis media",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -1447,8 +1447,8 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1458,7 +1458,7 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"dosage form\"",
     "x": 0
    },
@@ -1469,8 +1469,8 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1480,7 +1480,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data lists one registration for the single-ingredient product, and the market status is…",
     "x": 0
    },
@@ -1491,7 +1491,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"with a local registration record in the Philippines\"",
     "x": 0
    },
@@ -1502,7 +1502,7 @@
     "i": "ALK-positive large B-cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the Philippine licence record has no indication or safety text\"",
     "x": 0
    },
@@ -1513,7 +1513,7 @@
     "i": "diffuse scleroderma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The Philippines licence for single-ingredient chloramphenicol is valid\"",
     "x": 0
    },
@@ -1524,8 +1524,8 @@
     "i": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1535,8 +1535,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1546,8 +1546,8 @@
     "i": "diffuse scleroderma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1557,8 +1557,8 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for clarithromycin\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1568,8 +1568,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1579,8 +1579,8 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data for clofazimine are not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -1590,8 +1590,8 @@
     "i": "46,XY disorder of sex development due to testicular steroidogenesis defect",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1601,7 +1601,7 @@
     "i": "faciodigitogenital syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The drug has 1 registration record in the local data, and the market status is marketed\"",
     "x": 0
    },
@@ -1612,7 +1612,7 @@
     "i": "migraine with brainstem aura",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local records list one clopidogrel licence (PNF-0111, single-ingredient). dosage form or\"",
     "x": 0
    },
@@ -1623,7 +1623,7 @@
     "i": "Acne",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data lists one clotrimazole record (single-ingredient, number PNF-0112) with no dosage…",
     "x": 0
    },
@@ -1634,8 +1634,8 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1645,7 +1645,7 @@
     "i": "Plasmodium falciparum malaria",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status if any use in the Philippines is contemplated\"",
     "x": 0
    },
@@ -1667,7 +1667,7 @@
     "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The one registered licence is valid\"",
     "x": 0
    },
@@ -1678,7 +1678,7 @@
     "i": "irritable bowel syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the availability of any marketed product\"",
     "x": 0
    },
@@ -1689,7 +1689,7 @@
     "i": "upper aerodigestive tract neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the existing registration is cancelled\"",
     "x": 0
    },
@@ -1711,7 +1711,7 @@
     "i": "relapsing-remitting multiple sclerosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Dosage form and approved-indication text are not recorded for this registration. The drug is…",
     "x": 0
    },
@@ -1722,7 +1722,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarify the regulatory pathway, since the only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -1733,7 +1733,7 @@
     "i": "moderate multiminicore disease with hand involvement",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Dantrolene is currently recorded as marketed in the Philippines, with at least one valid…",
     "x": 0
    },
@@ -1744,8 +1744,8 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1755,7 +1755,7 @@
     "i": "allergic urticaria",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the local licence record (dosage form and approved indication are missing)\"",
     "x": 0
    },
@@ -1766,7 +1766,7 @@
     "i": "congenital prothrombin deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"that is registered in the Philippines\"",
     "x": 0
    },
@@ -1777,7 +1777,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"(PNF-0139)\"",
     "x": 0
    },
@@ -1788,7 +1788,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one local record (PNF-0141, Diclofenac, single-ingredient).…",
     "x": 0
    },
@@ -1810,7 +1810,7 @@
     "i": "Prinzmetal angina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status if local use is considered\"",
     "x": 0
    },
@@ -1821,7 +1821,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the only Philippines registration has been cancelled\"",
     "x": 0
    },
@@ -1832,7 +1832,7 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The Philippines has one valid single-ingredient licence for dipyridamole\"",
     "x": 0
    },
@@ -1843,7 +1843,7 @@
     "i": "alopecia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the original approved indication and dosage form of the cancelled registration\"",
     "x": 0
    },
@@ -1854,7 +1854,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data lists one single-ingredient record for domperidone, and the market status is…",
     "x": 0
    },
@@ -1865,7 +1865,7 @@
     "i": "psychogenic movement disorders",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and available dosage forms before any local use\"",
     "x": 0
    },
@@ -1876,7 +1876,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists dorzolamide as marketed in the Philippines. dosage forms…",
     "x": 0
    },
@@ -1887,7 +1887,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The market status recorded in the local data is \"Marketed\". The detailed licence list is generated…",
     "x": 0
    },
@@ -1898,7 +1898,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for licence PNF-0163\"",
     "x": 0
    },
@@ -1909,7 +1909,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Its status is shown as cancelled, while the overall market status is reported as marketed. This…",
     "x": 0
    },
@@ -1920,7 +1920,7 @@
     "i": "chronic hepatitis C virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The Philippines records list one registration for entecavir (PNF-0166), and the local data do not…",
     "x": 0
    },
@@ -1931,7 +1931,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of which licences are currently valid and the approved dosage forms and indications\"",
     "x": 0
    },
@@ -1942,7 +1942,7 @@
     "i": "obstructive lung disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the available dosage forms and routes in the…",
     "x": 0
    },
@@ -1953,8 +1953,8 @@
     "i": "primary pulmonary lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1964,7 +1964,7 @@
     "i": "bacterial arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"of PNF-0174\"",
     "x": 0
    },
@@ -1975,8 +1975,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1986,7 +1986,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the original approved indication\"",
     "x": 0
    },
@@ -1997,7 +1997,7 @@
     "i": "well-differentiated fetal adenocarcinoma of the lung",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The Philippines registration is cancelled, so there is currently no marketed product\"",
     "x": 0
    },
@@ -2008,8 +2008,8 @@
     "i": "duodenal obstruction",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2019,7 +2019,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for licence PNF-0186\"",
     "x": 0
    },
@@ -2030,7 +2030,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for PNF-0187\"",
     "x": 0
    },
@@ -2041,8 +2041,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2052,7 +2052,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Dosage form and approved indication text are not recorded in the local data\"",
     "x": 0
    },
@@ -2063,7 +2063,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The Philippines registration is cancelled\"",
     "x": 0
    },
@@ -2074,7 +2074,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, and the label safety data are missing\"",
     "x": 0
    },
@@ -2085,7 +2085,7 @@
     "i": "bone Paget disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The list of authorizations may be incomplete. Flucytosine is recorded locally under one…",
     "x": 0
    },
@@ -2096,7 +2096,7 @@
     "i": "alopecia mucinosa",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of the dosage form and approved indication for the local authorization, and…",
     "x": 0
    },
@@ -2107,7 +2107,7 @@
     "i": "Prinzmetal angina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Evidence of a current valid registration, or a plan for one, since the only license is cancelled\"",
     "x": 0
    },
@@ -2118,7 +2118,7 @@
     "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"(PNF-0198)\"",
     "x": 0
    },
@@ -2129,7 +2129,7 @@
     "i": "paranoid personality disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"marketed in the Philippines under one valid licence\"",
     "x": 0
    },
@@ -2151,8 +2151,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2162,7 +2162,7 @@
     "i": "fibroma of prostate",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one local registration (PNF-0202, Flutamide…",
     "x": 0
    },
@@ -2173,7 +2173,7 @@
     "i": "sclerosing cholangitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local regulatory data lists the product as marketed in the Philippines. dosage form or\"",
     "x": 0
    },
@@ -2184,7 +2184,7 @@
     "i": "uterine inflammatory disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with a valid status. The licence record contains no indication…",
     "x": 0
    },
@@ -2195,8 +2195,8 @@
     "i": "exposure keratitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2206,7 +2206,7 @@
     "i": "rectum mucinous adenocarcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for PNF-0215\"",
     "x": 0
    },
@@ -2217,7 +2217,7 @@
     "i": "irritable bowel syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"that is registered in the Philippines\"",
     "x": 0
    },
@@ -2228,7 +2228,7 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Haloperidol's local registration is cancelled, and i\"",
     "x": 0
    },
@@ -2239,7 +2239,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled Philippines registration and the original approved indication\"",
     "x": 0
    },
@@ -2250,7 +2250,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Heparin has 1 valid registration of 1 in the Philippines, but l\"",
     "x": 0
    },
@@ -2272,8 +2272,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2283,7 +2283,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data hold one single-ingredient record for ibuprofen, and the market status is listed as…",
     "x": 0
    },
@@ -2294,8 +2294,8 @@
     "i": "female breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2305,7 +2305,7 @@
     "i": "heart fibrosarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local registration data list imatinib as marketed, with one single-ingredient licence record on…",
     "x": 0
    },
@@ -2316,7 +2316,7 @@
     "i": "Hurler syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of the regulatory status of the cancelled registration\"",
     "x": 0
    },
@@ -2349,7 +2349,7 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of the cancelled registration status and a valid local authorization, if use is…",
     "x": 0
    },
@@ -2371,7 +2371,7 @@
     "i": "osteoarthritis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"It is registered in the Philippines, but the data compiled for this report contain no approved…",
     "x": 0
    },
@@ -2382,7 +2382,7 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"A valid local registration and r\"",
     "x": 0
    },
@@ -2393,7 +2393,7 @@
     "i": "osteoarthritis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"for licence PNF-0256\"",
     "x": 0
    },
@@ -2404,7 +2404,7 @@
     "i": "osteoarthritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for the Philippines registration PNF-0258\"",
     "x": 0
    },
@@ -2415,8 +2415,8 @@
     "i": "female breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2426,7 +2426,7 @@
     "i": "Prinzmetal angina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and whether an inhaled anaesthetic can be…",
     "x": 0
    },
@@ -2437,7 +2437,7 @@
     "i": "alopecia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"This is a single-ingredient product with a valid status. The record does not include indication…",
     "x": 0
    },
@@ -2448,7 +2448,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Original approved indication and dosage form for the cancelled registration\"",
     "x": 0
    },
@@ -2470,7 +2470,7 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and available dosage forms in the Philippines\"",
     "x": 0
    },
@@ -2481,8 +2481,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data for this drug is not available in the data compiled for this…",
     "x": 0
    },
    {
@@ -2492,8 +2492,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2503,7 +2503,7 @@
     "i": "acute urate nephropathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local records show 1 single-ingredient registration (PNF-0275, product name \"Lactulose\"). dosage…",
     "x": 0
    },
@@ -2514,7 +2514,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"given the cancelled registration\"",
     "x": 0
    },
@@ -2525,8 +2525,8 @@
     "i": "duodenal obstruction",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2536,7 +2536,7 @@
     "i": "visceral calciphylaxis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"because the record status and the overall market status in the data are not fully consistent\"",
     "x": 0
    },
@@ -2547,8 +2547,8 @@
     "i": "nipple carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2558,7 +2558,7 @@
     "i": "primary hyperoxaluria",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"There are no clinical trials or publications, the mechanistic link is speculative, and the only…",
     "x": 0
    },
@@ -2569,7 +2569,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole registration is cancelled\"",
     "x": 0
    },
@@ -2591,7 +2591,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Review of the cancelled registration and available dosage forms and routes\"",
     "x": 0
    },
@@ -2602,7 +2602,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"that is registered in the Philippines\"",
     "x": 0
    },
@@ -2613,7 +2613,7 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"(the licence record has no indication, dosage form or manufacturer details)\"",
     "x": 0
    },
@@ -2624,7 +2624,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for PNF-0290\"",
     "x": 0
    },
@@ -2635,7 +2635,7 @@
     "i": "pseudoachondroplasia",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"A current valid registration or a clear regulatory pathway in the Philippines\"",
     "x": 0
    },
@@ -2657,7 +2657,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for licence PNF-0294\"",
     "x": 0
    },
@@ -2668,8 +2668,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2679,7 +2679,7 @@
     "i": "acne (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the availability of a suitable formulation…",
     "x": 0
    },
@@ -2701,7 +2701,7 @@
     "i": "hereditary breast ovarian cancer syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Dosage form and approved indication are not recorded for this registration\"",
     "x": 0
    },
@@ -2712,7 +2712,7 @@
     "i": "female breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the cancelled registration (PNF-0307) and a plan for the dosage form and route of…",
     "x": 0
    },
@@ -2723,7 +2723,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The local record lists one single-ingredient authorization (PNF-0308, product name Memantine).…",
     "x": 0
    },
@@ -2734,7 +2734,7 @@
     "i": "congenital hypotrichosis with juvenile macular dystrophy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Mesalazine currently has a valid registration in the Philippines (1 valid licence of 1)\"",
     "x": 0
    },
@@ -2745,7 +2745,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Only one registration is on record, and it is cancelled. Dosage form and approved indication text…",
     "x": 0
    },
@@ -2756,7 +2756,7 @@
     "i": "pulmonary blastoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the status of any valid methotrexate registration\"",
     "x": 0
    },
@@ -2767,7 +2767,7 @@
     "i": "bronchitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -2789,7 +2789,7 @@
     "i": "faciodigitogenital syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"(the sole registration is cancelled)\"",
     "x": 0
    },
@@ -2800,7 +2800,7 @@
     "i": "alopecia mucinosa",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, so there is currently no marketed product locally\"",
     "x": 0
    },
@@ -2811,7 +2811,7 @@
     "i": "gastroduodenitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of the regulatory pathway, since the Philippine registration is cancelled and has no…",
     "x": 0
    },
@@ -2822,7 +2822,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for licence PNF-0323\"",
     "x": 0
    },
@@ -2833,7 +2833,7 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of the registration status and approved indications of the cancelled authorization\"",
     "x": 0
    },
@@ -2844,7 +2844,7 @@
     "i": "upper aerodigestive tract neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of whether the liposomal formulation is available or registrable in the Philippines…",
     "x": 0
    },
@@ -2855,7 +2855,7 @@
     "i": "myofascial pain syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Confirmation of the Philippines regulatory pathway, since the only registration is cancelled\"",
     "x": 0
    },
@@ -2866,7 +2866,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient registration. The record contains no approved indication text, so the…",
     "x": 0
    },
@@ -2877,7 +2877,7 @@
     "i": "pleural empyema (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the regulatory status, since the only registration is cancelled\"",
     "x": 0
    },
@@ -2888,7 +2888,7 @@
     "i": "hemoglobinopathy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the only Philippine registration (PNF-0335) is cancelled\"",
     "x": 0
    },
@@ -2899,7 +2899,7 @@
     "i": "conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and whether any formulation suitable for…",
     "x": 0
    },
@@ -2910,7 +2910,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the current regulatory status in the Philippines, since the only registration…",
     "x": 0
    },
@@ -2921,7 +2921,7 @@
     "i": "autoimmune disease of peripheral nervous system",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the regulatory pathway, since the only Philippines registration is cancelled and…",
     "x": 0
    },
@@ -2932,7 +2932,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for registration PNF-0346\"",
     "x": 0
    },
@@ -2943,7 +2943,7 @@
     "i": "homozygous familial hypercholesterolemia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole registration is cancelled\"",
     "x": 0
    },
@@ -2954,7 +2954,7 @@
     "i": "rheumatoid arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the registration status and approved indication of the cancelled license\"",
     "x": 0
    },
@@ -2976,7 +2976,7 @@
     "i": "disease of orbital region",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Removed: \"since the dosage form of the local licence is not recorded\"",
     "x": 0
    },
@@ -2987,7 +2987,7 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, and safety label data are missing\"",
     "x": 0
    },
@@ -2998,7 +2998,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registration is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -3009,7 +3009,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"(reason for cancellation)\"",
     "x": 0
    },
@@ -3020,7 +3020,7 @@
     "i": "duodenal obstruction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"A decision on the registration status in the Philippines, since the only registration is cancelled\"",
     "x": 0
    },
@@ -3031,7 +3031,7 @@
     "i": "epiglottitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the only Philippines registration has been cancelled\"",
     "x": 0
    },
@@ -3042,7 +3042,7 @@
     "i": "nasal cavity disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and whether a valid registration exists or can be obtained\"",
     "x": 0
    },
@@ -3053,7 +3053,7 @@
     "i": "parameningeal embryonal rhabdomyosarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"he Philippines registration is cancelled and t\"",
     "x": 0
    },
@@ -3064,7 +3064,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"dosage form or for this registration\"",
     "x": 0
    },
@@ -3086,7 +3086,7 @@
     "i": "duodenal obstruction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Verify product availability and registration status in the Philippines, since the only licence is…",
     "x": 0
    },
@@ -3097,7 +3097,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the Philippines registration is cancelled\"",
     "x": 0
    },
@@ -3108,7 +3108,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"The only registration in the Philippines is cancelled\"",
     "x": 0
    },
@@ -3130,7 +3130,7 @@
     "i": "myiasis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of the regulatory position in the Philippines, since the only registration (PNF-0400)…",
     "x": 0
    },
@@ -3141,7 +3141,7 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"where the drug is marketed and 1 of 1 licenses is valid\"",
     "x": 0
    },
@@ -3152,7 +3152,7 @@
     "i": "autoimmune disease of peripheral nervous system",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only registration in the Philippines has been cancelled\"",
     "x": 0
    },
@@ -3163,7 +3163,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record\"",
     "x": 0
    },
@@ -3174,7 +3174,7 @@
     "i": "peptic ulcer perforation",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Removed: \"for licence PNF-0416\"",
     "x": 0
    },
@@ -3185,7 +3185,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Confirm the original approved indication and the registration pathway, since the only license is…",
     "x": 0
    },
@@ -3196,7 +3196,7 @@
     "i": "oral candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"(the current registration is cancelled)\"",
     "x": 0
    },
@@ -3207,7 +3207,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient licence with valid status\"",
     "x": 0
    },
@@ -3218,7 +3218,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient registration exists in the Philippines for risperidone\"",
     "x": 0
    },
@@ -3229,7 +3229,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, and the safety profile is substantial (cardiac…",
     "x": 0
    },
@@ -3240,7 +3240,7 @@
     "i": "glaucoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and clarification of the cancelled registration status\"",
     "x": 0
    },
@@ -3251,7 +3251,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"It is currently marketed in the Philippines, with 1 valid licence of 1\"",
     "x": 0
    },
@@ -3262,7 +3262,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The Philippine registration is also cancelled, so there is currently no marketed product to…",
     "x": 0
    },
@@ -3273,7 +3273,7 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration and of the original approved indication\"",
     "x": 0
    },
@@ -3284,7 +3284,7 @@
     "i": "papillary conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the market status, since the only registration is cancelled\"",
     "x": 0
    },
@@ -3295,7 +3295,7 @@
     "i": "respiratory malformation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"for licence PNF-0436\"",
     "x": 0
    },
@@ -3306,7 +3306,7 @@
     "i": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole registration is cancelled\"",
     "x": 0
    },
@@ -3328,7 +3328,7 @@
     "i": "schizoid personality disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient registration is on record, and it is valid\"",
     "x": 0
    },
@@ -3339,7 +3339,7 @@
     "i": "Prinzmetal angina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the original approved indication\"",
     "x": 0
    },
@@ -3350,7 +3350,7 @@
     "i": "brain stem infarction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole Philippine registration is cancelled\"",
     "x": 0
    },
@@ -3361,8 +3361,8 @@
     "i": "liposarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3383,7 +3383,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Confirmation of whether a valid registration or an alternative supply route exists in the…",
     "x": 0
    },
@@ -3394,7 +3394,7 @@
     "i": "Prinzmetal angina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the single Philippines registration has no indication text\"",
     "x": 0
    },
@@ -3405,7 +3405,7 @@
     "i": "postinfectious vasculitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The hilippines registration is cancelled, and p\"",
     "x": 0
    },
@@ -3416,7 +3416,7 @@
     "i": "mammary Paget disease",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"A regulatory assessment of the cancelled Philippines registration\"",
     "x": 0
    },
@@ -3427,7 +3427,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -3438,7 +3438,7 @@
     "i": "cecum villous adenoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the drug is currently marketed in the Philippines with 1 valid licence out of 1\"",
     "x": 0
    },
@@ -3449,7 +3449,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of the Philippines registration status (cancelled) and the dosage form\"",
     "x": 0
    },
@@ -3460,7 +3460,7 @@
     "i": "respiratory malformation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"that is listed in the Philippines under a single-ingredient registration\"",
     "x": 0
    },
@@ -3471,7 +3471,7 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"Clarification of the regulatory status of the cancelled registration and the available dosage forms…",
     "x": 0
    },
@@ -3482,7 +3482,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled, which limits practical development\"",
     "x": 0
    },
@@ -3493,8 +3493,8 @@
     "i": "thrombotic disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3515,7 +3515,7 @@
     "i": "respiratory malformation",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"However, this is established on-label use rather than true repurposing, and the only Philippines…",
     "x": 0
    },
@@ -3526,7 +3526,7 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"This may reflect a specific product or formulation rather than overall availability\"",
     "x": 0
    },
@@ -3537,7 +3537,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of the cancelled registration status and the available dosage forms and routes\"",
     "x": 0
    },
@@ -3548,7 +3548,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"he only registration in the Philippines has been cancelled, and t\"",
     "x": 0
    },
@@ -3559,7 +3559,7 @@
     "i": "amenorrhea (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole registration is cancelled\"",
     "x": 0
    },
@@ -3570,7 +3570,7 @@
     "i": "malignant cutaneous granular cell skin tumor",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The data compiled for this report show one registration, which is cancelled\"",
     "x": 0
    },
@@ -3581,7 +3581,7 @@
     "i": "visceral calciphylaxis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and a current valid registration or a defined regulatory pathway\"",
     "x": 0
    },
@@ -3592,7 +3592,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"given the cancelled local registration\"",
     "x": 0
    },
@@ -3614,7 +3614,7 @@
     "i": "diffuse scleroderma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Clarification of why the registration was cancelled and whether any valid vancomycin product exists…",
     "x": 0
    },
@@ -3625,7 +3625,7 @@
     "i": "migraine disorder",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the reason the registration was cancelled\"",
     "x": 0
    },
@@ -3636,7 +3636,7 @@
     "i": "congenital prothrombin deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the reason for the registration cancellation\"",
     "x": 0
    },
@@ -3647,7 +3647,7 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -3658,7 +3658,7 @@
     "i": "obsolete bundle branch block",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The only Philippines registration is cancelled\"",
     "x": 0
    },
@@ -3669,7 +3669,7 @@
     "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status. The licence record contains no indication…",
     "x": 0
    },
@@ -3691,7 +3691,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clarification of why the Philippines registration was cancelled and whether another warfarin…",
     "x": 0
    },
@@ -3702,7 +3702,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and the only Philippines registration has been cancelled\"",
     "x": 0
    },
@@ -3713,7 +3713,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"and confirm whether a valid registration exists or a new one is needed\"",
     "x": 0
    },
@@ -3724,7 +3724,7 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 0,
     "lv": 0,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"including whether a valid topical product is registered in the Philippines\"",
     "x": 0
    },

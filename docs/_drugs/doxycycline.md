@@ -54,7 +54,7 @@ Doxycycline is a tetracycline-class antibiotic. The TxGNN model predicts it may 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for doxycycline are not available in the data compiled for this report. Doxycycline belongs to the tetracycline class and is active against *Chlamydia trachomatis*. It is also reported to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects. Mechanistically, these properties could plausibly help with ocular surface inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxycycline: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), label version 2026-07-09; accessed 2026-11-19.) Doxycycline belongs to the tetracycline class and is active against *Chlamydia trachomatis*. It is also reported to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects. Mechanistically, these properties could plausibly help with ocular surface inflammation.
 
 The single supporting paper, from 1992, describes two patients who developed punctate epithelial keratitis after chlamydial follicular conjunctivitis. Both had first been treated with oral tetracycline or doxycycline, and the follicles resolved. The keratitis then recurred. This is an observation about the disease course, **not** a study showing that doxycycline treats it. The mechanistic link therefore remains hypothetical.
 
@@ -116,11 +116,12 @@ The TxGNN score is high (0.9994), but the only supporting evidence is one 1992 c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The market status recorded in the local data is "Marketed". The detailed licence list is generated separately by the site program and is not" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for doxycycline are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

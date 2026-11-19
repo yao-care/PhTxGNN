@@ -56,7 +56,7 @@ The data compiled for this report include **9 clinical trials** and **20 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Albendazole is known as an anthelmintic that binds tubulin in parasites. It acts on the larval stages of tapeworms, including *Taenia solium* and *Taenia multiceps*. *T. multiceps* larvae cause coenurosis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for albendazole: "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5), label version 2019-09-23; accessed 2026-11-19.) Albendazole is known as an anthelmintic that binds tubulin in parasites. It acts on the larval stages of tapeworms, including *Taenia solium* and *Taenia multiceps*. *T. multiceps* larvae cause coenurosis.
 
 The link to coenurosis therefore rests on shared larval tapeworm biology and on analogy. Neurocysticercosis is caused by a related tapeworm larva, and it is where almost all the trial evidence lies. Coenurosis is rare and no trial in the data tests albendazole for it. Extrapolation from the neurocysticercosis trials is plausible but unproven.
 
@@ -140,11 +140,12 @@ The model score is very high (0.9983). However, no trial or publication in the c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The Philippine record shows one valid licence for the single-ingredient product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
 
 <!-- review:end log -->
 

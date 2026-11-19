@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, colchicine is a microtubule polymerization inhibitor. Its anti-inflammatory effect is attributed to blocking neutrophil microtubule-dependent functions and inflammasome activation, which is why it works in gout and FMF.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for colchicine: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), label version 2026-10-16; accessed 2026-11-19.) From general knowledge, colchicine is a microtubule polymerization inhibitor. Its anti-inflammatory effect is attributed to blocking neutrophil microtubule-dependent functions and inflammasome activation, which is why it works in gout and FMF.
 
 The mechanistic link to malaria is theoretical: *P. falciparum* depends on tubulin and microtubules for division and morphology, so a microtubule-targeting drug could plausibly affect the parasite. However, the two retrieved papers do not test this. One studies curcumin, not colchicine, disrupting parasite microtubules. The other studies pfmdr1 expression in mammalian cells in the context of chloroquine susceptibility, which concerns drug resistance and transport, not therapeutic efficacy.
 
@@ -123,12 +123,13 @@ The prediction has no clinical trials and no direct evidence of colchicine activ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "plus its cancelled registration in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status if any use in the Philippines is contemplated" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->
 

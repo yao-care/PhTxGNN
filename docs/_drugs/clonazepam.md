@@ -56,7 +56,7 @@ No clinical trials are registered for this prediction, and the supporting eviden
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, clonazepam is a GABA-A positive allosteric modulator. It may reduce sleep fragmentation and periodic limb movements during sleep, which are common features of restless legs syndrome.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clonazepam: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), label version 2025-12-01; accessed 2026-11-19.) Based on known class pharmacology, clonazepam is a GABA-A positive allosteric modulator. It may reduce sleep fragmentation and periodic limb movements during sleep, which are common features of restless legs syndrome.
 
 Benzodiazepines, and clonazepam in particular, have long been used off-label for restless legs syndrome, mainly for sleep complaints. A historical overview (2024) notes that roughly one quarter of treated patients in a large survey received benzodiazepines, alone or combined with other therapies. In some Asian countries clonazepam is a commonly used option.
 
@@ -121,11 +121,12 @@ Published reviews, a guideline and small controlled studies support the long-sta
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clonazepam has one local record, PNF-xxxx (single-ingredient product). The data compiled for this report carry no dosage form or indication " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
 
 <!-- review:end log -->
 

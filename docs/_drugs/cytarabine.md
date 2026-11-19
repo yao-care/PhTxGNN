@@ -56,7 +56,7 @@ The prediction is therefore supported by the model only, not by direct clinical 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cytarabine is a pyrimidine nucleoside analog that inhibits DNA synthesis in rapidly dividing cells. Its efficacy in leukemia is established, and mechanistically it may be applicable to a highly proliferative tumor such as small cell lung carcinoma (SCLC).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cytarabine: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), label version 2026-10-19; accessed 2026-11-19.) Cytarabine is a pyrimidine nucleoside analog that inhibits DNA synthesis in rapidly dividing cells. Its efficacy in leukemia is established, and mechanistically it may be applicable to a highly proliferative tumor such as small cell lung carcinoma (SCLC).
 
 The supporting evidence is weak, however. The retrieved literature mostly concerns non-small cell lung cancer (NSCLC) and other antimetabolites such as gemcitabine, decitabine, pemetrexed and topotecan. Two Phase II studies of cytarabine plus cisplatin in NSCLC are available. One reported an overall response rate of 14% with significant myelosuppression, and another reported 18% (5 of 28 patients). A 1987 report on high-dose cytarabine in small cell lung cancer is listed, but its abstract is not available. No study directly tests cytarabine in SCLC, so the high TxGNN score is a computational prediction, not a clinical finding.
 
@@ -129,11 +129,12 @@ The prediction rests on the model score alone. No clinical trials exist, and no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->
 

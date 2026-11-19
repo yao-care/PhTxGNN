@@ -56,7 +56,7 @@ with **7 clinical trials** and **20 publications** compiled for this prediction.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. The following mechanistic reasoning comes from the prediction rationale and the preclinical literature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acetylcysteine: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), label version 2025-04-30; accessed 2026-11-19.) The following mechanistic reasoning comes from the prediction rationale and the preclinical literature.
 
 Acetylcysteine (N-acetylcysteine, NAC) is a thiol that can reduce disulfide bonds in ultra-large von Willebrand factor (VWF) multimers. This lowers VWF–platelet binding and the formation of microthrombi. It is also an antioxidant that can raise glutathione, which may reduce endothelial oxidative injury and a prothrombotic state. Preclinical mouse and baboon models of thrombotic thrombocytopenic purpura (TTP) support this mechanism (PMID 28011677).
 
@@ -130,11 +130,12 @@ Completed and ongoing Phase 2/3 trials directly study NAC in thrombotic microang
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report contain one registration (PNF-xxxx, Acetylcysteine, single-ingredient). Dosage form, m" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

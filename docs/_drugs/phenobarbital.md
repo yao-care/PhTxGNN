@@ -56,7 +56,7 @@ It rests on model output alone and is not backed by specific evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Phenobarbital is a barbiturate anticonvulsant, and its efficacy in epilepsy is well established. Its anticonvulsant effect is generally attributed to enhancing GABA-A receptor inhibition.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for phenobarbital: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), label version 2026-10-23; accessed 2026-11-19.) Phenobarbital is a barbiturate anticonvulsant, and its efficacy in epilepsy is well established. Its anticonvulsant effect is generally attributed to enhancing GABA-A receptor inhibition.
 
 For trigeminal nerve neoplasm, **no credible mechanistic link was found**. The only retrieved paper concerns Sturge-Weber syndrome, a neurocutaneous disorder with seizures, not trigeminal nerve tumours. At most, phenobarbital could control seizures associated with a tumour or syndrome. That would be symptomatic treatment and not disease-modifying.
 
@@ -141,11 +141,12 @@ The other nine predicted indications also have no clinical trials. Most are refl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The result is a model prediction only and should be treated as a hypothesis.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, calcitriol is the hormonally active metabolite of vitamin D, so a biological link to vitamin D deficiency is plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for calcitriol: "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), label version 2026-10-15; accessed 2026-11-19.) Based on general knowledge, calcitriol is the hormonally active metabolite of vitamin D, so a biological link to vitamin D deficiency is plausible.
 
 However, the disease entry is flagged as obsolete in the ontology, and there are no trials or literature for it. The high score most likely reflects the closeness of the terms in the model's network rather than new evidence. In practice, vitamin D deficiency is usually corrected with native vitamin D (cholecalciferol or ergocalciferol), not with the already-activated hormone, so a real clinical role for calcitriol here is uncertain.
 
@@ -103,11 +103,12 @@ The prediction is supported by no clinical trials and no publications, so the ev
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local data show one registration (PNF-xxxx, Calcitriol, single-ingredient). The record is listed with a status of cancelled, and no dosage f" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
 
 <!-- review:end log -->
 

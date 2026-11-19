@@ -60,7 +60,7 @@ Nystatin is a polyene antifungal. The TxGNN model predicts it may be relevant to
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Nystatin is generally known to bind ergosterol in fungal cell membranes and disrupt membrane integrity. This is a fungus-specific action.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nystatin: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), label version 2026-02-06; accessed 2026-11-19.) Nystatin is generally known to bind ergosterol in fungal cell membranes and disrupt membrane integrity. This is a fungus-specific action.
 
 No credible mechanistic link to orbital disease has been identified. Orbital disease covers many non-fungal causes, such as inflammatory, vascular and structural conditions. The only trial retrieved for this prediction studies a different drug in a different eye condition and gives no support to nystatin. The high score most likely reflects statistical proximity in the model rather than a biological rationale, so it should be treated as a hypothesis only.
 
@@ -132,7 +132,7 @@ Please refer to the package insert for warnings and contraindications. The packa
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
@@ -140,6 +140,7 @@ Below is the review log for this page: statements checked against official Phili
 | 2026-11-06 | Removed: "that is registered and marketed in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Current local status: marketed, with a valid single-ingredient licence" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the dosage form of the local licence is not recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
 
 <!-- review:end log -->
 

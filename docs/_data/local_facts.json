@@ -21,11 +21,12 @@
   "items_current": 411
  },
  "reviews": {
-  "records": 472,
-  "pages": 287,
-  "public_pages_with_records": 285,
+  "records": 771,
+  "pages": 334,
+  "public_pages_with_records": 332,
   "by_action": {
-   "correct": 472
+   "correct": 472,
+   "mechanism": 299
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L4",
    "lt": 7,
    "lv": 7,
-   "r": 1,
+   "r": 2,
    "i": "simian immunodeficiency virus infection"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 5,
    "lv": 5,
-   "r": 2,
+   "r": 3,
    "i": "conjunctivitis"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L4",
    "lt": 5,
    "lv": 5,
-   "r": 2,
+   "r": 3,
    "i": "conjunctivitis"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 4,
    "lv": 4,
-   "r": 3,
+   "r": 4,
    "i": "feline acquired immunodeficiency syndrome"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 3,
    "lv": 3,
-   "r": 1,
+   "r": 2,
    "i": "migraine disorder"
   }
  ],
@@ -115,17 +116,8 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 4,
+   "r": 5,
    "i": "disease of orbital region"
-  },
-  {
-   "t": "Potassium",
-   "u": "/drugs/potassium/",
-   "l": "L2",
-   "lt": 3,
-   "lv": 3,
-   "r": 4,
-   "i": "hypertensive disorder"
   },
   {
    "t": "Ranitidine",
@@ -133,7 +125,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 4,
+   "r": 5,
    "i": "peptic ulcer perforation"
   },
   {
@@ -142,7 +134,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "non-syndromic esophageal malformation"
   },
   {
@@ -151,17 +143,26 @@
    "l": "L4",
    "lt": 1,
    "lv": 1,
-   "r": 3,
+   "r": 4,
    "i": "hypertrichosis (disease)"
   },
   {
-   "t": "Calcipotriol",
-   "u": "/drugs/calcipotriol/",
-   "l": "L3",
-   "lt": 2,
-   "lv": 2,
-   "r": 3,
-   "i": "seborrheic keratosis"
+   "t": "Capecitabine",
+   "u": "/drugs/capecitabine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "gastric adenocarcinoma and proximal polyposis of the stomach"
+  },
+  {
+   "t": "Carboplatin",
+   "u": "/drugs/carboplatin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "rectum mucinous adenocarcinoma"
   }
  ],
  "example": {
@@ -170,7 +171,7 @@
   "l": "L1",
   "lt": 1,
   "lv": 1,
-  "r": 1,
+  "r": 2,
   "i": "thrombotic disease"
  },
  "recent_reviews": [

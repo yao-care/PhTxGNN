@@ -58,7 +58,7 @@ Vecuronium is a non-depolarizing neuromuscular blocker used as a muscle relaxant
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available in the data compiled for this report. From general pharmacology, vecuronium is a non-depolarizing neuromuscular blocker. It competitively antagonizes nicotinic acetylcholine receptors at the neuromuscular junction and causes skeletal muscle paralysis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vecuronium: "Vecuronium is a nondepolarizing neuromuscular blocking agent possessing all of the characteristic pharmacological actions of this class of drugs (curariform). It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: vecuronium bromide prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b012b1b1-9e59-4525-8f4d-dae98344d15f), label version 2026-10-23; accessed 2026-11-19.) From general pharmacology, vecuronium is a non-depolarizing neuromuscular blocker. It competitively antagonizes nicotinic acetylcholine receptors at the neuromuscular junction and causes skeletal muscle paralysis.
 
 **The prediction does not appear to be pharmacologically reasonable.** Vecuronium has no known sedative, hypnotic or central nervous system activity, and it does not cross the blood-brain barrier appreciably. Insomnia is a disorder of sleep initiation or maintenance, and paralysis does not address it. Giving paralysis without sedation could also cause awake paralysis, which would be harmful.
 
@@ -132,11 +132,12 @@ For other safety information, please refer to the package insert.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vecuronium bromide prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b012b1b1-9e59-4525-8f4d-dae98344d15f) |
 
 <!-- review:end log -->
 

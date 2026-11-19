@@ -56,7 +56,7 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fluconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks synthesis of ergosterol, an essential component of the fungal cell membrane. Its efficacy in candidiasis and cryptococcal infection is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluconazole: "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), label version 2026-04-02; accessed 2026-11-19.) Based on known pharmacology, fluconazole is a triazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks synthesis of ergosterol, an essential component of the fungal cell membrane. Its efficacy in candidiasis and cryptococcal infection is established.
 
 Punctate epithelial keratoconjunctivitis is a heterogeneous condition with several possible causes: viral (such as adenoviral), bacterial, fungal, and toxic or drug-related. A plausible link exists only for the fungal subset, where an antifungal could be relevant. Fluconazole penetrates the eye well after systemic administration and is used in fungal keratitis, but this link is inferred and is not supported by the data compiled here.
 
@@ -117,11 +117,12 @@ The prediction rests on a high model score alone, with no clinical trials or lit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the label safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
 
 <!-- review:end log -->
 

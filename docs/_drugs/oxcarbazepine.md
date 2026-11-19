@@ -55,7 +55,7 @@ but there are currently **0 clinical trials** and only **general epilepsy litera
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxcarbazepine (through its active metabolite, a monohydroxy derivative known as MHD) blocks voltage-gated sodium channels, and its efficacy in focal seizures is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxcarbazepine: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, oxcarbazepine (through its active metabolite, a monohydroxy derivative known as MHD) blocks voltage-gated sodium channels, and its efficacy in focal seizures is established.
 
 Visual epilepsy is a reflex/focal epilepsy subtype, so a sodium-channel mechanism is plausible. However, the retrieved literature consists of general antiseizure medication reviews and guidelines. None of it provides visual-epilepsy-specific data for oxcarbazepine, so the prediction rests mainly on the shared focal-epilepsy mechanism.
 
@@ -129,12 +129,13 @@ Package insert warnings and contraindications were not available. Please refer t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current eviden" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarification of the licence situation (the only registration is cancelled) and available dosage forms" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->
 

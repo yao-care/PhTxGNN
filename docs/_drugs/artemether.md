@@ -60,7 +60,7 @@ Artemether is an artemisinin-class medicine. The TxGNN model predicts it may be 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for artemether, so a mechanistic explanation cannot be built from the data compiled for this report.
+ChEMBL (EMBL-EBI) records the mechanism of action of artemether as: Ferriprotoporphyrin IX inhibitor ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; accessed 2026-11-19.) A mechanistic explanation cannot be built from the data compiled for this report.
 
 No mechanistic link to acquired angioedema is established. Artemisinin-class compounds have been reported in preclinical work to have anti-inflammatory or immunomodulatory effects, but nothing in the compiled data supports this for artemether in angioedema. The high score is a computational prediction only, and any biological rationale remains speculative.
 
@@ -116,11 +116,12 @@ The prediction has no supporting clinical trials or publications and no known me
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with a licence record in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available for artemether, so a" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

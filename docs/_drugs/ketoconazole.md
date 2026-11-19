@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne (disease)**, but only **
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge of the drug class, ketoconazole is an imidazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase). At higher systemic doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), which lowers androgen synthesis. This could plausibly reduce sebum production and androgen-driven acne, such as in hyperandrogenism linked to polycystic ovary syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.) Based on general knowledge of the drug class, ketoconazole is an imidazole antifungal that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase). At higher systemic doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), which lowers androgen synthesis. This could plausibly reduce sebum production and androgen-driven acne, such as in hyperandrogenism linked to polycystic ovary syndrome.
 
 Laboratory work also points in this direction. Published in vitro studies report that ketoconazole inhibits the growth of *Propionibacterium acnes* and the activity of its lipase, an enzyme that contributes to inflammation in acne. Applied to the skin, its antifungal and anti-inflammatory activity against *Malassezia* (*Pityrosporum*) may help in *Malassezia* folliculitis, which is often misdiagnosed as acne, rather than in true acne vulgaris.
 
@@ -108,6 +108,19 @@ No cited study directly shows efficacy in acne: the only trial is small, still o
 - Mechanism of action data
 - Package insert warnings and contraindications from the local regulator
 - Review of route and dose (topical versus systemic) and of systemic safety, including liver and cardiac (QT) risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

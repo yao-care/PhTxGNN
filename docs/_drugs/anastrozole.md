@@ -54,7 +54,7 @@ Anastrozole is an aromatase inhibitor (estrogen-lowering hormonal therapy). The 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Anastrozole is generally known as an aromatase inhibitor, a class that lowers estrogen production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for anastrozole: "The growth of many cancers of the breast is stimulated or maintained by estrogens. In postmenopausal women, estrogens are mainly derived from the action of the aromatase enzyme, which converts adrenal androgens (primarily androstenedione and testosterone) to estrone and estradiol. […] Anastrozole is a selective non-steroidal aromatase inhibitor." ([DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de), label version 2026-03-02; accessed 2026-11-19.) Anastrozole is generally known as an aromatase inhibitor, a class that lowers estrogen production.
 
 A clear mechanistic link to neuroblastoma is not evident. Neuroblastoma is not an estrogen-dependent tumour, and aromatase inhibition has no established rationale in this disease. The high score is a model-based prediction and may reflect network proximity to other cancer-related nodes rather than a biological mechanism. It should be regarded as a hypothesis only.
 
@@ -118,11 +118,12 @@ The prediction rests solely on a model score, with no supporting clinical trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one valid licence is held in the Philippines, per the local regulatory data" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de) |
 
 <!-- review:end log -->
 

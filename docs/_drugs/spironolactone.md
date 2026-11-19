@@ -56,7 +56,7 @@ but the data compiled for this report contain **0 clinical trials** and **0 publ
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Spironolactone is generally known as an aldosterone (mineralocorticoid receptor) antagonist, and it also has anti-androgen activity: it blocks the androgen receptor and reduces androgen synthesis. This is the basis for its off-label use in female pattern hair loss.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for spironolactone: "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), label version 2025-11-28; accessed 2026-11-19.) Spironolactone is generally known as an aldosterone (mineralocorticoid receptor) antagonist, and it also has anti-androgen activity: it blocks the androgen receptor and reduces androgen synthesis. This is the basis for its off-label use in female pattern hair loss.
 
 The link to the predicted indication is weak. Hypotrichosis simplex is a genetic hair-loss disorder (for example, variants in CDSN, APCDD1 or RPL21) and is not mainly driven by androgens. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as androgenetic alopecia, not biological evidence, so the mechanistic link should be treated as speculative.
 
@@ -130,12 +130,13 @@ The only support for this prediction is a high model score. There are no clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only Philippines registration has been cancelled, which further limits near-term feasibility" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Confirmation of whether a valid registration or an alternative supply route exists in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

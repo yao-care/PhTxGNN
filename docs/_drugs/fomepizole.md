@@ -56,7 +56,7 @@ No clinical trials or publications currently support this direction, so the pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Fomepizole is known as an alcohol dehydrogenase inhibitor, but no verified mechanistic rationale for sclerosing cholangitis can be drawn from the supplied data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fomepizole: "Fomepizole is a competitive inhibitor of alcohol dehydrogenase. Alcohol dehydrogenase catalyzes the oxidation of ethanol to acetaldehyde. Alcohol dehydrogenase also catalyzes the initial steps in the metabolism of ethylene glycol and methanol to their toxic metabolites." ([DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a), label version 2023-10-26; accessed 2026-11-19.) Fomepizole is known as an alcohol dehydrogenase inhibitor, but no verified mechanistic rationale for sclerosing cholangitis can be drawn from the supplied data.
 
 One speculative link is that blocking alcohol dehydrogenase could affect oxidative stress or aldehyde and bile acid metabolism in the cells lining the bile ducts. This is a hypothesis only, and nothing in the compiled data supports it.
 
@@ -114,11 +114,12 @@ The only support for this prediction is a high model score. No clinical trial or
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local regulatory data lists the product as marketed in the Philippines. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a) |
 
 <!-- review:end log -->
 

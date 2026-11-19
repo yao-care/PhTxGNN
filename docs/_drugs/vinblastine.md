@@ -56,7 +56,7 @@ Support is limited: **no registered clinical trials** and only case reports and 
 
 ## Why is This Prediction Reasonable?
 
-Vinblastine binds tubulin and disrupts microtubule dynamics, which arrests cells in mitosis. Rapidly dividing sarcoma cells are plausibly susceptible to this effect. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general known pharmacology of vinca alkaloids.
+Vinblastine binds tubulin and disrupts microtubule dynamics, which arrests cells in mitosis. Rapidly dividing sarcoma cells are plausibly susceptible to this effect. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) This description reflects the general known pharmacology of vinca alkaloids.
 
 Related vinca alkaloids, vincristine in particular, are already standard components of rhabdomyosarcoma regimens. Part of the signal is therefore class-based rather than specific to vinblastine. Preclinical work in rhabdomyosarcoma xenograft models has examined the selectivity of vinca alkaloids, and a 2015 study described synthetic lethality between PLK1 inhibitors and microtubule-destabilizing drugs in rhabdomyosarcoma models.
 
@@ -126,11 +126,12 @@ The evidence level is L4: only case reports of vinblastine-containing combinatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In addition, the only Philippines registration is cancelled, and package insert safety data are missing" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77) |
 
 <!-- review:end log -->
 

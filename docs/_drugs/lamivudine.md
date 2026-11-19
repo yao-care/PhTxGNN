@@ -54,7 +54,7 @@ Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiviral. The
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Lamivudine is known as an NRTI, a class that blocks the reverse transcriptase enzyme that retroviruses use to copy their genetic material.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for lamivudine: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), label version 2024-08-15; accessed 2026-11-19.) Lamivudine is known as an NRTI, a class that blocks the reverse transcriptase enzyme that retroviruses use to copy their genetic material.
 
 Simian immunodeficiency virus (SIV) is a close lentiviral relative of HIV and carries a homologous reverse transcriptase, so a mechanistic fit is plausible. The supplied literature includes macaque studies of the M184V mutation (the classic lamivudine resistance mutation) in SIV, post-exposure prophylaxis with lamivudine-containing combinations, and combination antiretroviral therapy in rhesus macaques.
 
@@ -128,11 +128,12 @@ The only evidence for this prediction is animal-model and indirect preclinical w
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One local licence record (PNF-xxxx, Lamivudine, single-ingredient) is on file. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

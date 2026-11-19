@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on known information, PTU inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. At higher doses it also reduces peripheral conversion of T4 to T3. This is why it works in Graves disease and thyrotoxicosis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for propylthiouracil: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), label version 2026-08-27; accessed 2026-11-19.) Based on known information, PTU inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. At higher doses it also reduces peripheral conversion of T4 to T3. This is why it works in Graves disease and thyrotoxicosis.
 
 In resistance to thyroid hormone beta (RTH-β), the primary defect is a mutation in the TRβ receptor. This causes high T3/T4 together with non-suppressed TSH. Lowering hormone levels with an antithyroid drug may push TSH even higher and lead to goiter or TSH-driven thyroid growth. The mechanistic rationale is therefore weak and possibly counterproductive.
 
@@ -136,12 +136,13 @@ The top prediction (RTH-β) has no clinical trials, no studies testing PTU as tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "nd the cancelled Philippines registration a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the only local registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

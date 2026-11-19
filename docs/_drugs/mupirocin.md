@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pleural empyema**, but **no c
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, mupirocin is a topical antibiotic that inhibits bacterial isoleucyl-tRNA synthetase. It is mainly active against Gram-positive organisms such as *Staphylococcus aureus*, including MRSA. Its efficacy in impetigo, a skin infection commonly caused by these organisms, is established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mupirocin: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), label version 2020-03-20; accessed 2026-11-19.) Based on general pharmacological knowledge, mupirocin is a topical antibiotic that inhibits bacterial isoleucyl-tRNA synthetase. It is mainly active against Gram-positive organisms such as *Staphylococcus aureus*, including MRSA. Its efficacy in impetigo, a skin infection commonly caused by these organisms, is established.
 
 Pleural empyema is often caused by similar Gram-positive bacteria, so a pathogen-level link is plausible. However, this link is speculative. Mupirocin is formulated for topical use and is not suitable for systemic or intrapleural delivery. There is no established pharmacokinetic route for it to reach the pleural space. The prediction is supported only by the model score.
 
@@ -120,12 +120,13 @@ The prediction rests only on a high TxGNN score, with no clinical trials or lite
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In addition, the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarification of the regulatory status, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
 
 <!-- review:end log -->
 

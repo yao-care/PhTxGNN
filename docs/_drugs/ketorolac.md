@@ -62,7 +62,7 @@ with **17 clinical trials** and **20 publications** compiled for this report, ma
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ketorolac is a non-selective COX-1/COX-2 inhibitor. Blocking prostaglandin synthesis reduces peripheral and central sensitization, neurogenic inflammation and trigeminovascular activation, which drive migraine and tension-type headache pain.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ketorolac: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), label version 2026-11-13; accessed 2026-11-19.) Based on known pharmacology, ketorolac is a non-selective COX-1/COX-2 inhibitor. Blocking prostaglandin synthesis reduces peripheral and central sensitization, neurogenic inflammation and trigeminovascular activation, which drive migraine and tension-type headache pain.
 
 Prostaglandin-mediated inflammation is also the target of ketorolac in its other anti-inflammatory uses, so the same mechanism may carry over to headache. In practice, parenteral ketorolac is already used in emergency departments for acute migraine and tension-type headache, and the trials and reviews below reflect this.
 
@@ -139,12 +139,13 @@ Several completed Phase 3/4 and Phase 2 trials and multiple systematic reviews a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Ketorolac has 1 registration record in the Philippines, and the local market status is marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Chlorpromazine is a phenothiazine antipsychotic. The TxGNN model predicts it may
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this report. Chlorpromazine is generally known as a dopamine D2 and multi-receptor antagonist, but this could not be confirmed from the data compiled here.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlorpromazine: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), label version 2026-11-10; accessed 2026-11-19.) Chlorpromazine is generally known as a dopamine D2 and multi-receptor antagonist, but this could not be confirmed from the data compiled here.
 
 The one publication retrieved (PMID 5336672, 1967) reports phototoxic reactions from high doses of chlorpromazine and thioridazine. This is a harm signal, not a therapeutic one. Chlorpromazine is known to deposit in ocular tissues and cause pigmentary changes, which points toward potential harm in retinal disease rather than benefit.
 
@@ -105,6 +105,19 @@ Package insert warnings and contraindications were not available. Please refer t
 - Preclinical or clinical studies that directly address this disease
 - Package insert warnings and contraindications from the DOH-FDA Philippines, including an ocular safety assessment
 - Clarification of the current licence status in the Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

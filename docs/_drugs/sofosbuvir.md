@@ -54,7 +54,7 @@ Sofosbuvir is a nucleotide analogue antiviral that inhibits a viral RNA polymera
 
 ## Why is This Prediction Reasonable?
 
-Sofosbuvir is a nucleotide prodrug. Its active triphosphate form blocks the NS5B RNA-dependent RNA polymerase of its target virus. Detailed mechanism-of-action data were not available in the compiled data, so this description is based on general pharmacology.
+Sofosbuvir is a nucleotide prodrug. Its active triphosphate form blocks the NS5B RNA-dependent RNA polymerase of its target virus. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) This description is based on general pharmacology.
 
 The mechanistic link to hepatitis B is weak. Hepatitis B virus is a DNA virus that replicates through a reverse transcriptase, so sofosbuvir has no direct target in it. The clinical signals come mainly from patients infected with both viruses. In these patients, clearing the other virus with direct-acting antivirals changes hepatitis B viral kinetics, including a risk of hepatitis B reactivation.
 
@@ -137,11 +137,12 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Sofosbuvir has one valid registration in the Philippines, so the market status is Marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->
 

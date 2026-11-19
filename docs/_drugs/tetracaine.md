@@ -60,7 +60,7 @@ Across the other predicted indications, the only trial and literature found conc
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Tetracaine is known as a topical or ester-type local anaesthetic that blocks sodium channels. Its original indication is dermatitis, and the model likely links it to the new indication through dermatological associations.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tetracaine: "Tetracaine blocks sodium ion channels required for the initiation and conduction of neuronal impulses thereby affecting local anesthesia." ([DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a), label version 2026-08-28; accessed 2026-11-19.) Tetracaine is known as a topical or ester-type local anaesthetic that blocks sodium channels. Its original indication is dermatitis, and the model likely links it to the new indication through dermatological associations.
 
 On closer inspection, the mechanistic link is weak. Acrodermatitis chronica atrophicans is a late-stage skin infection caused by *Borrelia*. A sodium-channel-blocking anesthetic has no plausible disease-modifying role in it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -166,13 +166,14 @@ Label warnings and contraindications from the Philippine package insert were not
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report lists one registration, which is cancelled. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The only registration in the Philippines is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the regulatory status of the cancelled registration and the available dosage forms and routes" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
 
 <!-- review:end log -->
 

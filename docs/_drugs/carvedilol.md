@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant for **malignant hypertensive renal d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, carvedilol blocks both beta receptors and alpha-1 receptors, which lowers blood pressure, so a blood-pressure-lowering effect is mechanistically plausible in hypertensive kidney disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carvedilol: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), label version 2026-07-31; accessed 2026-11-19.) Based on general pharmacology, carvedilol blocks both beta receptors and alpha-1 receptors, which lowers blood pressure, so a blood-pressure-lowering effect is mechanistically plausible in hypertensive kidney disease.
 
 However, this prediction is largely an extension of carvedilol's existing blood pressure use rather than a distinct repurposing signal. Malignant hypertension with kidney involvement is usually managed with intravenous agents and blockade of the renin-angiotensin system, and nothing in the compiled data supports carvedilol specifically. The high score of 0.9955 is a computational output only and is not evidence of clinical benefit.
 
@@ -109,11 +109,12 @@ The prediction rests only on a model score. No trials or publications address ma
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled records show one single-ingredient registration for carvedilol, with the overall market status listed as marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->
 

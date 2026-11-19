@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **cholesterol-ester transfer pr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Rosuvastatin is a statin (an HMG-CoA reductase inhibitor). Its efficacy in lowering LDL cholesterol in lipid disorders is well established, and it may be mechanistically applicable to CETP deficiency.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rosuvastatin: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), label version 2026-09-23; accessed 2026-11-19.) Rosuvastatin is a statin (an HMG-CoA reductase inhibitor). Its efficacy in lowering LDL cholesterol in lipid disorders is well established, and it may be mechanistically applicable to CETP deficiency.
 
 CETP deficiency raises HDL cholesterol and lowers LDL cholesterol. Statin-driven LDL lowering is therefore biologically plausible, but no retrieved trial or publication tests it. It is also not a clear unmet need for statin therapy, because LDL cholesterol is already low in this condition. The high TxGNN score is best read as a network-based signal that needs experimental confirmation.
 
@@ -132,12 +132,13 @@ The prediction rests on the model score alone, with no trials or publications, a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirmation of whether any valid rosuvastatin registration exists in the Philippines, given that the only record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The Philippine registration is also cancelled, so there is currently no marketed product to repurpose locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

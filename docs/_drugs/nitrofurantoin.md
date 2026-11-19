@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis** with a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitrofurantoin is known as an antibacterial used for urinary tract infections, but the data compiled for this report do not record a mechanism or an approved indication, and no plausible anti-rheumatic mechanism is documented.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nitrofurantoin: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), label version 2026-01-22; accessed 2026-11-19.) Nitrofurantoin is known as an antibacterial used for urinary tract infections, but the data compiled for this report do not record a mechanism or an approved indication, and no plausible anti-rheumatic mechanism is documented.
 
 The TxGNN score is very high (0.9989), but the literature does not support a therapeutic effect. The retrieved papers describe nitrofurantoin-associated pulmonary fibrosis, its interaction with methotrexate in patients with rheumatoid arthritis, and a study on antibiotic use and rheumatoid arthritis flares. These are safety signals, not evidence of benefit. The model association probably reflects co-occurrence of the drug and the disease in the literature, such as lung disease or infections in people with rheumatoid arthritis, rather than a true treatment effect.
 
@@ -132,12 +132,13 @@ Please refer to the package insert for full warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, with no recorded indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the registration status and approved indication of the cancelled license" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->
 

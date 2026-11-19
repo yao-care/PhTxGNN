@@ -56,7 +56,7 @@ There are **no registered clinical trials** and **5 publications** (all preclini
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Rilpivirine is known as a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1. Its relation to HIV infection and AIDS is recorded in the knowledge graph.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rilpivirine: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), label version 2025-08-28; accessed 2026-11-19.) Rilpivirine is known as a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1. Its relation to HIV infection and AIDS is recorded in the knowledge graph.
 
 SIV and SHIV (a chimeric virus carrying HIV-1 reverse transcriptase) are the standard macaque models of HIV. Activity in these models is mostly a translational proxy for the HIV use, not a truly new human indication. SIV is naturally resistant to many NNRTIs, so the studies mostly use SHIV chimeras.
 
@@ -118,11 +118,12 @@ The prediction rests on animal-model studies that mainly reflect the existing HI
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record is a single-ingredient licence with valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **relapsing-remitting multiple 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this drug is not available in the compiled data. Dactinomycin is generally known as a cytotoxic transcription inhibitor. It intercalates into DNA and blocks RNA polymerase. Its efficacy in several paediatric and germ cell cancers is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dactinomycin: "Dactinomycin is a cytotoxic actinomycin that binds DNA and inhibits RNA synthesis. The cytotoxic activity of dactinomycin has been demonstrated in animal models of different human cancers." ([DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc), label version 2024-06-18; accessed 2026-11-19.) Dactinomycin is generally known as a cytotoxic transcription inhibitor. It intercalates into DNA and blocks RNA polymerase. Its efficacy in several paediatric and germ cell cancers is well established.
 
 The link to multiple sclerosis (MS) is weak. MS is an immune-mediated disease of the central nervous system, and no mechanistic connection to dactinomycin's antitumour action has been shown. The very high TxGNN score (ranked 3,379th among the model's predictions) is probably a TxGNN model (deep learning) artefact rather than a real biological signal.
 
@@ -151,12 +151,13 @@ The prediction has no clinical trials or literature behind it (L5). It has no pl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Dosage form and approved-indication text are not recorded for this registration. The drug is marketed in the Philippines, with 1 valid licen" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data for this drug is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methylene blue is an established treatment for methemoglobinemia. It is reduced to leucomethylene blue by NADPH-dependent methemoglobin reductase, and this form then converts methemoglobin back to functional hemoglobin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylene blue: "Methylene blue is a water soluble thiazine dye that promotes a non-enyzmatic redox conversion of metHb to hemoglobin. In situ, methylene blue is first converted to leucomethylene blue (LMB) via NADPH reductase. It is the LMB molecule which then reduces the ferric iron of metHb to the ferrous state of normal hemoglobin." ([DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232), label version 2025-05-28; accessed 2026-11-19.) Based on known information, methylene blue is an established treatment for methemoglobinemia. It is reduced to leucomethylene blue by NADPH-dependent methemoglobin reductase, and this form then converts methemoglobin back to functional hemoglobin.
 
 The link between this mechanism and bronchitis is not demonstrated. Any biological rationale, such as inhibition of nitric oxide/guanylate cyclase signalling or anti-inflammatory effects, is speculative. The high TxGNN score is likely driven by keyword co-occurrence. Methylene blue appears in the literature mainly as a diagnostic stain or laboratory marker in airway-related work, not as a therapy.
 
@@ -149,11 +149,12 @@ Serotonin syndrome risk with serotonergic drugs is a key guardrail. Please also 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Provayblue (methylene blue) prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f6848e5-35ed-4046-b13c-3032b5ba3232) |
 
 <!-- review:end log -->
 

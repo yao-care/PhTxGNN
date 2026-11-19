@@ -56,7 +56,7 @@ with **6 clinical trials** and **20 publications** compiled for this direction, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, ifosfamide is a prodrug activated by liver cytochrome P450 enzymes (mainly CYP3A4 and CYP2B6) to isophosphoramide mustard. This active compound cross-links DNA and triggers cell death in proliferating tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ifosfamide: "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), label version 2026-10-07; accessed 2026-11-19.) From general pharmacology, ifosfamide is a prodrug activated by liver cytochrome P450 enzymes (mainly CYP3A4 and CYP2B6) to isophosphoramide mustard. This active compound cross-links DNA and triggers cell death in proliferating tumour cells.
 
 This cytotoxic mechanism is not specific to one tumour type, so activity in breast carcinoma is plausible. The compiled literature reports ifosfamide in advanced or metastatic breast cancer, including combinations with vinorelbine, etoposide, mitoxantrone, paclitaxel and docetaxel, and in metaplastic breast cancer. However, the evidence is mainly Phase 2 and single-arm studies. No Phase 3 randomised trial in breast cancer is present, and ifosfamide is not a standard-of-care agent in breast cancer.
 
@@ -126,6 +126,19 @@ The compiled studies of ifosfamide in breast cancer are Phase 2 or smaller combi
 - Mechanism of action data from a drug database
 - Controlled trial data comparing ifosfamide-containing regimens with current standard breast cancer therapy
 - A safety monitoring plan covering kidney, nervous system, bladder and bone marrow toxicity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ There are **no registered clinical trials**, but **15 publications** support thi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clobetasol propionate is a super-potent topical glucocorticoid. Activating the glucocorticoid receptor can induce apoptosis (programmed cell death) of malignant T cells. It also dampens local inflammatory and cytokine signalling in the skin.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobetasol: "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), label version 2026-11-10; accessed 2026-11-19.) Based on known pharmacology, clobetasol propionate is a super-potent topical glucocorticoid. Activating the glucocorticoid receptor can induce apoptosis (programmed cell death) of malignant T cells. It also dampens local inflammatory and cytokine signalling in the skin.
 
 This is the rationale for using topical corticosteroids in early-stage (patch or plaque) mycosis fungoides, the most common form of primary cutaneous T-cell lymphoma. The high TxGNN score is consistent with this known pharmacology. Topical corticosteroids are already part of skin-directed therapy for early-stage disease in clinical practice.
 
@@ -152,13 +152,14 @@ Cohort data and clinical experience support topical clobetasol as first-line ski
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clobetasol is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clobetasol is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "A valid local registration, or a confirmed supply route, for a topical clobetasol product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 
 <!-- review:end log -->
 

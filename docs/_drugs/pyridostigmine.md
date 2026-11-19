@@ -59,7 +59,7 @@ Support currently comes from **0 clinical trials** and **3 publications** (one r
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine at the neuromuscular junction, which increases the signal reaching muscle and gives symptomatic relief of weakness.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pyridostigmine: "Pyridostigmine bromide oral solution inhibits the destruction of acetylcholine by cholinesterase and thereby permits freer transmission of nerve impulses across the neuromuscular junction. Pyridostigmine is an analog of neostigmine (Prostigmine TM ), but differs from it in certain clinically significant respects; for example, pyridostigmine is characterized by a longer duration of action and fewer gastrointestinal side effects." ([DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780), label version 2022-09-07; accessed 2026-11-19.) Based on known pharmacology, pyridostigmine is a reversible acetylcholinesterase inhibitor. It slows the breakdown of acetylcholine at the neuromuscular junction, which increases the signal reaching muscle and gives symptomatic relief of weakness.
 
 Thymic hyperplasia is typically seen in myasthenia gravis with acetylcholine receptor (AChR) antibodies. This is the classic form of the disease and the one in which pyridostigmine is an established symptomatic treatment. The prediction therefore mostly confirms an existing use and does not represent a new repurposing opportunity.
 
@@ -132,11 +132,12 @@ The mechanism is well established for AChR-antibody myasthenia gravis, which is 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only registration in the Philippines has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
 
 <!-- review:end log -->
 

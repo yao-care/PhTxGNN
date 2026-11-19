@@ -58,7 +58,7 @@ Hydroxyzine is a first-generation antihistamine that blocks H1 receptors. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, hydroxyzine is an H1 antihistamine, and blocking H1 receptors may relieve histamine-driven itching and irritation of the eye.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for hydroxyzine: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), label version 2026-11-12; accessed 2026-11-19.) Based on general pharmacology, hydroxyzine is an H1 antihistamine, and blocking H1 receptors may relieve histamine-driven itching and irritation of the eye.
 
 The link to rosacea conjunctivitis is plausible only by analogy. Ocular rosacea is mainly driven by meibomian gland dysfunction, inflammation, and microbial or *Demodex* factors, so the benefit of an antihistamine is uncertain. The high score (0.9970) is a model output only; it is not backed by any trial or publication.
 
@@ -113,6 +113,19 @@ The prediction has a high model score but no clinical trials or literature, so i
 - Mechanism of action data for hydroxyzine
 - Package insert warnings and contraindications from the Philippines regulator
 - Confirmation of available dosage forms and routes (for example, whether an ocular route is feasible)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

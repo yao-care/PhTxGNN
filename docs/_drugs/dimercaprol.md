@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but the support
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dimercaprol is a dithiol chelating agent that binds heavy metals and promotes their elimination. Its efficacy is established in metal poisoning, not in bronchitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of dimercaprol as: Heavy metals chelating agent ([ChEMBL CHEMBL1597 (dimercaprol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1597), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, dimercaprol is a dithiol chelating agent that binds heavy metals and promotes their elimination. Its efficacy is established in metal poisoning, not in bronchitis.
 
 The link to bronchitis is indirect. The only supporting literature describes bronchitis as a toxic consequence of acute mercury inhalation. In that setting, chelation would address the underlying poisoning rather than treat the bronchitis itself. Dimercaprol has no known direct anti-inflammatory, antimicrobial, or bronchial-protective action relevant to bronchitis of other causes (viral, bacterial, smoking-related, or chronic obstructive).
 
@@ -109,11 +109,12 @@ The only evidence is a 1963 case report in which bronchitis was a consequence of
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The high TxGNN score is not backed by clinical evidence, and the only Philippines registration is cancelled, which limits practical feasibil" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1597 (dimercaprol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1597) |
 
 <!-- review:end log -->
 

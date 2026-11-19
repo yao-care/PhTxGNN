@@ -61,7 +61,7 @@ The TxGNN model predicts it may be relevant for **respiratory malformation**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, terbutaline is a beta-2 agonist, and beta-2 agonism can relax airway smooth muscle and may relieve reversible airflow obstruction or symptoms that accompany structural airway abnormalities.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for terbutaline: "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), label version 2025-12-10; accessed 2026-11-19.) Based on general pharmacology, terbutaline is a beta-2 agonist, and beta-2 agonism can relax airway smooth muscle and may relieve reversible airflow obstruction or symptoms that accompany structural airway abnormalities.
 
 However, respiratory malformations are structural defects, and bronchodilation does not correct the underlying problem. The publications retrieved are mostly about differential diagnosis (for example, central airway stenosis versus asthma), airway function measurement, or unrelated uses of terbutaline (fetal heart block, autism-related hypotheses, veterinary medicine). None shows a therapeutic benefit of terbutaline for malformation itself. The high TxGNN score most likely reflects closeness to airway-disease concepts in the model's network rather than clinical evidence, so the prediction should be treated as a hypothesis only.
 
@@ -122,11 +122,12 @@ The prediction rests on a computational score alone. No trial or publication sho
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that is listed in the Philippines under a single-ingredient registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
 
 <!-- review:end log -->
 

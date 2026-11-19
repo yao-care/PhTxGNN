@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 
 ## Why is This Prediction Reasonable?
 
-Everolimus inhibits mTORC1, a protein complex downstream of the PI3K/AKT pathway that controls cell growth and proliferation. Detailed mechanism-of-action data were not available in the data compiled for this report. The description here is based on its known drug class.
+Everolimus inhibits mTORC1, a protein complex downstream of the PI3K/AKT pathway that controls cell growth and proliferation. According to the Mechanism of Action section of the US FDA-approved prescribing information for everolimus: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), label version 2026-09-16; accessed 2026-11-19.) The description here is based on its known drug class.
 
 Dedifferentiated liposarcoma is characterized by CDK4/MDM2 amplification. Combining a CDK4/6 inhibitor (ribociclib) with an mTOR inhibitor (everolimus) is intended to limit compensatory pathway activation and cell-cycle progression. Both agents have shown synergistic growth inhibition in multiple tumour models. Preclinical sarcoma models also point to mTOR and cell-cycle pathway vulnerability.
 
@@ -155,12 +155,13 @@ Label text for warnings and contraindications is not available in the data compi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only local registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether a valid product is available locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

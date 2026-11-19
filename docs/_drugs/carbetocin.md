@@ -56,7 +56,7 @@ There are currently **no clinical trials** and **no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, carbetocin is a long-acting oxytocin analogue that binds the oxytocin receptor (OXTR). Its established clinical use is the prevention of postpartum haemorrhage due to uterine atony, and an intranasal formulation has been under development for hyperphagia in Prader-Willi syndrome.
+ChEMBL (EMBL-EBI) records the mechanism of action of carbetocin as: Oxytocin receptor agonist ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, carbetocin is a long-acting oxytocin analogue that binds the oxytocin receptor (OXTR). Its established clinical use is the prevention of postpartum haemorrhage due to uterine atony, and an intranasal formulation has been under development for hyperphagia in Prader-Willi syndrome.
 
 Isotretinoin-like syndrome is a teratogenic phenotype (embryopathy linked to disruption of the retinoic acid pathway). No biological pathway connecting oxytocin receptor agonism to this phenotype can be established from the available data. The prediction rests only on a high model score, so it should be treated as hypothesis-generating, not as a mechanistically supported finding. The plausibility of clinical benefit is unproven.
 
@@ -109,11 +109,12 @@ The prediction has no supporting clinical trials or publications and no plausibl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorization record exists, and it is a single-ingredient product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
 
 <!-- review:end log -->
 

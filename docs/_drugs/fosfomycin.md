@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **uterine inflammatory disease*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. As general background, fosfomycin is a bactericidal antibiotic that inhibits MurA (UDP-N-acetylglucosamine enolpyruvyl transferase). This blocks an early step of bacterial cell-wall (peptidoglycan) synthesis. It is active against many Enterobacterales and some Gram-positive bacteria.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fosfomycin: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), label version 2025-11-04; accessed 2026-11-19.) As general background, fosfomycin is a bactericidal antibiotic that inhibits MurA (UDP-N-acetylglucosamine enolpyruvyl transferase). This blocks an early step of bacterial cell-wall (peptidoglycan) synthesis. It is active against many Enterobacterales and some Gram-positive bacteria.
 
 The link to the new indication is an inference. Uterine and pelvic infections can involve organisms such as *E. coli* that fosfomycin covers. Both conditions are infection or inflammation of the genitourinary and pelvic region. However, no direct evidence of efficacy in uterine inflammatory disease was found. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -120,11 +120,12 @@ The prediction rests on the model score and a plausible antibacterial mechanism.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the Philippine approved uses can" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
 
 <!-- review:end log -->
 

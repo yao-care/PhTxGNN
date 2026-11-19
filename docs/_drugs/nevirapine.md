@@ -56,7 +56,7 @@ but there are **0 clinical trials** and only **1 relevant publication** (an in v
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nevirapine is an NNRTI that binds allosterically to HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and the predicted indication involves a related lentivirus, feline immunodeficiency virus (FIV), which also uses a reverse transcriptase.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nevirapine: "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), label version 2026-10-08; accessed 2026-11-19.) Based on known information, nevirapine is an NNRTI that binds allosterically to HIV-1 reverse transcriptase. Its efficacy in HIV infection is established, and the predicted indication involves a related lentivirus, feline immunodeficiency virus (FIV), which also uses a reverse transcriptase.
 
 However, the mechanistic link is weak. FIV reverse transcriptase is generally reported to respond poorly to many NNRTIs because the NNRTI binding pocket differs structurally from that of HIV-1. The one relevant study (a 2023 biochemical and structural comparison of NNRTIs against feline and human immunodeficiency viruses) examined nevirapine, efavirenz and rilpivirine, but the information available does not allow the specific result for nevirapine to be confirmed. The high TxGNN score is a computational prediction, most likely reflecting similarity to the existing HIV indication, and it is not backed by clinical data. This is also a veterinary indication with no direct human clinical relevance.
 
@@ -123,12 +123,13 @@ The prediction rests on a computational score and one in vitro study. There are 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In the Philippines, the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarification of the regulatory status of nevirapine in the Philippines, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

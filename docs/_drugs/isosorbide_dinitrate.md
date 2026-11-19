@@ -66,7 +66,7 @@ The link is a TxGNN model (deep learning) prediction only, and it may reflect si
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Isosorbide dinitrate belongs to the organic nitrate class, which acts as a nitric oxide (NO) donor. In general, this raises cGMP and relaxes vascular smooth muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydralazine hydrochloride and isosorbide dinitrate (a combination product containing isosorbide dinitrate): "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), label version 2025-11-30; accessed 2026-11-19.) Isosorbide dinitrate belongs to the organic nitrate class, which acts as a nitric oxide (NO) donor. In general, this raises cGMP and relaxes vascular smooth muscle.
 
 A possible, unproven link is that NO-mediated vasodilation could increase scalp microcirculation. This is similar to the hypothesis behind minoxidil-type vasodilators. This is speculative.
 
@@ -139,12 +139,13 @@ The alopecia prediction rests only on a TxGNN model (deep learning) score, which
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that is registered and marketed in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The record does not include indication text, so no approved use can be described fr" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
 
 <!-- review:end log -->
 

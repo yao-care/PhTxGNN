@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, with **0 cl
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Nalidixic acid is a first-generation quinolone, a class known to inhibit bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. This is general class knowledge, not data from the compiled records. Through this action, it could plausibly act against susceptible Gram-negative bacteria that cause bacterial conjunctivitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of nalidixic acid as: Bacterial DNA gyrase inhibitor ([ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5), CC BY-SA 3.0; accessed 2026-11-19.) Nalidixic acid is a first-generation quinolone, a class known to inhibit bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. This is general class knowledge, not data from the compiled records. Through this action, it could plausibly act against susceptible Gram-negative bacteria that cause bacterial conjunctivitis.
 
 However, the link is weak. The retrieved literature concerns enteric pathogens (Shigella, Yersinia) and does not address eye infection. Later fluoroquinolones have much better ocular penetration and a broader spectrum, and widespread quinolone resistance reduces the rationale for nalidixic acid. The high TxGNN score is a computational prediction only.
 
@@ -162,12 +162,13 @@ Label-based warnings and contraindications from the package insert are not avail
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The drug's only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether any formulation suitable for ophthalmic use exists" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5) |
 
 <!-- review:end log -->
 

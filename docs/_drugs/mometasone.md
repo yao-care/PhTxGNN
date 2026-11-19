@@ -56,7 +56,7 @@ Support is very limited: **0 clinical trials** and **2 publications**, both case
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Pharmacology records show that mometasone acts on the **glucocorticoid receptor (NR3C1)**. It is a potent corticosteroid with anti-inflammatory, immunosuppressive and anti-proliferative effects. It is used intranasally for asthma, allergic rhinitis and nasal polyposis, and topically for allergic skin disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mometasone: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), label version 2026-07-07; accessed 2026-11-19.) Pharmacology records show that mometasone acts on the **glucocorticoid receptor (NR3C1)**. It is a potent corticosteroid with anti-inflammatory, immunosuppressive and anti-proliferative effects. It is used intranasally for asthma, allergic rhinitis and nasal polyposis, and topically for allergic skin disorders.
 
 Topical corticosteroids are a recognised skin-directed therapy for early-stage mycosis fungoides, the most common primary cutaneous T-cell lymphoma. Glucocorticoid receptor signalling can suppress T-cell activation and cytokine signalling, so the prediction is biologically plausible.
 
@@ -116,12 +116,13 @@ The evidence is model prediction only (L5). There are no clinical trials, and th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and there is no label-based safety information" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "including whether a valid topical product is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ with **0 registered clinical trials** and **20 publications** (including a place
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prednisolone is a glucocorticoid with broad anti-inflammatory and immunosuppressive effects. Its efficacy in autoimmune diseases has been established, and mechanistically it may be applicable to alopecia areata.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prednisolone: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), label version 2025-06-03; accessed 2026-11-19.) Based on known information, prednisolone is a glucocorticoid with broad anti-inflammatory and immunosuppressive effects. Its efficacy in autoimmune diseases has been established, and mechanistically it may be applicable to alopecia areata.
 
 Alopecia areata is a T-cell-mediated autoimmune disease in which the immune privilege of the hair follicle collapses. Prednisolone suppresses the autoreactive T-cell infiltrate around growing hair follicles, which is consistent with its existing autoimmune indications. One included study also suggests that oral pulse steroids may act partly by changing serum and tissue TNF-α levels.
 
@@ -140,11 +140,12 @@ Alopecia areata has the strongest evidence among the ten predicted indications: 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "There are no registered trials, relapse after withdrawal is common, and the only Philippines registration is cancelled, so use should stay r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

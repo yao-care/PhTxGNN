@@ -60,7 +60,7 @@ Currently, **1 clinical trial** (a Phase 2 randomized study) and **no publicatio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, megestrol acetate is a synthetic progestin. It is thought to act through progesterone receptor signaling, promoting differentiation and suppressing proliferation of hormone-sensitive endometrial tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for megestrol acetate: "Several investigators have reported on the appetite enhancing property of megestrol acetate and its possible use in cachexia. The precise mechanism by which megestrol acetate produces effects in anorexia and cachexia is unknown at the present time." ([DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651), label version 2026-04-14; accessed 2026-11-19.) Based on known information, megestrol acetate is a synthetic progestin. It is thought to act through progesterone receptor signaling, promoting differentiation and suppressing proliferation of hormone-sensitive endometrial tumour cells.
 
 The hormonal rationale is well supported. A randomized Phase 2 trial has also tested megestrol-containing hormonal therapy in advanced or recurrent disease.
 
@@ -142,12 +142,13 @@ One completed randomized Phase 2 trial in endometrial cancer and a plausible hor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of why the Philippines registration was cancelled, and of its dosage form and indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Dosage form and approved indication are not recorded for this registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->
 

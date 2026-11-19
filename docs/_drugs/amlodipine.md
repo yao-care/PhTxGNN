@@ -56,7 +56,7 @@ No clinical trials or publications were found that directly study this disease, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amlodipine belongs to the calcium channel blocker class. It relaxes vascular smooth muscle and lowers blood pressure, and it is used in cerebrovascular settings such as stroke prevention.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amlodipine: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), label version 2026-09-28; accessed 2026-11-19.) Based on known information, amlodipine belongs to the calcium channel blocker class. It relaxes vascular smooth muscle and lowers blood pressure, and it is used in cerebrovascular settings such as stroke prevention.
 
 Brain stem infarction is a type of ischemic stroke. Blood pressure control is a recognised way to reduce the risk of stroke, so the model's prediction may reflect this broader cerebrovascular link. No data compiled for this report show a benefit specific to the brain stem, and the prediction should be treated as a hypothesis only.
 
@@ -98,6 +98,19 @@ The TxGNN score is very high, but no trial or publication directly studies amlod
 - Mechanism of action data
 - Package insert warnings and contraindications from the Philippine regulator
 - Review of interactions relevant to the intended patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

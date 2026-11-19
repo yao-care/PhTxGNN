@@ -56,7 +56,7 @@ The data compiled for this report contain **no clinical trials** and **1 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on general pharmacology, fusidic acid inhibits bacterial protein synthesis by targeting elongation factor G and acts mainly on Gram-positive organisms such as Staphylococcus.
+ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, fusidic acid inhibits bacterial protein synthesis by targeting elongation factor G and acts mainly on Gram-positive organisms such as Staphylococcus.
 
 Exposure keratitis is a non-infectious corneal injury caused by failure of the eyelids to close. Secondary bacterial infection of the damaged cornea is possible, so any benefit of fusidic acid would be indirect and limited to infection control. The only linked paper is a case series on ocular Tsukamurella infections (a different organism and a different clinical setting), which does not test fusidic acid in exposure keratitis. The very high TxGNN score is therefore not supported by clinical data.
 
@@ -101,6 +101,19 @@ No clinical trial or study directly addresses fusidic acid in exposure keratitis
 - Evidence that fusidic acid, in an ophthalmic-suitable formulation and route, benefits exposure keratitis or its secondary infection
 - Review of local Staphylococcus susceptibility and resistance trends
 - Clarification of the local licence status and available dosage forms
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

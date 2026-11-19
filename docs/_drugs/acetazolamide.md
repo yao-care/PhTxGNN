@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acetazolamide is a carbonic anhydrase inhibitor. It has established use in several conditions, including glaucoma, heart failure and altitude sickness, in which it alters fluid and acid-base balance.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acetazolamide: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), label version 2026-11-10; accessed 2026-11-19.) Based on known information, acetazolamide is a carbonic anhydrase inhibitor. It has established use in several conditions, including glaucoma, heart failure and altitude sickness, in which it alters fluid and acid-base balance.
 
 Carbonic anhydrase inhibition could plausibly change acid-base balance and influence muscle excitation-contraction coupling. However, this link is speculative. Malignant hyperthermia is mainly a disorder of ryanodine receptor and calcium handling, and nothing in the data compiled for this report supports a direct mechanistic connection. The very high score (0.9995) reflects model similarity only and should not be read as evidence of efficacy.
 
@@ -127,12 +127,13 @@ The top prediction has no clinical trials and no literature, so it rests on a mo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1, and s" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
 
 <!-- review:end log -->
 

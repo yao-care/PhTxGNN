@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **HIV infectious disease**. The st
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Rifabutin is a rifamycin that inhibits mycobacterial RNA polymerase (the rpoB target). It has no known direct antiretroviral activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifabutin: "Rifabutin inhibits DNA-dependent RNA polymerase in susceptible strains of Escherichia coli and Bacillus subtilis but not in mammalian cells. In resistant strains of E. coli, rifabutin, like rifampin, did not inhibit this enzyme." ([DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589), label version 2026-09-01; accessed 2026-11-19.) Rifabutin is a rifamycin that inhibits mycobacterial RNA polymerase (the rpoB target). It has no known direct antiretroviral activity.
 
 The link to HIV is indirect. People with advanced HIV are prone to mycobacterial opportunistic infections, namely MAC and tuberculosis, and rifabutin is used in these settings. It is a weaker inducer of the liver enzyme CYP3A4 than rifampin. That makes it easier to combine with some antiretrovirals, such as protease inhibitors, although dose adjustment is still needed.
 
@@ -145,11 +145,12 @@ Rifabutin is established in HIV-associated mycobacterial disease, but no cited s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirm the original approved indication and the registration pathway, since the only license is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589) |
 
 <!-- review:end log -->
 

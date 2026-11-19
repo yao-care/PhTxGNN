@@ -56,7 +56,7 @@ with **3 clinical trials** and **20 publications** currently supporting this dir
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, nitroglycerin is an NO donor. It releases nitric oxide, which activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This pathway is directly relevant to lowering pulmonary vascular resistance.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitroglycerin: "Nitroglycerin forms free radical nitric oxide (NO), which activates guanylate cyclase, resulting in an increase of guanosine 3',5'-monophosphate (cyclic GMP) in smooth muscle and other tissues. This eventually leads to dephosphorylation of myosin light chains, which regulates the contractile state in smooth muscle and results in vasodilatation." ([DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300), label version 2025-12-17; accessed 2026-11-19.) Based on known pharmacology, nitroglycerin is an NO donor. It releases nitric oxide, which activates soluble guanylate cyclase, raises cGMP and relaxes vascular smooth muscle. This pathway is directly relevant to lowering pulmonary vascular resistance.
 
 Nitroglycerin is long established as a vasodilator for cardiovascular conditions, so the leap to pulmonary vascular disease is mechanistically coherent. Inhaled or nebulized delivery may give relative pulmonary selectivity and limit systemic hypotension. Human hemodynamic studies from 1983–84 and pediatric inhaled-nitroglycerin reports (2021, 2025) support a vasodilatory effect.
 
@@ -128,11 +128,12 @@ The mechanism is plausible and small studies, including one randomized neonatal 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, there is no Phase 3 or confirmatory evidence, and the only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nitroglycerin Lingual (nitroglycerin) prescribing information, Allegis Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fadd07b7-189b-4678-ad0f-bf1e4d3d1300) |
 
 <!-- review:end log -->
 

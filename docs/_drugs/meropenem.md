@@ -62,7 +62,7 @@ The original indications are not available as approved indication text for the P
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It has proven efficacy in serious Gram-negative and Gram-positive infections, and may mechanistically be applicable to bone and joint infections caused by susceptible organisms.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for meropenem: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), label version 2026-11-02; accessed 2026-11-19.) Based on general knowledge, meropenem is a carbapenem that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It has proven efficacy in serious Gram-negative and Gram-positive infections, and may mechanistically be applicable to bone and joint infections caused by susceptible organisms.
 
 Bacterial arthritis (septic arthritis) is a bacterial infection, like the drug's original indications. The retrieved literature includes a case of ESBL-producing *Klebsiella pneumoniae* septic arthritis treated successfully with meropenem plus amikacin and arthroscopic washout, and a melioidosis series in which all isolates were susceptible to meropenem. However, the evidence is limited to case reports, a retrospective cohort, pharmacokinetic studies and resistance surveillance. No dedicated trials exist, so the link remains plausible but unproven.
 
@@ -192,13 +192,14 @@ Please refer to the package insert for warnings and label contraindications, whi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This registration is **cancelled**" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether re-registration or an alternative supply route is needed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->
 

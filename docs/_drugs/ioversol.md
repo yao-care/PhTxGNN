@@ -62,7 +62,7 @@ This prediction is a model output without supporting clinical evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ioversol is a water-soluble iodinated contrast agent. It is used to make blood vessels and tissues visible on X-ray imaging, and it has no known anti-inflammatory or cartilage-protecting activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ioversol: "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74), label version 2025-12-29; accessed 2026-11-19.) Ioversol is a water-soluble iodinated contrast agent. It is used to make blood vessels and tissues visible on X-ray imaging, and it has no known anti-inflammatory or cartilage-protecting activity.
 
 The only linked publication (PMID 38102013, the LipioJoint-1 trial) tested genicular artery embolization for knee osteoarthritis using an ethiodized-oil (Lipiodol) embolic agent. Ioversol was not the therapeutic agent in that study. At most, a contrast agent may be used to visualize the arteries during such a procedure. That is an imaging role, not a treatment effect, and it is not a repurposing signal.
 
@@ -124,12 +124,13 @@ The only cited study concerns a different embolic agent used for knee osteoarthr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and it is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "for the Philippines registration PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
 
 <!-- review:end log -->
 

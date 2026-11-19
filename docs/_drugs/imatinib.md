@@ -54,7 +54,7 @@ Imatinib is a tyrosine kinase inhibitor developed for blood cancers and gastroin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Imatinib is generally known to inhibit the BCR-ABL, KIT and PDGFR tyrosine kinases.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imatinib: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), label version 2026-07-13; accessed 2026-11-19.) Imatinib is generally known to inhibit the BCR-ABL, KIT and PDGFR tyrosine kinases.
 
 The only link to the predicted disease is indirect. The single cited publication is a 2008 drug bulletin on new imatinib indications, which concluded that the evidence was "not robust". It is most likely about dermatofibrosarcoma protuberans, a different tumour. In that tumour, a COL1A1-PDGFB fusion drives PDGFRB signalling, which imatinib blocks. Cardiac fibrosarcoma is not known to carry this fusion, so the mechanistic rationale is speculative.
 
@@ -120,11 +120,12 @@ The prediction score is high, but no trial and no study directly addresses heart
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local registration data list imatinib as marketed, with one single-ingredient licence record on file. The record carries no dosage form or a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

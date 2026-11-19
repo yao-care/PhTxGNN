@@ -55,7 +55,7 @@ There are currently **0 clinical trials** and **0 publications** specific to thi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, neostigmine is a reversible acetylcholinesterase inhibitor. It raises acetylcholine levels at the neuromuscular junction, which compensates for the reduced number of available receptors in myasthenia gravis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for neostigmine: "Neostigmine methylsulfate is a competitive cholinesterase inhibitor. By reducing the breakdown of acetylcholine, neostigmine methylsulfate induces an increase in acetylcholine in the synaptic cleft which competes for the same binding site as nondepolarizing neuromuscular blocking agents, and reverses the neuromuscular blockade." ([DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90), label version 2023-05-15; accessed 2026-11-19.) Based on known information, neostigmine is a reversible acetylcholinesterase inhibitor. It raises acetylcholine levels at the neuromuscular junction, which compensates for the reduced number of available receptors in myasthenia gravis.
 
 Thymic hyperplasia is a common pathological subtype of acetylcholine receptor antibody-positive myasthenia gravis. The mechanism therefore applies directly. This prediction is better described as a subtype of an established use than as a true repurposing target.
 
@@ -142,12 +142,13 @@ The top prediction is a subtype of a disease neostigmine already treats, so it a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
 
 <!-- review:end log -->
 

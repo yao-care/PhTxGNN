@@ -65,7 +65,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **3
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. Propofol is known to be a GABA-A receptor positive allosteric modulator, and its efficacy as an anesthetic and sedative is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propofol: "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), label version 2025-09-11; accessed 2026-11-19.) Propofol is known to be a GABA-A receptor positive allosteric modulator, and its efficacy as an anesthetic and sedative is well established.
 
 Enhanced GABAergic inhibition may suppress cortical spreading depression and trigeminovascular pain signaling, both central to migraine. A preclinical study showed that propofol hemisuccinate suppresses cortical spreading depression (PMID 22390898), supporting this link. The high TxGNN score is consistent with the clinical signal seen in emergency department studies.
 
@@ -164,13 +164,14 @@ A completed Phase 2/3 trial and several randomized trials in the emergency depar
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "No approved indication text is recorded for its single Philippines registration, so t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "A valid registration route or product pathway, since the existing license is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
 
 <!-- review:end log -->
 

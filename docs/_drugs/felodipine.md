@@ -56,7 +56,7 @@ but **no clinical trials** are registered and the **9 publications** retrieved a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, felodipine is an L-type calcium channel blocker with strong arterial vasodilatory activity. Hypoxic pulmonary vasoconstriction partly depends on calcium influx into pulmonary arterial smooth muscle, so a theoretical mechanistic link exists with lowering pulmonary vascular tone.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felodipine: "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), label version 2024-08-07; accessed 2026-11-19.) Based on general pharmacology, felodipine is an L-type calcium channel blocker with strong arterial vasodilatory activity. Hypoxic pulmonary vasoconstriction partly depends on calcium influx into pulmonary arterial smooth muscle, so a theoretical mechanistic link exists with lowering pulmonary vascular tone.
 
 The link has important limits. The retrieved literature covers hypoxia or anoxia-reoxygenation in rat kidney tubules, human atrial muscle, cerebral arteries, neutrophils and rodent behaviour. None of it studies pulmonary hypertension. Calcium channel blockers are also generally not recommended for pulmonary hypertension due to lung disease, because they can worsen ventilation-perfusion matching and gas exchange. The very high TxGNN score is a computational prediction only.
 
@@ -137,12 +137,13 @@ The prediction rests on a model score and a plausible vasodilatory mechanism onl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence is a single-ingredient product and is currently valid. The record carries no indication text, so no approved indication can be c" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
 
 <!-- review:end log -->
 

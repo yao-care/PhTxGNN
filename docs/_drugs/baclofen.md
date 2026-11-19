@@ -54,7 +54,7 @@ Baclofen is a GABA-B receptor agonist. The TxGNN model predicts it may be effect
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Baclofen is known as a GABA-B receptor agonist. In principle, GABA-B activation could modulate dopaminergic and glutamatergic circuits involved in impulsivity and attention.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for baclofen: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), label version 2026-09-22; accessed 2026-11-19.) Baclofen is known as a GABA-B receptor agonist. In principle, GABA-B activation could modulate dopaminergic and glutamatergic circuits involved in impulsivity and attention.
 
 The literature retrieved for this prediction does not test baclofen in attention deficit-hyperactivity disorder. It consists of reviews on Tourette syndrome (a condition that often co-occurs with ADHD), rodent neurobiology studies of impulsivity and decision-making, and a report on methylphenidate prescribing. The link is therefore speculative and rests on adjacent conditions and animal models.
 
@@ -106,6 +106,19 @@ The TxGNN score is very high, but no clinical trial or publication tests baclofe
 - Preclinical or early clinical studies of baclofen directly in attention deficit-hyperactivity disorder
 - Package insert warnings and contraindications from the Philippines regulator
 - Safety assessment in children and adolescents, the main ADHD population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rhabdomyosarcoma** and relate
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, fluorouracil is a pyrimidine antimetabolite that inhibits thymidylate synthase and interferes with DNA and RNA synthesis in rapidly dividing cells. That mechanism could plausibly apply to a fast-growing sarcoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) Based on general pharmacology, fluorouracil is a pyrimidine antimetabolite that inhibits thymidylate synthase and interferes with DNA and RNA synthesis in rapidly dividing cells. That mechanism could plausibly apply to a fast-growing sarcoma.
 
 The very high scores for rhabdomyosarcoma subtypes come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Standard rhabdomyosarcoma regimens (for example vincristine, dactinomycin, cyclophosphamide) do not centre on fluorouracil, so any role would be unproven.
 
@@ -129,11 +129,12 @@ The predictions rest on model scores alone. The top-ranked disease has no trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "(PNF-xxxx)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

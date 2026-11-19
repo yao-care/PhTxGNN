@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Diffuse Scleroderma**, but th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, vancomycin is a glycopeptide antibiotic that blocks bacterial cell wall synthesis and acts only on Gram-positive bacteria.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for vancomycin: "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), label version 2026-08-19; accessed 2026-11-19.) From general pharmacology, vancomycin is a glycopeptide antibiotic that blocks bacterial cell wall synthesis and acts only on Gram-positive bacteria.
 
 Diffuse scleroderma (systemic sclerosis) is an autoimmune disease marked by fibrosis and blood-vessel damage. No plausible antibacterial mechanism links vancomycin to this process. The high TxGNN score (ranked 892nd) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The one paper retrieved is a case report on erythroderma with sepsis and eosinophilia, which is not about scleroderma.
 
@@ -150,12 +150,13 @@ The prediction for diffuse scleroderma rests only on a model score. There is no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Vancomycin is currently marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of why the registration was cancelled and whether any valid vancomycin product exists locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
 
 <!-- review:end log -->
 

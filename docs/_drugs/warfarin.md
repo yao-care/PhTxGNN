@@ -56,7 +56,7 @@ Most of the evidence consists of reviews and case reports, and the new indicatio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. From known pharmacology, warfarin is a vitamin K antagonist. It reduces the synthesis of clotting factors II, VII, IX and X, which lowers the tendency of blood to clot. Its efficacy in venous thromboembolism and other thrombotic disease is well established, and mechanistically it may be applicable to inherited or acquired thrombophilia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for warfarin: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), label version 2026-10-28; accessed 2026-11-19.) From known pharmacology, warfarin is a vitamin K antagonist. It reduces the synthesis of clotting factors II, VII, IX and X, which lowers the tendency of blood to clot. Its efficacy in venous thromboembolism and other thrombotic disease is well established, and mechanistically it may be applicable to inherited or acquired thrombophilia.
 
 Thrombophilia is a state in which the blood clots too readily, so the original and predicted indications are closely related. Long-term anticoagulation to prevent recurrent venous thromboembolism is already standard practice for many patients with thrombophilia. This prediction therefore mostly confirms an existing clinical use rather than revealing a new one.
 
@@ -137,11 +137,12 @@ Please refer to the package insert for label warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of why the Philippines registration was cancelled and whether another warfarin product is currently available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

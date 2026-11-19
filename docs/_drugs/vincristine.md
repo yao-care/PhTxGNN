@@ -58,7 +58,7 @@ Vincristine is a cytotoxic anticancer drug. Its known uses include acute lymphob
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Vincristine is generally known as a vinca alkaloid that blocks microtubule formation and arrests dividing cells in mitosis. This makes it cytotoxic to rapidly dividing cells, which fits its use in lymphoid cancers.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vincristine: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), label version 2026-02-17; accessed 2026-11-19.) Vincristine is generally known as a vinca alkaloid that blocks microtubule formation and arrests dividing cells in mitosis. This makes it cytotoxic to rapidly dividing cells, which fits its use in lymphoid cancers.
 
 A mechanistic link to the predicted condition could not be established. The condition is a rare congenital syndrome with vertebral, endocrine and T-cell features. It is not a cancer of rapidly dividing cells, and no plausible pathway connects an antimitotic drug to it. The high score (0.9924) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. The prediction should be treated as a hypothesis only.
 
@@ -136,11 +136,12 @@ The prediction has a very high model score but no supporting trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with valid status. The licence record contains no indication text, so the local approved use cannot be c" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **thrombotic disease**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, theophylline inhibits phosphodiesterases and blocks adenosine receptors. Higher cAMP in platelets could in theory reduce platelet aggregation, which would give a plausible but unproven link to thrombosis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for theophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), label version 2024-07-08; accessed 2026-11-19.) From general pharmacology, theophylline inhibits phosphodiesterases and blocks adenosine receptors. Higher cAMP in platelets could in theory reduce platelet aggregation, which would give a plausible but unproven link to thrombosis.
 
 The original uses of theophylline are in the airways (asthma, bronchitis, emphysema), and these are very different from thrombotic disease. The retrieved literature does not test theophylline as an antithrombotic. The papers cover ticlopidine pharmacokinetics, platelet biomarker assays, sample-processing methods and a theophylline detection sensor. The very high score (0.9962) is a computational prediction only and has no clinical support here.
 
@@ -106,6 +106,19 @@ The prediction is based only on the model score. There are no registered trials 
 - Preclinical or ex vivo data showing that theophylline inhibits platelet aggregation or thrombus formation at safe plasma levels
 - A safety assessment of theophylline's narrow therapeutic window and its interactions in patients likely to take antithrombotic drugs
 - A review of other predicted indications, because the nasal cavity disease prediction has direct human challenge-study evidence (PMID 9648963) and may be a better research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

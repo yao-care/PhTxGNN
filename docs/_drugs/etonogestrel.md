@@ -55,7 +55,7 @@ The TxGNN model predicts it may be associated with **amenorrhea**, but there are
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Etonogestrel is a progestin and is known to suppress ovulation and thin the endometrium. This is the general pharmacology of the class, not data from the compiled records.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etonogestrel: "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), label version 2026-05-28; accessed 2026-11-19.) Etonogestrel is a progestin and is known to suppress ovulation and thin the endometrium. This is the general pharmacology of the class, not data from the compiled records.
 
 Amenorrhea is a well-recognised bleeding-pattern outcome of etonogestrel implants. It is an expected effect of contraception rather than a therapeutic indication, so the high model score (0.9984) most likely reflects this known effect. It is not evidence that the drug treats amenorrhea. Treating amenorrhea generally means restoring menstruation, whereas etonogestrel tends to cause or maintain its absence.
 
@@ -117,12 +117,13 @@ The prediction rests only on a model score (L5). No clinical trials support it, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Amenorrhea is an expected effect of this drug rather than a treatable condition, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and the original approved indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
 
 <!-- review:end log -->
 

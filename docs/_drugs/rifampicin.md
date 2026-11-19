@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only **a small amo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rifampicin is an antibiotic that inhibits bacterial RNA polymerase. It is active against Gram-positive bacteria, *Chlamydia* and some other intracellular organisms, and its efficacy in tuberculosis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is an antibiotic that inhibits bacterial RNA polymerase. It is active against Gram-positive bacteria, *Chlamydia* and some other intracellular organisms, and its efficacy in tuberculosis is well established.
 
 This activity could plausibly apply to bacterial or chlamydial conjunctivitis. Older studies tested topical rifampicin ointment in trachoma and in chlamydial eye infection, which is the closest thing to direct clinical support. However, most of the retrieved literature consists of susceptibility surveys, case reports and general reviews, with no controlled data for rifampicin in conjunctivitis itself. Topical ophthalmic use is also not an established standard of care.
 
@@ -152,12 +152,13 @@ The prediction score is very high, but it is a model output only. There are no r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

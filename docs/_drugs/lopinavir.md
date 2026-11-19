@@ -56,7 +56,7 @@ Currently there are **0 clinical trials** and **3 publications** (all non-human 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Lopinavir is generally known as an HIV-1 protease inhibitor. SIV is a closely related lentivirus whose protease is structurally similar to that of HIV-1, so a mechanistic link is plausible.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Lopinavir is generally known as an HIV-1 protease inhibitor. SIV is a closely related lentivirus whose protease is structurally similar to that of HIV-1, so a mechanistic link is plausible.
 
 The relationship between the original and new indication is close, since both are lentiviral infections. However, SIV infection is an animal-model disease in macaques, not a new human indication. It therefore offers little in terms of genuine human repurposing value.
 
@@ -116,11 +116,12 @@ The prediction is supported only by non-human primate studies of an animal model
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

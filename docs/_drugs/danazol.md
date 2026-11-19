@@ -54,7 +54,7 @@ Danazol is a synthetic steroid that suppresses the pituitary-ovarian axis. The T
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. The literature describes danazol as a synthetic derivative of 17α-ethinyl testosterone. It inhibits gonadotropin release (GnRH/LH/FSH, including the midcycle surge), suppresses ovarian and adrenal steroid production, and creates an anovulatory, low-oestrogen, high-androgen state.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for danazol: "Danazol suppresses the pituitary-ovarian axis." ([DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b), label version 2024-10-10; accessed 2026-11-19.) The literature describes danazol as a synthetic derivative of 17α-ethinyl testosterone. It inhibits gonadotropin release (GnRH/LH/FSH, including the midcycle surge), suppresses ovarian and adrenal steroid production, and creates an anovulatory, low-oestrogen, high-androgen state.
 
 This matters for how the prediction should be read. Amenorrhea is a **known pharmacological effect** of danazol, not something it treats. The retrieved papers discuss deliberately inducing amenorrhea (for example, menstrual suppression), not correcting it in patients who have lost their periods. The very high score probably reflects the strong drug–amenorrhea association in the data. That association is directional: the drug causes the condition. It therefore does not support using danazol to treat amenorrhea, and it could be harmful if applied that way.
 
@@ -116,12 +116,13 @@ Local package insert warnings and contraindications are not available in the dat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In addition, the only Philippines registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "Clarify the regulatory pathway, since the only Philippines registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b) |
 
 <!-- review:end log -->
 

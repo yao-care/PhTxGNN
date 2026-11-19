@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 clinical
 
 ## Why is This Prediction Reasonable?
 
-Midazolam is a short-acting benzodiazepine. It enhances the inhibitory effect of GABA at GABA-A receptors, which produces sedative and hypnotic effects. Detailed mechanism of action data is not available in the data compiled for this report, but this class-level mechanism is well characterised.
+Midazolam is a short-acting benzodiazepine. It enhances the inhibitory effect of GABA at GABA-A receptors, which produces sedative and hypnotic effects. According to the Mechanism of Action section of the US FDA-approved prescribing information for midazolam: "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), label version 2025-07-31; accessed 2026-11-19.) This class-level mechanism is well characterised.
 
 Anxiety and insomnia often occur together and share a common target: calming excessive neural arousal through GABAergic inhibition. Other benzodiazepines, such as flurazepam and triazolam, are established treatments for sleep disorders, so the prediction is pharmacologically plausible.
 
@@ -133,13 +133,14 @@ The mechanism is plausible and older studies, including a randomised 14-day comp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "However, the Philippines registration is cancelled, which limits practical translation" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

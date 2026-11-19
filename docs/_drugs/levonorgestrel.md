@@ -56,7 +56,7 @@ Evidence is at **L2**, resting on **1 randomized, placebo-controlled trial** of 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Levonorgestrel is a progestin with some residual androgenic activity (a 2-decade-old review, PMID 7825629 notes that 19-carbon progestins retain androgenic properties). That is, mechanistically, a concern for acne rather than a benefit.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levonorgestrel: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), label version 2026-03-04; accessed 2026-11-19.) Levonorgestrel is a progestin with some residual androgenic activity (a 2-decade-old review, PMID 7825629 notes that 19-carbon progestins retain androgenic properties). That is, mechanistically, a concern for acne rather than a benefit.
 
 The supportive signal comes from combined oral contraceptives. A randomized, placebo-controlled trial (PMID 12196750) tested a low-dose pill with 20 µg ethinyl estradiol and 100 µg levonorgestrel in moderate acne. In this kind of product, the estrogen component and the lowering of bioavailable androgens are the likely drivers of the dermatological benefit. Reviews on other anti-androgenic progestins (e.g., chlormadinone acetate, PMID 21895044 and 15025547) report benefit, but with different progestins. In one of these, the comparator pill containing levonorgestrel was less effective for acne than the anti-androgenic pill.
 
@@ -117,11 +117,12 @@ The only direct acne evidence (L2) comes from a randomized trial of a combined p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only registration found is cancelled, so no product is currently marketed under it" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
 
 <!-- review:end log -->
 

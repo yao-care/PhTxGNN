@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. In general, ceftriaxone is a cephalosporin that kills bacteria by blocking cell wall synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ceftriaxone: "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), label version 2022-01-13; accessed 2026-11-19.) In general, ceftriaxone is a cephalosporin that kills bacteria by blocking cell wall synthesis.
 
 Hyperamylasemia is a laboratory finding, an elevated blood amylase level, rather than an infection. It has many causes, including pancreatic disease and head injury. Ceftriaxone has no known effect on amylase regulation, so no credible mechanistic link was identified. The very high score (0.9939) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The only loosely related item is a small study of ceftriaxone given to prevent infection after a biliary-pancreatic endoscopic procedure. In that setting the antibiotic targets infection, not amylase elevation.
 
@@ -120,11 +120,12 @@ They would be better candidates for further review.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
 
 <!-- review:end log -->
 

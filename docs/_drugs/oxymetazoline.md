@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxymetazoline acts as an agonist at alpha-1 and alpha-2 adrenergic receptors. It also binds several serotonin receptors (5-HT1B, 5-HT1D, 5-HT2C). Applied to the nasal mucosa, it constricts blood vessels, which reduces swelling and congestion and improves nasal patency.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxymetazoline: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), label version 2026-07-13; accessed 2026-11-19.) Based on known pharmacology, oxymetazoline acts as an agonist at alpha-1 and alpha-2 adrenergic receptors. It also binds several serotonin receptors (5-HT1B, 5-HT1D, 5-HT2C). Applied to the nasal mucosa, it constricts blood vessels, which reduces swelling and congestion and improves nasal patency.
 
 "Nasal cavity disease" is a very broad category and overlaps heavily with the existing common cold and nasal congestion use. The high model score is consistent with this mechanism, but it likely reflects similarity to the original indication rather than a distinct new finding. Specific sub-indications (for example, rhinitis, sinusitis, or mucosal bleeding) would need to be defined before this could be treated as true repurposing.
 
@@ -141,12 +141,13 @@ The prediction rests on model output alone, with no registered trials and only i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "In addition, the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and whether a valid registration exists or can be obtained" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
 
 <!-- review:end log -->
 

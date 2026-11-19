@@ -57,7 +57,7 @@ The TxGNN model predicts it may be useful for **manic bipolar affective disorder
 
 Clozapine blocks dopamine D2 and serotonin 5-HT2A receptors and also acts on serotonergic, muscarinic, histaminergic and adrenergic receptors. This broad profile plausibly supports anti-manic and mood-stabilizing effects, particularly in patients whose mania has not responded to conventional treatment.
 
-Direct clinical support exists but is limited. A completed Phase 2 double-blind trial in treatment-resistant mania (n=42) and a 2020 systematic review and meta-analysis of three small comparative studies found clozapine similar to other antipsychotics in manic episodes and better in treatment-resistant bipolar disorder. There are no Phase 3 trials for mania itself, and the evidence is concentrated in treatment-resistant populations. Detailed mechanism of action data is not available in the data compiled for this report.
+Direct clinical support exists but is limited. A completed Phase 2 double-blind trial in treatment-resistant mania (n=42) and a 2020 systematic review and meta-analysis of three small comparative studies found clozapine similar to other antipsychotics in manic episodes and better in treatment-resistant bipolar disorder. There are no Phase 3 trials for mania itself, and the evidence is concentrated in treatment-resistant populations. According to the Mechanism of Action section of the US FDA-approved prescribing information for clozapine: "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors." ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), label version 2026-09-06; accessed 2026-11-19.)
 
 ## Clinical Trial Evidence
 
@@ -116,11 +116,12 @@ A completed Phase 2 double-blind trial and a 2020 systematic review and meta-ana
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clozapine's only Philippines registration is cancelled, so no product is currently marketed there under this registration" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
 
 <!-- review:end log -->
 

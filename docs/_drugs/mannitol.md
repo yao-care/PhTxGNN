@@ -56,7 +56,7 @@ but there are **0 clinical trials** and only **1 general review** behind this pr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mannitol is an osmotic agent that draws water into the vascular and renal tubular compartments. It is used for conditions where fluid shifts need to be controlled, such as brain edema and raised intracranial or intraocular pressure. In theory, osmotic diuresis could promote free-water excretion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mannitol: "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), label version 2025-08-26; accessed 2026-11-19.) Based on known information, mannitol is an osmotic agent that draws water into the vascular and renal tubular compartments. It is used for conditions where fluid shifts need to be controlled, such as brain edema and raised intracranial or intraocular pressure. In theory, osmotic diuresis could promote free-water excretion.
 
 That theoretical link is weak here. Nephrogenic SIAD is caused by gain-of-function variants in the vasopressin V2 receptor, so the defect sits in the receptor signalling and osmotic diuresis would not correct it. The only retrieved paper is a general review of pitfalls in evaluating hyponatremia. It says nothing about mannitol in this condition. The high TxGNN score is therefore a model output only and should not be read as clinical support.
 
@@ -112,6 +112,19 @@ The prediction score is high, but there are no clinical trials, the only paper i
 - Preclinical or case-level evidence of mannitol's effect in nephrogenic SIAD, or a clear rationale for why osmotic diuresis would help.
 - Confirmation of whether any valid mannitol registration or product exists in the Philippines, along with its approved indication and dosage form.
 - If the team wants to pursue other predictions, prioritise those with a plausible supportive role (such as hypokalemic periodic paralysis as an IV vehicle) and frame them as formulation questions rather than repurposing of a therapeutic effect.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

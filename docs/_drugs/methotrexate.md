@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma**, but the
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, methotrexate is a dihydrofolate reductase (DHFR) inhibitor. It blocks folate-dependent DNA synthesis, so it is most active against rapidly dividing cells. Its efficacy in leukemia and lymphoma is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methotrexate: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), label version 2026-11-05; accessed 2026-11-19.) Based on known pharmacology, methotrexate is a dihydrofolate reductase (DHFR) inhibitor. It blocks folate-dependent DNA synthesis, so it is most active against rapidly dividing cells. Its efficacy in leukemia and lymphoma is well established.
 
 Pulmonary blastoma is a rare, aggressive lung tumor made of rapidly proliferating cells. In principle, an antifolate could act on it. However, the only support for this link is the high TxGNN score (0.9945). There are no trials or publications specific to pulmonary blastoma, so the mechanistic argument is general and untested for this tumor.
 
@@ -145,12 +145,13 @@ The prediction rests on a model score alone (L5), with no trials, no literature 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and methotrexate has significant toxicity, including pulmonary toxicity" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the status of any valid methotrexate registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

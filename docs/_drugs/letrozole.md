@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant for **nipple carcinoma**, but no cli
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Letrozole belongs to the aromatase inhibitor class, which blocks the conversion of androgens to estrogens. This is the general rationale for using it in estrogen-driven tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for letrozole: "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406), label version 2026-06-11; accessed 2026-11-19.) Letrozole belongs to the aromatase inhibitor class, which blocks the conversion of androgens to estrogens. This is the general rationale for using it in estrogen-driven tumours.
 
 If a nipple carcinoma is hormone-receptor-positive, aromatase inhibition is plausible by extension from breast carcinoma. This remains a hypothesis. The publications gathered concern rare breast tumour case reports (for example solid papillary carcinoma in situ of the nipple, accessory breast cancer, tall cell carcinoma). None of them tests letrozole in nipple carcinoma, and some involve unrelated entities.
 
@@ -116,6 +116,18 @@ The evidence level is L5. No study tests letrozole in nipple carcinoma, and the 
 - Package insert warnings and contraindications for the Philippines licence
 - Mechanism of action data
 - A safety plan covering the listed drug interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

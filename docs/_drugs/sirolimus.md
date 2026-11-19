@@ -54,7 +54,7 @@ Sirolimus is an mTOR inhibitor (immunosuppressant). The TxGNN model predicts it 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Sirolimus is generally known to inhibit mTORC1, a kinase that drives cell growth and proliferation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sirolimus: "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), label version 2026-09-09; accessed 2026-11-19.) Sirolimus is generally known to inhibit mTORC1, a kinase that drives cell growth and proliferation.
 
 mTOR pathway activation has been described in soft tissue sarcomas, including liposarcoma, and mouse models suggest that mTOR inhibition can slow tumour growth. This gives a plausible biological reason for testing sirolimus in liposarcoma. However, this is a mechanistic argument only. No published study that tests sirolimus in liposarcoma was found, so the prediction remains unconfirmed by clinical data.
 
@@ -108,6 +108,18 @@ The mechanistic reasoning is plausible and one Phase 2 combination trial exists,
 - Detailed mechanism-of-action data
 - Package insert warnings and contraindications for the Philippines-registered product
 - A safety and drug-interaction monitoring plan, given the many major and moderate interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

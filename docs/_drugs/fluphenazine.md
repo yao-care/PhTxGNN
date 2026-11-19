@@ -56,7 +56,7 @@ No clinical trials and no publications currently support this prediction, so it 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fluphenazine is known as a phenothiazine that blocks dopamine D2 receptors.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fluphenazine: "Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown." ([DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12), label version 2026-07-03; accessed 2026-11-19.) Fluphenazine is known as a phenothiazine that blocks dopamine D2 receptors.
 
 No plausible pathway from D2 antagonism to inherited retinal degeneration is supported by the data. The prediction has no mechanistic support, and the high score should be read as a model output only, not as a signal of benefit.
 
@@ -98,6 +98,19 @@ The prediction is supported only by the model score, with no trials, no literatu
 - Any mechanistic or preclinical evidence linking D2 antagonism to the retinal dystrophy
 - Mechanism of action data and package insert warnings and contraindications
 - A review of retinal safety data for fluphenazine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

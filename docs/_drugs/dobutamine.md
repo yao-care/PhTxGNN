@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **alopecia**, but there are **0
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist that increases the strength of heart contraction, and it is used as an intravenous inotrope.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for dobutamine: "Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine." ([DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead), label version 2023-09-08; accessed 2026-11-19.) Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist that increases the strength of heart contraction, and it is used as an intravenous inotrope.
 
 **The prediction is not mechanistically plausible.** Dobutamine has no known effect on hair follicle biology. The high TxGNN score most likely reflects a TxGNN model (deep learning) artifact: dobutamine shares vasoactive and cardiovascular neighbours with minoxidil, a vasodilator used for hair loss. The only literature hit describes heart failure caused by minoxidil intoxication in a cat. In that report dobutamine was merely used to treat hypotension, so it says nothing about dobutamine treating alopecia.
 
@@ -141,12 +141,13 @@ The TxGNN score is high, but it comes from the TxGNN model (deep learning) and m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The only Philippine registration is valid and the drug is marketed, but i" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the original approved indication and dosage form of the cancelled registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
 
 <!-- review:end log -->
 

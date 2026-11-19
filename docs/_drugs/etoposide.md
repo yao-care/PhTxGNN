@@ -59,7 +59,7 @@ The TxGNN model's top-ranked predictions are lung-related rare tumours, but the 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Etoposide is generally known as a topoisomerase II inhibitor that causes DNA strand breaks in rapidly dividing cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established, and mechanistically it may be applicable to other fast-growing, chemosensitive tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Etoposide is generally known as a topoisomerase II inhibitor that causes DNA strand breaks in rapidly dividing cells. Its efficacy in small cell lung carcinoma and germ cell tumours is established, and mechanistically it may be applicable to other fast-growing, chemosensitive tumours.
 
 The data compiled for this report contains ten predictions. They fall into three groups:
 
@@ -196,12 +196,13 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Re-registration or an alternative supply route in the Philippines, since the only licence is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The Philippines registration is cancelled, so there is currently no marketed product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

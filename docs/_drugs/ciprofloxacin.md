@@ -54,7 +54,7 @@ Ciprofloxacin is a fluoroquinolone antibiotic. The TxGNN model predicts it may b
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Ciprofloxacin is generally known to inhibit bacterial DNA gyrase and topoisomerase IV. This is an antibacterial mechanism and does not directly explain an effect on scleroderma.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ciprofloxacin: "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), label version 2025-11-04; accessed 2026-11-19.) Ciprofloxacin is generally known to inhibit bacterial DNA gyrase and topoisomerase IV. This is an antibacterial mechanism and does not directly explain an effect on scleroderma.
 
 Two possible links to diffuse scleroderma are suggested:
 
@@ -105,6 +105,19 @@ The prediction for diffuse scleroderma rests on a high model score and one study
 - Mechanism-of-action data supporting an antifibrotic effect
 - Local package insert warnings and contraindications
 - Review of safety in scleroderma patients, including tendon, neuropathy, QT and drug interaction risks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

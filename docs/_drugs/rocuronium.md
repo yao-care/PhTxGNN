@@ -58,7 +58,7 @@ Rocuronium is a non-depolarizing neuromuscular blocker used as an anaesthetic ad
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Rocuronium is known as a non-depolarizing neuromuscular blocker. It acts as a competitive antagonist at postsynaptic nicotinic acetylcholine receptors at the neuromuscular junction, causing temporary skeletal muscle paralysis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rocuronium: "Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147), label version 2026-10-01; accessed 2026-11-19.) Rocuronium is known as a non-depolarizing neuromuscular blocker. It acts as a competitive antagonist at postsynaptic nicotinic acetylcholine receptors at the neuromuscular junction, causing temporary skeletal muscle paralysis.
 
 No established mechanism links this action to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, none of which rocuronium is known to influence. Peripheral muscle paralysis is not a plausible antimigraine mechanism.
 
@@ -138,11 +138,12 @@ Please refer to the package insert for warnings and contraindications.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "It is currently marketed in the Philippines, with 1 valid licence of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
 
 <!-- review:end log -->
 

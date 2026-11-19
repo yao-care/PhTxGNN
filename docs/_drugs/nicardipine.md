@@ -58,7 +58,7 @@ Nicardipine is a calcium channel blocker whose use in hypertensive disorders is 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, nicardipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and lowers blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nicardipine: "Nicardipine inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle without changing serum calcium concentrations. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels." ([DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d), label version 2026-07-31; accessed 2026-11-19.) Based on general pharmacology, nicardipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and lowers blood pressure.
 
 Hypoxic pulmonary vasoconstriction depends partly on calcium influx into pulmonary arterial smooth muscle, so blocking calcium channels is mechanistically plausible. One retrieved study (PMID 3132192, 1988) examined nicardipine's effect on regional hypoxic pulmonary vasoconstriction in dogs.
 
@@ -139,11 +139,12 @@ The prediction rests on a model score and a single 1988 animal study. No study d
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "for registration PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ The data compiled for this report include **15 clinical trials** and **20 public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Ribavirin is a nucleoside analogue with broad antiviral activity. Its known actions include inhibition of the enzyme IMPDH, depletion of the cellular GTP pool, and immune modulation. It is established in hepatitis C and RSV infection.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ribavirin: "Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction." ([DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c), label version 2024-02-06; accessed 2026-11-19.) Ribavirin is a nucleoside analogue with broad antiviral activity. Its known actions include inhibition of the enzyme IMPDH, depletion of the cellular GTP pool, and immune modulation. It is established in hepatitis C and RSV infection.
 
 Hepatitis B and hepatitis C are both chronic viral liver infections, which explains why the model places them close together. Mechanistically, though, the link is weak. Hepatitis B is a DNA virus that replicates through an RNA intermediate, so a direct antiviral effect of ribavirin is expected to be limited. Any benefit seen in trials is more plausibly immunomodulatory, as an add-on to peginterferon.
 
@@ -135,11 +135,12 @@ One completed Phase 3 trial (NCT00114361) tests peginterferon plus ribavirin dir
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient licence with valid status. The licence record has no approved indication text, so no approved use can be stated " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
 
 <!-- review:end log -->
 

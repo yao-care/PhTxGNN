@@ -62,7 +62,7 @@ with **6 clinical trials** and **20 publications** currently supporting this dir
 
 ## Why is This Prediction Reasonable?
 
-Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. It damages the DNA of rapidly dividing tumor cells. Detailed mechanism-of-action data were not available in the data compiled for this report, but this class-level mechanism is well established for the drug and is consistent with the literature reviewed.
+Mitoxantrone is a topoisomerase II inhibitor and DNA intercalator. It damages the DNA of rapidly dividing tumor cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for mitoxantrone: "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA." ([DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae), label version 2026-09-01; accessed 2026-11-19.) This class-level mechanism is well established for the drug and is consistent with the literature reviewed.
 
 Mitoxantrone is already used in a malignancy of blood-forming cells (acute myeloid leukemia). Its cytotoxic action is not limited to one tumor type. Squamous and salivary gland tumors of the head and neck are proliferating solid tumors, so a DNA-damaging agent is mechanistically plausible there.
 
@@ -176,13 +176,14 @@ Head and neck cancer has the strongest evidence among the eight predictions: a c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-10-31 | Removed: "However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conve" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ This prediction rests on a computational model alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Fluticasone is generally known as a glucocorticoid with anti-inflammatory activity. Because neurogenic inflammation is thought to contribute to migraine, a mechanistic link is conceivable, but the compiled data provide no direct mechanistic or clinical support.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone: "Fluticasone propionate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone propionate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is 18 times that of dexamethasone, almost twice that of beclomethasone-17-monopropionate (BMP), the active metabolite of beclomethasone dipropionate, and over 3 times that of budesonide." ([DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2), label version 2026-10-23; accessed 2026-11-19.) Fluticasone is generally known as a glucocorticoid with anti-inflammatory activity. Because neurogenic inflammation is thought to contribute to migraine, a mechanistic link is conceivable, but the compiled data provide no direct mechanistic or clinical support.
 
 The only publication retrieved (PMID 18681087) is a pharmacovigilance review of neuropsychiatric disturbances reported with intranasal corticosteroids. It addresses safety, not therapeutic benefit. Headache or migraine-like events may appear there as adverse events rather than as an indication.
 
@@ -138,11 +138,12 @@ The prediction is supported only by a model score. There are no clinical trials,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, and the package insert and mechanism data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->
 

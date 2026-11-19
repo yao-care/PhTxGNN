@@ -54,7 +54,7 @@ Budesonide is a glucocorticoid with broad anti-inflammatory and immunosuppressiv
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available. Budesonide is a glucocorticoid, a class known for broad anti-inflammatory and immunosuppressive effects. This is plausibly relevant to the Th2-driven skin inflammation seen in atopic eczema.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for budesonide: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), label version 2026-06-10; accessed 2026-11-19.) Budesonide is a glucocorticoid, a class known for broad anti-inflammatory and immunosuppressive effects. This is plausibly relevant to the Th2-driven skin inflammation seen in atopic eczema.
 
 This reasoning is only a class-level argument. The literature compiled for this report does not demonstrate clinical efficacy of budesonide in atopic eczema. The one directly relevant item is a 2024 preclinical formulation study of budesonide-loaded nanoparticles in hydrogels for atopic dermatitis. Most other papers concern corticosteroid contact allergy, adrenal suppression, growth effects in children, or other diseases. These point to safety and hypersensitivity concerns, not efficacy. The high score is a model prediction only.
 
@@ -113,6 +113,19 @@ No clinical trial or clinical efficacy study of budesonide in atopic eczema was 
 - Package insert warnings and contraindications from the Philippines regulator
 - Clarification of the licence record, including dosage form and approved indication, and confirmation of current licence status
 - A topical formulation and safety plan, particularly for children (skin absorption, growth, adrenal suppression, contact allergy)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

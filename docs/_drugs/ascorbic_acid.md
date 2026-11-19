@@ -60,7 +60,7 @@ At present there are **0 clinical trials** and **0 publications** supporting thi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is a water-soluble vitamin. It is an antioxidant and a cofactor for collagen synthesis, and its efficacy in treating deficiency and scurvy is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ascorbic acid: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), label version 2026-09-03; accessed 2026-11-19.) Based on known information, ascorbic acid is a water-soluble vitamin. It is an antioxidant and a cofactor for collagen synthesis, and its efficacy in treating deficiency and scurvy is well established.
 
 For this predicted indication, no plausible mechanistic link could be identified. Non-syndromic esophageal malformation is a congenital developmental anomaly. Ascorbic acid's antioxidant and collagen-cofactor roles are not known to correct structural malformations that arise during embryonic development.
 
@@ -146,13 +146,14 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both registrations are single-ingredient products and neither is currently valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "In this country the drug is marketed, with 2 valid licenses out of 2" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Confirmation of the current regulatory and product availability status in the Philippines (both registrations are cancelled)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->
 

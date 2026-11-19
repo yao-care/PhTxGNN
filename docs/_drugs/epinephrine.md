@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **obstructive lung disease** (i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on the known pharmacology of epinephrine, it is a non-selective adrenergic agonist. Beta-2 receptor activation relaxes bronchial smooth muscle and causes bronchodilation, and alpha-1 activation reduces mucosal oedema.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for epinephrine: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), label version 2026-09-18; accessed 2026-11-19.) Based on the known pharmacology of epinephrine, it is a non-selective adrenergic agonist. Beta-2 receptor activation relaxes bronchial smooth muscle and causes bronchodilation, and alpha-1 activation reduces mucosal oedema.
 
 This matches the original respiratory indications (asthma, bronchitis, emphysema, bronchiectasis). Obstructive lung disease covers asthma and COPD, so the predicted indication overlaps heavily with what the drug is already used for. The evidence for asthma is direct and strong, but it is **not a novel repurposing signal**.
 
@@ -146,12 +146,13 @@ Other predicted indications are weaker:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The Philippines registration is cancelled, so no product is currently marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

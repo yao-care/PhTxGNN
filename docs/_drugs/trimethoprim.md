@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacological knowledge, trimethoprim is an antibacterial agent that is understood to inhibit bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including bacterial conjunctivitis, is established, and the model likely links it to the new indication because of this closeness to its existing eye indications.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Based on general pharmacological knowledge, trimethoprim is an antibacterial agent that is understood to inhibit bacterial dihydrofolate reductase. Its efficacy in bacterial infections, including bacterial conjunctivitis, is established, and the model likely links it to the new indication because of this closeness to its existing eye indications.
 
 The high score (0.9957) most likely reflects network proximity to trimethoprim's existing ocular indications (conjunctivitis, acute contagious conjunctivitis, blepharoconjunctivitis). However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious. An antibacterial drug would not be expected to act on a viral cause. No mechanistic link can be verified with the data compiled for this report.
 
@@ -130,12 +130,13 @@ The prediction for punctate epithelial keratoconjunctivitis rests on the model s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local registration is cancelled, with no indication text or dosage form on record, and l" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "given the cancelled local registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

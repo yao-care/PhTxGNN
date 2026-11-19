@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **postinfectious vasculitis**, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Sulfacetamide is generally known as a bacteriostatic sulfonamide that inhibits bacterial dihydropteroate synthase, which explains its use in superficial bacterial infections of the skin and eye.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sulfacetamide: "The most widely accepted mechanism of action of sulfonamides is the Woods-Fildes theory, based on sulfonamides acting as a competitive inhibitor of para-aminobenzoic acid (PABA) utilization, an essential component for bacterial growth." ([DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0), label version 2020-08-31; accessed 2026-11-19.) Sulfacetamide is generally known as a bacteriostatic sulfonamide that inhibits bacterial dihydropteroate synthase, which explains its use in superficial bacterial infections of the skin and eye.
 
 Postinfectious vasculitis, however, is an immune-mediated process that follows an infection rather than an active bacterial infection itself. Antibacterial activity therefore gives no clear mechanistic rationale. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -131,12 +131,13 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The hilippines registration is cancelled, and p" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0) |
 
 <!-- review:end log -->
 

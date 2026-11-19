@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, diphenhydramine is a first-generation H1-receptor antagonist. Its efficacy in allergic, atopic, vernal and papillary conjunctivitis is established, so it may be mechanistically applicable to histamine-mediated inflammation of the ocular surface.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diphenhydramine: "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action." ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), label version 2026-10-28; accessed 2026-11-19.) Based on known information, diphenhydramine is a first-generation H1-receptor antagonist. Its efficacy in allergic, atopic, vernal and papillary conjunctivitis is established, so it may be mechanistically applicable to histamine-mediated inflammation of the ocular surface.
 
 The link to rosacea conjunctivitis is weak, however. Ocular rosacea is driven mainly by meibomian gland dysfunction, tear film instability, innate immune activation, and microbial or Demodex-related factors. Histamine plays at most a minor role. Any benefit would likely be limited to symptomatic relief of itching or redness rather than treatment of the underlying disease.
 
@@ -128,11 +128,12 @@ The prediction is supported only by the TxGNN model score (L5). There are no cli
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the only Philippines registration has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
 
 <!-- review:end log -->
 

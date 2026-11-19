@@ -56,7 +56,7 @@ but there are **0 clinical trials** and only **3 indirect publications** (none a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Vasopressin and its analog desmopressin (DDAVP) are known to stimulate release of von Willebrand factor and factor VIII from endothelial stores through V2 receptor signaling. This is relevant to factor VIII and von Willebrand factor deficiencies.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for vasopressin: "Vasopressin causes vasoconstriction by binding to V 1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V 2 receptors which are coupled to adenyl cyclase." ([DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8), label version 2026-04-21; accessed 2026-11-19.) Vasopressin and its analog desmopressin (DDAVP) are known to stimulate release of von Willebrand factor and factor VIII from endothelial stores through V2 receptor signaling. This is relevant to factor VIII and von Willebrand factor deficiencies.
 
 That mechanism does not plausibly raise prothrombin (factor II) levels, so there is no clear mechanistic bridge to congenital prothrombin deficiency. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The retrieved papers concern acquired hemophilia A and combined factor V/VIII deficiency, and they describe desmopressin rather than vasopressin, so they are indirect evidence at best.
 
@@ -125,12 +125,13 @@ The top prediction has no clinical trials, only indirect literature on other fac
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippine registration is cancelled, and label-based safety information is missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and the reason for the registration cancellation" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8) |
 
 <!-- review:end log -->
 

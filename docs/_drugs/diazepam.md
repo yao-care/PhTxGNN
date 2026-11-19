@@ -56,7 +56,7 @@ There are **no registered clinical trials** in the data compiled for this report
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for diazepam is not available in the data compiled for this report. The published literature does describe benzodiazepines such as diazepam as positive allosteric modulators of the GABA-A receptor (PMID 39581171). By enhancing inhibitory GABA signalling, they reduce arousal and promote sleep. This is why shorter sleep latency and better sleep continuity are mechanistically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diazepam: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), label version 2026-10-06; accessed 2026-11-19.) The published literature does describe benzodiazepines such as diazepam as positive allosteric modulators of the GABA-A receptor (PMID 39581171). By enhancing inhibitory GABA signalling, they reduce arousal and promote sleep. This is why shorter sleep latency and better sleep continuity are mechanistically plausible.
 
 Benzodiazepines are used as hypnotics for short-term insomnia as a class (PMID 7525193). The literature retrieved is mostly about the class, including guidelines, reviews, deprescribing and taper studies, and the effects of chronic use on sleep architecture. Evidence specific to diazepam is limited to one older double-blind comparison, and this is a model-driven prediction rather than new proof of efficacy. In that comparison, lormetazepam performed better than diazepam on sleep latency and sleep continuity.
 
@@ -121,11 +121,12 @@ Insomnia is plausible mechanistically, and one double-blind trial studied diazep
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Of the 1 registration found, 1 is currently valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for diazepam is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
 
 <!-- review:end log -->
 

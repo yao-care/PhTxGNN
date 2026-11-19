@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Halothane is a volatile anaesthetic, which is generally understood to enhance GABA-A receptor activity and modulate K2P potassium channels. These actions produce anaesthesia, and there is no established link to an antimanic effect.
+ChEMBL (EMBL-EBI) records the mechanism of action of halothane as: Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener ([ChEMBL CHEMBL931 (halothane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL931), CC BY-SA 3.0; accessed 2026-11-19.) Halothane is a volatile anaesthetic, which is generally understood to enhance GABA-A receptor activity and modulate K2P potassium channels. These actions produce anaesthesia, and there is no established link to an antimanic effect.
 
 The high TxGNN score (0.9982) comes from the TxGNN model (deep learning) only. The retrieved publications concern lithium and lamotrigine, with halothane serving only as the anesthetic used in animal experiments. The score may reflect similarities the model learned between related diseases, not biological evidence. The mechanistic case for this prediction is therefore weak.
 
@@ -125,12 +125,13 @@ The prediction rests only on a TxGNN model (deep learning) score, which may refl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he drug is marketed in this country, with 1 valid license of 1, but t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Clarification of the cancelled Philippines registration and the original approved indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL931 (halothane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL931) |
 
 <!-- review:end log -->
 

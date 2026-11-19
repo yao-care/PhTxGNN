@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **schizophrenia** (the predicte
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, selegiline is a selective, irreversible MAO-B inhibitor. By slowing the breakdown of dopamine, it raises dopamine availability, which underlies its use in Parkinson's disease. At higher oral doses (20 mg/day or more) its activity becomes non-selective and also inhibits MAO-A.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selegiline: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), label version 2021-06-01; accessed 2026-11-19.) Based on known information, selegiline is a selective, irreversible MAO-B inhibitor. By slowing the breakdown of dopamine, it raises dopamine availability, which underlies its use in Parkinson's disease. At higher oral doses (20 mg/day or more) its activity becomes non-selective and also inhibits MAO-A.
 
 Negative symptoms of schizophrenia (such as reduced motivation and emotional blunting) are thought to be linked to low dopamine activity in the prefrontal region. Adding a drug that boosts dopamine to standard antipsychotics is therefore a plausible strategy. Selegiline also has antioxidant and neuroprotective properties and may influence glutamate-related signalling, which could be relevant to cognitive deficits.
 
@@ -146,12 +146,13 @@ Please refer to the package insert for further safety information, as label warn
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the knowledge graph lists psychotic disorders as contraindications, which adds a safety " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the sole registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
 
 <!-- review:end log -->
 

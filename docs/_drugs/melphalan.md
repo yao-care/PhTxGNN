@@ -57,7 +57,7 @@ with **7 clinical trials** and **1 publication** currently linked to this predic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, melphalan is a DNA-alkylating agent that forms interstrand crosslinks. Its efficacy in ovarian cancer is established, and mechanistically it may be applicable to gonadal germ cell tumors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) Based on known information, melphalan is a DNA-alkylating agent that forms interstrand crosslinks. Its efficacy in ovarian cancer is established, and mechanistically it may be applicable to gonadal germ cell tumors.
 
 Germ cell tumors are highly chemosensitive to DNA-damaging agents. Melphalan has been used in high-dose chemotherapy regimens with autologous stem cell rescue for relapsed or poor-prognosis germ cell tumors.
 
@@ -138,11 +138,12 @@ The mechanistic rationale is plausible and the TxGNN score is very high, but the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clarification of the cancelled registration (PNF-xxxx) and a plan for the dosage form and route of any product to be used" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

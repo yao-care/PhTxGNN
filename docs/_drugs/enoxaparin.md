@@ -54,7 +54,7 @@ Enoxaparin is a low-molecular-weight heparin anticoagulant. The TxGNN model pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, enoxaparin enhances antithrombin activity and mainly inhibits factor Xa, with weaker inhibition of thrombin. This gives it plausible anticoagulant coverage in a hypercoagulable state.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for enoxaparin: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), label version 2026-05-28; accessed 2026-11-19.) Based on general pharmacology, enoxaparin enhances antithrombin activity and mainly inhibits factor Xa, with weaker inhibition of thrombin. This gives it plausible anticoagulant coverage in a hypercoagulable state.
 
 In autosomal recessive protein C deficiency, the loss of protein C-mediated inactivation of factors Va and VIIIa leads to unchecked thrombin generation. In severe congenital forms this can cause neonatal purpura fulminans. A drug that dampens thrombin generation could therefore be mechanistically relevant.
 
@@ -130,12 +130,13 @@ The TxGNN score is very high (0.9958), but no trials or publications directly st
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and the local licence record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Its status is shown as cancelled, while the overall market status is reported as marketed. This discrepancy should be verified against the r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->
 

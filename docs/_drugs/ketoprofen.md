@@ -56,7 +56,7 @@ No clinical trials or publications were found for this disease, so the predictio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ketoprofen belongs to the NSAID class, which works by inhibiting cyclooxygenase (COX) enzymes and reducing inflammation and pain.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ketoprofen: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d), label version 2026-01-07; accessed 2026-11-19.) Ketoprofen belongs to the NSAID class, which works by inhibiting cyclooxygenase (COX) enzymes and reducing inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type is a rare genetic skeletal disorder linked to the CDMP1/GDF5 pathway. COX inhibition has no established connection to this pathway, and no clinical or literature evidence supports a benefit. The high score most likely reflects model proximity to other musculoskeletal conditions rather than a biological rationale. At most, an NSAID might relieve pain symptoms; it would not be expected to modify the disease.
 
@@ -101,6 +101,19 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Mechanism of action data and a mechanistic assessment against the CDMP1/GDF5 pathway
 - Package insert warnings and contraindications from the Philippine regulator
 - Clarification of the dosage form and approved indication for the local authorization
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

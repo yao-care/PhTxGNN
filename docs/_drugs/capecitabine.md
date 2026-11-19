@@ -62,7 +62,7 @@ No clinical trials or publications were found for this disease, so the support i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, capecitabine is a prodrug of 5-fluorouracil. It acts as a thymidylate synthase inhibitor and an antimetabolite of nucleoside metabolism, which disrupts DNA synthesis in rapidly dividing tumour cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for capecitabine: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), label version 2026-02-05; accessed 2026-11-19.) Based on general pharmacology, capecitabine is a prodrug of 5-fluorouracil. It acts as a thymidylate synthase inhibitor and an antimetabolite of nucleoside metabolism, which disrupts DNA synthesis in rapidly dividing tumour cells.
 
 The predicted disease is a rare hereditary syndrome characterised by gastric adenocarcinoma and polyposis of the proximal stomach. The prediction most likely reflects its closeness to gastric adenocarcinoma in disease classification, not a mechanism specific to this syndrome. This link rests on general pharmacology knowledge and has not been validated: no disease-specific trials or literature were found.
 
@@ -133,13 +133,14 @@ The only support for this prediction is a high model score (0.9994). There are n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "that is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The Philippine record is a single-ingredient product with a valid status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "for licence PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
 
 <!-- review:end log -->
 

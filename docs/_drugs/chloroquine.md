@@ -56,7 +56,7 @@ There are **no registered clinical trials** and only **1 publication**, which st
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, chloroquine accumulates in lysosomes and is thought to inhibit autophagy, reduce antigen presentation, and dampen Toll-like receptor signalling and cytokine production. These immunomodulatory effects underlie its use as a slow-acting antirheumatic drug.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chloroquine: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), label version 2026-10-21; accessed 2026-11-19.) Based on general pharmacology, chloroquine accumulates in lysosomes and is thought to inhibit autophagy, reduce antigen presentation, and dampen Toll-like receptor signalling and cytokine production. These immunomodulatory effects underlie its use as a slow-acting antirheumatic drug.
 
 Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis shares clinical features with adult seropositive rheumatoid arthritis. A mechanism acting on the immune pathways of adult rheumatoid disease could plausibly extend to this childhood form. The high TxGNN score probably reflects this closeness to rheumatoid arthritis. This is a plausibility argument only: no data compiled for this report show chloroquine itself being tested in this specific disease.
 
@@ -110,6 +110,19 @@ The prediction rests on model score and proximity to adult rheumatoid arthritis.
 - Direct clinical evidence of chloroquine, or of the closely related hydroxychloroquine, in juvenile idiopathic arthritis
 - Pediatric dosing and cardiac and ocular safety monitoring plan
 - Clarification of the market status of the local licence record
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

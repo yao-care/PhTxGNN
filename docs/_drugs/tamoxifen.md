@@ -60,7 +60,7 @@ but only **1 clinical trial** (which does not test tamoxifen for this condition)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Tamoxifen is known as an estrogen receptor antagonist, and its efficacy in hormone receptor-positive breast cancer is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tamoxifen: "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), label version 2021-11-29; accessed 2026-11-19.) Tamoxifen is known as an estrogen receptor antagonist, and its efficacy in hormone receptor-positive breast cancer is well established.
 
 Mammary Paget disease is usually associated with underlying ductal carcinoma in situ or invasive breast cancer, and these lesions are often hormone receptor-positive. Blocking estrogen signalling is therefore biologically plausible. In practice, this would be an extension of tamoxifen's existing breast cancer use rather than a new mechanism.
 
@@ -167,13 +167,14 @@ There is no direct trial evidence for tamoxifen in mammary Paget disease, and th
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "A regulatory assessment of the cancelled Philippines registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
 
 <!-- review:end log -->
 

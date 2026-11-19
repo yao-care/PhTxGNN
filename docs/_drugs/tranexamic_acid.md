@@ -60,7 +60,7 @@ there are **0 registered clinical trials** and **2 review articles** (indirectly
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tranexamic acid is an antifibrinolytic that inhibits plasminogen activation and reduces fibrinolysis-driven endometrial bleeding. Its role in bleeding control is plausible, but its efficacy in the original indication (endometriosis) has not been confirmed by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-19.) Based on known information, tranexamic acid is an antifibrinolytic that inhibits plasminogen activation and reduces fibrinolysis-driven endometrial bleeding. Its role in bleeding control is plausible, but its efficacy in the original indication (endometriosis) has not been confirmed by the data compiled for this report.
 
 The link to amenorrhea is **indirect**. Tranexamic acid reduces heavy menstrual bleeding but does not by itself induce amenorrhea (absence of menses). The literature found concerns management of abnormal uterine bleeding and menses suppression or prophylaxis in hematologic cancer patients, where tranexamic acid may be one option for bleeding control. It is not a treatment for amenorrhea as a disease.
 
@@ -143,12 +143,13 @@ The prediction rests on a model score alone, with no clinical trials and only tw
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and label safety data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the sole registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ The more credible repurposing directions are in other seizure-related and neural
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on general knowledge, valproic acid enhances GABA-mediated inhibition, blocks sodium channels and modulates T-type calcium channels. It also inhibits histone deacetylase (HDAC), which is a theoretical antineoplastic mechanism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for valproic acid: "Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)." ([DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f), label version 2025-05-23; accessed 2026-11-19.) Based on general knowledge, valproic acid enhances GABA-mediated inhibition, blocks sodium channels and modulates T-type calcium channels. It also inhibits histone deacetylase (HDAC), which is a theoretical antineoplastic mechanism.
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, no credible mechanistic link is established. The only retrieved paper is a 1997 case series on Sturge-Weber syndrome, which is a different condition. The high TxGNN score is not supported by clinical or preclinical evidence in the data compiled for this report.
 
@@ -159,11 +159,12 @@ Literature in the compiled data also points to other well-known concerns: terato
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Valproic acid is marketed in the Philippines (2 of 2 licences valid), and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
 
 <!-- review:end log -->
 

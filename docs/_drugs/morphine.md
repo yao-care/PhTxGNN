@@ -56,7 +56,7 @@ The evidence level is therefore L5, model prediction only.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Morphine is a well-known mu-opioid receptor agonist with established pain-relieving effects, so a link to chronic musculoskeletal pain is plausible in principle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for morphine: "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), label version 2026-08-14; accessed 2026-11-19.) Morphine is a well-known mu-opioid receptor agonist with established pain-relieving effects, so a link to chronic musculoskeletal pain is plausible in principle.
 
 The retrieved literature is only indirect. It covers a stretching exercise program in patients with "legacy pain" and opioid use, opioid use in temporomandibular joint dysfunction, and perioperative or nerve-block studies. None of these tests morphine as a treatment for myofascial pain syndrome. Opioids are also generally not recommended for long-term management of myofascial pain, so the high model score should be treated as a hypothesis, not as evidence of benefit.
 
@@ -112,11 +112,12 @@ The model score is high, but no study tests morphine in myofascial pain syndrome
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "Confirmation of the Philippines regulatory pathway, since the only registration is cancelled" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
 
 <!-- review:end log -->
 

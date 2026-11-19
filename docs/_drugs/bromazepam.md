@@ -54,7 +54,7 @@ Bromazepam is a benzodiazepine that enhances GABA-A receptor signalling. The TxG
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general pharmacology, bromazepam is a benzodiazepine. It acts as a positive allosteric modulator of GABA-A receptors, producing anxiolytic, muscle-relaxant and sedative effects.
+ChEMBL (EMBL-EBI) records the mechanism of action of bromazepam as: GABA receptor alpha-2 subunit positive allosteric modulator ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, bromazepam is a benzodiazepine. It acts as a positive allosteric modulator of GABA-A receptors, producing anxiolytic, muscle-relaxant and sedative effects.
 
 A link to migraine would be indirect. It could work through reduced central hyperexcitability, fewer stress- and anxiety-related triggers, and relief of associated muscle tension. This is a hypothesis only, and no study in the compiled data tests it.
 
@@ -112,11 +112,12 @@ The prediction has no supporting clinical trials or publications, so it stays at
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local regulatory data lists the market status as Marketed, with at least one licence recorded as valid. dosage form and" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Of the ten predictions, **pulmonary hypertension** has the most plausible mechan
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the compiled data. Based on known pharmacology, nitroprusside releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP, causing vascular smooth muscle relaxation and vasodilation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nitroprusside: "Sodium nitroprusside interacts with oxyhemoglobin to produce methemoglobin, cyanide, and nitric oxide (NO). NO then reacts with guanylate cyclase in vascular smooth muscle to produce cGMP that reduces intracellular calcium concentrations resulting in relaxation of vascular smooth muscle and consequent dilatation of peripheral arteries and veins." ([DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d), label version 2018-07-20; accessed 2026-11-19.) Based on known pharmacology, nitroprusside releases nitric oxide, which activates soluble guanylate cyclase and raises cGMP, causing vascular smooth muscle relaxation and vasodilation.
 
 For migraine, the link is mechanistic and diagnostic, not therapeutic. NO and CGRP signalling are central to migraine biology. Human studies used NO-donor and CGRP challenges to compare migraine patients with controls, showing altered vascular smooth muscle and endothelial responses. Nitroprusside is also used as a migraine trigger in animal models. NO donors are known to provoke migraine attacks, so the direction of effect is unfavourable. The very high TxGNN score most likely reflects network proximity through the NO/cGMP and CGRP pathways rather than therapeutic benefit.
 
@@ -146,12 +146,13 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The Philippines registration is cancelled, with no indication or dosage form recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "Original indication and dosage form for the cancelled registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
 
 <!-- review:end log -->
 

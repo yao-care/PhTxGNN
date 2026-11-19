@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **glaucoma**, but there are cur
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase, which prevents the breakdown of acetylcholine. In Alzheimer disease, this strengthens cholinergic signalling in the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on the known drug class, rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase, which prevents the breakdown of acetylcholine. In Alzheimer disease, this strengthens cholinergic signalling in the brain.
 
 The same principle may apply in the eye. Higher acetylcholine levels can enhance muscarinic stimulation of the ciliary muscle and trabecular meshwork. This is expected to increase aqueous humour outflow and lower intraocular pressure (IOP), the main treatable risk factor in glaucoma. Parasympathomimetic agents such as pilocarpine and physostigmine have been used in this way historically.
 
@@ -125,12 +125,13 @@ The only supporting evidence is a preclinical rabbit study and two reviews. Ther
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The Philippines registration is cancelled, and l" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "and clarification of the cancelled registration status" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **alopecia mucinosa**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for methylprednisolone is not available in the data compiled for this report. As a corticosteroid, it is generally understood to suppress inflammatory and immune signalling. That could in principle matter in a hair-follicle disorder that has an inflammatory component, such as alopecia mucinosa.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methylprednisolone: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), label version 2026-07-01; accessed 2026-11-19.) As a corticosteroid, it is generally understood to suppress inflammatory and immune signalling. That could in principle matter in a hair-follicle disorder that has an inflammatory component, such as alopecia mucinosa.
 
 This link is only a plausible hypothesis. No trial or publication was found that studies methylprednisolone in alopecia mucinosa, and the supplied data does not verify a mechanistic rationale. The very high TxGNN score shows that the model ranks this pairing highly. It is not clinical proof of benefit.
 
@@ -105,11 +105,12 @@ The prediction has a very high model score (0.9999). However, there are no clini
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, so there is currently no marketed product locally" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism-of-action data for methylprednisolone is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
 
 <!-- review:end log -->
 

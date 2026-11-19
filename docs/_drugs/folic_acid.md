@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for folic acid are not available in the data compiled for this report. In general, folate acts as a coenzyme in one-carbon metabolism (methyl-group transfer and amino acid and nucleotide metabolism). Biotin acts as a coenzyme for carboxylase enzymes. Both are B vitamins, and their metabolic pathways can intersect, which is a plausible reason for the model to link them.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for folic acid: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1), label version 2026-10-05; accessed 2026-11-19.) In general, folate acts as a coenzyme in one-carbon metabolism (methyl-group transfer and amino acid and nucleotide metabolism). Biotin acts as a coenzyme for carboxylase enzymes. Both are B vitamins, and their metabolic pathways can intersect, which is a plausible reason for the model to link them.
 
 This link is weak. The retrieved publications cover B vitamins in general (vitamin-responsive disorders, diabetes, dermatology, nutrition). None shows that folic acid treats biotin metabolic diseases such as biotinidase deficiency or holocarboxylase synthetase deficiency. These disorders are treated with biotin itself. A direct therapeutic role for folic acid is therefore not established, and the high score should be read as a network-based signal only.
 
@@ -107,6 +107,19 @@ The score is high (0.9949), but there are no clinical trials and no publications
 - Evidence that folic acid has a therapeutic effect in a defined biotin metabolic disorder (for example, mechanistic or preclinical studies)
 - Mechanism-of-action data for folic acid
 - Package insert warnings and contraindications from the DOH-FDA Philippines
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data for folic acid are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

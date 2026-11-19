@@ -54,7 +54,7 @@ Clonidine is an alpha-2 adrenergic agonist. The TxGNN model predicts it may be r
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the data compiled for this report. Clonidine is generally known as an alpha-2 adrenergic agonist that lowers central noradrenergic and sympathetic activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clonidine: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), label version 2026-08-12; accessed 2026-11-19.) Clonidine is generally known as an alpha-2 adrenergic agonist that lowers central noradrenergic and sympathetic activity.
 
 No plausible mechanistic link between alpha-2 adrenergic agonism and faciodigitogenital syndrome can be established from the available data. This condition is a genetic developmental syndrome, and nothing in the data connects sympathetic modulation to its underlying biology. The prediction should be regarded as a model-generated hypothesis with no supporting study.
 
@@ -110,11 +110,12 @@ The prediction has a very high model score (0.9999) but no clinical trials, no p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The drug has 1 registration record in the local data, and the market status is marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ with **3 clinical trials** (2 directly relevant, both Phase 2) and **20 publicat
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Oxaliplatin is a third-generation platinum compound that forms DNA crosslinks, which blocks DNA replication and transcription and leads to cancer cell death. Its efficacy in colorectal cancer is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxaliplatin: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), label version 2026-08-24; accessed 2026-11-19.) Oxaliplatin is a third-generation platinum compound that forms DNA crosslinks, which blocks DNA replication and transcription and leads to cancer cell death. Its efficacy in colorectal cancer is well established.
 
 Platinum drugs such as cisplatin are the backbone of standard chemotherapy for mesothelioma, so a shared mechanism is biologically plausible. Oxaliplatin has been tested in mesothelioma in combination with gemcitabine, raltitrexed, vinorelbine and bortezomib. Phase 2 studies report modest activity. This is consistent with the very high TxGNN score.
 
@@ -140,11 +140,12 @@ Two Phase 2 trials (one completed, one of unknown status) and several Phase 2 pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The only Philippines registration is cancelled, and no package insert safety data have been obtained" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant for **hyperamylasemia**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cefuroxime is a cephalosporin that inhibits bacterial cell wall synthesis, and it has no known action on amylase metabolism.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cefuroxime: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), label version 2025-03-27; accessed 2026-11-19.) Cefuroxime is a cephalosporin that inhibits bacterial cell wall synthesis, and it has no known action on amylase metabolism.
 
 No plausible mechanistic link between cefuroxime and hyperamylasemia could be identified. The high TxGNN score reflects a model-based pattern only. It is not backed by clinical or literature data, so it should be read as a hypothesis rather than a finding.
 
@@ -100,6 +100,19 @@ The prediction has no supporting clinical trials or publications, and no plausib
 - A plausible biological mechanism linking cefuroxime to amylase regulation
 - Any preclinical or clinical study that directly examines cefuroxime in hyperamylasemia
 - Mechanism of action data and package insert safety information (warnings and contraindications)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ with **40 clinical trials** and **20 publications** currently listed for this di
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paclitaxel is a taxane that stabilizes microtubules. This blocks mitotic spindle disassembly and causes G2/M arrest and apoptosis in rapidly dividing tumor cells.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for paclitaxel: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), label version 2025-09-17; accessed 2026-11-19.) Based on known information, paclitaxel is a taxane that stabilizes microtubules. This blocks mitotic spindle disassembly and causes G2/M arrest and apoptosis in rapidly dividing tumor cells.
 
 Ovarian and breast cancers are both common solid tumors treated with cytotoxic chemotherapy. Taxanes are widely accepted, evidence-based components of therapy for advanced breast and ovarian carcinomas (Lancet 2000 review). Paclitaxel's antimitotic action does not depend on hormone receptor status, so it is also expected to work in ER-negative, ER-positive and hormone-resistant disease.
 
@@ -149,11 +149,12 @@ Paclitaxel has extensive Phase 2 and Phase 3 trial activity and long-standing gu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "he Philippines registration is cancelled and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->
 
