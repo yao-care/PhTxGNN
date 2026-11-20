@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Imiquimod: predicted new indication pre-malignant neoplasm (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -60,7 +60,7 @@ with **2 clinical trials** and **9 publications** currently linked to this direc
 
 ## Why is This Prediction Reasonable?
 
-Imiquimod is a Toll-like receptor 7 (TLR7) agonist. It triggers local innate and adaptive immune responses, including release of interferon-alpha, TNF-alpha and IL-12. This immune activation can help clear abnormal epithelial cells. Detailed mechanism-of-action data is not otherwise available in the data compiled for this report.
+Imiquimod is a Toll-like receptor 7 (TLR7) agonist. It triggers local innate and adaptive immune responses, including release of interferon-alpha, TNF-alpha and IL-12. This immune activation can help clear abnormal epithelial cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-20.)
 
 Pre-malignant lesions such as intraepithelial neoplasias and actinic keratosis are abnormal epithelial growths, many of them HPV-related, that respond to local immune stimulation. The mechanism is therefore plausible for this group of conditions. Evidence beyond actinic keratosis, however, is mixed, and the available Phase 3 data are small.
 
@@ -127,6 +127,19 @@ The two Phase 3 trials that directly address premalignant lesions are small (20 
 - Detailed mechanism-of-action data
 - Clarification of dosage form and approved indication for the local licence
 - Safety monitoring plan, including attention to photosensitivity and autoimmune conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism-of-action data is not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

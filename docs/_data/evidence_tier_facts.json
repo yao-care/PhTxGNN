@@ -756,7 +756,7 @@
   "with_current": 269,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 266,
+  "with_reviews": 267,
   "rows": [
    {
     "t": "Isoniazid",
@@ -1139,7 +1139,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the sole registration (PNF-0025) is cancelled, and determine whether a new or reinstated…",
     "x": 0
    },
@@ -2261,7 +2261,7 @@
     "i": "female breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and is registered in the Philippines\"",
     "x": 0
    },
@@ -2327,8 +2327,8 @@
     "i": "pre-malignant neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not otherwise available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -2646,7 +2646,7 @@
     "i": "acute contagious conjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The only registration in the Philippines is cancelled\"",
     "x": 0
    },

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Hydroxyurea: predicted new indication female breast carcinoma (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -62,7 +62,7 @@ There are **no registered clinical trials** for this disease and **20 publicatio
 
 ## Why is This Prediction Reasonable?
 
-Hydroxyurea inhibits ribonucleotide reductase. This depletes the deoxynucleotide (dNTP) pool needed for DNA synthesis and induces replication stress in dividing cells. Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.
+Hydroxyurea inhibits ribonucleotide reductase. This depletes the deoxynucleotide (dNTP) pool needed for DNA synthesis and induces replication stress in dividing cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxyurea: "The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein." ([DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b), label version 2026-02-02; accessed 2026-11-20.)
 
 Several preclinical papers link replication-stress biology to breast cancer. These include studies of RPA2 hyperphosphorylation and DNA repair, where valproic acid sensitised breast cancer cells to hydroxyurea. They also include work on ATR inhibition in breast and ovarian cancer cell lines. An in-silico paper proposed lipid conjugates of hydroxyurea for breast cancer. This supports biological plausibility, but none of it shows clinical benefit in patients with breast cancer.
 
@@ -131,11 +131,12 @@ The prediction score is very high, but no clinical trial and no clinical study o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-20 | "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
 
 <!-- review:end log -->
 

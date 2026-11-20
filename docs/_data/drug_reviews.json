@@ -11249,9 +11249,9 @@
    "drug": "dacarbazine",
    "file": "dacarbazine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of dacarbazine as: DNA inhibitor ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so this explanation rests on general knowledge of the drug class.",
+   "replacement": "This explanation rests on general knowledge of the drug class. ChEMBL (EMBL-EBI) records the mechanism of action of dacarbazine as: DNA inhibitor ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this explanation rests on general knowledge of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -11263,8 +11263,34 @@
      "chembl_id": "CHEMBL476"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-dacarbazine-1",
+     "drug": "dacarbazine",
+     "file": "dacarbazine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of dacarbazine as: DNA inhibitor ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL476 (dacarbazine): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476",
+       "accessed": "2026-11-19",
+       "excerpt": "DNA inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL476"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-dactinomycin-1",
@@ -12105,9 +12131,9 @@
    "drug": "everolimus",
    "file": "everolimus.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for everolimus: \"Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase.\" ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), label version 2026-09-16; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report. The description here is based on its known drug class.",
+   "replacement": "The description here is based on its known drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for everolimus: \"Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase.\" ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), label version 2026-09-16; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report. The description here is based on its known drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -12121,8 +12147,36 @@
      "set_id": "e082a024-7850-400b-a5c2-2a140612562a"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-everolimus-1",
+     "drug": "everolimus",
+     "file": "everolimus.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for everolimus: \"Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase.\" ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), label version 2026-09-16; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a",
+       "accessed": "2026-11-19",
+       "excerpt": "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase.",
+       "label_version": "2026-09-16",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "e082a024-7850-400b-a5c2-2a140612562a"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-famotidine-1",
@@ -15785,9 +15839,9 @@
    "drug": "sofosbuvir",
    "file": "sofosbuvir.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the compiled data, so t",
-   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: \"Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator.\" ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the compiled data, so this description is based on general pharmacology.",
+   "replacement": "This description is based on general pharmacology. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: \"Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator.\" ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the compiled data, so this description is based on general pharmacology\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15801,8 +15855,36 @@
      "set_id": "80beab2c-396e-4a37-a4dc-40fdb62859cf"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-sofosbuvir-1",
+     "drug": "sofosbuvir",
+     "file": "sofosbuvir.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the compiled data, so t",
+     "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for sofosbuvir: \"Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator.\" ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), label version 2024-12-26; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf",
+       "accessed": "2026-11-19",
+       "excerpt": "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator.",
+       "label_version": "2024-12-26",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "80beab2c-396e-4a37-a4dc-40fdb62859cf"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-spironolactone-1",
@@ -16475,9 +16557,9 @@
    "drug": "varenicline",
    "file": "varenicline.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data from DrugBank were not available for this report.",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: \"Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.\" ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.)",
-   "summary": "\"Detailed mechanism-of-action data from DrugBank were not available for this report\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data from DrugBank were not available for this report. The mechanism described above comes from the analysis of the prediction itself and should be verified.",
+   "replacement": "The mechanism described above comes from the analysis of the prediction itself and should be verified. According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: \"Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.\" ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data from DrugBank were not available for this report. The mechanism described above comes from the analysis of the prediction itself and should be verified\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -16491,8 +16573,36 @@
      "set_id": "f0ff4f27-5185-4881-a749-c6b7a0ca5696"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-varenicline-1",
+     "drug": "varenicline",
+     "file": "varenicline.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data from DrugBank were not available for this report.",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for varenicline: \"Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.\" ([DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696), label version 2026-01-23; accessed 2026-11-19.)",
+     "summary": "\"Detailed mechanism-of-action data from DrugBank were not available for this report\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Chantix (varenicline tartrate) prescribing information, Pfizer Laboratories Div Pfizer Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ff4f27-5185-4881-a749-c6b7a0ca5696",
+       "accessed": "2026-11-19",
+       "excerpt": "Varenicline binds with high affinity and selectivity at α4β2 neuronal nicotinic acetylcholine receptors. The efficacy of CHANTIX in smoking cessation is believed to be the result of varenicline's activity at α4β2 sub-type of the nicotinic receptor where its binding produces agonist activity, while simultaneously preventing nicotine binding to these receptors.",
+       "label_version": "2026-01-23",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "f0ff4f27-5185-4881-a749-c6b7a0ca5696"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-vasopressin-1",
@@ -16571,9 +16681,9 @@
    "drug": "vinblastine",
    "file": "vinblastine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general known pharmacology of vinca alkaloids.",
+   "replacement": "This description reflects the general known pharmacology of vinca alkaloids. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the general known pharmacology of vinca alkaloids\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -16587,8 +16697,36 @@
      "set_id": "f073b58e-56d6-4c8d-a2ce-b37719402d77"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-vinblastine-1",
+     "drug": "vinblastine",
+     "file": "vinblastine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for vinblastine: \"Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.\" ([DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77), label version 2025-04-15; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: vinblastine sulfate prescribing information, Fresenius Kabi USA, LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f073b58e-56d6-4c8d-a2ce-b37719402d77",
+       "accessed": "2026-11-19",
+       "excerpt": "Other studies indicate that vinblastine sulfate has an effect on cell-energy production required for mitosis and interferes with nucleic acid synthesis. The mechanism of action of vinblastine has been related to the inhibition of microtubule formation in the mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage.",
+       "label_version": "2025-04-15",
+       "section": "Clinical Pharmacology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "f073b58e-56d6-4c8d-a2ce-b37719402d77"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-vincristine-1",
@@ -16667,9 +16805,9 @@
    "drug": "zolmitriptan",
    "file": "zolmitriptan.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data was not available in the structured drug record, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data was not available in the structured drug record, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data was not available in the structured drug record, so this description comes from the published reviews.",
+   "replacement": "This description comes from the published reviews. According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data was not available in the structured drug record, so this description comes from the published reviews\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -16683,8 +16821,36 @@
      "set_id": "a734b368-6008-441c-ab44-5634e46be9a4"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "ph-moa-20261119-zolmitriptan-1",
+     "drug": "zolmitriptan",
+     "file": "zolmitriptan.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data was not available in the structured drug record, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data was not available in the structured drug record, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4",
+       "accessed": "2026-11-19",
+       "excerpt": "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.",
+       "label_version": "2026-01-29",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "a734b368-6008-441c-ab44-5634e46be9a4"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "ph-moa-20261119-zolpidem-1",
@@ -16708,6 +16874,102 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "ph-moa-20261120-aripiprazole-1",
+   "drug": "aripiprazole",
+   "file": "aripiprazole.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism data was not available in the drug-level records compiled for this report, but t",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: \"The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors.\" ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-20.) T",
+   "summary": "\"Detailed mechanism data was not available in the drug-level records compiled for this report, but t\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors.",
+     "label_version": "2025-04-04",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "da4c07fd-1130-4341-bb44-63acfa4162be"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "ph-moa-20261120-hydroxyurea-1",
+   "drug": "hydroxyurea",
+   "file": "hydroxyurea.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data are not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxyurea: \"The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein.\" ([DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b), label version 2026-02-02; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data are not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b",
+     "accessed": "2026-11-20",
+     "excerpt": "The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein.",
+     "label_version": "2026-02-02",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "4b37d336-86da-4363-aef1-34a7d3ba973b"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "ph-moa-20261120-imiquimod-1",
+   "drug": "imiquimod",
+   "file": "imiquimod.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism-of-action data is not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: \"The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown.\" ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism-of-action data is not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d",
+     "accessed": "2026-11-20",
+     "excerpt": "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown.",
+     "label_version": "2025-05-23",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "28cd9b5b-680b-480f-b33d-9c5b52bbf03d"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "ph-moa-20261120-loperamide-1",
+   "drug": "loperamide",
+   "file": "loperamide.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data is not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: \"In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.\" ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b",
+     "accessed": "2026-11-20",
+     "excerpt": "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.",
+     "label_version": "2026-07-09",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "74b9893a-18c3-4117-85c2-edab8e7b3b3b"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In the Philippines: 1 PNF entry"
@@ -55,7 +55,7 @@ Several large Phase 3 placebo-controlled trials support adjunctive use in depres
 
 ## Why is This Prediction Reasonable?
 
-Aripiprazole is a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and an antagonist at 5-HT2A receptors. Detailed mechanism data was not available in the drug-level records compiled for this report, but this receptor profile is well described in the literature. In patients who respond inadequately to antidepressants, it is thought to adjust dopamine and serotonin activity.
+Aripiprazole is a partial agonist at dopamine D2 and serotonin 5-HT1A receptors and an antagonist at 5-HT2A receptors. According to the Mechanism of Action section of the US FDA-approved prescribing information for aripiprazole: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), label version 2025-04-04; accessed 2026-11-20.) This receptor profile is well described in the literature. In patients who respond inadequately to antidepressants, it is thought to adjust dopamine and serotonin activity.
 
 Bipolar and unipolar mood disorders share this monoamine circuitry. Since aripiprazole is already used for bipolar disorder and mania, extending it to depression is biologically coherent. Published reviews note that aripiprazole is among the atypical antipsychotics approved by the US FDA as an add-on to antidepressants in major depressive disorder, typically at lower doses than used for psychosis.
 
@@ -148,12 +148,13 @@ Multiple completed Phase 3 placebo-controlled trials (each with several hundred 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against official Philippine National Formulary (PNF) data. Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "since the sole registration (PNF-xxxx) is cancelled, and determine whether a new or reinstated registration is needed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-20 | "Detailed mechanism data was not available in the drug-level records compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->
 
