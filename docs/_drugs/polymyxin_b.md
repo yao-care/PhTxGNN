@@ -136,7 +136,7 @@ Please refer to the package insert for further safety information, including war
 
 <!-- review:begin ph-lic-20261031-polymyxin_b-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The high TxGNN score alone is not enough to advance. / The only Philippine registration is cancelled, so no product is currently marketed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The high TxGNN score alone is not enough to advance. / The only Philippine registration is cancelled, so no product is currently marketed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-polymyxin_b-1 -->
 
@@ -148,7 +148,7 @@ Please refer to the package insert for further safety information, including war
 
 <!-- review:begin ph-lic-20261106-polymyxin_b-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A route and formulation assessment, including a safety evaluation of inhaled delivery given the bronchoconstriction reports / Confirmation of local product availability, given that the registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A route and formulation assessment, including a safety evaluation of inhaled delivery given the bronchoconstriction reports / Confirmation of local product availability, given that the registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-polymyxin_b-2 -->
 
@@ -160,8 +160,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippine registration is cancelled, so no product is currently marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Confirmation of local product availability, given that the registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippine registration is cancelled, so no product is currently marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of local product availability, given that the registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
 
 <!-- review:end log -->

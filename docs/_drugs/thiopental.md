@@ -61,7 +61,7 @@ The link to trichotillomania, a compulsive hair-pulling disorder, is speculative
 
 <!-- review:begin ph-lic-20261106-thiopental-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect. The drug's registration in the Philippines has also been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction score is very high (rank 627 among model outputs), but a high score alone does not establish a plausible therapeutic effect. The drug's registration in the Philippines has also been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-thiopental-1 -->
 
@@ -130,7 +130,7 @@ The prediction for trichotillomania is based only on a model score, with no clin
 
 <!-- review:begin ph-lic-20261106-thiopental-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The mechanism is speculative, safety data from the label are missing, and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The mechanism is speculative, safety data from the label are missing, and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-thiopental-2 -->
 
@@ -143,7 +143,7 @@ The prediction for trichotillomania is based only on a model score, with no clin
 
 <!-- review:begin ph-lic-20261106-thiopental-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit / Clarification of the cancelled registration status and whether any product is available locally" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Review of whether a barbiturate anesthetic is a practical candidate for this condition, including route of administration, dosing, and risk-benefit / Clarification of the cancelled registration status and whether any product is available locally" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-thiopental-3 -->
 
@@ -155,9 +155,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug's registration in the Philippines has also been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether any product is available locally" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The drug's registration in the Philippines has also been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "and the Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration status and whether any product is available locally" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

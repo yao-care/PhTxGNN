@@ -114,7 +114,7 @@ Diabetic nephropathy has a plausible mechanism and consistent preclinical suppor
 
 <!-- review:begin ph-lic-20261031-sacubitril-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only registered trial is Phase 4 with unknown status and no results, and no completed Phase 3 RCT was identified. Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-sacubitril-1 -->
 
@@ -126,7 +126,7 @@ Diabetic nephropathy has a plausible mechanism and consistent preclinical suppor
 
 <!-- review:begin ph-lic-20261106-sacubitril-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Results or a status update for NCT06501651, and any completed Phase 3 RCTs in diabetic nephropathy / Clarification of the cancelled registration and of the original approved indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Results or a status update for NCT06501651, and any completed Phase 3 RCTs in diabetic nephropathy / Clarification of the cancelled registration and of the original approved indication" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-sacubitril-2 -->
 
@@ -138,8 +138,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration and of the original approved indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Locally, the only registration is cancelled, and the package insert safety information is missing, so safety screening cannot proceed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration and of the original approved indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->

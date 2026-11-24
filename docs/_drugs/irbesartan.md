@@ -73,7 +73,7 @@ Currently no related literature available.
 
 <!-- review:begin ph-lic-20261106-irbesartan-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved indication text are not recorded in the local data." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Dosage form and approved indication text are not recorded in the local data." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-irbesartan-1 -->
 
@@ -128,7 +128,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Dosage form and approved indication text are not recorded in the local data" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Dosage form and approved indication text are not recorded in the local data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->

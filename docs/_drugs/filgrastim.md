@@ -80,7 +80,7 @@ Currently no related literature available for this predicted indication.
 
 <!-- review:begin ph-lic-20261106-filgrastim-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved indication text are not recorded in the local data." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Dosage form and approved indication text are not recorded in the local data." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-filgrastim-1 -->
 
@@ -132,7 +132,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Dosage form and approved indication text are not recorded in the local data" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Dosage form and approved indication text are not recorded in the local data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
 
 <!-- review:end log -->

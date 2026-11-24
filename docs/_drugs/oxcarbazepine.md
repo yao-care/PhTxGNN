@@ -108,7 +108,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261031-oxcarbazepine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "**Rationale:** The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "**Rationale:** The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current evidence." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-oxcarbazepine-1 -->
 
@@ -121,7 +121,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261031-oxcarbazepine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The package insert (warnings and contraindications) from the DOH-FDA Philippines / Clarification of the licence situation (the only registration is cancelled) and available dosage forms" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The package insert (warnings and contraindications) from the DOH-FDA Philippines / Clarification of the licence situation (the only registration is cancelled) and available dosage forms" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-oxcarbazepine-2 -->
 
@@ -133,8 +133,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current eviden" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Clarification of the licence situation (the only registration is cancelled) and available dosage forms" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines licence is cancelled, and package-insert safety data are missing, so the decision cannot move forward on current eviden" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the licence situation (the only registration is cancelled) and available dosage forms" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->

@@ -127,7 +127,7 @@ Please refer to the package insert for safety information. Label warnings and co
 
 <!-- review:begin ph-lic-20261106-pyrazinamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The only supporting evidence is case reports of tuberculous ear infection, which are already covered by pyrazinamide's standard use in TB. In addition, the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only supporting evidence is case reports of tuberculous ear infection, which are already covered by pyrazinamide's standard use in TB. In addition, the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-pyrazinamide-2 -->
 
@@ -139,7 +139,7 @@ Please refer to the package insert for safety information. Label warnings and co
 
 <!-- review:begin ph-lic-20261031-pyrazinamide-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity. / Confirmation of the current Philippines registration status, since the only record is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "If the interest is TB of the ear, a focused review of extrapulmonary TB guidelines, since this is an existing use and not a repurposing opportunity. / Confirmation of the current Philippines registration status, since the only record is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-pyrazinamide-1 -->
 
@@ -151,8 +151,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Confirmation of the current Philippines registration status, since the only record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "In addition, the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of the current Philippines registration status, since the only record is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "In addition, the Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->

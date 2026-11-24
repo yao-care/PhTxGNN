@@ -63,7 +63,7 @@ This is less a novel repurposing than a rediscovery. Oral midazolam was studied 
 
 <!-- review:begin ph-lic-20261106-midazolam-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The very high TxGNN score is consistent with this history. However, the Philippines registration is cancelled, which limits practical translation." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The very high TxGNN score is consistent with this history. However, the Philippines registration is cancelled, which limits practical translation." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-midazolam-2 -->
 
@@ -113,7 +113,7 @@ The mechanism is plausible and older studies, including a randomised 14-day comp
 
 <!-- review:begin ph-lic-20261106-midazolam-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, both registered trials are indirect perioperative studies, the supporting data are decades old, and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "However, both registered trials are indirect perioperative studies, the supporting data are decades old, and the Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-midazolam-3 -->
 
@@ -125,7 +125,7 @@ The mechanism is plausible and older studies, including a randomised 14-day comp
 
 <!-- review:begin ph-lic-20261031-midazolam-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "A review of the 1980s–1990s oral midazolam insomnia studies, including dependence, next-day sedation and respiratory risks / Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A review of the 1980s–1990s oral midazolam insomnia studies, including dependence, next-day sedation and respiratory risks / Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-midazolam-1 -->
 
@@ -137,9 +137,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "However, the Philippines registration is cancelled, which limits practical translation" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "and the Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled and the product's dosage forms are unknown" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, the Philippines registration is cancelled, which limits practical translation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "and the Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->

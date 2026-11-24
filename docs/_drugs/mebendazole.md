@@ -101,7 +101,7 @@ The prediction is supported only by a model score (evidence level L5). There are
 
 <!-- review:begin ph-lic-20261106-mebendazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials, the only publication is an unrelated case report, and no mechanistic link to acne is established. The drug is marketed in this country, with 1 of 1 licenses currently valid." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "There are no clinical trials, the only publication is an unrelated case report, and no mechanistic link to acne is established. The drug is marketed in this country, with 1 of 1 licenses currently valid." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-mebendazole-1 -->
 
@@ -113,7 +113,7 @@ The prediction is supported only by a model score (evidence level L5). There are
 
 <!-- review:begin ph-lic-20261106-mebendazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the Philippines FDA / Clarification of the cancelled registration status and the availability of a suitable formulation (including any topical route)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications from the Philippines FDA / Clarification of the cancelled registration status and the availability of a suitable formulation (including any topical route)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-mebendazole-2 -->
 
@@ -125,8 +125,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is marketed in this country, with 1 of 1 licenses currently valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the availability of a suitable formulation (including any topical route)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The drug is marketed in this country, with 1 of 1 licenses currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration status and the availability of a suitable formulation (including any topical route)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
 
 <!-- review:end log -->

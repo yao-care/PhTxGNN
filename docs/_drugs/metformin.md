@@ -83,7 +83,7 @@ Currently no related literature available.
 
 <!-- review:begin ph-lic-20261106-metformin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Only one registration is on record, and it is cancelled. Dosage form and approved indication text are not available." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Only one registration is on record, and it is cancelled. Dosage form and approved indication text are not available." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-metformin-3 -->
 
@@ -121,7 +121,7 @@ The prediction rests only on a model score, with no clinical trials or publicati
 
 <!-- review:begin ph-lic-20261031-metformin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction rests only on a model score, with no clinical trials or publications, and the mechanistic link to stiff-person spectrum disorders is speculative. The only Philippines registration is cancelled, and label-based safety information is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction rests only on a model score, with no clinical trials or publications, and the mechanistic link to stiff-person spectrum disorders is speculative. The only Philippines registration is cancelled, and label-based safety information is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-metformin-1 -->
 
@@ -134,7 +134,7 @@ The prediction rests only on a model score, with no clinical trials or publicati
 
 <!-- review:begin ph-lic-20261031-metformin-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Philippines package insert warnings and contraindications from the DOH-FDA Philippines website / Clarification of the current regulatory status in the Philippines, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Philippines package insert warnings and contraindications from the DOH-FDA Philippines website / Clarification of the current regulatory status in the Philippines, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-metformin-2 -->
 
@@ -146,9 +146,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and label-based safety information is missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Clarification of the current regulatory status in the Philippines, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Only one registration is on record, and it is cancelled. Dosage form and approved indication text are not available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, and label-based safety information is missing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the current regulatory status in the Philippines, since the only registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Only one registration is on record, and it is cancelled. Dosage form and approved indication text are not available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
 
 <!-- review:end log -->

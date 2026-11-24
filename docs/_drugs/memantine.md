@@ -42,7 +42,7 @@ Memantine is an NMDA receptor antagonist. The TxGNN model predicts it may be eff
 
 <!-- review:begin ph-lic-20261106-memantine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Memantine is an NMDA receptor antagonist with a local licence record in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Memantine is an NMDA receptor antagonist with a local licence record in the Philippines." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-memantine-1 -->
 
@@ -91,7 +91,7 @@ Currently no related clinical trials registered.
 
 <!-- review:begin ph-lic-20261106-memantine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local record lists one single-ingredient authorization (PNF-xxxx, product name Memantine). Dosage form and approved indication text are not recorded in the local data." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The local record lists one single-ingredient authorization (PNF-xxxx, product name Memantine). Dosage form and approved indication text are not recorded in the local data." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-memantine-2 -->
 
@@ -136,8 +136,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "with a local licence record in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The local record lists one single-ingredient authorization (PNF-xxxx, product name Memantine). Dosage form and approved indication text are " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "with a local licence record in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The local record lists one single-ingredient authorization (PNF-xxxx, product name Memantine). Dosage form and approved indication text are " | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: memantine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e6977ef-6a0a-4bd9-b500-6ceb15abbd5e) |
 
 <!-- review:end log -->

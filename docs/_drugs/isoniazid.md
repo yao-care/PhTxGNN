@@ -122,7 +122,7 @@ The TxGNN score is very high, but no clinical trials exist and the literature co
 
 <!-- review:begin ph-lic-20261106-isoniazid-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The Philippines registration is cancelled, and some literature points to ocular harm." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 5 entries for this drug, 5 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The Philippines registration is cancelled, and some literature points to ocular harm." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-isoniazid-2 -->
 
@@ -135,7 +135,7 @@ The TxGNN score is very high, but no clinical trials exist and the literature co
 
 <!-- review:begin ph-lic-20261031-isoniazid-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Assess whether the available routes of administration are compatible with an ocular indication. / Clarify the regulatory pathway given that the only registration (PNF-xxxx) is cancelled." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 5 entries for this drug, 5 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Assess whether the available routes of administration are compatible with an ocular indication. / Clarify the regulatory pathway given that the only registration (PNF-xxxx) is cancelled." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-isoniazid-1 -->
 
@@ -147,8 +147,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarify the regulatory pathway given that the only registration (PNF-xxxx) is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The Philippines registration is cancelled, and s" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarify the regulatory pathway given that the only registration (PNF-xxxx) is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The Philippines registration is cancelled, and s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
 
 <!-- review:end log -->

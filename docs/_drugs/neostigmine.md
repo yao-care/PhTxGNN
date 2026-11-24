@@ -122,7 +122,7 @@ The top prediction is a subtype of a disease neostigmine already treats, so it a
 
 <!-- review:begin ph-lic-20261031-neostigmine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The top prediction is a subtype of a disease neostigmine already treats, so it adds little as a repurposing opportunity. No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The top prediction is a subtype of a disease neostigmine already treats, so it adds little as a repurposing opportunity. No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-neostigmine-1 -->
 
@@ -134,7 +134,7 @@ The top prediction is a subtype of a disease neostigmine already treats, so it a
 
 <!-- review:begin ph-lic-20261031-neostigmine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Subtype-specific clinical evidence for thymic hyperplasia-associated myasthenia gravis. / Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Subtype-specific clinical evidence for thymic hyperplasia-associated myasthenia gravis. / Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-neostigmine-2 -->
 
@@ -146,8 +146,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "No trials or literature specific to the subtype exist (L4), and the only Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the regulatory pathway, since the only Philippines registration is cancelled and no dosage form or approved indication is r" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
 
 <!-- review:end log -->

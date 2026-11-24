@@ -126,7 +126,7 @@ The prediction rests on a model score alone (Evidence Level L5), with no trials,
 
 <!-- review:begin ph-lic-20261031-methylergometrine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on a model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism for hypertrichosis. The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascular safety concerns." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction rests on a model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism for hypertrichosis. The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascular safety concerns." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-methylergometrine-1 -->
 
@@ -137,7 +137,7 @@ The prediction rests on a model score alone (Evidence Level L5), with no trials,
 
 <!-- review:begin ph-lic-20261031-methylergometrine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Preclinical or clinical evidence for the predicted indication; migraine is the only prediction with indirect supporting literature, but a safety review of its vasoconstrictive risk would come first / Confirmation of the current market and supply status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Preclinical or clinical evidence for the predicted indication; migraine is the only prediction with indirect supporting literature, but a safety review of its vasoconstrictive risk would come first / Confirmation of the current market and supply status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-methylergometrine-2 -->
 
@@ -149,8 +149,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascu" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Confirmation of the current market and supply status, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The drug's only Philippines registration is cancelled, and the knowledge graph and class pharmacology raise vasoconstrictive and cardiovascu" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of the current market and supply status, since the only registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

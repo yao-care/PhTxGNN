@@ -159,7 +159,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261106-isoflurane-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical. / It is marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Isoflurane is an inhaled general anaesthetic, so chronic use for most predicted conditions is impractical. / It is marketed in the Philippines, with 1 valid license out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-isoflurane-1 -->
 
@@ -170,7 +170,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261106-isoflurane-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "For migraine: controlled clinical data in refractory or status migrainosus, with a risk-benefit assessment and a plan for post-emergence recurrence / Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "For migraine: controlled clinical data in refractory or status migrainosus, with a risk-benefit assessment and a plan for post-emergence recurrence / Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-isoflurane-2 -->
 
@@ -182,8 +182,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "It is marketed in the Philippines, with 1 valid license out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "It is marketed in the Philippines, with 1 valid license out of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration status and whether an inhaled anaesthetic can be supplied in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
 
 <!-- review:end log -->

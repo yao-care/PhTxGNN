@@ -101,7 +101,7 @@ The high TxGNN score is not supported by a plausible mechanism or by clinical ev
 
 <!-- review:begin ph-lic-20261106-rifaximin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The only available study suggests a possible harm (resistant *Candida* infections). The Philippines registration is also cancelled, with no indication or dosage form on file." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only available study suggests a possible harm (resistant *Candida* infections). The Philippines registration is also cancelled, with no indication or dosage form on file." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-rifaximin-1 -->
 
@@ -113,7 +113,7 @@ The high TxGNN score is not supported by a plausible mechanism or by clinical ev
 
 <!-- review:begin ph-lic-20261106-rifaximin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the Philippines regulator (the current registration is cancelled)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications from the Philippines regulator (the current registration is cancelled)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-rifaximin-2 -->
 
@@ -125,8 +125,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The Philippines registration is also cancelled, with no indication or dosage form on file" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "(the current registration is cancelled)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The Philippines registration is also cancelled, with no indication or dosage form on file" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "(the current registration is cancelled)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
 
 <!-- review:end log -->

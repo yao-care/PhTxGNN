@@ -68,7 +68,7 @@ The original approved indications field is also empty (`original_indications: []
 
 <!-- review:begin ph-lic-20261106-enalapril-4 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The original approved indications field is also empty (`original_indications: []`), which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The original approved indications field is also empty (`original_indications: []`), which may indicate that a regulatory data pull (e.g., from FDA Philippines or equivalent) was not completed before this pack was assembled." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-enalapril-4 -->
 
@@ -86,13 +86,13 @@ No TxGNN-predicted indication is available in this Evidence Pack. Indication-spe
 
 <!-- review:begin ph-lic-20261106-enalapril-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Enalapril is currently **not registered** in the Philippines under this Evidence Pack. No product authorizations were found." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Enalapril is currently **not registered** in the Philippines under this Evidence Pack. No product authorizations were found." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-enalapril-1 -->
 
 <!-- review:begin ph-lic-20261106-enalapril-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "> **Note:** Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verification with FDA Philippines (Food and Drug Administration, Philippines) is recommended, as the absence of records may reflect a data ingestion issue rather than a true absence from the market." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "> **Note:** Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verification with FDA Philippines (Food and Drug Administration, Philippines) is recommended, as the absence of records may reflect a data ingestion issue rather than a true absence from the market." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-enalapril-2 -->
 
@@ -141,7 +141,7 @@ This Evidence Pack is critically incomplete across all four evaluation pillars â
 
 <!-- review:begin ph-lic-20261106-enalapril-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "**[Medium]** Independently verify Philippines FDA registration status, as Enalapril is a widely available generic; a zero-registration result may indicate a data pipeline issue" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "**[Medium]** Independently verify Philippines FDA registration status, as Enalapril is a widely available generic; a zero-registration result may indicate a data pipeline issue" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-enalapril-3 -->
 
@@ -159,10 +159,10 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Enalapril is currently **not registered** in the Philippines under this Evidence Pack. No product authorizations were found" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "> **Note:** Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verificati" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "a zero-registration result may indicate a data pipeline issue" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "which may indicate that a regulatory data pull (e g., from FDA Philippines or equivalent) was not completed before this pack was assembled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Enalapril is currently **not registered** in the Philippines under this Evidence Pack. No product authorizations were found" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "> **Note:** Given that Enalapril is a long-established, off-patent ACE inhibitor available in most global markets, an independent verificati" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "a zero-registration result may indicate a data pipeline issue" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "which may indicate that a regulatory data pull (e g., from FDA Philippines or equivalent) was not completed before this pack was assembled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-06 | Removed: "the TFDA (or equivalent)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->

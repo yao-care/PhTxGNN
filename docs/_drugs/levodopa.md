@@ -108,7 +108,7 @@ The prediction is supported only by a high model score. There are no clinical tr
 
 <!-- review:begin ph-lic-20261031-levodopa-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Levodopa would not be expected to address the inflammatory and epileptogenic basis of Rasmussen encephalitis. Its only Philippines registration is cancelled, and epilepsy appears among its knowledge-graph contraindications." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Levodopa would not be expected to address the inflammatory and epileptogenic basis of Rasmussen encephalitis. Its only Philippines registration is cancelled, and epilepsy appears among its knowledge-graph contraindications." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-levodopa-1 -->
 
@@ -119,7 +119,7 @@ The prediction is supported only by a high model score. There are no clinical tr
 
 <!-- review:begin ph-lic-20261106-levodopa-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications, to complete safety screening / Review of the cancelled registration and available dosage forms and routes" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications, to complete safety screening / Review of the cancelled registration and available dosage forms and routes" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-levodopa-2 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Its only Philippines registration is cancelled, and epilepsy appears among its knowledge-graph contraindications" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Review of the cancelled registration and available dosage forms and routes" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Its only Philippines registration is cancelled, and epilepsy appears among its knowledge-graph contraindications" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Review of the cancelled registration and available dosage forms and routes" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->

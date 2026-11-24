@@ -126,7 +126,7 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 <!-- review:begin ph-lic-20261106-nitroprusside-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "NO donors like nitroprusside provoke migraine attacks, so the direction of effect is unfavourable. / The Philippines registration is cancelled, with no indication or dosage form recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "NO donors like nitroprusside provoke migraine attacks, so the direction of effect is unfavourable. / The Philippines registration is cancelled, with no indication or dosage form recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-nitroprusside-1 -->
 
@@ -138,7 +138,7 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 <!-- review:begin ph-lic-20261106-nitroprusside-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Mechanism-of-action data from DrugBank / Original indication and dosage form for the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism-of-action data from DrugBank / Original indication and dosage form for the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-nitroprusside-2 -->
 
@@ -150,8 +150,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The Philippines registration is cancelled, with no indication or dosage form recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Original indication and dosage form for the cancelled registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The Philippines registration is cancelled, with no indication or dosage form recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Original indication and dosage form for the cancelled registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nipride Rtu (sodium nitroprusside) prescribing information, EXELA PHARMA SCIENCES, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5acf0836-93ff-4064-b888-3f560e8a558d) |
 
 <!-- review:end log -->

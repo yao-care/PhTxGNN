@@ -43,7 +43,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, with **3
 
 <!-- review:begin ph-lic-20261106-propofol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "No approved indication text is recorded for its single Philippines registration, so the original use is inferred from its known role as a general anesthetic." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "No approved indication text is recorded for its single Philippines registration, so the original use is inferred from its known role as a general anesthetic." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-propofol-2 -->
 
@@ -133,7 +133,7 @@ A completed Phase 2/3 trial and several randomized trials in the emergency depar
 
 <!-- review:begin ph-lic-20261031-propofol-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "A completed Phase 2/3 trial and several randomized trials in the emergency department support propofol for acute migraine, which fits evidence level L2. However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 RCT." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A completed Phase 2/3 trial and several randomized trials in the emergency department support propofol for acute migraine, which fits evidence level L2. However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 RCT." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-propofol-1 -->
 
@@ -145,7 +145,7 @@ A completed Phase 2/3 trial and several randomized trials in the emergency depar
 
 <!-- review:begin ph-lic-20261106-propofol-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Detailed mechanism of action data from DrugBank / A valid registration route or product pathway, since the existing license is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Detailed mechanism of action data from DrugBank / A valid registration route or product pathway, since the existing license is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-propofol-3 -->
 
@@ -168,9 +168,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 " | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "No approved indication text is recorded for its single Philippines registration, so t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "A valid registration route or product pathway, since the existing license is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, the only Philippines registration is cancelled, the studied use needs monitored care, and the key trial is not a confirmed Phase 3 " | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "No approved indication text is recorded for its single Philippines registration, so t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "A valid registration route or product pathway, since the existing license is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
 
 <!-- review:end log -->

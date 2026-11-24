@@ -110,7 +110,7 @@ Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Editio
 
 <!-- review:begin ph-lic-20261106-bicalutamide-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Dosage form and approved indication are not recorded for this authorization." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Dosage form and approved indication are not recorded for this authorization." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-bicalutamide-3 -->
 
@@ -127,7 +127,7 @@ The prediction rests on a model score and a single commentary letter, with no cl
 
 <!-- review:begin ph-lic-20261106-bicalutamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The drug is marketed in the Philippines, with 1 valid license out of 1, and the mechanistic link is plausible only for androgen-driven or drug-induced hypertrichosis." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-bicalutamide-2 -->
 
@@ -142,7 +142,7 @@ For context, a lower-ranked prediction in the same data, **female breast carcino
 
 <!-- review:begin ph-lic-20261031-bicalutamide-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The original approved indication and package insert warnings, contraindications and dosage forms from the DOH-FDA Philippines record / Confirmation of regulatory status, since the only registration found is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The original approved indication and package insert warnings, contraindications and dosage forms from the DOH-FDA Philippines record / Confirmation of regulatory status, since the only registration found is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-bicalutamide-1 -->
 
@@ -154,9 +154,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Confirmation of regulatory status, since the only registration found is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "he drug is marketed in the Philippines, with 1 valid license out of 1, and t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Dosage form and approved indication are not recorded for this authorization" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of regulatory status, since the only registration found is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "he drug is marketed in the Philippines, with 1 valid license out of 1, and t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Dosage form and approved indication are not recorded for this authorization" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled database record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
 
 <!-- review:end log -->

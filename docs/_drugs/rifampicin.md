@@ -132,7 +132,7 @@ The prediction score is very high, but it is a model output only. There are no r
 
 <!-- review:begin ph-lic-20261106-rifampicin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but topical ophthalmic use is not standard care." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 5 entries for this drug, 5 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but topical ophthalmic use is not standard care." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-rifampicin-2 -->
 
@@ -144,7 +144,7 @@ The prediction score is very high, but it is a model output only. There are no r
 
 <!-- review:begin ph-lic-20261031-rifampicin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Mechanism of action data (e.g. from DrugBank) / A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 5 entries for this drug, 5 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data (e.g. from DrugBank) / A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-rifampicin-1 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but t" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "A suitable topical or ophthalmic formulation and a registration pathway, since the only local licence is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Rifampicin is marketed in the Philippines, with 1 valid licence of 1, but t" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->

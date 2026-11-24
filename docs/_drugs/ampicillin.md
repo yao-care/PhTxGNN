@@ -109,7 +109,7 @@ The TxGNN score is very high, but there are no clinical trials and the literatur
 
 <!-- review:begin ph-lic-20261031-ampicillin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role. In the Philippines, the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The best-fitting indication (epiglottitis) is historical, and ampicillin resistance in *Haemophilus influenzae* type b has reduced its role. In the Philippines, the only registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-ampicillin-1 -->
 
@@ -124,7 +124,7 @@ Of the other predictions, gonococcal urethritis has the strongest literature (se
 
 <!-- review:begin ph-lic-20261106-ampicillin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the registration status in the Philippines, since 1 of 1 licenses is currently valid" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the registration status in the Philippines, since 1 of 1 licenses is currently valid" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-ampicillin-2 -->
 
@@ -136,8 +136,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "In the Philippines, the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "since 1 of 1 licenses is currently valid" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "In the Philippines, the only registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "since 1 of 1 licenses is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
 
 <!-- review:end log -->

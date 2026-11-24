@@ -96,7 +96,7 @@ No manufacturer or approved indication text is available.
 
 <!-- review:begin ph-lic-20261106-heparin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Heparin has one registration on record (PNF-xxxx, single-ingredient product), and it is **valid**. No dosage form, manufacturer or approved indication text is available. There is 1 currently valid registration of 1 in the Philippines." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Heparin has one registration on record (PNF-xxxx, single-ingredient product), and it is **valid**. No dosage form, manufacturer or approved indication text is available. There is 1 currently valid registration of 1 in the Philippines." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-heparin-2 -->
 
@@ -124,7 +124,7 @@ The prediction is mechanistically plausible and close to heparin's existing use 
 
 <!-- review:begin ph-lic-20261106-heparin-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Heparin has 1 valid registration of 1 in the Philippines, but label safety data is missing." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Heparin has 1 valid registration of 1 in the Philippines, but label safety data is missing." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-heparin-3 -->
 
@@ -136,7 +136,7 @@ The prediction is mechanistically plausible and close to heparin's existing use 
 
 <!-- review:begin ph-lic-20261031-heparin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications from DOH-FDA Philippines / Clarification of regulatory status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications from DOH-FDA Philippines / Clarification of regulatory status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-heparin-1 -->
 
@@ -154,9 +154,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of regulatory status, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Heparin has one registration on record (PNF-xxxx, single-ingredient product), and it is **valid**. dosage form, There is 1 currently valid r" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Heparin has 1 valid registration of 1 in the Philippines, but l" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of regulatory status, since the only registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Heparin has one registration on record (PNF-xxxx, single-ingredient product), and it is **valid**. dosage form, There is 1 currently valid r" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Heparin has 1 valid registration of 1 in the Philippines, but l" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
 
 <!-- review:end log -->

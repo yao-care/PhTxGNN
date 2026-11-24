@@ -121,7 +121,7 @@ Several completed Phase 3 trials support inhaled epinephrine in asthma, which gi
 
 <!-- review:begin ph-lic-20261106-epinephrine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit. The Philippines registration is cancelled, so no product is currently marketed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "For the truly new use, infant bronchiolitis, the evidence is mixed, with limited sustained benefit. The Philippines registration is cancelled, so no product is currently marketed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-epinephrine-1 -->
 
@@ -138,7 +138,7 @@ Other predicted indications are weaker:
 
 <!-- review:begin ph-lic-20261106-epinephrine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A decision on whether to focus on infant bronchiolitis as the real repurposing question, with a review of the latest meta-analytic evidence / Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A decision on whether to focus on infant bronchiolitis as the real repurposing question, with a review of the latest meta-analytic evidence / Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-epinephrine-2 -->
 
@@ -150,8 +150,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The Philippines registration is cancelled, so no product is currently marketed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The Philippines registration is cancelled, so no product is currently marketed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration status and the available dosage forms and routes in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->

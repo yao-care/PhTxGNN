@@ -45,7 +45,7 @@ The one prediction with some literature is **open-angle glaucoma** (6 publicatio
 
 <!-- review:begin ph-lic-20261106-thiamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report contain no approved indication text for it. The TxGNN model predicts it may be useful for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model score alone." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report contain no approved indication text for it. The TxGNN model predicts it may be useful for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model score alone." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-thiamine-1 -->
 
@@ -127,7 +127,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report contain no approved indication text for it" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Thiamine (vitamin B1) is registered in the Philippines, but the data compiled for this report contain no approved indication text for it" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

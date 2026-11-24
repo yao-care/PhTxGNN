@@ -74,7 +74,7 @@ Currently no related literature available for pseudoachondroplasia.
 
 <!-- review:begin ph-lic-20261106-lithium_carbonate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The only license on record is valid, so the drug is currently marketed with 1 valid license of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only license on record is valid, so the drug is currently marketed with 1 valid license of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-lithium_carbonate-1 -->
 
@@ -109,7 +109,7 @@ The prediction has no clinical trials or lithium-specific literature behind it (
 
 <!-- review:begin ph-lic-20261106-lithium_carbonate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction has no clinical trials or lithium-specific literature behind it (Evidence Level L5). The proposed mechanism is speculative, the Philippines registration has been cancelled, and the safety profile includes serious knowledge-graph contraindication signals and Major interactions." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction has no clinical trials or lithium-specific literature behind it (Evidence Level L5). The proposed mechanism is speculative, the Philippines registration has been cancelled, and the safety profile includes serious knowledge-graph contraindication signals and Major interactions." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-lithium_carbonate-2 -->
 
@@ -121,7 +121,7 @@ The prediction has no clinical trials or lithium-specific literature behind it (
 
 <!-- review:begin ph-lic-20261106-lithium_carbonate-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Package insert warnings and contraindications from the DOH-FDA Philippines / A current valid registration or a clear regulatory pathway in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications from the DOH-FDA Philippines / A current valid registration or a clear regulatory pathway in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-lithium_carbonate-3 -->
 
@@ -133,9 +133,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only license on record is valid, so the drug is currently marketed with 1 valid license of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The proposed mechanism is speculative, the Philippines registration has been cancelled, and the safety profile includes serious knowledge-gr" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "A current valid registration or a clear regulatory pathway in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only license on record is valid, so the drug is currently marketed with 1 valid license of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The proposed mechanism is speculative, the Philippines registration has been cancelled, and the safety profile includes serious knowledge-gr" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "A current valid registration or a clear regulatory pathway in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
 
 <!-- review:end log -->

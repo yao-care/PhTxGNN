@@ -89,7 +89,7 @@ The data compiled for this report do not include indication text for the local p
 
 <!-- review:begin ph-lic-20261106-ipratropium-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Local records show ipratropium as **Marketed** in the Philippines. The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Local records show ipratropium as **Marketed** in the Philippines. The data compiled for this report do not include dosage form or indication text for the local product, so the route of administration cannot be confirmed here." Removed: its description of the Philippine products did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-ipratropium-1 -->
 
@@ -120,7 +120,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Local records show ipratropium as **Marketed** in the Philippines. dosage form or , so the route of administration cannot be confirmed here" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Local records show ipratropium as **Marketed** in the Philippines. dosage form or , so the route of administration cannot be confirmed here" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->

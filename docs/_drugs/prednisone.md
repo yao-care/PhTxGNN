@@ -115,7 +115,7 @@ The mechanism is plausible and a double-blind randomized trial supports low-dose
 
 <!-- review:begin ph-lic-20261031-prednisone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The mechanism is plausible and a double-blind randomized trial supports low-dose prednisone as part of a combination regimen in severe alopecia areata. However, there are no registered trials, much of the evidence is old or consists of small case series, relapse after withdrawal is common, and the only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The mechanism is plausible and a double-blind randomized trial supports low-dose prednisone as part of a combination regimen in severe alopecia areata. However, there are no registered trials, much of the evidence is old or consists of small case series, relapse after withdrawal is common, and the only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-prednisone-1 -->
 
@@ -127,7 +127,7 @@ The mechanism is plausible and a double-blind randomized trial supports low-dose
 
 <!-- review:begin ph-lic-20261031-prednisone-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "**To proceed, the following is needed:** / Confirm a currently valid Philippine registration or product source, since the only licence on record is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "**To proceed, the following is needed:** / Confirm a currently valid Philippine registration or product source, since the only licence on record is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-prednisone-2 -->
 
@@ -139,8 +139,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "However, there are no registered trials, much of the evidence is old or consists of small case series, relapse after withdrawal is common, a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Confirm a currently valid Philippine registration or product source, since the only licence on record is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, there are no registered trials, much of the evidence is old or consists of small case series, relapse after withdrawal is common, a" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirm a currently valid Philippine registration or product source, since the only licence on record is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
 
 <!-- review:end log -->

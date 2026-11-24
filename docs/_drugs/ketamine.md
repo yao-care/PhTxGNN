@@ -126,7 +126,7 @@ No label safety information is available, and the knowledge graph flags many car
 
 <!-- review:begin ph-lic-20261031-ketamine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The only Philippine registration is cancelled, with no recorded indication or dosage form. No label safety information is available, and the knowledge graph flags many cardiovascular and cerebrovascular contraindications, which matter for headache patients." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only Philippine registration is cancelled, with no recorded indication or dosage form. No label safety information is available, and the knowledge graph flags many cardiovascular and cerebrovascular contraindications, which matter for headache patients." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-ketamine-1 -->
 
@@ -138,7 +138,7 @@ No label safety information is available, and the knowledge graph flags many car
 
 <!-- review:begin ph-lic-20261031-ketamine-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The Philippine package insert (warnings and contraindications) and a curated mechanism of action. / Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and available routes (IV, intranasal)." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The Philippine package insert (warnings and contraindications) and a curated mechanism of action. / Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and available routes (IV, intranasal)." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-ketamine-2 -->
 
@@ -150,8 +150,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippine registration is cancelled, with no recorded indication or dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and avail" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippine registration is cancelled, with no recorded indication or dosage form" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the regulatory pathway, since the only registration is cancelled, and a review of the controlled-substance status and avail" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->

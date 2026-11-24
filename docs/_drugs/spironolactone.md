@@ -110,7 +110,7 @@ The only support for this prediction is a high model score. There are no clinica
 
 <!-- review:begin ph-lic-20261106-spironolactone-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "There are no clinical trials or publications, and the mechanistic link is speculative because the target conditions are genetic and not primarily androgen-driven. The only Philippines registration has been cancelled, which further limits near-term feasibility." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "There are no clinical trials or publications, and the mechanistic link is speculative because the target conditions are genetic and not primarily androgen-driven. The only Philippines registration has been cancelled, which further limits near-term feasibility." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-spironolactone-1 -->
 
@@ -122,7 +122,7 @@ The only support for this prediction is a high model score. There are no clinica
 
 <!-- review:begin ph-lic-20261106-spironolactone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Published evidence (case reports, case series or trials) of spironolactone in hypotrichosis simplex or related hereditary hair-loss disorders / Confirmation of whether a valid registration or an alternative supply route exists in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Published evidence (case reports, case series or trials) of spironolactone in hypotrichosis simplex or related hereditary hair-loss disorders / Confirmation of whether a valid registration or an alternative supply route exists in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-spironolactone-2 -->
 
@@ -134,8 +134,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only Philippines registration has been cancelled, which further limits near-term feasibility" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Confirmation of whether a valid registration or an alternative supply route exists in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration has been cancelled, which further limits near-term feasibility" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of whether a valid registration or an alternative supply route exists in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->

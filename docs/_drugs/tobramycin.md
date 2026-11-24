@@ -121,7 +121,7 @@ The prediction score is high, but it is supported only by model output and indir
 
 <!-- review:begin ph-lic-20261031-tobramycin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Corneal toxicity is a concern in this setting. The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Corneal toxicity is a concern in this setting. The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-tobramycin-1 -->
 
@@ -133,7 +133,7 @@ The prediction score is high, but it is supported only by model output and indir
 
 <!-- review:begin ph-lic-20261031-tobramycin-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Clinical or well-designed preclinical data on tobramycin in exposure keratitis, including corneal epithelial safety / Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 2 entries for this drug, 2 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clinical or well-designed preclinical data on tobramycin in exposure keratitis, including corneal epithelial safety / Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-tobramycin-2 -->
 
@@ -145,8 +145,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, and no package insert data are available, so safety screening cannot proceed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Confirmation of an available topical ophthalmic product, since the only registration is cancelled and lists no dosage form" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->

@@ -111,7 +111,7 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 <!-- review:begin ph-lic-20261106-sulfacetamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The Philippines registration is cancelled, and package insert safety information is unavailable." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The Philippines registration is cancelled, and package insert safety information is unavailable." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-sulfacetamide-2 -->
 
@@ -123,7 +123,7 @@ The prediction is supported only by the model score, with no clinical trials or 
 
 <!-- review:begin ph-lic-20261031-sulfacetamide-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "A literature and trial search specific to sulfacetamide and postinfectious vasculitis / Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A literature and trial search specific to sulfacetamide and postinfectious vasculitis / Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-sulfacetamide-1 -->
 
@@ -135,8 +135,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The hilippines registration is cancelled, and p" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the market status, since the only registration is cancelled, and of the available dosage forms and routes" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The hilippines registration is cancelled, and p" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0) |
 
 <!-- review:end log -->

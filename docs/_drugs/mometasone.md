@@ -96,7 +96,7 @@ The evidence is model prediction only (L5). There are no clinical trials, and th
 
 <!-- review:begin ph-lic-20261031-mometasone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma. The only Philippines registration is cancelled, and there is no label-based safety information." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "There are no clinical trials, and the two publications are case reports that do not show mometasone efficacy in cutaneous T-cell lymphoma. The only Philippines registration is cancelled, and there is no label-based safety information." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-mometasone-1 -->
 
@@ -108,7 +108,7 @@ The evidence is model prediction only (L5). There are no clinical trials, and th
 
 <!-- review:begin ph-lic-20261106-mometasone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and available dosage forms, including whether a valid topical product is registered in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 0 entries for this drug, 0 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the original approved indication and available dosage forms, including whether a valid topical product is registered in the Philippines" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-mometasone-2 -->
 
@@ -120,8 +120,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and there is no label-based safety information" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "including whether a valid topical product is registered in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, and there is no label-based safety information" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "including whether a valid topical product is registered in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->

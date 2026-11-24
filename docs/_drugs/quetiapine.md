@@ -108,7 +108,7 @@ Quetiapine is marketed in the Philippines.
 
 <!-- review:begin ph-lic-20261106-quetiapine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Quetiapine is marketed in the Philippines. One registration is on record, and it is valid (1 valid registration of 1)." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Quetiapine is marketed in the Philippines. One registration is on record, and it is valid (1 valid registration of 1)." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-quetiapine-2 -->
 
@@ -134,7 +134,7 @@ The top-ranked prediction (retinal dystrophy with or without extraocular anomali
 
 <!-- review:begin ph-lic-20261106-quetiapine-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Trichotillomania has only anecdotal, case-level evidence (L4), and quetiapine carries significant metabolic, cardiac and sedative risks. Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-quetiapine-3 -->
 
@@ -145,7 +145,7 @@ The top-ranked prediction (retinal dystrophy with or without extraocular anomali
 
 <!-- review:begin ph-lic-20261031-quetiapine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted / Clarification of the regulatory pathway, since the only Philippine registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "For trichotillomania: full-text review of the case reports and a risk-benefit comparison against better-established treatments, followed by a controlled study if warranted / Clarification of the regulatory pathway, since the only Philippine registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-quetiapine-1 -->
 
@@ -157,9 +157,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the regulatory pathway, since the only Philippine registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "One registration is on record, and it is valid (1 valid registration of 1)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the regulatory pathway, since the only Philippine registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "One registration is on record, and it is valid (1 valid registration of 1)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Quetiapine is marketed in the Philippines, with 1 valid registration of 1 on record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->

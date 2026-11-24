@@ -125,7 +125,7 @@ The biological rationale for HIV is plausible, and a few small studies exist. Ho
 
 <!-- review:begin ph-lic-20261031-mycophenolate_mofetil-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "MMF's immunosuppression also raises infection-risk concerns in this population. In the Philippines, the only registration is cancelled, and the package insert data are unavailable, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "MMF's immunosuppression also raises infection-risk concerns in this population. In the Philippines, the only registration is cancelled, and the package insert data are unavailable, so safety screening cannot proceed." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-mycophenolate_mofetil-1 -->
 
@@ -144,7 +144,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "In the Philippines, the only registration is cancelled, and the package insert data are unavailable, so safety screening cannot proceed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "In the Philippines, the only registration is cancelled, and the package insert data are unavailable, so safety screening cannot proceed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->

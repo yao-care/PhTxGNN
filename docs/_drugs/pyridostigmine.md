@@ -118,7 +118,7 @@ The mechanism is well established for AChR-antibody myasthenia gravis, which is 
 
 <!-- review:begin ph-lic-20261106-pyridostigmine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The prediction, however, mostly restates an existing use, and no trials or direct evidence in this subtype are available. The only registration in the Philippines has been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction, however, mostly restates an existing use, and no trials or direct evidence in this subtype are available. The only registration in the Philippines has been cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-pyridostigmine-1 -->
 
@@ -136,7 +136,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only registration in the Philippines has been cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only registration in the Philippines has been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pryidostigmine Bromide (pyridostigmine bromide) prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=beda905e-005a-439d-ac74-92db4e269780) |
 
 <!-- review:end log -->

@@ -128,7 +128,7 @@ Please refer to the package insert warnings and precautions for full details.
 
 <!-- review:begin ph-lic-20261031-mitoxantrone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-mitoxantrone-1 -->
 
@@ -156,7 +156,7 @@ Head and neck cancer has the strongest evidence among the eight predictions: a c
 
 <!-- review:begin ph-lic-20261031-mitoxantrone-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Head and neck cancer has the strongest evidence among the eight predictions: a completed Phase Ib study, a 2025 publication, and an upcoming Phase III trial in nasopharyngeal carcinoma. However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data apply to the liposomal formulation, and the only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Head and neck cancer has the strongest evidence among the eight predictions: a completed Phase Ib study, a 2025 publication, and an upcoming Phase III trial in nasopharyngeal carcinoma. However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data apply to the liposomal formulation, and the only Philippine registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-mitoxantrone-2 -->
 
@@ -168,7 +168,7 @@ Head and neck cancer has the strongest evidence among the eight predictions: a c
 
 <!-- review:begin ph-lic-20261106-mitoxantrone-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Results from the Phase III trial NCT05717764 and the Phase II trials in nasopharyngeal carcinoma / Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conventional product only)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Results from the Phase III trial NCT05717764 and the Phase II trials in nasopharyngeal carcinoma / Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conventional product only)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-mitoxantrone-3 -->
 
@@ -180,9 +180,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data a" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conve" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only registration is cancelled, so no mitoxantrone product is currently marketed in the Philippines" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, the efficacy evidence is still early-phase, historic Phase II results with conventional mitoxantrone were modest, the recent data a" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of whether the liposomal formulation is available or registrable in the Philippines (the cancelled registration covers a conve" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
 
 <!-- review:end log -->

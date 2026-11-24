@@ -123,7 +123,7 @@ The prediction is supported only by a model score. There are no clinical trials,
 
 <!-- review:begin ph-lic-20261031-fluticasone-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "There are no clinical trials, and the sole publication is a safety review rather than evidence of benefit. The only Philippine registration is cancelled, and the package insert and mechanism data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 3 entries for this drug, 3 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "There are no clinical trials, and the sole publication is a safety review rather than evidence of benefit. The only Philippine registration is cancelled, and the package insert and mechanism data are missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-fluticasone-1 -->
 
@@ -142,7 +142,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippine registration is cancelled, and the package insert and mechanism data are missing" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippine registration is cancelled, and the package insert and mechanism data are missing" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->

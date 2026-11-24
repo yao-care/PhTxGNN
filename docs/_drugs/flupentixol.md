@@ -70,7 +70,7 @@ Currently no related literature available.
 
 <!-- review:begin ph-lic-20261106-flupentixol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The local data lists one licence record for single-ingredient flupentixol. The licence-level status in that record is marked as cancelled, while the overall market status is reported as marketed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The local data lists one licence record for single-ingredient flupentixol. The licence-level status in that record is marked as cancelled, while the overall market status is reported as marketed." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-flupentixol-1 -->
 
@@ -111,7 +111,7 @@ The prediction has no supporting clinical trials or publications (evidence level
 
 <!-- review:begin ph-lic-20261106-flupentixol-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the current licence status of PNF-xxxx" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the current licence status of PNF-xxxx" Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-flupentixol-2 -->
 
@@ -123,8 +123,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The local data lists one licence record for single-ingredient flupentixol. The licence-level status in that record is marked as cancelled, w" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "of PNF-xxxx" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The local data lists one licence record for single-ingredient flupentixol. The licence-level status in that record is marked as cancelled, w" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "of PNF-xxxx" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

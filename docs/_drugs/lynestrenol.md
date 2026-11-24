@@ -44,7 +44,7 @@ The evidence is weak and mostly indirect, so this should be treated as a researc
 
 <!-- review:begin ph-lic-20261106-lynestrenol-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Lynestrenol is a progestin (a hormonal medicine) registered in the Philippines, but no approved indication text is available in the local licence record." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Lynestrenol is a progestin (a hormonal medicine) registered in the Philippines, but no approved indication text is available in the local licence record." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-lynestrenol-1 -->
 
@@ -120,7 +120,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "registered in the Philippines, but no approved indication text is available in the local licence record" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "registered in the Philippines, but no approved indication text is available in the local licence record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

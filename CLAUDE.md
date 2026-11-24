@@ -546,3 +546,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：acetylcysteine「Approved use: Not recorded in the local data」→「In the Philippines: 1 PNF entry」；2026-11-19 改了 214 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site PhTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 正文 PNF 品項張數由程式改寫（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日「許可證張數與狀態不再每週過期」）：本站市場段落的程式許可證表（PNF 品項表，`scripts/sync_license_tables.py`）2026-11-06 起已有，這次只做 B：正文張數依快照事實層由程式改寫。
+- `scripts/rewrite_license_counts.py`＋`src/phtxgnn/regulatory/count_prose.py`（照 Kr／My 移植，英文句型照 InTxGNN）：依 `snapshots/ph_licenses.json.gz` 的 facts 改寫句型明確的「N PNF entries」「one single-ingredient record」「N registrations／licences」等；
+  本站口徑只講筆數（PNF 沒有有效／註銷，事實層 valid＝total、cancelled＝0）。有保留、講證據包或查詢、相對數、劑型或品牌子集、顯示筆數、partial 或總數 0 的頁不動；同一行有判斷不了的整行不動；
+  單方張數不符（single）、0／1 張與單複數（grammar）、「all／both …」前提不符（premise）不改、`--list`／`--uncertain` 列出。不寫查核框；查核紀錄 replacement／anchor 所在的句子不改。
+- 接上：`scripts/apply_drug_reviews.py`（非 --check）結尾；`scripts/build_license_snapshot.py` 結尾先跑 `sync_license_tables.py`（依證據包重排程式表，沒有 data/bundles 的頁略過）再跑改寫（不給 --ws 也能跑，只做這兩步；`--no-rewrite` 不跑）；
+  `scripts/license_rebuild_run.py` 轉紀錄前那次建快照加 `--no-rewrite`（免得程式改寫的張數被 reviews_from_edits 轉成紀錄）；gate 第 22 項擋「再跑一次會變」。
+  每週許可證排程本站是監看模式（license_adapter WATCH，只開 issue、不改頁），所以 adapter 沒有 sync_tables 掛鉤。
+- 2026-11-24 量測（公開＋noindex 共 405 頁，扣轉址）：正文寫本藥 PNF 品項張數的句子只有 3 句（chloroquine、enoxaparin、latanoprost 的「one single-ingredient record」），都跟事實層一致，改寫 0 句、待查 0 句
+  （10-31～11-06 已把矛盾句刪成查核紀錄）；另寫的寬偵測全量掃到 127 句，其餘是交互作用筆數、作用機轉節錄、證據包說明等非品項張數。單方／複方說法逐句對證據包 kind：沒有寫錯的（losartan「used … as a single-ingredient product」PNF 另有 losartan＋HCTZ 複方，句子沒說全部單方，不改）。
+- 查核紀錄說明不寫死張數（用戶同日決定）：`reviews_from_edits.py` 的 figures 樣板改成「The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries.」；
+  既有 449 筆紀錄 note 裡的「The PNF lists N entries for this drug, N current; …」同 id 重發成同一句（前版存 history，reason 註明），更正的事實內容不變；頁面 274 頁查核框與 Review Log 跟著改（日期顯示 2026-11-24），last_modified_at 不動（只改查核框）。

@@ -111,7 +111,7 @@ The prediction score is very high, but the evidence is L4: a plausible adenosine
 
 <!-- review:begin ph-lic-20261031-aminophylline-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction score is very high, but the evidence is L4: a plausible adenosine-antagonism mechanism supported only by a narrative review and case reports, with no clinical trials. The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction score is very high, but the evidence is L4: a plausible adenosine-antagonism mechanism supported only by a narrative review and case reports, with no clinical trials. The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-aminophylline-1 -->
 
@@ -130,7 +130,7 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines license is cancelled, so there is no currently marketed product, and no label safety data were available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
 
 <!-- review:end log -->

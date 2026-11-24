@@ -121,7 +121,7 @@ The TxGNN score is high, but it comes from the TxGNN model (deep learning) and m
 
 <!-- review:begin ph-lic-20261106-dobutamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The only Philippine registration is valid and the drug is marketed, but it is an IV inotrope that is not suited to chronic hair-loss therapy." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The only Philippine registration is valid and the drug is marketed, but it is an IV inotrope that is not suited to chronic hair-loss therapy." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-dobutamine-1 -->
 
@@ -133,7 +133,7 @@ The TxGNN score is high, but it comes from the TxGNN model (deep learning) and m
 
 <!-- review:begin ph-lic-20261106-dobutamine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The product label warnings and contraindications from the Philippine FDA, and the original approved indication and dosage form of the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The product label warnings and contraindications from the Philippine FDA, and the original approved indication and dosage form of the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-dobutamine-2 -->
 
@@ -145,8 +145,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The only Philippine registration is valid and the drug is marketed, but i" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "and the original approved indication and dosage form of the cancelled registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippine registration is valid and the drug is marketed, but i" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "and the original approved indication and dosage form of the cancelled registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
 
 <!-- review:end log -->

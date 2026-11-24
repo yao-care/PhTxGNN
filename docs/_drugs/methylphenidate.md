@@ -102,7 +102,7 @@ No approved indication text is available.
 
 <!-- review:begin ph-lic-20261106-methylphenidate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The one registration on record (PNF-xxxx, methylphenidate, single-ingredient) is valid, and the drug is marketed. No dosage form or approved indication text is available." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The one registration on record (PNF-xxxx, methylphenidate, single-ingredient) is valid, and the drug is marketed. No dosage form or approved indication text is available." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-methylphenidate-2 -->
 
@@ -134,7 +134,7 @@ The prediction for faciodigitogenital syndrome rests on a very high model score 
 
 <!-- review:begin ph-lic-20261031-methylphenidate-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction for faciodigitogenital syndrome rests on a very high model score only, with no clinical trials, no literature and no established mechanistic link. The only Philippines registration is cancelled, so there is no currently marketed product." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction for faciodigitogenital syndrome rests on a very high model score only, with no clinical trials, no literature and no established mechanistic link. The only Philippines registration is cancelled, so there is no currently marketed product." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-methylphenidate-1 -->
 
@@ -147,7 +147,7 @@ The prediction for faciodigitogenital syndrome rests on a very high model score 
 
 <!-- review:begin ph-lic-20261106-methylphenidate-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the regulatory status in the Philippines (the sole registration is cancelled), including controlled-substance requirements" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-methylphenidate-3 -->
 
@@ -159,9 +159,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, so there is no currently marketed product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The one registration on record (PNF-xxxx, methylphenidate, single-ingredient) is valid, and the drug is marketed. dosage form or" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "(the sole registration is cancelled)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, so there is no currently marketed product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The one registration on record (PNF-xxxx, methylphenidate, single-ingredient) is valid, and the drug is marketed. dosage form or" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "(the sole registration is cancelled)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->

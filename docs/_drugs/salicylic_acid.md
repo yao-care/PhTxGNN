@@ -102,7 +102,7 @@ The prediction for papillary conjunctivitis has no supporting clinical trials or
 
 <!-- review:begin ph-lic-20261031-salicylic_acid-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction for papillary conjunctivitis has no supporting clinical trials or literature (evidence level L5). The only Philippines registration is cancelled, and the mechanistic link is speculative with ocular safety concerns." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction for papillary conjunctivitis has no supporting clinical trials or literature (evidence level L5). The only Philippines registration is cancelled, and the mechanistic link is speculative with ocular safety concerns." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-salicylic_acid-1 -->
 
@@ -114,7 +114,7 @@ The prediction for papillary conjunctivitis has no supporting clinical trials or
 
 <!-- review:begin ph-lic-20261031-salicylic_acid-2 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Ocular tolerability and safety assessment, plus a feasible ophthalmic formulation and route / Clarification of the market status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Ocular tolerability and safety assessment, plus a feasible ophthalmic formulation and route / Clarification of the market status, since the only registration is cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-salicylic_acid-2 -->
 
@@ -126,8 +126,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and the mechanistic link is speculative with ocular safety concerns" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-10-31 | Removed: "Clarification of the market status, since the only registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, and the mechanistic link is speculative with ocular safety concerns" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the market status, since the only registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xalix (salicylic acid) prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41369b38-7f15-b597-e063-6394a90a614b) |
 
 <!-- review:end log -->

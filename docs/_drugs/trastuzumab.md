@@ -121,7 +121,7 @@ Trastuzumab is an antineoplastic agent, so this section applies.
 
 <!-- review:begin ph-lic-20261106-trastuzumab-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one registration, which is cancelled." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The data compiled for this report show one registration, which is cancelled." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-trastuzumab-2 -->
 
@@ -160,7 +160,7 @@ Large Phase 3 data, including a completed adjuvant trial of 3,270 patients, supp
 
 <!-- review:begin ph-lic-20261031-trastuzumab-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Restrict use to confirmed HER2-positive disease; no benefit is expected in HR+/HER2-negative or triple-negative disease / A currently valid Philippines registration (the only registration on record is cancelled)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Restrict use to confirmed HER2-positive disease; no benefit is expected in HR+/HER2-negative or triple-negative disease / A currently valid Philippines registration (the only registration on record is cancelled)" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-trastuzumab-1 -->
 
@@ -177,8 +177,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "A currently valid Philippines registration (the only registration on record is cancelled)" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The data compiled for this report show one registration, which is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "A currently valid Philippines registration (the only registration on record is cancelled)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The data compiled for this report show one registration, which is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->

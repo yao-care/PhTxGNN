@@ -127,7 +127,7 @@ Multiple completed Phase 3 placebo-controlled trials (each with several hundred 
 
 <!-- review:begin ph-lic-20261031-aripiprazole-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Multiple completed Phase 3 placebo-controlled trials (each with several hundred to over 1,000 participants) and several network meta-analyses support adjunctive aripiprazole in major depressive disorder. However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further steps." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Multiple completed Phase 3 placebo-controlled trials (each with several hundred to over 1,000 participants) and several network meta-analyses support adjunctive aripiprazole in major depressive disorder. However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further steps." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-aripiprazole-1 -->
 
@@ -140,7 +140,7 @@ Multiple completed Phase 3 placebo-controlled trials (each with several hundred 
 
 <!-- review:begin ph-lic-20261106-aripiprazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirm regulatory status in the Philippines, since the sole registration (PNF-xxxx) is cancelled, and determine whether a new or reinstated registration is needed" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Confirm regulatory status in the Philippines, since the sole registration (PNF-xxxx) is cancelled, and determine whether a new or reinstated registration is needed" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. "PNF-xxxx" stands for a code an earlier version of this site's software assigned to the record; the PNF has no entry numbers, so the code is not shown. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-aripiprazole-2 -->
 
@@ -152,8 +152,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "since the sole registration (PNF-xxxx) is cancelled, and determine whether a new or reinstated registration is needed" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, the only Philippines registration is cancelled and there is no local label information, so local use cannot proceed without further" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "since the sole registration (PNF-xxxx) is cancelled, and determine whether a new or reinstated registration is needed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-20 | "Detailed mechanism data was not available in the drug-level records compiled for this report, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->

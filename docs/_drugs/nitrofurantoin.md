@@ -112,7 +112,7 @@ Please refer to the package insert for full warnings and contraindications.
 
 <!-- review:begin ph-lic-20261031-nitrofurantoin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The available evidence points to harm (pulmonary toxicity, methotrexate interaction), and there is no plausible mechanism. / The only Philippine registration is cancelled, with no recorded indication." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The available evidence points to harm (pulmonary toxicity, methotrexate interaction), and there is no plausible mechanism. / The only Philippine registration is cancelled, with no recorded indication." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-nitrofurantoin-1 -->
 
@@ -124,7 +124,7 @@ Please refer to the package insert for full warnings and contraindications.
 
 <!-- review:begin ph-lic-20261106-nitrofurantoin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A pulmonary and hepatic safety assessment for patients on methotrexate or other disease-modifying drugs / Clarification of the registration status and approved indication of the cancelled license" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A pulmonary and hepatic safety assessment for patients on methotrexate or other disease-modifying drugs / Clarification of the registration status and approved indication of the cancelled license" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-nitrofurantoin-2 -->
 
@@ -136,8 +136,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippine registration is cancelled, with no recorded indication" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the registration status and approved indication of the cancelled license" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippine registration is cancelled, with no recorded indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the registration status and approved indication of the cancelled license" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->

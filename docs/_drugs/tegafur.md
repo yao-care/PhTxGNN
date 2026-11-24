@@ -130,7 +130,7 @@ Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in
 
 <!-- review:begin ph-lic-20261106-tegafur-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "However, the Philippine registration for tegafur is cancelled, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "However, the Philippine registration for tegafur is cancelled, the evidence is largely for combination regimens rather than tegafur alone, and safety label data is missing." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tegafur-1 -->
 
@@ -143,7 +143,7 @@ Several large, completed Phase 3 RCTs of tegafur-containing regimens (UFT/LV) in
 
 <!-- review:begin ph-lic-20261106-tegafur-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory path for a new indication, since the drug is currently marketed in the Philippines with 1 valid licence out of 1" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the regulatory path for a new indication, since the drug is currently marketed in the Philippines with 1 valid licence out of 1" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tegafur-2 -->
 
@@ -155,8 +155,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "the Philippine registration for tegafur is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "since the drug is currently marketed in the Philippines with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "the Philippine registration for tegafur is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "since the drug is currently marketed in the Philippines with 1 valid licence out of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL20883 (tegafur): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL20883) |
 
 <!-- review:end log -->

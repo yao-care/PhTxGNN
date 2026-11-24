@@ -132,7 +132,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261031-isosorbide_mononitrate-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "PAH is biologically plausible (Evidence Level L4, flagged as a research question), but the evidence is indirect, nitrates are not guideline-recommended, and the PDE5 inhibitor interaction is a serious concern. / The only Philippines registration is cancelled, so there is no currently marketed product." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "PAH is biologically plausible (Evidence Level L4, flagged as a research question), but the evidence is indirect, nitrates are not guideline-recommended, and the PDE5 inhibitor interaction is a serious concern. / The only Philippines registration is cancelled, so there is no currently marketed product." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-isosorbide_mononitrate-1 -->
 
@@ -144,7 +144,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261106-isosorbide_mononitrate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data from DrugBank / Original approved indication and dosage form for the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data from DrugBank / Original approved indication and dosage form for the cancelled registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-isosorbide_mononitrate-2 -->
 
@@ -156,8 +156,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, so there is no currently marketed product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Original approved indication and dosage form for the cancelled registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, so there is no currently marketed product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Original approved indication and dosage form for the cancelled registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled records" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isosorbide mononitrate prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=86be0e85-5337-bee4-e053-2a91aa0a8158) |
 
 <!-- review:end log -->

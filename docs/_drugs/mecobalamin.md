@@ -98,7 +98,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261031-mecobalamin-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction has only a model score behind it (Evidence Level L5), with no clinical trials or literature for any of the three top predicted indications. / The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction has only a model score behind it (Evidence Level L5), with no clinical trials or literature for any of the three top predicted indications. / The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-mecobalamin-1 -->
 
@@ -111,7 +111,7 @@ Package insert warnings and contraindications were not available. Please refer t
 
 <!-- review:begin ph-lic-20261106-mecobalamin-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the original approved indication and dosage form, and of why the registration was cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the original approved indication and dosage form, and of why the registration was cancelled" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-mecobalamin-2 -->
 
@@ -123,8 +123,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "and of why the registration was cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The only Philippines registration is cancelled, and neither its original indication nor its dosage form is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "and of why the registration was cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

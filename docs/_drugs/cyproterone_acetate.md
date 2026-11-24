@@ -114,7 +114,7 @@ The prediction rests on a model score and indirect hormonal literature, with no 
 
 <!-- review:begin ph-lic-20261106-cyproterone_acetate-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The drug is also marketed in the Philippines (1 valid license of 1), and its thrombotic safety signal is a concern." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The drug is also marketed in the Philippines (1 valid license of 1), and its thrombotic safety signal is a concern." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-cyproterone_acetate-1 -->
 
@@ -126,7 +126,7 @@ The prediction rests on a model score and indirect hormonal literature, with no 
 
 <!-- review:begin ph-lic-20261106-cyproterone_acetate-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Clarification of the regulatory status in the Philippines, including whether any valid registration or product is available" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Clarification of the regulatory status in the Philippines, including whether any valid registration or product is available" Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-cyproterone_acetate-2 -->
 
@@ -138,8 +138,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The drug is also marketed in the Philippines (1 valid license of 1), and i" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "including whether any valid registration or product is available" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The drug is also marketed in the Philippines (1 valid license of 1), and i" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "including whether any valid registration or product is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 
 <!-- review:end log -->
 

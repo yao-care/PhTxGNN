@@ -100,7 +100,7 @@ The prediction rests on model output alone (Evidence Level L5), with no trials o
 
 <!-- review:begin ph-lic-20261031-cycloserine-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The prediction rests on model output alone (Evidence Level L5), with no trials or literature and no supported mechanism. Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-cycloserine-1 -->
 
@@ -112,7 +112,7 @@ The prediction rests on model output alone (Evidence Level L5), with no trials o
 
 <!-- review:begin ph-lic-20261106-cycloserine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A safety plan addressing neuropsychiatric toxicity and the major drug interactions / Clarification of the cancelled registration status and the availability of any marketed product" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A safety plan addressing neuropsychiatric toxicity and the major drug interactions / Clarification of the cancelled registration status and the availability of any marketed product" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-cycloserine-2 -->
 
@@ -124,8 +124,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of the cancelled registration status and the availability of any marketed product" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Cycloserine carries significant neuropsychiatric risk and many drug interactions, and the only Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the cancelled registration status and the availability of any marketed product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cycloserine prescribing information, Dr. Reddys Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8e7e2665-7a3d-3f54-9f92-5fe845f02ef9) |
 
 <!-- review:end log -->

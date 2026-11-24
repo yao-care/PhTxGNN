@@ -107,7 +107,7 @@ The top prediction has no clinical trials and no literature, so it rests on a mo
 
 <!-- review:begin ph-lic-20261106-acetazolamide-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The product is marketed in the Philippines, with 1 valid licence out of 1, and some lower-ranked predictions carry safety signals." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The product is marketed in the Philippines, with 1 valid licence out of 1, and some lower-ranked predictions carry safety signals." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-acetazolamide-2 -->
 
@@ -119,7 +119,7 @@ The top prediction has no clinical trials and no literature, so it rests on a mo
 
 <!-- review:begin ph-lic-20261031-acetazolamide-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Package insert warnings and contraindications from the Philippine regulator / Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Package insert warnings and contraindications from the Philippine regulator / Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-acetazolamide-1 -->
 
@@ -131,8 +131,8 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1, and s" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of the registration status, since the only licence is cancelled and has no dosage form or indication recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1, and s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
 
 <!-- review:end log -->

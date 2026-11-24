@@ -115,7 +115,7 @@ Tamoxifen is an antineoplastic drug. It is a hormonal agent rather than a conven
 
 <!-- review:begin ph-lic-20261106-tamoxifen-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tamoxifen-1 -->
 
@@ -147,7 +147,7 @@ There is no direct trial evidence for tamoxifen in mammary Paget disease, and th
 
 <!-- review:begin ph-lic-20261106-tamoxifen-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication. The product is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "The mechanistic rationale is plausible but only extends tamoxifen's existing breast cancer indication. The product is marketed in the Philippines, with 1 valid licence out of 1." Removed: the number or status of PNF entries stated here did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tamoxifen-2 -->
 
@@ -159,7 +159,7 @@ There is no direct trial evidence for tamoxifen in mammary Paget disease, and th
 
 <!-- review:begin ph-lic-20261106-tamoxifen-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A review of the underlying breast disease (DCIS or invasive carcinoma), where tamoxifen evidence is already strong, to see whether Paget disease can be managed within existing indications / A regulatory assessment of the cancelled Philippines registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A review of the underlying breast disease (DCIS or invasive carcinoma), where tamoxifen evidence is already strong, to see whether Paget disease can be managed within existing indications / A regulatory assessment of the cancelled Philippines registration" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tamoxifen-3 -->
 
@@ -171,9 +171,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "A regulatory assessment of the cancelled Philippines registration" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Tamoxifen is marketed in the Philippines, with 1 valid licence out of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "The product is marketed in the Philippines, with 1 valid licence out of 1" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "A regulatory assessment of the cancelled Philippines registration" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
 
 <!-- review:end log -->

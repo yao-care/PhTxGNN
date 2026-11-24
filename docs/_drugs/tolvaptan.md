@@ -67,7 +67,7 @@ Currently no related clinical trials registered. The pivotal trials (TEMPO 3:4 a
 
 <!-- review:begin ph-lic-20261106-tolvaptan-3 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "This may reflect a specific product or formulation rather than overall availability." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "This may reflect a specific product or formulation rather than overall availability." Removed: it conflicted with the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tolvaptan-3 -->
 
@@ -119,7 +119,7 @@ Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and pol
 
 <!-- review:begin ph-lic-20261031-tolvaptan-1 -->
 
-> **Review correction (2026-10-31)**: Originally stated: "Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications. However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and polycystic kidney disease is already among its listed indications. However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled." Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-10-31). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261031-tolvaptan-1 -->
 
@@ -131,7 +131,7 @@ Two pivotal RCT reports and multiple reviews support tolvaptan in ADPKD, and pol
 
 <!-- review:begin ph-lic-20261106-tolvaptan-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "A liver monitoring plan and a review of high-risk drug interactions (especially strong CYP3A inhibitors such as clarithromycin) / Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The PNF lists 1 entry for this drug, 1 current; the Quick Overview and the table under Philippines Market Information show the current figures. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
+> **Review correction (2026-11-24)**: Originally stated: "A liver monitoring plan and a review of high-risk drug interactions (especially strong CYP3A inhibitors such as clarithromycin) / Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" Removed: it said the PNF entries were cancelled, discontinued, or not current, which did not match the PNF data (the Philippine National Formulary as of 2026-11-06). The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries. Source: [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/).
 
 <!-- review:end ph-lic-20261106-tolvaptan-2 -->
 
@@ -150,9 +150,9 @@ Below is the review log for this page: statements checked against official Phili
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Removed: "However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
-| 2026-11-06 | Removed: "This may reflect a specific product or formulation rather than overall availability" | Corrected | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "However, the specific PKD3 subtype is untested, and the only Philippines registration is cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "Clarification of why the Philippines registration was cancelled and whether a valid product can be sourced" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
+| 2026-11-24 | Removed: "This may reflect a specific product or formulation rather than overall availability" | Corrected (revised 2026-11-24; earlier version kept in the record) | [Philippine National Formulary (DOH)](https://pnf.doh.gov.ph/) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
 
 <!-- review:end log -->
