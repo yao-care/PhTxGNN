@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -78,6 +78,18 @@ Currently no related clinical trials registered.
 | [35818943](https://pubmed.ncbi.nlm.nih.gov/35818943/) | 2022 | Review | Vestnik otorinolaringologii | Modern H1 antihistamines in patients with allergic rhinitis and comorbid acute respiratory infections |
 | [9301130](https://pubmed.ncbi.nlm.nih.gov/9301130/) | 1997 | Preclinical | Arerugi | Betotastine (a different drug) in experimental allergic rhinitis; cetirizine was used as a comparator and dose-dependently inhibited the response |
 | [36116201](https://pubmed.ncbi.nlm.nih.gov/36116201/) | 2022 | Preclinical | Phytomedicine | Shufeng Jiedu capsule (an unrelated agent) in a mouse model of allergic rhinitis |
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Cetirizine (as dihydrochloride) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

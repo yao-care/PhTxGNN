@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Esophageal candidiasis, candidemia, histoplasmosis, aspergillosis…"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -92,6 +92,18 @@ None of the publications below shows that itraconazole treats pneumocystosis. Th
 | [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Case report and review | Frontiers in Immunology | *Talaromyces marneffei* and *P. jirovecii* co-infection in a child with a STAT1 mutation |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Itraconazole | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

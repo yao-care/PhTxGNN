@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "Docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docetaxel: predicted new indication Ewing sarcoma (evidence level L2). In the Philippines: 1 PNF entry"
 ---
 
@@ -85,6 +85,18 @@ Clinical experience supports this, but most of it is in combination. Gemcitabine
 | [22302783](https://pubmed.ncbi.nlm.nih.gov/22302783/) | 2012 | Cohort | Pediatr Blood Cancer | Gemcitabine plus docetaxel (GEMDOX) in relapsed and refractory pediatric sarcomas |
 | [19727011](https://pubmed.ncbi.nlm.nih.gov/19727011/) | 2009 | Clinical experience | J Pediatr Hematol Oncol | Gemcitabine plus docetaxel in relapsed or refractory pediatric sarcomas |
 | [26154614](https://pubmed.ncbi.nlm.nih.gov/26154614/) | 2015 | Preclinical | Pediatr Blood Cancer | Pediatric Preclinical Testing Program comparison of cabazitaxel and docetaxel in vitro and in vivo |
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Docetaxel | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

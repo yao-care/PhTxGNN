@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 27
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L4). Approved use: Urinary tract infection, infectious otitis media, bacterial pneumonia…"
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
@@ -90,6 +90,19 @@ Currently no related clinical trials registered.
 | [7487676](https://pubmed.ncbi.nlm.nih.gov/7487676/) | 1995 | Animal study | Auris Nasus Larynx | Ibuprofen plus ampicillin in experimental otitis media in chinchillas (off-target) |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ampicillin (as sodium salt) | Injection |
+| Ampicillin + Sulbactam | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

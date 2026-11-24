@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). In the Philippines: 1 PNF entry"
@@ -96,6 +96,18 @@ Other predictions for this drug were reviewed and are not supported:
 | [29552749](https://pubmed.ncbi.nlm.nih.gov/29552749/) | 2018 | Systematic review | Cochrane Database Syst Rev | Miscellaneous treatments for antipsychotic-induced tardive dyskinesia |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Selegiline (as hydrochloride) | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

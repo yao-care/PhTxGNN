@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epirubicin: predicted new indication primary pulmonary lymphoma (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -89,6 +89,18 @@ Currently no related clinical trials registered.
 | [40728626](https://pubmed.ncbi.nlm.nih.gov/40728626/) | 2025 | Cohort | Ann Hematol | Retrospective study of Pola-R-CHP in 117 DLBCL patients; the regimen contains doxorubicin, not epirubicin |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Epirubicin (as hydrochloride) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine: predicted new indication colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -58,6 +58,18 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 ChEMBL (EMBL-EBI) records the mechanism of action of azathioprine as: Amidophosphoribosyltransferase inhibitor; DNA inhibitor ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; accessed 2026-11-19.) Azathioprine is known as an immunosuppressive purine antimetabolite that inhibits purine synthesis in lymphocytes.
 
 Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare developmental malformation syndrome affecting the eye and limbs. Immunosuppression through purine synthesis inhibition has no plausible rationale for treating a developmental condition of this kind. The very high TxGNN score (0.99999 before rounding) is not backed by any trial or publication, and likely reflects an artifact of the model rather than a true therapeutic signal. This prediction should be treated as a computational hypothesis only.
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Azathioprine | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

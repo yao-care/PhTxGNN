@@ -8,6 +8,7 @@
   3. 概覽表的狀態列與張數列＝事實層的寫法：用本站 tools/txgnn/.claude/check_drug_page.py 的 marketed_text／not_marketed_text／
      unknown_status_text／not_reg_text／count_text（checker M1／M4 的同一套函式）。
   4. 表格列寫的狀態不得跟事實相反（checker row_status_conflicts）。
+  5. 公開頁（非 noindex）快照有程式表列，卻整頁沒有市場段落（2026-11-24 第三輪）。
 修法：資料變了→跑每週排程（或 scripts/build_license_snapshot.py 重建快照）；正文的號碼、狀態不對→寫查核紀錄
 （docs/_data/drug_reviews.json）再跑 scripts/apply_drug_reviews.py。
 """
@@ -83,6 +84,8 @@ def _rows(tbl):
 
 
 def _own(cell, own):
+    if norm(cell) in own:
+        return True  # 號碼本身含括號（PNF 品項名「Interferon Alfa 2B (human)」；2026-11-24 第三輪補表時發現）
     c = norm(re.sub(r"[（(][^）)]*[）)]", "", cell))  # 號碼後面的說明括號（「14524K (as listed in the data)」）不算號碼
     if not re.search(r"\d", c):
         return True  # 不是號碼的格（「Not recorded」等）不驗
@@ -123,6 +126,10 @@ def page_problems(stem: str, text: str) -> list[str]:
     errs = []
     own = set(e["own"])
     a, b = _section(lines)
+    # 2026-11-24 第三輪：公開頁快照有程式表列、整頁卻沒有市場段落 → 擋（scripts/sync_license_tables.py 的 add_section 補段落）
+    _fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    if a is None and e.get("rows") and not re.search(r"^noindex:\s*true", _fm, re.M):
+        errs.append("公開頁有 PNF 品項紀錄卻沒有「## Philippines Market Information」段落（跑 python3 scripts/sync_license_tables.py）")
     if a is not None:
         sec = lines[a:b]
         for t in _tables(sec):

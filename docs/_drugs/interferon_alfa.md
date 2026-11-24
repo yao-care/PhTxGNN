@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Interferon alfa"
 predicted_indications: ["heart disease", "Jeune syndrome situs inversus", "orofacial clefting syndrome", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 7", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "interventricular septum aneurysm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Interferon Alfa: predicted new indication heart disease (evidence level L5). In the Philippines: 1 PNF entry"
 ---
 
@@ -84,6 +84,18 @@ None of these publications tests interferon alfa as a treatment for heart diseas
 | [30527170](https://pubmed.ncbi.nlm.nih.gov/30527170/) | 2018 | Case report | Can J Cardiol | Treatment of Erdheim-Chester disease with coronary artery involvement. |
 | [7524218](https://pubmed.ncbi.nlm.nih.gov/7524218/) | 1994 | Case report | Transplant Proc | Interferon alfa-2b and immunoglobulin for post-transplant lymphoproliferative disease after heart transplantation. |
 | [29508628](https://pubmed.ncbi.nlm.nih.gov/29508628/) | 2018 | Review | Clin Toxicol | Drug-associated pulmonary arterial hypertension. |
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Interferon Alfa 2B (human) | Injection |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

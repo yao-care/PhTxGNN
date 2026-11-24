@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 1
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoconazole: predicted new indication acne (disease) (evidence level L4). In the Philippines: 1 PNF entry"
 ---
 
@@ -87,6 +87,18 @@ The very high TxGNN score is a computational prediction and does not replace cli
 | [8629828](https://pubmed.ncbi.nlm.nih.gov/8629828/) | 1996 | Case report | Archives of Dermatology | Neonatal papulopustular eruptions (often called neonatal acne) associated with *Malassezia furfur* infection |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Ketoconazole | Cream, Shampoo |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). In the Philippines: 2 PNF entries"
 ---
 
@@ -87,6 +87,19 @@ The publications retrieved are mostly general reviews of B vitamins. None direct
 | [13199008](https://pubmed.ncbi.nlm.nih.gov/13199008/) | 1954 | Animal study | Biologica Latina | Combined biotin and folic acid deficiency induced in rats on a purified diet |
 
 ---
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Folic Acid | Oral |
+| Ferrous Salt + Folic Acid | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

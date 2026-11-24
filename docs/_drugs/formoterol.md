@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). In the Philippines: 3 PNF entries"
 ---
 
@@ -77,6 +77,20 @@ None of the retrieved publications directly studies respiratory malformation. Th
 | [20528601](https://pubmed.ncbi.nlm.nih.gov/20528601/) | 2010 | Review | J Asthma | Budesonide/formoterol pressurized inhaler in persistent asthma |
 | [35034195](https://pubmed.ncbi.nlm.nih.gov/35034195/) | 2022 | Physiology study | Eur J Appl Physiol | Compensatory responses to increased mechanical load in COPD during sleep |
 | [37691104](https://pubmed.ncbi.nlm.nih.gov/37691104/) | 2023 | Case report | J Med Case Rep | Small airway disease in a patient with long COVID |
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Formoterol | Inhalation, Inhalation (DPI) |
+| Budesonide + Formoterol | Inhalation, Inhalation (DPI), Inhalation (MDI) |
+| Fluticasone (as propionate) + Formoterol (as fumarate dihydrate) | Inhalation, Inhalation (MDI) |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

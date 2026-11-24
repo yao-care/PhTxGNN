@@ -560,3 +560,10 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   （10-31～11-06 已把矛盾句刪成查核紀錄）；另寫的寬偵測全量掃到 127 句，其餘是交互作用筆數、作用機轉節錄、證據包說明等非品項張數。單方／複方說法逐句對證據包 kind：沒有寫錯的（losartan「used … as a single-ingredient product」PNF 另有 losartan＋HCTZ 複方，句子沒說全部單方，不改）。
 - 查核紀錄說明不寫死張數（用戶同日決定）：`reviews_from_edits.py` 的 figures 樣板改成「The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries.」；
   既有 449 筆紀錄 note 裡的「The PNF lists N entries for this drug, N current; …」同 id 重發成同一句（前版存 history，reason 註明），更正的事實內容不變；頁面 274 頁查核框與 Review Log 跟著改（日期顯示 2026-11-24），last_modified_at 不動（只改查核框）。
+
+## 缺市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落、證據包卻有許可證紀錄的，
+`scripts/sync_license_tables.py` 的 `add_section` 在安全性段之前（沒有就結論、查核紀錄、免責聲明段之前）補「## Philippines Market Information」與程式表；noindex 頁、證據包沒有紀錄的頁不補。
+gate（licenses.py 的 page_problems 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」（本站 license_adapter 沒有 sync_tables／PAGE_NOTE，每週排程不重排程式表，不用放行）。
+2026-11-24 全量量測 12 頁（ampicillin、atorvastatin、azathioprine、cetirizine、docetaxel、epirubicin、folic_acid、formoterol、interferon_alfa、itraconazole、ketoconazole、selegiline），補上；正文沒有跟新表矛盾的句子，沒有新查核紀錄。gate 的 _own 原本把號碼格裡的括號當說明拿掉，認不得 PNF 品項名「Interferon Alfa 2B (human)」，一併修。checker 前後都是 0、gate exit 0。

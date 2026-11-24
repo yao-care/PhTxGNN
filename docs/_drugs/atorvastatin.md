@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In the Philippines: 1 PNF entry"
 ---
 
@@ -91,6 +91,18 @@ Evidence that atorvastatin has a real antiviral or immune benefit, as distinct f
 | [29770749](https://pubmed.ncbi.nlm.nih.gov/29770749/) | 2018 | Cohort | HIV Clin Trials | Rosuvastatin and atorvastatin preserved renal function in HIV patients with chronic kidney disease and hyperlipidaemia |
 | [36549898](https://pubmed.ncbi.nlm.nih.gov/36549898/) | 2023 | Pharmacokinetic analysis | HIV Med | Atorvastatin exposure and vitamin D levels vs lipid outcomes in people with HIV |
 | [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Preclinical | JCI Insight | In mice, atorvastatin suppressed HIV/antiretroviral-induced cardiac fibrosis by blocking platelet TGF-β1 signalling |
+
+## Philippines Market Information
+
+<!-- licenses:begin -->
+
+| PNF entry (active ingredient) | Routes in the PNF |
+|------|------|
+| Atorvastatin calcium | Oral |
+
+Source: Philippine National Formulary (PNF) Essential Medicines List, 8th Edition (as of 2 November 2022). PNF entries are formulary listings, not FDA Philippines registrations; FDA Philippines registration status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

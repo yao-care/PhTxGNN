@@ -192,8 +192,35 @@ def process(text, recs, partial=False, log=None):
             lines = lines[:x] + wrap(block_for(recs)) + [""] + rest + lines[b:]
             if lines[x - 1].strip():
                 lines.insert(x, "")
+    else:
+        t3 = add_section("\n".join(lines), recs)
+        if t3:
+            lines = t3.split("\n")
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## Philippines Market Information」段落、但證據包有 PNF 品項的，
+# 補一個段落放程式表。位置：「## Cytotoxicity」之前（本站固定順序：市場段落在細胞毒性、安全性之前）；沒有就
+# 「## Safety Considerations」「## Conclusion and Next Steps」「## Review Log」「## Disclaimer」之前。noindex 頁與證據包沒有紀錄的頁不補。
+ADD_BEFORE = ("Cytotoxicity", "Safety Considerations", "Conclusion and Next Steps", "Review Log", "Disclaimer")
+
+
+def is_public(text):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    return not re.search(r"^noindex:\s*true", fm, re.M)
+
+
+def add_section(text, recs):
+    if not table_rows(recs) or not is_public(text):
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [SEC, ""] + wrap(block_for(recs)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def run(only=None, dry=False, log_path=None):
