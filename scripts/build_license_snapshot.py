@@ -14,7 +14,9 @@
 
 什麼時候跑：證據包或事實層變了之後（每週許可證排程與依成分重建都會在改頁後自動跑，並把 snapshots/ 跟 docs/ 一起 commit）。
 用法（repo 根目錄，先還原 data/ 並在工作目錄跑 dump_license_facts）：
-  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS]
+  python3 scripts/build_license_snapshot.py --ws <工作目錄> [--release-tag data-YYYYMMDD-HHMMSS] [--no-rewrite]
+  寫完快照會先跑 scripts/sync_license_tables.py（依證據包重排程式許可證表；沒有 data/bundles 的頁略過），
+  再跑 scripts/rewrite_license_counts.py（正文 PNF 品項張數依新快照改寫）；不給 --ws 時不重建快照，只跑這兩支（2026-11-24）。
 """
 import datetime as dt
 import gzip
@@ -95,8 +97,19 @@ if __name__ == "__main__":
     _dl_p = _lf_os.path.join(_dl_root, "tools", "txgnn", ".claude", "drug_meta_description.py")
     _lf_ax.register(lambda: "--check" in _lf_sys.argv or not _lf_os.path.exists(_dl_p) or _lf_chk(_lf_sp.run([_lf_sys.executable, _dl_p, "--apply", "--root", _dl_root]), "drug_meta_description.py --apply"))
     a = sys.argv[1:]
-    ws = a[a.index("--ws") + 1]
     tag = a[a.index("--release-tag") + 1] if "--release-tag" in a else ""
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
-    build(ws, tag)
+    if "--ws" in a:
+        build(a[a.index("--ws") + 1], tag)
+    else:  # 2026-11-24：不給 --ws（沒有事實層）時不重建快照，只依現有快照重排程式表、改寫正文張數
+        print("沒有 --ws：不重建快照，只重排程式許可證表、依現有快照改寫正文張數")
+    # 2026-11-24（用戶決定「正文張數自動改寫」）：快照換了，先重排程式許可證表（sync_license_tables.py，本站 2026-11-06 起已有），
+    # 再依新快照改寫正文 PNF 品項張數（--no-rewrite 不跑）。母目錄每週排程在 checker 前就會跑這支，改到的正文行只能是張數句。
+    if "--no-rewrite" not in a:
+        import subprocess
+        for _s in ("sync_license_tables.py", "rewrite_license_counts.py"):
+            _r = subprocess.run([sys.executable, str(ROOT / "scripts" / _s)])
+            if _r.returncode:
+                print(f"  ✗ scripts/{_s} 失敗（exit {_r.returncode}）", file=sys.stderr)
+                sys.exit(1)

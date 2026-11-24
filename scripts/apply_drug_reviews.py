@@ -435,6 +435,15 @@ def run(check=False, only=None, touch_date=False):
             changed.append(fname)
             if not check:
                 path.write_text(touch(new) if touch_date else new, encoding="utf-8")
+    if not check:
+        # 2026-11-24（用戶決定「正文張數自動改寫」）：正文的 PNF 品項張數依快照事實層改寫（scripts/rewrite_license_counts.py）；
+        # 全頁，不只有紀錄的頁。sync_notes_to_docs.py 整頁重寫、license_rebuild_run.py 都會跑到這裡。
+        # 本站程式許可證表已在 2026-11-06 起由 scripts/sync_license_tables.py 產生（依證據包，license_rebuild_run.py／build_license_snapshot.py 會重排）。
+        import importlib.util as _ilu
+        _spec = _ilu.spec_from_file_location("rewrite_license_counts", Path(__file__).resolve().parent / "rewrite_license_counts.py")
+        _m = _ilu.module_from_spec(_spec)
+        _spec.loader.exec_module(_m)
+        changed += [f for f in _m.run(only=only, touch_date=touch_date)[0] if f not in changed]
     return problems, changed
 
 

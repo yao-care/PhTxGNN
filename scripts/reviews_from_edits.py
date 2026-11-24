@@ -224,9 +224,8 @@ def classify(rm):
 def figures(fc):
     if not fc or fc.get("total") is None:
         return ""
-    t, v = fc["total"], fc.get("valid") or 0
-    return (f" The PNF lists {t} {'entry' if t == 1 else 'entries'} for this drug, {v} current; "
-            "the Quick Overview and the table under Philippines Market Information show the current figures.")
+    # 2026-11-24（用戶決定）：說明不寫死張數（張數由程式維護在概覽表與市場段落的程式表，寫在紀錄裡會過期）
+    return " The Quick Overview and the PNF entry table under Philippines Market Information show the current number of PNF entries."
 
 
 def note_for(kind, date, fc):
