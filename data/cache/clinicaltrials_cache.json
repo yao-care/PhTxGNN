@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-27T07:20:16.008460",
+  "last_check": "2026-11-27T20:51:32.901057",
   "seen_trials": {
     "Acetaminophen": [
       "NCT05039619",
@@ -2405,6 +2405,9 @@
     ],
     "Fosfomycin": [
       "NCT07928063"
+    ],
+    "Nepafenac": [
+      "NCT07962981"
     ]
   }
 }
